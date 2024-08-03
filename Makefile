@@ -39,6 +39,8 @@ MAP_TYPE := map
 
 SOURCE_TYPE := asm
 INT_TYPE := o
+RAW_1BPP_SRC_TYPE := 1bpp.png
+1BPP_TYPE := 1bpp
 
 # Directories
 #BASE_DIR := $(realpath $(dir $(realpath $(lastword $(MAKEFILE_LIST)))))
@@ -47,6 +49,14 @@ BUILD_DIR := $(BASE_DIR)/build
 GAME_DIR := $(BASE_DIR)/game
 SRC_DIR := $(GAME_DIR)/src
 COMMON_DIR := $(SRC_DIR)/common
+SCRIPT_DIR := $(BASE_DIR)/scripts
+GFX_SRC_DIR := $(SRC_DIR)/gfx
+GFX_DIR := $(BASE_DIR)/gfx
+TILESET_GFX_DIR := $(GFX_DIR)/tilesets
+
+## Output Directories
+GFX_OUT_DIR := $(BUILD_DIR)/gfx
+TILESET_OUT_DIR := $(GFX_OUT_DIR)/tilesets
 
 # Inputs and outputs
 ORIGINAL_ROM := $(BASE_DIR)/$(ORIGINAL_PREFIX).$(ROM_TYPE)
@@ -57,15 +67,18 @@ TARGET_MAP := $(BASE_DIR)/$(OUTPUT_PREFIX).$(MAP_TYPE)
 # Source Modules (directories in SRC_DIR)
 MODULES := \
 core\
+gfx\
 
 OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(INT_TYPE), $(notdir $(basename $(wildcard $(SRC_DIR)/$(MODULE)/*.$(SOURCE_TYPE)))))))
 COMMON_SRC := $(wildcard $(COMMON)/*.$(SOURCE_TYPE))
+TILESETS_1BPP_IMAGE_FILES := $(notdir $(basename $(wildcard $(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE))))
 
-# Intermediates for common sources
+# Intermediates
 OBJECTS := $(foreach OBJECT,$(OBJNAMES), $(addprefix $(BUILD_DIR)/,$(OBJECT)))
+TILESET_1BPP_FILES := $(foreach FILE,$(TILESETS_1BPP_IMAGE_FILES),$(TILESET_OUT_DIR)/$(basename $(FILE)).$(1BPP_TYPE))
 
 # Additional dependencies, per module granularity (i.e. core) or per file granularity (e.g. core_main_ADDITIONAL)
-## None, currently
+gfx_tilesets_data_ADDITIONAL := $(TILESET_1BPP_FILES)
 
 .PHONY: default clean
 default: $(TARGET_ROM)
@@ -85,6 +98,26 @@ $(BASE_DIR)/$(OUTPUT_PREFIX).$(ROM_TYPE): $(OBJECTS) | $(ORIGINAL_ROM)
 $(BUILD_DIR)/%.$(INT_TYPE): $(SRC_DIR)/$$(firstword $$(subst ., ,$$*))/$$(lastword $$(subst ., ,$$*)).$(SOURCE_TYPE) $(COMMON_SRC) $$(wildcard $(SRC_DIR)/$$(firstword $$(subst ., ,$$*))/include/*.$(SOURCE_TYPE)) $$($$(firstword $$(subst ., ,$$*))_ADDITIONAL) $$($$(firstword $$(subst ., ,$$*))_$$(lastword $$(subst ., ,$$*))_ADDITIONAL) | $$(patsubst $$(pc)/,$$(pc),$$(dir $$@))
 	$(CC) $(CC_ARGS) -o $@ $<
 
+# build/tilesets/*.1bpp from source png
+$(TILESET_OUT_DIR)/%.$(1BPP_TYPE): $(TILESET_GFX_DIR)/%.$(RAW_1BPP_SRC_TYPE) | $(TILESET_OUT_DIR)
+	$(CCGFX) $(CCGFX_ARGS) -d 1 -o $@ $<
+
+# Dumping
+.PHONY: dump dump_tilesets
+dump: dump_tilesets
+
+dump_tilesets: | $(TILESET_GFX_DIR)
+	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_2BPP_SRC_TYPE)) || echo ""
+	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE)) || echo ""
+	$(PYTHON) $(SCRIPT_DIR)/dump_tilesets.py "$(ORIGINAL_ROM)" "$(GFX_SRC_DIR)" "$(TILESET_GFX_DIR)" "$(TILESET_OUT_DIR)"
+
+
 #Make directories if necessary
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
+
+$(TILESET_GFX_DIR):
+	mkdir -p $(TILESET_GFX_DIR)
+
+$(TILESET_OUT_DIR):
+	mkdir -p $(TILESET_OUT_DIR)
