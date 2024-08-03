@@ -20,9 +20,9 @@ tileset_information = (
     ["Font1", (0x8, 0x4000), "1bpp", 0x800, False],
     ["Font2", (0x9, 0x4000), "1bpp", 0x800, False],
     ["Font3", (0xA, 0x4000), "1bpp", 0x800, False],
-    ["DoubleWidthFont1", (0x6, 0x4110), "1bpp", 0x210, False],
-    ["DoubleWidthFont2", (0x6, 0x6000), "1bpp", 0x400, False],
-    ["DoubleWidthFont3", (0x7, 0x4000), "1bpp", 0x5d6, False]
+    ["DoubleHeightFont1", (0x6, 0x4110), "1bpp", 0x210, False],
+    ["DoubleHeightFont2", (0x6, 0x6000), "1bpp", 0x400, False],
+    ["DoubleHeightFont3", (0x7, 0x4000), "1bpp", 0x5d6, False]
 )
 
 gfx_src_filename = os.path.join(gfx_src_path, "tilesets_data.asm")

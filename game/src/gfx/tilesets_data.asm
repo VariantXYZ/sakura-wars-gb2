@@ -15,18 +15,18 @@ TilesetFont3::
   INCBIN "./build/gfx/tilesets/Font3.1bpp"
 SECTION "Tileset Font3 End", ROMX[$7FFF], BANK[$0A]
 
-SECTION "Tileset DoubleWidthFont1", ROMX[$4110], BANK[$06]
-TilesetDoubleWidthFont1::
-  INCBIN "./build/gfx/tilesets/DoubleWidthFont1.1bpp"
-SECTION "Tileset DoubleWidthFont1 End", ROMX[$518F], BANK[$06]
+SECTION "Tileset DoubleHeightFont1", ROMX[$4110], BANK[$06]
+TilesetDoubleHeightFont1::
+  INCBIN "./build/gfx/tilesets/DoubleHeightFont1.1bpp"
+SECTION "Tileset DoubleHeightFont1 End", ROMX[$518F], BANK[$06]
 
-SECTION "Tileset DoubleWidthFont2", ROMX[$6000], BANK[$06]
-TilesetDoubleWidthFont2::
-  INCBIN "./build/gfx/tilesets/DoubleWidthFont2.1bpp"
-SECTION "Tileset DoubleWidthFont2 End", ROMX[$7FFF], BANK[$06]
+SECTION "Tileset DoubleHeightFont2", ROMX[$6000], BANK[$06]
+TilesetDoubleHeightFont2::
+  INCBIN "./build/gfx/tilesets/DoubleHeightFont2.1bpp"
+SECTION "Tileset DoubleHeightFont2 End", ROMX[$7FFF], BANK[$06]
 
-SECTION "Tileset DoubleWidthFont3", ROMX[$4000], BANK[$07]
-TilesetDoubleWidthFont3::
-  INCBIN "./build/gfx/tilesets/DoubleWidthFont3.1bpp"
-SECTION "Tileset DoubleWidthFont3 End", ROMX[$6EAF], BANK[$07]
+SECTION "Tileset DoubleHeightFont3", ROMX[$4000], BANK[$07]
+TilesetDoubleHeightFont3::
+  INCBIN "./build/gfx/tilesets/DoubleHeightFont3.1bpp"
+SECTION "Tileset DoubleHeightFont3 End", ROMX[$6EAF], BANK[$07]
 
