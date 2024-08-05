@@ -53,6 +53,7 @@ SCRIPT_DIR := $(BASE_DIR)/scripts
 GFX_SRC_DIR := $(SRC_DIR)/gfx
 GFX_DIR := $(BASE_DIR)/gfx
 TILESET_GFX_DIR := $(GFX_DIR)/tilesets
+GAME_EVENT_SRC_DIR := $(SRC_DIR)/cutscene
 
 ## Output Directories
 GFX_OUT_DIR := $(BUILD_DIR)/gfx
@@ -68,6 +69,7 @@ TARGET_MAP := $(BASE_DIR)/$(OUTPUT_PREFIX).$(MAP_TYPE)
 MODULES := \
 core\
 gfx\
+cutscene\
 
 OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(INT_TYPE), $(notdir $(basename $(wildcard $(SRC_DIR)/$(MODULE)/*.$(SOURCE_TYPE)))))))
 COMMON_SRC := $(wildcard $(COMMON)/*.$(SOURCE_TYPE))
@@ -103,14 +105,16 @@ $(TILESET_OUT_DIR)/%.$(1BPP_TYPE): $(TILESET_GFX_DIR)/%.$(RAW_1BPP_SRC_TYPE) | $
 	$(CCGFX) $(CCGFX_ARGS) -d 1 -o $@ $<
 
 # Dumping
-.PHONY: dump dump_tilesets
-dump: dump_tilesets
+.PHONY: dump dump_tilesets dump_cutscene_scripts
+dump: dump_tilesets dump_cutscene_scripts
 
 dump_tilesets: | $(TILESET_GFX_DIR)
-	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_2BPP_SRC_TYPE)) || echo ""
 	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_tilesets.py "$(ORIGINAL_ROM)" "$(GFX_SRC_DIR)" "$(TILESET_GFX_DIR)" "$(TILESET_OUT_DIR)"
 
+dump_cutscene_scripts:
+	rm $(call ESCAPE,$(GAME_EVENT_SRC_DIR)/cutscene_script_*.$(SOURCE_TYPE)) || echo ""
+	$(PYTHON) $(SCRIPT_DIR)/dump_cutscene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)"
 
 #Make directories if necessary
 $(BUILD_DIR):

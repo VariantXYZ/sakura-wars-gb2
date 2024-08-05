@@ -1,7 +1,6 @@
 #!/bin/python
 import os
 import sys
-from collections import OrderedDict
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
 from common import utils, gfx
