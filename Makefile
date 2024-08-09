@@ -53,7 +53,7 @@ SCRIPT_DIR := $(BASE_DIR)/scripts
 GFX_SRC_DIR := $(SRC_DIR)/gfx
 GFX_DIR := $(BASE_DIR)/gfx
 TILESET_GFX_DIR := $(GFX_DIR)/tilesets
-GAME_EVENT_SRC_DIR := $(SRC_DIR)/event
+GAME_EVENT_SRC_DIR := $(SRC_DIR)/cutscene
 
 ## Output Directories
 GFX_OUT_DIR := $(BUILD_DIR)/gfx
@@ -69,8 +69,7 @@ TARGET_MAP := $(BASE_DIR)/$(OUTPUT_PREFIX).$(MAP_TYPE)
 MODULES := \
 core\
 gfx\
-event\
-event/cutscenes\
+cutscene\
 
 OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(INT_TYPE), $(notdir $(basename $(wildcard $(SRC_DIR)/$(MODULE)/*.$(SOURCE_TYPE)))))))
 COMMON_SRC := $(wildcard $(COMMON)/*.$(SOURCE_TYPE))
