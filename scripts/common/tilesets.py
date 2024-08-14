@@ -23,6 +23,6 @@ def get_tileset(tileset_name, index = -1, override_offset = -1):
 
     tbl = utils.read_list(f'scripts/res/tilesets/{tileset_name}.lst', base_offset)
     # If not explicitly defined, '0' generally refers to 'space'
-    if 0 not in tbl:
+    if 0 not in tbl and ' ' not in tbl.values():
         tbl[0] = ' '
     return tbl
