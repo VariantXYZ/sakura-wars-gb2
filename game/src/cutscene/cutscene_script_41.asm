@@ -10,15 +10,15 @@ CutsceneScript41_0::
   Unknown0E $0D
   Unknown12 $04
   Unknown02
-  WriteText "わたくしは<br>はなぐみの トップスタア<br>かんざき すみれですわ。<br>",$00
+  WriteText "わたくしは<BR>はなぐみの トップスタア<BR>かんざき すみれですわ。<BR>",$00
   PromptContinue
-  WriteText "わたくしのとくぎは<br>かんざきふうじんりゅうの<br>なぎなたじゅつ ですの。<br>",$00
+  WriteText "わたくしのとくぎは<BR>かんざきふうじんりゅうの<BR>なぎなたじゅつ ですの。<BR>",$00
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "いちどに たくさんのてきを<br>ゆうがに なぎはらう。<br>これが わたくしのびがく。<br>",$00
+  WriteText "いちどに たくさんのてきを<BR>ゆうがに なぎはらう。<BR>これが わたくしのびがく。<BR>",$00
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "まぁ あなたも わたくしの<br>じゃまにならないよう<br>しっかり おやりなさいな。<br>",$00
+  WriteText "まぁ あなたも わたくしの<BR>じゃまにならないよう<BR>しっかり おやりなさいな。<BR>",$00
   PromptContinue
   End
   End

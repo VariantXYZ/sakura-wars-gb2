@@ -13,31 +13,31 @@ CutsceneScript5D_0::
   Unknown07 $4C,$01,$02,$04,$01,$01,$20,$00
   Unknown09 $3C
   SetPortrait $05,$20,$10
-  WriteText "おっ! ",$08,"はん。<br>ちょうどよかった さがしてる<br>とこ やったんや。<br>",$00
+  WriteText "おっ! <NAME>はん。<BR>ちょうどよかった さがしてる<BR>とこ やったんや。<BR>",$00
   PromptContinue
-  WriteText "さっきミカサで ウチの<br>ししょうに おしえてもろた<br>",$00
+  WriteText "さっきミカサで ウチの<BR>ししょうに おしえてもろた<BR>",$00
   Unknown05 $84,$4D,$01,$01
   End
-  WriteText $01,$07,"デカうで",$01,$08,"っちゅーやつ‥‥<br>",$00
+  WriteText CHARACTER_EXT_07,"デカうで",CHARACTER_EXT_08,"っちゅーやつ‥‥<BR>",$00
   PromptContinue
-  WriteText "さっそく つくってみたんや。<br>",$00
+  WriteText "さっそく つくってみたんや。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "えっ!?<br>もうできたんですか!?<br>",$00
+  WriteText "えっ!?<BR>もうできたんですか!?<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "まあな～。<br>つくりかたさえ わかれば<br>ちょちょいの ちょいや。<br>",$00
+  WriteText "まあな～。<BR>つくりかたさえ わかれば<BR>ちょちょいの ちょいや。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "ほな かくのうこに<br>いれといたさかい<br>じゆうに つかってや～。<br>",$00
+  WriteText "ほな かくのうこに<BR>いれといたさかい<BR>じゆうに つかってや～。<BR>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Unknown09 $78
   SetPortrait $05,$20,$10
-  WriteText "あ そうそう",$01,$07,"デカうで",$01,$08,"は<br>ぶきやけど ちょくせつ<br>ボディに つけるもんやから‥<br>",$00
+  WriteText "あ そうそう",CHARACTER_EXT_07,"デカうで",CHARACTER_EXT_08,"は<BR>ぶきやけど ちょくせつ<BR>ボディに つけるもんやから‥<BR>",$00
   PromptContinue
-  WriteText $01,$07,"こうぶかいぞう",$01,$08,"で<br>そうびするんやで。<br>ほなな～。<br>",$00
+  WriteText CHARACTER_EXT_07,"こうぶかいぞう",CHARACTER_EXT_08,"で<BR>そうびするんやで。<BR>ほなな～。<BR>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
@@ -45,31 +45,31 @@ CutsceneScript5D_0::
   End
   Unknown09 $3C
   SetPortrait $05,$20,$10
-  WriteText "おっ! ",$08,"はん。<br>ちょうどよかった さがしてる<br>とこ やったんや。<br>",$00
+  WriteText "おっ! <NAME>はん。<BR>ちょうどよかった さがしてる<BR>とこ やったんや。<BR>",$00
   PromptContinue
-  WriteText "さっきミカサで ウチの<br>ししょうに おしえてもろた<br>",$00
+  WriteText "さっきミカサで ウチの<BR>ししょうに おしえてもろた<BR>",$00
   Unknown05 $84,$4D,$01,$01
   End
-  WriteText $01,$07,"デカうで",$01,$08,"っちゅーやつ‥‥<br>",$00
+  WriteText CHARACTER_EXT_07,"デカうで",CHARACTER_EXT_08,"っちゅーやつ‥‥<BR>",$00
   PromptContinue
-  WriteText "さっそく つくってみたんや。<br>",$00
+  WriteText "さっそく つくってみたんや。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "えっ!?<br>もうできたんですか!?<br>",$00
+  WriteText "えっ!?<BR>もうできたんですか!?<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "まあな～。<br>つくりかたさえ わかれば<br>ちょちょいの ちょいや。<br>",$00
+  WriteText "まあな～。<BR>つくりかたさえ わかれば<BR>ちょちょいの ちょいや。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "ほな かくのうこに<br>いれといたさかい<br>じゆうに つかってや～。<br>",$00
+  WriteText "ほな かくのうこに<BR>いれといたさかい<BR>じゆうに つかってや～。<BR>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Unknown09 $78
   SetPortrait $05,$20,$10
-  WriteText "あ そうそう",$01,$07,"デカうで",$01,$08,"は<br>ぶきやけど ちょくせつ<br>ボディに つけるもんやから‥<br>",$00
+  WriteText "あ そうそう",CHARACTER_EXT_07,"デカうで",CHARACTER_EXT_08,"は<BR>ぶきやけど ちょくせつ<BR>ボディに つけるもんやから‥<BR>",$00
   PromptContinue
-  WriteText $01,$07,"こうぶかいぞう",$01,$08,"で<br>そうびするんやで。<br>ほなな～。<br>",$00
+  WriteText CHARACTER_EXT_07,"こうぶかいぞう",CHARACTER_EXT_08,"で<BR>そうびするんやで。<BR>ほなな～。<BR>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01

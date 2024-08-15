@@ -11,33 +11,33 @@ CutsceneScript50_0::
   Unknown12 $05
   Unknown02
   Unknown07 $C4,$02,$02,$04,$01,$01,$20,$00
-  WriteText "おかえり ",$08,"はん。<br>",$00
+  WriteText "おかえり <NAME>はん。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "こうらんさん。<br>",$00
+  WriteText "こうらんさん。<BR>",$00
   PromptContinue
-  WriteText "メカのてんさい<br>こうらんさんに おりいって<br>おねがいが あるのですが‥‥<br>",$00
+  WriteText "メカのてんさい<BR>こうらんさんに おりいって<BR>おねがいが あるのですが‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$24,$14
-  WriteText "なんや なんや。<br>そないに いわれると<br>てれるやんか。<br>",$00
+  WriteText "なんや なんや。<BR>そないに いわれると<BR>てれるやんか。<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "まあ ",$08,"はんの<br>たのみやったら できることは<br>なんでも やったるで。<br>",$00
+  WriteText "まあ <NAME>はんの<BR>たのみやったら できることは<BR>なんでも やったるで。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じつは‥‥ミカサのきょだい<br>ファンのせいで さきに<br>すすめないんですよ。<br>",$00
+  WriteText "じつは‥‥ミカサのきょだい<BR>ファンのせいで さきに<BR>すすめないんですよ。<BR>",$00
   PromptContinue
-  WriteText "それでですね こうぶに<br>キャタピラを そうびすれば<br>つよいかぜのなかでも<br>",$00
+  WriteText "それでですね こうぶに<BR>キャタピラを そうびすれば<BR>つよいかぜのなかでも<BR>",$00
   PromptContinue
-  WriteText "すすむことが できるんじゃ<br>ないかと おもったんですが<br>どうでしょう?<br>",$00
+  WriteText "すすむことが できるんじゃ<BR>ないかと おもったんですが<BR>どうでしょう?<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "‥‥‥‥ふむ‥‥なるほど。<br>キャタピラか‥‥<br>おもしろいやん。<br>",$00
+  WriteText "‥‥‥‥ふむ‥‥なるほど。<BR>キャタピラか‥‥<BR>おもしろいやん。<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "よっしゃ!<br>まかしとき!<br>",$00
+  WriteText "よっしゃ!<BR>まかしとき!<BR>",$00
   PromptContinue
-  WriteText "ウチが ちゃちゃっと<br>つくったるわ。<br>ちょっと まっときや。<br>",$00
+  WriteText "ウチが ちゃちゃっと<BR>つくったるわ。<BR>ちょっと まっときや。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
   Unknown0D $00,$00
@@ -45,56 +45,56 @@ CutsceneScript50_0::
   Unknown09 $78
   Unknown0E $1A
   SetPortrait $05,$21,$11
-  WriteText "よっしゃ!<br>できたで ",$08,"はん!!<br>",$00
+  WriteText "よっしゃ!<BR>できたで <NAME>はん!!<BR>",$00
   PromptContinue
-  WriteText "キャタピラそうびの<br>こうぶ‥‥なづけて<br>",$01,$07,"こうぶ・タンク",$01,$08,"や!!<br>",$00
+  WriteText "キャタピラそうびの<BR>こうぶ‥‥なづけて<BR>",CHARACTER_EXT_07,"こうぶ・タンク",CHARACTER_EXT_08,"や!!<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "エエッ!!<br>こんなに はやく!?<br>",$00
+  WriteText "エエッ!!<BR>こんなに はやく!?<BR>",$00
   PromptContinue
-  WriteText "スゴイですね。<br>さすがは こうらんさん。<br>ありがとうございました。<br>",$00
-  PromptContinue
-  SetPortrait $05,$25,$15
-  WriteText "ウチにかかったら<br>こんなもん おちゃのこ<br>さいさいや!!<br>",$00
-  PromptContinue
-  SetPortrait $05,$20,$10
-  WriteText "ちなみに",$01,$07,"こうぶ・タンク",$01,$08,"は<br>かぜに とばされないだけや<br>なくて‥‥<br>",$00
+  WriteText "スゴイですね。<BR>さすがは こうらんさん。<BR>ありがとうございました。<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "ぼうぎょせいのうも ふつうの<br>ボディより たかいんや!<br>",$00
+  WriteText "ウチにかかったら<BR>こんなもん おちゃのこ<BR>さいさいや!!<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "ただし じゃっかん<br>すばやさは おちるけどな。<br>",$00
+  WriteText "ちなみに",CHARACTER_EXT_07,"こうぶ・タンク",CHARACTER_EXT_08,"は<BR>かぜに とばされないだけや<BR>なくて‥‥<BR>",$00
   PromptContinue
-  WriteText "まあ じょうきょうや<br>そうびによって つかいわける<br>ことやな。<br>",$00
+  SetPortrait $05,$25,$15
+  WriteText "ぼうぎょせいのうも ふつうの<BR>ボディより たかいんや!<BR>",$00
   PromptContinue
-  WriteText "ほな。<br>がんばりや～。<br>",$00
+  SetPortrait $05,$20,$10
+  WriteText "ただし じゃっかん<BR>すばやさは おちるけどな。<BR>",$00
+  PromptContinue
+  WriteText "まあ じょうきょうや<BR>そうびによって つかいわける<BR>ことやな。<BR>",$00
+  PromptContinue
+  WriteText "ほな。<BR>がんばりや～。<BR>",$00
   PromptContinue
   End
-  WriteText "おかえり ",$08,"はん。<br>",$00
+  WriteText "おかえり <NAME>はん。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "こうらんさん。<br>",$00
+  WriteText "こうらんさん。<BR>",$00
   PromptContinue
-  WriteText "すみませんが<br>こうらんさんに おりいって<br>おねがいが あるのですが‥‥<br>",$00
+  WriteText "すみませんが<BR>こうらんさんに おりいって<BR>おねがいが あるのですが‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$21,$11
-  WriteText $08,"はんの<br>たのみやったら できることは<br>なんでも やったるで。<br>",$00
+  WriteText "<NAME>はんの<BR>たのみやったら できることは<BR>なんでも やったるで。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じつは‥‥ミカサのきょだい<br>ファンのせいで さきに<br>すすめないんです。<br>",$00
+  WriteText "じつは‥‥ミカサのきょだい<BR>ファンのせいで さきに<BR>すすめないんです。<BR>",$00
   PromptContinue
-  WriteText "それでですね こうぶに<br>キャタピラを そうびすれば<br>つよいかぜのなかでも<br>",$00
+  WriteText "それでですね こうぶに<BR>キャタピラを そうびすれば<BR>つよいかぜのなかでも<BR>",$00
   PromptContinue
-  WriteText "すすむことが できるんじゃ<br>ないかと おもったのですが<br>どうでしょうか?<br>",$00
+  WriteText "すすむことが できるんじゃ<BR>ないかと おもったのですが<BR>どうでしょうか?<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "ふむ‥‥なるほど。<br>キャタピラか‥‥<br>おもしろいやん。<br>",$00
+  WriteText "ふむ‥‥なるほど。<BR>キャタピラか‥‥<BR>おもしろいやん。<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "よっしゃ!<br>まかしとき!<br>",$00
+  WriteText "よっしゃ!<BR>まかしとき!<BR>",$00
   PromptContinue
-  WriteText "ウチが ちゃちゃっと<br>つくったるわ。<br>ちょっと まっときや。<br>",$00
+  WriteText "ウチが ちゃちゃっと<BR>つくったるわ。<BR>ちょっと まっときや。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
   Unknown0D $00,$00
@@ -102,30 +102,30 @@ CutsceneScript50_0::
   Unknown09 $78
   Unknown0E $1A
   SetPortrait $05,$21,$11
-  WriteText "よっしゃ!<br>できたで ",$08,"はん!!<br>",$00
+  WriteText "よっしゃ!<BR>できたで <NAME>はん!!<BR>",$00
   PromptContinue
-  WriteText "キャタピラそうびの<br>こうぶ‥‥なづけて<br>",$01,$07,"こうぶ・タンク",$01,$08,"や!!<br>",$00
+  WriteText "キャタピラそうびの<BR>こうぶ‥‥なづけて<BR>",CHARACTER_EXT_07,"こうぶ・タンク",CHARACTER_EXT_08,"や!!<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "エエッ!!<br>こんなに はやく!?<br>",$00
+  WriteText "エエッ!!<BR>こんなに はやく!?<BR>",$00
   PromptContinue
-  WriteText "スゴイですね。<br>さすがは こうらんさん。<br>ありがとうございました。<br>",$00
-  PromptContinue
-  SetPortrait $05,$25,$15
-  WriteText "ウチにかかったら<br>こんなもん おちゃのこ<br>さいさいや!!<br>",$00
-  PromptContinue
-  SetPortrait $05,$20,$10
-  WriteText "ちなみに",$01,$07,"こうぶ・タンク",$01,$08,"は<br>かぜに とばされないだけや<br>なくて‥‥<br>",$00
+  WriteText "スゴイですね。<BR>さすがは こうらんさん。<BR>ありがとうございました。<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "ぼうぎょせいのうも ふつうの<br>ボディより たかいんや!<br>",$00
+  WriteText "ウチにかかったら<BR>こんなもん おちゃのこ<BR>さいさいや!!<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "ただし じゃっかん<br>すばやさは おちるけどな。<br>",$00
+  WriteText "ちなみに",CHARACTER_EXT_07,"こうぶ・タンク",CHARACTER_EXT_08,"は<BR>かぜに とばされないだけや<BR>なくて‥‥<BR>",$00
   PromptContinue
-  WriteText "まあ じょうきょうや<br>そうびによって つかいわける<br>ことやな。<br>",$00
+  SetPortrait $05,$25,$15
+  WriteText "ぼうぎょせいのうも ふつうの<BR>ボディより たかいんや!<BR>",$00
   PromptContinue
-  WriteText "ほな。<br>がんばりや～。<br>",$00
+  SetPortrait $05,$20,$10
+  WriteText "ただし じゃっかん<BR>すばやさは おちるけどな。<BR>",$00
+  PromptContinue
+  WriteText "まあ じょうきょうや<BR>そうびによって つかいわける<BR>ことやな。<BR>",$00
+  PromptContinue
+  WriteText "ほな。<BR>がんばりや～。<BR>",$00
   PromptContinue
   End
   End

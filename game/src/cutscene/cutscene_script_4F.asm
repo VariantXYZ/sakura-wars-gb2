@@ -11,34 +11,34 @@ CutsceneScript4F_0::
   Unknown12 $16
   Unknown02
   Unknown07 $B9,$00,$02,$04,$01,$01,$20,$00
-  WriteText $08,"くん<br>おつかれさま。<br>",$00
+  WriteText "<NAME>くん<BR>おつかれさま。<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "ゆっくりやすんで<br>ちょうだい‥‥と<br>いいたいところ だけど‥‥<br>",$00
+  WriteText "ゆっくりやすんで<BR>ちょうだい‥‥と<BR>いいたいところ だけど‥‥<BR>",$00
   PromptContinue
-  WriteText "れんらくが とれなくなった<br>カンナとアイリスが<br>しんぱいだわ。<br>",$00
+  WriteText "れんらくが とれなくなった<BR>カンナとアイリスが<BR>しんぱいだわ。<BR>",$00
   PromptContinue
-  WriteText "いっこくもはやく<br>ふたりを みつけて<br>ちょうだい。<br>",$00
+  WriteText "いっこくもはやく<BR>ふたりを みつけて<BR>ちょうだい。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "それまで ほかのエリアの<br>たんさくは ちゅうしよ。<br>",$00
+  WriteText "それまで ほかのエリアの<BR>たんさくは ちゅうしよ。<BR>",$00
   PromptContinue
-  WriteText "わかったわね<br>",$08,"くん。<br>",$00
+  WriteText "わかったわね<BR><NAME>くん。<BR>",$00
   PromptContinue
   End
-  WriteText $08," おつかれさま。<br>",$00
+  WriteText "<NAME> おつかれさま。<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "ゆっくりやすんで<br>ちょうだい‥‥と<br>いいたいところ だけど‥‥<br>",$00
+  WriteText "ゆっくりやすんで<BR>ちょうだい‥‥と<BR>いいたいところ だけど‥‥<BR>",$00
   PromptContinue
-  WriteText "れんらくが とれなくなった<br>カンナとアイリスが<br>しんぱいだわ。<br>",$00
+  WriteText "れんらくが とれなくなった<BR>カンナとアイリスが<BR>しんぱいだわ。<BR>",$00
   PromptContinue
-  WriteText "いっこくもはやく<br>ふたりを みつけて<br>ちょうだい。<br>",$00
+  WriteText "いっこくもはやく<BR>ふたりを みつけて<BR>ちょうだい。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "それまで ほかのエリアの<br>たんさくは ちゅうしよ。<br>",$00
+  WriteText "それまで ほかのエリアの<BR>たんさくは ちゅうしよ。<BR>",$00
   PromptContinue
-  WriteText "わかったわね ",$08,"。<br>",$00
+  WriteText "わかったわね <NAME>。<BR>",$00
   PromptContinue
   End
   End

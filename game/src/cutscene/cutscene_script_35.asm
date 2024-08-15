@@ -11,40 +11,40 @@ CutsceneScript35_0::
   Unknown12 $17
   Unknown02
   Unknown07 $05,$04,$02,$04,$01,$01,$20,$00
-  WriteText "さっきみつけた<br>ショパンのがくふ‥‥<br>",$00
+  WriteText "さっきみつけた<BR>ショパンのがくふ‥‥<BR>",$00
   Unknown05 $84,$A0,$01,$00
   End
-  WriteText "どうしようかな‥‥<br>",$00
+  WriteText "どうしようかな‥‥<BR>",$00
   PromptContinue
-  WriteText "とりあえず おりひめさんの<br>ところへ もっていくか。<br>",$00
+  WriteText "とりあえず おりひめさんの<BR>ところへ もっていくか。<BR>",$00
   PromptContinue
   Unknown1E $1F
-  WriteText "おりひめさん。<br>ちょっといいですか?<br>",$00
+  WriteText "おりひめさん。<BR>ちょっといいですか?<BR>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "あら ",$08,"さん<br>どうしたですか?<br>",$00
+  WriteText "あら <NAME>さん<BR>どうしたですか?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "こんなものを みつけたの<br>ですが‥‥<br>おりひめさんのですか?<br>",$00
+  WriteText "こんなものを みつけたの<BR>ですが‥‥<BR>おりひめさんのですか?<BR>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "ショパンのがくふ?<br>それは わたしのでーす。<br>",$00
+  WriteText "ショパンのがくふ?<BR>それは わたしのでーす。<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "わざわざ どーもです。<br>",$08,"さん。<br>",$00
+  WriteText "わざわざ どーもです。<BR><NAME>さん。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "おりひめさん ピアノ<br>ひけるんですか?<br>",$00
+  WriteText "おりひめさん ピアノ<BR>ひけるんですか?<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "イエース。<br>わたし ピアノ<br>だいすきでーす。<br>",$00
+  WriteText "イエース。<BR>わたし ピアノ<BR>だいすきでーす。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ボクも おんがくは<br>すきですよ。<br>",$00
+  WriteText "ボクも おんがくは<BR>すきですよ。<BR>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText $08,"さんは どんな<br>おんがくを ききますか?<br>",$00
+  WriteText "<NAME>さんは どんな<BR>おんがくを ききますか?<BR>",$00
   PromptContinue
   OptionSelectTimed $04,$03,$B0,$EB,$B8,$C4,$B0,$00,$00,$56,$A1,$59,$00,$01,$EF,$C4,$B0,$00,$02
   Unknown07 $88,$01,$02,$01,$01,$00,$20,$00
@@ -52,95 +52,95 @@ CutsceneScript35_0::
   Unknown07 $E3,$02,$02,$01,$01,$02,$20,$00
   Unknown06 $6B,$03
   Unknown0F $00,$01
-  WriteText "クラシックを<br>よく ききます。<br>",$00
+  WriteText "クラシックを<BR>よく ききます。<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$08,$28,$00
-  WriteText $08,"さん ワンダフル!<br>クラシックを きいている<br>なんて グーッドでーす。<br>",$00
+  WriteText "<NAME>さん ワンダフル!<BR>クラシックを きいている<BR>なんて グーッドでーす。<BR>",$00
   PromptContinue
-  WriteText "おんがくは クラシックが<br>イチバンでーす!<br>",$00
+  WriteText "おんがくは クラシックが<BR>イチバンでーす!<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。チャオ",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。チャオ",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "じつは えんかが<br>すき なんですよ。<br>",$00
+  WriteText "じつは えんかが<BR>すき なんですよ。<BR>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "Oh! ジャパニーズソウル<br>ソングでーすね。<br>",$00
+  WriteText "Oh! ジャパニーズソウル<BR>ソングでーすね。<BR>",$00
   PromptContinue
-  WriteText "くろうして うみをみて<br>なみだながして がまんして<br>ドこんじょう。<br>",$00
+  WriteText "くろうして うみをみて<BR>なみだながして がまんして<BR>ドこんじょう。<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "ユキげしきなんかも<br>アリでーすね。<br>",$00
+  WriteText "ユキげしきなんかも<BR>アリでーすね。<BR>",$00
   PromptContinue
   Unknown1A $40,$97,$03,$97,$01,$04,$28,$00
-  WriteText "わたしも たまにききまーす。<br>",$08,"さん なかなか<br>しぶいシュミしてますね。<br>",$00
+  WriteText "わたしも たまにききまーす。<BR><NAME>さん なかなか<BR>しぶいシュミしてますね。<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。<br>",$00
+  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "ロックを よくききますよ。<br>",$00
+  WriteText "ロックを よくききますよ。<BR>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "Oh! いかにも わかもの<br>らしいでーすね。<br>",$00
+  WriteText "Oh! いかにも わかもの<BR>らしいでーすね。<BR>",$00
   PromptContinue
-  WriteText "ロック ロックで<br>フィーバー フィーバー。<br>",$00
+  WriteText "ロック ロックで<BR>フィーバー フィーバー。<BR>",$00
   PromptContinue
-  WriteText "でも わたしは あまり<br>きかないのでーす。<br>",$00
+  WriteText "でも わたしは あまり<BR>きかないのでーす。<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。<br>",$00
+  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥とくに<br>こだわって きいているものは<br>ないです。<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥とくに<BR>こだわって きいているものは<BR>ないです。<BR>",$00
   PromptContinue
   SetPortrait $07,$07,$07
-  WriteText "そうなんですか?<br>",$00
+  WriteText "そうなんですか?<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "じゃあ これからは<br>クラシックを きいてみると<br>いいでーす。<br>",$00
+  WriteText "じゃあ これからは<BR>クラシックを きいてみると<BR>いいでーす。<BR>",$00
   PromptContinue
-  WriteText "おんがくは クラシックが<br>イチバンでーす!<br>",$00
+  WriteText "おんがくは クラシックが<BR>イチバンでーす!<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。<br>",$00
+  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>",$00
   PromptContinue
   End
-  WriteText "さっきみつけた<br>ショパンのがくふ‥‥<br>",$00
+  WriteText "さっきみつけた<BR>ショパンのがくふ‥‥<BR>",$00
   Unknown05 $84,$A0,$01,$00
   End
-  WriteText "どうしようかな‥‥<br>",$00
+  WriteText "どうしようかな‥‥<BR>",$00
   PromptContinue
-  WriteText "とりあえず<br>おりひめさんの ところへ<br>もっていきましょう。<br>",$00
+  WriteText "とりあえず<BR>おりひめさんの ところへ<BR>もっていきましょう。<BR>",$00
   PromptContinue
   Unknown1E $1F
-  WriteText "おりひめさん。<br>ちょっといいですか?<br>",$00
+  WriteText "おりひめさん。<BR>ちょっといいですか?<BR>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "あら ",$08,"さん<br>どうしたですか?<br>",$00
+  WriteText "あら <NAME>さん<BR>どうしたですか?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "こんなものを みつけたの<br>ですが‥‥<br>おりひめさんのですか?<br>",$00
+  WriteText "こんなものを みつけたの<BR>ですが‥‥<BR>おりひめさんのですか?<BR>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "ショパンのがくふ?<br>それは わたしのでーす。<br>",$00
+  WriteText "ショパンのがくふ?<BR>それは わたしのでーす。<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "わざわざ どーもです。<br>",$08,"さん。<br>",$00
+  WriteText "わざわざ どーもです。<BR><NAME>さん。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "おりひめさん ピアノ<br>ひくんですね。<br>",$00
+  WriteText "おりひめさん ピアノ<BR>ひくんですね。<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "イエース。<br>わたし ピアノ<br>だいすきでーす。<br>",$00
+  WriteText "イエース。<BR>わたし ピアノ<BR>だいすきでーす。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "わたしも おんがくは<br>すきですよ。<br>",$00
+  WriteText "わたしも おんがくは<BR>すきですよ。<BR>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText $08,"さんは どんな<br>おんがくを ききまーすか?<br>",$00
+  WriteText "<NAME>さんは どんな<BR>おんがくを ききまーすか?<BR>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$B0,$EB,$B8,$C4,$B0,$00,$00,$B9,$E5,$BB,$00,$01,$8D,$A1,$96,$54,$00,$02
   Unknown07 $81,$05,$02,$01,$01,$00,$20,$00
@@ -148,62 +148,62 @@ CutsceneScript35_0::
   Unknown07 $B3,$06,$02,$01,$01,$02,$20,$00
   Unknown06 $B0,$07
   Unknown0F $00,$01
-  WriteText "クラシックが<br>すきなんですよ。<br>",$00
+  WriteText "クラシックが<BR>すきなんですよ。<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$08,$28,$00
-  WriteText $08,"さん ワンダフル!<br>クラシックを きいて<br>いるなんて グーッドでーす。<br>",$00
+  WriteText "<NAME>さん ワンダフル!<BR>クラシックを きいて<BR>いるなんて グーッドでーす。<BR>",$00
   PromptContinue
-  WriteText "おんがくは クラシックが<br>イチバンでーす!<br>",$00
+  WriteText "おんがくは クラシックが<BR>イチバンでーす!<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。チャオ",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。チャオ",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "ジャズを よくききますよ。<br>",$00
+  WriteText "ジャズを よくききますよ。<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "ジャズ いいでーす。<br>わたしも すきでーす。<br>",$00
+  WriteText "ジャズ いいでーす。<BR>わたしも すきでーす。<BR>",$00
   PromptContinue
-  WriteText "ラグタイム スイング モダン<br>からだを ゆさぶるリズムが<br>ここちいいでーす。<br>",$00
+  WriteText "ラグタイム スイング モダン<BR>からだを ゆさぶるリズムが<BR>ここちいいでーす。<BR>",$00
   PromptContinue
-  WriteText $08,"さん なかなか<br>いいシュミしてますね。<br>",$00
+  WriteText "<NAME>さん なかなか<BR>いいシュミしてますね。<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでーす。<br>",$00
+  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでーす。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "みんようを ききます。<br>しゃみせんとか さんしんが<br>すきなんです。<br>",$00
+  WriteText "みんようを ききます。<BR>しゃみせんとか さんしんが<BR>すきなんです。<BR>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "さんしん‥‥ カンナさんの<br>こきょう オキナワの<br>げんがっきでーすね。<br>",$00
+  WriteText "さんしん‥‥ カンナさんの<BR>こきょう オキナワの<BR>げんがっきでーすね。<BR>",$00
   PromptContinue
-  WriteText "いいですね～。<br>つがるのしゃみせんは<br>ソウルを ゆさぶられます。<br>",$00
+  WriteText "いいですね～。<BR>つがるのしゃみせんは<BR>ソウルを ゆさぶられます。<BR>",$00
   PromptContinue
-  WriteText "オキナワの さんしんのリズム<br>には からだが<br>つきうごかされまーす。<br>",$00
+  WriteText "オキナワの さんしんのリズム<BR>には からだが<BR>つきうごかされまーす。<BR>",$00
   PromptContinue
-  WriteText "どっちも きもちのいい<br>がっきでーす。<br>",$00
+  WriteText "どっちも きもちのいい<BR>がっきでーす。<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText $08,"さん なかなか<br>いいシュミしてますね。<br>",$00
+  WriteText "<NAME>さん なかなか<BR>いいシュミしてますね。<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。<br>",$00
+  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥とくに<br>こだわって きいているものは<br>ないんですよ。<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥とくに<BR>こだわって きいているものは<BR>ないんですよ。<BR>",$00
   PromptContinue
   SetPortrait $07,$07,$07
-  WriteText "そうなんですか?<br>",$00
+  WriteText "そうなんですか?<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "じゃあ これからは<br>クラシックを きいてみると<br>いいでーす。<br>",$00
+  WriteText "じゃあ これからは<BR>クラシックを きいてみると<BR>いいでーす。<BR>",$00
   PromptContinue
-  WriteText "おんがくは クラシックが<br>イチバンでーす!<br>",$00
+  WriteText "おんがくは クラシックが<BR>イチバンでーす!<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。<br>",$00
+  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>",$00
   PromptContinue
   End
   End

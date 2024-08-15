@@ -11,50 +11,50 @@ CutsceneScript30_0::
   Unknown12 $17
   Unknown02
   Unknown07 $3A,$04,$02,$04,$01,$01,$20,$00
-  WriteText "ミカサのなかで ひろった<br>この まるいメガネ‥‥<br>",$00
+  WriteText "ミカサのなかで ひろった<BR>この まるいメガネ‥‥<BR>",$00
   Unknown05 $84,$6E,$01,$00
   End
-  WriteText "きっと こうらんさんのだな。<br>",$00
+  WriteText "きっと こうらんさんのだな。<BR>",$00
   PromptContinue
-  WriteText "こうらんさんの ところへ<br>もっていこう。<br>",$00
+  WriteText "こうらんさんの ところへ<BR>もっていこう。<BR>",$00
   PromptContinue
   Unknown1E $0F
-  WriteText "こうらんさん。<br>しつれいします。<br>",$00
+  WriteText "こうらんさん。<BR>しつれいします。<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText $08,"はん。<br>どないしたんや?<br>",$00
+  WriteText "<NAME>はん。<BR>どないしたんや?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ ひろったんですが<br>こうらんさんのですか?<br>",$00
+  WriteText "これ ひろったんですが<BR>こうらんさんのですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "まるいメガネ?<br>",$00
+  WriteText "まるいメガネ?<BR>",$00
   PromptContinue
-  WriteText "ああ それは ウチのや。<br>",$00
+  WriteText "ああ それは ウチのや。<BR>",$00
   PromptContinue
   SetPortrait $05,$01,$01
   Unknown1A $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "わざわざ とどけてくれて<br>ありがとう ",$08,"はん。<br>",$00
+  WriteText "わざわざ とどけてくれて<BR>ありがとう <NAME>はん。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "こうらんさんって<br>おなじメガネを いくつも<br>もっているんですか?<br>",$00
+  WriteText "こうらんさんって<BR>おなじメガネを いくつも<BR>もっているんですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "そうや。<br>はつめいしてて ばくはつ<br>することもあるし<br>",$00
+  WriteText "そうや。<BR>はつめいしてて ばくはつ<BR>することもあるし<BR>",$00
   PromptContinue
-  WriteText "あと たたかってるときも<br>けっこう こわれるし<br>それと あれやな‥‥<br>",$00
+  WriteText "あと たたかってるときも<BR>けっこう こわれるし<BR>それと あれやな‥‥<BR>",$00
   PromptContinue
-  WriteText "あたまのうえに メガネが<br>あるのに ついうっかり<br>さがしてしもたり するしな。<br>",$00
+  WriteText "あたまのうえに メガネが<BR>あるのに ついうっかり<BR>さがしてしもたり するしな。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あー あの「メガネ メガネ」<br>っていう やつですね。<br>",$00
+  WriteText "あー あの「メガネ メガネ」<BR>っていう やつですね。<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "そや。<br>そやから スペアはけっこう<br>もってるで。<br>",$00
+  WriteText "そや。<BR>そやから スペアはけっこう<BR>もってるで。<BR>",$00
   PromptContinue
-  WriteText "いくつくらい<br>もってるとおもう?<br>カンでええから いうてみ。<br>",$00
+  WriteText "いくつくらい<BR>もってるとおもう?<BR>カンでええから いうてみ。<BR>",$00
   PromptContinue
-  WriteText "ヒントは 3ケタのきすうや。<br>さあ わかるかな～?<br>",$00
+  WriteText "ヒントは 3ケタのきすうや。<BR>さあ わかるかな～?<BR>",$00
   PromptContinue
   OptionSelectTimed $03,$03,$12,$11,$12,$61,$00,$00,$12,$11,$12,$12,$61,$00,$01,$12,$11,$13,$61,$00,$02
   Unknown07 $3A,$02,$02,$01,$01,$00,$20,$00
@@ -62,106 +62,106 @@ CutsceneScript30_0::
   Unknown07 $47,$03,$02,$01,$01,$02,$20,$00
   Unknown06 $CA,$03
   Unknown0F $00,$01
-  WriteText "101こ じゃないですか?<br>",$00
+  WriteText "101こ じゃないですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$05,$05
   Unknown1A $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "ピンポン! ピンポン!<br>おおあたりやーーー!!<br>",$00
+  WriteText "ピンポン! ピンポン!<BR>おおあたりやーーー!!<BR>",$00
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "まえから もってたんが<br>100こ。それに この1こを<br>くわえて 101こなんや。<br>",$00
+  WriteText "まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>",$00
   PromptContinue
-  WriteText "ほな ",$08,"はん<br>わざわざ とどけてくれて<br>ありがとな。<br>",$00
+  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "1011こ じゃないですか?<br>",$00
+  WriteText "1011こ じゃないですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$06,$06
-  WriteText "ブブー。<br>ハズレや。<br>1011は 4ケタやないか。<br>",$00
+  WriteText "ブブー。<BR>ハズレや。<BR>1011は 4ケタやないか。<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "3ケタのきすう‥‥<br>すなわち101こや。<br>",$00
+  WriteText "3ケタのきすう‥‥<BR>すなわち101こや。<BR>",$00
   PromptContinue
-  WriteText "ざんねんやったな。<br>",$00
+  WriteText "ざんねんやったな。<BR>",$00
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな ",$08,"はん<br>わざわざ とどけてくれて<br>ありがとな。<br>",$00
+  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "102こ ですか?<br>",$00
+  WriteText "102こ ですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$06,$06
-  WriteText "ブブー。<br>ハズレや。<br>102やったら ぐうすうや!<br>",$00
+  WriteText "ブブー。<BR>ハズレや。<BR>102やったら ぐうすうや!<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "3ケタのきすう‥‥<br>すなわち101こが<br>せいかいや!<br>",$00
+  WriteText "3ケタのきすう‥‥<BR>すなわち101こが<BR>せいかいや!<BR>",$00
   PromptContinue
-  WriteText "ざんねんやったな。<br>",$00
+  WriteText "ざんねんやったな。<BR>",$00
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな ",$08,"はん<br>わざわざ とどけてくれて<br>ありがとな。<br>",$00
+  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "ブブー。<br>じかんぎれでーす。<br>",$00
+  WriteText "ブブー。<BR>じかんぎれでーす。<BR>",$00
   PromptContinue
-  WriteText "せいかいは 101こや。<br>ま わからんでも<br>しょうがないな。<br>",$00
+  WriteText "せいかいは 101こや。<BR>ま わからんでも<BR>しょうがないな。<BR>",$00
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな ",$08,"はん<br>わざわざ とどけてくれて<br>ありがとな。<br>",$00
+  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>",$00
   PromptContinue
   End
-  WriteText "ミカサのなかで ひろった<br>この まるいメガネ‥‥<br>",$00
+  WriteText "ミカサのなかで ひろった<BR>この まるいメガネ‥‥<BR>",$00
   Unknown05 $84,$6E,$01,$00
   End
-  WriteText "きっと こうらんさんのね。<br>",$00
+  WriteText "きっと こうらんさんのね。<BR>",$00
   PromptContinue
-  WriteText "こうらんさんの ところへ<br>もっていきましょう。<br>",$00
+  WriteText "こうらんさんの ところへ<BR>もっていきましょう。<BR>",$00
   PromptContinue
   Unknown1E $0F
-  WriteText "こうらんさん。<br>しつれいします。<br>",$00
+  WriteText "こうらんさん。<BR>しつれいします。<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText $08,"はん。<br>どないしたんや?<br>",$00
+  WriteText "<NAME>はん。<BR>どないしたんや?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ ひろったんですが<br>こうらんさんのですか?<br>",$00
+  WriteText "これ ひろったんですが<BR>こうらんさんのですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "まるいメガネ?<br>",$00
+  WriteText "まるいメガネ?<BR>",$00
   PromptContinue
-  WriteText "ああ それは ウチのや。<br>",$00
+  WriteText "ああ それは ウチのや。<BR>",$00
   PromptContinue
   SetPortrait $05,$01,$01
   Unknown1A $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "わざわざ とどけてくれて<br>ありがとう ",$08,"はん。<br>",$00
+  WriteText "わざわざ とどけてくれて<BR>ありがとう <NAME>はん。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "こうらんさんって<br>おなじメガネを いくつも<br>もっているんですか?<br>",$00
+  WriteText "こうらんさんって<BR>おなじメガネを いくつも<BR>もっているんですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "そうや。<br>はつめいしてて ばくはつ<br>することもあるし<br>",$00
+  WriteText "そうや。<BR>はつめいしてて ばくはつ<BR>することもあるし<BR>",$00
   PromptContinue
-  WriteText "あと たたかってるときも<br>けっこう こわれるし<br>それと あれやな‥‥<br>",$00
+  WriteText "あと たたかってるときも<BR>けっこう こわれるし<BR>それと あれやな‥‥<BR>",$00
   PromptContinue
-  WriteText "あたまのうえに メガネが<br>あるのに ついうっかり<br>さがしてしもたり するしな。<br>",$00
+  WriteText "あたまのうえに メガネが<BR>あるのに ついうっかり<BR>さがしてしもたり するしな。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あー あの「メガネ メガネ」<br>っていう やつですね。<br>",$00
+  WriteText "あー あの「メガネ メガネ」<BR>っていう やつですね。<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "そや。<br>そやから スペアはけっこう<br>もってるで。<br>",$00
+  WriteText "そや。<BR>そやから スペアはけっこう<BR>もってるで。<BR>",$00
   PromptContinue
-  WriteText "いくつくらい もってると<br>おもう。<br>",$00
+  WriteText "いくつくらい もってると<BR>おもう。<BR>",$00
   PromptContinue
-  WriteText "カンでエエから<br>いうてみ?<br>",$00
+  WriteText "カンでエエから<BR>いうてみ?<BR>",$00
   PromptContinue
-  WriteText "ヒントは 3ケタのきすうや。<br>さあ わかるかな～?<br>",$00
+  WriteText "ヒントは 3ケタのきすうや。<BR>さあ わかるかな～?<BR>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$12,$11,$12,$61,$00,$00,$12,$12,$61,$00,$01,$12,$11,$11,$12,$61,$00,$02
   Unknown07 $68,$06,$02,$01,$01,$00,$20,$00
@@ -169,60 +169,60 @@ CutsceneScript30_0::
   Unknown07 $9E,$07,$02,$01,$01,$02,$20,$00
   Unknown06 $3B,$08
   Unknown0F $00,$01
-  WriteText "101こ じゃないですか?<br>",$00
+  WriteText "101こ じゃないですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$05,$05
   Unknown1A $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "ピンポン! ピンポン!<br>おおあたりやーーー!!<br>",$00
+  WriteText "ピンポン! ピンポン!<BR>おおあたりやーーー!!<BR>",$00
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "まえから もってたんが<br>100こ。それに この1こを<br>くわえて 101こなんや。<br>",$00
+  WriteText "まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>",$00
   PromptContinue
-  WriteText "ほな ",$08,"はん<br>わざわざ とどけてくれて<br>ありがとな。<br>",$00
+  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "11こ じゃないですか?<br>",$00
+  WriteText "11こ じゃないですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "ブブー。<br>ハズレや。<br>",$00
+  WriteText "ブブー。<BR>ハズレや。<BR>",$00
   PromptContinue
-  WriteText "11こくらいやったら<br>じっけんで こわれて<br>すぐに なくなってまうわ。<br>",$00
+  WriteText "11こくらいやったら<BR>じっけんで こわれて<BR>すぐに なくなってまうわ。<BR>",$00
   PromptContinue
-  WriteText "せいかいは 101こや。<br>",$00
+  WriteText "せいかいは 101こや。<BR>",$00
   PromptContinue
-  WriteText "まえから もってたんが<br>100こ。それに この1こを<br>くわえて 101こなんや。<br>",$00
+  WriteText "まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>",$00
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな ",$08,"はん<br>わざわざ とどけてくれて<br>ありがとな。<br>",$00
+  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "1001こ ですか?<br>",$00
+  WriteText "1001こ ですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "ブブー。<br>ハズレです。<br>",$00
+  WriteText "ブブー。<BR>ハズレです。<BR>",$00
   PromptContinue
-  WriteText "いくらなんでも<br>1001こも<br>もってへんで。<br>",$00
+  WriteText "いくらなんでも<BR>1001こも<BR>もってへんで。<BR>",$00
   PromptContinue
-  WriteText "せいかいは 101こや。<br>",$00
+  WriteText "せいかいは 101こや。<BR>",$00
   PromptContinue
-  WriteText "まえから もってたんが<br>100こ。それに この1こを<br>くわえて 101こなんや。<br>",$00
+  WriteText "まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>",$00
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな ",$08,"はん<br>わざわざ とどけてくれて<br>ありがとな。<br>",$00
+  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "ブブー。<br>じかんぎれでーす。<br>",$00
+  WriteText "ブブー。<BR>じかんぎれでーす。<BR>",$00
   PromptContinue
-  WriteText "せいかいは 101こや。<br>ま わからんでも<br>しょうがないな。<br>",$00
+  WriteText "せいかいは 101こや。<BR>ま わからんでも<BR>しょうがないな。<BR>",$00
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな ",$08,"はん<br>わざわざ とどけてくれて<br>ありがとな。<br>",$00
+  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>",$00
   PromptContinue
   End
   End

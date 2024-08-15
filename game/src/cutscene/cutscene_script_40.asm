@@ -10,13 +10,13 @@ CutsceneScript40_0::
   Unknown0E $0C
   Unknown12 $04
   Unknown02
-  WriteText "こんにちは あたし<br>しんぐうじ さくら<br>といいます。<br>",$00
+  WriteText "こんにちは あたし<BR>しんぐうじ さくら<BR>といいます。<BR>",$00
   PromptContinue
-  WriteText "とくぎは けんじゅつで<br>かたなを つかった<br>せっきんせんが とくいです。<br>",$00
+  WriteText "とくぎは けんじゅつで<BR>かたなを つかった<BR>せっきんせんが とくいです。<BR>",$00
   PromptContinue
-  WriteText "こどものころからのとっくんで<br>いあいぎり には<br>すこし じしんがあるんです。<br>",$00
+  WriteText "こどものころからのとっくんで<BR>いあいぎり には<BR>すこし じしんがあるんです。<BR>",$00
   PromptContinue
-  WriteText "あたしも しんじんなので<br>いっしょに<br>がんばりましょうね。<br>",$00
+  WriteText "あたしも しんじんなので<BR>いっしょに<BR>がんばりましょうね。<BR>",$00
   PromptContinue
   End
   End

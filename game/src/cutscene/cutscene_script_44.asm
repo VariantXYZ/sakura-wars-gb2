@@ -10,14 +10,14 @@ CutsceneScript44_0::
   Unknown0E $0F
   Unknown12 $04
   Unknown02
-  WriteText "ウチは り こうらん。<br>とくぎは きかいいじりと<br>はつめいなんや!<br>",$00
+  WriteText "ウチは り こうらん。<BR>とくぎは きかいいじりと<BR>はつめいなんや!<BR>",$00
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "せんとうのときには<br>ウチがつくった じまんの<br>チビロボを みせたるわ!<br>",$00
+  WriteText "せんとうのときには<BR>ウチがつくった じまんの<BR>チビロボを みせたるわ!<BR>",$00
   PromptContinue
-  WriteText "あんさんの こうぶも<br>ウチが かいぞうしたるから<br>いつでも こえかけてな!<br>",$00
+  WriteText "あんさんの こうぶも<BR>ウチが かいぞうしたるから<BR>いつでも こえかけてな!<BR>",$00
   PromptContinue
-  WriteText "ほな よろしゅう<br>たのみまっせ。<br>",$00
+  WriteText "ほな よろしゅう<BR>たのみまっせ。<BR>",$00
   PromptContinue
   End
   End

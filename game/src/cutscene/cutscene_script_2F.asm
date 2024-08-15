@@ -11,34 +11,34 @@ CutsceneScript2F_0::
   Unknown12 $17
   Unknown02
   Unknown07 $CC,$03,$02,$04,$01,$01,$20,$00
-  WriteText "ミカサのなかで ひろった<br>この かわいいウキワ‥‥<br>",$00
+  WriteText "ミカサのなかで ひろった<BR>この かわいいウキワ‥‥<BR>",$00
   Unknown05 $84,$58,$01,$00
   End
-  WriteText "だれのかな～?<br>",$00
+  WriteText "だれのかな～?<BR>",$00
   PromptContinue
-  WriteText "アイリスのところへいって<br>きいてみよう。<br>",$00
+  WriteText "アイリスのところへいって<BR>きいてみよう。<BR>",$00
   PromptContinue
   Unknown1E $10
-  WriteText "アイリス。<br>ちょっといいかい?<br>",$00
+  WriteText "アイリス。<BR>ちょっといいかい?<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $08," どうしたの?<br>",$00
+  WriteText "<NAME> どうしたの?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ ひろったんだけど<br>だれのかしってる?<br>",$00
+  WriteText "これ ひろったんだけど<BR>だれのかしってる?<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "えっ? ウキワ?<br>",$00
+  WriteText "えっ? ウキワ?<BR>",$00
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText "あっ!<br>はくちょうさんのウキワだ!<br>これ アイリスの!<br>",$00
+  WriteText "あっ!<BR>はくちょうさんのウキワだ!<BR>これ アイリスの!<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText "みつけてくれて ありがとう<br>",$08,"。<br>",$00
+  WriteText "みつけてくれて ありがとう<BR><NAME>。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "アイリスのだったのか。<br>ところで アイリス‥‥<br>",$00
+  WriteText "アイリスのだったのか。<BR>ところで アイリス‥‥<BR>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$A3,$A5,$EC,$BA,$71,$74,$10,$58,$96,$60,$78,$52,$7C,$F9,$00,$00,$59,$9D,$52,$52,$10,$A7,$AE,$F1,$6E,$7B,$00,$01,$BA,$C7,$AE,$78,$10,$8D,$68,$5C,$6E,$7B,$00,$02
   Unknown07 $52,$01,$02,$01,$01,$00,$20,$00
@@ -46,100 +46,100 @@ CutsceneScript2F_0::
   Unknown07 $5D,$02,$02,$01,$01,$02,$20,$00
   Unknown06 $0B,$03
   Unknown0F $00,$01
-  WriteText "アイリスって およげないの?<br>",$00
+  WriteText "アイリスって およげないの?<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "アイリスおよげるよ。<br>",$00
+  WriteText "アイリスおよげるよ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "エッ! だってウキワが‥‥<br>",$00
+  WriteText "エッ! だってウキワが‥‥<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "アイリス ウキワをつかって<br>ちゃんと およげるよ。<br>",$00
+  WriteText "アイリス ウキワをつかって<BR>ちゃんと およげるよ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "そ‥‥<br>そうなんだ‥‥‥‥<br>",$00
+  WriteText "そ‥‥<BR>そうなんだ‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "それじゃ ",$08,"<br>ウキワを みつけてくれて<br>ありがとう!<br>",$00
+  WriteText "それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "そのウキワ かわいいね。<br>",$00
+  WriteText "そのウキワ かわいいね。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText "エヘヘ いいでしょー。<br>アイリスの おきにいり<br>だったんだー。<br>",$00
+  WriteText "エヘヘ いいでしょー。<BR>アイリスの おきにいり<BR>だったんだー。<BR>",$00
   PromptContinue
-  WriteText "こんど いっしょに<br>およごうね ",$08,"。<br>",$00
+  WriteText "こんど いっしょに<BR>およごうね <NAME>。<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"<br>ウキワを みつけてくれて<br>ありがとう!<br>",$00
+  WriteText "それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "そのてに もってるの<br>アイリスの あたらしい<br>みずぎかい?<br>",$00
+  WriteText "そのてに もってるの<BR>アイリスの あたらしい<BR>みずぎかい?<BR>",$00
   PromptContinue
-  WriteText "すごくステキなデザインだね。<br>アイリスに よくにあうと<br>おもうよ。<br>",$00
+  WriteText "すごくステキなデザインだね。<BR>アイリスに よくにあうと<BR>おもうよ。<BR>",$00
   PromptContinue
   SetPortrait $04,$05,$05
   Unknown1A $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText "エヘヘ‥‥<br>ホント? ",$08,"。<br>うれしいな～。<br>",$00
+  WriteText "エヘヘ‥‥<BR>ホント? <NAME>。<BR>うれしいな～。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "こんどいっしょに<br>うみに いこうよ。<br>ねっ ",$08,"。<br>",$00
+  WriteText "こんどいっしょに<BR>うみに いこうよ。<BR>ねっ <NAME>。<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"<br>ウキワを みつけてくれて<br>ありがとう!<br>",$00
+  WriteText "それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥そのウキワ<br>あなが あいてるよ。<br>",$00
+  WriteText "‥‥‥‥‥‥そのウキワ<BR>あなが あいてるよ。<BR>",$00
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText "エ～ ウッソー!!!<br>",$00
+  WriteText "エ～ ウッソー!!!<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "うそだよ～ん。<br>",$00
+  WriteText "うそだよ～ん。<BR>",$00
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText "あー もーーーっ!<br>ビックリしたじゃない!!<br>",$08,"!!!<br>",$00
+  WriteText "あー もーーーっ!<BR>ビックリしたじゃない!!<BR><NAME>!!!<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ごめん ごめん。<br>そして めんご めんご。<br>ゆるしてチョリソ!<br>",$00
+  WriteText "ごめん ごめん。<BR>そして めんご めんご。<BR>ゆるしてチョリソ!<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "もー ",$08,"ったら～。<br>しょうがないなぁ‥‥<br>",$00
+  WriteText "もー <NAME>ったら～。<BR>しょうがないなぁ‥‥<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"<br>ウキワを みつけてくれて<br>ありがとう!<br>",$00
+  WriteText "それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>",$00
   PromptContinue
   End
-  WriteText "ミカサのなかで ひろった<br>この かわいいウキワ‥‥<br>",$00
+  WriteText "ミカサのなかで ひろった<BR>この かわいいウキワ‥‥<BR>",$00
   Unknown05 $84,$58,$01,$00
   End
-  WriteText "だれのかしら?<br>",$00
+  WriteText "だれのかしら?<BR>",$00
   PromptContinue
-  WriteText "アイリスのところへいって<br>きいてみましょう。<br>",$00
+  WriteText "アイリスのところへいって<BR>きいてみましょう。<BR>",$00
   PromptContinue
   Unknown1E $10
-  WriteText "アイリス。<br>ちょっといい?<br>",$00
+  WriteText "アイリス。<BR>ちょっといい?<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $08," どうしたの?<br>",$00
+  WriteText "<NAME> どうしたの?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ ひろったんだけど<br>だれのかしってる?<br>",$00
+  WriteText "これ ひろったんだけど<BR>だれのかしってる?<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "えっ? ウキワ?<br>",$00
+  WriteText "えっ? ウキワ?<BR>",$00
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText "あっ!<br>はくちょうさんのウキワだ!<br>これ アイリスの!<br>",$00
+  WriteText "あっ!<BR>はくちょうさんのウキワだ!<BR>これ アイリスの!<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText "みつけてくれて ありがとう<br>",$08,"。<br>",$00
+  WriteText "みつけてくれて ありがとう<BR><NAME>。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "アイリスのだったのね。<br>ところで アイリス‥‥<br>",$00
+  WriteText "アイリスのだったのね。<BR>ところで アイリス‥‥<BR>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$A3,$A5,$EC,$BA,$71,$74,$10,$58,$96,$60,$99,$7C,$F9,$00,$00,$59,$9D,$52,$52,$10,$A7,$AE,$F1,$7B,$00,$01,$59,$9D,$52,$52,$10,$8D,$68,$5C,$7B,$00,$02
   Unknown07 $0A,$05,$02,$01,$01,$00,$20,$00
@@ -147,61 +147,61 @@ CutsceneScript2F_0::
   Unknown07 $03,$06,$02,$01,$01,$02,$20,$00
   Unknown06 $B6,$06
   Unknown0F $00,$01
-  WriteText "アイリスって およげるの?<br>",$00
+  WriteText "アイリスって およげるの?<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "うん! このウキワをつかえば<br>ずーっと およげるよ。<br>",$00
+  WriteText "うん! このウキワをつかえば<BR>ずーっと およげるよ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "へー<br>スゴイのね アイリスは。<br>",$00
+  WriteText "へー<BR>スゴイのね アイリスは。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText "エヘヘ。<br>",$00
+  WriteText "エヘヘ。<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"<br>ウキワを みつけてくれて<br>ありがとう!<br>",$00
+  WriteText "それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "そのウキワ かわいいわね。<br>",$00
+  WriteText "そのウキワ かわいいわね。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText "エヘヘ いいでしょー。<br>アイリスの おきにいり<br>だったんだー。<br>",$00
+  WriteText "エヘヘ いいでしょー。<BR>アイリスの おきにいり<BR>だったんだー。<BR>",$00
   PromptContinue
-  WriteText "こんど いっしょに<br>およごうよ ",$08,"。<br>",$00
+  WriteText "こんど いっしょに<BR>およごうよ <NAME>。<BR>",$00
   PromptContinue
-  WriteText "それじゃ ",$08,"<br>ウキワを みつけてくれて<br>ありがとう!<br>",$00
+  WriteText "それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "あっ! そのてに もってるの<br>アイリスの あたらしい<br>みずぎ?<br>",$00
+  WriteText "あっ! そのてに もってるの<BR>アイリスの あたらしい<BR>みずぎ?<BR>",$00
   PromptContinue
-  WriteText "すごく かわいいデザインね!<br>きっと アイリスに<br>にあうと おもうわ。<br>",$00
+  WriteText "すごく かわいいデザインね!<BR>きっと アイリスに<BR>にあうと おもうわ。<BR>",$00
   PromptContinue
   SetPortrait $04,$05,$05
   Unknown1A $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText "エヘヘ‥‥<br>ありがとう ",$08,"。<br>",$00
+  WriteText "エヘヘ‥‥<BR>ありがとう <NAME>。<BR>",$00
   PromptContinue
-  WriteText "パパがおくってくれたんだよ。<br>アイリスの おきにいり<br>なんだよ!<br>",$00
+  WriteText "パパがおくってくれたんだよ。<BR>アイリスの おきにいり<BR>なんだよ!<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "それじゃ ",$08,"<br>ウキワを みつけてくれて<br>ありがとう!<br>",$00
+  WriteText "それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥そのウキワ<br>あなが あいてるわよ。<br>",$00
+  WriteText "‥‥‥‥‥‥そのウキワ<BR>あなが あいてるわよ。<BR>",$00
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText "エ～ ウッソー!!!<br>",$00
+  WriteText "エ～ ウッソー!!!<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "だいじょうぶよ あとで<br>しゅうりして あげるから。<br>",$00
+  WriteText "だいじょうぶよ あとで<BR>しゅうりして あげるから。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "ホントに!?<br>ありがとう ",$08,"。<br>",$00
+  WriteText "ホントに!?<BR>ありがとう <NAME>。<BR>",$00
   PromptContinue
-  WriteText "じゃあ おねがいするね。<br>ウキワを みつけてくれて<br>ありがとう!<br>",$00
+  WriteText "じゃあ おねがいするね。<BR>ウキワを みつけてくれて<BR>ありがとう!<BR>",$00
   PromptContinue
   End
   End

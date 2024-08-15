@@ -19,62 +19,62 @@ CutsceneScript12_0::
   Unknown07 $BB,$00,$02,$05,$01,$07,$20,$00
   Unknown07 $32,$01,$02,$05,$01,$08,$20,$00
   SetPortrait $06,$11,$09
-  WriteText "よう ",$08,"!<br>ぶじ もどってきたな?<br>げんきそうで なによりだぜ。<br>",$00
+  WriteText "よう <NAME>!<BR>ぶじ もどってきたな?<BR>げんきそうで なによりだぜ。<BR>",$00
   PromptContinue
   Unknown06 $4A,$01
   SetPortrait $01,$11,$09
-  WriteText $08,"さん<br>おかえりなさい。<br>",$00
+  WriteText "<NAME>さん<BR>おかえりなさい。<BR>",$00
   PromptContinue
   Unknown06 $4A,$01
   SetPortrait $04,$11,$09
-  WriteText $08,"おかえり!!<br>ねぇ ねぇ<br>おもしろかったー?!<br>",$00
+  WriteText "<NAME>おかえり!!<BR>ねぇ ねぇ<BR>おもしろかったー?!<BR>",$00
   PromptContinue
   Unknown06 $4A,$01
   SetPortrait $07,$11,$0A
-  WriteText $08,"さん<br>おかえりでーす。<br>",$00
+  WriteText "<NAME>さん<BR>おかえりでーす。<BR>",$00
   PromptContinue
   Unknown06 $4A,$01
   SetPortrait $03,$10,$08
-  WriteText $08,"くん。<br>おつかれさま。<br>",$00
+  WriteText "<NAME>くん。<BR>おつかれさま。<BR>",$00
   PromptContinue
   Unknown06 $4A,$01
   SetPortrait $02,$10,$08
-  WriteText "あら どうやら ぶじに<br>もどってきた ようですわね<br>",$08,"さん。<br>",$00
+  WriteText "あら どうやら ぶじに<BR>もどってきた ようですわね<BR><NAME>さん。<BR>",$00
   PromptContinue
   Unknown06 $4A,$01
   SetPortrait $05,$10,$08
-  WriteText $08,"はん おかえり。<br>おつかれさんやったな。<br>",$00
+  WriteText "<NAME>はん おかえり。<BR>おつかれさんやったな。<BR>",$00
   PromptContinue
   Unknown06 $4A,$01
   SetPortrait $08,$10,$08
-  WriteText "‥‥‥‥にんむ<br>ごくろう。<br>",$00
+  WriteText "‥‥‥‥にんむ<BR>ごくろう。<BR>",$00
   PromptContinue
   Unknown06 $4A,$01
   SetPortrait $0C,$11,$01
-  WriteText "おかえりなさい<br>",$08,"さん。<br>",$00
+  WriteText "おかえりなさい<BR><NAME>さん。<BR>",$00
   PromptContinue
-  WriteText "つばきを たすけてくれて<br>ありがとうございました。<br>",$00
+  WriteText "つばきを たすけてくれて<BR>ありがとうございました。<BR>",$00
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText "おかえり! ",$08,"くん。<br>つばきのこと ありがとうね。<br>",$00
+  WriteText "おかえり! <NAME>くん。<BR>つばきのこと ありがとうね。<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "おかえりなさい。おおがみくん<br>",$08,"くん。<br>ごくろうだったわね。<br>",$00
+  WriteText "おかえりなさい。おおがみくん<BR><NAME>くん。<BR>ごくろうだったわね。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "さっそくだけど<br>ほうこくを おねがいするわ。<br>",$00
+  WriteText "さっそくだけど<BR>ほうこくを おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい ほうこくします。<br>",$00
+  WriteText "はい ほうこくします。<BR>",$00
   PromptContinue
-  WriteText "ミカサに まものがいました。<br>また なぜか まちのひとも<br>ミカサのなかに いました。<br>",$00
+  WriteText "ミカサに まものがいました。<BR>また なぜか まちのひとも<BR>ミカサのなかに いました。<BR>",$00
   PromptContinue
-  WriteText "やはり ミカサでは<br>なにか おこっていると<br>かんがえられます。<br>",$00
+  WriteText "やはり ミカサでは<BR>なにか おこっていると<BR>かんがえられます。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "わかったわ。<br>ぶんせきを いそぎましょう。<br>",$00
+  WriteText "わかったわ。<BR>ぶんせきを いそぎましょう。<BR>",$00
   PromptContinue
-  WriteText $08,"くんは<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
+  WriteText "<NAME>くんは<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>",$00
   PromptContinue
   End
   Unknown07 $F6,$02,$02,$05,$01,$01,$20,$00
@@ -86,67 +86,67 @@ CutsceneScript12_0::
   Unknown07 $49,$03,$02,$05,$01,$07,$20,$00
   Unknown07 $EC,$03,$02,$05,$01,$08,$20,$00
   SetPortrait $06,$11,$09
-  WriteText $08,"! おかえり!<br>ぶじにかえってきたな～。<br>がんばったじゃないか。<br>",$00
+  WriteText "<NAME>! おかえり!<BR>ぶじにかえってきたな～。<BR>がんばったじゃないか。<BR>",$00
   PromptContinue
   Unknown06 $04,$04
   SetPortrait $01,$11,$09
-  WriteText $08,"さん<br>おかえりなさい。<br>",$00
+  WriteText "<NAME>さん<BR>おかえりなさい。<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "おおがみさんも<br>おつかれさまです。<br>",$00
+  WriteText "おおがみさんも<BR>おつかれさまです。<BR>",$00
   PromptContinue
   Unknown06 $04,$04
   SetPortrait $04,$11,$09
-  WriteText $08,"おかえり!!<br>ねぇ ねぇ<br>おもしろかったー?!<br>",$00
+  WriteText "<NAME>おかえり!!<BR>ねぇ ねぇ<BR>おもしろかったー?!<BR>",$00
   PromptContinue
   Unknown06 $04,$04
   SetPortrait $07,$11,$0A
-  WriteText $08,"さん<br>おかえりでーす。<br>",$00
+  WriteText "<NAME>さん<BR>おかえりでーす。<BR>",$00
   PromptContinue
   Unknown06 $04,$04
   SetPortrait $03,$10,$08
-  WriteText $08," なんとかぶじに<br>もどってきたようね。<br>おつかれさま。<br>",$00
+  WriteText "<NAME> なんとかぶじに<BR>もどってきたようね。<BR>おつかれさま。<BR>",$00
   PromptContinue
   Unknown06 $04,$04
   SetPortrait $02,$10,$08
-  WriteText "あら どうやら ぶじに<br>もどってきた ようですわね<br>",$08,"さん。<br>",$00
+  WriteText "あら どうやら ぶじに<BR>もどってきた ようですわね<BR><NAME>さん。<BR>",$00
   PromptContinue
   Unknown06 $04,$04
-  WriteText "しょういに ごめいわくを<br>かけてないでしょうね。<br>",$00
+  WriteText "しょういに ごめいわくを<BR>かけてないでしょうね。<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText $08,"はん おかえり。<br>おつかれさんやったな。<br>",$00
+  WriteText "<NAME>はん おかえり。<BR>おつかれさんやったな。<BR>",$00
   PromptContinue
   Unknown06 $04,$04
   SetPortrait $08,$10,$08
-  WriteText "‥‥‥‥にんむ<br>ごくろう。<br>",$00
+  WriteText "‥‥‥‥にんむ<BR>ごくろう。<BR>",$00
   PromptContinue
   Unknown06 $04,$04
   SetPortrait $0C,$11,$01
-  WriteText "おかえりなさい<br>",$08,"さん。<br>",$00
+  WriteText "おかえりなさい<BR><NAME>さん。<BR>",$00
   PromptContinue
-  WriteText "つばきを たすけてくれて<br>ありがとうございました。<br>",$00
+  WriteText "つばきを たすけてくれて<BR>ありがとうございました。<BR>",$00
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText "おかえり! ",$08,"さん。<br>つばきのこと ありがとうね。<br>",$00
+  WriteText "おかえり! <NAME>さん。<BR>つばきのこと ありがとうね。<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "おかえりなさい。<br>おおがみくん ",$08,"。<br>ごくろうだったわね。<br>",$00
+  WriteText "おかえりなさい。<BR>おおがみくん <NAME>。<BR>ごくろうだったわね。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "さっそくだけど<br>ほうこくを おねがいするわ。<br>",$00
+  WriteText "さっそくだけど<BR>ほうこくを おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい ほうこくします。<br>",$00
+  WriteText "はい ほうこくします。<BR>",$00
   PromptContinue
-  WriteText "ミカサに まものがいました。<br>また なぜか まちのひとも<br>ミカサのなかに いました。<br>",$00
+  WriteText "ミカサに まものがいました。<BR>また なぜか まちのひとも<BR>ミカサのなかに いました。<BR>",$00
   PromptContinue
-  WriteText "やはり ミカサでは<br>なにか おこっていると<br>かんがえられます。<br>",$00
+  WriteText "やはり ミカサでは<BR>なにか おこっていると<BR>かんがえられます。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "わかったわ。<br>ぶんせきを いそぎましょう。<br>",$00
+  WriteText "わかったわ。<BR>ぶんせきを いそぎましょう。<BR>",$00
   PromptContinue
-  WriteText $08,"は<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
+  WriteText "<NAME>は<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>",$00
   PromptContinue
   End
   End

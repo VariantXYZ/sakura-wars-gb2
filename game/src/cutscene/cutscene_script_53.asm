@@ -12,89 +12,89 @@ CutsceneScript53_0::
   Unknown12 $05
   Unknown02
   Unknown07 $E6,$01,$02,$04,$01,$01,$20,$00
-  WriteText "こうらんさん。<br>ちょっと いいですか?<br>",$00
+  WriteText "こうらんさん。<BR>ちょっと いいですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "ん～～なんや。<br>",$08,"はん かいな。<br>",$00
+  WriteText "ん～～なんや。<BR><NAME>はん かいな。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じつは こんなモノを<br>ひろったの ですが‥‥<br>みてもらえますか?<br>",$00
+  WriteText "じつは こんなモノを<BR>ひろったの ですが‥‥<BR>みてもらえますか?<BR>",$00
   PromptContinue
   SetPortrait $05,$22,$12
-  WriteText "なんや えらくでかい<br>いしころやな～。<br>どれどれ‥‥<br>",$00
+  WriteText "なんや えらくでかい<BR>いしころやな～。<BR>どれどれ‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$23,$13
-  WriteText "あっ!! これは!!<br>ウーツこう やないか!<br>",$00
+  WriteText "あっ!! これは!!<BR>ウーツこう やないか!<BR>",$00
   PromptContinue
   SetPortrait $05,$21,$11
-  WriteText $08,"はん。<br>エエもん ひろってきたな～。<br>",$00
+  WriteText "<NAME>はん。<BR>エエもん ひろってきたな～。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "そ‥そんなスゴイ いしころ<br>なんですか?<br>",$00
+  WriteText "そ‥そんなスゴイ いしころ<BR>なんですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "せや。ウーツこうっていうのは<br>サビない まがらない<br>そして しなやかな てつ。<br>",$00
+  WriteText "せや。ウーツこうっていうのは<BR>サビない まがらない<BR>そして しなやかな てつ。<BR>",$00
   PromptContinue
-  WriteText "つまり かたなを つくるのに<br>うってつけの<br>こうせきなんや。<br>",$00
+  WriteText "つまり かたなを つくるのに<BR>うってつけの<BR>こうせきなんや。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "しかも これでつくられた<br>けんは",$01,$07,"ダマスカスのたち",$01,$08,"<br>いうて‥‥<br>",$00
+  WriteText "しかも これでつくられた<BR>けんは",CHARACTER_EXT_07,"ダマスカスのたち",CHARACTER_EXT_08,"<BR>いうて‥‥<BR>",$00
   PromptContinue
-  WriteText "やいばの ひょうめんに<br>ながれる みずのような<br>もんようが あらわれるんや。<br>",$00
+  WriteText "やいばの ひょうめんに<BR>ながれる みずのような<BR>もんようが あらわれるんや。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "なんだか スゴイですね‥‥<br>",$00
+  WriteText "なんだか スゴイですね‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "そやろ～?<br>",$00
+  WriteText "そやろ～?<BR>",$00
   PromptContinue
-  WriteText "つぎの しゅつげきまでには<br>バッチリ つくっとくから<br>たのしみに まっとってや。<br>",$00
+  WriteText "つぎの しゅつげきまでには<BR>バッチリ つくっとくから<BR>たのしみに まっとってや。<BR>",$00
   PromptContinue
-  WriteText "ほな またな。<br>",$00
+  WriteText "ほな またな。<BR>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Unknown09 $64
   End
-  WriteText "こうらんさん。<br>ちょっと いいですか?<br>",$00
+  WriteText "こうらんさん。<BR>ちょっと いいですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "ん～～なんや。<br>",$08,"はん かいな。<br>",$00
+  WriteText "ん～～なんや。<BR><NAME>はん かいな。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じつは こんなモノを<br>ひろったの ですが‥‥<br>みてもらえますか?<br>",$00
+  WriteText "じつは こんなモノを<BR>ひろったの ですが‥‥<BR>みてもらえますか?<BR>",$00
   PromptContinue
   SetPortrait $05,$22,$12
-  WriteText "なんや えらくでかい<br>いしころやな～。<br>どれどれ‥‥<br>",$00
+  WriteText "なんや えらくでかい<BR>いしころやな～。<BR>どれどれ‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$23,$13
-  WriteText "あっ!! これは!!<br>ウーツこう やないか!<br>",$00
+  WriteText "あっ!! これは!!<BR>ウーツこう やないか!<BR>",$00
   PromptContinue
   SetPortrait $05,$21,$11
-  WriteText $08,"はん。<br>エエもん ひろってきたな～。<br>",$00
+  WriteText "<NAME>はん。<BR>エエもん ひろってきたな～。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "そ‥そんなスゴイ いしころ<br>なんですか?<br>",$00
+  WriteText "そ‥そんなスゴイ いしころ<BR>なんですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "せや。ウーツこうっていうのは<br>サビない まがらない<br>そして しなやかな てつ。<br>",$00
+  WriteText "せや。ウーツこうっていうのは<BR>サビない まがらない<BR>そして しなやかな てつ。<BR>",$00
   PromptContinue
-  WriteText "つまり かたなを つくるのに<br>うってつけの<br>こうせきなんや。<br>",$00
+  WriteText "つまり かたなを つくるのに<BR>うってつけの<BR>こうせきなんや。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "しかも これでつくられた<br>けんは",$01,$07,"ダマスカスのたち",$01,$08,"<br>いうて‥‥<br>",$00
+  WriteText "しかも これでつくられた<BR>けんは",CHARACTER_EXT_07,"ダマスカスのたち",CHARACTER_EXT_08,"<BR>いうて‥‥<BR>",$00
   PromptContinue
-  WriteText "やいばの ひょうめんに<br>ながれる みずのような<br>もんようが あらわれるんや。<br>",$00
+  WriteText "やいばの ひょうめんに<BR>ながれる みずのような<BR>もんようが あらわれるんや。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "なんだか スゴイですね‥‥<br>",$00
+  WriteText "なんだか スゴイですね‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "そやろ～?<br>",$00
+  WriteText "そやろ～?<BR>",$00
   PromptContinue
-  WriteText "つぎの しゅつげきまでには<br>バッチリ つくっとくから<br>たのしみに まっとってや。<br>",$00
+  WriteText "つぎの しゅつげきまでには<BR>バッチリ つくっとくから<BR>たのしみに まっとってや。<BR>",$00
   PromptContinue
-  WriteText "ほな またな。<br>",$00
+  WriteText "ほな またな。<BR>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01

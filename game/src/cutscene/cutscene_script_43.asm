@@ -10,16 +10,16 @@ CutsceneScript43_0::
   Unknown0E $10
   Unknown12 $04
   Unknown02
-  WriteText "やっほー アイリスでーす!<br>このこは クマの<br>ジャンポール!<br>",$00
+  WriteText "やっほー アイリスでーす!<BR>このこは クマの<BR>ジャンポール!<BR>",$00
   PromptContinue
   SetPortrait $04,$03,$03
-  WriteText "アイリスは<br>たたかいは あんまり<br>すきじゃないけど‥‥<br>",$00
+  WriteText "アイリスは<BR>たたかいは あんまり<BR>すきじゃないけど‥‥<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "ちょうのうりょくで<br>キズをなおしたり<br>テレポートができるんだよ!<br>",$00
+  WriteText "ちょうのうりょくで<BR>キズをなおしたり<BR>テレポートができるんだよ!<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "だから なかよくしてね!<br>やくそくだよ!<br>",$00
+  WriteText "だから なかよくしてね!<BR>やくそくだよ!<BR>",$00
   PromptContinue
   End
   End

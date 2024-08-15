@@ -11,30 +11,30 @@ CutsceneScript19_0::
   Unknown12 $09
   Unknown02
   Unknown07 $8F,$00,$02,$04,$01,$01,$20,$00
-  WriteText $08,"くん<br>おつかれさま。<br>",$00
+  WriteText "<NAME>くん<BR>おつかれさま。<BR>",$00
   PromptContinue
-  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
+  WriteText "では ほうこくを<BR>おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<br>",$01,$07,"まじんき・けん",$01,$08,"を<br>かいしゅうしてきました。<br>",$00
+  WriteText "はい。<BR>",CHARACTER_EXT_07,"まじんき・けん",CHARACTER_EXT_08,"を<BR>かいしゅうしてきました。<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "よくやったわね。<br>",$08,"くん。<br>",$00
+  WriteText "よくやったわね。<BR><NAME>くん。<BR>",$00
   PromptContinue
-  WriteText "では つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
+  WriteText "では つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>",$00
   PromptContinue
   End
-  WriteText $08,"<br>おつかれさま。<br>",$00
+  WriteText "<NAME><BR>おつかれさま。<BR>",$00
   PromptContinue
-  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
+  WriteText "では ほうこくを<BR>おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<br>",$01,$07,"まじんき・けん",$01,$08,"を<br>かいしゅうしてきました。<br>",$00
+  WriteText "はい。<BR>",CHARACTER_EXT_07,"まじんき・けん",CHARACTER_EXT_08,"を<BR>かいしゅうしてきました。<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "よくやったわね。<br>",$08,"。<br>",$00
+  WriteText "よくやったわね。<BR><NAME>。<BR>",$00
   PromptContinue
-  WriteText "では つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
+  WriteText "では つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>",$00
   PromptContinue
   End
   End

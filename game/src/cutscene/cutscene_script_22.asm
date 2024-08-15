@@ -11,80 +11,80 @@ CutsceneScript22_0::
   Unknown02
   Unknown09 $5A
   Unknown0C $01
-  WriteText "～だい8しょう～<br> ",$01,$07,"さいごの まじんき",$01,$08,"<br>",$00
+  WriteText "～だい8しょう～<BR> ",CHARACTER_EXT_07,"さいごの まじんき",CHARACTER_EXT_08,"<BR>",$00
   PromptContinue
   Unknown0C $02
   Unknown0E $16
   SetPortrait $0B,$10,$00
   Unknown07 $B4,$01,$02,$04,$01,$01,$20,$00
-  WriteText "みんな あつまってるわね。<br>では はじめましょう。<br>",$00
+  WriteText "みんな あつまってるわね。<BR>では はじめましょう。<BR>",$00
   PromptContinue
-  WriteText "さいごの",$01,$07,"まじんき・かがみ",$01,$08,"<br>は ",$01,$07,"せいまじょう",$01,$08,"の<br>おくに あるそうよ。<br>",$00
+  WriteText "さいごの",CHARACTER_EXT_07,"まじんき・かがみ",CHARACTER_EXT_08,"<BR>は ",CHARACTER_EXT_07,"せいまじょう",CHARACTER_EXT_08,"の<BR>おくに あるそうよ。<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "じゃあ かんたんじゃねーか。<br>",$01,$07,"かがみ",$01,$08,"をめざして<br>いっちょくせん。<br>",$00
+  WriteText "じゃあ かんたんじゃねーか。<BR>",CHARACTER_EXT_07,"かがみ",CHARACTER_EXT_08,"をめざして<BR>いっちょくせん。<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "まようことなく<br>つきすすむだけ ですわね。<br>",$00
+  WriteText "まようことなく<BR>つきすすむだけ ですわね。<BR>",$00
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "しかし このさき<br>さらに つよいまものが<br>いるかもしれない。<br>",$00
+  WriteText "しかし このさき<BR>さらに つよいまものが<BR>いるかもしれない。<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "そうびには<br>ぬかりの ないように‥‥<br>",$00
+  WriteText "そうびには<BR>ぬかりの ないように‥‥<BR>",$00
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "ころばぬさきの ちえでーす。<br>",$00
+  WriteText "ころばぬさきの ちえでーす。<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "それを いうなら<br>ころばぬさきの",$01,$07,"つえ",$01,$08,"や!<br>",$00
+  WriteText "それを いうなら<BR>ころばぬさきの",CHARACTER_EXT_07,"つえ",CHARACTER_EXT_08,"や!<BR>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText $08,"さん。<br>さいごの",$01,$07,"まじんき",$01,$08,"は<br>めのまえですよ。<br>",$00
+  WriteText "<NAME>さん。<BR>さいごの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"は<BR>めのまえですよ。<BR>",$00
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "きをひきしめて いけよ。<br>",$00
+  WriteText "きをひきしめて いけよ。<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText $08,"<br>ガンバレー!!<br>",$00
+  WriteText "<NAME><BR>ガンバレー!!<BR>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "では ",$08,"くんは<br>",$01,$07,"まじんき・かがみ",$01,$08,"を<br>かいしゅうしに しゅつどう!<br>",$00
+  WriteText "では <NAME>くんは<BR>",CHARACTER_EXT_07,"まじんき・かがみ",CHARACTER_EXT_08,"を<BR>かいしゅうしに しゅつどう!<BR>",$00
   PromptContinue
   End
-  WriteText "みんな あつまってるわね。<br>では はじめましょう。<br>",$00
+  WriteText "みんな あつまってるわね。<BR>では はじめましょう。<BR>",$00
   PromptContinue
-  WriteText "さいごの",$01,$07,"まじんき・かがみ",$01,$08,"<br>は ",$01,$07,"せいまじょう",$01,$08,"の<br>おくに あるそうよ。<br>",$00
+  WriteText "さいごの",CHARACTER_EXT_07,"まじんき・かがみ",CHARACTER_EXT_08,"<BR>は ",CHARACTER_EXT_07,"せいまじょう",CHARACTER_EXT_08,"の<BR>おくに あるそうよ。<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "じゃあ かんたんじゃねーか。<br>",$01,$07,"かがみ",$01,$08,"をめざして<br>いっちょくせん。<br>",$00
+  WriteText "じゃあ かんたんじゃねーか。<BR>",CHARACTER_EXT_07,"かがみ",CHARACTER_EXT_08,"をめざして<BR>いっちょくせん。<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "まようことなく<br>つきすすむだけ ですわね。<br>",$00
+  WriteText "まようことなく<BR>つきすすむだけ ですわね。<BR>",$00
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "しかし このさき<br>さらに つよいまものが<br>いるかもしれない。<br>",$00
+  WriteText "しかし このさき<BR>さらに つよいまものが<BR>いるかもしれない。<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "そうびには<br>ぬかりの ないように‥‥<br>",$00
+  WriteText "そうびには<BR>ぬかりの ないように‥‥<BR>",$00
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "ころばぬさきの ちえでーす。<br>",$00
+  WriteText "ころばぬさきの ちえでーす。<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "それを いうなら<br>ころばぬさきの",$01,$07,"つえ",$01,$08,"や!<br>",$00
+  WriteText "それを いうなら<BR>ころばぬさきの",CHARACTER_EXT_07,"つえ",CHARACTER_EXT_08,"や!<BR>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText $08,"さん。<br>さいごの",$01,$07,"まじんき",$01,$08,"は<br>めのまえですよ。<br>",$00
+  WriteText "<NAME>さん。<BR>さいごの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"は<BR>めのまえですよ。<BR>",$00
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "きをひきしめて いくんだぞ<br>",$08,"くん。<br>",$00
+  WriteText "きをひきしめて いくんだぞ<BR><NAME>くん。<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText $08,"<br>がんばってね。<br>",$00
+  WriteText "<NAME><BR>がんばってね。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では ",$08,"は<br>",$01,$07,"まじんき・かがみ",$01,$08,"を<br>かいしゅうしに しゅつどう!<br>",$00
+  WriteText "では <NAME>は<BR>",CHARACTER_EXT_07,"まじんき・かがみ",CHARACTER_EXT_08,"を<BR>かいしゅうしに しゅつどう!<BR>",$00
   PromptContinue
   End
   End

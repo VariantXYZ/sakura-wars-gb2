@@ -11,60 +11,60 @@ CutsceneScript38_0::
   Unknown12 $17
   Unknown02
   Unknown07 $83,$05,$02,$04,$01,$01,$20,$00
-  WriteText "ミカサのなかで ひろった<br>この しろいフンドシ‥‥<br>",$00
+  WriteText "ミカサのなかで ひろった<BR>この しろいフンドシ‥‥<BR>",$00
   Unknown05 $84,$CE,$01,$00
   End
-  WriteText "いったい だれのものなんだ?<br>",$00
+  WriteText "いったい だれのものなんだ?<BR>",$00
   PromptContinue
-  WriteText "おおがみさんのところへ<br>もっていって<br>きいてみよう。<br>",$00
+  WriteText "おおがみさんのところへ<BR>もっていって<BR>きいてみよう。<BR>",$00
   PromptContinue
   Unknown1E $08
-  WriteText "おおがみさん。<br>しつれいします。<br>",$00
+  WriteText "おおがみさん。<BR>しつれいします。<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText $08,"くん。<br>なにかようかい?<br>",$00
+  WriteText "<NAME>くん。<BR>なにかようかい?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あの～‥‥ こんなものを<br>ひろったのですが だれのか<br>ごぞんじですか?<br>",$00
+  WriteText "あの～‥‥ こんなものを<BR>ひろったのですが だれのか<BR>ごぞんじですか?<BR>",$00
   PromptContinue
   SetPortrait $09,$06,$06
-  WriteText "フ‥‥ フンドシ!?<br>",$00
+  WriteText "フ‥‥ フンドシ!?<BR>",$00
   PromptContinue
-  WriteText "しかも それは オレの<br>フンドシじゃないか!?<br>",$00
+  WriteText "しかも それは オレの<BR>フンドシじゃないか!?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "えっ!?<br>おおがみさんの なんですか!<br>",$00
+  WriteText "えっ!?<BR>おおがみさんの なんですか!<BR>",$00
   PromptContinue
   SetPortrait $09,$04,$04
   Unknown1A $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "いや～ わざわざありがとう。<br>",$08,"くん。<br>",$00
+  WriteText "いや～ わざわざありがとう。<BR><NAME>くん。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "すみません しつもんしても<br>いいですか?<br>",$00
+  WriteText "すみません しつもんしても<BR>いいですか?<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "なんだい?<br>",$00
+  WriteText "なんだい?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "その フンドシは どうして<br>そんなに ながいのですか?<br>",$00
+  WriteText "その フンドシは どうして<BR>そんなに ながいのですか?<BR>",$00
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "なかなか いいところに<br>きがついたね。<br>",$08,"くん。<br>",$00
+  WriteText "なかなか いいところに<BR>きがついたね。<BR><NAME>くん。<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "では せつめいしよう。<br>オレは かいぐんしゅっしん<br>なんだ。<br>",$00
+  WriteText "では せつめいしよう。<BR>オレは かいぐんしゅっしん<BR>なんだ。<BR>",$00
   PromptContinue
-  WriteText "かいぐんと いうからには<br>とうぜん フネにのるよな。<br>",$00
+  WriteText "かいぐんと いうからには<BR>とうぜん フネにのるよな。<BR>",$00
   PromptContinue
-  WriteText "そうすると もしかしたら<br>フネから ウミにおちる<br>かのうせいも あるわけだ。<br>",$00
+  WriteText "そうすると もしかしたら<BR>フネから ウミにおちる<BR>かのうせいも あるわけだ。<BR>",$00
   PromptContinue
-  WriteText "そして うんが わるければ<br>サメに おそわれるかも<br>しれない。<br>",$00
+  WriteText "そして うんが わるければ<BR>サメに おそわれるかも<BR>しれない。<BR>",$00
   PromptContinue
-  WriteText "そこで とうじょうするのが<br>このながいフンドシだ。<br>",$00
+  WriteText "そこで とうじょうするのが<BR>このながいフンドシだ。<BR>",$00
   PromptContinue
-  WriteText "さて ここで もんだいだ。<br>サメに おそわれそうに<br>なったとき<br>",$00
+  WriteText "さて ここで もんだいだ。<BR>サメに おそわれそうに<BR>なったとき<BR>",$00
   PromptContinue
-  WriteText "このながいフンドシを<br>どのように<br>つかうのでしょうか?<br>",$00
+  WriteText "このながいフンドシを<BR>どのように<BR>つかうのでしょうか?<BR>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$89,$77,$52,$74,$78,$5A,$5D,$10,$6D,$78,$81,$59,$69,$99,$00,$00,$B6,$E3,$7C,$5D,$6F,$A0,$10,$65,$7E,$99,$00,$01,$79,$58,$52,$A0,$10,$59,$5A,$69,$99,$00,$02
   Unknown07 $C5,$02,$02,$01,$01,$00,$20,$00
@@ -72,130 +72,130 @@ CutsceneScript38_0::
   Unknown07 $7C,$03,$02,$01,$01,$02,$20,$00
   Unknown06 $10,$04
   Unknown0F $00,$01
-  WriteText "フンドシを ほどいて<br>ながく たなびかせる‥‥<br>ですか?<br>",$00
+  WriteText "フンドシを ほどいて<BR>ながく たなびかせる‥‥<BR>ですか?<BR>",$00
   PromptContinue
   SetPortrait $09,$01,$01
   Unknown1A $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "せいかいだ。<br>",$08,"くん。<br>",$00
+  WriteText "せいかいだ。<BR><NAME>くん。<BR>",$00
   PromptContinue
   Unknown06 $77,$04
   Unknown0F $00,$01
-  WriteText "そのながいフンドシで<br>サメのくちを<br>しばるんでしょ。<br>",$00
+  WriteText "そのながいフンドシで<BR>サメのくちを<BR>しばるんでしょ。<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "ざんねん。ちがうよ。<br>",$08,"くん。<br>",$00
+  WriteText "ざんねん。ちがうよ。<BR><NAME>くん。<BR>",$00
   PromptContinue
-  WriteText "せいかいは<br>フンドシを ほどいて<br>ながく たなびかせる だ。<br>",$00
+  WriteText "せいかいは<BR>フンドシを ほどいて<BR>ながく たなびかせる だ。<BR>",$00
   PromptContinue
-  WriteText "すこし ながくなるけど<br>せつめいしよう。<br>",$00
+  WriteText "すこし ながくなるけど<BR>せつめいしよう。<BR>",$00
   PromptContinue
   Unknown06 $77,$04
   Unknown0F $00,$01
-  WriteText "ズバリ! においを<br>かがせる でしょ。<br>",$00
+  WriteText "ズバリ! においを<BR>かがせる でしょ。<BR>",$00
   PromptContinue
   SetPortrait $09,$05,$05
-  WriteText "なんでなんだよ～<br>",$08,"くん。<br>",$00
+  WriteText "なんでなんだよ～<BR><NAME>くん。<BR>",$00
   PromptContinue
-  WriteText "オレのフンドシには<br>そんな きょうれつなにおい<br>ついてないよ～。<br>",$00
+  WriteText "オレのフンドシには<BR>そんな きょうれつなにおい<BR>ついてないよ～。<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "せいかいは<br>フンドシを ほどいて<br>ながく たなびかせる だ。<br>",$00
+  WriteText "せいかいは<BR>フンドシを ほどいて<BR>ながく たなびかせる だ。<BR>",$00
   PromptContinue
-  WriteText "すこし ながくなるけど<br>せつめいしよう。<br>",$00
+  WriteText "すこし ながくなるけど<BR>せつめいしよう。<BR>",$00
   PromptContinue
   Unknown06 $77,$04
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "わからないかい。<br>",$08,"くん。<br>",$00
+  WriteText "わからないかい。<BR><NAME>くん。<BR>",$00
   PromptContinue
-  WriteText "せいかいは<br>フンドシを ほどいて<br>ながく たなびかせる だ。<br>",$00
+  WriteText "せいかいは<BR>フンドシを ほどいて<BR>ながく たなびかせる だ。<BR>",$00
   PromptContinue
-  WriteText "すこし ながくなるけど<br>せつめいしよう。<br>",$00
+  WriteText "すこし ながくなるけど<BR>せつめいしよう。<BR>",$00
   PromptContinue
   Unknown06 $77,$04
   SetPortrait $09,$00,$00
-  WriteText "ながいフンドシを ほどいて<br>たなびかせれば オレが<br>おおきくみえるだろ?<br>",$00
+  WriteText "ながいフンドシを ほどいて<BR>たなびかせれば オレが<BR>おおきくみえるだろ?<BR>",$00
   PromptContinue
-  WriteText "おおきさは<br>4～5メートルには<br>なるからね。<br>",$00
+  WriteText "おおきさは<BR>4～5メートルには<BR>なるからね。<BR>",$00
   PromptContinue
-  WriteText "そうすると サメは<br>「じぶんよりデカイやつだ」と<br>おもってしまうんだな。<br>",$00
+  WriteText "そうすると サメは<BR>「じぶんよりデカイやつだ」と<BR>おもってしまうんだな。<BR>",$00
   PromptContinue
-  WriteText "それで サメは<br>おそうのを やめてしまう<br>そうなんだ。<br>",$00
+  WriteText "それで サメは<BR>おそうのを やめてしまう<BR>そうなんだ。<BR>",$00
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "まあ オレは おそわれたこと<br>ないから ホントかどうか<br>しらないよ。<br>",$00
+  WriteText "まあ オレは おそわれたこと<BR>ないから ホントかどうか<BR>しらないよ。<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "だけど そういわれると<br>なんとなく<br>こころづよいだろ?<br>",$00
+  WriteText "だけど そういわれると<BR>なんとなく<BR>こころづよいだろ?<BR>",$00
   PromptContinue
-  WriteText "それにしても よくこんなもの<br>みつけてきたな。<br>",$00
+  WriteText "それにしても よくこんなもの<BR>みつけてきたな。<BR>",$00
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "どうも ありがとう<br>",$08,"くん。<br>",$00
+  WriteText "どうも ありがとう<BR><NAME>くん。<BR>",$00
   PromptContinue
   End
-  WriteText "ミカサのなかで ひろった<br>この しろいフンドシ‥‥<br>",$00
+  WriteText "ミカサのなかで ひろった<BR>この しろいフンドシ‥‥<BR>",$00
   Unknown05 $84,$CE,$01,$00
   End
-  WriteText "だれのものなのかしら‥‥<br>",$00
+  WriteText "だれのものなのかしら‥‥<BR>",$00
   PromptContinue
-  WriteText "そうだわ! おおがみさんの<br>ところへ もっていって<br>きいてみましょう。<br>",$00
+  WriteText "そうだわ! おおがみさんの<BR>ところへ もっていって<BR>きいてみましょう。<BR>",$00
   PromptContinue
   Unknown1E $08
-  WriteText "おおがみさん。<br>しつれいします。<br>",$00
+  WriteText "おおがみさん。<BR>しつれいします。<BR>",$00
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText $08,"くん。<br>なにかようかい?<br>",$00
+  WriteText "<NAME>くん。<BR>なにかようかい?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あの～‥‥<br>こんなものを ひろって<br>しまったのですが‥‥<br>",$00
+  WriteText "あの～‥‥<BR>こんなものを ひろって<BR>しまったのですが‥‥<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これって だれのか<br>ごぞんじですか?<br>",$00
+  WriteText "これって だれのか<BR>ごぞんじですか?<BR>",$00
   PromptContinue
   SetPortrait $09,$06,$06
-  WriteText "フ‥‥ フンドシ!?<br>",$00
+  WriteText "フ‥‥ フンドシ!?<BR>",$00
   PromptContinue
   SetPortrait $09,$04,$04
-  WriteText "しかも それは オレの<br>フンドシじゃないか!?<br>",$00
+  WriteText "しかも それは オレの<BR>フンドシじゃないか!?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "エエッ!?<br>おおがみさんの なんですか!<br>",$00
+  WriteText "エエッ!?<BR>おおがみさんの なんですか!<BR>",$00
   PromptContinue
   SetPortrait $09,$03,$03
   Unknown1A $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "い‥‥ いや～‥‥<br>わざわざありがとう。<br>",$08,"くん。<br>",$00
+  WriteText "い‥‥ いや～‥‥<BR>わざわざありがとう。<BR><NAME>くん。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "おおがみさんは フンドシ<br>なんですね。<br>",$00
+  WriteText "おおがみさんは フンドシ<BR>なんですね。<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "そ‥‥ そういうわけでも<br>ないけどね‥‥<br>",$00
+  WriteText "そ‥‥ そういうわけでも<BR>ないけどね‥‥<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "そうなんですか。<br>",$00
+  WriteText "そうなんですか。<BR>",$00
   PromptContinue
-  WriteText "でも フンドシって<br>そんなに ながいもの<br>なんですか?<br>",$00
+  WriteText "でも フンドシって<BR>そんなに ながいもの<BR>なんですか?<BR>",$00
   PromptContinue
   SetPortrait $09,$05,$05
-  WriteText "これはとくべつだよ。<br>じゃあ すこしながくなるけど<br>せつめいしようか?<br>",$00
+  WriteText "これはとくべつだよ。<BR>じゃあ すこしながくなるけど<BR>せつめいしようか?<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "オレは かいぐんの<br>しゅっしんなんだ。<br>",$00
+  WriteText "オレは かいぐんの<BR>しゅっしんなんだ。<BR>",$00
   PromptContinue
-  WriteText "かいぐんと いうからには<br>とうぜん フネにのるよね。<br>",$00
+  WriteText "かいぐんと いうからには<BR>とうぜん フネにのるよね。<BR>",$00
   PromptContinue
-  WriteText "そうすると もしかしたら<br>フネから ウミにおちる<br>かのうせいも あるわけだ。<br>",$00
+  WriteText "そうすると もしかしたら<BR>フネから ウミにおちる<BR>かのうせいも あるわけだ。<BR>",$00
   PromptContinue
-  WriteText "そして うんがわるければ<br>サメに おそわれるかも<br>しれない。<br>",$00
+  WriteText "そして うんがわるければ<BR>サメに おそわれるかも<BR>しれない。<BR>",$00
   PromptContinue
-  WriteText "そこで とうじょうするのが<br>この ながいフンドシだ。<br>",$00
+  WriteText "そこで とうじょうするのが<BR>この ながいフンドシだ。<BR>",$00
   PromptContinue
-  WriteText "さて ここで もんだいだ。<br>サメに おそわれそうに<br>なったとき<br>",$00
+  WriteText "さて ここで もんだいだ。<BR>サメに おそわれそうに<BR>なったとき<BR>",$00
   PromptContinue
-  WriteText "このながいフンドシを<br>どのように つかうので<br>しょうか?<br>",$00
+  WriteText "このながいフンドシを<BR>どのように つかうので<BR>しょうか?<BR>",$00
   PromptContinue
   OptionSelectTimed $08,$03,$89,$77,$52,$74,$78,$5A,$5D,$10,$6D,$78,$81,$59,$69,$99,$00,$00,$89,$77,$52,$74,$10,$E2,$C2,$7C,$96,$54,$79,$72,$59,$54,$00,$01,$89,$77,$52,$74,$10,$58,$76,$98,$79,$67,$99,$00,$02
   Unknown07 $7C,$08,$02,$01,$01,$00,$20,$00
@@ -203,75 +203,75 @@ CutsceneScript38_0::
   Unknown07 $6E,$09,$02,$01,$01,$02,$20,$00
   Unknown06 $39,$0A
   Unknown0F $00,$01
-  WriteText "フンドシを ほどいて<br>ながく たなびかせる‥‥<br>ですか?<br>",$00
+  WriteText "フンドシを ほどいて<BR>ながく たなびかせる‥‥<BR>ですか?<BR>",$00
   PromptContinue
   SetPortrait $09,$01,$01
   Unknown1A $40,$99,$03,$99,$01,$08,$28,$00
-  WriteText "せいかいだ。<br>",$08,"くん。<br>すごいじゃないか。<br>",$00
+  WriteText "せいかいだ。<BR><NAME>くん。<BR>すごいじゃないか。<BR>",$00
   PromptContinue
   Unknown06 $B0,$0A
   Unknown0F $00,$01
-  WriteText "フンドシをほどいて<br>ムチのようにつかい<br>サメをたいじする。<br>",$00
+  WriteText "フンドシをほどいて<BR>ムチのようにつかい<BR>サメをたいじする。<BR>",$00
   PromptContinue
   SetPortrait $09,$01,$01
   Unknown1A $40,$99,$03,$99,$01,$04,$28,$00
-  WriteText "あ～おしいな～。<br>ほどく までは<br>よかったんだけど‥‥<br>",$00
+  WriteText "あ～おしいな～。<BR>ほどく までは<BR>よかったんだけど‥‥<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "ざんねんだけど<br>ちがうんだ ",$08,"くん。<br>",$00
+  WriteText "ざんねんだけど<BR>ちがうんだ <NAME>くん。<BR>",$00
   PromptContinue
-  WriteText "せいかいは<br>フンドシを ほどいて<br>ながく たなびかせる だ。<br>",$00
+  WriteText "せいかいは<BR>フンドシを ほどいて<BR>ながく たなびかせる だ。<BR>",$00
   PromptContinue
-  WriteText "すこしながくなるけど<br>せつめいしよう。<br>",$00
+  WriteText "すこしながくなるけど<BR>せつめいしよう。<BR>",$00
   PromptContinue
   Unknown06 $B0,$0A
   Unknown0F $00,$01
-  WriteText "フンドシを ほどいてながし<br>おとりにするんですね。<br>",$00
+  WriteText "フンドシを ほどいてながし<BR>おとりにするんですね。<BR>",$00
   PromptContinue
-  WriteText "サメが フンドシに<br>きを とられてるうちに<br>にげる。ちがいますか?<br>",$00
+  WriteText "サメが フンドシに<BR>きを とられてるうちに<BR>にげる。ちがいますか?<BR>",$00
   PromptContinue
   SetPortrait $09,$01,$01
   Unknown1A $40,$99,$03,$99,$01,$04,$28,$00
-  WriteText "あ～おしいな～。<br>ほどく までは<br>よかったんだけど‥‥<br>",$00
+  WriteText "あ～おしいな～。<BR>ほどく までは<BR>よかったんだけど‥‥<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "ざんねんだけど<br>ちがうんだ ",$08,"くん。<br>",$00
+  WriteText "ざんねんだけど<BR>ちがうんだ <NAME>くん。<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "せいかいは<br>フンドシを ほどいて<br>ながく たなびかせる だ。<br>",$00
+  WriteText "せいかいは<BR>フンドシを ほどいて<BR>ながく たなびかせる だ。<BR>",$00
   PromptContinue
-  WriteText "すこしながくなるけど<br>せつめいしよう。<br>",$00
+  WriteText "すこしながくなるけど<BR>せつめいしよう。<BR>",$00
   PromptContinue
   Unknown06 $B0,$0A
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText $08,"くんには<br>ちょっと むつかしすぎたかな<br>この もんだいは。<br>",$00
+  WriteText "<NAME>くんには<BR>ちょっと むつかしすぎたかな<BR>この もんだいは。<BR>",$00
   PromptContinue
-  WriteText "せいかいは<br>フンドシを ほどいて<br>ながく たなびかせる だ。<br>",$00
+  WriteText "せいかいは<BR>フンドシを ほどいて<BR>ながく たなびかせる だ。<BR>",$00
   PromptContinue
-  WriteText "すこしながくなるけど<br>せつめいしよう。<br>",$00
+  WriteText "すこしながくなるけど<BR>せつめいしよう。<BR>",$00
   PromptContinue
   Unknown06 $B0,$0A
   SetPortrait $09,$00,$00
-  WriteText "ながいフンドシを ほどいて<br>たなびかせれば オレが<br>おおきくみえるだろ?<br>",$00
+  WriteText "ながいフンドシを ほどいて<BR>たなびかせれば オレが<BR>おおきくみえるだろ?<BR>",$00
   PromptContinue
-  WriteText "そのおおきさは<br>4～5メートルには<br>なるからね。<br>",$00
+  WriteText "そのおおきさは<BR>4～5メートルには<BR>なるからね。<BR>",$00
   PromptContinue
-  WriteText "そうすると サメは<br>「じぶんよりデカイやつだ」<br>とおもってしまうんだな。<br>",$00
+  WriteText "そうすると サメは<BR>「じぶんよりデカイやつだ」<BR>とおもってしまうんだな。<BR>",$00
   PromptContinue
-  WriteText "それで サメは<br>おそうのを やめてしまう<br>そうなんだ。<br>",$00
+  WriteText "それで サメは<BR>おそうのを やめてしまう<BR>そうなんだ。<BR>",$00
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "まあ オレは おそわれたこと<br>ないから ホントかどうか<br>しらないよ。<br>",$00
+  WriteText "まあ オレは おそわれたこと<BR>ないから ホントかどうか<BR>しらないよ。<BR>",$00
   PromptContinue
-  WriteText "だけど そういわれると<br>なんとなく<br>こころづよいだろ?<br>",$00
+  WriteText "だけど そういわれると<BR>なんとなく<BR>こころづよいだろ?<BR>",$00
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "それにしても よくこんなもの<br>みつけてきたよな～。<br>",$00
+  WriteText "それにしても よくこんなもの<BR>みつけてきたよな～。<BR>",$00
   PromptContinue
-  WriteText "どうも ありがとう<br>",$08,"くん。<br>",$00
+  WriteText "どうも ありがとう<BR><NAME>くん。<BR>",$00
   PromptContinue
   End
   End

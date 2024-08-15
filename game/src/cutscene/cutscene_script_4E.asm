@@ -10,30 +10,30 @@ CutsceneScript4E_0::
   Unknown0E $1A
   Unknown12 $04
   Unknown02
-  WriteText "わたしたちは<br>",$01,$07,"アイ",$01,$08,"と",$01,$07,"ビ",$01,$08,"のせんし<br>バラぐみよ。<br>",$00
+  WriteText "わたしたちは<BR>",CHARACTER_EXT_07,"アイ",CHARACTER_EXT_08,"と",CHARACTER_EXT_07,"ビ",CHARACTER_EXT_08,"のせんし<BR>バラぐみよ。<BR>",$00
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText "わたしは<br>ばらぐみの たいちょう<br>せいりゅういん ことね。<br>",$00
+  WriteText "わたしは<BR>ばらぐみの たいちょう<BR>せいりゅういん ことね。<BR>",$00
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText "アタシは<br>おおた よきひこよぉ<br>チューして あげるわ",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "アタシは<BR>おおた よきひこよぉ<BR>チューして あげるわ",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   SetPortrait $12,$00,$00
-  WriteText "あの‥‥あたし‥‥<br>おか きくのじょう<br>って いいます。<br>",$00
+  WriteText "あの‥‥あたし‥‥<BR>おか きくのじょう<BR>って いいます。<BR>",$00
   PromptContinue
-  WriteText "だから‥‥<br>きくちゃんって<br>よんでください‥‥<br>",$00
+  WriteText "だから‥‥<BR>きくちゃんって<BR>よんでください‥‥<BR>",$00
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText "フフフフ。<br>わたしたちは<br>ひみつぶたいなので‥‥<br>",$00
+  WriteText "フフフフ。<BR>わたしたちは<BR>ひみつぶたいなので‥‥<BR>",$00
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText "あうことは<br>あまり ないかも<br>しれないわねぇ",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "あうことは<BR>あまり ないかも<BR>しれないわねぇ",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   SetPortrait $12,$00,$00
-  WriteText "あの でも‥‥<br>よろしく おねがい<br>しますね‥‥<br>",$00
+  WriteText "あの でも‥‥<BR>よろしく おねがい<BR>しますね‥‥<BR>",$00
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText "よろしく!<br>",$00
+  WriteText "よろしく!<BR>",$00
   PromptContinue
   End
   End

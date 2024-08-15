@@ -11,243 +11,243 @@ CutsceneScript52_0::
   Unknown12 $17
   Unknown02
   Unknown07 $C6,$04,$02,$04,$01,$01,$20,$00
-  WriteText "おおがみ～。<br>ありがとう～。<br>",$00
+  WriteText "おおがみ～。<BR>ありがとう～。<BR>",$00
   PromptContinue
   Unknown05 $84,$B4,$01,$00
   End
-  WriteText "オレの たいせつな<br>しろい とくべつしようの<br>ギターを みつけてくれて。<br>",$00
+  WriteText "オレの たいせつな<BR>しろい とくべつしようの<BR>ギターを みつけてくれて。<BR>",$00
   PromptContinue
   SetPortrait $09,$11,$08
-  WriteText "いやいや。<br>おれいなら ",$08,"くんに<br>いってくれよ。<br>",$00
+  WriteText "いやいや。<BR>おれいなら <NAME>くんに<BR>いってくれよ。<BR>",$00
   PromptContinue
-  WriteText "そのギターを まものから<br>とりもどせたのは<br>",$00
+  WriteText "そのギターを まものから<BR>とりもどせたのは<BR>",$00
   PromptContinue
-  WriteText $08,"くんが<br>がんばってくれたから<br>なんだぞ。<br>",$00
+  WriteText "<NAME>くんが<BR>がんばってくれたから<BR>なんだぞ。<BR>",$00
   PromptContinue
   SetPortrait $0F,$00,$00
-  WriteText "そうだったのか‥‥<br>",$00
+  WriteText "そうだったのか‥‥<BR>",$00
   PromptContinue
   SetPortrait $0F,$01,$01
-  WriteText "ありがとう ",$08,"くん。<br>これで ヤスモノのギターとも<br>おさらばできるよ。<br>",$00
+  WriteText "ありがとう <NAME>くん。<BR>これで ヤスモノのギターとも<BR>おさらばできるよ。<BR>",$00
   PromptContinue
-  WriteText "かやま ゆういち<br>こころから おれいを<br>いわせてもらいますよ。<br>",$00
+  WriteText "かやま ゆういち<BR>こころから おれいを<BR>いわせてもらいますよ。<BR>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "ありがと～～～～。<br>",$00
+  WriteText "ありがと～～～～。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あの かやまさん。<br>ひとつだけ きいても<br>いいですか?<br>",$00
+  WriteText "あの かやまさん。<BR>ひとつだけ きいても<BR>いいですか?<BR>",$00
   PromptContinue
   SetPortrait $0F,$01,$01
-  WriteText "ああ いいとも～。<br>",$00
+  WriteText "ああ いいとも～。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "とくべつしようのギターと<br>ヤスモノのギターは<br>どこが ちがうんですか?<br>",$00
+  WriteText "とくべつしようのギターと<BR>ヤスモノのギターは<BR>どこが ちがうんですか?<BR>",$00
   PromptContinue
   SetPortrait $0F,$00,$00
-  WriteText "おとが ちがうんだよ。<br>よ～く きいてみて。<br>まずは ヤスモノだよ。<br>",$00
+  WriteText "おとが ちがうんだよ。<BR>よ～く きいてみて。<BR>まずは ヤスモノだよ。<BR>",$00
   PromptContinue
   Unknown11 $00
   Unknown13 $4E,$01
-  WriteText $01,$07,"ビヨヨヨヨヨヨ～ン",$01,$08,"<br>",$00
+  WriteText CHARACTER_EXT_07,"ビヨヨヨヨヨヨ～ン",CHARACTER_EXT_08,"<BR>",$00
   PromptContinue
   Unknown11 $FF
-  WriteText "そして これが<br>しろい とくべつしようの<br>ギターのおとだ。<br>",$00
+  WriteText "そして これが<BR>しろい とくべつしようの<BR>ギターのおとだ。<BR>",$00
   PromptContinue
   Unknown11 $00
   Unknown13 $4D,$01
-  WriteText $01,$07,"ピロリロリロリン!",$01,$08,"<br>",$00
+  WriteText CHARACTER_EXT_07,"ピロリロリロリン!",CHARACTER_EXT_08,"<BR>",$00
   PromptContinue
   Unknown11 $FF
-  WriteText "な? ちがうだろ?<br>",$00
+  WriteText "な? ちがうだろ?<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$90,$54,$52,$6F,$77,$10,$58,$7B,$5A,$52,$65,$8C,$67,$00,$00,$89,$A1,$76,$75,$67,$7B,$00,$01
   Unknown07 $24,$02,$02,$00,$01,$00,$20,$00
   Unknown07 $0A,$03,$02,$00,$01,$01,$20,$00
   Unknown0F $00,$01
-  WriteText "すみませんが もういちど<br>おねがいします。<br>",$00
+  WriteText "すみませんが もういちど<BR>おねがいします。<BR>",$00
   PromptContinue
   SetPortrait $0F,$00,$00
-  WriteText "しょうがないなぁ。<br>よ～く きいてみてくれよ。<br>まずは ヤスモノだ。<br>",$00
+  WriteText "しょうがないなぁ。<BR>よ～く きいてみてくれよ。<BR>まずは ヤスモノだ。<BR>",$00
   PromptContinue
   Unknown11 $00
   Unknown13 $4E,$01
-  WriteText $01,$07,"ビヨヨヨヨヨヨ～ン",$01,$08,"<br>",$00
+  WriteText CHARACTER_EXT_07,"ビヨヨヨヨヨヨ～ン",CHARACTER_EXT_08,"<BR>",$00
   PromptContinue
   Unknown11 $FF
-  WriteText "そして これが<br>しろい とくべつしようの<br>ギターのおとだ。<br>",$00
+  WriteText "そして これが<BR>しろい とくべつしようの<BR>ギターのおとだ。<BR>",$00
   PromptContinue
   Unknown11 $00
   Unknown13 $4D,$01
-  WriteText $01,$07,"ピロリロリロリン!",$01,$08,"<br>",$00
+  WriteText CHARACTER_EXT_07,"ピロリロリロリン!",CHARACTER_EXT_08,"<BR>",$00
   PromptContinue
   Unknown11 $FF
-  WriteText "な? ちがうだろ?<br>",$00
+  WriteText "な? ちがうだろ?<BR>",$00
   PromptContinue
   OptionSelect $03,$00,$90,$54,$52,$6F,$77,$10,$58,$7B,$5A,$52,$65,$8C,$67,$00,$00,$89,$A1,$76,$75,$67,$7B,$00,$01,$6F,$5A,$52,$5A,$10,$9D,$59,$98,$8C,$69,$A1,$00,$02
   Unknown07 $24,$02,$02,$00,$01,$00,$20,$00
   Unknown07 $0A,$03,$02,$00,$01,$01,$20,$00
   Unknown07 $EE,$03,$02,$00,$01,$02,$20,$00
   Unknown0F $00,$01
-  WriteText "ほんとですね。<br>たしかに とくべつしようの<br>ギターのほうが いいですね。<br>",$00
+  WriteText "ほんとですね。<BR>たしかに とくべつしようの<BR>ギターのほうが いいですね。<BR>",$00
   PromptContinue
   SetPortrait $0F,$01,$01
-  WriteText "そーなんだよ。<br>わかってくれて ありがとう<br>",$08,"くん。<br>",$00
+  WriteText "そーなんだよ。<BR>わかってくれて ありがとう<BR><NAME>くん。<BR>",$00
   PromptContinue
   Unknown07 $6B,$03,$04,$84,$AA,$01,$FF,$20,$00
   Unknown07 $AA,$03,$04,$84,$AA,$01,$00,$20,$00
-  WriteText "そして 3つの",$01,$07,"まじんき",$01,$08,"<br>ぜんぶ かいしゅう<br>おめでとう!<br>",$00
+  WriteText "そして 3つの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"<BR>ぜんぶ かいしゅう<BR>おめでとう!<BR>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "それじゃあ アディオス。<br>またあおう!<br>",$00
+  WriteText "それじゃあ アディオス。<BR>またあおう!<BR>",$00
   PromptContinue
   End
-  WriteText "それじゃあ あと ひとつの<br>",$01,$07,"まじんき",$01,$08,"<br>がんばって みつけてくれよ。<br>",$00
+  WriteText "それじゃあ あと ひとつの<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"<BR>がんばって みつけてくれよ。<BR>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "それじゃあ アディオス。<br>またあおう!<br>",$00
+  WriteText "それじゃあ アディオス。<BR>またあおう!<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "すみません。<br>ボクには ちがいが<br>わかりません。<br>",$00
+  WriteText "すみません。<BR>ボクには ちがいが<BR>わかりません。<BR>",$00
   PromptContinue
   SetPortrait $0F,$00,$00
-  WriteText "そーなのかい?<br>それは ざんねんだな～。<br>",$00
+  WriteText "そーなのかい?<BR>それは ざんねんだな～。<BR>",$00
   PromptContinue
   Unknown07 $3D,$04,$04,$84,$AA,$01,$FF,$20,$00
   Unknown07 $81,$04,$04,$84,$AA,$01,$00,$20,$00
   SetPortrait $0F,$01,$01
-  WriteText "まあ それはともかく<br>3つの",$01,$07,"まじんき",$01,$08," ぜんぶ <br>かいしゅう おめでとう!<br>",$00
+  WriteText "まあ それはともかく<BR>3つの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08," ぜんぶ <BR>かいしゅう おめでとう!<BR>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "それじゃあ アディオス。<br>",$00
+  WriteText "それじゃあ アディオス。<BR>",$00
   PromptContinue
   End
   SetPortrait $0F,$00,$00
-  WriteText "まあ それはともかく<br>あと ひとつの",$01,$07,"まじんき",$01,$08,"<br>がんばって みつけてくれよ。<br>",$00
+  WriteText "まあ それはともかく<BR>あと ひとつの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"<BR>がんばって みつけてくれよ。<BR>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "それじゃあ アディオス。<br>",$00
+  WriteText "それじゃあ アディオス。<BR>",$00
   PromptContinue
   End
-  WriteText "おおがみ～。<br>ありがとう～。<br>",$00
+  WriteText "おおがみ～。<BR>ありがとう～。<BR>",$00
   PromptContinue
-  WriteText "オレの たいせつな<br>",$00
+  WriteText "オレの たいせつな<BR>",$00
   Unknown05 $84,$B4,$01,$00
   End
-  WriteText "しろい とくべつしようの<br>ギターを みつけてくれて。<br>",$00
+  WriteText "しろい とくべつしようの<BR>ギターを みつけてくれて。<BR>",$00
   PromptContinue
   SetPortrait $09,$11,$08
-  WriteText "いやいや。<br>おれいなら ",$08,"くんに<br>いってくれよ。<br>",$00
+  WriteText "いやいや。<BR>おれいなら <NAME>くんに<BR>いってくれよ。<BR>",$00
   PromptContinue
-  WriteText "そのギターを まものから<br>とりもどせたのは<br>",$00
+  WriteText "そのギターを まものから<BR>とりもどせたのは<BR>",$00
   PromptContinue
-  WriteText $08,"くんが<br>がんばってくれたから<br>なんだぞ。<br>",$00
+  WriteText "<NAME>くんが<BR>がんばってくれたから<BR>なんだぞ。<BR>",$00
   PromptContinue
   SetPortrait $0F,$00,$00
-  WriteText "そうだったのか‥‥<br>",$00
+  WriteText "そうだったのか‥‥<BR>",$00
   PromptContinue
   SetPortrait $0F,$01,$01
-  WriteText "ありがとう ",$08,"さん。<br>これで ヤスモノのギターとも<br>おさらばできますよ。<br>",$00
+  WriteText "ありがとう <NAME>さん。<BR>これで ヤスモノのギターとも<BR>おさらばできますよ。<BR>",$00
   PromptContinue
-  WriteText "かやま ゆういち<br>こころから おれいを<br>いわせてもらいますよ。<br>",$00
+  WriteText "かやま ゆういち<BR>こころから おれいを<BR>いわせてもらいますよ。<BR>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "ありがと～～～～。<br>",$00
+  WriteText "ありがと～～～～。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あの かやまさん。<br>ひとつだけ きいても<br>いいですか?<br>",$00
+  WriteText "あの かやまさん。<BR>ひとつだけ きいても<BR>いいですか?<BR>",$00
   PromptContinue
   SetPortrait $0F,$01,$01
-  WriteText "ああ いいよ～。<br>",$00
+  WriteText "ああ いいよ～。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "とくべつしようのギターと<br>ヤスモノのギターは<br>どこが ちがうんですか?<br>",$00
+  WriteText "とくべつしようのギターと<BR>ヤスモノのギターは<BR>どこが ちがうんですか?<BR>",$00
   PromptContinue
   SetPortrait $0F,$00,$00
-  WriteText "おとが ちがうんですよ。<br>よ～く きいてくださいね。<br>まずは ヤスモノですよ。<br>",$00
+  WriteText "おとが ちがうんですよ。<BR>よ～く きいてくださいね。<BR>まずは ヤスモノですよ。<BR>",$00
   PromptContinue
   Unknown11 $00
   Unknown13 $4E,$01
-  WriteText $01,$07,"ビヨヨヨヨヨヨ～ン",$01,$08,"<br>",$00
+  WriteText CHARACTER_EXT_07,"ビヨヨヨヨヨヨ～ン",CHARACTER_EXT_08,"<BR>",$00
   PromptContinue
   Unknown11 $FF
-  WriteText "そして とくべつしようです。<br>",$00
+  WriteText "そして とくべつしようです。<BR>",$00
   PromptContinue
   Unknown11 $00
   Unknown13 $4D,$01
-  WriteText $01,$07,"ピロリロリロリン!",$01,$08,"<br>",$00
+  WriteText CHARACTER_EXT_07,"ピロリロリロリン!",CHARACTER_EXT_08,"<BR>",$00
   PromptContinue
   Unknown11 $FF
-  WriteText "ね? ちがうでしょう?<br>",$00
+  WriteText "ね? ちがうでしょう?<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$90,$54,$52,$6F,$77,$10,$58,$7B,$5A,$52,$65,$8C,$67,$00,$00,$89,$A1,$76,$75,$67,$7B,$00,$01
   Unknown07 $D2,$06,$02,$00,$01,$00,$20,$00
   Unknown07 $AA,$07,$02,$00,$01,$01,$20,$00
   Unknown0F $00,$01
-  WriteText "すみませんが もういちど<br>おねがいします。<br>",$00
+  WriteText "すみませんが もういちど<BR>おねがいします。<BR>",$00
   PromptContinue
   SetPortrait $0F,$00,$00
-  WriteText "わかりました。<br>よ～く きいてくださいよ。<br>まずは ヤスモノです。<br>",$00
+  WriteText "わかりました。<BR>よ～く きいてくださいよ。<BR>まずは ヤスモノです。<BR>",$00
   PromptContinue
   Unknown11 $00
   Unknown13 $4E,$01
-  WriteText $01,$07,"ビヨヨヨヨヨヨ～ン",$01,$08,"<br>",$00
+  WriteText CHARACTER_EXT_07,"ビヨヨヨヨヨヨ～ン",CHARACTER_EXT_08,"<BR>",$00
   PromptContinue
   Unknown11 $FF
-  WriteText "そして とくべつしようです。<br>",$00
+  WriteText "そして とくべつしようです。<BR>",$00
   PromptContinue
   Unknown11 $00
   Unknown13 $4D,$01
-  WriteText $01,$07,"ピロリロリロリン!",$01,$08,"<br>",$00
+  WriteText CHARACTER_EXT_07,"ピロリロリロリン!",CHARACTER_EXT_08,"<BR>",$00
   PromptContinue
   Unknown11 $FF
-  WriteText "ね? ちがうでしょう?<br>",$00
+  WriteText "ね? ちがうでしょう?<BR>",$00
   PromptContinue
   OptionSelect $03,$00,$90,$54,$52,$6F,$77,$10,$58,$7B,$5A,$52,$65,$8C,$67,$00,$00,$89,$A1,$76,$75,$67,$7B,$00,$01,$6F,$5A,$52,$5A,$10,$9D,$59,$98,$8C,$69,$A1,$00,$02
   Unknown07 $D2,$06,$02,$00,$01,$00,$20,$00
   Unknown07 $AA,$07,$02,$00,$01,$01,$20,$00
   Unknown07 $9D,$08,$02,$00,$01,$02,$20,$00
   Unknown0F $00,$01
-  WriteText "ほんとですね。<br>たしかに とくべつしようの<br>ギターのほうが いいですね。<br>",$00
+  WriteText "ほんとですね。<BR>たしかに とくべつしようの<BR>ギターのほうが いいですね。<BR>",$00
   PromptContinue
   SetPortrait $0F,$01,$01
-  WriteText "そーなんですよ。<br>わかってくれて ありがとう<br>",$08,"さん。<br>",$00
+  WriteText "そーなんですよ。<BR>わかってくれて ありがとう<BR><NAME>さん。<BR>",$00
   PromptContinue
   Unknown07 $0C,$08,$04,$84,$AA,$01,$FF,$20,$00
   Unknown07 $53,$08,$04,$84,$AA,$01,$00,$20,$00
-  WriteText "そして 3つの",$01,$07,"まじんき",$01,$08,"<br>ぜんぶ かいしゅう<br>おめでとうございます。<br>",$00
+  WriteText "そして 3つの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"<BR>ぜんぶ かいしゅう<BR>おめでとうございます。<BR>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "それでは アディオス。<br>また あいましょう。<br>",$00
+  WriteText "それでは アディオス。<BR>また あいましょう。<BR>",$00
   PromptContinue
   End
-  WriteText "それじゃあ あと ひとつの<br>",$01,$07,"まじんき",$01,$08," がんばって<br>みつけて くださいよ。<br>",$00
+  WriteText "それじゃあ あと ひとつの<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08," がんばって<BR>みつけて くださいよ。<BR>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "それでは アディオス。<br>また あいましょう。<br>",$00
+  WriteText "それでは アディオス。<BR>また あいましょう。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "すみません。<br>わたしには ちがいが<br>わかりません。<br>",$00
+  WriteText "すみません。<BR>わたしには ちがいが<BR>わかりません。<BR>",$00
   PromptContinue
   SetPortrait $0F,$00,$00
-  WriteText "そーなのですか?<br>それは ざんねんですねー。<br>",$00
+  WriteText "そーなのですか?<BR>それは ざんねんですねー。<BR>",$00
   PromptContinue
   Unknown07 $EF,$08,$04,$84,$AA,$01,$FF,$20,$00
   Unknown07 $34,$09,$04,$84,$AA,$01,$00,$20,$00
   SetPortrait $0F,$01,$01
-  WriteText "まあ それはともかく 3つの<br>",$01,$07,"まじんき",$01,$08,"のかいしゅう <br>おめでとうございます。<br>",$00
+  WriteText "まあ それはともかく 3つの<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"のかいしゅう <BR>おめでとうございます。<BR>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "それでは アディオス。<br>",$00
+  WriteText "それでは アディオス。<BR>",$00
   PromptContinue
   End
   SetPortrait $0F,$00,$00
-  WriteText "まあ それはともかく<br>あと ひとつの",$01,$07,"まじんき",$01,$08,"も<br>よろしくおねがいしますよ。<br>",$00
+  WriteText "まあ それはともかく<BR>あと ひとつの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"も<BR>よろしくおねがいしますよ。<BR>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "それでは アディオス。<br>",$00
+  WriteText "それでは アディオス。<BR>",$00
   PromptContinue
   End
   End

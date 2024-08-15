@@ -10,13 +10,13 @@ CutsceneScript42_0::
   Unknown0E $0E
   Unknown12 $04
   Unknown02
-  WriteText "ようこそ<br>ていこくかげきだんへ。<br>マリア・タチバナです。<br>",$00
+  WriteText "ようこそ<BR>ていこくかげきだんへ。<BR>マリア・タチバナです。<BR>",$00
   PromptContinue
-  WriteText "わたしのぶきは じゅうです。<br>しゃげきで はなれたてきも<br>こうげきすることができます。<br>",$00
+  WriteText "わたしのぶきは じゅうです。<BR>しゃげきで はなれたてきも<BR>こうげきすることができます。<BR>",$00
   PromptContinue
-  WriteText "せんじょうでは<br>ちいさなゆだんが<br>はいぼくに つながるわ。<br>",$00
+  WriteText "せんじょうでは<BR>ちいさなゆだんが<BR>はいぼくに つながるわ。<BR>",$00
   PromptContinue
-  WriteText "きをひきしめて<br>しっかりと<br>がんばりなさい。<br>",$00
+  WriteText "きをひきしめて<BR>しっかりと<BR>がんばりなさい。<BR>",$00
   PromptContinue
   End
   End

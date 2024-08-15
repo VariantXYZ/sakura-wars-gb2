@@ -10,15 +10,15 @@ CutsceneScript4A_0::
   Unknown0E $16
   Unknown12 $04
   Unknown02
-  WriteText "コンニチワ。<br>わたしの なまえは<br>さかきばら ゆり よ。<br>",$00
+  WriteText "コンニチワ。<BR>わたしの なまえは<BR>さかきばら ゆり よ。<BR>",$00
   PromptContinue
   SetPortrait $0D,$10,$00
-  WriteText "ていこくかげきだんの<br>オペレーターとして<br>きょうりょくするわね。<br>",$00
+  WriteText "ていこくかげきだんの<BR>オペレーターとして<BR>きょうりょくするわね。<BR>",$00
   PromptContinue
-  WriteText "もしも さくせんちゅうに<br>わからないコトがあったら<br>れんらくを ちょうだい。<br>",$00
+  WriteText "もしも さくせんちゅうに<BR>わからないコトがあったら<BR>れんらくを ちょうだい。<BR>",$00
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText "なんでも おしえてあげるわ。<br>それじゃあ がんばってね!<br>",$00
+  WriteText "なんでも おしえてあげるわ。<BR>それじゃあ がんばってね!<BR>",$00
   PromptContinue
   End
   End

@@ -10,15 +10,15 @@ CutsceneScript47_0::
   Unknown0E $20
   Unknown12 $04
   Unknown02
-  WriteText "ボクはレニ‥‥<br>",$00
+  WriteText "ボクはレニ‥‥<BR>",$00
   PromptContinue
-  WriteText "ボクのせんじょうでのやくめは<br>ぜんえいで すばやく<br>てきを はかいすること。<br>",$00
+  WriteText "ボクのせんじょうでのやくめは<BR>ぜんえいで すばやく<BR>てきを はかいすること。<BR>",$00
   PromptContinue
-  WriteText "スピードこそが<br>しょうはいを さゆうする。<br>",$00
+  WriteText "スピードこそが<BR>しょうはいを さゆうする。<BR>",$00
   PromptContinue
-  WriteText "せんじょうにおいて<br>たいせつなこと それは<br>かつこと それだけ。<br>",$00
+  WriteText "せんじょうにおいて<BR>たいせつなこと それは<BR>かつこと それだけ。<BR>",$00
   PromptContinue
-  WriteText "じゃあ<br>がんばれ‥‥<br>",$00
+  WriteText "じゃあ<BR>がんばれ‥‥<BR>",$00
   PromptContinue
   End
   End

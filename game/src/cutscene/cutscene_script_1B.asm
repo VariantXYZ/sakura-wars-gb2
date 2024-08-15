@@ -11,90 +11,90 @@ CutsceneScript1B_0::
   Unknown12 $09
   Unknown02
   Unknown07 $EF,$01,$02,$04,$01,$01,$20,$00
-  WriteText "おかえりなさい。<br>",$08,"くん。<br>",$00
+  WriteText "おかえりなさい。<BR><NAME>くん。<BR>",$00
   PromptContinue
-  WriteText "カンナとアイリスの<br>きゅうしゅつ<br>ごくろうさまでした。<br>",$00
-  PromptContinue
-  SetPortrait $0B,$10,$00
-  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
-  PromptContinue
-  Unknown0F $00,$01
-  WriteText "はい ほうこくします。<br>",$00
-  PromptContinue
-  WriteText "のこり2つの",$01,$07,"まじんき",$01,$08,"は<br>ミカサには<br>ありませんでした。<br>",$00
+  WriteText "カンナとアイリスの<BR>きゅうしゅつ<BR>ごくろうさまでした。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そう‥‥<br>ミカサには なかったのね‥‥<br>",$00
+  WriteText "では ほうこくを<BR>おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "それと ミカサに<br>おおきな あながあき<br>そのしたには<br>",$00
+  WriteText "はい ほうこくします。<BR>",$00
   PromptContinue
-  WriteText $01,$07,"やまと",$01,$08,"と よばれている<br>だいちが みえていました。<br>",$00
+  WriteText "のこり2つの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"は<BR>ミカサには<BR>ありませんでした。<BR>",$00
+  PromptContinue
+  SetPortrait $0B,$10,$00
+  WriteText "そう‥‥<BR>ミカサには なかったのね‥‥<BR>",$00
+  PromptContinue
+  Unknown0F $00,$01
+  WriteText "それと ミカサに<BR>おおきな あながあき<BR>そのしたには<BR>",$00
+  PromptContinue
+  WriteText CHARACTER_EXT_07,"やまと",CHARACTER_EXT_08,"と よばれている<BR>だいちが みえていました。<BR>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "わかりました。<br>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "わかりました。<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では ",$08,"くんは<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
+  WriteText "では <NAME>くんは<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$01,$07,$92,$8C,$76,$01,$08,$79,$72,$52,$74,$10,$5B,$5D,$00,$00,$98,$95,$54,$59,$52,$00,$01
   Unknown07 $6D,$01,$02,$00,$01,$00,$20,$00
   Unknown07 $5F,$01,$02,$00,$01,$01,$20,$00
   Unknown0F $00,$01
-  WriteText "りょうかい。<br>",$00
+  WriteText "りょうかい。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "かえでさん しつもんが<br>あります。 ",$01,$07,"やまと",$01,$08,"に<br>ついて おしえてください。<br>",$00
+  WriteText "かえでさん しつもんが<BR>あります。 ",CHARACTER_EXT_07,"やまと",CHARACTER_EXT_08,"に<BR>ついて おしえてください。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $01,$07,"やまと",$01,$08,"とは そのむかし<br>うみのそこに ふういんされた<br>のろわれた だいちよ。<br>",$00
+  WriteText CHARACTER_EXT_07,"やまと",CHARACTER_EXT_08,"とは そのむかし<BR>うみのそこに ふういんされた<BR>のろわれた だいちよ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "のろわれた だいち‥‥<br>なんだか やばそうだぞ‥‥<br>",$00
+  WriteText "のろわれた だいち‥‥<BR>なんだか やばそうだぞ‥‥<BR>",$00
   PromptContinue
   End
-  WriteText "おかえりなさい。<br>",$08,"。<br>",$00
+  WriteText "おかえりなさい。<BR><NAME>。<BR>",$00
   PromptContinue
-  WriteText "カンナとアイリスの<br>きゅうしゅつ<br>ごくろうさまでした。<br>",$00
-  PromptContinue
-  SetPortrait $0B,$10,$00
-  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
-  PromptContinue
-  Unknown0F $00,$01
-  WriteText "はい ほうこくします。<br>",$00
-  PromptContinue
-  WriteText "のこり2つの",$01,$07,"まじんき",$01,$08,"は<br>ミカサには<br>ありませんでした。<br>",$00
+  WriteText "カンナとアイリスの<BR>きゅうしゅつ<BR>ごくろうさまでした。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そう‥‥<br>ミカサには なかったのね‥‥<br>",$00
+  WriteText "では ほうこくを<BR>おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "それと ミカサに<br>おおきな あながあき<br>そのしたには<br>",$00
+  WriteText "はい ほうこくします。<BR>",$00
   PromptContinue
-  WriteText $01,$07,"やまと",$01,$08,"と よばれている<br>だいちが みえていました。<br>",$00
+  WriteText "のこり2つの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"は<BR>ミカサには<BR>ありませんでした。<BR>",$00
+  PromptContinue
+  SetPortrait $0B,$10,$00
+  WriteText "そう‥‥<BR>ミカサには なかったのね‥‥<BR>",$00
+  PromptContinue
+  Unknown0F $00,$01
+  WriteText "それと ミカサに<BR>おおきな あながあき<BR>そのしたには<BR>",$00
+  PromptContinue
+  WriteText CHARACTER_EXT_07,"やまと",CHARACTER_EXT_08,"と よばれている<BR>だいちが みえていました。<BR>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "わかりました。<br>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "わかりました。<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では ",$08,"は<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
+  WriteText "では <NAME>は<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$01,$07,$92,$8C,$76,$01,$08,$79,$72,$52,$74,$10,$5B,$5D,$00,$00,$98,$95,$54,$59,$52,$00,$01
   Unknown07 $46,$03,$02,$00,$01,$00,$20,$00
   Unknown07 $38,$03,$02,$00,$01,$01,$20,$00
   Unknown0F $00,$01
-  WriteText "りょうかい。<br>",$00
+  WriteText "りょうかい。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "かえでさん しつもんが<br>あります。 ",$01,$07,"やまと",$01,$08,"に<br>ついて おしえてください。<br>",$00
+  WriteText "かえでさん しつもんが<BR>あります。 ",CHARACTER_EXT_07,"やまと",CHARACTER_EXT_08,"に<BR>ついて おしえてください。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $01,$07,"やまと",$01,$08,"とは そのむかし<br>うみのそこに ふういんされた<br>のろわれた だいちよ。<br>",$00
+  WriteText CHARACTER_EXT_07,"やまと",CHARACTER_EXT_08,"とは そのむかし<BR>うみのそこに ふういんされた<BR>のろわれた だいちよ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "のろわれた だいち‥‥<br>こわそうだわ‥‥<br>",$00
+  WriteText "のろわれた だいち‥‥<BR>こわそうだわ‥‥<BR>",$00
   PromptContinue
   End
   End

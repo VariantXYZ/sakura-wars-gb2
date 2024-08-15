@@ -11,49 +11,49 @@ CutsceneScript2E_0::
   Unknown12 $17
   Unknown02
   Unknown07 $85,$04,$02,$04,$01,$01,$20,$00
-  WriteText "さっきみつけた ぬいぐるみを<br>アイリスのところへ<br>",$00
+  WriteText "さっきみつけた ぬいぐるみを<BR>アイリスのところへ<BR>",$00
   Unknown05 $84,$56,$01,$00
   End
-  WriteText "もっていこう。<br>",$00
+  WriteText "もっていこう。<BR>",$00
   PromptContinue
   Unknown1E $10
-  WriteText "アイリス。<br>",$00
+  WriteText "アイリス。<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $08," どうしたの?<br>",$00
+  WriteText "<NAME> どうしたの?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ みつけたんだけど<br>アイリスの?<br>",$00
+  WriteText "これ みつけたんだけど<BR>アイリスの?<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "あっ! マニアーナ!!<br>",$00
+  WriteText "あっ! マニアーナ!!<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "マニアーナ?<br>",$00
+  WriteText "マニアーナ?<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "うん。<br>その オサルさんの<br>なまえだよ。<br>",$00
+  WriteText "うん。<BR>その オサルさんの<BR>なまえだよ。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText "みつけてくれて ありがとう<br>",$08,"。<br>",$00
+  WriteText "みつけてくれて ありがとう<BR><NAME>。<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "おれいに みんなを<br>しょうかいするね。<br>",$00
+  WriteText "おれいに みんなを<BR>しょうかいするね。<BR>",$00
   PromptContinue
-  WriteText "くまの ジャンポール。<br>いぬの マリー。<br>うさぎの フランシーヌ。<br>",$00
+  WriteText "くまの ジャンポール。<BR>いぬの マリー。<BR>うさぎの フランシーヌ。<BR>",$00
   PromptContinue
-  WriteText "おおありくいの パグー。<br>ほっきょくぐまの ジャン。<br>",$00
+  WriteText "おおありくいの パグー。<BR>ほっきょくぐまの ジャン。<BR>",$00
   PromptContinue
-  WriteText "そして オサルの<br>マニアーナだよ。<br>",$00
+  WriteText "そして オサルの<BR>マニアーナだよ。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "おぼえた? ",$08,"。<br>",$00
+  WriteText "おぼえた? <NAME>。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "え～っと‥‥<br>くまの ジャンポールと<br>いぬの マリーと<br>",$00
+  WriteText "え～っと‥‥<BR>くまの ジャンポールと<BR>いぬの マリーと<BR>",$00
   PromptContinue
-  WriteText "うさぎの‥‥‥‥‥‥‥‥‥‥<br>なんだっけ?<br>うさぎの‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "うさぎの‥‥‥‥‥‥‥‥‥‥<BR>なんだっけ?<BR>うさぎの‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$D6,$EB,$F5,$B8,$FB,$CD,$00,$00,$D6,$EB,$F5,$BE,$F1,$FB,$BB,$00,$01,$D6,$EB,$C1,$F5,$BA,$00,$02
   Unknown07 $D4,$01,$02,$01,$01,$00,$20,$00
@@ -61,107 +61,107 @@ CutsceneScript2E_0::
   Unknown07 $52,$03,$02,$01,$01,$02,$20,$00
   Unknown06 $F4,$03
   Unknown0F $00,$01
-  WriteText "フランシーヌ‥‥‥そうだ!<br>うさぎの フランシーヌ。<br>そして‥‥‥‥<br>",$00
+  WriteText "フランシーヌ‥‥‥そうだ!<BR>うさぎの フランシーヌ。<BR>そして‥‥‥‥<BR>",$00
   PromptContinue
-  WriteText "おおありくいの パグーに<br>ほっきょくぐまの ジャン‥‥<br>それと‥‥‥‥<br>",$00
+  WriteText "おおありくいの パグーに<BR>ほっきょくぐまの ジャン‥‥<BR>それと‥‥‥‥<BR>",$00
   PromptContinue
-  WriteText "‥‥オサルの マニアーナ!<br>だよね!!<br>",$00
+  WriteText "‥‥オサルの マニアーナ!<BR>だよね!!<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText "うわー スゴイ スゴイ!<br>ぜんぶいえたーーーっ!!<br>",$00
+  WriteText "うわー スゴイ スゴイ!<BR>ぜんぶいえたーーーっ!!<BR>",$00
   PromptContinue
-  WriteText "さすが ",$08,"だね。<br>アイリスの おともだちを<br>おぼえて くれたんだね。<br>",$00
+  WriteText "さすが <NAME>だね。<BR>アイリスの おともだちを<BR>おぼえて くれたんだね。<BR>",$00
   PromptContinue
-  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
+  WriteText "それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "フランソワーズ‥‥‥そうだ!<br>うさぎの フランソワーズ。<br>",$00
+  WriteText "フランソワーズ‥‥‥そうだ!<BR>うさぎの フランソワーズ。<BR>",$00
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText "ちがうよ～。<br>そんな ステキなおねえさん<br>みたいな なまえじゃないよ。<br>",$00
+  WriteText "ちがうよ～。<BR>そんな ステキなおねえさん<BR>みたいな なまえじゃないよ。<BR>",$00
   PromptContinue
-  WriteText "うさぎの フランシーヌだよ。<br>わかった!? ",$08,"。<br>",$00
+  WriteText "うさぎの フランシーヌだよ。<BR>わかった!? <NAME>。<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "ちゃんと おぼえといてね。<br>",$00
+  WriteText "ちゃんと おぼえといてね。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
+  WriteText "それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "フラダンス?‥‥‥そうだ!<br>うさぎの フラダンス。<br>",$00
+  WriteText "フラダンス?‥‥‥そうだ!<BR>うさぎの フラダンス。<BR>",$00
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText "ちがうよ～。そんな ようきな<br>ハワイアンみたいな<br>なまえじゃないよ～。<br>",$00
+  WriteText "ちがうよ～。そんな ようきな<BR>ハワイアンみたいな<BR>なまえじゃないよ～。<BR>",$00
   PromptContinue
-  WriteText "うさぎの フランシーヌだよ。<br>わかった!? ",$08,"。<br>",$00
+  WriteText "うさぎの フランシーヌだよ。<BR>わかった!? <NAME>。<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "ちゃんと おぼえといてね。<br>",$00
+  WriteText "ちゃんと おぼえといてね。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
+  WriteText "それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>う～んダメだ。<br>わすれた。<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>う～んダメだ。<BR>わすれた。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "そうだよね。<br>いちどでぜんぶ おぼえられる<br>わけないもんね。<br>",$00
+  WriteText "そうだよね。<BR>いちどでぜんぶ おぼえられる<BR>わけないもんね。<BR>",$00
   PromptContinue
-  WriteText "このコは<br>うさぎの フランシーヌだよ。<br>ちゃんと おぼえてあげてね。<br>",$00
+  WriteText "このコは<BR>うさぎの フランシーヌだよ。<BR>ちゃんと おぼえてあげてね。<BR>",$00
   PromptContinue
-  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
+  WriteText "それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>",$00
   PromptContinue
   End
-  WriteText "さっきみつけた ぬいぐるみを<br>アイリスのところへ<br>",$00
+  WriteText "さっきみつけた ぬいぐるみを<BR>アイリスのところへ<BR>",$00
   Unknown05 $84,$56,$01,$00
   End
-  WriteText "もっていきましょう。<br>",$00
+  WriteText "もっていきましょう。<BR>",$00
   PromptContinue
   Unknown1E $10
-  WriteText "アイリス。<br>",$00
+  WriteText "アイリス。<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $08," どうしたの?<br>",$00
+  WriteText "<NAME> どうしたの?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ みつけたんだけど<br>アイリスの?<br>",$00
+  WriteText "これ みつけたんだけど<BR>アイリスの?<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "あっ! マニアーナ!!<br>",$00
+  WriteText "あっ! マニアーナ!!<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "マニアーナ?<br>",$00
+  WriteText "マニアーナ?<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "うん。<br>その オサルさんの<br>なまえだよ。<br>",$00
+  WriteText "うん。<BR>その オサルさんの<BR>なまえだよ。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText "みつけてくれて ありがとう<br>",$08,"。<br>",$00
+  WriteText "みつけてくれて ありがとう<BR><NAME>。<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "おれいに みんなを<br>しょうかいするね。<br>",$00
+  WriteText "おれいに みんなを<BR>しょうかいするね。<BR>",$00
   PromptContinue
-  WriteText "くまの ジャンポール。<br>いぬの マリー。<br>うさぎの フランシーヌ。<br>",$00
+  WriteText "くまの ジャンポール。<BR>いぬの マリー。<BR>うさぎの フランシーヌ。<BR>",$00
   PromptContinue
-  WriteText "おおありくいの パグー。<br>ほっきょくぐまの ジャン。<br>",$00
+  WriteText "おおありくいの パグー。<BR>ほっきょくぐまの ジャン。<BR>",$00
   PromptContinue
-  WriteText "そして オサルの<br>マニアーナだよ。<br>",$00
+  WriteText "そして オサルの<BR>マニアーナだよ。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "おぼえた? ",$08,"。<br>",$00
+  WriteText "おぼえた? <NAME>。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "くまの ジャンポール。<br>いぬの マリー。<br>うさぎの フランシーヌ。<br>",$00
+  WriteText "くまの ジャンポール。<BR>いぬの マリー。<BR>うさぎの フランシーヌ。<BR>",$00
   PromptContinue
-  WriteText "おおありくいの パグー。<br>ほっきょくぐまの ジャン。<br>",$00
+  WriteText "おおありくいの パグー。<BR>ほっきょくぐまの ジャン。<BR>",$00
   PromptContinue
-  WriteText "で さいごに オサルの‥‥<br>なんだっけ?<br>オサルの‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "で さいごに オサルの‥‥<BR>なんだっけ?<BR>オサルの‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$DF,$CC,$A3,$FB,$CB,$00,$00,$A3,$CC,$DF,$FB,$ED,$00,$01,$B4,$A3,$EB,$00,$02
   Unknown07 $69,$06,$02,$01,$01,$00,$20,$00
@@ -169,56 +169,56 @@ CutsceneScript2E_0::
   Unknown07 $99,$07,$02,$01,$01,$02,$20,$00
   Unknown06 $31,$08
   Unknown0F $00,$01
-  WriteText "マニアーナ‥‥‥そう!<br>オサルの マニアーナね!!<br>",$00
+  WriteText "マニアーナ‥‥‥そう!<BR>オサルの マニアーナね!!<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText "うわー スゴイ スゴイ!<br>ぜんぶいえたーーーっ!!<br>",$00
+  WriteText "うわー スゴイ スゴイ!<BR>ぜんぶいえたーーーっ!!<BR>",$00
   PromptContinue
-  WriteText "さすが ",$08,"だね。<br>アイリスの おともだちを<br>おぼえて くれたんだね。<br>",$00
+  WriteText "さすが <NAME>だね。<BR>アイリスの おともだちを<BR>おぼえて くれたんだね。<BR>",$00
   PromptContinue
-  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとうね。<br>",$00
+  WriteText "それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとうね。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "アニマール‥‥‥そうだ!<br>オサルの アニマール。<br>",$00
+  WriteText "アニマール‥‥‥そうだ!<BR>オサルの アニマール。<BR>",$00
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText "アニマールって<br>それじゃあ アニマルの<br>まんまじゃん!<br>",$00
+  WriteText "アニマールって<BR>それじゃあ アニマルの<BR>まんまじゃん!<BR>",$00
   PromptContinue
-  WriteText "このコは<br>オサルの マニアーナだよ。<br>わかった!? ",$08,"。<br>",$00
+  WriteText "このコは<BR>オサルの マニアーナだよ。<BR>わかった!? <NAME>。<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "ちゃんと おぼえといてね。<br>",$00
+  WriteText "ちゃんと おぼえといてね。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
+  WriteText "それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "コアラ?‥‥‥そうだ!<br>オサルの コアラ。<br>",$00
+  WriteText "コアラ?‥‥‥そうだ!<BR>オサルの コアラ。<BR>",$00
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText "なにそれ!<br>オサルなのに コアラなんて<br>へんだよ!<br>",$00
+  WriteText "なにそれ!<BR>オサルなのに コアラなんて<BR>へんだよ!<BR>",$00
   PromptContinue
-  WriteText "このコは<br>オサルの マニアーナだよ。<br>わかった!? ",$08,"。<br>",$00
+  WriteText "このコは<BR>オサルの マニアーナだよ。<BR>わかった!? <NAME>。<BR>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "ちゃんと おぼえといてね。<br>",$00
+  WriteText "ちゃんと おぼえといてね。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
+  WriteText "それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>あ～んダメ。<br>わすれちゃったわ。<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>あ～んダメ。<BR>わすれちゃったわ。<BR>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "そうだよね。<br>いちどでぜんぶ おぼえられる<br>わけないもんね。<br>",$00
+  WriteText "そうだよね。<BR>いちどでぜんぶ おぼえられる<BR>わけないもんね。<BR>",$00
   PromptContinue
-  WriteText "このコは<br>オサルの マニアーナだよ。<br>ちゃんと おぼえてあげてね。<br>",$00
+  WriteText "このコは<BR>オサルの マニアーナだよ。<BR>ちゃんと おぼえてあげてね。<BR>",$00
   PromptContinue
-  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
+  WriteText "それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>",$00
   PromptContinue
   End
   End

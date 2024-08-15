@@ -11,138 +11,138 @@ CutsceneScript15_0::
   Unknown02
   Unknown09 $5A
   Unknown0C $01
-  WriteText "～だい2しょう～<br>",$01,$07,"ぼうそうエンジンをとめろ",$01,$08,"<br>",$00
+  WriteText "～だい2しょう～<BR>",CHARACTER_EXT_07,"ぼうそうエンジンをとめろ",CHARACTER_EXT_08,"<BR>",$00
   PromptContinue
   Unknown0C $02
   Unknown0E $16
   SetPortrait $0B,$10,$00
   Unknown07 $DC,$0C,$02,$04,$01,$01,$20,$00
   SetPortrait $0B,$10,$00
-  WriteText "みんな あつまってるわね。<br>では こんかいのじけんに<br>ついて かんがえましょう。<br>",$00
+  WriteText "みんな あつまってるわね。<BR>では こんかいのじけんに<BR>ついて かんがえましょう。<BR>",$00
   PromptContinue
-  WriteText "いま おこっているのは<br>ミカサを ちゅうしんとした<br>れいりょくの いへんです。<br>",$00
+  WriteText "いま おこっているのは<BR>ミカサを ちゅうしんとした<BR>れいりょくの いへんです。<BR>",$00
   PromptContinue
-  WriteText "そして そのミカサの<br>なかには まものが いて‥‥<br>",$00
+  WriteText "そして そのミカサの<BR>なかには まものが いて‥‥<BR>",$00
   PromptContinue
-  WriteText "さらに ミカサのなかに <br>いるはずのない<br>まちのひとが いた‥‥<br>",$00
+  WriteText "さらに ミカサのなかに <BR>いるはずのない<BR>まちのひとが いた‥‥<BR>",$00
   PromptContinue
   SetPortrait $01,$14,$0C
-  WriteText "ふつうでは かんがえられない<br>ことですね。<br>",$00
+  WriteText "ふつうでは かんがえられない<BR>ことですね。<BR>",$00
   PromptContinue
   SetPortrait $06,$12,$0A
-  WriteText "おかしいぜ なんで<br>あんなところに まものが<br>いるんだ?<br>",$00
+  WriteText "おかしいぜ なんで<BR>あんなところに まものが<BR>いるんだ?<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "あら それをいうなら <br>まちのひとが ミカサのなかに<br>いたのも おかしいですわよ。<br>",$00
+  WriteText "あら それをいうなら <BR>まちのひとが ミカサのなかに<BR>いたのも おかしいですわよ。<BR>",$00
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "れいりょくのいへん といい<br>まものや まちのひと‥‥<br>おかしなことだらけだわ。<br>",$00
+  WriteText "れいりょくのいへん といい<BR>まものや まちのひと‥‥<BR>おかしなことだらけだわ。<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "ミカサを ちゅうしんに<br>おこっている いへんなら<br>",$00
+  WriteText "ミカサを ちゅうしんに<BR>おこっている いへんなら<BR>",$00
   PromptContinue
-  WriteText "やはり もんだいは<br>ミカサにあるんじゃ<br>ないだろうか?<br>",$00
+  WriteText "やはり もんだいは<BR>ミカサにあるんじゃ<BR>ないだろうか?<BR>",$00
   PromptContinue
   SetPortrait $0D,$13,$03
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $0D,$14,$04
-  WriteText "あっ! ",$01,$07,"まじんき",$01,$08,"!!<br>",$00
+  WriteText "あっ! ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"!!<BR>",$00
   PromptContinue
   SetPortrait $0C,$14,$04
-  WriteText "そうだわ!<br>ミカサに のこしてきた<br>3つの",$01,$07,"まじんき",$01,$08,"!!<br>",$00
+  WriteText "そうだわ!<BR>ミカサに のこしてきた<BR>3つの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"!!<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$01,$07,$8C,$66,$A1,$5B,$01,$08,$79,$72,$52,$74,$5B,$5D,$00,$00,$7D,$78,$65,$A0,$10,$72,$73,$5F,$99,$00,$01
   Unknown07 $55,$0B,$02,$00,$01,$00,$20,$00
   Unknown07 $46,$02,$02,$00,$01,$01,$20,$00
   SetPortrait $05,$10,$08
-  WriteText "‥‥そうか こんかいの<br>じけんは おそらく<br>",$01,$07,"まじんき",$01,$08,"のしわざやで。<br>",$00
+  WriteText "‥‥そうか こんかいの<BR>じけんは おそらく<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"のしわざやで。<BR>",$00
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "どういうことでーすか?!<br>",$00
+  WriteText "どういうことでーすか?!<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "しずんだミカサに のこして<br>きた 3つの",$01,$07,"まじんき",$01,$08,"が<br>なんかの えいきょうで<br>",$00
+  WriteText "しずんだミカサに のこして<BR>きた 3つの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"が<BR>なんかの えいきょうで<BR>",$00
   PromptContinue
-  WriteText "いじょうにたかい<br>れいりょくを<br>はっせい させたんや!!<br>",$00
+  WriteText "いじょうにたかい<BR>れいりょくを<BR>はっせい させたんや!!<BR>",$00
   PromptContinue
-  WriteText "まものは その たかい <br>れいりょくに ひかれて<br>ミカサにあらわれたんや。<br>",$00
+  WriteText "まものは その たかい <BR>れいりょくに ひかれて<BR>ミカサにあらわれたんや。<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText "じゃあ<br>まちのひとたちは?<br>",$00
+  WriteText "じゃあ<BR>まちのひとたちは?<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText $01,$07,"まじんき",$01,$08,"から だされた<br>たかすぎる れいりょくが<br>くうかんを ゆがめたんやな。<br>",$00
+  WriteText CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"から だされた<BR>たかすぎる れいりょくが<BR>くうかんを ゆがめたんやな。<BR>",$00
   PromptContinue
-  WriteText "まちのひとは ゆがめられた<br>くうかんを とおって<br>ミカサへと とばされたんや。<br>",$00
+  WriteText "まちのひとは ゆがめられた<BR>くうかんを とおって<BR>ミカサへと とばされたんや。<BR>",$00
   PromptContinue
-  WriteText "せやから つばきはんのように<br>とつぜん ミカサのなかに<br>あらわれてしまうんや!<br>",$00
+  WriteText "せやから つばきはんのように<BR>とつぜん ミカサのなかに<BR>あらわれてしまうんや!<BR>",$00
   PromptContinue
   SetPortrait $04,$13,$0B
-  WriteText "‥‥アイリス<br>むずかしくて<br>よくわかんないよ‥‥<br>",$00
+  WriteText "‥‥アイリス<BR>むずかしくて<BR>よくわかんないよ‥‥<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "あくまで すいそくだね。<br>",$00
+  WriteText "あくまで すいそくだね。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そうね。レニのいうように<br>",$01,$07,"まじんき",$01,$08,"が げんいんだと<br>いう しょうこはないわね。<br>",$00
+  WriteText "そうね。レニのいうように<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"が げんいんだと<BR>いう しょうこはないわね。<BR>",$00
   PromptContinue
-  WriteText "でも かんがえられる<br>さいだいの げんいんは<br>",$01,$07,"まじんき",$01,$08,"じゃないかしら。<br>",$00
+  WriteText "でも かんがえられる<BR>さいだいの げんいんは<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"じゃないかしら。<BR>",$00
   PromptContinue
-  WriteText "あれほどの れいりょくを<br>だすものは ",$01,$07,"まじんき",$01,$08,"の<br>ほかには ないとおもうの。<br>",$00
+  WriteText "あれほどの れいりょくを<BR>だすものは ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"の<BR>ほかには ないとおもうの。<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "と いうことは ミカサに<br>はいって ",$01,$07,"まじんき",$01,$08,"を<br>さがすんだな。<br>",$00
+  WriteText "と いうことは ミカサに<BR>はいって ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"を<BR>さがすんだな。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "ええ。<br>そういうことに なるわね。<br>",$00
+  WriteText "ええ。<BR>そういうことに なるわね。<BR>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "では せいしきに<br>めいれいします。<br>",$00
+  WriteText "では せいしきに<BR>めいれいします。<BR>",$00
   PromptContinue
-  WriteText $08,"くん あなたに<br>",$01,$07,"まじんき",$01,$08,"かいしゅうの<br>にんむを めいじます。<br>",$00
+  WriteText "<NAME>くん あなたに<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"かいしゅうの<BR>にんむを めいじます。<BR>",$00
   PromptContinue
-  WriteText "ただし ちょうさでわかった<br>ように ミカサのなかには<br>まものがいて きけんです。<br>",$00
+  WriteText "ただし ちょうさでわかった<BR>ように ミカサのなかには<BR>まものがいて きけんです。<BR>",$00
   PromptContinue
-  WriteText "しゅつどうするときには<br>かならず パートナーを<br>つれて しゅつどうすること。<br>",$00
+  WriteText "しゅつどうするときには<BR>かならず パートナーを<BR>つれて しゅつどうすること。<BR>",$00
   PromptContinue
-  WriteText "パートナーは そのとき<br>ての あいている<br>たいいんから えらぶのよ。<br>",$00
+  WriteText "パートナーは そのとき<BR>ての あいている<BR>たいいんから えらぶのよ。<BR>",$00
   PromptContinue
-  WriteText "いいわね。<br>",$00
+  WriteText "いいわね。<BR>",$00
   PromptContinue
   OptionSelectTimed $02,$01,$98,$95,$54,$59,$52,$FA,$00,$00
   Unknown07 $E8,$05,$02,$01,$01,$00,$20,$00
   Unknown06 $7F,$05
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText $08,"くん。<br>しっかりしなさい。<br>",$00
+  WriteText "<NAME>くん。<BR>しっかりしなさい。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "は はい!<br>りょうかい!<br>",$00
+  WriteText "は はい!<BR>りょうかい!<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "がんばりや ",$08,"はん。<br>こうぶの パワーアップは<br>ウチに まかせとき。<br>",$00
+  WriteText "がんばりや <NAME>はん。<BR>こうぶの パワーアップは<BR>ウチに まかせとき。<BR>",$00
   PromptContinue
   Unknown06 $22,$06
   Unknown0F $00,$01
-  WriteText "りょうかい!<br>",$00
+  WriteText "りょうかい!<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "がんばりや ",$08,"はん。<br>こうぶの パワーアップは<br>ウチに まかせとき。<br>",$00
+  WriteText "がんばりや <NAME>はん。<BR>こうぶの パワーアップは<BR>ウチに まかせとき。<BR>",$00
   PromptContinue
   Unknown06 $22,$06
   SetPortrait $06,$10,$08
-  WriteText "ところで かえでさん。<br>",$00
+  WriteText "ところで かえでさん。<BR>",$00
   PromptContinue
-  WriteText "こんかいの にんむは<br>なんていう なまえに<br>するんだい?<br>",$00
+  WriteText "こんかいの にんむは<BR>なんていう なまえに<BR>するんだい?<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "さくせんの なまえね‥‥<br>",$00
+  WriteText "さくせんの なまえね‥‥<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "それなら こんなのは<br>どうですか?<br>",$00
+  WriteText "それなら こんなのは<BR>どうですか?<BR>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$B6,$F5,$C1,$FB,$DD,$ED,$C9,$63,$5D,$69,$A1,$00,$00,$63,$7E,$5D,$7C,$C0,$CD,$AE,$63,$5D,$69,$A1,$00,$01,$B7,$F3,$DA,$A3,$D0,$C4,$B1,$63,$5D,$69,$A1,$00,$02
   Unknown07 $C9,$06,$02,$01,$01,$00,$20,$00
@@ -150,22 +150,22 @@ CutsceneScript15_0::
   Unknown07 $01,$09,$02,$01,$01,$02,$20,$00
   Unknown06 $81,$0A
   Unknown0F $00,$01
-  WriteText "サンダーボルトさくせん<br>なんて どうですか?<br>",$00
+  WriteText "サンダーボルトさくせん<BR>なんて どうですか?<BR>",$00
   PromptContinue
   SetPortrait $06,$11,$09
   Unknown1A $40,$96,$03,$96,$01,$06,$28,$00
-  WriteText "おお!<br>そいつは カッコイイな!<br>それで いいんじゃないか!!<br>",$00
+  WriteText "おお!<BR>そいつは カッコイイな!<BR>それで いいんじゃないか!!<BR>",$00
   PromptContinue
   SetPortrait $09,$11,$08
   Unknown1A $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "ちからづよくて<br>いいなまえだな。<br>",$00
+  WriteText "ちからづよくて<BR>いいなまえだな。<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
   Unknown1A $40,$98,$03,$98,$01,$06,$28,$00
-  WriteText "いいとおもう‥‥<br>",$00
+  WriteText "いいとおもう‥‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "そうね なかなか いい<br>さくせんめいじゃ<br>ないかしら。<br>",$00
+  WriteText "そうね なかなか いい<BR>さくせんめいじゃ<BR>ないかしら。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
   db $01,$75,$7D,$10,$52,$8C,$59,$97,$10,$61,$7C,$79,$A1,$8E,$7D,$0D,$B6,$F5,$C1,$FB ; WriteText
@@ -178,249 +178,249 @@ CutsceneScript15_1::
   PromptContinue
   Unknown06 $36,$0B
   Unknown0F $00,$01
-  WriteText "さばくのタヌキさくせん<br>なんて どうですか?<br>",$00
+  WriteText "さばくのタヌキさくせん<BR>なんて どうですか?<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
   Unknown1A $40,$91,$03,$91,$01,$06,$28,$00
-  WriteText "タヌキって なんだか<br>かわいいですね。<br>",$00
+  WriteText "タヌキって なんだか<BR>かわいいですね。<BR>",$00
   PromptContinue
   SetPortrait $07,$11,$0A
   Unknown1A $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "いっけん おまぬけな<br>なまえですが チャーミングで<br>いいとおもいまーす。<br>",$00
+  WriteText "いっけん おまぬけな<BR>なまえですが チャーミングで<BR>いいとおもいまーす。<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
   Unknown1A $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "わけ わからんけど<br>おもろいやん。<br>",$00
+  WriteText "わけ わからんけど<BR>おもろいやん。<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "そうね たしかに<br>おもしろいんだけど‥‥<br>",$00
+  WriteText "そうね たしかに<BR>おもしろいんだけど‥‥<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "イマイチなんだな。<br>かえでさんは。<br>",$00
+  WriteText "イマイチなんだな。<BR>かえでさんは。<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "ええ‥‥ おエライさんに<br>わたす ほうこくしょにも<br>かかなきゃ いけないし‥‥<br>",$00
+  WriteText "ええ‥‥ おエライさんに<BR>わたす ほうこくしょにも<BR>かかなきゃ いけないし‥‥<BR>",$00
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "それでは<br>サンダーボルトさくせん<br>というのは どうですか?<br>",$00
+  WriteText "それでは<BR>サンダーボルトさくせん<BR>というのは どうですか?<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "あら それ いいじゃない。<br>",$00
+  WriteText "あら それ いいじゃない。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では いまから このにんむは<br>サンダーボルトさくせんと<br>よびます。<br>",$00
+  WriteText "では いまから このにんむは<BR>サンダーボルトさくせんと<BR>よびます。<BR>",$00
   PromptContinue
   Unknown06 $36,$0B
   Unknown0F $00,$01
-  WriteText "ザ・ベアハッグさくせん<br>なんて どうですか?<br>",$00
+  WriteText "ザ・ベアハッグさくせん<BR>なんて どうですか?<BR>",$00
   PromptContinue
   SetPortrait $04,$11,$09
   Unknown1A $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText "ベアって クマちゃんだね。<br>アイリス いいとおもうよ。<br>",$00
+  WriteText "ベアって クマちゃんだね。<BR>アイリス いいとおもうよ。<BR>",$00
   PromptContinue
   SetPortrait $02,$11,$09
   Unknown1A $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "ことばの ひびきは<br>かっこいいですわね。<br>",$00
+  WriteText "ことばの ひびきは<BR>かっこいいですわね。<BR>",$00
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "まあ さくせんめいに<br>いみなんて ないから<br>",$00
+  WriteText "まあ さくせんめいに<BR>いみなんて ないから<BR>",$00
   PromptContinue
   Unknown1A $40,$93,$03,$93,$01,$04,$28,$00
-  WriteText $08,"くんが<br>いいとおもうなら それで<br>いいんじゃ ないかしら。<br>",$00
+  WriteText "<NAME>くんが<BR>いいとおもうなら それで<BR>いいんじゃ ないかしら。<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "う～ん‥‥<br>それは そうなんだけど‥‥<br>",$00
+  WriteText "う～ん‥‥<BR>それは そうなんだけど‥‥<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "イマイチなんだな。<br>かえでさんは。<br>",$00
+  WriteText "イマイチなんだな。<BR>かえでさんは。<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "そうね‥‥ おエライさんに<br>わたす ほうこくしょにも<br>かかなきゃ いけないし‥‥<br>",$00
+  WriteText "そうね‥‥ おエライさんに<BR>わたす ほうこくしょにも<BR>かかなきゃ いけないし‥‥<BR>",$00
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "それでは<br>サンダーボルトさくせん<br>というのは どうですか?<br>",$00
+  WriteText "それでは<BR>サンダーボルトさくせん<BR>というのは どうですか?<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "あら それ いいじゃない。<br>",$00
+  WriteText "あら それ いいじゃない。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では いまから このにんむは<br>サンダーボルトさくせんと<br>よびます。<br>",$00
+  WriteText "では いまから このにんむは<BR>サンダーボルトさくせんと<BR>よびます。<BR>",$00
   PromptContinue
   Unknown06 $36,$0B
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $06,$15,$0D
-  WriteText "なんだよ いいアイデアが<br>あったんじゃ ないのかよ～。<br>",$00
+  WriteText "なんだよ いいアイデアが<BR>あったんじゃ ないのかよ～。<BR>",$00
   PromptContinue
-  WriteText "しかたねーな。<br>それじゃあ あたいが<br>きめてやろう!<br>",$00
+  WriteText "しかたねーな。<BR>それじゃあ あたいが<BR>きめてやろう!<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "サンダーボルトさくせん<br>なんて どうだい?!<br>",$00
+  WriteText "サンダーボルトさくせん<BR>なんて どうだい?!<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "あら それ いいじゃない。<br>",$00
+  WriteText "あら それ いいじゃない。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では いまから このにんむは<br>サンダーボルトさくせんと<br>よびます。<br>",$00
+  WriteText "では いまから このにんむは<BR>サンダーボルトさくせんと<BR>よびます。<BR>",$00
   PromptContinue
   Unknown06 $36,$0B
   SetPortrait $0B,$10,$00
-  WriteText $08,"くん<br>サンダーボルトさくせん<br>かいしよ!!<br>",$00
+  WriteText "<NAME>くん<BR>サンダーボルトさくせん<BR>かいしよ!!<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "すみません。<br>",$01,$07,"まじんき",$01,$08,"ってなんですか?<br>",$00
+  WriteText "すみません。<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"ってなんですか?<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $01,$07,"まじんき",$01,$08,"は むかしから<br>ていとにあった <br>まじゅつてきな どうぐなの。<br>",$00
+  WriteText CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"は むかしから<BR>ていとにあった <BR>まじゅつてきな どうぐなの。<BR>",$00
   PromptContinue
-  WriteText $01,$07,"まじんき",$01,$08,"には ",$01,$07,"けん",$01,$08,"と<br>",$01,$07,"たま",$01,$08,"と",$01,$07,"かがみ",$01,$08,"の<br>3つのしゅるいがあるのよ。<br>",$00
+  WriteText CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"には ",CHARACTER_EXT_07,"けん",CHARACTER_EXT_08,"と<BR>",CHARACTER_EXT_07,"たま",CHARACTER_EXT_08,"と",CHARACTER_EXT_07,"かがみ",CHARACTER_EXT_08,"の<BR>3つのしゅるいがあるのよ。<BR>",$00
   PromptContinue
-  WriteText "そのちからは きょうだいで<br>それを つかうものに<br>よっては<br>",$00
+  WriteText "そのちからは きょうだいで<BR>それを つかうものに<BR>よっては<BR>",$00
   PromptContinue
-  WriteText "せいぎにも あくにもなる<br>とても きけんなどうぐなの。<br>",$00
+  WriteText "せいぎにも あくにもなる<BR>とても きけんなどうぐなの。<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "それが いちねんまえ<br>せかいを ほろぼそうとした<br>おとこに りようされたのよ。<br>",$00
+  WriteText "それが いちねんまえ<BR>せかいを ほろぼそうとした<BR>おとこに りようされたのよ。<BR>",$00
   PromptContinue
-  WriteText "そのときは はなぐみの<br>かつやくで そのおとこを<br>たおすことができた。<br>",$00
+  WriteText "そのときは はなぐみの<BR>かつやくで そのおとこを<BR>たおすことができた。<BR>",$00
   PromptContinue
-  WriteText "でも ",$01,$07,"まじんき",$01,$08,"は<br>そのおとこと いっしょに<br>うみにしずんでしまった‥‥<br>",$00
+  WriteText "でも ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"は<BR>そのおとこと いっしょに<BR>うみにしずんでしまった‥‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "それが いまの<br>ミカサきねんこうえんが<br>あるところなのよ。<br>",$00
+  WriteText "それが いまの<BR>ミカサきねんこうえんが<BR>あるところなのよ。<BR>",$00
   PromptContinue
-  WriteText "わかったかしら。<br>では はなしを<br>つづけましょう。<br>",$00
+  WriteText "わかったかしら。<BR>では はなしを<BR>つづけましょう。<BR>",$00
   PromptContinue
   Unknown06 $46,$02
-  WriteText "みんな あつまってるわね。<br>では ",$08,"の<br>ほうこくをもとに<br>",$00
+  WriteText "みんな あつまってるわね。<BR>では <NAME>の<BR>ほうこくをもとに<BR>",$00
   PromptContinue
-  WriteText "こんかいの じけんについて<br>かんがえましょう。<br>",$00
+  WriteText "こんかいの じけんについて<BR>かんがえましょう。<BR>",$00
   PromptContinue
-  WriteText "いま おこっているのは<br>ミカサを ちゅうしんとした<br>れいりょくの いへんです。<br>",$00
+  WriteText "いま おこっているのは<BR>ミカサを ちゅうしんとした<BR>れいりょくの いへんです。<BR>",$00
   PromptContinue
-  WriteText "そして そのミカサの<br>なかには まものが いて‥‥<br>",$00
+  WriteText "そして そのミカサの<BR>なかには まものが いて‥‥<BR>",$00
   PromptContinue
-  WriteText "さらに ミカサのなかに <br>いるはずのない<br>まちのひとが いた‥‥<br>",$00
+  WriteText "さらに ミカサのなかに <BR>いるはずのない<BR>まちのひとが いた‥‥<BR>",$00
   PromptContinue
   SetPortrait $01,$14,$0C
-  WriteText "ふつうでは かんがえられない<br>ことですね。<br>",$00
+  WriteText "ふつうでは かんがえられない<BR>ことですね。<BR>",$00
   PromptContinue
   SetPortrait $06,$12,$0A
-  WriteText "おかしいぜ なんで<br>あんなところに まものが<br>いるんだ?<br>",$00
+  WriteText "おかしいぜ なんで<BR>あんなところに まものが<BR>いるんだ?<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "あら それをいうなら <br>まちのひとが ミカサのなかに<br>いたのも おかしいですわよ。<br>",$00
+  WriteText "あら それをいうなら <BR>まちのひとが ミカサのなかに<BR>いたのも おかしいですわよ。<BR>",$00
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "れいりょくのいへん といい<br>まものや まちのひと‥‥<br>おかしなことだらけだわ。<br>",$00
+  WriteText "れいりょくのいへん といい<BR>まものや まちのひと‥‥<BR>おかしなことだらけだわ。<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "ミカサを ちゅうしんに<br>おこっている いへんなら<br>",$00
+  WriteText "ミカサを ちゅうしんに<BR>おこっている いへんなら<BR>",$00
   PromptContinue
-  WriteText "やはり もんだいは<br>ミカサにあるんじゃ<br>ないだろうか?<br>",$00
+  WriteText "やはり もんだいは<BR>ミカサにあるんじゃ<BR>ないだろうか?<BR>",$00
   PromptContinue
   SetPortrait $0D,$13,$03
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $0D,$14,$04
-  WriteText "あっ! ",$01,$07,"まじんき",$01,$08,"!!<br>",$00
+  WriteText "あっ! ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"!!<BR>",$00
   PromptContinue
   SetPortrait $0C,$14,$04
-  WriteText "そうだわ!<br>ミカサに のこしてきた<br>3つの",$01,$07,"まじんき",$01,$08,"!!<br>",$00
+  WriteText "そうだわ!<BR>ミカサに のこしてきた<BR>3つの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"!!<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$01,$07,$8C,$66,$A1,$5B,$01,$08,$79,$72,$52,$74,$5B,$5D,$00,$00,$7D,$78,$65,$A0,$10,$72,$73,$5F,$99,$00,$01
   Unknown07 $4D,$18,$02,$00,$01,$00,$20,$00
   Unknown07 $E6,$0E,$02,$00,$01,$01,$20,$00
   SetPortrait $05,$10,$08
-  WriteText "‥‥そうか こんかいの<br>じけんは おそらく<br>",$01,$07,"まじんき",$01,$08,"のしわざやで。<br>",$00
+  WriteText "‥‥そうか こんかいの<BR>じけんは おそらく<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"のしわざやで。<BR>",$00
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "どういうことでーすか?!<br>",$00
+  WriteText "どういうことでーすか?!<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "しずんだミカサに のこして<br>きた 3つの",$01,$07,"まじんき",$01,$08,"が<br>なんかの えいきょうで<br>",$00
+  WriteText "しずんだミカサに のこして<BR>きた 3つの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"が<BR>なんかの えいきょうで<BR>",$00
   PromptContinue
-  WriteText "いじょうにたかい<br>れいりょくを<br>はっせい させたんや!!<br>",$00
+  WriteText "いじょうにたかい<BR>れいりょくを<BR>はっせい させたんや!!<BR>",$00
   PromptContinue
-  WriteText "まものは その たかい <br>れいりょくに ひかれて<br>ミカサにあらわれたんや。<br>",$00
+  WriteText "まものは その たかい <BR>れいりょくに ひかれて<BR>ミカサにあらわれたんや。<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText "じゃあ<br>まちのひとたちは?<br>",$00
+  WriteText "じゃあ<BR>まちのひとたちは?<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText $01,$07,"まじんき",$01,$08,"から だされた<br>たかすぎる れいりょくが<br>くうかんを ゆがめたんやな。<br>",$00
+  WriteText CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"から だされた<BR>たかすぎる れいりょくが<BR>くうかんを ゆがめたんやな。<BR>",$00
   PromptContinue
-  WriteText "まちのひとは ゆがめられた<br>くうかんを とおって<br>ミカサへと とばされたんや。<br>",$00
+  WriteText "まちのひとは ゆがめられた<BR>くうかんを とおって<BR>ミカサへと とばされたんや。<BR>",$00
   PromptContinue
-  WriteText "せやから つばきはんのように<br>とつぜん ミカサのなかに<br>あらわれてしまうんや!<br>",$00
+  WriteText "せやから つばきはんのように<BR>とつぜん ミカサのなかに<BR>あらわれてしまうんや!<BR>",$00
   PromptContinue
   SetPortrait $04,$13,$0B
-  WriteText "‥‥アイリス<br>むずかしくて<br>よくわかんないよ‥‥<br>",$00
+  WriteText "‥‥アイリス<BR>むずかしくて<BR>よくわかんないよ‥‥<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "あくまで すいそくだね。<br>",$00
+  WriteText "あくまで すいそくだね。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そうね。レニのいうように<br>",$01,$07,"まじんき",$01,$08,"が げんいんだと<br>いう しょうこはないわね。<br>",$00
+  WriteText "そうね。レニのいうように<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"が げんいんだと<BR>いう しょうこはないわね。<BR>",$00
   PromptContinue
-  WriteText "でも かんがえられる<br>さいだいの げんいんは<br>",$01,$07,"まじんき",$01,$08,"じゃないかしら。<br>",$00
+  WriteText "でも かんがえられる<BR>さいだいの げんいんは<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"じゃないかしら。<BR>",$00
   PromptContinue
-  WriteText "あれほどの れいりょくを<br>だすものは ",$01,$07,"まじんき",$01,$08,"の<br>ほかには ないとおもうの。<br>",$00
+  WriteText "あれほどの れいりょくを<BR>だすものは ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"の<BR>ほかには ないとおもうの。<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "と いうことは ミカサに<br>はいって ",$01,$07,"まじんき",$01,$08,"を<br>さがすんだな。<br>",$00
+  WriteText "と いうことは ミカサに<BR>はいって ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"を<BR>さがすんだな。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "ええ。<br>そういうことに なるわね。<br>",$00
+  WriteText "ええ。<BR>そういうことに なるわね。<BR>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "では せいしきに<br>めいれいします。<br>",$00
+  WriteText "では せいしきに<BR>めいれいします。<BR>",$00
   PromptContinue
-  WriteText $08," あなたに<br>",$01,$07,"まじんき",$01,$08,"かいしゅうの<br>にんむを めいじます。<br>",$00
+  WriteText "<NAME> あなたに<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"かいしゅうの<BR>にんむを めいじます。<BR>",$00
   PromptContinue
-  WriteText "ただし ちょうさでわかった<br>ように ミカサのなかには<br>まものがいて きけんです。<br>",$00
+  WriteText "ただし ちょうさでわかった<BR>ように ミカサのなかには<BR>まものがいて きけんです。<BR>",$00
   PromptContinue
-  WriteText "しゅつどうするときには<br>かならず パートナーを<br>つれて しゅつどうすること。<br>",$00
+  WriteText "しゅつどうするときには<BR>かならず パートナーを<BR>つれて しゅつどうすること。<BR>",$00
   PromptContinue
-  WriteText "パートナーは そのとき<br>ての あいている<br>たいいんから えらぶのよ。<br>",$00
+  WriteText "パートナーは そのとき<BR>ての あいている<BR>たいいんから えらぶのよ。<BR>",$00
   PromptContinue
-  WriteText "いいわね。<br>",$00
+  WriteText "いいわね。<BR>",$00
   PromptContinue
   OptionSelectTimed $03,$01,$98,$95,$54,$59,$52,$FA,$00,$00
   Unknown07 $84,$12,$02,$01,$01,$00,$20,$00
   Unknown06 $1D,$12
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText $08,"。<br>しっかりしなさい。<br>",$00
+  WriteText "<NAME>。<BR>しっかりしなさい。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "は はい!<br>りょうかい!<br>",$00
+  WriteText "は はい!<BR>りょうかい!<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "がんばりや ",$08,"はん。<br>こうぶの パワーアップは<br>ウチに まかせとき。<br>",$00
+  WriteText "がんばりや <NAME>はん。<BR>こうぶの パワーアップは<BR>ウチに まかせとき。<BR>",$00
   PromptContinue
   Unknown06 $BE,$12
   Unknown0F $00,$01
-  WriteText "りょうかい!<br>",$00
+  WriteText "りょうかい!<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "がんばりや ",$08,"はん。<br>こうぶの パワーアップは<br>ウチに まかせとき。<br>",$00
+  WriteText "がんばりや <NAME>はん。<BR>こうぶの パワーアップは<BR>ウチに まかせとき。<BR>",$00
   PromptContinue
   Unknown06 $BE,$12
   SetPortrait $06,$10,$08
-  WriteText "ところで かえでさん。<br>",$00
+  WriteText "ところで かえでさん。<BR>",$00
   PromptContinue
-  WriteText "こんかいの にんむは<br>なんていう なまえに<br>するんだい?<br>",$00
+  WriteText "こんかいの にんむは<BR>なんていう なまえに<BR>するんだい?<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "さくせんの なまえね‥‥<br>",$00
+  WriteText "さくせんの なまえね‥‥<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "それなら こんなのは<br>どうでしょうか?<br>",$00
+  WriteText "それなら こんなのは<BR>どうでしょうか?<BR>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$B6,$F5,$C1,$FB,$DD,$ED,$C9,$63,$5D,$69,$A1,$00,$00,$B0,$DF,$6F,$91,$A1,$6E,$52,$63,$5D,$69,$A1,$00,$01,$C8,$BA,$F3,$CA,$EB,$B5,$F5,$63,$5D,$69,$A1,$00,$02
   Unknown07 $67,$13,$02,$01,$01,$00,$20,$00
@@ -428,148 +428,148 @@ CutsceneScript15_1::
   Unknown07 $D5,$15,$02,$01,$01,$02,$20,$00
   Unknown06 $7A,$17
   Unknown0F $00,$01
-  WriteText "サンダーボルトさくせん<br>なんて どうですか?<br>",$00
+  WriteText "サンダーボルトさくせん<BR>なんて どうですか?<BR>",$00
   PromptContinue
   SetPortrait $06,$11,$09
   Unknown1A $40,$96,$03,$96,$01,$06,$28,$00
-  WriteText "おお!<br>そいつは カッコイイな!<br>それで いいんじゃないか!!<br>",$00
+  WriteText "おお!<BR>そいつは カッコイイな!<BR>それで いいんじゃないか!!<BR>",$00
   PromptContinue
   SetPortrait $09,$11,$08
   Unknown1A $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "ちからづよくて<br>いいなまえだな。<br>さすが ",$08,"くん。<br>",$00
+  WriteText "ちからづよくて<BR>いいなまえだな。<BR>さすが <NAME>くん。<BR>",$00
   PromptContinue
   SetPortrait $08,$11,$09
   Unknown1A $40,$98,$03,$98,$01,$06,$28,$00
-  WriteText "いいとおもう‥‥<br>",$00
+  WriteText "いいとおもう‥‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "そうね なかなか いい<br>さくせんめいじゃ<br>ないかしら。<br>",$00
+  WriteText "そうね なかなか いい<BR>さくせんめいじゃ<BR>ないかしら。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では いまから このにんむは<br>サンダーボルトさくせんと<br>よびます。<br>",$00
+  WriteText "では いまから このにんむは<BR>サンダーボルトさくせんと<BR>よびます。<BR>",$00
   PromptContinue
   Unknown06 $2F,$18
   Unknown0F $00,$01
-  WriteText "クマちゃんだいさくせん<br>なんて どうですか?<br>",$00
+  WriteText "クマちゃんだいさくせん<BR>なんて どうですか?<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "なんだか かわいい<br>さくせんめいですね。<br>",$00
+  WriteText "なんだか かわいい<BR>さくせんめいですね。<BR>",$00
   PromptContinue
   Unknown1A $40,$91,$03,$91,$01,$06,$28,$00
-  WriteText "たまには そんなのも<br>いいかもしれませんね。<br>",$00
+  WriteText "たまには そんなのも<BR>いいかもしれませんね。<BR>",$00
   PromptContinue
   SetPortrait $04,$11,$09
   Unknown1A $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText "わーい クマちゃんだー!<br>アイリス これがいい!!<br>",$00
+  WriteText "わーい クマちゃんだー!<BR>アイリス これがいい!!<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText $01,$07,"だいさくせん",$01,$08,"って<br>なんだか けいきのいい<br>なまえですわね。<br>",$00
+  WriteText CHARACTER_EXT_07,"だいさくせん",CHARACTER_EXT_08,"って<BR>なんだか けいきのいい<BR>なまえですわね。<BR>",$00
   PromptContinue
   Unknown1A $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "いいんじゃ ありませんか?<br>",$00
+  WriteText "いいんじゃ ありませんか?<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "う～ん‥‥<br>そうなんだけど‥‥<br>",$00
+  WriteText "う～ん‥‥<BR>そうなんだけど‥‥<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "イマイチなんだな。<br>かえでさんは。<br>",$00
+  WriteText "イマイチなんだな。<BR>かえでさんは。<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "そうね‥‥ おエライさんに<br>わたす ほうこくしょにも<br>かかなきゃ いけないし‥‥<br>",$00
+  WriteText "そうね‥‥ おエライさんに<BR>わたす ほうこくしょにも<BR>かかなきゃ いけないし‥‥<BR>",$00
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "それでは<br>サンダーボルトさくせん<br>というのは どうですか?<br>",$00
+  WriteText "それでは<BR>サンダーボルトさくせん<BR>というのは どうですか?<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "あら それ いいじゃない。<br>",$00
+  WriteText "あら それ いいじゃない。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では いまから このにんむは<br>サンダーボルトさくせんと<br>よびます。<br>",$00
+  WriteText "では いまから このにんむは<BR>サンダーボルトさくせんと<BR>よびます。<BR>",$00
   PromptContinue
   Unknown06 $2F,$18
   Unknown0F $00,$01
-  WriteText "デス・ドラゴンさくせん<br>なんて どうですか?<br>",$00
+  WriteText "デス・ドラゴンさくせん<BR>なんて どうですか?<BR>",$00
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "Oh!<br>ぶきみな なまえでーすね。<br>",$00
+  WriteText "Oh!<BR>ぶきみな なまえでーすね。<BR>",$00
   PromptContinue
   Unknown1A $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "せいぎのみかた とは<br>おもえませんが<br>いさましいでーす!<br>",$00
+  WriteText "せいぎのみかた とは<BR>おもえませんが<BR>いさましいでーす!<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
   Unknown1A $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "おお! ドラゴンといえば<br>りゅうのことやな!<br>ちゅうごくでは えんぎエエ!<br>",$00
+  WriteText "おお! ドラゴンといえば<BR>りゅうのことやな!<BR>ちゅうごくでは えんぎエエ!<BR>",$00
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "まあ さくせんめいに<br>いみなんて ないから<br>",$00
+  WriteText "まあ さくせんめいに<BR>いみなんて ないから<BR>",$00
   PromptContinue
   Unknown1A $40,$93,$03,$93,$01,$04,$28,$00
-  WriteText $08,"が<br>いいとおもうなら それで<br>いいんじゃ ないかしら。<br>",$00
+  WriteText "<NAME>が<BR>いいとおもうなら それで<BR>いいんじゃ ないかしら。<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "う～ん‥‥<br>それは そうなんだけど‥‥<br>",$00
+  WriteText "う～ん‥‥<BR>それは そうなんだけど‥‥<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "イマイチなんだな。<br>かえでさんは。<br>",$00
+  WriteText "イマイチなんだな。<BR>かえでさんは。<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "そうね‥‥ おエライさんに<br>わたす ほうこくしょにも<br>かかなきゃ いけないし‥‥<br>",$00
+  WriteText "そうね‥‥ おエライさんに<BR>わたす ほうこくしょにも<BR>かかなきゃ いけないし‥‥<BR>",$00
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "それでは<br>サンダーボルトさくせん<br>というのは どうですか?<br>",$00
+  WriteText "それでは<BR>サンダーボルトさくせん<BR>というのは どうですか?<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "あら それ いいじゃない。<br>",$00
+  WriteText "あら それ いいじゃない。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では いまから このにんむは<br>サンダーボルトさくせんと<br>よびます。<br>",$00
+  WriteText "では いまから このにんむは<BR>サンダーボルトさくせんと<BR>よびます。<BR>",$00
   PromptContinue
   Unknown06 $2F,$18
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $06,$15,$0D
-  WriteText "なんだよ いいアイデアが<br>あったんじゃ ないのかよ～。<br>",$00
+  WriteText "なんだよ いいアイデアが<BR>あったんじゃ ないのかよ～。<BR>",$00
   PromptContinue
-  WriteText "しかたねーな。<br>それじゃあ あたいが<br>きめてやろう!<br>",$00
+  WriteText "しかたねーな。<BR>それじゃあ あたいが<BR>きめてやろう!<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "サンダーボルトさくせん<br>なんて どうだい?!<br>",$00
+  WriteText "サンダーボルトさくせん<BR>なんて どうだい?!<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "あら それ いいじゃない。<br>",$00
+  WriteText "あら それ いいじゃない。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では いまから このにんむは<br>サンダーボルトさくせんと<br>よびます。<br>",$00
+  WriteText "では いまから このにんむは<BR>サンダーボルトさくせんと<BR>よびます。<BR>",$00
   PromptContinue
   Unknown06 $2F,$18
   SetPortrait $0B,$10,$00
-  WriteText $08,"。<br>サンダーボルトさくせん<br>かいしよ!!<br>",$00
+  WriteText "<NAME>。<BR>サンダーボルトさくせん<BR>かいしよ!!<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "すみません。<br>",$01,$07,"まじんき",$01,$08,"ってなんですか?<br>",$00
+  WriteText "すみません。<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"ってなんですか?<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $01,$07,"まじんき",$01,$08,"は むかしから<br>ていとにあった <br>まじゅつてきな どうぐなの。<br>",$00
+  WriteText CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"は むかしから<BR>ていとにあった <BR>まじゅつてきな どうぐなの。<BR>",$00
   PromptContinue
-  WriteText $01,$07,"まじんき",$01,$08,"には ",$01,$07,"けん",$01,$08,"と<br>",$01,$07,"たま",$01,$08,"と",$01,$07,"かがみ",$01,$08,"の<br>3つのしゅるいがあるのよ。<br>",$00
+  WriteText CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"には ",CHARACTER_EXT_07,"けん",CHARACTER_EXT_08,"と<BR>",CHARACTER_EXT_07,"たま",CHARACTER_EXT_08,"と",CHARACTER_EXT_07,"かがみ",CHARACTER_EXT_08,"の<BR>3つのしゅるいがあるのよ。<BR>",$00
   PromptContinue
-  WriteText "そのちからは きょうだいで<br>それを つかうものに<br>よっては<br>",$00
+  WriteText "そのちからは きょうだいで<BR>それを つかうものに<BR>よっては<BR>",$00
   PromptContinue
-  WriteText "せいぎにも あくにもなる<br>とても きけんなどうぐなの。<br>",$00
+  WriteText "せいぎにも あくにもなる<BR>とても きけんなどうぐなの。<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "それが いちねんまえ<br>せかいを ほろぼそうとした<br>おとこに りようされたのよ。<br>",$00
+  WriteText "それが いちねんまえ<BR>せかいを ほろぼそうとした<BR>おとこに りようされたのよ。<BR>",$00
   PromptContinue
-  WriteText "そのときは はなぐみの<br>かつやくで そのおとこを<br>たおすことができた。<br>",$00
+  WriteText "そのときは はなぐみの<BR>かつやくで そのおとこを<BR>たおすことができた。<BR>",$00
   PromptContinue
-  WriteText "でも ",$01,$07,"まじんき",$01,$08,"は<br>そのおとこと いっしょに<br>うみにしずんでしまった‥‥<br>",$00
+  WriteText "でも ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"は<BR>そのおとこと いっしょに<BR>うみにしずんでしまった‥‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "それが いまの<br>ミカサきねんこうえんが<br>あるところなのよ。<br>",$00
+  WriteText "それが いまの<BR>ミカサきねんこうえんが<BR>あるところなのよ。<BR>",$00
   PromptContinue
-  WriteText "わかったかしら。<br>では はなしを<br>つづけましょう。<br>",$00
+  WriteText "わかったかしら。<BR>では はなしを<BR>つづけましょう。<BR>",$00
   PromptContinue
   Unknown06 $E6,$0E
   End

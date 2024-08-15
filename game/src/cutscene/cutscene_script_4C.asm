@@ -10,15 +10,15 @@ CutsceneScript4C_0::
   Unknown0E $16
   Unknown12 $04
   Unknown02
-  WriteText "こんにちわ!<br>あたし たかむら つばき<br>っていいます。<br>",$00
+  WriteText "こんにちわ!<BR>あたし たかむら つばき<BR>っていいます。<BR>",$00
   PromptContinue
   SetPortrait $0E,$10,$00
-  WriteText "かすみさんや ゆりさんと<br>いっしょに あなたの<br>サポートを やりますから<br>",$00
+  WriteText "かすみさんや ゆりさんと<BR>いっしょに あなたの<BR>サポートを やりますから<BR>",$00
   PromptContinue
-  WriteText "わからないことがあったら<br>いつでも つうしんで<br>れんらくください!<br>",$00
+  WriteText "わからないことがあったら<BR>いつでも つうしんで<BR>れんらくください!<BR>",$00
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText "おうえんしてますからね!<br>ファイト! ファイト!<br>がんばってくださいね!<br>",$00
+  WriteText "おうえんしてますからね!<BR>ファイト! ファイト!<BR>がんばってくださいね!<BR>",$00
   PromptContinue
   End
   End

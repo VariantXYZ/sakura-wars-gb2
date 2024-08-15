@@ -11,30 +11,30 @@ CutsceneScript14_0::
   Unknown12 $04
   Unknown02
   Unknown07 $80,$00,$02,$04,$01,$01,$20,$00
-  WriteText $08,"さん。<br>ありがとうございました。<br>",$00
+  WriteText "<NAME>さん。<BR>ありがとうございました。<BR>",$00
   PromptContinue
-  WriteText "ほんとうに たすかりました。<br>",$00
+  WriteText "ほんとうに たすかりました。<BR>",$00
   PromptContinue
-  WriteText "これ おれいです。<br>",$00
+  WriteText "これ おれいです。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B,"ですね。<br>ありがとうございます。<br>",$00
+  WriteText CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,"ですね。<BR>ありがとうございます。<BR>",$00
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText "にんむ がんばって<br>くださいね。<br>",$00
+  WriteText "にんむ がんばって<BR>くださいね。<BR>",$00
   PromptContinue
   End
-  WriteText $08,"さん。<br>ありがとうございました。<br>",$00
+  WriteText "<NAME>さん。<BR>ありがとうございました。<BR>",$00
   PromptContinue
-  WriteText "ほんとうに たすかりました。<br>",$00
+  WriteText "ほんとうに たすかりました。<BR>",$00
   PromptContinue
-  WriteText "これ おれいです。<br>",$00
+  WriteText "これ おれいです。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B,"ですね。<br>ありがとうございます。<br>",$00
+  WriteText CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,"ですね。<BR>ありがとうございます。<BR>",$00
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText "にんむ がんばって<br>くださいね。<br>",$00
+  WriteText "にんむ がんばって<BR>くださいね。<BR>",$00
   PromptContinue
   End
   End

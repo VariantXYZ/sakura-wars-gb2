@@ -11,202 +11,202 @@ CutsceneScript23_0::
   Unknown12 $01
   Unknown02
   Unknown07 $B1,$03,$02,$04,$01,$01,$20,$00
-  WriteText $08,"くん<br>おつかれさま。<br>",$00
+  WriteText "<NAME>くん<BR>おつかれさま。<BR>",$00
   PromptContinue
-  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
+  WriteText "では ほうこくを<BR>おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<br>",$01,$07,"まじんき・かがみ",$01,$08,"を<br>かいしゅうしてきました。<br>",$00
+  WriteText "はい。<BR>",CHARACTER_EXT_07,"まじんき・かがみ",CHARACTER_EXT_08,"を<BR>かいしゅうしてきました。<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "これで ",$01,$07,"まじんき",$01,$08,"が<br>3つそろったわ。<br>",$00
+  WriteText "これで ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"が<BR>3つそろったわ。<BR>",$00
   PromptContinue
-  WriteText "ほんとうに よくやったわね。<br>",$08,"くん。<br>",$00
+  WriteText "ほんとうに よくやったわね。<BR><NAME>くん。<BR>",$00
   PromptContinue
   SetPortrait $06,$11,$09
-  WriteText "さすがだぜ ",$08,"!<br>",$00
+  WriteText "さすがだぜ <NAME>!<BR>",$00
   PromptContinue
   SetPortrait $02,$11,$09
-  WriteText "おめでとう ",$08,"さん。<br>",$00
+  WriteText "おめでとう <NAME>さん。<BR>",$00
   PromptContinue
   SetPortrait $03,$13,$0B
-  WriteText "よくやりましたね。<br>",$08,"くん。<br>",$00
+  WriteText "よくやりましたね。<BR><NAME>くん。<BR>",$00
   PromptContinue
   SetPortrait $04,$11,$09
-  WriteText "やったね! ",$08,"!!<br>ジャンポールも スゴイって<br>いってるよ!!<br>",$00
+  WriteText "やったね! <NAME>!!<BR>ジャンポールも スゴイって<BR>いってるよ!!<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "さすが ",$08,"はん。<br>やるなぁ～。<br>かっこええで。<br>",$00
+  WriteText "さすが <NAME>はん。<BR>やるなぁ～。<BR>かっこええで。<BR>",$00
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText "すごいでーす!<br>",$08,"さんが いれば<br>オニに かなぼうでーす。<br>",$00
+  WriteText "すごいでーす!<BR><NAME>さんが いれば<BR>オニに かなぼうでーす。<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "よくやった‥‥",$08,"。<br>",$00
+  WriteText "よくやった‥‥<NAME>。<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "すごいですよ ",$08,"さん<br>よくがんばりましたね。<br>おつかれさまでした。<br>",$00
+  WriteText "すごいですよ <NAME>さん<BR>よくがんばりましたね。<BR>おつかれさまでした。<BR>",$00
   PromptContinue
   SetPortrait $09,$11,$08
-  WriteText $08,"くん よくやった。<br>",$00
+  WriteText "<NAME>くん よくやった。<BR>",$00
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText $08,"さん‥‥<br>ステキです‥‥",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "<NAME>さん‥‥<BR>ステキです‥‥",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText $08,"ちゃん<br>やるじゃな～い。<br>ステキよ～ん",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "<NAME>ちゃん<BR>やるじゃな～い。<BR>ステキよ～ん",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText $08,"さん ありがとう。<br>",$01,$07,"まじんき",$01,$08,"を ぜんぶ<br>かいしゅうしてくれて。<br>",$00
+  WriteText "<NAME>さん ありがとう。<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"を ぜんぶ<BR>かいしゅうしてくれて。<BR>",$00
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText $08,"さん やりましたね<br>おつかれさまでした。<br>",$00
+  WriteText "<NAME>さん やりましたね<BR>おつかれさまでした。<BR>",$00
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText $08,"くん さすが!<br>やるわね～。<br>カッコイイわよ。<br>",$00
+  WriteText "<NAME>くん さすが!<BR>やるわね～。<BR>カッコイイわよ。<BR>",$00
   PromptContinue
   SetPortrait $0C,$11,$01
-  WriteText $08,"さん ほんとうに<br>おつかれさまでした。<br>",$00
+  WriteText "<NAME>さん ほんとうに<BR>おつかれさまでした。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ありがとうございます。<br>みなさんのたすけが<br>あったから できたんです。<br>",$00
+  WriteText "ありがとうございます。<BR>みなさんのたすけが<BR>あったから できたんです。<BR>",$00
   PromptContinue
-  WriteText "でも‥‥‥‥<br>",$00
+  WriteText "でも‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $0E,$13,$03
-  WriteText "どうしたんですか?<br>",$00
+  WriteText "どうしたんですか?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "さいごのまものが<br>しにぎわに のこした<br>ひとことが きになるんです。<br>",$00
+  WriteText "さいごのまものが<BR>しにぎわに のこした<BR>ひとことが きになるんです。<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "「まあ いいや」っていう<br>ひとことか?<br>",$00
+  WriteText "「まあ いいや」っていう<BR>ひとことか?<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "そうね‥‥<br>",$00
+  WriteText "そうね‥‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "ゆり ミカサのちかに<br>なにか へんかはある?<br>",$00
+  WriteText "ゆり ミカサのちかに<BR>なにか へんかはある?<BR>",$00
   PromptContinue
   SetPortrait $0D,$10,$00
-  WriteText "いえ げんざいのところ<br>なにもありません。<br>",$00
+  WriteText "いえ げんざいのところ<BR>なにもありません。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そう‥‥<br>",$00
+  WriteText "そう‥‥<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "たんなる まけおしみ<br>じゃねーのか?<br>",$00
+  WriteText "たんなる まけおしみ<BR>じゃねーのか?<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "だと いいんだけど‥‥<br>",$00
+  WriteText "だと いいんだけど‥‥<BR>",$00
   PromptContinue
-  WriteText "まあ しんぱいしていても<br>しかたないわ。<br>",$00
+  WriteText "まあ しんぱいしていても<BR>しかたないわ。<BR>",$00
   PromptContinue
-  WriteText "ミカサちかの かんしは<br>つづけることに しましょう。<br>",$00
+  WriteText "ミカサちかの かんしは<BR>つづけることに しましょう。<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText $08,"くん<br>ほんとうに<br>ごくろうさまでした。<br>",$00
+  WriteText "<NAME>くん<BR>ほんとうに<BR>ごくろうさまでした。<BR>",$00
   PromptContinue
-  WriteText "ゆっくり<br>やすんでちょうだい。<br>",$00
+  WriteText "ゆっくり<BR>やすんでちょうだい。<BR>",$00
   PromptContinue
   End
-  WriteText $08,"<br>おつかれさま。<br>",$00
+  WriteText "<NAME><BR>おつかれさま。<BR>",$00
   PromptContinue
-  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
+  WriteText "では ほうこくを<BR>おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<br>",$01,$07,"まじんき・かがみ",$01,$08,"を<br>かいしゅうしてきました。<br>",$00
+  WriteText "はい。<BR>",CHARACTER_EXT_07,"まじんき・かがみ",CHARACTER_EXT_08,"を<BR>かいしゅうしてきました。<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "これで ",$01,$07,"まじんき",$01,$08,"が<br>3つそろったわ。<br>",$00
+  WriteText "これで ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"が<BR>3つそろったわ。<BR>",$00
   PromptContinue
-  WriteText "ほんとうに よくやったわね。<br>",$08,"。<br>",$00
+  WriteText "ほんとうに よくやったわね。<BR><NAME>。<BR>",$00
   PromptContinue
   SetPortrait $06,$11,$09
-  WriteText "さすがだぜ ",$08,"!<br>",$00
+  WriteText "さすがだぜ <NAME>!<BR>",$00
   PromptContinue
   SetPortrait $02,$11,$09
-  WriteText "おめでとう ",$08,"さん。<br>",$00
+  WriteText "おめでとう <NAME>さん。<BR>",$00
   PromptContinue
   SetPortrait $03,$13,$0B
-  WriteText "よくやりましたね。<br>",$08,"。<br>",$00
+  WriteText "よくやりましたね。<BR><NAME>。<BR>",$00
   PromptContinue
   SetPortrait $04,$11,$09
-  WriteText "やったね! ",$08,"!!<br>ジャンポールも スゴイって<br>いってるよ!!<br>",$00
+  WriteText "やったね! <NAME>!!<BR>ジャンポールも スゴイって<BR>いってるよ!!<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "さすが ",$08,"はん。<br>やるなぁ～。<br>かっこええで。<br>",$00
+  WriteText "さすが <NAME>はん。<BR>やるなぁ～。<BR>かっこええで。<BR>",$00
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText "すごいでーす!<br>",$08,"さんが いれば<br>オニに かなぼうでーす。<br>",$00
+  WriteText "すごいでーす!<BR><NAME>さんが いれば<BR>オニに かなぼうでーす。<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "よくやった‥‥",$08,"。<br>",$00
+  WriteText "よくやった‥‥<NAME>。<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "すごいですよ ",$08,"さん<br>よくがんばりましたね。<br>おつかれさまでした。<br>",$00
+  WriteText "すごいですよ <NAME>さん<BR>よくがんばりましたね。<BR>おつかれさまでした。<BR>",$00
   PromptContinue
   SetPortrait $09,$11,$08
-  WriteText $08,"くん よくやった。<br>",$00
+  WriteText "<NAME>くん よくやった。<BR>",$00
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText $08,"さん‥‥<br>カッコイイです‥‥",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "<NAME>さん‥‥<BR>カッコイイです‥‥",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText $08,"ちゃん<br>やるじゃな～い。<br>ステキよ～ん",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "<NAME>ちゃん<BR>やるじゃな～い。<BR>ステキよ～ん",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText $08,"さん ありがとう。<br>",$01,$07,"まじんき",$01,$08,"を ぜんぶ<br>かいしゅうしてくれて。<br>",$00
+  WriteText "<NAME>さん ありがとう。<BR>",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"を ぜんぶ<BR>かいしゅうしてくれて。<BR>",$00
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText $08,"さん やりましたね<br>おつかれさまでした。<br>",$00
+  WriteText "<NAME>さん やりましたね<BR>おつかれさまでした。<BR>",$00
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText $08,"さん さすが!<br>やるわね～。<br>",$00
+  WriteText "<NAME>さん さすが!<BR>やるわね～。<BR>",$00
   PromptContinue
   SetPortrait $0C,$11,$01
-  WriteText $08,"さん ほんとうに<br>おつかれさまでした。<br>",$00
+  WriteText "<NAME>さん ほんとうに<BR>おつかれさまでした。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ありがとうございます。<br>みなさんのたすけが<br>あったから できたんです。<br>",$00
+  WriteText "ありがとうございます。<BR>みなさんのたすけが<BR>あったから できたんです。<BR>",$00
   PromptContinue
-  WriteText "でも‥‥‥‥<br>",$00
+  WriteText "でも‥‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $0E,$13,$03
-  WriteText "どうしたんですか?<br>",$00
+  WriteText "どうしたんですか?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "さいごのまものが<br>しにぎわに のこした<br>ひとことが きになるんです。<br>",$00
+  WriteText "さいごのまものが<BR>しにぎわに のこした<BR>ひとことが きになるんです。<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "「まあ いいや」っていう<br>ひとことか?<br>",$00
+  WriteText "「まあ いいや」っていう<BR>ひとことか?<BR>",$00
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText "そうね‥‥<br>",$00
+  WriteText "そうね‥‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "ゆり ミカサのちかに<br>なにか へんかはある?<br>",$00
+  WriteText "ゆり ミカサのちかに<BR>なにか へんかはある?<BR>",$00
   PromptContinue
   SetPortrait $0D,$10,$00
-  WriteText "いえ げんざいのところ<br>なにもありません。<br>",$00
+  WriteText "いえ げんざいのところ<BR>なにもありません。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そう‥‥<br>",$00
+  WriteText "そう‥‥<BR>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "たんなる まけおしみ<br>じゃねーのか?<br>",$00
+  WriteText "たんなる まけおしみ<BR>じゃねーのか?<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "だと いいんだけど‥‥<br>",$00
+  WriteText "だと いいんだけど‥‥<BR>",$00
   PromptContinue
-  WriteText "まあ しんぱいしていても<br>しかたないわ。<br>",$00
+  WriteText "まあ しんぱいしていても<BR>しかたないわ。<BR>",$00
   PromptContinue
-  WriteText "ミカサちかの かんしは<br>つづけることに しましょう。<br>",$00
+  WriteText "ミカサちかの かんしは<BR>つづけることに しましょう。<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText $08,"<br>ほんとうに<br>ごくろうさまでした。<br>",$00
+  WriteText "<NAME><BR>ほんとうに<BR>ごくろうさまでした。<BR>",$00
   PromptContinue
-  WriteText "ゆっくり<br>やすんでちょうだい。<br>",$00
+  WriteText "ゆっくり<BR>やすんでちょうだい。<BR>",$00
   PromptContinue
   End
   End

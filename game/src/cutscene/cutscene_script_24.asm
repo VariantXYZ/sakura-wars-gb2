@@ -10,7 +10,7 @@ CutsceneScript24_0::
   SetPortrait $0E,$11,$01
   Unknown0E $03
   Unknown02
-  WriteText "9しょう かいしです。<br>",$00
+  WriteText "9しょう かいしです。<BR>",$00
   PromptContinue
   End
   End

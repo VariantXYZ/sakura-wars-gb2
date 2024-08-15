@@ -10,21 +10,21 @@ CutsceneScript4D_0::
   Unknown0E $0B
   Unknown12 $04
   Unknown02
-  WriteText "やあ!<br>オレは かやまゆういち。<br>うみを あいするオトコだ。<br>",$00
+  WriteText "やあ!<BR>オレは かやまゆういち。<BR>うみを あいするオトコだ。<BR>",$00
   PromptContinue
-  WriteText "しゅみは ギターを<br>ひくことだな。<br>",$00
+  WriteText "しゅみは ギターを<BR>ひくことだな。<BR>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "いいな～ ギターは。<br>さわやかな ねいろで。<br>",$00
+  WriteText "いいな～ ギターは。<BR>さわやかな ねいろで。<BR>",$00
   PromptContinue
   SetPortrait $0F,$04,$04
-  WriteText "え? なにものだって?<br>そんなこと どうでも<br>いいじゃないか!<br>",$00
+  WriteText "え? なにものだって?<BR>そんなこと どうでも<BR>いいじゃないか!<BR>",$00
   PromptContinue
   SetPortrait $0F,$00,$00
-  WriteText "まぁ おおがみの<br>かいぐんじだいの<br>しんゆうと おぼえてくれ!<br>",$00
+  WriteText "まぁ おおがみの<BR>かいぐんじだいの<BR>しんゆうと おぼえてくれ!<BR>",$00
   PromptContinue
   SetPortrait $0F,$01,$01
-  WriteText "じゃあ これから<br>よろしくたのむよ!<br>アディオス!<br>",$00
+  WriteText "じゃあ これから<BR>よろしくたのむよ!<BR>アディオス!<BR>",$00
   PromptContinue
   End
   End

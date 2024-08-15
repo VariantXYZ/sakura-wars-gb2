@@ -10,16 +10,16 @@ CutsceneScript45_0::
   Unknown0E $11
   Unknown12 $04
   Unknown02
-  WriteText "よう あたいは<br>きりしま カンナだ。<br>",$00
+  WriteText "よう あたいは<BR>きりしま カンナだ。<BR>",$00
   PromptContinue
-  WriteText "あたいのとくぎは<br>りゅうきゅうカラテ<br>っていう かくとうぎだ。<br>",$00
+  WriteText "あたいのとくぎは<BR>りゅうきゅうカラテ<BR>っていう かくとうぎだ。<BR>",$00
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText "つまり キックや<br>パンチとかだな。<br>",$00
+  WriteText "つまり キックや<BR>パンチとかだな。<BR>",$00
   PromptContinue
-  WriteText "だから ぶきはもたない。<br>じぶんの からだこそが<br>ぶきってわけさ。<br>",$00
+  WriteText "だから ぶきはもたない。<BR>じぶんの からだこそが<BR>ぶきってわけさ。<BR>",$00
   PromptContinue
-  WriteText "まぁ よろしくたのむぜ!<br>",$00
+  WriteText "まぁ よろしくたのむぜ!<BR>",$00
   PromptContinue
   End
   End

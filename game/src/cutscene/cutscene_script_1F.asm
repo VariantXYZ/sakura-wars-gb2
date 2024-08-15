@@ -11,30 +11,30 @@ CutsceneScript1F_0::
   Unknown12 $09
   Unknown02
   Unknown07 $E8,$00,$02,$04,$01,$01,$20,$00
-  WriteText $08,"くん<br>おつかれさま。<br>",$00
+  WriteText "<NAME>くん<BR>おつかれさま。<BR>",$00
   PromptContinue
-  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
+  WriteText "では ほうこくを<BR>おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<br>",$01,$07,"まじんき・たま",$01,$08,"を<br>かいしゅうしてきました。<br>",$00
+  WriteText "はい。<BR>",CHARACTER_EXT_07,"まじんき・たま",CHARACTER_EXT_08,"を<BR>かいしゅうしてきました。<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "よくやったわね。<br>",$08,"くん。<br>",$00
+  WriteText "よくやったわね。<BR><NAME>くん。<BR>",$00
   PromptContinue
-  WriteText $01,$07,"けん",$01,$08,"と",$01,$07,"たま",$01,$08,"‥‥<br>ふたつの",$01,$07,"まじんき",$01,$08,"の<br>かいしゅう おつかれさま。<br>",$00
+  WriteText CHARACTER_EXT_07,"けん",CHARACTER_EXT_08,"と",CHARACTER_EXT_07,"たま",CHARACTER_EXT_08,"‥‥<BR>ふたつの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"の<BR>かいしゅう おつかれさま。<BR>",$00
   PromptContinue
-  WriteText "のこる",$01,$07,"まじんき",$01,$08,"は<br>あと ひとつよ。<br>がんばってね。<br>",$00
+  WriteText "のこる",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"は<BR>あと ひとつよ。<BR>がんばってね。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では ",$08,"くん。<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
+  WriteText "では <NAME>くん。<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>",$00
   PromptContinue
   End
-  WriteText $08,"<br>おつかれさま。<br>",$00
+  WriteText "<NAME><BR>おつかれさま。<BR>",$00
   PromptContinue
-  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
+  WriteText "では ほうこくを<BR>おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<br>",$01,$07,"まじんき・たま",$01,$08,"を<br>かいしゅうしてきました。<br>",$00
+  WriteText "はい。<BR>",CHARACTER_EXT_07,"まじんき・たま",CHARACTER_EXT_08,"を<BR>かいしゅうしてきました。<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
   db $01,$96,$5D,$92,$71,$6D,$9D,$7B,$9F,$0D,$08,$9F,$0D ; WriteText
@@ -45,12 +45,12 @@ SECTION "Cutscene Script 1F 1", ROMX[$4000], BANK[$44]
 CutsceneScript1F_1::
   db $00 ; WriteText
   PromptContinue
-  WriteText $01,$07,"けん",$01,$08,"と",$01,$07,"たま",$01,$08,"‥‥<br>ふたつの",$01,$07,"まじんき",$01,$08,"の<br>かいしゅう おつかれさま。<br>",$00
+  WriteText CHARACTER_EXT_07,"けん",CHARACTER_EXT_08,"と",CHARACTER_EXT_07,"たま",CHARACTER_EXT_08,"‥‥<BR>ふたつの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"の<BR>かいしゅう おつかれさま。<BR>",$00
   PromptContinue
-  WriteText "のこる",$01,$07,"まじんき",$01,$08,"は<br>あと ひとつよ。<br>がんばってね。<br>",$00
+  WriteText "のこる",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"は<BR>あと ひとつよ。<BR>がんばってね。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では ",$08,"。<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
+  WriteText "では <NAME>。<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>",$00
   PromptContinue
   End
   End

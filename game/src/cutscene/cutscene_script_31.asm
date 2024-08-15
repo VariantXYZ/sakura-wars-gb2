@@ -11,78 +11,78 @@ CutsceneScript31_0::
   Unknown12 $17
   Unknown02
   Unknown07 $54,$01,$02,$04,$01,$01,$20,$00
-  WriteText "さっきみつけた<br>おおきなスパナ‥‥ きっと<br>",$00
+  WriteText "さっきみつけた<BR>おおきなスパナ‥‥ きっと<BR>",$00
   Unknown05 $84,$70,$01,$00
   End
-  WriteText "こうらんさんのだろうな‥‥<br>",$00
+  WriteText "こうらんさんのだろうな‥‥<BR>",$00
   PromptContinue
   Unknown1E $1A
-  WriteText "こうらんさん。<br>ちょっといいですか?<br>",$00
+  WriteText "こうらんさん。<BR>ちょっといいですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $08,"はん。<br>どないしたんや?<br>",$00
+  WriteText "<NAME>はん。<BR>どないしたんや?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ みつけたんですが<br>こうらんさんのですか?<br>",$00
+  WriteText "これ みつけたんですが<BR>こうらんさんのですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$23,$13
-  WriteText "デカっ! なんやそれ!?<br>メッチャでっかいやん!<br>エッ? スパナ!?<br>",$00
+  WriteText "デカっ! なんやそれ!?<BR>メッチャでっかいやん!<BR>エッ? スパナ!?<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "あー それは ウチの<br>スパナや。<br>",$00
+  WriteText "あー それは ウチの<BR>スパナや。<BR>",$00
   PromptContinue
   SetPortrait $05,$21,$11
   Unknown1A $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "わざわざ とどけてくれて<br>ありがとう ",$08,"はん。<br>",$00
+  WriteText "わざわざ とどけてくれて<BR>ありがとう <NAME>はん。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "これはな こうぶようの<br>スパナなんや。<br>",$00
+  WriteText "これはな こうぶようの<BR>スパナなんや。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ああ‥‥ それでこんなに<br>デカいんですね。<br>",$00
+  WriteText "ああ‥‥ それでこんなに<BR>デカいんですね。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "そうや。<br>",$00
+  WriteText "そうや。<BR>",$00
   PromptContinue
   SetPortrait $05,$21,$11
-  WriteText "ほな ",$08,"はん<br>ほんまに ありがとうな。<br>",$00
+  WriteText "ほな <NAME>はん<BR>ほんまに ありがとうな。<BR>",$00
   PromptContinue
   End
-  WriteText "さっきみつけた<br>おおきなスパナ‥‥ きっと<br>",$00
+  WriteText "さっきみつけた<BR>おおきなスパナ‥‥ きっと<BR>",$00
   Unknown05 $84,$70,$01,$00
   End
-  WriteText "こうらんさんのでしょう‥‥<br>",$00
+  WriteText "こうらんさんのでしょう‥‥<BR>",$00
   PromptContinue
   Unknown1E $1A
-  WriteText "こうらんさん。<br>ちょっといいですか?<br>",$00
+  WriteText "こうらんさん。<BR>ちょっといいですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $08,"はん。<br>どないしたんや?<br>",$00
+  WriteText "<NAME>はん。<BR>どないしたんや?<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ みつけたのですが<br>こうらんさんのですか?<br>",$00
+  WriteText "これ みつけたのですが<BR>こうらんさんのですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$23,$13
-  WriteText "デカっ! なんやそれ!?<br>メッチャでっかいやん!<br>エッ? スパナ!?<br>",$00
+  WriteText "デカっ! なんやそれ!?<BR>メッチャでっかいやん!<BR>エッ? スパナ!?<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "あー それは ウチの<br>スパナや。<br>",$00
+  WriteText "あー それは ウチの<BR>スパナや。<BR>",$00
   PromptContinue
   SetPortrait $05,$21,$11
   Unknown1A $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "わざわざ とどけてくれて<br>ありがとう ",$08,"はん。<br>",$00
+  WriteText "わざわざ とどけてくれて<BR>ありがとう <NAME>はん。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "これはな こうぶようの<br>スパナなんや。<br>",$00
+  WriteText "これはな こうぶようの<BR>スパナなんや。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ああ‥‥ それでこんなに<br>おおきいんですね。<br>",$00
+  WriteText "ああ‥‥ それでこんなに<BR>おおきいんですね。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "そうや。<br>",$00
+  WriteText "そうや。<BR>",$00
   PromptContinue
   SetPortrait $05,$21,$11
-  WriteText "ほな ",$08,"はん<br>ほんまに ありがとうな。<br>",$00
+  WriteText "ほな <NAME>はん<BR>ほんまに ありがとうな。<BR>",$00
   PromptContinue
   End
   End

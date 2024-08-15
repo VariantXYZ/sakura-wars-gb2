@@ -11,176 +11,176 @@ CutsceneScript13_0::
   Unknown12 $04
   Unknown02
   Unknown07 $64,$04,$02,$04,$01,$01,$20,$00
-  WriteText "おかえり ",$08,"はん。<br>ごくろうさんやったな。<br>",$00
+  WriteText "おかえり <NAME>はん。<BR>ごくろうさんやったな。<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "おつかれのところ スマンけど<br>",$01,$07,"かくのうこ",$01,$08,"について<br>せつめいを しとくわ。<br>",$00
+  WriteText "おつかれのところ スマンけど<BR>",CHARACTER_EXT_07,"かくのうこ",CHARACTER_EXT_08,"について<BR>せつめいを しとくわ。<BR>",$00
   PromptContinue
-  WriteText $01,$07,"かくのうこ",$01,$08,"では<br>ぶきや アイテムを<br>そうこに あずけたり <br>",$00
+  WriteText CHARACTER_EXT_07,"かくのうこ",CHARACTER_EXT_08,"では<BR>ぶきや アイテムを<BR>そうこに あずけたり <BR>",$00
   PromptContinue
-  WriteText "バックパックのせいりや<br>こうぶのかいぞうが<br>できるんや。<br>",$00
+  WriteText "バックパックのせいりや<BR>こうぶのかいぞうが<BR>できるんや。<BR>",$00
   PromptContinue
-  WriteText "そうびのへんこう‥‥<br>すなわち ぶきのもちかえや<br>ぶきにわざをセットするのも<br>",$00
+  WriteText "そうびのへんこう‥‥<BR>すなわち ぶきのもちかえや<BR>ぶきにわざをセットするのも<BR>",$00
   PromptContinue
-  WriteText $01,$07,"かくのうこ",$01,$08,"で やるんや。<br>まあ ぶきのもちかえや<br>ぶきにわざをセット するのは<br>",$00
+  WriteText CHARACTER_EXT_07,"かくのうこ",CHARACTER_EXT_08,"で やるんや。<BR>まあ ぶきのもちかえや<BR>ぶきにわざをセット するのは<BR>",$00
   PromptContinue
-  WriteText "しゅつげきちゅうでも<br>できるんやけどな。<br>わかったか?<br>",$00
+  WriteText "しゅつげきちゅうでも<BR>できるんやけどな。<BR>わかったか?<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$5D,$9D,$65,$52,$10,$69,$72,$8F,$52,$A0,$5B,$5D,$00,$00,$9D,$59,$98,$8C,$65,$6D,$00,$01
   Unknown07 $71,$01,$02,$00,$01,$00,$20,$00
   Unknown07 $43,$01,$02,$00,$01,$01,$20,$00
   Unknown0F $00,$01
-  WriteText "はい わかりました!<br>",$00
+  WriteText "はい わかりました!<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "よっしゃ!<br>ほな がんばってな<br>",$08,"はん。<br>",$00
+  WriteText "よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "もっと くわしいせつめいを<br>きこう。<br>",$00
+  WriteText "もっと くわしいせつめいを<BR>きこう。<BR>",$00
   PromptContinue
   OptionSelect $03,$00,$84,$5B,$6B,$54,$81,$10,$79,$72,$52,$74,$5B,$5D,$00,$00,$9D,$64,$BC,$C4,$C9,$10,$79,$72,$52,$74,$5B,$5D,$00,$01,$5B,$5D,$7C,$A0,$10,$92,$8F,$99,$00,$02
   Unknown07 $16,$02,$02,$00,$01,$00,$20,$00
   Unknown07 $4C,$03,$02,$00,$01,$01,$20,$00
   Unknown07 $CE,$01,$02,$00,$01,$02,$20,$00
   Unknown0F $00,$01
-  WriteText "‥‥やっぱり いいや。<br>",$00
+  WriteText "‥‥やっぱり いいや。<BR>",$00
   PromptContinue
   SetPortrait $05,$12,$0A
-  WriteText "ん? どないしたんや<br>",$08,"はん。<br>",$00
+  WriteText "ん? どないしたんや<BR><NAME>はん。<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "まあ ええわ。<br>ほな がんばってな<br>",$08,"はん。<br>",$00
+  WriteText "まあ ええわ。<BR>ほな がんばってな<BR><NAME>はん。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "ぶきのそうびについて<br>もっとくわしくおしえて<br>いただけませんか?<br>",$00
+  WriteText "ぶきのそうびについて<BR>もっとくわしくおしえて<BR>いただけませんか?<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "よっしゃ ぶきのそうびに<br>ついてやな。<br>ほな じゅんばんに いうで。<br>",$00
+  WriteText "よっしゃ ぶきのそうびに<BR>ついてやな。<BR>ほな じゅんばんに いうで。<BR>",$00
   PromptContinue
-  WriteText "1",$01,$04,"そうびしたい ぶきは<br>  バックパックに<br>  いれること。<br>",$00
+  WriteText "1",CHARACTER_EXT_04,"そうびしたい ぶきは<BR>  バックパックに<BR>  いれること。<BR>",$00
   PromptContinue
-  WriteText "2",$01,$04,"バックパックにある<br>  そうびしたい ぶきを<br>  えらぶ。<br>",$00
+  WriteText "2",CHARACTER_EXT_04,"バックパックにある<BR>  そうびしたい ぶきを<BR>  えらぶ。<BR>",$00
   PromptContinue
-  WriteText "3",$01,$04,"メニューにある",$01,$07,"そうび",$01,$08,"<br>  を えらぶ。<br>",$00
+  WriteText "3",CHARACTER_EXT_04,"メニューにある",CHARACTER_EXT_07,"そうび",CHARACTER_EXT_08,"<BR>  を えらぶ。<BR>",$00
   PromptContinue
-  WriteText "いじょうが ぶきそうびの<br>てじゅんや。<br>",$00
+  WriteText "いじょうが ぶきそうびの<BR>てじゅんや。<BR>",$00
   PromptContinue
-  WriteText "ほかになにか ききたいことは<br>あるか?<br>",$00
+  WriteText "ほかになにか ききたいことは<BR>あるか?<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$9D,$64,$BC,$C4,$C9,$10,$79,$72,$52,$74,$5B,$5D,$00,$00,$78,$52,$00,$01
   Unknown07 $4C,$03,$02,$00,$01,$00,$20,$00
   Unknown07 $22,$03,$02,$00,$01,$01,$20,$00
   Unknown0F $00,$01
-  WriteText "ありません。<br>",$00
+  WriteText "ありません。<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "よっしゃ!<br>ほな がんばってな<br>",$08,"はん。<br>",$00
+  WriteText "よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "ぶきに わざをセットする<br>ほうほうを くわしくおしえて<br>いただけませんか?<br>",$00
+  WriteText "ぶきに わざをセットする<BR>ほうほうを くわしくおしえて<BR>いただけませんか?<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "わざのセットについてやな。<br>わざのセットは<br>バックパックでやるんや。<br>",$00
+  WriteText "わざのセットについてやな。<BR>わざのセットは<BR>バックパックでやるんや。<BR>",$00
   PromptContinue
-  WriteText "1",$01,$04,"バックパックにあるぶきで<br>  わざをセットしたいぶきを<br>  えらぶ。<br>",$00
+  WriteText "1",CHARACTER_EXT_04,"バックパックにあるぶきで<BR>  わざをセットしたいぶきを<BR>  えらぶ。<BR>",$00
   PromptContinue
-  WriteText "2",$01,$04,"メニューにある<br>  ",$01,$07,"わざセット",$01,$08,"を<br>  えらぶ。<br>",$00
+  WriteText "2",CHARACTER_EXT_04,"メニューにある<BR>  ",CHARACTER_EXT_07,"わざセット",CHARACTER_EXT_08,"を<BR>  えらぶ。<BR>",$00
   PromptContinue
-  WriteText "3",$01,$04,"そして セットしたい<br>  わざを えらぶ。<br>",$00
+  WriteText "3",CHARACTER_EXT_04,"そして セットしたい<BR>  わざを えらぶ。<BR>",$00
   PromptContinue
-  WriteText "いじょうが ぶきに<br>わざをセットする<br>てじゅんや。<br>",$00
+  WriteText "いじょうが ぶきに<BR>わざをセットする<BR>てじゅんや。<BR>",$00
   PromptContinue
-  WriteText "ほかになにか ききたいことは<br>あるか?<br>",$00
+  WriteText "ほかになにか ききたいことは<BR>あるか?<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$84,$5B,$6B,$54,$81,$10,$79,$72,$52,$74,$5B,$5D,$00,$00,$78,$52,$00,$01
   Unknown07 $16,$02,$02,$00,$01,$00,$20,$00
   Unknown07 $22,$03,$02,$00,$01,$01,$20,$00
-  WriteText "おかえり ",$08,"はん。<br>ごくろうさんやったな。<br>",$00
+  WriteText "おかえり <NAME>はん。<BR>ごくろうさんやったな。<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "おつかれのところ スマンけど<br>",$01,$07,"かくのうこ",$01,$08,"について<br>せつめいを しとくわ。<br>",$00
+  WriteText "おつかれのところ スマンけど<BR>",CHARACTER_EXT_07,"かくのうこ",CHARACTER_EXT_08,"について<BR>せつめいを しとくわ。<BR>",$00
   PromptContinue
-  WriteText $01,$07,"かくのうこ",$01,$08,"では<br>ぶきや アイテムを<br>そうこに あずけたり <br>",$00
+  WriteText CHARACTER_EXT_07,"かくのうこ",CHARACTER_EXT_08,"では<BR>ぶきや アイテムを<BR>そうこに あずけたり <BR>",$00
   PromptContinue
-  WriteText "バックパックのせいりや<br>こうぶのかいぞうが<br>できるんや。<br>",$00
+  WriteText "バックパックのせいりや<BR>こうぶのかいぞうが<BR>できるんや。<BR>",$00
   PromptContinue
-  WriteText "そうびのへんこう‥‥<br>すなわち ぶきのもちかえや<br>ぶきにわざをセットするのも<br>",$00
+  WriteText "そうびのへんこう‥‥<BR>すなわち ぶきのもちかえや<BR>ぶきにわざをセットするのも<BR>",$00
   PromptContinue
-  WriteText $01,$07,"かくのうこ",$01,$08,"で やるんや。<br>まあ ぶきのもちかえや<br>ぶきにわざをセット するのは<br>",$00
+  WriteText CHARACTER_EXT_07,"かくのうこ",CHARACTER_EXT_08,"で やるんや。<BR>まあ ぶきのもちかえや<BR>ぶきにわざをセット するのは<BR>",$00
   PromptContinue
-  WriteText "しゅつげきちゅうでも<br>できるんやけどな。<br>わかったか?<br>",$00
+  WriteText "しゅつげきちゅうでも<BR>できるんやけどな。<BR>わかったか?<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$5D,$9D,$65,$52,$10,$69,$72,$8F,$52,$A0,$5B,$5D,$00,$00,$9D,$59,$98,$8C,$65,$6D,$00,$01
   Unknown07 $C3,$05,$02,$00,$01,$00,$20,$00
   Unknown07 $95,$05,$02,$00,$01,$01,$20,$00
   Unknown0F $00,$01
-  WriteText "はい わかりました!<br>",$00
+  WriteText "はい わかりました!<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "よっしゃ!<br>ほな がんばってな<br>",$08,"はん。<br>",$00
+  WriteText "よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "もっと くわしいせつめいを<br>ききたいわ。<br>",$00
+  WriteText "もっと くわしいせつめいを<BR>ききたいわ。<BR>",$00
   PromptContinue
   OptionSelect $03,$00,$84,$5B,$6B,$54,$81,$10,$79,$72,$52,$74,$5B,$5D,$00,$00,$9D,$64,$BC,$C4,$C9,$10,$79,$72,$52,$74,$5B,$5D,$00,$01,$5B,$5D,$7C,$A0,$10,$92,$8F,$99,$00,$02
   Unknown07 $77,$06,$02,$00,$01,$00,$20,$00
   Unknown07 $AD,$07,$02,$00,$01,$01,$20,$00
   Unknown07 $22,$06,$02,$00,$01,$02,$20,$00
   Unknown0F $00,$01
-  WriteText "‥‥きかなくても<br>だいじょうぶな<br>きがするわ‥‥<br>",$00
+  WriteText "‥‥きかなくても<BR>だいじょうぶな<BR>きがするわ‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$12,$0A
-  WriteText "ん? どないしたんや<br>",$08,"はん。<br>",$00
+  WriteText "ん? どないしたんや<BR><NAME>はん。<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "まあ ええわ。<br>ほな がんばってな<br>",$08,"はん。<br>",$00
+  WriteText "まあ ええわ。<BR>ほな がんばってな<BR><NAME>はん。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "ぶきのそうびについて<br>もっとくわしくおしえて<br>いただけませんか?<br>",$00
+  WriteText "ぶきのそうびについて<BR>もっとくわしくおしえて<BR>いただけませんか?<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "よっしゃ ぶきのそうびに<br>ついてやな。<br>ほな じゅんばんに いうで。<br>",$00
+  WriteText "よっしゃ ぶきのそうびに<BR>ついてやな。<BR>ほな じゅんばんに いうで。<BR>",$00
   PromptContinue
-  WriteText "1",$01,$04,"そうびしたい ぶきは<br>  バックパックに<br>  いれること。<br>",$00
+  WriteText "1",CHARACTER_EXT_04,"そうびしたい ぶきは<BR>  バックパックに<BR>  いれること。<BR>",$00
   PromptContinue
-  WriteText "2",$01,$04,"バックパックにある<br>  そうびしたい ぶきを<br>  えらぶ。<br>",$00
+  WriteText "2",CHARACTER_EXT_04,"バックパックにある<BR>  そうびしたい ぶきを<BR>  えらぶ。<BR>",$00
   PromptContinue
-  WriteText "3",$01,$04,"メニューにある",$01,$07,"そうび",$01,$08,"<br>  を えらぶ。<br>",$00
+  WriteText "3",CHARACTER_EXT_04,"メニューにある",CHARACTER_EXT_07,"そうび",CHARACTER_EXT_08,"<BR>  を えらぶ。<BR>",$00
   PromptContinue
-  WriteText "いじょうが ぶきそうびの<br>てじゅんや。<br>",$00
+  WriteText "いじょうが ぶきそうびの<BR>てじゅんや。<BR>",$00
   PromptContinue
-  WriteText "ほかになにか ききたいことは<br>あるか?<br>",$00
+  WriteText "ほかになにか ききたいことは<BR>あるか?<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$9D,$64,$BC,$C4,$C9,$10,$79,$72,$52,$74,$5B,$5D,$00,$00,$78,$52,$00,$01
   Unknown07 $AD,$07,$02,$00,$01,$00,$20,$00
   Unknown07 $83,$07,$02,$00,$01,$01,$20,$00
   Unknown0F $00,$01
-  WriteText "ありません。<br>",$00
+  WriteText "ありません。<BR>",$00
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "よっしゃ!<br>ほな がんばってな<br>",$08,"はん。<br>",$00
+  WriteText "よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText "ぶきに わざをセットする<br>ほうほうを くわしくおしえて<br>いただけませんか?<br>",$00
+  WriteText "ぶきに わざをセットする<BR>ほうほうを くわしくおしえて<BR>いただけませんか?<BR>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "わざのセットについてやな。<br>わざのセットは<br>バックパックでやるんや。<br>",$00
+  WriteText "わざのセットについてやな。<BR>わざのセットは<BR>バックパックでやるんや。<BR>",$00
   PromptContinue
-  WriteText "1",$01,$04,"バックパックにあるぶきで<br>  わざをセットしたいぶきを<br>  えらぶ。<br>",$00
+  WriteText "1",CHARACTER_EXT_04,"バックパックにあるぶきで<BR>  わざをセットしたいぶきを<BR>  えらぶ。<BR>",$00
   PromptContinue
-  WriteText "2",$01,$04,"メニューにある<br>  ",$01,$07,"わざセット",$01,$08,"を<br>  えらぶ。<br>",$00
+  WriteText "2",CHARACTER_EXT_04,"メニューにある<BR>  ",CHARACTER_EXT_07,"わざセット",CHARACTER_EXT_08,"を<BR>  えらぶ。<BR>",$00
   PromptContinue
-  WriteText "3",$01,$04,"そして セットしたい<br>  わざを えらぶ。<br>",$00
+  WriteText "3",CHARACTER_EXT_04,"そして セットしたい<BR>  わざを えらぶ。<BR>",$00
   PromptContinue
-  WriteText "いじょうが ぶきに<br>わざをセットする<br>てじゅんや。<br>",$00
+  WriteText "いじょうが ぶきに<BR>わざをセットする<BR>てじゅんや。<BR>",$00
   PromptContinue
-  WriteText "ほかになにか ききたいことは<br>あるか?<br>",$00
+  WriteText "ほかになにか ききたいことは<BR>あるか?<BR>",$00
   PromptContinue
   OptionSelect $02,$00,$84,$5B,$6B,$54,$81,$10,$79,$72,$52,$74,$5B,$5D,$00,$00,$78,$52,$00,$01
   Unknown07 $77,$06,$02,$00,$01,$00,$20,$00

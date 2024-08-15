@@ -10,21 +10,21 @@ CutsceneScript46_0::
   Unknown0E $1F
   Unknown12 $04
   Unknown02
-  WriteText "チャオ!<br>ソレッタ・おりひめでーす。<br>",$00
+  WriteText "チャオ!<BR>ソレッタ・おりひめでーす。<BR>",$00
   PromptContinue
-  WriteText "ていとをまもるために<br>わざわざ イタリアから<br>やってきて やりました。<br>",$00
+  WriteText "ていとをまもるために<BR>わざわざ イタリアから<BR>やってきて やりました。<BR>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "わたしのワザは<br>ゆびさきからでる<br>れいりょくビームでーす!<br>",$00
+  WriteText "わたしのワザは<BR>ゆびさきからでる<BR>れいりょくビームでーす!<BR>",$00
   PromptContinue
-  WriteText "れいりょくビームは<br>はなれた たくさんのてきも<br>こうげきできるのでーす!<br>",$00
+  WriteText "れいりょくビームは<BR>はなれた たくさんのてきも<BR>こうげきできるのでーす!<BR>",$00
   PromptContinue
-  WriteText "どうです?<br>スペシャル すばらしいと<br>おもいませんかー?<br>",$00
+  WriteText "どうです?<BR>スペシャル すばらしいと<BR>おもいませんかー?<BR>",$00
   PromptContinue
-  WriteText "あなたも わたしを<br>みならって まいにち<br>しょうじんするのでーす。<br>",$00
+  WriteText "あなたも わたしを<BR>みならって まいにち<BR>しょうじんするのでーす。<BR>",$00
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "いいですね?<br>",$00
+  WriteText "いいですね?<BR>",$00
   PromptContinue
   End
   End

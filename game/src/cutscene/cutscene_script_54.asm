@@ -11,224 +11,224 @@ CutsceneScript54_0::
   Unknown12 $04
   Unknown02
   Unknown07 $D8,$05,$02,$04,$01,$01,$20,$00
-  WriteText $08,"さん。<br>つぎの しゅつげきばしょは<br>ミカサきかんぶですね。<br>",$00
+  WriteText "<NAME>さん。<BR>つぎの しゅつげきばしょは<BR>ミカサきかんぶですね。<BR>",$00
   PromptContinue
-  WriteText "こんかい ",$08,"さんと<br>いっしょに しゅつげき<br>できるのは<br>",$00
+  WriteText "こんかい <NAME>さんと<BR>いっしょに しゅつげき<BR>できるのは<BR>",$00
   PromptContinue
-  WriteText "あたしと<br>",$00
+  WriteText "あたしと<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText "アイリスと<br>",$00
+  WriteText "アイリスと<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "そして‥‥<br>わたくし ですわ。<br>",$00
+  WriteText "そして‥‥<BR>わたくし ですわ。<BR>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "では こんかい いっしょに<br>しゅつげきできる たいいんの<br>とくいわざを おしえますね。<br>",$00
+  WriteText "では こんかい いっしょに<BR>しゅつげきできる たいいんの<BR>とくいわざを おしえますね。<BR>",$00
   PromptContinue
-  WriteText "あたしは けんをつかった<br>こうげきが とくいです。<br>",$00
+  WriteText "あたしは けんをつかった<BR>こうげきが とくいです。<BR>",$00
   PromptContinue
-  WriteText "ちかくにいる てきを<br>いったいずつ<br>こうげきすることができます。<br>",$00
+  WriteText "ちかくにいる てきを<BR>いったいずつ<BR>こうげきすることができます。<BR>",$00
   PromptContinue
   SetPortrait $04,$11,$09
-  WriteText "アイリスはね れいりょくを<br>つかった こうげきが<br>とくいなんだ!<br>",$00
+  WriteText "アイリスはね れいりょくを<BR>つかった こうげきが<BR>とくいなんだ!<BR>",$00
   PromptContinue
-  WriteText "でんげきで ビカーッて<br>てきをこうげきしたり<br>できるんだよ。<br>",$00
+  WriteText "でんげきで ビカーッて<BR>てきをこうげきしたり<BR>できるんだよ。<BR>",$00
   PromptContinue
-  WriteText "それと ピンチになったら<br>アイリスのちょうのうりょくで<br>かいふくして あげるからね!<br>",$00
+  WriteText "それと ピンチになったら<BR>アイリスのちょうのうりょくで<BR>かいふくして あげるからね!<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "わたくしの とくぎは<br>なぎなた ですわ!<br>",$00
+  WriteText "わたくしの とくぎは<BR>なぎなた ですわ!<BR>",$00
   PromptContinue
-  WriteText "てきが どんなじんけいで<br>あらわれても なぎなたの<br>ながさを いかして<br>",$00
+  WriteText "てきが どんなじんけいで<BR>あらわれても なぎなたの<BR>ながさを いかして<BR>",$00
   PromptContinue
-  WriteText "ぜんたいを こうげきしたり<br>ならんでるてきを くしざしに<br>したりと‥‥<br>",$00
+  WriteText "ぜんたいを こうげきしたり<BR>ならんでるてきを くしざしに<BR>したりと‥‥<BR>",$00
   PromptContinue
-  WriteText "かれいに うつくしく<br>たたかうのが わたくし<br>かんざきすみれ なのですわ。<br>",$00
+  WriteText "かれいに うつくしく<BR>たたかうのが わたくし<BR>かんざきすみれ なのですわ。<BR>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "それでは ",$08,"さん<br>じゅんびは いいですか?<br>",$00
+  WriteText "それでは <NAME>さん<BR>じゅんびは いいですか?<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "さくらさん。",$08,"さんに<br>ワザのせつめいを しないと<br>いけませんわよ。<br>",$00
+  WriteText "さくらさん。<NAME>さんに<BR>ワザのせつめいを しないと<BR>いけませんわよ。<BR>",$00
   PromptContinue
   SetPortrait $01,$13,$0B
-  WriteText "あっ! そうだわ!!<br>わすれるとこ でした。<br>",$00
+  WriteText "あっ! そうだわ!!<BR>わすれるとこ でした。<BR>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText $08,"さん。 ワザを<br>おぼえたら かならず ぶきに<br>セットしてください。<br>",$00
+  WriteText "<NAME>さん。 ワザを<BR>おぼえたら かならず ぶきに<BR>セットしてください。<BR>",$00
   PromptContinue
-  WriteText "ワザは ぶきにセットして<br>はじめて つかえるように<br>なるんです。<br>",$00
+  WriteText "ワザは ぶきにセットして<BR>はじめて つかえるように<BR>なるんです。<BR>",$00
   PromptContinue
-  WriteText "ワザのセットは<br>バックパックで<br>おこなうことができます。<br>",$00
+  WriteText "ワザのセットは<BR>バックパックで<BR>おこなうことができます。<BR>",$00
   PromptContinue
-  WriteText "それから せんとうちゅうに<br>ワザの せつめいを<br>みたく なったときは<br>",$00
+  WriteText "それから せんとうちゅうに<BR>ワザの せつめいを<BR>みたく なったときは<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "セレクトボタンを<br>おせば せつめいが<br>みられますからね。<br>",$00
+  WriteText "セレクトボタンを<BR>おせば せつめいが<BR>みられますからね。<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText $08,"!<br>リペアキットは ちゃんと<br>バックパックにいれた?<br>",$00
+  WriteText "<NAME>!<BR>リペアキットは ちゃんと<BR>バックパックにいれた?<BR>",$00
   PromptContinue
-  WriteText "リペアキットは そうこから<br>すきなだけ バックパックに<br>いれて もっていけるんだよ。<br>",$00
+  WriteText "リペアキットは そうこから<BR>すきなだけ バックパックに<BR>いれて もっていけるんだよ。<BR>",$00
   PromptContinue
-  WriteText "つかったら なくなるから<br>ちゃんと じぶんで<br>ほじゅうしないとダメだよ。<br>",$00
+  WriteText "つかったら なくなるから<BR>ちゃんと じぶんで<BR>ほじゅうしないとダメだよ。<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "それでは ",$08,"さん。<br>じゅんびは よろしくて?<br>",$00
+  WriteText "それでは <NAME>さん。<BR>じゅんびは よろしくて?<BR>",$00
   PromptContinue
   OptionSelect $03,$00,$F1,$B7,$7C,$69,$72,$8F,$52,$A0,$10,$90,$54,$52,$6F,$77,$00,$00,$EC,$DB,$A3,$AE,$C4,$C9,$79,$72,$52,$74,$10,$5B,$5D,$00,$01,$D1,$C4,$C2,$EC,$75,$67,$00,$02
   Unknown07 $F6,$03,$02,$00,$01,$00,$20,$00
   Unknown07 $F1,$04,$02,$00,$01,$01,$20,$00
   Unknown07 $78,$05,$02,$00,$01,$02,$20,$00
   Unknown0F $00,$01
-  WriteText "すみません。<br>ワザのせつめいを もういちど<br>おねがいします。<br>",$00
+  WriteText "すみません。<BR>ワザのせつめいを もういちど<BR>おねがいします。<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "はい。<br>ワザのセットについて<br>ですね。<br>",$00
+  WriteText "はい。<BR>ワザのセットについて<BR>ですね。<BR>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText $08,"さんが ワザを<br>おぼえたら かならず ぶきに<br>セットしてください。<br>",$00
+  WriteText "<NAME>さんが ワザを<BR>おぼえたら かならず ぶきに<BR>セットしてください。<BR>",$00
   PromptContinue
-  WriteText "ワザは ぶきにセットして<br>はじめて つかえるように<br>なるんです。<br>",$00
+  WriteText "ワザは ぶきにセットして<BR>はじめて つかえるように<BR>なるんです。<BR>",$00
   PromptContinue
-  WriteText "ワザのセットは<br>バックパックで おこなって<br>くださいね。<br>",$00
+  WriteText "ワザのセットは<BR>バックパックで おこなって<BR>くださいね。<BR>",$00
   PromptContinue
-  WriteText "それから せんとうちゅうに<br>ワザの せつめいを<br>みたく なったときは<br>",$00
+  WriteText "それから せんとうちゅうに<BR>ワザの せつめいを<BR>みたく なったときは<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "セレクトボタンを<br>おせば せつめいが<br>みられますからね。<br>",$00
+  WriteText "セレクトボタンを<BR>おせば せつめいが<BR>みられますからね。<BR>",$00
   PromptContinue
   Unknown06 $93,$03
   Unknown0F $00,$01
-  WriteText "すみません。<br>リペアキットのせつめいを<br>もういちど おねがいします。<br>",$00
+  WriteText "すみません。<BR>リペアキットのせつめいを<BR>もういちど おねがいします。<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText "リペアキットはね そうこから<br>すきなだけ バックパックに<br>いれて もっていけるんだよ。<br>",$00
+  WriteText "リペアキットはね そうこから<BR>すきなだけ バックパックに<BR>いれて もっていけるんだよ。<BR>",$00
   PromptContinue
-  WriteText "つかったら なくなるから<br>ちゃんと じぶんで<br>ほじゅうしないとダメだよ。<br>",$00
+  WriteText "つかったら なくなるから<BR>ちゃんと じぶんで<BR>ほじゅうしないとダメだよ。<BR>",$00
   PromptContinue
   Unknown06 $93,$03
   Unknown0F $00,$01
-  WriteText "はい バッチリです。<br>",$00
+  WriteText "はい バッチリです。<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "では ",$08,"さん。<br>がんばって いきましょう!!<br>",$00
+  WriteText "では <NAME>さん。<BR>がんばって いきましょう!!<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText $08,"さん。<br>しなないていどに<br>がんばりなさい。<br>",$00
+  WriteText "<NAME>さん。<BR>しなないていどに<BR>がんばりなさい。<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText $08,"!<br>がんばってね。<br>",$00
+  WriteText "<NAME>!<BR>がんばってね。<BR>",$00
   PromptContinue
   End
-  WriteText $08,"さん。<br>つぎの しゅつげきばしょは<br>ミカサきかんぶですね。<br>",$00
+  WriteText "<NAME>さん。<BR>つぎの しゅつげきばしょは<BR>ミカサきかんぶですね。<BR>",$00
   PromptContinue
-  WriteText "こんかい ",$08,"さんと<br>いっしょに しゅつげき<br>できるのは<br>",$00
+  WriteText "こんかい <NAME>さんと<BR>いっしょに しゅつげき<BR>できるのは<BR>",$00
   PromptContinue
-  WriteText "あたしと<br>",$00
+  WriteText "あたしと<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText "アイリスと<br>",$00
+  WriteText "アイリスと<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "ボクだ。<br>",$00
+  WriteText "ボクだ。<BR>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "では こんかい いっしょに<br>しゅつげきできる たいいんの<br>とくいわざを おしえますね。<br>",$00
+  WriteText "では こんかい いっしょに<BR>しゅつげきできる たいいんの<BR>とくいわざを おしえますね。<BR>",$00
   PromptContinue
-  WriteText "あたしは けんをつかった<br>こうげきが とくいです。<br>",$00
+  WriteText "あたしは けんをつかった<BR>こうげきが とくいです。<BR>",$00
   PromptContinue
-  WriteText "ちかくにいる てきを<br>いったいずつ<br>こうげきすることができます。<br>",$00
+  WriteText "ちかくにいる てきを<BR>いったいずつ<BR>こうげきすることができます。<BR>",$00
   PromptContinue
   SetPortrait $04,$11,$09
-  WriteText "アイリスはね れいりょくを<br>つかった こうげきが<br>とくいなんだ!<br>",$00
+  WriteText "アイリスはね れいりょくを<BR>つかった こうげきが<BR>とくいなんだ!<BR>",$00
   PromptContinue
-  WriteText "でんげきで ビカーッて<br>てきをこうげきしたり<br>できるんだよ。<br>",$00
+  WriteText "でんげきで ビカーッて<BR>てきをこうげきしたり<BR>できるんだよ。<BR>",$00
   PromptContinue
-  WriteText "それと ピンチになったら<br>アイリスのちょうのうりょくで<br>かいふくして あげるからね!<br>",$00
+  WriteText "それと ピンチになったら<BR>アイリスのちょうのうりょくで<BR>かいふくして あげるからね!<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "ボクのぶきは ランス‥‥<br>つまり ヤリだ。<br>",$00
+  WriteText "ボクのぶきは ランス‥‥<BR>つまり ヤリだ。<BR>",$00
   PromptContinue
-  WriteText "つうじょうは<br>いったいのてきに たいしての<br>こうげきだけど‥‥<br>",$00
+  WriteText "つうじょうは<BR>いったいのてきに たいしての<BR>こうげきだけど‥‥<BR>",$00
   PromptContinue
-  WriteText "れいりょくを つかえば<br>ふくすうのてきを<br>こうげきすることができる。<br>",$00
+  WriteText "れいりょくを つかえば<BR>ふくすうのてきを<BR>こうげきすることができる。<BR>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "それでは ",$08,"さん<br>じゅんびは いいですか?<br>",$00
+  WriteText "それでは <NAME>さん<BR>じゅんびは いいですか?<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "さくら‥‥<br>ワザのせつめいが まだだ。<br>",$00
+  WriteText "さくら‥‥<BR>ワザのせつめいが まだだ。<BR>",$00
   PromptContinue
   SetPortrait $01,$13,$0B
-  WriteText "あっ! そうだわ!!<br>わすれるとこ でした。<br>",$00
+  WriteText "あっ! そうだわ!!<BR>わすれるとこ でした。<BR>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText $08,"さん。 ワザを<br>おぼえたら かならず ぶきに<br>セットしてください。<br>",$00
+  WriteText "<NAME>さん。 ワザを<BR>おぼえたら かならず ぶきに<BR>セットしてください。<BR>",$00
   PromptContinue
-  WriteText "ワザは ぶきにセットして<br>はじめて つかえるように<br>なるんです。<br>",$00
+  WriteText "ワザは ぶきにセットして<BR>はじめて つかえるように<BR>なるんです。<BR>",$00
   PromptContinue
-  WriteText "ワザのセットは<br>バックパックで<br>おこなうことができます。<br>",$00
+  WriteText "ワザのセットは<BR>バックパックで<BR>おこなうことができます。<BR>",$00
   PromptContinue
-  WriteText "それから せんとうちゅうに<br>ワザの せつめいを<br>みたく なったときは<br>",$00
+  WriteText "それから せんとうちゅうに<BR>ワザの せつめいを<BR>みたく なったときは<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "セレクトボタンを<br>おせば せつめいが<br>みられますからね。<br>",$00
+  WriteText "セレクトボタンを<BR>おせば せつめいが<BR>みられますからね。<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText $08,"!<br>リペアキットは ちゃんと<br>バックパックにいれた?<br>",$00
+  WriteText "<NAME>!<BR>リペアキットは ちゃんと<BR>バックパックにいれた?<BR>",$00
   PromptContinue
-  WriteText "リペアキットは そうこから<br>すきなだけ バックパックに<br>いれて もっていけるんだよ。<br>",$00
+  WriteText "リペアキットは そうこから<BR>すきなだけ バックパックに<BR>いれて もっていけるんだよ。<BR>",$00
   PromptContinue
-  WriteText "つかったら なくなるから<br>ちゃんと じぶんで<br>ほじゅうしないとダメだよ。<br>",$00
+  WriteText "つかったら なくなるから<BR>ちゃんと じぶんで<BR>ほじゅうしないとダメだよ。<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "それじゃ",$08,"<br>じゅんびはいい?<br>",$00
+  WriteText "それじゃ<NAME><BR>じゅんびはいい?<BR>",$00
   PromptContinue
   OptionSelect $03,$00,$F1,$B7,$7C,$69,$72,$8F,$52,$A0,$10,$90,$54,$52,$6F,$77,$00,$00,$EC,$DB,$A3,$AE,$C4,$C9,$79,$72,$52,$74,$10,$5B,$5D,$00,$01,$D1,$C4,$C2,$EC,$75,$67,$00,$02
   Unknown07 $6E,$09,$02,$00,$01,$00,$20,$00
   Unknown07 $69,$0A,$02,$00,$01,$01,$20,$00
   Unknown07 $F0,$0A,$02,$00,$01,$02,$20,$00
   Unknown0F $00,$01
-  WriteText "すみません。<br>ワザのせつめいを もういちど<br>おねがいします。<br>",$00
+  WriteText "すみません。<BR>ワザのせつめいを もういちど<BR>おねがいします。<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "はい。<br>ワザのセットについて<br>ですね。<br>",$00
+  WriteText "はい。<BR>ワザのセットについて<BR>ですね。<BR>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText $08,"さんが ワザを<br>おぼえたら かならず ぶきに<br>セットしてください。<br>",$00
+  WriteText "<NAME>さんが ワザを<BR>おぼえたら かならず ぶきに<BR>セットしてください。<BR>",$00
   PromptContinue
-  WriteText "ワザは ぶきにセットして<br>はじめて つかえるように<br>なるんです。<br>",$00
+  WriteText "ワザは ぶきにセットして<BR>はじめて つかえるように<BR>なるんです。<BR>",$00
   PromptContinue
-  WriteText "ワザのセットは<br>バックパックで おこなって<br>くださいね。<br>",$00
+  WriteText "ワザのセットは<BR>バックパックで おこなって<BR>くださいね。<BR>",$00
   PromptContinue
-  WriteText "それから せんとうちゅうに<br>ワザの せつめいを<br>みたく なったときは<br>",$00
+  WriteText "それから せんとうちゅうに<BR>ワザの せつめいを<BR>みたく なったときは<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "セレクトボタンを<br>おせば せつめいが<br>みられますからね。<br>",$00
+  WriteText "セレクトボタンを<BR>おせば せつめいが<BR>みられますからね。<BR>",$00
   PromptContinue
   Unknown06 $13,$09
   Unknown0F $00,$01
-  WriteText "すみません。<br>リペアキットのせつめいを<br>もういちど おねがいします。<br>",$00
+  WriteText "すみません。<BR>リペアキットのせつめいを<BR>もういちど おねがいします。<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText "リペアキットはね そうこから<br>すきなだけ バックパックに<br>いれて もっていけるんだよ。<br>",$00
+  WriteText "リペアキットはね そうこから<BR>すきなだけ バックパックに<BR>いれて もっていけるんだよ。<BR>",$00
   PromptContinue
-  WriteText "つかったら なくなるから<br>ちゃんと じぶんで<br>ほじゅうしないとダメだよ。<br>",$00
+  WriteText "つかったら なくなるから<BR>ちゃんと じぶんで<BR>ほじゅうしないとダメだよ。<BR>",$00
   PromptContinue
   Unknown06 $13,$09
   Unknown0F $00,$01
-  WriteText "はい バッチリです。<br>",$00
+  WriteText "はい バッチリです。<BR>",$00
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "では ",$08,"さん。<br>がんばって いきましょう!!<br>",$00
+  WriteText "では <NAME>さん。<BR>がんばって いきましょう!!<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "しっかり‥‥<br>",$00
+  WriteText "しっかり‥‥<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText $08,"!<br>がんばってね。<br>",$00
+  WriteText "<NAME>!<BR>がんばってね。<BR>",$00
   PromptContinue
   End
   End

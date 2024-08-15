@@ -10,12 +10,12 @@ CutsceneScript49_0::
   Unknown0E $0A
   Unknown12 $04
   Unknown02
-  WriteText "よくきてくれたわね。<br>わたしは ていこくかげきだん<br>ふくしれい ふじえだかえで。<br>",$00
+  WriteText "よくきてくれたわね。<BR>わたしは ていこくかげきだん<BR>ふくしれい ふじえだかえで。<BR>",$00
   PromptContinue
-  WriteText "あなたへの さくせんの<br>しじは すべてわたしが<br>おこないます。<br>",$00
+  WriteText "あなたへの さくせんの<BR>しじは すべてわたしが<BR>おこないます。<BR>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "はじめての にんむで<br>たいへんだと おもうけど<br>しっかりたのむわよ。<br>",$00
+  WriteText "はじめての にんむで<BR>たいへんだと おもうけど<BR>しっかりたのむわよ。<BR>",$00
   PromptContinue
   End
   End

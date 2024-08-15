@@ -11,120 +11,120 @@ CutsceneScript1A_0::
   Unknown02
   Unknown09 $5A
   Unknown0C $01
-  WriteText "～だい4しょう～<br> ",$01,$07,"くらやみからのSOS",$01,$08,"<br>",$00
+  WriteText "～だい4しょう～<BR> ",CHARACTER_EXT_07,"くらやみからのSOS",CHARACTER_EXT_08,"<BR>",$00
   PromptContinue
   Unknown0C $02
   Unknown0E $16
   SetPortrait $0B,$10,$00
   Unknown07 $EA,$02,$02,$04,$01,$01,$20,$00
-  WriteText "みんな あつまってるわね。<br>では はじめましょう。<br>",$00
+  WriteText "みんな あつまってるわね。<BR>では はじめましょう。<BR>",$00
   PromptContinue
-  WriteText "こんかい あらためて<br>わかったことが あります。<br>",$00
+  WriteText "こんかい あらためて<BR>わかったことが あります。<BR>",$00
   PromptContinue
   SetPortrait $03,$12,$0A
-  WriteText "あきらかに ",$01,$07,"まじんき",$01,$08,"を<br>ねらっている なぞのてきが<br>ミカサにいる‥‥<br>",$00
+  WriteText "あきらかに ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"を<BR>ねらっている なぞのてきが<BR>ミカサにいる‥‥<BR>",$00
   PromptContinue
-  WriteText "そうですね かえでさん。<br>",$00
+  WriteText "そうですね かえでさん。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そうよ。<br>",$00
+  WriteText "そうよ。<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "でも だれが なんのために<br>ということは <br>まだ わかっていない‥‥<br>",$00
+  WriteText "でも だれが なんのために<BR>ということは <BR>まだ わかっていない‥‥<BR>",$00
   PromptContinue
   SetPortrait $01,$12,$0A
-  WriteText $01,$07,"けん",$01,$08,"を まもっていた<br>まものが さいごに いった<br>ことば‥‥<br>",$00
+  WriteText CHARACTER_EXT_07,"けん",CHARACTER_EXT_08,"を まもっていた<BR>まものが さいごに いった<BR>ことば‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$12,$0A
-  WriteText "「これで かったと<br> おもうなよ」って<br>どういう いみなんやろ?<br>",$00
+  WriteText "「これで かったと<BR> おもうなよ」って<BR>どういう いみなんやろ?<BR>",$00
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "それはおそらく まものが<br>ミカサのなかに まだまだ<br>いるって ことじゃないか。<br>",$00
+  WriteText "それはおそらく まものが<BR>ミカサのなかに まだまだ<BR>いるって ことじゃないか。<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText "ほかの",$01,$07,"まじんき",$01,$08,"も<br>まものに とられてるの?<br>",$00
+  WriteText "ほかの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"も<BR>まものに とられてるの?<BR>",$00
   PromptContinue
   SetPortrait $06,$12,$0A
-  WriteText "その かのうせいは<br>たかいな。<br>",$00
+  WriteText "その かのうせいは<BR>たかいな。<BR>",$00
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "てきは ",$01,$07,"まじんき",$01,$08,"を<br>つかって なにをやろうと<br>しているのでーすか?<br>",$00
+  WriteText "てきは ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"を<BR>つかって なにをやろうと<BR>しているのでーすか?<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "それが わからないから<br>しらべてるんじゃ<br>ありませんこと。<br>",$00
+  WriteText "それが わからないから<BR>しらべてるんじゃ<BR>ありませんこと。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "いまは てきのしょうたいも<br>てきのもくてきも<br>わからないわ。<br>",$00
+  WriteText "いまは てきのしょうたいも<BR>てきのもくてきも<BR>わからないわ。<BR>",$00
   PromptContinue
   SetPortrait $03,$12,$0A
-  WriteText "だから ",$01,$07,"まじんき",$01,$08,"をはやく<br>かいしゅうしないと<br>なにがおこるか わからない‥<br>",$00
+  WriteText "だから ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"をはやく<BR>かいしゅうしないと<BR>なにがおこるか わからない‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そう ",$01,$07,"まじんき",$01,$08,"を<br>いっこくも はやく<br>かいしゅう しなきゃ‥‥<br>",$00
+  WriteText "そう ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"を<BR>いっこくも はやく<BR>かいしゅう しなきゃ‥‥<BR>",$00
   PromptContinue
-  WriteText "こんかいは ",$08,"くんの<br>ほかに もうひとつの<br>チームを だしましょう。<br>",$00
+  WriteText "こんかいは <NAME>くんの<BR>ほかに もうひとつの<BR>チームを だしましょう。<BR>",$00
   PromptContinue
-  WriteText "2つのチームで <br>いっきに かたを<br>つけるのよ。<br>",$00
+  WriteText "2つのチームで <BR>いっきに かたを<BR>つけるのよ。<BR>",$00
   PromptContinue
-  WriteText "カンナ アイリス。<br>あなたたち ふたりに<br>おねがいするわ。<br>",$00
+  WriteText "カンナ アイリス。<BR>あなたたち ふたりに<BR>おねがいするわ。<BR>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "では ",$08,"くん<br>しゅつどう!<br>",$00
+  WriteText "では <NAME>くん<BR>しゅつどう!<BR>",$00
   PromptContinue
   End
-  WriteText "みんな あつまってるわね。<br>では はじめましょう。<br>",$00
+  WriteText "みんな あつまってるわね。<BR>では はじめましょう。<BR>",$00
   PromptContinue
-  WriteText "こんかい あらためて<br>わかったことが あるわ。<br>",$00
+  WriteText "こんかい あらためて<BR>わかったことが あるわ。<BR>",$00
   PromptContinue
   SetPortrait $03,$12,$0A
-  WriteText "あきらかに ",$01,$07,"まじんき",$01,$08,"を<br>ねらっている なぞのてきが<br>ミカサにいる‥‥<br>",$00
+  WriteText "あきらかに ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"を<BR>ねらっている なぞのてきが<BR>ミカサにいる‥‥<BR>",$00
   PromptContinue
-  WriteText "そうですね かえでさん。<br>",$00
+  WriteText "そうですね かえでさん。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そうよ。<br>",$00
+  WriteText "そうよ。<BR>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "でも だれが なんのために<br>ということは <br>まだ わかっていない‥‥<br>",$00
+  WriteText "でも だれが なんのために<BR>ということは <BR>まだ わかっていない‥‥<BR>",$00
   PromptContinue
   SetPortrait $01,$12,$0A
-  WriteText $01,$07,"けん",$01,$08,"を まもっていた<br>まものが さいごに いった<br>ことば‥‥<br>",$00
+  WriteText CHARACTER_EXT_07,"けん",CHARACTER_EXT_08,"を まもっていた<BR>まものが さいごに いった<BR>ことば‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$12,$0A
-  WriteText "「これで かったと<br> おもうなよ」って<br>どういう いみなんやろ?<br>",$00
+  WriteText "「これで かったと<BR> おもうなよ」って<BR>どういう いみなんやろ?<BR>",$00
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "それはおそらく まものが<br>ミカサのなかに まだまだ<br>いるって ことじゃないか。<br>",$00
+  WriteText "それはおそらく まものが<BR>ミカサのなかに まだまだ<BR>いるって ことじゃないか。<BR>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText "ほかの",$01,$07,"まじんき",$01,$08,"も<br>まものに とられてるの?<br>",$00
+  WriteText "ほかの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"も<BR>まものに とられてるの?<BR>",$00
   PromptContinue
   SetPortrait $06,$12,$0A
-  WriteText "その かのうせいは<br>たかいな。<br>",$00
+  WriteText "その かのうせいは<BR>たかいな。<BR>",$00
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "てきは ",$01,$07,"まじんき",$01,$08,"を<br>つかって なにをやろうと<br>しているのでーすか?<br>",$00
+  WriteText "てきは ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"を<BR>つかって なにをやろうと<BR>しているのでーすか?<BR>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "それが わからないから<br>しらべてるんじゃ<br>ありませんこと。<br>",$00
+  WriteText "それが わからないから<BR>しらべてるんじゃ<BR>ありませんこと。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "いまは てきのしょうたいも<br>てきのもくてきも<br>わからないわ。<br>",$00
+  WriteText "いまは てきのしょうたいも<BR>てきのもくてきも<BR>わからないわ。<BR>",$00
   PromptContinue
   SetPortrait $03,$12,$0A
-  WriteText "だから ",$01,$07,"まじんき",$01,$08,"をはやく<br>かいしゅうしないと<br>なにがおこるか わからない‥<br>",$00
+  WriteText "だから ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"をはやく<BR>かいしゅうしないと<BR>なにがおこるか わからない‥<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そう ",$01,$07,"まじんき",$01,$08,"を<br>いっこくも はやく<br>かいしゅう しなきゃ‥‥<br>",$00
+  WriteText "そう ",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"を<BR>いっこくも はやく<BR>かいしゅう しなきゃ‥‥<BR>",$00
   PromptContinue
-  WriteText "こんかいは ",$08,"の<br>ほかに もうひとつの<br>チームを だしましょう。<br>",$00
+  WriteText "こんかいは <NAME>の<BR>ほかに もうひとつの<BR>チームを だしましょう。<BR>",$00
   PromptContinue
-  WriteText "2つのチームで <br>いっきに かたを<br>つけるのよ。<br>",$00
+  WriteText "2つのチームで <BR>いっきに かたを<BR>つけるのよ。<BR>",$00
   PromptContinue
-  WriteText "カンナ アイリス。<br>あなたたち ふたりに<br>おねがいするわ。<br>",$00
+  WriteText "カンナ アイリス。<BR>あなたたち ふたりに<BR>おねがいするわ。<BR>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "では ",$08,"<br>しゅつどう!<br>",$00
+  WriteText "では <NAME><BR>しゅつどう!<BR>",$00
   PromptContinue
   End
   End

@@ -11,40 +11,40 @@ CutsceneScript21_0::
   Unknown12 $09
   Unknown02
   Unknown07 $F7,$00,$02,$04,$01,$01,$20,$00
-  WriteText "おかえりなさい。<br>",$08,"くん。<br>",$00
+  WriteText "おかえりなさい。<BR><NAME>くん。<BR>",$00
   PromptContinue
-  WriteText "ことねさんの きゅうしゅつ<br>ごくろうさまでした。<br>",$00
+  WriteText "ことねさんの きゅうしゅつ<BR>ごくろうさまでした。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
+  WriteText "では ほうこくを<BR>おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい ほうこくします。<br>ことねさんからの<br>じょうほうです。<br>",$00
+  WriteText "はい ほうこくします。<BR>ことねさんからの<BR>じょうほうです。<BR>",$00
   PromptContinue
-  WriteText "どうやら",$01,$07,"かがみ",$01,$08,"は<br>",$01,$07,"せいまじょう",$01,$08,"の おくに<br>あるようです。<br>",$00
+  WriteText "どうやら",CHARACTER_EXT_07,"かがみ",CHARACTER_EXT_08,"は<BR>",CHARACTER_EXT_07,"せいまじょう",CHARACTER_EXT_08,"の おくに<BR>あるようです。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そう‥‥ さいごのひとつが<br>",$01,$07,"せいまじょう",$01,$08,"にあるのね。<br>わかったわ‥‥<br>",$00
+  WriteText "そう‥‥ さいごのひとつが<BR>",CHARACTER_EXT_07,"せいまじょう",CHARACTER_EXT_08,"にあるのね。<BR>わかったわ‥‥<BR>",$00
   PromptContinue
-  WriteText "では ",$08,"くんは<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
+  WriteText "では <NAME>くんは<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>",$00
   PromptContinue
   End
-  WriteText "おかえりなさい。<br>",$08,"。<br>",$00
+  WriteText "おかえりなさい。<BR><NAME>。<BR>",$00
   PromptContinue
-  WriteText "ことねさんの きゅうしゅつ<br>ごくろうさまでした。<br>",$00
+  WriteText "ことねさんの きゅうしゅつ<BR>ごくろうさまでした。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
+  WriteText "では ほうこくを<BR>おねがいするわ。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい ほうこくします。<br>ことねさんからの<br>じょうほうです。<br>",$00
+  WriteText "はい ほうこくします。<BR>ことねさんからの<BR>じょうほうです。<BR>",$00
   PromptContinue
-  WriteText "どうやら",$01,$07,"かがみ",$01,$08,"は<br>",$01,$07,"せいまじょう",$01,$08,"の おくに<br>あるようです。<br>",$00
+  WriteText "どうやら",CHARACTER_EXT_07,"かがみ",CHARACTER_EXT_08,"は<BR>",CHARACTER_EXT_07,"せいまじょう",CHARACTER_EXT_08,"の おくに<BR>あるようです。<BR>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そう‥‥ さいごのひとつが<br>",$01,$07,"せいまじょう",$01,$08,"にあるのね。<br>わかったわ‥‥<br>",$00
+  WriteText "そう‥‥ さいごのひとつが<BR>",CHARACTER_EXT_07,"せいまじょう",CHARACTER_EXT_08,"にあるのね。<BR>わかったわ‥‥<BR>",$00
   PromptContinue
-  WriteText "では ",$08,"は<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
+  WriteText "では <NAME>は<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>",$00
   PromptContinue
   End
   End

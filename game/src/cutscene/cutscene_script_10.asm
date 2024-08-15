@@ -11,12 +11,12 @@ CutsceneScript10_0::
   Unknown0C $01
   Unknown0E $1D
   SetPortrait $11,$01,$01
-  WriteText "なまえを にゅうりょくして<br>ちょうだい。<br>",$00
+  WriteText "なまえを にゅうりょくして<BR>ちょうだい。<BR>",$00
   PromptContinue
   Unknown1D
   Unknown0E $1D
   SetPortrait $11,$01,$01
-  WriteText $08,"ちゃん<br>がんばってね。<br>",$00
+  WriteText "<NAME>ちゃん<BR>がんばってね。<BR>",$00
   PromptContinue
   End
   End

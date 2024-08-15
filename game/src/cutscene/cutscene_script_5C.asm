@@ -12,160 +12,160 @@ CutsceneScript5C_0::
   Unknown02
   Unknown07 $69,$03,$02,$04,$01,$01,$20,$00
   Unknown07 $C7,$01,$04,$87,$B6,$01,$FF,$20,$00
-  WriteText "こうらんさん。<br>ちょっといいですか?<br>",$00
+  WriteText "こうらんさん。<BR>ちょっといいですか?<BR>",$00
   PromptContinue
   Unknown05 $87,$B3,$01,$00
   End
   SetPortrait $05,$20,$10
-  WriteText "ん‥‥? なんや<br>",$08,"はんやないか。<br>",$00
+  WriteText "ん‥‥? なんや<BR><NAME>はんやないか。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "この",$01,$07,"せっけいず",$01,$08,"を<br>こうらんさんに わたして<br>くれと たのまれたんですが。<br>",$00
+  WriteText "この",CHARACTER_EXT_07,"せっけいず",CHARACTER_EXT_08,"を<BR>こうらんさんに わたして<BR>くれと たのまれたんですが。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "せっけいず?<br>どれどれ‥‥‥<br>",$00
+  WriteText "せっけいず?<BR>どれどれ‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$23,$13
-  WriteText "こ‥‥これは!!<br>",$01,$07,"アイゼンクライト",$01,$08,"の<br>せっけいずやないか!!<br>",$00
+  WriteText "こ‥‥これは!!<BR>",CHARACTER_EXT_07,"アイゼンクライト",CHARACTER_EXT_08,"の<BR>せっけいずやないか!!<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "えっ! アイゼンクライトって<br>おりひめさんや レニさんが<br>のっている きたいですか!<br>",$00
+  WriteText "えっ! アイゼンクライトって<BR>おりひめさんや レニさんが<BR>のっている きたいですか!<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "そうや。<br>こうぶとは ひとあじちがった<br>かっこよさがある きたいや。<br>",$00
+  WriteText "そうや。<BR>こうぶとは ひとあじちがった<BR>かっこよさがある きたいや。<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "よっしゃ!<br>もえてきたで～。<br>",$00
+  WriteText "よっしゃ!<BR>もえてきたで～。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "つぎの しゅつげきまでには<br>バッチリ つくっとくからな。<br>",$00
+  WriteText "つぎの しゅつげきまでには<BR>バッチリ つくっとくからな。<BR>",$00
   PromptContinue
-  WriteText $08,"はんは<br>こうぶでも アイゼンクライト<br>でも すきなのをつかってな。<br>",$00
+  WriteText "<NAME>はんは<BR>こうぶでも アイゼンクライト<BR>でも すきなのをつかってな。<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "こうぶも アイゼンクライトも<br>すごいきたいやから きぶんで<br>のりかえたらエエで。<br>",$00
+  WriteText "こうぶも アイゼンクライトも<BR>すごいきたいやから きぶんで<BR>のりかえたらエエで。<BR>",$00
   PromptContinue
   Unknown05 $84,$85,$01,$01
   End
-  WriteText "ほな がんばってな。<br>",$00
+  WriteText "ほな がんばってな。<BR>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Unknown09 $64
   End
-  WriteText "こうらんさん。<br>ちょっといいですか?<br>",$00
+  WriteText "こうらんさん。<BR>ちょっといいですか?<BR>",$00
   PromptContinue
   Unknown05 $87,$B3,$01,$00
   End
   SetPortrait $05,$20,$10
-  WriteText "ん‥‥? なんや<br>",$08,"はんやないか。<br>",$00
+  WriteText "ん‥‥? なんや<BR><NAME>はんやないか。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "さっきの せっけいず<br>いったい なにのせっけいず<br>だったんですか?<br>",$00
+  WriteText "さっきの せっけいず<BR>いったい なにのせっけいず<BR>だったんですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "フフフ‥‥ ",$08,"はん。<br>きいて おどろいたら<br>アカンで。<br>",$00
+  WriteText "フフフ‥‥ <NAME>はん。<BR>きいて おどろいたら<BR>アカンで。<BR>",$00
   PromptContinue
   SetPortrait $05,$27,$17
-  WriteText "このせっけいずは<br>",$01,$07,"アイゼンクライト",$01,$08,"の<br>せっけいずなんや!!<br>",$00
+  WriteText "このせっけいずは<BR>",CHARACTER_EXT_07,"アイゼンクライト",CHARACTER_EXT_08,"の<BR>せっけいずなんや!!<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "えっ! アイゼンクライトって<br>おりひめさんや レニさんが<br>のっている きたいですか!<br>",$00
+  WriteText "えっ! アイゼンクライトって<BR>おりひめさんや レニさんが<BR>のっている きたいですか!<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "そうや。<br>こうぶとは ひとあじちがった<br>かっこよさがある きたいや。<br>",$00
+  WriteText "そうや。<BR>こうぶとは ひとあじちがった<BR>かっこよさがある きたいや。<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "これで ",$08,"はんも<br>アイゼンクライトに<br>のれるようになるんや!!<br>",$00
+  WriteText "これで <NAME>はんも<BR>アイゼンクライトに<BR>のれるようになるんや!!<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "つぎの しゅつげきまでには<br>バッチリ つくっとくから<br>たのしみに まっとき。<br>",$00
+  WriteText "つぎの しゅつげきまでには<BR>バッチリ つくっとくから<BR>たのしみに まっとき。<BR>",$00
   PromptContinue
-  WriteText "こうぶも アイゼンクライトも<br>すごいきたいやから きぶんで<br>のりかえたらエエで。<br>",$00
+  WriteText "こうぶも アイゼンクライトも<BR>すごいきたいやから きぶんで<BR>のりかえたらエエで。<BR>",$00
   PromptContinue
   Unknown05 $84,$85,$01,$01
   End
-  WriteText "ほな がんばってな。<br>",$00
+  WriteText "ほな がんばってな。<BR>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Unknown09 $64
   End
   Unknown07 $20,$05,$04,$87,$B6,$01,$FF,$20,$00
-  WriteText "こうらんさん。<br>ちょっといいでしょうか?<br>",$00
+  WriteText "こうらんさん。<BR>ちょっといいでしょうか?<BR>",$00
   PromptContinue
   Unknown05 $87,$B3,$01,$00
   End
   SetPortrait $05,$20,$10
-  WriteText "ん‥‥? なんや<br>",$08,"はんやないか。<br>",$00
+  WriteText "ん‥‥? なんや<BR><NAME>はんやないか。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "この",$01,$07,"せっけいず",$01,$08,"を<br>こうらんさんに わたして<br>くれと たのまれたんです。<br>",$00
+  WriteText "この",CHARACTER_EXT_07,"せっけいず",CHARACTER_EXT_08,"を<BR>こうらんさんに わたして<BR>くれと たのまれたんです。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "せっけいず?<br>どれどれ‥‥‥<br>",$00
+  WriteText "せっけいず?<BR>どれどれ‥‥‥<BR>",$00
   PromptContinue
   SetPortrait $05,$23,$13
-  WriteText "こ‥‥これは!!<br>",$01,$07,"アイゼンクライト",$01,$08,"の<br>せっけいずやないか!!<br>",$00
+  WriteText "こ‥‥これは!!<BR>",CHARACTER_EXT_07,"アイゼンクライト",CHARACTER_EXT_08,"の<BR>せっけいずやないか!!<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "えっ! アイゼンクライトって<br>おりひめさんや レニさんが<br>のっている きたいですか!<br>",$00
+  WriteText "えっ! アイゼンクライトって<BR>おりひめさんや レニさんが<BR>のっている きたいですか!<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "そうや。<br>こうぶとは ひとあじちがった<br>かっこよさがある きたいや。<br>",$00
+  WriteText "そうや。<BR>こうぶとは ひとあじちがった<BR>かっこよさがある きたいや。<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "よっしゃ!<br>もえてきたで～。<br>",$00
+  WriteText "よっしゃ!<BR>もえてきたで～。<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "つぎの しゅつげきまでには<br>バッチリ つくっとくからな。<br>",$00
+  WriteText "つぎの しゅつげきまでには<BR>バッチリ つくっとくからな。<BR>",$00
   PromptContinue
-  WriteText $08,"はんは<br>こうぶでも アイゼンクライト<br>でも すきなのをつかってな。<br>",$00
+  WriteText "<NAME>はんは<BR>こうぶでも アイゼンクライト<BR>でも すきなのをつかってな。<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "こうぶも アイゼンクライトも<br>すごいきたいやから きぶんで<br>のりかえたらエエで。<br>",$00
+  WriteText "こうぶも アイゼンクライトも<BR>すごいきたいやから きぶんで<BR>のりかえたらエエで。<BR>",$00
   PromptContinue
   Unknown05 $84,$85,$01,$01
   End
-  WriteText "ほな がんばってな。<br>",$00
+  WriteText "ほな がんばってな。<BR>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Unknown09 $64
   End
-  WriteText "こうらんさん。<br>ちょっといいですか?<br>",$00
+  WriteText "こうらんさん。<BR>ちょっといいですか?<BR>",$00
   PromptContinue
   Unknown05 $87,$B3,$01,$00
   End
   SetPortrait $05,$20,$10
-  WriteText "ん‥‥? なんや<br>",$08,"はんやないか。<br>",$00
+  WriteText "ん‥‥? なんや<BR><NAME>はんやないか。<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "さっきの せっけいず<br>いったい なにのせっけいず<br>だったんですか?<br>",$00
+  WriteText "さっきの せっけいず<BR>いったい なにのせっけいず<BR>だったんですか?<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "フフフ‥‥ ",$08,"はん。<br>きいて おどろいたら<br>アカンで。<br>",$00
+  WriteText "フフフ‥‥ <NAME>はん。<BR>きいて おどろいたら<BR>アカンで。<BR>",$00
   PromptContinue
   SetPortrait $05,$27,$17
-  WriteText "このせっけいずは<br>",$01,$07,"アイゼンクライト",$01,$08,"の<br>せっけいずなんや!!<br>",$00
+  WriteText "このせっけいずは<BR>",CHARACTER_EXT_07,"アイゼンクライト",CHARACTER_EXT_08,"の<BR>せっけいずなんや!!<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "えっ! アイゼンクライトって<br>おりひめさんや レニさんが<br>のっている きたいですか!<br>",$00
+  WriteText "えっ! アイゼンクライトって<BR>おりひめさんや レニさんが<BR>のっている きたいですか!<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "そうや。<br>こうぶとは ひとあじちがった<br>かっこよさがある きたいや。<br>",$00
+  WriteText "そうや。<BR>こうぶとは ひとあじちがった<BR>かっこよさがある きたいや。<BR>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "これで ",$08,"はんも<br>アイゼンクライトに<br>のれるようになるんや!!<br>",$00
+  WriteText "これで <NAME>はんも<BR>アイゼンクライトに<BR>のれるようになるんや!!<BR>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "つぎの しゅつげきまでには<br>バッチリ つくっとくから<br>たのしみに まっとき。<br>",$00
+  WriteText "つぎの しゅつげきまでには<BR>バッチリ つくっとくから<BR>たのしみに まっとき。<BR>",$00
   PromptContinue
-  WriteText "こうぶも アイゼンクライトも<br>すごいきたいやから きぶんで<br>のりかえたらエエで。<br>",$00
+  WriteText "こうぶも アイゼンクライトも<BR>すごいきたいやから きぶんで<BR>のりかえたらエエで。<BR>",$00
   PromptContinue
   Unknown05 $84,$85,$01,$01
   End
-  WriteText "ほな がんばってな。<br>",$00
+  WriteText "ほな がんばってな。<BR>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01

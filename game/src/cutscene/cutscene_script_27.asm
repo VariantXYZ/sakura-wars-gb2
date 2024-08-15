@@ -10,7 +10,7 @@ CutsceneScript27_0::
   SetPortrait $0E,$11,$01
   Unknown0E $03
   Unknown02
-  WriteText "さいしゅうしょうが<br>おわりました。<br>",$00
+  WriteText "さいしゅうしょうが<BR>おわりました。<BR>",$00
   PromptContinue
   End
   End

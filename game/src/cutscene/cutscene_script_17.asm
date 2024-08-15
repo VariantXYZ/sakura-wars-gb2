@@ -11,92 +11,92 @@ CutsceneScript17_0::
   Unknown12 $17
   Unknown02
   Unknown07 $E0,$01,$02,$04,$01,$01,$20,$00
-  WriteText $08,"さん。<br>たすけていただいて<br>ありがとうございました",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "<NAME>さん。<BR>たすけていただいて<BR>ありがとうございました",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   Unknown07 $54,$00,$04,$84,$F0,$01,$FF,$20,$00
   Unknown07 $E6,$00,$04,$84,$F1,$01,$FF,$20,$00
   Unknown07 $66,$01,$04,$84,$F2,$01,$FF,$20,$00
-  WriteText "はい これあたしからの<br>こころをこめた<br>プレゼントです",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "はい これあたしからの<BR>こころをこめた<BR>プレゼントです",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   Unknown0F $00,$02
-  WriteText $08,"は<br>",$01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B," を<br>てにいれた<br>",$00
+  WriteText "<NAME>は<BR>",CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B," を<BR>てにいれた<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ありがとうございます。<br>きくちゃん。<br>",$00
+  WriteText "ありがとうございます。<BR>きくちゃん。<BR>",$00
   PromptContinue
   SetPortrait $12,$04,$04
-  WriteText "いーえ どういたしまして。<br>",$00
+  WriteText "いーえ どういたしまして。<BR>",$00
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText "じゃあ これからも<br>がんばってくださいね",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "じゃあ これからも<BR>がんばってくださいね",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   End
-  WriteText "はい これあたしからの<br>おれいです",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "はい これあたしからの<BR>おれいです",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   Unknown0F $00,$02
-  WriteText $08,"は<br>",$01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B," を<br>てにいれた<br>",$00
+  WriteText "<NAME>は<BR>",CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B," を<BR>てにいれた<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ありがとうございます。<br>きくちゃん。<br>",$00
+  WriteText "ありがとうございます。<BR>きくちゃん。<BR>",$00
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText "いえ どういたしまして。<br>じゃあ これからも<br>ガンバッてくださいね",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "いえ どういたしまして。<BR>じゃあ これからも<BR>ガンバッてくださいね",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   End
-  WriteText "はい これあたしからの<br>おれいです",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "はい これあたしからの<BR>おれいです",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   Unknown0F $00,$02
-  WriteText $08,"は<br>",$01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B," を<br>てにいれた<br>",$00
+  WriteText "<NAME>は<BR>",CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B," を<BR>てにいれた<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "???‥‥<br>ありがとうございます。<br>きくちゃん。<br>",$00
+  WriteText "???‥‥<BR>ありがとうございます。<BR>きくちゃん。<BR>",$00
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText "いえ どういたしまして。<br>では がんばってくださいね。<br>",$00
+  WriteText "いえ どういたしまして。<BR>では がんばってくださいね。<BR>",$00
   PromptContinue
   End
-  WriteText $08,"さん。<br>たすけていただいて<br>ありがとうございました",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "<NAME>さん。<BR>たすけていただいて<BR>ありがとうございました",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   Unknown07 $22,$02,$04,$84,$F0,$01,$FF,$20,$00
   Unknown07 $B4,$02,$04,$84,$F1,$01,$FF,$20,$00
   Unknown07 $34,$03,$04,$84,$F2,$01,$FF,$20,$00
-  WriteText "はい これあたしからの<br>こころをこめた<br>プレゼントです",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "はい これあたしからの<BR>こころをこめた<BR>プレゼントです",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   Unknown0F $00,$02
-  WriteText $08,"は<br>",$01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B," を<br>てにいれた<br>",$00
+  WriteText "<NAME>は<BR>",CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B," を<BR>てにいれた<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ありがとうございます。<br>きくちゃん。<br>",$00
+  WriteText "ありがとうございます。<BR>きくちゃん。<BR>",$00
   PromptContinue
   SetPortrait $12,$04,$04
-  WriteText "いーえ どういたしまして。<br>",$00
+  WriteText "いーえ どういたしまして。<BR>",$00
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText "じゃあ これからも<br>がんばってくださいね",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "じゃあ これからも<BR>がんばってくださいね",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   End
-  WriteText "はい これあたしからの<br>おれいです",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "はい これあたしからの<BR>おれいです",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   Unknown0F $00,$02
-  WriteText $08,"は<br>",$01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B," を<br>てにいれた<br>",$00
+  WriteText "<NAME>は<BR>",CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B," を<BR>てにいれた<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ありがとうございます。<br>きくちゃん。<br>",$00
+  WriteText "ありがとうございます。<BR>きくちゃん。<BR>",$00
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText "いえ どういたしまして。<br>じゃあ これからも<br>ガンバッてくださいね",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "いえ どういたしまして。<BR>じゃあ これからも<BR>ガンバッてくださいね",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   End
-  WriteText "はい これあたしからの<br>おれいです",$0A,$02,$01,"7",$0A,$03,"<br>",$00
+  WriteText "はい これあたしからの<BR>おれいです",$0A,$02,CHARACTER_EXT_18,$0A,$03,"<BR>",$00
   PromptContinue
   Unknown0F $00,$02
-  WriteText $08,"は<br>",$01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B," を<br>てにいれた<br>",$00
+  WriteText "<NAME>は<BR>",CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B,CHARACTER_EXT_0B," を<BR>てにいれた<BR>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText "???‥‥<br>ありがとうございます。<br>きくちゃん。<br>",$00
+  WriteText "???‥‥<BR>ありがとうございます。<BR>きくちゃん。<BR>",$00
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText "いえ どういたしまして。<br>では がんばってくださいね。<br>",$00
+  WriteText "いえ どういたしまして。<BR>では がんばってくださいね。<BR>",$00
   PromptContinue
   End
   End

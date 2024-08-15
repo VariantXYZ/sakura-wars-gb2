@@ -10,15 +10,15 @@ CutsceneScript48_0::
   Unknown0E $08
   Unknown12 $04
   Unknown02
-  WriteText "オレは おおがみいちろう。<br>ていこくかげきだん<br>はなぐみの たいちょうだ。<br>",$00
+  WriteText "オレは おおがみいちろう。<BR>ていこくかげきだん<BR>はなぐみの たいちょうだ。<BR>",$00
   PromptContinue
-  WriteText "ぶきは にとうりゅうの<br>カタナで せっきんせんなら<br>まかせてくれ。<br>",$00
+  WriteText "ぶきは にとうりゅうの<BR>カタナで せっきんせんなら<BR>まかせてくれ。<BR>",$00
   PromptContinue
-  WriteText "きみは じっせんの<br>けいけんが すくないから<br>はじめは サポートするよ。<br>",$00
+  WriteText "きみは じっせんの<BR>けいけんが すくないから<BR>はじめは サポートするよ。<BR>",$00
   PromptContinue
-  WriteText "しばらくは オレが<br>かばってあげるから まずは<br>せんとうになれるんだ。<br>",$00
+  WriteText "しばらくは オレが<BR>かばってあげるから まずは<BR>せんとうになれるんだ。<BR>",$00
   PromptContinue
-  WriteText "そして ともに<br>ていとの へいわのために<br>たたかおう!<br>",$00
+  WriteText "そして ともに<BR>ていとの へいわのために<BR>たたかおう!<BR>",$00
   PromptContinue
   End
   End
