@@ -2,27 +2,29 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 4D 0", ROMX[$7637], BANK[$4B]
 CutsceneScript4D_0::
   SetPortrait $0F,$00,$00
   Unknown0E $0B
   Unknown12 $04
   Unknown02
-  WriteText $92,$50,$FA,$0D,$AB,$EE,$7D,$10,$59,$92,$8C,$94,$54,$52,$6F,$9F,$0D,$54,$8D,$A0,$10,$50,$52,$67,$99,$AB,$C9,$B4,$6E,$9F,$0D,$00
+  WriteText "やあ!<br>オレは かやまゆういち。<br>うみを あいするオトコだ。<br>",$00
   PromptContinue
-  WriteText $65,$93,$8D,$7D,$10,$AF,$C0,$FB,$A0,$0D,$80,$5D,$61,$76,$6E,$78,$9F,$0D,$00
+  WriteText "しゅみは ギターを<br>ひくことだな。<br>",$00
   PromptContinue
   Unknown13 $4D,$01
-  WriteText $52,$52,$78,$FC,$10,$AF,$C0,$FB,$7D,$9F,$0D,$63,$9D,$92,$59,$78,$10,$7B,$52,$9B,$75,$9F,$0D,$00
+  WriteText "いいな～ ギターは。<br>さわやかな ねいろで。<br>",$00
   PromptContinue
   SetPortrait $0F,$04,$04
-  WriteText $56,$F9,$10,$78,$79,$90,$7C,$6E,$71,$74,$F9,$0D,$6B,$A1,$78,$61,$76,$10,$77,$54,$75,$90,$0D,$52,$52,$66,$91,$78,$52,$59,$FA,$0D,$00
+  WriteText "え? なにものだって?<br>そんなこと どうでも<br>いいじゃないか!<br>",$00
   PromptContinue
   SetPortrait $0F,$00,$00
-  WriteText $8C,$4F,$10,$58,$58,$5A,$8D,$7C,$0D,$59,$52,$5E,$A1,$66,$6E,$52,$7C,$0D,$65,$A1,$94,$54,$76,$10,$58,$8A,$56,$74,$5D,$9A,$FA,$0D,$00
+  WriteText "まぁ おおがみの<br>かいぐんじだいの<br>しんゆうと おぼえてくれ!<br>",$00
   PromptContinue
   SetPortrait $0F,$01,$01
-  WriteText $66,$91,$50,$10,$61,$9A,$59,$97,$0D,$96,$9B,$65,$5D,$6D,$7C,$8E,$96,$FA,$0D,$A3,$C8,$A4,$AB,$BA,$FA,$0D,$00
+  WriteText "じゃあ これから<br>よろしくたのむよ!<br>アディオス!<br>",$00
   PromptContinue
   End
   End

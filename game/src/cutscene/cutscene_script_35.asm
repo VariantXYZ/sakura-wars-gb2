@@ -2,6 +2,8 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 35 0", ROMX[$4DDF], BANK[$46]
 CutsceneScript35_0::
   Unknown0E $16
@@ -9,40 +11,40 @@ CutsceneScript35_0::
   Unknown12 $17
   Unknown02
   Unknown07 $05,$04,$02,$04,$01,$01,$20,$00
-  WriteText $63,$71,$5B,$8D,$72,$5F,$6D,$0D,$B8,$E9,$D2,$F5,$7C,$5A,$5D,$83,$FF,$FF,$0D,$00
+  WriteText "さっきみつけた<br>ショパンのがくふ‥‥<br>",$00
   Unknown05 $84,$A0,$01,$00
   End
-  WriteText $77,$54,$65,$96,$54,$59,$78,$FF,$FF,$0D,$00
+  WriteText "どうしようかな‥‥<br>",$00
   PromptContinue
-  WriteText $76,$98,$50,$56,$68,$10,$58,$98,$80,$8F,$63,$A1,$7C,$0D,$76,$61,$9B,$86,$10,$90,$71,$74,$52,$5D,$59,$9F,$0D,$00
+  WriteText "とりあえず おりひめさんの<br>ところへ もっていくか。<br>",$00
   PromptContinue
   Unknown1E $1F
-  WriteText $58,$98,$80,$8F,$63,$A1,$9F,$0D,$6F,$95,$71,$76,$52,$52,$75,$67,$59,$F9,$0D,$00
+  WriteText "おりひめさん。<br>ちょっといいですか?<br>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText $50,$97,$10,$08,$63,$A1,$0D,$77,$54,$65,$6D,$75,$67,$59,$F9,$0D,$00
+  WriteText "あら ",$08,"さん<br>どうしたですか?<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $61,$A1,$78,$90,$7C,$A0,$10,$8D,$72,$5F,$6D,$7C,$0D,$75,$67,$5A,$FF,$FF,$0D,$58,$98,$80,$8F,$63,$A1,$7C,$75,$67,$59,$F9,$0D,$00
+  WriteText "こんなものを みつけたの<br>ですが‥‥<br>おりひめさんのですか?<br>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText $B8,$E9,$D2,$F5,$7C,$5A,$5D,$83,$F9,$0D,$6B,$9A,$7D,$10,$9D,$6D,$65,$7C,$75,$FB,$67,$9F,$0D,$00
+  WriteText "ショパンのがくふ?<br>それは わたしのでーす。<br>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText $9D,$64,$9D,$64,$10,$77,$FB,$90,$75,$67,$9F,$0D,$08,$63,$A1,$9F,$0D,$00
+  WriteText "わざわざ どーもです。<br>",$08,"さん。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $58,$98,$80,$8F,$63,$A1,$10,$D5,$A3,$CF,$0D,$80,$5F,$99,$A1,$75,$67,$59,$F9,$0D,$00
+  WriteText "おりひめさん ピアノ<br>ひけるんですか?<br>",$00
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText $A5,$A9,$FB,$BA,$9F,$0D,$9D,$6D,$65,$10,$D5,$A3,$CF,$0D,$6E,$52,$67,$5B,$75,$FB,$67,$9F,$0D,$00
+  WriteText "イエース。<br>わたし ピアノ<br>だいすきでーす。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $DD,$B0,$90,$10,$58,$A1,$5A,$5D,$7D,$0D,$67,$5B,$75,$67,$96,$9F,$0D,$00
+  WriteText "ボクも おんがくは<br>すきですよ。<br>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText $08,$63,$A1,$7D,$10,$77,$A1,$78,$0D,$58,$A1,$5A,$5D,$A0,$10,$5B,$5B,$8C,$67,$59,$F9,$0D,$00
+  WriteText $08,"さんは どんな<br>おんがくを ききますか?<br>",$00
   PromptContinue
   OptionSelectTimed $04,$03,$B0,$EB,$B8,$C4,$B0,$00,$00,$56,$A1,$59,$00,$01,$EF,$C4,$B0,$00,$02
   Unknown07 $88,$01,$02,$01,$01,$00,$20,$00
@@ -50,95 +52,95 @@ CutsceneScript35_0::
   Unknown07 $E3,$02,$02,$01,$01,$02,$20,$00
   Unknown06 $6B,$03
   Unknown0F $00,$01
-  WriteText $B0,$EB,$B8,$C4,$B0,$A0,$0D,$96,$5D,$10,$5B,$5B,$8C,$67,$9F,$0D,$00
+  WriteText "クラシックを<br>よく ききます。<br>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$08,$28,$00
-  WriteText $08,$63,$A1,$10,$F1,$F5,$C1,$D6,$ED,$FA,$0D,$B0,$EB,$B8,$C4,$B0,$A0,$10,$5B,$52,$74,$52,$99,$0D,$78,$A1,$74,$10,$B1,$FB,$C4,$CA,$75,$FB,$67,$9F,$0D,$00
+  WriteText $08,"さん ワンダフル!<br>クラシックを きいている<br>なんて グーッドでーす。<br>",$00
   PromptContinue
-  WriteText $58,$A1,$5A,$5D,$7D,$10,$B0,$EB,$B8,$C4,$B0,$5A,$0D,$A5,$C2,$D1,$F5,$75,$FB,$67,$FA,$0D,$00
+  WriteText "おんがくは クラシックが<br>イチバンでーす!<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$10,$08,$63,$A1,$0D,$9D,$64,$9D,$64,$10,$76,$77,$5F,$74,$5D,$9A,$74,$0D,$B6,$F5,$AE,$E7,$FB,$75,$65,$6D,$9F,$C2,$E5,$AB,$0A,$02,$01,$18,$0A,$03,$0D,$00
+  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。チャオ",$0A,$02,$01,"7",$0A,$03,"<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $66,$72,$7D,$10,$56,$A1,$59,$5A,$0D,$67,$5B,$10,$78,$A1,$75,$67,$96,$9F,$0D,$00
+  WriteText "じつは えんかが<br>すき なんですよ。<br>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText $29,$3C,$FA,$10,$B9,$E5,$D2,$CC,$FB,$BB,$BE,$A7,$ED,$0D,$BE,$F5,$B1,$75,$FB,$67,$7B,$9F,$0D,$00
+  WriteText "Oh! ジャパニーズソウル<br>ソングでーすね。<br>",$00
   PromptContinue
-  WriteText $5D,$9B,$54,$65,$74,$10,$54,$8D,$A0,$8D,$74,$0D,$78,$8D,$6E,$78,$5A,$65,$74,$10,$5A,$8C,$A1,$65,$74,$0D,$CA,$61,$A1,$66,$95,$54,$9F,$0D,$00
+  WriteText "くろうして うみをみて<br>なみだながして がまんして<br>ドこんじょう。<br>",$00
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText $E8,$AE,$60,$65,$5B,$78,$A1,$59,$90,$0D,$A3,$EC,$75,$FB,$67,$7B,$9F,$0D,$00
+  WriteText "ユキげしきなんかも<br>アリでーすね。<br>",$00
   PromptContinue
   Unknown1A $40,$97,$03,$97,$01,$04,$28,$00
-  WriteText $9D,$6D,$65,$90,$10,$6D,$8C,$79,$5B,$5B,$8C,$FB,$67,$9F,$0D,$08,$63,$A1,$10,$78,$59,$78,$59,$0D,$65,$84,$52,$B8,$E7,$E0,$65,$74,$8C,$67,$7B,$9F,$0D,$00
+  WriteText "わたしも たまにききまーす。<br>",$08,"さん なかなか<br>しぶいシュミしてますね。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$10,$08,$63,$A1,$0D,$9D,$64,$9D,$64,$10,$76,$77,$5F,$74,$5D,$9A,$74,$0D,$B6,$F5,$AE,$E7,$FB,$75,$65,$6D,$9F,$0D,$00
+  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $EF,$C4,$B0,$A0,$10,$96,$5D,$5B,$5B,$8C,$67,$96,$9F,$0D,$00
+  WriteText "ロックを よくききますよ。<br>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText $29,$3C,$FA,$10,$52,$59,$79,$90,$10,$9D,$59,$90,$7C,$0D,$97,$65,$52,$75,$FB,$67,$7B,$9F,$0D,$00
+  WriteText "Oh! いかにも わかもの<br>らしいでーすね。<br>",$00
   PromptContinue
-  WriteText $EF,$C4,$B0,$10,$EF,$C4,$B0,$75,$0D,$D6,$A4,$FB,$D1,$FB,$10,$D6,$A4,$FB,$D1,$FB,$9F,$0D,$00
+  WriteText "ロック ロックで<br>フィーバー フィーバー。<br>",$00
   PromptContinue
-  WriteText $75,$90,$10,$9D,$6D,$65,$7D,$10,$50,$8C,$98,$0D,$5B,$59,$78,$52,$7C,$75,$FB,$67,$9F,$0D,$00
+  WriteText "でも わたしは あまり<br>きかないのでーす。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$10,$08,$63,$A1,$0D,$9D,$64,$9D,$64,$10,$76,$77,$5F,$74,$5D,$9A,$74,$0D,$B6,$F5,$AE,$E7,$FB,$75,$65,$6D,$9F,$0D,$00
+  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$76,$5D,$79,$0D,$61,$6E,$9D,$71,$74,$10,$5B,$52,$74,$52,$99,$90,$7C,$7D,$0D,$78,$52,$75,$67,$9F,$0D,$00
+  WriteText "‥‥‥‥‥‥‥‥とくに<br>こだわって きいているものは<br>ないです。<br>",$00
   PromptContinue
   SetPortrait $07,$07,$07
-  WriteText $6B,$54,$78,$A1,$75,$67,$59,$F9,$0D,$00
+  WriteText "そうなんですか?<br>",$00
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText $66,$91,$50,$10,$61,$9A,$59,$97,$7D,$0D,$B0,$EB,$B8,$C4,$B0,$A0,$10,$5B,$52,$74,$8D,$99,$76,$0D,$52,$52,$75,$FB,$67,$9F,$0D,$00
+  WriteText "じゃあ これからは<br>クラシックを きいてみると<br>いいでーす。<br>",$00
   PromptContinue
-  WriteText $58,$A1,$5A,$5D,$7D,$10,$B0,$EB,$B8,$C4,$B0,$5A,$0D,$A5,$C2,$D1,$F5,$75,$FB,$67,$FA,$0D,$00
+  WriteText "おんがくは クラシックが<br>イチバンでーす!<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$10,$08,$63,$A1,$0D,$9D,$64,$9D,$64,$10,$76,$77,$5F,$74,$5D,$9A,$74,$0D,$B6,$F5,$AE,$E7,$FB,$75,$65,$6D,$9F,$0D,$00
+  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。<br>",$00
   PromptContinue
   End
-  WriteText $63,$71,$5B,$8D,$72,$5F,$6D,$0D,$B8,$E9,$D2,$F5,$7C,$5A,$5D,$83,$FF,$FF,$0D,$00
+  WriteText "さっきみつけた<br>ショパンのがくふ‥‥<br>",$00
   Unknown05 $84,$A0,$01,$00
   End
-  WriteText $77,$54,$65,$96,$54,$59,$78,$FF,$FF,$0D,$00
+  WriteText "どうしようかな‥‥<br>",$00
   PromptContinue
-  WriteText $76,$98,$50,$56,$68,$0D,$58,$98,$80,$8F,$63,$A1,$7C,$10,$76,$61,$9B,$86,$0D,$90,$71,$74,$52,$5B,$8C,$65,$95,$54,$9F,$0D,$00
+  WriteText "とりあえず<br>おりひめさんの ところへ<br>もっていきましょう。<br>",$00
   PromptContinue
   Unknown1E $1F
-  WriteText $58,$98,$80,$8F,$63,$A1,$9F,$0D,$6F,$95,$71,$76,$52,$52,$75,$67,$59,$F9,$0D,$00
+  WriteText "おりひめさん。<br>ちょっといいですか?<br>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText $50,$97,$10,$08,$63,$A1,$0D,$77,$54,$65,$6D,$75,$67,$59,$F9,$0D,$00
+  WriteText "あら ",$08,"さん<br>どうしたですか?<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $61,$A1,$78,$90,$7C,$A0,$10,$8D,$72,$5F,$6D,$7C,$0D,$75,$67,$5A,$FF,$FF,$0D,$58,$98,$80,$8F,$63,$A1,$7C,$75,$67,$59,$F9,$0D,$00
+  WriteText "こんなものを みつけたの<br>ですが‥‥<br>おりひめさんのですか?<br>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText $B8,$E9,$D2,$F5,$7C,$5A,$5D,$83,$F9,$0D,$6B,$9A,$7D,$10,$9D,$6D,$65,$7C,$75,$FB,$67,$9F,$0D,$00
+  WriteText "ショパンのがくふ?<br>それは わたしのでーす。<br>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText $9D,$64,$9D,$64,$10,$77,$FB,$90,$75,$67,$9F,$0D,$08,$63,$A1,$9F,$0D,$00
+  WriteText "わざわざ どーもです。<br>",$08,"さん。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $58,$98,$80,$8F,$63,$A1,$10,$D5,$A3,$CF,$0D,$80,$5D,$A1,$75,$67,$7B,$9F,$0D,$00
+  WriteText "おりひめさん ピアノ<br>ひくんですね。<br>",$00
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText $A5,$A9,$FB,$BA,$9F,$0D,$9D,$6D,$65,$10,$D5,$A3,$CF,$0D,$6E,$52,$67,$5B,$75,$FB,$67,$9F,$0D,$00
+  WriteText "イエース。<br>わたし ピアノ<br>だいすきでーす。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $9D,$6D,$65,$90,$10,$58,$A1,$5A,$5D,$7D,$0D,$67,$5B,$75,$67,$96,$9F,$0D,$00
+  WriteText "わたしも おんがくは<br>すきですよ。<br>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText $08,$63,$A1,$7D,$10,$77,$A1,$78,$0D,$58,$A1,$5A,$5D,$A0,$10,$5B,$5B,$8C,$FB,$67,$59,$F9,$0D,$00
+  WriteText $08,"さんは どんな<br>おんがくを ききまーすか?<br>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$B0,$EB,$B8,$C4,$B0,$00,$00,$B9,$E5,$BB,$00,$01,$8D,$A1,$96,$54,$00,$02
   Unknown07 $81,$05,$02,$01,$01,$00,$20,$00
@@ -146,62 +148,62 @@ CutsceneScript35_0::
   Unknown07 $B3,$06,$02,$01,$01,$02,$20,$00
   Unknown06 $B0,$07
   Unknown0F $00,$01
-  WriteText $B0,$EB,$B8,$C4,$B0,$5A,$0D,$67,$5B,$78,$A1,$75,$67,$96,$9F,$0D,$00
+  WriteText "クラシックが<br>すきなんですよ。<br>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$08,$28,$00
-  WriteText $08,$63,$A1,$10,$F1,$F5,$C1,$D6,$ED,$FA,$0D,$B0,$EB,$B8,$C4,$B0,$A0,$10,$5B,$52,$74,$0D,$52,$99,$78,$A1,$74,$10,$B1,$FB,$C4,$CA,$75,$FB,$67,$9F,$0D,$00
+  WriteText $08,"さん ワンダフル!<br>クラシックを きいて<br>いるなんて グーッドでーす。<br>",$00
   PromptContinue
-  WriteText $58,$A1,$5A,$5D,$7D,$10,$B0,$EB,$B8,$C4,$B0,$5A,$0D,$A5,$C2,$D1,$F5,$75,$FB,$67,$FA,$0D,$00
+  WriteText "おんがくは クラシックが<br>イチバンでーす!<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$10,$08,$63,$A1,$0D,$9D,$64,$9D,$64,$10,$76,$77,$5F,$74,$5D,$9A,$74,$0D,$B6,$F5,$AE,$E7,$FB,$75,$65,$6D,$9F,$C2,$E5,$AB,$0A,$02,$01,$18,$0A,$03,$0D,$00
+  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。チャオ",$0A,$02,$01,"7",$0A,$03,"<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $B9,$E5,$BB,$A0,$10,$96,$5D,$5B,$5B,$8C,$67,$96,$9F,$0D,$00
+  WriteText "ジャズを よくききますよ。<br>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText $B9,$E5,$BB,$10,$52,$52,$75,$FB,$67,$9F,$0D,$9D,$6D,$65,$90,$10,$67,$5B,$75,$FB,$67,$9F,$0D,$00
+  WriteText "ジャズ いいでーす。<br>わたしも すきでーす。<br>",$00
   PromptContinue
-  WriteText $EB,$B1,$C0,$A5,$E2,$10,$BA,$A5,$F5,$B1,$10,$E4,$C1,$F5,$0D,$59,$97,$6E,$A0,$10,$94,$63,$84,$99,$EC,$BB,$E2,$5A,$0D,$61,$61,$6F,$52,$52,$75,$FB,$67,$9F,$0D,$00
+  WriteText "ラグタイム スイング モダン<br>からだを ゆさぶるリズムが<br>ここちいいでーす。<br>",$00
   PromptContinue
-  WriteText $08,$63,$A1,$10,$78,$59,$78,$59,$0D,$52,$52,$B8,$E7,$E0,$65,$74,$8C,$67,$7B,$9F,$0D,$00
+  WriteText $08,"さん なかなか<br>いいシュミしてますね。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$10,$08,$63,$A1,$0D,$9D,$64,$9D,$64,$10,$76,$77,$5F,$74,$5D,$9A,$74,$0D,$B6,$F5,$AE,$E7,$FB,$75,$FB,$67,$9F,$0D,$00
+  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでーす。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $8D,$A1,$96,$54,$A0,$10,$5B,$5B,$8C,$67,$9F,$0D,$65,$91,$8D,$69,$A1,$76,$59,$10,$63,$A1,$65,$A1,$5A,$0D,$67,$5B,$78,$A1,$75,$67,$9F,$0D,$00
+  WriteText "みんようを ききます。<br>しゃみせんとか さんしんが<br>すきなんです。<br>",$00
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText $63,$A1,$65,$A1,$FF,$FF,$10,$AC,$F5,$CB,$63,$A1,$7C,$0D,$61,$5B,$95,$54,$10,$AB,$AE,$CB,$F1,$7C,$0D,$60,$A1,$5A,$71,$5B,$75,$FB,$67,$7B,$9F,$0D,$00
+  WriteText "さんしん‥‥ カンナさんの<br>こきょう オキナワの<br>げんがっきでーすね。<br>",$00
   PromptContinue
-  WriteText $52,$52,$75,$67,$7B,$FC,$9F,$0D,$72,$5A,$99,$7C,$65,$91,$8D,$69,$A1,$7D,$0D,$BE,$A7,$ED,$A0,$10,$94,$63,$84,$97,$9A,$8C,$67,$9F,$0D,$00
+  WriteText "いいですね～。<br>つがるのしゃみせんは<br>ソウルを ゆさぶられます。<br>",$00
   PromptContinue
-  WriteText $AB,$AE,$CB,$F1,$7C,$10,$63,$A1,$65,$A1,$7C,$EC,$BB,$E2,$0D,$79,$7D,$10,$59,$97,$6E,$5A,$0D,$72,$5B,$54,$62,$59,$63,$9A,$8C,$FB,$67,$9F,$0D,$00
+  WriteText "オキナワの さんしんのリズム<br>には からだが<br>つきうごかされまーす。<br>",$00
   PromptContinue
-  WriteText $77,$71,$6F,$90,$10,$5B,$90,$6F,$7C,$52,$52,$0D,$5A,$71,$5B,$75,$FB,$67,$9F,$0D,$00
+  WriteText "どっちも きもちのいい<br>がっきでーす。<br>",$00
   PromptContinue
   SetPortrait $07,$01,$01
   Unknown1A $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText $08,$63,$A1,$10,$78,$59,$78,$59,$0D,$52,$52,$B8,$E7,$E0,$65,$74,$8C,$67,$7B,$9F,$0D,$00
+  WriteText $08,"さん なかなか<br>いいシュミしてますね。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$10,$08,$63,$A1,$0D,$9D,$64,$9D,$64,$10,$76,$77,$5F,$74,$5D,$9A,$74,$0D,$B6,$F5,$AE,$E7,$FB,$75,$65,$6D,$9F,$0D,$00
+  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$76,$5D,$79,$0D,$61,$6E,$9D,$71,$74,$10,$5B,$52,$74,$52,$99,$90,$7C,$7D,$0D,$78,$52,$A1,$75,$67,$96,$9F,$0D,$00
+  WriteText "‥‥‥‥‥‥‥‥とくに<br>こだわって きいているものは<br>ないんですよ。<br>",$00
   PromptContinue
   SetPortrait $07,$07,$07
-  WriteText $6B,$54,$78,$A1,$75,$67,$59,$F9,$0D,$00
+  WriteText "そうなんですか?<br>",$00
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText $66,$91,$50,$10,$61,$9A,$59,$97,$7D,$0D,$B0,$EB,$B8,$C4,$B0,$A0,$10,$5B,$52,$74,$8D,$99,$76,$0D,$52,$52,$75,$FB,$67,$9F,$0D,$00
+  WriteText "じゃあ これからは<br>クラシックを きいてみると<br>いいでーす。<br>",$00
   PromptContinue
-  WriteText $58,$A1,$5A,$5D,$7D,$10,$B0,$EB,$B8,$C4,$B0,$5A,$0D,$A5,$C2,$D1,$F5,$75,$FB,$67,$FA,$0D,$00
+  WriteText "おんがくは クラシックが<br>イチバンでーす!<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$10,$08,$63,$A1,$0D,$9D,$64,$9D,$64,$10,$76,$77,$5F,$74,$5D,$9A,$74,$0D,$B6,$F5,$AE,$E7,$FB,$75,$65,$6D,$9F,$0D,$00
+  WriteText "それじゃ ",$08,"さん<br>わざわざ とどけてくれて<br>サンキューでした。<br>",$00
   PromptContinue
   End
   End

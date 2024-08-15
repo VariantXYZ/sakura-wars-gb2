@@ -2,13 +2,15 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 27 0", ROMX[$6004], BANK[$44]
 CutsceneScript27_0::
   Unknown12 $05
   SetPortrait $0E,$11,$01
   Unknown0E $03
   Unknown02
-  WriteText $63,$52,$65,$93,$54,$65,$95,$54,$5A,$0D,$58,$9D,$98,$8C,$65,$6D,$9F,$0D,$00
+  WriteText "さいしゅうしょうが<br>おわりました。<br>",$00
   PromptContinue
   End
   End

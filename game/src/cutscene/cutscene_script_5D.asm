@@ -2,6 +2,8 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 5D 0", ROMX[$7C3A], BANK[$4D]
 CutsceneScript5D_0::
   Unknown0E $1A
@@ -11,31 +13,31 @@ CutsceneScript5D_0::
   Unknown07 $4C,$01,$02,$04,$01,$01,$20,$00
   Unknown09 $3C
   SetPortrait $05,$20,$10
-  WriteText $58,$71,$FA,$10,$08,$7D,$A1,$9F,$0D,$6F,$95,$54,$77,$96,$59,$71,$6D,$10,$63,$5A,$65,$74,$99,$0D,$76,$61,$10,$92,$71,$6D,$A1,$92,$9F,$0D,$00
+  WriteText "おっ! ",$08,"はん。<br>ちょうどよかった さがしてる<br>とこ やったんや。<br>",$00
   PromptContinue
-  WriteText $63,$71,$5B,$E0,$AC,$B6,$75,$10,$A7,$C2,$7C,$0D,$65,$65,$95,$54,$79,$10,$58,$65,$56,$74,$90,$9B,$6D,$0D,$00
+  WriteText "さっきミカサで ウチの<br>ししょうに おしえてもろた<br>",$00
   Unknown05 $84,$4D,$01,$01
   End
-  WriteText $01,$07,$C8,$AC,$54,$75,$01,$08,$71,$6F,$93,$FB,$92,$72,$FF,$FF,$0D,$00
+  WriteText $01,$07,"デカうで",$01,$08,"っちゅーやつ‥‥<br>",$00
   PromptContinue
-  WriteText $63,$71,$6B,$5D,$10,$72,$5D,$71,$74,$8D,$6D,$A1,$92,$9F,$0D,$00
+  WriteText "さっそく つくってみたんや。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $56,$71,$FA,$F9,$0D,$90,$54,$75,$5B,$6D,$A1,$75,$67,$59,$FA,$F9,$0D,$00
+  WriteText "えっ!?<br>もうできたんですか!?<br>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText $8C,$50,$78,$FC,$9F,$0D,$72,$5D,$98,$59,$6D,$63,$56,$10,$9D,$59,$9A,$7E,$0D,$6F,$95,$6F,$95,$52,$7C,$10,$6F,$95,$52,$92,$9F,$0D,$00
+  WriteText "まあな～。<br>つくりかたさえ わかれば<br>ちょちょいの ちょいや。<br>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $89,$78,$10,$59,$5D,$7C,$54,$61,$79,$0D,$52,$9A,$76,$52,$6D,$63,$59,$52,$0D,$66,$94,$54,$79,$10,$72,$59,$71,$74,$92,$FC,$9F,$0D,$00
+  WriteText "ほな かくのうこに<br>いれといたさかい<br>じゆうに つかってや～。<br>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Unknown09 $78
   SetPortrait $05,$20,$10
-  WriteText $50,$10,$6B,$54,$6B,$54,$01,$07,$C8,$AC,$54,$75,$01,$08,$7D,$0D,$84,$5B,$92,$5F,$77,$10,$6F,$95,$5D,$69,$72,$0D,$DD,$C8,$A4,$79,$10,$72,$5F,$99,$90,$A1,$92,$59,$97,$FF,$0D,$00
+  WriteText "あ そうそう",$01,$07,"デカうで",$01,$08,"は<br>ぶきやけど ちょくせつ<br>ボディに つけるもんやから‥<br>",$00
   PromptContinue
-  WriteText $01,$07,$61,$54,$84,$59,$52,$6C,$54,$01,$08,$75,$0D,$6B,$54,$81,$67,$99,$A1,$92,$75,$9F,$0D,$89,$78,$78,$FC,$9F,$0D,$00
+  WriteText $01,$07,"こうぶかいぞう",$01,$08,"で<br>そうびするんやで。<br>ほなな～。<br>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
@@ -43,31 +45,31 @@ CutsceneScript5D_0::
   End
   Unknown09 $3C
   SetPortrait $05,$20,$10
-  WriteText $58,$71,$FA,$10,$08,$7D,$A1,$9F,$0D,$6F,$95,$54,$77,$96,$59,$71,$6D,$10,$63,$5A,$65,$74,$99,$0D,$76,$61,$10,$92,$71,$6D,$A1,$92,$9F,$0D,$00
+  WriteText "おっ! ",$08,"はん。<br>ちょうどよかった さがしてる<br>とこ やったんや。<br>",$00
   PromptContinue
-  WriteText $63,$71,$5B,$E0,$AC,$B6,$75,$10,$A7,$C2,$7C,$0D,$65,$65,$95,$54,$79,$10,$58,$65,$56,$74,$90,$9B,$6D,$0D,$00
+  WriteText "さっきミカサで ウチの<br>ししょうに おしえてもろた<br>",$00
   Unknown05 $84,$4D,$01,$01
   End
-  WriteText $01,$07,$C8,$AC,$54,$75,$01,$08,$71,$6F,$93,$FB,$92,$72,$FF,$FF,$0D,$00
+  WriteText $01,$07,"デカうで",$01,$08,"っちゅーやつ‥‥<br>",$00
   PromptContinue
-  WriteText $63,$71,$6B,$5D,$10,$72,$5D,$71,$74,$8D,$6D,$A1,$92,$9F,$0D,$00
+  WriteText "さっそく つくってみたんや。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $56,$71,$FA,$F9,$0D,$90,$54,$75,$5B,$6D,$A1,$75,$67,$59,$FA,$F9,$0D,$00
+  WriteText "えっ!?<br>もうできたんですか!?<br>",$00
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText $8C,$50,$78,$FC,$9F,$0D,$72,$5D,$98,$59,$6D,$63,$56,$10,$9D,$59,$9A,$7E,$0D,$6F,$95,$6F,$95,$52,$7C,$10,$6F,$95,$52,$92,$9F,$0D,$00
+  WriteText "まあな～。<br>つくりかたさえ わかれば<br>ちょちょいの ちょいや。<br>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $89,$78,$10,$59,$5D,$7C,$54,$61,$79,$0D,$52,$9A,$76,$52,$6D,$63,$59,$52,$0D,$66,$94,$54,$79,$10,$72,$59,$71,$74,$92,$FC,$9F,$0D,$00
+  WriteText "ほな かくのうこに<br>いれといたさかい<br>じゆうに つかってや～。<br>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Unknown09 $78
   SetPortrait $05,$20,$10
-  WriteText $50,$10,$6B,$54,$6B,$54,$01,$07,$C8,$AC,$54,$75,$01,$08,$7D,$0D,$84,$5B,$92,$5F,$77,$10,$6F,$95,$5D,$69,$72,$0D,$DD,$C8,$A4,$79,$10,$72,$5F,$99,$90,$A1,$92,$59,$97,$FF,$0D,$00
+  WriteText "あ そうそう",$01,$07,"デカうで",$01,$08,"は<br>ぶきやけど ちょくせつ<br>ボディに つけるもんやから‥<br>",$00
   PromptContinue
-  WriteText $01,$07,$61,$54,$84,$59,$52,$6C,$54,$01,$08,$75,$0D,$6B,$54,$81,$67,$99,$A1,$92,$75,$9F,$0D,$89,$78,$78,$FC,$9F,$0D,$00
+  WriteText $01,$07,"こうぶかいぞう",$01,$08,"で<br>そうびするんやで。<br>ほなな～。<br>",$00
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01

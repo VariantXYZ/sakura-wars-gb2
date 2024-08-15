@@ -2,36 +2,38 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 4E 0", ROMX[$7705], BANK[$4B]
 CutsceneScript4E_0::
   SetPortrait $10,$00,$00
   Unknown0E $1A
   Unknown12 $04
   Unknown02
-  WriteText $9D,$6D,$65,$6D,$6F,$7D,$0D,$01,$07,$A3,$A5,$01,$08,$76,$01,$07,$D4,$01,$08,$7C,$69,$A1,$65,$0D,$D1,$EB,$5E,$8D,$96,$9F,$0D,$00
+  WriteText "わたしたちは<br>",$01,$07,"アイ",$01,$08,"と",$01,$07,"ビ",$01,$08,"のせんし<br>バラぐみよ。<br>",$00
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText $9D,$6D,$65,$7D,$0D,$7E,$97,$5E,$8D,$7C,$10,$6D,$52,$6F,$95,$54,$0D,$69,$52,$98,$93,$54,$52,$A1,$10,$61,$76,$7B,$9F,$0D,$00
+  WriteText "わたしは<br>ばらぐみの たいちょう<br>せいりゅういん ことね。<br>",$00
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText $A3,$C0,$B8,$7D,$0D,$58,$58,$6D,$10,$96,$5B,$80,$61,$96,$57,$0D,$C2,$E7,$FB,$65,$74,$10,$50,$60,$99,$9D,$0A,$02,$01,$18,$0A,$03,$0D,$00
+  WriteText "アタシは<br>おおた よきひこよぉ<br>チューして あげるわ",$0A,$02,$01,"7",$0A,$03,"<br>",$00
   PromptContinue
   SetPortrait $12,$00,$00
-  WriteText $50,$7C,$FF,$FF,$50,$6D,$65,$FF,$FF,$0D,$58,$59,$10,$5B,$5D,$7C,$66,$95,$54,$0D,$71,$74,$10,$52,$52,$8C,$67,$9F,$0D,$00
+  WriteText "あの‥‥あたし‥‥<br>おか きくのじょう<br>って いいます。<br>",$00
   PromptContinue
-  WriteText $6E,$59,$97,$FF,$FF,$0D,$5B,$5D,$6F,$91,$A1,$71,$74,$0D,$96,$A1,$75,$5D,$6E,$63,$52,$FF,$FF,$0D,$00
+  WriteText "だから‥‥<br>きくちゃんって<br>よんでください‥‥<br>",$00
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText $D6,$D6,$D6,$D6,$9F,$0D,$9D,$6D,$65,$6D,$6F,$7D,$0D,$80,$8D,$72,$84,$6D,$52,$78,$7C,$75,$FF,$FF,$0D,$00
+  WriteText "フフフフ。<br>わたしたちは<br>ひみつぶたいなので‥‥<br>",$00
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText $50,$54,$61,$76,$7D,$0D,$50,$8C,$98,$10,$78,$52,$59,$90,$0D,$65,$9A,$78,$52,$9D,$7B,$55,$0A,$02,$01,$18,$0A,$03,$0D,$00
+  WriteText "あうことは<br>あまり ないかも<br>しれないわねぇ",$0A,$02,$01,"7",$0A,$03,"<br>",$00
   PromptContinue
   SetPortrait $12,$00,$00
-  WriteText $50,$7C,$10,$75,$90,$FF,$FF,$0D,$96,$9B,$65,$5D,$10,$58,$7B,$5A,$52,$0D,$65,$8C,$67,$7B,$FF,$FF,$0D,$00
+  WriteText "あの でも‥‥<br>よろしく おねがい<br>しますね‥‥<br>",$00
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText $96,$9B,$65,$5D,$FA,$0D,$00
+  WriteText "よろしく!<br>",$00
   PromptContinue
   End
   End

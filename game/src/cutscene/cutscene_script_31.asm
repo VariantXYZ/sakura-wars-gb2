@@ -2,6 +2,8 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 31 0", ROMX[$6C16], BANK[$45]
 CutsceneScript31_0::
   Unknown0E $16
@@ -9,78 +11,78 @@ CutsceneScript31_0::
   Unknown12 $17
   Unknown02
   Unknown07 $54,$01,$02,$04,$01,$01,$20,$00
-  WriteText $63,$71,$5B,$8D,$72,$5F,$6D,$0D,$58,$58,$5B,$78,$BA,$D2,$CB,$FF,$FF,$10,$5B,$71,$76,$0D,$00
+  WriteText "さっきみつけた<br>おおきなスパナ‥‥ きっと<br>",$00
   Unknown05 $84,$70,$01,$00
   End
-  WriteText $61,$54,$97,$A1,$63,$A1,$7C,$6E,$9B,$54,$78,$FF,$FF,$0D,$00
+  WriteText "こうらんさんのだろうな‥‥<br>",$00
   PromptContinue
   Unknown1E $1A
-  WriteText $61,$54,$97,$A1,$63,$A1,$9F,$0D,$6F,$95,$71,$76,$52,$52,$75,$67,$59,$F9,$0D,$00
+  WriteText "こうらんさん。<br>ちょっといいですか?<br>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $08,$7D,$A1,$9F,$0D,$77,$78,$52,$65,$6D,$A1,$92,$F9,$0D,$00
+  WriteText $08,"はん。<br>どないしたんや?<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $61,$9A,$10,$8D,$72,$5F,$6D,$A1,$75,$67,$5A,$0D,$61,$54,$97,$A1,$63,$A1,$7C,$75,$67,$59,$F9,$0D,$00
+  WriteText "これ みつけたんですが<br>こうらんさんのですか?<br>",$00
   PromptContinue
   SetPortrait $05,$23,$13
-  WriteText $C8,$AC,$71,$FA,$10,$78,$A1,$92,$6B,$9A,$FA,$F9,$0D,$E3,$C4,$C2,$E5,$75,$71,$59,$52,$92,$A1,$FA,$0D,$A9,$C4,$F9,$10,$BA,$D2,$CB,$FA,$F9,$0D,$00
+  WriteText "デカっ! なんやそれ!?<br>メッチャでっかいやん!<br>エッ? スパナ!?<br>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $50,$FB,$10,$6B,$9A,$7D,$10,$A7,$C2,$7C,$0D,$BA,$D2,$CB,$92,$9F,$0D,$00
+  WriteText "あー それは ウチの<br>スパナや。<br>",$00
   PromptContinue
   SetPortrait $05,$21,$11
   Unknown1A $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText $9D,$64,$9D,$64,$10,$76,$77,$5F,$74,$5D,$9A,$74,$0D,$50,$98,$5A,$76,$54,$10,$08,$7D,$A1,$9F,$0D,$00
+  WriteText "わざわざ とどけてくれて<br>ありがとう ",$08,"はん。<br>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $61,$9A,$7D,$78,$10,$61,$54,$84,$96,$54,$7C,$0D,$BA,$D2,$CB,$78,$A1,$92,$9F,$0D,$00
+  WriteText "これはな こうぶようの<br>スパナなんや。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $50,$50,$FF,$FF,$10,$6B,$9A,$75,$61,$A1,$78,$79,$0D,$C8,$AC,$52,$A1,$75,$67,$7B,$9F,$0D,$00
+  WriteText "ああ‥‥ それでこんなに<br>デカいんですね。<br>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $6B,$54,$92,$9F,$0D,$00
+  WriteText "そうや。<br>",$00
   PromptContinue
   SetPortrait $05,$21,$11
-  WriteText $89,$78,$10,$08,$7D,$A1,$0D,$89,$A1,$8C,$79,$10,$50,$98,$5A,$76,$54,$78,$9F,$0D,$00
+  WriteText "ほな ",$08,"はん<br>ほんまに ありがとうな。<br>",$00
   PromptContinue
   End
-  WriteText $63,$71,$5B,$8D,$72,$5F,$6D,$0D,$58,$58,$5B,$78,$BA,$D2,$CB,$FF,$FF,$10,$5B,$71,$76,$0D,$00
+  WriteText "さっきみつけた<br>おおきなスパナ‥‥ きっと<br>",$00
   Unknown05 $84,$70,$01,$00
   End
-  WriteText $61,$54,$97,$A1,$63,$A1,$7C,$75,$65,$95,$54,$FF,$FF,$0D,$00
+  WriteText "こうらんさんのでしょう‥‥<br>",$00
   PromptContinue
   Unknown1E $1A
-  WriteText $61,$54,$97,$A1,$63,$A1,$9F,$0D,$6F,$95,$71,$76,$52,$52,$75,$67,$59,$F9,$0D,$00
+  WriteText "こうらんさん。<br>ちょっといいですか?<br>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $08,$7D,$A1,$9F,$0D,$77,$78,$52,$65,$6D,$A1,$92,$F9,$0D,$00
+  WriteText $08,"はん。<br>どないしたんや?<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $61,$9A,$10,$8D,$72,$5F,$6D,$7C,$75,$67,$5A,$0D,$61,$54,$97,$A1,$63,$A1,$7C,$75,$67,$59,$F9,$0D,$00
+  WriteText "これ みつけたのですが<br>こうらんさんのですか?<br>",$00
   PromptContinue
   SetPortrait $05,$23,$13
-  WriteText $C8,$AC,$71,$FA,$10,$78,$A1,$92,$6B,$9A,$FA,$F9,$0D,$E3,$C4,$C2,$E5,$75,$71,$59,$52,$92,$A1,$FA,$0D,$A9,$C4,$F9,$10,$BA,$D2,$CB,$FA,$F9,$0D,$00
+  WriteText "デカっ! なんやそれ!?<br>メッチャでっかいやん!<br>エッ? スパナ!?<br>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $50,$FB,$10,$6B,$9A,$7D,$10,$A7,$C2,$7C,$0D,$BA,$D2,$CB,$92,$9F,$0D,$00
+  WriteText "あー それは ウチの<br>スパナや。<br>",$00
   PromptContinue
   SetPortrait $05,$21,$11
   Unknown1A $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText $9D,$64,$9D,$64,$10,$76,$77,$5F,$74,$5D,$9A,$74,$0D,$50,$98,$5A,$76,$54,$10,$08,$7D,$A1,$9F,$0D,$00
+  WriteText "わざわざ とどけてくれて<br>ありがとう ",$08,"はん。<br>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $61,$9A,$7D,$78,$10,$61,$54,$84,$96,$54,$7C,$0D,$BA,$D2,$CB,$78,$A1,$92,$9F,$0D,$00
+  WriteText "これはな こうぶようの<br>スパナなんや。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $50,$50,$FF,$FF,$10,$6B,$9A,$75,$61,$A1,$78,$79,$0D,$58,$58,$5B,$52,$A1,$75,$67,$7B,$9F,$0D,$00
+  WriteText "ああ‥‥ それでこんなに<br>おおきいんですね。<br>",$00
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText $6B,$54,$92,$9F,$0D,$00
+  WriteText "そうや。<br>",$00
   PromptContinue
   SetPortrait $05,$21,$11
-  WriteText $89,$78,$10,$08,$7D,$A1,$0D,$89,$A1,$8C,$79,$10,$50,$98,$5A,$76,$54,$78,$9F,$0D,$00
+  WriteText "ほな ",$08,"はん<br>ほんまに ありがとうな。<br>",$00
   PromptContinue
   End
   End

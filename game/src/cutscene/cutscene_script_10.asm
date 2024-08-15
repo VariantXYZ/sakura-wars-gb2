@@ -2,6 +2,8 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 10 0", ROMX[$4003], BANK[$41]
 CutsceneScript10_0::
   Unknown12 $05
@@ -9,12 +11,12 @@ CutsceneScript10_0::
   Unknown0C $01
   Unknown0E $1D
   SetPortrait $11,$01,$01
-  WriteText $78,$8C,$56,$A0,$10,$79,$93,$54,$98,$95,$5D,$65,$74,$0D,$6F,$95,$54,$6E,$52,$9F,$0D,$00
+  WriteText "なまえを にゅうりょくして<br>ちょうだい。<br>",$00
   PromptContinue
   Unknown1D
   Unknown0E $1D
   SetPortrait $11,$01,$01
-  WriteText $08,$6F,$91,$A1,$0D,$5A,$A1,$7E,$71,$74,$7B,$9F,$0D,$00
+  WriteText $08,"ちゃん<br>がんばってね。<br>",$00
   PromptContinue
   End
   End

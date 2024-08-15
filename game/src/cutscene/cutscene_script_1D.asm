@@ -2,6 +2,8 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 1D 0", ROMX[$750E], BANK[$43]
 CutsceneScript1D_0::
   SetPortrait $0B,$11,$01
@@ -9,54 +11,54 @@ CutsceneScript1D_0::
   Unknown12 $09
   Unknown02
   Unknown07 $19,$01,$02,$04,$01,$01,$20,$00
-  WriteText $58,$59,$56,$98,$78,$63,$52,$9F,$0D,$08,$5D,$A1,$9F,$0D,$00
+  WriteText "おかえりなさい。<br>",$08,"くん。<br>",$00
   PromptContinue
-  WriteText $96,$5B,$80,$61,$63,$A1,$7C,$10,$5B,$93,$54,$65,$93,$72,$0D,$62,$5D,$9B,$54,$63,$8C,$75,$65,$6D,$9F,$0D,$00
+  WriteText "よきひこさんの きゅうしゅつ<br>ごくろうさまでした。<br>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $75,$7D,$10,$89,$54,$61,$5D,$A0,$0D,$58,$7B,$5A,$52,$67,$99,$9D,$9F,$0D,$00
+  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $7D,$52,$10,$89,$54,$61,$5D,$65,$8C,$67,$9F,$0D,$00
+  WriteText "はい ほうこくします。<br>",$00
   PromptContinue
-  WriteText $01,$07,$92,$8C,$76,$01,$08,$79,$10,$01,$07,$8C,$66,$A1,$5B,$01,$08,$7D,$0D,$50,$98,$8C,$69,$A1,$75,$65,$6D,$9F,$0D,$00
+  WriteText $01,$07,"やまと",$01,$08,"に ",$01,$07,"まじんき",$01,$08,"は<br>ありませんでした。<br>",$00
   PromptContinue
-  WriteText $8C,$6D,$10,$01,$07,$92,$8C,$76,$01,$08,$79,$7D,$0D,$50,$5B,$97,$59,$79,$10,$78,$79,$90,$7C,$59,$79,$0D,$8F,$52,$9A,$52,$63,$9A,$10,$54,$62,$52,$74,$52,$99,$0D,$00
+  WriteText "また ",$01,$07,"やまと",$01,$08,"には<br>あきらかに なにものかに<br>めいれいされ うごいている<br>",$00
   PromptContinue
-  WriteText $8C,$90,$7C,$5A,$10,$78,$A1,$6D,$52,$59,$0D,$52,$8C,$65,$6D,$9F,$0D,$00
+  WriteText "まものが なんたいか<br>いました。<br>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText $78,$79,$90,$7C,$59,$79,$0D,$8F,$52,$9A,$52,$63,$9A,$74,$52,$99,$FF,$FF,$FF,$FF,$0D,$00
+  WriteText "なにものかに<br>めいれいされている‥‥‥‥<br>",$00
   PromptContinue
-  WriteText $9D,$59,$71,$6D,$9D,$9F,$0D,$00
+  WriteText "わかったわ。<br>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $75,$7D,$10,$08,$5D,$A1,$7D,$0D,$72,$5C,$7C,$10,$65,$66,$5A,$50,$99,$8C,$75,$0D,$92,$67,$A1,$75,$52,$74,$6F,$95,$54,$6E,$52,$9F,$0D,$00
+  WriteText "では ",$08,"くんは<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
   PromptContinue
   End
-  WriteText $58,$59,$56,$98,$78,$63,$52,$9F,$0D,$08,$9F,$0D,$00
+  WriteText "おかえりなさい。<br>",$08,"。<br>",$00
   PromptContinue
-  WriteText $96,$5B,$80,$61,$63,$A1,$7C,$10,$5B,$93,$54,$65,$93,$72,$0D,$62,$5D,$9B,$54,$63,$8C,$75,$65,$6D,$9F,$0D,$00
+  WriteText "よきひこさんの きゅうしゅつ<br>ごくろうさまでした。<br>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $75,$7D,$10,$89,$54,$61,$5D,$A0,$0D,$58,$7B,$5A,$52,$67,$99,$9D,$9F,$0D,$00
+  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $7D,$52,$10,$89,$54,$61,$5D,$65,$8C,$67,$9F,$0D,$00
+  WriteText "はい ほうこくします。<br>",$00
   PromptContinue
-  WriteText $01,$07,$92,$8C,$76,$01,$08,$79,$10,$01,$07,$8C,$66,$A1,$5B,$01,$08,$7D,$0D,$50,$98,$8C,$69,$A1,$75,$65,$6D,$9F,$0D,$00
+  WriteText $01,$07,"やまと",$01,$08,"に ",$01,$07,"まじんき",$01,$08,"は<br>ありませんでした。<br>",$00
   PromptContinue
-  WriteText $8C,$6D,$10,$01,$07,$92,$8C,$76,$01,$08,$79,$7D,$0D,$50,$5B,$97,$59,$79,$10,$78,$79,$90,$7C,$59,$79,$0D,$8F,$52,$9A,$52,$63,$9A,$10,$54,$62,$52,$74,$52,$99,$0D,$00
+  WriteText "また ",$01,$07,"やまと",$01,$08,"には<br>あきらかに なにものかに<br>めいれいされ うごいている<br>",$00
   PromptContinue
-  WriteText $8C,$90,$7C,$5A,$10,$78,$A1,$6D,$52,$59,$0D,$52,$8C,$65,$6D,$9F,$0D,$00
+  WriteText "まものが なんたいか<br>いました。<br>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText $78,$79,$90,$7C,$59,$79,$0D,$8F,$52,$9A,$52,$63,$9A,$74,$52,$99,$FF,$FF,$FF,$FF,$0D,$00
+  WriteText "なにものかに<br>めいれいされている‥‥‥‥<br>",$00
   PromptContinue
-  WriteText $9D,$59,$71,$6D,$9D,$9F,$0D,$00
+  WriteText "わかったわ。<br>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $75,$7D,$10,$08,$7D,$0D,$72,$5C,$7C,$10,$65,$66,$5A,$50,$99,$8C,$75,$0D,$92,$67,$A1,$75,$52,$74,$6F,$95,$54,$6E,$52,$9F,$0D,$00
+  WriteText "では ",$08,"は<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
   PromptContinue
   End
   End

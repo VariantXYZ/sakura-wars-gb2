@@ -2,6 +2,8 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 2E 0", ROMX[$5362], BANK[$45]
 CutsceneScript2E_0::
   Unknown0E $16
@@ -9,49 +11,49 @@ CutsceneScript2E_0::
   Unknown12 $17
   Unknown02
   Unknown07 $85,$04,$02,$04,$01,$01,$20,$00
-  WriteText $63,$71,$5B,$8D,$72,$5F,$6D,$10,$7A,$52,$5E,$99,$8D,$A0,$0D,$A3,$A5,$EC,$BA,$7C,$76,$61,$9B,$86,$0D,$00
+  WriteText "さっきみつけた ぬいぐるみを<br>アイリスのところへ<br>",$00
   Unknown05 $84,$56,$01,$00
   End
-  WriteText $90,$71,$74,$52,$61,$54,$9F,$0D,$00
+  WriteText "もっていこう。<br>",$00
   PromptContinue
   Unknown1E $10
-  WriteText $A3,$A5,$EC,$BA,$9F,$0D,$00
+  WriteText "アイリス。<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $08,$10,$77,$54,$65,$6D,$7C,$F9,$0D,$00
+  WriteText $08," どうしたの?<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $61,$9A,$10,$8D,$72,$5F,$6D,$A1,$6E,$5F,$77,$0D,$A3,$A5,$EC,$BA,$7C,$F9,$0D,$00
+  WriteText "これ みつけたんだけど<br>アイリスの?<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $50,$71,$FA,$10,$DF,$CC,$A3,$FB,$CB,$FA,$FA,$0D,$00
+  WriteText "あっ! マニアーナ!!<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $DF,$CC,$A3,$FB,$CB,$F9,$0D,$00
+  WriteText "マニアーナ?<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $54,$A1,$9F,$0D,$6B,$7C,$10,$AB,$B6,$ED,$63,$A1,$7C,$0D,$78,$8C,$56,$6E,$96,$9F,$0D,$00
+  WriteText "うん。<br>その オサルさんの<br>なまえだよ。<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText $8D,$72,$5F,$74,$5D,$9A,$74,$10,$50,$98,$5A,$76,$54,$0D,$08,$9F,$0D,$00
+  WriteText "みつけてくれて ありがとう<br>",$08,"。<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $58,$9A,$52,$79,$10,$8D,$A1,$78,$A0,$0D,$65,$95,$54,$59,$52,$67,$99,$7B,$9F,$0D,$00
+  WriteText "おれいに みんなを<br>しょうかいするね。<br>",$00
   PromptContinue
-  WriteText $5D,$8C,$7C,$10,$B9,$E5,$F5,$DE,$FB,$ED,$9F,$0D,$52,$7A,$7C,$10,$DF,$EC,$FB,$9F,$0D,$54,$63,$5C,$7C,$10,$D6,$EB,$F5,$B8,$FB,$CD,$9F,$0D,$00
+  WriteText "くまの ジャンポール。<br>いぬの マリー。<br>うさぎの フランシーヌ。<br>",$00
   PromptContinue
-  WriteText $58,$58,$50,$98,$5D,$52,$7C,$10,$D2,$B1,$FB,$9F,$0D,$89,$71,$5B,$95,$5D,$5E,$8C,$7C,$10,$B9,$E5,$F5,$9F,$0D,$00
+  WriteText "おおありくいの パグー。<br>ほっきょくぐまの ジャン。<br>",$00
   PromptContinue
-  WriteText $6B,$65,$74,$10,$AB,$B6,$ED,$7C,$0D,$DF,$CC,$A3,$FB,$CB,$6E,$96,$9F,$0D,$00
+  WriteText "そして オサルの<br>マニアーナだよ。<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText $58,$8A,$56,$6D,$F9,$10,$08,$9F,$0D,$00
+  WriteText "おぼえた? ",$08,"。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $56,$FC,$71,$76,$FF,$FF,$0D,$5D,$8C,$7C,$10,$B9,$E5,$F5,$DE,$FB,$ED,$76,$0D,$52,$7A,$7C,$10,$DF,$EC,$FB,$76,$0D,$00
+  WriteText "え～っと‥‥<br>くまの ジャンポールと<br>いぬの マリーと<br>",$00
   PromptContinue
-  WriteText $54,$63,$5C,$7C,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$0D,$78,$A1,$6E,$71,$5F,$F9,$0D,$54,$63,$5C,$7C,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$0D,$00
+  WriteText "うさぎの‥‥‥‥‥‥‥‥‥‥<br>なんだっけ?<br>うさぎの‥‥‥‥‥‥‥‥‥‥<br>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$D6,$EB,$F5,$B8,$FB,$CD,$00,$00,$D6,$EB,$F5,$BE,$F1,$FB,$BB,$00,$01,$D6,$EB,$C1,$F5,$BA,$00,$02
   Unknown07 $D4,$01,$02,$01,$01,$00,$20,$00
@@ -59,107 +61,107 @@ CutsceneScript2E_0::
   Unknown07 $52,$03,$02,$01,$01,$02,$20,$00
   Unknown06 $F4,$03
   Unknown0F $00,$01
-  WriteText $D6,$EB,$F5,$B8,$FB,$CD,$FF,$FF,$FF,$6B,$54,$6E,$FA,$0D,$54,$63,$5C,$7C,$10,$D6,$EB,$F5,$B8,$FB,$CD,$9F,$0D,$6B,$65,$74,$FF,$FF,$FF,$FF,$0D,$00
+  WriteText "フランシーヌ‥‥‥そうだ!<br>うさぎの フランシーヌ。<br>そして‥‥‥‥<br>",$00
   PromptContinue
-  WriteText $58,$58,$50,$98,$5D,$52,$7C,$10,$D2,$B1,$FB,$79,$0D,$89,$71,$5B,$95,$5D,$5E,$8C,$7C,$10,$B9,$E5,$F5,$FF,$FF,$0D,$6B,$9A,$76,$FF,$FF,$FF,$FF,$0D,$00
+  WriteText "おおありくいの パグーに<br>ほっきょくぐまの ジャン‥‥<br>それと‥‥‥‥<br>",$00
   PromptContinue
-  WriteText $FF,$FF,$AB,$B6,$ED,$7C,$10,$DF,$CC,$A3,$FB,$CB,$FA,$0D,$6E,$96,$7B,$FA,$FA,$0D,$00
+  WriteText "‥‥オサルの マニアーナ!<br>だよね!!<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText $54,$9D,$FB,$10,$BA,$B5,$A5,$10,$BA,$B5,$A5,$FA,$0D,$6A,$A1,$84,$52,$56,$6D,$FB,$FB,$FB,$71,$FA,$FA,$0D,$00
+  WriteText "うわー スゴイ スゴイ!<br>ぜんぶいえたーーーっ!!<br>",$00
   PromptContinue
-  WriteText $63,$67,$5A,$10,$08,$6E,$7B,$9F,$0D,$A3,$A5,$EC,$BA,$7C,$10,$58,$76,$90,$6E,$6F,$A0,$0D,$58,$8A,$56,$74,$10,$5D,$9A,$6D,$A1,$6E,$7B,$9F,$0D,$00
+  WriteText "さすが ",$08,"だね。<br>アイリスの おともだちを<br>おぼえて くれたんだね。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$DF,$CC,$A3,$FB,$CB,$A0,$10,$6D,$67,$5F,$74,$5D,$9A,$74,$0D,$50,$98,$5A,$76,$54,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $D6,$EB,$F5,$BE,$F1,$FB,$BB,$FF,$FF,$FF,$6B,$54,$6E,$FA,$0D,$54,$63,$5C,$7C,$10,$D6,$EB,$F5,$BE,$F1,$FB,$BB,$9F,$0D,$00
+  WriteText "フランソワーズ‥‥‥そうだ!<br>うさぎの フランソワーズ。<br>",$00
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText $6F,$5A,$54,$96,$FC,$9F,$0D,$6B,$A1,$78,$10,$BA,$C7,$AE,$78,$58,$7B,$56,$63,$A1,$0D,$8D,$6D,$52,$78,$10,$78,$8C,$56,$66,$91,$78,$52,$96,$9F,$0D,$00
+  WriteText "ちがうよ～。<br>そんな ステキなおねえさん<br>みたいな なまえじゃないよ。<br>",$00
   PromptContinue
-  WriteText $54,$63,$5C,$7C,$10,$D6,$EB,$F5,$B8,$FB,$CD,$6E,$96,$9F,$0D,$9D,$59,$71,$6D,$FA,$F9,$10,$08,$9F,$0D,$00
+  WriteText "うさぎの フランシーヌだよ。<br>わかった!? ",$08,"。<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $6F,$91,$A1,$76,$10,$58,$8A,$56,$76,$52,$74,$7B,$9F,$0D,$00
+  WriteText "ちゃんと おぼえといてね。<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$DF,$CC,$A3,$FB,$CB,$A0,$10,$6D,$67,$5F,$74,$5D,$9A,$74,$0D,$50,$98,$5A,$76,$54,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $D6,$EB,$C1,$F5,$BA,$F9,$FF,$FF,$FF,$6B,$54,$6E,$FA,$0D,$54,$63,$5C,$7C,$10,$D6,$EB,$C1,$F5,$BA,$9F,$0D,$00
+  WriteText "フラダンス?‥‥‥そうだ!<br>うさぎの フラダンス。<br>",$00
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText $6F,$5A,$54,$96,$FC,$9F,$6B,$A1,$78,$10,$96,$54,$5B,$78,$0D,$D0,$F1,$A5,$A3,$F5,$8D,$6D,$52,$78,$0D,$78,$8C,$56,$66,$91,$78,$52,$96,$FC,$9F,$0D,$00
+  WriteText "ちがうよ～。そんな ようきな<br>ハワイアンみたいな<br>なまえじゃないよ～。<br>",$00
   PromptContinue
-  WriteText $54,$63,$5C,$7C,$10,$D6,$EB,$F5,$B8,$FB,$CD,$6E,$96,$9F,$0D,$9D,$59,$71,$6D,$FA,$F9,$10,$08,$9F,$0D,$00
+  WriteText "うさぎの フランシーヌだよ。<br>わかった!? ",$08,"。<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $6F,$91,$A1,$76,$10,$58,$8A,$56,$76,$52,$74,$7B,$9F,$0D,$00
+  WriteText "ちゃんと おぼえといてね。<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$DF,$CC,$A3,$FB,$CB,$A0,$10,$6D,$67,$5F,$74,$5D,$9A,$74,$0D,$50,$98,$5A,$76,$54,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$0D,$54,$FC,$A1,$C1,$E3,$6E,$9F,$0D,$9D,$67,$9A,$6D,$9F,$0D,$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>う～んダメだ。<br>わすれた。<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText $6B,$54,$6E,$96,$7B,$9F,$0D,$52,$6F,$77,$75,$6A,$A1,$84,$10,$58,$8A,$56,$97,$9A,$99,$0D,$9D,$5F,$78,$52,$90,$A1,$7B,$9F,$0D,$00
+  WriteText "そうだよね。<br>いちどでぜんぶ おぼえられる<br>わけないもんね。<br>",$00
   PromptContinue
-  WriteText $61,$7C,$B4,$7D,$0D,$54,$63,$5C,$7C,$10,$D6,$EB,$F5,$B8,$FB,$CD,$6E,$96,$9F,$0D,$6F,$91,$A1,$76,$10,$58,$8A,$56,$74,$50,$60,$74,$7B,$9F,$0D,$00
+  WriteText "このコは<br>うさぎの フランシーヌだよ。<br>ちゃんと おぼえてあげてね。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$DF,$CC,$A3,$FB,$CB,$A0,$10,$6D,$67,$5F,$74,$5D,$9A,$74,$0D,$50,$98,$5A,$76,$54,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
   PromptContinue
   End
-  WriteText $63,$71,$5B,$8D,$72,$5F,$6D,$10,$7A,$52,$5E,$99,$8D,$A0,$0D,$A3,$A5,$EC,$BA,$7C,$76,$61,$9B,$86,$0D,$00
+  WriteText "さっきみつけた ぬいぐるみを<br>アイリスのところへ<br>",$00
   Unknown05 $84,$56,$01,$00
   End
-  WriteText $90,$71,$74,$52,$5B,$8C,$65,$95,$54,$9F,$0D,$00
+  WriteText "もっていきましょう。<br>",$00
   PromptContinue
   Unknown1E $10
-  WriteText $A3,$A5,$EC,$BA,$9F,$0D,$00
+  WriteText "アイリス。<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $08,$10,$77,$54,$65,$6D,$7C,$F9,$0D,$00
+  WriteText $08," どうしたの?<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $61,$9A,$10,$8D,$72,$5F,$6D,$A1,$6E,$5F,$77,$0D,$A3,$A5,$EC,$BA,$7C,$F9,$0D,$00
+  WriteText "これ みつけたんだけど<br>アイリスの?<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $50,$71,$FA,$10,$DF,$CC,$A3,$FB,$CB,$FA,$FA,$0D,$00
+  WriteText "あっ! マニアーナ!!<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $DF,$CC,$A3,$FB,$CB,$F9,$0D,$00
+  WriteText "マニアーナ?<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $54,$A1,$9F,$0D,$6B,$7C,$10,$AB,$B6,$ED,$63,$A1,$7C,$0D,$78,$8C,$56,$6E,$96,$9F,$0D,$00
+  WriteText "うん。<br>その オサルさんの<br>なまえだよ。<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText $8D,$72,$5F,$74,$5D,$9A,$74,$10,$50,$98,$5A,$76,$54,$0D,$08,$9F,$0D,$00
+  WriteText "みつけてくれて ありがとう<br>",$08,"。<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $58,$9A,$52,$79,$10,$8D,$A1,$78,$A0,$0D,$65,$95,$54,$59,$52,$67,$99,$7B,$9F,$0D,$00
+  WriteText "おれいに みんなを<br>しょうかいするね。<br>",$00
   PromptContinue
-  WriteText $5D,$8C,$7C,$10,$B9,$E5,$F5,$DE,$FB,$ED,$9F,$0D,$52,$7A,$7C,$10,$DF,$EC,$FB,$9F,$0D,$54,$63,$5C,$7C,$10,$D6,$EB,$F5,$B8,$FB,$CD,$9F,$0D,$00
+  WriteText "くまの ジャンポール。<br>いぬの マリー。<br>うさぎの フランシーヌ。<br>",$00
   PromptContinue
-  WriteText $58,$58,$50,$98,$5D,$52,$7C,$10,$D2,$B1,$FB,$9F,$0D,$89,$71,$5B,$95,$5D,$5E,$8C,$7C,$10,$B9,$E5,$F5,$9F,$0D,$00
+  WriteText "おおありくいの パグー。<br>ほっきょくぐまの ジャン。<br>",$00
   PromptContinue
-  WriteText $6B,$65,$74,$10,$AB,$B6,$ED,$7C,$0D,$DF,$CC,$A3,$FB,$CB,$6E,$96,$9F,$0D,$00
+  WriteText "そして オサルの<br>マニアーナだよ。<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText $58,$8A,$56,$6D,$F9,$10,$08,$9F,$0D,$00
+  WriteText "おぼえた? ",$08,"。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $5D,$8C,$7C,$10,$B9,$E5,$F5,$DE,$FB,$ED,$9F,$0D,$52,$7A,$7C,$10,$DF,$EC,$FB,$9F,$0D,$54,$63,$5C,$7C,$10,$D6,$EB,$F5,$B8,$FB,$CD,$9F,$0D,$00
+  WriteText "くまの ジャンポール。<br>いぬの マリー。<br>うさぎの フランシーヌ。<br>",$00
   PromptContinue
-  WriteText $58,$58,$50,$98,$5D,$52,$7C,$10,$D2,$B1,$FB,$9F,$0D,$89,$71,$5B,$95,$5D,$5E,$8C,$7C,$10,$B9,$E5,$F5,$9F,$0D,$00
+  WriteText "おおありくいの パグー。<br>ほっきょくぐまの ジャン。<br>",$00
   PromptContinue
-  WriteText $75,$10,$63,$52,$62,$79,$10,$AB,$B6,$ED,$7C,$FF,$FF,$0D,$78,$A1,$6E,$71,$5F,$F9,$0D,$AB,$B6,$ED,$7C,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$0D,$00
+  WriteText "で さいごに オサルの‥‥<br>なんだっけ?<br>オサルの‥‥‥‥‥‥‥‥‥‥<br>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$DF,$CC,$A3,$FB,$CB,$00,$00,$A3,$CC,$DF,$FB,$ED,$00,$01,$B4,$A3,$EB,$00,$02
   Unknown07 $69,$06,$02,$01,$01,$00,$20,$00
@@ -167,56 +169,56 @@ CutsceneScript2E_0::
   Unknown07 $99,$07,$02,$01,$01,$02,$20,$00
   Unknown06 $31,$08
   Unknown0F $00,$01
-  WriteText $DF,$CC,$A3,$FB,$CB,$FF,$FF,$FF,$6B,$54,$FA,$0D,$AB,$B6,$ED,$7C,$10,$DF,$CC,$A3,$FB,$CB,$7B,$FA,$FA,$0D,$00
+  WriteText "マニアーナ‥‥‥そう!<br>オサルの マニアーナね!!<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
   Unknown1A $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText $54,$9D,$FB,$10,$BA,$B5,$A5,$10,$BA,$B5,$A5,$FA,$0D,$6A,$A1,$84,$52,$56,$6D,$FB,$FB,$FB,$71,$FA,$FA,$0D,$00
+  WriteText "うわー スゴイ スゴイ!<br>ぜんぶいえたーーーっ!!<br>",$00
   PromptContinue
-  WriteText $63,$67,$5A,$10,$08,$6E,$7B,$9F,$0D,$A3,$A5,$EC,$BA,$7C,$10,$58,$76,$90,$6E,$6F,$A0,$0D,$58,$8A,$56,$74,$10,$5D,$9A,$6D,$A1,$6E,$7B,$9F,$0D,$00
+  WriteText "さすが ",$08,"だね。<br>アイリスの おともだちを<br>おぼえて くれたんだね。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$DF,$CC,$A3,$FB,$CB,$A0,$10,$6D,$67,$5F,$74,$5D,$9A,$74,$0D,$50,$98,$5A,$76,$54,$7B,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとうね。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $A3,$CC,$DF,$FB,$ED,$FF,$FF,$FF,$6B,$54,$6E,$FA,$0D,$AB,$B6,$ED,$7C,$10,$A3,$CC,$DF,$FB,$ED,$9F,$0D,$00
+  WriteText "アニマール‥‥‥そうだ!<br>オサルの アニマール。<br>",$00
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText $A3,$CC,$DF,$FB,$ED,$71,$74,$0D,$6B,$9A,$66,$91,$50,$10,$A3,$CC,$DF,$ED,$7C,$0D,$8C,$A1,$8C,$66,$91,$A1,$FA,$0D,$00
+  WriteText "アニマールって<br>それじゃあ アニマルの<br>まんまじゃん!<br>",$00
   PromptContinue
-  WriteText $61,$7C,$B4,$7D,$0D,$AB,$B6,$ED,$7C,$10,$DF,$CC,$A3,$FB,$CB,$6E,$96,$9F,$0D,$9D,$59,$71,$6D,$FA,$F9,$10,$08,$9F,$0D,$00
+  WriteText "このコは<br>オサルの マニアーナだよ。<br>わかった!? ",$08,"。<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $6F,$91,$A1,$76,$10,$58,$8A,$56,$76,$52,$74,$7B,$9F,$0D,$00
+  WriteText "ちゃんと おぼえといてね。<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$DF,$CC,$A3,$FB,$CB,$A0,$10,$6D,$67,$5F,$74,$5D,$9A,$74,$0D,$50,$98,$5A,$76,$54,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $B4,$A3,$EB,$F9,$FF,$FF,$FF,$6B,$54,$6E,$FA,$0D,$AB,$B6,$ED,$7C,$10,$B4,$A3,$EB,$9F,$0D,$00
+  WriteText "コアラ?‥‥‥そうだ!<br>オサルの コアラ。<br>",$00
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText $78,$79,$6B,$9A,$FA,$0D,$AB,$B6,$ED,$78,$7C,$79,$10,$B4,$A3,$EB,$78,$A1,$74,$0D,$86,$A1,$6E,$96,$FA,$0D,$00
+  WriteText "なにそれ!<br>オサルなのに コアラなんて<br>へんだよ!<br>",$00
   PromptContinue
-  WriteText $61,$7C,$B4,$7D,$0D,$AB,$B6,$ED,$7C,$10,$DF,$CC,$A3,$FB,$CB,$6E,$96,$9F,$0D,$9D,$59,$71,$6D,$FA,$F9,$10,$08,$9F,$0D,$00
+  WriteText "このコは<br>オサルの マニアーナだよ。<br>わかった!? ",$08,"。<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $6F,$91,$A1,$76,$10,$58,$8A,$56,$76,$52,$74,$7B,$9F,$0D,$00
+  WriteText "ちゃんと おぼえといてね。<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$DF,$CC,$A3,$FB,$CB,$A0,$10,$6D,$67,$5F,$74,$5D,$9A,$74,$0D,$50,$98,$5A,$76,$54,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$0D,$50,$FC,$A1,$C1,$E3,$9F,$0D,$9D,$67,$9A,$6F,$91,$71,$6D,$9D,$9F,$0D,$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>あ～んダメ。<br>わすれちゃったわ。<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText $6B,$54,$6E,$96,$7B,$9F,$0D,$52,$6F,$77,$75,$6A,$A1,$84,$10,$58,$8A,$56,$97,$9A,$99,$0D,$9D,$5F,$78,$52,$90,$A1,$7B,$9F,$0D,$00
+  WriteText "そうだよね。<br>いちどでぜんぶ おぼえられる<br>わけないもんね。<br>",$00
   PromptContinue
-  WriteText $61,$7C,$B4,$7D,$0D,$AB,$B6,$ED,$7C,$10,$DF,$CC,$A3,$FB,$CB,$6E,$96,$9F,$0D,$6F,$91,$A1,$76,$10,$58,$8A,$56,$74,$50,$60,$74,$7B,$9F,$0D,$00
+  WriteText "このコは<br>オサルの マニアーナだよ。<br>ちゃんと おぼえてあげてね。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$DF,$CC,$A3,$FB,$CB,$A0,$10,$6D,$67,$5F,$74,$5D,$9A,$74,$0D,$50,$98,$5A,$76,$54,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>マニアーナを たすけてくれて<br>ありがとう。<br>",$00
   PromptContinue
   End
   End

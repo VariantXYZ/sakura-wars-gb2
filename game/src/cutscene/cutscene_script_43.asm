@@ -2,22 +2,24 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 43 0", ROMX[$6FDD], BANK[$4B]
 CutsceneScript43_0::
   SetPortrait $04,$01,$01
   Unknown0E $10
   Unknown12 $04
   Unknown02
-  WriteText $92,$71,$89,$FB,$10,$A3,$A5,$EC,$BA,$75,$FB,$67,$FA,$0D,$61,$7C,$61,$7D,$10,$B0,$DF,$7C,$0D,$B9,$E5,$F5,$DE,$FB,$ED,$FA,$0D,$00
+  WriteText "やっほー アイリスでーす!<br>このこは クマの<br>ジャンポール!<br>",$00
   PromptContinue
   SetPortrait $04,$03,$03
-  WriteText $A3,$A5,$EC,$BA,$7D,$0D,$6D,$6D,$59,$52,$7D,$10,$50,$A1,$8C,$98,$0D,$67,$5B,$66,$91,$78,$52,$5F,$77,$FF,$FF,$0D,$00
+  WriteText "アイリスは<br>たたかいは あんまり<br>すきじゃないけど‥‥<br>",$00
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText $6F,$95,$54,$7C,$54,$98,$95,$5D,$75,$0D,$AE,$BB,$A0,$78,$58,$65,$6D,$98,$0D,$C7,$EE,$DE,$FB,$C9,$5A,$75,$5B,$99,$A1,$6E,$96,$FA,$0D,$00
+  WriteText "ちょうのうりょくで<br>キズをなおしたり<br>テレポートができるんだよ!<br>",$00
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText $6E,$59,$97,$10,$78,$59,$96,$5D,$65,$74,$7B,$FA,$0D,$92,$5D,$6B,$5D,$6E,$96,$FA,$0D,$00
+  WriteText "だから なかよくしてね!<br>やくそくだよ!<br>",$00
   PromptContinue
   End
   End

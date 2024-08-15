@@ -2,21 +2,23 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 4C 0", ROMX[$7590], BANK[$4B]
 CutsceneScript4C_0::
   SetPortrait $0E,$11,$01
   Unknown0E $16
   Unknown12 $04
   Unknown02
-  WriteText $61,$A1,$79,$6F,$9D,$FA,$0D,$50,$6D,$65,$10,$6D,$59,$8E,$97,$10,$72,$7E,$5B,$0D,$71,$74,$52,$52,$8C,$67,$9F,$0D,$00
+  WriteText "こんにちわ!<br>あたし たかむら つばき<br>っていいます。<br>",$00
   PromptContinue
   SetPortrait $0E,$10,$00
-  WriteText $59,$67,$8D,$63,$A1,$92,$10,$94,$98,$63,$A1,$76,$0D,$52,$71,$65,$95,$79,$10,$50,$78,$6D,$7C,$0D,$B6,$DE,$FB,$C9,$A0,$10,$92,$98,$8C,$67,$59,$97,$0D,$00
+  WriteText "かすみさんや ゆりさんと<br>いっしょに あなたの<br>サポートを やりますから<br>",$00
   PromptContinue
-  WriteText $9D,$59,$97,$78,$52,$61,$76,$5A,$50,$71,$6D,$97,$0D,$52,$72,$75,$90,$10,$72,$54,$65,$A1,$75,$0D,$9A,$A1,$97,$5D,$5D,$6E,$63,$52,$FA,$0D,$00
+  WriteText "わからないことがあったら<br>いつでも つうしんで<br>れんらくください!<br>",$00
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText $58,$54,$56,$A1,$65,$74,$8C,$67,$59,$97,$7B,$FA,$0D,$D6,$A2,$A5,$C9,$FA,$10,$D6,$A2,$A5,$C9,$FA,$0D,$5A,$A1,$7E,$71,$74,$5D,$6E,$63,$52,$7B,$FA,$0D,$00
+  WriteText "おうえんしてますからね!<br>ファイト! ファイト!<br>がんばってくださいね!<br>",$00
   PromptContinue
   End
   End

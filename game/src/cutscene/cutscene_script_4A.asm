@@ -2,21 +2,23 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 4A 0", ROMX[$7459], BANK[$4B]
 CutsceneScript4A_0::
   SetPortrait $0D,$11,$01
   Unknown0E $16
   Unknown12 $04
   Unknown02
-  WriteText $B4,$F5,$CC,$C2,$F1,$9F,$0D,$9D,$6D,$65,$7C,$10,$78,$8C,$56,$7D,$0D,$63,$59,$5B,$7E,$97,$10,$94,$98,$10,$96,$9F,$0D,$00
+  WriteText "コンニチワ。<br>わたしの なまえは<br>さかきばら ゆり よ。<br>",$00
   PromptContinue
   SetPortrait $0D,$10,$00
-  WriteText $74,$52,$61,$5D,$59,$60,$5B,$6E,$A1,$7C,$0D,$AB,$DB,$EE,$FB,$C0,$FB,$76,$65,$74,$0D,$5B,$95,$54,$98,$95,$5D,$67,$99,$9D,$7B,$9F,$0D,$00
+  WriteText "ていこくかげきだんの<br>オペレーターとして<br>きょうりょくするわね。<br>",$00
   PromptContinue
-  WriteText $90,$65,$90,$10,$63,$5D,$69,$A1,$6F,$93,$54,$79,$0D,$9D,$59,$97,$78,$52,$B4,$C9,$5A,$50,$71,$6D,$97,$0D,$9A,$A1,$97,$5D,$A0,$10,$6F,$95,$54,$6E,$52,$9F,$0D,$00
+  WriteText "もしも さくせんちゅうに<br>わからないコトがあったら<br>れんらくを ちょうだい。<br>",$00
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText $78,$A1,$75,$90,$10,$58,$65,$56,$74,$50,$60,$99,$9D,$9F,$0D,$6B,$9A,$66,$91,$50,$10,$5A,$A1,$7E,$71,$74,$7B,$FA,$0D,$00
+  WriteText "なんでも おしえてあげるわ。<br>それじゃあ がんばってね!<br>",$00
   PromptContinue
   End
   End

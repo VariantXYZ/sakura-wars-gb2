@@ -2,21 +2,23 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 47 0", ROMX[$7283], BANK[$4B]
 CutsceneScript47_0::
   SetPortrait $08,$00,$00
   Unknown0E $20
   Unknown12 $04
   Unknown02
-  WriteText $DD,$B0,$7D,$EE,$CC,$FF,$FF,$0D,$00
+  WriteText "ボクはレニ‥‥<br>",$00
   PromptContinue
-  WriteText $DD,$B0,$7C,$69,$A1,$66,$95,$54,$75,$7C,$92,$5D,$8F,$7D,$0D,$6A,$A1,$56,$52,$75,$10,$67,$7E,$92,$5D,$0D,$74,$5B,$A0,$10,$7D,$59,$52,$67,$99,$61,$76,$9F,$0D,$00
+  WriteText "ボクのせんじょうでのやくめは<br>ぜんえいで すばやく<br>てきを はかいすること。<br>",$00
   PromptContinue
-  WriteText $BA,$D5,$FB,$CA,$61,$6B,$5A,$0D,$65,$95,$54,$7D,$52,$A0,$10,$63,$94,$54,$67,$99,$9F,$0D,$00
+  WriteText "スピードこそが<br>しょうはいを さゆうする。<br>",$00
   PromptContinue
-  WriteText $69,$A1,$66,$95,$54,$79,$58,$52,$74,$0D,$6D,$52,$69,$72,$78,$61,$76,$10,$6B,$9A,$7D,$0D,$59,$72,$61,$76,$10,$6B,$9A,$6E,$5F,$9F,$0D,$00
+  WriteText "せんじょうにおいて<br>たいせつなこと それは<br>かつこと それだけ。<br>",$00
   PromptContinue
-  WriteText $66,$91,$50,$0D,$5A,$A1,$7E,$9A,$FF,$FF,$0D,$00
+  WriteText "じゃあ<br>がんばれ‥‥<br>",$00
   PromptContinue
   End
   End

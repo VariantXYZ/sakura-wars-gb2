@@ -2,6 +2,8 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 14 0", ROMX[$7786], BANK[$42]
 CutsceneScript14_0::
   Unknown0E $16
@@ -9,30 +11,30 @@ CutsceneScript14_0::
   Unknown12 $04
   Unknown02
   Unknown07 $80,$00,$02,$04,$01,$01,$20,$00
-  WriteText $08,$63,$A1,$9F,$0D,$50,$98,$5A,$76,$54,$62,$64,$52,$8C,$65,$6D,$9F,$0D,$00
+  WriteText $08,"さん。<br>ありがとうございました。<br>",$00
   PromptContinue
-  WriteText $89,$A1,$76,$54,$79,$10,$6D,$67,$59,$98,$8C,$65,$6D,$9F,$0D,$00
+  WriteText "ほんとうに たすかりました。<br>",$00
   PromptContinue
-  WriteText $61,$9A,$10,$58,$9A,$52,$75,$67,$9F,$0D,$00
+  WriteText "これ おれいです。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B,$75,$67,$7B,$9F,$0D,$50,$98,$5A,$76,$54,$62,$64,$52,$8C,$67,$9F,$0D,$00
+  WriteText $01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B,"ですね。<br>ありがとうございます。<br>",$00
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText $79,$A1,$8E,$10,$5A,$A1,$7E,$71,$74,$0D,$5D,$6E,$63,$52,$7B,$9F,$0D,$00
+  WriteText "にんむ がんばって<br>くださいね。<br>",$00
   PromptContinue
   End
-  WriteText $08,$63,$A1,$9F,$0D,$50,$98,$5A,$76,$54,$62,$64,$52,$8C,$65,$6D,$9F,$0D,$00
+  WriteText $08,"さん。<br>ありがとうございました。<br>",$00
   PromptContinue
-  WriteText $89,$A1,$76,$54,$79,$10,$6D,$67,$59,$98,$8C,$65,$6D,$9F,$0D,$00
+  WriteText "ほんとうに たすかりました。<br>",$00
   PromptContinue
-  WriteText $61,$9A,$10,$58,$9A,$52,$75,$67,$9F,$0D,$00
+  WriteText "これ おれいです。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B,$75,$67,$7B,$9F,$0D,$50,$98,$5A,$76,$54,$62,$64,$52,$8C,$67,$9F,$0D,$00
+  WriteText $01,$0B,$01,$0B,$01,$0B,$01,$0B,$01,$0B,"ですね。<br>ありがとうございます。<br>",$00
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText $79,$A1,$8E,$10,$5A,$A1,$7E,$71,$74,$0D,$5D,$6E,$63,$52,$7B,$9F,$0D,$00
+  WriteText "にんむ がんばって<br>くださいね。<br>",$00
   PromptContinue
   End
   End

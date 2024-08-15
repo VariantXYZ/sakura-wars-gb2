@@ -2,19 +2,21 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 42 0", ROMX[$6F48], BANK[$4B]
 CutsceneScript42_0::
   SetPortrait $03,$00,$00
   Unknown0E $0E
   Unknown12 $04
   Unknown02
-  WriteText $96,$54,$61,$6B,$0D,$74,$52,$61,$5D,$59,$60,$5B,$6E,$A1,$86,$9F,$0D,$DF,$EC,$A3,$F3,$C0,$C2,$D1,$CB,$75,$67,$9F,$0D,$00
+  WriteText "ようこそ<br>ていこくかげきだんへ。<br>マリア・タチバナです。<br>",$00
   PromptContinue
-  WriteText $9D,$6D,$65,$7C,$84,$5B,$7D,$10,$66,$93,$54,$75,$67,$9F,$0D,$65,$91,$60,$5B,$75,$10,$7D,$78,$9A,$6D,$74,$5B,$90,$0D,$61,$54,$60,$5B,$67,$99,$61,$76,$5A,$75,$5B,$8C,$67,$9F,$0D,$00
+  WriteText "わたしのぶきは じゅうです。<br>しゃげきで はなれたてきも<br>こうげきすることができます。<br>",$00
   PromptContinue
-  WriteText $69,$A1,$66,$95,$54,$75,$7D,$0D,$6F,$52,$63,$78,$94,$6E,$A1,$5A,$0D,$7D,$52,$8A,$5D,$79,$10,$72,$78,$5A,$99,$9D,$9F,$0D,$00
+  WriteText "せんじょうでは<br>ちいさなゆだんが<br>はいぼくに つながるわ。<br>",$00
   PromptContinue
-  WriteText $5B,$A0,$80,$5B,$65,$8F,$74,$0D,$65,$71,$59,$98,$76,$0D,$5A,$A1,$7E,$98,$78,$63,$52,$9F,$0D,$00
+  WriteText "きをひきしめて<br>しっかりと<br>がんばりなさい。<br>",$00
   PromptContinue
   End
   End

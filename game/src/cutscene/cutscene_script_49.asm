@@ -2,18 +2,20 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 49 0", ROMX[$73D5], BANK[$4B]
 CutsceneScript49_0::
   SetPortrait $0B,$10,$00
   Unknown0E $0A
   Unknown12 $04
   Unknown02
-  WriteText $96,$5D,$5B,$74,$5D,$9A,$6D,$9D,$7B,$9F,$0D,$9D,$6D,$65,$7D,$10,$74,$52,$61,$5D,$59,$60,$5B,$6E,$A1,$0D,$83,$5D,$65,$9A,$52,$10,$83,$66,$56,$6E,$59,$56,$75,$9F,$0D,$00
+  WriteText "よくきてくれたわね。<br>わたしは ていこくかげきだん<br>ふくしれい ふじえだかえで。<br>",$00
   PromptContinue
-  WriteText $50,$78,$6D,$86,$7C,$10,$63,$5D,$69,$A1,$7C,$0D,$65,$66,$7D,$10,$67,$87,$74,$9D,$6D,$65,$5A,$0D,$58,$61,$78,$52,$8C,$67,$9F,$0D,$00
+  WriteText "あなたへの さくせんの<br>しじは すべてわたしが<br>おこないます。<br>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText $7D,$66,$8F,$74,$7C,$10,$79,$A1,$8E,$75,$0D,$6D,$52,$86,$A1,$6E,$76,$10,$58,$90,$54,$5F,$77,$0D,$65,$71,$59,$98,$6D,$7C,$8E,$9D,$96,$9F,$0D,$00
+  WriteText "はじめての にんむで<br>たいへんだと おもうけど<br>しっかりたのむわよ。<br>",$00
   PromptContinue
   End
   End

@@ -2,6 +2,8 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 33 0", ROMX[$768D], BANK[$45]
 CutsceneScript33_0::
   Unknown0E $16
@@ -9,38 +11,38 @@ CutsceneScript33_0::
   Unknown12 $17
   Unknown02
   Unknown07 $A8,$03,$02,$04,$01,$01,$20,$00
-  WriteText $E0,$AC,$B6,$7C,$78,$59,$75,$10,$80,$9B,$71,$6D,$0D,$61,$7C,$58,$58,$5B,$78,$6F,$91,$9D,$A1,$FF,$FF,$0D,$00
+  WriteText "ミカサのなかで ひろった<br>このおおきなちゃわん‥‥<br>",$00
   Unknown05 $84,$88,$01,$00
   End
-  WriteText $AC,$F5,$CB,$63,$A1,$7C,$6E,$9B,$54,$78,$FF,$FF,$0D,$00
+  WriteText "カンナさんのだろうな‥‥<br>",$00
   PromptContinue
-  WriteText $96,$65,$10,$AC,$F5,$CB,$63,$A1,$79,$0D,$9D,$6D,$65,$79,$52,$61,$54,$9F,$0D,$00
+  WriteText "よし カンナさんに<br>わたしにいこう。<br>",$00
   PromptContinue
   Unknown1E $11
-  WriteText $AC,$F5,$CB,$63,$A1,$9F,$0D,$65,$72,$9A,$52,$65,$8C,$67,$9F,$0D,$00
+  WriteText "カンナさん。<br>しつれいします。<br>",$00
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText $58,$54,$10,$08,$9F,$0D,$77,$54,$65,$6D,$F9,$0D,$00
+  WriteText "おう ",$08,"。<br>どうした?<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $61,$9A,$10,$80,$9B,$71,$6D,$A1,$75,$67,$5A,$0D,$AC,$F5,$CB,$63,$A1,$7C,$75,$67,$59,$F9,$0D,$00
+  WriteText "これ ひろったんですが<br>カンナさんのですか?<br>",$00
   PromptContinue
   SetPortrait $06,$03,$03
-  WriteText $58,$58,$71,$FA,$FA,$FA,$0D,$6B,$7C,$C8,$AC,$52,$6F,$91,$9D,$A1,$FA,$0D,$6B,$9A,$10,$50,$6D,$52,$7C,$6E,$FA,$FA,$0D,$00
+  WriteText "おおっ!!!<br>そのデカいちゃわん!<br>それ あたいのだ!!<br>",$00
   PromptContinue
   SetPortrait $06,$01,$01
   Unknown1A $40,$96,$03,$96,$01,$06,$28,$00
-  WriteText $63,$5A,$65,$74,$6D,$A1,$6E,$96,$FC,$9F,$0D,$B6,$F5,$AE,$E7,$FB,$10,$08,$9F,$0D,$00
+  WriteText "さがしてたんだよ～。<br>サンキュー ",$08,"。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $6B,$9A,$79,$65,$74,$90,$0D,$C8,$AC,$52,$6F,$91,$9D,$A1,$10,$75,$67,$7B,$FC,$9F,$0D,$00
+  WriteText "それにしても<br>デカいちゃわん ですね～。<br>",$00
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText $50,$6D,$52,$7D,$10,$61,$7C,$58,$58,$5B,$63,$A0,$0D,$6F,$91,$9D,$A1,$76,$10,$96,$A1,$75,$99,$5F,$77,$0D,$83,$72,$54,$7D,$10,$CA,$F5,$D7,$EC,$6E,$96,$78,$9F,$0D,$00
+  WriteText "あたいは このおおきさを<br>ちゃわんと よんでるけど<br>ふつうは ドンブリだよな。<br>",$00
   PromptContinue
-  WriteText $76,$61,$9B,$75,$10,$08,$7D,$0D,$58,$76,$61,$6E,$59,$97,$10,$CA,$F5,$D7,$EC,$90,$7C,$0D,$67,$5B,$6E,$9B,$9F,$0D,$00
+  WriteText "ところで ",$08,"は<br>おとこだから ドンブリもの<br>すきだろ。<br>",$00
   PromptContinue
-  WriteText $77,$A1,$78,$7C,$5A,$67,$5B,$78,$A1,$6E,$F9,$0D,$00
+  WriteText "どんなのがすきなんだ?<br>",$00
   PromptContinue
   OptionSelectTimed $04,$03,$AC,$C5,$77,$A1,$5A,$10,$67,$5B,$75,$67,$00,$00,$AC,$C5,$B6,$F5,$CA,$5A,$10,$67,$5B,$75,$67,$00,$01,$AC,$C5,$AC,$EE,$FB,$5A,$10,$67,$5B,$75,$67,$00,$02
   Unknown07 $A5,$01,$02,$01,$01,$00,$20,$00
@@ -48,91 +50,91 @@ CutsceneScript33_0::
   Unknown07 $AD,$02,$02,$01,$01,$02,$20,$00
   Unknown06 $40,$03
   Unknown0F $00,$01
-  WriteText $AC,$C5,$77,$A1,$5A,$10,$67,$5B,$75,$67,$7B,$9F,$0D,$00
+  WriteText "カツどんが すきですね。<br>",$00
   PromptContinue
   SetPortrait $06,$01,$01
   Unknown1A $40,$96,$03,$96,$01,$06,$28,$00
-  WriteText $52,$52,$7B,$FC,$9F,$0D,$50,$6D,$52,$90,$10,$AC,$C5,$77,$A1,$0D,$6E,$52,$67,$5B,$6E,$6A,$9F,$0D,$00
+  WriteText "いいね～。<br>あたいも カツどん<br>だいすきだぜ。<br>",$00
   PromptContinue
-  WriteText $6F,$78,$8D,$79,$10,$6D,$52,$6F,$95,$54,$90,$0D,$CA,$F5,$D7,$EC,$90,$7C,$5A,$10,$6E,$52,$67,$5B,$0D,$78,$A1,$6E,$6A,$9F,$0D,$00
+  WriteText "ちなみに たいちょうも<br>ドンブリものが だいすき<br>なんだぜ。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$9D,$64,$9D,$64,$10,$50,$98,$5A,$76,$78,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>わざわざ ありがとな。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $AC,$C5,$B6,$F5,$CA,$5A,$10,$67,$5B,$75,$67,$7B,$9F,$0D,$00
+  WriteText "カツサンドが すきですね。<br>",$00
   PromptContinue
   SetPortrait $06,$02,$02
-  WriteText $6B,$9A,$7D,$10,$CA,$F5,$D7,$EC,$66,$91,$0D,$7B,$FB,$6E,$9B,$FA,$0D,$00
+  WriteText "それは ドンブリじゃ<br>ねーだろ!<br>",$00
   PromptContinue
   SetPortrait $06,$05,$05
-  WriteText $8C,$50,$10,$6D,$65,$59,$79,$10,$50,$6D,$52,$90,$0D,$AC,$C5,$B6,$F5,$CA,$7D,$10,$6E,$52,$67,$5B,$6E,$6A,$9F,$0D,$00
+  WriteText "まあ たしかに あたいも<br>カツサンドは だいすきだぜ。<br>",$00
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText $75,$90,$10,$CA,$F5,$D7,$EC,$76,$52,$56,$7E,$0D,$AC,$C5,$77,$A1,$9F,$0D,$50,$6D,$52,$7D,$10,$AC,$C5,$77,$A1,$5A,$52,$52,$78,$9F,$0D,$00
+  WriteText "でも ドンブリといえば<br>カツどん。<br>あたいは カツどんがいいな。<br>",$00
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$9D,$64,$9D,$64,$10,$50,$98,$5A,$76,$78,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>わざわざ ありがとな。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $AC,$C5,$AC,$EE,$FB,$5A,$10,$67,$5B,$75,$67,$7B,$9F,$0D,$00
+  WriteText "カツカレーが すきですね。<br>",$00
   PromptContinue
   SetPortrait $06,$02,$02
-  WriteText $6B,$9A,$7D,$10,$CA,$F5,$D7,$EC,$66,$91,$0D,$7B,$FB,$6E,$9B,$FA,$0D,$00
+  WriteText "それは ドンブリじゃ<br>ねーだろ!<br>",$00
   PromptContinue
   SetPortrait $06,$05,$05
-  WriteText $8C,$50,$10,$6D,$65,$59,$79,$10,$50,$6D,$52,$90,$0D,$AC,$C5,$AC,$EE,$FB,$7D,$10,$6E,$52,$67,$5B,$6E,$6A,$9F,$0D,$00
+  WriteText "まあ たしかに あたいも<br>カツカレーは だいすきだぜ。<br>",$00
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText $75,$90,$10,$CA,$F5,$D7,$EC,$76,$52,$56,$7E,$0D,$AC,$C5,$77,$A1,$9F,$0D,$50,$6D,$52,$7D,$10,$AC,$C5,$77,$A1,$5A,$52,$52,$78,$9F,$0D,$00
+  WriteText "でも ドンブリといえば<br>カツどん。<br>あたいは カツどんがいいな。<br>",$00
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$9D,$64,$9D,$64,$10,$50,$98,$5A,$76,$78,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>わざわざ ありがとな。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$0D,$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
   PromptContinue
   SetPortrait $06,$05,$05
-  WriteText $58,$52,$58,$52,$10,$6B,$A1,$78,$79,$0D,$59,$A1,$5A,$56,$61,$8E,$78,$96,$9F,$0D,$00
+  WriteText "おいおい そんなに<br>かんがえこむなよ。<br>",$00
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText $CA,$F5,$D7,$EC,$76,$52,$56,$7E,$10,$AC,$C5,$77,$A1,$9F,$0D,$61,$9A,$75,$5B,$8C,$98,$6E,$9B,$9F,$0D,$00
+  WriteText "ドンブリといえば カツどん。<br>これできまりだろ。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$9D,$64,$9D,$64,$10,$50,$98,$5A,$76,$78,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>わざわざ ありがとな。<br>",$00
   PromptContinue
   End
-  WriteText $E0,$AC,$B6,$7C,$78,$59,$75,$10,$80,$9B,$71,$6D,$0D,$61,$7C,$58,$58,$5B,$78,$6F,$91,$9D,$A1,$FF,$FF,$0D,$00
+  WriteText "ミカサのなかで ひろった<br>このおおきなちゃわん‥‥<br>",$00
   Unknown05 $84,$88,$01,$00
   End
-  WriteText $AC,$F5,$CB,$63,$A1,$7C,$66,$91,$78,$52,$59,$65,$97,$F9,$0D,$00
+  WriteText "カンナさんのじゃないかしら?<br>",$00
   PromptContinue
-  WriteText $96,$65,$10,$AC,$F5,$CB,$63,$A1,$79,$0D,$9D,$6D,$65,$79,$52,$5B,$8C,$65,$95,$54,$9F,$0D,$00
+  WriteText "よし カンナさんに<br>わたしにいきましょう。<br>",$00
   PromptContinue
   Unknown1E $11
-  WriteText $AC,$F5,$CB,$63,$A1,$9F,$0D,$65,$72,$9A,$52,$65,$8C,$67,$9F,$0D,$00
+  WriteText "カンナさん。<br>しつれいします。<br>",$00
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText $58,$54,$10,$08,$9F,$0D,$77,$54,$65,$6D,$F9,$0D,$00
+  WriteText "おう ",$08,"。<br>どうした?<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $61,$9A,$10,$80,$9B,$71,$6D,$A1,$75,$67,$5A,$0D,$AC,$F5,$CB,$63,$A1,$7C,$75,$67,$59,$F9,$0D,$00
+  WriteText "これ ひろったんですが<br>カンナさんのですか?<br>",$00
   PromptContinue
   SetPortrait $06,$03,$03
-  WriteText $58,$58,$71,$FA,$FA,$FA,$0D,$6B,$7C,$C8,$AC,$52,$6F,$91,$9D,$A1,$FA,$0D,$6B,$9A,$10,$50,$6D,$52,$7C,$6E,$FA,$FA,$0D,$00
+  WriteText "おおっ!!!<br>そのデカいちゃわん!<br>それ あたいのだ!!<br>",$00
   PromptContinue
   SetPortrait $06,$01,$01
   Unknown1A $40,$96,$03,$96,$01,$06,$28,$00
-  WriteText $63,$5A,$65,$74,$6D,$A1,$6E,$96,$FC,$9F,$0D,$B6,$F5,$AE,$E7,$FB,$10,$08,$9F,$0D,$00
+  WriteText "さがしてたんだよ～。<br>サンキュー ",$08,"。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $6B,$9A,$79,$65,$74,$90,$0D,$C8,$AC,$52,$6F,$91,$9D,$A1,$0D,$75,$67,$96,$7B,$FC,$9F,$0D,$00
+  WriteText "それにしても<br>デカいちゃわん<br>ですよね～。<br>",$00
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText $50,$6D,$52,$7D,$10,$61,$7C,$58,$58,$5B,$63,$A0,$0D,$6F,$91,$9D,$A1,$76,$10,$96,$A1,$75,$99,$5F,$77,$0D,$83,$72,$54,$7D,$10,$CA,$F5,$D7,$EC,$6E,$96,$78,$9F,$0D,$00
+  WriteText "あたいは このおおきさを<br>ちゃわんと よんでるけど<br>ふつうは ドンブリだよな。<br>",$00
   PromptContinue
-  WriteText $76,$61,$9B,$75,$10,$08,$7D,$0D,$CA,$F5,$D7,$EC,$90,$7C,$10,$67,$5B,$59,$F9,$0D,$00
+  WriteText "ところで ",$08,"は<br>ドンブリもの すきか?<br>",$00
   PromptContinue
   OptionSelectTimed $05,$03,$6E,$4F,$FB,$52,$BA,$AE,$00,$00,$8C,$50,$8C,$50,$BA,$AE,$00,$01,$50,$8C,$98,$BA,$AE,$66,$91,$78,$52,$00,$02
   Unknown07 $20,$05,$02,$01,$01,$00,$20,$00
@@ -140,67 +142,67 @@ CutsceneScript33_0::
   Unknown07 $71,$06,$02,$01,$01,$02,$20,$00
   Unknown06 $38,$07
   Unknown0F $00,$01
-  WriteText $6E,$4F,$FB,$52,$BA,$AE,$75,$67,$96,$0D,$76,$5D,$79,$10,$58,$92,$61,$77,$A1,$76,$59,$9F,$0D,$00
+  WriteText "だぁーいスキですよ<br>とくに おやこどんとか。<br>",$00
   PromptContinue
   SetPortrait $06,$01,$01
   Unknown1A $40,$96,$03,$96,$01,$06,$28,$00
-  WriteText $52,$52,$7B,$FC,$10,$58,$92,$61,$77,$A1,$9F,$0D,$76,$98,$76,$10,$6D,$8C,$62,$7C,$0D,$D0,$FB,$E4,$CC,$FB,$5A,$6D,$8C,$97,$78,$52,$96,$78,$9F,$0D,$00
+  WriteText "いいね～ おやこどん。<br>とりと たまごの<br>ハーモニーがたまらないよな。<br>",$00
   PromptContinue
-  WriteText $50,$FB,$61,$A1,$78,$61,$76,$10,$7D,$78,$65,$74,$6D,$97,$0D,$D0,$EB,$10,$86,$71,$6F,$91,$71,$6D,$96,$9F,$0D,$65,$95,$5D,$77,$54,$79,$10,$52,$61,$FA,$0D,$00
+  WriteText "あーこんなこと はなしてたら<br>ハラ へっちゃったよ。<br>しょくどうに いこ!<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$9D,$64,$9D,$64,$10,$50,$98,$5A,$76,$78,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>わざわざ ありがとな。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $8C,$50,$8C,$50,$10,$BA,$AE,$75,$67,$96,$9F,$0D,$E0,$CC,$58,$92,$61,$77,$A1,$0D,$5D,$97,$52,$78,$97,$FF,$FF,$0D,$00
+  WriteText "まあまあ スキですよ。<br>ミニおやこどん<br>くらいなら‥‥<br>",$00
   PromptContinue
   SetPortrait $06,$05,$05
-  WriteText $8C,$50,$8C,$50,$59,$FF,$FF,$0D,$58,$A1,$78,$7C,$61,$6E,$59,$97,$10,$6B,$A1,$78,$90,$A1,$0D,$6E,$96,$78,$9F,$0D,$00
+  WriteText "まあまあか‥‥<br>おんなのこだから そんなもん<br>だよな。<br>",$00
   PromptContinue
   SetPortrait $06,$02,$02
-  WriteText $75,$90,$FF,$FF,$10,$80,$76,$61,$76,$0D,$52,$71,$76,$5D,$6A,$9F,$0D,$00
+  WriteText "でも‥‥ ひとこと<br>いっとくぜ。<br>",$00
   PromptContinue
-  WriteText $6D,$76,$56,$10,$58,$A1,$78,$7C,$61,$75,$90,$0D,$9D,$59,$52,$54,$6F,$7D,$10,$6D,$5D,$63,$A1,$5D,$71,$74,$0D,$6D,$5D,$63,$A1,$10,$54,$A1,$77,$54,$65,$78,$9F,$0D,$00
+  WriteText "たとえ おんなのこでも<br>わかいうちは たくさんくって<br>たくさん うんどうしな。<br>",$00
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText $81,$96,$54,$76,$10,$5F,$A1,$61,$54,$79,$7D,$0D,$61,$9A,$5A,$10,$52,$6F,$7E,$A1,$6E,$6A,$9F,$0D,$00
+  WriteText "びようと けんこうには<br>これが いちばんだぜ。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$9D,$64,$9D,$64,$10,$50,$98,$5A,$76,$78,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>わざわざ ありがとな。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $67,$8D,$8C,$69,$A1,$9F,$0D,$CA,$F5,$D7,$EC,$90,$7C,$7D,$10,$50,$8C,$98,$0D,$BA,$AE,$66,$91,$78,$52,$A1,$75,$67,$9F,$0D,$00
+  WriteText "すみません。<br>ドンブリものは あまり<br>スキじゃないんです。<br>",$00
   PromptContinue
   SetPortrait $06,$05,$05
-  WriteText $78,$A1,$6E,$FF,$FF,$0D,$50,$A1,$8C,$98,$67,$5B,$66,$91,$10,$78,$52,$7C,$59,$F9,$0D,$8C,$10,$58,$A1,$78,$7C,$61,$6E,$59,$97,$78,$9F,$0D,$00
+  WriteText "なんだ‥‥<br>あんまりすきじゃ ないのか?<br>ま おんなのこだからな。<br>",$00
   PromptContinue
   SetPortrait $06,$02,$02
-  WriteText $75,$90,$FF,$FF,$10,$80,$76,$61,$76,$0D,$52,$71,$76,$5D,$6A,$9F,$0D,$00
+  WriteText "でも‥‥ ひとこと<br>いっとくぜ。<br>",$00
   PromptContinue
-  WriteText $6D,$76,$56,$10,$58,$A1,$78,$7C,$61,$75,$90,$0D,$9D,$59,$52,$54,$6F,$7D,$10,$6D,$5D,$63,$A1,$5D,$71,$74,$0D,$6D,$5D,$63,$A1,$10,$54,$A1,$77,$54,$65,$78,$9F,$0D,$00
+  WriteText "たとえ おんなのこでも<br>わかいうちは たくさんくって<br>たくさん うんどうしな。<br>",$00
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText $81,$96,$54,$76,$10,$5F,$A1,$61,$54,$79,$7D,$0D,$61,$9A,$5A,$10,$52,$6F,$7E,$A1,$6E,$6A,$9F,$0D,$00
+  WriteText "びようと けんこうには<br>これが いちばんだぜ。<br>",$00
   PromptContinue
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$9D,$64,$9D,$64,$10,$50,$98,$5A,$76,$78,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>わざわざ ありがとな。<br>",$00
   PromptContinue
   End
   Unknown0F $00,$01
-  WriteText $FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$0D,$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
   PromptContinue
   SetPortrait $06,$05,$05
-  WriteText $58,$52,$58,$52,$10,$6B,$A1,$78,$79,$0D,$59,$A1,$5A,$56,$61,$8E,$78,$96,$9F,$0D,$00
+  WriteText "おいおい そんなに<br>かんがえこむなよ。<br>",$00
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText $8C,$50,$52,$52,$92,$9F,$0D,$66,$91,$50,$10,$80,$76,$72,$0D,$A3,$CA,$D1,$A5,$BA,$A0,$65,$74,$58,$5D,$6A,$9F,$0D,$00
+  WriteText "まあいいや。<br>じゃあ ひとつ<br>アドバイスをしておくぜ。<br>",$00
   PromptContinue
   SetPortrait $06,$02,$02
-  WriteText $6D,$76,$56,$10,$58,$A1,$78,$7C,$61,$75,$90,$0D,$9D,$59,$52,$54,$6F,$7D,$10,$6D,$5D,$63,$A1,$5D,$71,$74,$0D,$6D,$5D,$63,$A1,$10,$54,$A1,$77,$54,$65,$78,$9F,$0D,$00
+  WriteText "たとえ おんなのこでも<br>わかいうちは たくさんくって<br>たくさん うんどうしな。<br>",$00
   PromptContinue
-  WriteText $81,$96,$54,$76,$10,$5F,$A1,$61,$54,$79,$7D,$0D,$61,$9A,$5A,$10,$52,$6F,$7E,$A1,$6E,$9F,$0D,$00
+  WriteText "びようと けんこうには<br>これが いちばんだ。<br>",$00
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText $6B,$9A,$66,$91,$50,$10,$08,$0D,$9D,$64,$9D,$64,$10,$50,$98,$5A,$76,$78,$9F,$0D,$00
+  WriteText "それじゃあ ",$08,"<br>わざわざ ありがとな。<br>",$00
   PromptContinue
   End
   End

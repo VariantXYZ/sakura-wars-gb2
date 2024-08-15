@@ -2,6 +2,8 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 1F 0", ROMX[$7EC1], BANK[$43]
 CutsceneScript1F_0::
   SetPortrait $0B,$10,$00
@@ -9,30 +11,30 @@ CutsceneScript1F_0::
   Unknown12 $09
   Unknown02
   Unknown07 $E8,$00,$02,$04,$01,$01,$20,$00
-  WriteText $08,$5D,$A1,$0D,$58,$72,$59,$9A,$63,$8C,$9F,$0D,$00
+  WriteText $08,"くん<br>おつかれさま。<br>",$00
   PromptContinue
-  WriteText $75,$7D,$10,$89,$54,$61,$5D,$A0,$0D,$58,$7B,$5A,$52,$67,$99,$9D,$9F,$0D,$00
+  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $7D,$52,$9F,$0D,$01,$07,$8C,$66,$A1,$5B,$F3,$6D,$8C,$01,$08,$A0,$0D,$59,$52,$65,$93,$54,$65,$74,$5B,$8C,$65,$6D,$9F,$0D,$00
+  WriteText "はい。<br>",$01,$07,"まじんき・たま",$01,$08,"を<br>かいしゅうしてきました。<br>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText $96,$5D,$92,$71,$6D,$9D,$7B,$9F,$0D,$08,$5D,$A1,$9F,$0D,$00
+  WriteText "よくやったわね。<br>",$08,"くん。<br>",$00
   PromptContinue
-  WriteText $01,$07,$5F,$A1,$01,$08,$76,$01,$07,$6D,$8C,$01,$08,$FF,$FF,$0D,$83,$6D,$72,$7C,$01,$07,$8C,$66,$A1,$5B,$01,$08,$7C,$0D,$59,$52,$65,$93,$54,$10,$58,$72,$59,$9A,$63,$8C,$9F,$0D,$00
+  WriteText $01,$07,"けん",$01,$08,"と",$01,$07,"たま",$01,$08,"‥‥<br>ふたつの",$01,$07,"まじんき",$01,$08,"の<br>かいしゅう おつかれさま。<br>",$00
   PromptContinue
-  WriteText $7C,$61,$99,$01,$07,$8C,$66,$A1,$5B,$01,$08,$7D,$0D,$50,$76,$10,$80,$76,$72,$96,$9F,$0D,$5A,$A1,$7E,$71,$74,$7B,$9F,$0D,$00
+  WriteText "のこる",$01,$07,"まじんき",$01,$08,"は<br>あと ひとつよ。<br>がんばってね。<br>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $75,$7D,$10,$08,$5D,$A1,$9F,$0D,$72,$5C,$7C,$10,$65,$66,$5A,$50,$99,$8C,$75,$0D,$92,$67,$A1,$75,$52,$74,$6F,$95,$54,$6E,$52,$9F,$0D,$00
+  WriteText "では ",$08,"くん。<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
   PromptContinue
   End
-  WriteText $08,$0D,$58,$72,$59,$9A,$63,$8C,$9F,$0D,$00
+  WriteText $08,"<br>おつかれさま。<br>",$00
   PromptContinue
-  WriteText $75,$7D,$10,$89,$54,$61,$5D,$A0,$0D,$58,$7B,$5A,$52,$67,$99,$9D,$9F,$0D,$00
+  WriteText "では ほうこくを<br>おねがいするわ。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $7D,$52,$9F,$0D,$01,$07,$8C,$66,$A1,$5B,$F3,$6D,$8C,$01,$08,$A0,$0D,$59,$52,$65,$93,$54,$65,$74,$5B,$8C,$65,$6D,$9F,$0D,$00
+  WriteText "はい。<br>",$01,$07,"まじんき・たま",$01,$08,"を<br>かいしゅうしてきました。<br>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
   db $01,$96,$5D,$92,$71,$6D,$9D,$7B,$9F,$0D,$08,$9F,$0D ; WriteText
@@ -43,12 +45,12 @@ SECTION "Cutscene Script 1F 1", ROMX[$4000], BANK[$44]
 CutsceneScript1F_1::
   db $00 ; WriteText
   PromptContinue
-  WriteText $01,$07,$5F,$A1,$01,$08,$76,$01,$07,$6D,$8C,$01,$08,$FF,$FF,$0D,$83,$6D,$72,$7C,$01,$07,$8C,$66,$A1,$5B,$01,$08,$7C,$0D,$59,$52,$65,$93,$54,$10,$58,$72,$59,$9A,$63,$8C,$9F,$0D,$00
+  WriteText $01,$07,"けん",$01,$08,"と",$01,$07,"たま",$01,$08,"‥‥<br>ふたつの",$01,$07,"まじんき",$01,$08,"の<br>かいしゅう おつかれさま。<br>",$00
   PromptContinue
-  WriteText $7C,$61,$99,$01,$07,$8C,$66,$A1,$5B,$01,$08,$7D,$0D,$50,$76,$10,$80,$76,$72,$96,$9F,$0D,$5A,$A1,$7E,$71,$74,$7B,$9F,$0D,$00
+  WriteText "のこる",$01,$07,"まじんき",$01,$08,"は<br>あと ひとつよ。<br>がんばってね。<br>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $75,$7D,$10,$08,$9F,$0D,$72,$5C,$7C,$10,$65,$66,$5A,$50,$99,$8C,$75,$0D,$92,$67,$A1,$75,$52,$74,$6F,$95,$54,$6E,$52,$9F,$0D,$00
+  WriteText "では ",$08,"。<br>つぎの しじがあるまで<br>やすんでいてちょうだい。<br>",$00
   PromptContinue
   End
   End

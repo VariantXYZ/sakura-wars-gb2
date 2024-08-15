@@ -2,6 +2,8 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 22 0", ROMX[$4898], BANK[$44]
 CutsceneScript22_0::
   Unknown0F $00,$01
@@ -9,80 +11,80 @@ CutsceneScript22_0::
   Unknown02
   Unknown09 $5A
   Unknown0C $01
-  WriteText $FC,$6E,$52,$19,$65,$95,$54,$FC,$0D,$10,$01,$07,$63,$52,$62,$7C,$10,$8C,$66,$A1,$5B,$01,$08,$0D,$00
+  WriteText "～だい8しょう～<br> ",$01,$07,"さいごの まじんき",$01,$08,"<br>",$00
   PromptContinue
   Unknown0C $02
   Unknown0E $16
   SetPortrait $0B,$10,$00
   Unknown07 $B4,$01,$02,$04,$01,$01,$20,$00
-  WriteText $8D,$A1,$78,$10,$50,$72,$8C,$71,$74,$99,$9D,$7B,$9F,$0D,$75,$7D,$10,$7D,$66,$8F,$8C,$65,$95,$54,$9F,$0D,$00
+  WriteText "みんな あつまってるわね。<br>では はじめましょう。<br>",$00
   PromptContinue
-  WriteText $63,$52,$62,$7C,$01,$07,$8C,$66,$A1,$5B,$F3,$59,$5A,$8D,$01,$08,$0D,$7D,$10,$01,$07,$69,$52,$8C,$66,$95,$54,$01,$08,$7C,$0D,$58,$5D,$79,$10,$50,$99,$6B,$54,$96,$9F,$0D,$00
+  WriteText "さいごの",$01,$07,"まじんき・かがみ",$01,$08,"<br>は ",$01,$07,"せいまじょう",$01,$08,"の<br>おくに あるそうよ。<br>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText $66,$91,$50,$10,$59,$A1,$6D,$A1,$66,$91,$7B,$FB,$59,$9F,$0D,$01,$07,$59,$5A,$8D,$01,$08,$A0,$8F,$64,$65,$74,$0D,$52,$71,$6F,$95,$5D,$69,$A1,$9F,$0D,$00
+  WriteText "じゃあ かんたんじゃねーか。<br>",$01,$07,"かがみ",$01,$08,"をめざして<br>いっちょくせん。<br>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText $8C,$96,$54,$61,$76,$78,$5D,$0D,$72,$5B,$67,$67,$8E,$6E,$5F,$10,$75,$67,$9D,$7B,$9F,$0D,$00
+  WriteText "まようことなく<br>つきすすむだけ ですわね。<br>",$00
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText $65,$59,$65,$10,$61,$7C,$63,$5B,$0D,$63,$97,$79,$10,$72,$96,$52,$8C,$90,$7C,$5A,$0D,$52,$99,$59,$90,$65,$9A,$78,$52,$9F,$0D,$00
+  WriteText "しかし このさき<br>さらに つよいまものが<br>いるかもしれない。<br>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText $6B,$54,$81,$79,$7D,$0D,$7A,$59,$98,$7C,$10,$78,$52,$96,$54,$79,$FF,$FF,$0D,$00
+  WriteText "そうびには<br>ぬかりの ないように‥‥<br>",$00
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText $61,$9B,$7E,$7A,$63,$5B,$7C,$10,$6F,$56,$75,$FB,$67,$9F,$0D,$00
+  WriteText "ころばぬさきの ちえでーす。<br>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText $6B,$9A,$A0,$10,$52,$54,$78,$97,$0D,$61,$9B,$7E,$7A,$63,$5B,$7C,$01,$07,$72,$56,$01,$08,$92,$FA,$0D,$00
+  WriteText "それを いうなら<br>ころばぬさきの",$01,$07,"つえ",$01,$08,"や!<br>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText $08,$63,$A1,$9F,$0D,$63,$52,$62,$7C,$01,$07,$8C,$66,$A1,$5B,$01,$08,$7D,$0D,$8F,$7C,$8C,$56,$75,$67,$96,$9F,$0D,$00
+  WriteText $08,"さん。<br>さいごの",$01,$07,"まじんき",$01,$08,"は<br>めのまえですよ。<br>",$00
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText $5B,$A0,$80,$5B,$65,$8F,$74,$10,$52,$5F,$96,$9F,$0D,$00
+  WriteText "きをひきしめて いけよ。<br>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText $08,$0D,$AD,$F5,$D1,$EE,$FB,$FA,$FA,$0D,$00
+  WriteText $08,"<br>ガンバレー!!<br>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText $75,$7D,$10,$08,$5D,$A1,$7D,$0D,$01,$07,$8C,$66,$A1,$5B,$F3,$59,$5A,$8D,$01,$08,$A0,$0D,$59,$52,$65,$93,$54,$65,$79,$10,$65,$93,$72,$77,$54,$FA,$0D,$00
+  WriteText "では ",$08,"くんは<br>",$01,$07,"まじんき・かがみ",$01,$08,"を<br>かいしゅうしに しゅつどう!<br>",$00
   PromptContinue
   End
-  WriteText $8D,$A1,$78,$10,$50,$72,$8C,$71,$74,$99,$9D,$7B,$9F,$0D,$75,$7D,$10,$7D,$66,$8F,$8C,$65,$95,$54,$9F,$0D,$00
+  WriteText "みんな あつまってるわね。<br>では はじめましょう。<br>",$00
   PromptContinue
-  WriteText $63,$52,$62,$7C,$01,$07,$8C,$66,$A1,$5B,$F3,$59,$5A,$8D,$01,$08,$0D,$7D,$10,$01,$07,$69,$52,$8C,$66,$95,$54,$01,$08,$7C,$0D,$58,$5D,$79,$10,$50,$99,$6B,$54,$96,$9F,$0D,$00
+  WriteText "さいごの",$01,$07,"まじんき・かがみ",$01,$08,"<br>は ",$01,$07,"せいまじょう",$01,$08,"の<br>おくに あるそうよ。<br>",$00
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText $66,$91,$50,$10,$59,$A1,$6D,$A1,$66,$91,$7B,$FB,$59,$9F,$0D,$01,$07,$59,$5A,$8D,$01,$08,$A0,$8F,$64,$65,$74,$0D,$52,$71,$6F,$95,$5D,$69,$A1,$9F,$0D,$00
+  WriteText "じゃあ かんたんじゃねーか。<br>",$01,$07,"かがみ",$01,$08,"をめざして<br>いっちょくせん。<br>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText $8C,$96,$54,$61,$76,$78,$5D,$0D,$72,$5B,$67,$67,$8E,$6E,$5F,$10,$75,$67,$9D,$7B,$9F,$0D,$00
+  WriteText "まようことなく<br>つきすすむだけ ですわね。<br>",$00
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText $65,$59,$65,$10,$61,$7C,$63,$5B,$0D,$63,$97,$79,$10,$72,$96,$52,$8C,$90,$7C,$5A,$0D,$52,$99,$59,$90,$65,$9A,$78,$52,$9F,$0D,$00
+  WriteText "しかし このさき<br>さらに つよいまものが<br>いるかもしれない。<br>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText $6B,$54,$81,$79,$7D,$0D,$7A,$59,$98,$7C,$10,$78,$52,$96,$54,$79,$FF,$FF,$0D,$00
+  WriteText "そうびには<br>ぬかりの ないように‥‥<br>",$00
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText $61,$9B,$7E,$7A,$63,$5B,$7C,$10,$6F,$56,$75,$FB,$67,$9F,$0D,$00
+  WriteText "ころばぬさきの ちえでーす。<br>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText $6B,$9A,$A0,$10,$52,$54,$78,$97,$0D,$61,$9B,$7E,$7A,$63,$5B,$7C,$01,$07,$72,$56,$01,$08,$92,$FA,$0D,$00
+  WriteText "それを いうなら<br>ころばぬさきの",$01,$07,"つえ",$01,$08,"や!<br>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText $08,$63,$A1,$9F,$0D,$63,$52,$62,$7C,$01,$07,$8C,$66,$A1,$5B,$01,$08,$7D,$0D,$8F,$7C,$8C,$56,$75,$67,$96,$9F,$0D,$00
+  WriteText $08,"さん。<br>さいごの",$01,$07,"まじんき",$01,$08,"は<br>めのまえですよ。<br>",$00
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText $5B,$A0,$80,$5B,$65,$8F,$74,$10,$52,$5D,$A1,$6E,$6C,$0D,$08,$5D,$A1,$9F,$0D,$00
+  WriteText "きをひきしめて いくんだぞ<br>",$08,"くん。<br>",$00
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText $08,$0D,$5A,$A1,$7E,$71,$74,$7B,$9F,$0D,$00
+  WriteText $08,"<br>がんばってね。<br>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $75,$7D,$10,$08,$7D,$0D,$01,$07,$8C,$66,$A1,$5B,$F3,$59,$5A,$8D,$01,$08,$A0,$0D,$59,$52,$65,$93,$54,$65,$79,$10,$65,$93,$72,$77,$54,$FA,$0D,$00
+  WriteText "では ",$08,"は<br>",$01,$07,"まじんき・かがみ",$01,$08,"を<br>かいしゅうしに しゅつどう!<br>",$00
   PromptContinue
   End
   End

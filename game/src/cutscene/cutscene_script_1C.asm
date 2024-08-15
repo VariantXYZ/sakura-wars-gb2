@@ -2,6 +2,8 @@
 
 INCLUDE "./game/src/cutscene/include/commands.asm"
 
+INCLUDE "./game/src/cutscene/include/charmap.asm"
+
 SECTION "Cutscene Script 1C 0", ROMX[$6ECC], BANK[$43]
 CutsceneScript1C_0::
   Unknown0F $00,$01
@@ -9,167 +11,167 @@ CutsceneScript1C_0::
   Unknown02
   Unknown09 $5A
   Unknown0C $01
-  WriteText $FC,$6E,$52,$16,$65,$95,$54,$FC,$0D,$01,$07,$92,$8C,$76,$10,$66,$95,$54,$98,$5D,$65,$9A,$52,$01,$08,$0D,$00
+  WriteText "～だい5しょう～<br>",$01,$07,"やまと じょうりくしれい",$01,$08,"<br>",$00
   PromptContinue
   Unknown0C $02
   Unknown0E $16
   SetPortrait $0B,$10,$00
   Unknown07 $43,$03,$02,$04,$01,$01,$20,$00
-  WriteText $8D,$A1,$78,$10,$50,$72,$8C,$71,$6D,$9D,$7B,$9F,$0D,$75,$7D,$10,$7D,$66,$8F,$8C,$65,$95,$54,$9F,$0D,$00
+  WriteText "みんな あつまったわね。<br>では はじめましょう。<br>",$00
   PromptContinue
-  WriteText $7C,$61,$98,$13,$72,$7C,$10,$01,$07,$8C,$66,$A1,$5B,$01,$08,$7D,$0D,$E0,$AC,$B6,$79,$7D,$10,$78,$59,$71,$6D,$9D,$9F,$0D,$00
+  WriteText "のこり2つの ",$01,$07,"まじんき",$01,$08,"は<br>ミカサには なかったわ。<br>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText $E0,$AC,$B6,$79,$78,$52,$76,$10,$52,$54,$61,$76,$7D,$0D,$63,$97,$79,$6F,$59,$FF,$FF,$0D,$01,$07,$92,$8C,$76,$01,$08,$78,$A1,$75,$65,$95,$54,$59,$F9,$0D,$00
+  WriteText "ミカサにないと いうことは<br>さらにちか‥‥<br>",$01,$07,"やまと",$01,$08,"なんでしょうか?<br>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText $6B,$54,$52,$54,$61,$76,$79,$0D,$78,$99,$6E,$9B,$54,$FF,$FF,$0D,$00
+  WriteText "そういうことに<br>なるだろう‥‥<br>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText $01,$07,$92,$8C,$76,$01,$08,$59,$FF,$FF,$0D,$00
+  WriteText $01,$07,"やまと",$01,$08,"か‥‥<br>",$00
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText $FF,$FF,$59,$56,$75,$63,$A1,$0D,$E0,$AC,$B6,$79,$10,$50,$A1,$78,$8C,$90,$7C,$5A,$0D,$52,$6D,$76,$52,$54,$61,$76,$7D,$FF,$FF,$0D,$00
+  WriteText "‥‥かえでさん<br>ミカサに あんなまものが<br>いたということは‥‥<br>",$00
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText $01,$07,$92,$8C,$76,$01,$08,$79,$7D,$0D,$90,$71,$76,$67,$62,$52,$10,$8C,$90,$7C,$5A,$52,$99,$79,$0D,$6F,$5A,$52,$78,$52,$75,$FB,$67,$9F,$0D,$00
+  WriteText $01,$07,"やまと",$01,$08,"には<br>もっとすごい まものがいるに<br>ちがいないでーす。<br>",$00
   PromptContinue
   SetPortrait $09,$15,$0C
-  WriteText $61,$9A,$59,$97,$63,$5B,$0D,$08,$5D,$A1,$7D,$10,$0D,$6E,$52,$66,$95,$54,$84,$75,$65,$95,$54,$59,$F9,$0D,$00
+  WriteText "これからさき<br>",$08,"くんは <br>だいじょうぶでしょうか?<br>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $78,$79,$A0,$10,$65,$A1,$7F,$52,$65,$74,$52,$99,$7C,$9F,$0D,$08,$5D,$A1,$7D,$10,$AC,$F5,$CB,$76,$0D,$A3,$A5,$EC,$BA,$A0,$10,$6D,$67,$5F,$6D,$7C,$96,$9F,$0D,$00
+  WriteText "なにを しんぱいしているの。<br>",$08,"くんは カンナと<br>アイリスを たすけたのよ。<br>",$00
   PromptContinue
-  WriteText $6E,$52,$66,$95,$54,$84,$9F,$0D,$00
+  WriteText "だいじょうぶ。<br>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText $75,$5B,$99,$9D,$7B,$9F,$0D,$08,$5D,$A1,$9F,$0D,$00
+  WriteText "できるわね。<br>",$08,"くん。<br>",$00
   PromptContinue
   OptionSelectTimed $02,$02,$7D,$52,$FA,$00,$00,$6D,$84,$A1,$FF,$FF,$00,$01
   Unknown07 $AD,$01,$02,$01,$01,$00,$20,$00
   Unknown07 $0D,$02,$02,$01,$01,$01,$20,$00
   Unknown06 $84,$02
   Unknown0F $00,$01
-  WriteText $7D,$52,$FA,$0D,$75,$5B,$8C,$67,$FA,$FA,$0D,$00
+  WriteText "はい!<br>できます!!<br>",$00
   PromptContinue
   SetPortrait $02,$13,$0B
   Unknown1A $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText $50,$97,$9F,$0D,$78,$59,$78,$59,$10,$52,$54,$66,$91,$0D,$50,$98,$8C,$69,$A1,$61,$76,$9F,$0D,$00
+  WriteText "あら。<br>なかなか いうじゃ<br>ありませんこと。<br>",$00
   PromptContinue
   SetPortrait $02,$11,$09
-  WriteText $75,$7D,$10,$08,$63,$A1,$9F,$0D,$B2,$AD,$65,$78,$52,$96,$54,$79,$10,$5A,$A1,$7E,$71,$74,$0D,$5D,$6E,$63,$52,$7B,$9F,$0D,$00
+  WriteText "では ",$08,"さん。<br>ケガしないように がんばって<br>くださいね。<br>",$00
   PromptContinue
   Unknown06 $CA,$02
   Unknown0F $00,$01
-  WriteText $6D,$84,$A1,$FF,$FF,$0D,$75,$5B,$99,$76,$10,$58,$90,$54,$7C,$75,$67,$5A,$FF,$FF,$0D,$00
+  WriteText "たぶん‥‥<br>できると おもうのですが‥‥<br>",$00
   PromptContinue
   SetPortrait $02,$13,$0B
-  WriteText $AC,$F5,$CB,$63,$A1,$92,$10,$A3,$A5,$EC,$BA,$A0,$0D,$6D,$67,$5F,$6D,$10,$08,$63,$A1,$76,$7D,$0D,$58,$90,$56,$78,$52,$10,$58,$61,$76,$7E,$FF,$FF,$0D,$00
+  WriteText "カンナさんや アイリスを<br>たすけた ",$08,"さんとは<br>おもえない おことば‥‥<br>",$00
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText $90,$54,$67,$61,$65,$10,$66,$65,$A1,$A0,$90,$71,$74,$0D,$58,$92,$98,$78,$63,$52,$78,$9F,$0D,$08,$63,$A1,$9F,$0D,$00
+  WriteText "もうすこし じしんをもって<br>おやりなさいな。<br>",$08,"さん。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $7D,$52,$9F,$0D,$00
+  WriteText "はい。<br>",$00
   PromptContinue
   Unknown06 $CA,$02
   Unknown0F $00,$01
-  WriteText $FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$0D,$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
   PromptContinue
   SetPortrait $02,$12,$0A
-  WriteText $08,$63,$A1,$9F,$0D,$58,$76,$61,$78,$97,$10,$90,$71,$76,$0D,$66,$65,$A1,$A0,$10,$90,$6F,$78,$63,$52,$9F,$0D,$00
+  WriteText $08,"さん。<br>おとこなら もっと<br>じしんを もちなさい。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $7D,$10,$7D,$52,$9F,$0D,$00
+  WriteText "は はい。<br>",$00
   PromptContinue
   Unknown06 $CA,$02
   SetPortrait $0B,$10,$00
-  WriteText $08,$5D,$A1,$9F,$0D,$50,$78,$6D,$79,$7D,$10,$80,$5B,$72,$73,$5B,$0D,$D2,$FB,$C9,$CB,$FB,$76,$83,$6D,$98,$75,$0D,$00
+  WriteText $08,"くん。<br>あなたには ひきつづき<br>パートナーとふたりで<br>",$00
   PromptContinue
-  WriteText $01,$07,$8C,$66,$A1,$5B,$01,$08,$7C,$10,$6B,$54,$63,$5D,$A0,$0D,$65,$74,$90,$97,$52,$8C,$67,$9F,$0D,$00
+  WriteText $01,$07,"まじんき",$01,$08,"の そうさくを<br>してもらいます。<br>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText $75,$7D,$10,$08,$5D,$A1,$0D,$01,$07,$92,$8C,$76,$01,$08,$7C,$10,$6F,$95,$54,$63,$A0,$0D,$8F,$52,$66,$8C,$67,$9F,$0D,$00
+  WriteText "では ",$08,"くん<br>",$01,$07,"やまと",$01,$08,"の ちょうさを<br>めいじます。<br>",$00
   PromptContinue
-  WriteText $B2,$AD,$65,$78,$52,$96,$54,$79,$0D,$5B,$A0,$72,$5F,$99,$7C,$96,$9F,$0D,$00
+  WriteText "ケガしないように<br>きをつけるのよ。<br>",$00
   PromptContinue
   End
-  WriteText $8D,$A1,$78,$10,$50,$72,$8C,$71,$6D,$9D,$7B,$9F,$0D,$75,$7D,$10,$7D,$66,$8F,$8C,$65,$95,$54,$9F,$0D,$00
+  WriteText "みんな あつまったわね。<br>では はじめましょう。<br>",$00
   PromptContinue
-  WriteText $7C,$61,$98,$13,$72,$7C,$10,$01,$07,$8C,$66,$A1,$5B,$01,$08,$7D,$0D,$E0,$AC,$B6,$79,$7D,$10,$78,$59,$71,$6D,$9D,$9F,$0D,$00
+  WriteText "のこり2つの ",$01,$07,"まじんき",$01,$08,"は<br>ミカサには なかったわ。<br>",$00
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText $E0,$AC,$B6,$79,$78,$52,$76,$10,$52,$54,$61,$76,$7D,$0D,$63,$97,$79,$6F,$59,$FF,$FF,$0D,$01,$07,$92,$8C,$76,$01,$08,$78,$A1,$75,$65,$95,$54,$59,$F9,$0D,$00
+  WriteText "ミカサにないと いうことは<br>さらにちか‥‥<br>",$01,$07,"やまと",$01,$08,"なんでしょうか?<br>",$00
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText $6B,$54,$52,$54,$61,$76,$79,$0D,$78,$99,$6E,$9B,$54,$FF,$FF,$0D,$00
+  WriteText "そういうことに<br>なるだろう‥‥<br>",$00
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText $01,$07,$92,$8C,$76,$01,$08,$59,$FF,$FF,$0D,$00
+  WriteText $01,$07,"やまと",$01,$08,"か‥‥<br>",$00
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText $FF,$FF,$59,$56,$75,$63,$A1,$9F,$0D,$E0,$AC,$B6,$79,$10,$50,$A1,$78,$8C,$90,$7C,$5A,$0D,$52,$6D,$76,$52,$54,$61,$76,$7D,$FF,$FF,$0D,$00
+  WriteText "‥‥かえでさん。<br>ミカサに あんなまものが<br>いたということは‥‥<br>",$00
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText $01,$07,$92,$8C,$76,$01,$08,$79,$7D,$0D,$90,$71,$76,$67,$62,$52,$10,$8C,$90,$7C,$5A,$52,$99,$79,$0D,$6F,$5A,$52,$78,$52,$75,$FB,$67,$9F,$0D,$00
+  WriteText $01,$07,"やまと",$01,$08,"には<br>もっとすごい まものがいるに<br>ちがいないでーす。<br>",$00
   PromptContinue
   SetPortrait $02,$15,$0D
-  WriteText $61,$9A,$59,$97,$63,$5B,$0D,$08,$63,$A1,$7D,$10,$0D,$6E,$52,$66,$95,$54,$84,$10,$78,$7C,$59,$65,$97,$F9,$0D,$00
+  WriteText "これからさき<br>",$08,"さんは <br>だいじょうぶ なのかしら?<br>",$00
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText $78,$79,$A0,$10,$65,$A1,$7F,$52,$65,$74,$52,$99,$7C,$9F,$0D,$08,$7D,$10,$AC,$F5,$CB,$76,$0D,$A3,$A5,$EC,$BA,$A0,$10,$6D,$67,$5F,$6D,$7C,$96,$9F,$0D,$00
+  WriteText "なにを しんぱいしているの。<br>",$08,"は カンナと<br>アイリスを たすけたのよ。<br>",$00
   PromptContinue
-  WriteText $6E,$52,$66,$95,$54,$84,$9F,$0D,$00
+  WriteText "だいじょうぶ。<br>",$00
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText $75,$5B,$99,$9D,$7B,$9F,$0D,$08,$9F,$0D,$00
+  WriteText "できるわね。<br>",$08,"。<br>",$00
   PromptContinue
   OptionSelectTimed $03,$02,$7D,$52,$FA,$00,$00,$6D,$84,$A1,$FF,$FF,$00,$01
   Unknown07 $B6,$04,$02,$01,$01,$00,$20,$00
   Unknown07 $08,$05,$02,$01,$01,$01,$20,$00
   Unknown06 $85,$05
   Unknown0F $00,$01
-  WriteText $7D,$52,$FA,$0D,$75,$5B,$8C,$67,$FA,$FA,$0D,$00
+  WriteText "はい!<br>できます!!<br>",$00
   PromptContinue
   SetPortrait $09,$11,$08
   Unknown1A $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText $63,$67,$5A,$7D,$10,$08,$5D,$A1,$9F,$0D,$78,$59,$78,$59,$10,$52,$54,$66,$91,$78,$52,$59,$9F,$0D,$00
+  WriteText "さすがは ",$08,"くん。<br>なかなか いうじゃないか。<br>",$00
   PromptContinue
-  WriteText $B2,$AD,$A0,$65,$78,$52,$96,$54,$79,$0D,$5A,$A1,$7E,$71,$74,$5D,$9A,$9F,$0D,$00
+  WriteText "ケガをしないように<br>がんばってくれ。<br>",$00
   PromptContinue
   Unknown06 $CC,$05
   Unknown0F $00,$01
-  WriteText $6D,$84,$A1,$FF,$FF,$0D,$75,$5B,$99,$76,$10,$58,$90,$54,$7C,$75,$67,$5A,$FF,$FF,$0D,$00
+  WriteText "たぶん‥‥<br>できると おもうのですが‥‥<br>",$00
   PromptContinue
   SetPortrait $09,$16,$0D
-  WriteText $AC,$F5,$CB,$92,$10,$A3,$A5,$EC,$BA,$A0,$0D,$6D,$67,$5F,$6D,$10,$08,$5D,$A1,$76,$7D,$0D,$58,$90,$56,$78,$52,$10,$61,$76,$7E,$6E,$78,$FF,$FF,$0D,$00
+  WriteText "カンナや アイリスを<br>たすけた ",$08,"くんとは<br>おもえない ことばだな‥‥<br>",$00
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText $90,$54,$67,$61,$65,$10,$66,$65,$A1,$A0,$90,$71,$74,$0D,$92,$99,$A1,$6E,$9F,$10,$08,$5D,$A1,$7D,$0D,$75,$5B,$99,$A1,$6E,$59,$97,$63,$9F,$0D,$00
+  WriteText "もうすこし じしんをもって<br>やるんだ。 ",$08,"くんは<br>できるんだからさ。<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $7D,$52,$9F,$0D,$00
+  WriteText "はい。<br>",$00
   PromptContinue
   Unknown06 $CC,$05
   Unknown0F $00,$01
-  WriteText $FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$0D,$00
+  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<br>",$00
   PromptContinue
   SetPortrait $09,$11,$08
-  WriteText $6E,$52,$66,$95,$54,$84,$9F,$0D,$08,$5D,$A1,$78,$97,$0D,$5B,$71,$76,$10,$75,$5B,$99,$63,$9F,$10,$78,$71,$FA,$0D,$00
+  WriteText "だいじょうぶ。<br>",$08,"くんなら<br>きっと できるさ。 なっ!<br>",$00
   PromptContinue
   Unknown0F $00,$01
-  WriteText $7D,$10,$7D,$52,$9F,$0D,$00
+  WriteText "は はい。<br>",$00
   PromptContinue
   Unknown06 $CC,$05
   SetPortrait $0B,$10,$00
-  WriteText $08,$9F,$0D,$50,$78,$6D,$79,$7D,$10,$80,$5B,$72,$73,$5B,$0D,$D2,$FB,$C9,$CB,$FB,$76,$83,$6D,$98,$75,$0D,$00
+  WriteText $08,"。<br>あなたには ひきつづき<br>パートナーとふたりで<br>",$00
   PromptContinue
-  WriteText $01,$07,$8C,$66,$A1,$5B,$01,$08,$7C,$10,$6B,$54,$63,$5D,$A0,$0D,$65,$74,$90,$97,$52,$8C,$67,$9F,$0D,$00
+  WriteText $01,$07,"まじんき",$01,$08,"の そうさくを<br>してもらいます。<br>",$00
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText $75,$7D,$10,$08,$0D,$01,$07,$92,$8C,$76,$01,$08,$7C,$10,$6F,$95,$54,$63,$A0,$0D,$8F,$52,$66,$8C,$67,$9F,$0D,$00
+  WriteText "では ",$08,"<br>",$01,$07,"やまと",$01,$08,"の ちょうさを<br>めいじます。<br>",$00
   PromptContinue
-  WriteText $B2,$AD,$65,$78,$52,$96,$54,$79,$0D,$5B,$A0,$72,$5F,$99,$7C,$96,$9F,$0D,$00
+  WriteText "ケガしないように<br>きをつけるのよ。<br>",$00
   PromptContinue
   End
   End
