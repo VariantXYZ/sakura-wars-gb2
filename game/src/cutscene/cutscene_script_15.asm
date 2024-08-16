@@ -6,6 +6,7 @@ INCLUDE "./game/src/cutscene/include/charmap.asm"
 
 SECTION "Cutscene Script 15 0", ROMX[$7875], BANK[$42]
 CutsceneScript15_0::
+  RSRESET
   Unknown0F $00,$01
   Unknown12 $05
   Unknown02
@@ -174,6 +175,7 @@ CutsceneScript15_0End::
 
 SECTION "Cutscene Script 15 1", ROMX[$4000], BANK[$43]
 CutsceneScript15_1::
+  RSRESET
   db $DD,$ED,$C9,$63,$5D,$69,$A1,$76,$0D,$96,$81,$8C,$67,$9F,$0D,$00 ; WriteText
   PromptContinue
   Unknown06 $36,$0B

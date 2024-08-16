@@ -6,6 +6,7 @@ INCLUDE "./game/src/cutscene/include/charmap.asm"
 
 SECTION "Cutscene Script 3A 0", ROMX[$7841], BANK[$46]
 CutsceneScript3A_0::
+  RSRESET
   SetPortrait $09,$10,$07
   Unknown0E $16
   Unknown12 $18
@@ -194,6 +195,7 @@ CutsceneScript3A_0End::
 
 SECTION "Cutscene Script 3A 1", ROMX[$4000], BANK[$47]
 CutsceneScript3A_1::
+  RSRESET
   db $0D,$8F,$52,$65,$93,$75,$10,$77,$A1,$78,$79,$76,$58,$5D,$7C,$0D,$8C,$76,$75,$90,$10,$50,$74,$99,$A1,$6E,$9F,$0D,$00 ; WriteText
   PromptContinue
   WriteText CHARACTER_EXT_07,"ピーカヴァヤ・ダーマ",CHARACTER_EXT_08,"<BR>っていう すごいワザを<BR>つかうんだぞ。<BR>",$00

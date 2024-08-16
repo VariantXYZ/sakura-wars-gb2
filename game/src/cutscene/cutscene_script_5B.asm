@@ -6,6 +6,7 @@ INCLUDE "./game/src/cutscene/include/charmap.asm"
 
 SECTION "Cutscene Script 5B 0", ROMX[$5969], BANK[$4D]
 CutsceneScript5B_0::
+  RSRESET
   SetPortrait $0B,$11,$01
   Unknown0E $16
   Unknown02

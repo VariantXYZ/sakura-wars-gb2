@@ -6,6 +6,7 @@ INCLUDE "./game/src/cutscene/include/charmap.asm"
 
 SECTION "Cutscene Script 3E 0", ROMX[$6220], BANK[$4A]
 CutsceneScript3E_0::
+  RSRESET
   Unknown0E $0B
   Unknown12 $18
   Unknown02
@@ -768,6 +769,7 @@ CutsceneScript3E_0End::
 
 SECTION "Cutscene Script 3E 1", ROMX[$4000], BANK[$4B]
 CutsceneScript3E_1::
+  RSRESET
   db $8B,$01,$00,$20,$00 ; Unknown07
   SetPortrait $03,$00,$00
   WriteText "そういえば <NAME>くん<BR>むしかご もってなかった?<BR>",$00

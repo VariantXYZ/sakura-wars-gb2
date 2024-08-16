@@ -6,6 +6,7 @@ INCLUDE "./game/src/cutscene/include/charmap.asm"
 
 SECTION "Cutscene Script 3F 0", ROMX[$4AFB], BANK[$4B]
 CutsceneScript3F_0::
+  RSRESET
   Unknown0E $0B
   Unknown12 $18
   Unknown02

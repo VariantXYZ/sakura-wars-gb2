@@ -6,6 +6,7 @@ INCLUDE "./game/src/cutscene/include/charmap.asm"
 
 SECTION "Cutscene Script 3C 0", ROMX[$434E], BANK[$48]
 CutsceneScript3C_0::
+  RSRESET
   Unknown0F $00,$01
   Unknown0E $16
   Unknown12 $18
@@ -1567,6 +1568,7 @@ CutsceneScript3C_0End::
 
 SECTION "Cutscene Script 3C 1", ROMX[$4000], BANK[$49]
 CutsceneScript3C_1::
+  RSRESET
   Unknown06 $6D,$3D
   Unknown0F $00,$01
   WriteText "じゃあ ぎゅうどんの<BR>おおもり!!<BR>",$00

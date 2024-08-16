@@ -6,6 +6,7 @@ INCLUDE "./game/src/cutscene/include/charmap.asm"
 
 SECTION "Cutscene Script 1F 0", ROMX[$7EC1], BANK[$43]
 CutsceneScript1F_0::
+  RSRESET
   SetPortrait $0B,$10,$00
   Unknown0E $16
   Unknown12 $09
@@ -43,6 +44,7 @@ CutsceneScript1F_0End::
 
 SECTION "Cutscene Script 1F 1", ROMX[$4000], BANK[$44]
 CutsceneScript1F_1::
+  RSRESET
   db $00 ; WriteText
   PromptContinue
   WriteText CHARACTER_EXT_07,"けん",CHARACTER_EXT_08,"と",CHARACTER_EXT_07,"たま",CHARACTER_EXT_08,"‥‥<BR>ふたつの",CHARACTER_EXT_07,"まじんき",CHARACTER_EXT_08,"の<BR>かいしゅう おつかれさま。<BR>",$00

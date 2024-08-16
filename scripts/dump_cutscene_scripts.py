@@ -152,7 +152,8 @@ with open(commands_src_path, "w") as output:
         command = COMMANDS[symbol]
         output.write(f"MACRO {command.name}\n")
         #output.write(f".{command.name}\\@:\n")
-        output.write(f".{command.name}\\@:\n")
+        output.write(f".{command.name}_{{d:_RS}}:\n")
+        output.write(f"  DEF _RS += 1\n")
         output.write(f"  db ${symbol:02X}")
 
         if command.read_handler is not None:
@@ -213,6 +214,7 @@ with open(rom_path, 'rb') as rom:
                 bytes_in_bank = 0x8000 - addr
                 source_fp.write(f'SECTION "Cutscene Script {index:02X} {iteration}", ROMX[${addr:04X}], BANK[${bank:02X}]\n')
                 source_fp.write(f"{name}_{iteration}::\n")
+                source_fp.write("  RSRESET\n")
                 # Simplify reference
                 code_data = data[current_offset:current_offset + bytes_in_bank]
                 # Parse each byte of the script to generate a list of script functions
