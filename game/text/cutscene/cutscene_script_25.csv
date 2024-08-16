@@ -1,0 +1,65 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript25_WriteText_0012_0,みんな あつまったわね。<BR>
+WriteText,textCutsceneScript25_WriteText_0026_0,どうしたんだ かえでさん。<BR>
+WriteText,textCutsceneScript25_WriteText_003B_0,ほんのすこしまえから<BR>ミカサちかで いへんが<BR>おこりはじめたのよ。<BR>
+WriteText,textCutsceneScript25_WriteText_0064_0,ミカサしゅうへんで<BR>じなりが おこっています。<BR>
+WriteText,textCutsceneScript25_WriteText_0083_0,ミカサのちかで<BR>きょだいな れいりょくが<BR>はっせいしています。<BR>
+WriteText,textCutsceneScript25_WriteText_00AA_0,ということなのよ。<BR>
+WriteText,textCutsceneScript25_WriteText_00BB_0,まさか あくまおう とか<BR>いうやつが!!<BR>
+WriteText,textCutsceneScript25_WriteText_00D7_0,いや そうときまった<BR>わけじゃないわ。<BR>
+WriteText,textCutsceneScript25_WriteText_00F2_0,そう しぜんげんしょうかも<BR>しれませんわ。<BR>かざんの ふんかとか‥‥<BR>
+WriteText,textCutsceneScript25_WriteText_011C_0,でも‥‥<BR>あそこには ふんかがおこる<BR>かざんは ないで‥‥<BR>
+WriteText,textCutsceneScript25_WriteText_0141_0,ここで ぎろんしてても<BR>しかたないんじゃないか。<BR>
+WriteText,textCutsceneScript25_WriteText_0161_0,そうでーす。<BR>しらべにいくでーす。<BR>
+WriteText,textCutsceneScript25_WriteText_017A_0,ぜんいんで いくのか?<BR>
+WriteText,textCutsceneScript25_WriteText_018D_0,いえ それはできないわ。<BR>
+WriteText,textCutsceneScript25_WriteText_019D_0,<NAME>くん。<BR>おねがい できるかしら?<BR>
+OptionSelectTimed,textCutsceneScript25_OptionSelectTimed_01B2_0,はい
+WriteText,textCutsceneScript25_WriteText_01C8_0,はい。<BR>
+WriteText,textCutsceneScript25_WriteText_01D3_0,ガンバレーーー!<BR><NAME>!!<BR>
+WriteText,textCutsceneScript25_WriteText_01E9_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript25_WriteText_01FD_0,どうしたの? <NAME>。<BR>
+WriteText,textCutsceneScript25_WriteText_020E_0,<NAME>なら<BR>だいじょうぶだよ。<BR>ガンバレーーー!<BR>
+WriteText,textCutsceneScript25_WriteText_022B_0,はい。<BR>
+WriteText,textCutsceneScript25_WriteText_0236_0,かえでさん。<BR>れいりょくの はっせいちてん<BR>わかりました。<BR>
+WriteText,textCutsceneScript25_WriteText_0257_0,『せいまじょう』のちかより<BR>さらに ふかいところです。<BR>
+WriteText,textCutsceneScript25_WriteText_027C_0,では <NAME>くんに<BR>めいじます。<BR>
+WriteText,textCutsceneScript25_WriteText_028E_0,『せいまじょう』のちかで<BR>おこっている ことを<BR>ちょうさせよ。<BR>
+WriteText,textCutsceneScript25_WriteText_02B6_0,りょうかい!<BR>
+WriteText,textCutsceneScript25_WriteText_02C4_0,いちおう コレをもって<BR>いきなさい。<BR>
+WriteText,textCutsceneScript25_WriteText_02DD_0,『まじんき』?<BR>
+WriteText,textCutsceneScript25_WriteText_02EE_0,『まじんき』が げんいんで<BR>おこった こんかいのじけん。<BR>
+WriteText,textCutsceneScript25_WriteText_0310_0,この『まじんき』が なにかの<BR>やくにたつかも <BR>しれないでしょ。<BR>
+WriteText,textCutsceneScript25_WriteText_0336_0,じゃ がんばってね。<BR>
+WriteText,textCutsceneScript25_WriteText_0345_0,みんな あつまったわね。<BR>
+WriteText,textCutsceneScript25_WriteText_0359_0,どうしたんだ かえでさん。<BR>
+WriteText,textCutsceneScript25_WriteText_036E_0,ほんのすこしまえから<BR>ミカサちかで いへんが<BR>おこりはじめたのよ。<BR>
+WriteText,textCutsceneScript25_WriteText_0397_0,ミカサしゅうへんで<BR>じなりが おこっています。<BR>
+WriteText,textCutsceneScript25_WriteText_03B6_0,ミカサのちかで<BR>きょだいな れいりょくが<BR>はっせいしています。<BR>
+WriteText,textCutsceneScript25_WriteText_03DD_0,ということなのよ。<BR>
+WriteText,textCutsceneScript25_WriteText_03EE_0,まさか あくまおう とか<BR>いうやつが!!<BR>
+WriteText,textCutsceneScript25_WriteText_040A_0,いや そうときまった<BR>わけじゃないわ。<BR>
+WriteText,textCutsceneScript25_WriteText_0425_0,そう しぜんげんしょうかも<BR>しれませんわ。<BR>かざんの ふんかとか‥‥<BR>
+WriteText,textCutsceneScript25_WriteText_044F_0,でも‥‥<BR>あそこには ふんかがおこる<BR>かざんは ないで‥‥<BR>
+WriteText,textCutsceneScript25_WriteText_0474_0,ここで ぎろんしてても<BR>しかたないんじゃないか。<BR>
+WriteText,textCutsceneScript25_WriteText_0494_0,そうでーす。<BR>しらべにいくでーす。<BR>
+WriteText,textCutsceneScript25_WriteText_04AD_0,みんなで いくの?<BR>
+WriteText,textCutsceneScript25_WriteText_04BE_0,いえ それはできないわ。<BR>
+WriteText,textCutsceneScript25_WriteText_04CE_0,<NAME>。<BR>おねがい できるかしら?<BR>
+OptionSelectTimed,textCutsceneScript25_OptionSelectTimed_04E1_0,はい
+WriteText,textCutsceneScript25_WriteText_04F7_0,はい。<BR>
+WriteText,textCutsceneScript25_WriteText_0502_0,がんばれ <NAME>。<BR>
+WriteText,textCutsceneScript25_WriteText_0513_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript25_WriteText_0527_0,どうした?<BR>
+WriteText,textCutsceneScript25_WriteText_0534_0,<NAME>なら <BR>だいじょうぶ できるさ。<BR>
+WriteText,textCutsceneScript25_WriteText_054C_0,はい。<BR>
+WriteText,textCutsceneScript25_WriteText_0557_0,かえでさん。<BR>れいりょくの はっせいちてん<BR>わかりました。<BR>
+WriteText,textCutsceneScript25_WriteText_0578_0,『せいまじょう』のちかより<BR>さらに ふかいところです。<BR>
+WriteText,textCutsceneScript25_WriteText_059D_0,では <NAME>に<BR>めいじます。<BR>
+WriteText,textCutsceneScript25_WriteText_05AD_0,『せいまじょう』のちかで<BR>おこっている ことを<BR>ちょうさせよ。<BR>
+WriteText,textCutsceneScript25_WriteText_05D5_0,りょうかい!<BR>
+WriteText,textCutsceneScript25_WriteText_05E3_0,いちおう コレをもって<BR>いきなさい。<BR>
+WriteText,textCutsceneScript25_WriteText_05FC_0,『まじんき』?<BR>
+WriteText,textCutsceneScript25_WriteText_060D_0,『まじんき』が げんいんで<BR>おこった こんかいのじけん。<BR>
+WriteText,textCutsceneScript25_WriteText_062F_0,この『まじんき』が なにかの<BR>やくにたつかも <BR>しれないでしょ。<BR>
+WriteText,textCutsceneScript25_WriteText_0655_0,じゃ がんばってね。<BR>

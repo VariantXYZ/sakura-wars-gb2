@@ -1,0 +1,125 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript3A_WriteText_0009_0,<NAME>くん。<BR>フロにでも いこうか。<BR>
+WriteText,textCutsceneScript3A_WriteText_001D_0,ひえたからだを<BR>あっためるには<BR>フロが いちばんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0046_0,あ～ いいゆだな～。<BR>
+WriteText,textCutsceneScript3A_WriteText_0054_0,それにしても ミカサを<BR>こおらせる まものには<BR>おどろいたな～。<BR>
+WriteText,textCutsceneScript3A_WriteText_0078_0,からだが しんまで<BR>ひえちゃっただろ?<BR>
+WriteText,textCutsceneScript3A_WriteText_008F_0,ゆっくりと からだを<BR>あたためるといいよ。<BR>
+WriteText,textCutsceneScript3A_WriteText_00A8_0,そうだ。<NAME>くんは<BR>どれくらい ゆぶねに<BR>つかってるのかな?<BR>
+WriteText,textCutsceneScript3A_WriteText_00C9_0,すうじを かぞえるなら<BR>いくつくらい かぞえる?<BR>
+OptionSelectTimed,textCutsceneScript3A_OptionSelectTimed_00E5_0,10です。
+OptionSelectTimed,textCutsceneScript3A_OptionSelectTimed_00E5_1,100です。
+OptionSelectTimed,textCutsceneScript3A_OptionSelectTimed_00E5_2,10000です。
+WriteText,textCutsceneScript3A_WriteText_0122_0,10ぐらいです。<BR>
+WriteText,textCutsceneScript3A_WriteText_0131_0,10か‥‥<BR>もうすこし ながくつかった<BR>ほうが いいんじゃないか?<BR>
+WriteText,textCutsceneScript3A_WriteText_0156_0,ゆっくり はいると<BR>からだのつかれも<BR>とれるしな。<BR>
+WriteText,textCutsceneScript3A_WriteText_0179_0,100ですね。<BR>
+WriteText,textCutsceneScript3A_WriteText_0190_0,100か。そうだよな。<BR>オレといっしょだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_01A9_0,やっぱ ゆっくりつかると<BR>つかれが ふきとんでいく<BR>もんな～。<BR>
+WriteText,textCutsceneScript3A_WriteText_01D2_0,10000ですかね。<BR>
+WriteText,textCutsceneScript3A_WriteText_01E3_0,い いちまん!!!<BR>
+WriteText,textCutsceneScript3A_WriteText_01F0_0,いくらなんでも いちまんは<BR>ないだろう。<BR>
+WriteText,textCutsceneScript3A_WriteText_020B_0,のぼせて たおれちゃうよ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0228_0,えっ!? だいじょうぶなの?<BR>スゴイな <NAME>くんは。<BR>
+WriteText,textCutsceneScript3A_WriteText_024B_0,とくに きめて いません。<BR>
+WriteText,textCutsceneScript3A_WriteText_025F_0,そうなのか。<BR>オレは 100ぐらい<BR>かぞえるんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_027C_0,それにしても フロは<BR>きもちいいな～。<BR>
+WriteText,textCutsceneScript3A_WriteText_029F_0,さて からだも あらったし<BR>ゆっくりと ゆぶねに<BR>つかったし‥‥<BR>
+WriteText,textCutsceneScript3A_WriteText_02C3_0,そろそろ あがろうか<BR><NAME>くん。<BR>
+WriteText,textCutsceneScript3A_WriteText_02E5_0,あ～ いいフロだった。<BR>
+WriteText,textCutsceneScript3A_WriteText_02F8_0,あっ そうだ。<BR><NAME>くんに きこうと<BR>おもったことが あったんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_031C_0,はなぐみの メンバーのなかで<BR>パートナーとしては<BR>だれが いちばんだい?<BR>
+WriteText,textCutsceneScript3A_WriteText_0344_0,たたかいかた とか<BR>せんとうのうりょく とか‥‥<BR>
+WriteText,textCutsceneScript3A_WriteText_0364_0,あと かおや せいかくが<BR>すき‥‥ とか いろいろ<BR>あるだろうけどね。<BR>
+OptionSelect,textCutsceneScript3A_OptionSelect_038B_0,さくら さん
+OptionSelect,textCutsceneScript3A_OptionSelect_038B_1,すみれ さん
+OptionSelect,textCutsceneScript3A_OptionSelect_038B_2,ほかの たいいん
+OptionSelect,textCutsceneScript3A_OptionSelect_03C3_0,マリア さん
+OptionSelect,textCutsceneScript3A_OptionSelect_03C3_1,アイリス
+OptionSelect,textCutsceneScript3A_OptionSelect_03C3_2,ほかの たいいん
+OptionSelect,textCutsceneScript3A_OptionSelect_03F9_0,こうらん さん
+OptionSelect,textCutsceneScript3A_OptionSelect_03F9_1,カンナ さん
+OptionSelect,textCutsceneScript3A_OptionSelect_03F9_2,ほかの たいいん
+OptionSelect,textCutsceneScript3A_OptionSelect_0432_0,おりひめ さん
+OptionSelect,textCutsceneScript3A_OptionSelect_0432_1,レニ さん
+OptionSelect,textCutsceneScript3A_OptionSelect_0432_2,ほかの たいいん
+WriteText,textCutsceneScript3A_WriteText_046D_0,さくらさんです。<BR>
+WriteText,textCutsceneScript3A_WriteText_047D_0,さくらくんか～。<BR>さくらくんは かっぱつで<BR>あかるくて‥‥<BR>
+WriteText,textCutsceneScript3A_WriteText_049E_0,そして どんなときでも<BR>くじけない つよいこころを<BR>もっているからね。<BR>
+WriteText,textCutsceneScript3A_WriteText_04C9_0,でも ちょっと<BR>おっちょこちょいなのが<BR>たまにキズ かな?<BR>
+WriteText,textCutsceneScript3A_WriteText_04EE_0,けど さくらくんは<BR>ほくしんいっとうりゅうの<BR>つかいてで<BR>
+WriteText,textCutsceneScript3A_WriteText_050E_0,『おうかむしょう』 っていう<BR>すごいワザを つかうんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0534_0,さくらくんを えらぶなんて<BR>なかなか めがたかいね～。<BR>はははは。<BR>
+WriteText,textCutsceneScript3A_WriteText_0566_0,さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>
+WriteText,textCutsceneScript3A_WriteText_0591_0,かえでさんが まってる<BR>だろうからな。<BR>
+WriteText,textCutsceneScript3A_WriteText_05AC_0,すみれさんです。<BR>
+WriteText,textCutsceneScript3A_WriteText_05BC_0,すみれくんか～。<BR>かのじょは まさに<BR>おじょうさま だね。<BR>
+WriteText,textCutsceneScript3A_WriteText_05DD_0,ちょっと えらそうにみえるが<BR>うらでは いっしょうけんめい<BR>どりょくをしている<BR>
+WriteText,textCutsceneScript3A_WriteText_0608_0,どりょくか なんだ。<BR>くんれんでも しばいのけいこ<BR>でも つねにがんばっている。<BR>
+WriteText,textCutsceneScript3A_WriteText_0638_0,まあ ほんにんは<BR>「どりょくなんて しておりま<BR> せんわ」なんていうけどね。<BR>
+WriteText,textCutsceneScript3A_WriteText_0666_0,すみれくんは <BR>かんざきふうじんりゅう の<BR>つかいてで<BR>
+WriteText,textCutsceneScript3A_WriteText_0685_0,『れんじゃくのまい』<BR>っていう すごいワザを<BR>つかうんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_06AC_0,すみれくんを えらぶなんて<BR>なかなか チャレンジャー<BR>だね～。ははははは。<BR>
+WriteText,textCutsceneScript3A_WriteText_06E2_0,さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>
+WriteText,textCutsceneScript3A_WriteText_070D_0,かえでさんが まってる<BR>だろうからな。<BR>
+WriteText,textCutsceneScript3A_WriteText_0728_0,マリアさんです。<BR>
+WriteText,textCutsceneScript3A_WriteText_0738_0,マリアか‥‥<BR>マリアは とても おちついた<BR>たよりになる じょせいだよ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0760_0,つねに れいせいで<BR>さきをよんで こうどうできる<BR>せんりゃくかだよ。<BR>
+WriteText,textCutsceneScript3A_WriteText_078A_0,ちょっと マジメすぎる<BR>ところもあるけど<BR>それも いいところだね。<BR>
+WriteText,textCutsceneScript3A_WriteText_07B3_0,マリアは けんじゅうの<BR>めいしゅで どんなにとおくの<BR>まとでも あてるんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_07DD_0,『ピーカヴァヤ・ダーマ』<BR>っていう すごいワザを<BR>つかうんだぞ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0807_0,マリアを えらぶなんて<BR>なかなか しぶいね～。<BR>はははははは。<BR>
+WriteText,textCutsceneScript3A_WriteText_0837_0,さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>
+WriteText,textCutsceneScript3A_WriteText_0862_0,かえでさんが まってる<BR>だろうからな。<BR>
+WriteText,textCutsceneScript3A_WriteText_087D_0,アイリスです。<BR>
+WriteText,textCutsceneScript3A_WriteText_088C_0,アイリスか～。<BR>アイリスは ほんとうに<BR>げんきで あかるいコだよ。<BR>
+WriteText,textCutsceneScript3A_WriteText_08B5_0,こどもあつかいをすると<BR>おこるのも あいかわらず<BR>だけどね。<BR>
+WriteText,textCutsceneScript3A_WriteText_08DB_0,でも アイリスの<BR>ちょうのうりょくは<BR>すばらしいんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_08FA_0,テレポートしたり<BR>みんなのきずを なおしたり<BR>もう だいかつやくさ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0920_0,『イリスプティ・<BR>ジャンポール』っていう<BR>すごいワザも つかうんだぞ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0949_0,アイリスは<BR>オレたちのりっぱな<BR>なかまなんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0964_0,オレだって<BR>なんども アイリスには<BR>たすけられているんだよ。<BR>
+WriteText,textCutsceneScript3A_WriteText_098A_0,アイリスを えらぶなんて<BR>なかなか‥‥ やるね～。<BR>はははははは。<BR>
+WriteText,textCutsceneScript3A_WriteText_09BC_0,さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>
+WriteText,textCutsceneScript3A_WriteText_09E7_0,かえでさんが まってる<BR>だろうからな。<BR>
+WriteText,textCutsceneScript3A_WriteText_0A02_0,こうらんさんです。<BR>
+WriteText,textCutsceneScript3A_WriteText_0A13_0,こうらんか～。<BR>こうらんは はつめいが<BR>だいすきな おんなのこだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0A3C_0,ま なかなか<BR>せいこうしないのが<BR>たまにキズ なんだけどね。<BR>
+WriteText,textCutsceneScript3A_WriteText_0A62_0,こうらんは<BR>どんなことがあっても<BR>くじけない あかるいコだよ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0A85_0,それに みんなのために<BR>あたらしいはつめいを<BR>かんがえているんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0AAE_0,いつも バクハツして<BR>かおを まっくろに<BR>しているけどね。ははは。<BR>
+WriteText,textCutsceneScript3A_WriteText_0AD7_0,こうらんの はつめいで<BR>『じゃんぱいロボ』って<BR>いう すごいワザがあるんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0B07_0,こうらんを えらぶなんて<BR>なかなか おめがたかいね。<BR>はははははは。<BR>
+WriteText,textCutsceneScript3A_WriteText_0B3A_0,さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>
+WriteText,textCutsceneScript3A_WriteText_0B65_0,かえでさんが まってる<BR>だろうからな。<BR>
+WriteText,textCutsceneScript3A_WriteText_0B80_0,カンナさんです。<BR>
+WriteText,textCutsceneScript3A_WriteText_0B90_0,カンナか～。<BR>カンナは サッパリした<BR>いいやつだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0BAD_0,あねごはだで うらおもての<BR>ない かざらないせいかくは<BR>きもちがいいね。<BR>
+WriteText,textCutsceneScript3A_WriteText_0BD5_0,そうそう カンナは<BR>メシと うんどうが<BR>だいすきなんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0BF9_0,その きたえた からだから<BR>くりだされる カラテは<BR>すごいんだぜ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0C1E_0,カンナは りゅうきゅうカラテ<BR>きりしまりゅう だい28だい<BR>けいしょうしゃで<BR>
+WriteText,textCutsceneScript3A_WriteText_0C4C_0,『サンチンテンショウ』<BR>っていう すごいワザを<BR>もってるんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0C75_0,カンナを えらぶなんて<BR>きみは まもられたい<BR>タイプだね。ははは。<BR>
+WriteText,textCutsceneScript3A_WriteText_0CA7_0,さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>
+WriteText,textCutsceneScript3A_WriteText_0CD2_0,かえでさんが まってる<BR>だろうからな。<BR>
+WriteText,textCutsceneScript3A_WriteText_0CED_0,おりひめさんです。<BR>
+WriteText,textCutsceneScript3A_WriteText_0CFE_0,おりひめくんか～。<BR>おりひめくんは イタリアで<BR>だいにんきの じょゆうだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0D27_0,かのじょの てんさいてきな<BR>センスは ぶたいはもちろん<BR>たたかいでも はっきされる。<BR>
+WriteText,textCutsceneScript3A_WriteText_0D55_0,その たたかってる<BR>すがたは きひんすら<BR>かんじさせるんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0D7B_0,でも なぜか<BR>にほんのおとこが<BR>キライ なんだそうだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0D9E_0,おりひめくんは <BR>その てんさいてきな<BR>センスをもって<BR>
+WriteText,textCutsceneScript3A_WriteText_0DBD_0,『クアットロ・スタジオーニ』<BR>っていう すごいワザを<BR>つかうんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0DE8_0,おりひめくんを えらぶなんて<BR>なかなか めがたかいね～。<BR>はははは。<BR>
+WriteText,textCutsceneScript3A_WriteText_0E1B_0,さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>
+WriteText,textCutsceneScript3A_WriteText_0E46_0,かえでさんが まってる<BR>だろうからな。<BR>
+WriteText,textCutsceneScript3A_WriteText_0E61_0,レニさんです。<BR>
+WriteText,textCutsceneScript3A_WriteText_0E70_0,レニか～。<BR>レニは れいせいで<BR>いつも おちついているよ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0E91_0,とても あたまがいいから<BR>どんなじょうきょうでも<BR>れいせいに はんだんできる。<BR>
+WriteText,textCutsceneScript3A_WriteText_0EBC_0,せんとうに かつためには<BR>ジャマになるものは すべて<BR>はいじょするんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0EE4_0,‥‥なんてことをいうと<BR>せんとうマシーンみたいに<BR>おもわれてしまうけど<BR>
+WriteText,textCutsceneScript3A_WriteText_0F0B_0,ほんとうは<BR>イヌが だいすきな<BR>やさしいこ なんだよ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0F2E_0,レニは ヤリのすばらしい<BR>つかいてで<BR>
+WriteText,textCutsceneScript3A_WriteText_0F44_0,『ダス・ラインゴルト』という<BR>すごいワザをつかうんだ。<BR>
+WriteText,textCutsceneScript3A_WriteText_0F69_0,レニを えらぶなんて<BR>なかなか しぶいね～。<BR>はははは。<BR>
+WriteText,textCutsceneScript3A_WriteText_0F96_0,さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>
+WriteText,textCutsceneScript3A_WriteText_0FC1_0,かえでさんが まってる<BR>だろうからな。<BR>

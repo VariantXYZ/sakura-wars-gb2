@@ -1,0 +1,81 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript18_WriteText_000A_0,～だい3しょう～<BR>『はっしん! こうぶタンク』<BR>
+WriteText,textCutsceneScript18_WriteText_0038_0,みんな あつまってるわね。<BR>
+WriteText,textCutsceneScript18_WriteText_0049_0,では <NAME>くんの<BR>ほうこくをもとに<BR>かんがえてみましょう。<BR>
+WriteText,textCutsceneScript18_WriteText_0069_0,きくちゃんは 『まじんき』を<BR>みつけたが なにものかに<BR>うばわれてしまった‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_009A_0,その『なにものか』って<BR>いったい だれなんだ?<BR>
+WriteText,textCutsceneScript18_WriteText_00BB_0,どうして 『まじんき』を<BR>もっていったんでしょうか?<BR>
+WriteText,textCutsceneScript18_WriteText_00DF_0,だれが なんのために<BR>『まじんき』を<BR>もっていったのか‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_0106_0,わからないこと<BR>だらけだね。<BR>
+WriteText,textCutsceneScript18_WriteText_011C_0,‥‥ひとつだけ<BR>わかったことがありますわ。<BR>
+WriteText,textCutsceneScript18_WriteText_0139_0,『まじんき』を<BR>さがしてるものが<BR>ボクたちのほかにも いる‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_0162_0,そのとおりでーす。<BR>このじけんのカギは<BR>やっぱり『まじんき』でーす。<BR>
+WriteText,textCutsceneScript18_WriteText_018E_0,ぜんかいで ミカサの<BR>ちじょうにでているぶぶんは<BR>すべてさがしました。<BR>
+WriteText,textCutsceneScript18_WriteText_01B9_0,ちゅーことは 『まじんき』は<BR>ミカサのちかぶぶんに<BR>あるっちゅーことか?<BR>
+WriteText,textCutsceneScript18_WriteText_01E7_0,ミカサのちか‥‥‥‥‥‥‥‥<BR>ちじょうぶぶんが<BR>あんな じょうたいだと‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_0214_0,おそらく ミカサのちかは<BR>そうぞうも できないことに<BR>なっているでしょう。<BR>
+WriteText,textCutsceneScript18_WriteText_023D_0,まものも てごわくなるわ‥‥<BR><NAME>くん これだけは<BR>おぼえておいて ちょうだい。<BR>
+WriteText,textCutsceneScript18_WriteText_0268_0,わざや アイテムは<BR>ばんのうではないのよ‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_0282_0,すなわち まものによっては<BR>こうかがない わざやアイテム<BR>もある‥‥ということを。<BR>
+WriteText,textCutsceneScript18_WriteText_02B3_0,<NAME>くん。<BR>かくごはいい?<BR>
+OptionSelectTimed,textCutsceneScript18_OptionSelectTimed_02C3_0,だいじょうぶです
+OptionSelectTimed,textCutsceneScript18_OptionSelectTimed_02C3_1,ビビッてます
+OptionSelectTimed,textCutsceneScript18_OptionSelectTimed_02C3_2,なんとかなるでしょ
+WriteText,textCutsceneScript18_WriteText_0304_0,だいじょうぶです。<BR>まかせてください。<BR>
+WriteText,textCutsceneScript18_WriteText_0328_0,しっかりな <NAME>!<BR>
+WriteText,textCutsceneScript18_WriteText_0341_0,がんばってね <BR><NAME>くん。<BR>
+WriteText,textCutsceneScript18_WriteText_035E_0,‥‥‥‥‥‥ しぬな!<BR>
+WriteText,textCutsceneScript18_WriteText_0373_0,い いや～‥‥‥‥<BR>すこし ビビッてます。<BR>
+WriteText,textCutsceneScript18_WriteText_0399_0,だいじょうぶだよ <BR><NAME>。<BR>ファイト!<BR>
+WriteText,textCutsceneScript18_WriteText_03BC_0,<NAME>はん やったら<BR>だいじょうぶやて。<BR>きあい いれてガンバリや。<BR>
+WriteText,textCutsceneScript18_WriteText_03ED_0,<NAME>さんなら<BR>できますよ。<BR>あたし おうえんしてます。<BR>
+WriteText,textCutsceneScript18_WriteText_0411_0,まあ なんとかなるでしょ。<BR>ねっ。<BR>
+WriteText,textCutsceneScript18_WriteText_0433_0,あ～ら それくらい<BR>リラックスできていれば <BR>だいじょうぶですわね。<BR>
+WriteText,textCutsceneScript18_WriteText_0466_0,まさに <BR>ツメをかくしたタカ<BR>ですねー!<BR>
+WriteText,textCutsceneScript18_WriteText_048B_0,うん。 いいかんじで<BR>かたのちからが<BR>ぬけているな。<BR>
+WriteText,textCutsceneScript18_WriteText_04AF_0,‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_04C1_0,<NAME>さん。<BR>しっかり。<BR>
+WriteText,textCutsceneScript18_WriteText_04D3_0,わたしたちが サポート<BR>しますから がんばって<BR>ください <NAME>さん。<BR>
+WriteText,textCutsceneScript18_WriteText_04FC_0,<NAME>くん <BR>がんばれ!<BR>
+WriteText,textCutsceneScript18_WriteText_0511_0,では <NAME>くん。<BR>つぎは ミカサちかの <BR>ちょうさよ。<BR>
+WriteText,textCutsceneScript18_WriteText_052F_0,がんばってね。<BR>
+WriteText,textCutsceneScript18_WriteText_053B_0,みんな あつまってるわね。<BR>
+WriteText,textCutsceneScript18_WriteText_054C_0,では <NAME>の<BR>ほうこくをもとに<BR>かんがえてみましょう。<BR>
+WriteText,textCutsceneScript18_WriteText_056A_0,きくちゃんは 『まじんき』を<BR>みつけたが なにものかに<BR>うばわれてしまった‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_059B_0,その『なにものか』って<BR>いったい だれなんだ?<BR>
+WriteText,textCutsceneScript18_WriteText_05BC_0,どうして 『まじんき』を<BR>もっていったんでしょうか?<BR>
+WriteText,textCutsceneScript18_WriteText_05E0_0,だれが なんのために<BR>『まじんき』を<BR>もっていったのか‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_0607_0,わからないこと<BR>だらけだね。<BR>
+WriteText,textCutsceneScript18_WriteText_061D_0,‥‥ひとつだけ<BR>わかったことがありますわ。<BR>
+WriteText,textCutsceneScript18_WriteText_063A_0,『まじんき』を<BR>さがしてるものが<BR>ボクたちのほかにも いる‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_0663_0,そのとおりでーす。<BR>このじけんのカギは<BR>やっぱり『まじんき』でーす。<BR>
+WriteText,textCutsceneScript18_WriteText_068F_0,ぜんかいで ミカサの<BR>ちじょうにでているぶぶんは<BR>すべてさがしました。<BR>
+WriteText,textCutsceneScript18_WriteText_06BA_0,ちゅーことは 『まじんき』は<BR>ミカサのちかぶぶんに<BR>あるっちゅーことか?<BR>
+WriteText,textCutsceneScript18_WriteText_06E8_0,ミカサのちか‥‥‥‥‥‥‥‥<BR>ちじょうぶぶんが<BR>あんな じょうたいだと‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_0715_0,おそらく ミカサのちかは<BR>そうぞうも できないことに<BR>なっているでしょう。<BR>
+WriteText,textCutsceneScript18_WriteText_073E_0,まものも てごわくなるわ‥‥<BR><NAME> これだけは<BR>おぼえておいて ちょうだい。<BR>
+WriteText,textCutsceneScript18_WriteText_0767_0,わざや アイテムは<BR>ばんのうではないのよ‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_0781_0,すなわち まものによっては<BR>こうかがない わざやアイテム<BR>もある‥‥ということを。<BR>
+WriteText,textCutsceneScript18_WriteText_07B2_0,かくごはいい? <NAME>。<BR>
+OptionSelectTimed,textCutsceneScript18_OptionSelectTimed_07C0_0,だいじょうぶです
+OptionSelectTimed,textCutsceneScript18_OptionSelectTimed_07C0_1,ちょっと こわいです
+OptionSelectTimed,textCutsceneScript18_OptionSelectTimed_07C0_2,なんとかなります
+WriteText,textCutsceneScript18_WriteText_0804_0,だいじょうぶです。<BR>まかせてください。<BR>
+WriteText,textCutsceneScript18_WriteText_0828_0,しっかりな <NAME>!<BR>
+WriteText,textCutsceneScript18_WriteText_0841_0,がんばりなさい<BR><NAME>。<BR>
+WriteText,textCutsceneScript18_WriteText_085C_0,‥‥‥‥‥‥ しぬな!<BR>
+WriteText,textCutsceneScript18_WriteText_0871_0,ちょっと こわいです‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_088E_0,だいじょうぶだよ <BR><NAME>。<BR>ファイト!<BR>
+WriteText,textCutsceneScript18_WriteText_08B1_0,<NAME>はん やったら<BR>だいじょうぶやて。<BR>きあい いれてガンバリや。<BR>
+WriteText,textCutsceneScript18_WriteText_08E2_0,<NAME>さんなら<BR>できますよ。<BR>
+WriteText,textCutsceneScript18_WriteText_08F8_0,なんとかなると<BR>おもいますよ。<BR>
+WriteText,textCutsceneScript18_WriteText_0918_0,あ～ら それくらい<BR>リラックスできていれば <BR>だいじょうぶですわね。<BR>
+WriteText,textCutsceneScript18_WriteText_094B_0,まさに <BR>ツメをかくしたタカ<BR>ですねー!<BR>
+WriteText,textCutsceneScript18_WriteText_0970_0,うん。 いいかんじで<BR>かたのちからが<BR>ぬけているな。<BR>
+WriteText,textCutsceneScript18_WriteText_098E_0,さすがは <NAME>くんだ。<BR>
+WriteText,textCutsceneScript18_WriteText_09A2_0,‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript18_WriteText_09B4_0,<NAME>さん。<BR>しっかり。<BR>
+WriteText,textCutsceneScript18_WriteText_09C6_0,わたしたちが サポート<BR>しますから がんばって<BR>ください <NAME>さん。<BR>
+WriteText,textCutsceneScript18_WriteText_09EF_0,<NAME>さん <BR>がんばれ!<BR>
+WriteText,textCutsceneScript18_WriteText_0A04_0,では <NAME>。<BR>つぎは ミカサちかの <BR>ちょうさよ。<BR>
+WriteText,textCutsceneScript18_WriteText_0A20_0,がんばりなさい。<BR>

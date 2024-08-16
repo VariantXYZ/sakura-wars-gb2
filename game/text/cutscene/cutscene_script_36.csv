@@ -1,0 +1,69 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript36_WriteText_0011_0,ミカサでみつけた<BR>
+WriteText,textCutsceneScript36_WriteText_0022_0,この イヌのおもちゃ‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_0037_0,どうしようかな‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_0044_0,とりあえず イヌがすきな<BR>レニさんのところに<BR>もっていこう。<BR>
+WriteText,textCutsceneScript36_WriteText_0068_0,レニさん。<BR>しつれいします。<BR>
+WriteText,textCutsceneScript36_WriteText_007E_0,<NAME><BR>なにかよう?<BR>
+WriteText,textCutsceneScript36_WriteText_008D_0,これ ミカサのなかで<BR>みつけたんですが‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_00AA_0,ホネ?<BR>イヌのおもちゃ‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_00BB_0,ああ‥‥<BR>それは ボクのだよ。<BR>
+WriteText,textCutsceneScript36_WriteText_00DB_0,ありがとう。<BR><NAME>。<BR>
+WriteText,textCutsceneScript36_WriteText_00EB_0,ところで レニさん。<BR>ていげきで かってる<BR>しろいイヌ なんですけど<BR>
+WriteText,textCutsceneScript36_WriteText_0111_0,みんな それぞれで<BR>すきかってな なまえを<BR>つけているんですね。<BR>
+WriteText,textCutsceneScript36_WriteText_0135_0,ボクもそのイヌに<BR>なまえを つけたいんですけど<BR>いいですか?<BR>
+WriteText,textCutsceneScript36_WriteText_015B_0,フントのこと?<BR>べつに いいよ。<BR>
+WriteText,textCutsceneScript36_WriteText_0172_0,いいんですか!?<BR>なにに しようかな～‥‥<BR>
+OptionSelectTimed,textCutsceneScript36_OptionSelectTimed_018B_0,ランス
+OptionSelectTimed,textCutsceneScript36_OptionSelectTimed_018B_1,ポチ
+OptionSelectTimed,textCutsceneScript36_OptionSelectTimed_018B_2,ヴィンター
+WriteText,textCutsceneScript36_WriteText_01BF_0,じゃあ‥‥ ランス。<BR>ランスって どうですか?<BR>
+WriteText,textCutsceneScript36_WriteText_01E7_0,ランス‥‥ えいごで ヤリ。<BR>いいんじゃないか。<BR>
+WriteText,textCutsceneScript36_WriteText_0203_0,フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいい。<BR>
+WriteText,textCutsceneScript36_WriteText_022A_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_023E_0,じゃあ‥‥ ポチ。<BR>ポチで どうですか?<BR>
+WriteText,textCutsceneScript36_WriteText_025A_0,いかにも ニッポンてきな<BR>なまえだね。<BR>
+WriteText,textCutsceneScript36_WriteText_0271_0,フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいい。<BR>
+WriteText,textCutsceneScript36_WriteText_0298_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_02AC_0,じゃあ‥‥ ヴィンター。<BR>ヴィンターって どうですか?<BR>
+WriteText,textCutsceneScript36_WriteText_02CF_0,ヴィンター‥‥ <BR>ドイツごで ふゆ‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_02F3_0,しろいフントには なかなか<BR>にあってる なまえだね。<BR>
+WriteText,textCutsceneScript36_WriteText_0311_0,フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいいよ。<BR>
+WriteText,textCutsceneScript36_WriteText_0335_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_0349_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>やっぱり フントが<BR>にあってますね。<BR>
+WriteText,textCutsceneScript36_WriteText_0372_0,そう‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_037A_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_038B_0,ミカサでみつけた<BR>
+WriteText,textCutsceneScript36_WriteText_039C_0,この イヌのおもちゃ‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_03B1_0,どうしようかな～‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_03BF_0,とりあえず イヌがすきな<BR>レニさんのところに<BR>もっていってみましょう。<BR>
+WriteText,textCutsceneScript36_WriteText_03E8_0,レニさん。<BR>しつれいします。<BR>
+WriteText,textCutsceneScript36_WriteText_03FE_0,<NAME><BR>なにかよう?<BR>
+WriteText,textCutsceneScript36_WriteText_040D_0,これ ミカサのなかで<BR>みつけたんですけど‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_042B_0,ホネ?<BR>イヌのおもちゃ‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_043C_0,ああ‥‥<BR>それは ボクのだよ。<BR>
+WriteText,textCutsceneScript36_WriteText_045C_0,ありがとう。<BR><NAME>。<BR>
+WriteText,textCutsceneScript36_WriteText_046C_0,ところで レニさん。<BR>ていげきで かってる<BR>しろいイヌ なんですけど<BR>
+WriteText,textCutsceneScript36_WriteText_0492_0,みんな それぞれで<BR>すきかってな なまえを<BR>つけているんですね。<BR>
+WriteText,textCutsceneScript36_WriteText_04B6_0,わたしも そのイヌに<BR>なまえを つけたいんですけど<BR>いいですか?<BR>
+WriteText,textCutsceneScript36_WriteText_04DE_0,フントのこと?<BR>べつに いいよ。<BR>
+WriteText,textCutsceneScript36_WriteText_04F5_0,ホントですか!<BR>なにに しようかしら‥‥<BR>
+OptionSelectTimed,textCutsceneScript36_OptionSelectTimed_050D_0,クリュー
+OptionSelectTimed,textCutsceneScript36_OptionSelectTimed_050D_1,ホワイティ
+OptionSelectTimed,textCutsceneScript36_OptionSelectTimed_050D_2,ビューネ
+WriteText,textCutsceneScript36_WriteText_0544_0,じゃあ‥‥ クリュー。<BR>クリューって どうですか?<BR>
+WriteText,textCutsceneScript36_WriteText_056E_0,クリュー‥‥<BR>バレエようごで はしる‥‥<BR>いいんじゃないか。<BR>
+WriteText,textCutsceneScript36_WriteText_0590_0,フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいい。<BR>
+WriteText,textCutsceneScript36_WriteText_05B7_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_05CB_0,じゃあ‥‥ ホワイティ。<BR>ホワイティで どうですか?<BR>
+WriteText,textCutsceneScript36_WriteText_05ED_0,しろいから ホワイト‥‥<BR>そのままだね。<BR>
+WriteText,textCutsceneScript36_WriteText_0605_0,フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいい。<BR>
+WriteText,textCutsceneScript36_WriteText_062C_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_0640_0,じゃあ‥‥ ビューネ。<BR>ビューネって どうですか?<BR>
+WriteText,textCutsceneScript36_WriteText_0661_0,ビューネ‥‥ <BR>ドイツごで ぶたい‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_0685_0,ていげきで かうのに<BR>ふさわしい なまえだ。<BR>
+WriteText,textCutsceneScript36_WriteText_069F_0,フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいい。<BR>
+WriteText,textCutsceneScript36_WriteText_06C2_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_06D6_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>やっぱり フントが<BR>にあってますね。<BR>
+WriteText,textCutsceneScript36_WriteText_06FF_0,そう‥‥<BR>
+WriteText,textCutsceneScript36_WriteText_0707_0,それじゃあ <NAME><BR>また‥‥<BR>

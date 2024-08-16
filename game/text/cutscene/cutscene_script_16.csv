@@ -1,0 +1,37 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript16_WriteText_0012_0,<NAME>くん<BR>おつかれさま。<BR>
+WriteText,textCutsceneScript16_WriteText_0021_0,では ほうこくを<BR>おねがいするわ。<BR>
+WriteText,textCutsceneScript16_WriteText_0039_0,はい ほうこくします。<BR>
+WriteText,textCutsceneScript16_WriteText_0048_0,バラぐみの きくちゃんを<BR>たすけました。<BR>
+WriteText,textCutsceneScript16_WriteText_0060_0,きくちゃんは<BR>『まじんき・けん』を<BR>みつけたそうですが<BR>
+WriteText,textCutsceneScript16_WriteText_0081_0,『まじんき・けん』は<BR>なにものかに<BR>もちさられたそうです。<BR>
+WriteText,textCutsceneScript16_WriteText_00A8_0,そう‥‥<BR>『まじんき』が なにものかに<BR>もちさられたの‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript16_WriteText_00D3_0,それと ミカサのなかは<BR>こおっている ぶぶんが<BR>あるなど<BR>
+WriteText,textCutsceneScript16_WriteText_00F3_0,かなり おかしなことに<BR>なっています。<BR>
+WriteText,textCutsceneScript16_WriteText_010E_0,わかったわ。<BR>きくちゃんの きゅうじょ<BR>ごくろうさま でした。<BR>
+WriteText,textCutsceneScript16_WriteText_0131_0,<NAME>くんは<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
+OptionSelect,textCutsceneScript16_OptionSelect_0152_0,バラぐみについて きく
+OptionSelect,textCutsceneScript16_OptionSelect_0152_1,りょうかい
+WriteText,textCutsceneScript16_WriteText_017E_0,りょうかい。<BR>
+WriteText,textCutsceneScript16_WriteText_018C_0,かえでさん しつもんが<BR>あります。 バラぐみについて<BR>おしえてください。<BR>
+WriteText,textCutsceneScript16_WriteText_01B8_0,バラぐみとは 『まじんき』を<BR>まもるにんむを うけている<BR>ひみつぶたいのことよ。<BR>
+WriteText,textCutsceneScript16_WriteText_01E6_0,こんかいは バラぐみも<BR>『まじんき』を さがしに<BR>ミカサへ いったみたいね。<BR>
+WriteText,textCutsceneScript16_WriteText_0215_0,そうなんですか。<BR>わかりました。<BR>
+WriteText,textCutsceneScript16_WriteText_022A_0,<NAME> おつかれさま。<BR>
+WriteText,textCutsceneScript16_WriteText_0237_0,では ほうこくを<BR>おねがいするわ。<BR>
+WriteText,textCutsceneScript16_WriteText_024F_0,はい ほうこくします。<BR>
+WriteText,textCutsceneScript16_WriteText_025E_0,バラぐみの きくちゃんを<BR>たすけました。<BR>
+WriteText,textCutsceneScript16_WriteText_0276_0,きくちゃんは<BR>『まじんき・けん』を<BR>みつけたそうですが<BR>
+WriteText,textCutsceneScript16_WriteText_0297_0,『まじんき・けん』は<BR>なにものかに<BR>もちさられたそうです。<BR>
+WriteText,textCutsceneScript16_WriteText_02BE_0,そう‥‥<BR>『まじんき』が なにものかに<BR>もちさられたの‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript16_WriteText_02E9_0,それと ミカサのなかは<BR>こおっている ぶぶんが<BR>あるなど<BR>
+WriteText,textCutsceneScript16_WriteText_0309_0,かなり おかしなことに<BR>なっています。<BR>
+WriteText,textCutsceneScript16_WriteText_0324_0,わかったわ。<BR>きくちゃんの きゅうじょ<BR>ごくろうさま でした。<BR>
+WriteText,textCutsceneScript16_WriteText_0347_0,<NAME>は<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
+OptionSelect,textCutsceneScript16_OptionSelect_0366_0,バラぐみについて きく
+OptionSelect,textCutsceneScript16_OptionSelect_0366_1,りょうかい
+WriteText,textCutsceneScript16_WriteText_0392_0,りょうかい。<BR>
+WriteText,textCutsceneScript16_WriteText_03A0_0,かえでさん しつもんが<BR>あります。 バラぐみについて<BR>おしえてください。<BR>
+WriteText,textCutsceneScript16_WriteText_03CC_0,バラぐみとは 『まじんき』を<BR>まもるにんむを うけている<BR>ひみつぶたいのことよ。<BR>
+WriteText,textCutsceneScript16_WriteText_03FA_0,こんかいは バラぐみも<BR>『まじんき』を さがしに<BR>ミカサへ いったみたいね。<BR>
+WriteText,textCutsceneScript16_WriteText_0429_0,そうなんですか。<BR>わかりました。<BR>

@@ -1,0 +1,56 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript1C_WriteText_000A_0,～だい5しょう～<BR>『やまと じょうりくしれい』<BR>
+WriteText,textCutsceneScript1C_WriteText_0038_0,みんな あつまったわね。<BR>では はじめましょう。<BR>
+WriteText,textCutsceneScript1C_WriteText_0054_0,のこり2つの 『まじんき』は<BR>ミカサには なかったわ。<BR>
+WriteText,textCutsceneScript1C_WriteText_0079_0,ミカサにないと いうことは<BR>さらにちか‥‥<BR>『やまと』なんでしょうか?<BR>
+WriteText,textCutsceneScript1C_WriteText_00A6_0,そういうことに<BR>なるだろう‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_00BD_0,『やまと』か‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_00CF_0,‥‥かえでさん<BR>ミカサに あんなまものが<BR>いたということは‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_00F6_0,『やまと』には<BR>もっとすごい まものがいるに<BR>ちがいないでーす。<BR>
+WriteText,textCutsceneScript1C_WriteText_0120_0,これからさき<BR><NAME>くんは <BR>だいじょうぶでしょうか?<BR>
+WriteText,textCutsceneScript1C_WriteText_0141_0,なにを しんぱいしているの。<BR><NAME>くんは カンナと<BR>アイリスを たすけたのよ。<BR>
+WriteText,textCutsceneScript1C_WriteText_016B_0,だいじょうぶ。<BR>
+WriteText,textCutsceneScript1C_WriteText_017A_0,できるわね。<BR><NAME>くん。<BR>
+OptionSelectTimed,textCutsceneScript1C_OptionSelectTimed_0189_0,はい!
+OptionSelectTimed,textCutsceneScript1C_OptionSelectTimed_0189_1,たぶん‥‥
+WriteText,textCutsceneScript1C_WriteText_01B0_0,はい!<BR>できます!!<BR>
+WriteText,textCutsceneScript1C_WriteText_01CB_0,あら。<BR>なかなか いうじゃ<BR>ありませんこと。<BR>
+WriteText,textCutsceneScript1C_WriteText_01E9_0,では <NAME>さん。<BR>ケガしないように がんばって<BR>くださいね。<BR>
+WriteText,textCutsceneScript1C_WriteText_0210_0,たぶん‥‥<BR>できると おもうのですが‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_022C_0,カンナさんや アイリスを<BR>たすけた <NAME>さんとは<BR>おもえない おことば‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_0258_0,もうすこし じしんをもって<BR>おやりなさいな。<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript1C_WriteText_027A_0,はい。<BR>
+WriteText,textCutsceneScript1C_WriteText_0287_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_029D_0,<NAME>さん。<BR>おとこなら もっと<BR>じしんを もちなさい。<BR>
+WriteText,textCutsceneScript1C_WriteText_02BE_0,は はい。<BR>
+WriteText,textCutsceneScript1C_WriteText_02CE_0,<NAME>くん。<BR>あなたには ひきつづき<BR>パートナーとふたりで<BR>
+WriteText,textCutsceneScript1C_WriteText_02ED_0,『まじんき』の そうさくを<BR>してもらいます。<BR>
+WriteText,textCutsceneScript1C_WriteText_030D_0,では <NAME>くん<BR>『やまと』の ちょうさを<BR>めいじます。<BR>
+WriteText,textCutsceneScript1C_WriteText_032D_0,ケガしないように<BR>きをつけるのよ。<BR>
+WriteText,textCutsceneScript1C_WriteText_0343_0,みんな あつまったわね。<BR>では はじめましょう。<BR>
+WriteText,textCutsceneScript1C_WriteText_035F_0,のこり2つの 『まじんき』は<BR>ミカサには なかったわ。<BR>
+WriteText,textCutsceneScript1C_WriteText_0384_0,ミカサにないと いうことは<BR>さらにちか‥‥<BR>『やまと』なんでしょうか?<BR>
+WriteText,textCutsceneScript1C_WriteText_03B1_0,そういうことに<BR>なるだろう‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_03C8_0,『やまと』か‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_03DA_0,‥‥かえでさん。<BR>ミカサに あんなまものが<BR>いたということは‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_0402_0,『やまと』には<BR>もっとすごい まものがいるに<BR>ちがいないでーす。<BR>
+WriteText,textCutsceneScript1C_WriteText_042C_0,これからさき<BR><NAME>さんは <BR>だいじょうぶ なのかしら?<BR>
+WriteText,textCutsceneScript1C_WriteText_044E_0,なにを しんぱいしているの。<BR><NAME>は カンナと<BR>アイリスを たすけたのよ。<BR>
+WriteText,textCutsceneScript1C_WriteText_0476_0,だいじょうぶ。<BR>
+WriteText,textCutsceneScript1C_WriteText_0485_0,できるわね。<BR><NAME>。<BR>
+OptionSelectTimed,textCutsceneScript1C_OptionSelectTimed_0492_0,はい!
+OptionSelectTimed,textCutsceneScript1C_OptionSelectTimed_0492_1,たぶん‥‥
+WriteText,textCutsceneScript1C_WriteText_04B9_0,はい!<BR>できます!!<BR>
+WriteText,textCutsceneScript1C_WriteText_04D4_0,さすがは <NAME>くん。<BR>なかなか いうじゃないか。<BR>
+WriteText,textCutsceneScript1C_WriteText_04EF_0,ケガをしないように<BR>がんばってくれ。<BR>
+WriteText,textCutsceneScript1C_WriteText_050B_0,たぶん‥‥<BR>できると おもうのですが‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_0527_0,カンナや アイリスを<BR>たすけた <NAME>くんとは<BR>おもえない ことばだな‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_0552_0,もうすこし じしんをもって<BR>やるんだ。 <NAME>くんは<BR>できるんだからさ。<BR>
+WriteText,textCutsceneScript1C_WriteText_057B_0,はい。<BR>
+WriteText,textCutsceneScript1C_WriteText_0588_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript1C_WriteText_059E_0,だいじょうぶ。<BR><NAME>くんなら<BR>きっと できるさ。 なっ!<BR>
+WriteText,textCutsceneScript1C_WriteText_05C0_0,は はい。<BR>
+WriteText,textCutsceneScript1C_WriteText_05D0_0,<NAME>。<BR>あなたには ひきつづき<BR>パートナーとふたりで<BR>
+WriteText,textCutsceneScript1C_WriteText_05ED_0,『まじんき』の そうさくを<BR>してもらいます。<BR>
+WriteText,textCutsceneScript1C_WriteText_060D_0,では <NAME><BR>『やまと』の ちょうさを<BR>めいじます。<BR>
+WriteText,textCutsceneScript1C_WriteText_062B_0,ケガしないように<BR>きをつけるのよ。<BR>

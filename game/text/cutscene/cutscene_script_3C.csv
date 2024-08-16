@@ -1,0 +1,717 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript3C_WriteText_0014_0,すこし じかんが できたぞ。<BR>
+WriteText,textCutsceneScript3C_WriteText_002B_0,どうしようか‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_0037_0,そうだ! みんなに<BR>たたかいについて いろいろと<BR>アドバイスをもらおう。<BR>
+WriteText,textCutsceneScript3C_WriteText_005F_0,だれのところに<BR>いこうかな～。<BR>
+OptionSelect,textCutsceneScript3C_OptionSelect_0072_0,おおがみ さん
+OptionSelect,textCutsceneScript3C_OptionSelect_0072_1,さくら さん
+OptionSelect,textCutsceneScript3C_OptionSelect_0072_2,ほかの たいいん
+OptionSelect,textCutsceneScript3C_OptionSelect_00AB_0,すみれ さん
+OptionSelect,textCutsceneScript3C_OptionSelect_00AB_1,マリア さん
+OptionSelect,textCutsceneScript3C_OptionSelect_00AB_2,ほかの たいいん
+OptionSelect,textCutsceneScript3C_OptionSelect_00E3_0,アイリス
+OptionSelect,textCutsceneScript3C_OptionSelect_00E3_1,こうらん さん
+OptionSelect,textCutsceneScript3C_OptionSelect_00E3_2,ほかの たいいん
+OptionSelect,textCutsceneScript3C_OptionSelect_011A_0,カンナ さん
+OptionSelect,textCutsceneScript3C_OptionSelect_011A_1,おりひめ さん
+OptionSelect,textCutsceneScript3C_OptionSelect_011A_2,ほかの たいいん
+OptionSelect,textCutsceneScript3C_OptionSelect_0153_0,レニ さん
+OptionSelect,textCutsceneScript3C_OptionSelect_0153_1,ほかの たいいん
+WriteText,textCutsceneScript3C_WriteText_0179_0,まだ じかんがあるみたいだ。<BR>こんどは だれのところへ<BR>いこうかな?<BR>
+WriteText,textCutsceneScript3C_WriteText_01A2_0,じかんてきには あとひとり<BR>かな。さいごは だれのところ<BR>へ いこうかな?<BR>
+WriteText,textCutsceneScript3C_WriteText_01D9_0,ビー! ビー! ビー!<BR>
+WriteText,textCutsceneScript3C_WriteText_01EB_0,けいほうだ!<BR>
+WriteText,textCutsceneScript3C_WriteText_01F8_0,はなぐみたいいんは<BR>ぜんいん ただちに<BR>さくせんしつに しゅうごう!<BR>
+WriteText,textCutsceneScript3C_WriteText_0223_0,よし さくせんしつへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_023A_0,おおがみさん のところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_0261_0,‥‥まてよ<BR>おおがみさんの ところへは<BR>さっきいったぞ‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_0282_0,ほかのひとの ところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_029F_0,おおがみさん。<BR>
+WriteText,textCutsceneScript3C_WriteText_02AF_0,しつれいします。<BR>
+WriteText,textCutsceneScript3C_WriteText_02C6_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_02CD_0,やあ <NAME>くん<BR>なにかようかい?<BR>
+WriteText,textCutsceneScript3C_WriteText_02E3_0,はい おおがみさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+WriteText,textCutsceneScript3C_WriteText_030D_0,そこで おおがみさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+WriteText,textCutsceneScript3C_WriteText_033C_0,なるほど。<BR>そういうことなら<BR>きょうりょくするよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_035D_0,そうだな‥‥<BR>オレからの アドバイスは<BR>たったひとつだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_037D_0,たたかいにおいて<BR>いちばん たいせつなものは<BR>なんだか わかるかい?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_03A3_0,こうぶのせいのう
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_03A3_1,つよい ぶき
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_03A3_2,つよい せいしんりょく
+WriteText,textCutsceneScript3C_WriteText_03E6_0,そうですね‥‥<BR>こうぶのせいのう ですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_0403_0,こうぶのせいのうは あくまで<BR>こじんのちからを ひきだす<BR>ための ものなんだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0432_0,ほかには なにか<BR>おもいあたることは<BR>ないかい?<BR>
+WriteText,textCutsceneScript3C_WriteText_0454_0,そうですね‥‥<BR>つよいぶき ですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_046E_0,ぶきがいくら つよくても<BR>それを つかいこなすのは<BR>ヒトなんだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0496_0,ほかには なにか<BR>おもいあたることは<BR>ないかい?<BR>
+WriteText,textCutsceneScript3C_WriteText_04B8_0,そうですね‥‥<BR>つよい せいしんりょく<BR>ですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_04DD_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_04E1_0,つよい せいしんりょくか‥‥<BR>まあ それもたいせつだね。<BR>
+WriteText,textCutsceneScript3C_WriteText_0501_0,でも ほかには なにか<BR>おもいあたることは<BR>ないかい?<BR>
+WriteText,textCutsceneScript3C_WriteText_0526_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_053A_0,わからないのかい?<BR>
+WriteText,textCutsceneScript3C_WriteText_0547_0,まあ じっせんなんて<BR>こんかいの にんむが<BR>はじめてだしね。<BR>
+WriteText,textCutsceneScript3C_WriteText_0569_0,じゃあ もうすこし<BR>かんがえてごらん。<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_0583_0,ちから
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_0583_1,ひっさつわざ
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_0583_2,れいりょく
+WriteText,textCutsceneScript3C_WriteText_05BB_0,ちから ですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_05CB_0,まあ ちからは ないより<BR>あったほうが いいよな。<BR>
+WriteText,textCutsceneScript3C_WriteText_05E8_0,でも その ちからを<BR>じゅうぶんに はっきするため<BR>‥‥いや‥‥それいじょうに<BR>
+WriteText,textCutsceneScript3C_WriteText_0613_0,じぶんのもっている ちからを<BR>さいだいげんに ひきだすには<BR>なにが ひつようだとおもう?<BR>
+WriteText,textCutsceneScript3C_WriteText_0649_0,ひっさつわざ<BR>ですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_065C_0,まあ ひっさつわざは<BR>ないより あったほうが<BR>いいよな。<BR>
+WriteText,textCutsceneScript3C_WriteText_067C_0,でも そんなひっさつわざでも<BR>どうにもならない<BR>ときがある。<BR>
+WriteText,textCutsceneScript3C_WriteText_069E_0,そんなときには<BR>いったい なにが<BR>ひつようだとおもう?<BR>
+WriteText,textCutsceneScript3C_WriteText_06C3_0,れいりょく ですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_06D5_0,まあ れいりょくは<BR>たかいに こしたことは<BR>ないよな。<BR>
+WriteText,textCutsceneScript3C_WriteText_06F4_0,でも その たかいれいりょく<BR>を いかすためには<BR>じぶんの ちからだけじゃ<BR>
+WriteText,textCutsceneScript3C_WriteText_071D_0,どうにもならないときが<BR>あるんだよ。そういうときに<BR>なにが ひつようだとおもう?<BR>
+WriteText,textCutsceneScript3C_WriteText_074F_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_0763_0,わからないのかい?<BR>
+WriteText,textCutsceneScript3C_WriteText_0770_0,<NAME>くんが<BR>たたかっているときに<BR>かんじたことで いいんだよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0792_0,さあ かんがえてごらん。<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_07A5_0,チームワーク
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_07A5_1,くんれん
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_07A5_2,メカニックせいび のひと
+WriteText,textCutsceneScript3C_WriteText_07E5_0,わかりました!<BR>チームワークですね!!<BR>
+WriteText,textCutsceneScript3C_WriteText_0805_0,\x02N
+WriteText,textCutsceneScript3C_WriteText_0809_0,そうだ。<NAME>くん<BR>せいかいだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0821_0,それでは くんれん ですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_0833_0,どんなじょうきょうでも<BR>じぶんのちからを 100%<BR>ひきだすための くんれん。<BR>
+WriteText,textCutsceneScript3C_WriteText_0868_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_086C_0,くんれんは もちろん<BR>たいせつだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0881_0,しかし ほんとうに<BR>たいせつなものは<BR>チームワークなんだよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_08A9_0,わかりました。<BR>メカニックの ひとですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_08C2_0,こうぶのメンテナンスを<BR>バッチリやってもらえば<BR>ボクのチカラを ひきだせる。<BR>
+WriteText,textCutsceneScript3C_WriteText_08F5_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_08F9_0,う～ん‥‥<BR>まあ それも たいせつだな。<BR>
+WriteText,textCutsceneScript3C_WriteText_0911_0,しかし ほんとうに<BR>たいせつなものは<BR>チームワークなんだよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0939_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_094D_0,わからないかい?<BR>
+WriteText,textCutsceneScript3C_WriteText_0959_0,ほんとうに たいせつなものは<BR>チームワークなんだよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_097A_0,キミが どんなにすぐれた<BR>ちからを もっていても<BR>ひとりでは 100のチカラが<BR>
+WriteText,textCutsceneScript3C_WriteText_09A5_0,げんかいだろう。<BR>しかし チームワークをもって<BR>すれば そのチカラは<BR>
+WriteText,textCutsceneScript3C_WriteText_09CB_0,200にも 300にも<BR>なるんだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0A0B_0,『チームワーク』<BR>このことばを わすれること<BR>なく がんばってくれ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0A63_0,『チームワーク』<BR>このことばを わすれること<BR>なく がんばってくれ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0ABB_0,『チームワーク』<BR>このことばを わすれること<BR>なく がんばってくれ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0B0A_0,『チームワーク』<BR>このことばを わすれること<BR>なく がんばってくれ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0B58_0,さくらさん のところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_0B7E_0,‥‥まてよ<BR>さくらさんの ところへは<BR>さっきいったぞ‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_0B9E_0,ほかのひとの ところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_0BBB_0,さくらさん。<BR>
+WriteText,textCutsceneScript3C_WriteText_0BCA_0,しつれいします。<BR>
+WriteText,textCutsceneScript3C_WriteText_0BE1_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_0BE8_0,あら <NAME>さん<BR>なにか ごようですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_0C01_0,はい さくらさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+WriteText,textCutsceneScript3C_WriteText_0C2A_0,そこで さくらさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+WriteText,textCutsceneScript3C_WriteText_0C58_0,そうなんですか。<BR>わかりました。<BR>
+WriteText,textCutsceneScript3C_WriteText_0C6C_0,では ほくしんいっとうりゅう<BR>のせいしんを<BR>おしえましょう。<BR>
+WriteText,textCutsceneScript3C_WriteText_0C8E_0,まずは なにものにも<BR>みだされない 『しずかなる<BR>こころ』をもつことです。<BR>
+WriteText,textCutsceneScript3C_WriteText_0CB9_0,そして あいてを<BR>ちゅういぶかく かんさつし<BR>『てきをしる』こと。<BR>
+WriteText,textCutsceneScript3C_WriteText_0CE0_0,いちばん たいせつなのは<BR>じぶんを みつめなおし<BR>『おのれを しる』ことです。<BR>
+WriteText,textCutsceneScript3C_WriteText_0D0D_0,わかりましたか?<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript3C_WriteText_0D1E_0,では テストをしますよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0D2E_0,ほくしんいっとうりゅうには<BR>どんなこころを もっている<BR>ことがひつようでしょう?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_0D5A_0,しずかなる こころ
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_0D5A_1,にぎやかな こころ
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_0D5A_2,きずついた こころ
+WriteText,textCutsceneScript3C_WriteText_0D9F_0,なにものにも みだされない<BR>しずかなる こころが<BR>ひつようです。<BR>
+WriteText,textCutsceneScript3C_WriteText_0DC7_0,そうですね。<BR>では つぎは‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_0DDF_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_0DE9_0,みんなを たのしませる<BR>にぎやかな こころが<BR>ひつようです。<BR>
+WriteText,textCutsceneScript3C_WriteText_0E0F_0,ちがいますよ<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript3C_WriteText_0E22_0,たしかに たのしいヒトは<BR>すきですけど けんのみちには<BR>かんけい ありませんよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0E4E_0,ひつようなのは<BR>しずかなる こころです。<BR>では つぎは‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_0E75_0,ちょっと ナイーブで<BR>きずついた こころです。<BR>ブロークン・ハートですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_0EA2_0,ちがいますよ<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript3C_WriteText_0EB5_0,せんさいなヒトは すきですが<BR>きずつきやすいのは<BR>ちょっと こまりますね。<BR>
+WriteText,textCutsceneScript3C_WriteText_0EDE_0,ひつようなのは<BR>しずかなる こころです。<BR>では つぎは‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_0F05_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_0F19_0,わすれたんですか?<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript3C_WriteText_0F2F_0,ひつようなのは<BR>なにものにも みだされない<BR>しずかなる こころですよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_0F56_0,しっかりおぼえてくださいね。<BR>では つぎは‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_0F74_0,あいてを よくかんさつして<BR>どうしますか?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_0F8D_0,てきを しる
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_0F8D_1,てきに しらせる
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_0F8D_2,てきに する
+WriteText,textCutsceneScript3C_WriteText_0FCB_0,あいてを ちゅういぶかく<BR>かんさつして<BR>てきのことを しります。<BR>
+WriteText,textCutsceneScript3C_WriteText_0FF3_0,そうですね。<BR>では つぎは‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_100B_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_1015_0,あいてを かんさつしたら<BR>てきに しらせます。<BR>
+WriteText,textCutsceneScript3C_WriteText_1034_0,ちがいますよ<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript3C_WriteText_1047_0,てきに しらせて<BR>どうするんですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_105D_0,あいてを みきわめて<BR>てきをしるのです。<BR>では つぎは‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_1084_0,あいてを かんさつしたら<BR>てきにします。<BR>ケンカをうるんですよね。<BR>
+WriteText,textCutsceneScript3C_WriteText_10AD_0,ちがいますよ<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript3C_WriteText_10C0_0,そんなに すぐに<BR>ケンカを しないでください。<BR>
+WriteText,textCutsceneScript3C_WriteText_10DB_0,まずは あいてを みきわめて<BR>てきをしるのです。<BR>では つぎは‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_1106_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_111A_0,わすれたんですか?<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript3C_WriteText_1130_0,あいてを ちゅういぶかく<BR>かんさつして<BR>てきをしること‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_1151_0,これは たたかいにおいて<BR>とても じゅうようですよ。<BR>では つぎは‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_117B_0,いちばんたいせつなことです。<BR>じぶんを みつめなおして<BR>どうしますか?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_11A2_0,おのれを しる
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_11A2_1,てきを しる
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_11A2_2,おけしょう する
+WriteText,textCutsceneScript3C_WriteText_11E1_0,じぶんを みつめなおし<BR>おのれを しるのですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1201_0,そうですね。<BR>じぶんを しってるヒトは<BR>
+WriteText,textCutsceneScript3C_WriteText_121C_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_1220_0,こころのつよい ヒトですよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1238_0,やっぱり てきをしります。<BR>てきのことを たくさん<BR>しっていれば ゆうりですよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1268_0,ちがいますよ<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript3C_WriteText_127B_0,たしかに てきのことを<BR>しっていれば ゆうりですが<BR>
+WriteText,textCutsceneScript3C_WriteText_1298_0,ほんとうに つよいのは<BR>おのれを しっている<BR>ヒトなんですよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_12C1_0,おけしょうをします。<BR>おとこでも みだしなみは<BR>ひつようですからね。<BR>
+WriteText,textCutsceneScript3C_WriteText_12EB_0,ちがいますよ<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript3C_WriteText_12FE_0,おとこでも おんなでも<BR>けんのみちに おけしょうは<BR>かんけいありませんよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1327_0,たいせつなのは<BR>おのれを しる<BR>ということなんです。<BR>
+WriteText,textCutsceneScript3C_WriteText_134B_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_135F_0,わすれたんですか?<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript3C_WriteText_1375_0,たいせつなのは<BR>じぶんを みつめなおして<BR>おのれをしることです。<BR>
+WriteText,textCutsceneScript3C_WriteText_1399_0,じぶんのことを<BR>しっているヒトは<BR>ほんとうにつよいヒトですよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_13E1_0,さすがは <NAME>さん。<BR>すばらしい きおくりょく<BR>ですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1400_0,そのちょうしならば<BR>きっと すばらしいけんしに<BR>なれますよ!<BR>
+WriteText,textCutsceneScript3C_WriteText_1432_0,なかなか すじがいいですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1444_0,もうすこし しゅぎょうすれば<BR>きっと りっぱなけんしに<BR>なれるとおもいますよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1476_0,ちょっと むずかしかった<BR>かもしれませんね‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_1491_0,でも あきらめないで<BR>しゅぎょうに<BR>はげんでください。<BR>
+WriteText,textCutsceneScript3C_WriteText_14B3_0,では <NAME>さん<BR>がんばってくださいね。<BR>
+WriteText,textCutsceneScript3C_WriteText_14EF_0,すみれさん のところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_1515_0,‥‥まてよ<BR>すみれさんの ところへは<BR>さっきいったぞ‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_1535_0,ほかのひとの ところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_1552_0,すみれさん。<BR>
+WriteText,textCutsceneScript3C_WriteText_1561_0,しつれいします。<BR>
+WriteText,textCutsceneScript3C_WriteText_1578_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_157F_0,あら <NAME>さん。<BR>なにかごようですの?<BR>
+WriteText,textCutsceneScript3C_WriteText_1598_0,はい すみれさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+WriteText,textCutsceneScript3C_WriteText_15C1_0,そこで すみれさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+WriteText,textCutsceneScript3C_WriteText_15EF_0,たたかいの アドバイス?<BR>まぁ よろしいですわ。<BR>
+WriteText,textCutsceneScript3C_WriteText_160B_0,それでは <NAME>さんに<BR>いくつか しつもんを<BR>いたしますわ。<BR>
+WriteText,textCutsceneScript3C_WriteText_162B_0,<NAME>さんは<BR>なにを おもって たたかいに<BR>のぞんでおられますの?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_164E_0,かつこと
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_164E_1,しなないこと
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_164E_2,ばんメシのこと
+WriteText,textCutsceneScript3C_WriteText_1689_0,そうですね‥‥<BR>かつこと ですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_16A7_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_16AB_0,そうですか。<BR>なかなか まえむきな<BR>こころがけですわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_16D1_0,そうですね‥‥<BR>しなないこと ですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_16EC_0,あら そうですの?<BR>まあ しなないことは<BR>たいせつですけど‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_170F_0,はじめから そんなよわごし<BR>では かてるたたかいも<BR>かてなく なりますわよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1739_0,たたかいのまえには<BR>「かならず かつ」という<BR>きはくを おもちなさい。<BR>
+WriteText,textCutsceneScript3C_WriteText_1766_0,そうですね‥‥<BR>ばんメシのこと ですかね。<BR>
+WriteText,textCutsceneScript3C_WriteText_177F_0,てきをたおして にんむを<BR>はたして そして ばんメシを<BR>おいしくいただく。<BR>
+WriteText,textCutsceneScript3C_WriteText_17AC_0,あら まぁ‥‥<BR>まるで カンナさん<BR>ですわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_17CB_0,でも まあ まえむき‥‥<BR>といえば まえむきなので<BR>よしと しましょうか。<BR>
+WriteText,textCutsceneScript3C_WriteText_17FA_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_180E_0,なにも かんがえていない<BR>ようですわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1826_0,そんなことでは あっさりと<BR>やられて しまいますわ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1848_0,たたかいのまえには<BR>「かならず かつ!」という<BR>きはくを おもちなさい。<BR>
+WriteText,textCutsceneScript3C_WriteText_1877_0,では つぎに‥‥<BR><NAME>さんにとって<BR>たたかいとは なんですか?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_1899_0,ていとを まもること
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_1899_1,しごとのいちぶ
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_1899_2,あまり すきじゃないこと
+WriteText,textCutsceneScript3C_WriteText_18E0_0,ていとを まもることです。<BR>
+WriteText,textCutsceneScript3C_WriteText_18FA_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_18FE_0,りっぱな こころがけ<BR>ですわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1912_0,わたくしたち はなぐみは<BR>まさに そのために<BR>たたかっているのですわ。<BR>
+WriteText,textCutsceneScript3C_WriteText_193F_0,そうですね‥‥<BR>しごとのいちぶ<BR>って とこですかね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1961_0,まあ‥‥<BR>ずいぶんと さめて<BR>いらっしゃることで‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_197F_0,たしかに そうかも<BR>しれませんわ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1994_0,でも わたくしたちは<BR>ていとのへいわをまもるために<BR>たたかっているのですわよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_19C3_0,あなたも はなぐみのたいいん<BR>なのですから そのことは<BR>わすれないでいなさい。<BR>
+WriteText,textCutsceneScript3C_WriteText_19F4_0,たたかい‥‥<BR>あまり すきじゃないこと<BR>ですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1A10_0,だって しぬのイヤだし<BR>めんどくさいし いいこと<BR>ないじゃないですか。<BR>
+WriteText,textCutsceneScript3C_WriteText_1A3B_0,まあ たたかいが ないに<BR>こしたことは ありませんわ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1A5A_0,でも だれかが<BR>たたかわなくては<BR>ならないのですわ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1A7C_0,そして わたくしたちには<BR>たたかう チカラがある‥‥<BR>イヤでも たたかうしかない。<BR>
+WriteText,textCutsceneScript3C_WriteText_1AAD_0,わたくしたち はなぐみは <BR>ていとを まのてから<BR>まもるために<BR>
+WriteText,textCutsceneScript3C_WriteText_1AD0_0,たたかって いるのですわ。<BR>それは わすれないでいて<BR>ちょうだい。<BR>
+WriteText,textCutsceneScript3C_WriteText_1AFB_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_1B0F_0,なにも かんがえていない<BR>ようですわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1B2B_0,ちなみに わたくしたち<BR>はなぐみは ていとを まのて<BR>から まもるために<BR>
+WriteText,textCutsceneScript3C_WriteText_1B53_0,たたかっているのですわ。<BR>それは わすれないでいて<BR>ちょうだい。<BR>
+WriteText,textCutsceneScript3C_WriteText_1B7E_0,それでは さいごに‥‥<BR><NAME>さんの<BR>たたかいの びがくとは?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_1B9F_0,うつくしく かれいに
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_1B9F_1,ちからづよく だいたんに
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_1B9F_2,こうりつよく
+WriteText,textCutsceneScript3C_WriteText_1BE5_0,うつくしく かれいに<BR>かつことです。<BR>
+WriteText,textCutsceneScript3C_WriteText_1C04_0,\x05N
+WriteText,textCutsceneScript3C_WriteText_1C08_0,そうですわ。<NAME>さん。<BR>すばらしい こたえですわ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1C2A_0,ちからづよく だいたんに<BR>かつことです。<BR>
+WriteText,textCutsceneScript3C_WriteText_1C46_0,あらまあ<BR>まるで カンナさんの<BR>ようですわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1C65_0,それもまあ いいのですが<BR>やはり たたかいの びがく<BR>と いえば<BR>
+WriteText,textCutsceneScript3C_WriteText_1C89_0,うつくしく かれいに かつ!<BR>これにつきますのよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1CAC_0,さいしんの ちゅういをはらい<BR>こうりつよく かつこと<BR>ですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1CD3_0,う～ん‥‥<BR>まあ それも わるくはないの<BR>ですが‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_1CF1_0,やはり たたかいの びがく<BR>と いえば<BR>うつくしく かれいに かつ!<BR>
+WriteText,textCutsceneScript3C_WriteText_1D17_0,これに つきますわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1D2C_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_1D40_0,なにも かんがえていない<BR>ようですわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1D5C_0,たたかいの びがく といえば<BR>うつくしく かれいに かつ!<BR>これにつきますのよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_1DAD_0,さすがは <NAME>さん。<BR>たたかいの こころえが<BR>わかっている ようですわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1DD5_0,『うつくしく かれいに』‥‥<BR>これだけは わすれない<BR>ように してくださいな。<BR>
+WriteText,textCutsceneScript3C_WriteText_1E12_0,<NAME>さん。<BR>なかなか わかっている<BR>ようですわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1E32_0,でも たたかいの こころえで<BR>これだけは おぼえておいて<BR>くださいな。<BR>
+WriteText,textCutsceneScript3C_WriteText_1E59_0,たたかいは<BR>『うつくしく かれいに』<BR>わかりましたね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1E81_0,<NAME>さん。<BR>もうすこし たたかいについて<BR>ごじぶんで かんがえなさい。<BR>
+WriteText,textCutsceneScript3C_WriteText_1EAB_0,とはいえ こんかいが<BR>はじめての にんむなので<BR>しかた ありませんわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_1ED6_0,では <NAME>さん。<BR>がんばりなさい。<BR>
+WriteText,textCutsceneScript3C_WriteText_1F10_0,マリアさん のところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_1F36_0,‥‥まてよ<BR>マリアさんの ところへは<BR>さっきいったぞ‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_1F56_0,ほかのひとの ところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_1F73_0,マリアさん。<BR>
+WriteText,textCutsceneScript3C_WriteText_1F82_0,しつれいします。<BR>
+WriteText,textCutsceneScript3C_WriteText_1F99_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_1FA0_0,あら <NAME>くん。<BR>なにかよう?<BR>
+WriteText,textCutsceneScript3C_WriteText_1FB5_0,はい マリアさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+WriteText,textCutsceneScript3C_WriteText_1FDE_0,そこで マリアさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+WriteText,textCutsceneScript3C_WriteText_200C_0,たたかいの アドバイス?<BR>そうね‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2022_0,じゃあ たたかいのこころえ<BR>7かじょうを<BR>おしえてあげるわ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2044_0,じゅんばんに いうから<BR>おぼえていくようにね。<BR>
+WriteText,textCutsceneScript3C_WriteText_205F_0,1.ムチャは しないこと。<BR>2.じぶんのチカラに<BR>  うぬぼれないこと。<BR>
+WriteText,textCutsceneScript3C_WriteText_2087_0,3.つねに さきをよんで<BR>  こうどうすること。<BR>4.てきをあなどらないこと。<BR>
+WriteText,textCutsceneScript3C_WriteText_20B2_0,5.じょうきょうはんだんは<BR>  ただしく すばやく<BR>  すること。<BR>
+WriteText,textCutsceneScript3C_WriteText_20D7_0,6.なかまのことを<BR>  おもいやること。<BR>
+WriteText,textCutsceneScript3C_WriteText_20EF_0,さいごは‥‥<BR>7.かならず いきてかえる<BR>  こと。<BR>
+WriteText,textCutsceneScript3C_WriteText_210D_0,いじょうよ。わかった?<BR>じゃあ ちょっとテストを<BR>してみましょう。<BR>
+WriteText,textCutsceneScript3C_WriteText_2132_0,ただしいものを えらんで<BR>ちょうだい。<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2149_0,ムチャはしないこと
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2149_1,ムチャはすること
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2149_2,ムチャくちゃで ごじゃります
+WriteText,textCutsceneScript3C_WriteText_2192_0,ムチャは しないこと。<BR>ですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_21AA_0,そうよ。<BR>じゃ つぎね。<BR>
+WriteText,textCutsceneScript3C_WriteText_21C5_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_21C9_0,ムチャはすること?<BR>
+WriteText,textCutsceneScript3C_WriteText_21DA_0,ちがうわよ。<BR>ムチャは しちゃいけないの。<BR>
+WriteText,textCutsceneScript3C_WriteText_21F7_0,ムチャして ケガでもしたら<BR>みんなに めいわくが<BR>かかるのよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_221A_0,じゃ つぎいくわよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2233_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_2237_0,ムチャくちゃで<BR>ごじゃります?<BR>
+WriteText,textCutsceneScript3C_WriteText_224E_0,なに わけのわからないこと<BR>いってるの。<BR>
+WriteText,textCutsceneScript3C_WriteText_226A_0,そうじゃなくて<BR>『ムチャはしないこと』<BR>でしょ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2288_0,じゃ つぎいくわよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_229C_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_22B1_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_22B9_0,わからないの?<BR>ひとのはなしは ちゃんと<BR>ききなさい。<BR>
+WriteText,textCutsceneScript3C_WriteText_22D8_0,もういちど いうわよ。<BR>たたかいのこころえ<BR>7かじょう。<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_22FB_0,てきを あなどらないこと
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_22FB_1,てきを あなどること
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_22FB_2,てきは あなこんだ
+WriteText,textCutsceneScript3C_WriteText_2344_0,てきを あなどらないこと。<BR>ですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_235E_0,そうよ。<BR>じゃ つぎね。<BR>つぎが さいごよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_237E_0,てきを あなどること?<BR>
+WriteText,textCutsceneScript3C_WriteText_2392_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_239A_0,ちがうわよ。<BR>あなどっちゃ ダメでしょ。<BR>
+WriteText,textCutsceneScript3C_WriteText_23B6_0,そんなことしたら<BR>かんたんに やられてしまう<BR>わよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_23D4_0,『てきを あなどらないこと』<BR>わかった? じゃ つぎよ。<BR>つぎが さいごよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2406_0,てきは あなこんだ?<BR>
+WriteText,textCutsceneScript3C_WriteText_2419_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_2421_0,あなこんだ?<BR>ああ アナコンダのことね。<BR>
+WriteText,textCutsceneScript3C_WriteText_243D_0,あなたの てきは<BR>おおきなヘビ じゃない<BR>でしょ。<BR>
+WriteText,textCutsceneScript3C_WriteText_245E_0,『てきを あなどらないこと』<BR>わかった? じゃ つぎよ。<BR>つぎが さいごよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2490_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_24A5_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_24AD_0,わからないの?<BR>ひとのはなしは ちゃんと<BR>ききなさい。<BR>
+WriteText,textCutsceneScript3C_WriteText_24CC_0,もういちど いうわよ。<BR>たたかいのこころえ<BR>7かじょう。<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_24EF_0,いきて かえること
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_24EF_1,いきをして かえること
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_24EF_2,いってきて かえること
+WriteText,textCutsceneScript3C_WriteText_2538_0,かならず いきてかえること<BR>ですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_2552_0,そうよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2565_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_2569_0,いきをして かえること?<BR>
+WriteText,textCutsceneScript3C_WriteText_257D_0,いきをして かえる?<BR>いきをするのは あたりまえ<BR>でしょ。<BR>
+WriteText,textCutsceneScript3C_WriteText_259E_0,なにを いってるのよ<BR><NAME>くん。<BR>
+WriteText,textCutsceneScript3C_WriteText_25B5_0,あまり ふざけてると<BR>ほんとうに いきをして<BR>かえれなくなるわよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_25DE_0,『かならず いきて<BR> かえること』よ。<BR>わかった?<BR>
+WriteText,textCutsceneScript3C_WriteText_2603_0,いってきて かえること?<BR>
+WriteText,textCutsceneScript3C_WriteText_2618_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_2620_0,いってきて かえる?<BR>あたりまえじゃない。<BR>
+WriteText,textCutsceneScript3C_WriteText_2639_0,いったっきりだと わたしたち<BR>が あなたを さがしにいく<BR>ハメに なるじゃないの。<BR>
+WriteText,textCutsceneScript3C_WriteText_266A_0,『かならず いきて<BR> かえること』よ。<BR>わかった?<BR>
+WriteText,textCutsceneScript3C_WriteText_268F_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_26A4_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_26AC_0,わからないの?<BR>ひとのはなしは ちゃんと<BR>ききなさい。<BR>
+WriteText,textCutsceneScript3C_WriteText_26CB_0,もういちど いうわよ。<BR>たたかいのこころえ<BR>7かじょう。<BR>
+WriteText,textCutsceneScript3C_WriteText_2710_0,さすがは <NAME>くん。<BR>ひとのはなしを ちゃんと<BR>きいているわね。<BR>
+WriteText,textCutsceneScript3C_WriteText_2733_0,いまいった たたかいの<BR>こころえ 7かじょう。<BR>わすれないようにね。<BR>
+WriteText,textCutsceneScript3C_WriteText_2769_0,まあまあ ひとのはなしは<BR>きいているようね。<BR>ごうかくよ <NAME>くん。<BR>
+WriteText,textCutsceneScript3C_WriteText_2792_0,いまいった たたかいの<BR>こころえ 7かじょう。<BR>わすれないようにね。<BR>
+WriteText,textCutsceneScript3C_WriteText_27BF_0,<NAME>くん。<BR>もうすこし ひとのはなしを<BR>ちゃんと ききなさい。<BR>
+WriteText,textCutsceneScript3C_WriteText_27E5_0,いまいった たたかいの<BR>こころえ 7かじょう。<BR>わすれないようにね。<BR>
+WriteText,textCutsceneScript3C_WriteText_280E_0,じゃあ <NAME>くん<BR>がんばってね。<BR>
+WriteText,textCutsceneScript3C_WriteText_2847_0,アイリス のところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_286C_0,‥‥まてよ<BR>アイリスの ところへは<BR>さっきいったぞ‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_288B_0,ほかのひとの ところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_28A8_0,やあ アイリス。<BR>
+WriteText,textCutsceneScript3C_WriteText_28C5_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_28CC_0,あ <NAME>。<BR>なにかよう?<BR>
+WriteText,textCutsceneScript3C_WriteText_28DE_0,うん アイリス。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2905_0,そこで アイリスに<BR>たたかいの アドバイスを<BR>もらおうかな とおもって。<BR>
+WriteText,textCutsceneScript3C_WriteText_2931_0,たたかいの アドバイス?<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2963_0,アイリスそんなの<BR>わかんないよ～。<BR>ぶーーーっ!<BR>
+WriteText,textCutsceneScript3C_WriteText_2982_0,えっ!? そ そうなの?<BR>
+WriteText,textCutsceneScript3C_WriteText_2995_0,(あれ? なんだか <BR> アイリス ふきげんだぞ。<BR> どうしよう‥‥)<BR>
+WriteText,textCutsceneScript3C_WriteText_29BD_0,(あっそうだ さしいれを<BR> もってきてたんだ。<BR> これで ごきげんをとろう)<BR>
+WriteText,textCutsceneScript3C_WriteText_29E9_0,(え～と‥‥<BR> なにを わたそうかな?)<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2A03_0,ホットケーキ
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2A03_1,ステーキ
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2A03_2,げきから ラーメン
+WriteText,textCutsceneScript3C_WriteText_2A40_0,アイリス じつはね<BR>いいもの もってきたんだ。<BR>はい ホットケーキ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2A6F_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_2A73_0,ホットケーキ?<BR>ありがとう。<BR>
+WriteText,textCutsceneScript3C_WriteText_2A8B_0,アイリス じつはね<BR>いいもの もってきたんだ。<BR>はい ステーキ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2AB3_0,ステーキ?<BR>‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2ACA_0,(や やばい!<BR> さらに きげんがわるく<BR> なったみたいだ)<BR>
+WriteText,textCutsceneScript3C_WriteText_2AF4_0,アイリス じつはね<BR>いいもの もってきたんだ。<BR>はい げきから ラーメン。<BR>
+WriteText,textCutsceneScript3C_WriteText_2B21_0,げきから ラーメン?<BR>‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2B3D_0,(や やばい!<BR> さらに きげんがわるく<BR> なったみたいだ)<BR>
+WriteText,textCutsceneScript3C_WriteText_2B67_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2B7B_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2B91_0,(つぎは なにを<BR> あげようかな?)<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2BA9_0,ジュース
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2BA9_1,コーヒー
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2BA9_2,おさけ
+WriteText,textCutsceneScript3C_WriteText_2BDE_0,アイリス ジュースも<BR>あるんだよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2BFC_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_2C00_0,ジュース!?<BR>ありがとう。<BR>
+WriteText,textCutsceneScript3C_WriteText_2C17_0,アイリス コーヒーも<BR>あるんだよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2C30_0,コーヒー?<BR>‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2C47_0,(ダ ダメなのか?<BR> きげん よくならないぞ)<BR>
+WriteText,textCutsceneScript3C_WriteText_2C6A_0,アイリス おさけも<BR>あるんだよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2C82_0,おさけ‥‥?<BR>
+WriteText,textCutsceneScript3C_WriteText_2C90_0,こどもは おさけを<BR>のんじゃ いけないって<BR>ママが いってたよ!<BR>
+WriteText,textCutsceneScript3C_WriteText_2CB7_0,(やっぱり おさけは<BR> ダメだよな‥‥)<BR>
+WriteText,textCutsceneScript3C_WriteText_2CD7_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2CEB_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2CFE_0,(これが さいごだ!<BR> きげんを なおしてくれ<BR> アイリス!)<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2D23_0,ブーブークッション
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2D23_1,てつアレイ
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_2D23_2,ちえのわ
+WriteText,textCutsceneScript3C_WriteText_2D5F_0,ほら アイリス。<BR>こんなのも あるんだよ。<BR>ブーブークッション。<BR>
+WriteText,textCutsceneScript3C_WriteText_2D8C_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_2D90_0,ブーブークッション。<BR>ありがとう。<BR>
+WriteText,textCutsceneScript3C_WriteText_2DAB_0,ほら アイリス。<BR>こんなのも あるんだよ。<BR>てつアレイ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2DCF_0,てつアレイ?<BR>‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2DE7_0,(ダ ダメなのか?<BR> どうしよう‥‥)<BR>
+WriteText,textCutsceneScript3C_WriteText_2E06_0,ほら アイリス。<BR>こんなのも あるんだよ。<BR>ちえのわ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2E29_0,ちえのわ?<BR>‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2E40_0,(ダ ダメなのか?<BR> どうしよう‥‥)<BR>
+WriteText,textCutsceneScript3C_WriteText_2E5F_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2E73_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2EA5_0,<NAME> ありがとう。<BR>アイリスのところに<BR>あそびに きてくれたんだね。<BR>
+WriteText,textCutsceneScript3C_WriteText_2EDA_0,<NAME> ありがとう。<BR>ところで なにしに<BR>きたんだっけ?<BR>
+WriteText,textCutsceneScript3C_WriteText_2EFB_0,いや‥‥<BR>あそびにきたんだよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2F15_0,ところで<BR>なにしにきたの?<BR><NAME>。<BR>
+WriteText,textCutsceneScript3C_WriteText_2F2C_0,い いや‥‥<BR>あそびにきたんだよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_2F48_0,じゃあ アイリス<BR>ジャンポールと おはなしが<BR>あるから またね。<BR>
+WriteText,textCutsceneScript3C_WriteText_2F92_0,こうらんさん のところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_2FB9_0,‥‥まてよ<BR>こうらんさんの ところへは<BR>さっきいったぞ‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_2FDA_0,ほかのひとの ところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_2FF7_0,こうらんさん。<BR>しつれいします。<BR>
+WriteText,textCutsceneScript3C_WriteText_3016_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_301D_0,やあ <NAME>はん。<BR>なんかようか?<BR>
+WriteText,textCutsceneScript3C_WriteText_3033_0,はい こうらんさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+WriteText,textCutsceneScript3C_WriteText_305D_0,そこで こうらんさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+WriteText,textCutsceneScript3C_WriteText_308C_0,たたかいの アドバイス?<BR>そうか! そら ちょうどエエ<BR>とこにきたやんか。<BR>
+WriteText,textCutsceneScript3C_WriteText_30B5_0,<NAME>はんは<BR>たたかいで なにがじゅうよう<BR>やとおもう?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_30D3_0,ちから
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_30D3_1,すばやさ
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_30D3_2,れいりょく
+WriteText,textCutsceneScript3C_WriteText_3109_0,ちから じゃないですか。<BR>
+WriteText,textCutsceneScript3C_WriteText_311F_0,すばやさ じゃないですか。<BR>
+WriteText,textCutsceneScript3C_WriteText_3136_0,れいりょく じゃないですか。<BR>
+WriteText,textCutsceneScript3C_WriteText_314E_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_3162_0,なんや まよてんのか?<BR>ほな もういっかい。<BR>
+WriteText,textCutsceneScript3C_WriteText_3183_0,ちからか!<BR>よっしゃ よっしゃ!!<BR>
+WriteText,textCutsceneScript3C_WriteText_319F_0,すばやさか!<BR>よっしゃ よっしゃ!!<BR>
+WriteText,textCutsceneScript3C_WriteText_31BC_0,れいりょくか!<BR>よっしゃ よっしゃ!!<BR>
+WriteText,textCutsceneScript3C_WriteText_31D6_0,ちからでも すばやさでも<BR>れいりょくでも なんでも<BR>めんどうみたろ!<BR>
+WriteText,textCutsceneScript3C_WriteText_31FC_0,ウチの しんはつめい<BR>ボアアップくんや!!<BR>
+WriteText,textCutsceneScript3C_WriteText_3218_0,ボ ボアアップくん?<BR>
+WriteText,textCutsceneScript3C_WriteText_322A_0,そや しんかいはつ!<BR>にんげんの のうりょくを<BR>そこあげするメカなんや!<BR>
+WriteText,textCutsceneScript3C_WriteText_3252_0,これで <NAME>はんも<BR>さいきょうの こうぶバトラー<BR>まちがいなしや!!<BR>
+WriteText,textCutsceneScript3C_WriteText_327B_0,ほな これを つけて<BR>もらおかな。<BR>
+WriteText,textCutsceneScript3C_WriteText_3293_0,は はい。<BR>
+WriteText,textCutsceneScript3C_WriteText_32A0_0,そしたら ウチが いまから<BR>いうこと おぼえてや。<BR>
+WriteText,textCutsceneScript3C_WriteText_32C3_0,あかいスイッチを みぎ。<BR>あおいスイッチを ひだり。<BR>きいろいスイッチを みぎ。<BR>
+WriteText,textCutsceneScript3C_WriteText_32EF_0,ウチが あいずしたら<BR>じゅんばんに おすんやで。<BR>エエか?<BR>
+WriteText,textCutsceneScript3C_WriteText_3310_0,ほな いくで。<BR>まずさいしょの スイッチを<BR>いれるんや。<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3330_0,あかいスイッチを みぎ
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3330_1,あかいスイッチを ひだり
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3330_2,あおいスイッチを みぎ
+WriteText,textCutsceneScript3C_WriteText_3381_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_3385_0,まずは<BR>あかいスイッチを みぎ<BR>ですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_33A3_0,え～と‥‥<BR>あかいスイッチを ひだり<BR>かな‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_33C4_0,え～と‥‥<BR>あおいスイッチを みぎ<BR>かな‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_33E4_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_33F8_0,<NAME>はん!<BR>ボサーッとしとったら<BR>アカンで。<BR>
+WriteText,textCutsceneScript3C_WriteText_3415_0,わすれたんか?<BR>ほな もういっかい<BR>さいしょからや。<BR>
+WriteText,textCutsceneScript3C_WriteText_343A_0,よっしゃ。<BR>ほな つぎのスイッチや!<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3450_0,あおいスイッチを ひだり
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3450_1,あかいスイッチを ひだり
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3450_2,きいろいスイッチを みぎ
+WriteText,textCutsceneScript3C_WriteText_34A3_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_34A7_0,つぎに<BR>あおいスイッチを ひだり<BR>ですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_34C6_0,え～と‥‥<BR>あかいスイッチを ひだり<BR>かな‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_34E7_0,え～と‥‥<BR>きいろいスイッチを みぎ<BR>かな‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_3509_0,よっしゃ。<BR>ほな さいごのスイッチや!<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3520_0,きいろいスイッチを みぎ
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3520_1,きいろいスイッチを ひだり
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3520_2,あかいスイッチを みぎ
+WriteText,textCutsceneScript3C_WriteText_3573_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_3577_0,さいごは<BR>きいろいスイッチを みぎ<BR>ですね。<BR>
+WriteText,textCutsceneScript3C_WriteText_3597_0,え～と‥‥<BR>きいろいスイッチを ひだり<BR>かな‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_35B9_0,え～と‥‥<BR>あかいスイッチを みぎ<BR>かな‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_35DA_0,よっしゃ!<BR>かんりょうや!<BR>さあ せいこうするかな!?<BR>
+WriteText,textCutsceneScript3C_WriteText_35FC_0,せ‥‥<BR>『せいこうするかな』って‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_361B_0,おっ! うごきだしたで。<BR>
+WriteText,textCutsceneScript3C_WriteText_363B_0,やったー!<BR>ちゃんと うごいたで～。<BR>
+WriteText,textCutsceneScript3C_WriteText_365A_0,<NAME>はんが<BR>バッチリ にゅうりょく<BR>できたからや!!<BR>
+WriteText,textCutsceneScript3C_WriteText_367A_0,「ちゃんと うごいたで～」<BR>って ボクが はじめての<BR>じっけんだい だったのか?!<BR>
+WriteText,textCutsceneScript3C_WriteText_36AE_0,あ あれ～?<BR>とまってしもたな?<BR>
+WriteText,textCutsceneScript3C_WriteText_36C7_0,あれ? あれ?<BR>どないなってんねや?<BR>
+WriteText,textCutsceneScript3C_WriteText_36E0_0,だ だいじょうぶなのか‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_36FB_0,こ こうらんさん!<BR>だいじょうぶですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_3717_0,ああ‥‥<BR>だいじょうぶや‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_3729_0,すまんかったな～<BR><NAME>はん‥‥<BR>しっぱいやった‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_3751_0,あ あれ～?<BR>とまってしもたな?<BR>
+WriteText,textCutsceneScript3C_WriteText_3765_0,<NAME>はん<BR>にゅうりょく まちがえたな。<BR>
+WriteText,textCutsceneScript3C_WriteText_377E_0,すみません。<BR>
+WriteText,textCutsceneScript3C_WriteText_3791_0,あれ? あれ?<BR>どないなってんねや?<BR>
+WriteText,textCutsceneScript3C_WriteText_37AA_0,こ こうらんさん‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_37C3_0,あっちゃー‥‥<BR>やってもーた‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_37DA_0,こ こうらんさん!<BR>だいじょうぶですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_37F6_0,ああ‥‥<BR>だいじょうぶや‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_380B_0,すみません こうらんさん。<BR>ボクのミスで こんなことに<BR>なっちゃって‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_3837_0,いや‥‥ ミスっても<BR>バクハツは せーへんハズ<BR>やったんや。<BR>
+WriteText,textCutsceneScript3C_WriteText_3859_0,バクハツした ちゅーことは<BR>ウチの せっけいミスも<BR>あった ちゅーこっちゃ。<BR>
+WriteText,textCutsceneScript3C_WriteText_3883_0,すまんかったな～<BR><NAME>はん‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_389C_0,まあ あれやな。<BR>じみちに どりょくしろ<BR>ちゅーこっちゃ。<BR>
+WriteText,textCutsceneScript3C_WriteText_38BD_0,<NAME>はん<BR>がんばってな。<BR>
+WriteText,textCutsceneScript3C_WriteText_38F2_0,カンナさん のところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_3918_0,‥‥まてよ<BR>カンナさんの ところへは<BR>さっきいったぞ‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_3938_0,ほかのひとの ところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_3952_0,カンナさん。<BR>
+WriteText,textCutsceneScript3C_WriteText_3961_0,しつれいします。<BR>
+WriteText,textCutsceneScript3C_WriteText_3978_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_3980_0,おう <NAME>。<BR>なんかようか。<BR>
+WriteText,textCutsceneScript3C_WriteText_3994_0,はい カンナさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+WriteText,textCutsceneScript3C_WriteText_39BD_0,そこで カンナさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+WriteText,textCutsceneScript3C_WriteText_39EB_0,たたかいの アドバイス?<BR>そんなもん きまってるじゃ<BR>ねーか。<BR>
+WriteText,textCutsceneScript3C_WriteText_3A12_0,くえ! くって くいまくって<BR>がんじょうな からだを<BR>つくるんだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_3A37_0,よーし それじゃあ<BR>おおぐいきょうそうだ!!<BR>
+WriteText,textCutsceneScript3C_WriteText_3A55_0,あたいより ボリュームのある<BR>ものを たべたら オッケー<BR>だぜ。<BR>
+WriteText,textCutsceneScript3C_WriteText_3A7D_0,じゃあ いくぜ。<BR>まずは かる～く<BR>ワカメうどんだ!<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3A9B_0,パスタ ひとさら
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3A9B_1,ざるそば 2まい
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3A9B_2,たくあん 5きれ
+WriteText,textCutsceneScript3C_WriteText_3ADD_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_3AF1_0,なんだよ はやくしろよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_3B07_0,じゃあ パスタひとさら。<BR>
+WriteText,textCutsceneScript3C_WriteText_3B20_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_3B24_0,おっ あたいと おなじ<BR>りょうだぜ。 それは。<BR>
+WriteText,textCutsceneScript3C_WriteText_3B45_0,じゃあ ざるそば 2まい。<BR>
+WriteText,textCutsceneScript3C_WriteText_3B5F_0,\x02N
+WriteText,textCutsceneScript3C_WriteText_3B63_0,おっ すこし あたいより<BR>りょうが おおいじゃねーか。<BR>まけねーぞ!!<BR>
+WriteText,textCutsceneScript3C_WriteText_3B90_0,じゃあ たくあん 5きれ。<BR>
+WriteText,textCutsceneScript3C_WriteText_3BA5_0,なんだよ それは。<BR>すくなすぎ だぜ。<BR>
+WriteText,textCutsceneScript3C_WriteText_3BC0_0,おまえ おとこだろ?<BR>もっと ガバッとくえよ!!<BR>
+WriteText,textCutsceneScript3C_WriteText_3BE3_0,よーし じゃあ つぎは<BR>ウナどんだ!!<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3BFA_0,おおもり ソーメン
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3BFA_1,おおもり ぎゅうどん
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3BFA_2,おおもり サラダ
+WriteText,textCutsceneScript3C_WriteText_3C3F_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_3C53_0,なんだよ はやくしろよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_3C69_0,じゃあ ソーメンのおおもり!<BR>
+WriteText,textCutsceneScript3C_WriteText_3C7F_0,ソーメン?<BR>おおもりか‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_3C99_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_3C9D_0,あたいと どっこいどっこい<BR>だな。<BR>
+WriteText,textCutsceneScript3C_WriteText_3CB8_0,じゃあ ぎゅうどんの<BR>おおもり!!<BR>
+WriteText,textCutsceneScript3C_WriteText_3CD6_0,\x02N
+WriteText,textCutsceneScript3C_WriteText_3CDA_0,おっ あたいより<BR>りょうが おおいじゃねーか。<BR>まけねーぞ!!<BR>
+WriteText,textCutsceneScript3C_WriteText_3D03_0,じゃあ サラダ おおもりで!<BR>
+WriteText,textCutsceneScript3C_WriteText_3D19_0,「おおもりで!」って<BR>サラダじゃねーか。<BR>
+WriteText,textCutsceneScript3C_WriteText_3D31_0,ダメダメ。<BR>すくないぜ あたいより。<BR>
+WriteText,textCutsceneScript3C_WriteText_3D4B_0,おまえ おとこだろ?<BR>もっと ごうかいに<BR>くえよな!!<BR>
+WriteText,textCutsceneScript3C_WriteText_3D71_0,よーし じゃあ さいごは<BR>トリのまるやきだ!<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3D8B_0,こブタのまるやき
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3D8B_1,ワニのまるやき
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_3D8B_2,カエルのまるやき
+WriteText,textCutsceneScript3C_WriteText_3DCC_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_3DE0_0,なんだよ はやくしろよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_3DF6_0,じゃあ こブタのまるやき!<BR>
+WriteText,textCutsceneScript3C_WriteText_3E10_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_3E14_0,おっ あたいと おなじ<BR>りょうだぜ。 それは。<BR>
+WriteText,textCutsceneScript3C_WriteText_3E35_0,じゃあ ワニのまるやき!!<BR>
+WriteText,textCutsceneScript3C_WriteText_3E4A_0,ワッ ワニィ～!?<BR>しかも まるやきぃ?<BR>くえんのかよ～。<BR>
+WriteText,textCutsceneScript3C_WriteText_3E74_0,\x02N
+WriteText,textCutsceneScript3C_WriteText_3E78_0,でも しょーがねーよな～。<BR>あたいより りょうがおおい<BR>からな。<BR>
+WriteText,textCutsceneScript3C_WriteText_3EA2_0,じゃあ カエルのまるやき!<BR>
+WriteText,textCutsceneScript3C_WriteText_3EB7_0,おまえ まるやき つっても<BR>カエルじゃねーか。<BR>
+WriteText,textCutsceneScript3C_WriteText_3ED2_0,ダメダメ。<BR>すくないぜ あたいより。<BR>
+WriteText,textCutsceneScript3C_WriteText_3EEC_0,おまえ おとこだろ?<BR>もっと ガツガツくえよな!!<BR>
+WriteText,textCutsceneScript3C_WriteText_3F34_0,やるじゃねーか <NAME>!<BR>あたいより くうなんて<BR>スゴイぜ!!<BR>
+WriteText,textCutsceneScript3C_WriteText_3F55_0,イッパイくって うんどう<BR>するんだ。そして リッパな<BR>からだを つくる。<BR>
+WriteText,textCutsceneScript3C_WriteText_3F7D_0,そうすれば もう こわいもん<BR>なしだぜ。<BR>
+WriteText,textCutsceneScript3C_WriteText_3FA5_0,まあまあって とこだな。<BR><NAME>。<BR>
+WriteText,textCutsceneScript3C_WriteText_3FB8_0,もっとくって ガンガン<BR>うんどうしな。そして リッパ<BR>な からだを つくるんだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_3FE4_0,そうすれば もう こわいもん<BR>なしだぜ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4003_0,ダメじゃねーか。<BR><NAME>!<BR>
+WriteText,textCutsceneScript3C_WriteText_4012_0,ガンガンくって<BR>ガンガンうんどうする!<BR>
+WriteText,textCutsceneScript3C_WriteText_4029_0,そして まず からだを<BR>つくれ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4041_0,たたかいの アドバイスなんて<BR>そのつぎだぜ。<BR>
+WriteText,textCutsceneScript3C_WriteText_405E_0,じゃあ がんばれよ<BR><NAME>。<BR>
+WriteText,textCutsceneScript3C_WriteText_4094_0,おりひめさん のところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_40BB_0,‥‥まてよ<BR>おりひめさんの ところへは<BR>さっきいったぞ‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_40DC_0,ほかのひとの ところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_40F9_0,おりひめさん。<BR>
+WriteText,textCutsceneScript3C_WriteText_4109_0,しつれいします。<BR>
+WriteText,textCutsceneScript3C_WriteText_4120_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_4127_0,<NAME>さん<BR>なにかよーですか?<BR>
+WriteText,textCutsceneScript3C_WriteText_413B_0,はい おりひめさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4165_0,そこで おりひめさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+WriteText,textCutsceneScript3C_WriteText_4194_0,たたかいの アドバイス?<BR>そーですねー‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_41AD_0,わかりました。<BR><NAME>さんの てきせい<BR>テストをしましょう。<BR>
+WriteText,textCutsceneScript3C_WriteText_41CD_0,しつもんに こたえて<BR>くださーい。<BR>
+WriteText,textCutsceneScript3C_WriteText_41E2_0,<NAME>さんは てきに<BR>であったら まず<BR>どうしますか?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_41FF_0,てきのチカラを ぶんせきする
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_41FF_1,たたかう
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_41FF_2,にげる
+WriteText,textCutsceneScript3C_WriteText_423E_0,まずは てきのチカラを<BR>ぶんせきします。<BR>
+WriteText,textCutsceneScript3C_WriteText_425F_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_4263_0,そうでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_426D_0,やみくもに たたかっては<BR>ダメージが おおきくなる<BR>だけでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_4297_0,もちろん たたかいます。<BR>
+WriteText,textCutsceneScript3C_WriteText_42AB_0,チョッチちがいまーす。<BR>ただ たたかうだけでは<BR>いけませーん。<BR>
+WriteText,textCutsceneScript3C_WriteText_42CE_0,てきのチカラを ぶんせき<BR>するのでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_42E6_0,そうすれば ラクにかてる<BR>ほうほうが みつかるかも<BR>しれませーん。<BR>
+WriteText,textCutsceneScript3C_WriteText_4311_0,もちろん にげます。<BR>いちもくさんにね。<BR>
+WriteText,textCutsceneScript3C_WriteText_432D_0,Oh! <NAME>さん。<BR>おとこのくせに<BR>よわむしでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_434E_0,にげていては いつまでも<BR>かてませーん。<BR>
+WriteText,textCutsceneScript3C_WriteText_4366_0,てきのチカラを ぶんせき<BR>するのでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_437E_0,そうすれば ラクにかてる<BR>ほうほうが みつかるかも<BR>しれませーん。<BR>
+WriteText,textCutsceneScript3C_WriteText_43A9_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_43BD_0,わからないのでーすか?<BR>
+WriteText,textCutsceneScript3C_WriteText_43CC_0,せいかいは てきのチカラを<BR>ぶんせきする でーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_43E9_0,そうすれば ラクにかてる<BR>ほうほうが みつかるかも<BR>しれませーん。<BR>
+WriteText,textCutsceneScript3C_WriteText_4411_0,それじゃ つぎのしつもん<BR>でーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_4426_0,<NAME>さんは<BR>ピンチのとき<BR>どうしますか?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_443D_0,にげる
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_443D_1,とつげきする
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_443D_2,ぼうぎょする
+WriteText,textCutsceneScript3C_WriteText_4476_0,もちろん にげます。<BR>
+WriteText,textCutsceneScript3C_WriteText_448D_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_4491_0,そうでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_449B_0,ピンチで いのちがキケンに<BR>なったら にげる。<BR>これ あたりまえでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_44C3_0,しんで ハナみは<BR>さくものか でーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_44E0_0,とつげきします。<BR>
+WriteText,textCutsceneScript3C_WriteText_44F0_0,おー カミカゼ!<BR>ジャパニーズ ボーイ<BR>でーすね。<BR>
+WriteText,textCutsceneScript3C_WriteText_4511_0,でも ダメでーす。<BR>しんだら もともこも<BR>ありませーん。<BR>
+WriteText,textCutsceneScript3C_WriteText_4531_0,ピンチで いのちがキケンに<BR>なったら にげる。<BR>これ あたりまえでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_455F_0,ひたすら ぼうぎょです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4573_0,ぼうぎょ。ダメでーす。<BR>じわじわ たいきゅうち<BR>へっていきまーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_459C_0,ピンチで いのちがキケンに<BR>なったら にげる。<BR>これ あたりまえでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_45CA_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_45DE_0,わからないのでーすか?<BR>
+WriteText,textCutsceneScript3C_WriteText_45ED_0,せいかいは にげる でーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_45FF_0,ピンチで いのちがキケンに<BR>なったら にげる。<BR>これ あたりまえでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_462A_0,では さいごの しつもん<BR>でーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_463F_0,<NAME>さんは<BR>よわいてき にあったら<BR>どうしますか?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_465B_0,さっさと やっつける
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_465B_1,ムダなたたかいは しない
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_465B_2,メチャクチャに やっつける
+WriteText,textCutsceneScript3C_WriteText_46A8_0,さっさと やっつけます。<BR>
+WriteText,textCutsceneScript3C_WriteText_46C1_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_46C5_0,それも せいかいでーす。<BR>でも ムダなたたかいを<BR>しないのも オッケーでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_46F6_0,ムダなたたかいは しません。<BR>
+WriteText,textCutsceneScript3C_WriteText_4711_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_4715_0,それも せいかいでーす。<BR>でも さっさと やっつけても<BR>オッケーでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_4743_0,メチャクチャに<BR>やっつけます。<BR>
+WriteText,textCutsceneScript3C_WriteText_475A_0,それダメでーす。<BR>じかんの ムダでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_4772_0,こうりつよく たたかうには<BR>さっさと やっつけるか<BR>ムシするほうが いいでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_47A4_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_47B8_0,わからないのでーすか?<BR>
+WriteText,textCutsceneScript3C_WriteText_47C7_0,さっさと やっつける<BR>もしくは ムダなたたかいは<BR>しない が せいかいでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_47F2_0,こうりつよく たたかうには<BR>さっさと やっつけるか<BR>ムシするほうが いいでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_4843_0,さすがは <NAME>さん。<BR>なかなか スジがいいでーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_485F_0,たたかいのポイントは<BR>ムリしない ことでーす。<BR>わかりましたね。<BR>
+WriteText,textCutsceneScript3C_WriteText_4893_0,まあまあでーす。<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript3C_WriteText_48A8_0,たたかいのポイントは<BR>ムリしない ことでーす。<BR>わかりましたね。<BR>
+WriteText,textCutsceneScript3C_WriteText_48D3_0,<NAME>さん。<BR>たたかいの センスない<BR>でーす。<BR>
+WriteText,textCutsceneScript3C_WriteText_48F0_0,もうすこし かんがえて<BR>たたかったほうが<BR>いいでーすね。<BR>
+WriteText,textCutsceneScript3C_WriteText_4913_0,では <NAME>さん<BR>がんばってくださーい。<BR>チャオ!<BR>
+WriteText,textCutsceneScript3C_WriteText_4954_0,レニさん のところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_4979_0,‥‥まてよ<BR>レニさんの ところへは<BR>さっきいったぞ‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_4998_0,ほかのひとの ところへ<BR>いこう。<BR>
+WriteText,textCutsceneScript3C_WriteText_49B5_0,レニさん。<BR>
+WriteText,textCutsceneScript3C_WriteText_49C3_0,しつれいします。<BR>
+WriteText,textCutsceneScript3C_WriteText_49DA_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_49E1_0,<NAME><BR>なにかよう?<BR>
+WriteText,textCutsceneScript3C_WriteText_49F0_0,はい レニさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4A18_0,そこで レニさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+WriteText,textCutsceneScript3C_WriteText_4A45_0,たたかいの アドバイス‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_4A56_0,たたかいとは きおくりょくと<BR>はんだんりょくだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4A72_0,これまでに であった まもの<BR>について ボクがもんだいを<BR>だそう。<BR>
+WriteText,textCutsceneScript3C_WriteText_4A97_0,キミが どれだけ おぼえて<BR>いるか‥‥ どれだけ<BR>すばやく こたえられるか‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_4AC2_0,キミの のうりょくを<BR>テストしてあげるよ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4ADB_0,では まず だいいちもん。<BR>
+WriteText,textCutsceneScript3C_WriteText_4AEC_0,つぎのうち ほのおけいの<BR>こうげきがとくいな てきは<BR>どれだ?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_4B0F_0,スカルレッド
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_4B0F_1,じょうきスタンド
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_4B0F_2,クリオんネん
+WriteText,textCutsceneScript3C_WriteText_4B4D_0,スカルレッドです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4B63_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_4B67_0,せいかいだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4B77_0,じょうきスタンドです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4B8A_0,ちがう。<BR>
+WriteText,textCutsceneScript3C_WriteText_4B92_0,せいかいは スカルレッドだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4BAA_0,クリオんネんです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4BBB_0,ちがう。<BR>
+WriteText,textCutsceneScript3C_WriteText_4BC3_0,せいかいは スカルレッドだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4BDB_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_4BEF_0,わからないのか‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_4BFC_0,せいかいは スカルレッドだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4C11_0,つぎ だいにもん。<BR>
+WriteText,textCutsceneScript3C_WriteText_4C1E_0,つぎのうち<BR>せっきんせんに つよい<BR>てきはどれだ?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_4C3B_0,わきじボクサー
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_4C3B_1,じょうきほう
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_4C3B_2,ドラムかん
+WriteText,textCutsceneScript3C_WriteText_4C77_0,わきじボクサーです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4C8E_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_4C92_0,せいかいだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4CA2_0,じょうきほうです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4CB3_0,ちがう。<BR>
+WriteText,textCutsceneScript3C_WriteText_4CBB_0,せいかいは<BR>わきじボクサーだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4CD4_0,ドラムかんです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4CE4_0,ちがう。<BR>
+WriteText,textCutsceneScript3C_WriteText_4CEC_0,せいかいは<BR>わきじボクサーだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4D05_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_4D19_0,わからないのか‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_4D26_0,せいかいは<BR>わきじボクサーだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4D3C_0,つぎ だいさんもん。<BR>
+WriteText,textCutsceneScript3C_WriteText_4D4A_0,つぎのうち<BR>すいちゅうでしゅつげんしない<BR>てきはどれだ?<BR>
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_4D6A_0,あしがるわきじ
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_4D6A_1,こうまキャンサー
+OptionSelectTimed,textCutsceneScript3C_OptionSelectTimed_4D6A_2,わきじマリナー
+WriteText,textCutsceneScript3C_WriteText_4DAA_0,あしがるわきじです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4DC1_0,\x01\x28
+WriteText,textCutsceneScript3C_WriteText_4DC5_0,せいかいだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4DD5_0,こうまキャンサーです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4DE8_0,ちがう。<BR>
+WriteText,textCutsceneScript3C_WriteText_4DF0_0,せいかいは<BR>あしがるわきじだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4E09_0,わきじマリナーです。<BR>
+WriteText,textCutsceneScript3C_WriteText_4E1B_0,ちがう。<BR>
+WriteText,textCutsceneScript3C_WriteText_4E23_0,せいかいは<BR>あしがるわきじだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4E3C_0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_4E50_0,わからないのか‥‥<BR>
+WriteText,textCutsceneScript3C_WriteText_4E5D_0,せいかいは<BR>あしがるわきじだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4E95_0,やるじゃない。<NAME>。<BR>
+WriteText,textCutsceneScript3C_WriteText_4EA2_0,きおくりょくと<BR>はんだんりょく。<BR>それが ポイントだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4ED1_0,まあ こんなものか。<BR>
+WriteText,textCutsceneScript3C_WriteText_4EE3_0,きおくりょくと<BR>はんだんりょく。<BR>それが ポイントだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4F09_0,ダメだな。<BR>
+WriteText,textCutsceneScript3C_WriteText_4F16_0,きおくりょくと<BR>はんだんりょく。<BR>それが ポイントだ。<BR>
+WriteText,textCutsceneScript3C_WriteText_4F38_0,じゃあ がんばれ。<BR>

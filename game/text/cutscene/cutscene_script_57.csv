@@ -1,0 +1,42 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript57_WriteText_0012_0,<NAME>さん<BR>いよいよ 『やまと』に<BR>しゅつげきですわね‥‥<BR>
+WriteText,textCutsceneScript57_WriteText_0037_0,のろわれた だいちでーすね。<BR>いったい どんなとこ<BR>なんでしょーか?!<BR>
+WriteText,textCutsceneScript57_WriteText_0062_0,『やまと』は まものが<BR>うまれいでた だいちと<BR>きいている。それならば‥‥<BR>
+WriteText,textCutsceneScript57_WriteText_008D_0,『やまと』にいる まものは<BR>ミカサにいた まものより<BR>てごわくなるだろう。<BR>
+WriteText,textCutsceneScript57_WriteText_00BC_0,<NAME>さん。<BR>そうびに ぬかりは<BR>ありませんわね。<BR>
+WriteText,textCutsceneScript57_WriteText_00DB_0,『やまと』‥‥<BR>そのだいちが かざんたい<BR>ということを かんがえれば<BR>
+WriteText,textCutsceneScript57_WriteText_0103_0,ひのぞくせいの<BR>まものが おおくいるだろう。<BR>
+WriteText,textCutsceneScript57_WriteText_0121_0,ひのぞくせいの てきには<BR>みずのこうげきが<BR>こうかてきでーす。<BR>
+WriteText,textCutsceneScript57_WriteText_0148_0,<NAME>さん。<BR>きちんと じゅんびは<BR>おできになりまして?<BR>
+OptionSelect,textCutsceneScript57_OptionSelect_0166_0,はい
+OptionSelect,textCutsceneScript57_OptionSelect_0166_1,いいえ
+WriteText,textCutsceneScript57_WriteText_0187_0,はい!<BR>
+WriteText,textCutsceneScript57_WriteText_0192_0,<NAME>さん。<BR>がんばるのですわよ。<BR>
+WriteText,textCutsceneScript57_WriteText_01A9_0,<NAME>さん!<BR>レッツ ファイトでーす!!<BR>
+WriteText,textCutsceneScript57_WriteText_01C3_0,ガンバレ <NAME>。<BR>
+WriteText,textCutsceneScript57_WriteText_01D2_0,いいえ。<BR>ひにたいする そうびは<BR>していません。<BR>
+WriteText,textCutsceneScript57_WriteText_01F2_0,でしたら いちどかくのうこへ<BR>もどったら どうですの?<BR>
+WriteText,textCutsceneScript57_WriteText_0215_0,しゅつげきは そのあとでも<BR>おそくはありませーん。<BR>
+WriteText,textCutsceneScript57_WriteText_0236_0,いまの つかいなれた<BR>そうびが いいのならば<BR>それでも かまわないけど‥‥<BR>
+WriteText,textCutsceneScript57_WriteText_0260_0,<NAME>さん<BR>いよいよ 『やまと』に<BR>しゅつげきですわね‥‥<BR>
+WriteText,textCutsceneScript57_WriteText_0285_0,『やまと』ね‥‥<BR>
+WriteText,textCutsceneScript57_WriteText_0297_0,マリア。<BR>なにか しんぱいごとでも<BR>あるのか?<BR>
+WriteText,textCutsceneScript57_WriteText_02B2_0,『やまと』は まものが<BR>うまれいでた だいちと<BR>きいている。それならば‥‥<BR>
+WriteText,textCutsceneScript57_WriteText_02DD_0,『やまと』にいる まものは<BR>ミカサにいた まものより<BR>てごわくなるだろう。<BR>
+WriteText,textCutsceneScript57_WriteText_0308_0,でも だいじょうぶ。<BR>
+WriteText,textCutsceneScript57_WriteText_031A_0,‥‥そうね。<BR>いまの <NAME>なら<BR>しんぱいないわね。<BR>
+WriteText,textCutsceneScript57_WriteText_033A_0,<NAME>さん。<BR>そうびに ぬかりは<BR>ありませんわね。<BR>
+WriteText,textCutsceneScript57_WriteText_0359_0,『やまと』‥‥<BR>そのだいちが かざんたい<BR>ということを かんがえれば<BR>
+WriteText,textCutsceneScript57_WriteText_0381_0,ひのぞくせいの<BR>まものが おおくいるはず‥‥<BR>
+WriteText,textCutsceneScript57_WriteText_039B_0,ひのぞくせいの まものには<BR>みずのこうげきが<BR>こうかてきよ。<BR>
+WriteText,textCutsceneScript57_WriteText_03C1_0,では じゅんびは<BR>よろしいですわね<BR><NAME>さん。<BR>
+OptionSelect,textCutsceneScript57_OptionSelect_03DB_0,はい
+OptionSelect,textCutsceneScript57_OptionSelect_03DB_1,いいえ
+WriteText,textCutsceneScript57_WriteText_03FC_0,はい!<BR>
+WriteText,textCutsceneScript57_WriteText_0407_0,<NAME>さん。<BR>がんばるのですわよ。<BR>
+WriteText,textCutsceneScript57_WriteText_041E_0,<NAME><BR>しっかりね。<BR>
+WriteText,textCutsceneScript57_WriteText_042E_0,ガンバレ <NAME>。<BR>
+WriteText,textCutsceneScript57_WriteText_043D_0,いいえ。<BR>ひにたいする そうびは<BR>していません。<BR>
+WriteText,textCutsceneScript57_WriteText_045D_0,でしたら いちどかくのうこへ<BR>もどったら どうですの?<BR>
+WriteText,textCutsceneScript57_WriteText_0480_0,しゅつげきは そのあとでも<BR>おそくはないわ。<BR>
+WriteText,textCutsceneScript57_WriteText_049E_0,いまの つかいなれた<BR>そうびが いいのならば<BR>それでも かまわないけど‥‥<BR>

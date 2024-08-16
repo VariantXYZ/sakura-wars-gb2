@@ -1,0 +1,64 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript2B_WriteText_0011_0,さっき みつけた<BR>この むらさきのセンス‥‥<BR>
+WriteText,textCutsceneScript2B_WriteText_0031_0,これは きっと<BR>すみれさんのだろう‥‥<BR>
+WriteText,textCutsceneScript2B_WriteText_004A_0,すみれさん。<BR>ちょっとよろしいでしょうか?<BR>
+WriteText,textCutsceneScript2B_WriteText_0067_0,<NAME>さん。<BR>なにかごようですの?<BR>
+WriteText,textCutsceneScript2B_WriteText_007D_0,これ みつけたんですけど<BR>すみれさんのですか?<BR>
+WriteText,textCutsceneScript2B_WriteText_009C_0,むらさきのセンス‥‥<BR>むらさき?<BR>
+WriteText,textCutsceneScript2B_WriteText_00B4_0,その むらさきのセンスは<BR>たしかに わたくしの<BR>ものですわ。<BR>
+WriteText,textCutsceneScript2B_WriteText_00E3_0,わざわざ とどけてくださって<BR>すみませんわね<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript2B_WriteText_0105_0,いえいえ それにしても<BR>そのセンス‥‥<BR>
+OptionSelectTimed,textCutsceneScript2B_OptionSelectTimed_011C_0,センスがいいですね
+OptionSelectTimed,textCutsceneScript2B_OptionSelectTimed_011C_1,ハデですね
+OptionSelectTimed,textCutsceneScript2B_OptionSelectTimed_011C_2,たかそうですね
+WriteText,textCutsceneScript2B_WriteText_015B_0,そのセンス なかなか<BR>センスがいいですね<BR>なーんちゃって。<BR>
+WriteText,textCutsceneScript2B_WriteText_0180_0,エッ‥‥‥‥‥‥‥‥‥‥‥‥<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript2B_WriteText_01B4_0,お‥‥ おっほほほほほ‥‥<BR>あら おもしろい‥‥<BR>
+WriteText,textCutsceneScript2B_WriteText_01D4_0,そ‥‥<BR>それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2B_WriteText_01F6_0,そのセンス ハデですよね～。<BR>
+WriteText,textCutsceneScript2B_WriteText_020B_0,むらさきに きんいろで<BR>トップスタアと おおきく<BR>かかれていて。<BR>
+WriteText,textCutsceneScript2B_WriteText_0233_0,あ～ら ぶたいのうえでは<BR>これくらいが ふつう<BR>ですのよ。<BR>
+WriteText,textCutsceneScript2B_WriteText_0257_0,あっ!<BR>こどうぐ だったんですか。<BR>
+WriteText,textCutsceneScript2B_WriteText_026C_0,そのハデさから てっきり<BR>すみれさんの ものかと<BR>おもっちゃいましたよ。<BR>
+WriteText,textCutsceneScript2B_WriteText_0298_0,いいえ これはわたくしの<BR>ものですわよ。<BR>
+WriteText,textCutsceneScript2B_WriteText_02B0_0,ぶたいのうえでも つかって<BR>おりますけど。<BR>
+WriteText,textCutsceneScript2B_WriteText_02CD_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2B_WriteText_02EB_0,そのセンス たかそうですね。<BR>
+WriteText,textCutsceneScript2B_WriteText_030A_0,おっほほほほ。<BR>みるめが ありますわね<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript2B_WriteText_0326_0,そう このセンスは<BR>もーーーーーのすごく!!<BR>たかいのですわよ。<BR>
+WriteText,textCutsceneScript2B_WriteText_034E_0,それじゃあ <NAME>さん。<BR>この たかいセンスを<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2B_WriteText_0377_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript2B_WriteText_038D_0,そのセンス‥‥<BR>どうかしまして?<BR>
+WriteText,textCutsceneScript2B_WriteText_03A1_0,まあ いいですわ。<BR>それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2B_WriteText_03C6_0,さっき みつけた<BR>この むらさきのセンス‥‥<BR>
+WriteText,textCutsceneScript2B_WriteText_03E6_0,これは きっと<BR>すみれさんのでしょうね。<BR>
+WriteText,textCutsceneScript2B_WriteText_0400_0,すみれさん。<BR>ちょっとよろしいでしょうか?<BR>
+WriteText,textCutsceneScript2B_WriteText_041D_0,あら <NAME>さん。<BR>なにかごようですの?<BR>
+WriteText,textCutsceneScript2B_WriteText_0436_0,これを みつけたのですが<BR>すみれさんのですか?<BR>
+WriteText,textCutsceneScript2B_WriteText_0455_0,むらさきのセンス‥‥<BR>むらさき?<BR>
+WriteText,textCutsceneScript2B_WriteText_046D_0,その むらさきのセンスは<BR>たしかに わたくしの<BR>ものですわ。<BR>
+WriteText,textCutsceneScript2B_WriteText_049C_0,わざわざ とどけてくださって<BR>すみませんわね<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript2B_WriteText_04BE_0,いえいえ それにしても<BR>そのセンス すごいですよね。<BR>
+WriteText,textCutsceneScript2B_WriteText_04DC_0,むらさきに きんいろで<BR>トップスタアと おおきく<BR>かかれていて。<BR>
+WriteText,textCutsceneScript2B_WriteText_0504_0,あ～ら ぶたいのうえでは<BR>これくらいが ふつう<BR>ですのよ。<BR>
+WriteText,textCutsceneScript2B_WriteText_0528_0,えっ!<BR>こどうぐ だったんですか。<BR>
+WriteText,textCutsceneScript2B_WriteText_053D_0,そのハデさから てっきり<BR>すみれさんの ものかと<BR>おもっていました。<BR>
+WriteText,textCutsceneScript2B_WriteText_0567_0,いいえ これはわたくしの<BR>ものですわよ。<BR>
+WriteText,textCutsceneScript2B_WriteText_057F_0,ぶたいのうえでも つかって<BR>おりますけど。<BR>
+WriteText,textCutsceneScript2B_WriteText_059C_0,どう<BR>なかなか いいでしょう?<BR>
+OptionSelectTimed,textCutsceneScript2B_OptionSelectTimed_05AF_0,かわいいですね
+OptionSelectTimed,textCutsceneScript2B_OptionSelectTimed_05AF_1,かっこいいですね
+OptionSelectTimed,textCutsceneScript2B_OptionSelectTimed_05AF_2,おどろきですね
+WriteText,textCutsceneScript2B_WriteText_05EF_0,かわいいですね。<BR>トップスタアのもじが<BR>キュートで。<BR>
+WriteText,textCutsceneScript2B_WriteText_061A_0,おっほほほほ。<BR>みるめが ありますわね<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript2B_WriteText_063A_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2B_WriteText_0658_0,むらさきが しぶくて<BR>かっこいいですね。<BR>
+WriteText,textCutsceneScript2B_WriteText_067D_0,おっほほほほ。<BR>みるめが ありますわね<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript2B_WriteText_069D_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2B_WriteText_06BB_0,おどろきですね。<BR>むらさきに そのおおきな<BR>もじ‥‥ ビックリです。<BR>
+WriteText,textCutsceneScript2B_WriteText_06E5_0,まあ いっぱんじんの<BR>かんかくでみると<BR>おどろき なんでしょうね。<BR>
+WriteText,textCutsceneScript2B_WriteText_070E_0,おっほほほほ。<BR>あなたには このうつくしさが<BR>りかいは できませんわね。<BR>
+WriteText,textCutsceneScript2B_WriteText_073A_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2B_WriteText_0758_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript2B_WriteText_076E_0,かんどうして ことばが<BR>でないようですわね。<BR>
+WriteText,textCutsceneScript2B_WriteText_0788_0,まあ いいですわ。<BR>それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>

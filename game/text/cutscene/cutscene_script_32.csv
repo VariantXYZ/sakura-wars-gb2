@@ -1,0 +1,77 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript32_WriteText_0011_0,かくとうかの<BR>おんなのひとにもらった <BR>
+WriteText,textCutsceneScript32_WriteText_002D_0,まぼろしのかわら‥‥<BR>
+WriteText,textCutsceneScript32_WriteText_003B_0,なにが まぼろしなんだろう?<BR>カンナさんなら なにか<BR>しってるかな?<BR>
+WriteText,textCutsceneScript32_WriteText_0063_0,カンナさん。<BR>ちょっといいですか?<BR>
+WriteText,textCutsceneScript32_WriteText_007C_0,おう <NAME>。<BR>どうした?<BR>
+WriteText,textCutsceneScript32_WriteText_008E_0,これ ミカサのなかにいた<BR>じょせいかくとうかに<BR>もらったんですけど‥‥<BR>
+WriteText,textCutsceneScript32_WriteText_00B9_0,かわら‥‥<BR>
+WriteText,textCutsceneScript32_WriteText_00C6_0,あっ! そ それはっ!!<BR>まぼろしの かわらじゃ<BR>ねーか!!!<BR>
+WriteText,textCutsceneScript32_WriteText_00F6_0,さがしてたんだよ～。<BR>サンキュー <NAME>。<BR>
+WriteText,textCutsceneScript32_WriteText_0110_0,これって なにが<BR>まぼろし なんですか?<BR>
+WriteText,textCutsceneScript32_WriteText_012C_0,これか?<BR>これはな わりごこちが<BR>サイコーなんだよ。<BR>
+WriteText,textCutsceneScript32_WriteText_014E_0,あっそうだ 100まいは<BR>あるから おまえもすこし<BR>わってみろよ。<BR>
+WriteText,textCutsceneScript32_WriteText_0177_0,じゅんびは いいか?<BR>チャンスは いっかいだぞ。<BR>
+WriteText,textCutsceneScript32_WriteText_0193_0,よしっ! はじめっ!!<BR>
+OptionSelectTimed,textCutsceneScript32_OptionSelectTimed_01A2_0,10まいわれた
+OptionSelectTimed,textCutsceneScript32_OptionSelectTimed_01A2_1,15まいわりたかった
+OptionSelectTimed,textCutsceneScript32_OptionSelectTimed_01A2_2,22まいわって てをいためた
+WriteText,textCutsceneScript32_WriteText_01EB_0,エイッ!!<BR>
+WriteText,textCutsceneScript32_WriteText_0201_0,おおっ!<BR>10まい われたぜ。<BR>すごいじゃねーか!<BR>
+WriteText,textCutsceneScript32_WriteText_021E_0,どうだい きもちいいだろ?<BR>こんな かわらは<BR>そうそう ないんだぜ。<BR>
+WriteText,textCutsceneScript32_WriteText_0244_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript32_WriteText_025F_0,エイッ!!<BR>
+WriteText,textCutsceneScript32_WriteText_026C_0,あっ! 15まいは<BR>われそうな いきおい<BR>だったんだけどな～。<BR>
+WriteText,textCutsceneScript32_WriteText_0293_0,5まいしか われてないぜ。<BR>
+WriteText,textCutsceneScript32_WriteText_02A8_0,けど きもちよかっただろ?<BR>
+WriteText,textCutsceneScript32_WriteText_02BD_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript32_WriteText_02D8_0,エイッ!!<BR>
+WriteText,textCutsceneScript32_WriteText_02E5_0,おおっ!<BR>22まいも わってるじゃ<BR>ねーか。<BR>
+WriteText,textCutsceneScript32_WriteText_0302_0,アイテ～‥‥<BR>
+WriteText,textCutsceneScript32_WriteText_0310_0,あっ! おまえ てをケガ<BR>してるじゃねーか。<BR>みせてみな。<BR>
+WriteText,textCutsceneScript32_WriteText_033E_0,まあ これくらいだったら<BR>ひやせば すぐになおるよ。<BR>
+WriteText,textCutsceneScript32_WriteText_0360_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript32_WriteText_037B_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript32_WriteText_0391_0,おいおい ビビッたのかよ<BR><NAME>。<BR>
+WriteText,textCutsceneScript32_WriteText_03A4_0,おとこのくせに<BR>だらしねーぞ。<BR>
+WriteText,textCutsceneScript32_WriteText_03BB_0,まあ いいや。<BR>
+WriteText,textCutsceneScript32_WriteText_03C6_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript32_WriteText_03DE_0,かくとうかの<BR>おんなのひとにもらった <BR>
+WriteText,textCutsceneScript32_WriteText_03FA_0,まぼろしのかわら‥‥<BR>
+WriteText,textCutsceneScript32_WriteText_0408_0,なにが まぼろしなのかしら?<BR>カンナさんなら なにか<BR>しってるかな?<BR>
+WriteText,textCutsceneScript32_WriteText_0430_0,カンナさん。<BR>ちょっといいですか?<BR>
+WriteText,textCutsceneScript32_WriteText_0449_0,おう <NAME>。<BR>どうした?<BR>
+WriteText,textCutsceneScript32_WriteText_0461_0,これ ミカサのなかにいた<BR>じょせいかくとうかに<BR>もらったんですけど‥‥<BR>
+WriteText,textCutsceneScript32_WriteText_048C_0,かわら‥‥<BR>
+WriteText,textCutsceneScript32_WriteText_0499_0,あっ! そ それはっ!!<BR>まぼろしのかわらじゃ<BR>ねーか!!!<BR>
+WriteText,textCutsceneScript32_WriteText_04C8_0,さがしてたんだよ～。<BR>サンキュー <NAME>。<BR>
+WriteText,textCutsceneScript32_WriteText_04E2_0,これって なにが<BR>まぼろし なんですか?<BR>
+WriteText,textCutsceneScript32_WriteText_04FE_0,これか?<BR>これはな わりごこちが<BR>サイコーなんだよ。<BR>
+WriteText,textCutsceneScript32_WriteText_0520_0,あっそうだ 100まいは<BR>あるから おまえもすこし<BR>わってみろよ。<BR>
+WriteText,textCutsceneScript32_WriteText_0549_0,じゅんびは いいか?<BR>チャンスは いっかいだぞ。<BR>
+WriteText,textCutsceneScript32_WriteText_0565_0,よしっ! はじめっ!!<BR>
+OptionSelectTimed,textCutsceneScript32_OptionSelectTimed_0574_0,8まいわれた
+OptionSelectTimed,textCutsceneScript32_OptionSelectTimed_0574_1,12まいわりたかった
+OptionSelectTimed,textCutsceneScript32_OptionSelectTimed_0574_2,18まいわって てをいためた
+WriteText,textCutsceneScript32_WriteText_05BC_0,エイッ!!<BR>
+WriteText,textCutsceneScript32_WriteText_05D2_0,おおっ!<BR>8まい われたぜ。<BR>
+WriteText,textCutsceneScript32_WriteText_05E4_0,おまえ おんなだけど<BR>スゲーな。<BR>
+WriteText,textCutsceneScript32_WriteText_05F8_0,どうだい きもちいいだろ?<BR>こんな かわらは<BR>そうそう ないんだぜ。<BR>
+WriteText,textCutsceneScript32_WriteText_061E_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript32_WriteText_0639_0,エイッ!!<BR>
+WriteText,textCutsceneScript32_WriteText_0646_0,あっ! <BR>12まいは われそうな<BR>いきおいだったんだけどな～。<BR>
+WriteText,textCutsceneScript32_WriteText_066D_0,5まいしか われてないぜ。<BR>
+WriteText,textCutsceneScript32_WriteText_0682_0,けど きもちよかっただろ?<BR>
+WriteText,textCutsceneScript32_WriteText_0693_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript32_WriteText_06AE_0,エイッ!!<BR>
+WriteText,textCutsceneScript32_WriteText_06BB_0,おおっ!<BR>18まいも わってるじゃ<BR>ねーか。<BR>
+WriteText,textCutsceneScript32_WriteText_06D8_0,アイた～‥‥<BR>
+WriteText,textCutsceneScript32_WriteText_06E6_0,あっ! おまえ てをケガ<BR>してるじゃねーか。<BR>みせてみな。<BR>
+WriteText,textCutsceneScript32_WriteText_070B_0,おまえ おんなのこ<BR>なんだから あまり<BR>ムリすんなよ。<BR>
+WriteText,textCutsceneScript32_WriteText_0737_0,まあ これくらいだったら<BR>ひやせば すぐになおるよ。<BR>
+WriteText,textCutsceneScript32_WriteText_0759_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript32_WriteText_0774_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript32_WriteText_078A_0,おいおい ビビッたのかよ<BR><NAME>。<BR>
+WriteText,textCutsceneScript32_WriteText_07A1_0,まあ いいや。<BR>
+WriteText,textCutsceneScript32_WriteText_07AC_0,<NAME>は<BR>おんなのこだから<BR>しょーがねーよな。<BR>
+WriteText,textCutsceneScript32_WriteText_07C5_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>

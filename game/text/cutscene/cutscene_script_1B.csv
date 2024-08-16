@@ -1,0 +1,33 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript1B_WriteText_0012_0,おかえりなさい。<BR><NAME>くん。<BR>
+WriteText,textCutsceneScript1B_WriteText_0023_0,カンナとアイリスの<BR>きゅうしゅつ<BR>ごくろうさまでした。<BR>
+WriteText,textCutsceneScript1B_WriteText_0046_0,では ほうこくを<BR>おねがいするわ。<BR>
+WriteText,textCutsceneScript1B_WriteText_005E_0,はい ほうこくします。<BR>
+WriteText,textCutsceneScript1B_WriteText_006D_0,のこり2つの『まじんき』は<BR>ミカサには<BR>ありませんでした。<BR>
+WriteText,textCutsceneScript1B_WriteText_0094_0,そう‥‥<BR>ミカサには なかったのね‥‥<BR>
+WriteText,textCutsceneScript1B_WriteText_00AE_0,それと ミカサに<BR>おおきな あながあき<BR>そのしたには<BR>
+WriteText,textCutsceneScript1B_WriteText_00CC_0,『やまと』と よばれている<BR>だいちが みえていました。<BR>
+WriteText,textCutsceneScript1B_WriteText_00F1_0,わかりました。<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript1B_WriteText_010F_0,では <NAME>くんは<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
+OptionSelect,textCutsceneScript1B_OptionSelect_0133_0,『やまと』について きく
+OptionSelect,textCutsceneScript1B_OptionSelect_0133_1,りょうかい
+WriteText,textCutsceneScript1B_WriteText_0162_0,りょうかい。<BR>
+WriteText,textCutsceneScript1B_WriteText_0170_0,かえでさん しつもんが<BR>あります。 『やまと』に<BR>ついて おしえてください。<BR>
+WriteText,textCutsceneScript1B_WriteText_01A0_0,『やまと』とは そのむかし<BR>うみのそこに ふういんされた<BR>のろわれた だいちよ。<BR>
+WriteText,textCutsceneScript1B_WriteText_01D1_0,のろわれた だいち‥‥<BR>なんだか やばそうだぞ‥‥<BR>
+WriteText,textCutsceneScript1B_WriteText_01EF_0,おかえりなさい。<BR><NAME>。<BR>
+WriteText,textCutsceneScript1B_WriteText_01FE_0,カンナとアイリスの<BR>きゅうしゅつ<BR>ごくろうさまでした。<BR>
+WriteText,textCutsceneScript1B_WriteText_0221_0,では ほうこくを<BR>おねがいするわ。<BR>
+WriteText,textCutsceneScript1B_WriteText_0239_0,はい ほうこくします。<BR>
+WriteText,textCutsceneScript1B_WriteText_0248_0,のこり2つの『まじんき』は<BR>ミカサには<BR>ありませんでした。<BR>
+WriteText,textCutsceneScript1B_WriteText_026F_0,そう‥‥<BR>ミカサには なかったのね‥‥<BR>
+WriteText,textCutsceneScript1B_WriteText_0289_0,それと ミカサに<BR>おおきな あながあき<BR>そのしたには<BR>
+WriteText,textCutsceneScript1B_WriteText_02A7_0,『やまと』と よばれている<BR>だいちが みえていました。<BR>
+WriteText,textCutsceneScript1B_WriteText_02CC_0,わかりました。<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript1B_WriteText_02EA_0,では <NAME>は<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
+OptionSelect,textCutsceneScript1B_OptionSelect_030C_0,『やまと』について きく
+OptionSelect,textCutsceneScript1B_OptionSelect_030C_1,りょうかい
+WriteText,textCutsceneScript1B_WriteText_033B_0,りょうかい。<BR>
+WriteText,textCutsceneScript1B_WriteText_0349_0,かえでさん しつもんが<BR>あります。 『やまと』に<BR>ついて おしえてください。<BR>
+WriteText,textCutsceneScript1B_WriteText_0379_0,『やまと』とは そのむかし<BR>うみのそこに ふういんされた<BR>のろわれた だいちよ。<BR>
+WriteText,textCutsceneScript1B_WriteText_03AA_0,のろわれた だいち‥‥<BR>こわそうだわ‥‥<BR>

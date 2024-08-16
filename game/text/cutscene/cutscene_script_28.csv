@@ -1,0 +1,70 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript28_WriteText_0011_0,さっき ミカサでもらった<BR>あかいリボン‥‥おそらく‥‥<BR>
+WriteText,textCutsceneScript28_WriteText_0035_0,さくらさんのものだろう。<BR>
+WriteText,textCutsceneScript28_WriteText_0045_0,よし さくらさんに<BR>わたしにいこう。<BR>
+WriteText,textCutsceneScript28_WriteText_005D_0,さくらさん。<BR>しつれいします。<BR>
+WriteText,textCutsceneScript28_WriteText_0074_0,<NAME>さん。<BR>なにかごようですか?<BR>
+WriteText,textCutsceneScript28_WriteText_008A_0,これって<BR>さくらさんのですか?<BR>
+WriteText,textCutsceneScript28_WriteText_00A1_0,あかいリボン‥‥<BR>
+WriteText,textCutsceneScript28_WriteText_00B1_0,あー! そうです!<BR>それ あたしのです。<BR>
+WriteText,textCutsceneScript28_WriteText_00D6_0,わざわざ すみません。<BR>ありがとうございます。<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript28_WriteText_00FA_0,そうだわ <NAME>さん。<BR>リボンうらない<BR>やりましょうよ。<BR>
+WriteText,textCutsceneScript28_WriteText_011C_0,<NAME>さんは リボンを<BR>つけた おんなのこを<BR>どうおもいますか?<BR>
+OptionSelectTimed,textCutsceneScript28_OptionSelectTimed_013E_0,カッコイイ
+OptionSelectTimed,textCutsceneScript28_OptionSelectTimed_013E_1,カワイイ
+OptionSelectTimed,textCutsceneScript28_OptionSelectTimed_013E_2,あまりすきじゃない
+WriteText,textCutsceneScript28_WriteText_017A_0,じゃあ‥‥ カッコイイで <BR>おねがいします。<BR>
+WriteText,textCutsceneScript28_WriteText_0198_0,カッコイイをえらんだ<BR>あなたは‥‥<BR>
+WriteText,textCutsceneScript28_WriteText_01AD_0,かみを キリリとまとめた<BR>りりしい おんなのこが<BR>このみ なのでしょう。<BR>
+WriteText,textCutsceneScript28_WriteText_01D5_0,そんな あなたは<BR>あまえんぼさん。<BR>ですって。<BR>
+WriteText,textCutsceneScript28_WriteText_01F4_0,<NAME>さんは<BR>あまえんぼさん だったん<BR>ですね。<BR>
+WriteText,textCutsceneScript28_WriteText_020E_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>
+WriteText,textCutsceneScript28_WriteText_0233_0,じゃあ‥‥ カワイイで <BR>おねがいします。<BR>
+WriteText,textCutsceneScript28_WriteText_0250_0,カワイイをえらんだ<BR>あなたは‥‥<BR>
+WriteText,textCutsceneScript28_WriteText_0264_0,リボンをつけた かれんな<BR>おんなのこを つつみこめる<BR>ひとです。<BR>
+WriteText,textCutsceneScript28_WriteText_0288_0,そんな あなたは やさしく<BR>つよい おとこのこです。<BR>ですって。<BR>
+WriteText,textCutsceneScript28_WriteText_02B9_0,さすがは <NAME>さん。<BR>やりますね。<BR>
+WriteText,textCutsceneScript28_WriteText_02CD_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>
+WriteText,textCutsceneScript28_WriteText_02F2_0,リボンをつけた おんなのこは<BR>あまり すきじゃないですね。<BR>
+WriteText,textCutsceneScript28_WriteText_0317_0,リボンをつけた おんなのこは<BR>あまり すきじゃない<BR>あなたは‥‥<BR>
+WriteText,textCutsceneScript28_WriteText_033B_0,リボンがいらない<BR>ショートカットのおんなのこが<BR>このみ なのですね。<BR>
+WriteText,textCutsceneScript28_WriteText_0361_0,そんな あなたは おそらく<BR>スポーツマンでしょう‥‥<BR>ですって。<BR>
+WriteText,textCutsceneScript28_WriteText_0389_0,あたってます?<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript28_WriteText_0399_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>
+WriteText,textCutsceneScript28_WriteText_03BE_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript28_WriteText_03D4_0,じかんぎれでーす。<BR>えらべなかった あなたは‥‥<BR>‥‥‥‥<BR>
+WriteText,textCutsceneScript28_WriteText_03F5_0,ズバリ!<BR>ゆうじゅうふだんです!!<BR>
+WriteText,textCutsceneScript28_WriteText_040A_0,もうすこし すばやく<BR>けつだんできるように<BR>なりましょう。<BR>
+WriteText,textCutsceneScript28_WriteText_042F_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>
+WriteText,textCutsceneScript28_WriteText_0451_0,さっき ミカサでもらった<BR>あかいリボン‥‥さくらさんの<BR>
+WriteText,textCutsceneScript28_WriteText_0475_0,じゃないかしら。<BR>
+WriteText,textCutsceneScript28_WriteText_0481_0,よし さくらさんに<BR>わたしにいきましょう。<BR>
+WriteText,textCutsceneScript28_WriteText_049C_0,さくらさん。<BR>しつれいします。<BR>
+WriteText,textCutsceneScript28_WriteText_04B3_0,<NAME>さん。<BR>なにかごようですか?<BR>
+WriteText,textCutsceneScript28_WriteText_04C9_0,これって<BR>さくらさんのですか?<BR>
+WriteText,textCutsceneScript28_WriteText_04E0_0,あかいリボン‥‥<BR>
+WriteText,textCutsceneScript28_WriteText_04F0_0,あー! そうです!<BR>それ あたしのです。<BR>
+WriteText,textCutsceneScript28_WriteText_0515_0,わざわざ すみません。<BR>ありがとうございます。<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript28_WriteText_0539_0,ところで <NAME>さんは<BR>リボンを つけないんですか?<BR>
+OptionSelectTimed,textCutsceneScript28_OptionSelectTimed_0555_0,いつも つけてます
+OptionSelectTimed,textCutsceneScript28_OptionSelectTimed_0555_1,きぶんで つけます
+OptionSelectTimed,textCutsceneScript28_OptionSelectTimed_0555_2,つけません
+WriteText,textCutsceneScript28_WriteText_0596_0,いつも つけてますよ。<BR>わたしも リボンすき<BR>なんですよ。<BR>
+WriteText,textCutsceneScript28_WriteText_05C4_0,そうなんですか!<BR>あたしといっしょですね。<BR>なんだか うれしいな～。<BR>
+WriteText,textCutsceneScript28_WriteText_05EA_0,リボンって アクセントにも<BR>なるし かみをたばねると<BR>すっきりしますもんね。<BR>
+WriteText,textCutsceneScript28_WriteText_0618_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>
+WriteText,textCutsceneScript28_WriteText_063D_0,きぶんで つけますよ。<BR>わたしも けっこうリボン<BR>すきですから。<BR>
+WriteText,textCutsceneScript28_WriteText_066E_0,そうなんですか!<BR>うれしいな～。<BR>
+WriteText,textCutsceneScript28_WriteText_0682_0,リボンって アクセントにも<BR>なるし かみをたばねると<BR>すっきりしますもんね。<BR>
+WriteText,textCutsceneScript28_WriteText_06B0_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>
+WriteText,textCutsceneScript28_WriteText_06D5_0,わたしは つけないんですよ。<BR>べつに キライとかいう<BR>わけじゃ ないんですが。<BR>
+WriteText,textCutsceneScript28_WriteText_0704_0,そーなんですか。<BR>
+WriteText,textCutsceneScript28_WriteText_0714_0,でも たまには どうですか?<BR>きぶんてんかんに。<BR>
+WriteText,textCutsceneScript28_WriteText_0733_0,そうですね。<BR>
+WriteText,textCutsceneScript28_WriteText_0741_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>
+WriteText,textCutsceneScript28_WriteText_0766_0,ショートヘアーなので<BR>つけないんですよ。<BR>
+WriteText,textCutsceneScript28_WriteText_0782_0,あっ そーですよね。<BR>ショートヘアーじゃ<BR>つけませんよね～。<BR>
+WriteText,textCutsceneScript28_WriteText_07A8_0,あたしったら<BR>なに きいてるんだろう?<BR>
+WriteText,textCutsceneScript28_WriteText_07BF_0,すみません <NAME>さん。<BR>
+WriteText,textCutsceneScript28_WriteText_07D0_0,いいえ。<BR>
+WriteText,textCutsceneScript28_WriteText_07DC_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>

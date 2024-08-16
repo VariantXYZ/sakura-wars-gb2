@@ -1,0 +1,70 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript33_WriteText_0011_0,ミカサのなかで ひろった<BR>このおおきなちゃわん‥‥<BR>
+WriteText,textCutsceneScript33_WriteText_0033_0,カンナさんのだろうな‥‥<BR>
+WriteText,textCutsceneScript33_WriteText_0043_0,よし カンナさんに<BR>わたしにいこう。<BR>
+WriteText,textCutsceneScript33_WriteText_005B_0,カンナさん。<BR>しつれいします。<BR>
+WriteText,textCutsceneScript33_WriteText_0072_0,おう <NAME>。<BR>どうした?<BR>
+WriteText,textCutsceneScript33_WriteText_0084_0,これ ひろったんですが<BR>カンナさんのですか?<BR>
+WriteText,textCutsceneScript33_WriteText_00A2_0,おおっ!!!<BR>そのデカいちゃわん!<BR>それ あたいのだ!!<BR>
+WriteText,textCutsceneScript33_WriteText_00CF_0,さがしてたんだよ～。<BR>サンキュー <NAME>。<BR>
+WriteText,textCutsceneScript33_WriteText_00E9_0,それにしても<BR>デカいちゃわん ですね～。<BR>
+WriteText,textCutsceneScript33_WriteText_0105_0,あたいは このおおきさを<BR>ちゃわんと よんでるけど<BR>ふつうは ドンブリだよな。<BR>
+WriteText,textCutsceneScript33_WriteText_0130_0,ところで <NAME>は<BR>おとこだから ドンブリもの<BR>すきだろ。<BR>
+WriteText,textCutsceneScript33_WriteText_014F_0,どんなのがすきなんだ?<BR>
+OptionSelectTimed,textCutsceneScript33_OptionSelectTimed_015E_0,カツどんが すきです
+OptionSelectTimed,textCutsceneScript33_OptionSelectTimed_015E_1,カツサンドが すきです
+OptionSelectTimed,textCutsceneScript33_OptionSelectTimed_015E_2,カツカレーが すきです
+WriteText,textCutsceneScript33_WriteText_01A8_0,カツどんが すきですね。<BR>
+WriteText,textCutsceneScript33_WriteText_01C5_0,いいね～。<BR>あたいも カツどん<BR>だいすきだぜ。<BR>
+WriteText,textCutsceneScript33_WriteText_01E0_0,ちなみに たいちょうも<BR>ドンブリものが だいすき<BR>なんだぜ。<BR>
+WriteText,textCutsceneScript33_WriteText_0202_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript33_WriteText_021D_0,カツサンドが すきですね。<BR>
+WriteText,textCutsceneScript33_WriteText_0232_0,それは ドンブリじゃ<BR>ねーだろ!<BR>
+WriteText,textCutsceneScript33_WriteText_024A_0,まあ たしかに あたいも<BR>カツサンドは だいすきだぜ。<BR>
+WriteText,textCutsceneScript33_WriteText_026D_0,でも ドンブリといえば<BR>カツどん。<BR>あたいは カツどんがいいな。<BR>
+WriteText,textCutsceneScript33_WriteText_0295_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript33_WriteText_02B0_0,カツカレーが すきですね。<BR>
+WriteText,textCutsceneScript33_WriteText_02C5_0,それは ドンブリじゃ<BR>ねーだろ!<BR>
+WriteText,textCutsceneScript33_WriteText_02DD_0,まあ たしかに あたいも<BR>カツカレーは だいすきだぜ。<BR>
+WriteText,textCutsceneScript33_WriteText_0300_0,でも ドンブリといえば<BR>カツどん。<BR>あたいは カツどんがいいな。<BR>
+WriteText,textCutsceneScript33_WriteText_0328_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript33_WriteText_0343_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript33_WriteText_0359_0,おいおい そんなに<BR>かんがえこむなよ。<BR>
+WriteText,textCutsceneScript33_WriteText_0374_0,ドンブリといえば カツどん。<BR>これできまりだろ。<BR>
+WriteText,textCutsceneScript33_WriteText_0390_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript33_WriteText_03A8_0,ミカサのなかで ひろった<BR>このおおきなちゃわん‥‥<BR>
+WriteText,textCutsceneScript33_WriteText_03CA_0,カンナさんのじゃないかしら?<BR>
+WriteText,textCutsceneScript33_WriteText_03DC_0,よし カンナさんに<BR>わたしにいきましょう。<BR>
+WriteText,textCutsceneScript33_WriteText_03F7_0,カンナさん。<BR>しつれいします。<BR>
+WriteText,textCutsceneScript33_WriteText_040E_0,おう <NAME>。<BR>どうした?<BR>
+WriteText,textCutsceneScript33_WriteText_0420_0,これ ひろったんですが<BR>カンナさんのですか?<BR>
+WriteText,textCutsceneScript33_WriteText_043E_0,おおっ!!!<BR>そのデカいちゃわん!<BR>それ あたいのだ!!<BR>
+WriteText,textCutsceneScript33_WriteText_046B_0,さがしてたんだよ～。<BR>サンキュー <NAME>。<BR>
+WriteText,textCutsceneScript33_WriteText_0485_0,それにしても<BR>デカいちゃわん<BR>ですよね～。<BR>
+WriteText,textCutsceneScript33_WriteText_04A2_0,あたいは このおおきさを<BR>ちゃわんと よんでるけど<BR>ふつうは ドンブリだよな。<BR>
+WriteText,textCutsceneScript33_WriteText_04CD_0,ところで <NAME>は<BR>ドンブリもの すきか?<BR>
+OptionSelectTimed,textCutsceneScript33_OptionSelectTimed_04E4_0,だぁーいスキ
+OptionSelectTimed,textCutsceneScript33_OptionSelectTimed_04E4_1,まあまあスキ
+OptionSelectTimed,textCutsceneScript33_OptionSelectTimed_04E4_2,あまりスキじゃない
+WriteText,textCutsceneScript33_WriteText_0523_0,だぁーいスキですよ<BR>とくに おやこどんとか。<BR>
+WriteText,textCutsceneScript33_WriteText_054A_0,いいね～ おやこどん。<BR>とりと たまごの<BR>ハーモニーがたまらないよな。<BR>
+WriteText,textCutsceneScript33_WriteText_0571_0,あーこんなこと はなしてたら<BR>ハラ へっちゃったよ。<BR>しょくどうに いこ!<BR>
+WriteText,textCutsceneScript33_WriteText_059A_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript33_WriteText_05B5_0,まあまあ スキですよ。<BR>ミニおやこどん<BR>くらいなら‥‥<BR>
+WriteText,textCutsceneScript33_WriteText_05D8_0,まあまあか‥‥<BR>おんなのこだから そんなもん<BR>だよな。<BR>
+WriteText,textCutsceneScript33_WriteText_05FB_0,でも‥‥ ひとこと<BR>いっとくぜ。<BR>
+WriteText,textCutsceneScript33_WriteText_060F_0,たとえ おんなのこでも<BR>わかいうちは たくさんくって<BR>たくさん うんどうしな。<BR>
+WriteText,textCutsceneScript33_WriteText_063E_0,びようと けんこうには<BR>これが いちばんだぜ。<BR>
+WriteText,textCutsceneScript33_WriteText_0659_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript33_WriteText_0674_0,すみません。<BR>ドンブリものは あまり<BR>スキじゃないんです。<BR>
+WriteText,textCutsceneScript33_WriteText_0699_0,なんだ‥‥<BR>あんまりすきじゃ ないのか?<BR>ま おんなのこだからな。<BR>
+WriteText,textCutsceneScript33_WriteText_06C2_0,でも‥‥ ひとこと<BR>いっとくぜ。<BR>
+WriteText,textCutsceneScript33_WriteText_06D6_0,たとえ おんなのこでも<BR>わかいうちは たくさんくって<BR>たくさん うんどうしな。<BR>
+WriteText,textCutsceneScript33_WriteText_0705_0,びようと けんこうには<BR>これが いちばんだぜ。<BR>
+WriteText,textCutsceneScript33_WriteText_0720_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>
+WriteText,textCutsceneScript33_WriteText_073B_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript33_WriteText_0751_0,おいおい そんなに<BR>かんがえこむなよ。<BR>
+WriteText,textCutsceneScript33_WriteText_076C_0,まあいいや。<BR>じゃあ ひとつ<BR>アドバイスをしておくぜ。<BR>
+WriteText,textCutsceneScript33_WriteText_078F_0,たとえ おんなのこでも<BR>わかいうちは たくさんくって<BR>たくさん うんどうしな。<BR>
+WriteText,textCutsceneScript33_WriteText_07BA_0,びようと けんこうには<BR>これが いちばんだ。<BR>
+WriteText,textCutsceneScript33_WriteText_07D8_0,それじゃあ <NAME><BR>わざわざ ありがとな。<BR>

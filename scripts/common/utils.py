@@ -2,6 +2,20 @@ import struct
 from ast import literal_eval
 from collections import OrderedDict
 
+class AliasDict(dict):
+    def __init__(self, *args, **kwargs):
+        dict.__init__(self, *args, **kwargs)
+        self.aliases = {}
+
+    def __getitem__(self, key):
+        return dict.__getitem__(self, self.aliases.get(key, key))
+
+    def __setitem__(self, key, value):
+        return dict.__setitem__(self, self.aliases.get(key, key), value)
+
+    def alias(self, key, alias):
+        self.aliases[alias] = key
+
 def merge_dicts(dict_list):
     result = OrderedDict()
     for dictionary in dict_list:
@@ -29,28 +43,37 @@ def real2romaddr(i):
 class ContinueLoopException(Exception):
     pass
 def txt2bin(txt, tbl, pad=0, padbyte=0):
-    tbl_max = 4 # Most characters we see are 4
+    tbl_max = max(len(x) for x in tbl.keys())
     tmap = []
     idx = 0
     while idx < len(txt):
-        try:
-            if txt[idx] == '\\' and idx + 3 < len(txt) and txt[idx + 1] == 'x': # \xHH
-                tmap.append(int(txt[idx + 2:idx + 4], 16))
-                idx += 3
+        # Literal hex
+        if txt[idx] == '\\' and idx + 3 < len(txt) and txt[idx + 1] == 'x': # \xHH
+            tmap.append(int(txt[idx + 2:idx + 4], 16))
+            idx += 3
+        else:
+            # Find the longest matches first
+            key = None
+            for i in reversed(range(1, tbl_max + 1)):
+                if idx + i > len(txt):
+                    continue
+                key = txt[idx:idx+i]
+                if key in tbl:
+                    break
             else:
-                for i in reversed(range(1, tbl_max + 1)): # This should be looked at and probably redone later
-                    if idx + i > len(txt):
-                        continue
-                    if txt[idx:idx+i] in tbl:
-                        tmap.append(tbl[txt[idx:idx+i]])
-                        idx += i-1
-                        raise ContinueLoopException
-                print("Unable to find mapping for 0x%02X (%c)" % (ord(txt[idx]), txt[idx]))
-                tmap.append(0x75) # ? in english, ？ in JP
-        except ContinueLoopException:
-            continue 
-        finally:
-            idx += 1
+                raise KeyError
+
+            # Prepare the byte to be written into the tmap
+            # Note that if the associated value is > 0xFF, we need to write it out in big endian
+            val = tbl[key]
+            while val.bit_length() > 8:
+                # Shift all but the highest 8 bits
+                tmap.append( val >> ((val.bit_length() // 8) * 8) & 0xFF)
+                val = val & ~(0xFF << (val.bit_length() // 8) * 8)
+
+            tmap.append(val & 0xff)
+            idx += i-1
+        idx += 1
     assert(pad == 0 or pad-len(tmap) >= 0)
     return tmap if not pad else (tmap + ([padbyte]*(pad-len(tmap))))[0:pad]
 

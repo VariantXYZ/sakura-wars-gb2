@@ -1,0 +1,88 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript2A_WriteText_0011_0,ミカサでみつけた<BR>この ティーカップ‥‥<BR>
+WriteText,textCutsceneScript2A_WriteText_002E_0,きっと すみれさんのだな。<BR>
+WriteText,textCutsceneScript2A_WriteText_003F_0,すみれさんのところへ<BR>もっていこう。<BR>
+WriteText,textCutsceneScript2A_WriteText_0057_0,すみれさん。<BR>しつれいします。<BR>
+WriteText,textCutsceneScript2A_WriteText_006E_0,<NAME>さん。<BR>なにかごようですの?<BR>
+WriteText,textCutsceneScript2A_WriteText_0084_0,これ みつけたんですが<BR>すみれさんのですか?<BR>
+WriteText,textCutsceneScript2A_WriteText_00A2_0,ティーカップ‥‥<BR>
+WriteText,textCutsceneScript2A_WriteText_00B2_0,その すみれの はながらは<BR>たしかに わたくしの<BR>ものですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_00E2_0,わざわざ とどけてくださって<BR>すみませんわね<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript2A_WriteText_0105_0,それにしても<BR>なかなか がんばっている<BR>ようですわね。<BR>
+WriteText,textCutsceneScript2A_WriteText_0124_0,そんな <NAME>さんに<BR>いいことを おしえましょう。<BR>
+WriteText,textCutsceneScript2A_WriteText_013F_0,かんざきふうじんりゅうの<BR>ごくいですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0157_0,かんざきふうじんりゅうは<BR>1に ゆうがに<BR>2に あでやかに<BR>
+WriteText,textCutsceneScript2A_WriteText_0178_0,3 4 がなくて<BR>5に じょうひんに<BR>ですのよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0194_0,すなわち<BR>かんざきふうじんりゅうの<BR>ごくいを ひとことでいうと<BR>
+WriteText,textCutsceneScript2A_WriteText_01B7_0,‥‥わかりますわね。<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript2A_WriteText_01CD_0,はい。<BR>かんざきふうじんりゅうの <BR>ごくいをひとことでいうと‥‥<BR>
+OptionSelectTimed,textCutsceneScript2A_OptionSelectTimed_01F1_0,うつくしく たたかう
+OptionSelectTimed,textCutsceneScript2A_OptionSelectTimed_01F1_1,わがままに たたかう
+OptionSelectTimed,textCutsceneScript2A_OptionSelectTimed_01F1_2,おけしょうして たたかう
+WriteText,textCutsceneScript2A_WriteText_023B_0,かんざきふうじんりゅうとは<BR>うつくしく たたかうこと<BR>ですね。<BR>
+WriteText,textCutsceneScript2A_WriteText_026B_0,そのとおりですわ。<BR>でも ただ うつくしい<BR>だけでは ありませんのよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0292_0,ほんとうに わざを<BR>きわめたもの というのは<BR>
+WriteText,textCutsceneScript2A_WriteText_02AC_0,たたかいであっても<BR>げいじゅつのように<BR>うつくしい ものなのですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_02D2_0,これは<BR>そのように なりなさい<BR>というおしえなのです。<BR>
+WriteText,textCutsceneScript2A_WriteText_02F5_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2A_WriteText_0313_0,かんざきふうじんりゅうとは<BR>わがままに たたかうこと<BR>ですね。<BR>
+WriteText,textCutsceneScript2A_WriteText_033A_0,‥‥<NAME>さん。<BR>あなたは なにも<BR>わかっておりませんわね。<BR>
+WriteText,textCutsceneScript2A_WriteText_035A_0,うつくしく たたかう<BR>ということは<BR>
+WriteText,textCutsceneScript2A_WriteText_036F_0,うごきに むだがない<BR>ということですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0387_0,ほんとうに わざを<BR>きわめたものとは<BR>そういうものですのよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_03AD_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2A_WriteText_03CB_0,かんざきふうじんりゅうとは<BR>おけしょうをして<BR>うつくしくなって‥‥<BR>
+WriteText,textCutsceneScript2A_WriteText_03F0_0,たたかうこと‥‥<BR>ですよね。<BR>
+WriteText,textCutsceneScript2A_WriteText_0406_0,‥‥そういうことでは<BR>ないのですわよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_041D_0,うつくしくたたかう<BR>ということは<BR>おけしょうを するのではなく<BR>
+WriteText,textCutsceneScript2A_WriteText_0444_0,うごきに むだがない<BR>ということですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_045C_0,ほんとうに わざを<BR>きわめたものとは<BR>そういうものですのよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0482_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2A_WriteText_04A0_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript2A_WriteText_04B6_0,わかりませんの?<BR>かんざきふうじんりゅうの<BR>ごくいは うつくしくですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_04DE_0,うつくしく たたかう<BR>ということは うごきに<BR>ムダがないということですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0507_0,わざを きわめる<BR>ということは<BR>そういうことですのよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_052A_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2A_WriteText_0545_0,ミカサでみつけた<BR>この ティーカップ‥‥<BR>
+WriteText,textCutsceneScript2A_WriteText_0562_0,きっと すみれさんのね。<BR>
+WriteText,textCutsceneScript2A_WriteText_0572_0,すみれさんのところへ<BR>もっていきましょう。<BR>
+WriteText,textCutsceneScript2A_WriteText_058D_0,すみれさん。<BR>しつれいします。<BR>
+WriteText,textCutsceneScript2A_WriteText_05A4_0,<NAME>さん。<BR>なにかごようですの?<BR>
+WriteText,textCutsceneScript2A_WriteText_05BA_0,これを みつけたのですが<BR>すみれさんのですか?<BR>
+WriteText,textCutsceneScript2A_WriteText_05D9_0,ティーカップ‥‥<BR>
+WriteText,textCutsceneScript2A_WriteText_05E9_0,その すみれの はながらは<BR>たしかに わたくしの<BR>ものですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0619_0,わざわざ とどけてくださって<BR>すみませんわね<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript2A_WriteText_063C_0,それにしても<BR>なかなか がんばっている<BR>ようですわね。<BR>
+WriteText,textCutsceneScript2A_WriteText_065B_0,そんな <NAME>さんに<BR>いいことを おしえましょう。<BR>
+WriteText,textCutsceneScript2A_WriteText_0676_0,かんざきふうじんりゅうの<BR>ごくいですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_068E_0,かんざきふうじんりゅうは<BR>1に ゆうがに<BR>2に あでやかに<BR>
+WriteText,textCutsceneScript2A_WriteText_06AF_0,3 4 がなくて<BR>5に じょうひんに<BR>ですのよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_06CB_0,すなわち<BR>かんざきふうじんりゅうの<BR>ごくいを ひとことでいうと<BR>
+WriteText,textCutsceneScript2A_WriteText_06EE_0,‥‥わかりますわね。<BR><NAME>さん。<BR>
+WriteText,textCutsceneScript2A_WriteText_0704_0,はい。<BR>かんざきふうじんりゅうの <BR>ごくいをひとことでいうと‥‥<BR>
+OptionSelectTimed,textCutsceneScript2A_OptionSelectTimed_0728_0,うつくしく たたかう
+OptionSelectTimed,textCutsceneScript2A_OptionSelectTimed_0728_1,わがままに たたかう
+OptionSelectTimed,textCutsceneScript2A_OptionSelectTimed_0728_2,つまり たたかわない
+WriteText,textCutsceneScript2A_WriteText_0770_0,かんざきふうじんりゅうとは<BR>うつくしく たたかうこと<BR>ですね。<BR>
+WriteText,textCutsceneScript2A_WriteText_07A0_0,そのとおりですわ。<BR>でも ただ うつくしい<BR>だけでは ありませんのよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_07C7_0,ほんとうに わざを<BR>きわめたもの というのは<BR>
+WriteText,textCutsceneScript2A_WriteText_07E1_0,たたかいであっても<BR>げいじゅつのように<BR>うつくしい ものなのですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0807_0,これは<BR>そのように なりなさい<BR>というおしえなのです。<BR>
+WriteText,textCutsceneScript2A_WriteText_082A_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2A_WriteText_0848_0,かんざきふうじんりゅうとは<BR>わがままに たたかうこと<BR>ですね。<BR>
+WriteText,textCutsceneScript2A_WriteText_086F_0,‥‥<NAME>さん。<BR>あなたは なにも<BR>わかっておりませんわね。<BR>
+WriteText,textCutsceneScript2A_WriteText_088F_0,うつくしくたたかう<BR>ということは<BR>
+WriteText,textCutsceneScript2A_WriteText_08A3_0,うごきに むだがない<BR>ということですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_08BB_0,ほんとうに わざを<BR>きわめたものとは<BR>そういうものですのよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_08E1_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2A_WriteText_08FF_0,かんざきふうじんりゅうとは<BR>つまりは たたかわないで<BR>いること なんですね。<BR>
+WriteText,textCutsceneScript2A_WriteText_092D_0,‥‥そういうことでは<BR>ないのですわよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0948_0,うつくしく たたかう<BR>ということは いっけん<BR>むじゅんに きこえますが<BR>
+WriteText,textCutsceneScript2A_WriteText_096F_0,わざを きわめたものの<BR>たたかいとは うつくしい<BR>げいじゅつのようなのですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_099A_0,それは うごきに<BR>ムダがないから<BR>ですのよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_09B8_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>
+WriteText,textCutsceneScript2A_WriteText_09D6_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript2A_WriteText_09EC_0,わかりませんの?<BR>かんざきふうじんりゅうの<BR>ごくいは うつくしくですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0A14_0,うつくしく たたかう<BR>ということは うごきに<BR>ムダがないということですわ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0A3D_0,わざを きわめる<BR>ということは<BR>そういうことですのよ。<BR>
+WriteText,textCutsceneScript2A_WriteText_0A60_0,それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>

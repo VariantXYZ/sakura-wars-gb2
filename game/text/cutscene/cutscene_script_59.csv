@@ -1,0 +1,65 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript59_WriteText_0012_0,<NAME>はん<BR>つぎの しゅつげきばしょは<BR>『せいまじょう』の ちかや。<BR>
+WriteText,textCutsceneScript59_WriteText_003C_0,『せいまじょう』の ちかって<BR>ものすごく ぶきみな<BR>かんじがしまーす。<BR>
+WriteText,textCutsceneScript59_WriteText_0069_0,そうやな‥‥<BR>しろのちか いうたら<BR>『ろうごく』 やもんな‥‥<BR>
+WriteText,textCutsceneScript59_WriteText_0092_0,まものたちの おんねんが<BR>うずまいている ばしょ‥‥<BR>と いえるわね。<BR>
+WriteText,textCutsceneScript59_WriteText_00BD_0,おんねん‥‥<BR>と いうことは‥‥<BR>
+WriteText,textCutsceneScript59_WriteText_00D5_0,ゾンビなんかも<BR>いるでーすか!?<BR>
+WriteText,textCutsceneScript59_WriteText_00ED_0,そうね なにがでてきても<BR>おかしくないわね。<BR>
+WriteText,textCutsceneScript59_WriteText_010B_0,ゾンビ‥‥<BR>よみがえりしもの‥‥<BR>ようするに オバケやな。<BR>
+WriteText,textCutsceneScript59_WriteText_0130_0,オバケって どうたたかえば<BR>いいのでーすか?<BR>
+WriteText,textCutsceneScript59_WriteText_014E_0,むずかしいわね‥‥<BR>でも <NAME>くんなら<BR>だいじょうぶでしょ?<BR>
+OptionSelectTimed,textCutsceneScript59_OptionSelectTimed_016F_0,まかせてください
+OptionSelectTimed,textCutsceneScript59_OptionSelectTimed_016F_1,ちょっと ふあんです
+WriteText,textCutsceneScript59_WriteText_01A0_0,まかせてください。<BR>ゾンビでも トンビでも<BR>うけてたちますよ。<BR>
+WriteText,textCutsceneScript59_WriteText_01D0_0,Oh! <NAME>さん<BR>たのもしいでーす。<BR>
+WriteText,textCutsceneScript59_WriteText_01F2_0,じしんたっぷりやな<BR><NAME>はん。<BR>たよりになるやないの!<BR>
+WriteText,textCutsceneScript59_WriteText_021D_0,フフフ‥‥<BR>でも ゆだんはきんもつよ<BR><NAME>くん。<BR>
+WriteText,textCutsceneScript59_WriteText_023E_0,ちょっと ふあんです。<BR>ゾンビだなんて<BR>どう たたかえばいいのか‥‥<BR>
+WriteText,textCutsceneScript59_WriteText_0268_0,ゾンビ‥‥<BR>しんでいる まもの‥‥<BR>
+WriteText,textCutsceneScript59_WriteText_0281_0,‥‥そうね‥‥だったら<BR>ほのおで もやしてしまう<BR>なんて どうかしら?<BR>
+WriteText,textCutsceneScript59_WriteText_02AC_0,なるほど!!<BR>マリアはん それはエエ<BR>アイデアや!!<BR>
+WriteText,textCutsceneScript59_WriteText_02CE_0,ほのおで もやしてしまえば<BR>さすがの ゾンビもふっかつ<BR>できへんやろ。<BR>
+WriteText,textCutsceneScript59_WriteText_02F9_0,マリアさん<BR>ナイス アイデアでーす!<BR>
+WriteText,textCutsceneScript59_WriteText_0315_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript59_WriteText_032B_0,<NAME>くん<BR>まよっていては ダメよ。<BR>
+WriteText,textCutsceneScript59_WriteText_0343_0,そうでーす。<BR>まよいは はいぼくを<BR>ひきよせまーす。<BR>
+WriteText,textCutsceneScript59_WriteText_0365_0,ココまで これた<BR><NAME>はんや!<BR>
+WriteText,textCutsceneScript59_WriteText_0377_0,このさき なにがあっても<BR>だいじょうぶやって。<BR>
+WriteText,textCutsceneScript59_WriteText_0396_0,そうでーす。<BR>きあいをいれて<BR>がんばるでーす!!<BR>
+WriteText,textCutsceneScript59_WriteText_03B9_0,ほな <NAME>はん<BR>じゅんびができたら<BR>しゅつげきや!<BR>
+WriteText,textCutsceneScript59_WriteText_03D9_0,がんばってね<BR><NAME>くん。<BR>
+WriteText,textCutsceneScript59_WriteText_03EC_0,<NAME>さん<BR>ガッツですよ ガッツ!!<BR>
+WriteText,textCutsceneScript59_WriteText_0404_0,きばって いこな<BR><NAME>はん!!<BR>
+WriteText,textCutsceneScript59_WriteText_0417_0,<NAME>はん<BR>つぎの しゅつげきばしょは<BR>『せいまじょう』の ちかや。<BR>
+WriteText,textCutsceneScript59_WriteText_0441_0,『せいまじょう』の ちかって<BR>ものすごく ぶきみな<BR>かんじがしまーす。<BR>
+WriteText,textCutsceneScript59_WriteText_046E_0,そうやな‥‥<BR>しろのちか いうたら<BR>『ろうごく』 やもんな‥‥<BR>
+WriteText,textCutsceneScript59_WriteText_0497_0,まものたちの おんねんが<BR>うずまいている ばしょ‥‥<BR>と いえるわね。<BR>
+WriteText,textCutsceneScript59_WriteText_04C2_0,おんねん‥‥<BR>と いうことは‥‥<BR>
+WriteText,textCutsceneScript59_WriteText_04DA_0,ゾンビなんかも<BR>いるでーすか!?<BR>
+WriteText,textCutsceneScript59_WriteText_04F2_0,そうね なにがでてきても<BR>おかしくないわね。<BR>
+WriteText,textCutsceneScript59_WriteText_0510_0,ゾンビ‥‥<BR>よみがえりしもの‥‥<BR>ようするに オバケやな。<BR>
+WriteText,textCutsceneScript59_WriteText_0535_0,オバケって どうたたかえば<BR>いいのでーすか?<BR>
+WriteText,textCutsceneScript59_WriteText_0553_0,むずかしいわね‥‥<BR>でも <NAME>なら<BR>だいじょうぶでしょ?<BR>
+OptionSelectTimed,textCutsceneScript59_OptionSelectTimed_0572_0,まかせてください
+OptionSelectTimed,textCutsceneScript59_OptionSelectTimed_0572_1,ちょっと ふあんです
+WriteText,textCutsceneScript59_WriteText_05A3_0,まかせてください。<BR>ゾンビでも トンビでも<BR>うけてたちますよ。<BR>
+WriteText,textCutsceneScript59_WriteText_05D3_0,Oh! <NAME>さん<BR>たのもしいでーす。<BR>
+WriteText,textCutsceneScript59_WriteText_05F5_0,<NAME>はん。<BR>おんなのこなのに<BR>エライ どきょうやな!<BR>
+WriteText,textCutsceneScript59_WriteText_061F_0,フフフ‥‥<BR>でも ゆだんはきんもつよ<BR><NAME>。<BR>
+WriteText,textCutsceneScript59_WriteText_063E_0,ちょっと ふあんです。<BR>ゾンビだなんて<BR>どう たたかえばいいのか‥‥<BR>
+WriteText,textCutsceneScript59_WriteText_0668_0,ゾンビ‥‥<BR>しんでいる まもの‥‥<BR>
+WriteText,textCutsceneScript59_WriteText_0681_0,‥‥そうね‥‥だったら<BR>ほのおで もやしてしまう<BR>なんて どうかしら?<BR>
+WriteText,textCutsceneScript59_WriteText_06AC_0,なるほど!!<BR>マリアはん それはエエ<BR>アイデアや!!<BR>
+WriteText,textCutsceneScript59_WriteText_06CE_0,ほのおで もやしてしまえば<BR>さすがの ゾンビもふっかつ<BR>できへんやろ。<BR>
+WriteText,textCutsceneScript59_WriteText_06F9_0,マリアさん<BR>ナイス アイデアでーす!<BR>
+WriteText,textCutsceneScript59_WriteText_0715_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript59_WriteText_072B_0,<NAME><BR>まよっていては ダメよ。<BR>
+WriteText,textCutsceneScript59_WriteText_0741_0,そうでーす。<BR>まよいは はいぼくを<BR>ひきよせまーす。<BR>
+WriteText,textCutsceneScript59_WriteText_0763_0,ココまで これた<BR><NAME>はんや!<BR>
+WriteText,textCutsceneScript59_WriteText_0775_0,このさき なにがあっても<BR>だいじょうぶやって。<BR>
+WriteText,textCutsceneScript59_WriteText_0794_0,そうでーす。<BR>きあいをいれて<BR>がんばるでーす!!<BR>
+WriteText,textCutsceneScript59_WriteText_07B7_0,ほな <NAME>はん<BR>じゅんびができたら<BR>しゅつげきや!<BR>
+WriteText,textCutsceneScript59_WriteText_07D7_0,がんばってね <NAME>。<BR>
+WriteText,textCutsceneScript59_WriteText_07E8_0,<NAME>さん<BR>ガッツですよ ガッツ!!<BR>
+WriteText,textCutsceneScript59_WriteText_0800_0,きばって いこな<BR><NAME>はん!!<BR>

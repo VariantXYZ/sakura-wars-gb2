@@ -1,0 +1,53 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript37_WriteText_0011_0,さっきみつけた<BR>この うちゅうのほん‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_002F_0,レニさんの ところへ<BR>もっていってみよう。<BR>
+WriteText,textCutsceneScript37_WriteText_004A_0,レニさん。<BR>
+WriteText,textCutsceneScript37_WriteText_0057_0,<NAME><BR>なにかよう?<BR>
+WriteText,textCutsceneScript37_WriteText_0066_0,こんな ほんを<BR>みつけたのですが‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_0080_0,ほん‥‥?<BR>うちゅうのほん‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_0093_0,ああ‥‥<BR>それは ボクのだよ。<BR>
+WriteText,textCutsceneScript37_WriteText_00B3_0,わざわざ ありがとう。<BR><NAME>。<BR>
+WriteText,textCutsceneScript37_WriteText_00C8_0,レニさんって よく<BR>よぞらを みあげてますよね。<BR>そして そのほん‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_00EF_0,レニさんは うちゅうが<BR>すきなんですか?<BR>
+WriteText,textCutsceneScript37_WriteText_010B_0,すきというか<BR>きょうみはあるよ。<BR>
+WriteText,textCutsceneScript37_WriteText_011F_0,<NAME> うちゅうには<BR>きょうみが ない?<BR>
+OptionSelectTimed,textCutsceneScript37_OptionSelectTimed_0135_0,ある
+OptionSelectTimed,textCutsceneScript37_OptionSelectTimed_0135_1,ない
+WriteText,textCutsceneScript37_WriteText_0158_0,ありますよ。<BR>むげんに ひろがる<BR>だいうちゅう‥‥ですもんね。<BR>
+WriteText,textCutsceneScript37_WriteText_0188_0,そうだね。<BR>うちゅうの ひろがりは<BR>はてしない‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_01A5_0,ボクも いつか むげんの<BR>うちゅうに いけたら‥‥<BR>と おもってるんだ。<BR>
+WriteText,textCutsceneScript37_WriteText_01D1_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_01E5_0,そうですね‥‥<BR>どちらかといえば ない<BR>ですね。<BR>
+WriteText,textCutsceneScript37_WriteText_0205_0,そう‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_020D_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_0221_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>きょうみ ある ないって<BR>かんがえたこと ないです。<BR>
+WriteText,textCutsceneScript37_WriteText_0252_0,そう‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_025A_0,たまには ほしぞらを<BR>みてみるのもいい。<BR>こころがおちつく‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_0280_0,そうですね。<BR>いいですね。<BR>
+WriteText,textCutsceneScript37_WriteText_0295_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_02A6_0,さっきみつけた<BR>この うちゅうのほん‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_02C4_0,レニさんの ところへ<BR>もっていってみよう。<BR>
+WriteText,textCutsceneScript37_WriteText_02DF_0,レニさん。<BR>
+WriteText,textCutsceneScript37_WriteText_02EC_0,<NAME><BR>なにかよう?<BR>
+WriteText,textCutsceneScript37_WriteText_02FB_0,こんな ほんを<BR>みつけたのですが‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_0315_0,ほん‥‥?<BR>うちゅうのほん‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_0328_0,ああ‥‥<BR>それは ボクのだよ。<BR>
+WriteText,textCutsceneScript37_WriteText_0348_0,わざわざ ありがとう。<BR><NAME>。<BR>
+WriteText,textCutsceneScript37_WriteText_035D_0,レニさんって よく<BR>よぞらを みあげてますよね。<BR>そして そのほん‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_0384_0,レニさんは うちゅうが<BR>すきなんですか?<BR>
+WriteText,textCutsceneScript37_WriteText_03A0_0,すきというか<BR>きょうみはあるよ。<BR>
+WriteText,textCutsceneScript37_WriteText_03B4_0,<NAME> うちゅうには<BR>きょうみが ない?<BR>
+OptionSelectTimed,textCutsceneScript37_OptionSelectTimed_03CA_0,ある
+OptionSelectTimed,textCutsceneScript37_OptionSelectTimed_03CA_1,ない
+WriteText,textCutsceneScript37_WriteText_03ED_0,ありますよ。<BR>ほしは きれいですし<BR>ゆめが ありますから。<BR>
+WriteText,textCutsceneScript37_WriteText_041B_0,そうだね。<BR>はてしなく ひろがっている<BR>うちゅうには ゆめがある。<BR>
+WriteText,textCutsceneScript37_WriteText_0440_0,ボクも いつか こうだいな<BR>うちゅうに いけたら‥‥<BR>と おもってるんだ。<BR>
+WriteText,textCutsceneScript37_WriteText_046D_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_0481_0,そうですね‥‥<BR>どちらかといえば ない<BR>ですね。<BR>
+WriteText,textCutsceneScript37_WriteText_04A1_0,そう‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_04A9_0,それじゃあ <NAME><BR>また‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_04BD_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>きょうみ ある ないって<BR>かんがえたこと ないです。<BR>
+WriteText,textCutsceneScript37_WriteText_04EE_0,そう‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_04F6_0,たまには ほしぞらを<BR>みてみるのもいい。<BR>こころがおちつく‥‥<BR>
+WriteText,textCutsceneScript37_WriteText_051C_0,そうですね。<BR>きれいで こころが<BR>おちつきますね。<BR>
+WriteText,textCutsceneScript37_WriteText_053D_0,それじゃあ <NAME><BR>また‥‥<BR>

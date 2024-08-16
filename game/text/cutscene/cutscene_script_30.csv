@@ -1,0 +1,80 @@
+Type,Identifier,Text
+WriteText,textCutsceneScript30_WriteText_0011_0,ミカサのなかで ひろった<BR>この まるいメガネ‥‥<BR>
+WriteText,textCutsceneScript30_WriteText_0032_0,きっと こうらんさんのだな。<BR>
+WriteText,textCutsceneScript30_WriteText_0044_0,こうらんさんの ところへ<BR>もっていこう。<BR>
+WriteText,textCutsceneScript30_WriteText_005E_0,こうらんさん。<BR>しつれいします。<BR>
+WriteText,textCutsceneScript30_WriteText_0076_0,<NAME>はん。<BR>どないしたんや?<BR>
+WriteText,textCutsceneScript30_WriteText_008A_0,これ ひろったんですが<BR>こうらんさんのですか?<BR>
+WriteText,textCutsceneScript30_WriteText_00A9_0,まるいメガネ?<BR>
+WriteText,textCutsceneScript30_WriteText_00B4_0,ああ それは ウチのや。<BR>
+WriteText,textCutsceneScript30_WriteText_00D1_0,わざわざ とどけてくれて<BR>ありがとう <NAME>はん。<BR>
+WriteText,textCutsceneScript30_WriteText_00EF_0,こうらんさんって<BR>おなじメガネを いくつも<BR>もっているんですか?<BR>
+WriteText,textCutsceneScript30_WriteText_0117_0,そうや。<BR>はつめいしてて ばくはつ<BR>することもあるし<BR>
+WriteText,textCutsceneScript30_WriteText_0135_0,あと たたかってるときも<BR>けっこう こわれるし<BR>それと あれやな‥‥<BR>
+WriteText,textCutsceneScript30_WriteText_015B_0,あたまのうえに メガネが<BR>あるのに ついうっかり<BR>さがしてしもたり するしな。<BR>
+WriteText,textCutsceneScript30_WriteText_0189_0,あー あの「メガネ メガネ」<BR>っていう やつですね。<BR>
+WriteText,textCutsceneScript30_WriteText_01AB_0,そや。<BR>そやから スペアはけっこう<BR>もってるで。<BR>
+WriteText,textCutsceneScript30_WriteText_01C7_0,いくつくらい<BR>もってるとおもう?<BR>カンでええから いうてみ。<BR>
+WriteText,textCutsceneScript30_WriteText_01E9_0,ヒントは 3ケタのきすうや。<BR>さあ わかるかな～?<BR>
+OptionSelectTimed,textCutsceneScript30_OptionSelectTimed_0206_0,101こ
+OptionSelectTimed,textCutsceneScript30_OptionSelectTimed_0206_1,1011こ
+OptionSelectTimed,textCutsceneScript30_OptionSelectTimed_0206_2,102こ
+WriteText,textCutsceneScript30_WriteText_023D_0,101こ じゃないですか?<BR>
+WriteText,textCutsceneScript30_WriteText_025B_0,ピンポン! ピンポン!<BR>おおあたりやーーー!!<BR>
+WriteText,textCutsceneScript30_WriteText_027A_0,まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>
+WriteText,textCutsceneScript30_WriteText_02A6_0,ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
+WriteText,textCutsceneScript30_WriteText_02C8_0,1011こ じゃないですか?<BR>
+WriteText,textCutsceneScript30_WriteText_02DE_0,ブブー。<BR>ハズレや。<BR>1011は 4ケタやないか。<BR>
+WriteText,textCutsceneScript30_WriteText_02FF_0,3ケタのきすう‥‥<BR>すなわち101こや。<BR>
+WriteText,textCutsceneScript30_WriteText_0317_0,ざんねんやったな。<BR>
+WriteText,textCutsceneScript30_WriteText_0328_0,ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
+WriteText,textCutsceneScript30_WriteText_034A_0,102こ ですか?<BR>
+WriteText,textCutsceneScript30_WriteText_035B_0,ブブー。<BR>ハズレや。<BR>102やったら ぐうすうや!<BR>
+WriteText,textCutsceneScript30_WriteText_037C_0,3ケタのきすう‥‥<BR>すなわち101こが<BR>せいかいや!<BR>
+WriteText,textCutsceneScript30_WriteText_039A_0,ざんねんやったな。<BR>
+WriteText,textCutsceneScript30_WriteText_03AB_0,ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
+WriteText,textCutsceneScript30_WriteText_03CD_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript30_WriteText_03E3_0,ブブー。<BR>じかんぎれでーす。<BR>
+WriteText,textCutsceneScript30_WriteText_03F5_0,せいかいは 101こや。<BR>ま わからんでも<BR>しょうがないな。<BR>
+WriteText,textCutsceneScript30_WriteText_041B_0,ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
+WriteText,textCutsceneScript30_WriteText_043A_0,ミカサのなかで ひろった<BR>この まるいメガネ‥‥<BR>
+WriteText,textCutsceneScript30_WriteText_045B_0,きっと こうらんさんのね。<BR>
+WriteText,textCutsceneScript30_WriteText_046C_0,こうらんさんの ところへ<BR>もっていきましょう。<BR>
+WriteText,textCutsceneScript30_WriteText_0489_0,こうらんさん。<BR>しつれいします。<BR>
+WriteText,textCutsceneScript30_WriteText_04A1_0,<NAME>はん。<BR>どないしたんや?<BR>
+WriteText,textCutsceneScript30_WriteText_04B5_0,これ ひろったんですが<BR>こうらんさんのですか?<BR>
+WriteText,textCutsceneScript30_WriteText_04D4_0,まるいメガネ?<BR>
+WriteText,textCutsceneScript30_WriteText_04DF_0,ああ それは ウチのや。<BR>
+WriteText,textCutsceneScript30_WriteText_04FC_0,わざわざ とどけてくれて<BR>ありがとう <NAME>はん。<BR>
+WriteText,textCutsceneScript30_WriteText_051A_0,こうらんさんって<BR>おなじメガネを いくつも<BR>もっているんですか?<BR>
+WriteText,textCutsceneScript30_WriteText_0542_0,そうや。<BR>はつめいしてて ばくはつ<BR>することもあるし<BR>
+WriteText,textCutsceneScript30_WriteText_0560_0,あと たたかってるときも<BR>けっこう こわれるし<BR>それと あれやな‥‥<BR>
+WriteText,textCutsceneScript30_WriteText_0586_0,あたまのうえに メガネが<BR>あるのに ついうっかり<BR>さがしてしもたり するしな。<BR>
+WriteText,textCutsceneScript30_WriteText_05B4_0,あー あの「メガネ メガネ」<BR>っていう やつですね。<BR>
+WriteText,textCutsceneScript30_WriteText_05D6_0,そや。<BR>そやから スペアはけっこう<BR>もってるで。<BR>
+WriteText,textCutsceneScript30_WriteText_05F2_0,いくつくらい もってると<BR>おもう。<BR>
+WriteText,textCutsceneScript30_WriteText_0607_0,カンでエエから<BR>いうてみ?<BR>
+WriteText,textCutsceneScript30_WriteText_0618_0,ヒントは 3ケタのきすうや。<BR>さあ わかるかな～?<BR>
+OptionSelectTimed,textCutsceneScript30_OptionSelectTimed_0635_0,101こ
+OptionSelectTimed,textCutsceneScript30_OptionSelectTimed_0635_1,11こ
+OptionSelectTimed,textCutsceneScript30_OptionSelectTimed_0635_2,1001こ
+WriteText,textCutsceneScript30_WriteText_066B_0,101こ じゃないですか?<BR>
+WriteText,textCutsceneScript30_WriteText_0689_0,ピンポン! ピンポン!<BR>おおあたりやーーー!!<BR>
+WriteText,textCutsceneScript30_WriteText_06A8_0,まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>
+WriteText,textCutsceneScript30_WriteText_06D4_0,ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
+WriteText,textCutsceneScript30_WriteText_06F6_0,11こ じゃないですか?<BR>
+WriteText,textCutsceneScript30_WriteText_070A_0,ブブー。<BR>ハズレや。<BR>
+WriteText,textCutsceneScript30_WriteText_0718_0,11こくらいやったら<BR>じっけんで こわれて<BR>すぐに なくなってまうわ。<BR>
+WriteText,textCutsceneScript30_WriteText_073F_0,せいかいは 101こや。<BR>
+WriteText,textCutsceneScript30_WriteText_074F_0,まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>
+WriteText,textCutsceneScript30_WriteText_077F_0,ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
+WriteText,textCutsceneScript30_WriteText_07A1_0,1001こ ですか?<BR>
+WriteText,textCutsceneScript30_WriteText_07B3_0,ブブー。<BR>ハズレです。<BR>
+WriteText,textCutsceneScript30_WriteText_07C2_0,いくらなんでも<BR>1001こも<BR>もってへんで。<BR>
+WriteText,textCutsceneScript30_WriteText_07DC_0,せいかいは 101こや。<BR>
+WriteText,textCutsceneScript30_WriteText_07EC_0,まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>
+WriteText,textCutsceneScript30_WriteText_081C_0,ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
+WriteText,textCutsceneScript30_WriteText_083E_0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+WriteText,textCutsceneScript30_WriteText_0854_0,ブブー。<BR>じかんぎれでーす。<BR>
+WriteText,textCutsceneScript30_WriteText_0866_0,せいかいは 101こや。<BR>ま わからんでも<BR>しょうがないな。<BR>
+WriteText,textCutsceneScript30_WriteText_088C_0,ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
