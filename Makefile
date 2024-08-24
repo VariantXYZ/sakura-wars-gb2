@@ -49,6 +49,7 @@ BASE_DIR := .
 BUILD_DIR := $(BASE_DIR)/build
 GAME_DIR := $(BASE_DIR)/game
 SRC_DIR := $(GAME_DIR)/src
+CORE_SRC_DIR := $(SRC_DIR)/core
 COMMON_DIR := $(SRC_DIR)/common
 SCRIPT_DIR := $(BASE_DIR)/scripts
 GFX_SRC_DIR := $(SRC_DIR)/gfx
@@ -121,8 +122,8 @@ $(BUILD_DIR)/cs.%.asm: $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) $(CUTSCENE_TEXT_D
 
 
 # Dumping
-.PHONY: dump dump_tilesets dump_cutscene_scripts
-dump: dump_tilesets dump_cutscene_scripts
+.PHONY: dump dump_tilesets dump_cutscene_scripts dump_free
+dump: dump_tilesets dump_cutscene_scripts dump_free
 
 dump_tilesets: | $(TILESET_GFX_DIR)
 	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE)) || echo ""
@@ -132,6 +133,9 @@ dump_cutscene_scripts: | $(CUTSCENE_TEXT_DIR) $(CUTSCENE_SCRIPT_DIR)
 	rm $(call ESCAPE,$(CUTSCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
 	rm $(call ESCAPE,$(CUTSCENE_TEXT_DIR)/*.$(CSV_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_cutscene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(CUTSCENE_TEXT_DIR)" "$(CUTSCENE_SCRIPT_DIR)"
+
+dump_free:
+	$(PYTHON) $(SCRIPT_DIR)/dump_free.py "$(ORIGINAL_ROM)" "$(CORE_SRC_DIR)/empty.asm"
 
 #Make directories if necessary
 $(BUILD_DIR):
