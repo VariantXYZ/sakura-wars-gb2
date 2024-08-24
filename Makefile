@@ -99,7 +99,6 @@ clean:
 $(BASE_DIR)/$(OUTPUT_PREFIX).$(ROM_TYPE): $(OBJECTS) | $(ORIGINAL_ROM)
 	$(LD) $(LD_ARGS) -n $(TARGET_SYM) -m $(TARGET_MAP) -O $| -o $@ $^
 	$(FIX) $(FIX_ARGS) $@
-	cmp -l $| $@
 
 # Build objects
 .SECONDEXPANSION:
