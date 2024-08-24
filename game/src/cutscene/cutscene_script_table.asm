@@ -2,6 +2,10 @@
 
 INCLUDE "game/src/common/macros.asm"
 
+; Use this to guard against overwriting non-empty banks
+SECTION "Cutscene Script Guard", ROMX[$4000], BANK[$50]
+db $07
+
 SECTION "Cutscene Script Table", ROMX[$4000], BANK[$40]
 EventCutsceneScriptTable::
   dwb $0000, $00
