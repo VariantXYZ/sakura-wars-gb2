@@ -147,7 +147,7 @@ class CutsceneScript:
         assert num_options > 0 and num_options <= 3
         assert num_options == len(texts)
         for i, text in enumerate(texts):
-            ret += self.WriteText(text, line_length_assert = True, max_width = 15 * 8) + [i]
+            ret += self.WriteText(text, line_length_assert = True, max_width = 16 * 8) + [i]
         return ret
 
     def ParseOptionSelect(self, data):
@@ -175,7 +175,7 @@ class CutsceneScript:
         assert num_options > 0 and num_options <= 3
         assert num_options == len(texts)
         for i, text in enumerate(texts):
-            ret += self.WriteText(text, line_length_assert = True, max_width = 15 * 8) + [i]
+            ret += self.WriteText(text, line_length_assert = True, max_width = 16 * 8) + [i]
         return ret
 
     def ParseBranch(self, data):
@@ -231,6 +231,9 @@ class CutsceneScript:
                 read_handler = lambda data: CutsceneScript.ParsedValue(num_param_bytes, parameters = data[:num_param_bytes]),
                 write_handler = CutsceneScript.CommandFunction.dummy_write_handler,
             )
+
+    def is_branch(self, command):
+        return self.COMMANDS[command].name in ["Branch", "ConditionalBranch"]
 
     def __init__(self, character_table, character_widths_table = None):
         # bytes -> text
