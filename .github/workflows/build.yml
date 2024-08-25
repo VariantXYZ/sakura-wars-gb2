@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - master
+    pull_request:
 
   # Allows running manually
   workflow_dispatch:
@@ -34,6 +35,7 @@ jobs:
         with:
           repository: ${{ secrets.BASEROM_REPOSITORY }}
           ssh-key: ${{ secrets.BASEROM_KEY }}
+          ref: master
           path: 'baserom'
 
       - name: Copy baserom into main repository
