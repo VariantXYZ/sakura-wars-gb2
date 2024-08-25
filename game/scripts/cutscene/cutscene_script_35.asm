@@ -6,208 +6,208 @@ CutsceneScript35::
   Unknown12 $17
   FlagIsFemale
   ConditionalBranch .reference_0405,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript35_WriteText_0011_0
+  WriteText さっきみつけた<BR>ショパンのがくふ‥‥<BR>
   Unknown05 $84,$A0,$01,$00
   End
-  WriteText textCutsceneScript35_WriteText_002C_0
+  WriteText どうしようかな‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_0039_0
+  WriteText とりあえず おりひめさんの<BR>ところへ もっていくか。<BR>
   PromptContinue
   Unknown1E $1F
-  WriteText textCutsceneScript35_WriteText_0059_0
+  WriteText おりひめさん。<BR>ちょっといいですか?<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript35_WriteText_0073_0
+  WriteText あら <NAME>さん<BR>どうしたですか?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_0089_0
+  WriteText こんなものを みつけたの<BR>ですが‥‥<BR>おりひめさんのですか?<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript35_WriteText_00AF_0
+  WriteText ショパンのがくふ?<BR>それは わたしのでーす。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText textCutsceneScript35_WriteText_00D6_0
+  WriteText わざわざ どーもです。<BR><NAME>さん。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_00ED_0
+  WriteText おりひめさん ピアノ<BR>ひけるんですか?<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript35_WriteText_0108_0
+  WriteText イエース。<BR>わたし ピアノ<BR>だいすきでーす。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_0125_0
+  WriteText ボクも おんがくは<BR>すきですよ。<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript35_WriteText_013D_0
+  WriteText <NAME>さんは どんな<BR>おんがくを ききますか?<BR>
   PromptContinue
-  OptionSelectTimed $04,$03,textCutsceneScript35_OptionSelectTimed_0156_0,textCutsceneScript35_OptionSelectTimed_0156_1,textCutsceneScript35_OptionSelectTimed_0156_2
+  OptionSelectTimed $04,$03,クラシック,えんか,ロック
   ConditionalBranch .reference_0188,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_0219,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_02E3,$02,$01,$01,$02,$20,$00
   Branch .reference_036B
 .reference_0188
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_018B_0
+  WriteText クラシックを<BR>よく ききます。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$08,$28,$00
-  WriteText textCutsceneScript35_WriteText_01AB_0
+  WriteText <NAME>さん ワンダフル!<BR>クラシックを きいている<BR>なんて グーッドでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_01D3_0
+  WriteText おんがくは クラシックが<BR>イチバンでーす!<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_01EC_0
+  WriteText それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。チャオ<RED>♥<BLACK><BR>
   PromptContinue
   End
 .reference_0219
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_021C_0
+  WriteText じつは えんかが<BR>すき なんですよ。<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript35_WriteText_0236_0
+  WriteText Oh! ジャパニーズソウル<BR>ソングでーすね。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_0250_0
+  WriteText くろうして うみをみて<BR>なみだながして がまんして<BR>ドこんじょう。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript35_WriteText_0279_0
+  WriteText ユキげしきなんかも<BR>アリでーすね。<BR>
   PromptContinue
   PlaybackSample $40,$97,$03,$97,$01,$04,$28,$00
-  WriteText textCutsceneScript35_WriteText_0297_0
+  WriteText わたしも たまにききまーす。<BR><NAME>さん なかなか<BR>しぶいシュミしてますね。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_02BF_0
+  WriteText それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>
   PromptContinue
   End
 .reference_02E3
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_02E6_0
+  WriteText ロックを よくききますよ。<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript35_WriteText_02FB_0
+  WriteText Oh! いかにも わかもの<BR>らしいでーすね。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_0315_0
+  WriteText ロック ロックで<BR>フィーバー フィーバー。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_032E_0
+  WriteText でも わたしは あまり<BR>きかないのでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_0347_0
+  WriteText それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>
   PromptContinue
   End
 .reference_036B
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_036E_0
+  WriteText ‥‥‥‥‥‥‥‥とくに<BR>こだわって きいているものは<BR>ないです。<BR>
   PromptContinue
   SetPortrait $07,$07,$07
-  WriteText textCutsceneScript35_WriteText_0396_0
+  WriteText そうなんですか?<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript35_WriteText_03A6_0
+  WriteText じゃあ これからは<BR>クラシックを きいてみると<BR>いいでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_03C8_0
+  WriteText おんがくは クラシックが<BR>イチバンでーす!<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_03E1_0
+  WriteText それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>
   PromptContinue
   End
 .reference_0405
-  WriteText textCutsceneScript35_WriteText_0405_0
+  WriteText さっきみつけた<BR>ショパンのがくふ‥‥<BR>
   Unknown05 $84,$A0,$01,$00
   End
-  WriteText textCutsceneScript35_WriteText_0420_0
+  WriteText どうしようかな‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_042D_0
+  WriteText とりあえず<BR>おりひめさんの ところへ<BR>もっていきましょう。<BR>
   PromptContinue
   Unknown1E $1F
-  WriteText textCutsceneScript35_WriteText_0450_0
+  WriteText おりひめさん。<BR>ちょっといいですか?<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript35_WriteText_046A_0
+  WriteText あら <NAME>さん<BR>どうしたですか?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_0480_0
+  WriteText こんなものを みつけたの<BR>ですが‥‥<BR>おりひめさんのですか?<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript35_WriteText_04A6_0
+  WriteText ショパンのがくふ?<BR>それは わたしのでーす。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText textCutsceneScript35_WriteText_04CD_0
+  WriteText わざわざ どーもです。<BR><NAME>さん。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_04E4_0
+  WriteText おりひめさん ピアノ<BR>ひくんですね。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript35_WriteText_04FE_0
+  WriteText イエース。<BR>わたし ピアノ<BR>だいすきでーす。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_051B_0
+  WriteText わたしも おんがくは<BR>すきですよ。<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript35_WriteText_0534_0
+  WriteText <NAME>さんは どんな<BR>おんがくを ききまーすか?<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript35_OptionSelectTimed_054E_0,textCutsceneScript35_OptionSelectTimed_054E_1,textCutsceneScript35_OptionSelectTimed_054E_2
+  OptionSelectTimed $05,$03,クラシック,ジャズ,みんよう
   ConditionalBranch .reference_0581,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_0612,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_06B3,$02,$01,$01,$02,$20,$00
   Branch .reference_07B0
 .reference_0581
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_0584_0
+  WriteText クラシックが<BR>すきなんですよ。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$08,$28,$00
-  WriteText textCutsceneScript35_WriteText_05A4_0
+  WriteText <NAME>さん ワンダフル!<BR>クラシックを きいて<BR>いるなんて グーッドでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_05CC_0
+  WriteText おんがくは クラシックが<BR>イチバンでーす!<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_05E5_0
+  WriteText それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。チャオ<RED>♥<BLACK><BR>
   PromptContinue
   End
 .reference_0612
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_0615_0
+  WriteText ジャズを よくききますよ。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText textCutsceneScript35_WriteText_0633_0
+  WriteText ジャズ いいでーす。<BR>わたしも すきでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_064D_0
+  WriteText ラグタイム スイング モダン<BR>からだを ゆさぶるリズムが<BR>ここちいいでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_0677_0
+  WriteText <NAME>さん なかなか<BR>いいシュミしてますね。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_068F_0
+  WriteText それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでーす。<BR>
   PromptContinue
   End
 .reference_06B3
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_06B6_0
+  WriteText みんようを ききます。<BR>しゃみせんとか さんしんが<BR>すきなんです。<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript35_WriteText_06DF_0
+  WriteText さんしん‥‥ カンナさんの<BR>こきょう オキナワの<BR>げんがっきでーすね。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_0706_0
+  WriteText いいですね～。<BR>つがるのしゃみせんは<BR>ソウルを ゆさぶられます。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_072A_0
+  WriteText オキナワの さんしんのリズム<BR>には からだが<BR>つきうごかされまーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_0750_0
+  WriteText どっちも きもちのいい<BR>がっきでーす。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText textCutsceneScript35_WriteText_0774_0
+  WriteText <NAME>さん なかなか<BR>いいシュミしてますね。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_078C_0
+  WriteText それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>
   PromptContinue
   End
 .reference_07B0
   Unknown0F $00,$01
-  WriteText textCutsceneScript35_WriteText_07B3_0
+  WriteText ‥‥‥‥‥‥‥‥とくに<BR>こだわって きいているものは<BR>ないんですよ。<BR>
   PromptContinue
   SetPortrait $07,$07,$07
-  WriteText textCutsceneScript35_WriteText_07DD_0
+  WriteText そうなんですか?<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript35_WriteText_07ED_0
+  WriteText じゃあ これからは<BR>クラシックを きいてみると<BR>いいでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_080F_0
+  WriteText おんがくは クラシックが<BR>イチバンでーす!<BR>
   PromptContinue
-  WriteText textCutsceneScript35_WriteText_0828_0
+  WriteText それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>
   PromptContinue
   End
   End

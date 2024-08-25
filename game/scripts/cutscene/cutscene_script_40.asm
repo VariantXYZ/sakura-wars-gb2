@@ -5,13 +5,13 @@ CutsceneScript40::
   Unknown0E $0C
   Unknown12 $04
   FlagIsFemale
-  WriteText textCutsceneScript40_WriteText_0009_0
+  WriteText こんにちは あたし<BR>しんぐうじ さくら<BR>といいます。<BR>
   PromptContinue
-  WriteText textCutsceneScript40_WriteText_0027_0
+  WriteText とくぎは けんじゅつで<BR>かたなを つかった<BR>せっきんせんが とくいです。<BR>
   PromptContinue
-  WriteText textCutsceneScript40_WriteText_004F_0
+  WriteText こどものころからのとっくんで<BR>いあいぎり には<BR>すこし じしんがあるんです。<BR>
   PromptContinue
-  WriteText textCutsceneScript40_WriteText_0079_0
+  WriteText あたしも しんじんなので<BR>いっしょに<BR>がんばりましょうね。<BR>
   PromptContinue
   End
   End

@@ -6,203 +6,203 @@ CutsceneScript36::
   Unknown12 $17
   FlagIsFemale
   ConditionalBranch .reference_038B,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript36_WriteText_0011_0
+  WriteText ミカサでみつけた<BR>
   Unknown05 $87,$B7,$01,$01
   End
-  WriteText textCutsceneScript36_WriteText_0022_0
+  WriteText この イヌのおもちゃ‥‥<BR>
   Unknown05 $84,$B6,$01,$00
   End
-  WriteText textCutsceneScript36_WriteText_0037_0
+  WriteText どうしようかな‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_0044_0
+  WriteText とりあえず イヌがすきな<BR>レニさんのところに<BR>もっていこう。<BR>
   PromptContinue
   Unknown1E $20
-  WriteText textCutsceneScript36_WriteText_0068_0
+  WriteText レニさん。<BR>しつれいします。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_007E_0
+  WriteText <NAME><BR>なにかよう?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_008D_0
+  WriteText これ ミカサのなかで<BR>みつけたんですが‥‥<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_00AA_0
+  WriteText ホネ?<BR>イヌのおもちゃ‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_00BB_0
+  WriteText ああ‥‥<BR>それは ボクのだよ。<BR>
   PromptContinue
   SetPortrait $08,$01,$01
   PlaybackSample $40,$98,$03,$98,$01,$06,$28,$00
-  WriteText textCutsceneScript36_WriteText_00DB_0
+  WriteText ありがとう。<BR><NAME>。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_00EB_0
+  WriteText ところで レニさん。<BR>ていげきで かってる<BR>しろいイヌ なんですけど<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_0111_0
+  WriteText みんな それぞれで<BR>すきかってな なまえを<BR>つけているんですね。<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_0135_0
+  WriteText ボクもそのイヌに<BR>なまえを つけたいんですけど<BR>いいですか?<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_015B_0
+  WriteText フントのこと?<BR>べつに いいよ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_0172_0
+  WriteText いいんですか!?<BR>なにに しようかな～‥‥<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript36_OptionSelectTimed_018B_0,textCutsceneScript36_OptionSelectTimed_018B_1,textCutsceneScript36_OptionSelectTimed_018B_2
+  OptionSelectTimed $05,$03,ランス,ポチ,ヴィンター
   ConditionalBranch .reference_01BC,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_023B,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_02A9,$02,$01,$01,$02,$20,$00
   Branch .reference_0346
 .reference_01BC
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_01BF_0
+  WriteText じゃあ‥‥ ランス。<BR>ランスって どうですか?<BR>
   PromptContinue
   SetPortrait $08,$00,$00
   PlaybackSample $40,$98,$03,$98,$01,$04,$28,$00
-  WriteText textCutsceneScript36_WriteText_01E7_0
+  WriteText ランス‥‥ えいごで ヤリ。<BR>いいんじゃないか。<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_0203_0
+  WriteText フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいい。<BR>
   PromptContinue
   SetPortrait $08,$01,$01
-  WriteText textCutsceneScript36_WriteText_022A_0
+  WriteText それじゃあ <NAME><BR>また‥‥<BR>
   PromptContinue
   End
 .reference_023B
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_023E_0
+  WriteText じゃあ‥‥ ポチ。<BR>ポチで どうですか?<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_025A_0
+  WriteText いかにも ニッポンてきな<BR>なまえだね。<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_0271_0
+  WriteText フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいい。<BR>
   PromptContinue
   SetPortrait $08,$01,$01
-  WriteText textCutsceneScript36_WriteText_0298_0
+  WriteText それじゃあ <NAME><BR>また‥‥<BR>
   PromptContinue
   End
 .reference_02A9
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_02AC_0
+  WriteText じゃあ‥‥ ヴィンター。<BR>ヴィンターって どうですか?<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_02CF_0
+  WriteText ヴィンター‥‥ <BR>ドイツごで ふゆ‥‥<BR>
   PromptContinue
   SetPortrait $08,$01,$01
   PlaybackSample $40,$98,$03,$98,$01,$06,$28,$00
-  WriteText textCutsceneScript36_WriteText_02F3_0
+  WriteText しろいフントには なかなか<BR>にあってる なまえだね。<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_0311_0
+  WriteText フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいいよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_0335_0
+  WriteText それじゃあ <NAME><BR>また‥‥<BR>
   PromptContinue
   End
 .reference_0346
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_0349_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>やっぱり フントが<BR>にあってますね。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_0372_0
+  WriteText そう‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_037A_0
+  WriteText それじゃあ <NAME><BR>また‥‥<BR>
   PromptContinue
   End
 .reference_038B
-  WriteText textCutsceneScript36_WriteText_038B_0
+  WriteText ミカサでみつけた<BR>
   Unknown05 $87,$B7,$01,$01
   End
-  WriteText textCutsceneScript36_WriteText_039C_0
+  WriteText この イヌのおもちゃ‥‥<BR>
   Unknown05 $84,$B6,$01,$00
   End
-  WriteText textCutsceneScript36_WriteText_03B1_0
+  WriteText どうしようかな～‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_03BF_0
+  WriteText とりあえず イヌがすきな<BR>レニさんのところに<BR>もっていってみましょう。<BR>
   PromptContinue
   Unknown1E $20
-  WriteText textCutsceneScript36_WriteText_03E8_0
+  WriteText レニさん。<BR>しつれいします。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_03FE_0
+  WriteText <NAME><BR>なにかよう?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_040D_0
+  WriteText これ ミカサのなかで<BR>みつけたんですけど‥‥<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_042B_0
+  WriteText ホネ?<BR>イヌのおもちゃ‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_043C_0
+  WriteText ああ‥‥<BR>それは ボクのだよ。<BR>
   PromptContinue
   SetPortrait $08,$01,$01
   PlaybackSample $40,$98,$03,$98,$01,$06,$28,$00
-  WriteText textCutsceneScript36_WriteText_045C_0
+  WriteText ありがとう。<BR><NAME>。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_046C_0
+  WriteText ところで レニさん。<BR>ていげきで かってる<BR>しろいイヌ なんですけど<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_0492_0
+  WriteText みんな それぞれで<BR>すきかってな なまえを<BR>つけているんですね。<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_04B6_0
+  WriteText わたしも そのイヌに<BR>なまえを つけたいんですけど<BR>いいですか?<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_04DE_0
+  WriteText フントのこと?<BR>べつに いいよ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_04F5_0
+  WriteText ホントですか!<BR>なにに しようかしら‥‥<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript36_OptionSelectTimed_050D_0,textCutsceneScript36_OptionSelectTimed_050D_1,textCutsceneScript36_OptionSelectTimed_050D_2
+  OptionSelectTimed $05,$03,クリュー,ホワイティ,ビューネ
   ConditionalBranch .reference_0541,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_05C8,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_063D,$02,$01,$01,$02,$20,$00
   Branch .reference_06D3
 .reference_0541
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_0544_0
+  WriteText じゃあ‥‥ クリュー。<BR>クリューって どうですか?<BR>
   PromptContinue
   SetPortrait $08,$00,$00
   PlaybackSample $40,$98,$03,$98,$01,$06,$28,$00
-  WriteText textCutsceneScript36_WriteText_056E_0
+  WriteText クリュー‥‥<BR>バレエようごで はしる‥‥<BR>いいんじゃないか。<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_0590_0
+  WriteText フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいい。<BR>
   PromptContinue
   SetPortrait $08,$01,$01
-  WriteText textCutsceneScript36_WriteText_05B7_0
+  WriteText それじゃあ <NAME><BR>また‥‥<BR>
   PromptContinue
   End
 .reference_05C8
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_05CB_0
+  WriteText じゃあ‥‥ ホワイティ。<BR>ホワイティで どうですか?<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_05ED_0
+  WriteText しろいから ホワイト‥‥<BR>そのままだね。<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_0605_0
+  WriteText フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいい。<BR>
   PromptContinue
   SetPortrait $08,$01,$01
-  WriteText textCutsceneScript36_WriteText_062C_0
+  WriteText それじゃあ <NAME><BR>また‥‥<BR>
   PromptContinue
   End
 .reference_063D
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_0640_0
+  WriteText じゃあ‥‥ ビューネ。<BR>ビューネって どうですか?<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_0661_0
+  WriteText ビューネ‥‥ <BR>ドイツごで ぶたい‥‥<BR>
   PromptContinue
   SetPortrait $08,$01,$01
   PlaybackSample $40,$98,$03,$98,$01,$08,$28,$00
-  WriteText textCutsceneScript36_WriteText_0685_0
+  WriteText ていげきで かうのに<BR>ふさわしい なまえだ。<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_069F_0
+  WriteText フントは フントだけど<BR>キミが そうよびたければ<BR>よべばいい。<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_06C2_0
+  WriteText それじゃあ <NAME><BR>また‥‥<BR>
   PromptContinue
   End
 .reference_06D3
   Unknown0F $00,$01
-  WriteText textCutsceneScript36_WriteText_06D6_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>やっぱり フントが<BR>にあってますね。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript36_WriteText_06FF_0
+  WriteText そう‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript36_WriteText_0707_0
+  WriteText それじゃあ <NAME><BR>また‥‥<BR>
   PromptContinue
   End
   End

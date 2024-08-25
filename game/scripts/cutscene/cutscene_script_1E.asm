@@ -6,192 +6,192 @@ CutsceneScript1E::
   FlagIsFemale
   Unknown09 $5A
   SetBackground $01
-  WriteText textCutsceneScript1E_WriteText_000A_0
+  WriteText ～だい6しょう～<BR> 『しゃくねつの とう』<BR>
   PromptContinue
   SetBackground $02
   Unknown0E $16
   SetPortrait $0B,$10,$00
   ConditionalBranch .reference_03FF,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript1E_WriteText_0036_0
+  WriteText みんな あつまったわね。<BR>では はじめましょう。<BR>
   PromptContinue
-  WriteText textCutsceneScript1E_WriteText_0052_0
+  WriteText <NAME>くんの ちょうさで<BR>『まじんき』は 『やまと』に<BR>ないことが わかりました。<BR>
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText textCutsceneScript1E_WriteText_0085_0
+  WriteText 『やまと』にないっちゅー<BR>ことは さらに そのおく‥‥<BR>
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText textCutsceneScript1E_WriteText_00AA_0
+  WriteText 『せいまじょう』と<BR>いうことになるわね。<BR>
   PromptContinue
   SetPortrait $11,$00,$00
-  WriteText textCutsceneScript1E_WriteText_00C8_0
+  WriteText そうなのよ。<BR>『まじんき』は おそらく<BR>『せいまじょう』にあるわよ。<BR>
   PromptContinue
   SetPortrait $01,$14,$0C
-  WriteText textCutsceneScript1E_WriteText_00F6_0
+  WriteText よきひこさん。<BR>おからだは だいじょうぶ<BR>なんですか?<BR>
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText textCutsceneScript1E_WriteText_0119_0
+  WriteText あたしは だいじょうぶよ。<BR>それよりも いまは<BR>『まじんき』でしょ。<BR>
   PromptContinue
   SetPortrait $11,$02,$02
-  WriteText textCutsceneScript1E_WriteText_0145_0
+  WriteText かえでさん。<BR>『まじんき』は<BR>『せいまじょう』よ。<BR>
   PromptContinue
-  WriteText textCutsceneScript1E_WriteText_0166_0
+  WriteText あたしも 『やまと』は<BR>スミまでしらべたのよ。でも<BR>『まじんき』は なかったわ。<BR>
   PromptContinue
   SetPortrait $11,$03,$03
-  WriteText textCutsceneScript1E_WriteText_019A_0
+  WriteText それで 『せいまじょう』へ<BR>いこうと したんだけど<BR>とちゅうで つかまって‥‥<BR>
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText textCutsceneScript1E_WriteText_01CB_0
+  WriteText 『せいまじょう』は<BR>あの さきに あるんですか?<BR>
   PromptContinue
   SetPortrait $11,$00,$00
-  WriteText textCutsceneScript1E_WriteText_01ED_0
+  WriteText そうよ。<BR>
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript1E_WriteText_01F9_0
+  WriteText じゃあ きまりだな。<BR>つぎは 『せいまじょう』だ。<BR>
   PromptContinue
   SetPortrait $02,$12,$0A
-  WriteText textCutsceneScript1E_WriteText_021C_0
+  WriteText 『せいまじょう』に<BR>のこり2つの『まじんき』が<BR>あるのですわね。<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript1E_WriteText_0248_0
+  WriteText かえでさーん<BR>『せいまじょう』って<BR>なんでーすか?<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript1E_WriteText_026B_0
+  WriteText 『せいまじょう』は<BR>『やまと』といっしょに<BR>しずんだ おしろなの。<BR>
   PromptContinue
-  WriteText textCutsceneScript1E_WriteText_0294_0
+  WriteText たくさんの おんりょうに<BR>しはいされた のろわれた<BR>おしろなのよ。<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript1E_WriteText_02BD_0
+  WriteText てきが てごわくなる‥‥<BR>
   PromptContinue
   SetPortrait $04,$12,$0A
-  WriteText textCutsceneScript1E_WriteText_02D1_0
+  WriteText そうだね‥‥<BR>
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText textCutsceneScript1E_WriteText_02DF_0
+  WriteText <NAME>くん。<BR>きを ひきしめて<BR>いきなさい。<BR>
   PromptContinue
-  OptionSelectTimed $03,$01,textCutsceneScript1E_OptionSelectTimed_02F7_0
+  OptionSelectTimed $03,$01,はい。
   ConditionalBranch .reference_030B,$02,$01,$01,$00,$20,$00
   Branch .reference_0365
 .reference_030B
   Unknown0F $00,$01
-  WriteText textCutsceneScript1E_WriteText_030E_0
+  WriteText はい。<BR>りょうかい!!<BR>
   PromptContinue
   SetPortrait $07,$17,$10
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText textCutsceneScript1E_WriteText_032A_0
+  WriteText Oh! いいへんじでーす。<BR>
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText textCutsceneScript1E_WriteText_033F_0
+  WriteText <NAME>さん。<BR>がんばって くださーい!<BR>ななころび やおきでーす。<BR>
   PromptContinue
   Branch .reference_03B9
 .reference_0365
   Unknown0F $00,$01
-  WriteText textCutsceneScript1E_WriteText_0368_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥<BR>
   PromptContinue
   SetPortrait $07,$16,$0F
-  WriteText textCutsceneScript1E_WriteText_037C_0
+  WriteText <NAME>さん。<BR>ボケーっと していては<BR>ダメでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript1E_WriteText_0397_0
+  WriteText もっと キリッと<BR>しなさーい。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript1E_WriteText_03AD_0
+  WriteText は はい。<BR>
   PromptContinue
   Branch .reference_03B9
 .reference_03B9
   SetPortrait $0B,$12,$02
-  WriteText textCutsceneScript1E_WriteText_03BD_0
+  WriteText では <NAME>くん。<BR>『せいまじょう』のちょうさを<BR>めいじます。<BR>
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText textCutsceneScript1E_WriteText_03E4_0
+  WriteText がんばってね<RED>♥<BLACK><BR>チュッ<RED>♥<BLACK><BR>
   PromptContinue
   End
 .reference_03FF
-  WriteText textCutsceneScript1E_WriteText_03FF_0
+  WriteText みんな あつまったわね。<BR>では はじめましょう。<BR>
   PromptContinue
-  WriteText textCutsceneScript1E_WriteText_041B_0
+  WriteText 『やまと』に 『まじんき』は<BR>なかったようね。<BR>
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText textCutsceneScript1E_WriteText_043E_0
+  WriteText 『やまと』にないっちゅー<BR>ことは さらに そのおく‥‥<BR>
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText textCutsceneScript1E_WriteText_0463_0
+  WriteText 『せいまじょう』と<BR>いうことになるわね。<BR>
   PromptContinue
   SetPortrait $11,$00,$00
-  WriteText textCutsceneScript1E_WriteText_0481_0
+  WriteText そうなのよ。<BR>『まじんき』は おそらく<BR>『せいまじょう』にあるわよ。<BR>
   PromptContinue
   SetPortrait $01,$14,$0C
-  WriteText textCutsceneScript1E_WriteText_04AF_0
+  WriteText よきひこさん。<BR>おからだは だいじょうぶ<BR>なんですか?<BR>
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText textCutsceneScript1E_WriteText_04D2_0
+  WriteText あたしは だいじょうぶよ。<BR>それよりも いまは<BR>『まじんき』でしょ。<BR>
   PromptContinue
   SetPortrait $11,$02,$02
-  WriteText textCutsceneScript1E_WriteText_04FE_0
+  WriteText かえでさん。<BR>『まじんき』は<BR>『せいまじょう』よ。<BR>
   PromptContinue
-  WriteText textCutsceneScript1E_WriteText_051F_0
+  WriteText あたしも 『やまと』は<BR>スミまでしらべたのよ。でも<BR>『まじんき』は なかったわ。<BR>
   PromptContinue
   SetPortrait $11,$03,$03
-  WriteText textCutsceneScript1E_WriteText_0553_0
+  WriteText それで 『せいまじょう』へ<BR>いこうと したんだけど<BR>とちゅうで つかまって‥‥<BR>
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText textCutsceneScript1E_WriteText_0584_0
+  WriteText 『せいまじょう』は<BR>あの さきに あるんですか?<BR>
   PromptContinue
   SetPortrait $11,$00,$00
-  WriteText textCutsceneScript1E_WriteText_05A6_0
+  WriteText そうよ。<BR>
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript1E_WriteText_05B2_0
+  WriteText じゃあ きまりだな。<BR>つぎは 『せいまじょう』だ。<BR>
   PromptContinue
   SetPortrait $02,$12,$0A
-  WriteText textCutsceneScript1E_WriteText_05D5_0
+  WriteText 『せいまじょう』に<BR>のこり2つの『まじんき』が<BR>あるのですわね。<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript1E_WriteText_0601_0
+  WriteText かえでさーん<BR>『せいまじょう』って<BR>なんでーすか?<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript1E_WriteText_0624_0
+  WriteText 『せいまじょう』は<BR>『やまと』といっしょに<BR>しずんだ おしろなの。<BR>
   PromptContinue
-  WriteText textCutsceneScript1E_WriteText_064D_0
+  WriteText たくさんの おんりょうに<BR>しはいされた のろわれた<BR>おしろなのよ。<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript1E_WriteText_0676_0
+  WriteText てきが てごわくなる‥‥<BR>
   PromptContinue
   SetPortrait $04,$12,$0A
-  WriteText textCutsceneScript1E_WriteText_068A_0
+  WriteText そうだね‥‥<BR>
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText textCutsceneScript1E_WriteText_0698_0
+  WriteText <NAME>。<BR>きを ひきしめて<BR>いきなさい。<BR>
   PromptContinue
-  OptionSelectTimed $04,$01,textCutsceneScript1E_OptionSelectTimed_06AE_0
+  OptionSelectTimed $04,$01,はい。
   ConditionalBranch .reference_06C2,$02,$01,$01,$00,$20,$00
   Branch .reference_06F3
 .reference_06C2
   Unknown0F $00,$01
-  WriteText textCutsceneScript1E_WriteText_06C5_0
+  WriteText はい。<BR>りょうかい!!<BR>
   PromptContinue
   SetPortrait $09,$11,$08
   PlaybackSample $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText textCutsceneScript1E_WriteText_06E1_0
+  WriteText うん! いいへんじだ。<BR>
   PromptContinue
   Branch .reference_0751
 .reference_06F3
   Unknown0F $00,$01
-  WriteText textCutsceneScript1E_WriteText_06F6_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥<BR>
   PromptContinue
   SetPortrait $09,$12,$09
-  WriteText textCutsceneScript1E_WriteText_070A_0
+  WriteText <NAME>くん。<BR>ボケーっと していては<BR>ダメだぞ。<BR>
   PromptContinue
-  WriteText textCutsceneScript1E_WriteText_0724_0
+  WriteText きあいを いれないと<BR>おもわぬミスを<BR>してしまうぞ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript1E_WriteText_0745_0
+  WriteText は はい。<BR>
   PromptContinue
   Branch .reference_0751
 .reference_0751
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript1E_WriteText_0755_0
+  WriteText では <NAME>。<BR>『せいまじょう』のちょうさを<BR>めいじます。<BR>
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText textCutsceneScript1E_WriteText_077A_0
+  WriteText がんばってね<RED>♥<BLACK><BR>チュッ<RED>♥<BLACK><BR>
   PromptContinue
   End
   End

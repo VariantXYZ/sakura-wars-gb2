@@ -5,15 +5,15 @@ CutsceneScript41::
   Unknown0E $0D
   Unknown12 $04
   FlagIsFemale
-  WriteText textCutsceneScript41_WriteText_0009_0
+  WriteText わたくしは<BR>はなぐみの トップスタア<BR>かんざき すみれですわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript41_WriteText_002C_0
+  WriteText わたくしのとくぎは<BR>かんざきふうじんりゅうの<BR>なぎなたじゅつ ですの。<BR>
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText textCutsceneScript41_WriteText_0057_0
+  WriteText いちどに たくさんのてきを<BR>ゆうがに なぎはらう。<BR>これが わたくしのびがく。<BR>
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText textCutsceneScript41_WriteText_0086_0
+  WriteText まぁ あなたも わたくしの<BR>じゃまにならないよう<BR>しっかり おやりなさいな。<BR>
   PromptContinue
   End
   End

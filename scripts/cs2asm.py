@@ -4,6 +4,7 @@ import struct
 import sys
 from collections import OrderedDict
 import csv
+from io import StringIO
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
 from common import utils, sw2gb, tilesets
@@ -11,13 +12,17 @@ from common import utils, sw2gb, tilesets
 script_name = sys.argv[0]
 output_file = sys.argv[1]
 input_asm = sys.argv[2]
-input_csv = sys.argv[3]
 
-def parse_line(cs, csv_strings, references, line):
-    data = [x.strip() for x in line.split(' ') if x]
-    assert len(data) <= 2
+def parse_line(cs, references, line):
+    # [Command] [Parameters]
+    data = [x.strip('\n') for x in line.split(' ', 1) if x]
+    assert 0 < len(data) <= 2
     command = cs.COMMANDS[data[0]]
-    parameters = [] if len(data) == 1 else data[1].split(',')
+    parameters = []
+    if len(data) == 2:
+        d = StringIO(data[1])
+        c = csv.reader(d, lineterminator='', delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        parameters += next(c)
 
     # Convert values to integers
     # Note that we explicitly use a while loop
@@ -26,8 +31,6 @@ def parse_line(cs, csv_strings, references, line):
     while idx < len(parameters):
         if parameters[idx].startswith('$'):
             parameters[idx] = int(parameters[idx].lstrip('$'), 16)
-        elif command.name in csv_strings and parameters[idx] in csv_strings[command.name]:
-            parameters[idx] = csv_strings[command.name][parameters[idx]]
         elif parameters[idx].startswith('.'):
             # offset is 2 bytes, so we need to insert 2 bytes in little endian format
             offset = references[parameters[idx]] if parameters[idx] in references else 0
@@ -39,23 +42,6 @@ def parse_line(cs, csv_strings, references, line):
     to_write = [command.command_byte] + command.write_handler(*parameters)
 
     return (command.name, parameters, to_write)
-
-# Get strings from CSV
-csv_strings = {}
-with open(input_csv, 'r', encoding='utf-8') as fp:
-    c = csv.reader(fp, lineterminator='\n', delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    header = next(c)
-    type_index = header.index('Type')
-    id_index = header.index('Identifier')
-    text_index = header.index('Text')
-
-    for line in c:
-        t = line[type_index]
-        i = line[id_index]
-        txt = line[text_index]
-        if t not in csv_strings:
-            csv_strings[t] = {}
-        csv_strings[t][i] = txt
 
 bank = None
 addr = None
@@ -79,10 +65,13 @@ with open(input_asm, 'r', encoding='utf-8') as fp:
     current_offset = 0
     for line in fp:
         line = line.strip()
+        if line.startswith(';'):
+            continue
+
         if line.startswith('.'):
             references[line] = current_offset
             continue
-        (_, _, to_write) = parse_line(cs, csv_strings, references, line)
+        (_, _, to_write) = parse_line(cs, references, line)
         current_offset += len(to_write)
 
     fp.seek(0)
@@ -91,9 +80,9 @@ with open(input_asm, 'r', encoding='utf-8') as fp:
     next(fp)
     for line in fp:
         line = line.strip()
-        if line.startswith('.'):
+        if line.startswith('.') or line.startswith(';'):
             continue
-        (name, parameters, to_write) = parse_line(cs, csv_strings, references, line)
+        (name, parameters, to_write) = parse_line(cs, references, line)
         lines.append((name, parameters, to_write))
         current_offset += len(to_write)
 

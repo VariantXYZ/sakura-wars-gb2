@@ -6,206 +6,206 @@ CutsceneScript2F::
   Unknown12 $17
   FlagIsFemale
   ConditionalBranch .reference_03CC,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript2F_WriteText_0011_0
+  WriteText ミカサのなかで ひろった<BR>この かわいいウキワ‥‥<BR>
   Unknown05 $84,$58,$01,$00
   End
-  WriteText textCutsceneScript2F_WriteText_0033_0
+  WriteText だれのかな～?<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_003E_0
+  WriteText アイリスのところへいって<BR>きいてみよう。<BR>
   PromptContinue
   Unknown1E $10
-  WriteText textCutsceneScript2F_WriteText_0058_0
+  WriteText アイリス。<BR>ちょっといいかい?<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2F_WriteText_006F_0
+  WriteText <NAME> どうしたの?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_007E_0
+  WriteText これ ひろったんだけど<BR>だれのかしってる?<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2F_WriteText_009B_0
+  WriteText えっ? ウキワ?<BR>
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText textCutsceneScript2F_WriteText_00AB_0
+  WriteText あっ!<BR>はくちょうさんのウキワだ!<BR>これ アイリスの!<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText textCutsceneScript2F_WriteText_00D7_0
+  WriteText みつけてくれて ありがとう<BR><NAME>。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_00EE_0
+  WriteText アイリスのだったのか。<BR>ところで アイリス‥‥<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript2F_OptionSelectTimed_0109_0,textCutsceneScript2F_OptionSelectTimed_0109_1,textCutsceneScript2F_OptionSelectTimed_0109_2
+  OptionSelectTimed $05,$03,アイリスって およげないの?,かわいい ウキワだね,ステキな みずぎだね
   ConditionalBranch .reference_0152,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_01E5,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_025D,$02,$01,$01,$02,$20,$00
   Branch .reference_030B
 .reference_0152
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_0155_0
+  WriteText アイリスって およげないの?<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2F_WriteText_016B_0
+  WriteText アイリスおよげるよ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_017C_0
+  WriteText エッ! だってウキワが‥‥<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2F_WriteText_0191_0
+  WriteText アイリス ウキワをつかって<BR>ちゃんと およげるよ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_01B1_0
+  WriteText そ‥‥<BR>そうなんだ‥‥‥‥<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2F_WriteText_01C6_0
+  WriteText それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>
   PromptContinue
   End
 .reference_01E5
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_01E8_0
+  WriteText そのウキワ かわいいね。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText textCutsceneScript2F_WriteText_0205_0
+  WriteText エヘヘ いいでしょー。<BR>アイリスの おきにいり<BR>だったんだー。<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_0228_0
+  WriteText こんど いっしょに<BR>およごうね <NAME>。<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_023E_0
+  WriteText それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>
   PromptContinue
   End
 .reference_025D
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_0260_0
+  WriteText そのてに もってるの<BR>アイリスの あたらしい<BR>みずぎかい?<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_0281_0
+  WriteText すごくステキなデザインだね。<BR>アイリスに よくにあうと<BR>おもうよ。<BR>
   PromptContinue
   SetPortrait $04,$05,$05
   PlaybackSample $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText textCutsceneScript2F_WriteText_02B3_0
+  WriteText エヘヘ‥‥<BR>ホント? <NAME>。<BR>うれしいな～。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2F_WriteText_02D0_0
+  WriteText こんどいっしょに<BR>うみに いこうよ。<BR>ねっ <NAME>。<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_02EC_0
+  WriteText それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>
   PromptContinue
   End
 .reference_030B
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_030E_0
+  WriteText ‥‥‥‥‥‥そのウキワ<BR>あなが あいてるよ。<BR>
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText textCutsceneScript2F_WriteText_032C_0
+  WriteText エ～ ウッソー!!!<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_033D_0
+  WriteText うそだよ～ん。<BR>
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText textCutsceneScript2F_WriteText_034C_0
+  WriteText あー もーーーっ!<BR>ビックリしたじゃない!!<BR><NAME>!!!<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_036E_0
+  WriteText ごめん ごめん。<BR>そして めんご めんご。<BR>ゆるしてチョリソ!<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2F_WriteText_0395_0
+  WriteText もー <NAME>ったら～。<BR>しょうがないなぁ‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_03AD_0
+  WriteText それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>
   PromptContinue
   End
 .reference_03CC
-  WriteText textCutsceneScript2F_WriteText_03CC_0
+  WriteText ミカサのなかで ひろった<BR>この かわいいウキワ‥‥<BR>
   Unknown05 $84,$58,$01,$00
   End
-  WriteText textCutsceneScript2F_WriteText_03EE_0
+  WriteText だれのかしら?<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_03F9_0
+  WriteText アイリスのところへいって<BR>きいてみましょう。<BR>
   PromptContinue
   Unknown1E $10
-  WriteText textCutsceneScript2F_WriteText_0415_0
+  WriteText アイリス。<BR>ちょっといい?<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2F_WriteText_042A_0
+  WriteText <NAME> どうしたの?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_0439_0
+  WriteText これ ひろったんだけど<BR>だれのかしってる?<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2F_WriteText_0456_0
+  WriteText えっ? ウキワ?<BR>
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText textCutsceneScript2F_WriteText_0466_0
+  WriteText あっ!<BR>はくちょうさんのウキワだ!<BR>これ アイリスの!<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText textCutsceneScript2F_WriteText_0492_0
+  WriteText みつけてくれて ありがとう<BR><NAME>。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_04A9_0
+  WriteText アイリスのだったのね。<BR>ところで アイリス‥‥<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript2F_OptionSelectTimed_04C4_0,textCutsceneScript2F_OptionSelectTimed_04C4_1,textCutsceneScript2F_OptionSelectTimed_04C4_2
+  OptionSelectTimed $05,$03,アイリスって およげるの?,かわいい ウキワね,かわいい みずぎね
   ConditionalBranch .reference_050A,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_058A,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_0603,$02,$01,$01,$02,$20,$00
   Branch .reference_06B6
 .reference_050A
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_050D_0
+  WriteText アイリスって およげるの?<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2F_WriteText_0522_0
+  WriteText うん! このウキワをつかえば<BR>ずーっと およげるよ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_0543_0
+  WriteText へー<BR>スゴイのね アイリスは。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText textCutsceneScript2F_WriteText_0563_0
+  WriteText エヘヘ。<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_056B_0
+  WriteText それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>
   PromptContinue
   End
 .reference_058A
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_058D_0
+  WriteText そのウキワ かわいいわね。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText textCutsceneScript2F_WriteText_05AB_0
+  WriteText エヘヘ いいでしょー。<BR>アイリスの おきにいり<BR>だったんだー。<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_05CE_0
+  WriteText こんど いっしょに<BR>およごうよ <NAME>。<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_05E4_0
+  WriteText それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>
   PromptContinue
   End
 .reference_0603
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_0606_0
+  WriteText あっ! そのてに もってるの<BR>アイリスの あたらしい<BR>みずぎ?<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_0629_0
+  WriteText すごく かわいいデザインね!<BR>きっと アイリスに<BR>にあうと おもうわ。<BR>
   PromptContinue
   SetPortrait $04,$05,$05
   PlaybackSample $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText textCutsceneScript2F_WriteText_065D_0
+  WriteText エヘヘ‥‥<BR>ありがとう <NAME>。<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_066F_0
+  WriteText パパがおくってくれたんだよ。<BR>アイリスの おきにいり<BR>なんだよ!<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2F_WriteText_0697_0
+  WriteText それじゃ <NAME><BR>ウキワを みつけてくれて<BR>ありがとう!<BR>
   PromptContinue
   End
 .reference_06B6
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_06B9_0
+  WriteText ‥‥‥‥‥‥そのウキワ<BR>あなが あいてるわよ。<BR>
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText textCutsceneScript2F_WriteText_06D8_0
+  WriteText エ～ ウッソー!!!<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2F_WriteText_06E9_0
+  WriteText だいじょうぶよ あとで<BR>しゅうりして あげるから。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2F_WriteText_070A_0
+  WriteText ホントに!?<BR>ありがとう <NAME>。<BR>
   PromptContinue
-  WriteText textCutsceneScript2F_WriteText_071D_0
+  WriteText じゃあ おねがいするね。<BR>ウキワを みつけてくれて<BR>ありがとう!<BR>
   PromptContinue
   End
   End

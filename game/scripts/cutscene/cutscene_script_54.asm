@@ -6,233 +6,233 @@ CutsceneScript54::
   Unknown12 $04
   FlagIsFemale
   ConditionalBranch .reference_05D8,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript54_WriteText_0012_0
+  WriteText <NAME>さん。<BR>つぎの しゅつげきばしょは<BR>ミカサきかんぶですね。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0034_0
+  WriteText こんかい <NAME>さんと<BR>いっしょに しゅつげき<BR>できるのは<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0053_0
+  WriteText あたしと<BR>
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText textCutsceneScript54_WriteText_005F_0
+  WriteText アイリスと<BR>
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText textCutsceneScript54_WriteText_006C_0
+  WriteText そして‥‥<BR>わたくし ですわ。<BR>
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText textCutsceneScript54_WriteText_0083_0
+  WriteText では こんかい いっしょに<BR>しゅつげきできる たいいんの<BR>とくいわざを おしえますね。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_00B2_0
+  WriteText あたしは けんをつかった<BR>こうげきが とくいです。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_00CF_0
+  WriteText ちかくにいる てきを<BR>いったいずつ<BR>こうげきすることができます。<BR>
   PromptContinue
   SetPortrait $04,$11,$09
-  WriteText textCutsceneScript54_WriteText_00F7_0
+  WriteText アイリスはね れいりょくを<BR>つかった こうげきが<BR>とくいなんだ!<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_011B_0
+  WriteText でんげきで ビカーッて<BR>てきをこうげきしたり<BR>できるんだよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_013D_0
+  WriteText それと ピンチになったら<BR>アイリスのちょうのうりょくで<BR>かいふくして あげるからね!<BR>
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText textCutsceneScript54_WriteText_016F_0
+  WriteText わたくしの とくぎは<BR>なぎなた ですわ!<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0187_0
+  WriteText てきが どんなじんけいで<BR>あらわれても なぎなたの<BR>ながさを いかして<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_01AE_0
+  WriteText ぜんたいを こうげきしたり<BR>ならんでるてきを くしざしに<BR>したりと‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_01D5_0
+  WriteText かれいに うつくしく<BR>たたかうのが わたくし<BR>かんざきすみれ なのですわ。<BR>
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText textCutsceneScript54_WriteText_0202_0
+  WriteText それでは <NAME>さん<BR>じゅんびは いいですか?<BR>
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText textCutsceneScript54_WriteText_021F_0
+  WriteText さくらさん。<NAME>さんに<BR>ワザのせつめいを しないと<BR>いけませんわよ。<BR>
   PromptContinue
   SetPortrait $01,$13,$0B
-  WriteText textCutsceneScript54_WriteText_0248_0
+  WriteText あっ! そうだわ!!<BR>わすれるとこ でした。<BR>
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText textCutsceneScript54_WriteText_0266_0
+  WriteText <NAME>さん。 ワザを<BR>おぼえたら かならず ぶきに<BR>セットしてください。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_028C_0
+  WriteText ワザは ぶきにセットして<BR>はじめて つかえるように<BR>なるんです。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_02B0_0
+  WriteText ワザのセットは<BR>バックパックで<BR>おこなうことができます。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_02D0_0
+  WriteText それから せんとうちゅうに<BR>ワザの せつめいを<BR>みたく なったときは<BR>
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText textCutsceneScript54_WriteText_02FA_0
+  WriteText セレクトボタンを<BR>おせば せつめいが<BR>みられますからね。<BR>
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText textCutsceneScript54_WriteText_031E_0
+  WriteText <NAME>!<BR>リペアキットは ちゃんと<BR>バックパックにいれた?<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_033D_0
+  WriteText リペアキットは そうこから<BR>すきなだけ バックパックに<BR>いれて もっていけるんだよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_036B_0
+  WriteText つかったら なくなるから<BR>ちゃんと じぶんで<BR>ほじゅうしないとダメだよ。<BR>
   PromptContinue
 .reference_0393
   SetPortrait $02,$10,$08
-  WriteText textCutsceneScript54_WriteText_0397_0
+  WriteText それでは <NAME>さん。<BR>じゅんびは よろしくて?<BR>
   PromptContinue
-  OptionSelect $03,$00,textCutsceneScript54_OptionSelect_03B1_0,textCutsceneScript54_OptionSelect_03B1_1,textCutsceneScript54_OptionSelect_03B1_2
+  OptionSelect $03,$00,ワザのせつめいを もういちど,リペアキットについて きく,バッチリです
   ConditionalBranch .reference_03F6,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_04F1,$02,$00,$01,$01,$20,$00
   ConditionalBranch .reference_0578,$02,$00,$01,$02,$20,$00
 .reference_03F6
   Unknown0F $00,$01
-  WriteText textCutsceneScript54_WriteText_03F9_0
+  WriteText すみません。<BR>ワザのせつめいを もういちど<BR>おねがいします。<BR>
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText textCutsceneScript54_WriteText_041F_0
+  WriteText はい。<BR>ワザのセットについて<BR>ですね。<BR>
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText textCutsceneScript54_WriteText_043A_0
+  WriteText <NAME>さんが ワザを<BR>おぼえたら かならず ぶきに<BR>セットしてください。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0460_0
+  WriteText ワザは ぶきにセットして<BR>はじめて つかえるように<BR>なるんです。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0484_0
+  WriteText ワザのセットは<BR>バックパックで おこなって<BR>くださいね。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_04A4_0
+  WriteText それから せんとうちゅうに<BR>ワザの せつめいを<BR>みたく なったときは<BR>
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText textCutsceneScript54_WriteText_04CE_0
+  WriteText セレクトボタンを<BR>おせば せつめいが<BR>みられますからね。<BR>
   PromptContinue
   Branch .reference_0393
 .reference_04F1
   Unknown0F $00,$01
-  WriteText textCutsceneScript54_WriteText_04F4_0
+  WriteText すみません。<BR>リペアキットのせつめいを<BR>もういちど おねがいします。<BR>
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText textCutsceneScript54_WriteText_051E_0
+  WriteText リペアキットはね そうこから<BR>すきなだけ バックパックに<BR>いれて もっていけるんだよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_054D_0
+  WriteText つかったら なくなるから<BR>ちゃんと じぶんで<BR>ほじゅうしないとダメだよ。<BR>
   PromptContinue
   Branch .reference_0393
 .reference_0578
   Unknown0F $00,$01
-  WriteText textCutsceneScript54_WriteText_057B_0
+  WriteText はい バッチリです。<BR>
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText textCutsceneScript54_WriteText_058D_0
+  WriteText では <NAME>さん。<BR>がんばって いきましょう!!<BR>
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText textCutsceneScript54_WriteText_05AB_0
+  WriteText <NAME>さん。<BR>しなないていどに<BR>がんばりなさい。<BR>
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText textCutsceneScript54_WriteText_05C9_0
+  WriteText <NAME>!<BR>がんばってね。<BR>
   PromptContinue
   End
 .reference_05D8
-  WriteText textCutsceneScript54_WriteText_05D8_0
+  WriteText <NAME>さん。<BR>つぎの しゅつげきばしょは<BR>ミカサきかんぶですね。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_05FA_0
+  WriteText こんかい <NAME>さんと<BR>いっしょに しゅつげき<BR>できるのは<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0619_0
+  WriteText あたしと<BR>
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText textCutsceneScript54_WriteText_0625_0
+  WriteText アイリスと<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript54_WriteText_0632_0
+  WriteText ボクだ。<BR>
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText textCutsceneScript54_WriteText_063E_0
+  WriteText では こんかい いっしょに<BR>しゅつげきできる たいいんの<BR>とくいわざを おしえますね。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_066D_0
+  WriteText あたしは けんをつかった<BR>こうげきが とくいです。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_068A_0
+  WriteText ちかくにいる てきを<BR>いったいずつ<BR>こうげきすることができます。<BR>
   PromptContinue
   SetPortrait $04,$11,$09
-  WriteText textCutsceneScript54_WriteText_06B2_0
+  WriteText アイリスはね れいりょくを<BR>つかった こうげきが<BR>とくいなんだ!<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_06D6_0
+  WriteText でんげきで ビカーッて<BR>てきをこうげきしたり<BR>できるんだよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_06F8_0
+  WriteText それと ピンチになったら<BR>アイリスのちょうのうりょくで<BR>かいふくして あげるからね!<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript54_WriteText_072A_0
+  WriteText ボクのぶきは ランス‥‥<BR>つまり ヤリだ。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0743_0
+  WriteText つうじょうは<BR>いったいのてきに たいしての<BR>こうげきだけど‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0766_0
+  WriteText れいりょくを つかえば<BR>ふくすうのてきを<BR>こうげきすることができる。<BR>
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText textCutsceneScript54_WriteText_0790_0
+  WriteText それでは <NAME>さん<BR>じゅんびは いいですか?<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript54_WriteText_07AD_0
+  WriteText さくら‥‥<BR>ワザのせつめいが まだだ。<BR>
   PromptContinue
   SetPortrait $01,$13,$0B
-  WriteText textCutsceneScript54_WriteText_07C8_0
+  WriteText あっ! そうだわ!!<BR>わすれるとこ でした。<BR>
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText textCutsceneScript54_WriteText_07E6_0
+  WriteText <NAME>さん。 ワザを<BR>おぼえたら かならず ぶきに<BR>セットしてください。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_080C_0
+  WriteText ワザは ぶきにセットして<BR>はじめて つかえるように<BR>なるんです。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0830_0
+  WriteText ワザのセットは<BR>バックパックで<BR>おこなうことができます。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0850_0
+  WriteText それから せんとうちゅうに<BR>ワザの せつめいを<BR>みたく なったときは<BR>
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText textCutsceneScript54_WriteText_087A_0
+  WriteText セレクトボタンを<BR>おせば せつめいが<BR>みられますからね。<BR>
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText textCutsceneScript54_WriteText_089E_0
+  WriteText <NAME>!<BR>リペアキットは ちゃんと<BR>バックパックにいれた?<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_08BD_0
+  WriteText リペアキットは そうこから<BR>すきなだけ バックパックに<BR>いれて もっていけるんだよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_08EB_0
+  WriteText つかったら なくなるから<BR>ちゃんと じぶんで<BR>ほじゅうしないとダメだよ。<BR>
   PromptContinue
 .reference_0913
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript54_WriteText_0917_0
+  WriteText それじゃ<NAME><BR>じゅんびはいい?<BR>
   PromptContinue
-  OptionSelect $03,$00,textCutsceneScript54_OptionSelect_0929_0,textCutsceneScript54_OptionSelect_0929_1,textCutsceneScript54_OptionSelect_0929_2
+  OptionSelect $03,$00,ワザのせつめいを もういちど,リペアキットについて きく,バッチリです
   ConditionalBranch .reference_096E,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0A69,$02,$00,$01,$01,$20,$00
   ConditionalBranch .reference_0AF0,$02,$00,$01,$02,$20,$00
 .reference_096E
   Unknown0F $00,$01
-  WriteText textCutsceneScript54_WriteText_0971_0
+  WriteText すみません。<BR>ワザのせつめいを もういちど<BR>おねがいします。<BR>
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText textCutsceneScript54_WriteText_0997_0
+  WriteText はい。<BR>ワザのセットについて<BR>ですね。<BR>
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText textCutsceneScript54_WriteText_09B2_0
+  WriteText <NAME>さんが ワザを<BR>おぼえたら かならず ぶきに<BR>セットしてください。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_09D8_0
+  WriteText ワザは ぶきにセットして<BR>はじめて つかえるように<BR>なるんです。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_09FC_0
+  WriteText ワザのセットは<BR>バックパックで おこなって<BR>くださいね。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0A1C_0
+  WriteText それから せんとうちゅうに<BR>ワザの せつめいを<BR>みたく なったときは<BR>
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText textCutsceneScript54_WriteText_0A46_0
+  WriteText セレクトボタンを<BR>おせば せつめいが<BR>みられますからね。<BR>
   PromptContinue
   Branch .reference_0913
 .reference_0A69
   Unknown0F $00,$01
-  WriteText textCutsceneScript54_WriteText_0A6C_0
+  WriteText すみません。<BR>リペアキットのせつめいを<BR>もういちど おねがいします。<BR>
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText textCutsceneScript54_WriteText_0A96_0
+  WriteText リペアキットはね そうこから<BR>すきなだけ バックパックに<BR>いれて もっていけるんだよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript54_WriteText_0AC5_0
+  WriteText つかったら なくなるから<BR>ちゃんと じぶんで<BR>ほじゅうしないとダメだよ。<BR>
   PromptContinue
   Branch .reference_0913
 .reference_0AF0
   Unknown0F $00,$01
-  WriteText textCutsceneScript54_WriteText_0AF3_0
+  WriteText はい バッチリです。<BR>
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText textCutsceneScript54_WriteText_0B05_0
+  WriteText では <NAME>さん。<BR>がんばって いきましょう!!<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript54_WriteText_0B23_0
+  WriteText しっかり‥‥<BR>
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText textCutsceneScript54_WriteText_0B31_0
+  WriteText <NAME>!<BR>がんばってね。<BR>
   PromptContinue
   End
   End

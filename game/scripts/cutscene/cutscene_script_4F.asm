@@ -6,35 +6,35 @@ CutsceneScript4F::
   Unknown12 $16
   FlagIsFemale
   ConditionalBranch .reference_00B9,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript4F_WriteText_0012_0
+  WriteText <NAME>くん<BR>おつかれさま。<BR>
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText textCutsceneScript4F_WriteText_0025_0
+  WriteText ゆっくりやすんで<BR>ちょうだい‥‥と<BR>いいたいところ だけど‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript4F_WriteText_0048_0
+  WriteText れんらくが とれなくなった<BR>カンナとアイリスが<BR>しんぱいだわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript4F_WriteText_006B_0
+  WriteText いっこくもはやく<BR>ふたりを みつけて<BR>ちょうだい。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript4F_WriteText_008C_0
+  WriteText それまで ほかのエリアの<BR>たんさくは ちゅうしよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript4F_WriteText_00A9_0
+  WriteText わかったわね<BR><NAME>くん。<BR>
   PromptContinue
   End
 .reference_00B9
-  WriteText textCutsceneScript4F_WriteText_00B9_0
+  WriteText <NAME> おつかれさま。<BR>
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText textCutsceneScript4F_WriteText_00CA_0
+  WriteText ゆっくりやすんで<BR>ちょうだい‥‥と<BR>いいたいところ だけど‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript4F_WriteText_00ED_0
+  WriteText れんらくが とれなくなった<BR>カンナとアイリスが<BR>しんぱいだわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript4F_WriteText_0110_0
+  WriteText いっこくもはやく<BR>ふたりを みつけて<BR>ちょうだい。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript4F_WriteText_0131_0
+  WriteText それまで ほかのエリアの<BR>たんさくは ちゅうしよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript4F_WriteText_014E_0
+  WriteText わかったわね <NAME>。<BR>
   PromptContinue
   End
   End

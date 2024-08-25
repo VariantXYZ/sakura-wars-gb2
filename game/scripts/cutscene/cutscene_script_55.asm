@@ -6,257 +6,257 @@ CutsceneScript55::
   Unknown12 $04
   FlagIsFemale
   ConditionalBranch .reference_05A9,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript55_WriteText_0012_0
+  WriteText よう <NAME>!<BR>つぎの しゅつげきばしょは<BR>ミカサ つうきこうだ。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0035_0
+  WriteText こんかい <NAME>と<BR>いっしょに しゅつげき<BR>できるのは<BR>
   PromptContinue
   SetPortrait $06,$11,$09
-  WriteText textCutsceneScript55_WriteText_0056_0
+  WriteText あたいと<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_0062_0
+  WriteText わたしと<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript55_WriteText_006E_0
+  WriteText ボクだ。<BR>
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript55_WriteText_007A_0
+  WriteText じゃあ それぞれの<BR>とくいわざを <NAME>に<BR>おしえておくぜ。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_009A_0
+  WriteText あたいの とくいわざは<BR>カラテだ。せっきんせんなら<BR>まかしといてくれよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_00C2_0
+  WriteText ちかくにいる てきしか<BR>こうげきできないけど<BR>はかいりょくは すげぇぜ!<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_00EE_0
+  WriteText わたしは れいりょくを<BR>つかった こうげきが<BR>とくいでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0110_0
+  WriteText れいりょくのビームで<BR>とおくにいる てきにも<BR>こうげきできまーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0135_0
+  WriteText しかも ふくすうのてきに<BR>いちどで こうげきすることも<BR>できるのでーす。<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript55_WriteText_0161_0
+  WriteText ボクのぶきは ランス‥‥<BR>つまり ヤリだ。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_017A_0
+  WriteText つうじょうは<BR>いったいのてきに たいしての<BR>こうげきだけど‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_019D_0
+  WriteText れいりょくを つかえば<BR>ふくすうのてきを<BR>こうげきすることができる。<BR>
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript55_WriteText_01C7_0
+  WriteText てな かんじだな。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_01D4_0
+  WriteText じぶんの そうびと<BR>パートナーの のうりょくを<BR>よくかんがえて<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_01F7_0
+  WriteText バランスのとれた<BR>チームをくめば せんとうが<BR>ゆうりになるぜ。<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_021E_0
+  WriteText ところで <NAME>さんは<BR>せんとうちゅうに ぶきを<BR>もちかえてまーすか?<BR>
   PromptContinue
-  OptionSelect $02,$00,textCutsceneScript55_OptionSelect_0243_0,textCutsceneScript55_OptionSelect_0243_1
+  OptionSelect $02,$00,はい,いいえ
   ConditionalBranch .reference_0261,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_031E,$02,$00,$01,$01,$20,$00
 .reference_0261
   Unknown0F $00,$01
-  WriteText textCutsceneScript55_WriteText_0264_0
+  WriteText はい。<BR>もちかえています。<BR>
   PromptContinue
   SetPortrait $07,$11,$0A
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText textCutsceneScript55_WriteText_0282_0
+  WriteText さすがは <NAME>さん。<BR>やりまーすね。<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_029B_0
+  WriteText ぶきの もちかえには<BR>1ターン しょうひしますが<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_02B7_0
+  WriteText それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておくと<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_02DA_0
+  WriteText どんなてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえて<BR>
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText textCutsceneScript55_WriteText_0306_0
+  WriteText とーーっても<BR>べんりですからね!!<BR>
   PromptContinue
   Branch .reference_0401
 .reference_031E
   Unknown0F $00,$01
-  WriteText textCutsceneScript55_WriteText_0321_0
+  WriteText いいえ。<BR>せんとうちゅうの ぶきの<BR>もちかえは していません。<BR>
   PromptContinue
   SetPortrait $07,$17,$10
-  WriteText textCutsceneScript55_WriteText_0348_0
+  WriteText Oh! そうなんですか?!<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_035D_0
+  WriteText ぶきの もちかえには<BR>1ターンしょうひしますが<BR>けっこう べんりなのでーす。<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript55_WriteText_038B_0
+  WriteText それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておくと<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_03AE_0
+  WriteText どんなてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえる。<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_03DB_0
+  WriteText そのとおりでーす。<BR><NAME>さんも いちど<BR>つかってみてくださーい。<BR>
   PromptContinue
   Branch .reference_0401
 .reference_0401
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript55_WriteText_0405_0
+  WriteText それじゃあ <NAME><BR>じゅんびは いいか?<BR>
   PromptContinue
-  OptionSelect $02,$00,textCutsceneScript55_OptionSelect_041B_0,textCutsceneScript55_OptionSelect_041B_1
+  OptionSelect $02,$00,ぶきのもちかえについて きく,バッチリです
   ConditionalBranch .reference_0448,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0554,$02,$00,$01,$01,$20,$00
 .reference_0448
   Unknown0F $00,$01
-  WriteText textCutsceneScript55_WriteText_044B_0
+  WriteText すみません。<BR>ぶきの もちかえについて<BR>もういちど おねがいします。<BR>
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText textCutsceneScript55_WriteText_0475_0
+  WriteText わかりました。<BR>ぶきの もちかえについて<BR>でーすね。<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_0497_0
+  WriteText ぶきは せんとうちゅうに<BR>もちかえることが<BR>できるのでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_04B9_0
+  WriteText ぶきの もちかえには<BR>1ターンつかって<BR>しまうのでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_04D9_0
+  WriteText でも かんがえて つかうと<BR>とても ベンリで グッドな<BR>ものなのでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0501_0
+  WriteText それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておけば<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0524_0
+  WriteText どんなてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえるのでーす。<BR>
   PromptContinue
   Branch .reference_0401
 .reference_0554
   Unknown0F $00,$01
-  WriteText textCutsceneScript55_WriteText_0557_0
+  WriteText はい バッチリです。<BR>
   PromptContinue
   SetPortrait $06,$11,$09
-  WriteText textCutsceneScript55_WriteText_0569_0
+  WriteText それじゃあ <NAME>!<BR>がんばっていこうぜ!!<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript55_WriteText_0585_0
+  WriteText しっかり‥‥<BR>
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText textCutsceneScript55_WriteText_0593_0
+  WriteText <NAME>さん<BR>レッツ ファイトでーす!!<BR>
   PromptContinue
   End
 .reference_05A9
-  WriteText textCutsceneScript55_WriteText_05A9_0
+  WriteText よう <NAME>!<BR>つぎの しゅつげきばしょは<BR>ミカサ つうきこうだ。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_05CC_0
+  WriteText こんかい <NAME>と<BR>いっしょに しゅつげき<BR>できるのは<BR>
   PromptContinue
   SetPortrait $06,$11,$09
-  WriteText textCutsceneScript55_WriteText_05ED_0
+  WriteText あたいと<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_05F9_0
+  WriteText わたしと<BR>
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText textCutsceneScript55_WriteText_0605_0
+  WriteText そして‥‥<BR>わたくしですわ。<BR>
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript55_WriteText_061B_0
+  WriteText それじゃあ それぞれの<BR>とくいわざを <NAME>に<BR>おしえておくぜ。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_063D_0
+  WriteText あたいの とくいわざは<BR>カラテだ。せっきんせんなら<BR>まかしといてくれよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0665_0
+  WriteText ちかくにいる てきしか<BR>こうげきできないけど<BR>はかいりょくは すげぇぜ!<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_0691_0
+  WriteText わたしは れいりょくを<BR>つかった こうげきが<BR>とくいでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_06B3_0
+  WriteText れいりょくのビームで<BR>とおくにいる てきにも<BR>こうげきできまーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_06D8_0
+  WriteText しかも ふくすうのてきに<BR>いちどで こうげきすることも<BR>できるのでーす。<BR>
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText textCutsceneScript55_WriteText_0704_0
+  WriteText わたくしの とくぎは<BR>なぎなた ですわ!<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_071C_0
+  WriteText てきが どんなじんけいで<BR>あらわれても なぎなたの<BR>ながさを いかして<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0743_0
+  WriteText ぜんたいを こうげきしたり<BR>ならんでるてきを くしざしに<BR>したりと‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_076A_0
+  WriteText かれいに うつくしく<BR>たたかうのが わたくし<BR>かんざきすみれ なのですわ。<BR>
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript55_WriteText_0797_0
+  WriteText てな かんじだな。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_07A4_0
+  WriteText じぶんの そうびと<BR>パートナーの のうりょくを<BR>よくかんがえて<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_07C7_0
+  WriteText バランスのとれた<BR>チームをくめば せんとうが<BR>ゆうりになるぜ。<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_07EE_0
+  WriteText ところで <NAME>さんは<BR>せんとうちゅうに ぶきを<BR>もちかえてまーすか?<BR>
   PromptContinue
-  OptionSelect $02,$00,textCutsceneScript55_OptionSelect_0813_0,textCutsceneScript55_OptionSelect_0813_1
+  OptionSelect $02,$00,はい,いいえ
   ConditionalBranch .reference_0831,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_08EE,$02,$00,$01,$01,$20,$00
 .reference_0831
   Unknown0F $00,$01
-  WriteText textCutsceneScript55_WriteText_0834_0
+  WriteText はい。<BR>もちかえています。<BR>
   PromptContinue
   SetPortrait $07,$11,$0A
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText textCutsceneScript55_WriteText_0852_0
+  WriteText さすがは <NAME>さん。<BR>やりまーすね。<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_086B_0
+  WriteText ぶきの もちかえには<BR>1ターン しょうひしますが<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0887_0
+  WriteText それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておくと<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_08AA_0
+  WriteText どんなてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえて<BR>
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText textCutsceneScript55_WriteText_08D6_0
+  WriteText とーーっても<BR>べんりですからね!!<BR>
   PromptContinue
   Branch .reference_09D6
 .reference_08EE
   Unknown0F $00,$01
-  WriteText textCutsceneScript55_WriteText_08F1_0
+  WriteText いいえ。<BR>せんとうちゅうの ぶきの<BR>もちかえは していません。<BR>
   PromptContinue
   SetPortrait $07,$17,$10
-  WriteText textCutsceneScript55_WriteText_0918_0
+  WriteText Oh! そうなんですか?!<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_092D_0
+  WriteText ぶきの もちかえには<BR>1ターンしょうひしますが<BR>けっこう べんりなのでーす。<BR>
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText textCutsceneScript55_WriteText_095B_0
+  WriteText それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておくと<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_097E_0
+  WriteText いかなるてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえるのですわ。<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_09B0_0
+  WriteText そのとおりでーす。<BR><NAME>さんも いちど<BR>つかってみてくださーい。<BR>
   PromptContinue
   Branch .reference_09D6
 .reference_09D6
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript55_WriteText_09DA_0
+  WriteText それじゃあ <NAME><BR>じゅんびは いいか?<BR>
   PromptContinue
-  OptionSelect $02,$00,textCutsceneScript55_OptionSelect_09F0_0,textCutsceneScript55_OptionSelect_09F0_1
+  OptionSelect $02,$00,ぶきのもちかえについて きく,バッチリです
   ConditionalBranch .reference_0A1D,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0B28,$02,$00,$01,$01,$20,$00
 .reference_0A1D
   Unknown0F $00,$01
-  WriteText textCutsceneScript55_WriteText_0A20_0
+  WriteText すみません。<BR>ぶきの もちかえについて<BR>もういちど おねがいします。<BR>
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText textCutsceneScript55_WriteText_0A4A_0
+  WriteText わかりました。<BR>ぶきの もちかえについて<BR>でーすね。<BR>
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText textCutsceneScript55_WriteText_0A6C_0
+  WriteText ぶきは せんとうちゅうに<BR>もちかえることが<BR>できるのでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0A8E_0
+  WriteText ぶきの もちかえには<BR>1ターンつかって<BR>しまいまーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0AAD_0
+  WriteText でも かんがえて つかうと<BR>とても ベンリで グッドな<BR>ものなのでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0AD5_0
+  WriteText それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておけば<BR>
   PromptContinue
-  WriteText textCutsceneScript55_WriteText_0AF8_0
+  WriteText どんなてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえるのでーす。<BR>
   PromptContinue
   Branch .reference_09D6
 .reference_0B28
   Unknown0F $00,$01
-  WriteText textCutsceneScript55_WriteText_0B2B_0
+  WriteText はい バッチリです。<BR>
   PromptContinue
   SetPortrait $06,$11,$09
-  WriteText textCutsceneScript55_WriteText_0B3D_0
+  WriteText それじゃあ <NAME>!<BR>がんばっていこうぜ!!<BR>
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText textCutsceneScript55_WriteText_0B59_0
+  WriteText <NAME>さん。<BR>しなないていどに<BR>がんばりなさい。<BR>
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText textCutsceneScript55_WriteText_0B77_0
+  WriteText <NAME>さん<BR>レッツ ファイトでーす!!<BR>
   PromptContinue
   End
   End

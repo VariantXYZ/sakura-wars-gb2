@@ -57,7 +57,6 @@ TILESET_GFX_DIR := $(GFX_DIR)/tilesets
 GAME_EVENT_SRC_DIR := $(SRC_DIR)/cutscene
 TEXT_DIR := $(GAME_DIR)/text
 GAME_SCRIPT_DIR := $(GAME_DIR)/scripts
-CUTSCENE_TEXT_DIR := $(TEXT_DIR)/cutscene
 CUTSCENE_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/cutscene
 
 ## Output Directories
@@ -115,7 +114,7 @@ $(TILESET_OUT_DIR)/%.$(1BPP_TYPE): $(TILESET_GFX_DIR)/%.$(RAW_1BPP_SRC_TYPE) | $
 	$(CCGFX) $(CCGFX_ARGS) -d 1 -o $@ $<
 
 # build/cs.*.asm from cutscene scripts
-$(BUILD_DIR)/cs.%.asm: $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) $(CUTSCENE_TEXT_DIR)/%.$(CSV_TYPE) | $(BUILD_DIR)
+$(BUILD_DIR)/cs.%.asm: $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BUILD_DIR)
 	$(PYTHON) $(SCRIPT_DIR)/cs2asm.py $@ $^
 
 
@@ -127,10 +126,9 @@ dump_tilesets: | $(TILESET_GFX_DIR)
 	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_tilesets.py "$(ORIGINAL_ROM)" "$(GFX_SRC_DIR)" "$(TILESET_GFX_DIR)" "$(TILESET_OUT_DIR)"
 
-dump_cutscene_scripts: | $(CUTSCENE_TEXT_DIR) $(CUTSCENE_SCRIPT_DIR)
+dump_cutscene_scripts: | $(CUTSCENE_SCRIPT_DIR)
 	rm $(call ESCAPE,$(CUTSCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
-	rm $(call ESCAPE,$(CUTSCENE_TEXT_DIR)/*.$(CSV_TYPE)) || echo ""
-	$(PYTHON) $(SCRIPT_DIR)/dump_cutscene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(CUTSCENE_TEXT_DIR)" "$(CUTSCENE_SCRIPT_DIR)"
+	$(PYTHON) $(SCRIPT_DIR)/dump_cutscene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(CUTSCENE_SCRIPT_DIR)"
 
 #Make directories if necessary
 $(BUILD_DIR):
@@ -141,9 +139,6 @@ $(TILESET_GFX_DIR):
 
 $(TILESET_OUT_DIR):
 	mkdir -p $(TILESET_OUT_DIR)
-
-$(CUTSCENE_TEXT_DIR):
-	mkdir -p $(CUTSCENE_TEXT_DIR)
 
 $(CUTSCENE_SCRIPT_DIR):
 	mkdir -p $(CUTSCENE_SCRIPT_DIR)

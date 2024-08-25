@@ -6,223 +6,223 @@ CutsceneScript2E::
   Unknown12 $17
   FlagIsFemale
   ConditionalBranch .reference_0485,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript2E_WriteText_0011_0
+  WriteText さっきみつけた ぬいぐるみを<BR>アイリスのところへ<BR>
   Unknown05 $84,$56,$01,$00
   End
-  WriteText textCutsceneScript2E_WriteText_0032_0
+  WriteText もっていこう。<BR>
   PromptContinue
   Unknown1E $10
-  WriteText textCutsceneScript2E_WriteText_003F_0
+  WriteText アイリス。<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_004C_0
+  WriteText <NAME> どうしたの?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_005B_0
+  WriteText これ みつけたんだけど<BR>アイリスの?<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_0075_0
+  WriteText あっ! マニアーナ!!<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_0087_0
+  WriteText マニアーナ?<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_0095_0
+  WriteText うん。<BR>その オサルさんの<BR>なまえだよ。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText textCutsceneScript2E_WriteText_00BA_0
+  WriteText みつけてくれて ありがとう<BR><NAME>。<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_00D2_0
+  WriteText おれいに みんなを<BR>しょうかいするね。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_00E9_0
+  WriteText くまの ジャンポール。<BR>いぬの マリー。<BR>うさぎの フランシーヌ。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_010E_0
+  WriteText おおありくいの パグー。<BR>ほっきょくぐまの ジャン。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_012C_0
+  WriteText そして オサルの<BR>マニアーナだよ。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2E_WriteText_0145_0
+  WriteText おぼえた? <NAME>。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_0154_0
+  WriteText え～っと‥‥<BR>くまの ジャンポールと<BR>いぬの マリーと<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_0173_0
+  WriteText うさぎの‥‥‥‥‥‥‥‥‥‥<BR>なんだっけ?<BR>うさぎの‥‥‥‥‥‥‥‥‥‥<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript2E_OptionSelectTimed_019B_0,textCutsceneScript2E_OptionSelectTimed_019B_1,textCutsceneScript2E_OptionSelectTimed_019B_2
+  OptionSelectTimed $05,$03,フランシーヌ,フランソワーズ,フラダンス
   ConditionalBranch .reference_01D4,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_02AD,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_0352,$02,$01,$01,$02,$20,$00
   Branch .reference_03F4
 .reference_01D4
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_01D7_0
+  WriteText フランシーヌ‥‥‥そうだ!<BR>うさぎの フランシーヌ。<BR>そして‥‥‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_01FD_0
+  WriteText おおありくいの パグーに<BR>ほっきょくぐまの ジャン‥‥<BR>それと‥‥‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_0224_0
+  WriteText ‥‥オサルの マニアーナ!<BR>だよね!!<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText textCutsceneScript2E_WriteText_0248_0
+  WriteText うわー スゴイ スゴイ!<BR>ぜんぶいえたーーーっ!!<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_0265_0
+  WriteText さすが <NAME>だね。<BR>アイリスの おともだちを<BR>おぼえて くれたんだね。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_028B_0
+  WriteText それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>
   PromptContinue
   End
 .reference_02AD
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_02B0_0
+  WriteText フランソワーズ‥‥‥そうだ!<BR>うさぎの フランソワーズ。<BR>
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText textCutsceneScript2E_WriteText_02D4_0
+  WriteText ちがうよ～。<BR>そんな ステキなおねえさん<BR>みたいな なまえじゃないよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_02FB_0
+  WriteText うさぎの フランシーヌだよ。<BR>わかった!? <NAME>。<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_031B_0
+  WriteText ちゃんと おぼえといてね。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2E_WriteText_0330_0
+  WriteText それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>
   PromptContinue
   End
 .reference_0352
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_0355_0
+  WriteText フラダンス?‥‥‥そうだ!<BR>うさぎの フラダンス。<BR>
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText textCutsceneScript2E_WriteText_0376_0
+  WriteText ちがうよ～。そんな ようきな<BR>ハワイアンみたいな<BR>なまえじゃないよ～。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_039D_0
+  WriteText うさぎの フランシーヌだよ。<BR>わかった!? <NAME>。<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_03BD_0
+  WriteText ちゃんと おぼえといてね。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2E_WriteText_03D2_0
+  WriteText それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>
   PromptContinue
   End
 .reference_03F4
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_03F7_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>う～んダメだ。<BR>わすれた。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2E_WriteText_041B_0
+  WriteText そうだよね。<BR>いちどでぜんぶ おぼえられる<BR>わけないもんね。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_043D_0
+  WriteText このコは<BR>うさぎの フランシーヌだよ。<BR>ちゃんと おぼえてあげてね。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_0463_0
+  WriteText それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>
   PromptContinue
   End
 .reference_0485
-  WriteText textCutsceneScript2E_WriteText_0485_0
+  WriteText さっきみつけた ぬいぐるみを<BR>アイリスのところへ<BR>
   Unknown05 $84,$56,$01,$00
   End
-  WriteText textCutsceneScript2E_WriteText_04A6_0
+  WriteText もっていきましょう。<BR>
   PromptContinue
   Unknown1E $10
-  WriteText textCutsceneScript2E_WriteText_04B6_0
+  WriteText アイリス。<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_04C3_0
+  WriteText <NAME> どうしたの?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_04D2_0
+  WriteText これ みつけたんだけど<BR>アイリスの?<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_04EC_0
+  WriteText あっ! マニアーナ!!<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_04FE_0
+  WriteText マニアーナ?<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_050C_0
+  WriteText うん。<BR>その オサルさんの<BR>なまえだよ。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText textCutsceneScript2E_WriteText_0531_0
+  WriteText みつけてくれて ありがとう<BR><NAME>。<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_0549_0
+  WriteText おれいに みんなを<BR>しょうかいするね。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_0560_0
+  WriteText くまの ジャンポール。<BR>いぬの マリー。<BR>うさぎの フランシーヌ。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_0585_0
+  WriteText おおありくいの パグー。<BR>ほっきょくぐまの ジャン。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_05A3_0
+  WriteText そして オサルの<BR>マニアーナだよ。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2E_WriteText_05BC_0
+  WriteText おぼえた? <NAME>。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_05CB_0
+  WriteText くまの ジャンポール。<BR>いぬの マリー。<BR>うさぎの フランシーヌ。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_05F0_0
+  WriteText おおありくいの パグー。<BR>ほっきょくぐまの ジャン。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_060E_0
+  WriteText で さいごに オサルの‥‥<BR>なんだっけ?<BR>オサルの‥‥‥‥‥‥‥‥‥‥<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript2E_OptionSelectTimed_0635_0,textCutsceneScript2E_OptionSelectTimed_0635_1,textCutsceneScript2E_OptionSelectTimed_0635_2
+  OptionSelectTimed $05,$03,マニアーナ,アニマール,コアラ
   ConditionalBranch .reference_0669,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_06FC,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_0799,$02,$01,$01,$02,$20,$00
   Branch .reference_0831
 .reference_0669
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_066C_0
+  WriteText マニアーナ‥‥‥そう!<BR>オサルの マニアーナね!!<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText textCutsceneScript2E_WriteText_0696_0
+  WriteText うわー スゴイ スゴイ!<BR>ぜんぶいえたーーーっ!!<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_06B3_0
+  WriteText さすが <NAME>だね。<BR>アイリスの おともだちを<BR>おぼえて くれたんだね。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_06D9_0
+  WriteText それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとうね。<BR>
   PromptContinue
   End
 .reference_06FC
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_06FF_0
+  WriteText アニマール‥‥‥そうだ!<BR>オサルの アニマール。<BR>
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText textCutsceneScript2E_WriteText_071F_0
+  WriteText アニマールって<BR>それじゃあ アニマルの<BR>まんまじゃん!<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_073E_0
+  WriteText このコは<BR>オサルの マニアーナだよ。<BR>わかった!? <NAME>。<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_0762_0
+  WriteText ちゃんと おぼえといてね。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2E_WriteText_0777_0
+  WriteText それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>
   PromptContinue
   End
 .reference_0799
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_079C_0
+  WriteText コアラ?‥‥‥そうだ!<BR>オサルの コアラ。<BR>
   PromptContinue
   SetPortrait $04,$07,$07
-  WriteText textCutsceneScript2E_WriteText_07B9_0
+  WriteText なにそれ!<BR>オサルなのに コアラなんて<BR>へんだよ!<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_07D6_0
+  WriteText このコは<BR>オサルの マニアーナだよ。<BR>わかった!? <NAME>。<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript2E_WriteText_07FA_0
+  WriteText ちゃんと おぼえといてね。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2E_WriteText_080F_0
+  WriteText それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>
   PromptContinue
   End
 .reference_0831
   Unknown0F $00,$01
-  WriteText textCutsceneScript2E_WriteText_0834_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>あ～んダメ。<BR>わすれちゃったわ。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript2E_WriteText_085B_0
+  WriteText そうだよね。<BR>いちどでぜんぶ おぼえられる<BR>わけないもんね。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_087D_0
+  WriteText このコは<BR>オサルの マニアーナだよ。<BR>ちゃんと おぼえてあげてね。<BR>
   PromptContinue
-  WriteText textCutsceneScript2E_WriteText_08A2_0
+  WriteText それじゃあ <NAME><BR>マニアーナを たすけてくれて<BR>ありがとう。<BR>
   PromptContinue
   End
   End

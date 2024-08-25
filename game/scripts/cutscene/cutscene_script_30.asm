@@ -6,227 +6,227 @@ CutsceneScript30::
   Unknown12 $17
   FlagIsFemale
   ConditionalBranch .reference_043A,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript30_WriteText_0011_0
+  WriteText ミカサのなかで ひろった<BR>この まるいメガネ‥‥<BR>
   Unknown05 $84,$6E,$01,$00
   End
-  WriteText textCutsceneScript30_WriteText_0032_0
+  WriteText きっと こうらんさんのだな。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_0044_0
+  WriteText こうらんさんの ところへ<BR>もっていこう。<BR>
   PromptContinue
   Unknown1E $0F
-  WriteText textCutsceneScript30_WriteText_005E_0
+  WriteText こうらんさん。<BR>しつれいします。<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_0076_0
+  WriteText <NAME>はん。<BR>どないしたんや?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_008A_0
+  WriteText これ ひろったんですが<BR>こうらんさんのですか?<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_00A9_0
+  WriteText まるいメガネ?<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_00B4_0
+  WriteText ああ それは ウチのや。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText textCutsceneScript30_WriteText_00D1_0
+  WriteText わざわざ とどけてくれて<BR>ありがとう <NAME>はん。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_00EF_0
+  WriteText こうらんさんって<BR>おなじメガネを いくつも<BR>もっているんですか?<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_0117_0
+  WriteText そうや。<BR>はつめいしてて ばくはつ<BR>することもあるし<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_0135_0
+  WriteText あと たたかってるときも<BR>けっこう こわれるし<BR>それと あれやな‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_015B_0
+  WriteText あたまのうえに メガネが<BR>あるのに ついうっかり<BR>さがしてしもたり するしな。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_0189_0
+  WriteText あー あの「メガネ メガネ」<BR>っていう やつですね。<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_01AB_0
+  WriteText そや。<BR>そやから スペアはけっこう<BR>もってるで。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_01C7_0
+  WriteText いくつくらい<BR>もってるとおもう?<BR>カンでええから いうてみ。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_01E9_0
+  WriteText ヒントは 3ケタのきすうや。<BR>さあ わかるかな～?<BR>
   PromptContinue
-  OptionSelectTimed $03,$03,textCutsceneScript30_OptionSelectTimed_0206_0,textCutsceneScript30_OptionSelectTimed_0206_1,textCutsceneScript30_OptionSelectTimed_0206_2
+  OptionSelectTimed $03,$03,101こ,1011こ,102こ
   ConditionalBranch .reference_023A,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_02C5,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_0347,$02,$01,$01,$02,$20,$00
   Branch .reference_03CA
 .reference_023A
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_023D_0
+  WriteText 101こ じゃないですか?<BR>
   PromptContinue
   SetPortrait $05,$05,$05
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText textCutsceneScript30_WriteText_025B_0
+  WriteText ピンポン! ピンポン!<BR>おおあたりやーーー!!<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript30_WriteText_027A_0
+  WriteText まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_02A6_0
+  WriteText ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
   PromptContinue
   End
 .reference_02C5
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_02C8_0
+  WriteText 1011こ じゃないですか?<BR>
   PromptContinue
   SetPortrait $05,$06,$06
-  WriteText textCutsceneScript30_WriteText_02DE_0
+  WriteText ブブー。<BR>ハズレや。<BR>1011は 4ケタやないか。<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_02FF_0
+  WriteText 3ケタのきすう‥‥<BR>すなわち101こや。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_0317_0
+  WriteText ざんねんやったな。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript30_WriteText_0328_0
+  WriteText ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
   PromptContinue
   End
 .reference_0347
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_034A_0
+  WriteText 102こ ですか?<BR>
   PromptContinue
   SetPortrait $05,$06,$06
-  WriteText textCutsceneScript30_WriteText_035B_0
+  WriteText ブブー。<BR>ハズレや。<BR>102やったら ぐうすうや!<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_037C_0
+  WriteText 3ケタのきすう‥‥<BR>すなわち101こが<BR>せいかいや!<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_039A_0
+  WriteText ざんねんやったな。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript30_WriteText_03AB_0
+  WriteText ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
   PromptContinue
   End
 .reference_03CA
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_03CD_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_03E3_0
+  WriteText ブブー。<BR>じかんぎれでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_03F5_0
+  WriteText せいかいは 101こや。<BR>ま わからんでも<BR>しょうがないな。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript30_WriteText_041B_0
+  WriteText ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
   PromptContinue
   End
 .reference_043A
-  WriteText textCutsceneScript30_WriteText_043A_0
+  WriteText ミカサのなかで ひろった<BR>この まるいメガネ‥‥<BR>
   Unknown05 $84,$6E,$01,$00
   End
-  WriteText textCutsceneScript30_WriteText_045B_0
+  WriteText きっと こうらんさんのね。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_046C_0
+  WriteText こうらんさんの ところへ<BR>もっていきましょう。<BR>
   PromptContinue
   Unknown1E $0F
-  WriteText textCutsceneScript30_WriteText_0489_0
+  WriteText こうらんさん。<BR>しつれいします。<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_04A1_0
+  WriteText <NAME>はん。<BR>どないしたんや?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_04B5_0
+  WriteText これ ひろったんですが<BR>こうらんさんのですか?<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_04D4_0
+  WriteText まるいメガネ?<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_04DF_0
+  WriteText ああ それは ウチのや。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText textCutsceneScript30_WriteText_04FC_0
+  WriteText わざわざ とどけてくれて<BR>ありがとう <NAME>はん。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_051A_0
+  WriteText こうらんさんって<BR>おなじメガネを いくつも<BR>もっているんですか?<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_0542_0
+  WriteText そうや。<BR>はつめいしてて ばくはつ<BR>することもあるし<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_0560_0
+  WriteText あと たたかってるときも<BR>けっこう こわれるし<BR>それと あれやな‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_0586_0
+  WriteText あたまのうえに メガネが<BR>あるのに ついうっかり<BR>さがしてしもたり するしな。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_05B4_0
+  WriteText あー あの「メガネ メガネ」<BR>っていう やつですね。<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_05D6_0
+  WriteText そや。<BR>そやから スペアはけっこう<BR>もってるで。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_05F2_0
+  WriteText いくつくらい もってると<BR>おもう。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_0607_0
+  WriteText カンでエエから<BR>いうてみ?<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_0618_0
+  WriteText ヒントは 3ケタのきすうや。<BR>さあ わかるかな～?<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript30_OptionSelectTimed_0635_0,textCutsceneScript30_OptionSelectTimed_0635_1,textCutsceneScript30_OptionSelectTimed_0635_2
+  OptionSelectTimed $05,$03,101こ,11こ,1001こ
   ConditionalBranch .reference_0668,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_06F3,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_079E,$02,$01,$01,$02,$20,$00
   Branch .reference_083B
 .reference_0668
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_066B_0
+  WriteText 101こ じゃないですか?<BR>
   PromptContinue
   SetPortrait $05,$05,$05
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText textCutsceneScript30_WriteText_0689_0
+  WriteText ピンポン! ピンポン!<BR>おおあたりやーーー!!<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript30_WriteText_06A8_0
+  WriteText まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_06D4_0
+  WriteText ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
   PromptContinue
   End
 .reference_06F3
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_06F6_0
+  WriteText 11こ じゃないですか?<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_070A_0
+  WriteText ブブー。<BR>ハズレや。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_0718_0
+  WriteText 11こくらいやったら<BR>じっけんで こわれて<BR>すぐに なくなってまうわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_073F_0
+  WriteText せいかいは 101こや。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_074F_0
+  WriteText まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript30_WriteText_077F_0
+  WriteText ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
   PromptContinue
   End
 .reference_079E
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_07A1_0
+  WriteText 1001こ ですか?<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_07B3_0
+  WriteText ブブー。<BR>ハズレです。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_07C2_0
+  WriteText いくらなんでも<BR>1001こも<BR>もってへんで。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_07DC_0
+  WriteText せいかいは 101こや。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_07EC_0
+  WriteText まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript30_WriteText_081C_0
+  WriteText ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
   PromptContinue
   End
 .reference_083B
   Unknown0F $00,$01
-  WriteText textCutsceneScript30_WriteText_083E_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText textCutsceneScript30_WriteText_0854_0
+  WriteText ブブー。<BR>じかんぎれでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript30_WriteText_0866_0
+  WriteText せいかいは 101こや。<BR>ま わからんでも<BR>しょうがないな。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript30_WriteText_088C_0
+  WriteText ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>
   PromptContinue
   End
   End
