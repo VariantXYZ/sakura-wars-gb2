@@ -5,21 +5,21 @@ CutsceneScript46::
   Unknown0E $1F
   Unknown12 $04
   FlagIsFemale
-  WriteText チャオ!<BR>ソレッタ・おりひめでーす。<BR>
+  WriteText "チャオ!<BR>ソレッタ・おりひめでーす。<BR>"
   PromptContinue
-  WriteText ていとをまもるために<BR>わざわざ イタリアから<BR>やってきて やりました。<BR>
+  WriteText "ていとをまもるために<BR>わざわざ イタリアから<BR>やってきて やりました。<BR>"
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText わたしのワザは<BR>ゆびさきからでる<BR>れいりょくビームでーす!<BR>
+  WriteText "わたしのワザは<BR>ゆびさきからでる<BR>れいりょくビームでーす!<BR>"
   PromptContinue
-  WriteText れいりょくビームは<BR>はなれた たくさんのてきも<BR>こうげきできるのでーす!<BR>
+  WriteText "れいりょくビームは<BR>はなれた たくさんのてきも<BR>こうげきできるのでーす!<BR>"
   PromptContinue
-  WriteText どうです?<BR>スペシャル すばらしいと<BR>おもいませんかー?<BR>
+  WriteText "どうです?<BR>スペシャル すばらしいと<BR>おもいませんかー?<BR>"
   PromptContinue
-  WriteText あなたも わたしを<BR>みならって まいにち<BR>しょうじんするのでーす。<BR>
+  WriteText "あなたも わたしを<BR>みならって まいにち<BR>しょうじんするのでーす。<BR>"
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText いいですね?<BR>
+  WriteText "いいですね?<BR>"
   PromptContinue
   End
   End

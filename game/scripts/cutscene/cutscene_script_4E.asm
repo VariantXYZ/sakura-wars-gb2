@@ -5,30 +5,30 @@ CutsceneScript4E::
   Unknown0E $1A
   Unknown12 $04
   FlagIsFemale
-  WriteText わたしたちは<BR>『アイ』と『ビ』のせんし<BR>バラぐみよ。<BR>
+  WriteText "わたしたちは<BR>『アイ』と『ビ』のせんし<BR>バラぐみよ。<BR>"
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText わたしは<BR>ばらぐみの たいちょう<BR>せいりゅういん ことね。<BR>
+  WriteText "わたしは<BR>ばらぐみの たいちょう<BR>せいりゅういん ことね。<BR>"
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText アタシは<BR>おおた よきひこよぉ<BR>チューして あげるわ<RED>♥<BLACK><BR>
+  WriteText "アタシは<BR>おおた よきひこよぉ<BR>チューして あげるわ<RED>♥<BLACK><BR>"
   PromptContinue
   SetPortrait $12,$00,$00
-  WriteText あの‥‥あたし‥‥<BR>おか きくのじょう<BR>って いいます。<BR>
+  WriteText "あの‥‥あたし‥‥<BR>おか きくのじょう<BR>って いいます。<BR>"
   PromptContinue
-  WriteText だから‥‥<BR>きくちゃんって<BR>よんでください‥‥<BR>
+  WriteText "だから‥‥<BR>きくちゃんって<BR>よんでください‥‥<BR>"
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText フフフフ。<BR>わたしたちは<BR>ひみつぶたいなので‥‥<BR>
+  WriteText "フフフフ。<BR>わたしたちは<BR>ひみつぶたいなので‥‥<BR>"
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText あうことは<BR>あまり ないかも<BR>しれないわねぇ<RED>♥<BLACK><BR>
+  WriteText "あうことは<BR>あまり ないかも<BR>しれないわねぇ<RED>♥<BLACK><BR>"
   PromptContinue
   SetPortrait $12,$00,$00
-  WriteText あの でも‥‥<BR>よろしく おねがい<BR>しますね‥‥<BR>
+  WriteText "あの でも‥‥<BR>よろしく おねがい<BR>しますね‥‥<BR>"
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText よろしく!<BR>
+  WriteText "よろしく!<BR>"
   PromptContinue
   End
   End
