@@ -37,7 +37,6 @@ jobs:
           ssh-key: ${{ secrets.BASEROM_KEY }}
           ref: master
           path: 'baserom'
-          ref: master
 
       - name: Copy baserom into main repository
         run: |
