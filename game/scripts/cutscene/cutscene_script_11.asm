@@ -1,5 +1,5 @@
-; 41
-; 403F
+; 95
+; 4000
 CutsceneScript11::
   Unknown12 $05
   Unknown0F $00,$01

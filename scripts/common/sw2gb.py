@@ -104,8 +104,13 @@ class CutsceneScript:
                 if set_color is not None:
                     t[-1] += set_color
                     set_color = None
+
+                if c.isspace() and width == 0:
+                    continue
+
                 width += l
                 t[-1] += c
+
             else:
                 if set_color is not None:
                     t[-1] += set_color
