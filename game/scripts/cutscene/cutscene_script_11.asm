@@ -41,7 +41,7 @@ CutsceneScript11::
   SetPortrait $09,$01,$01
   WriteText "Yes, ma'am."
   PromptContinue
-  OptionSelectTimed $05,$02,"おおがみさん おひさしぶりです","はじめまして"
+  OptionSelectTimed $05,$02,"Been a while, Ogami","Pleased to meet you"
   ConditionalBranch .reference_025A,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_1A1D,$02,$01,$01,$01,$20,$00
   Branch .reference_01CD
