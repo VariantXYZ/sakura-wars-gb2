@@ -1,0 +1,56 @@
+# Simply execute 'make' to verify things still build
+
+name: Build All
+
+on:
+  push:
+    branches:
+      - master
+
+  # Allows running manually
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: ghcr.io/variantxyz/sakura-wars-gb2:master
+
+    steps:
+      - name: List versions
+        run: |
+          git --version
+          python3 --version
+          rgbasm --version
+          rgblink --version
+          rgbgfx --version
+
+      - name: Checkout main repository
+        uses: actions/checkout@v2
+        with:
+          path: 'sakura-wars-gb2'
+
+      - name: Checkout baserom repository
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ secrets.BASEROM_REPOSITORY }}
+          ssh-key: ${{ secrets.BASEROM_KEY }}
+          path: 'baserom'
+
+      - name: Copy baserom into main repository
+        run: |
+          cp $GITHUB_WORKSPACE/baserom/*.gbc $GITHUB_WORKSPACE/sakura-wars-gb2
+
+      - name: Make dump
+        working-directory: 'sakura-wars-gb2'
+        run: |
+          make -j dump
+
+      - name: Make
+        working-directory: 'sakura-wars-gb2'
+        run: |
+          make -j
+
+      - name: Verify there are no uncommitted changes
+        working-directory: 'sakura-wars-gb2'
+        run: |
+          [ -z "$(git status --porcelain)" ] && exit 0 || exit 1
