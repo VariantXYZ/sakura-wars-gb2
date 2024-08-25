@@ -3,6 +3,8 @@ FROM ubuntu:latest
 ARG RGBDS_REPOSITORY
 ARG RGBDS_VERSION
 ARG PYTHON_VERSION_NUM
+ARG FLIPS_REPOSITORY
+ARG FLIPS_VERSION
 
 RUN apt-get update && \
     apt-get -qq -y install \
@@ -50,3 +52,19 @@ RUN git clone $RGBDS_REPOSITORY ~/rgbds && \
     make -C ~/rgbds install && \
     rm -rf ~/rgbds && \
     rgbasm --version
+
+# install ghr
+RUN wget https://github.com/tcnksm/ghr/releases/download/v0.14.0/ghr_v0.14.0_linux_amd64.tar.gz && \
+    tar -xvzf ghr_v0.14.0_linux_amd64.tar.gz && \
+    mv ghr_v0.14.0_linux_amd64/ghr /usr/local/bin
+
+# install flips
+RUN git clone $FLIPS_REPOSITORY ~/flips && \
+    cd ~/flips && \
+    git fetch --all && \
+    git checkout -f $FLIPS_VERSION && \
+    g++ *.c *.cpp -O3 -flto -o flips -DFLIPS_CLI && \
+    mv flips /usr/bin/ && \
+    cd - && \
+    rm -rf flips && \
+    flips --version

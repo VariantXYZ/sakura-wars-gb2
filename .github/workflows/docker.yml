@@ -2,7 +2,7 @@ name: Create a Docker image
 
 on:
   push:
-    branches: ['master']
+    branches: ['tr_EN']
     paths:
       - '.github/workflows/Dockerfile'
       - '.github/workflows/docker.yml'
@@ -17,6 +17,8 @@ env:
   RGBDS_REPOSITORY: https://github.com/gbdev/rgbds.git
   RGBDS_VERSION: v0.7.0
   PYTHON_VERSION_NUM: 3.10.6
+  FLIPS_REPOSITORY: https://github.com/Alcaro/Flips.git
+  FLIPS_VERSION: e12ef189900b2c720c6dcd55036a8bb43925ea53
 
 jobs:
   docker-update:
@@ -50,3 +52,5 @@ jobs:
             RGBDS_REPOSITORY=${{ env.RGBDS_REPOSITORY }}
             RGBDS_VERSION=${{ env.RGBDS_VERSION }}
             PYTHON_VERSION_NUM=${{ env.PYTHON_VERSION_NUM }}
+            FLIPS_REPOSITORY=${{ env.FLIPS_REPOSITORY }}
+            FLIPS_VERSION=${{ env.FLIPS_VERSION }}

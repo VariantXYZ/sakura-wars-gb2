@@ -5,7 +5,7 @@ name: Build All
 on:
   push:
     branches:
-      - master
+      - tr_EN
 
   # Allows running manually
   workflow_dispatch:
@@ -13,7 +13,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: ghcr.io/variantxyz/sakura-wars-gb2:master
+    container: ghcr.io/variantxyz/sakura-wars-gb2:tr_EN
 
     steps:
       - name: List versions
