@@ -74,7 +74,7 @@ class CutsceneScript:
                 # Check if it's a control code
                 if c == '<':
                     if "".join(words[w:]).startswith('<NAME>'):
-                        l = 5
+                        l = 5 * 8
                         w += 3 # <, NAME, >
                         c = '<NAME>'
                     elif "".join(words[w:]).startswith('<BLACK>'):
