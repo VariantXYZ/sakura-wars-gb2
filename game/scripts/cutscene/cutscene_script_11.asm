@@ -31,7 +31,7 @@ CutsceneScript11::
   PromptContinue
   WriteText We'd like you to investigate the cause of these occurrences.
   PromptContinue
-  WriteText Understood, <NAME>?
+  WriteText "Understood, <NAME>?"
   PromptContinue
   SetPortrait $0B,$10,$00
   WriteText "Now then, allow me to introduce you to the Flower Division captain."
@@ -39,7 +39,7 @@ CutsceneScript11::
   WriteText Ogami?
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText Yes, ma'am.
+  WriteText "Yes, ma'am."
   PromptContinue
   OptionSelectTimed $05,$02,おおがみさん おひさしぶりです,はじめまして
   ConditionalBranch .reference_025A,$02,$01,$01,$00,$20,$00
@@ -51,7 +51,7 @@ CutsceneScript11::
   WriteText "..."
   PromptContinue
   SetPortrait $09,$05,$05
-  WriteText Hm?<BR>What's wrong, <NAME>?<BR>Feeling nervous?
+  WriteText "Hm?<BR>What's wrong, <NAME>?<BR>Feeling nervous?"
   PromptContinue
   SetPortrait $09,$01,$01
   WriteText "If you don't loosen up, you're going to have a rough time. You ought to relax."
@@ -157,7 +157,7 @@ CutsceneScript11::
   Branch .reference_0606
 .reference_0606
   SetPortrait $06,$01,$01
-  WriteText Yo, <NAME>!<BR>You been eatin' good?
+  WriteText "Yo, <NAME>!<BR>You been eatin' good?'
   PromptContinue
   OptionSelectTimed $05,$03,Of course,Kinda,I'm on a diet
   ConditionalBranch .reference_065D,$02,$01,$01,$00,$20,$00
@@ -280,7 +280,7 @@ CutsceneScript11::
   WriteText ...<BR>
   PromptContinue
   SetPortrait $05,$02,$02
-  WriteText Hm? What's up, <NAME>?<BR>You don't look so good.
+  WriteText "Hm? What's up, <NAME>?<BR>You don't look so good."
   PromptContinue
   SetPortrait $05,$00,$00
   WriteText "Oh, I see, you got the pre-mission jitters, huh?"
