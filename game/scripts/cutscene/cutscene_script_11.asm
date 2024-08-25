@@ -554,15 +554,15 @@ CutsceneScript11::
   Branch .reference_1816
 .reference_1610
   Unknown0F $00,$01
-  WriteText "おりひめさん。<BR>よろしくおねがいします。<BR>"
+  WriteText "I'm looking forward to working with you, Orihime."
   PromptContinue
   SetPortrait $07,$08,$08
-  WriteText "おねがい? <BR>わたしに なにを<BR>おねがいするのでーすか?<BR>"
+  WriteText "Wait, what are you looking at? Is this a Japanese expression?"
   PromptContinue
-  WriteText "わたし かみさまじゃ<BR>ありませーん。おねがい<BR>されても こまりまーす。<BR>"
+  WriteText "You can't just say you're looking at something and not say what it is!"
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "なーんていうのは<BR>ジョークでーす。<BR>こちらこそ よろしくでーす。<BR>"
+  WriteText "... Just kidding. That was a joke. I am also looking forward to it."
   PromptContinue
   Branch .reference_1816
 .reference_16A1
