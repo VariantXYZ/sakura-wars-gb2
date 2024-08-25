@@ -42,7 +42,7 @@ CutsceneScript11::
   WriteText "Yes, ma'am."
   PromptContinue
 ; Reduced option size due to text limits
-  OptionSelectTimed $05,$02,"Hey, Ogami","Nice to meet you"
+  OptionSelectTimed $05,$02,"Long time no see","Nice to meet you"
   ConditionalBranch .reference_025A,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_1A1D,$02,$01,$01,$01,$20,$00
   Branch .reference_01CD
@@ -569,16 +569,16 @@ CutsceneScript11::
   Branch .reference_1816
 .reference_16A1
   Unknown0F $00,$01
-  WriteText "ソレッタ・おりひめさん?<BR>あの～ うまれたくには<BR>どこなんですか?<BR>"
+  WriteText "Orihime Soletta, huh?<BR>Um, what country are you from?"
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "うまれたくに?<BR>イタリアでーす。<BR>それが どうかしましたか?<BR>"
+  WriteText "Where am I from?<BR>Italy.<BR>What about it?"
   PromptContinue
   Unknown0F $00,$01
-  WriteText "いえ かわった おなまえだな<BR>と おもったもので‥‥<BR>"
+  WriteText "No, it's just that name sounded a little unusual, is all."
   PromptContinue
   SetPortrait $07,$06,$06
-  WriteText "かわった?‥‥<BR>それは わたしをバカにして<BR>いるのですか?!<BR>"
+  WriteText ""Unusual"...?<BR>Are you making fun of me?!"
   PromptContinue
   Unknown0F $00,$01
   WriteText "いえいえ とんでもない。<BR>とてもステキな<BR>おなまえですね。<BR>"
