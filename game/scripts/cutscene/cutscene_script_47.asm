@@ -5,15 +5,15 @@ CutsceneScript47::
   Unknown0E $20
   Unknown12 $04
   FlagIsFemale
-  WriteText ボクはレニ‥‥<BR>
+  WriteText "ボクはレニ‥‥<BR>"
   PromptContinue
-  WriteText ボクのせんじょうでのやくめは<BR>ぜんえいで すばやく<BR>てきを はかいすること。<BR>
+  WriteText "ボクのせんじょうでのやくめは<BR>ぜんえいで すばやく<BR>てきを はかいすること。<BR>"
   PromptContinue
-  WriteText スピードこそが<BR>しょうはいを さゆうする。<BR>
+  WriteText "スピードこそが<BR>しょうはいを さゆうする。<BR>"
   PromptContinue
-  WriteText せんじょうにおいて<BR>たいせつなこと それは<BR>かつこと それだけ。<BR>
+  WriteText "せんじょうにおいて<BR>たいせつなこと それは<BR>かつこと それだけ。<BR>"
   PromptContinue
-  WriteText じゃあ<BR>がんばれ‥‥<BR>
+  WriteText "じゃあ<BR>がんばれ‥‥<BR>"
   PromptContinue
   End
   End

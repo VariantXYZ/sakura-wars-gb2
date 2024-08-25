@@ -86,14 +86,24 @@ with open(rom_path, 'rb') as rom:
                         parameters_str.insert(reference.index, f".reference_{reference.reference:04X}")
                         offset_watch.add(reference.reference)
 
-                if texts is not None:
-                    parameters_str += texts
-
                 parameters_data = io.StringIO()
                 c = csv.writer(parameters_data, lineterminator='', delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 c.writerow(parameters_str)
+                
+                # Hacky but allows for string to be explicitly quoted while other values aren't
+                # We could use csv.QUOTE_NONNUMERIC, but then we couldn't keep everything in the rgbds asm format for readability
+                texts_data = None
+                if texts is not None:
+                    texts_data = io.StringIO()
+                    c = csv.writer(texts_data, lineterminator='', delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
+                    c.writerow(texts)
+                    texts_data = texts_data.getvalue()
 
                 lines[i] += parameters_data.getvalue()
+                if texts_data:
+                    if len(parameters_data.getvalue()) > 0:
+                        lines[i] += ","
+                    lines[i] += texts_data
 
             finally:
                 i += 1 + parameter_size
