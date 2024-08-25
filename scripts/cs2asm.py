@@ -31,7 +31,7 @@ def parse_line(cs, references, line):
     while idx < len(parameters):
         if parameters[idx].startswith('$'):
             parameters[idx] = int(parameters[idx].lstrip('$'), 16)
-        elif parameters[idx].startswith('.'):
+        elif parameters[idx].startswith('.') and cs.is_branch(command.command_byte):
             # offset is 2 bytes, so we need to insert 2 bytes in little endian format
             offset = references[parameters[idx]] if parameters[idx] in references else 0
             parameters[idx] = offset & 0xFF
@@ -71,7 +71,12 @@ with open(input_asm, 'r', encoding='utf-8') as fp:
         if line.startswith('.'):
             references[line] = current_offset
             continue
-        (_, _, to_write) = parse_line(cs, references, line)
+        to_write = None
+        try:
+            (_, _, to_write) = parse_line(cs, references, line)
+        except Exception as e:
+            print(f"Error at line: {line}, error: {e}")
+            exit(1)
         current_offset += len(to_write)
 
     fp.seek(0)
