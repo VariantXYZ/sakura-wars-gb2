@@ -5,14 +5,14 @@ CutsceneScript44::
   Unknown0E $0F
   Unknown12 $04
   FlagIsFemale
-  WriteText textCutsceneScript44_WriteText_0009_0
+  WriteText ウチは り こうらん。<BR>とくぎは きかいいじりと<BR>はつめいなんや!<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript44_WriteText_0032_0
+  WriteText せんとうのときには<BR>ウチがつくった じまんの<BR>チビロボを みせたるわ!<BR>
   PromptContinue
-  WriteText textCutsceneScript44_WriteText_0059_0
+  WriteText あんさんの こうぶも<BR>ウチが かいぞうしたるから<BR>いつでも こえかけてな!<BR>
   PromptContinue
-  WriteText textCutsceneScript44_WriteText_0082_0
+  WriteText ほな よろしゅう<BR>たのみまっせ。<BR>
   PromptContinue
   End
   End

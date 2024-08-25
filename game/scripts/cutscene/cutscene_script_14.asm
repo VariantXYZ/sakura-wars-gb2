@@ -6,31 +6,31 @@ CutsceneScript14::
   Unknown12 $04
   FlagIsFemale
   ConditionalBranch .reference_0080,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript14_WriteText_0012_0
+  WriteText <NAME>さん。<BR>ありがとうございました。<BR>
   PromptContinue
-  WriteText textCutsceneScript14_WriteText_0027_0
+  WriteText ほんとうに たすかりました。<BR>
   PromptContinue
-  WriteText textCutsceneScript14_WriteText_0039_0
+  WriteText これ おれいです。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript14_WriteText_0049_0
+  WriteText xxxxxですね。<BR>ありがとうございます。<BR>
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText textCutsceneScript14_WriteText_006B_0
+  WriteText にんむ がんばって<BR>くださいね。<BR>
   PromptContinue
   End
 .reference_0080
-  WriteText textCutsceneScript14_WriteText_0080_0
+  WriteText <NAME>さん。<BR>ありがとうございました。<BR>
   PromptContinue
-  WriteText textCutsceneScript14_WriteText_0095_0
+  WriteText ほんとうに たすかりました。<BR>
   PromptContinue
-  WriteText textCutsceneScript14_WriteText_00A7_0
+  WriteText これ おれいです。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript14_WriteText_00B7_0
+  WriteText xxxxxですね。<BR>ありがとうございます。<BR>
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText textCutsceneScript14_WriteText_00D9_0
+  WriteText にんむ がんばって<BR>くださいね。<BR>
   PromptContinue
   End
   End

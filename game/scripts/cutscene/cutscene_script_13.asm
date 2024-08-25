@@ -6,191 +6,191 @@ CutsceneScript13::
   Unknown12 $04
   FlagIsFemale
   ConditionalBranch .reference_0464,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript13_WriteText_0012_0
+  WriteText おかえり <NAME>はん。<BR>ごくろうさんやったな。<BR>
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText textCutsceneScript13_WriteText_002F_0
+  WriteText おつかれのところ スマンけど<BR>『かくのうこ』について<BR>せつめいを しとくわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_005B_0
+  WriteText 『かくのうこ』では<BR>ぶきや アイテムを<BR>そうこに あずけたり <BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_0080_0
+  WriteText バックパックのせいりや<BR>こうぶのかいぞうが<BR>できるんや。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_00A0_0
+  WriteText そうびのへんこう‥‥<BR>すなわち ぶきのもちかえや<BR>ぶきにわざをセットするのも<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_00CA_0
+  WriteText 『かくのうこ』で やるんや。<BR>まあ ぶきのもちかえや<BR>ぶきにわざをセット するのは<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_00F9_0
+  WriteText しゅつげきちゅうでも<BR>できるんやけどな。<BR>わかったか?<BR>
   PromptContinue
-  OptionSelect $02,$00,textCutsceneScript13_OptionSelect_0118_0,textCutsceneScript13_OptionSelect_0118_1
+  OptionSelect $02,$00,くわしい せつめいをきく,わかりました
   ConditionalBranch .reference_0171,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0143,$02,$00,$01,$01,$20,$00
 .reference_0143
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_0146_0
+  WriteText はい わかりました!<BR>
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText textCutsceneScript13_WriteText_0158_0
+  WriteText よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
   PromptContinue
   End
 .reference_0171
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_0174_0
+  WriteText もっと くわしいせつめいを<BR>きこう。<BR>
   PromptContinue
-  OptionSelect $03,$00,textCutsceneScript13_OptionSelect_018A_0,textCutsceneScript13_OptionSelect_018A_1,textCutsceneScript13_OptionSelect_018A_2
+  OptionSelect $03,$00,ぶきそうび についてきく,わざセット についてきく,きくのを やめる
   ConditionalBranch .reference_0216,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_034C,$02,$00,$01,$01,$20,$00
   ConditionalBranch .reference_01CE,$02,$00,$01,$02,$20,$00
 .reference_01CE
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_01D1_0
+  WriteText ‥‥やっぱり いいや。<BR>
   PromptContinue
   SetPortrait $05,$12,$0A
-  WriteText textCutsceneScript13_WriteText_01E4_0
+  WriteText ん? どないしたんや<BR><NAME>はん。<BR>
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText textCutsceneScript13_WriteText_01FB_0
+  WriteText まあ ええわ。<BR>ほな がんばってな<BR><NAME>はん。<BR>
   PromptContinue
   End
 .reference_0216
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_0219_0
+  WriteText ぶきのそうびについて<BR>もっとくわしくおしえて<BR>いただけませんか?<BR>
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText textCutsceneScript13_WriteText_0241_0
+  WriteText よっしゃ ぶきのそうびに<BR>ついてやな。<BR>ほな じゅんばんに いうで。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_0267_0
+  WriteText 1)そうびしたい ぶきは<BR>  バックパックに<BR>  いれること。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_028B_0
+  WriteText 2)バックパックにある<BR>  そうびしたい ぶきを<BR>  えらぶ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_02AF_0
+  WriteText 3)メニューにある『そうび』<BR>  を えらぶ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_02CD_0
+  WriteText いじょうが ぶきそうびの<BR>てじゅんや。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_02E4_0
+  WriteText ほかになにか ききたいことは<BR>あるか?<BR>
   PromptContinue
-  OptionSelect $02,$00,textCutsceneScript13_OptionSelect_02FB_0,textCutsceneScript13_OptionSelect_02FB_1
+  OptionSelect $02,$00,わざセット についてきく,ない
   ConditionalBranch .reference_034C,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0322,$02,$00,$01,$01,$20,$00
 .reference_0322
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_0325_0
+  WriteText ありません。<BR>
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText textCutsceneScript13_WriteText_0333_0
+  WriteText よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
   PromptContinue
   End
 .reference_034C
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_034F_0
+  WriteText ぶきに わざをセットする<BR>ほうほうを くわしくおしえて<BR>いただけませんか?<BR>
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText textCutsceneScript13_WriteText_037C_0
+  WriteText わざのセットについてやな。<BR>わざのセットは<BR>バックパックでやるんや。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_03A2_0
+  WriteText 1)バックパックにあるぶきで<BR>  わざをセットしたいぶきを<BR>  えらぶ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_03CB_0
+  WriteText 2)メニューにある<BR>  『わざセット』を<BR>  えらぶ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_03ED_0
+  WriteText 3)そして セットしたい<BR>  わざを えらぶ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_0409_0
+  WriteText いじょうが ぶきに<BR>わざをセットする<BR>てじゅんや。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_0426_0
+  WriteText ほかになにか ききたいことは<BR>あるか?<BR>
   PromptContinue
-  OptionSelect $02,$00,textCutsceneScript13_OptionSelect_043D_0,textCutsceneScript13_OptionSelect_043D_1
+  OptionSelect $02,$00,ぶきそうび についてきく,ない
   ConditionalBranch .reference_0216,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0322,$02,$00,$01,$01,$20,$00
 .reference_0464
-  WriteText textCutsceneScript13_WriteText_0464_0
+  WriteText おかえり <NAME>はん。<BR>ごくろうさんやったな。<BR>
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText textCutsceneScript13_WriteText_0481_0
+  WriteText おつかれのところ スマンけど<BR>『かくのうこ』について<BR>せつめいを しとくわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_04AD_0
+  WriteText 『かくのうこ』では<BR>ぶきや アイテムを<BR>そうこに あずけたり <BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_04D2_0
+  WriteText バックパックのせいりや<BR>こうぶのかいぞうが<BR>できるんや。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_04F2_0
+  WriteText そうびのへんこう‥‥<BR>すなわち ぶきのもちかえや<BR>ぶきにわざをセットするのも<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_051C_0
+  WriteText 『かくのうこ』で やるんや。<BR>まあ ぶきのもちかえや<BR>ぶきにわざをセット するのは<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_054B_0
+  WriteText しゅつげきちゅうでも<BR>できるんやけどな。<BR>わかったか?<BR>
   PromptContinue
-  OptionSelect $02,$00,textCutsceneScript13_OptionSelect_056A_0,textCutsceneScript13_OptionSelect_056A_1
+  OptionSelect $02,$00,くわしい せつめいをきく,わかりました
   ConditionalBranch .reference_05C3,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0595,$02,$00,$01,$01,$20,$00
 .reference_0595
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_0598_0
+  WriteText はい わかりました!<BR>
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText textCutsceneScript13_WriteText_05AA_0
+  WriteText よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
   PromptContinue
   End
 .reference_05C3
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_05C6_0
+  WriteText もっと くわしいせつめいを<BR>ききたいわ。<BR>
   PromptContinue
-  OptionSelect $03,$00,textCutsceneScript13_OptionSelect_05DE_0,textCutsceneScript13_OptionSelect_05DE_1,textCutsceneScript13_OptionSelect_05DE_2
+  OptionSelect $03,$00,ぶきそうび についてきく,わざセット についてきく,きくのを やめる
   ConditionalBranch .reference_0677,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_07AD,$02,$00,$01,$01,$20,$00
   ConditionalBranch .reference_0622,$02,$00,$01,$02,$20,$00
 .reference_0622
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_0625_0
+  WriteText ‥‥きかなくても<BR>だいじょうぶな<BR>きがするわ‥‥<BR>
   PromptContinue
   SetPortrait $05,$12,$0A
-  WriteText textCutsceneScript13_WriteText_0645_0
+  WriteText ん? どないしたんや<BR><NAME>はん。<BR>
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText textCutsceneScript13_WriteText_065C_0
+  WriteText まあ ええわ。<BR>ほな がんばってな<BR><NAME>はん。<BR>
   PromptContinue
   End
 .reference_0677
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_067A_0
+  WriteText ぶきのそうびについて<BR>もっとくわしくおしえて<BR>いただけませんか?<BR>
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText textCutsceneScript13_WriteText_06A2_0
+  WriteText よっしゃ ぶきのそうびに<BR>ついてやな。<BR>ほな じゅんばんに いうで。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_06C8_0
+  WriteText 1)そうびしたい ぶきは<BR>  バックパックに<BR>  いれること。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_06EC_0
+  WriteText 2)バックパックにある<BR>  そうびしたい ぶきを<BR>  えらぶ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_0710_0
+  WriteText 3)メニューにある『そうび』<BR>  を えらぶ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_072E_0
+  WriteText いじょうが ぶきそうびの<BR>てじゅんや。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_0745_0
+  WriteText ほかになにか ききたいことは<BR>あるか?<BR>
   PromptContinue
-  OptionSelect $02,$00,textCutsceneScript13_OptionSelect_075C_0,textCutsceneScript13_OptionSelect_075C_1
+  OptionSelect $02,$00,わざセット についてきく,ない
   ConditionalBranch .reference_07AD,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0783,$02,$00,$01,$01,$20,$00
 .reference_0783
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_0786_0
+  WriteText ありません。<BR>
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText textCutsceneScript13_WriteText_0794_0
+  WriteText よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
   PromptContinue
   End
 .reference_07AD
   Unknown0F $00,$01
-  WriteText textCutsceneScript13_WriteText_07B0_0
+  WriteText ぶきに わざをセットする<BR>ほうほうを くわしくおしえて<BR>いただけませんか?<BR>
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText textCutsceneScript13_WriteText_07DD_0
+  WriteText わざのセットについてやな。<BR>わざのセットは<BR>バックパックでやるんや。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_0803_0
+  WriteText 1)バックパックにあるぶきで<BR>  わざをセットしたいぶきを<BR>  えらぶ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_082C_0
+  WriteText 2)メニューにある<BR>  『わざセット』を<BR>  えらぶ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_084E_0
+  WriteText 3)そして セットしたい<BR>  わざを えらぶ。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_086A_0
+  WriteText いじょうが ぶきに<BR>わざをセットする<BR>てじゅんや。<BR>
   PromptContinue
-  WriteText textCutsceneScript13_WriteText_0887_0
+  WriteText ほかになにか ききたいことは<BR>あるか?<BR>
   PromptContinue
-  OptionSelect $02,$00,textCutsceneScript13_OptionSelect_089E_0,textCutsceneScript13_OptionSelect_089E_1
+  OptionSelect $02,$00,ぶきそうび についてきく,ない
   ConditionalBranch .reference_0677,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0783,$02,$00,$01,$01,$20,$00
   End

@@ -6,55 +6,55 @@ CutsceneScript1D::
   Unknown12 $09
   FlagIsFemale
   ConditionalBranch .reference_0119,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript1D_WriteText_0012_0
+  WriteText おかえりなさい。<BR><NAME>くん。<BR>
   PromptContinue
-  WriteText textCutsceneScript1D_WriteText_0023_0
+  WriteText よきひこさんの きゅうしゅつ<BR>ごくろうさまでした。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript1D_WriteText_0044_0
+  WriteText では ほうこくを<BR>おねがいするわ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript1D_WriteText_005C_0
+  WriteText はい ほうこくします。<BR>
   PromptContinue
-  WriteText textCutsceneScript1D_WriteText_006B_0
+  WriteText 『やまと』に 『まじんき』は<BR>ありませんでした。<BR>
   PromptContinue
-  WriteText textCutsceneScript1D_WriteText_008B_0
+  WriteText また 『やまと』には<BR>あきらかに なにものかに<BR>めいれいされ うごいている<BR>
   PromptContinue
-  WriteText textCutsceneScript1D_WriteText_00B6_0
+  WriteText まものが なんたいか<BR>いました。<BR>
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText textCutsceneScript1D_WriteText_00CE_0
+  WriteText なにものかに<BR>めいれいされている‥‥‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript1D_WriteText_00E6_0
+  WriteText わかったわ。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript1D_WriteText_00F4_0
+  WriteText では <NAME>くんは<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
   PromptContinue
   End
 .reference_0119
-  WriteText textCutsceneScript1D_WriteText_0119_0
+  WriteText おかえりなさい。<BR><NAME>。<BR>
   PromptContinue
-  WriteText textCutsceneScript1D_WriteText_0128_0
+  WriteText よきひこさんの きゅうしゅつ<BR>ごくろうさまでした。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript1D_WriteText_0149_0
+  WriteText では ほうこくを<BR>おねがいするわ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript1D_WriteText_0161_0
+  WriteText はい ほうこくします。<BR>
   PromptContinue
-  WriteText textCutsceneScript1D_WriteText_0170_0
+  WriteText 『やまと』に 『まじんき』は<BR>ありませんでした。<BR>
   PromptContinue
-  WriteText textCutsceneScript1D_WriteText_0190_0
+  WriteText また 『やまと』には<BR>あきらかに なにものかに<BR>めいれいされ うごいている<BR>
   PromptContinue
-  WriteText textCutsceneScript1D_WriteText_01BB_0
+  WriteText まものが なんたいか<BR>いました。<BR>
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText textCutsceneScript1D_WriteText_01D3_0
+  WriteText なにものかに<BR>めいれいされている‥‥‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript1D_WriteText_01EB_0
+  WriteText わかったわ。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript1D_WriteText_01F9_0
+  WriteText では <NAME>は<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
   PromptContinue
   End
   End

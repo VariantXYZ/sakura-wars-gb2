@@ -6,41 +6,41 @@ CutsceneScript1F::
   Unknown12 $09
   FlagIsFemale
   ConditionalBranch .reference_00E8,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript1F_WriteText_0012_0
+  WriteText <NAME>くん<BR>おつかれさま。<BR>
   PromptContinue
-  WriteText textCutsceneScript1F_WriteText_0021_0
+  WriteText では ほうこくを<BR>おねがいするわ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript1F_WriteText_0039_0
+  WriteText はい。<BR>『まじんき・たま』を<BR>かいしゅうしてきました。<BR>
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText textCutsceneScript1F_WriteText_005E_0
+  WriteText よくやったわね。<BR><NAME>くん。<BR>
   PromptContinue
-  WriteText textCutsceneScript1F_WriteText_006F_0
+  WriteText 『けん』と『たま』‥‥<BR>ふたつの『まじんき』の<BR>かいしゅう おつかれさま。<BR>
   PromptContinue
-  WriteText textCutsceneScript1F_WriteText_009E_0
+  WriteText のこる『まじんき』は<BR>あと ひとつよ。<BR>がんばってね。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript1F_WriteText_00C3_0
+  WriteText では <NAME>くん。<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
   PromptContinue
   End
 .reference_00E8
-  WriteText textCutsceneScript1F_WriteText_00E8_0
+  WriteText <NAME><BR>おつかれさま。<BR>
   PromptContinue
-  WriteText textCutsceneScript1F_WriteText_00F5_0
+  WriteText では ほうこくを<BR>おねがいするわ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript1F_WriteText_010D_0
+  WriteText はい。<BR>『まじんき・たま』を<BR>かいしゅうしてきました。<BR>
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText textCutsceneScript1F_WriteText_0132_0
+  WriteText よくやったわね。<BR><NAME>。<BR>
   PromptContinue
-  WriteText textCutsceneScript1F_WriteText_0141_0
+  WriteText 『けん』と『たま』‥‥<BR>ふたつの『まじんき』の<BR>かいしゅう おつかれさま。<BR>
   PromptContinue
-  WriteText textCutsceneScript1F_WriteText_0170_0
+  WriteText のこる『まじんき』は<BR>あと ひとつよ。<BR>がんばってね。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript1F_WriteText_0195_0
+  WriteText では <NAME>。<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
   PromptContinue
   End
   End

@@ -6,41 +6,41 @@ CutsceneScript21::
   Unknown12 $09
   FlagIsFemale
   ConditionalBranch .reference_00F7,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript21_WriteText_0012_0
+  WriteText おかえりなさい。<BR><NAME>くん。<BR>
   PromptContinue
-  WriteText textCutsceneScript21_WriteText_0023_0
+  WriteText ことねさんの きゅうしゅつ<BR>ごくろうさまでした。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript21_WriteText_0043_0
+  WriteText では ほうこくを<BR>おねがいするわ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript21_WriteText_005B_0
+  WriteText はい ほうこくします。<BR>ことねさんからの<BR>じょうほうです。<BR>
   PromptContinue
-  WriteText textCutsceneScript21_WriteText_007C_0
+  WriteText どうやら『かがみ』は<BR>『せいまじょう』の おくに<BR>あるようです。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript21_WriteText_00A8_0
+  WriteText そう‥‥ さいごのひとつが<BR>『せいまじょう』にあるのね。<BR>わかったわ‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript21_WriteText_00D2_0
+  WriteText では <NAME>くんは<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
   PromptContinue
   End
 .reference_00F7
-  WriteText textCutsceneScript21_WriteText_00F7_0
+  WriteText おかえりなさい。<BR><NAME>。<BR>
   PromptContinue
-  WriteText textCutsceneScript21_WriteText_0106_0
+  WriteText ことねさんの きゅうしゅつ<BR>ごくろうさまでした。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript21_WriteText_0126_0
+  WriteText では ほうこくを<BR>おねがいするわ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript21_WriteText_013E_0
+  WriteText はい ほうこくします。<BR>ことねさんからの<BR>じょうほうです。<BR>
   PromptContinue
-  WriteText textCutsceneScript21_WriteText_015F_0
+  WriteText どうやら『かがみ』は<BR>『せいまじょう』の おくに<BR>あるようです。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript21_WriteText_018B_0
+  WriteText そう‥‥ さいごのひとつが<BR>『せいまじょう』にあるのね。<BR>わかったわ‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript21_WriteText_01B5_0
+  WriteText では <NAME>は<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
   PromptContinue
   End
   End

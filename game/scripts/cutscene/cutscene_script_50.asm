@@ -6,33 +6,33 @@ CutsceneScript50::
   Unknown12 $05
   FlagIsFemale
   ConditionalBranch .reference_02C4,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript50_WriteText_0012_0
+  WriteText おかえり <NAME>はん。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript50_WriteText_0022_0
+  WriteText こうらんさん。<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_002D_0
+  WriteText メカのてんさい<BR>こうらんさんに おりいって<BR>おねがいが あるのですが‥‥<BR>
   PromptContinue
   SetPortrait $05,$24,$14
-  WriteText textCutsceneScript50_WriteText_0059_0
+  WriteText なんや なんや。<BR>そないに いわれると<BR>てれるやんか。<BR>
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText textCutsceneScript50_WriteText_007C_0
+  WriteText まあ <NAME>はんの<BR>たのみやったら できることは<BR>なんでも やったるで。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript50_WriteText_00A5_0
+  WriteText じつは‥‥ミカサのきょだい<BR>ファンのせいで さきに<BR>すすめないんですよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_00CD_0
+  WriteText それでですね こうぶに<BR>キャタピラを そうびすれば<BR>つよいかぜのなかでも<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_00F5_0
+  WriteText すすむことが できるんじゃ<BR>ないかと おもったんですが<BR>どうでしょう?<BR>
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText textCutsceneScript50_WriteText_0120_0
+  WriteText ‥‥‥‥ふむ‥‥なるほど。<BR>キャタピラか‥‥<BR>おもしろいやん。<BR>
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText textCutsceneScript50_WriteText_0147_0
+  WriteText よっしゃ!<BR>まかしとき!<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_0157_0
+  WriteText ウチが ちゃちゃっと<BR>つくったるわ。<BR>ちょっと まっときや。<BR>
   PromptContinue
   Unknown0F $00,$01
   Unknown0D $00,$00
@@ -40,57 +40,57 @@ CutsceneScript50::
   Unknown09 $78
   Unknown0E $1A
   SetPortrait $05,$21,$11
-  WriteText textCutsceneScript50_WriteText_0189_0
+  WriteText よっしゃ!<BR>できたで <NAME>はん!!<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_019D_0
+  WriteText キャタピラそうびの<BR>こうぶ‥‥なづけて<BR>『こうぶ・タンク』や!!<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript50_WriteText_01C6_0
+  WriteText エエッ!!<BR>こんなに はやく!?<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_01DA_0
-  PromptContinue
-  SetPortrait $05,$25,$15
-  WriteText textCutsceneScript50_WriteText_0203_0
-  PromptContinue
-  SetPortrait $05,$20,$10
-  WriteText textCutsceneScript50_WriteText_0227_0
+  WriteText スゴイですね。<BR>さすがは こうらんさん。<BR>ありがとうございました。<BR>
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText textCutsceneScript50_WriteText_0253_0
+  WriteText ウチにかかったら<BR>こんなもん おちゃのこ<BR>さいさいや!!<BR>
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText textCutsceneScript50_WriteText_0276_0
+  WriteText ちなみに『こうぶ・タンク』は<BR>かぜに とばされないだけや<BR>なくて‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_0291_0
+  SetPortrait $05,$25,$15
+  WriteText ぼうぎょせいのうも ふつうの<BR>ボディより たかいんや!<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_02B4_0
+  SetPortrait $05,$20,$10
+  WriteText ただし じゃっかん<BR>すばやさは おちるけどな。<BR>
+  PromptContinue
+  WriteText まあ じょうきょうや<BR>そうびによって つかいわける<BR>ことやな。<BR>
+  PromptContinue
+  WriteText ほな。<BR>がんばりや～。<BR>
   PromptContinue
   End
 .reference_02C4
-  WriteText textCutsceneScript50_WriteText_02C4_0
+  WriteText おかえり <NAME>はん。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript50_WriteText_02D4_0
+  WriteText こうらんさん。<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_02DF_0
+  WriteText すみませんが<BR>こうらんさんに おりいって<BR>おねがいが あるのですが‥‥<BR>
   PromptContinue
   SetPortrait $05,$21,$11
-  WriteText textCutsceneScript50_WriteText_030A_0
+  WriteText <NAME>はんの<BR>たのみやったら できることは<BR>なんでも やったるで。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript50_WriteText_0330_0
+  WriteText じつは‥‥ミカサのきょだい<BR>ファンのせいで さきに<BR>すすめないんです。<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_0357_0
+  WriteText それでですね こうぶに<BR>キャタピラを そうびすれば<BR>つよいかぜのなかでも<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_037F_0
+  WriteText すすむことが できるんじゃ<BR>ないかと おもったのですが<BR>どうでしょうか?<BR>
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText textCutsceneScript50_WriteText_03AB_0
+  WriteText ふむ‥‥なるほど。<BR>キャタピラか‥‥<BR>おもしろいやん。<BR>
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText textCutsceneScript50_WriteText_03CE_0
+  WriteText よっしゃ!<BR>まかしとき!<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_03DE_0
+  WriteText ウチが ちゃちゃっと<BR>つくったるわ。<BR>ちょっと まっときや。<BR>
   PromptContinue
   Unknown0F $00,$01
   Unknown0D $00,$00
@@ -98,30 +98,30 @@ CutsceneScript50::
   Unknown09 $78
   Unknown0E $1A
   SetPortrait $05,$21,$11
-  WriteText textCutsceneScript50_WriteText_0410_0
+  WriteText よっしゃ!<BR>できたで <NAME>はん!!<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_0424_0
+  WriteText キャタピラそうびの<BR>こうぶ‥‥なづけて<BR>『こうぶ・タンク』や!!<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript50_WriteText_044D_0
+  WriteText エエッ!!<BR>こんなに はやく!?<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_0461_0
-  PromptContinue
-  SetPortrait $05,$25,$15
-  WriteText textCutsceneScript50_WriteText_048A_0
-  PromptContinue
-  SetPortrait $05,$20,$10
-  WriteText textCutsceneScript50_WriteText_04AE_0
+  WriteText スゴイですね。<BR>さすがは こうらんさん。<BR>ありがとうございました。<BR>
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText textCutsceneScript50_WriteText_04DA_0
+  WriteText ウチにかかったら<BR>こんなもん おちゃのこ<BR>さいさいや!!<BR>
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText textCutsceneScript50_WriteText_04FD_0
+  WriteText ちなみに『こうぶ・タンク』は<BR>かぜに とばされないだけや<BR>なくて‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_0518_0
+  SetPortrait $05,$25,$15
+  WriteText ぼうぎょせいのうも ふつうの<BR>ボディより たかいんや!<BR>
   PromptContinue
-  WriteText textCutsceneScript50_WriteText_053B_0
+  SetPortrait $05,$20,$10
+  WriteText ただし じゃっかん<BR>すばやさは おちるけどな。<BR>
+  PromptContinue
+  WriteText まあ じょうきょうや<BR>そうびによって つかいわける<BR>ことやな。<BR>
+  PromptContinue
+  WriteText ほな。<BR>がんばりや～。<BR>
   PromptContinue
   End
   End

@@ -5,15 +5,15 @@ CutsceneScript4B::
   Unknown0E $16
   Unknown12 $04
   FlagIsFemale
-  WriteText textCutsceneScript4B_WriteText_0009_0
+  WriteText こんにちは わたくし<BR>ふじいかすみ と<BR>もうします。<BR>
   PromptContinue
   SetPortrait $0C,$10,$00
-  WriteText textCutsceneScript4B_WriteText_002B_0
+  WriteText ていこくかげきだん では<BR>オペレターとして<BR>さくせんをサポートしてます。<BR>
   PromptContinue
-  WriteText textCutsceneScript4B_WriteText_0053_0
+  WriteText もしも こまったことが<BR>ありましたら つうしんで<BR>よびだしてくださいね。<BR>
   PromptContinue
   SetPortrait $0C,$11,$01
-  WriteText textCutsceneScript4B_WriteText_007F_0
+  WriteText では にんむ<BR>がんばってください。<BR>
   PromptContinue
   End
   End

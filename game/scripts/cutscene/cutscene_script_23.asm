@@ -6,203 +6,203 @@ CutsceneScript23::
   Unknown12 $01
   FlagIsFemale
   ConditionalBranch .reference_03B1,$02,$04,$01,$01,$20,$00
-  WriteText textCutsceneScript23_WriteText_0012_0
+  WriteText <NAME>くん<BR>おつかれさま。<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_0021_0
+  WriteText では ほうこくを<BR>おねがいするわ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript23_WriteText_0039_0
+  WriteText はい。<BR>『まじんき・かがみ』を<BR>かいしゅうしてきました。<BR>
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText textCutsceneScript23_WriteText_005F_0
+  WriteText これで 『まじんき』が<BR>3つそろったわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_0079_0
+  WriteText ほんとうに よくやったわね。<BR><NAME>くん。<BR>
   PromptContinue
   SetPortrait $06,$11,$09
-  WriteText textCutsceneScript23_WriteText_0094_0
+  WriteText さすがだぜ <NAME>!<BR>
   PromptContinue
   SetPortrait $02,$11,$09
-  WriteText textCutsceneScript23_WriteText_00A4_0
+  WriteText おめでとう <NAME>さん。<BR>
   PromptContinue
   SetPortrait $03,$13,$0B
-  WriteText textCutsceneScript23_WriteText_00B6_0
+  WriteText よくやりましたね。<BR><NAME>くん。<BR>
   PromptContinue
   SetPortrait $04,$11,$09
-  WriteText textCutsceneScript23_WriteText_00CC_0
+  WriteText やったね! <NAME>!!<BR>ジャンポールも スゴイって<BR>いってるよ!!<BR>
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText textCutsceneScript23_WriteText_00F3_0
+  WriteText さすが <NAME>はん。<BR>やるなぁ～。<BR>かっこええで。<BR>
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText textCutsceneScript23_WriteText_0112_0
+  WriteText すごいでーす!<BR><NAME>さんが いれば<BR>オニに かなぼうでーす。<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript23_WriteText_0137_0
+  WriteText よくやった‥‥<NAME>。<BR>
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText textCutsceneScript23_WriteText_0148_0
+  WriteText すごいですよ <NAME>さん<BR>よくがんばりましたね。<BR>おつかれさまでした。<BR>
   PromptContinue
   SetPortrait $09,$11,$08
-  WriteText textCutsceneScript23_WriteText_0171_0
+  WriteText <NAME>くん よくやった。<BR>
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText textCutsceneScript23_WriteText_0183_0
+  WriteText <NAME>さん‥‥<BR>ステキです‥‥<RED>♥<BLACK><BR>
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText textCutsceneScript23_WriteText_019E_0
+  WriteText <NAME>ちゃん<BR>やるじゃな～い。<BR>ステキよ～ん<RED>♥<BLACK><BR>
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText textCutsceneScript23_WriteText_01C0_0
+  WriteText <NAME>さん ありがとう。<BR>『まじんき』を ぜんぶ<BR>かいしゅうしてくれて。<BR>
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText textCutsceneScript23_WriteText_01EC_0
+  WriteText <NAME>さん やりましたね<BR>おつかれさまでした。<BR>
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText textCutsceneScript23_WriteText_0209_0
+  WriteText <NAME>くん さすが!<BR>やるわね～。<BR>カッコイイわよ。<BR>
   PromptContinue
   SetPortrait $0C,$11,$01
-  WriteText textCutsceneScript23_WriteText_0229_0
+  WriteText <NAME>さん ほんとうに<BR>おつかれさまでした。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript23_WriteText_0244_0
+  WriteText ありがとうございます。<BR>みなさんのたすけが<BR>あったから できたんです。<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_026B_0
+  WriteText でも‥‥‥‥<BR>
   PromptContinue
   SetPortrait $0E,$13,$03
-  WriteText textCutsceneScript23_WriteText_0279_0
+  WriteText どうしたんですか?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript23_WriteText_0289_0
+  WriteText さいごのまものが<BR>しにぎわに のこした<BR>ひとことが きになるんです。<BR>
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript23_WriteText_02B3_0
+  WriteText 「まあ いいや」っていう<BR>ひとことか?<BR>
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText textCutsceneScript23_WriteText_02CE_0
+  WriteText そうね‥‥<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript23_WriteText_02DB_0
+  WriteText ゆり ミカサのちかに<BR>なにか へんかはある?<BR>
   PromptContinue
   SetPortrait $0D,$10,$00
-  WriteText textCutsceneScript23_WriteText_02F9_0
+  WriteText いえ げんざいのところ<BR>なにもありません。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript23_WriteText_0316_0
+  WriteText そう‥‥<BR>
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript23_WriteText_0322_0
+  WriteText たんなる まけおしみ<BR>じゃねーのか?<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript23_WriteText_033C_0
+  WriteText だと いいんだけど‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_034B_0
+  WriteText まあ しんぱいしていても<BR>しかたないわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_0363_0
+  WriteText ミカサちかの かんしは<BR>つづけることに しましょう。<BR>
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText textCutsceneScript23_WriteText_0385_0
+  WriteText <NAME>くん<BR>ほんとうに<BR>ごくろうさまでした。<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_039D_0
+  WriteText ゆっくり<BR>やすんでちょうだい。<BR>
   PromptContinue
   End
 .reference_03B1
-  WriteText textCutsceneScript23_WriteText_03B1_0
+  WriteText <NAME><BR>おつかれさま。<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_03BE_0
+  WriteText では ほうこくを<BR>おねがいするわ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript23_WriteText_03D6_0
+  WriteText はい。<BR>『まじんき・かがみ』を<BR>かいしゅうしてきました。<BR>
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText textCutsceneScript23_WriteText_03FC_0
+  WriteText これで 『まじんき』が<BR>3つそろったわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_0416_0
+  WriteText ほんとうに よくやったわね。<BR><NAME>。<BR>
   PromptContinue
   SetPortrait $06,$11,$09
-  WriteText textCutsceneScript23_WriteText_042F_0
+  WriteText さすがだぜ <NAME>!<BR>
   PromptContinue
   SetPortrait $02,$11,$09
-  WriteText textCutsceneScript23_WriteText_043F_0
+  WriteText おめでとう <NAME>さん。<BR>
   PromptContinue
   SetPortrait $03,$13,$0B
-  WriteText textCutsceneScript23_WriteText_0451_0
+  WriteText よくやりましたね。<BR><NAME>。<BR>
   PromptContinue
   SetPortrait $04,$11,$09
-  WriteText textCutsceneScript23_WriteText_0465_0
+  WriteText やったね! <NAME>!!<BR>ジャンポールも スゴイって<BR>いってるよ!!<BR>
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText textCutsceneScript23_WriteText_048C_0
+  WriteText さすが <NAME>はん。<BR>やるなぁ～。<BR>かっこええで。<BR>
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText textCutsceneScript23_WriteText_04AB_0
+  WriteText すごいでーす!<BR><NAME>さんが いれば<BR>オニに かなぼうでーす。<BR>
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText textCutsceneScript23_WriteText_04D0_0
+  WriteText よくやった‥‥<NAME>。<BR>
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText textCutsceneScript23_WriteText_04E1_0
+  WriteText すごいですよ <NAME>さん<BR>よくがんばりましたね。<BR>おつかれさまでした。<BR>
   PromptContinue
   SetPortrait $09,$11,$08
-  WriteText textCutsceneScript23_WriteText_050A_0
+  WriteText <NAME>くん よくやった。<BR>
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText textCutsceneScript23_WriteText_051C_0
+  WriteText <NAME>さん‥‥<BR>カッコイイです‥‥<RED>♥<BLACK><BR>
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText textCutsceneScript23_WriteText_0539_0
+  WriteText <NAME>ちゃん<BR>やるじゃな～い。<BR>ステキよ～ん<RED>♥<BLACK><BR>
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText textCutsceneScript23_WriteText_055B_0
+  WriteText <NAME>さん ありがとう。<BR>『まじんき』を ぜんぶ<BR>かいしゅうしてくれて。<BR>
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText textCutsceneScript23_WriteText_0587_0
+  WriteText <NAME>さん やりましたね<BR>おつかれさまでした。<BR>
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText textCutsceneScript23_WriteText_05A4_0
+  WriteText <NAME>さん さすが!<BR>やるわね～。<BR>
   PromptContinue
   SetPortrait $0C,$11,$01
-  WriteText textCutsceneScript23_WriteText_05BB_0
+  WriteText <NAME>さん ほんとうに<BR>おつかれさまでした。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript23_WriteText_05D6_0
+  WriteText ありがとうございます。<BR>みなさんのたすけが<BR>あったから できたんです。<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_05FD_0
+  WriteText でも‥‥‥‥<BR>
   PromptContinue
   SetPortrait $0E,$13,$03
-  WriteText textCutsceneScript23_WriteText_060B_0
+  WriteText どうしたんですか?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript23_WriteText_061B_0
+  WriteText さいごのまものが<BR>しにぎわに のこした<BR>ひとことが きになるんです。<BR>
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript23_WriteText_0645_0
+  WriteText 「まあ いいや」っていう<BR>ひとことか?<BR>
   PromptContinue
   SetPortrait $0B,$14,$04
-  WriteText textCutsceneScript23_WriteText_0660_0
+  WriteText そうね‥‥<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript23_WriteText_066D_0
+  WriteText ゆり ミカサのちかに<BR>なにか へんかはある?<BR>
   PromptContinue
   SetPortrait $0D,$10,$00
-  WriteText textCutsceneScript23_WriteText_068B_0
+  WriteText いえ げんざいのところ<BR>なにもありません。<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript23_WriteText_06A8_0
+  WriteText そう‥‥<BR>
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText textCutsceneScript23_WriteText_06B4_0
+  WriteText たんなる まけおしみ<BR>じゃねーのか?<BR>
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText textCutsceneScript23_WriteText_06CE_0
+  WriteText だと いいんだけど‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_06DD_0
+  WriteText まあ しんぱいしていても<BR>しかたないわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_06F5_0
+  WriteText ミカサちかの かんしは<BR>つづけることに しましょう。<BR>
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText textCutsceneScript23_WriteText_0717_0
+  WriteText <NAME><BR>ほんとうに<BR>ごくろうさまでした。<BR>
   PromptContinue
-  WriteText textCutsceneScript23_WriteText_072D_0
+  WriteText ゆっくり<BR>やすんでちょうだい。<BR>
   PromptContinue
   End
   End

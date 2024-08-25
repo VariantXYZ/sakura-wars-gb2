@@ -5,15 +5,15 @@ CutsceneScript4A::
   Unknown0E $16
   Unknown12 $04
   FlagIsFemale
-  WriteText textCutsceneScript4A_WriteText_0009_0
+  WriteText コンニチワ。<BR>わたしの なまえは<BR>さかきばら ゆり よ。<BR>
   PromptContinue
   SetPortrait $0D,$10,$00
-  WriteText textCutsceneScript4A_WriteText_002D_0
+  WriteText ていこくかげきだんの<BR>オペレーターとして<BR>きょうりょくするわね。<BR>
   PromptContinue
-  WriteText textCutsceneScript4A_WriteText_0051_0
+  WriteText もしも さくせんちゅうに<BR>わからないコトがあったら<BR>れんらくを ちょうだい。<BR>
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText textCutsceneScript4A_WriteText_007F_0
+  WriteText なんでも おしえてあげるわ。<BR>それじゃあ がんばってね!<BR>
   PromptContinue
   End
   End

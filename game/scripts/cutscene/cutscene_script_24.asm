@@ -5,7 +5,7 @@ CutsceneScript24::
   SetPortrait $0E,$11,$01
   Unknown0E $03
   FlagIsFemale
-  WriteText textCutsceneScript24_WriteText_0009_0
+  WriteText 9しょう かいしです。<BR>
   PromptContinue
   End
   End

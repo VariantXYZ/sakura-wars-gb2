@@ -3,6 +3,7 @@ import os
 import struct
 import sys
 from collections import OrderedDict
+import io
 import csv
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
@@ -18,8 +19,7 @@ TABLE_COUNT = 0x5F
 script_name = sys.argv[0]
 rom_path = sys.argv[1]
 game_cutscene_src_dir = sys.argv[2]
-game_cutscene_text_dir = sys.argv[3]
-game_cutscene_script_dir = sys.argv[4]
+game_cutscene_script_dir = sys.argv[3]
 
 # Load tileset info
 character_table = tilesets.get_tileset("CutsceneScript", override_offset=0x00)
@@ -44,62 +44,59 @@ with open(rom_path, 'rb') as rom:
 
         lines = OrderedDict()
         offset_watch = set()
-        with open(os.path.join(game_cutscene_text_dir, f"cutscene_script_{index:02X}.csv"), "w", encoding='utf-8') as text_fp:
-            text_csv = csv.writer(text_fp, lineterminator='\n', delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            text_csv.writerow(["Type","Identifier","Text"])
 
-            name = f"CutsceneScript{index:02X}"
-            start_addr = utils.rom2realaddr((bank, addr))
-            end_addr = utils.rom2realaddr(script_addresses[index + 1])
-            rom.seek(start_addr)
-            data = rom.read(end_addr - start_addr)
+        name = f"CutsceneScript{index:02X}"
+        start_addr = utils.rom2realaddr((bank, addr))
+        end_addr = utils.rom2realaddr(script_addresses[index + 1])
 
-            command = None
-            i = 0
-            while i < len(data):
-                # Parse each byte of the script to generate a list of script functions
-                try:
-                    command = COMMANDS[data[i]]
-                except KeyError:
-                    print(f"No handler for command ${data[i]:02X} @ ${bank:02X}:${addr+i:04X}")
-                    exit(1)
+        rom.seek(start_addr)
+        data = rom.read(end_addr - start_addr)
 
-                p = command.read_handler(data[i+1:])
-                parameter_size = p.length
-                parameters = p.parameters
-                texts = p.texts
-                references = p.reference_offsets
-                assert parameter_size != 0 or (parameters is None and texts is None and references is None)
+        command = None
+        i = 0
+        while i < len(data):
+            # Parse each byte of the script to generate a list of script functions
+            try:
+                command = COMMANDS[data[i]]
+            except KeyError:
+                print(f"No handler for command ${data[i]:02X} @ ${bank:02X}:${addr+i:04X}")
+                exit(1)
 
-                try:
-                    lines[i] = f"  {command.name}"
-                    if parameter_size > 0:
-                        lines[i] += " "
+            p = command.read_handler(data[i+1:])
+            parameter_size = p.length
+            parameters = p.parameters
+            texts = p.texts
+            references = p.reference_offsets
+            assert parameter_size != 0 or (parameters is None and texts is None and references is None)
 
-                    # Handle parameters before text references
-                    # During rebuild, we'll properly handle ordering based on the command
-                    parameters_str = []
+            try:
+                lines[i] = f"  {command.name}"
+                if parameter_size > 0:
+                    lines[i] += " "
 
-                    if parameters is not None:
-                        parameters_str = [f'${x:02X}' for x in parameters]
-    
-                    if references is not None:
-                        for reference in references:
-                            parameters_str.insert(reference.index, f".reference_{reference.reference:04X}")
-                            offset_watch.add(reference.reference)
+                # Handle parameters before text references
+                # During rebuild, we'll properly handle ordering based on the command
+                parameters_str = []
 
-                    if texts is not None:
-                        identifiers = []
-                        for t, text in enumerate(texts):
-                            identifier = f'textCutsceneScript{index:02X}_{command.name}_{i:04X}_{t}'
-                            text_csv.writerow([command.name, identifier, text])
-                            identifiers.append(identifier)
-                        parameters_str += identifiers
+                if parameters is not None:
+                    parameters_str = [f'${x:02X}' for x in parameters]
+        
+                if references is not None:
+                    for reference in references:
+                        parameters_str.insert(reference.index, f".reference_{reference.reference:04X}")
+                        offset_watch.add(reference.reference)
 
-                    lines[i] += ",".join(parameters_str)
+                if texts is not None:
+                    parameters_str += texts
 
-                finally:
-                    i += 1 + parameter_size
+                parameters_data = io.StringIO()
+                c = csv.writer(parameters_data, lineterminator='', delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                c.writerow(parameters_str)
+
+                lines[i] += parameters_data.getvalue()
+
+            finally:
+                i += 1 + parameter_size
 
         with open(os.path.join(game_cutscene_script_dir, f"cutscene_script_{index:02X}.asm"), "w", encoding='utf-8') as script_fp:
             script_fp.write(f'; {bank:02X}\n')

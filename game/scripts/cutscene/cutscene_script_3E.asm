@@ -15,108 +15,108 @@ CutsceneScript3E::
   ConditionalBranch .reference_02F2,$02,$06,$01,$08,$20,$00
 .reference_0056
   SetPortrait $09,$01,$01
-  WriteText textCutsceneScript3E_WriteText_005A_0
+  WriteText <NAME>くん。<BR>こんやは なかなか<BR>きもちのいい よるだ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0078_0
+  WriteText みんな なかにわで<BR>すずんでいるから<BR><NAME>くんも いこう。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_009B_0
+  WriteText はい。<BR>
   PromptContinue
   Unknown0D $00,$00
   Branch .reference_0341
   End
 .reference_00A9
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_00AD_0
+  WriteText <NAME>さん。<BR>きょうは きもちのいい<BR>よるですよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_00C8_0
+  WriteText みんな なかにわで すずんで<BR>いますから <NAME>さんも<BR>いきましょうよ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_00F1_0
+  WriteText はい。<BR>
   PromptContinue
   Unknown0D $00,$00
   Branch .reference_0341
   End
 .reference_00FF
   SetPortrait $02,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0103_0
+  WriteText <NAME>さん。<BR>こんやは なかなか<BR>きもちのいい よるですわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0123_0
+  WriteText みんな なかにわで すずんで<BR>いますのよ。<NAME>さんも<BR>いきますわよね。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_014C_0
+  WriteText はい。<BR>
   PromptContinue
   Unknown0D $00,$00
   Branch .reference_0341
   End
 .reference_015A
   SetPortrait $03,$03,$03
-  WriteText textCutsceneScript3E_WriteText_015E_0
+  WriteText <NAME>くん。<BR>こんやは なかなか<BR>きもちのいい よるよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_017C_0
+  WriteText みんな なかにわで すずんで<BR>いるから <NAME>くんも<BR>いきましょう。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_01A3_0
+  WriteText はい。<BR>
   PromptContinue
   Unknown0D $00,$00
   Branch .reference_0341
   End
 .reference_01B1
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript3E_WriteText_01B5_0
+  WriteText <NAME>!<BR>こんやは おそとが<BR>きもちいいよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_01CD_0
+  WriteText みんな なかにわで<BR>すずんでいるから<BR><NAME>も いこう。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_01EE_0
+  WriteText うん!<BR>
   PromptContinue
   Unknown0D $00,$00
   Branch .reference_0341
   End
 .reference_01FC
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0200_0
+  WriteText <NAME>はん。<BR>こんやは なかなか<BR>きもちのエエ よるや。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_021E_0
+  WriteText みんな なかにわで<BR>すずんでるから<BR><NAME>はんも いこう。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_0240_0
+  WriteText はい。<BR>
   PromptContinue
   Unknown0D $00,$00
   Branch .reference_0341
   End
 .reference_024E
   SetPortrait $06,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0252_0
+  WriteText よう <NAME>!<BR>こんやは そとのかぜが<BR>きもちいいぜ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_026F_0
+  WriteText みんな なかにわで<BR>すずんでるから いこうぜ<BR><NAME>。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_028F_0
+  WriteText はい!<BR>
   PromptContinue
   Unknown0D $00,$00
   Branch .reference_0341
   End
 .reference_029D
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript3E_WriteText_02A1_0
+  WriteText <NAME>さん。<BR>きょうは きもちのいい<BR>よるでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_02BC_0
+  WriteText みんな なかにわで すずんで<BR>いまーす。 <NAME>さんも<BR>いきましょー。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_02E4_0
+  WriteText はい!<BR>
   PromptContinue
   Unknown0D $00,$00
   Branch .reference_0341
   End
 .reference_02F2
   SetPortrait $08,$01,$01
-  WriteText textCutsceneScript3E_WriteText_02F6_0
+  WriteText <NAME>。<BR>こんやは すずしくて<BR>そとが きもちいい。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0312_0
+  WriteText みんな なかにわで <BR>すずんでいる。 <BR><NAME>も いこう<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_0333_0
+  WriteText はい。<BR>
   PromptContinue
   Unknown0D $00,$00
   Branch .reference_0341
@@ -124,658 +124,658 @@ CutsceneScript3E::
 .reference_0341
   Unknown1E $1C
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0347_0
+  WriteText きれいな ほしぞら ですね。<BR>
   PromptContinue
   SetPortrait $03,$00,$00
-  WriteText textCutsceneScript3E_WriteText_035D_0
+  WriteText そうね‥‥<BR>
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText textCutsceneScript3E_WriteText_036A_0
+  WriteText あっ! ながれぼし!!<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript3E_WriteText_037D_0
+  WriteText ねがいごと するでーす!!<BR>
   PromptContinue
   Unknown0F $00,$01
   Unknown0D $00,$00
-  WriteText textCutsceneScript3E_WriteText_0394_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥<BR>
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText textCutsceneScript3E_WriteText_03A8_0
+  WriteText <NAME>。<BR>なにを おねがいしたんだ?<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript3E_OptionSelectTimed_03BC_0,textCutsceneScript3E_OptionSelectTimed_03BC_1,textCutsceneScript3E_OptionSelectTimed_03BC_2
+  OptionSelectTimed $05,$03,ていとのへいわ,あかるいみらい,けんこう
   ConditionalBranch .reference_03F5,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_050E,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_0667,$02,$01,$01,$02,$20,$00
   Branch .reference_07FD
 .reference_03F5
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_03F8_0
+  WriteText ていとが へいわで<BR>ありますように‥‥ って<BR>おねがいしました。<BR>
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_0429_0
+  WriteText <NAME>さん<BR>あたしと いっしょです。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_043D_0
+  WriteText やっぱり へいわが<BR>いちばんですよね。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0454_0
+  WriteText みんなの えがおが<BR>みれますもんね。<BR>
   PromptContinue
   SetPortrait $03,$03,$03
   PlaybackSample $40,$93,$03,$93,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_0477_0
+  WriteText わたしも おなじよ。<BR><NAME>くん。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_048A_0
+  WriteText たたかいのない せかい<BR>それはきっと<BR>ゆめなんかじゃ ないわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_04AD_0
+  WriteText それに へいわだと<BR>ぶたいに しゅうちゅう<BR>できるしね。<BR>
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_04D1_0
+  WriteText そーですよね。マリアさん。<BR>
   PromptContinue
   SetPortrait $03,$00,$00
-  WriteText textCutsceneScript3E_WriteText_04E6_0
+  WriteText そのためにも わたしたち<BR>ていこくかげきだんが<BR>がんばらないと‥‥<BR>
   PromptContinue
   Branch .reference_0903
 .reference_050E
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_0511_0
+  WriteText みらいが あかるいもので<BR>ありますように‥‥って<BR>おねがいしました。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_0544_0
+  WriteText Oh! わたしと<BR>おなじでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0558_0
+  WriteText みらいは あかるくなくちゃ<BR>いけませーん。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0571_0
+  WriteText あかるくたのしく<BR>わらうかどには<BR>ふくをきる でーす!<BR>
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0594_0
+  WriteText ははははははは。<BR>それをいうなら<BR>わらうかどには ふくきたる。<BR>
   PromptContinue
   SetPortrait $09,$00,$00
   PlaybackSample $40,$99,$03,$99,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_05C4_0
+  WriteText でも まさに<BR>そのとおりだな。<BR>あかるいみらい‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_05E1_0
+  WriteText みらいが あかるければ<BR>きょうを あんしんして<BR>いきていける。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0604_0
+  WriteText そして わらってくらせる<BR>たのしい ひびが<BR>つづくんだ。<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript3E_WriteText_0628_0
+  WriteText そのためにも わたしたち<BR>ていこくかげきだんが<BR>がんばって いくのでーす。<BR>
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0655_0
+  WriteText まさに そのとおりだ。<BR>
   PromptContinue
   Branch .reference_0903
 .reference_0667
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_066A_0
+  WriteText けんこうで あります<BR>ようにって おねがい<BR>しました。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
   PlaybackSample $40,$95,$03,$95,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_0696_0
+  WriteText ウチといっしょや。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_06A3_0
+  WriteText けんこうやないと<BR>なにやっても<BR>うまくいけへんもんな～。<BR>
   PromptContinue
   SetPortrait $06,$01,$01
   PlaybackSample $40,$96,$03,$96,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_06D0_0
+  WriteText そのとおり!<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_06DA_0
+  WriteText けんこうな からだに<BR>けんぜんな せいしんが<BR>やどる!<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_06F9_0
+  WriteText けんこうには うんどうが<BR>いちばんだ!<BR>
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText textCutsceneScript3E_WriteText_0714_0
+  WriteText あ～ら けんこうは<BR>いいのですが カンナさん<BR>みたいになっては‥‥ねえ‥‥<BR>
   PromptContinue
   SetPortrait $06,$02,$02
-  WriteText textCutsceneScript3E_WriteText_0741_0
+  WriteText あたいみてーにって<BR>なんだよ!<BR>このサボテン おんな!!<BR>
   PromptContinue
   SetPortrait $02,$02,$02
-  WriteText textCutsceneScript3E_WriteText_0765_0
+  WriteText なんですって～。<BR>この きんにくゴリラ!<BR>
   PromptContinue
   SetPortrait $05,$02,$02
-  WriteText textCutsceneScript3E_WriteText_0781_0
+  WriteText まあまあ おふたりさん<BR>せっかくの エエよるに<BR>ケンカは ヤボやで。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript3E_WriteText_07AB_0
+  WriteText みんなが けんこうで<BR>たのしい せいかつを<BR>おくるためにも<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_07CC_0
+  WriteText ウチら ていこくかげきだん<BR>が がんばって やっていかな<BR>アカン ちゅーこっちゃな。<BR>
   PromptContinue
   Branch .reference_0903
 .reference_07FD
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_0800_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥<BR>
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText textCutsceneScript3E_WriteText_0814_0
+  WriteText なんだよ ひみつなのかよ。<BR>
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText textCutsceneScript3E_WriteText_0829_0
+  WriteText それは そうですわよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0838_0
+  WriteText おねがいごとって ひとに<BR>しゃべると かなわないって<BR>いうじゃありませんの。<BR>
   PromptContinue
   SetPortrait $06,$05,$05
-  WriteText textCutsceneScript3E_WriteText_0866_0
+  WriteText そうだけどよー‥‥<BR>あそびじゃ ねーかよ～。<BR>
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0884_0
+  WriteText ははは。<BR>まあまあ ふたりとも‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0899_0
+  WriteText ねがいごとは それぞれの<BR>むねに しまっとけば<BR>いいじゃないか。<BR>
   PromptContinue
   SetPortrait $03,$00,$00
-  WriteText textCutsceneScript3E_WriteText_08C1_0
+  WriteText そうよ ねがいごとは<BR>ひと それぞれに‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_08DA_0
+  WriteText だけど わたしたち<BR>ていこくかげきだんの<BR>ねがいは ていとのへいわ。<BR>
   PromptContinue
   Branch .reference_0903
 .reference_0903
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0907_0
+  WriteText こんかいは <NAME>さんの<BR>かつやくで 『まじんき』が<BR>かいしゅう できて<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_092F_0
+  WriteText ていとが へいわになって<BR>よかったですね。<BR>
   PromptContinue
   Branch .reference_094B
 .reference_094B
   SetPortrait $09,$01,$01
-  WriteText textCutsceneScript3E_WriteText_094F_0
+  WriteText それにしても こんやは<BR>かぜが きもちいいな～。<BR>
   PromptContinue
   Unknown13 $27,$01
   SetPortrait $04,$03,$03
-  WriteText textCutsceneScript3E_WriteText_0972_0
+  WriteText きゃっ!<BR>しろいオバケぇ～!!<BR>
   PromptContinue
   SetPortrait $0F,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0989_0
+  WriteText オバケは かなしいな～<BR>アイリスさ～ん。<BR>
   PromptContinue
   SetPortrait $09,$06,$06
-  WriteText textCutsceneScript3E_WriteText_09A5_0
+  WriteText かやま!<BR>どうしたんだ?<BR>
   PromptContinue
   SetPortrait $0F,$01,$01
-  WriteText textCutsceneScript3E_WriteText_09B9_0
+  WriteText いや なんだか たのしそう<BR>だったのでね。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_09D2_0
+  WriteText いつもはロンリーな ボクも<BR>たまには こんなばしょに<BR>かおを だしたくなったのさ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_09FF_0
+  WriteText それじゃ そういうことで‥‥<BR>アディオス。<BR>
   PromptContinue
   Unknown0D $00,$00
   SetPortrait $06,$03,$03
-  WriteText textCutsceneScript3E_WriteText_0A1F_0
+  WriteText なんだったんだ‥‥<BR>いったい?<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript3E_WriteText_0A36_0
+  WriteText アイリス。<BR>だいじょうぶ?<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0A4B_0
+  WriteText うん。<BR>ビックリしただけだから<BR>だいじょうぶだよ レニ。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript3E_WriteText_0A6F_0
+  WriteText アイリスは オバケを<BR>しんじてるの?<BR>
   PromptContinue
   SetPortrait $04,$03,$03
-  WriteText textCutsceneScript3E_WriteText_0A89_0
+  WriteText う～ん‥‥<BR>わかんない。<BR>
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText textCutsceneScript3E_WriteText_0A9D_0
+  WriteText <NAME>は どう?<BR>オバケって いるとおもう?<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript3E_OptionSelectTimed_0AB5_0,textCutsceneScript3E_OptionSelectTimed_0AB5_1,textCutsceneScript3E_OptionSelectTimed_0AB5_2
+  OptionSelectTimed $05,$03,みたことある,しんじている,しんじていない
   ConditionalBranch .reference_0AEF,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_0CAD,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_0EC9,$02,$01,$01,$02,$20,$00
   Branch .reference_103D
 .reference_0AEF
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_0AF2_0
+  WriteText しんじてるよ。<BR>っていうか しょっちゅう<BR>みてるよ。<BR>
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText textCutsceneScript3E_WriteText_0B14_0
+  WriteText エエ～～～ッ!!!<BR>オバケ みてるの～～～っ!!<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0B30_0
+  WriteText そ それで こわくないの?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_0B44_0
+  WriteText こわいもなにも そこに<BR>いるんだもん。<BR>しょーがないじゃん。<BR>
   PromptContinue
   SetPortrait $03,$07,$07
-  WriteText textCutsceneScript3E_WriteText_0B6A_0
+  WriteText しょうがないって‥‥<BR>まあ たしかにそうだけど‥‥<BR>
   PromptContinue
   SetPortrait $03,$04,$04
-  WriteText textCutsceneScript3E_WriteText_0B8B_0
+  WriteText よくある はなしで<BR>オバケに くびをしめられた<BR>とか あるでしょ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0BB0_0
+  WriteText そういうのも へいきなの?<BR>
   PromptContinue
   SetPortrait $04,$03,$03
-  WriteText textCutsceneScript3E_WriteText_0BC5_0
+  WriteText そうそう あるよね～。<BR>コワイよね～。<BR>どうなの? <NAME>。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_0BE8_0
+  WriteText そういう けいけんは<BR>ないんですよ。<BR>ただ みえるだけなんで。<BR>
   PromptContinue
   SetPortrait $04,$04,$04
-  WriteText textCutsceneScript3E_WriteText_0C0F_0
+  WriteText そうなんだ～。<BR>でも みえるだけっていっても<BR>ふつうはコワイよね。<BR>
   PromptContinue
   SetPortrait $04,$06,$06
   PlaybackSample $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_0C41_0
+  WriteText スゴイな～ <NAME>は‥‥<BR>
   PromptContinue
   SetPortrait $03,$03,$03
   PlaybackSample $40,$93,$03,$93,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_0C5C_0
+  WriteText そうね キモが<BR>すわってるって いうのかしら<BR>かんしんするわ。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0C83_0
+  WriteText ミカサのことは キモが<BR>すわってる <NAME>に<BR>まかせておけばあんしんだね。<BR>
   PromptContinue
   Branch .reference_109B
 .reference_0CAD
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_0CB0_0
+  WriteText しんじているよ。<BR>まあ みたことは<BR>ないけどね。<BR>
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_0CD9_0
+  WriteText あたしも<BR>しんじてるんですよ。<BR>
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText textCutsceneScript3E_WriteText_0CF0_0
+  WriteText たしかに オバケって<BR>コワイけど‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0D06_0
+  WriteText オバケって なにかの<BR>せいれいじゃないかって<BR>おもうことが あるんです。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0D2E_0
+  WriteText たとえば からかさオバケ<BR>なんかは カサのせいれいで<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0D4C_0
+  WriteText 「かさを だいじにしろよ」<BR>って おしえるために<BR>いるんじゃないかな～とか‥‥<BR>
   PromptContinue
   SetPortrait $09,$01,$01
   PlaybackSample $40,$99,$03,$99,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_0D84_0
+  WriteText そうだな オレも<BR>オバケは しんじてるんだ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0D9E_0
+  WriteText まあ こんなこと はなしても<BR>しんじてもらえるかどうか<BR>わからないんだけど‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0DC9_0
+  WriteText こどものころ かぞくが<BR>だれもしらない こどもと<BR>いえのなかで よくあそんだし<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0DF4_0
+  WriteText かわでは あたまにサラを<BR>のせた キュウリずきな<BR>こどもと あそんでたんだ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0E1E_0
+  WriteText それって いまかんがえると<BR>ざしきわらし と カッパ<BR>だよな～。<BR>
   PromptContinue
   SetPortrait $01,$03,$03
-  WriteText textCutsceneScript3E_WriteText_0E46_0
+  WriteText えっ! おおがみさん<BR>ほんとですか!?<BR>
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText textCutsceneScript3E_WriteText_0E61_0
+  WriteText うん まあね。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_0E6F_0
+  WriteText スゴイですね～<BR>おおがみさん!!<BR>
   PromptContinue
   Unknown0F $09,$01
-  WriteText textCutsceneScript3E_WriteText_0E86_0
+  WriteText いやいや スゴイのは<BR>まものあいてに ひるまず<BR>たたかって<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0EA7_0
+  WriteText みごとに 『まじんき』を<BR>あつめた <NAME>くん<BR>だよ。<BR>
   PromptContinue
   Branch .reference_109B
 .reference_0EC9
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_0ECC_0
+  WriteText オバケなんか<BR>しんじていないよ。<BR>
   PromptContinue
   SetPortrait $02,$00,$00
   PlaybackSample $40,$92,$03,$92,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_0EED_0
+  WriteText とーぜんですわ。<BR>わたくしも もちろん<BR>しんじていませんわ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0F0F_0
+  WriteText この げんだい しゃかいに<BR>そのような もののけが<BR>いるはず ありませんもの。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript3E_WriteText_0F3E_0
+  WriteText おばけ。<BR>もしくは ゆうれい。<BR>ししゃの れいこん。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0F5C_0
+  WriteText ししゃが じょうぶつできずに<BR>このよに あらわれるすがた。<BR>ようかい などともよばれる。<BR>
   PromptContinue
   PlaybackSample $40,$98,$03,$98,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_0F95_0
+  WriteText かがくてきな せつめいも<BR>できないし<BR>ボクも しんじられないな。<BR>
   PromptContinue
   SetPortrait $02,$06,$06
-  WriteText textCutsceneScript3E_WriteText_0FBD_0
+  WriteText じつのことをいうと<BR><NAME>さんが<BR>こんかいの にんむを<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_0FDA_0
+  WriteText たっせいできる ということも<BR>しんじて なかったのですが<BR>‥‥<BR>
   PromptContinue
   SetPortrait $02,$04,$04
-  WriteText textCutsceneScript3E_WriteText_1001_0
+  WriteText やりとげたいじょう<BR><NAME>さんを みなおさ<BR>なくては なりませんね。<BR>
   PromptContinue
   SetPortrait $08,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1029_0
+  WriteText <NAME><BR>よくやった。スゴイよ。<BR>
   PromptContinue
   Branch .reference_109B
 .reference_103D
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1040_0
+  WriteText しんじる‥‥ しんじない‥‥<BR>‥‥う～ん どっちでもいいや<BR>って かんじですね。<BR>
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText textCutsceneScript3E_WriteText_1070_0
+  WriteText ま そうだよな。<BR>あたいたちの せいかつに<BR>かんけい あるわけでもなし。<BR>
   PromptContinue
   Branch .reference_109B
 .reference_109B
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript3E_WriteText_109F_0
+  WriteText <NAME>さん。<BR>おつきさまが きれいでーす。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_10B9_0
+  WriteText ほんとですね。<BR>おりひめさん。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript3E_WriteText_10D0_0
+  WriteText ウサギさんが クッキリと<BR>みえて ほんまに<BR>きれいやな～。<BR>
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText textCutsceneScript3E_WriteText_10F5_0
+  WriteText <NAME>さんは<BR>おつきさまのウサギが なにを<BR>してるように みえますか?<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript3E_OptionSelectTimed_111A_0,textCutsceneScript3E_OptionSelectTimed_111A_1,textCutsceneScript3E_OptionSelectTimed_111A_2
+  OptionSelectTimed $05,$03,おモチをついてる,はたらいてる,おどってる
   ConditionalBranch .reference_1154,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_1326,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_1444,$02,$01,$01,$02,$20,$00
   Branch .reference_152C
 .reference_1154
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1157_0
+  WriteText おモチをついて<BR>いるんですよ。<BR>つきのウサギさんは。<BR>
   PromptContinue
   SetPortrait $06,$01,$01
   PlaybackSample $40,$96,$03,$96,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_1182_0
+  WriteText そう!<BR>そうだよな～。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1191_0
+  WriteText あいつら モチを<BR>ついてんだよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_11A5_0
+  WriteText かーっ うまそーだなー。<BR>モチくいてーなー。<BR>しょうがつまで まてねー。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript3E_WriteText_11D1_0
+  WriteText そうか アレは<BR>おモチをついているのか‥‥<BR>
   PromptContinue
   SetPortrait $08,$01,$01
   PlaybackSample $40,$98,$03,$98,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_11F7_0
+  WriteText はじめて しったよ。<BR>ありがとう <NAME>。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript3E_WriteText_1212_0
+  WriteText ところで おモチって‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1222_0
+  WriteText ふつうは もちごめを むして<BR>じゅうぶん ねばりけが<BR>でるまで うすでつき<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_124B_0
+  WriteText まるめたり たいらにのしたり<BR>したもので そのまま<BR>たべたりするほか<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1271_0
+  WriteText あんや きなこを つけて<BR>たべたり かんそうさせて<BR>やいたり にたりして<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1299_0
+  WriteText たべるものだとは<BR>しってるけど<BR>おいしいのか?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_12B7_0
+  WriteText ええ おいしいですよ。<BR>
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText textCutsceneScript3E_WriteText_12CA_0
+  WriteText そうか レニは モチを<BR>くったこと なかったんだな。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_12E8_0
+  WriteText じゃあ こんど モチつき<BR>たいかいでも やるか!<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1304_0
+  WriteText しょうがつまで<BR>まてねーしな!!<BR>
   PromptContinue
   SetPortrait $08,$01,$01
-  WriteText textCutsceneScript3E_WriteText_131C_0
+  WriteText うん。<BR>
   PromptContinue
   Branch .reference_1752
 .reference_1326
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1329_0
+  WriteText はたらいてるんですよ<BR>ウサギさんは。<BR>
   PromptContinue
   SetPortrait $02,$03,$03
-  WriteText textCutsceneScript3E_WriteText_1343_0
+  WriteText あらま <NAME>さん<BR>なかなか リアリスト<BR>なんですのね。<BR>
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_136E_0
+  WriteText スキですわよ わたくし<BR>そういうの。<BR>
   PromptContinue
   SetPortrait $05,$03,$03
-  WriteText textCutsceneScript3E_WriteText_1388_0
+  WriteText ほー。「モチをついてる」<BR>とか いうと おもったら<BR>「はたらいてる」か‥‥<BR>
   PromptContinue
   SetPortrait $05,$01,$01
   PlaybackSample $40,$95,$03,$95,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_13BE_0
+  WriteText なかなか シュールな<BR>ボケやな。<BR>おもろいで。<BR>
   PromptContinue
   Branch .reference_1752
   SetPortrait $02,$01,$01
-  WriteText textCutsceneScript3E_WriteText_13E0_0
+  WriteText でも つきのウサギさんは<BR>いったい どんなおしごとを<BR>してるんでしょう?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_140B_0
+  WriteText きっと おモチを<BR>ついているんですよ。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1426_0
+  WriteText なんや けっきょく<BR>おモチを ついとるんや<BR>ないか!<BR>
   PromptContinue
 .reference_1444
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1447_0
+  WriteText おどって いるんですよ<BR>つきのウサギさんは。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1465_0
+  WriteText イエィ レッツ ダンス<BR>でーす!<BR>たのしーでーす!!<BR>
   PromptContinue
   PlaybackSample $40,$97,$03,$97,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_148C_0
+  WriteText わたしも そのいけんに<BR>さんせいでーす。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_14A4_0
+  WriteText あかるく きれいな<BR>おつきさまのしたで<BR>ウサギさんといっしょに<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_14C7_0
+  WriteText たのしく ダンス!!<BR>とても ハッピーでーす。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_14EF_0
+  WriteText アイリスも!!<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_14FA_0
+  WriteText わーい たのしいね。<BR>ジャンポール!!<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1511_0
+  WriteText <NAME>って<BR>なかなか いいこと<BR>いうじゃん!<BR>
   PromptContinue
   Branch .reference_1752
 .reference_152C
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_152F_0
+  WriteText ウサギさん‥‥<BR>うーん つきにはウサギさんは<BR>いないんじゃ ないかな‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1557_0
+  WriteText つきには くうきが<BR>ないとおもうし。<BR>
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText textCutsceneScript3E_WriteText_1571_0
+  WriteText ‥‥<NAME>って<BR>ゆめがないんだね。<BR>つまんないの!<BR>
   PromptContinue
   SetPortrait $01,$07,$07
-  WriteText textCutsceneScript3E_WriteText_1590_0
+  WriteText ウソでも ウサギさんが<BR>いるって かんがえたほうが<BR>たのしく ありませんか?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_15BD_0
+  WriteText でも やっぱり<BR>こんきょもないのに<BR>そうは おもえないですね。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_15E0_0
+  WriteText もし かがくがしんぽして<BR>にんげんが つきにいけるなら<BR>ぜひ いってみたいですね。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_160D_0
+  WriteText そうしたら つきに<BR>ウサギさんがいるかどうか<BR>たしかめられますから。<BR>
   PromptContinue
   SetPortrait $03,$03,$03
-  WriteText textCutsceneScript3E_WriteText_1637_0
+  WriteText それはそれで<BR>ゆめが あっていいわね。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1652_0
+  WriteText なら ウチが<BR>ロケットくん1ごうをつくって<BR>つきまで つれてったるわ!<BR>
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText textCutsceneScript3E_WriteText_167D_0
+  WriteText えー!<BR>こうらんの ロケットじゃ<BR>あぶないよぉ。<BR>
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText textCutsceneScript3E_WriteText_169D_0
+  WriteText そうだな つきにつくまえに<BR>バクハツしたら<BR>たいへんだからな。<BR>
   PromptContinue
   SetPortrait $05,$07,$07
-  WriteText textCutsceneScript3E_WriteText_16C4_0
+  WriteText なんや なんや<BR>ひどい いわれようやな<BR>まったく‥‥<BR>
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText textCutsceneScript3E_WriteText_16E6_0
+  WriteText おほほほほほ。<BR>
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText textCutsceneScript3E_WriteText_16F5_0
+  WriteText はははははは。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1704_0
+  WriteText こうらんのロケットじゃ<BR>いのちが いくつあっても<BR>たりないでーす!<BR>
   PromptContinue
   SetPortrait $08,$01,$01
-  WriteText textCutsceneScript3E_WriteText_172D_0
+  WriteText フフフ‥‥<BR>でも つきにいこうなんて<BR>すごい はっそうだよ。<BR>
   PromptContinue
   Branch .reference_1752
 .reference_1752
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1756_0
+  WriteText それにしても <NAME>さん<BR>ほんとうに おつかれさま<BR>でしたね。<BR>
   PromptContinue
   SetPortrait $03,$03,$03
-  WriteText textCutsceneScript3E_WriteText_177B_0
+  WriteText ほんとに よくやったわ<BR><NAME>くん。<BR>
   PromptContinue
   ConditionalBranch .reference_17BF,$04,$87,$8A,$01,$00,$20,$04,$87,$8B,$01,$00,$20,$1C,$04,$87,$8C,$01,$00,$20,$1C,$00
   ConditionalBranch .reference_184B,$04,$87,$8A,$01,$FF,$20,$04,$87,$8B,$01,$FF,$20,$1B,$04,$87,$8C,$01,$FF,$20,$1B,$00
 .reference_17BF
   SetPortrait $02,$00,$00
-  WriteText textCutsceneScript3E_WriteText_17C3_0
+  WriteText では そろそろ‥‥<BR>おひらきに‥‥<BR>
   PromptContinue
   Unknown0F $00,$03
   Unknown12 $00
   Unknown13 $24,$00
-  WriteText textCutsceneScript3E_WriteText_17E0_0
+  WriteText ビー! ビー! ビー!<BR>
   PromptContinue
   Unknown0D $02,$03
   SetPortrait $02,$02,$02
-  WriteText textCutsceneScript3E_WriteText_17F6_0
+  WriteText なんですの!?<BR>
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $0B,$02
   Unknown12 $0F
-  WriteText textCutsceneScript3E_WriteText_1809_0
+  WriteText はなぐみのみんな<BR>いそいで さくせんしつへ<BR>あつまってちょうだい!<BR>
   PromptContinue
   SetPortrait $09,$02,$02
-  WriteText textCutsceneScript3E_WriteText_1832_0
+  WriteText よし みんな さくせんしつへ<BR>いそぐぞ!<BR>
   PromptContinue
   End
 .reference_184B
   ConditionalBranch .reference_1DDB,$04,$87,$8A,$01,$00,$20,$00
   SetPortrait $06,$00,$00
-  WriteText textCutsceneScript3E_WriteText_1859_0
+  WriteText あっそうだ! <NAME>。<BR>おまえ はなび もって<BR>
   Unknown05 $87,$8A,$01,$00
   End
-  WriteText textCutsceneScript3E_WriteText_1877_0
+  WriteText なかったっけ?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1885_0
+  WriteText ええ もってますよ。<BR>
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText textCutsceneScript3E_WriteText_1897_0
+  WriteText どんな はなびを<BR>もってるんですか?<BR><NAME>さん。<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript3E_OptionSelectTimed_18B2_0,textCutsceneScript3E_OptionSelectTimed_18B2_1,textCutsceneScript3E_OptionSelectTimed_18B2_2
+  OptionSelectTimed $05,$03,せんこうはなび,うちあげはなび,ネズミはなび
   ConditionalBranch .reference_18ED,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_1A19,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_1B33,$02,$01,$01,$02,$20,$00
   Branch .reference_1D1C
 .reference_18ED
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_18F0_0
+  WriteText せんこうはなび です。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_190C_0
+  WriteText Oh! エクセレント!<BR>わたし せんこうはなび<BR>だいすきでーす。<BR>
   PromptContinue
   SetPortrait $03,$03,$03
-  WriteText textCutsceneScript3E_WriteText_1934_0
+  WriteText そうよね ちいさいけど<BR>パチパチはじけて<BR>キレイな はなびよね。<BR>
   PromptContinue
   PlaybackSample $40,$93,$03,$93,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_1961_0
+  WriteText わたしも だいすきよ。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1974_0
+  WriteText あの さいごにおちる たまを<BR>おおきくするのも<BR>たのしいでーす。<BR>
   PromptContinue
   SetPortrait $03,$03,$03
-  WriteText textCutsceneScript3E_WriteText_199C_0
+  WriteText そうそう<BR>あれって おちてしまうと<BR>さみしいのよね。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript3E_WriteText_19BE_0
+  WriteText 1ぽんで 2かいたのしめる<BR>せんこうはなびは<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_19D8_0
+  WriteText うつくしくて かっこいい<BR>わたしみたいな<BR>ゴージャスな はなびでーす。<BR>
   PromptContinue
   SetPortrait $03,$03,$03
-  WriteText textCutsceneScript3E_WriteText_1A03_0
+  WriteText フフフ‥‥<BR>おりひめったら‥‥<BR>
   PromptContinue
   Branch .reference_1DA2
 .reference_1A19
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1A1C_0
+  WriteText うちあげはなび です。<BR>
   PromptContinue
   SetPortrait $09,$01,$01
   PlaybackSample $40,$99,$03,$99,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_1A38_0
+  WriteText おおっ! うちあげはなびか!<BR>いいもの もってるじゃないか<BR><NAME>くん。<BR>
   PromptContinue
   SetPortrait $06,$05,$05
-  WriteText textCutsceneScript3E_WriteText_1A62_0
+  WriteText たいちょう それ あたいの<BR>セリフだぜ。<BR>
   PromptContinue
   SetPortrait $06,$01,$01
   PlaybackSample $40,$96,$03,$96,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_1A87_0
+  WriteText けど うちあげはなび とは<BR>さすがだぜ <NAME>!!<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1AA2_0
+  WriteText やっぱ はなびは<BR>う・ち・あ・げ だよな～。<BR>
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1AC0_0
+  WriteText ドン ヒュルルル パーン<BR>っていう おとが<BR>たまらなく いいんだよ。<BR>
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1AEA_0
+  WriteText そうそう。<BR>それに みんなで<BR>みれるしな。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1B03_0
+  WriteText やっぱ おとこは‥‥<BR>あたいは おんなだけど‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1B1F_0
+  WriteText うちあげはなび だよな～。<BR>
   PromptContinue
   Branch .reference_1DA2
 .reference_1B33
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1B36_0
+  WriteText ネズミはなび です。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1B48_0
+  WriteText <NAME>はん。<BR>おもろい はなび<BR>もってるやんか。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript3E_WriteText_1B66_0
+  WriteText ネズミはなびって<BR>かやくをつめた かみこよりを<BR>ワッカにしたもので<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1B8B_0
+  WriteText ひをつけると ネズミのように<BR>ちじょうをはしる<BR>はなびのことだね。<BR>
   PromptContinue
   SetPortrait $05,$03,$03
-  WriteText textCutsceneScript3E_WriteText_1BB4_0
+  WriteText そうや。<BR>さすがは レニはん<BR>よーしってるな。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript3E_WriteText_1BD3_0
+  WriteText でも じつぶつは<BR>みたことないんだ。<BR>
   PromptContinue
   SetPortrait $05,$05,$05
-  WriteText textCutsceneScript3E_WriteText_1BED_0
+  WriteText よーし ほな さっそく<BR>いこか。<BR>それっ!<BR>
   PromptContinue
   Unknown13 $55,$01
   SetPortrait $08,$04,$04
   Unknown13 $55,$01
-  WriteText textCutsceneScript3E_WriteText_1C10_0
+  WriteText わっ こっちにくるぞ!<BR>
   PromptContinue
   Unknown13 $55,$01
-  WriteText textCutsceneScript3E_WriteText_1C22_0
+  WriteText にげても にげても<BR>おってくる!!<BR>
   PromptContinue
   SetPortrait $08,$03,$03
   Unknown13 $55,$01
-  WriteText textCutsceneScript3E_WriteText_1C3E_0
+  WriteText スゴイ!!<BR>ついびセンサーを <BR>つんでいるのか?!<BR>
   PromptContinue
   SetPortrait $05,$06,$06
   Unknown13 $55,$01
-  WriteText textCutsceneScript3E_WriteText_1C62_0
+  WriteText そんなもん つんでへん<BR>つんでへん。<BR>
   PromptContinue
   SetPortrait $08,$04,$04
   Unknown13 $2E,$01
-  WriteText textCutsceneScript3E_WriteText_1C7F_0
+  WriteText わっ!!!<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
   PromptContinue
   PlaybackSample $40,$98,$03,$98,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_1CAF_0
+  WriteText なんて おもしろい<BR>はなびなんだ‥‥‥‥‥‥<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1CCD_0
+  WriteText レニはんも きにいった<BR>みたいやな。<BR>
   PromptContinue
   PlaybackSample $40,$95,$03,$95,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_1CEC_0
+  WriteText ウチもな この トリッキーな<BR>うごきが だいすきやねん。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1D0C_0
+  WriteText おおきに <NAME>はん。<BR>
   PromptContinue
   Branch .reference_1DA2
 .reference_1D1C
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1D1F_0
+  WriteText パラシュートはなび です。<BR>
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText textCutsceneScript3E_WriteText_1D34_0
+  WriteText パラシュートはなび?<BR>
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText textCutsceneScript3E_WriteText_1D46_0
+  WriteText うちあげると パラシュートが<BR>おちてくる やつですよね。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1D69_0
+  WriteText そうです。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1D76_0
+  WriteText パラシュートが<BR>おちてくるの!?<BR>わー おもしろそーだね!!<BR>
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
@@ -783,337 +783,337 @@ CutsceneScript3E::
   Unknown09 $78
 .reference_1DA2
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1DA6_0
+  WriteText たのしかったね レニ。<BR>
   PromptContinue
   SetPortrait $08,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1DB9_0
+  WriteText そうだね。アイリス。<BR>
   PromptContinue
   ConditionalBranch .reference_17BF,$04,$87,$8B,$01,$00,$20,$04,$87,$8C,$01,$00,$20,$1C,$00
   Branch .reference_1DDB
 .reference_1DDB
   ConditionalBranch .reference_22CB,$04,$87,$8B,$01,$00,$20,$00
   SetPortrait $03,$00,$00
-  WriteText textCutsceneScript3E_WriteText_1DE9_0
+  WriteText そういえば <NAME>くん<BR>むしかご もってなかった?<BR>
   PromptContinue
   Unknown05 $87,$8B,$01,$00
   End
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1E0D_0
+  WriteText ええ もってますよ。<BR>
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText textCutsceneScript3E_WriteText_1E1F_0
+  WriteText その むしかごには<BR>なにが はいってんだ?<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript3E_OptionSelectTimed_1E38_0,textCutsceneScript3E_OptionSelectTimed_1E38_1,textCutsceneScript3E_OptionSelectTimed_1E38_2
+  OptionSelectTimed $05,$03,ホタル,すずむし,クワガタ
   ConditionalBranch .reference_1E6A,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_1F8C,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_2097,$02,$01,$01,$02,$20,$00
   Branch .reference_223D
 .reference_1E6A
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1E6D_0
+  WriteText ホタルです。<BR>
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1E7B_0
+  WriteText わーい。<BR>あたし ホタルって<BR>だいすきなんですよ。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript3E_WriteText_1E9C_0
+  WriteText ホタル‥‥<BR>たいちょうは6～18ミリの<BR>おさふねがたの むしで<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1EBF_0
+  WriteText おおくは ふくずいに<BR>はっこうたいをもち<BR>やかんに ひかるヤツだね。<BR>
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1EE9_0
+  WriteText そうよ。<BR>レニはものしりね。<BR>
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_1F08_0
+  WriteText きれいね～‥‥<BR>
   PromptContinue
   SetPortrait $08,$01,$01
   PlaybackSample $40,$98,$03,$98,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_1F20_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>きれいだ‥‥<BR>
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1F3D_0
+  WriteText ね。ステキでしょ。<BR>ホタルをみると やさしい<BR>きもちになってくるでしょ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1F65_0
+  WriteText だから あたし ホタルが<BR>だいすきなのよ。<BR>
   PromptContinue
   SetPortrait $08,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1F82_0
+  WriteText うん。<BR>
   PromptContinue
   Branch .reference_22BE
 .reference_1F8C
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_1F8F_0
+  WriteText すずむしです。<BR>
   PromptContinue
   Unknown13 $56,$00
   SetPortrait $02,$01,$01
-  WriteText textCutsceneScript3E_WriteText_1FA1_0
+  WriteText さっきから きれいな<BR>おとが きこえると<BR>おもったら‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_1FC1_0
+  WriteText すずむし でしたのね。<BR>
   PromptContinue
   SetPortrait $03,$03,$03
   PlaybackSample $40,$93,$03,$93,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_1FDD_0
+  WriteText この すずやかな ねいろは<BR>こころが やすらぐわね。<BR>
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_2008_0
+  WriteText せんさいで やさしくて<BR>こころあらわれるような<BR>ねいろですわね。<BR>
   PromptContinue
   SetPortrait $03,$03,$03
-  WriteText textCutsceneScript3E_WriteText_2030_0
+  WriteText たたかいの つかれさえ<BR>いやしてくれそうな<BR>きれいな ねいろね。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_2054_0
+  WriteText むしかごに いれてては<BR>かわいそうだから<BR>にがしてあげましょ。<BR>
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText textCutsceneScript3E_WriteText_207B_0
+  WriteText そうしましょ<BR><NAME>さん。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_208D_0
+  WriteText はい。<BR>
   PromptContinue
   Branch .reference_22BE
 .reference_2097
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_209A_0
+  WriteText クワガタです。<BR>
   PromptContinue
   SetPortrait $06,$03,$03
-  WriteText textCutsceneScript3E_WriteText_20A9_0
+  WriteText クワガタだって～。<BR>もしかして‥‥<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript3E_WriteText_20C2_0
+  WriteText もしかして‥‥<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_20D0_0
+  WriteText ええ オオクワガタですよ。<BR>
   PromptContinue
   SetPortrait $06,$07,$07
   PlaybackSample $40,$96,$03,$96,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_20EE_0
+  WriteText やった!<BR>クワガタのチャンピオンだぜ!<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_2112_0
+  WriteText やったー。<BR>アイリス オオクワガタ<BR>だいすき。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_212D_0
+  WriteText だって!<BR>カッコいいんだもーん!!<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_2142_0
+  WriteText すごいね。カンナ。<BR>
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText textCutsceneScript3E_WriteText_2153_0
+  WriteText ああ かなり リッパなアゴを<BR>もった やつだな。<BR>つよそうだぜ。<BR>
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText textCutsceneScript3E_WriteText_217B_0
+  WriteText なあ ちょっと<BR>さわらしてくれよ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_2193_0
+  WriteText どうぞ。<BR>
   PromptContinue
   SetPortrait $06,$03,$03
-  WriteText textCutsceneScript3E_WriteText_219F_0
+  WriteText あいてっ!<BR>はさまれた!!<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_21B0_0
+  WriteText あっ! にげちゃった!!<BR>スマン <NAME>。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_21CA_0
+  WriteText ははは。<BR>べつに いいですよ。<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_21DD_0
+  WriteText もともと なかにわに<BR>はなそうと おもって<BR>いたんですよ。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript3E_WriteText_2202_0
+  WriteText そうだよね。<BR>しぜんのなかのほうが<BR>たのしいもんね。<BR>
   PromptContinue
   SetPortrait $06,$04,$04
-  WriteText textCutsceneScript3E_WriteText_2224_0
+  WriteText <NAME>‥‥<BR>おまえって いいやつだな～。<BR>
   PromptContinue
   Branch .reference_22BE
 .reference_223D
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_2240_0
+  WriteText セミです。<BR>
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText textCutsceneScript3E_WriteText_224D_0
+  WriteText セミ?<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_2257_0
+  WriteText ええ コイツなぜか<BR>ていげきのなかに<BR>いたんですよ。<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_2278_0
+  WriteText だから そとに にがして<BR>あげようと おもって。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript3E_WriteText_2298_0
+  WriteText <NAME>さん<BR>やさしいでーす。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript3E_WriteText_22AC_0
+  WriteText ええとこあるやん。<BR><NAME>はん。<BR>
   PromptContinue
 .reference_22BE
   ConditionalBranch .reference_17BF,$04,$87,$8C,$01,$00,$20,$00
   Branch .reference_22CB
 .reference_22CB
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_22CE_0
+  WriteText あの～ じつは<BR>こんなものが あるのですが<BR>
   Unknown05 $87,$8C,$01,$00
   End
-  WriteText textCutsceneScript3E_WriteText_22EC_0
+  WriteText ‥‥‥‥<BR>
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText textCutsceneScript3E_WriteText_22F8_0
+  WriteText あっ!<BR>かきごおりマシンだ!!<BR>
   PromptContinue
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_230E_0
+  WriteText そして なぜか ここには<BR>こおりが‥‥<BR>
   PromptContinue
   SetPortrait $06,$02,$02
-  WriteText textCutsceneScript3E_WriteText_2329_0
+  WriteText よーし あたいが<BR>かきごおりを<BR>つくってやるぜ!<BR>
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_2349_0
+  WriteText <NAME>さんは<BR>こおりには なにを<BR>かけますか?<BR>
   PromptContinue
-  OptionSelectTimed $05,$03,textCutsceneScript3E_OptionSelectTimed_2362_0,textCutsceneScript3E_OptionSelectTimed_2362_1,textCutsceneScript3E_OptionSelectTimed_2362_2
+  OptionSelectTimed $05,$03,イチゴ,うじきんとき,しろみつ
   ConditionalBranch .reference_2396,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_24C8,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_26DB,$02,$01,$01,$02,$20,$00
   Branch .reference_2866
 .reference_2396
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_2399_0
+  WriteText イチゴ です。<BR>
   PromptContinue
   SetPortrait $09,$01,$01
   PlaybackSample $40,$99,$03,$99,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_23B1_0
+  WriteText そうだよな。<BR>イチゴだよな。<BR>オレもそうなんだ。<BR>
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_23DA_0
+  WriteText わーい。<BR>アイリスもいっしょだよ!!<BR>
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText textCutsceneScript3E_WriteText_23F4_0
+  WriteText しろいこおりには<BR>あかいシロップこそが<BR>にあうんだよ。<BR>
   PromptContinue
   SetPortrait $09,$05,$05
   Unknown10 $00
-  WriteText textCutsceneScript3E_WriteText_2419_0
+  WriteText あっ! ‥‥‥‥‥‥‥‥‥‥<BR>キーンと‥‥‥‥きた‥‥‥‥<BR>
   PromptContinue
   SetPortrait $04,$03,$03
   Unknown10 $00
-  WriteText textCutsceneScript3E_WriteText_2440_0
+  WriteText おいしいね‥‥‥‥‥‥‥‥<BR>ア‥‥ アイリスも‥‥‥‥<BR>キーン‥‥ って‥‥‥‥‥‥<BR>
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   SetBackground $0B
   SetPortrait $09,$00,$00
   Unknown10 $FF
-  WriteText textCutsceneScript3E_WriteText_247C_0
+  WriteText ‥‥おさまった‥‥‥‥<BR>あー たすかった。<BR>
   PromptContinue
   SetPortrait $04,$00,$00
   Unknown10 $FF
-  WriteText textCutsceneScript3E_WriteText_249B_0
+  WriteText ‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>フウ‥‥<BR>
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText textCutsceneScript3E_WriteText_24B6_0
+  WriteText でも おいしかったね。<BR>
   PromptContinue
   Branch .reference_17BF
 .reference_24C8
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_24CB_0
+  WriteText うじきんとき です。<BR>
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_24E6_0
+  WriteText あたしもなんです。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
   PlaybackSample $40,$95,$03,$95,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_2500_0
+  WriteText ウチもや。<BR>
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_250D_0
+  WriteText やっぱり にっぽんじんなら<BR>うじきんとき ですよね。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript3E_WriteText_252F_0
+  WriteText そや そや<BR>うじきんときこそ<BR>かきごおりの プリンスや。<BR>
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_2553_0
+  WriteText そうですよ。<BR>まっちゃの『うじ』ぶぶんと<BR>あずきの『きんとき』ぶぶんの<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_257E_0
+  WriteText ぜつみょうな とりあわせが<BR>さいこうなんですよね。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript3E_WriteText_259F_0
+  WriteText そうそう 『うじ』と<BR>『きんとき』が こおりのうえ<BR>に のっかってるちゅーだけで<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_25CF_0
+  WriteText その そんざいそのものが<BR>『にほん』を あらわしてる<BR>すばらしい デザートや。<BR>
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText textCutsceneScript3E_WriteText_2600_0
+  WriteText そうですよ。<BR>さむい ふゆにだって<BR>たべれますもんね。<BR>
   PromptContinue
   SetPortrait $05,$02,$02
   Unknown10 $00
-  WriteText textCutsceneScript3E_WriteText_2625_0
+  WriteText あっ! ‥‥‥‥‥‥‥‥‥‥<BR>キーンと‥‥‥‥きたで‥‥‥<BR>
   PromptContinue
   SetPortrait $01,$04,$04
   Unknown10 $00
-  WriteText textCutsceneScript3E_WriteText_264C_0
+  WriteText うっ‥‥‥‥‥‥‥‥<BR>あ‥‥ あたしも‥‥‥‥<BR>キーン‥‥ って‥‥‥‥‥‥<BR>
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   SetBackground $0B
   SetPortrait $05,$00,$00
   Unknown10 $FF
-  WriteText textCutsceneScript3E_WriteText_2684_0
+  WriteText ‥‥おさまった‥‥‥‥<BR>ふうー たすかったで。<BR>
   PromptContinue
   SetPortrait $01,$01,$01
   Unknown10 $FF
-  WriteText textCutsceneScript3E_WriteText_26A5_0
+  WriteText ‥‥‥‥はぁ～<BR>この キーンだけは<BR>きついですね。うふふ。<BR>
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText textCutsceneScript3E_WriteText_26CA_0
+  WriteText でも うまかったな。<BR>
   PromptContinue
   Branch .reference_17BF
 .reference_26DB
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_26DE_0
+  WriteText しろみつ です。<BR>
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText textCutsceneScript3E_WriteText_26EE_0
+  WriteText さすがは <NAME>さん。<BR>わかってらっしゃる。<BR>
   PromptContinue
   PlaybackSample $40,$92,$03,$92,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_270F_0
+  WriteText わたくしも しろみつ<BR>なんですのよ。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript3E_WriteText_2729_0
+  WriteText そーでーす。<BR>シンプル イズ ベスト<BR>でーす。<BR>
   PromptContinue
   PlaybackSample $40,$97,$03,$97,$01,$08,$28,$00
-  WriteText textCutsceneScript3E_WriteText_274D_0
+  WriteText わたしも しろみつ でーす。<BR>
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText textCutsceneScript3E_WriteText_2763_0
+  WriteText そもそも かきごおりという<BR>シンプルなものに‥‥‥‥‥‥<BR>
   SetPortrait $02,$05,$05
   Unknown10 $00
-  WriteText textCutsceneScript3E_WriteText_2788_0
+  WriteText あっ‥‥‥‥クッ‥‥‥‥‥‥<BR>
   PromptContinue
-  WriteText textCutsceneScript3E_WriteText_279A_0
+  WriteText キーンって‥‥‥‥‥‥‥‥<BR>‥‥‥‥‥‥キーンって‥‥<BR>きましたわ‥‥‥‥<BR>
   PromptContinue
   SetPortrait $07,$08,$08
   Unknown10 $00
-  WriteText textCutsceneScript3E_WriteText_27C9_0
+  WriteText Oh!‥‥‥‥‥‥‥‥<BR>わ‥‥ わたしも‥‥‥‥<BR>キーン‥‥ って‥‥‥‥‥‥<BR>
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   SetBackground $0B
   SetPortrait $02,$00,$00
   Unknown10 $FF
-  WriteText textCutsceneScript3E_WriteText_2802_0
+  WriteText ‥‥おさまった‥‥‥‥<BR>はぁー‥‥‥‥<BR>これだけは つらいですわ。<BR>
   PromptContinue
   SetPortrait $07,$00,$00
   Unknown10 $FF
-  WriteText textCutsceneScript3E_WriteText_282D_0
+  WriteText ‥‥‥‥Oh ノー‥‥<BR>この キーンだけは<BR>つらいでーす。<BR>
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText textCutsceneScript3E_WriteText_2852_0
+  WriteText でも おいしかったでーす。<BR>
   PromptContinue
   Branch .reference_17BF
 .reference_2866
   Unknown0F $00,$01
-  WriteText textCutsceneScript3E_WriteText_2869_0
+  WriteText ミルクです。<BR>
   PromptContinue
   SetPortrait $03,$00,$00
-  WriteText textCutsceneScript3E_WriteText_2877_0
+  WriteText ああ ミルクね。<BR>あれも おいしいわね。<BR>
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText textCutsceneScript3E_WriteText_2893_0
+  WriteText そうだな。<BR>ミルクも まっちゃも<BR>イチゴも みんなうまいよな。<BR>
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText textCutsceneScript3E_WriteText_28BA_0
+  WriteText そうか‥‥<BR>かきごおりって<BR>おいしいものなのか‥‥<BR>
   PromptContinue
   Branch .reference_17BF
   End
