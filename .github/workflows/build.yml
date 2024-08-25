@@ -40,15 +40,22 @@ jobs:
         run: |
           cp $GITHUB_WORKSPACE/baserom/*.gbc $GITHUB_WORKSPACE/sakura-wars-gb2
 
-      - name: Make dump
-        working-directory: 'sakura-wars-gb2'
-        run: |
-          make -j dump
-
       - name: Make
         working-directory: 'sakura-wars-gb2'
         run: |
           make -j
+
+      - name: Generate BPS files
+        working-directory: 'sakura-wars-gb2'
+        run: |
+          flips --create baserom.gbc sw2.gbc sw2-$GITHUB_RUN_NUMBER-$GITHUB_SHA.bps
+
+      - name: 'Archive BPS files'
+        uses: actions/upload-artifact@v2
+        with:
+          name: patch_files
+          path: sakura-wars-gb2/*.bps
+          retention-days: 1
 
       - name: Verify there are no uncommitted changes
         working-directory: 'sakura-wars-gb2'
