@@ -12,7 +12,7 @@ CutsceneScript11::
   PromptContinue
   WriteText "Phew...<BR>Finally made it."
   PromptContinue
-  WriteText "What the heck did<BR>they call me here<BR>so suddenly for...?"
+  WriteText "What the heck did they call me here<BR>so suddenly for...?"
   PromptContinue
   SetBackground $02
   Unknown0E $02
@@ -63,7 +63,7 @@ CutsceneScript11::
   Unknown0F $00,$01
   Branch .reference_1A94
 .reference_025A
-; Branch - Male protag already knows the main cast
+; Branch - Male protag that went through GB1
   Unknown0F $00,$01
   WriteText "It's been a while,<BR>Mr. Ogami."
   PromptContinue
@@ -488,10 +488,10 @@ CutsceneScript11::
   SetPortrait $02,$02,$02
   WriteText "You'll only get yourself into trouble with a flippant attitude like that!"
   PromptContinue
-  WriteText "もっと きをひきしめて<BR>ビシッとしなさい!<BR>"
+  WriteText "You'd better straighten up and take this seriously!"
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "Anyway, you said you wanted my autograph, right? Here. Ahh, being a star never gets any easier! Ohohoho."
+  WriteText "Anyway, you wanted my autograph, right? Here you go. Ahh, being a star never gets any easier! Ohohoho."
   PromptContinue
   Branch .reference_1464
 .reference_135F
@@ -524,7 +524,7 @@ CutsceneScript11::
   WriteText "Ciao!<BR>I am Orihime Soletta."
   PromptContinue
   ; "Ask about home" should be "ask where she's from", but currently there's a character limit
-  OptionSelectTimed $05,$03,"Praise her looks","Greet normally","Ask about home"
+  OptionSelectTimed $05,$03,"Compliment looks","Greet normally","Ask about home"
   ConditionalBranch .reference_14F7,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_1610,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_16A1,$02,$01,$01,$02,$20,$00
@@ -609,7 +609,7 @@ CutsceneScript11::
   SetPortrait $08,$00,$00
   WriteText "I'm Reni."
   PromptContinue
-  OptionSelectTimed $05,$03,"Greet normally","Praise Reni","Ask about home"
+  OptionSelectTimed $05,$03,"Greet normally","Compliment Reni","Ask about home"
   ConditionalBranch .reference_1883,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_18B6,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_1902,$02,$01,$01,$02,$20,$00
@@ -625,65 +625,66 @@ CutsceneScript11::
   Branch .reference_1996
 .reference_18B6
   Unknown0F $00,$01
-  WriteText "クールでかっこいいですね。<BR>"
+  WriteText "You look so cool and stylish!"
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   Unknown0F $00,$01
-  WriteText "(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>"
+  WriteText "(Maybe not the easiest to make conversation with, though...)"
   PromptContinue
   Branch .reference_1996
 .reference_1902
   Unknown0F $00,$01
-  WriteText "レニ・ミルヒシュトラーセさん<BR>もしかして ドイツのうまれ<BR>なんですか?<BR>"
+  WriteText "Reni Milchstraße? Might you be from Germany, perhaps?"
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText "そう‥‥‥‥<BR>"
+  WriteText "Yes..."
   PromptContinue
   Unknown0F $00,$01
-  WriteText "やっぱり そうなんですか‥‥<BR>(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>"
+  WriteText "Ah, I knew it...<BR>(Boy, not the easiest to make conversation with...)"
   PromptContinue
   Branch .reference_1996
 .reference_196B
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
 .reference_1996
   SetPortrait $09,$00,$00
-  WriteText "じゃあ みんな<BR><NAME>くんの サポート<BR>よろしくな。<BR>"
+  WriteText "Okay then, everyone, let's make sure we give <NAME> our full support."
   PromptContinue
   Unknown0F $00,$03
   Unknown12 $00
   Unknown13 $24,$00
-  WriteText "ビー! ビー! ビー!<BR>"
+  WriteText "BEEP!<BR>BEEP!<BR>BEEP!"
   PromptContinue
   Unknown0D $09,$06
   Unknown0F $09,$06
-  WriteText "けいほう?<BR>"
+  WriteText "Was that the alarm?"
   PromptContinue
   Unknown12 $0F
   Unknown0F $0B,$02
-  WriteText "ぜんいんにつぐ。<BR>しきゅう さくせんしつに<BR>しゅうごう!<BR>"
+  WriteText "All hands, report to the command center, ASAP!"
   PromptContinue
   SetPortrait $09,$02,$02
-  WriteText "<NAME>くん!<BR>いそぐぞ!!<BR>"
+  WriteText "Let's hurry, <NAME>!"
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Branch .reference_3082
+; Branch - Male protag that didn't go through GB1
 .reference_1A1D
   Unknown0F $00,$01
-  WriteText "はじめまして おおがみさん。<BR><NAME> ともうします。<BR>よろしくおねがいします。<BR>"
+  WriteText "Hello, Mr. Ogami.<BR>My name is <NAME>. Pleased to meet you."
   PromptContinue
   SetPortrait $09,$01,$01
   PlaybackSample $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "おおがみだ。<BR>よろしく <NAME>くん。<BR>"
+  WriteText "Ichiro Ogami.<BR>Pleasure to meet you too, <NAME>."
   PromptContinue
-  WriteText "では はなぐみの みんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>"
+  WriteText "Okay, let me introduce you to the rest of the Flower Division. Follow me."
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
@@ -692,23 +693,23 @@ CutsceneScript11::
   SetPortrait $09,$01,$01
   Unknown05 $87,$90,$01,$01
   End
-  WriteText "ミカサきねんこうえんで<BR>おこっている ことを<BR>しらべてもらうために<BR>"
+  WriteText "This is <NAME> from the Imperial Naval Academy."
   PromptContinue
-  WriteText "かいぐん しかんがっこう<BR>から きてもらった<BR><NAME>くんだ。<BR>"
+  WriteText "He'll be helping out with the investigation at Mikasa Memorial Park."
   PromptContinue
   Unknown0F $00,$01
-  WriteText "かいぐん しかんがっこう<BR>から やってまいりました<BR><NAME>です。<BR>"
+  WriteText "Hello, I'm <NAME> from the Imperial Naval Academy."
   PromptContinue
-  WriteText "みなさんに ごめいわくを<BR>かけないよう せいいっぱい<BR>がんばります。<BR>"
+  WriteText "I'll do my best not to get in everyone's way."
   PromptContinue
-  WriteText "いたらないところも あると<BR>おもいますが よろしく<BR>おねがいします。<BR>"
+  WriteText "I may not be as experienced as you all, but I'm happy to be of service."
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText "おう げんきいいな～。<BR>"
+  WriteText "Hey, this kid's got spunk."
   PromptContinue
-  WriteText "あたいは<BR>きりしま カンナだ。<BR>よろしくな。<BR>"
+  WriteText "The name's Kanna Kirishima. Pleased to meet ya."
   PromptContinue
-  OptionSelectTimed $05,$03,"ふつうにあいさつする","カンナをほめる","ごまをする"
+  OptionSelectTimed $05,$03,"Greet normally","Compliment her","Suck up to her"
   ConditionalBranch .reference_1BC0,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_1C19,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_1CBA,$02,$01,$01,$02,$20,$00
