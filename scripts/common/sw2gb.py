@@ -66,24 +66,24 @@ class CutsceneScript:
             i = 0
             t.append("")
             set_color = None
-            # Split words by punctuation (and spaces)
-            words = re.findall(r"\w+|[^\w]", line, re.UNICODE)
+            # Split words by spaces, keeping punctuation together
+            words = re.findall(r"[\s]|[^\s^<^>]*\w+[^\s^<^>]*|<\w+>|[^\s]", line, re.UNICODE)
             w = 0
             while w < len(words):
                 c = words[w][0]
                 # Check if it's a control code
                 if c == '<':
-                    if "".join(words[w:]).startswith('<NAME>'):
+                    if words[w] == '<NAME>':
                         l = 5 * 8
-                        w += 3 # <, NAME, >
+                        w += 1
                         c = '<NAME>'
-                    elif "".join(words[w:]).startswith('<BLACK>'):
-                        w += 3
-                        set_color = '<BLACK>' # <, BLACK, >
+                    elif words[w] == '<BLACK>':
+                        w += 1
+                        set_color = '<BLACK>'
                         continue
-                    elif "".join(words[w:]).startswith('<RED>'):
-                        w += 3
-                        set_color = '<RED>' # <, RED, >
+                    elif words[w] == '<RED>':
+                        w += 1
+                        set_color = '<RED>'
                         continue
                     else:
                         l = self._GetWordLength(words[w])
