@@ -221,7 +221,8 @@ CutsceneScript11::
   SetPortrait $05,$01,$01
   WriteText "Hey, <NAME>.<BR>How ya been?"
   PromptContinue
-  WriteText "Oh yeah, you remember this?<BR>""Inventing's...""<BR>"
+  ; Normally "Inventing's..." would be quoted, but this is too long for a single line
+  WriteText "Oh yeah, you remember this?<BR>Inventing's...<BR>"
   PromptContinue
   OptionSelectTimed $05,$03,A blast!,A gas!,A bust!
   ConditionalBranch .reference_08F4,$02,$01,$01,$00,$20,$00
