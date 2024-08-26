@@ -432,7 +432,7 @@ CutsceneScript11::
   Unknown0F $00,$01
   WriteText "Oh, Sumire."
   PromptContinue
-  OptionSelectTimed $05,$03,"あいかわらず おうつくしい‥","ボク がんばります","サインください"
+  OptionSelectTimed $05,$03,"Pretty as ever","I'll do my best","Autograph please"
   ConditionalBranch .reference_10F4,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_11D3,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_126F,$02,$01,$01,$02,$20,$00
@@ -499,20 +499,20 @@ CutsceneScript11::
   WriteText "...<BR>"
   PromptContinue
   SetPortrait $02,$05,$05
-  WriteText "あらま どうしましょ。<BR>うつくしいことは なんて<BR>つみなこと なのかしら。<BR>"
+  WriteText "Rendered speechless by my radiance, I see...<BR>"
   PromptContinue
-  WriteText "この わたくしのうつくしさに<BR>みとれて ことばをなくして<BR>しまいましたのね‥‥<BR>"
+  WriteText "Oh whatever shall I do? Truly it's a sin to look this good.<BR>"
   PromptContinue
   SetPortrait $06,$06,$06
-  WriteText "ちがうよ。あいもかわらない<BR>おまえの バカさかげんに<BR>あきれてるだけだよ。<BR>"
+  WriteText "Nah, he's just shocked at how stupid you're being right now."
   PromptContinue
   SetPortrait $02,$02,$02
-  WriteText "なんですってー カンナさん!<BR>きんにくゴリラは だまってて<BR>くださいませんか!<BR>"
+  WriteText "What did you say, Kanna?! Nobody wants to hear from a muscle-bound gorilla like you!"
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "‥‥まあ いいですわ。<BR>"
+  WriteText "... Oh well."
   PromptContinue
-  WriteText "<NAME>さん くれぐれも<BR>わたくしの あしをひっぱら<BR>ないよう がんばりなさい。<BR>"
+  WriteText "Just do your best, <NAME>, and try not to drag me down."
   PromptContinue
 .reference_1464
   SetPortrait $09,$00,$00
@@ -581,46 +581,46 @@ CutsceneScript11::
   WriteText ""Unusual"...?<BR>Are you making fun of me?!"
   PromptContinue
   Unknown0F $00,$01
-  WriteText "いえいえ とんでもない。<BR>とてもステキな<BR>おなまえですね。<BR>"
+  WriteText "No, of course not! I think it's a wonderful name!"
   PromptContinue
-  WriteText "ともかく<BR>よろしくおねがいします。<BR>おりひめさん。<BR>"
+  WriteText "Anyway, I'm looking forward to working with you, Orihime."
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "ステキな おなまえ<BR>いいました。<BR>あなた いいひとでーす。<BR>"
+  WriteText "A wonderful name, you say? Maybe you are a good person."
   PromptContinue
-  WriteText "こちらこそ よろしくでーす。<BR>"
+  WriteText "I look forward to working with you, too."
   PromptContinue
   Branch .reference_1816
 .reference_17BA
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   SetPortrait $07,$08,$08
-  WriteText "ん? どうしましたか?<BR>へんじがないでーす。<BR>きんちょうしてますか?<BR>"
+  WriteText "Hm? What's the matter? You're not saying anything. Are you nervous?"
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "まあ いいでーす。<BR>がんばってくださーい。<BR>"
+  WriteText "Oh well, that's fine. Just do your best."
   PromptContinue
 .reference_1816
   SetPortrait $09,$00,$00
-  WriteText "そして<BR>レニ・ミルヒシュトラーセ<BR>くんだ。<BR>"
+  WriteText "Next is Reni Milchstraße."
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText "ボクは レニ。<BR>"
+  WriteText "I'm Reni."
   PromptContinue
-  OptionSelectTimed $05,$03,"ふつうにあいさつする","レニをほめる","うまれたくにを きく"
+  OptionSelectTimed $05,$03,"Greet normally","Praise Reni","Ask about home"
   ConditionalBranch .reference_1883,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_18B6,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_1902,$02,$01,$01,$02,$20,$00
   Branch .reference_196B
 .reference_1883
   Unknown0F $00,$01
-  WriteText "レニさん。<BR>よろしくおねがいします。<BR>"
+  WriteText "I look forward to working with you, Reni."
   PromptContinue
   SetPortrait $08,$00,$00
   PlaybackSample $40,$98,$03,$98,$01,$06,$28,$00
-  WriteText "よろしく‥‥<BR>"
+  WriteText "Likewise..."
   PromptContinue
   Branch .reference_1996
 .reference_18B6
