@@ -788,7 +788,7 @@ CutsceneScript11::
   Branch .reference_1FFF
 .reference_1E8C
   Unknown0F $00,$01
-  WriteText "I look forward to working with you, Ms. Maria."
+  WriteText "It's a pleasure to meet you, Ms. Maria."
   PromptContinue
   WriteText "You seem so calm and alert, like you're ready for anything."
   PromptContinue
@@ -798,7 +798,7 @@ CutsceneScript11::
   Branch .reference_1FFF
 .reference_1EE6
   Unknown0F $00,$01
-  WriteText "I look forward to working with you, Ms. Maria."
+  WriteText "Nice to meet you, Ms. Maria."
   PromptContinue
   WriteText "And may I say, you're lookin' good! So cool and stylish!"
   PromptContinue
@@ -905,7 +905,7 @@ CutsceneScript11::
   Branch .reference_24BD
 .reference_22C2
   Unknown0F $00,$01
-  WriteText "I look forward to working with you, Ms. Kohran."
+  WriteText "Pleased to meet you, Ms. Kohran."
   PromptContinue
   SetPortrait $05,$00,$00
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
@@ -914,9 +914,9 @@ CutsceneScript11::
   Branch .reference_255D
 .reference_22FE
   Unknown0F $00,$01
-  WriteText "I look forward to working with you, Ms. Kohran."
+  WriteText "Pleased to meet you, Ms. Kohran."
   PromptContinue
-  WriteText "By the way, you look good in those glasses."
+  WriteText "By the way, you look great in those glasses."
   PromptContinue
   SetPortrait $05,$05,$05
   WriteText "Huh? Say what?"
@@ -943,7 +943,7 @@ CutsceneScript11::
   Branch .reference_255D
 .reference_2422
   Unknown0F $00,$01
-  WriteText "I look forward to working with you, Ms. Kohran."
+  WriteText "Pleased to meet you, Ms. Kohran."
   PromptContinue
   WriteText "By the way, those glasses look great on you, they're super cute."
   PromptContinue
@@ -952,7 +952,7 @@ CutsceneScript11::
   SetPortrait $05,$04,$04
   WriteText "Wha?! C-Cute?! Geez, you're makin' me blush..."
   PromptContinue
-  WriteText "Well, ya got a real eye for beauty, don'tcha, <NAME>?"
+  WriteText "Ya got a real eye for beauty, don'tcha, <NAME>?"
   PromptContinue
   Branch .reference_255D
 .reference_24BD
@@ -980,7 +980,7 @@ CutsceneScript11::
   WriteText "Sure... Um... I'm sorry, what was your name?"
   PromptContinue
   SetPortrait $02,$03,$03
-  WriteText "I-I beg your pardon?! You mean to say you don't recognize a monumental star such as myself?"
+  WriteText "I-I beg your pardon?! You mean to say you don't recognize a major star such as myself?"
   PromptContinue
   SetPortrait $06,$00,$00
   WriteText "Can ya blame him? He's been at the Naval Academy this whole time."
@@ -998,7 +998,7 @@ CutsceneScript11::
   Branch .reference_28A0
 .reference_268A
   Unknown0F $00,$01
-  WriteText "I look forward to working with you, Ms. Sumire."
+  WriteText "It's a pleasure to meet you, Ms. Sumire."
   PromptContinue
   SetPortrait $02,$00,$00
   WriteText "Yes, yes, to you as well, newcomer."
@@ -1012,7 +1012,7 @@ CutsceneScript11::
   Branch .reference_2931
 .reference_2702
   Unknown0F $00,$01
-  WriteText "I look forward to working with you, Ms. Sumire."
+  WriteText "It's a pleasure to meet you, Ms. Sumire."
   PromptContinue
   WriteText "By the way, Sumire, that is a gorgeous dress you're wearing."
   PromptContinue
@@ -1031,9 +1031,9 @@ CutsceneScript11::
   Branch .reference_2931
 .reference_27DB
   Unknown0F $00,$01
-  WriteText "I look forward to working with you, Ms. Sumire... Wait, I'm sorry."
+  WriteText "It's a pleasure to meet you, Ms. Sumire... Wait, I'm sorry."
   PromptContinue
-  WriteText "I look forward to working with you, my beautiful mistress Sumire."
+  WriteText "It's an honor to meet you, my beautiful mistress Sumire."
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
@@ -1061,27 +1061,27 @@ CutsceneScript11::
   Branch .reference_2931
 .reference_2931
   SetPortrait $01,$00,$00
-  WriteText "あたしは<BR>しんぐうじ さくら<BR>です。<BR>"
+  WriteText "Hello, I am Sakura Shinguji."
   PromptContinue
-  OptionSelectTimed $05,$03,"ふつうにあいさつする","さくらをほめる","ごまをする"
+  OptionSelectTimed $05,$03,"Greet normally","Compliment her","Suck up to her"
   ConditionalBranch .reference_2988,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_29D9,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_2A52,$02,$01,$01,$02,$20,$00
   Branch .reference_2B07
 .reference_2988
   Unknown0F $00,$01
-  WriteText "よろしくおねがいします。<BR>さくらさん。<BR>"
+  WriteText "It's a pleasure to meet you, Sakura."
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$06,$28,$00
-  WriteText "こちらこそ よろしくおねがい<BR>します。<NAME>さん。<BR>がんばってくださいね。<BR>"
+  WriteText "The pleasure's all mine, <NAME>. Good luck with the mission!"
   PromptContinue
   Branch .reference_2B71
 .reference_29D9
   Unknown0F $00,$01
-  WriteText "よろしくおねがいします。<BR>さくらさん。<BR>"
+  WriteText "It's a pleasure to meet you, Sakura."
   PromptContinue
-  WriteText "ところで さくらさんの<BR>そのリボン。<BR>"
+  WriteText "And by the way, that ribbon of yours?"
   PromptContinue
   WriteText "ながくしなやかな くろかみに<BR>にあって とてもステキ<BR>ですね。<BR>"
   PromptContinue
