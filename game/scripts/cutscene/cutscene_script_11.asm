@@ -1037,7 +1037,7 @@ CutsceneScript11::
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "あーら なかなかわかってる<BR>じゃありませんか。<BR><NAME>さん。<BR>"
+  WriteText "My word! You know just what to say, newcomer!"
   PromptContinue
   Unknown0F $00,$01
   WriteText "Erm... I have a name, it's <NAME>..."
@@ -1051,12 +1051,12 @@ CutsceneScript11::
   WriteText "..."
   PromptContinue
   SetPortrait $02,$05,$05
-  WriteText "どうしたんですの?<BR>‥‥あ わかりましたわ。<BR>"
+  WriteText What's the matter? Oh, I see..."
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "このわたくしの まぶしい<BR>までのうつくしさを まえに<BR>きんちょうしているのですね。<BR>"
+  WriteText "Standing before my radiant beauty has left you feeling nervous, hasn't it?"
   PromptContinue
-  WriteText "ま せいぜい わたくしの<BR>あしをひっぱらないよう<BR>しっかり たのみますわよ。<BR>"
+  WriteText "Well, all that I ask is that you do your utmost not to drag me down."
   PromptContinue
   Branch .reference_2931
 .reference_2931
