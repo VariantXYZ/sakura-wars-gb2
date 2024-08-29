@@ -548,23 +548,23 @@ CutsceneScript11::
   WriteText "And after I've been studying this language so hard!"
   PromptContinue
   Unknown0F $00,$01
-  WriteText "Sorry, I didn't mean to offend. Anyway, I'm looking forward to working with you, Orihime."
+  WriteText "Sorry, I didn't mean to offend. Anyway, pleased to meet you, Orihime."
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "Wait, where are you looking? Oh, never mind."
+  WriteText ""Please"? Now you're making requests of me? Oh, whatever."
   PromptContinue
   Branch .reference_1816
 .reference_1610
   Unknown0F $00,$01
-  WriteText "I'm looking forward to working with you, Orihime."
+  WriteText "Pleased to meet you, Ms. Orihime."
   PromptContinue
   SetPortrait $07,$08,$08
-  WriteText "Wait, what are you looking at? Is this a Japanese expression?"
+  WriteText ""Please" what? You want me to do something for you?"
   PromptContinue
-  WriteText "You can't just say you're looking at something and not say what it is!"
+  WriteText "I'm not one of your gods, I can't grant your wishes!"
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "... Just kidding. That was a joke. I am also looking forward to it."
+  WriteText "... Just kidding. That was a joke. I am also pleased to meet you."
   PromptContinue
   Branch .reference_1816
 .reference_16A1
@@ -583,7 +583,7 @@ CutsceneScript11::
   Unknown0F $00,$01
   WriteText "No, of course not! I think it's a wonderful name!"
   PromptContinue
-  WriteText "Anyway, I'm looking forward to working with you, Orihime."
+  WriteText "Anyway, I'm looking forward to working with you, Ms. Orihime."
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
@@ -1070,7 +1070,7 @@ CutsceneScript11::
   Branch .reference_2B07
 .reference_2988
   Unknown0F $00,$01
-  WriteText "It's a pleasure to meet you, Sakura."
+  WriteText "It's a pleasure to meet you, Ms. Sakura."
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$06,$28,$00
@@ -1079,186 +1079,186 @@ CutsceneScript11::
   Branch .reference_2B71
 .reference_29D9
   Unknown0F $00,$01
-  WriteText "It's a pleasure to meet you, Sakura."
+  WriteText "It's a pleasure to meet you, Ms. Sakura."
   PromptContinue
   WriteText "And by the way, that ribbon of yours?"
   PromptContinue
-  WriteText "ながくしなやかな くろかみに<BR>にあって とてもステキ<BR>ですね。<BR>"
+  WriteText "It goes great with that long, silky hair of yours, it's very pretty."
   PromptContinue
   SetPortrait $01,$05,$05
   PlaybackSample $40,$91,$03,$91,$01,$04,$28,$00
-  WriteText "えっ‥‥ ありがとう<BR>ございます‥‥<BR>"
+  WriteText "Huh...?<BR>...Thank you."
   PromptContinue
   Branch .reference_2B71
 .reference_2A52
   Unknown0F $00,$01
-  WriteText "よろしくおねがいします。<BR>さくらさん。<BR>"
+  WriteText "It's a pleasure to meet you, Ms. Sakura."
   PromptContinue
-  WriteText "ボクかんげきです。さくらさん<BR>のような ステキなじょせいと<BR>しりあいに なれるなんて。<BR>"
+  WriteText "I can't believe I get to be around a gorgeous woman like you! I feel like I might faint!"
   PromptContinue
   SetPortrait $01,$03,$03
-  WriteText "えっ?!<BR>"
+  WriteText "Huh?!"
   PromptContinue
   SetPortrait $01,$02,$02
-  WriteText "<NAME>さん。<BR>ダメですよ そんなふまじめな<BR>ことをいっていては。<BR>"
+  WriteText "<NAME>, please, don't say such silly things."
   PromptContinue
-  WriteText "<NAME>さんに<BR>あたえられた にんむは<BR>たいへんな ものなんですよ。<BR>"
+  WriteText "This is a very important mission you've been assigned to, you know!"
   PromptContinue
-  WriteText "もっと しっかり<BR>してください。<BR>"
+  WriteText "Please try to take this more seriously."
   PromptContinue
   Branch .reference_2B71
 .reference_2B07
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   SetPortrait $01,$04,$04
-  WriteText "どうしたんですか?<BR>‥‥あ きんちょうしているの<BR>ですね。<BR>"
+  WriteText "What's the matter? Oh, you must be nervous, huh?"
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$04,$28,$00
-  WriteText "あたしもそうでしたよ。<BR>がんばってくださいね。<BR><NAME>さん。<BR>"
+  WriteText "I was nervous when I first started, too. Just do your best, <NAME>."
   PromptContinue
   Branch .reference_2B71
 .reference_2B71
   SetPortrait $07,$00,$00
-  WriteText "チャオ!<BR>わたしは ソレッタ・おりひめ<BR>でーす。<BR>"
+  WriteText "Ciao!<BR>I am Orihime Soletta."
   PromptContinue
-  OptionSelectTimed $05,$03,"ふつうにあいさつする","おりひめをほめる","ごまをする"
+  OptionSelectTimed $05,$03,"Greet normally","Compliment her","Suck up to her"
   ConditionalBranch .reference_2BCF,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_2C69,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_2CF8,$02,$01,$01,$02,$20,$00
   Branch .reference_2E09
 .reference_2BCF
   Unknown0F $00,$01
-  WriteText "よろしくおねがいします。<BR>おりひめさん。<BR>"
+  WriteText "Pleased to meet you, Ms. Orihime."
   PromptContinue
   SetPortrait $07,$08,$08
-  WriteText "おねがい? おねがい<BR>するときには おさいせん <BR>これ ひつようでーす。<BR>"
+  WriteText "Please? Are you asking me for something? Well it won't come free."
   PromptContinue
-  WriteText "ニッポンのかみさま <BR>みな そういって いまーす。<BR>はやく だすでーす。<BR>"
+  WriteText "It's like your Japanese gods, you give me an offering first! Like money!"
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "なーんていうのは<BR>ジョークでーす。<BR>こちらこそ よろしくでーす。<BR>"
+  WriteText ""... Just kidding. That was a joke. I am also pleased to meet you."
   PromptContinue
   Branch .reference_2E65
 .reference_2C69
   Unknown0F $00,$01
-  WriteText "よろしくおねがいします。<BR>おりひめさん。<BR>"
+  WriteText "Pleased to meet you, Ms. Orihime."
   PromptContinue
-  WriteText "いろいろと べんきょうさせて<BR>いただきます。<BR>"
+  WriteText "I hope to learn a lot from you in the mission ahead."
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "ニッポンのおとこにしては<BR>ずいぶんと マシな<BR>ようですねー!<BR>"
+  WriteText "That's a good attitude to have! Learn all kinds of things!"
   PromptContinue
-  WriteText "リッパな こころがけでーす!<BR>いろいろと べんきょうすると<BR>いーでーす!<BR>"
+  WriteText "You're already more impressive than any Japanese man I've ever met!"
   PromptContinue
   Branch .reference_2E65
 .reference_2CF8
   Unknown0F $00,$01
-  WriteText "よろしくおねがいします。<BR>おりひめさん。<BR>"
+  WriteText "Pleased to meet you, Ms. Orihime."
   PromptContinue
-  WriteText "おりひめさんの エメラルドの<BR>ようにかがやくひとみ<BR>とてもステキですね～。<BR>"
+  WriteText "And may I say, your radiant emerald eyes are simply beautiful!"
   PromptContinue
   SetPortrait $07,$06,$06
-  WriteText "オー! ニッポンのおとこ<BR>ダメダメでーす。<BR>"
+  WriteText "OH! Japanese men really are hopeless!"
   PromptContinue
-  WriteText "わたしのような<BR>びじんを みると すぐに<BR>ハナのした のばしまーす。<BR>"
+  WriteText "They meet a beauty like me and waste no time with the leering and such!"
   PromptContinue
   Unknown0F $00,$01
-  WriteText "いえ そういう<BR>いみじゃあ‥‥<BR>"
+  WriteText "Uh, I didn't mean it like that..."
   PromptContinue
   SetPortrait $07,$06,$06
-  WriteText "なーんですって。<BR>このわたしが びじんじゃない<BR>というのですか?<BR>"
+  WriteText "What's that?<BR>So you DON'T think I'm beautiful?"
   PromptContinue
-  WriteText "ニッポンのおとこ<BR>しつれいでーす!!!<BR>"
+  WriteText "You Japanese men are so rude, too!"
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "いいたいことは まだあります<BR>‥‥でも ながくなるから<BR>このへんで やめときまーす。<BR>"
+  WriteText "I could go on all day with how awful they are... But I'll stop here for now."
   PromptContinue
   Branch .reference_2E65
 .reference_2E09
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   SetPortrait $07,$08,$08
-  WriteText "どうしましたか?<BR>へんじがないでーす。<BR>きんちょうしてますか?<BR>"
+  WriteText "What's the matter? You're not saying anything. Are you nervous?"
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "まあ いいでーす。<BR>がんばってくださーい。<BR>"
+  WriteText "Oh well, that's fine. Just do your best."
   PromptContinue
   Branch .reference_2E65
 .reference_2E65
   SetPortrait $08,$00,$00
-  WriteText "ボクはレニ。<BR>レニ・ミルヒシュトラーセ。<BR>"
+  WriteText "I'm Reni.<BR>Reni Milchstraße."
   PromptContinue
-  OptionSelectTimed $05,$03,"ふつうにあいさつする","レニをほめる","ごまをする"
+  OptionSelectTimed $05,$03,"Greet normally","Compliment her","Suck up to her"
   ConditionalBranch .reference_2EBD,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_2EE7,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_2F50,$02,$01,$01,$02,$20,$00
   Branch .reference_2FC3
 .reference_2EBD
   Unknown0F $00,$01
-  WriteText "よろしくおねがいします。<BR>レニさん。<BR>"
+  WriteText "I look forward to working with you, Reni."
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText "よろしく‥‥<BR>"
+  WriteText "Likewise..."
   PromptContinue
   Branch .reference_2FEE
 .reference_2EE7
   Unknown0F $00,$01
-  WriteText "よろしくおねがいします。<BR>レニさん。<BR>"
+  WriteText "I look forward to working with you, Reni."
   PromptContinue
-  WriteText "レニさんって<BR>クールでかっこいいですね。<BR>"
+  WriteText "And can I say, you look so cool and stylish!"
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   Unknown0F $00,$01
-  WriteText "(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>"
+  WriteText "(Maybe not the easiest to make conversation with, though...)"
   PromptContinue
   Branch .reference_2FEE
 .reference_2F50
   Unknown0F $00,$01
-  WriteText "よろしくおねがいします。<BR>レニさん。<BR>"
+  WriteText "I look forward to working with you, Reni."
   PromptContinue
-  WriteText "かっこいいですよね～<BR>レニさんの そのおちついた<BR>ふんいき。<BR>"
+  WriteText "Man, that calm demeanor of yours is SO cool, you know that?"
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   Unknown0F $00,$01
-  WriteText "(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>"
+  WriteText "(Not the easiest to make conversation with, huh?)"
   PromptContinue
   Branch .reference_2FEE
 .reference_2FC3
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   SetPortrait $08,$00,$00
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
 .reference_2FEE
   SetPortrait $09,$00,$00
-  WriteText "よし しょうかいは<BR>すんだな。<BR>"
+  WriteText "Okay, that's all the introductions taken care of."
   PromptContinue
-  WriteText "みんな <NAME>くんを<BR>よろしくたのむよ。<BR>"
+  WriteText "Let's all make sure to give <NAME> our full support!"
   PromptContinue
   Unknown0F $00,$03
   Unknown12 $00
   Unknown13 $24,$00
-  WriteText "ビー! ビー! ビー!<BR>"
+  WriteText "BEEP!<BR>BEEP!<BR>BEEP!"
   PromptContinue
   Unknown0D $09,$06
   Unknown0F $09,$06
-  WriteText "けいほう?<BR>"
+  WriteText "Was that an alarm?"
   PromptContinue
   Unknown12 $0F
   Unknown0F $0B,$02
-  WriteText "ぜんいんにつぐ。<BR>しきゅう さくせんしつに<BR>しゅうごう!<BR>"
+  WriteText "All hands, report to the command center, ASAP!"
   PromptContinue
   SetPortrait $09,$02,$02
-  WriteText "<NAME>くん!<BR>いそぐぞ!!<BR>"
+  WriteText "Let's hurry, <NAME>!"
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
@@ -1266,92 +1266,93 @@ CutsceneScript11::
 .reference_3082
   Unknown1E $16
   SetPortrait $0B,$10,$00
-  WriteText "ぜんいん そろったようね‥‥<BR>"
+  WriteText "Looks like you're all here..."
   PromptContinue
-  WriteText "ミカサきねんこうえんでの<BR>かいげんしょうは<BR>しっているわね。<BR>"
+  WriteText "I trust you all know about the strange phenomena at Mikasa Memorial Park."
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "いま ミカサきねんこうえんで<BR>きょだいな れいりょくが<BR>かくにんされました。<BR>"
+  WriteText "We just picked up a massive spirit power reading from the vicinity of the Park."
   PromptContinue
   SetPortrait $09,$16,$0D
-  WriteText "まさか あらたなてきが?!<BR>"
+  WriteText "It couldn't possibly be a new enemy, could it?!"
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "さあ わからないわ。<BR>"
+  WriteText "That, we don't know."
   PromptContinue
   SetPortrait $01,$12,$0A
-  WriteText "だったら あたし<BR>しらべにいきます。<BR>"
+  WriteText "Then I'll go investigate!"
   PromptContinue
   SetPortrait $0C,$12,$02
-  WriteText "れいりょくの いへん<BR>また おこっています。<BR>ミカサきねんこうえんです。<BR>"
+  WriteText "Another spirit power anomaly detected at Mikasa Memorial Park!"
   PromptContinue
   SetPortrait $0D,$12,$02
-  WriteText "きょだいな れいりょくの<BR>ちゅうしんは‥‥‥‥‥‥‥‥<BR>ミカサです!<BR>"
+  WriteText "The source of the massive readings is... The Mikasa itself!"
   PromptContinue
-  WriteText "ミカサから きょだいな<BR>れいりょくが でています!<BR>"
+  WriteText "The Mikasa is emitting massive amounts of spirit power!"
   PromptContinue
   SetPortrait $01,$12,$0A
-  WriteText "かえでさん!<BR>しゅつどうめいれいを!!<BR>"
+  WriteText "Just give me the order, Kaede!"
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "ダメよ!<BR>"
+  WriteText "No!"
   PromptContinue
-  WriteText "げんいんが わからないのに<BR>あなたたちを うごかす<BR>わけには いかないわ。<BR>"
+  WriteText "It's too risky to deploy you all without knowing the cause."
   PromptContinue
-  WriteText "ミカサのしたには『やまと』や<BR>『せいまじょう』が<BR>ねむっています‥‥<BR>"
+  WriteText "Beneath the Mikasa lie both Yamato and the Sacred Demon Castle..."
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "ということは この<BR>れいりょくの いじょう‥‥<BR>"
+  WriteText "Meaning these spirit power anomalies..."
   PromptContinue
-  WriteText "いちじてきな<BR>しぜんげんしょう かも<BR>しれんちゅーこっちゃな。<BR>"
+  WriteText "COULD just be temporary natural phenomena."
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "まずは ちょうさをしないと<BR>うごけないわね。<BR>"
+  WriteText "We can't do anything until we investigate."
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "そういうことだぜ。<BR>そのために <NAME>を<BR>よんだんだろ?<BR>"
+  WriteText "Exactly. That's why we called <NAME> here, right?"
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "<NAME>くん。<BR>しゅつどうよ。<BR>"
+  WriteText "<NAME>, time to deploy."
   PromptContinue
-  WriteText "きゅうな しゅつどうだから<BR>おおがみくんと いっしょに<BR>いきなさい。<BR>"
+  WriteText "Given the urgency of the situation, Ogami will be joining you."
   PromptContinue
-  WriteText "おおがみくん たのんだわよ。<BR><NAME>くん しっかりね。<BR>"
+  WriteText "We're counting on you, Ogami, and <NAME>, keep it together."
   PromptContinue
   SetPortrait $09,$12,$09
-  WriteText "りょうかい!<BR>"
+  WriteText "Roger!"
   PromptContinue
-  OptionSelectTimed $02,$01,"りょうかい!"
+  OptionSelectTimed $02,$01,"Roger!"
   ConditionalBranch .reference_6879,$02,$01,$01,$00,$20,$00
   Branch .reference_68A0
   Unknown0F $00,$01
-  WriteText "りょうかい!<BR>"
+  WriteText "Roger!"
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "よし いいへんじだぞ<BR><NAME>くん!<BR>"
+  WriteText "Good answer, <NAME>!"
   PromptContinue
   Branch .reference_68C9
   SetPortrait $09,$12,$09
-  WriteText "どうした <NAME>くん!<BR>しっかりしろ!<BR>"
+  WriteText "What's wrong, <NAME>?! Snap out of it!"
   PromptContinue
   Unknown0F $00,$01
-  WriteText "りょ りょうかい!<BR>"
+  WriteText "R- Roger!"
   PromptContinue
   SetPortrait $0B,$12,$02
   WriteText "おおがみ。 <NAME>は<BR>ミカサきねんこうえんを<BR>しらべに しゅつどう!<BR>"
   PromptContinue
   SetPortrait $09,$12,$09
-  WriteText "おおがみ。 <NAME>。<BR>ミカサきねんこうえんを<BR>しらべに しゅつどうします!<BR>"
+  WriteText "Ogami, <NAME>, moving out to survey the Mikasa!"
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   SetPortrait $04,$11,$09
-  WriteText "<NAME> がんばってね。<BR>"
+  WriteText "Good luck, <NAME>!"
   PromptContinue
   SetPortrait $09,$12,$09
-  WriteText "いくぞ!<BR><NAME>くん!!<BR>"
+  WriteText "Let's go, <NAME>!"
   PromptContinue
   End
+; Female branches start here
 .reference_33E3
   Unknown09 $5A
   Unknown0F $00,$01
