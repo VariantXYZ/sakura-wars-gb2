@@ -47,7 +47,7 @@ CutsceneScript11::
   ConditionalBranch .reference_1A1D,$02,$01,$01,$01,$20,$00
   Branch .reference_01CD
 .reference_01CD
-; Branch - Timeout on self-introduction
+; Branch - Timeout on self-introduction, male
   Unknown0F $00,$01
   WriteText ...
   PromptContinue
@@ -57,7 +57,7 @@ CutsceneScript11::
   SetPortrait $09,$01,$01
   WriteText "If you don't loosen up, you're going to have a rough time. You ought to relax."
   PromptContinue
-  WriteText "Okay, let me introduce you to the rest of the Flower Division. Follow me."
+  WriteText "Okay, let's go meet the rest of the Flower Division. Follow me."
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
@@ -69,7 +69,7 @@ CutsceneScript11::
   PromptContinue
   SetPortrait $09,$01,$01
   PlaybackSample $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "Hey.<BR>How've you been,<BR><NAME>?"
+  WriteText "Hey.<BR>How've you been, <NAME>?"
   PromptContinue
   SetPortrait $0B,$10,$00
   WriteText "Oh that's right, you two already know each other, don't you?"
@@ -86,7 +86,7 @@ CutsceneScript11::
   WriteText "This mission will be tough, <NAME>, but you've got this."
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "Okay, let me introduce you to the rest of the Flower Division. Follow me."
+  WriteText "Okay, let's go meet the rest of the Flower Division. Follow me."
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
@@ -1357,84 +1357,86 @@ CutsceneScript11::
   Unknown09 $5A
   Unknown0F $00,$01
   SetBackground $01
-  WriteText "～だい1しょう～<BR>『こうぶ ミカサにたつ!』<BR>"
+ WriteText "～Chapter 1～<BR>""Destination: Mikasa!"""
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ふう‥‥<BR>やっとついたわ。<BR>"
+  WriteText "Phew...<BR>Finally made it."
   PromptContinue
-  WriteText "とつぜん よびだされたけど<BR>いったい なにが<BR>あったのかしら‥‥<BR>"
+  WriteText "I wonder what they called me here so suddenly for...?"
   PromptContinue
   SetBackground $02
   Unknown0E $02
   SetPortrait $0B,$11,$01
-  WriteText "よく きてくれたわね。<BR>わたしは<BR>ふじえだ かえで。<BR>"
+  WriteText "Welcome.<BR>My name is Kaede Fujieda."
   PromptContinue
-  WriteText "ていこくかげきだんの<BR>ふくしれいです。<BR>"
+  WriteText "I am the vice commander of the Imperial Combat Revue."
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では さっそくだけど<BR>あなたを ここへよんだ<BR>りゆうを せつめいするわ。<BR>"
+  WriteText "I know this is sudden, but let me explain why we've called you here."
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "あなたの にんむは<BR>ミカサきねんこうえんを<BR>しらべることです。<BR>"
+  WriteText "Your mission is to investigate Mikasa Memorial Park."
   PromptContinue
-  WriteText "すこしまえから ミカサきねん<BR>こうえんで おかしなことが<BR>おこっているのです。<BR>"
+  WriteText "Strange things have been happening at the park for some time now."
   PromptContinue
-  WriteText "そこで こんかいは あなたに<BR>その げんいんを しらべて<BR>もらおうと おもいます。<BR>"
+  WriteText "We'd like you to investigate the cause of these occurrences."
   PromptContinue
-  WriteText "いいわね <NAME>。<BR>"
+  WriteText "Understood, <NAME>?"
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では ていこくかげきだん<BR>はなぐみの たいちょうを<BR>しょうかいするわ。<BR>"
+  WriteText "Now then, allow me to introduce you to the Flower Division captain."
   PromptContinue
-  WriteText "おおがみくん。<BR>"
+  WriteText "Ogami?"
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "はい。<BR>"
+  WriteText "Yes, ma'am."
   PromptContinue
-  OptionSelectTimed $05,$02,"おおがみさん おひさしぶりです","はじめまして"
+  OptionSelectTimed $05,$02,"Long time no see","Nice to meet you"
   ConditionalBranch .reference_3635,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_4E6A,$02,$01,$01,$01,$20,$00
   Branch .reference_35A3
+; Branch - Timeout on self-introduction, femalemale
 .reference_35A3
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   SetPortrait $09,$05,$05
-  WriteText "おや? どうしたんだい<BR><NAME>くん。<BR>きんちょう しているのか?<BR>"
+  WriteText "Hm? What's wrong, <NAME>? Feeling nervous?"
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "だいじょうぶだよ そんなに<BR>かたく ならなくても。<BR>リラックス リラックス。<BR>"
+  WriteText "It's alright, you can loosen up a little. Just try to relax."
   PromptContinue
-  WriteText "じゃあ はなぐみの みんなに<BR>しょうかいするから<BR>ついてきて。<BR>"
+  WriteText "Okay, let me introduce you to the rest of the Flower Division. Follow me."
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Branch .reference_4EE9
+; Branch - Female protag went through GB1
 .reference_3635
   Unknown0F $00,$01
-  WriteText "おひさしぶりです。<BR>おおがみさん。<BR>"
+  WriteText "It's been a while, Mr. Ogami."
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "やあ。<BR>げんきだったかい?<BR><NAME>くん。<BR>"
+  WriteText "Hey.<BR>How've you been, <NAME>?"
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "あら そういえば<BR>ふたりは しりあい<BR>だったわね。<BR>"
+  WriteText "Oh that's right, you two already know each other, don't you?"
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "<NAME>くんは はなぐみに<BR>たいけんにゅうたいを<BR>したことが あるんですよ。<BR>"
+  WriteText "<NAME> took part in our trial enlistment program."
   PromptContinue
-  WriteText "きかんは いっかげつだった<BR>のですが <NAME>くんは<BR>なかなかステキな‥‥<BR>"
+  WriteText "Though she was with us for only a month, she was a very lovely..."
   PromptContinue
   SetPortrait $09,$03,$03
-  WriteText "あ いや‥‥<BR>ばつぐんの せいせきでした。<BR>"
+  WriteText "Erm, I mean...<BR>She showed exceptional results."
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "そうなの。<BR>それは たのもしいわね。<BR>"
+  WriteText "I see. She sounds quite reliable."
   PromptContinue
   SetPortrait $09,$02,$02
-  WriteText "<NAME>くん。こんかいの<BR>にんむは きびしいが<BR>がんばってくれよ。<BR>"
+  WriteText "This mission will be tough, <NAME>, but you've got this."
   PromptContinue
-  WriteText "じゃあ はなぐみの みんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>"
+  WriteText "Okay, let's go meet the rest of the Flower Division. Follow me."
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
