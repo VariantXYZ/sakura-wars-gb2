@@ -1598,26 +1598,26 @@ CutsceneScript11::
   PromptContinue
   WriteText "Oh yeah, you remember this?<BR>Inventing's...<BR>"
   PromptContinue
-  OptionSelectTimed $05,$03,"バクハツや!","バッチリや!","バクマツや!"
+  OptionSelectTimed $05,$03,"A blast!","A breeze!","A Bakumatsu!"
   ConditionalBranch .reference_3E2F,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_3EA4,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_3F68,$02,$01,$01,$02,$20,$00
   Branch .reference_402F
 .reference_3E2F
   Unknown0F $00,$01
-  WriteText "『バクハツや!』でしょ。<BR>こうらんさん。<BR>"
+  WriteText """A blast!""<BR>Right, Kohran?"
   PromptContinue
   SetPortrait $05,$05,$05
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "そのとおり!<BR>はつめいは バクハツや!<BR>よーおぼえててくれたな。<BR>"
+  WriteText "Exactly!<BR>""Inventing's a blast""!<BR>Glad you remember."
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "さすが <NAME>はんや。<BR>ほな こんかいも<BR>がんばっていこな!<BR>"
+  WriteText "Sharp as always, <NAME>. We got this mission in the bag."
   PromptContinue
   Branch .reference_40CB
 .reference_3EA4
   Unknown0F $00,$01
-  WriteText "『バッチリや!』でしょ。<BR>こうらんさん。<BR>"
+  WriteText """A breeze!""<BR>Right, Kohran?"
   PromptContinue
   SetPortrait $05,$05,$05
   WriteText "そや! ウチのはつめいは<BR>いつでも バッチリや!<BR>おーきにありがとう!!<BR>"
