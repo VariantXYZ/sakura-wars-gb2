@@ -7,7 +7,8 @@ import io
 import csv
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
-from common import utils, tilesets, sw2gb
+from common import utils, tilesets
+from sw2gb import cutscene
 
 # The set of [ADDR:2LE][BANK:1] is relative to 0x4000 but the first actual index is 0x11
 TABLE_START = (0x40, 0x4000)
@@ -24,7 +25,7 @@ game_cutscene_script_dir = sys.argv[3]
 # Load tileset info
 character_table = tilesets.get_tileset("CutsceneScript", override_offset=0x00)
 
-cs = sw2gb.CutsceneScript(character_table)
+cs = cutscene.CutsceneScript(character_table)
 COMMANDS = cs.COMMANDS
 
 with open(rom_path, 'rb') as rom:

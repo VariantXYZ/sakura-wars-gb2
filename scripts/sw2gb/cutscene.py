@@ -5,7 +5,7 @@ import os
 import re
 import sys
 from itertools import zip_longest
-sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
+sys.path.append(os.path.join(os.path.join(os.path.dirname(__file__), '..'), 'common'))
 from common.utils import AliasDict, txt2bin
 
 class CutsceneScript:
