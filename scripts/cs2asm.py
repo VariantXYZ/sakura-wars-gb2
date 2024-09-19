@@ -7,7 +7,8 @@ import csv
 from io import StringIO
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
-from common import utils, sw2gb, tilesets
+from common import utils, tilesets
+from sw2gb import cutscene
 
 script_name = sys.argv[0]
 output_file = sys.argv[1]
@@ -57,7 +58,7 @@ with open(input_asm, 'r', encoding='utf-8') as fp:
 
     # Load tileset info
     character_table = tilesets.get_tileset("CutsceneScript", override_offset=0x00)
-    cs = sw2gb.CutsceneScript(character_table)
+    cs = cutscene.CutsceneScript(character_table)
 
     # Split the work into two passes:
     # 1. Gather every reference
