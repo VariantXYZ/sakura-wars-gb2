@@ -1598,7 +1598,7 @@ CutsceneScript11::
   PromptContinue
   WriteText "Oh yeah, you remember this?<BR>Inventing's...<BR>"
   PromptContinue
-  OptionSelectTimed $05,$03,"A blast!","A breeze!","A Bakumatsu!"
+  OptionSelectTimed $05,$03,"A blast!","True bliss!","Bakumatsu!"
   ConditionalBranch .reference_3E2F,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_3EA4,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_3F68,$02,$01,$01,$02,$20,$00
@@ -1617,27 +1617,27 @@ CutsceneScript11::
   Branch .reference_40CB
 .reference_3EA4
   Unknown0F $00,$01
-  WriteText """A breeze!""<BR>Right, Kohran?"
+  WriteText """True bliss!""<BR>Right, Kohran?"
   PromptContinue
   SetPortrait $05,$05,$05
-  WriteText "そや! ウチのはつめいは<BR>いつでも バッチリや!<BR>おーきにありがとう!!<BR>"
+  WriteText "That's right! You'll be on cloud nine with my inventions!"
   PromptContinue
   SetPortrait $05,$03,$03
-  WriteText "って なんでやねん!<BR>"
+  WriteText "Wait, no, what?!"
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "『はつめいは バクハツや!』<BR>が ウチのポリシーや。<BR>"
+  WriteText """Inventing's a blast,"" that's my motto!"
   PromptContinue
   SetPortrait $05,$01,$01
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "まあ バッチリちゅーのも<BR>きもちはエエけどな。<BR>"
+  WriteText "Still, it's nice to know you feel that way about inventing."
   PromptContinue
-  WriteText "ほなまー こんかいも<BR>よろしゅーたのんます。<BR>"
+  WriteText "Anyhoo, we'll be counting on ya!"
   PromptContinue
   Branch .reference_40CB
 .reference_3F68
   Unknown0F $00,$01
-  WriteText "『バクマツや!』でしょ。<BR>こうらんさん。<BR>"
+  WriteText """Bakumatsu!""<BR>Right, Kohran?"
   PromptContinue
   SetPortrait $05,$05,$05
   WriteText "そう はつめいはバクマツ。<BR>すなわち えどじだいや!<BR>ひらがげんない イエ～ィ!!<BR>"
