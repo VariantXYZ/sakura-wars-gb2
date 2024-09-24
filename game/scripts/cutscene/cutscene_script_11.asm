@@ -321,9 +321,9 @@ CutsceneScript11::
   PromptContinue
   SetPortrait $03,$03,$03
   PlaybackSample $40,$93,$03,$93,$01,$06,$28,$00
-  WriteText "Hm hm hm, a careful attitude like that is important."
+  WriteText "Hm hm hm, a careful attitude like that is important to have."
   PromptContinue
-  WriteText "You'll stay safe so long as you keep calm and proceed with caution."
+  WriteText "You'll be fine so long as you keep calm and proceed with caution."
   PromptContinue
   Branch .reference_0DF0
 .reference_0CB3
@@ -1598,7 +1598,7 @@ CutsceneScript11::
   PromptContinue
   WriteText "Oh yeah, you remember this?<BR>Inventing's...<BR>"
   PromptContinue
-  OptionSelectTimed $05,$03,"A blast!","True bliss!","Bakumatsu!"
+  OptionSelectTimed $05,$03,"A blast!","True bliss!","バクマツや!"
   ConditionalBranch .reference_3E2F,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_3EA4,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_3F68,$02,$01,$01,$02,$20,$00
@@ -1637,7 +1637,7 @@ CutsceneScript11::
   Branch .reference_40CB
 .reference_3F68
   Unknown0F $00,$01
-  WriteText """Bakumatsu!""<BR>Right, Kohran?"
+  WriteText "『バクマツや!』でしょ。<BR>こうらんさん。<BR>"
   PromptContinue
   SetPortrait $05,$05,$05
   WriteText "そう はつめいはバクマツ。<BR>すなわち えどじだいや!<BR>ひらがげんない イエ～ィ!!<BR>"
@@ -1656,65 +1656,65 @@ CutsceneScript11::
   Branch .reference_40CB
 .reference_402F
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   SetPortrait $05,$02,$02
-  WriteText "ん? <NAME>はん。<BR>どないしたんや?<BR>げんきあらへんな～。<BR>"
+  WriteText "Hm? What's up, <NAME>? You look kinda down."
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "そうか‥‥<BR>きびしい にんむをまえに<BR>きんちょうしてるんやな。<BR>"
+  WriteText "Oh, I see, you got the pre-mission jitters, huh?"
   PromptContinue
-  WriteText "でも いまから それやと<BR>このさき たいへんやで。<BR>"
+  WriteText "But if you stay wound up so tight you're just gonna snap."
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "もうすこし<BR>かたのチカラぬいて<BR>がんばり。<BR>"
+  WriteText "Try to loosen up a bit and just do the best ya can."
   PromptContinue
   Branch .reference_40CB
 .reference_40CB
   SetPortrait $03,$00,$00
-  WriteText "<NAME>。<BR>こんかいの にんむは<BR>きびしいわよ。<BR>"
+  WriteText "This mission's going to be a hard one, <NAME>."
   PromptContinue
-  OptionSelectTimed $05,$03,"わかっています","すこし ふあんです","だいじょうぶでしょう"
+  OptionSelectTimed $05,$03,"I know.","A bit nervous.","I think I'm OK."
   ConditionalBranch .reference_4129,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_41A3,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_4227,$02,$01,$01,$02,$20,$00
   Branch .reference_432C
 .reference_4129
   Unknown0F $00,$01
-  WriteText "はい わかっています。<BR>まかせてください。<BR>"
+  WriteText "I know.<BR>You can count on me."
   PromptContinue
   SetPortrait $03,$03,$03
   PlaybackSample $40,$93,$03,$93,$01,$06,$28,$00
-  WriteText "フフフ‥‥<BR>じしんたっぷりね。<BR>でも ゆだんはきんもつよ。<BR>"
+  WriteText "Hm hm hm... Glad you're feeling confident. Still, don't let your guard down."
   PromptContinue
   SetPortrait $03,$00,$00
-  WriteText "つねに きんちょうかんを<BR>もって こうどうすることを<BR>わすれないようにね。<BR>"
+  WriteText "Always proceed with the utmost caution."
   PromptContinue
   Branch .reference_4399
 .reference_41A3
   Unknown0F $00,$01
-  WriteText "じつは‥‥<BR>すこし ふあん なんです。<BR>わたしに できるでしょうか‥<BR>"
+  WriteText "To be honest... I'm a little nervous. Can I really do this?"
   PromptContinue
   SetPortrait $03,$03,$03
   PlaybackSample $40,$93,$03,$93,$01,$06,$28,$00
-  WriteText "フフフ。しんちょうなのね。<BR>でも それは<BR>たいせつなことよ。<BR>"
+  WriteText "Hm hm hm, a careful attitude like that is important to have."
   PromptContinue
-  WriteText "きおわずに しんちょうに<BR>にんむを すすめることが<BR>あなたを まもるのよ。<BR>"
+  WriteText "You'll be fine so long as you keep calm and proceed with caution."
   PromptContinue
   Branch .reference_4399
 .reference_4227
   Unknown0F $00,$01
-  WriteText "だいじょうぶでしょう。<BR>しらべるだけなら<BR>かんたんです。<BR>"
+  WriteText "I think I'll be fine. Recon ought to be simple enough."
   PromptContinue
-  WriteText "まかせてください。<BR>さっさと おわらせて<BR>みせますから。<BR>"
+  WriteText "Leave it to me, I'll end this before you know it."
   PromptContinue
   SetPortrait $03,$00,$00
-  WriteText "たいした じしんね。<BR><NAME>。<BR>"
+  WriteText "That's some confidence, <NAME>."
   PromptContinue
-  WriteText "でもね しらべるって<BR>いうことは なにがおこるか<BR>わからないっていうこと‥‥<BR>"
+  WriteText "Still, you never know what might happen during reconnaissance..."
   PromptContinue
   SetPortrait $03,$02,$02
-  WriteText "そんな こころがまえでいると<BR>おおきな しっぱいを<BR>してしまうかも しれないわ。<BR>"
+  WriteText "That kind of attitude might just get you into trouble."
   PromptContinue
   WriteText "いのちを おとすことにも<BR>なりかねないのよ。<BR>"
   PromptContinue
