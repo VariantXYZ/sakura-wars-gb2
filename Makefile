@@ -54,10 +54,11 @@ SCRIPT_DIR := $(BASE_DIR)/scripts
 GFX_SRC_DIR := $(SRC_DIR)/gfx
 GFX_DIR := $(BASE_DIR)/gfx
 TILESET_GFX_DIR := $(GFX_DIR)/tilesets
-GAME_EVENT_SRC_DIR := $(SRC_DIR)/cutscene
+GAME_EVENT_SRC_DIR := $(SRC_DIR)/scene
 TEXT_DIR := $(GAME_DIR)/text
 GAME_SCRIPT_DIR := $(GAME_DIR)/scripts
 CUTSCENE_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/cutscene
+GAMESCENE_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/gamescene
 
 ## Output Directories
 GFX_OUT_DIR := $(BUILD_DIR)/gfx
@@ -73,7 +74,7 @@ TARGET_MAP := $(BASE_DIR)/$(OUTPUT_PREFIX).$(MAP_TYPE)
 MODULES := \
 core\
 gfx\
-cutscene\
+scene\
 text\
 
 OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(INT_TYPE), $(notdir $(basename $(wildcard $(SRC_DIR)/$(MODULE)/*.$(SOURCE_TYPE)))))))
@@ -88,6 +89,7 @@ TILESET_1BPP_FILES := $(foreach FILE,$(TILESETS_1BPP_IMAGE_FILES),$(TILESET_OUT_
 
 # Additional dependencies, per module granularity (i.e. core) or per file granularity (e.g. core_main_ADDITIONAL)
 gfx_tilesets_data_ADDITIONAL := $(TILESET_1BPP_FILES)
+scene_game_scene_table_ADDITIONAL := $(wildcard $(GAMESCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE))
 
 .PHONY: default clean
 default: $(TARGET_ROM)
@@ -120,8 +122,8 @@ $(BUILD_DIR)/cs.%.asm: $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BUILD_DIR)
 
 
 # Dumping
-.PHONY: dump dump_tilesets dump_cutscene_scripts
-dump: dump_tilesets dump_cutscene_scripts
+.PHONY: dump dump_tilesets dump_cutscene_scripts dump_gamescene_scripts
+dump: dump_tilesets dump_cutscene_scripts dump_gamescene_scripts
 
 dump_tilesets: | $(TILESET_GFX_DIR)
 	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE)) || echo ""
@@ -130,6 +132,10 @@ dump_tilesets: | $(TILESET_GFX_DIR)
 dump_cutscene_scripts: | $(CUTSCENE_SCRIPT_DIR)
 	rm $(call ESCAPE,$(CUTSCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_cutscene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(CUTSCENE_SCRIPT_DIR)"
+
+dump_gamescene_scripts: | $(GAMESCENE_SCRIPT_DIR)
+	rm $(call ESCAPE,$(GAMESCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
+	$(PYTHON) $(SCRIPT_DIR)/dump_gamescene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(GAMESCENE_SCRIPT_DIR)"
 
 #Make directories if necessary
 $(BUILD_DIR):
@@ -143,3 +149,6 @@ $(TILESET_OUT_DIR):
 
 $(CUTSCENE_SCRIPT_DIR):
 	mkdir -p $(CUTSCENE_SCRIPT_DIR)
+
+$(GAMESCENE_SCRIPT_DIR):
+	mkdir -p $(GAMESCENE_SCRIPT_DIR)
