@@ -1,5 +1,3 @@
-# Sakura Wars 2 GB specific reused code/modules
-
 from functools import partial
 import os
 import re
