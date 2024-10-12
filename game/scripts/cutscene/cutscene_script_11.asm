@@ -1813,21 +1813,21 @@ CutsceneScript11::
   SetPortrait $02,$00,$00
   WriteText "Come now, no need to fret over the details."
   PromptContinue
-  WriteText "くれぐれも わたくしの<BR>あしをひっぱらないよう<BR>がんばりなさい。<BR>"
+  WriteText "Just do your best, <NAME>, and try not to drag me down."
   PromptContinue
   Branch .reference_4940
 .reference_46A6
   Unknown0F $00,$01
-  WriteText "すみれさん。こんかいの<BR>にんむ がんばりますので <BR>よろしくおねがいいたします。<BR>"
+  WriteText "I'll be doing my very best, Sumire. I look forward to working with you again."
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "はいはい ケガしないていどに<BR>がんばりなさい。<BR><NAME>さん。<BR>"
+  WriteText "Yes, yes, do your best, Cadet, and try not to hurt yourself."
   PromptContinue
   Unknown0F $00,$01
-  WriteText "えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>"
+  WriteText "Erm... Uh... My name is <NAME>, you know..."
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>"
+  WriteText "Come now, no need to fret over the details! Ohohoho."
   PromptContinue
   Branch .reference_4940
 .reference_4753
