@@ -1716,102 +1716,102 @@ CutsceneScript11::
   SetPortrait $03,$02,$02
   WriteText "That kind of attitude might just get you into trouble."
   PromptContinue
-  WriteText "いのちを おとすことにも<BR>なりかねないのよ。<BR>"
+  WriteText "It might even cost you your life."
   PromptContinue
   SetPortrait $03,$00,$00
-  WriteText "いいこと。<BR>どんな にんむでも<BR>ゆだんしてはダメ。<BR>"
+  WriteText "You must never let your guard down, no matter the mission. Understood?"
   PromptContinue
-  WriteText "きを ひきしめて<BR>がんばりなさい。<BR>"
+  WriteText "Brace yourself, and good luck."
   PromptContinue
   Branch .reference_4399
 .reference_432C
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   SetPortrait $03,$04,$04
-  WriteText "どうしたの?<BR>‥‥きんちょうしているのね。<BR>"
+  WriteText "What's wrong?<BR>Oh, I see, you must be nervous."
   PromptContinue
-  WriteText "ほどよい きんちょうは<BR>いいけれど かたくなりすぎ<BR>てはダメよ。<BR>"
+  WriteText "It's good to feel cautious, to an extent, but don't wind yourself up too tightly."
   PromptContinue
-  WriteText "もうすこし<BR>リラックスしなさい。<BR>"
+  WriteText "Try to relax a little."
   PromptContinue
   Branch .reference_4399
 .reference_4399
   SetPortrait $04,$01,$01
-  WriteText "<NAME>!<BR>ひさしぶりー。<BR>げんきだったー。<BR>"
+  WriteText "It's been forever, <NAME>!<BR>How've you been?"
   PromptContinue
-  OptionSelectTimed $05,$03,"げんきにこたえる","ジャンポールにもあいさつ","ふつうにこたえる"
+  OptionSelectTimed $05,$03,"Answer cheerily","Greet Jean-Paul","Answer normally"
   ConditionalBranch .reference_43F7,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_444F,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_44B8,$02,$01,$01,$02,$20,$00
   Branch .reference_44F0
 .reference_43F7
   Unknown0F $00,$01
-  WriteText "ハーイ アイリス。<BR>わたしは このとおり<BR>げんきよ。<BR>"
+  WriteText "Iris, hiii!<BR>I'm doing well, as I'm sure you can tell."
   PromptContinue
-  WriteText "アイリスも げんきそうで<BR>なによりね。<BR>"
+  WriteText "I'm glad to see you're doing well, too."
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText "うん! ありがとう<BR><NAME>。<BR>"
+  WriteText "Uh-huh!<BR>Thanks, <NAME>."
   PromptContinue
   Branch .reference_452B
 .reference_444F
   Unknown0F $00,$01
-  WriteText "ハーイ アイリス。<BR>わたしは このとおり<BR>げんきよ。<BR>"
+  WriteText "Iris, hiii!<BR>I'm doing well, as I'm sure you can tell."
   PromptContinue
-  WriteText "アイリスも ジャンポールも<BR>げんきそうで よかったわ。<BR>またよろしくね。<BR>"
+  WriteText "I'm glad to see you and Jean-Paul are doing well, too."
   PromptContinue
   SetPortrait $04,$01,$01
   PlaybackSample $40,$94,$03,$94,$01,$06,$28,$00
-  WriteText "うん! ありがとう<BR><NAME>。<BR>"
+  WriteText "Uh-huh!<BR>Thanks, <NAME>."
   PromptContinue
   Branch .reference_452B
 .reference_44B8
   Unknown0F $00,$01
-  WriteText "ハーイ アイリス。<BR>わたしは このとおり<BR>げんきよ。<BR>"
+  WriteText "Hey Iris.<BR>I'm doing well, as I'm sure you can tell."
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "そう よかったね。<BR><NAME>。<BR>"
+  WriteText "I see. That's good, <NAME>."
   PromptContinue
   Branch .reference_452B
 .reference_44F0
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText "..."
   PromptContinue
   SetPortrait $04,$03,$03
-  WriteText "どうしたの? なんだか<BR>げんきない みたいだね。<BR><NAME>。<BR>"
+  WriteText "What's wrong, <NAME>? You look kinda sad."
   PromptContinue
   Branch .reference_452B
 .reference_452B
   SetPortrait $02,$00,$00
-  WriteText "あら <NAME>さん<BR>おひさしぶりですわね。<BR>"
+  WriteText "Oh, Cadet.<BR>It's been some time, hasn't it?"
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あっ すみれさん。<BR>(すみれさん また なまえを<BR> まちがえているわ‥‥)<BR>"
+  WriteText "Ah, Sumire!<BR>(Still refusing to say my name, huh, Sumire?"
   PromptContinue
-  OptionSelectTimed $05,$03,"おひさしぶりです","こんかいも がんばります","あいかわらず ステキですね"
+  OptionSelectTimed $05,$03,"It truly has","I'll do my best","Pretty as ever"
   ConditionalBranch .reference_45BB,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_46A6,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_4753,$02,$01,$01,$02,$20,$00
   Branch .reference_4878
 .reference_45BB
   Unknown0F $00,$01
-  WriteText "おひさしぶりです。<BR>おげんきそうで<BR>なによりです。<BR>"
+  WriteText "It truly has.<BR>I'm glad to see you're doing well."
   PromptContinue
-  WriteText "こんかいの にんむでは<BR>ごめいわくを<BR>おかけするかも しれませんが<BR>"
+  WriteText "I'll do my best not to get in your way during the mission."
   PromptContinue
-  WriteText "よろしくおねがいします。<BR>"
+  WriteText "I look forward to working with you again."
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "<NAME>さんこそ<BR>おげんきそうで<BR>なによりですわ。<BR>"
+  WriteText "Yes, it's nice to see you doing well too, Cadet."
   PromptContinue
   Unknown0F $00,$01
-  WriteText "えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>"
+  WriteText "Erm... Uh... My name is <NAME>, you know..."
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "まあまあ そんなこまかいこと<BR>おきになさらないで。<BR>"
+  WriteText "Come now, no need to fret over the details."
   PromptContinue
   WriteText "くれぐれも わたくしの<BR>あしをひっぱらないよう<BR>がんばりなさい。<BR>"
   PromptContinue
