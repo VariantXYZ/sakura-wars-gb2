@@ -91,9 +91,8 @@ ENDM
 
 MACRO TextCommand
   db $0D
-  IF _NARG > 0
-    db \#
-  ENDC
+  dw \1
+  db \2
 ENDM
 
 MACRO Unknown0E

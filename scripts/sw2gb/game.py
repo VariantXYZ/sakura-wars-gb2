@@ -18,17 +18,18 @@ class GameSceneScript:
             self.length = length
             # List of byte parameters
             self.parameters = None if parameters == None or len(parameters) == 0 else parameters
-            # List of text
+            # List of text pointers
             self.texts = texts
             # List of DataOffset objects for references and where they go in the command itself
             self.reference_offsets = reference_offsets
 
     class CommandFunction:
-        def __init__(self, name, command_byte, read_handler, write_handler):
+        def __init__(self, name, command_byte, read_handler, write_handler, command_macro = None):
             self.name = name
             self.command_byte = command_byte
             self.read_handler = read_handler
             self.write_handler = write_handler
+            self.command_macro = command_macro
 
         @staticmethod
         def dummy_write_handler(*params):
@@ -40,6 +41,12 @@ class GameSceneScript:
                 read_handler = lambda data: GameSceneScript.ParsedValue(num_param_bytes, parameters = data[:num_param_bytes]),
                 write_handler = GameSceneScript.CommandFunction.dummy_write_handler,
             )
+
+    def ParseTextCommand(self, data):
+        # TextCommand [Address:2LE][Bank:1]
+        addr = data[1] << 8 | data[0]
+        bank = data[2]
+        return GameSceneScript.ParsedValue(3, texts = (bank, addr))
 
     def is_branch(self, command):
         return self.COMMANDS[command].name in ["Branch", "ConditionalBranch"]
@@ -65,7 +72,7 @@ class GameSceneScript:
         self.COMMANDS[0x0A] = GameSceneScript.CommandFunction.dummy("Unknown0A", 0x0A, 3)
         self.COMMANDS[0x0B] = GameSceneScript.CommandFunction.dummy("Unknown0B", 0x0B, 3)
         self.COMMANDS[0x0C] = GameSceneScript.CommandFunction.dummy("SetPosition", 0x0C, 3) # 0C <X> <Y> <Scene ID>
-        self.COMMANDS[0x0D] = GameSceneScript.CommandFunction.dummy("TextCommand", 0x0D, 3)
+        self.COMMANDS[0x0D] = GameSceneScript.CommandFunction("TextCommand", 0x0D, self.ParseTextCommand, None, ['dw', 'db'])
         self.COMMANDS[0x0E] = GameSceneScript.CommandFunction.dummy("Unknown0E", 0x0E, 4)
         self.COMMANDS[0x0F] = GameSceneScript.CommandFunction.dummy("Unknown0F", 0x0F, 1)
         self.COMMANDS[0x10] = GameSceneScript.CommandFunction.dummy("Unknown10", 0x10, 4)

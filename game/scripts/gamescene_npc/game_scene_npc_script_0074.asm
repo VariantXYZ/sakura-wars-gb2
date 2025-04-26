@@ -1,0 +1,7 @@
+INCLUDE "game/src/common/macros.asm"
+
+SECTION "Game Scene NPC Script 0074", ROMX[$4DF5], BANK[$50]
+GameSceneNPCScript0074::
+; $50
+; $4DF5
+

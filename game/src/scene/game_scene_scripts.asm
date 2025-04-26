@@ -22,7 +22,7 @@ GameSceneScript0002::
   db $04, $18 ; (x, y)
   Unknown12
   WaitInputA
-  TextCommand $03,$4D,$51
+  TextCommand GameSceneNPCScript0000,BANK(GameSceneNPCScript0000)
 
 SECTION "Game Scene Script 0003", ROMX[$42C0], BANK[$23]
 GameSceneScript0003::
@@ -67,14 +67,14 @@ GameSceneScript0009::
   db $12, $16 ; (x, y)
   WaitInputDown
   Unknown20 $2C,$81
-  TextCommand $4C,$41,$50
+  TextCommand GameSceneNPCScript0001,BANK(GameSceneNPCScript0001)
 
 SECTION "Game Scene Script 000A", ROMX[$430A], BANK[$23]
 GameSceneScript000A::
   db $14, $16 ; (x, y)
   WaitInputDown
   Unknown20 $2C,$81
-  TextCommand $4C,$41,$50
+  TextCommand GameSceneNPCScript0001,BANK(GameSceneNPCScript0001)
 
 SECTION "Game Scene Script 000B", ROMX[$4314], BANK[$23]
 GameSceneScript000B::
@@ -124,7 +124,7 @@ SECTION "Game Scene Script 0012", ROMX[$435B], BANK[$23]
 GameSceneScript0012::
   db $12, $16 ; (x, y)
   Unknown21 $D1,$81
-  TextCommand $A5,$64,$51
+  TextCommand GameSceneNPCScript0002,BANK(GameSceneNPCScript0002)
 
 SECTION "Game Scene Script 0013", ROMX[$4364], BANK[$23]
 GameSceneScript0013::
@@ -198,13 +198,13 @@ SECTION "Game Scene Script 001E", ROMX[$43DB], BANK[$23]
 GameSceneScript001E::
   db $14, $14 ; (x, y)
   Unknown21 $D2,$81
-  TextCommand $00,$65,$51
+  TextCommand GameSceneNPCScript0003,BANK(GameSceneNPCScript0003)
 
 SECTION "Game Scene Script 001F", ROMX[$43E4], BANK[$23]
 GameSceneScript001F::
   db $14, $16 ; (x, y)
   Unknown21 $D2,$81
-  TextCommand $00,$65,$51
+  TextCommand GameSceneNPCScript0003,BANK(GameSceneNPCScript0003)
 
 SECTION "Game Scene Script 0020", ROMX[$43ED], BANK[$23]
 GameSceneScript0020::
@@ -228,7 +228,7 @@ SECTION "Game Scene Script 0023", ROMX[$440C], BANK[$23]
 GameSceneScript0023::
   db $0E, $0E ; (x, y)
   Unknown20 $2D,$81
-  TextCommand $53,$41,$50
+  TextCommand GameSceneNPCScript0004,BANK(GameSceneNPCScript0004)
 
 SECTION "Game Scene Script 0024", ROMX[$4415], BANK[$23]
 GameSceneScript0024::
@@ -258,7 +258,7 @@ SECTION "Game Scene Script 0028", ROMX[$4439], BANK[$23]
 GameSceneScript0028::
   db $0A, $08 ; (x, y)
   Unknown11
-  TextCommand $46,$64,$51
+  TextCommand GameSceneNPCScript0005,BANK(GameSceneNPCScript0005)
 
 SECTION "Game Scene Script 0029", ROMX[$4446], BANK[$23]
 GameSceneScript0029::
@@ -313,14 +313,14 @@ GameSceneScript0031::
   db $10, $04 ; (x, y)
   Unknown20 $22,$80
   WaitInputAorUp
-  TextCommand $09,$40,$50
+  TextCommand GameSceneNPCScript0006,BANK(GameSceneNPCScript0006)
 
 SECTION "Game Scene Script 0032", ROMX[$44A3], BANK[$23]
 GameSceneScript0032::
   db $0A, $04 ; (x, y)
   Unknown20 $22,$80
   WaitInputAorUp
-  TextCommand $09,$40,$50
+  TextCommand GameSceneNPCScript0006,BANK(GameSceneNPCScript0006)
 
 SECTION "Game Scene Script 0033", ROMX[$44AD], BANK[$23]
 GameSceneScript0033::
@@ -377,7 +377,7 @@ GameSceneScript003A::
   db $1C, $06 ; (x, y)
   Unknown12
   WaitInputA
-  TextCommand $2F,$4F,$50
+  TextCommand GameSceneNPCScript0007,BANK(GameSceneNPCScript0007)
 
 SECTION "Game Scene Script 003B", ROMX[$4523], BANK[$23]
 GameSceneScript003B::
@@ -391,7 +391,7 @@ GameSceneScript003C::
   db $12, $14 ; (x, y)
   Unknown20 $22,$80
   WaitInputDown
-  TextCommand $09,$40,$50
+  TextCommand GameSceneNPCScript0006,BANK(GameSceneNPCScript0006)
 
 SECTION "Game Scene Script 003D", ROMX[$4537], BANK[$23]
 GameSceneScript003D::
@@ -422,16 +422,16 @@ GameSceneScript0040::
   Unknown12
   WaitInputA
   Unknown20 $40,$80
-  TextCommand $D8,$41,$50
+  TextCommand GameSceneNPCScript0008,BANK(GameSceneNPCScript0008)
 
 SECTION "Game Scene Script 0041", ROMX[$455E], BANK[$23]
 GameSceneScript0041::
   db $06, $0C ; (x, y)
   Unknown21 $25,$80
-  TextCommand $A6,$43,$50
+  TextCommand GameSceneNPCScript0009,BANK(GameSceneNPCScript0009)
   WaitInputLeft2
   SetPosition $21,$A2,$80
-  TextCommand $7C,$43,$50
+  TextCommand GameSceneNPCScript000A,BANK(GameSceneNPCScript000A)
 
 SECTION "Game Scene Script 0042", ROMX[$4582], BANK[$23]
 GameSceneScript0042::
@@ -463,7 +463,7 @@ GameSceneScript0046::
   db $04, $04 ; (x, y)
   Unknown20 $22,$80
   WaitInputAorUp
-  TextCommand $09,$40,$50
+  TextCommand GameSceneNPCScript0006,BANK(GameSceneNPCScript0006)
 
 SECTION "Game Scene Script 0047", ROMX[$45AB], BANK[$23]
 GameSceneScript0047::
@@ -481,7 +481,7 @@ GameSceneScript0048::
   WaitInputA
   Unknown20 $40,$80
   Unknown21 $79,$81
-  TextCommand $84,$41,$50
+  TextCommand GameSceneNPCScript000B,BANK(GameSceneNPCScript000B)
 
 SECTION "Game Scene Script 0049", ROMX[$45D0], BANK[$23]
 GameSceneScript0049::
@@ -489,7 +489,7 @@ GameSceneScript0049::
   Unknown12
   WaitInputA
   Unknown1F $40,$80
-  TextCommand $83,$4F,$50
+  TextCommand GameSceneNPCScript000C,BANK(GameSceneNPCScript000C)
 
 SECTION "Game Scene Script 004A", ROMX[$45E3], BANK[$23]
 GameSceneScript004A::
@@ -514,46 +514,46 @@ GameSceneScript004D::
   db $12, $04 ; (x, y)
   Unknown25 $00,$00
   Unknown21 $37,$81
-  TextCommand $FA,$43,$50
+  TextCommand GameSceneNPCScript000D,BANK(GameSceneNPCScript000D)
 
 SECTION "Game Scene Script 004E", ROMX[$4616], BANK[$23]
 GameSceneScript004E::
   db $0E, $10 ; (x, y)
   Unknown21 $1C,$80
-  TextCommand $5A,$41,$50
+  TextCommand GameSceneNPCScript000E,BANK(GameSceneNPCScript000E)
 
 SECTION "Game Scene Script 004F", ROMX[$461F], BANK[$23]
 GameSceneScript004F::
   db $10, $10 ; (x, y)
   Unknown21 $1C,$80
-  TextCommand $5A,$41,$50
+  TextCommand GameSceneNPCScript000E,BANK(GameSceneNPCScript000E)
 
 SECTION "Game Scene Script 0050", ROMX[$4628], BANK[$23]
 GameSceneScript0050::
   db $12, $10 ; (x, y)
   Unknown21 $1C,$80
-  TextCommand $5A,$41,$50
+  TextCommand GameSceneNPCScript000E,BANK(GameSceneNPCScript000E)
 
 SECTION "Game Scene Script 0051", ROMX[$4631], BANK[$23]
 GameSceneScript0051::
   db $0E, $10 ; (x, y)
   Unknown13
   WaitInputA
-  TextCommand $5A,$41,$50
+  TextCommand GameSceneNPCScript000E,BANK(GameSceneNPCScript000E)
 
 SECTION "Game Scene Script 0052", ROMX[$4639], BANK[$23]
 GameSceneScript0052::
   db $10, $10 ; (x, y)
   Unknown13
   WaitInputA
-  TextCommand $5A,$41,$50
+  TextCommand GameSceneNPCScript000E,BANK(GameSceneNPCScript000E)
 
 SECTION "Game Scene Script 0053", ROMX[$4641], BANK[$23]
 GameSceneScript0053::
   db $12, $10 ; (x, y)
   Unknown13
   WaitInputA
-  TextCommand $5A,$41,$50
+  TextCommand GameSceneNPCScript000E,BANK(GameSceneNPCScript000E)
 
 SECTION "Game Scene Script 0054", ROMX[$4649], BANK[$23]
 GameSceneScript0054::
@@ -578,7 +578,7 @@ GameSceneScript0057::
   db $08, $08 ; (x, y)
   WaitInputA
   Unknown21 $22,$80
-  TextCommand $93,$65,$51
+  TextCommand GameSceneNPCScript000F,BANK(GameSceneNPCScript000F)
 
 SECTION "Game Scene Script 0058", ROMX[$4674], BANK[$23]
 GameSceneScript0058::
@@ -615,7 +615,7 @@ GameSceneScript005D::
   db $14, $08 ; (x, y)
   Unknown12
   WaitInputA
-  TextCommand $28,$43,$50
+  TextCommand GameSceneNPCScript0010,BANK(GameSceneNPCScript0010)
 
 SECTION "Game Scene Script 005E", ROMX[$46D9], BANK[$23]
 GameSceneScript005E::
@@ -657,48 +657,48 @@ SECTION "Game Scene Script 0064", ROMX[$4703], BANK[$23]
 GameSceneScript0064::
   db $0C, $1A ; (x, y)
   Unknown21 $1E,$80
-  TextCommand $02,$42,$50
+  TextCommand GameSceneNPCScript0011,BANK(GameSceneNPCScript0011)
 
 SECTION "Game Scene Script 0065", ROMX[$470C], BANK[$23]
 GameSceneScript0065::
   db $0E, $02 ; (x, y)
   Unknown21 $1F,$80
-  TextCommand $2C,$42,$50
+  TextCommand GameSceneNPCScript0012,BANK(GameSceneNPCScript0012)
 
 SECTION "Game Scene Script 0066", ROMX[$4715], BANK[$23]
 GameSceneScript0066::
   db $0E, $04 ; (x, y)
   Unknown13
   WaitInputA
-  TextCommand $80,$42,$50
+  TextCommand GameSceneNPCScript0013,BANK(GameSceneNPCScript0013)
 
 SECTION "Game Scene Script 0067", ROMX[$471D], BANK[$23]
 GameSceneScript0067::
   db $0E, $1A ; (x, y)
   Unknown1F $1F,$80
   Unknown21 $20,$80
-  TextCommand $56,$42,$50
+  TextCommand GameSceneNPCScript0014,BANK(GameSceneNPCScript0014)
 
 SECTION "Game Scene Script 0068", ROMX[$4729], BANK[$23]
 GameSceneScript0068::
   db $0E, $1C ; (x, y)
   Unknown1F $1F,$80
   Unknown21 $20,$80
-  TextCommand $56,$42,$50
+  TextCommand GameSceneNPCScript0014,BANK(GameSceneNPCScript0014)
 
 SECTION "Game Scene Script 0069", ROMX[$4735], BANK[$23]
 GameSceneScript0069::
   db $18, $1A ; (x, y)
   Unknown1F $1F,$80
   Unknown21 $20,$80
-  TextCommand $52,$43,$50
+  TextCommand GameSceneNPCScript0015,BANK(GameSceneNPCScript0015)
 
 SECTION "Game Scene Script 006A", ROMX[$4741], BANK[$23]
 GameSceneScript006A::
   db $18, $1C ; (x, y)
   Unknown1F $1F,$80
   Unknown21 $20,$80
-  TextCommand $52,$43,$50
+  TextCommand GameSceneNPCScript0015,BANK(GameSceneNPCScript0015)
 
 SECTION "Game Scene Script 006B", ROMX[$474D], BANK[$23]
 GameSceneScript006B::
@@ -789,7 +789,7 @@ GameSceneScript0079::
   db $14, $0C ; (x, y)
   Unknown12
   WaitInputA
-  TextCommand $6C,$4F,$50
+  TextCommand GameSceneNPCScript0016,BANK(GameSceneNPCScript0016)
 
 SECTION "Game Scene Script 007A", ROMX[$47E4], BANK[$23]
 GameSceneScript007A::
@@ -831,7 +831,7 @@ SECTION "Game Scene Script 0080", ROMX[$481C], BANK[$23]
 GameSceneScript0080::
   db $18, $02 ; (x, y)
   Unknown21 $23,$80
-  TextCommand $AA,$42,$50
+  TextCommand GameSceneNPCScript0017,BANK(GameSceneNPCScript0017)
 
 SECTION "Game Scene Script 0081", ROMX[$482F], BANK[$23]
 GameSceneScript0081::
@@ -886,14 +886,14 @@ SECTION "Game Scene Script 0089", ROMX[$4894], BANK[$23]
 GameSceneScript0089::
   db $04, $1C ; (x, y)
   Unknown21 $24,$80
-  TextCommand $D4,$42,$50
+  TextCommand GameSceneNPCScript0018,BANK(GameSceneNPCScript0018)
 
 SECTION "Game Scene Script 008A", ROMX[$48A3], BANK[$23]
 GameSceneScript008A::
   db $14, $08 ; (x, y)
   Unknown12
   WaitInputA
-  TextCommand $9A,$4F,$50
+  TextCommand GameSceneNPCScript0019,BANK(GameSceneNPCScript0019)
 
 SECTION "Game Scene Script 008B", ROMX[$48AB], BANK[$23]
 GameSceneScript008B::
@@ -902,7 +902,7 @@ GameSceneScript008B::
   SetPosition $18,$00,$22
   Unknown14
   SetPosition $21,$A8,$80
-  TextCommand $D0,$43,$50
+  TextCommand GameSceneNPCScript001A,BANK(GameSceneNPCScript001A)
 
 SECTION "Game Scene Script 008C", ROMX[$48C5], BANK[$23]
 GameSceneScript008C::
@@ -934,9 +934,9 @@ GameSceneScript008F::
   Unknown08
   Unknown12
   WaitInputA
-  TextCommand $27,$40,$50
+  TextCommand GameSceneNPCScript001B,BANK(GameSceneNPCScript001B)
   Unknown06 $0A,$16
-  TextCommand $29,$4F,$50
+  TextCommand GameSceneNPCScript001C,BANK(GameSceneNPCScript001C)
 
 SECTION "Game Scene Script 0090", ROMX[$48FA], BANK[$23]
 GameSceneScript0090::
@@ -954,7 +954,7 @@ SECTION "Game Scene Script 0092", ROMX[$490E], BANK[$23]
 GameSceneScript0092::
   db $08, $0E ; (x, y)
   Unknown20 $77,$80
-  TextCommand $B2,$40,$50
+  TextCommand GameSceneNPCScript001D,BANK(GameSceneNPCScript001D)
 
 SECTION "Game Scene Script 0093", ROMX[$4917], BANK[$23]
 GameSceneScript0093::
@@ -981,7 +981,7 @@ GameSceneScript0096::
   WaitInputA
   Unknown1F $28,$80
   Unknown24 $5C,$C8
-  TextCommand $78,$50,$50
+  TextCommand GameSceneNPCScript001E,BANK(GameSceneNPCScript001E)
 
 SECTION "Game Scene Script 0097", ROMX[$4944], BANK[$23]
 GameSceneScript0097::
@@ -989,7 +989,7 @@ GameSceneScript0097::
   Unknown20 $62,$81
   Unknown1F $12,$81
   Unknown21 $29,$80
-  TextCommand $01,$44,$50
+  TextCommand GameSceneNPCScript001F,BANK(GameSceneNPCScript001F)
 
 SECTION "Game Scene Script 0098", ROMX[$4975], BANK[$23]
 GameSceneScript0098::
@@ -1016,7 +1016,7 @@ GameSceneScript009B::
   WaitInputA
   Unknown1F $28,$80
   Unknown24 $5C,$C8
-  TextCommand $78,$50,$50
+  TextCommand GameSceneNPCScript001E,BANK(GameSceneNPCScript001E)
 
 SECTION "Game Scene Script 009C", ROMX[$4998], BANK[$23]
 GameSceneScript009C::
@@ -1025,7 +1025,7 @@ GameSceneScript009C::
   WaitInputA
   Unknown1F $28,$80
   Unknown24 $5C,$C8
-  TextCommand $78,$50,$50
+  TextCommand GameSceneNPCScript001E,BANK(GameSceneNPCScript001E)
 
 SECTION "Game Scene Script 009D", ROMX[$49A6], BANK[$23]
 GameSceneScript009D::
@@ -1034,7 +1034,7 @@ GameSceneScript009D::
   WaitInputA
   Unknown1F $28,$80
   Unknown24 $5C,$C8
-  TextCommand $78,$50,$50
+  TextCommand GameSceneNPCScript001E,BANK(GameSceneNPCScript001E)
 
 SECTION "Game Scene Script 009E", ROMX[$49B4], BANK[$23]
 GameSceneScript009E::
@@ -1043,7 +1043,7 @@ GameSceneScript009E::
   WaitInputA
   Unknown1F $28,$80
   Unknown24 $5C,$C8
-  TextCommand $78,$50,$50
+  TextCommand GameSceneNPCScript001E,BANK(GameSceneNPCScript001E)
 
 SECTION "Game Scene Script 009F", ROMX[$49C2], BANK[$23]
 GameSceneScript009F::
@@ -1052,7 +1052,7 @@ GameSceneScript009F::
   WaitInputA
   Unknown1F $28,$80
   Unknown24 $5C,$C8
-  TextCommand $78,$50,$50
+  TextCommand GameSceneNPCScript001E,BANK(GameSceneNPCScript001E)
 
 SECTION "Game Scene Script 00A0", ROMX[$49D0], BANK[$23]
 GameSceneScript00A0::
@@ -1061,7 +1061,7 @@ GameSceneScript00A0::
   WaitInputA
   Unknown1F $28,$80
   Unknown24 $5C,$C8
-  TextCommand $78,$50,$50
+  TextCommand GameSceneNPCScript001E,BANK(GameSceneNPCScript001E)
 
 SECTION "Game Scene Script 00A1", ROMX[$49DE], BANK[$23]
 GameSceneScript00A1::
@@ -1069,7 +1069,7 @@ GameSceneScript00A1::
   Unknown20 $62,$81
   Unknown1F $12,$81
   Unknown21 $29,$80
-  TextCommand $01,$44,$50
+  TextCommand GameSceneNPCScript001F,BANK(GameSceneNPCScript001F)
 
 SECTION "Game Scene Script 00A2", ROMX[$49ED], BANK[$23]
 GameSceneScript00A2::
@@ -1077,26 +1077,26 @@ GameSceneScript00A2::
   Unknown20 $62,$81
   Unknown1F $12,$81
   Unknown21 $29,$80
-  TextCommand $01,$44,$50
+  TextCommand GameSceneNPCScript001F,BANK(GameSceneNPCScript001F)
 
 SECTION "Game Scene Script 00A3", ROMX[$49FC], BANK[$23]
 GameSceneScript00A3::
   db $18, $2A ; (x, y)
   Unknown1F $63,$81
   Unknown21 $2A,$80
-  TextCommand $2B,$44,$50
+  TextCommand GameSceneNPCScript0020,BANK(GameSceneNPCScript0020)
 
 SECTION "Game Scene Script 00A4", ROMX[$4A08], BANK[$23]
 GameSceneScript00A4::
   db $0A, $2A ; (x, y)
   Unknown21 $2C,$80
-  TextCommand $7F,$44,$50
+  TextCommand GameSceneNPCScript0021,BANK(GameSceneNPCScript0021)
 
 SECTION "Game Scene Script 00A5", ROMX[$4A11], BANK[$23]
 GameSceneScript00A5::
   db $12, $2C ; (x, y)
   Unknown21 $63,$81
-  TextCommand $89,$50,$50
+  TextCommand GameSceneNPCScript0022,BANK(GameSceneNPCScript0022)
 
 SECTION "Game Scene Script 00A6", ROMX[$4A1A], BANK[$23]
 GameSceneScript00A6::
@@ -1122,161 +1122,161 @@ GameSceneScript00A9::
   db $12, $08 ; (x, y)
   Unknown13
   WaitInputA
-  TextCommand $51,$45,$50
+  TextCommand GameSceneNPCScript0023,BANK(GameSceneNPCScript0023)
 
 SECTION "Game Scene Script 00AA", ROMX[$4A6B], BANK[$23]
 GameSceneScript00AA::
   db $10, $0A ; (x, y)
   Unknown15
   WaitInputA
-  TextCommand $51,$45,$50
+  TextCommand GameSceneNPCScript0023,BANK(GameSceneNPCScript0023)
 
 SECTION "Game Scene Script 00AB", ROMX[$4A73], BANK[$23]
 GameSceneScript00AB::
   db $12, $0C ; (x, y)
   Unknown12
   WaitInputA
-  TextCommand $51,$45,$50
+  TextCommand GameSceneNPCScript0023,BANK(GameSceneNPCScript0023)
 
 SECTION "Game Scene Script 00AC", ROMX[$4A7B], BANK[$23]
 GameSceneScript00AC::
   db $12, $0C ; (x, y)
   Unknown15
   WaitInputA
-  TextCommand $51,$45,$50
+  TextCommand GameSceneNPCScript0023,BANK(GameSceneNPCScript0023)
 
 SECTION "Game Scene Script 00AD", ROMX[$4A83], BANK[$23]
 GameSceneScript00AD::
   db $12, $0C ; (x, y)
   Unknown13
   WaitInputA
-  TextCommand $51,$45,$50
+  TextCommand GameSceneNPCScript0023,BANK(GameSceneNPCScript0023)
 
 SECTION "Game Scene Script 00AE", ROMX[$4A8B], BANK[$23]
 GameSceneScript00AE::
   db $10, $0E ; (x, y)
   Unknown15
   WaitInputA
-  TextCommand $51,$45,$50
+  TextCommand GameSceneNPCScript0023,BANK(GameSceneNPCScript0023)
 
 SECTION "Game Scene Script 00AF", ROMX[$4A93], BANK[$23]
 GameSceneScript00AF::
   db $10, $0E ; (x, y)
   Unknown13
   WaitInputA
-  TextCommand $51,$45,$50
+  TextCommand GameSceneNPCScript0023,BANK(GameSceneNPCScript0023)
 
 SECTION "Game Scene Script 00B0", ROMX[$4A9B], BANK[$23]
 GameSceneScript00B0::
   db $0E, $10 ; (x, y)
   Unknown15
   WaitInputA
-  TextCommand $51,$45,$50
+  TextCommand GameSceneNPCScript0023,BANK(GameSceneNPCScript0023)
 
 SECTION "Game Scene Script 00B1", ROMX[$4AA3], BANK[$23]
 GameSceneScript00B1::
   db $0E, $10 ; (x, y)
   Unknown13
   WaitInputA
-  TextCommand $51,$45,$50
+  TextCommand GameSceneNPCScript0023,BANK(GameSceneNPCScript0023)
 
 SECTION "Game Scene Script 00B2", ROMX[$4AAB], BANK[$23]
 GameSceneScript00B2::
   db $0C, $12 ; (x, y)
   Unknown15
   WaitInputA
-  TextCommand $51,$45,$50
+  TextCommand GameSceneNPCScript0023,BANK(GameSceneNPCScript0023)
 
 SECTION "Game Scene Script 00B3", ROMX[$4AB3], BANK[$23]
 GameSceneScript00B3::
   db $0E, $14 ; (x, y)
   Unknown12
   WaitInputA
-  TextCommand $51,$45,$50
+  TextCommand GameSceneNPCScript0023,BANK(GameSceneNPCScript0023)
 
 SECTION "Game Scene Script 00B4", ROMX[$4ABB], BANK[$23]
 GameSceneScript00B4::
   db $06, $08 ; (x, y)
   Unknown13
   WaitInputA
-  TextCommand $7B,$45,$50
+  TextCommand GameSceneNPCScript0024,BANK(GameSceneNPCScript0024)
 
 SECTION "Game Scene Script 00B5", ROMX[$4AC3], BANK[$23]
 GameSceneScript00B5::
   db $08, $0A ; (x, y)
   Unknown14
   WaitInputA
-  TextCommand $7B,$45,$50
+  TextCommand GameSceneNPCScript0024,BANK(GameSceneNPCScript0024)
 
 SECTION "Game Scene Script 00B6", ROMX[$4ACB], BANK[$23]
 GameSceneScript00B6::
   db $06, $0C ; (x, y)
   Unknown12
   WaitInputA
-  TextCommand $7B,$45,$50
+  TextCommand GameSceneNPCScript0024,BANK(GameSceneNPCScript0024)
 
 SECTION "Game Scene Script 00B7", ROMX[$4AD3], BANK[$23]
 GameSceneScript00B7::
   db $06, $0C ; (x, y)
   Unknown14
   WaitInputA
-  TextCommand $7B,$45,$50
+  TextCommand GameSceneNPCScript0024,BANK(GameSceneNPCScript0024)
 
 SECTION "Game Scene Script 00B8", ROMX[$4ADB], BANK[$23]
 GameSceneScript00B8::
   db $06, $0C ; (x, y)
   Unknown13
   WaitInputA
-  TextCommand $7B,$45,$50
+  TextCommand GameSceneNPCScript0024,BANK(GameSceneNPCScript0024)
 
 SECTION "Game Scene Script 00B9", ROMX[$4AE3], BANK[$23]
 GameSceneScript00B9::
   db $08, $0E ; (x, y)
   Unknown14
   WaitInputA
-  TextCommand $7B,$45,$50
+  TextCommand GameSceneNPCScript0024,BANK(GameSceneNPCScript0024)
 
 SECTION "Game Scene Script 00BA", ROMX[$4AEB], BANK[$23]
 GameSceneScript00BA::
   db $08, $10 ; (x, y)
   Unknown14
   WaitInputA
-  TextCommand $7B,$45,$50
+  TextCommand GameSceneNPCScript0024,BANK(GameSceneNPCScript0024)
 
 SECTION "Game Scene Script 00BB", ROMX[$4AF3], BANK[$23]
 GameSceneScript00BB::
   db $08, $12 ; (x, y)
   Unknown14
   WaitInputA
-  TextCommand $7B,$45,$50
+  TextCommand GameSceneNPCScript0024,BANK(GameSceneNPCScript0024)
 
 SECTION "Game Scene Script 00BC", ROMX[$4AFB], BANK[$23]
 GameSceneScript00BC::
   db $06, $14 ; (x, y)
   Unknown12
   WaitInputA
-  TextCommand $7B,$45,$50
+  TextCommand GameSceneNPCScript0024,BANK(GameSceneNPCScript0024)
 
 SECTION "Game Scene Script 00BD", ROMX[$4B03], BANK[$23]
 GameSceneScript00BD::
   db $06, $14 ; (x, y)
   Unknown14
   WaitInputA
-  TextCommand $7B,$45,$50
+  TextCommand GameSceneNPCScript0024,BANK(GameSceneNPCScript0024)
 
 SECTION "Game Scene Script 00BE", ROMX[$4B0B], BANK[$23]
 GameSceneScript00BE::
   db $0E, $14 ; (x, y)
   Unknown15
   WaitInputA
-  TextCommand $A5,$45,$50
+  TextCommand GameSceneNPCScript0025,BANK(GameSceneNPCScript0025)
 
 SECTION "Game Scene Script 00BF", ROMX[$4B19], BANK[$23]
 GameSceneScript00BF::
   db $06, $06 ; (x, y)
   Unknown25 $06,$00
   Unknown21 $3E,$81
-  TextCommand $CF,$45,$50
+  TextCommand GameSceneNPCScript0026,BANK(GameSceneNPCScript0026)
 
 SECTION "Game Scene Script 00C0", ROMX[$4B25], BANK[$23]
 GameSceneScript00C0::
@@ -1296,7 +1296,7 @@ GameSceneScript00C2::
   Unknown12
   WaitInputA
   Unknown20 $4C,$80
-  TextCommand $D3,$44,$50
+  TextCommand GameSceneNPCScript0027,BANK(GameSceneNPCScript0027)
 
 SECTION "Game Scene Script 00C3", ROMX[$4B48], BANK[$23]
 GameSceneScript00C3::
@@ -1420,9 +1420,9 @@ GameSceneScript00D5::
   Unknown12
   WaitInputA
   Unknown20 $4D,$80
-  TextCommand $FD,$44,$50
+  TextCommand GameSceneNPCScript0028,BANK(GameSceneNPCScript0028)
   Unknown0E $12,$21,$2F,$80
-  TextCommand $A9,$44,$50
+  TextCommand GameSceneNPCScript0029,BANK(GameSceneNPCScript0029)
 
 SECTION "Game Scene Script 00D6", ROMX[$4C0E], BANK[$23]
 GameSceneScript00D6::
@@ -1440,7 +1440,7 @@ SECTION "Game Scene Script 00D8", ROMX[$4C1C], BANK[$23]
 GameSceneScript00D8::
   db $0E, $0E ; (x, y)
   Unknown21 $30,$80
-  TextCommand $27,$45,$50
+  TextCommand GameSceneNPCScript002A,BANK(GameSceneNPCScript002A)
 
 SECTION "Game Scene Script 00D9", ROMX[$4C33], BANK[$23]
 GameSceneScript00D9::
@@ -1498,7 +1498,7 @@ SECTION "Game Scene Script 00E1", ROMX[$4C7C], BANK[$23]
 GameSceneScript00E1::
   db $0E, $0E ; (x, y)
   Unknown21 $96,$80
-  TextCommand $D6,$45,$50
+  TextCommand GameSceneNPCScript002B,BANK(GameSceneNPCScript002B)
 
 SECTION "Game Scene Script 00E2", ROMX[$4C91], BANK[$23]
 GameSceneScript00E2::
@@ -1517,7 +1517,7 @@ GameSceneScript00E4::
   db $0A, $06 ; (x, y)
   WaitInputAorUp
   Unknown21 $97,$80
-  TextCommand $07,$46,$50
+  TextCommand GameSceneNPCScript002C,BANK(GameSceneNPCScript002C)
 
 SECTION "Game Scene Script 00E5", ROMX[$4CA9], BANK[$23]
 GameSceneScript00E5::
@@ -1525,7 +1525,7 @@ GameSceneScript00E5::
   Unknown12
   WaitInputA
   Unknown20 $15,$81
-  TextCommand $5A,$48,$50
+  TextCommand GameSceneNPCScript002D,BANK(GameSceneNPCScript002D)
 
 SECTION "Game Scene Script 00E6", ROMX[$4CB4], BANK[$23]
 GameSceneScript00E6::
@@ -1533,7 +1533,7 @@ GameSceneScript00E6::
   Unknown12
   WaitInputA
   Unknown20 $15,$81
-  TextCommand $61,$48,$50
+  TextCommand GameSceneNPCScript002E,BANK(GameSceneNPCScript002E)
 
 SECTION "Game Scene Script 00E7", ROMX[$4CC5], BANK[$23]
 GameSceneScript00E7::
@@ -1575,7 +1575,7 @@ SECTION "Game Scene Script 00ED", ROMX[$4D03], BANK[$23]
 GameSceneScript00ED::
   db $08, $0A ; (x, y)
   Unknown21 $64,$81
-  TextCommand $6F,$48,$50
+  TextCommand GameSceneNPCScript002F,BANK(GameSceneNPCScript002F)
 
 SECTION "Game Scene Script 00EE", ROMX[$4D0C], BANK[$23]
 GameSceneScript00EE::
@@ -1614,7 +1614,7 @@ GameSceneScript00F3::
   Unknown0B $0C,$04,$3E
   Unknown08
   Unknown0A $21,$98,$80
-  TextCommand $38,$46,$50
+  TextCommand GameSceneNPCScript0030,BANK(GameSceneNPCScript0030)
 
 SECTION "Game Scene Script 00F4", ROMX[$4D51], BANK[$23]
 GameSceneScript00F4::
@@ -1641,7 +1641,7 @@ GameSceneScript00F7::
   Unknown0B $0C,$04,$40
   Unknown08
   Unknown0A $21,$99,$80
-  TextCommand $69,$46,$50
+  TextCommand GameSceneNPCScript0031,BANK(GameSceneNPCScript0031)
 
 SECTION "Game Scene Script 00F8", ROMX[$4D82], BANK[$23]
 GameSceneScript00F8::
@@ -1685,7 +1685,7 @@ SECTION "Game Scene Script 00FE", ROMX[$4DBC], BANK[$23]
 GameSceneScript00FE::
   db $10, $04 ; (x, y)
   Unknown21 $9A,$80
-  TextCommand $9A,$46,$50
+  TextCommand GameSceneNPCScript0032,BANK(GameSceneNPCScript0032)
 
 SECTION "Game Scene Script 00FF", ROMX[$4DC9], BANK[$23]
 GameSceneScript00FF::
@@ -1729,7 +1729,7 @@ SECTION "Game Scene Script 0105", ROMX[$4E09], BANK[$23]
 GameSceneScript0105::
   db $04, $0A ; (x, y)
   Unknown21 $9D,$80
-  TextCommand $FC,$46,$50
+  TextCommand GameSceneNPCScript0033,BANK(GameSceneNPCScript0033)
 
 SECTION "Game Scene Script 0106", ROMX[$4E18], BANK[$23]
 GameSceneScript0106::
@@ -1763,7 +1763,7 @@ GameSceneScript010A::
   Unknown08
   Unknown04
   Unknown21 $9E,$80
-  TextCommand $03,$47,$50
+  TextCommand GameSceneNPCScript0034,BANK(GameSceneNPCScript0034)
 
 SECTION "Game Scene Script 010B", ROMX[$4E60], BANK[$23]
 GameSceneScript010B::
@@ -1793,7 +1793,7 @@ SECTION "Game Scene Script 010F", ROMX[$4E84], BANK[$23]
 GameSceneScript010F::
   db $0A, $10 ; (x, y)
   Unknown21 $C2,$81
-  TextCommand $BD,$54,$50
+  TextCommand GameSceneNPCScript0035,BANK(GameSceneNPCScript0035)
 
 SECTION "Game Scene Script 0110", ROMX[$4E8D], BANK[$23]
 GameSceneScript0110::
@@ -1802,7 +1802,7 @@ GameSceneScript0110::
   Unknown14
   WaitInputA
   Unknown20 $50,$81
-  TextCommand $68,$48,$50
+  TextCommand GameSceneNPCScript0036,BANK(GameSceneNPCScript0036)
 
 SECTION "Game Scene Script 0111", ROMX[$4E9B], BANK[$23]
 GameSceneScript0111::
@@ -1826,7 +1826,7 @@ SECTION "Game Scene Script 0114", ROMX[$4EB8], BANK[$23]
 GameSceneScript0114::
   db $06, $06 ; (x, y)
   Unknown21 $A1,$80
-  TextCommand $29,$48,$50
+  TextCommand GameSceneNPCScript0037,BANK(GameSceneNPCScript0037)
 
 SECTION "Game Scene Script 0115", ROMX[$4ED3], BANK[$23]
 GameSceneScript0115::
@@ -1852,7 +1852,7 @@ SECTION "Game Scene Script 0118", ROMX[$4EEC], BANK[$23]
 GameSceneScript0118::
   db $04, $06 ; (x, y)
   Unknown21 $9F,$80
-  TextCommand $34,$47,$50
+  TextCommand GameSceneNPCScript0038,BANK(GameSceneNPCScript0038)
 
 SECTION "Game Scene Script 0119", ROMX[$4EF5], BANK[$23]
 GameSceneScript0119::
@@ -1860,7 +1860,7 @@ GameSceneScript0119::
   Unknown20 $95,$80
   Unknown20 $4A,$84
   Unknown24 $5C,$C8
-  TextCommand $96,$47,$50
+  TextCommand GameSceneNPCScript0039,BANK(GameSceneNPCScript0039)
 
 SECTION "Game Scene Script 011A", ROMX[$4F04], BANK[$23]
 GameSceneScript011A::
@@ -1868,7 +1868,7 @@ GameSceneScript011A::
   Unknown20 $95,$80
   Unknown20 $4A,$84
   Unknown24 $5C,$C8
-  TextCommand $65,$47,$50
+  TextCommand GameSceneNPCScript003A,BANK(GameSceneNPCScript003A)
 
 SECTION "Game Scene Script 011B", ROMX[$4F13], BANK[$23]
 GameSceneScript011B::
@@ -1876,7 +1876,7 @@ GameSceneScript011B::
   Unknown20 $95,$80
   Unknown1F $4A,$84
   Unknown24 $5C,$C8
-  TextCommand $B5,$54,$50
+  TextCommand GameSceneNPCScript003B,BANK(GameSceneNPCScript003B)
 
 SECTION "Game Scene Script 011C", ROMX[$4F22], BANK[$23]
 GameSceneScript011C::
@@ -1884,7 +1884,7 @@ GameSceneScript011C::
   Unknown20 $95,$80
   Unknown1F $4A,$84
   Unknown24 $5C,$C8
-  TextCommand $AD,$54,$50
+  TextCommand GameSceneNPCScript003C,BANK(GameSceneNPCScript003C)
 
 SECTION "Game Scene Script 011D", ROMX[$4F3B], BANK[$23]
 GameSceneScript011D::
@@ -1892,7 +1892,7 @@ GameSceneScript011D::
   Unknown13
   WaitInputA
   Unknown21 $97,$81
-  TextCommand $77,$54,$50
+  TextCommand GameSceneNPCScript003D,BANK(GameSceneNPCScript003D)
 
 SECTION "Game Scene Script 011E", ROMX[$4F46], BANK[$23]
 GameSceneScript011E::
@@ -1954,7 +1954,7 @@ SECTION "Game Scene Script 0127", ROMX[$4FA1], BANK[$23]
 GameSceneScript0127::
   db $0E, $06 ; (x, y)
   Unknown21 $AC,$80
-  TextCommand $C7,$47,$50
+  TextCommand GameSceneNPCScript003E,BANK(GameSceneNPCScript003E)
 
 SECTION "Game Scene Script 0128", ROMX[$4FAA], BANK[$23]
 GameSceneScript0128::
@@ -1962,7 +1962,7 @@ GameSceneScript0128::
   Unknown12
   WaitInputA
   Unknown20 $C1,$80
-  TextCommand $66,$54,$50
+  TextCommand GameSceneNPCScript003F,BANK(GameSceneNPCScript003F)
 
 SECTION "Game Scene Script 0129", ROMX[$4FBB], BANK[$23]
 GameSceneScript0129::
@@ -1974,7 +1974,7 @@ SECTION "Game Scene Script 012A", ROMX[$4FC2], BANK[$23]
 GameSceneScript012A::
   db $0A, $0E ; (x, y)
   Unknown21 $AD,$80
-  TextCommand $6D,$53,$50
+  TextCommand GameSceneNPCScript0040,BANK(GameSceneNPCScript0040)
 
 SECTION "Game Scene Script 012B", ROMX[$4FCF], BANK[$23]
 GameSceneScript012B::
@@ -2032,7 +2032,7 @@ SECTION "Game Scene Script 0133", ROMX[$5025], BANK[$23]
 GameSceneScript0133::
   db $06, $08 ; (x, y)
   Unknown21 $B3,$80
-  TextCommand $A0,$48,$50
+  TextCommand GameSceneNPCScript0041,BANK(GameSceneNPCScript0041)
 
 SECTION "Game Scene Script 0134", ROMX[$5034], BANK[$23]
 GameSceneScript0134::
@@ -2050,13 +2050,13 @@ SECTION "Game Scene Script 0136", ROMX[$504A], BANK[$23]
 GameSceneScript0136::
   db $0A, $08 ; (x, y)
   Unknown21 $71,$81
-  TextCommand $23,$4F,$50
+  TextCommand GameSceneNPCScript0042,BANK(GameSceneNPCScript0042)
 
 SECTION "Game Scene Script 0137", ROMX[$5053], BANK[$23]
 GameSceneScript0137::
   db $0A, $08 ; (x, y)
   Unknown21 $25,$81
-  TextCommand $F0,$49,$50
+  TextCommand GameSceneNPCScript0043,BANK(GameSceneNPCScript0043)
 
 SECTION "Game Scene Script 0138", ROMX[$505C], BANK[$23]
 GameSceneScript0138::
@@ -2076,13 +2076,13 @@ SECTION "Game Scene Script 013A", ROMX[$5072], BANK[$23]
 GameSceneScript013A::
   db $12, $02 ; (x, y)
   Unknown21 $61,$81
-  TextCommand $10,$4F,$50
+  TextCommand GameSceneNPCScript0044,BANK(GameSceneNPCScript0044)
 
 SECTION "Game Scene Script 013B", ROMX[$507B], BANK[$23]
 GameSceneScript013B::
   db $12, $02 ; (x, y)
   Unknown21 $B4,$80
-  TextCommand $CA,$48,$50
+  TextCommand GameSceneNPCScript0045,BANK(GameSceneNPCScript0045)
 
 SECTION "Game Scene Script 013C", ROMX[$508A], BANK[$23]
 GameSceneScript013C::
@@ -2101,28 +2101,28 @@ GameSceneScript013E::
   db $0C, $04 ; (x, y)
   Unknown13
   WaitInputA
-  TextCommand $05,$4A,$50
+  TextCommand GameSceneNPCScript0046,BANK(GameSceneNPCScript0046)
 
 SECTION "Game Scene Script 013F", ROMX[$50B0], BANK[$23]
 GameSceneScript013F::
   db $0C, $08 ; (x, y)
   Unknown12
   WaitInputA
-  TextCommand $05,$4A,$50
+  TextCommand GameSceneNPCScript0046,BANK(GameSceneNPCScript0046)
 
 SECTION "Game Scene Script 0140", ROMX[$50B8], BANK[$23]
 GameSceneScript0140::
   db $0A, $06 ; (x, y)
   Unknown15
   WaitInputA
-  TextCommand $05,$4A,$50
+  TextCommand GameSceneNPCScript0046,BANK(GameSceneNPCScript0046)
 
 SECTION "Game Scene Script 0141", ROMX[$50C0], BANK[$23]
 GameSceneScript0141::
   db $0E, $06 ; (x, y)
   Unknown14
   WaitInputA
-  TextCommand $05,$4A,$50
+  TextCommand GameSceneNPCScript0046,BANK(GameSceneNPCScript0046)
 
 SECTION "Game Scene Script 0142", ROMX[$50C8], BANK[$23]
 GameSceneScript0142::
@@ -2140,7 +2140,7 @@ SECTION "Game Scene Script 0144", ROMX[$50D6], BANK[$23]
 GameSceneScript0144::
   db $08, $0C ; (x, y)
   Unknown21 $B5,$80
-  TextCommand $F4,$48,$50
+  TextCommand GameSceneNPCScript0047,BANK(GameSceneNPCScript0047)
 
 SECTION "Game Scene Script 0145", ROMX[$50E5], BANK[$23]
 GameSceneScript0145::
@@ -2214,14 +2214,14 @@ GameSceneScript0150::
   WaitInputDownFaceUp
   SetPosition $1C,$04,$5F
   Unknown10 $06,$21,$B7,$80
-  TextCommand $1E,$49,$50
+  TextCommand GameSceneNPCScript0048,BANK(GameSceneNPCScript0048)
 
 SECTION "Game Scene Script 0151", ROMX[$5168], BANK[$23]
 GameSceneScript0151::
   db $06, $08 ; (x, y)
   Unknown25 $01,$00
   Unknown23 $43,$81
-  TextCommand $FE,$49,$50
+  TextCommand GameSceneNPCScript0049,BANK(GameSceneNPCScript0049)
 
 SECTION "Game Scene Script 0152", ROMX[$5174], BANK[$23]
 GameSceneScript0152::
@@ -2299,15 +2299,15 @@ SECTION "Game Scene Script 015E", ROMX[$51E8], BANK[$23]
 GameSceneScript015E::
   db $0E, $14 ; (x, y)
   Unknown21 $B9,$80
-  TextCommand $72,$49,$50
+  TextCommand GameSceneNPCScript004A,BANK(GameSceneNPCScript004A)
 
 SECTION "Game Scene Script 015F", ROMX[$51F1], BANK[$23]
 GameSceneScript015F::
   db $0E, $02 ; (x, y)
   Unknown21 $BA,$80
-  TextCommand $9C,$49,$50
+  TextCommand GameSceneNPCScript004B,BANK(GameSceneNPCScript004B)
   Unknown0E $0C,$21,$BB,$80
-  TextCommand $C6,$49,$50
+  TextCommand GameSceneNPCScript004C,BANK(GameSceneNPCScript004C)
 
 SECTION "Game Scene Script 0160", ROMX[$5212], BANK[$23]
 GameSceneScript0160::
@@ -2332,7 +2332,7 @@ GameSceneScript0163::
   db $0E, $10 ; (x, y)
   WaitInputAorUp
   Unknown20 $F5,$80
-  TextCommand $13,$4A,$50
+  TextCommand GameSceneNPCScript004D,BANK(GameSceneNPCScript004D)
 
 SECTION "Game Scene Script 0164", ROMX[$5249], BANK[$23]
 GameSceneScript0164::
@@ -2349,7 +2349,7 @@ GameSceneScript0165::
   WaitInputUp
   SetPosition $0E,$16,$65
   Unknown10 $10,$20,$F5,$80
-  TextCommand $13,$4A,$50
+  TextCommand GameSceneNPCScript004D,BANK(GameSceneNPCScript004D)
 
 SECTION "Game Scene Script 0166", ROMX[$526F], BANK[$23]
 GameSceneScript0166::
@@ -2411,7 +2411,7 @@ GameSceneScript016F::
   db $0C, $06 ; (x, y)
   WaitInputAorUp
   Unknown21 $D5,$80
-  TextCommand $44,$4A,$50
+  TextCommand GameSceneNPCScript004E,BANK(GameSceneNPCScript004E)
 
 SECTION "Game Scene Script 0170", ROMX[$52D5], BANK[$23]
 GameSceneScript0170::
@@ -2440,7 +2440,7 @@ GameSceneScript0173::
   db $0C, $06 ; (x, y)
   Unknown20 $CD,$80
   WaitInputAorUp
-  TextCommand $1A,$4A,$50
+  TextCommand GameSceneNPCScript004F,BANK(GameSceneNPCScript004F)
 
 SECTION "Game Scene Script 0174", ROMX[$530A], BANK[$23]
 GameSceneScript0174::
@@ -2479,7 +2479,7 @@ GameSceneScript0178::
   Unknown12
   WaitInputA
   Unknown20 $4C,$81
-  TextCommand $71,$4B,$50
+  TextCommand GameSceneNPCScript0050,BANK(GameSceneNPCScript0050)
 
 SECTION "Game Scene Script 0179", ROMX[$534E], BANK[$23]
 GameSceneScript0179::
@@ -2584,7 +2584,7 @@ GameSceneScript0187::
   Unknown12
   WaitInputA
   Unknown21 $D6,$80
-  TextCommand $6E,$4A,$50
+  TextCommand GameSceneNPCScript0051,BANK(GameSceneNPCScript0051)
 
 SECTION "Game Scene Script 0188", ROMX[$53F0], BANK[$23]
 GameSceneScript0188::
@@ -2643,7 +2643,7 @@ SECTION "Game Scene Script 0190", ROMX[$5444], BANK[$23]
 GameSceneScript0190::
   db $08, $12 ; (x, y)
   Unknown21 $D7,$80
-  TextCommand $98,$4A,$50
+  TextCommand GameSceneNPCScript0052,BANK(GameSceneNPCScript0052)
 
 SECTION "Game Scene Script 0191", ROMX[$544D], BANK[$23]
 GameSceneScript0191::
@@ -2851,14 +2851,14 @@ SECTION "Game Scene Script 01B0", ROMX[$55AA], BANK[$23]
 GameSceneScript01B0::
   db $0E, $08 ; (x, y)
   Unknown20 $BF,$81
-  TextCommand $C9,$4A,$50
+  TextCommand GameSceneNPCScript0053,BANK(GameSceneNPCScript0053)
 
 SECTION "Game Scene Script 01B1", ROMX[$55B3], BANK[$23]
 GameSceneScript01B1::
   db $08, $12 ; (x, y)
   Unknown20 $D0,$80
   Unknown21 $DC,$80
-  TextCommand $47,$4B,$50
+  TextCommand GameSceneNPCScript0054,BANK(GameSceneNPCScript0054)
 
 SECTION "Game Scene Script 01B2", ROMX[$55BF], BANK[$23]
 GameSceneScript01B2::
@@ -2877,7 +2877,7 @@ SECTION "Game Scene Script 01B4", ROMX[$55D7], BANK[$23]
 GameSceneScript01B4::
   db $0E, $02 ; (x, y)
   Unknown21 $BE,$81
-  TextCommand $26,$4F,$50
+  TextCommand GameSceneNPCScript0055,BANK(GameSceneNPCScript0055)
 
 SECTION "Game Scene Script 01B5", ROMX[$55E0], BANK[$23]
 GameSceneScript01B5::
@@ -2937,7 +2937,7 @@ GameSceneScript01BD::
   db $0E, $10 ; (x, y)
   Unknown12
   Unknown21 $D8,$80
-  TextCommand $9F,$4A,$50
+  TextCommand GameSceneNPCScript0056,BANK(GameSceneNPCScript0056)
 
 SECTION "Game Scene Script 01BE", ROMX[$5642], BANK[$23]
 GameSceneScript01BE::
@@ -2955,13 +2955,13 @@ SECTION "Game Scene Script 01C0", ROMX[$565A], BANK[$23]
 GameSceneScript01C0::
   db $0E, $10 ; (x, y)
   Unknown21 $DA,$80
-  TextCommand $F3,$4A,$50
+  TextCommand GameSceneNPCScript0057,BANK(GameSceneNPCScript0057)
 
 SECTION "Game Scene Script 01C1", ROMX[$5663], BANK[$23]
 GameSceneScript01C1::
   db $0E, $0A ; (x, y)
   Unknown21 $DB,$80
-  TextCommand $1D,$4B,$50
+  TextCommand GameSceneNPCScript0058,BANK(GameSceneNPCScript0058)
 
 SECTION "Game Scene Script 01C2", ROMX[$566C], BANK[$23]
 GameSceneScript01C2::
@@ -3005,7 +3005,7 @@ GameSceneScript01C8::
   Unknown12
   WaitInputA
   Unknown20 $35,$81
-  TextCommand $78,$4B,$50
+  TextCommand GameSceneNPCScript0059,BANK(GameSceneNPCScript0059)
 
 SECTION "Game Scene Script 01C9", ROMX[$56C2], BANK[$23]
 GameSceneScript01C9::
@@ -3013,7 +3013,7 @@ GameSceneScript01C9::
   Unknown12
   WaitInputA
   Unknown20 $E7,$80
-  TextCommand $86,$4B,$50
+  TextCommand GameSceneNPCScript005A,BANK(GameSceneNPCScript005A)
 
 SECTION "Game Scene Script 01CA", ROMX[$56CD], BANK[$23]
 GameSceneScript01CA::
@@ -3021,7 +3021,7 @@ GameSceneScript01CA::
   Unknown12
   WaitInputUp
   Unknown20 $35,$81
-  TextCommand $78,$4B,$50
+  TextCommand GameSceneNPCScript0059,BANK(GameSceneNPCScript0059)
 
 SECTION "Game Scene Script 01CB", ROMX[$56D8], BANK[$23]
 GameSceneScript01CB::
@@ -3029,7 +3029,7 @@ GameSceneScript01CB::
   Unknown12
   WaitInputUp
   Unknown20 $E7,$80
-  TextCommand $86,$4B,$50
+  TextCommand GameSceneNPCScript005A,BANK(GameSceneNPCScript005A)
 
 SECTION "Game Scene Script 01CC", ROMX[$56E3], BANK[$23]
 GameSceneScript01CC::
@@ -3079,7 +3079,7 @@ GameSceneScript01D3::
   db $0E, $10 ; (x, y)
   WaitInputA
   Unknown21 $CF,$81
-  TextCommand $8A,$68,$51
+  TextCommand GameSceneNPCScript005B,BANK(GameSceneNPCScript005B)
 
 SECTION "Game Scene Script 01D4", ROMX[$5740], BANK[$23]
 GameSceneScript01D4::
@@ -3094,7 +3094,7 @@ GameSceneScript01D5::
   Unknown12
   WaitInputA
   Unknown20 $E8,$80
-  TextCommand $8D,$4B,$50
+  TextCommand GameSceneNPCScript005C,BANK(GameSceneNPCScript005C)
 
 SECTION "Game Scene Script 01D6", ROMX[$5756], BANK[$23]
 GameSceneScript01D6::
@@ -3102,7 +3102,7 @@ GameSceneScript01D6::
   Unknown12
   WaitInputUp
   Unknown20 $E8,$80
-  TextCommand $8D,$4B,$50
+  TextCommand GameSceneNPCScript005C,BANK(GameSceneNPCScript005C)
 
 SECTION "Game Scene Script 01D7", ROMX[$5761], BANK[$23]
 GameSceneScript01D7::
@@ -3110,7 +3110,7 @@ GameSceneScript01D7::
   Unknown12
   WaitInputA
   Unknown20 $8A,$80
-  TextCommand $1B,$41,$50
+  TextCommand GameSceneNPCScript005D,BANK(GameSceneNPCScript005D)
 
 SECTION "Game Scene Script 01D8", ROMX[$576C], BANK[$23]
 GameSceneScript01D8::
@@ -3118,7 +3118,7 @@ GameSceneScript01D8::
   Unknown12
   WaitInputUp
   Unknown20 $8A,$80
-  TextCommand $1B,$41,$50
+  TextCommand GameSceneNPCScript005D,BANK(GameSceneNPCScript005D)
 
 SECTION "Game Scene Script 01D9", ROMX[$5777], BANK[$23]
 GameSceneScript01D9::
@@ -3261,14 +3261,14 @@ GameSceneScript01EE::
   db $02, $06 ; (x, y)
   Unknown25 $04,$00
   Unknown21 $49,$81
-  TextCommand $54,$49,$57
+  TextCommand GameSceneNPCScript005E,BANK(GameSceneNPCScript005E)
 
 SECTION "Game Scene Script 01EF", ROMX[$587D], BANK[$23]
 GameSceneScript01EF::
   db $16, $04 ; (x, y)
   Unknown25 $04,$00
   Unknown21 $49,$81
-  TextCommand $54,$49,$57
+  TextCommand GameSceneNPCScript005E,BANK(GameSceneNPCScript005E)
 
 SECTION "Game Scene Script 01F0", ROMX[$5889], BANK[$23]
 GameSceneScript01F0::
@@ -3320,7 +3320,7 @@ GameSceneScript01F7::
   Unknown12
   WaitInputA
   Unknown20 $46,$81
-  TextCommand $9E,$4C,$50
+  TextCommand GameSceneNPCScript005F,BANK(GameSceneNPCScript005F)
 
 SECTION "Game Scene Script 01F8", ROMX[$58CF], BANK[$23]
 GameSceneScript01F8::
@@ -3334,7 +3334,7 @@ GameSceneScript01F9::
   Unknown12
   WaitInputA
   Unknown20 $E9,$80
-  TextCommand $94,$4B,$50
+  TextCommand GameSceneNPCScript0060,BANK(GameSceneNPCScript0060)
 
 SECTION "Game Scene Script 01FA", ROMX[$58F7], BANK[$23]
 GameSceneScript01FA::
@@ -3342,7 +3342,7 @@ GameSceneScript01FA::
   Unknown12
   WaitInputUp
   Unknown20 $E9,$80
-  TextCommand $94,$4B,$50
+  TextCommand GameSceneNPCScript0060,BANK(GameSceneNPCScript0060)
 
 SECTION "Game Scene Script 01FB", ROMX[$5902], BANK[$23]
 GameSceneScript01FB::
@@ -3376,7 +3376,7 @@ GameSceneScript01FF::
   Unknown12
   WaitInputA
   Unknown20 $E6,$80
-  TextCommand $7F,$4B,$50
+  TextCommand GameSceneNPCScript0061,BANK(GameSceneNPCScript0061)
 
 SECTION "Game Scene Script 0200", ROMX[$5937], BANK[$23]
 GameSceneScript0200::
@@ -3384,7 +3384,7 @@ GameSceneScript0200::
   Unknown12
   WaitInputUp
   Unknown20 $E6,$80
-  TextCommand $7F,$4B,$50
+  TextCommand GameSceneNPCScript0061,BANK(GameSceneNPCScript0061)
 
 SECTION "Game Scene Script 0201", ROMX[$5942], BANK[$23]
 GameSceneScript0201::
@@ -3420,7 +3420,7 @@ SECTION "Game Scene Script 0206", ROMX[$599B], BANK[$23]
 GameSceneScript0206::
   db $1C, $16 ; (x, y)
   Unknown21 $F2,$80
-  TextCommand $FD,$4B,$50
+  TextCommand GameSceneNPCScript0062,BANK(GameSceneNPCScript0062)
 
 SECTION "Game Scene Script 0207", ROMX[$59A4], BANK[$23]
 GameSceneScript0207::
@@ -3447,7 +3447,7 @@ GameSceneScript020A::
   Unknown12
   WaitInputA
   Unknown21 $73,$81
-  TextCommand $2E,$4C,$50
+  TextCommand GameSceneNPCScript0063,BANK(GameSceneNPCScript0063)
 
 SECTION "Game Scene Script 020B", ROMX[$59C7], BANK[$23]
 GameSceneScript020B::
@@ -3456,7 +3456,7 @@ GameSceneScript020B::
   Unknown12
   WaitInputA
   Unknown21 $74,$81
-  TextCommand $2E,$4C,$50
+  TextCommand GameSceneNPCScript0063,BANK(GameSceneNPCScript0063)
 
 SECTION "Game Scene Script 020C", ROMX[$59D5], BANK[$23]
 GameSceneScript020C::
@@ -3465,7 +3465,7 @@ GameSceneScript020C::
   Unknown12
   WaitInputA
   Unknown21 $75,$81
-  TextCommand $2E,$4C,$50
+  TextCommand GameSceneNPCScript0063,BANK(GameSceneNPCScript0063)
 
 SECTION "Game Scene Script 020D", ROMX[$59E3], BANK[$23]
 GameSceneScript020D::
@@ -3474,7 +3474,7 @@ GameSceneScript020D::
   Unknown12
   WaitInputA
   Unknown21 $76,$81
-  TextCommand $2E,$4C,$50
+  TextCommand GameSceneNPCScript0063,BANK(GameSceneNPCScript0063)
 
 SECTION "Game Scene Script 020E", ROMX[$59F1], BANK[$23]
 GameSceneScript020E::
@@ -3483,7 +3483,7 @@ GameSceneScript020E::
   Unknown12
   WaitInputA
   Unknown21 $77,$81
-  TextCommand $2E,$4C,$50
+  TextCommand GameSceneNPCScript0063,BANK(GameSceneNPCScript0063)
 
 SECTION "Game Scene Script 020F", ROMX[$59FF], BANK[$23]
 GameSceneScript020F::
@@ -3492,7 +3492,7 @@ GameSceneScript020F::
   Unknown12
   WaitInputA
   Unknown21 $78,$81
-  TextCommand $2E,$4C,$50
+  TextCommand GameSceneNPCScript0063,BANK(GameSceneNPCScript0063)
 
 SECTION "Game Scene Script 0210", ROMX[$5A0D], BANK[$23]
 GameSceneScript0210::
@@ -3501,7 +3501,7 @@ GameSceneScript0210::
   Unknown12
   WaitInputA
   Unknown21 $73,$81
-  TextCommand $5F,$4C,$50
+  TextCommand GameSceneNPCScript0064,BANK(GameSceneNPCScript0064)
 
 SECTION "Game Scene Script 0211", ROMX[$5A1B], BANK[$23]
 GameSceneScript0211::
@@ -3510,7 +3510,7 @@ GameSceneScript0211::
   Unknown12
   WaitInputA
   Unknown21 $74,$81
-  TextCommand $5F,$4C,$50
+  TextCommand GameSceneNPCScript0064,BANK(GameSceneNPCScript0064)
 
 SECTION "Game Scene Script 0212", ROMX[$5A29], BANK[$23]
 GameSceneScript0212::
@@ -3519,7 +3519,7 @@ GameSceneScript0212::
   Unknown12
   WaitInputA
   Unknown21 $75,$81
-  TextCommand $5F,$4C,$50
+  TextCommand GameSceneNPCScript0064,BANK(GameSceneNPCScript0064)
 
 SECTION "Game Scene Script 0213", ROMX[$5A37], BANK[$23]
 GameSceneScript0213::
@@ -3528,7 +3528,7 @@ GameSceneScript0213::
   Unknown12
   WaitInputA
   Unknown21 $76,$81
-  TextCommand $5F,$4C,$50
+  TextCommand GameSceneNPCScript0064,BANK(GameSceneNPCScript0064)
 
 SECTION "Game Scene Script 0214", ROMX[$5A45], BANK[$23]
 GameSceneScript0214::
@@ -3537,7 +3537,7 @@ GameSceneScript0214::
   Unknown12
   WaitInputA
   Unknown21 $77,$81
-  TextCommand $5F,$4C,$50
+  TextCommand GameSceneNPCScript0064,BANK(GameSceneNPCScript0064)
 
 SECTION "Game Scene Script 0215", ROMX[$5A53], BANK[$23]
 GameSceneScript0215::
@@ -3546,7 +3546,7 @@ GameSceneScript0215::
   Unknown12
   WaitInputA
   Unknown21 $78,$81
-  TextCommand $5F,$4C,$50
+  TextCommand GameSceneNPCScript0064,BANK(GameSceneNPCScript0064)
 
 SECTION "Game Scene Script 0216", ROMX[$5A61], BANK[$23]
 GameSceneScript0216::
@@ -3636,7 +3636,7 @@ SECTION "Game Scene Script 0222", ROMX[$5AED], BANK[$23]
 GameSceneScript0222::
   db $0E, $20 ; (x, y)
   Unknown21 $F4,$81
-  TextCommand $6D,$4C,$50
+  TextCommand GameSceneNPCScript0065,BANK(GameSceneNPCScript0065)
 
 SECTION "Game Scene Script 0223", ROMX[$5AF6], BANK[$23]
 GameSceneScript0223::
@@ -3644,7 +3644,7 @@ GameSceneScript0223::
   Unknown13
   WaitInputA
   Unknown20 $EC,$80
-  TextCommand $66,$4C,$50
+  TextCommand GameSceneNPCScript0066,BANK(GameSceneNPCScript0066)
 
 SECTION "Game Scene Script 0224", ROMX[$5B01], BANK[$23]
 GameSceneScript0224::
@@ -3716,7 +3716,7 @@ SECTION "Game Scene Script 022F", ROMX[$5B83], BANK[$23]
 GameSceneScript022F::
   db $04, $02 ; (x, y)
   Unknown21 $0D,$81
-  TextCommand $A5,$4C,$50
+  TextCommand GameSceneNPCScript0067,BANK(GameSceneNPCScript0067)
 
 SECTION "Game Scene Script 0230", ROMX[$5B8C], BANK[$23]
 GameSceneScript0230::
@@ -3724,7 +3724,7 @@ GameSceneScript0230::
   Unknown20 $95,$80
   Unknown20 $AA,$84
   Unknown24 $5C,$C8
-  TextCommand $4D,$4D,$50
+  TextCommand GameSceneNPCScript0068,BANK(GameSceneNPCScript0068)
 
 SECTION "Game Scene Script 0231", ROMX[$5B9B], BANK[$23]
 GameSceneScript0231::
@@ -3732,7 +3732,7 @@ GameSceneScript0231::
   Unknown20 $95,$80
   Unknown20 $AA,$84
   Unknown24 $5C,$C8
-  TextCommand $77,$4D,$50
+  TextCommand GameSceneNPCScript0069,BANK(GameSceneNPCScript0069)
 
 SECTION "Game Scene Script 0232", ROMX[$5BAA], BANK[$23]
 GameSceneScript0232::
@@ -3740,7 +3740,7 @@ GameSceneScript0232::
   Unknown20 $95,$80
   Unknown20 $AA,$84
   Unknown24 $5C,$C8
-  TextCommand $A1,$4D,$50
+  TextCommand GameSceneNPCScript006A,BANK(GameSceneNPCScript006A)
 
 SECTION "Game Scene Script 0233", ROMX[$5BB9], BANK[$23]
 GameSceneScript0233::
@@ -3748,7 +3748,7 @@ GameSceneScript0233::
   Unknown20 $95,$80
   Unknown20 $AA,$84
   Unknown24 $5C,$C8
-  TextCommand $CB,$4D,$50
+  TextCommand GameSceneNPCScript006B,BANK(GameSceneNPCScript006B)
 
 SECTION "Game Scene Script 0234", ROMX[$5BC8], BANK[$23]
 GameSceneScript0234::
@@ -3756,7 +3756,7 @@ GameSceneScript0234::
   Unknown20 $95,$80
   Unknown1F $AA,$84
   Unknown24 $5C,$C8
-  TextCommand $B9,$57,$51
+  TextCommand GameSceneNPCScript006C,BANK(GameSceneNPCScript006C)
 
 SECTION "Game Scene Script 0235", ROMX[$5BD7], BANK[$23]
 GameSceneScript0235::
@@ -3764,7 +3764,7 @@ GameSceneScript0235::
   Unknown20 $95,$80
   Unknown1F $AA,$84
   Unknown24 $5C,$C8
-  TextCommand $CA,$57,$51
+  TextCommand GameSceneNPCScript006D,BANK(GameSceneNPCScript006D)
 
 SECTION "Game Scene Script 0236", ROMX[$5BE6], BANK[$23]
 GameSceneScript0236::
@@ -3772,7 +3772,7 @@ GameSceneScript0236::
   Unknown20 $95,$80
   Unknown1F $AA,$84
   Unknown24 $5C,$C8
-  TextCommand $DB,$57,$51
+  TextCommand GameSceneNPCScript006E,BANK(GameSceneNPCScript006E)
 
 SECTION "Game Scene Script 0237", ROMX[$5BF5], BANK[$23]
 GameSceneScript0237::
@@ -3780,7 +3780,7 @@ GameSceneScript0237::
   Unknown20 $95,$80
   Unknown1F $AA,$84
   Unknown24 $5C,$C8
-  TextCommand $EC,$57,$51
+  TextCommand GameSceneNPCScript006F,BANK(GameSceneNPCScript006F)
 
 SECTION "Game Scene Script 0238", ROMX[$5C04], BANK[$23]
 GameSceneScript0238::
@@ -3829,7 +3829,7 @@ GameSceneScript023F::
   db $0A, $0A ; (x, y)
   Unknown25 $08,$00
   Unknown21 $BD,$81
-  TextCommand $17,$4D,$58
+  TextCommand GameSceneNPCScript0070,BANK(GameSceneNPCScript0070)
 
 SECTION "Game Scene Script 0240", ROMX[$5C4F], BANK[$23]
 GameSceneScript0240::
@@ -3841,43 +3841,43 @@ SECTION "Game Scene Script 0241", ROMX[$5C7C], BANK[$23]
 GameSceneScript0241::
   db $0E, $18 ; (x, y)
   Unknown20 $1C,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0242", ROMX[$5C85], BANK[$23]
 GameSceneScript0242::
   db $04, $1A ; (x, y)
   Unknown20 $1D,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0243", ROMX[$5C8E], BANK[$23]
 GameSceneScript0243::
   db $18, $1A ; (x, y)
   Unknown20 $1E,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0244", ROMX[$5C97], BANK[$23]
 GameSceneScript0244::
   db $16, $08 ; (x, y)
   Unknown20 $1F,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0245", ROMX[$5CA0], BANK[$23]
 GameSceneScript0245::
   db $0E, $06 ; (x, y)
   Unknown20 $20,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0246", ROMX[$5CA9], BANK[$23]
 GameSceneScript0246::
   db $06, $08 ; (x, y)
   Unknown20 $21,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0247", ROMX[$5CB2], BANK[$23]
 GameSceneScript0247::
   db $0E, $1C ; (x, y)
   Unknown21 $0E,$81
-  TextCommand $CF,$4C,$50
+  TextCommand GameSceneNPCScript0072,BANK(GameSceneNPCScript0072)
 
 SECTION "Game Scene Script 0248", ROMX[$5CBB], BANK[$23]
 GameSceneScript0248::
@@ -3943,19 +3943,19 @@ SECTION "Game Scene Script 0252", ROMX[$5D25], BANK[$23]
 GameSceneScript0252::
   db $04, $0E ; (x, y)
   Unknown21 $FA,$80
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0253", ROMX[$5D2E], BANK[$23]
 GameSceneScript0253::
   db $1E, $0E ; (x, y)
   Unknown21 $FB,$80
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0254", ROMX[$5D37], BANK[$23]
 GameSceneScript0254::
   db $12, $0E ; (x, y)
   Unknown21 $FC,$80
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0255", ROMX[$5D40], BANK[$23]
 GameSceneScript0255::
@@ -3988,61 +3988,61 @@ SECTION "Game Scene Script 0259", ROMX[$5D8E], BANK[$23]
 GameSceneScript0259::
   db $04, $12 ; (x, y)
   Unknown21 $FD,$80
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 025A", ROMX[$5D97], BANK[$23]
 GameSceneScript025A::
   db $0C, $10 ; (x, y)
   Unknown21 $FE,$80
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 025B", ROMX[$5DA0], BANK[$23]
 GameSceneScript025B::
   db $12, $12 ; (x, y)
   Unknown21 $FF,$80
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 025C", ROMX[$5DA9], BANK[$23]
 GameSceneScript025C::
   db $14, $12 ; (x, y)
   Unknown21 $00,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 025D", ROMX[$5DB2], BANK[$23]
 GameSceneScript025D::
   db $1A, $06 ; (x, y)
   Unknown21 $01,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 025E", ROMX[$5DBB], BANK[$23]
 GameSceneScript025E::
   db $16, $06 ; (x, y)
   Unknown21 $02,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 025F", ROMX[$5DC4], BANK[$23]
 GameSceneScript025F::
   db $10, $04 ; (x, y)
   Unknown21 $03,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0260", ROMX[$5DCD], BANK[$23]
 GameSceneScript0260::
   db $0E, $04 ; (x, y)
   Unknown21 $04,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0261", ROMX[$5DD6], BANK[$23]
 GameSceneScript0261::
   db $0C, $04 ; (x, y)
   Unknown21 $05,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0262", ROMX[$5DDF], BANK[$23]
 GameSceneScript0262::
   db $04, $08 ; (x, y)
   Unknown21 $06,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 0263", ROMX[$5DE8], BANK[$23]
 GameSceneScript0263::
@@ -4078,43 +4078,43 @@ SECTION "Game Scene Script 0268", ROMX[$5E39], BANK[$23]
 GameSceneScript0268::
   db $0C, $1A ; (x, y)
   Unknown21 $0F,$81
-  TextCommand $F9,$4C,$50
+  TextCommand GameSceneNPCScript0073,BANK(GameSceneNPCScript0073)
 
 SECTION "Game Scene Script 0269", ROMX[$5E42], BANK[$23]
 GameSceneScript0269::
   db $04, $08 ; (x, y)
   Unknown21 $07,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 026A", ROMX[$5E4B], BANK[$23]
 GameSceneScript026A::
   db $06, $08 ; (x, y)
   Unknown21 $08,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 026B", ROMX[$5E54], BANK[$23]
 GameSceneScript026B::
   db $08, $08 ; (x, y)
   Unknown21 $09,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 026C", ROMX[$5E5D], BANK[$23]
 GameSceneScript026C::
   db $10, $08 ; (x, y)
   Unknown21 $0A,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 026D", ROMX[$5E66], BANK[$23]
 GameSceneScript026D::
   db $12, $08 ; (x, y)
   Unknown21 $0B,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 026E", ROMX[$5E6F], BANK[$23]
 GameSceneScript026E::
   db $14, $08 ; (x, y)
   Unknown21 $0C,$81
-  TextCommand $A6,$57,$51
+  TextCommand GameSceneNPCScript0071,BANK(GameSceneNPCScript0071)
 
 SECTION "Game Scene Script 026F", ROMX[$5E78], BANK[$23]
 GameSceneScript026F::
@@ -4162,7 +4162,7 @@ SECTION "Game Scene Script 0276", ROMX[$5EBB], BANK[$23]
 GameSceneScript0276::
   db $0C, $1A ; (x, y)
   Unknown21 $1A,$81
-  TextCommand $F5,$4D,$50
+  TextCommand GameSceneNPCScript0074,BANK(GameSceneNPCScript0074)
 
 SECTION "Game Scene Script 0277", ROMX[$5EC4], BANK[$23]
 GameSceneScript0277::
@@ -4324,13 +4324,13 @@ SECTION "Game Scene Script 0291", ROMX[$5FBB], BANK[$23]
 GameSceneScript0291::
   db $0E, $10 ; (x, y)
   Unknown21 $F6,$81
-  TextCommand $B6,$49,$51
+  TextCommand GameSceneNPCScript0075,BANK(GameSceneNPCScript0075)
 
 SECTION "Game Scene Script 0292", ROMX[$5FC4], BANK[$23]
 GameSceneScript0292::
   db $0E, $1A ; (x, y)
   Unknown21 $1B,$81
-  TextCommand $50,$4E,$50
+  TextCommand GameSceneNPCScript0076,BANK(GameSceneNPCScript0076)
 
 SECTION "Game Scene Script 0293", ROMX[$5FCD], BANK[$23]
 GameSceneScript0293::
@@ -4372,19 +4372,19 @@ SECTION "Game Scene Script 0299", ROMX[$6015], BANK[$23]
 GameSceneScript0299::
   db $16, $06 ; (x, y)
   Unknown20 $4E,$81
-  TextCommand $1E,$4F,$50
+  TextCommand GameSceneNPCScript0077,BANK(GameSceneNPCScript0077)
 
 SECTION "Game Scene Script 029A", ROMX[$601E], BANK[$23]
 GameSceneScript029A::
   db $18, $06 ; (x, y)
   Unknown20 $4E,$81
-  TextCommand $1E,$4F,$50
+  TextCommand GameSceneNPCScript0077,BANK(GameSceneNPCScript0077)
 
 SECTION "Game Scene Script 029B", ROMX[$6027], BANK[$23]
 GameSceneScript029B::
   db $1A, $06 ; (x, y)
   Unknown20 $4E,$81
-  TextCommand $1E,$4F,$50
+  TextCommand GameSceneNPCScript0077,BANK(GameSceneNPCScript0077)
 
 SECTION "Game Scene Script 029C", ROMX[$6030], BANK[$23]
 GameSceneScript029C::
@@ -4462,19 +4462,19 @@ SECTION "Game Scene Script 02A8", ROMX[$60A0], BANK[$23]
 GameSceneScript02A8::
   db $20, $1C ; (x, y)
   Unknown21 $44,$81
-  TextCommand $AB,$4E,$50
+  TextCommand GameSceneNPCScript0078,BANK(GameSceneNPCScript0078)
 
 SECTION "Game Scene Script 02A9", ROMX[$60A9], BANK[$23]
 GameSceneScript02A9::
   db $1E, $1C ; (x, y)
   Unknown21 $44,$81
-  TextCommand $AB,$4E,$50
+  TextCommand GameSceneNPCScript0078,BANK(GameSceneNPCScript0078)
 
 SECTION "Game Scene Script 02AA", ROMX[$60B2], BANK[$23]
 GameSceneScript02AA::
   db $1C, $1C ; (x, y)
   Unknown21 $44,$81
-  TextCommand $AB,$4E,$50
+  TextCommand GameSceneNPCScript0078,BANK(GameSceneNPCScript0078)
   WaitInputAorUp
   Unknown10 $12,$16,$0D,$0A
 

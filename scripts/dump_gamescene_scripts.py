@@ -2,7 +2,7 @@
 import os
 import struct
 import sys
-from collections import OrderedDict
+from collections import OrderedDict, deque
 import io
 import csv
 from functools import partial, reduce
@@ -24,21 +24,29 @@ script_name = sys.argv[0]
 rom_path = sys.argv[1]
 game_scene_src_dir = sys.argv[2]
 game_scene_script_dir = sys.argv[3]
+game_scene_npc_script_dir = sys.argv[4]
 
 # Load tileset info
 character_table = tilesets.get_tileset("Main", override_offset=0x00)
 
 gs = game.GameSceneScript(character_table)
-COMMANDS = gs.COMMANDS
+GS_COMMANDS = gs.COMMANDS
 
 with open(os.path.join(game_scene_src_dir, f'commands.asm'), 'w') as commands_fp:
-    for command in COMMANDS:
-        commands_fp.write(f'MACRO {COMMANDS[command].name}\n')
-        commands_fp.write(f'  db ${command:02X}\n')
-        commands_fp.write(f'  IF _NARG > 0\n')
-        commands_fp.write(f'    db \\#\n')
-        commands_fp.write(f'  ENDC\n')
-        commands_fp.write(f'ENDM\n\n')
+    for command in GS_COMMANDS:
+        if GS_COMMANDS[command].command_macro is None:
+            commands_fp.write(f'MACRO {GS_COMMANDS[command].name}\n')
+            commands_fp.write(f'  db ${command:02X}\n')
+            commands_fp.write(f'  IF _NARG > 0\n')
+            commands_fp.write(f'    db \\#\n')
+            commands_fp.write(f'  ENDC\n')
+            commands_fp.write(f'ENDM\n\n')
+        else:
+            commands_fp.write(f'MACRO {GS_COMMANDS[command].name}\n')
+            commands_fp.write(f'  db ${command:02X}\n')
+            for idx, macro in enumerate(GS_COMMANDS[command].command_macro):
+                commands_fp.write(f'  {macro} \\{idx + 1}\n')
+            commands_fp.write(f'ENDM\n\n')     
 
 with open(rom_path, 'rb') as rom:
     # Get the list of scenes
@@ -96,6 +104,8 @@ with open(rom_path, 'rb') as rom:
         script_addr = sorted(list(scripts.keys()))
         script_addr += [SCRIPTS_END[1]]
 
+        npc_data = []
+
         for index in range(0, len(script_addr) - 1):
             rom.seek(utils.rom2realaddr((SCENE_BANK, script_addr[index])))
             while next_scene_address < script_addr[index]:
@@ -119,7 +129,7 @@ with open(rom_path, 'rb') as rom:
                     if len(data[i:]) >= 2 and terminator_code == data[i:i+2]:
                         script_fp.write(f'  db ${terminator_code[0]:02X}, ${terminator_code[1]:02X}\n')
                         break
-                    command = COMMANDS[data[i]]
+                    command = GS_COMMANDS[data[i]]
                 except KeyError:
                     # TODO: For now, break early when we see things that seem out of place
                     if data[i] > 0x25:
@@ -146,6 +156,12 @@ with open(rom_path, 'rb') as rom:
                     parameters_str = []
                     if parameters is not None:
                         parameters_str = [f'${x:02X}' for x in parameters]
+                    elif texts is not None:
+                        text_index = len(npc_data) if utils.rom2realaddr(texts) not in npc_data else npc_data.index(utils.rom2realaddr(texts))
+                        text_name = f'GameSceneNPCScript{text_index:04X}'
+                        parameters_str = [f'{text_name}', f'BANK({text_name})']
+                        if utils.rom2realaddr(texts) not in npc_data:
+                            npc_data.append(utils.rom2realaddr(texts))
 
                     parameters_data = io.StringIO()
                     c = csv.writer(parameters_data, lineterminator='', delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -160,3 +176,128 @@ with open(rom_path, 'rb') as rom:
             #     
             #     script_fp.write(f'  db {",".join([f"${x:02X}" for x in data[2:]])}\n')
             script_fp.write('\n')
+
+
+    # NPC scripts follow a different set of commands from the Game Scenes themselves
+    # There is also no table to help identify their sizes, so termination commands must be used
+    for index, addr in enumerate(npc_data):
+        rom_addr = utils.real2romaddr(addr)
+        with open(os.path.join(game_scene_npc_script_dir, f'game_scene_npc_script_{index:04X}.asm'), 'w') as text_fp:
+            title = f'Game Scene NPC Script {index:04X}'
+            prefix = f'GameSceneNPCScript{index:04X}'
+            text_fp.write('INCLUDE "game/src/common/macros.asm"\n\n')            
+            text_fp.write(f'SECTION "{title}", ROMX[${rom_addr[1]:04X}], BANK[${rom_addr[0]:02X}]\n')
+            text_fp.write(f'{prefix}::\n')
+            text_fp.write(f'; ${rom_addr[0]:02X}\n')
+            text_fp.write(f'; ${rom_addr[1]:04X}\n')
+            rom.seek(addr)
+
+            # Queue up data to parse out
+            # TODO: Handle duplicate references, it will break as soon as we deal with them
+            to_parse = deque([utils.read_byte(rom)])
+            lines = []
+            current_bank = rom_addr[0]
+            is_term = False
+            reference_count = 0
+            while len(to_parse) > 0:
+                val = to_parse.popleft()
+                if type(val) is int:
+                    # Parse command locally
+                    # TODO: Use command class
+                    # TODO: Use paramter data + csv writer
+                    if val == 0x07:
+                        # Probably setting portrait
+                        lines.append(f'  db ${val:02X}, ${utils.read_byte(rom):02X}')
+                    elif val == 0x00:
+                        # Write text from [addr:2LE], [Bank]
+                        # Text is terminated by $00
+                        reference_id = reference_count
+                        reference_count += 1
+                        addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
+                        bank = utils.read_byte(rom)
+                        lines.append(f'  db ${val:02X} ; WriteText')
+                        lines.append(f'    dwb {prefix}Reference{reference_id:02X}, BANK({prefix}Reference{reference_id:02X})')
+                        to_parse.append((reference_id, bank, addr, 0x00, 1, "Text"))
+                    elif val == 0x18:
+                        # N options until we hit 0xFFFF
+                        is_term = True
+                        lines.append(f'  db ${val:02X} ; Option Select')
+                        while True:
+                            reference_id = reference_count
+                            reference_count += 1
+                            addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
+                            bank = utils.read_byte(rom)
+                            if addr == 0xFFFF:
+                                lines.append(f'    dw $FFFF')
+                                break
+                            # Text
+                            lines.append(f'    dwb {prefix}Reference{reference_id:02X}, BANK({prefix}Reference{reference_id:02X}) ; Text')
+                            to_parse.append((reference_id, bank, addr, 0x00, 1, "Text"))
+                            addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
+                            if addr == 0xFFFF:
+                                lines.append(f'    dw $FFFF')
+                                break
+                            # Option branch
+                            reference_id = reference_count
+                            reference_count += 1                            
+                            lines.append(f'    dw {prefix}Reference{reference_id:02X} ; Option Branch')
+                            to_parse.append((reference_id, current_bank, addr, None, None, None))
+
+                    elif val == 0x16:
+                        # Move character in a direction
+                        lines.append(f'  db ${val:02X}, ${utils.read_byte(rom):02X}, ${utils.read_byte(rom):02X}')
+                    elif val == 0x26:
+                        # If Male/Female
+                        option1_reference_id = reference_count
+                        reference_count += 1
+                        option2_reference_id = reference_count
+                        reference_count += 1
+                        lines.append(f'  db ${val:02X}')
+                        lines.append(f'    dwb {prefix}Reference{option1_reference_id:02X}, BANK({prefix}Reference{option1_reference_id:02X}) ; If Male')
+                        lines.append(f'    dwb {prefix}Reference{option2_reference_id:02X}, BANK({prefix}Reference{option2_reference_id:02X}) ; If Female')
+                        addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
+                        bank = utils.read_byte(rom)
+                        to_parse.append((option1_reference_id, bank, addr, None, None, None))
+                        addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
+                        bank = utils.read_byte(rom)
+                        to_parse.append((option2_reference_id, bank, addr, None, None, None))
+                        is_term = True
+                    elif val == 0xFF:
+                        lines.append(f'  db ${val:02X} ; Exit')
+                        is_term = True
+                    else:
+                        # TODO: This branch should assert when we have a more complete set
+                        is_term = True
+                        state = None
+                elif type(val) is tuple:
+                    reference_id = val[0]
+                    bank = val[1]
+                    addr = val[2]
+                    data_terminator = val[3]
+                    data_count = val[4]
+                    data_type = val[5]
+                    is_data = data_terminator is not None
+                    current_bank = bank
+                    try:
+                        rom.seek(utils.rom2realaddr((bank, addr)))
+                    except:
+                        print("\n".join(lines))
+                        raise
+                    lines.append(f'\nSECTION "{title} Reference {reference_id:02X} ({"Data" if is_data else "Subroutine"})", ROMX[${addr:04X}], BANK[${bank:02X}]')
+                    lines.append(f'{prefix}Reference{reference_id:02X}::')
+                    if is_data:
+                        is_term = True
+                        for _ in range(data_count):
+                            data = list(iter(partial(utils.read_byte, rom), data_terminator)) + [data_terminator]
+                            lines.append(f'  db {",".join([f"${x:02X}" for x in data])}' + f' ; {data_type}' if data_type is not None else '')
+                    else:
+                        is_term = False
+
+                if is_term == False:
+                    # Queue up the next byte to parse, in order
+                    to_parse.appendleft(utils.read_byte(rom))
+
+            for line in lines:
+                text_fp.write(line + '\n')
+
+            text_fp.write('\n')
