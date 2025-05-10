@@ -199,68 +199,70 @@ with open(rom_path, 'rb') as rom:
             current_bank = rom_addr[0]
             is_term = False
             reference_count = 0
+            reference_map = {}
+
+            def add_reference(bank, addr, data_terminator, data_count, data_type):
+                global reference_count
+                real_addr = utils.rom2realaddr((bank, addr))
+                if real_addr in reference_map:
+                    return reference_map[real_addr]
+                reference_id = reference_count
+                reference_count += 1
+                to_parse.append((reference_id, bank, addr, data_terminator, data_count, data_type))
+                reference_map[real_addr] = reference_id
+                return reference_id
+
             while len(to_parse) > 0:
                 val = to_parse.popleft()
                 if type(val) is int:
                     # Parse command locally
                     # TODO: Use command class
-                    # TODO: Use paramter data + csv writer
+                    # TODO: Use parameter data + csv writer
                     if val == 0x07:
                         # Probably setting portrait
                         lines.append(f'  db ${val:02X}, ${utils.read_byte(rom):02X}')
                     elif val == 0x00:
                         # Write text from [addr:2LE], [Bank]
                         # Text is terminated by $00
-                        reference_id = reference_count
-                        reference_count += 1
                         addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                         bank = utils.read_byte(rom)
+                        reference_id = add_reference(bank, addr, 0x00, 1, "Text")
                         lines.append(f'  db ${val:02X} ; WriteText')
                         lines.append(f'    dwb {prefix}Reference{reference_id:02X}, BANK({prefix}Reference{reference_id:02X})')
-                        to_parse.append((reference_id, bank, addr, 0x00, 1, "Text"))
                     elif val == 0x18:
                         # N options until we hit 0xFFFF
                         is_term = True
                         lines.append(f'  db ${val:02X} ; Option Select')
                         while True:
-                            reference_id = reference_count
-                            reference_count += 1
                             addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                             bank = utils.read_byte(rom)
                             if addr == 0xFFFF:
                                 lines.append(f'    dw $FFFF')
                                 break
+                            reference_id = add_reference(bank, addr, 0x00, 1, "Text")        
                             # Text
                             lines.append(f'    dwb {prefix}Reference{reference_id:02X}, BANK({prefix}Reference{reference_id:02X}) ; Text')
-                            to_parse.append((reference_id, bank, addr, 0x00, 1, "Text"))
                             addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                             if addr == 0xFFFF:
                                 lines.append(f'    dw $FFFF')
                                 break
                             # Option branch
-                            reference_id = reference_count
-                            reference_count += 1                            
+                            reference_id = add_reference(current_bank, addr, None, None, None)
                             lines.append(f'    dw {prefix}Reference{reference_id:02X} ; Option Branch')
-                            to_parse.append((reference_id, current_bank, addr, None, None, None))
-
                     elif val == 0x16:
                         # Move character in a direction
                         lines.append(f'  db ${val:02X}, ${utils.read_byte(rom):02X}, ${utils.read_byte(rom):02X}')
                     elif val == 0x26:
                         # If Male/Female
-                        option1_reference_id = reference_count
-                        reference_count += 1
-                        option2_reference_id = reference_count
-                        reference_count += 1
+                        addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
+                        bank = utils.read_byte(rom)
+                        option1_reference_id = add_reference(bank, addr, None, None, None)
+                        addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
+                        bank = utils.read_byte(rom)
+                        option2_reference_id = add_reference(bank, addr, None, None, None)
                         lines.append(f'  db ${val:02X}')
                         lines.append(f'    dwb {prefix}Reference{option1_reference_id:02X}, BANK({prefix}Reference{option1_reference_id:02X}) ; If Male')
                         lines.append(f'    dwb {prefix}Reference{option2_reference_id:02X}, BANK({prefix}Reference{option2_reference_id:02X}) ; If Female')
-                        addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
-                        bank = utils.read_byte(rom)
-                        to_parse.append((option1_reference_id, bank, addr, None, None, None))
-                        addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
-                        bank = utils.read_byte(rom)
-                        to_parse.append((option2_reference_id, bank, addr, None, None, None))
                         is_term = True
                     elif val == 0xFF:
                         lines.append(f'  db ${val:02X} ; Exit')

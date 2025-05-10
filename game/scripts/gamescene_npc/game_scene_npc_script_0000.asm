@@ -26,7 +26,7 @@ SECTION "Game Scene NPC Script 0000 Reference 02 (Subroutine)", ROMX[$4D17], BAN
 GameSceneNPCScript0000Reference02::
   db $07, $C4
   db $00 ; WriteText
-    dwb GameSceneNPCScript0000Reference06, BANK(GameSceneNPCScript0000Reference06)
+    dwb GameSceneNPCScript0000Reference05, BANK(GameSceneNPCScript0000Reference05)
 
 SECTION "Game Scene NPC Script 0000 Reference 03 (Data)", ROMX[$7C0E], BANK[$91]
 GameSceneNPCScript0000Reference03::
@@ -36,7 +36,7 @@ SECTION "Game Scene NPC Script 0000 Reference 04 (Subroutine)", ROMX[$4D16], BAN
 GameSceneNPCScript0000Reference04::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0000 Reference 06 (Data)", ROMX[$7C14], BANK[$91]
-GameSceneNPCScript0000Reference06::
+SECTION "Game Scene NPC Script 0000 Reference 05 (Data)", ROMX[$7C14], BANK[$91]
+GameSceneNPCScript0000Reference05::
   db $32,$21,$51,$26,$3C,$6D,$42,$5C,$47,$3E,$2C,$10,$00 ; Text
 
