@@ -22,9 +22,9 @@ GameSceneNPCScript0001Reference01::
 
 SECTION "Game Scene NPC Script 0001 Reference 02 (Data)", ROMX[$5882], BANK[$60]
 GameSceneNPCScript0001Reference02::
-  db $29,$38,$2A,$26,$0D,$2F,$30,$21,$47,$6D,$26,$4D,$2B,$00 ; Text
+  db "このさき<BR>たちいり　きんし",$00
 
 SECTION "Game Scene NPC Script 0001 Reference 03 (Data)", ROMX[$4746], BANK[$60]
 GameSceneNPCScript0001Reference03::
-  db $29,$38,$2A,$26,$0D,$2F,$30,$21,$47,$6D,$26,$4D,$2B,$00 ; Text
+  db "このさき<BR>たちいり　きんし",$00
 

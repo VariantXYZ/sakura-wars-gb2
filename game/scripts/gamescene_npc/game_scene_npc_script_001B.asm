@@ -10,5 +10,5 @@ GameSceneNPCScript001B::
 
 SECTION "Game Scene NPC Script 001B Reference 00 (Data)", ROMX[$4077], BANK[$24]
 GameSceneNPCScript001BReference00::
-  db $82,$4F,$82,$4F,$82,$4F,$00 ; Text
+  db "０００",$00
 

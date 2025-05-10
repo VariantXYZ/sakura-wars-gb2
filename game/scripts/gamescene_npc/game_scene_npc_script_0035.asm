@@ -11,5 +11,5 @@ GameSceneNPCScript0035::
 
 SECTION "Game Scene NPC Script 0035 Reference 00 (Data)", ROMX[$4FEC], BANK[$66]
 GameSceneNPCScript0035Reference00::
-  db $2B,$11,$51,$26,$27,$4D,$49,$4D,$54,$13,$22,$10,$00 ; Text
+  db "しゃげきくんれんじょう。",$00
 

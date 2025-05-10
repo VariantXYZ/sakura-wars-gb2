@@ -10,5 +10,5 @@ GameSceneNPCScript0002::
 
 SECTION "Game Scene NPC Script 0002 Reference 00 (Data)", ROMX[$6492], BANK[$60]
 GameSceneNPCScript0002Reference00::
-  db $08,$27,$4D,$0D,$30,$13,$6C,$33,$6D,$3E,$6C,$32,$27,$49,$34,$21,$25,$10,$00 ; Text
+  db "<NAME>くん<BR>ちょっと　まってくれないか。",$00
 

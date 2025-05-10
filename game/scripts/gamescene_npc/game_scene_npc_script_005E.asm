@@ -10,5 +10,5 @@ GameSceneNPCScript005E::
 
 SECTION "Game Scene NPC Script 005E Reference 00 (Data)", ROMX[$5B97], BANK[$6C]
 GameSceneNPCScript005EReference00::
-  db $24,$6C,$DE,$0D,$08,$39,$4D,$0D,$30,$13,$6C,$33,$3E,$6C,$2F,$10,$00 ; Text
+  db "おっ！<BR><NAME>はん<BR>ちょっとまった。",$00
 

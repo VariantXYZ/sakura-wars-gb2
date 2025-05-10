@@ -40,15 +40,15 @@ GameSceneNPCScript004DReference01::
 
 SECTION "Game Scene NPC Script 004D Reference 02 (Data)", ROMX[$49AD], BANK[$69]
 GameSceneNPCScript004DReference02::
-  db $C0,$74,$74,$74,$DB,$DB,$DE,$00 ; Text
+  db "グオオオォォ！",$00
 
 SECTION "Game Scene NPC Script 004D Reference 03 (Data)", ROMX[$49B5], BANK[$69]
 GameSceneNPCScript004DReference03::
-  db $A3,$CE,$B6,$38,$6D,$34,$25,$25,$46,$0D,$42,$38,$7C,$C2,$71,$6D,$24,$33,$4E,$0D,$26,$29,$23,$48,$57,$10,$00 ; Text
+  db "トビラの　なかから<BR>ものスゴイ　おとが<BR>きこえるぞ。",$00
 
 SECTION "Game Scene NPC Script 004D Reference 04 (Data)", ROMX[$49D0], BANK[$69]
 GameSceneNPCScript004DReference04::
-  db $42,$4D,$4C,$20,$28,$48,$00 ; Text
+  db "もんをあける",$00
 
 SECTION "Game Scene NPC Script 004D Reference 05 (Subroutine)", ROMX[$4D9A], BANK[$51]
 GameSceneNPCScript004DReference05::
@@ -58,7 +58,7 @@ GameSceneNPCScript004DReference05::
 
 SECTION "Game Scene NPC Script 004D Reference 06 (Data)", ROMX[$49D7], BANK[$69]
 GameSceneNPCScript004DReference06::
-  db $42,$4D,$4C,$20,$28,$34,$21,$00 ; Text
+  db "もんをあけない",$00
 
 SECTION "Game Scene NPC Script 004D Reference 07 (Subroutine)", ROMX[$4D93], BANK[$51]
 GameSceneNPCScript004DReference07::
@@ -69,15 +69,15 @@ GameSceneNPCScript004DReference07::
 
 SECTION "Game Scene NPC Script 004D Reference 08 (Data)", ROMX[$4B7C], BANK[$69]
 GameSceneNPCScript004DReference08::
-  db $C0,$74,$74,$74,$DB,$DB,$DE,$00 ; Text
+  db "グオオオォォ！",$00
 
 SECTION "Game Scene NPC Script 004D Reference 09 (Data)", ROMX[$4B84], BANK[$69]
 GameSceneNPCScript004DReference09::
-  db $A3,$CE,$B6,$38,$6D,$34,$25,$25,$46,$0D,$42,$38,$7C,$C2,$71,$6D,$24,$33,$4E,$0D,$26,$29,$23,$48,$4B,$10,$00 ; Text
+  db "トビラの　なかから<BR>ものスゴイ　おとが<BR>きこえるわ。",$00
 
 SECTION "Game Scene NPC Script 004D Reference 0A (Data)", ROMX[$4B9F], BANK[$69]
 GameSceneNPCScript004DReference0A::
-  db $42,$4D,$4C,$20,$28,$48,$00 ; Text
+  db "もんをあける",$00
 
 SECTION "Game Scene NPC Script 004D Reference 0B (Subroutine)", ROMX[$4E31], BANK[$51]
 GameSceneNPCScript004DReference0B::
@@ -87,7 +87,7 @@ GameSceneNPCScript004DReference0B::
 
 SECTION "Game Scene NPC Script 004D Reference 0C (Data)", ROMX[$4BA6], BANK[$69]
 GameSceneNPCScript004DReference0C::
-  db $42,$4D,$4C,$20,$28,$34,$21,$00 ; Text
+  db "もんをあけない",$00
 
 SECTION "Game Scene NPC Script 004D Reference 0D (Subroutine)", ROMX[$4E2A], BANK[$51]
 GameSceneNPCScript004DReference0D::
@@ -98,17 +98,17 @@ GameSceneNPCScript004DReference0D::
 
 SECTION "Game Scene NPC Script 004D Reference 0E (Data)", ROMX[$4A00], BANK[$69]
 GameSceneNPCScript004DReference0E::
-  db $45,$2B,$6D,$20,$28,$48,$57,$DE,$00 ; Text
+  db "よし　あけるぞ！",$00
 
 SECTION "Game Scene NPC Script 004D Reference 0F (Data)", ROMX[$49DF], BANK[$69]
 GameSceneNPCScript004DReference0F::
-  db $DF,$DF,$5F,$26,$3F,$58,$34,$DF,$DF,$DF,$DF,$0D,$DF,$DF,$20,$28,$48,$38,$39,$0D,$B3,$B1,$32,$24,$29,$22,$DF,$DF,$DF,$DF,$DF,$DF,$00 ; Text
+  db "……ぶきみだな…………<BR>……あけるのは<BR>ヤメておこう………………",$00
 
 SECTION "Game Scene NPC Script 004D Reference 10 (Data)", ROMX[$4BCE], BANK[$69]
 GameSceneNPCScript004DReference10::
-  db $45,$2B,$6D,$20,$28,$48,$4B,$45,$DE,$00 ; Text
+  db "よし　あけるわよ！",$00
 
 SECTION "Game Scene NPC Script 004D Reference 11 (Data)", ROMX[$4BAE], BANK[$69]
 GameSceneNPCScript004DReference11::
-  db $DF,$DF,$5F,$26,$3F,$58,$4B,$DF,$DF,$DF,$DF,$0D,$DF,$DF,$20,$28,$48,$38,$39,$0D,$B3,$B1,$32,$24,$26,$3E,$2B,$13,$22,$DF,$DF,$00 ; Text
+  db "……ぶきみだわ…………<BR>……あけるのは<BR>ヤメておきましょう……",$00
 

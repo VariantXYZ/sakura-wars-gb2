@@ -16,11 +16,11 @@ GameSceneNPCScript0000::
 
 SECTION "Game Scene NPC Script 0000 Reference 00 (Data)", ROMX[$7BF0], BANK[$91]
 GameSceneNPCScript0000Reference00::
-  db $81,$83,$B7,$7F,$6E,$BD,$D6,$71,$BD,$A3,$81,$84,$0D,$32,$21,$51,$26,$3C,$42,$5C,$47,$3E,$2C,$25,$DD,$00 ; Text
+  db "＜リターンポイント＞<BR>ていげきへもどりますか？",$00
 
 SECTION "Game Scene NPC Script 0000 Reference 01 (Data)", ROMX[$7C0A], BANK[$91]
 GameSceneNPCScript0000Reference01::
-  db $42,$5C,$48,$00 ; Text
+  db "もどる",$00
 
 SECTION "Game Scene NPC Script 0000 Reference 02 (Subroutine)", ROMX[$4D17], BANK[$51]
 GameSceneNPCScript0000Reference02::
@@ -30,7 +30,7 @@ GameSceneNPCScript0000Reference02::
 
 SECTION "Game Scene NPC Script 0000 Reference 03 (Data)", ROMX[$7C0E], BANK[$91]
 GameSceneNPCScript0000Reference03::
-  db $42,$5C,$46,$34,$21,$00 ; Text
+  db "もどらない",$00
 
 SECTION "Game Scene NPC Script 0000 Reference 04 (Subroutine)", ROMX[$4D16], BANK[$51]
 GameSceneNPCScript0000Reference04::
@@ -38,5 +38,5 @@ GameSceneNPCScript0000Reference04::
 
 SECTION "Game Scene NPC Script 0000 Reference 05 (Data)", ROMX[$7C14], BANK[$91]
 GameSceneNPCScript0000Reference05::
-  db $32,$21,$51,$26,$3C,$6D,$42,$5C,$47,$3E,$2C,$10,$00 ; Text
+  db "ていげきへ　もどります。",$00
 

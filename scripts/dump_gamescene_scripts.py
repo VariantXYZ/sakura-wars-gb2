@@ -27,7 +27,7 @@ game_scene_script_dir = sys.argv[3]
 game_scene_npc_script_dir = sys.argv[4]
 
 # Load tileset info
-character_table = tilesets.get_tileset("Main", override_offset=0x00)
+character_table = tilesets.get_tileset("GameSceneNPCScript", override_offset=0x00)
 
 gs = game.GameSceneScript(character_table)
 GS_COMMANDS = gs.COMMANDS
@@ -290,8 +290,34 @@ with open(rom_path, 'rb') as rom:
                     if is_data:
                         is_term = True
                         for _ in range(data_count):
-                            data = list(iter(partial(utils.read_byte, rom), data_terminator)) + [data_terminator]
-                            lines.append(f'  db {",".join([f"${x:02X}" for x in data])}' + f' ; {data_type}' if data_type is not None else '')
+                            data = list(iter(partial(utils.read_byte, rom), data_terminator))
+                            # Parse text
+                            length = 0
+                            text = ""
+                            if data_type == 'Text':
+                                while length < len(data):
+                                    byte = data[length]
+                                    if byte >= 0x80 and byte <= 0x9F:
+                                        # Shift JIS
+                                        length += 1
+                                        arg_byte = data[length]
+                                        if arg_byte | (byte << 8) in character_table:
+                                            text += character_table[arg_byte | (byte << 8)]
+                                        else:
+                                            # They mix and match characters annoyingly, so to rebuild sanely we'll add a backtick prior to characters represented in a less efficient way
+                                            c = bytes([byte, arg_byte]).decode('shiftjis')
+                                            if c in character_table.values():
+                                                text += f'`{c}'
+                                            else:
+                                                raise ValueError(f"Unknown character at {bank:02X}:{addr:04X} {byte:02X} {arg_byte:02X}")
+                                    elif byte in character_table:
+                                        text += character_table[byte]
+                                    else:
+                                        raise ValueError(f"Unknown character at {bank:02X}:{addr:04X} {byte:02X}")
+                                    length += 1
+                                lines.append(f'  db "{text}",${data_terminator:02X}')
+                            else:
+                                lines.append(f'  db {",".join([f"${x:02X}" for x in data])},${data_terminator:02X}' + f' ; {data_type}' if data_type is not None else '')
                     else:
                         is_term = False
 

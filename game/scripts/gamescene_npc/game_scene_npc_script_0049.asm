@@ -22,9 +22,9 @@ GameSceneNPCScript0049Reference01::
 
 SECTION "Game Scene NPC Script 0049 Reference 02 (Data)", ROMX[$48B0], BANK[$69]
 GameSceneNPCScript0049Reference02::
-  db $22,$4B,$17,$17,$17,$DE,$DE,$00 ; Text
+  db "うわ〜〜〜！！",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 03 (Data)", ROMX[$47B0], BANK[$69]
 GameSceneNPCScript0049Reference03::
-  db $22,$4B,$17,$17,$17,$DE,$DE,$00 ; Text
+  db "うわ〜〜〜！！",$00
 

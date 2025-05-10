@@ -24,9 +24,9 @@ GameSceneNPCScript001DReference01::
 
 SECTION "Game Scene NPC Script 001D Reference 02 (Data)", ROMX[$698B], BANK[$93]
 GameSceneNPCScript001DReference02::
-  db $58,$49,$25,$21,$48,$57,$DE,$DD,$00 ; Text
+  db "だれかいるぞ！？",$00
 
 SECTION "Game Scene NPC Script 001D Reference 03 (Data)", ROMX[$6868], BANK[$93]
 GameSceneNPCScript001DReference03::
-  db $58,$49,$25,$21,$48,$4B,$DE,$DD,$00 ; Text
+  db "だれかいるわ！？",$00
 

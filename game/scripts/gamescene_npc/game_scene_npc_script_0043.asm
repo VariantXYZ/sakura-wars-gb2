@@ -24,9 +24,9 @@ GameSceneNPCScript0043Reference01::
 
 SECTION "Game Scene NPC Script 0043 Reference 02 (Data)", ROMX[$65B8], BANK[$67]
 GameSceneNPCScript0043Reference02::
-  db $22,$4B,$67,$67,$67,$67,$67,$17,$17,$17,$10,$0D,$3E,$2F,$6D,$24,$30,$48,$69,$69,$69,$17,$17,$17,$10,$00 ; Text
+  db "うわぁぁぁぁぁ〜〜〜。<BR>また　おちるぅぅぅ〜〜〜。",$00
 
 SECTION "Game Scene NPC Script 0043 Reference 03 (Data)", ROMX[$659E], BANK[$67]
 GameSceneNPCScript0043Reference03::
-  db $26,$11,$67,$67,$67,$67,$67,$17,$17,$17,$10,$0D,$3E,$2F,$6D,$24,$30,$48,$69,$69,$69,$17,$17,$17,$10,$00 ; Text
+  db "きゃぁぁぁぁぁ〜〜〜。<BR>また　おちるぅぅぅ〜〜〜。",$00
 
