@@ -1,7 +1,11 @@
+PUSHC
+
 INCLUDE "game/src/common/macros.asm"
+INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
 
 SECTION "Game Scene NPC Script 0065", ROMX[$4C6D], BANK[$50]
 GameSceneNPCScript0065::
 ; $50
 ; $4C6D
 
+POPC

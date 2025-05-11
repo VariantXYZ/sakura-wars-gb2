@@ -26,6 +26,8 @@ game_scene_src_dir = sys.argv[2]
 game_scene_script_dir = sys.argv[3]
 game_scene_npc_script_dir = sys.argv[4]
 
+game_scene_npc_charmap = os.path.join(game_scene_npc_script_dir, f'charmap.asm')
+
 # Load tileset info
 character_table = tilesets.get_tileset("GameSceneNPCScript", override_offset=0x00)
 
@@ -46,7 +48,7 @@ with open(os.path.join(game_scene_src_dir, f'commands.asm'), 'w') as commands_fp
             commands_fp.write(f'  db ${command:02X}\n')
             for idx, macro in enumerate(GS_COMMANDS[command].command_macro):
                 commands_fp.write(f'  {macro} \\{idx + 1}\n')
-            commands_fp.write(f'ENDM\n\n')     
+            commands_fp.write(f'ENDM\n\n')
 
 with open(rom_path, 'rb') as rom:
     # Get the list of scenes
@@ -173,7 +175,7 @@ with open(rom_path, 'rb') as rom:
                     i += 1 + parameter_size
 
             # if l > 0:
-            #     
+            #
             #     script_fp.write(f'  db {",".join([f"${x:02X}" for x in data[2:]])}\n')
             script_fp.write('\n')
 
@@ -185,7 +187,9 @@ with open(rom_path, 'rb') as rom:
         with open(os.path.join(game_scene_npc_script_dir, f'game_scene_npc_script_{index:04X}.asm'), 'w') as text_fp:
             title = f'Game Scene NPC Script {index:04X}'
             prefix = f'GameSceneNPCScript{index:04X}'
-            text_fp.write('INCLUDE "game/src/common/macros.asm"\n\n')            
+            text_fp.write('PUSHC\n\n')
+            text_fp.write(f'INCLUDE "game/src/common/macros.asm"\n')
+            text_fp.write(f'INCLUDE "{game_scene_npc_charmap}"\n\n')
             text_fp.write(f'SECTION "{title}", ROMX[${rom_addr[1]:04X}], BANK[${rom_addr[0]:02X}]\n')
             text_fp.write(f'{prefix}::\n')
             text_fp.write(f'; ${rom_addr[0]:02X}\n')
@@ -239,7 +243,7 @@ with open(rom_path, 'rb') as rom:
                             if addr == 0xFFFF:
                                 lines.append(f'    dw $FFFF')
                                 break
-                            reference_id = add_reference(bank, addr, 0x00, 1, "Text")        
+                            reference_id = add_reference(bank, addr, 0x00, 1, "Text")
                             # Text
                             lines.append(f'    dwb {prefix}Reference{reference_id:02X}, BANK({prefix}Reference{reference_id:02X}) ; Text')
                             addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
@@ -307,7 +311,8 @@ with open(rom_path, 'rb') as rom:
                                             # They mix and match characters annoyingly, so to rebuild sanely we'll add a backtick prior to characters represented in a less efficient way
                                             c = bytes([byte, arg_byte]).decode('shiftjis')
                                             if c in character_table.values():
-                                                text += f'`{c}'
+                                                character_table[arg_byte | (byte << 8)] = f'`{c}'
+                                                text += character_table[arg_byte | (byte << 8)]
                                             else:
                                                 raise ValueError(f"Unknown character at {bank:02X}:{addr:04X} {byte:02X} {arg_byte:02X}")
                                     elif byte in character_table:
@@ -328,4 +333,11 @@ with open(rom_path, 'rb') as rom:
             for line in lines:
                 text_fp.write(line + '\n')
 
-            text_fp.write('\n')
+            text_fp.write('\nPOPC\n')
+
+    with open(game_scene_npc_charmap, 'w') as charmap_fp:
+        for key, value in character_table.items():
+            if key > 0xFF:
+                charmap_fp.write(f'CHARMAP "{value}",${(key >> 8):02X},${(key & 0xFF):02X}\n')
+            else:
+                charmap_fp.write(f'CHARMAP "{value}",${key:02X}\n')

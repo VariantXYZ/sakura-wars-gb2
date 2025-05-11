@@ -1,4 +1,7 @@
+PUSHC
+
 INCLUDE "game/src/common/macros.asm"
+INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
 
 SECTION "Game Scene NPC Script 0070", ROMX[$4D17], BANK[$58]
 GameSceneNPCScript0070::
@@ -12,3 +15,4 @@ SECTION "Game Scene NPC Script 0070 Reference 00 (Data)", ROMX[$60A1], BANK[$6D]
 GameSceneNPCScript0070Reference00::
   db "おおがみさん……<BR>だれか　いますよ。",$00
 
+POPC
