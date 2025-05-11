@@ -7,7 +7,8 @@ SECTION "Game Scene NPC Script 0006", ROMX[$4009], BANK[$50]
 GameSceneNPCScript0006::
 ; $50
 ; $4009
-  db $07, $C4
+  db $07 ; Portrait
+    db $C4
   db $00 ; WriteText
     dwb GameSceneNPCScript0006Reference00, BANK(GameSceneNPCScript0006Reference00)
   db $FF ; Exit

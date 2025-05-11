@@ -13,14 +13,16 @@ GameSceneNPCScript0043::
 
 SECTION "Game Scene NPC Script 0043 Reference 00 (Subroutine)", ROMX[$5592], BANK[$50]
 GameSceneNPCScript0043Reference00::
-  db $07, $00
+  db $07 ; Portrait
+    db $00
   db $00 ; WriteText
     dwb GameSceneNPCScript0043Reference02, BANK(GameSceneNPCScript0043Reference02)
   db $FF ; Exit
 
 SECTION "Game Scene NPC Script 0043 Reference 01 (Subroutine)", ROMX[$558B], BANK[$50]
 GameSceneNPCScript0043Reference01::
-  db $07, $00
+  db $07 ; Portrait
+    db $00
   db $00 ; WriteText
     dwb GameSceneNPCScript0043Reference03, BANK(GameSceneNPCScript0043Reference03)
   db $FF ; Exit

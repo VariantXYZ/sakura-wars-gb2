@@ -7,5 +7,10 @@ SECTION "Game Scene NPC Script 0077", ROMX[$4F1E], BANK[$50]
 GameSceneNPCScript0077::
 ; $50
 ; $4F1E
+  db $10
+    db $39
+  db $0C
+    db $7E
+  db $FF ; Exit
 
 POPC
