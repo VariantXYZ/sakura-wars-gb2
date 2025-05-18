@@ -15,7 +15,7 @@ env:
   IMAGE_NAME: ${{ github.repository }}
   # Dockerfile arguments
   RGBDS_REPOSITORY: https://github.com/gbdev/rgbds.git
-  RGBDS_VERSION: v0.7.0
+  RGBDS_VERSION: v0.9.2
   PYTHON_VERSION_NUM: 3.10.6
 
 jobs:
