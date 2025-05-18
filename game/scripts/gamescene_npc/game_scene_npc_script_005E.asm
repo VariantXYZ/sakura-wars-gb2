@@ -5,12 +5,11 @@ INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
 
 SECTION "Game Scene NPC Script 005E", ROMX[$4954], BANK[$57]
 GameSceneNPCScript005E::
-; $57
-; $4954
+GameSceneNPCScriptReference22DB::
   db $07 ; Portrait
     db $27
   db $00 ; WriteText
-    dwb GameSceneNPCScript005EReference00, BANK(GameSceneNPCScript005EReference00)
+    dwb GameSceneNPCScriptReference22DC, BANK(GameSceneNPCScriptReference22DC)
   db $0E ; Ally Split
     db $01
     db $04
@@ -19,13 +18,13 @@ GameSceneNPCScript005E::
   db $12
     db $3A
   db $00 ; WriteText
-    dwb GameSceneNPCScript005EReference01, BANK(GameSceneNPCScript005EReference01)
+    dwb GameSceneNPCScriptReference22DD, BANK(GameSceneNPCScriptReference22DD)
   db $00 ; WriteText
-    dwb GameSceneNPCScript005EReference02, BANK(GameSceneNPCScript005EReference02)
+    dwb GameSceneNPCScriptReference22DE, BANK(GameSceneNPCScriptReference22DE)
   db $00 ; WriteText
-    dwb GameSceneNPCScript005EReference03, BANK(GameSceneNPCScript005EReference03)
+    dwb GameSceneNPCScriptReference22DF, BANK(GameSceneNPCScriptReference22DF)
   db $00 ; WriteText
-    dwb GameSceneNPCScript005EReference04, BANK(GameSceneNPCScript005EReference04)
+    dwb GameSceneNPCScriptReference22E0, BANK(GameSceneNPCScriptReference22E0)
   db $0B
     db $00
     db $FF
@@ -35,24 +34,24 @@ GameSceneNPCScript005E::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 005E Reference 00 (Data)", ROMX[$5B97], BANK[$6C]
-GameSceneNPCScript005EReference00::
+SECTION "Game Scene NPC Script 005E Reference 22DC (Data)", ROMX[$5B97], BANK[$6C]
+GameSceneNPCScriptReference22DC::
   db "おっ！<BR><NAME>はん<BR>ちょっとまった。",$00
 
-SECTION "Game Scene NPC Script 005E Reference 01 (Data)", ROMX[$5BA8], BANK[$6C]
-GameSceneNPCScript005EReference01::
+SECTION "Game Scene NPC Script 005E Reference 22DD (Data)", ROMX[$5BA8], BANK[$6C]
+GameSceneNPCScriptReference22DD::
   db "このへんの　かべのなかに<BR>なんかあるで。",$00
 
-SECTION "Game Scene NPC Script 005E Reference 02 (Data)", ROMX[$5BBD], BANK[$6C]
-GameSceneNPCScript005EReference02::
+SECTION "Game Scene NPC Script 005E Reference 22DE (Data)", ROMX[$5BBD], BANK[$6C]
+GameSceneNPCScriptReference22DE::
   db "ウチのもってきた<BR>レーダーに　はんのうが<BR>でとるんや。",$00
 
-SECTION "Game Scene NPC Script 005E Reference 03 (Data)", ROMX[$5BD9], BANK[$6C]
-GameSceneNPCScript005EReference03::
+SECTION "Game Scene NPC Script 005E Reference 22DF (Data)", ROMX[$5BD9], BANK[$6C]
+GameSceneNPCScriptReference22DF::
   db "<NAME>はん<BR>あやしそうなところを<BR>しらべてくれへんか？",$00
 
-SECTION "Game Scene NPC Script 005E Reference 04 (Data)", ROMX[$5BF3], BANK[$6C]
-GameSceneNPCScript005EReference04::
+SECTION "Game Scene NPC Script 005E Reference 22E0 (Data)", ROMX[$5BF3], BANK[$6C]
+GameSceneNPCScriptReference22E0::
   db "ウチが　そこに　バクダン<BR>しかけるさかいに。",$00
 
 POPC

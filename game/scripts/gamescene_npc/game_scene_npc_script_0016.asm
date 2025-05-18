@@ -5,10 +5,9 @@ INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
 
 SECTION "Game Scene NPC Script 0016", ROMX[$4F6C], BANK[$50]
 GameSceneNPCScript0016::
-; $50
-; $4F6C
+GameSceneNPCScriptReference062A::
   db $08 ; Local Branch
-    dw GameSceneNPCScript0016Reference00
+    dw GameSceneNPCScriptReference062B
     db $01
     db $00
     db $40
@@ -23,16 +22,16 @@ GameSceneNPCScript0016::
     db $4A
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0016 Reference 00 (Subroutine)", ROMX[$4F7C], BANK[$50]
-GameSceneNPCScript0016Reference00::
+SECTION "Game Scene NPC Script 0016 Reference 062B (Subroutine)", ROMX[$4F7C], BANK[$50]
+GameSceneNPCScriptReference062B::
   db $07 ; Portrait
     db $C4
   db $00 ; WriteText
-    dwb GameSceneNPCScript0016Reference01, BANK(GameSceneNPCScript0016Reference01)
+    dwb GameSceneNPCScriptReference062C, BANK(GameSceneNPCScriptReference062C)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0016 Reference 01 (Data)", ROMX[$66C2], BANK[$60]
-GameSceneNPCScript0016Reference01::
+SECTION "Game Scene NPC Script 0016 Reference 062C (Data)", ROMX[$66C2], BANK[$60]
+GameSceneNPCScriptReference062C::
   db "エンジンが<BR>うごいていません。",$00
 
 POPC

@@ -5,14 +5,13 @@ INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
 
 SECTION "Game Scene NPC Script 0071", ROMX[$57A6], BANK[$51]
 GameSceneNPCScript0071::
-; $51
-; $57A6
+GameSceneNPCScriptReference273C::
   db $12
     db $17
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0071Reference00, BANK(GameSceneNPCScript0071Reference00)
+    dwb GameSceneNPCScriptReference273D, BANK(GameSceneNPCScriptReference273D)
   db $0F
     db $00
     db $03
@@ -25,8 +24,8 @@ GameSceneNPCScript0071::
     db $4C
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0071 Reference 00 (Data)", ROMX[$4674], BANK[$6D]
-GameSceneNPCScript0071Reference00::
+SECTION "Game Scene NPC Script 0071 Reference 273D (Data)", ROMX[$4674], BANK[$6D]
+GameSceneNPCScriptReference273D::
   db "　　　　　！！",$00
 
 POPC

@@ -5,41 +5,40 @@ INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
 
 SECTION "Game Scene NPC Script 0018", ROMX[$42D4], BANK[$50]
 GameSceneNPCScript0018::
-; $50
-; $42D4
+GameSceneNPCScriptReference06AE::
   db $27 ; Branch based on party members
-    dwb GameSceneNPCScript0018Reference00, BANK(GameSceneNPCScript0018Reference00) ; 0
-    dwb GameSceneNPCScript0018Reference01, BANK(GameSceneNPCScript0018Reference01) ; 1
-    dwb GameSceneNPCScript0018Reference02, BANK(GameSceneNPCScript0018Reference02) ; 2
-    dwb GameSceneNPCScript0018Reference03, BANK(GameSceneNPCScript0018Reference03) ; 3
-    dwb GameSceneNPCScript0018Reference02, BANK(GameSceneNPCScript0018Reference02) ; 4
-    dwb GameSceneNPCScript0018Reference02, BANK(GameSceneNPCScript0018Reference02) ; 5
-    dwb GameSceneNPCScript0018Reference02, BANK(GameSceneNPCScript0018Reference02) ; 6
-    dwb GameSceneNPCScript0018Reference04, BANK(GameSceneNPCScript0018Reference04) ; 7
-    dwb GameSceneNPCScript0018Reference02, BANK(GameSceneNPCScript0018Reference02) ; 8
+    dwb GameSceneNPCScriptReference06AF, BANK(GameSceneNPCScriptReference06AF) ; 0
+    dwb GameSceneNPCScriptReference06B0, BANK(GameSceneNPCScriptReference06B0) ; 1
+    dwb GameSceneNPCScriptReference06B1, BANK(GameSceneNPCScriptReference06B1) ; 2
+    dwb GameSceneNPCScriptReference06B2, BANK(GameSceneNPCScriptReference06B2) ; 3
+    dwb GameSceneNPCScriptReference06B1, BANK(GameSceneNPCScriptReference06B1) ; 4
+    dwb GameSceneNPCScriptReference06B1, BANK(GameSceneNPCScriptReference06B1) ; 5
+    dwb GameSceneNPCScriptReference06B1, BANK(GameSceneNPCScriptReference06B1) ; 6
+    dwb GameSceneNPCScriptReference06B3, BANK(GameSceneNPCScriptReference06B3) ; 7
+    dwb GameSceneNPCScriptReference06B1, BANK(GameSceneNPCScriptReference06B1) ; 8
 
-SECTION "Game Scene NPC Script 0018 Reference 00 (Subroutine)", ROMX[$42F0], BANK[$50]
-GameSceneNPCScript0018Reference00::
+SECTION "Game Scene NPC Script 0018 Reference 06AF (Subroutine)", ROMX[$42F0], BANK[$50]
+GameSceneNPCScriptReference06AF::
   db $26
-    dwb GameSceneNPCScript0018Reference02, BANK(GameSceneNPCScript0018Reference02) ; If Male
-    dwb GameSceneNPCScript0018Reference05, BANK(GameSceneNPCScript0018Reference05) ; If Female
+    dwb GameSceneNPCScriptReference06B1, BANK(GameSceneNPCScriptReference06B1) ; If Male
+    dwb GameSceneNPCScriptReference06B4, BANK(GameSceneNPCScriptReference06B4) ; If Female
 
-SECTION "Game Scene NPC Script 0018 Reference 01 (Subroutine)", ROMX[$7945], BANK[$52]
-GameSceneNPCScript0018Reference01::
+SECTION "Game Scene NPC Script 0018 Reference 06B0 (Subroutine)", ROMX[$7945], BANK[$52]
+GameSceneNPCScriptReference06B0::
   db $07 ; Portrait
     db $7A
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference06, BANK(GameSceneNPCScript0018Reference06)
+    dwb GameSceneNPCScriptReference06B5, BANK(GameSceneNPCScriptReference06B5)
   db $0C
     db $1E
   db $07 ; Portrait
     db $0D
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference07, BANK(GameSceneNPCScript0018Reference07)
+    dwb GameSceneNPCScriptReference06B6, BANK(GameSceneNPCScriptReference06B6)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference08, BANK(GameSceneNPCScript0018Reference08)
+    dwb GameSceneNPCScriptReference06B7, BANK(GameSceneNPCScriptReference06B7)
   db $0D
     db $10
     db $1E
@@ -61,52 +60,52 @@ GameSceneNPCScript0018Reference01::
   db $07 ; Portrait
     db $0E
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference09, BANK(GameSceneNPCScript0018Reference09)
+    dwb GameSceneNPCScriptReference06B8, BANK(GameSceneNPCScriptReference06B8)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference0A, BANK(GameSceneNPCScript0018Reference0A)
+    dwb GameSceneNPCScriptReference06B9, BANK(GameSceneNPCScriptReference06B9)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference0B, BANK(GameSceneNPCScript0018Reference0B)
+    dwb GameSceneNPCScriptReference06BA, BANK(GameSceneNPCScriptReference06BA)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference0C, BANK(GameSceneNPCScript0018Reference0C)
+    dwb GameSceneNPCScriptReference06BB, BANK(GameSceneNPCScriptReference06BB)
   db $07 ; Portrait
     db $0A
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference0D, BANK(GameSceneNPCScript0018Reference0D)
+    dwb GameSceneNPCScriptReference06BC, BANK(GameSceneNPCScriptReference06BC)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference0E, BANK(GameSceneNPCScript0018Reference0E)
+    dwb GameSceneNPCScriptReference06BD, BANK(GameSceneNPCScriptReference06BD)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference0F, BANK(GameSceneNPCScript0018Reference0F)
+    dwb GameSceneNPCScriptReference06BE, BANK(GameSceneNPCScriptReference06BE)
   db $01 ; TimedOption
-    db $1 ; Available Time
-    db $12
-    dwb GameSceneNPCScript0018Reference10, BANK(GameSceneNPCScript0018Reference10) ; Text
-    dw GameSceneNPCScript0018Reference11 ; Option Branch
-    dwb GameSceneNPCScript0018Reference12, BANK(GameSceneNPCScript0018Reference12) ; Text
-    dw GameSceneNPCScript0018Reference13 ; Option Branch
+    db $01 ; Available Time
+    db $0C
+    dwb GameSceneNPCScriptReference06BF, BANK(GameSceneNPCScriptReference06BF) ; Text
+    dw GameSceneNPCScriptReference06C0 ; Option Branch
+    dwb GameSceneNPCScriptReference06C1, BANK(GameSceneNPCScriptReference06C1) ; Text
+    dw GameSceneNPCScriptReference06C2 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0018 Reference 02 (Subroutine)", ROMX[$6DE5], BANK[$52]
-GameSceneNPCScript0018Reference02::
+SECTION "Game Scene NPC Script 0018 Reference 06B1 (Subroutine)", ROMX[$6DE5], BANK[$52]
+GameSceneNPCScriptReference06B1::
   db $07 ; Portrait
     db $7A
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference14, BANK(GameSceneNPCScript0018Reference14)
+    dwb GameSceneNPCScriptReference06C3, BANK(GameSceneNPCScriptReference06C3)
   db $0C
     db $1E
   db $07 ; Portrait
     db $04
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference15, BANK(GameSceneNPCScript0018Reference15)
+    dwb GameSceneNPCScriptReference06C4, BANK(GameSceneNPCScriptReference06C4)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference16, BANK(GameSceneNPCScript0018Reference16)
+    dwb GameSceneNPCScriptReference06C5, BANK(GameSceneNPCScriptReference06C5)
   db $0D
     db $10
     db $1E
@@ -128,58 +127,58 @@ GameSceneNPCScript0018Reference02::
   db $07 ; Portrait
     db $05
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference17, BANK(GameSceneNPCScript0018Reference17)
+    dwb GameSceneNPCScriptReference06C6, BANK(GameSceneNPCScriptReference06C6)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference18, BANK(GameSceneNPCScript0018Reference18)
+    dwb GameSceneNPCScriptReference06C7, BANK(GameSceneNPCScriptReference06C7)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference19, BANK(GameSceneNPCScript0018Reference19)
+    dwb GameSceneNPCScriptReference06C8, BANK(GameSceneNPCScriptReference06C8)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference1A, BANK(GameSceneNPCScript0018Reference1A)
+    dwb GameSceneNPCScriptReference06C9, BANK(GameSceneNPCScriptReference06C9)
   db $07 ; Portrait
     db $01
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference1B, BANK(GameSceneNPCScript0018Reference1B)
+    dwb GameSceneNPCScriptReference06CA, BANK(GameSceneNPCScriptReference06CA)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference1C, BANK(GameSceneNPCScript0018Reference1C)
+    dwb GameSceneNPCScriptReference06CB, BANK(GameSceneNPCScriptReference06CB)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference1D, BANK(GameSceneNPCScript0018Reference1D)
+    dwb GameSceneNPCScriptReference06CC, BANK(GameSceneNPCScriptReference06CC)
   db $01 ; TimedOption
-    db $1 ; Available Time
-    db $12
-    dwb GameSceneNPCScript0018Reference1E, BANK(GameSceneNPCScript0018Reference1E) ; Text
-    dw GameSceneNPCScript0018Reference1F ; Option Branch
-    dwb GameSceneNPCScript0018Reference20, BANK(GameSceneNPCScript0018Reference20) ; Text
-    dw GameSceneNPCScript0018Reference21 ; Option Branch
+    db $01 ; Available Time
+    db $0C
+    dwb GameSceneNPCScriptReference06CD, BANK(GameSceneNPCScriptReference06CD) ; Text
+    dw GameSceneNPCScriptReference06CE ; Option Branch
+    dwb GameSceneNPCScriptReference06CF, BANK(GameSceneNPCScriptReference06CF) ; Text
+    dw GameSceneNPCScriptReference06D0 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0018 Reference 03 (Subroutine)", ROMX[$42F7], BANK[$50]
-GameSceneNPCScript0018Reference03::
+SECTION "Game Scene NPC Script 0018 Reference 06B2 (Subroutine)", ROMX[$42F7], BANK[$50]
+GameSceneNPCScriptReference06B2::
   db $26
-    dwb GameSceneNPCScript0018Reference22, BANK(GameSceneNPCScript0018Reference22) ; If Male
-    dwb GameSceneNPCScript0018Reference23, BANK(GameSceneNPCScript0018Reference23) ; If Female
+    dwb GameSceneNPCScriptReference06D1, BANK(GameSceneNPCScriptReference06D1) ; If Male
+    dwb GameSceneNPCScriptReference06D2, BANK(GameSceneNPCScriptReference06D2) ; If Female
 
-SECTION "Game Scene NPC Script 0018 Reference 04 (Subroutine)", ROMX[$5A0E], BANK[$52]
-GameSceneNPCScript0018Reference04::
+SECTION "Game Scene NPC Script 0018 Reference 06B3 (Subroutine)", ROMX[$5A0E], BANK[$52]
+GameSceneNPCScriptReference06B3::
   db $07 ; Portrait
     db $7A
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference24, BANK(GameSceneNPCScript0018Reference24)
+    dwb GameSceneNPCScriptReference06D3, BANK(GameSceneNPCScriptReference06D3)
   db $0C
     db $1E
   db $07 ; Portrait
     db $47
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference25, BANK(GameSceneNPCScript0018Reference25)
+    dwb GameSceneNPCScriptReference06D4, BANK(GameSceneNPCScriptReference06D4)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference26, BANK(GameSceneNPCScript0018Reference26)
+    dwb GameSceneNPCScriptReference06D5, BANK(GameSceneNPCScriptReference06D5)
   db $0D
     db $10
     db $1E
@@ -201,54 +200,54 @@ GameSceneNPCScript0018Reference04::
   db $07 ; Portrait
     db $48
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference27, BANK(GameSceneNPCScript0018Reference27)
+    dwb GameSceneNPCScriptReference06D6, BANK(GameSceneNPCScriptReference06D6)
   db $07 ; Portrait
     db $44
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference28, BANK(GameSceneNPCScript0018Reference28)
+    dwb GameSceneNPCScriptReference06D7, BANK(GameSceneNPCScriptReference06D7)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference29, BANK(GameSceneNPCScript0018Reference29)
+    dwb GameSceneNPCScriptReference06D8, BANK(GameSceneNPCScriptReference06D8)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference2A, BANK(GameSceneNPCScript0018Reference2A)
+    dwb GameSceneNPCScriptReference06D9, BANK(GameSceneNPCScriptReference06D9)
   db $07 ; Portrait
     db $44
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference2B, BANK(GameSceneNPCScript0018Reference2B)
+    dwb GameSceneNPCScriptReference06DA, BANK(GameSceneNPCScriptReference06DA)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference2C, BANK(GameSceneNPCScript0018Reference2C)
+    dwb GameSceneNPCScriptReference06DB, BANK(GameSceneNPCScriptReference06DB)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference2D, BANK(GameSceneNPCScript0018Reference2D)
+    dwb GameSceneNPCScriptReference06DC, BANK(GameSceneNPCScriptReference06DC)
   db $01 ; TimedOption
-    db $1 ; Available Time
-    db $12
-    dwb GameSceneNPCScript0018Reference2E, BANK(GameSceneNPCScript0018Reference2E) ; Text
-    dw GameSceneNPCScript0018Reference2F ; Option Branch
-    dwb GameSceneNPCScript0018Reference30, BANK(GameSceneNPCScript0018Reference30) ; Text
-    dw GameSceneNPCScript0018Reference31 ; Option Branch
+    db $01 ; Available Time
+    db $0C
+    dwb GameSceneNPCScriptReference06DD, BANK(GameSceneNPCScriptReference06DD) ; Text
+    dw GameSceneNPCScriptReference06DE ; Option Branch
+    dwb GameSceneNPCScriptReference06DF, BANK(GameSceneNPCScriptReference06DF) ; Text
+    dw GameSceneNPCScriptReference06E0 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0018 Reference 05 (Subroutine)", ROMX[$644B], BANK[$52]
-GameSceneNPCScript0018Reference05::
+SECTION "Game Scene NPC Script 0018 Reference 06B4 (Subroutine)", ROMX[$644B], BANK[$52]
+GameSceneNPCScriptReference06B4::
   db $07 ; Portrait
     db $7A
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference32, BANK(GameSceneNPCScript0018Reference32)
+    dwb GameSceneNPCScriptReference06E1, BANK(GameSceneNPCScriptReference06E1)
   db $0C
     db $1E
   db $07 ; Portrait
     db $04
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference33, BANK(GameSceneNPCScript0018Reference33)
+    dwb GameSceneNPCScriptReference06E2, BANK(GameSceneNPCScriptReference06E2)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference34, BANK(GameSceneNPCScript0018Reference34)
+    dwb GameSceneNPCScriptReference06E3, BANK(GameSceneNPCScriptReference06E3)
   db $0D
     db $10
     db $1E
@@ -270,86 +269,86 @@ GameSceneNPCScript0018Reference05::
   db $07 ; Portrait
     db $05
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference35, BANK(GameSceneNPCScript0018Reference35)
+    dwb GameSceneNPCScriptReference06E4, BANK(GameSceneNPCScriptReference06E4)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference36, BANK(GameSceneNPCScript0018Reference36)
+    dwb GameSceneNPCScriptReference06E5, BANK(GameSceneNPCScriptReference06E5)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference37, BANK(GameSceneNPCScript0018Reference37)
+    dwb GameSceneNPCScriptReference06E6, BANK(GameSceneNPCScriptReference06E6)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference38, BANK(GameSceneNPCScript0018Reference38)
+    dwb GameSceneNPCScriptReference06E7, BANK(GameSceneNPCScriptReference06E7)
   db $07 ; Portrait
     db $01
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference39, BANK(GameSceneNPCScript0018Reference39)
+    dwb GameSceneNPCScriptReference06E8, BANK(GameSceneNPCScriptReference06E8)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference3A, BANK(GameSceneNPCScript0018Reference3A)
+    dwb GameSceneNPCScriptReference06E9, BANK(GameSceneNPCScriptReference06E9)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference3B, BANK(GameSceneNPCScript0018Reference3B)
+    dwb GameSceneNPCScriptReference06EA, BANK(GameSceneNPCScriptReference06EA)
   db $01 ; TimedOption
-    db $1 ; Available Time
-    db $12
-    dwb GameSceneNPCScript0018Reference3C, BANK(GameSceneNPCScript0018Reference3C) ; Text
-    dw GameSceneNPCScript0018Reference3D ; Option Branch
-    dwb GameSceneNPCScript0018Reference3E, BANK(GameSceneNPCScript0018Reference3E) ; Text
-    dw GameSceneNPCScript0018Reference3F ; Option Branch
+    db $01 ; Available Time
+    db $0C
+    dwb GameSceneNPCScriptReference06EB, BANK(GameSceneNPCScriptReference06EB) ; Text
+    dw GameSceneNPCScriptReference06EC ; Option Branch
+    dwb GameSceneNPCScriptReference06ED, BANK(GameSceneNPCScriptReference06ED) ; Text
+    dw GameSceneNPCScriptReference06EE ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0018 Reference 06 (Data)", ROMX[$7ADD], BANK[$62]
-GameSceneNPCScript0018Reference06::
+SECTION "Game Scene NPC Script 0018 Reference 06B5 (Data)", ROMX[$7ADD], BANK[$62]
+GameSceneNPCScriptReference06B5::
   db "…………みれさーん<BR>……すみれさーん！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 07 (Data)", ROMX[$7AF1], BANK[$62]
-GameSceneNPCScript0018Reference07::
+SECTION "Game Scene NPC Script 0018 Reference 06B6 (Data)", ROMX[$7AF1], BANK[$62]
+GameSceneNPCScriptReference06B6::
   db "……あら？<BR>いま　こえが<BR>きこえませんでした？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 08 (Data)", ROMX[$7B09], BANK[$62]
-GameSceneNPCScript0018Reference08::
+SECTION "Game Scene NPC Script 0018 Reference 06B7 (Data)", ROMX[$7B09], BANK[$62]
+GameSceneNPCScriptReference06B7::
   db "えっ？<BR>あっ！　すみれさん！！<BR>あそこに　ひとがいます！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 09 (Data)", ROMX[$7B27], BANK[$62]
-GameSceneNPCScript0018Reference09::
+SECTION "Game Scene NPC Script 0018 Reference 06B8 (Data)", ROMX[$7B27], BANK[$62]
+GameSceneNPCScriptReference06B8::
   db "あっ！　あれはバラぐみの<BR>おか　きくのじょう　さん……<BR>きくちゃんですわ！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 0A (Data)", ROMX[$7B4E], BANK[$62]
-GameSceneNPCScript0018Reference0A::
+SECTION "Game Scene NPC Script 0018 Reference 06B9 (Data)", ROMX[$7B4E], BANK[$62]
+GameSceneNPCScriptReference06B9::
   db "きくちゃん！<BR>なぜ　そんなところに！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 0B (Data)", ROMX[$7B62], BANK[$62]
-GameSceneNPCScript0018Reference0B::
+SECTION "Game Scene NPC Script 0018 Reference 06BA (Data)", ROMX[$7B62], BANK[$62]
+GameSceneNPCScriptReference06BA::
   db "そ…　それが……<BR>『まじんき』を<BR>みつけたとおもったら……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 0C (Data)", ROMX[$7B80], BANK[$62]
-GameSceneNPCScript0018Reference0C::
+SECTION "Game Scene NPC Script 0018 Reference 06BB (Data)", ROMX[$7B80], BANK[$62]
+GameSceneNPCScriptReference06BB::
   db "おそろしいまものに<BR>おそわれて……<BR>きがついたら<BR>ここに　いたんです。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 0D (Data)", ROMX[$7BA4], BANK[$62]
-GameSceneNPCScript0018Reference0D::
+SECTION "Game Scene NPC Script 0018 Reference 06BC (Data)", ROMX[$7BA4], BANK[$62]
+GameSceneNPCScriptReference06BC::
   db "そうですの……<BR>でも　なぜ　そんなところに<BR>たっているんですの？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 0E (Data)", ROMX[$7BC5], BANK[$62]
-GameSceneNPCScript0018Reference0E::
+SECTION "Game Scene NPC Script 0018 Reference 06BD (Data)", ROMX[$7BC5], BANK[$62]
+GameSceneNPCScriptReference06BD::
   db "ゆかが　つるつるすべって<BR>おもうように<BR>あるけないんですよ〜。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 0F (Data)", ROMX[$7BE5], BANK[$62]
-GameSceneNPCScript0018Reference0F::
+SECTION "Game Scene NPC Script 0018 Reference 06BE (Data)", ROMX[$7BE5], BANK[$62]
+GameSceneNPCScriptReference06BE::
   db "すみれさん……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 10 (Data)", ROMX[$7BED], BANK[$62]
-GameSceneNPCScript0018Reference10::
+SECTION "Game Scene NPC Script 0018 Reference 06BF (Data)", ROMX[$7BED], BANK[$62]
+GameSceneNPCScriptReference06BF::
   db "いそいで　たすけにいく",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 11 (Subroutine)", ROMX[$79A2], BANK[$52]
-GameSceneNPCScript0018Reference11::
+SECTION "Game Scene NPC Script 0018 Reference 06C0 (Subroutine)", ROMX[$79A2], BANK[$52]
+GameSceneNPCScriptReference06C0::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference40, BANK(GameSceneNPCScript0018Reference40)
+    dwb GameSceneNPCScriptReference06EF, BANK(GameSceneNPCScriptReference06EF)
   db $07 ; Portrait
     db $0D
   db $0B
@@ -358,111 +357,111 @@ GameSceneNPCScript0018Reference11::
     db $EA
     db $B9
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference41, BANK(GameSceneNPCScript0018Reference41)
+    dwb GameSceneNPCScriptReference06F0, BANK(GameSceneNPCScriptReference06F0)
   db $07 ; Portrait
     db $0A
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference42, BANK(GameSceneNPCScript0018Reference42)
+    dwb GameSceneNPCScriptReference06F1, BANK(GameSceneNPCScriptReference06F1)
   db $07 ; Portrait
     db $74
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference43, BANK(GameSceneNPCScript0018Reference43)
+    dwb GameSceneNPCScriptReference06F2, BANK(GameSceneNPCScriptReference06F2)
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0018 Reference 12 (Data)", ROMX[$7BF9], BANK[$62]
-GameSceneNPCScript0018Reference12::
+SECTION "Game Scene NPC Script 0018 Reference 06C1 (Data)", ROMX[$7BF9], BANK[$62]
+GameSceneNPCScriptReference06C1::
   db "すべるんですか？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 13 (Subroutine)", ROMX[$79C2], BANK[$52]
-GameSceneNPCScript0018Reference13::
+SECTION "Game Scene NPC Script 0018 Reference 06C2 (Subroutine)", ROMX[$79C2], BANK[$52]
+GameSceneNPCScriptReference06C2::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference44, BANK(GameSceneNPCScript0018Reference44)
+    dwb GameSceneNPCScriptReference06F3, BANK(GameSceneNPCScriptReference06F3)
   db $07 ; Portrait
     db $0A
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference45, BANK(GameSceneNPCScript0018Reference45)
+    dwb GameSceneNPCScriptReference06F4, BANK(GameSceneNPCScriptReference06F4)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference46, BANK(GameSceneNPCScript0018Reference46)
+    dwb GameSceneNPCScriptReference06F5, BANK(GameSceneNPCScriptReference06F5)
   db $07 ; Portrait
     db $0D
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference47, BANK(GameSceneNPCScript0018Reference47)
+    dwb GameSceneNPCScriptReference06F6, BANK(GameSceneNPCScriptReference06F6)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference48, BANK(GameSceneNPCScript0018Reference48)
+    dwb GameSceneNPCScriptReference06F7, BANK(GameSceneNPCScriptReference06F7)
   db $07 ; Portrait
     db $0A
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference49, BANK(GameSceneNPCScript0018Reference49)
+    dwb GameSceneNPCScriptReference06F8, BANK(GameSceneNPCScriptReference06F8)
   db $07 ; Portrait
     db $74
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference4A, BANK(GameSceneNPCScript0018Reference4A)
+    dwb GameSceneNPCScriptReference06F9, BANK(GameSceneNPCScriptReference06F9)
   db $07 ; Portrait
     db $0D
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference4B, BANK(GameSceneNPCScript0018Reference4B)
+    dwb GameSceneNPCScriptReference06FA, BANK(GameSceneNPCScriptReference06FA)
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0018 Reference 14 (Data)", ROMX[$4653], BANK[$62]
-GameSceneNPCScript0018Reference14::
+SECTION "Game Scene NPC Script 0018 Reference 06C3 (Data)", ROMX[$4653], BANK[$62]
+GameSceneNPCScriptReference06C3::
   db "…………くらさーん<BR>……さくらさーん！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 15 (Data)", ROMX[$4667], BANK[$62]
-GameSceneNPCScript0018Reference15::
+SECTION "Game Scene NPC Script 0018 Reference 06C4 (Data)", ROMX[$4667], BANK[$62]
+GameSceneNPCScriptReference06C4::
   db "……ん？<BR>いま　こえが<BR>きこえませんでしたか？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 16 (Data)", ROMX[$467F], BANK[$62]
-GameSceneNPCScript0018Reference16::
+SECTION "Game Scene NPC Script 0018 Reference 06C5 (Data)", ROMX[$467F], BANK[$62]
+GameSceneNPCScriptReference06C5::
   db "えっ？<BR>あっ！　さくらさん！！<BR>あそこに　ひとがいます！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 17 (Data)", ROMX[$469D], BANK[$62]
-GameSceneNPCScript0018Reference17::
+SECTION "Game Scene NPC Script 0018 Reference 06C6 (Data)", ROMX[$469D], BANK[$62]
+GameSceneNPCScriptReference06C6::
   db "あっ！　あれはバラぐみの<BR>おか　きくのじょう　さん……<BR>きくちゃんだわ！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 18 (Data)", ROMX[$46C3], BANK[$62]
-GameSceneNPCScript0018Reference18::
+SECTION "Game Scene NPC Script 0018 Reference 06C7 (Data)", ROMX[$46C3], BANK[$62]
+GameSceneNPCScriptReference06C7::
   db "きくちゃん！<BR>どうして　そんなところに！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 19 (Data)", ROMX[$46D9], BANK[$62]
-GameSceneNPCScript0018Reference19::
+SECTION "Game Scene NPC Script 0018 Reference 06C8 (Data)", ROMX[$46D9], BANK[$62]
+GameSceneNPCScriptReference06C8::
   db "そ…　それが……<BR>『まじんき』を<BR>みつけたとおもったら……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 1A (Data)", ROMX[$46F7], BANK[$62]
-GameSceneNPCScript0018Reference1A::
+SECTION "Game Scene NPC Script 0018 Reference 06C9 (Data)", ROMX[$46F7], BANK[$62]
+GameSceneNPCScriptReference06C9::
   db "おそろしいまものに<BR>おそわれて……<BR>きがついたら<BR>ここに　いたんです。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 1B (Data)", ROMX[$471B], BANK[$62]
-GameSceneNPCScript0018Reference1B::
+SECTION "Game Scene NPC Script 0018 Reference 06CA (Data)", ROMX[$471B], BANK[$62]
+GameSceneNPCScriptReference06CA::
   db "なぜ　そんなところに<BR>たっているんです？<BR>さむいでしょう？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 1C (Data)", ROMX[$4739], BANK[$62]
-GameSceneNPCScript0018Reference1C::
+SECTION "Game Scene NPC Script 0018 Reference 06CB (Data)", ROMX[$4739], BANK[$62]
+GameSceneNPCScriptReference06CB::
   db "ゆかが　つるつるすべって<BR>おもうように<BR>あるけないんですよ〜。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 1D (Data)", ROMX[$4759], BANK[$62]
-GameSceneNPCScript0018Reference1D::
+SECTION "Game Scene NPC Script 0018 Reference 06CC (Data)", ROMX[$4759], BANK[$62]
+GameSceneNPCScriptReference06CC::
   db "さくらさん……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 1E (Data)", ROMX[$4761], BANK[$62]
-GameSceneNPCScript0018Reference1E::
+SECTION "Game Scene NPC Script 0018 Reference 06CD (Data)", ROMX[$4761], BANK[$62]
+GameSceneNPCScriptReference06CD::
   db "いそいで　たすけにいく",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 1F (Subroutine)", ROMX[$6E42], BANK[$52]
-GameSceneNPCScript0018Reference1F::
+SECTION "Game Scene NPC Script 0018 Reference 06CE (Subroutine)", ROMX[$6E42], BANK[$52]
+GameSceneNPCScriptReference06CE::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference4C, BANK(GameSceneNPCScript0018Reference4C)
+    dwb GameSceneNPCScriptReference06FB, BANK(GameSceneNPCScriptReference06FB)
   db $07 ; Portrait
     db $04
   db $0B
@@ -471,73 +470,73 @@ GameSceneNPCScript0018Reference1F::
     db $E9
     db $B9
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference4D, BANK(GameSceneNPCScript0018Reference4D)
+    dwb GameSceneNPCScriptReference06FC, BANK(GameSceneNPCScriptReference06FC)
   db $07 ; Portrait
     db $01
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference4E, BANK(GameSceneNPCScript0018Reference4E)
+    dwb GameSceneNPCScriptReference06FD, BANK(GameSceneNPCScriptReference06FD)
   db $07 ; Portrait
     db $74
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference4F, BANK(GameSceneNPCScript0018Reference4F)
+    dwb GameSceneNPCScriptReference06FE, BANK(GameSceneNPCScriptReference06FE)
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0018 Reference 20 (Data)", ROMX[$476D], BANK[$62]
-GameSceneNPCScript0018Reference20::
+SECTION "Game Scene NPC Script 0018 Reference 06CF (Data)", ROMX[$476D], BANK[$62]
+GameSceneNPCScriptReference06CF::
   db "まものについて　きく",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 21 (Subroutine)", ROMX[$6E62], BANK[$52]
-GameSceneNPCScript0018Reference21::
+SECTION "Game Scene NPC Script 0018 Reference 06D0 (Subroutine)", ROMX[$6E62], BANK[$52]
+GameSceneNPCScriptReference06D0::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference50, BANK(GameSceneNPCScript0018Reference50)
+    dwb GameSceneNPCScriptReference06FF, BANK(GameSceneNPCScriptReference06FF)
   db $07 ; Portrait
     db $01
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference51, BANK(GameSceneNPCScript0018Reference51)
+    dwb GameSceneNPCScriptReference0700, BANK(GameSceneNPCScriptReference0700)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference52, BANK(GameSceneNPCScript0018Reference52)
+    dwb GameSceneNPCScriptReference0701, BANK(GameSceneNPCScriptReference0701)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference53, BANK(GameSceneNPCScript0018Reference53)
+    dwb GameSceneNPCScriptReference0702, BANK(GameSceneNPCScriptReference0702)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference54, BANK(GameSceneNPCScript0018Reference54)
+    dwb GameSceneNPCScriptReference0703, BANK(GameSceneNPCScriptReference0703)
   db $07 ; Portrait
     db $01
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference55, BANK(GameSceneNPCScript0018Reference55)
+    dwb GameSceneNPCScriptReference0704, BANK(GameSceneNPCScriptReference0704)
   db $07 ; Portrait
     db $74
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference56, BANK(GameSceneNPCScript0018Reference56)
+    dwb GameSceneNPCScriptReference0705, BANK(GameSceneNPCScriptReference0705)
   db $07 ; Portrait
     db $04
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference57, BANK(GameSceneNPCScript0018Reference57)
+    dwb GameSceneNPCScriptReference0706, BANK(GameSceneNPCScriptReference0706)
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0018 Reference 22 (Subroutine)", ROMX[$50F6], BANK[$52]
-GameSceneNPCScript0018Reference22::
+SECTION "Game Scene NPC Script 0018 Reference 06D1 (Subroutine)", ROMX[$50F6], BANK[$52]
+GameSceneNPCScriptReference06D1::
   db $07 ; Portrait
     db $7A
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference58, BANK(GameSceneNPCScript0018Reference58)
+    dwb GameSceneNPCScriptReference0707, BANK(GameSceneNPCScriptReference0707)
   db $0C
     db $1E
   db $07 ; Portrait
     db $21
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference59, BANK(GameSceneNPCScript0018Reference59)
+    dwb GameSceneNPCScriptReference0708, BANK(GameSceneNPCScriptReference0708)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference5A, BANK(GameSceneNPCScript0018Reference5A)
+    dwb GameSceneNPCScriptReference0709, BANK(GameSceneNPCScriptReference0709)
   db $0D
     db $10
     db $1E
@@ -559,52 +558,52 @@ GameSceneNPCScript0018Reference22::
   db $07 ; Portrait
     db $25
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference5B, BANK(GameSceneNPCScript0018Reference5B)
+    dwb GameSceneNPCScriptReference070A, BANK(GameSceneNPCScriptReference070A)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference5C, BANK(GameSceneNPCScript0018Reference5C)
+    dwb GameSceneNPCScriptReference070B, BANK(GameSceneNPCScriptReference070B)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference5D, BANK(GameSceneNPCScript0018Reference5D)
+    dwb GameSceneNPCScriptReference070C, BANK(GameSceneNPCScriptReference070C)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference5E, BANK(GameSceneNPCScript0018Reference5E)
+    dwb GameSceneNPCScriptReference070D, BANK(GameSceneNPCScriptReference070D)
   db $07 ; Portrait
     db $1E
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference5F, BANK(GameSceneNPCScript0018Reference5F)
+    dwb GameSceneNPCScriptReference070E, BANK(GameSceneNPCScriptReference070E)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference60, BANK(GameSceneNPCScript0018Reference60)
+    dwb GameSceneNPCScriptReference070F, BANK(GameSceneNPCScriptReference070F)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference61, BANK(GameSceneNPCScript0018Reference61)
+    dwb GameSceneNPCScriptReference0710, BANK(GameSceneNPCScriptReference0710)
   db $01 ; TimedOption
-    db $1 ; Available Time
-    db $12
-    dwb GameSceneNPCScript0018Reference62, BANK(GameSceneNPCScript0018Reference62) ; Text
-    dw GameSceneNPCScript0018Reference63 ; Option Branch
-    dwb GameSceneNPCScript0018Reference64, BANK(GameSceneNPCScript0018Reference64) ; Text
-    dw GameSceneNPCScript0018Reference65 ; Option Branch
+    db $01 ; Available Time
+    db $0C
+    dwb GameSceneNPCScriptReference0711, BANK(GameSceneNPCScriptReference0711) ; Text
+    dw GameSceneNPCScriptReference0712 ; Option Branch
+    dwb GameSceneNPCScriptReference0713, BANK(GameSceneNPCScriptReference0713) ; Text
+    dw GameSceneNPCScriptReference0714 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0018 Reference 23 (Subroutine)", ROMX[$467B], BANK[$52]
-GameSceneNPCScript0018Reference23::
+SECTION "Game Scene NPC Script 0018 Reference 06D2 (Subroutine)", ROMX[$467B], BANK[$52]
+GameSceneNPCScriptReference06D2::
   db $07 ; Portrait
     db $7A
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference66, BANK(GameSceneNPCScript0018Reference66)
+    dwb GameSceneNPCScriptReference0715, BANK(GameSceneNPCScriptReference0715)
   db $0C
     db $1E
   db $07 ; Portrait
     db $21
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference67, BANK(GameSceneNPCScript0018Reference67)
+    dwb GameSceneNPCScriptReference0716, BANK(GameSceneNPCScriptReference0716)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference68, BANK(GameSceneNPCScript0018Reference68)
+    dwb GameSceneNPCScriptReference0717, BANK(GameSceneNPCScriptReference0717)
   db $0D
     db $10
     db $1E
@@ -626,86 +625,86 @@ GameSceneNPCScript0018Reference23::
   db $07 ; Portrait
     db $25
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference69, BANK(GameSceneNPCScript0018Reference69)
+    dwb GameSceneNPCScriptReference0718, BANK(GameSceneNPCScriptReference0718)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference6A, BANK(GameSceneNPCScript0018Reference6A)
+    dwb GameSceneNPCScriptReference0719, BANK(GameSceneNPCScriptReference0719)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference6B, BANK(GameSceneNPCScript0018Reference6B)
+    dwb GameSceneNPCScriptReference071A, BANK(GameSceneNPCScriptReference071A)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference6C, BANK(GameSceneNPCScript0018Reference6C)
+    dwb GameSceneNPCScriptReference071B, BANK(GameSceneNPCScriptReference071B)
   db $07 ; Portrait
     db $1E
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference6D, BANK(GameSceneNPCScript0018Reference6D)
+    dwb GameSceneNPCScriptReference071C, BANK(GameSceneNPCScriptReference071C)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference6E, BANK(GameSceneNPCScript0018Reference6E)
+    dwb GameSceneNPCScriptReference071D, BANK(GameSceneNPCScriptReference071D)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference6F, BANK(GameSceneNPCScript0018Reference6F)
+    dwb GameSceneNPCScriptReference071E, BANK(GameSceneNPCScriptReference071E)
   db $01 ; TimedOption
-    db $1 ; Available Time
-    db $12
-    dwb GameSceneNPCScript0018Reference70, BANK(GameSceneNPCScript0018Reference70) ; Text
-    dw GameSceneNPCScript0018Reference71 ; Option Branch
-    dwb GameSceneNPCScript0018Reference72, BANK(GameSceneNPCScript0018Reference72) ; Text
-    dw GameSceneNPCScript0018Reference73 ; Option Branch
+    db $01 ; Available Time
+    db $0C
+    dwb GameSceneNPCScriptReference071F, BANK(GameSceneNPCScriptReference071F) ; Text
+    dw GameSceneNPCScriptReference0720 ; Option Branch
+    dwb GameSceneNPCScriptReference0721, BANK(GameSceneNPCScriptReference0721) ; Text
+    dw GameSceneNPCScriptReference0722 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0018 Reference 24 (Data)", ROMX[$6373], BANK[$62]
-GameSceneNPCScript0018Reference24::
+SECTION "Game Scene NPC Script 0018 Reference 06D3 (Data)", ROMX[$6373], BANK[$62]
+GameSceneNPCScriptReference06D3::
   db "…………ニさーん<BR>……レニさーん！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 25 (Data)", ROMX[$6385], BANK[$62]
-GameSceneNPCScript0018Reference25::
+SECTION "Game Scene NPC Script 0018 Reference 06D4 (Data)", ROMX[$6385], BANK[$62]
+GameSceneNPCScriptReference06D4::
   db "……ん？<BR>いま　こえが<BR>きこえた…………",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 26 (Data)", ROMX[$639A], BANK[$62]
-GameSceneNPCScript0018Reference26::
+SECTION "Game Scene NPC Script 0018 Reference 06D5 (Data)", ROMX[$639A], BANK[$62]
+GameSceneNPCScriptReference06D5::
   db "えっ？<BR>あっ！　レニさん！！<BR>あそこに　ひとがいます！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 27 (Data)", ROMX[$63B7], BANK[$62]
-GameSceneNPCScript0018Reference27::
+SECTION "Game Scene NPC Script 0018 Reference 06D6 (Data)", ROMX[$63B7], BANK[$62]
+GameSceneNPCScriptReference06D6::
   db "あっ！　あれはバラぐみの<BR>おか　きくのじょう……<BR>きくちゃんだ！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 28 (Data)", ROMX[$63D9], BANK[$62]
-GameSceneNPCScript0018Reference28::
+SECTION "Game Scene NPC Script 0018 Reference 06D7 (Data)", ROMX[$63D9], BANK[$62]
+GameSceneNPCScriptReference06D7::
   db "きくちゃん！<BR>なぜ　そんなところに！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 29 (Data)", ROMX[$63ED], BANK[$62]
-GameSceneNPCScript0018Reference29::
+SECTION "Game Scene NPC Script 0018 Reference 06D8 (Data)", ROMX[$63ED], BANK[$62]
+GameSceneNPCScriptReference06D8::
   db "そ…　それが……<BR>『まじんき』を<BR>みつけたとおもったら……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 2A (Data)", ROMX[$640B], BANK[$62]
-GameSceneNPCScript0018Reference2A::
+SECTION "Game Scene NPC Script 0018 Reference 06D9 (Data)", ROMX[$640B], BANK[$62]
+GameSceneNPCScriptReference06D9::
   db "おそろしいまものに<BR>おそわれて……<BR>きがついたら<BR>ここに　いたんです。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 2B (Data)", ROMX[$642F], BANK[$62]
-GameSceneNPCScript0018Reference2B::
+SECTION "Game Scene NPC Script 0018 Reference 06DA (Data)", ROMX[$642F], BANK[$62]
+GameSceneNPCScriptReference06DA::
   db "なぜ　そんなところに<BR>たっているんだ？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 2C (Data)", ROMX[$6443], BANK[$62]
-GameSceneNPCScript0018Reference2C::
+SECTION "Game Scene NPC Script 0018 Reference 06DB (Data)", ROMX[$6443], BANK[$62]
+GameSceneNPCScriptReference06DB::
   db "ゆかが　つるつるすべって<BR>おもうように<BR>あるけないんですよ〜。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 2D (Data)", ROMX[$6463], BANK[$62]
-GameSceneNPCScript0018Reference2D::
+SECTION "Game Scene NPC Script 0018 Reference 06DC (Data)", ROMX[$6463], BANK[$62]
+GameSceneNPCScriptReference06DC::
   db "レニさん……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 2E (Data)", ROMX[$646A], BANK[$62]
-GameSceneNPCScript0018Reference2E::
+SECTION "Game Scene NPC Script 0018 Reference 06DD (Data)", ROMX[$646A], BANK[$62]
+GameSceneNPCScriptReference06DD::
   db "いそいで　たすけにいく",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 2F (Subroutine)", ROMX[$5A6D], BANK[$52]
-GameSceneNPCScript0018Reference2F::
+SECTION "Game Scene NPC Script 0018 Reference 06DE (Subroutine)", ROMX[$5A6D], BANK[$52]
+GameSceneNPCScriptReference06DE::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference74, BANK(GameSceneNPCScript0018Reference74)
+    dwb GameSceneNPCScriptReference0723, BANK(GameSceneNPCScriptReference0723)
   db $07 ; Portrait
     db $47
   db $0B
@@ -714,29 +713,29 @@ GameSceneNPCScript0018Reference2F::
     db $F0
     db $B9
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference75, BANK(GameSceneNPCScript0018Reference75)
+    dwb GameSceneNPCScriptReference0724, BANK(GameSceneNPCScriptReference0724)
   db $07 ; Portrait
     db $44
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference76, BANK(GameSceneNPCScript0018Reference76)
+    dwb GameSceneNPCScriptReference0725, BANK(GameSceneNPCScriptReference0725)
   db $07 ; Portrait
     db $74
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference77, BANK(GameSceneNPCScript0018Reference77)
+    dwb GameSceneNPCScriptReference0726, BANK(GameSceneNPCScriptReference0726)
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0018 Reference 30 (Data)", ROMX[$6476], BANK[$62]
-GameSceneNPCScript0018Reference30::
+SECTION "Game Scene NPC Script 0018 Reference 06DF (Data)", ROMX[$6476], BANK[$62]
+GameSceneNPCScriptReference06DF::
   db "まものについて　きく",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 31 (Subroutine)", ROMX[$5A8D], BANK[$52]
-GameSceneNPCScript0018Reference31::
+SECTION "Game Scene NPC Script 0018 Reference 06E0 (Subroutine)", ROMX[$5A8D], BANK[$52]
+GameSceneNPCScriptReference06E0::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference78, BANK(GameSceneNPCScript0018Reference78)
+    dwb GameSceneNPCScriptReference0727, BANK(GameSceneNPCScriptReference0727)
   db $07 ; Portrait
     db $44
   db $0B
@@ -745,81 +744,81 @@ GameSceneNPCScript0018Reference31::
     db $F0
     db $B9
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference79, BANK(GameSceneNPCScript0018Reference79)
+    dwb GameSceneNPCScriptReference0728, BANK(GameSceneNPCScriptReference0728)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference7A, BANK(GameSceneNPCScript0018Reference7A)
+    dwb GameSceneNPCScriptReference0729, BANK(GameSceneNPCScriptReference0729)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference7B, BANK(GameSceneNPCScript0018Reference7B)
+    dwb GameSceneNPCScriptReference072A, BANK(GameSceneNPCScriptReference072A)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference7C, BANK(GameSceneNPCScript0018Reference7C)
+    dwb GameSceneNPCScriptReference072B, BANK(GameSceneNPCScriptReference072B)
   db $07 ; Portrait
     db $44
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference7D, BANK(GameSceneNPCScript0018Reference7D)
+    dwb GameSceneNPCScriptReference072C, BANK(GameSceneNPCScriptReference072C)
   db $07 ; Portrait
     db $74
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference7E, BANK(GameSceneNPCScript0018Reference7E)
+    dwb GameSceneNPCScriptReference072D, BANK(GameSceneNPCScriptReference072D)
   db $07 ; Portrait
     db $47
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference7F, BANK(GameSceneNPCScript0018Reference7F)
+    dwb GameSceneNPCScriptReference072E, BANK(GameSceneNPCScriptReference072E)
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0018 Reference 32 (Data)", ROMX[$6D61], BANK[$61]
-GameSceneNPCScript0018Reference32::
+SECTION "Game Scene NPC Script 0018 Reference 06E1 (Data)", ROMX[$6D61], BANK[$61]
+GameSceneNPCScriptReference06E1::
   db "…………くらさーん<BR>……さくらさーん！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 33 (Data)", ROMX[$6D75], BANK[$61]
-GameSceneNPCScript0018Reference33::
+SECTION "Game Scene NPC Script 0018 Reference 06E2 (Data)", ROMX[$6D75], BANK[$61]
+GameSceneNPCScriptReference06E2::
   db "……ん？<BR>いま　こえが<BR>きこえませんでしたか？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 34 (Data)", ROMX[$6D8D], BANK[$61]
-GameSceneNPCScript0018Reference34::
+SECTION "Game Scene NPC Script 0018 Reference 06E3 (Data)", ROMX[$6D8D], BANK[$61]
+GameSceneNPCScriptReference06E3::
   db "えっ？<BR>あっ！　さくらさん！！<BR>あそこに　ひとがいます！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 35 (Data)", ROMX[$6DAB], BANK[$61]
-GameSceneNPCScript0018Reference35::
+SECTION "Game Scene NPC Script 0018 Reference 06E4 (Data)", ROMX[$6DAB], BANK[$61]
+GameSceneNPCScriptReference06E4::
   db "あっ！　あれはバラぐみの<BR>おか　きくのじょう　さん……<BR>きくちゃんだわ！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 36 (Data)", ROMX[$6DD1], BANK[$61]
-GameSceneNPCScript0018Reference36::
+SECTION "Game Scene NPC Script 0018 Reference 06E5 (Data)", ROMX[$6DD1], BANK[$61]
+GameSceneNPCScriptReference06E5::
   db "きくちゃん！<BR>どうして　そんなところに！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 37 (Data)", ROMX[$6DE7], BANK[$61]
-GameSceneNPCScript0018Reference37::
+SECTION "Game Scene NPC Script 0018 Reference 06E6 (Data)", ROMX[$6DE7], BANK[$61]
+GameSceneNPCScriptReference06E6::
   db "そ…　それが……<BR>『まじんき』を<BR>みつけたとおもったら……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 38 (Data)", ROMX[$6E05], BANK[$61]
-GameSceneNPCScript0018Reference38::
+SECTION "Game Scene NPC Script 0018 Reference 06E7 (Data)", ROMX[$6E05], BANK[$61]
+GameSceneNPCScriptReference06E7::
   db "おそろしいまものに<BR>おそわれて……<BR>きがついたら<BR>ここに　いたんです。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 39 (Data)", ROMX[$6E29], BANK[$61]
-GameSceneNPCScript0018Reference39::
+SECTION "Game Scene NPC Script 0018 Reference 06E8 (Data)", ROMX[$6E29], BANK[$61]
+GameSceneNPCScriptReference06E8::
   db "なぜ　そんなところに<BR>たっているんです？<BR>さむいでしょう？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 3A (Data)", ROMX[$6E47], BANK[$61]
-GameSceneNPCScript0018Reference3A::
+SECTION "Game Scene NPC Script 0018 Reference 06E9 (Data)", ROMX[$6E47], BANK[$61]
+GameSceneNPCScriptReference06E9::
   db "ゆかが　つるつるすべって<BR>おもうように<BR>あるけないんですよ〜。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 3B (Data)", ROMX[$6E67], BANK[$61]
-GameSceneNPCScript0018Reference3B::
+SECTION "Game Scene NPC Script 0018 Reference 06EA (Data)", ROMX[$6E67], BANK[$61]
+GameSceneNPCScriptReference06EA::
   db "さくらさん……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 3C (Data)", ROMX[$6E6F], BANK[$61]
-GameSceneNPCScript0018Reference3C::
+SECTION "Game Scene NPC Script 0018 Reference 06EB (Data)", ROMX[$6E6F], BANK[$61]
+GameSceneNPCScriptReference06EB::
   db "いそいで　たすけにいく",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 3D (Subroutine)", ROMX[$64A8], BANK[$52]
-GameSceneNPCScript0018Reference3D::
+SECTION "Game Scene NPC Script 0018 Reference 06EC (Subroutine)", ROMX[$64A8], BANK[$52]
+GameSceneNPCScriptReference06EC::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference80, BANK(GameSceneNPCScript0018Reference80)
+    dwb GameSceneNPCScriptReference072F, BANK(GameSceneNPCScriptReference072F)
   db $07 ; Portrait
     db $04
   db $0B
@@ -828,203 +827,203 @@ GameSceneNPCScript0018Reference3D::
     db $E9
     db $B9
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference81, BANK(GameSceneNPCScript0018Reference81)
+    dwb GameSceneNPCScriptReference0730, BANK(GameSceneNPCScriptReference0730)
   db $07 ; Portrait
     db $01
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference82, BANK(GameSceneNPCScript0018Reference82)
+    dwb GameSceneNPCScriptReference0731, BANK(GameSceneNPCScriptReference0731)
   db $07 ; Portrait
     db $74
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference83, BANK(GameSceneNPCScript0018Reference83)
+    dwb GameSceneNPCScriptReference0732, BANK(GameSceneNPCScriptReference0732)
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0018 Reference 3E (Data)", ROMX[$6E7B], BANK[$61]
-GameSceneNPCScript0018Reference3E::
+SECTION "Game Scene NPC Script 0018 Reference 06ED (Data)", ROMX[$6E7B], BANK[$61]
+GameSceneNPCScriptReference06ED::
   db "まものについて　きく",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 3F (Subroutine)", ROMX[$64C8], BANK[$52]
-GameSceneNPCScript0018Reference3F::
+SECTION "Game Scene NPC Script 0018 Reference 06EE (Subroutine)", ROMX[$64C8], BANK[$52]
+GameSceneNPCScriptReference06EE::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference84, BANK(GameSceneNPCScript0018Reference84)
+    dwb GameSceneNPCScriptReference0733, BANK(GameSceneNPCScriptReference0733)
   db $07 ; Portrait
     db $01
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference85, BANK(GameSceneNPCScript0018Reference85)
+    dwb GameSceneNPCScriptReference0734, BANK(GameSceneNPCScriptReference0734)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference86, BANK(GameSceneNPCScript0018Reference86)
+    dwb GameSceneNPCScriptReference0735, BANK(GameSceneNPCScriptReference0735)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference87, BANK(GameSceneNPCScript0018Reference87)
+    dwb GameSceneNPCScriptReference0736, BANK(GameSceneNPCScriptReference0736)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference88, BANK(GameSceneNPCScript0018Reference88)
+    dwb GameSceneNPCScriptReference0737, BANK(GameSceneNPCScriptReference0737)
   db $07 ; Portrait
     db $01
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference89, BANK(GameSceneNPCScript0018Reference89)
+    dwb GameSceneNPCScriptReference0738, BANK(GameSceneNPCScriptReference0738)
   db $07 ; Portrait
     db $74
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference8A, BANK(GameSceneNPCScript0018Reference8A)
+    dwb GameSceneNPCScriptReference0739, BANK(GameSceneNPCScriptReference0739)
   db $07 ; Portrait
     db $04
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference8B, BANK(GameSceneNPCScript0018Reference8B)
+    dwb GameSceneNPCScriptReference073A, BANK(GameSceneNPCScriptReference073A)
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0018 Reference 40 (Data)", ROMX[$7C02], BANK[$62]
-GameSceneNPCScript0018Reference40::
+SECTION "Game Scene NPC Script 0018 Reference 06EF (Data)", ROMX[$7C02], BANK[$62]
+GameSceneNPCScriptReference06EF::
   db "すみれさん。<BR>いそいで　たすけに<BR>いきましょう！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 41 (Data)", ROMX[$7C1C], BANK[$62]
-GameSceneNPCScript0018Reference41::
+SECTION "Game Scene NPC Script 0018 Reference 06F0 (Data)", ROMX[$7C1C], BANK[$62]
+GameSceneNPCScriptReference06F0::
   db "そうですわね。<BR><NAME>さん。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 42 (Data)", ROMX[$7C29], BANK[$62]
-GameSceneNPCScript0018Reference42::
+SECTION "Game Scene NPC Script 0018 Reference 06F1 (Data)", ROMX[$7C29], BANK[$62]
+GameSceneNPCScriptReference06F1::
   db "きくちゃん。<BR>いまから　いきますから<BR>そこで　じっと<BR>しているのですわよ。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 43 (Data)", ROMX[$7C4F], BANK[$62]
-GameSceneNPCScript0018Reference43::
+SECTION "Game Scene NPC Script 0018 Reference 06F2 (Data)", ROMX[$7C4F], BANK[$62]
+GameSceneNPCScriptReference06F2::
   db "は〜い。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 44 (Data)", ROMX[$7C54], BANK[$62]
-GameSceneNPCScript0018Reference44::
+SECTION "Game Scene NPC Script 0018 Reference 06F3 (Data)", ROMX[$7C54], BANK[$62]
+GameSceneNPCScriptReference06F3::
   db "すみれさん<BR>すべるんですか？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 45 (Data)", ROMX[$7C63], BANK[$62]
-GameSceneNPCScript0018Reference45::
+SECTION "Game Scene NPC Script 0018 Reference 06F4 (Data)", ROMX[$7C63], BANK[$62]
+GameSceneNPCScriptReference06F4::
   db "きくちゃんが　そういって<BR>ますから　すべるんじゃ<BR>ないんですの。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 46 (Data)", ROMX[$7C84], BANK[$62]
-GameSceneNPCScript0018Reference46::
+SECTION "Game Scene NPC Script 0018 Reference 06F5 (Data)", ROMX[$7C84], BANK[$62]
+GameSceneNPCScriptReference06F5::
   db "だいじょうぶですか<BR>ボクたち……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 47 (Data)", ROMX[$7C95], BANK[$62]
-GameSceneNPCScript0018Reference47::
+SECTION "Game Scene NPC Script 0018 Reference 06F6 (Data)", ROMX[$7C95], BANK[$62]
+GameSceneNPCScriptReference06F6::
   db "<NAME>さん<BR>おとこなら　もっとビシッと<BR>しなさい！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 48 (Data)", ROMX[$7CAE], BANK[$62]
-GameSceneNPCScript0018Reference48::
+SECTION "Game Scene NPC Script 0018 Reference 06F7 (Data)", ROMX[$7CAE], BANK[$62]
+GameSceneNPCScriptReference06F7::
   db "はやくたすけて　くださーい。<BR>さむくて　たおれそうでーす。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 49 (Data)", ROMX[$7CCC], BANK[$62]
-GameSceneNPCScript0018Reference49::
+SECTION "Game Scene NPC Script 0018 Reference 06F8 (Data)", ROMX[$7CCC], BANK[$62]
+GameSceneNPCScriptReference06F8::
   db "わかりましたわ！<BR>いま　いきます！<BR>そこで　じっと<BR>しているのですわよ。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 4A (Data)", ROMX[$7CF1], BANK[$62]
-GameSceneNPCScript0018Reference4A::
+SECTION "Game Scene NPC Script 0018 Reference 06F9 (Data)", ROMX[$7CF1], BANK[$62]
+GameSceneNPCScriptReference06F9::
   db "は〜い。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 4B (Data)", ROMX[$7CF6], BANK[$62]
-GameSceneNPCScript0018Reference4B::
+SECTION "Game Scene NPC Script 0018 Reference 06FA (Data)", ROMX[$7CF6], BANK[$62]
+GameSceneNPCScriptReference06FA::
   db "<NAME>さん<BR>いきますわよ。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 4C (Data)", ROMX[$4778], BANK[$62]
-GameSceneNPCScript0018Reference4C::
+SECTION "Game Scene NPC Script 0018 Reference 06FB (Data)", ROMX[$4778], BANK[$62]
+GameSceneNPCScriptReference06FB::
   db "さくらさん。<BR>いそいで　たすけに<BR>いきましょう！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 4D (Data)", ROMX[$4792], BANK[$62]
-GameSceneNPCScript0018Reference4D::
+SECTION "Game Scene NPC Script 0018 Reference 06FC (Data)", ROMX[$4792], BANK[$62]
+GameSceneNPCScriptReference06FC::
   db "そうですね。<BR><NAME>さん。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 4E (Data)", ROMX[$479E], BANK[$62]
-GameSceneNPCScript0018Reference4E::
+SECTION "Game Scene NPC Script 0018 Reference 06FD (Data)", ROMX[$479E], BANK[$62]
+GameSceneNPCScriptReference06FD::
   db "きくちゃん。<BR>いまから　いきますから<BR>そこで　じっと<BR>しててくださーい。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 4F (Data)", ROMX[$47C3], BANK[$62]
-GameSceneNPCScript0018Reference4F::
+SECTION "Game Scene NPC Script 0018 Reference 06FE (Data)", ROMX[$47C3], BANK[$62]
+GameSceneNPCScriptReference06FE::
   db "は〜い。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 50 (Data)", ROMX[$47C8], BANK[$62]
-GameSceneNPCScript0018Reference50::
+SECTION "Game Scene NPC Script 0018 Reference 06FF (Data)", ROMX[$47C8], BANK[$62]
+GameSceneNPCScriptReference06FF::
   db "さくらさん<BR>おそろしい　まものについて<BR>ききましょうよ。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 51 (Data)", ROMX[$47E5], BANK[$62]
-GameSceneNPCScript0018Reference51::
+SECTION "Game Scene NPC Script 0018 Reference 0700 (Data)", ROMX[$47E5], BANK[$62]
+GameSceneNPCScriptReference0700::
   db "そうですね。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 52 (Data)", ROMX[$47EC], BANK[$62]
-GameSceneNPCScript0018Reference52::
+SECTION "Game Scene NPC Script 0018 Reference 0701 (Data)", ROMX[$47EC], BANK[$62]
+GameSceneNPCScriptReference0701::
   db "ねえ　きくちゃん<BR>おそろしい　まものって<BR>どんなやつ　だったんですか？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 53 (Data)", ROMX[$4810], BANK[$62]
-GameSceneNPCScript0018Reference53::
+SECTION "Game Scene NPC Script 0018 Reference 0702 (Data)", ROMX[$4810], BANK[$62]
+GameSceneNPCScriptReference0702::
   db "いっしゅんのことだったから<BR>おぼえてないんです〜。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 54 (Data)", ROMX[$482A], BANK[$62]
-GameSceneNPCScript0018Reference54::
+SECTION "Game Scene NPC Script 0018 Reference 0703 (Data)", ROMX[$482A], BANK[$62]
+GameSceneNPCScriptReference0703::
   db "そんなことより<BR>はやくたすけて　くださーい。<BR>さむくて　たおれそうでーす。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 55 (Data)", ROMX[$4850], BANK[$62]
-GameSceneNPCScript0018Reference55::
+SECTION "Game Scene NPC Script 0018 Reference 0704 (Data)", ROMX[$4850], BANK[$62]
+GameSceneNPCScriptReference0704::
   db "じゃあ　たすけに<BR>いきますから<BR>そこで　じっと<BR>しててくださーい。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 56 (Data)", ROMX[$4872], BANK[$62]
-GameSceneNPCScript0018Reference56::
+SECTION "Game Scene NPC Script 0018 Reference 0705 (Data)", ROMX[$4872], BANK[$62]
+GameSceneNPCScriptReference0705::
   db "は〜い。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 57 (Data)", ROMX[$4877], BANK[$62]
-GameSceneNPCScript0018Reference57::
+SECTION "Game Scene NPC Script 0018 Reference 0706 (Data)", ROMX[$4877], BANK[$62]
+GameSceneNPCScriptReference0706::
   db "<NAME>さん<BR>いきますよ。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 58 (Data)", ROMX[$52E1], BANK[$61]
-GameSceneNPCScript0018Reference58::
+SECTION "Game Scene NPC Script 0018 Reference 0707 (Data)", ROMX[$52E1], BANK[$61]
+GameSceneNPCScriptReference0707::
   db "…………リスさーん<BR>……アイリスさーん！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 59 (Data)", ROMX[$52F6], BANK[$61]
-GameSceneNPCScript0018Reference59::
+SECTION "Game Scene NPC Script 0018 Reference 0708 (Data)", ROMX[$52F6], BANK[$61]
+GameSceneNPCScriptReference0708::
   db "……あれ？<BR>いま　こえが<BR>きこえなかった？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 5A (Data)", ROMX[$530C], BANK[$61]
-GameSceneNPCScript0018Reference5A::
+SECTION "Game Scene NPC Script 0018 Reference 0709 (Data)", ROMX[$530C], BANK[$61]
+GameSceneNPCScriptReference0709::
   db "え…？<BR>あっ！　アイリス！！<BR>あそこに　ひとがいるよ！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 5B (Data)", ROMX[$5329], BANK[$61]
-GameSceneNPCScript0018Reference5B::
+SECTION "Game Scene NPC Script 0018 Reference 070A (Data)", ROMX[$5329], BANK[$61]
+GameSceneNPCScriptReference070A::
   db "あっ！　あれはバラぐみの<BR>きくちゃんだ！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 5C (Data)", ROMX[$533F], BANK[$61]
-GameSceneNPCScript0018Reference5C::
+SECTION "Game Scene NPC Script 0018 Reference 070B (Data)", ROMX[$533F], BANK[$61]
+GameSceneNPCScriptReference070B::
   db "きくちゃん！<BR>そんなとこで<BR>なにしてるの？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 5D (Data)", ROMX[$5355], BANK[$61]
-GameSceneNPCScript0018Reference5D::
+SECTION "Game Scene NPC Script 0018 Reference 070C (Data)", ROMX[$5355], BANK[$61]
+GameSceneNPCScriptReference070C::
   db "そ…　それが……<BR>『まじんき』を<BR>みつけたとおもったら……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 5E (Data)", ROMX[$5373], BANK[$61]
-GameSceneNPCScript0018Reference5E::
+SECTION "Game Scene NPC Script 0018 Reference 070D (Data)", ROMX[$5373], BANK[$61]
+GameSceneNPCScriptReference070D::
   db "おそろしいまものに<BR>おそわれて……<BR>きがついたら<BR>ここに　いたんです。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 5F (Data)", ROMX[$5397], BANK[$61]
-GameSceneNPCScript0018Reference5F::
+SECTION "Game Scene NPC Script 0018 Reference 070E (Data)", ROMX[$5397], BANK[$61]
+GameSceneNPCScriptReference070E::
   db "どうして　そこに<BR>たってるの？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 60 (Data)", ROMX[$53A7], BANK[$61]
-GameSceneNPCScript0018Reference60::
+SECTION "Game Scene NPC Script 0018 Reference 070F (Data)", ROMX[$53A7], BANK[$61]
+GameSceneNPCScriptReference070F::
   db "ゆかが　つるつるすべって<BR>おもうように<BR>あるけないんですよ〜。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 61 (Data)", ROMX[$53C7], BANK[$61]
-GameSceneNPCScript0018Reference61::
+SECTION "Game Scene NPC Script 0018 Reference 0710 (Data)", ROMX[$53C7], BANK[$61]
+GameSceneNPCScriptReference0710::
   db "アイリス……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 62 (Data)", ROMX[$53CE], BANK[$61]
-GameSceneNPCScript0018Reference62::
+SECTION "Game Scene NPC Script 0018 Reference 0711 (Data)", ROMX[$53CE], BANK[$61]
+GameSceneNPCScriptReference0711::
   db "たすけにいこう",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 63 (Subroutine)", ROMX[$5153], BANK[$52]
-GameSceneNPCScript0018Reference63::
+SECTION "Game Scene NPC Script 0018 Reference 0712 (Subroutine)", ROMX[$5153], BANK[$52]
+GameSceneNPCScriptReference0712::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference8C, BANK(GameSceneNPCScript0018Reference8C)
+    dwb GameSceneNPCScriptReference073B, BANK(GameSceneNPCScriptReference073B)
   db $07 ; Portrait
     db $1F
   db $0B
@@ -1033,152 +1032,109 @@ GameSceneNPCScript0018Reference63::
     db $EC
     db $B9
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference8D, BANK(GameSceneNPCScript0018Reference8D)
+    dwb GameSceneNPCScriptReference073C, BANK(GameSceneNPCScriptReference073C)
   db $08 ; Local Branch
-    dw GameSceneNPCScript0018Reference8E
+    dw GameSceneNPCScriptReference073D
     db $00
+GameSceneNPCScriptReference0714::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference8F, BANK(GameSceneNPCScript0018Reference8F)
+    dwb GameSceneNPCScriptReference073E, BANK(GameSceneNPCScriptReference073E)
   db $07 ; Portrait
     db $25
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference90, BANK(GameSceneNPCScript0018Reference90)
+    dwb GameSceneNPCScriptReference073F, BANK(GameSceneNPCScriptReference073F)
   db $07 ; Portrait
     db $1E
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference91, BANK(GameSceneNPCScript0018Reference91)
+    dwb GameSceneNPCScriptReference0740, BANK(GameSceneNPCScriptReference0740)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference92, BANK(GameSceneNPCScript0018Reference92)
+    dwb GameSceneNPCScriptReference0741, BANK(GameSceneNPCScriptReference0741)
   db $07 ; Portrait
     db $25
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference93, BANK(GameSceneNPCScript0018Reference93)
+    dwb GameSceneNPCScriptReference0742, BANK(GameSceneNPCScriptReference0742)
   db $08 ; Local Branch
-    dw GameSceneNPCScript0018Reference8E
+    dw GameSceneNPCScriptReference073D
     db $00
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference94, BANK(GameSceneNPCScript0018Reference94)
+    dwb GameSceneNPCScriptReference0743, BANK(GameSceneNPCScriptReference0743)
+GameSceneNPCScriptReference073D::
   db $07 ; Portrait
     db $1E
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference95, BANK(GameSceneNPCScript0018Reference95)
+    dwb GameSceneNPCScriptReference0744, BANK(GameSceneNPCScriptReference0744)
   db $07 ; Portrait
     db $74
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference96, BANK(GameSceneNPCScript0018Reference96)
+    dwb GameSceneNPCScriptReference0745, BANK(GameSceneNPCScriptReference0745)
   db $07 ; Portrait
     db $21
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference97, BANK(GameSceneNPCScript0018Reference97)
+    dwb GameSceneNPCScriptReference0746, BANK(GameSceneNPCScriptReference0746)
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0018 Reference 64 (Data)", ROMX[$53D6], BANK[$61]
-GameSceneNPCScript0018Reference64::
+SECTION "Game Scene NPC Script 0018 Reference 0713 (Data)", ROMX[$53D6], BANK[$61]
+GameSceneNPCScriptReference0713::
   db "たすけをよぼう",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 65 (Subroutine)", ROMX[$5168], BANK[$52]
-GameSceneNPCScript0018Reference65::
-  db $07 ; Portrait
-    db $00
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference8F, BANK(GameSceneNPCScript0018Reference8F)
-  db $07 ; Portrait
-    db $25
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference90, BANK(GameSceneNPCScript0018Reference90)
-  db $07 ; Portrait
-    db $1E
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference91, BANK(GameSceneNPCScript0018Reference91)
-  db $07 ; Portrait
-    db $76
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference92, BANK(GameSceneNPCScript0018Reference92)
-  db $07 ; Portrait
-    db $25
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference93, BANK(GameSceneNPCScript0018Reference93)
-  db $08 ; Local Branch
-    dw GameSceneNPCScript0018Reference8E
-    db $00
-  db $07 ; Portrait
-    db $00
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference94, BANK(GameSceneNPCScript0018Reference94)
-  db $07 ; Portrait
-    db $1E
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference95, BANK(GameSceneNPCScript0018Reference95)
-  db $07 ; Portrait
-    db $74
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference96, BANK(GameSceneNPCScript0018Reference96)
-  db $07 ; Portrait
-    db $21
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference97, BANK(GameSceneNPCScript0018Reference97)
-  db $17 ; Spawn Visual Entity
-    db $01
-  db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0018 Reference 66 (Data)", ROMX[$7855], BANK[$60]
-GameSceneNPCScript0018Reference66::
+SECTION "Game Scene NPC Script 0018 Reference 0715 (Data)", ROMX[$7855], BANK[$60]
+GameSceneNPCScriptReference0715::
   db "…………リスさーん<BR>………アイリスさーん！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 67 (Data)", ROMX[$786B], BANK[$60]
-GameSceneNPCScript0018Reference67::
+SECTION "Game Scene NPC Script 0018 Reference 0716 (Data)", ROMX[$786B], BANK[$60]
+GameSceneNPCScriptReference0716::
   db "……あれ？<BR>いま　こえが<BR>きこえなかった？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 68 (Data)", ROMX[$7881], BANK[$60]
-GameSceneNPCScript0018Reference68::
+SECTION "Game Scene NPC Script 0018 Reference 0717 (Data)", ROMX[$7881], BANK[$60]
+GameSceneNPCScriptReference0717::
   db "え…？<BR>あっ！　アイリス！！<BR>あそこに　ひとがいるわ！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 69 (Data)", ROMX[$789E], BANK[$60]
-GameSceneNPCScript0018Reference69::
+SECTION "Game Scene NPC Script 0018 Reference 0718 (Data)", ROMX[$789E], BANK[$60]
+GameSceneNPCScriptReference0718::
   db "あっ！　あれはバラぐみの<BR>きくちゃんだ！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 6A (Data)", ROMX[$78B4], BANK[$60]
-GameSceneNPCScript0018Reference6A::
+SECTION "Game Scene NPC Script 0018 Reference 0719 (Data)", ROMX[$78B4], BANK[$60]
+GameSceneNPCScriptReference0719::
   db "きくちゃん！<BR>そんなとこで<BR>なにしてるの？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 6B (Data)", ROMX[$78CA], BANK[$60]
-GameSceneNPCScript0018Reference6B::
+SECTION "Game Scene NPC Script 0018 Reference 071A (Data)", ROMX[$78CA], BANK[$60]
+GameSceneNPCScriptReference071A::
   db "そ…　それが……<BR>『まじんき』を<BR>みつけたとおもったら……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 6C (Data)", ROMX[$78E8], BANK[$60]
-GameSceneNPCScript0018Reference6C::
+SECTION "Game Scene NPC Script 0018 Reference 071B (Data)", ROMX[$78E8], BANK[$60]
+GameSceneNPCScriptReference071B::
   db "おそろしいまものに<BR>おそわれて……<BR>きがついたら<BR>ここに　いたんです。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 6D (Data)", ROMX[$790C], BANK[$60]
-GameSceneNPCScript0018Reference6D::
+SECTION "Game Scene NPC Script 0018 Reference 071C (Data)", ROMX[$790C], BANK[$60]
+GameSceneNPCScriptReference071C::
   db "どうして　そこに<BR>たってるの？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 6E (Data)", ROMX[$791C], BANK[$60]
-GameSceneNPCScript0018Reference6E::
+SECTION "Game Scene NPC Script 0018 Reference 071D (Data)", ROMX[$791C], BANK[$60]
+GameSceneNPCScriptReference071D::
   db "ゆかが　つるつるすべって<BR>おもうように<BR>あるけないんですよ〜。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 6F (Data)", ROMX[$793C], BANK[$60]
-GameSceneNPCScript0018Reference6F::
+SECTION "Game Scene NPC Script 0018 Reference 071E (Data)", ROMX[$793C], BANK[$60]
+GameSceneNPCScriptReference071E::
   db "アイリス……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 70 (Data)", ROMX[$7943], BANK[$60]
-GameSceneNPCScript0018Reference70::
+SECTION "Game Scene NPC Script 0018 Reference 071F (Data)", ROMX[$7943], BANK[$60]
+GameSceneNPCScriptReference071F::
   db "たすけに　いきましょう",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 71 (Subroutine)", ROMX[$46D8], BANK[$52]
-GameSceneNPCScript0018Reference71::
+SECTION "Game Scene NPC Script 0018 Reference 0720 (Subroutine)", ROMX[$46D8], BANK[$52]
+GameSceneNPCScriptReference0720::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference98, BANK(GameSceneNPCScript0018Reference98)
+    dwb GameSceneNPCScriptReference0747, BANK(GameSceneNPCScriptReference0747)
   db $07 ; Portrait
     db $1F
   db $0B
@@ -1187,320 +1143,241 @@ GameSceneNPCScript0018Reference71::
     db $EC
     db $B9
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference99, BANK(GameSceneNPCScript0018Reference99)
+    dwb GameSceneNPCScriptReference0748, BANK(GameSceneNPCScriptReference0748)
   db $08 ; Local Branch
-    dw GameSceneNPCScript0018Reference9A
+    dw GameSceneNPCScriptReference0749
     db $00
+GameSceneNPCScriptReference0722::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference9B, BANK(GameSceneNPCScript0018Reference9B)
+    dwb GameSceneNPCScriptReference074A, BANK(GameSceneNPCScriptReference074A)
   db $07 ; Portrait
     db $25
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference9C, BANK(GameSceneNPCScript0018Reference9C)
+    dwb GameSceneNPCScriptReference074B, BANK(GameSceneNPCScriptReference074B)
   db $07 ; Portrait
     db $1E
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference9D, BANK(GameSceneNPCScript0018Reference9D)
+    dwb GameSceneNPCScriptReference074C, BANK(GameSceneNPCScriptReference074C)
   db $07 ; Portrait
     db $76
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference9E, BANK(GameSceneNPCScript0018Reference9E)
+    dwb GameSceneNPCScriptReference074D, BANK(GameSceneNPCScriptReference074D)
   db $07 ; Portrait
     db $25
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference9F, BANK(GameSceneNPCScript0018Reference9F)
+    dwb GameSceneNPCScriptReference074E, BANK(GameSceneNPCScriptReference074E)
   db $08 ; Local Branch
-    dw GameSceneNPCScript0018Reference9A
+    dw GameSceneNPCScriptReference0749
     db $00
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018ReferenceA0, BANK(GameSceneNPCScript0018ReferenceA0)
+    dwb GameSceneNPCScriptReference074F, BANK(GameSceneNPCScriptReference074F)
+GameSceneNPCScriptReference0749::
   db $07 ; Portrait
     db $1E
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018ReferenceA1, BANK(GameSceneNPCScript0018ReferenceA1)
+    dwb GameSceneNPCScriptReference0750, BANK(GameSceneNPCScriptReference0750)
   db $07 ; Portrait
     db $74
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018ReferenceA2, BANK(GameSceneNPCScript0018ReferenceA2)
+    dwb GameSceneNPCScriptReference0751, BANK(GameSceneNPCScriptReference0751)
   db $07 ; Portrait
     db $21
   db $00 ; WriteText
-    dwb GameSceneNPCScript0018ReferenceA3, BANK(GameSceneNPCScript0018ReferenceA3)
+    dwb GameSceneNPCScriptReference0752, BANK(GameSceneNPCScriptReference0752)
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0018 Reference 72 (Data)", ROMX[$794F], BANK[$60]
-GameSceneNPCScript0018Reference72::
+SECTION "Game Scene NPC Script 0018 Reference 0721 (Data)", ROMX[$794F], BANK[$60]
+GameSceneNPCScriptReference0721::
   db "たすけを　よびましょう",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 73 (Subroutine)", ROMX[$46ED], BANK[$52]
-GameSceneNPCScript0018Reference73::
-  db $07 ; Portrait
-    db $00
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference9B, BANK(GameSceneNPCScript0018Reference9B)
-  db $07 ; Portrait
-    db $25
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference9C, BANK(GameSceneNPCScript0018Reference9C)
-  db $07 ; Portrait
-    db $1E
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference9D, BANK(GameSceneNPCScript0018Reference9D)
-  db $07 ; Portrait
-    db $76
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference9E, BANK(GameSceneNPCScript0018Reference9E)
-  db $07 ; Portrait
-    db $25
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference9F, BANK(GameSceneNPCScript0018Reference9F)
-  db $08 ; Local Branch
-    dw GameSceneNPCScript0018Reference9A
-    db $00
-  db $07 ; Portrait
-    db $00
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018ReferenceA0, BANK(GameSceneNPCScript0018ReferenceA0)
-  db $07 ; Portrait
-    db $1E
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018ReferenceA1, BANK(GameSceneNPCScript0018ReferenceA1)
-  db $07 ; Portrait
-    db $74
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018ReferenceA2, BANK(GameSceneNPCScript0018ReferenceA2)
-  db $07 ; Portrait
-    db $21
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018ReferenceA3, BANK(GameSceneNPCScript0018ReferenceA3)
-  db $17 ; Spawn Visual Entity
-    db $01
-  db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0018 Reference 74 (Data)", ROMX[$6481], BANK[$62]
-GameSceneNPCScript0018Reference74::
+SECTION "Game Scene NPC Script 0018 Reference 0723 (Data)", ROMX[$6481], BANK[$62]
+GameSceneNPCScriptReference0723::
   db "レニさん。<BR>いそいで　たすけに<BR>いきましょう！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 75 (Data)", ROMX[$649A], BANK[$62]
-GameSceneNPCScript0018Reference75::
+SECTION "Game Scene NPC Script 0018 Reference 0724 (Data)", ROMX[$649A], BANK[$62]
+GameSceneNPCScriptReference0724::
   db "よし。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 76 (Data)", ROMX[$649E], BANK[$62]
-GameSceneNPCScript0018Reference76::
+SECTION "Game Scene NPC Script 0018 Reference 0725 (Data)", ROMX[$649E], BANK[$62]
+GameSceneNPCScriptReference0725::
   db "いまいくから<BR>そこで　じっとしてて。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 77 (Data)", ROMX[$64B1], BANK[$62]
-GameSceneNPCScript0018Reference77::
+SECTION "Game Scene NPC Script 0018 Reference 0726 (Data)", ROMX[$64B1], BANK[$62]
+GameSceneNPCScriptReference0726::
   db "は〜い。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 78 (Data)", ROMX[$64B6], BANK[$62]
-GameSceneNPCScript0018Reference78::
+SECTION "Game Scene NPC Script 0018 Reference 0727 (Data)", ROMX[$64B6], BANK[$62]
+GameSceneNPCScriptReference0727::
   db "レニさん<BR>おそろしい　まものについて<BR>ききましょうよ。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 79 (Data)", ROMX[$64D2], BANK[$62]
-GameSceneNPCScript0018Reference79::
+SECTION "Game Scene NPC Script 0018 Reference 0728 (Data)", ROMX[$64D2], BANK[$62]
+GameSceneNPCScriptReference0728::
   db "じょうほう　しゅうしゅうか。<BR>よし……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 7A (Data)", ROMX[$64E6], BANK[$62]
-GameSceneNPCScript0018Reference7A::
+SECTION "Game Scene NPC Script 0018 Reference 0729 (Data)", ROMX[$64E6], BANK[$62]
+GameSceneNPCScriptReference0729::
   db "おそろしい　まものって<BR>どんなやつ　だった？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 7B (Data)", ROMX[$64FD], BANK[$62]
-GameSceneNPCScript0018Reference7B::
+SECTION "Game Scene NPC Script 0018 Reference 072A (Data)", ROMX[$64FD], BANK[$62]
+GameSceneNPCScriptReference072A::
   db "いっしゅんのことだったから<BR>おぼえてないんです〜。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 7C (Data)", ROMX[$6517], BANK[$62]
-GameSceneNPCScript0018Reference7C::
+SECTION "Game Scene NPC Script 0018 Reference 072B (Data)", ROMX[$6517], BANK[$62]
+GameSceneNPCScriptReference072B::
   db "そんなことより<BR>はやくたすけて　くださーい。<BR>さむくて　たおれそうでーす。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 7D (Data)", ROMX[$653D], BANK[$62]
-GameSceneNPCScript0018Reference7D::
+SECTION "Game Scene NPC Script 0018 Reference 072C (Data)", ROMX[$653D], BANK[$62]
+GameSceneNPCScriptReference072C::
   db "わかった。　いまいく。<BR>そこで　じっと　してるんだ。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 7E (Data)", ROMX[$6558], BANK[$62]
-GameSceneNPCScript0018Reference7E::
+SECTION "Game Scene NPC Script 0018 Reference 072D (Data)", ROMX[$6558], BANK[$62]
+GameSceneNPCScriptReference072D::
   db "は〜い。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 7F (Data)", ROMX[$655D], BANK[$62]
-GameSceneNPCScript0018Reference7F::
+SECTION "Game Scene NPC Script 0018 Reference 072E (Data)", ROMX[$655D], BANK[$62]
+GameSceneNPCScriptReference072E::
   db "いくよ　<NAME>。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 80 (Data)", ROMX[$6E86], BANK[$61]
-GameSceneNPCScript0018Reference80::
+SECTION "Game Scene NPC Script 0018 Reference 072F (Data)", ROMX[$6E86], BANK[$61]
+GameSceneNPCScriptReference072F::
   db "さくらさん。<BR>いそいで　たすけに<BR>いきましょう！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 81 (Data)", ROMX[$6EA0], BANK[$61]
-GameSceneNPCScript0018Reference81::
+SECTION "Game Scene NPC Script 0018 Reference 0730 (Data)", ROMX[$6EA0], BANK[$61]
+GameSceneNPCScriptReference0730::
   db "そうですね。<BR><NAME>さん。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 82 (Data)", ROMX[$6EAC], BANK[$61]
-GameSceneNPCScript0018Reference82::
+SECTION "Game Scene NPC Script 0018 Reference 0731 (Data)", ROMX[$6EAC], BANK[$61]
+GameSceneNPCScriptReference0731::
   db "きくちゃん。<BR>いまから　いきますから<BR>そこで　じっと<BR>しててくださーい。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 83 (Data)", ROMX[$6ED1], BANK[$61]
-GameSceneNPCScript0018Reference83::
+SECTION "Game Scene NPC Script 0018 Reference 0732 (Data)", ROMX[$6ED1], BANK[$61]
+GameSceneNPCScriptReference0732::
   db "は〜い。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 84 (Data)", ROMX[$6ED6], BANK[$61]
-GameSceneNPCScript0018Reference84::
+SECTION "Game Scene NPC Script 0018 Reference 0733 (Data)", ROMX[$6ED6], BANK[$61]
+GameSceneNPCScriptReference0733::
   db "さくらさん<BR>おそろしい　まものについて<BR>ききましょうよ。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 85 (Data)", ROMX[$6EF3], BANK[$61]
-GameSceneNPCScript0018Reference85::
+SECTION "Game Scene NPC Script 0018 Reference 0734 (Data)", ROMX[$6EF3], BANK[$61]
+GameSceneNPCScriptReference0734::
   db "そうですね。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 86 (Data)", ROMX[$6EFA], BANK[$61]
-GameSceneNPCScript0018Reference86::
+SECTION "Game Scene NPC Script 0018 Reference 0735 (Data)", ROMX[$6EFA], BANK[$61]
+GameSceneNPCScriptReference0735::
   db "ねえ　きくちゃん<BR>おそろしい　まものって<BR>どんなやつ　だったんですか？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 87 (Data)", ROMX[$6F1E], BANK[$61]
-GameSceneNPCScript0018Reference87::
+SECTION "Game Scene NPC Script 0018 Reference 0736 (Data)", ROMX[$6F1E], BANK[$61]
+GameSceneNPCScriptReference0736::
   db "いっしゅんのことだったから<BR>おぼえてないんです〜。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 88 (Data)", ROMX[$6F38], BANK[$61]
-GameSceneNPCScript0018Reference88::
+SECTION "Game Scene NPC Script 0018 Reference 0737 (Data)", ROMX[$6F38], BANK[$61]
+GameSceneNPCScriptReference0737::
   db "そんなことより<BR>はやくたすけて　くださーい。<BR>さむくて　たおれそうでーす。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 89 (Data)", ROMX[$6F5E], BANK[$61]
-GameSceneNPCScript0018Reference89::
+SECTION "Game Scene NPC Script 0018 Reference 0738 (Data)", ROMX[$6F5E], BANK[$61]
+GameSceneNPCScriptReference0738::
   db "じゃあ　たすけに<BR>いきますから<BR>そこで　じっと<BR>しててくださーい。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 8A (Data)", ROMX[$6F80], BANK[$61]
-GameSceneNPCScript0018Reference8A::
+SECTION "Game Scene NPC Script 0018 Reference 0739 (Data)", ROMX[$6F80], BANK[$61]
+GameSceneNPCScriptReference0739::
   db "は〜い。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 8B (Data)", ROMX[$6F85], BANK[$61]
-GameSceneNPCScript0018Reference8B::
+SECTION "Game Scene NPC Script 0018 Reference 073A (Data)", ROMX[$6F85], BANK[$61]
+GameSceneNPCScriptReference073A::
   db "<NAME>さん<BR>いきますよ。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 8C (Data)", ROMX[$53DE], BANK[$61]
-GameSceneNPCScript0018Reference8C::
+SECTION "Game Scene NPC Script 0018 Reference 073B (Data)", ROMX[$53DE], BANK[$61]
+GameSceneNPCScriptReference073B::
   db "たすけにいこう。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 8D (Data)", ROMX[$53E7], BANK[$61]
-GameSceneNPCScript0018Reference8D::
+SECTION "Game Scene NPC Script 0018 Reference 073C (Data)", ROMX[$53E7], BANK[$61]
+GameSceneNPCScriptReference073C::
   db "そうだね　<NAME>。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 8E (Subroutine)", ROMX[$5190], BANK[$52]
-GameSceneNPCScript0018Reference8E::
-  db $07 ; Portrait
-    db $1E
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference95, BANK(GameSceneNPCScript0018Reference95)
-  db $07 ; Portrait
-    db $74
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference96, BANK(GameSceneNPCScript0018Reference96)
-  db $07 ; Portrait
-    db $21
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018Reference97, BANK(GameSceneNPCScript0018Reference97)
-  db $17 ; Spawn Visual Entity
-    db $01
-  db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0018 Reference 8F (Data)", ROMX[$53EF], BANK[$61]
-GameSceneNPCScript0018Reference8F::
+SECTION "Game Scene NPC Script 0018 Reference 073E (Data)", ROMX[$53EF], BANK[$61]
+GameSceneNPCScriptReference073E::
   db "たすけをよぼう。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 90 (Data)", ROMX[$53F8], BANK[$61]
-GameSceneNPCScript0018Reference90::
+SECTION "Game Scene NPC Script 0018 Reference 073F (Data)", ROMX[$53F8], BANK[$61]
+GameSceneNPCScriptReference073F::
   db "エッ？　そうなの？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 91 (Data)", ROMX[$5402], BANK[$61]
-GameSceneNPCScript0018Reference91::
+SECTION "Game Scene NPC Script 0018 Reference 0740 (Data)", ROMX[$5402], BANK[$61]
+GameSceneNPCScriptReference0740::
   db "きくちゃん。<BR>たすけをよぶから<BR>まっててね。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 92 (Data)", ROMX[$5419], BANK[$61]
-GameSceneNPCScript0018Reference92::
+SECTION "Game Scene NPC Script 0018 Reference 0741 (Data)", ROMX[$5419], BANK[$61]
+GameSceneNPCScriptReference0741::
   db "え〜〜〜っ……<BR>もうダメ。<BR>あたし　たおれちゃいそう……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 93 (Data)", ROMX[$5436], BANK[$61]
-GameSceneNPCScript0018Reference93::
+SECTION "Game Scene NPC Script 0018 Reference 0742 (Data)", ROMX[$5436], BANK[$61]
+GameSceneNPCScriptReference0742::
   db "え〜！<BR>タイヘンだよ！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 94 (Data)", ROMX[$5442], BANK[$61]
-GameSceneNPCScript0018Reference94::
+SECTION "Game Scene NPC Script 0018 Reference 0743 (Data)", ROMX[$5442], BANK[$61]
+GameSceneNPCScriptReference0743::
   db "……………………………………",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 95 (Data)", ROMX[$5451], BANK[$61]
-GameSceneNPCScript0018Reference95::
+SECTION "Game Scene NPC Script 0018 Reference 0744 (Data)", ROMX[$5451], BANK[$61]
+GameSceneNPCScriptReference0744::
   db "たすけにいくから<BR>まっててね。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 96 (Data)", ROMX[$5461], BANK[$61]
-GameSceneNPCScript0018Reference96::
+SECTION "Game Scene NPC Script 0018 Reference 0745 (Data)", ROMX[$5461], BANK[$61]
+GameSceneNPCScriptReference0745::
   db "は〜い。<BR>よろしくおねがいしま〜す。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 97 (Data)", ROMX[$5474], BANK[$61]
-GameSceneNPCScript0018Reference97::
+SECTION "Game Scene NPC Script 0018 Reference 0746 (Data)", ROMX[$5474], BANK[$61]
+GameSceneNPCScriptReference0746::
   db "<NAME>！<BR>レッツゴー！！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 98 (Data)", ROMX[$795B], BANK[$60]
-GameSceneNPCScript0018Reference98::
+SECTION "Game Scene NPC Script 0018 Reference 0747 (Data)", ROMX[$795B], BANK[$60]
+GameSceneNPCScriptReference0747::
   db "たすけに　いきましょう。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 99 (Data)", ROMX[$7968], BANK[$60]
-GameSceneNPCScript0018Reference99::
+SECTION "Game Scene NPC Script 0018 Reference 0748 (Data)", ROMX[$7968], BANK[$60]
+GameSceneNPCScriptReference0748::
   db "そうだね　<NAME>。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 9A (Subroutine)", ROMX[$4715], BANK[$52]
-GameSceneNPCScript0018Reference9A::
-  db $07 ; Portrait
-    db $1E
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018ReferenceA1, BANK(GameSceneNPCScript0018ReferenceA1)
-  db $07 ; Portrait
-    db $74
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018ReferenceA2, BANK(GameSceneNPCScript0018ReferenceA2)
-  db $07 ; Portrait
-    db $21
-  db $00 ; WriteText
-    dwb GameSceneNPCScript0018ReferenceA3, BANK(GameSceneNPCScript0018ReferenceA3)
-  db $17 ; Spawn Visual Entity
-    db $01
-  db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0018 Reference 9B (Data)", ROMX[$7970], BANK[$60]
-GameSceneNPCScript0018Reference9B::
+SECTION "Game Scene NPC Script 0018 Reference 074A (Data)", ROMX[$7970], BANK[$60]
+GameSceneNPCScriptReference074A::
   db "たすけを　よびましょう。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 9C (Data)", ROMX[$797D], BANK[$60]
-GameSceneNPCScript0018Reference9C::
+SECTION "Game Scene NPC Script 0018 Reference 074B (Data)", ROMX[$797D], BANK[$60]
+GameSceneNPCScriptReference074B::
   db "エッ？　そうなの？",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 9D (Data)", ROMX[$7987], BANK[$60]
-GameSceneNPCScript0018Reference9D::
+SECTION "Game Scene NPC Script 0018 Reference 074C (Data)", ROMX[$7987], BANK[$60]
+GameSceneNPCScriptReference074C::
   db "きくちゃん。<BR>たすけをよぶから<BR>まっててね。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 9E (Data)", ROMX[$799E], BANK[$60]
-GameSceneNPCScript0018Reference9E::
+SECTION "Game Scene NPC Script 0018 Reference 074D (Data)", ROMX[$799E], BANK[$60]
+GameSceneNPCScriptReference074D::
   db "え〜〜〜っ……<BR>もうダメ。<BR>あたし　たおれちゃいそう……",$00
 
-SECTION "Game Scene NPC Script 0018 Reference 9F (Data)", ROMX[$79BB], BANK[$60]
-GameSceneNPCScript0018Reference9F::
+SECTION "Game Scene NPC Script 0018 Reference 074E (Data)", ROMX[$79BB], BANK[$60]
+GameSceneNPCScriptReference074E::
   db "え〜！<BR>タイヘンだよ！",$00
 
-SECTION "Game Scene NPC Script 0018 Reference A0 (Data)", ROMX[$79C7], BANK[$60]
-GameSceneNPCScript0018ReferenceA0::
+SECTION "Game Scene NPC Script 0018 Reference 074F (Data)", ROMX[$79C7], BANK[$60]
+GameSceneNPCScriptReference074F::
   db "……………………………………",$00
 
-SECTION "Game Scene NPC Script 0018 Reference A1 (Data)", ROMX[$79D6], BANK[$60]
-GameSceneNPCScript0018ReferenceA1::
+SECTION "Game Scene NPC Script 0018 Reference 0750 (Data)", ROMX[$79D6], BANK[$60]
+GameSceneNPCScriptReference0750::
   db "たすけにいくから<BR>まっててね。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference A2 (Data)", ROMX[$79E6], BANK[$60]
-GameSceneNPCScript0018ReferenceA2::
+SECTION "Game Scene NPC Script 0018 Reference 0751 (Data)", ROMX[$79E6], BANK[$60]
+GameSceneNPCScriptReference0751::
   db "は〜い。<BR>よろしくおねがいしま〜す。",$00
 
-SECTION "Game Scene NPC Script 0018 Reference A3 (Data)", ROMX[$79F9], BANK[$60]
-GameSceneNPCScript0018ReferenceA3::
+SECTION "Game Scene NPC Script 0018 Reference 0752 (Data)", ROMX[$79F9], BANK[$60]
+GameSceneNPCScriptReference0752::
   db "<NAME>！<BR>レッツゴー！！",$00
 
 POPC

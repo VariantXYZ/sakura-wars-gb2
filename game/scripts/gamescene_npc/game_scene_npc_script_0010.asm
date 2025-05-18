@@ -5,29 +5,28 @@ INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
 
 SECTION "Game Scene NPC Script 0010", ROMX[$4328], BANK[$50]
 GameSceneNPCScript0010::
-; $50
-; $4328
+GameSceneNPCScriptReference0392::
   db $27 ; Branch based on party members
-    dwb GameSceneNPCScript0010Reference00, BANK(GameSceneNPCScript0010Reference00) ; 0
-    dwb GameSceneNPCScript0010Reference01, BANK(GameSceneNPCScript0010Reference01) ; 1
-    dwb GameSceneNPCScript0010Reference02, BANK(GameSceneNPCScript0010Reference02) ; 2
-    dwb GameSceneNPCScript0010Reference03, BANK(GameSceneNPCScript0010Reference03) ; 3
-    dwb GameSceneNPCScript0010Reference02, BANK(GameSceneNPCScript0010Reference02) ; 4
-    dwb GameSceneNPCScript0010Reference02, BANK(GameSceneNPCScript0010Reference02) ; 5
-    dwb GameSceneNPCScript0010Reference02, BANK(GameSceneNPCScript0010Reference02) ; 6
-    dwb GameSceneNPCScript0010Reference04, BANK(GameSceneNPCScript0010Reference04) ; 7
-    dwb GameSceneNPCScript0010Reference02, BANK(GameSceneNPCScript0010Reference02) ; 8
+    dwb GameSceneNPCScriptReference0393, BANK(GameSceneNPCScriptReference0393) ; 0
+    dwb GameSceneNPCScriptReference0394, BANK(GameSceneNPCScriptReference0394) ; 1
+    dwb GameSceneNPCScriptReference0395, BANK(GameSceneNPCScriptReference0395) ; 2
+    dwb GameSceneNPCScriptReference0396, BANK(GameSceneNPCScriptReference0396) ; 3
+    dwb GameSceneNPCScriptReference0395, BANK(GameSceneNPCScriptReference0395) ; 4
+    dwb GameSceneNPCScriptReference0395, BANK(GameSceneNPCScriptReference0395) ; 5
+    dwb GameSceneNPCScriptReference0395, BANK(GameSceneNPCScriptReference0395) ; 6
+    dwb GameSceneNPCScriptReference0397, BANK(GameSceneNPCScriptReference0397) ; 7
+    dwb GameSceneNPCScriptReference0395, BANK(GameSceneNPCScriptReference0395) ; 8
 
-SECTION "Game Scene NPC Script 0010 Reference 00 (Subroutine)", ROMX[$4344], BANK[$50]
-GameSceneNPCScript0010Reference00::
+SECTION "Game Scene NPC Script 0010 Reference 0393 (Subroutine)", ROMX[$4344], BANK[$50]
+GameSceneNPCScriptReference0393::
   db $26
-    dwb GameSceneNPCScript0010Reference02, BANK(GameSceneNPCScript0010Reference02) ; If Male
-    dwb GameSceneNPCScript0010Reference05, BANK(GameSceneNPCScript0010Reference05) ; If Female
+    dwb GameSceneNPCScriptReference0395, BANK(GameSceneNPCScriptReference0395) ; If Male
+    dwb GameSceneNPCScriptReference0398, BANK(GameSceneNPCScriptReference0398) ; If Female
 
-SECTION "Game Scene NPC Script 0010 Reference 01 (Subroutine)", ROMX[$7B76], BANK[$52]
-GameSceneNPCScript0010Reference01::
+SECTION "Game Scene NPC Script 0010 Reference 0394 (Subroutine)", ROMX[$7B76], BANK[$52]
+GameSceneNPCScriptReference0394::
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference06
+    dw GameSceneNPCScriptReference0399
     db $01
     db $FF
     db $40
@@ -44,7 +43,7 @@ GameSceneNPCScript0010Reference01::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference07
+    dw GameSceneNPCScriptReference039A
     db $01
     db $FF
     db $40
@@ -61,7 +60,7 @@ GameSceneNPCScript0010Reference01::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference08
+    dw GameSceneNPCScriptReference039B
     db $01
     db $FF
     db $40
@@ -78,8 +77,9 @@ GameSceneNPCScript0010Reference01::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference09
+    dw GameSceneNPCScriptReference039C
     db $00
+GameSceneNPCScriptReference039A::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -89,10 +89,10 @@ GameSceneNPCScript0010Reference01::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 02 (Subroutine)", ROMX[$7012], BANK[$52]
-GameSceneNPCScript0010Reference02::
+SECTION "Game Scene NPC Script 0010 Reference 0395 (Subroutine)", ROMX[$7012], BANK[$52]
+GameSceneNPCScriptReference0395::
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference0A
+    dw GameSceneNPCScriptReference039D
     db $01
     db $FF
     db $40
@@ -109,7 +109,7 @@ GameSceneNPCScript0010Reference02::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference0B
+    dw GameSceneNPCScriptReference039E
     db $01
     db $FF
     db $40
@@ -126,7 +126,7 @@ GameSceneNPCScript0010Reference02::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference0C
+    dw GameSceneNPCScriptReference039F
     db $01
     db $FF
     db $40
@@ -143,8 +143,9 @@ GameSceneNPCScript0010Reference02::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference0D
+    dw GameSceneNPCScriptReference03A0
     db $00
+GameSceneNPCScriptReference039E::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -154,16 +155,16 @@ GameSceneNPCScript0010Reference02::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 03 (Subroutine)", ROMX[$434B], BANK[$50]
-GameSceneNPCScript0010Reference03::
+SECTION "Game Scene NPC Script 0010 Reference 0396 (Subroutine)", ROMX[$434B], BANK[$50]
+GameSceneNPCScriptReference0396::
   db $26
-    dwb GameSceneNPCScript0010Reference0E, BANK(GameSceneNPCScript0010Reference0E) ; If Male
-    dwb GameSceneNPCScript0010Reference0F, BANK(GameSceneNPCScript0010Reference0F) ; If Female
+    dwb GameSceneNPCScriptReference03A1, BANK(GameSceneNPCScriptReference03A1) ; If Male
+    dwb GameSceneNPCScriptReference03A2, BANK(GameSceneNPCScriptReference03A2) ; If Female
 
-SECTION "Game Scene NPC Script 0010 Reference 04 (Subroutine)", ROMX[$5C3E], BANK[$52]
-GameSceneNPCScript0010Reference04::
+SECTION "Game Scene NPC Script 0010 Reference 0397 (Subroutine)", ROMX[$5C3E], BANK[$52]
+GameSceneNPCScriptReference0397::
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference10
+    dw GameSceneNPCScriptReference03A3
     db $01
     db $FF
     db $40
@@ -180,7 +181,7 @@ GameSceneNPCScript0010Reference04::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference11
+    dw GameSceneNPCScriptReference03A4
     db $01
     db $FF
     db $40
@@ -197,7 +198,7 @@ GameSceneNPCScript0010Reference04::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference12
+    dw GameSceneNPCScriptReference03A5
     db $01
     db $FF
     db $40
@@ -214,8 +215,9 @@ GameSceneNPCScript0010Reference04::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference13
+    dw GameSceneNPCScriptReference03A6
     db $00
+GameSceneNPCScriptReference03A4::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -225,10 +227,10 @@ GameSceneNPCScript0010Reference04::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 05 (Subroutine)", ROMX[$667A], BANK[$52]
-GameSceneNPCScript0010Reference05::
+SECTION "Game Scene NPC Script 0010 Reference 0398 (Subroutine)", ROMX[$667A], BANK[$52]
+GameSceneNPCScriptReference0398::
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference14
+    dw GameSceneNPCScriptReference03A7
     db $01
     db $FF
     db $40
@@ -245,7 +247,7 @@ GameSceneNPCScript0010Reference05::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference15
+    dw GameSceneNPCScriptReference03A8
     db $01
     db $FF
     db $40
@@ -262,7 +264,7 @@ GameSceneNPCScript0010Reference05::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference16
+    dw GameSceneNPCScriptReference03A9
     db $01
     db $FF
     db $40
@@ -279,8 +281,9 @@ GameSceneNPCScript0010Reference05::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference17
+    dw GameSceneNPCScriptReference03AA
     db $00
+GameSceneNPCScriptReference03A8::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -290,8 +293,8 @@ GameSceneNPCScript0010Reference05::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 06 (Subroutine)", ROMX[$7BCA], BANK[$52]
-GameSceneNPCScript0010Reference06::
+SECTION "Game Scene NPC Script 0010 Reference 0399 (Subroutine)", ROMX[$7BCA], BANK[$52]
+GameSceneNPCScriptReference0399::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -301,37 +304,26 @@ GameSceneNPCScript0010Reference06::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 07 (Subroutine)", ROMX[$7BB0], BANK[$52]
-GameSceneNPCScript0010Reference07::
-  db $2E ; Screen whiteout
-    db $04 ; Time 1
-    db $08 ; Time 2
-  db $0A ; Sound effect
-    db $5D
-  db $14 ; Change scene
-    db $01
-  db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0010 Reference 08 (Subroutine)", ROMX[$7BB8], BANK[$52]
-GameSceneNPCScript0010Reference08::
+SECTION "Game Scene NPC Script 0010 Reference 039B (Subroutine)", ROMX[$7BB8], BANK[$52]
+GameSceneNPCScriptReference039B::
   db $07 ; Portrait
     db $0D
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference18, BANK(GameSceneNPCScript0010Reference18)
+    dwb GameSceneNPCScriptReference03AB, BANK(GameSceneNPCScriptReference03AB)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference19, BANK(GameSceneNPCScript0010Reference19)
+    dwb GameSceneNPCScriptReference03AC, BANK(GameSceneNPCScriptReference03AC)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 09 (Subroutine)", ROMX[$7BC3], BANK[$52]
-GameSceneNPCScript0010Reference09::
+SECTION "Game Scene NPC Script 0010 Reference 039C (Subroutine)", ROMX[$7BC3], BANK[$52]
+GameSceneNPCScriptReference039C::
   db $07 ; Portrait
     db $0A
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference1A, BANK(GameSceneNPCScript0010Reference1A)
+    dwb GameSceneNPCScriptReference03AD, BANK(GameSceneNPCScriptReference03AD)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 0A (Subroutine)", ROMX[$7062], BANK[$52]
-GameSceneNPCScript0010Reference0A::
+SECTION "Game Scene NPC Script 0010 Reference 039D (Subroutine)", ROMX[$7062], BANK[$52]
+GameSceneNPCScriptReference039D::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -341,37 +333,26 @@ GameSceneNPCScript0010Reference0A::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 0B (Subroutine)", ROMX[$704C], BANK[$52]
-GameSceneNPCScript0010Reference0B::
-  db $2E ; Screen whiteout
-    db $04 ; Time 1
-    db $08 ; Time 2
-  db $0A ; Sound effect
-    db $5D
-  db $14 ; Change scene
-    db $01
-  db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0010 Reference 0C (Subroutine)", ROMX[$7054], BANK[$52]
-GameSceneNPCScript0010Reference0C::
+SECTION "Game Scene NPC Script 0010 Reference 039F (Subroutine)", ROMX[$7054], BANK[$52]
+GameSceneNPCScriptReference039F::
   db $07 ; Portrait
     db $04
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference1B, BANK(GameSceneNPCScript0010Reference1B)
+    dwb GameSceneNPCScriptReference03AE, BANK(GameSceneNPCScriptReference03AE)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 0D (Subroutine)", ROMX[$705B], BANK[$52]
-GameSceneNPCScript0010Reference0D::
+SECTION "Game Scene NPC Script 0010 Reference 03A0 (Subroutine)", ROMX[$705B], BANK[$52]
+GameSceneNPCScriptReference03A0::
   db $07 ; Portrait
     db $01
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference1C, BANK(GameSceneNPCScript0010Reference1C)
+    dwb GameSceneNPCScriptReference03AF, BANK(GameSceneNPCScriptReference03AF)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 0E (Subroutine)", ROMX[$5305], BANK[$52]
-GameSceneNPCScript0010Reference0E::
+SECTION "Game Scene NPC Script 0010 Reference 03A1 (Subroutine)", ROMX[$5305], BANK[$52]
+GameSceneNPCScriptReference03A1::
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference1D
+    dw GameSceneNPCScriptReference03B0
     db $01
     db $FF
     db $40
@@ -388,7 +369,7 @@ GameSceneNPCScript0010Reference0E::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference1E
+    dw GameSceneNPCScriptReference03B1
     db $01
     db $FF
     db $40
@@ -405,7 +386,7 @@ GameSceneNPCScript0010Reference0E::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference1F
+    dw GameSceneNPCScriptReference03B2
     db $01
     db $FF
     db $40
@@ -422,8 +403,9 @@ GameSceneNPCScript0010Reference0E::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference20
+    dw GameSceneNPCScriptReference03B3
     db $00
+GameSceneNPCScriptReference03B1::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -433,10 +415,10 @@ GameSceneNPCScript0010Reference0E::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 0F (Subroutine)", ROMX[$488C], BANK[$52]
-GameSceneNPCScript0010Reference0F::
+SECTION "Game Scene NPC Script 0010 Reference 03A2 (Subroutine)", ROMX[$488C], BANK[$52]
+GameSceneNPCScriptReference03A2::
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference21
+    dw GameSceneNPCScriptReference03B4
     db $01
     db $FF
     db $40
@@ -453,7 +435,7 @@ GameSceneNPCScript0010Reference0F::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference22
+    dw GameSceneNPCScriptReference03B5
     db $01
     db $FF
     db $40
@@ -470,7 +452,7 @@ GameSceneNPCScript0010Reference0F::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference23
+    dw GameSceneNPCScriptReference03B6
     db $01
     db $FF
     db $40
@@ -487,8 +469,9 @@ GameSceneNPCScript0010Reference0F::
     db $80
     db $00
   db $08 ; Local Branch
-    dw GameSceneNPCScript0010Reference24
+    dw GameSceneNPCScriptReference03B7
     db $00
+GameSceneNPCScriptReference03B5::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -498,8 +481,8 @@ GameSceneNPCScript0010Reference0F::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 10 (Subroutine)", ROMX[$5C8E], BANK[$52]
-GameSceneNPCScript0010Reference10::
+SECTION "Game Scene NPC Script 0010 Reference 03A3 (Subroutine)", ROMX[$5C8E], BANK[$52]
+GameSceneNPCScriptReference03A3::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -509,35 +492,24 @@ GameSceneNPCScript0010Reference10::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 11 (Subroutine)", ROMX[$5C78], BANK[$52]
-GameSceneNPCScript0010Reference11::
-  db $2E ; Screen whiteout
-    db $04 ; Time 1
-    db $08 ; Time 2
-  db $0A ; Sound effect
-    db $5D
-  db $14 ; Change scene
-    db $01
-  db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0010 Reference 12 (Subroutine)", ROMX[$5C80], BANK[$52]
-GameSceneNPCScript0010Reference12::
+SECTION "Game Scene NPC Script 0010 Reference 03A5 (Subroutine)", ROMX[$5C80], BANK[$52]
+GameSceneNPCScriptReference03A5::
   db $07 ; Portrait
     db $47
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference25, BANK(GameSceneNPCScript0010Reference25)
+    dwb GameSceneNPCScriptReference03B8, BANK(GameSceneNPCScriptReference03B8)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 13 (Subroutine)", ROMX[$5C87], BANK[$52]
-GameSceneNPCScript0010Reference13::
+SECTION "Game Scene NPC Script 0010 Reference 03A6 (Subroutine)", ROMX[$5C87], BANK[$52]
+GameSceneNPCScriptReference03A6::
   db $07 ; Portrait
     db $44
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference26, BANK(GameSceneNPCScript0010Reference26)
+    dwb GameSceneNPCScriptReference03B9, BANK(GameSceneNPCScriptReference03B9)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 14 (Subroutine)", ROMX[$66CA], BANK[$52]
-GameSceneNPCScript0010Reference14::
+SECTION "Game Scene NPC Script 0010 Reference 03A7 (Subroutine)", ROMX[$66CA], BANK[$52]
+GameSceneNPCScriptReference03A7::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -547,55 +519,44 @@ GameSceneNPCScript0010Reference14::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 15 (Subroutine)", ROMX[$66B4], BANK[$52]
-GameSceneNPCScript0010Reference15::
-  db $2E ; Screen whiteout
-    db $04 ; Time 1
-    db $08 ; Time 2
-  db $0A ; Sound effect
-    db $5D
-  db $14 ; Change scene
-    db $01
-  db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0010 Reference 16 (Subroutine)", ROMX[$66BC], BANK[$52]
-GameSceneNPCScript0010Reference16::
+SECTION "Game Scene NPC Script 0010 Reference 03A9 (Subroutine)", ROMX[$66BC], BANK[$52]
+GameSceneNPCScriptReference03A9::
   db $07 ; Portrait
     db $04
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference27, BANK(GameSceneNPCScript0010Reference27)
+    dwb GameSceneNPCScriptReference03BA, BANK(GameSceneNPCScriptReference03BA)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 17 (Subroutine)", ROMX[$66C3], BANK[$52]
-GameSceneNPCScript0010Reference17::
+SECTION "Game Scene NPC Script 0010 Reference 03AA (Subroutine)", ROMX[$66C3], BANK[$52]
+GameSceneNPCScriptReference03AA::
   db $07 ; Portrait
     db $01
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference28, BANK(GameSceneNPCScript0010Reference28)
+    dwb GameSceneNPCScriptReference03BB, BANK(GameSceneNPCScriptReference03BB)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 18 (Data)", ROMX[$41B7], BANK[$63]
-GameSceneNPCScript0010Reference18::
+SECTION "Game Scene NPC Script 0010 Reference 03AB (Data)", ROMX[$41B7], BANK[$63]
+GameSceneNPCScriptReference03AB::
   db "どこへいくんですの！<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 19 (Data)", ROMX[$41D9], BANK[$63]
-GameSceneNPCScript0010Reference19::
+SECTION "Game Scene NPC Script 0010 Reference 03AC (Data)", ROMX[$41D9], BANK[$63]
+GameSceneNPCScriptReference03AC::
   db "たいへんなことに<BR>なりますわよ！！",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 1A (Data)", ROMX[$41EB], BANK[$63]
-GameSceneNPCScript0010Reference1A::
+SECTION "Game Scene NPC Script 0010 Reference 03AD (Data)", ROMX[$41EB], BANK[$63]
+GameSceneNPCScriptReference03AD::
   db "エンジンが<BR>とまっているのに<BR>うごくわけないじゃ<BR>ありませんの！",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 1B (Data)", ROMX[$4D30], BANK[$62]
-GameSceneNPCScript0010Reference1B::
+SECTION "Game Scene NPC Script 0010 Reference 03AE (Data)", ROMX[$4D30], BANK[$62]
+GameSceneNPCScriptReference03AE::
   db "どこへいくんですか！<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになります！！",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 1C (Data)", ROMX[$4D61], BANK[$62]
-GameSceneNPCScript0010Reference1C::
+SECTION "Game Scene NPC Script 0010 Reference 03AF (Data)", ROMX[$4D61], BANK[$62]
+GameSceneNPCScriptReference03AF::
   db "エンジンが<BR>とまっているんですから<BR>うごきませんよ。",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 1D (Subroutine)", ROMX[$5359], BANK[$52]
-GameSceneNPCScript0010Reference1D::
+SECTION "Game Scene NPC Script 0010 Reference 03B0 (Subroutine)", ROMX[$5359], BANK[$52]
+GameSceneNPCScriptReference03B0::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -605,37 +566,26 @@ GameSceneNPCScript0010Reference1D::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 1E (Subroutine)", ROMX[$533F], BANK[$52]
-GameSceneNPCScript0010Reference1E::
-  db $2E ; Screen whiteout
-    db $04 ; Time 1
-    db $08 ; Time 2
-  db $0A ; Sound effect
-    db $5D
-  db $14 ; Change scene
-    db $01
-  db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0010 Reference 1F (Subroutine)", ROMX[$5347], BANK[$52]
-GameSceneNPCScript0010Reference1F::
+SECTION "Game Scene NPC Script 0010 Reference 03B2 (Subroutine)", ROMX[$5347], BANK[$52]
+GameSceneNPCScriptReference03B2::
   db $07 ; Portrait
     db $21
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference29, BANK(GameSceneNPCScript0010Reference29)
+    dwb GameSceneNPCScriptReference03BC, BANK(GameSceneNPCScriptReference03BC)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference2A, BANK(GameSceneNPCScript0010Reference2A)
+    dwb GameSceneNPCScriptReference03BD, BANK(GameSceneNPCScriptReference03BD)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 20 (Subroutine)", ROMX[$5352], BANK[$52]
-GameSceneNPCScript0010Reference20::
+SECTION "Game Scene NPC Script 0010 Reference 03B3 (Subroutine)", ROMX[$5352], BANK[$52]
+GameSceneNPCScriptReference03B3::
   db $07 ; Portrait
     db $1E
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference2B, BANK(GameSceneNPCScript0010Reference2B)
+    dwb GameSceneNPCScriptReference03BE, BANK(GameSceneNPCScriptReference03BE)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 21 (Subroutine)", ROMX[$48E0], BANK[$52]
-GameSceneNPCScript0010Reference21::
+SECTION "Game Scene NPC Script 0010 Reference 03B4 (Subroutine)", ROMX[$48E0], BANK[$52]
+GameSceneNPCScriptReference03B4::
   db $2E ; Screen whiteout
     db $04 ; Time 1
     db $08 ; Time 2
@@ -645,73 +595,62 @@ GameSceneNPCScript0010Reference21::
     db $01
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 22 (Subroutine)", ROMX[$48C6], BANK[$52]
-GameSceneNPCScript0010Reference22::
-  db $2E ; Screen whiteout
-    db $04 ; Time 1
-    db $08 ; Time 2
-  db $0A ; Sound effect
-    db $5D
-  db $14 ; Change scene
-    db $01
-  db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0010 Reference 23 (Subroutine)", ROMX[$48CE], BANK[$52]
-GameSceneNPCScript0010Reference23::
+SECTION "Game Scene NPC Script 0010 Reference 03B6 (Subroutine)", ROMX[$48CE], BANK[$52]
+GameSceneNPCScriptReference03B6::
   db $07 ; Portrait
     db $21
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference2C, BANK(GameSceneNPCScript0010Reference2C)
+    dwb GameSceneNPCScriptReference03BF, BANK(GameSceneNPCScriptReference03BF)
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference2D, BANK(GameSceneNPCScript0010Reference2D)
+    dwb GameSceneNPCScriptReference03C0, BANK(GameSceneNPCScriptReference03C0)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 24 (Subroutine)", ROMX[$48D9], BANK[$52]
-GameSceneNPCScript0010Reference24::
+SECTION "Game Scene NPC Script 0010 Reference 03B7 (Subroutine)", ROMX[$48D9], BANK[$52]
+GameSceneNPCScriptReference03B7::
   db $07 ; Portrait
     db $1E
   db $00 ; WriteText
-    dwb GameSceneNPCScript0010Reference2E, BANK(GameSceneNPCScript0010Reference2E)
+    dwb GameSceneNPCScriptReference03C1, BANK(GameSceneNPCScriptReference03C1)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0010 Reference 25 (Data)", ROMX[$69DA], BANK[$62]
-GameSceneNPCScript0010Reference25::
+SECTION "Game Scene NPC Script 0010 Reference 03B8 (Data)", ROMX[$69DA], BANK[$62]
+GameSceneNPCScriptReference03B8::
   db "どこへいくんだ！<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになる！！",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 26 (Data)", ROMX[$6A07], BANK[$62]
-GameSceneNPCScript0010Reference26::
+SECTION "Game Scene NPC Script 0010 Reference 03B9 (Data)", ROMX[$6A07], BANK[$62]
+GameSceneNPCScriptReference03B9::
   db "エンジンが<BR>とまっているのに<BR>うごくわけないだろ。",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 27 (Data)", ROMX[$744C], BANK[$61]
-GameSceneNPCScript0010Reference27::
+SECTION "Game Scene NPC Script 0010 Reference 03BA (Data)", ROMX[$744C], BANK[$61]
+GameSceneNPCScriptReference03BA::
   db "どこへいくんですか！<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになります！！",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 28 (Data)", ROMX[$747D], BANK[$61]
-GameSceneNPCScript0010Reference28::
+SECTION "Game Scene NPC Script 0010 Reference 03BB (Data)", ROMX[$747D], BANK[$61]
+GameSceneNPCScriptReference03BB::
   db "エンジンが<BR>とまっているから<BR>うごかないんですよ。",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 29 (Data)", ROMX[$58C1], BANK[$61]
-GameSceneNPCScript0010Reference29::
+SECTION "Game Scene NPC Script 0010 Reference 03BC (Data)", ROMX[$58C1], BANK[$61]
+GameSceneNPCScriptReference03BC::
   db "どこへいくの？<BR>ダメだよ　<NAME>！",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 2A (Data)", ROMX[$58D1], BANK[$61]
-GameSceneNPCScript0010Reference2A::
+SECTION "Game Scene NPC Script 0010 Reference 03BD (Data)", ROMX[$58D1], BANK[$61]
+GameSceneNPCScriptReference03BD::
   db "はやく　エンジンのぼうそうを<BR>とめないと　タイヘンなことに<BR>なっちゃうよ。",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 2B (Data)", ROMX[$58F7], BANK[$61]
-GameSceneNPCScript0010Reference2B::
+SECTION "Game Scene NPC Script 0010 Reference 03BE (Data)", ROMX[$58F7], BANK[$61]
+GameSceneNPCScriptReference03BE::
   db "エンジンが　とまっているから<BR>うごかないんだよ。",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 2C (Data)", ROMX[$7E5C], BANK[$60]
-GameSceneNPCScript0010Reference2C::
+SECTION "Game Scene NPC Script 0010 Reference 03BF (Data)", ROMX[$7E5C], BANK[$60]
+GameSceneNPCScriptReference03BF::
   db "どこへいくの？<BR>ダメだよ　<NAME>！",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 2D (Data)", ROMX[$7E6C], BANK[$60]
-GameSceneNPCScript0010Reference2D::
+SECTION "Game Scene NPC Script 0010 Reference 03C0 (Data)", ROMX[$7E6C], BANK[$60]
+GameSceneNPCScriptReference03C0::
   db "はやく　エンジンのぼうそうを<BR>とめないと　タイヘンなことに<BR>なっちゃうよ。",$00
 
-SECTION "Game Scene NPC Script 0010 Reference 2E (Data)", ROMX[$7E92], BANK[$60]
-GameSceneNPCScript0010Reference2E::
+SECTION "Game Scene NPC Script 0010 Reference 03C1 (Data)", ROMX[$7E92], BANK[$60]
+GameSceneNPCScriptReference03C1::
   db "エンジンが　とまっているから<BR>うごかないんだよ。",$00
 
 POPC

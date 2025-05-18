@@ -5,14 +5,13 @@ INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
 
 SECTION "Game Scene NPC Script 005B", ROMX[$688A], BANK[$51]
 GameSceneNPCScript005B::
-; $51
-; $688A
+GameSceneNPCScriptReference2297::
   db $0A ; Sound effect
     db $26
   db $07 ; Portrait
     db $C4
   db $00 ; WriteText
-    dwb GameSceneNPCScript005BReference00, BANK(GameSceneNPCScript005BReference00)
+    dwb GameSceneNPCScriptReference2298, BANK(GameSceneNPCScriptReference2298)
   db $0B
     db $00
     db $FF
@@ -22,8 +21,8 @@ GameSceneNPCScript005B::
     db $71
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 005B Reference 00 (Data)", ROMX[$702A], BANK[$94]
-GameSceneNPCScript005BReference00::
+SECTION "Game Scene NPC Script 005B Reference 2298 (Data)", ROMX[$702A], BANK[$94]
+GameSceneNPCScriptReference2298::
   db "<NAME>は　キーアイテム<BR>『ヘアーワックス』を<BR>てにいれた。",$00
 
 POPC

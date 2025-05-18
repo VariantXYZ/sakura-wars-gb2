@@ -182,39 +182,69 @@ with open(rom_path, 'rb') as rom:
 
     # NPC scripts follow a different set of commands from the Game Scenes themselves
     # There is also no table to help identify their sizes, so termination commands must be used
-    for index, addr in enumerate(npc_data):
-        rom_addr = utils.real2romaddr(addr)
-        with open(os.path.join(game_scene_npc_script_dir, f'game_scene_npc_script_{index:04X}.asm'), 'w') as text_fp:
+    reference_map = {}
+    reference_count = 0
+    handled_references = []
+    initial_references = []
+
+    to_parse = deque()
+    def add_reference(bank, addr, data_terminator, data_count, data_type):
+        global reference_count
+        global reference_map
+
+        real_addr = utils.rom2realaddr((bank, addr))
+        
+        if real_addr in reference_map and reference_map[real_addr][0] == False:
+            return reference_map[real_addr][1]
+
+        if real_addr in reference_map:
+            reference_map[real_addr] = (True, reference_map[real_addr][1])
+        else:
+            reference_map[real_addr] = (False, reference_count)
+            reference_count += 1
+
+        reference_id = reference_map[real_addr][1]
+        to_parse.append((reference_id, bank, addr, data_terminator, data_count, data_type))
+
+        return reference_id
+
+    def do_write_line(write_line, ls, l):
+        if write_line:
+            ls.append(l)
+
+    files = {}
+
+    for write_stage in range(2):
+        write_line = write_stage == 1
+
+        # On subsequent runs, make sure we run through and parse as necessary
+        for reference_addr in reference_map:
+            reference_map[reference_addr] = (True, reference_map[reference_addr][1])
+
+        prefix = f'GameSceneNPCScript'
+        for index, addr in enumerate(npc_data):
+            rom_addr = utils.real2romaddr(addr)
+            file_path = os.path.join(game_scene_npc_script_dir, f'game_scene_npc_script_{index:04X}.asm')
+            files[file_path] = []
+            lines = files[file_path]
+
             title = f'Game Scene NPC Script {index:04X}'
-            prefix = f'GameSceneNPCScript{index:04X}'
-            text_fp.write('PUSHC\n\n')
-            text_fp.write(f'INCLUDE "game/src/common/macros.asm"\n')
-            text_fp.write(f'INCLUDE "{game_scene_npc_charmap}"\n\n')
-            text_fp.write(f'SECTION "{title}", ROMX[${rom_addr[1]:04X}], BANK[${rom_addr[0]:02X}]\n')
-            text_fp.write(f'{prefix}::\n')
-            text_fp.write(f'; ${rom_addr[0]:02X}\n')
-            text_fp.write(f'; ${rom_addr[1]:04X}\n')
+            do_write_line(write_line, lines, 'PUSHC\n')
+            do_write_line(write_line, lines, f'INCLUDE "game/src/common/macros.asm"')
+            do_write_line(write_line, lines, f'INCLUDE "{game_scene_npc_charmap}"\n')
+            do_write_line(write_line, lines, f'SECTION "{title}", ROMX[${rom_addr[1]:04X}], BANK[${rom_addr[0]:02X}]')
+            do_write_line(write_line, lines, f'{prefix}{index:04X}::')
             rom.seek(addr)
 
+            if index + 1 > len(initial_references):
+                initial_references.append(reference_count)
+            initial_reference = initial_references[index]
+
             # Queue up data to parse out
-            # TODO: Handle duplicate references, it will break as soon as we deal with them
-            to_parse = deque([utils.read_byte(rom)])
-            lines = []
+            initial_written = False
+            add_reference(rom_addr[0], rom_addr[1], None, None, None)
             current_bank = rom_addr[0]
             is_term = False
-            reference_count = 0
-            reference_map = {}
-
-            def add_reference(bank, addr, data_terminator, data_count, data_type):
-                global reference_count
-                real_addr = utils.rom2realaddr((bank, addr))
-                if real_addr in reference_map:
-                    return reference_map[real_addr]
-                reference_id = reference_count
-                reference_count += 1
-                to_parse.append((reference_id, bank, addr, data_terminator, data_count, data_type))
-                reference_map[real_addr] = reference_id
-                return reference_id
 
             while len(to_parse) > 0:
                 val = to_parse.popleft()
@@ -222,231 +252,232 @@ with open(rom_path, 'rb') as rom:
                     # Parse command locally
                     # TODO: Use command class
                     # TODO: Use parameter data + csv writer
+
                     if val == 0x00:
                         # Write text from [addr:2LE], [Bank]
                         # Text is terminated by $00
                         addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                         bank = utils.read_byte(rom)
                         reference_id = add_reference(bank, addr, 0x00, 1, "Text")
-                        lines.append(f'  db ${val:02X} ; WriteText')
-                        lines.append(f'    dwb {prefix}Reference{reference_id:02X}, BANK({prefix}Reference{reference_id:02X})')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; WriteText')
+                        do_write_line(write_line, lines, f'    dwb {prefix}Reference{reference_id:04X}, BANK({prefix}Reference{reference_id:04X})')
                     elif val == 0x01:
                         # Timed choice
                         is_term = True
                         arg1 = utils.read_byte(rom) # Counter speed
                         arg2 = utils.read_byte(rom) # Length?
-                        lines.append(f'  db ${val:02X} ; TimedOption')
-                        lines.append(f'    db ${arg1} ; Available Time')
-                        lines.append(f'    db ${arg2}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; TimedOption')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X} ; Available Time')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
 
                         while True:
                             addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                             if addr == 0xFFFF:
-                                lines.append(f'    dw $FFFF')
+                                do_write_line(write_line, lines, f'    dw $FFFF')
                                 break
                             bank = utils.read_byte(rom)
                             reference_id = add_reference(bank, addr, 0x00, 1, "Text")
-                            lines.append(f'    dwb {prefix}Reference{reference_id:02X}, BANK({prefix}Reference{reference_id:02X}) ; Text')
+                            do_write_line(write_line, lines, f'    dwb {prefix}Reference{reference_id:04X}, BANK({prefix}Reference{reference_id:04X}) ; Text')
                             addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                             if addr == 0xFFFF:
-                                lines.append(f'    dw $FFFF')
+                                do_write_line(write_line, lines, f'    dw $FFFF')
                                 break
                             reference_id = add_reference(current_bank, addr, None, None, None)
-                            lines.append(f'    dw {prefix}Reference{reference_id:02X} ; Option Branch')
+                            do_write_line(write_line, lines, f'    dw {prefix}Reference{reference_id:04X} ; Option Branch')
                     elif val == 0x02:
                         # Not sure
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x05:
                         # Combat
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Combat')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Combat')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
                     elif val == 0x06:
                         # Not sure
-                        lines.append(f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
                     elif val == 0x07:
                         # Probably setting portrait
-                        lines.append(f'  db ${val:02X} ; Portrait')
-                        lines.append(f'    db ${utils.read_byte(rom):02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Portrait')
+                        do_write_line(write_line, lines, f'    db ${utils.read_byte(rom):02X}')
                     elif val == 0x09:
                         # Not sure
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x08:
                         # Local branch
                         addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                         reference_id = add_reference(current_bank, addr, None, None, None)
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Local Branch')
-                        lines.append(f'    dw {prefix}Reference{reference_id:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Local Branch')
+                        do_write_line(write_line, lines, f'    dw {prefix}Reference{reference_id:04X}')
                         while arg1 != 0x00:
                             if arg1 == 0x07:
                                 # Seems to be an indicator that there's a next byte to read
-                                lines.append(f'    db ${arg1:02X}')
+                                do_write_line(write_line, lines, f'    db ${arg1:02X}')
                                 arg1 = utils.read_byte(rom)
                             arg2 = utils.read_byte(rom)
                             arg3 = utils.read_byte(rom)
                             arg4 = utils.read_byte(rom)
-                            lines.append(f'    db ${arg1:02X}')
-                            lines.append(f'    db ${arg2:02X}')
-                            lines.append(f'    db ${arg3:02X}')
-                            lines.append(f'    db ${arg4:02X}')
+                            do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                            do_write_line(write_line, lines, f'    db ${arg2:02X}')
+                            do_write_line(write_line, lines, f'    db ${arg3:02X}')
+                            do_write_line(write_line, lines, f'    db ${arg4:02X}')
                             arg1 = utils.read_byte(rom)
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x0A:
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Sound effect')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Sound effect')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x0B:
                         # Not sure
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
                         arg3 = utils.read_byte(rom)
                         arg4 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')
-                        lines.append(f'    db ${arg3:02X}')
-                        lines.append(f'    db ${arg4:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg3:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg4:02X}')
                     elif val == 0x0C:
                         # Not sure
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x0D:
                         # Not sure
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
                     elif val == 0x0E:
                         # Seems to be when allies pop up for a scene
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Ally Split')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Ally Split')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
                     elif val == 0x0F:
                         # Maybe sound effects? Not sure...
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
                     elif val == 0x10:
                         # Not sure
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x11:
                         # Not sure
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x12:
                         # Special move? 12 31 seems to push the sprite down
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x13:
                         # Not sure
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x14:
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Change scene')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Change scene')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x15:
                         # Not sure
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x16:
                         # Move character in a direction
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Move character')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Move character')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
                     elif val == 0x17:
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Spawn Visual Entity')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Spawn Visual Entity')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x18:
                         # N options until we hit 0xFFFF
                         is_term = True
-                        lines.append(f'  db ${val:02X} ; Option Select')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Option Select')
                         while True:
                             addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                             bank = utils.read_byte(rom)
                             if addr == 0xFFFF:
-                                lines.append(f'    dw $FFFF')
+                                do_write_line(write_line, lines, f'    dw $FFFF')
                                 break
                             reference_id = add_reference(bank, addr, 0x00, 1, "Text")
                             # Text
-                            lines.append(f'    dwb {prefix}Reference{reference_id:02X}, BANK({prefix}Reference{reference_id:02X}) ; Text')
+                            do_write_line(write_line, lines, f'    dwb {prefix}Reference{reference_id:04X}, BANK({prefix}Reference{reference_id:04X}) ; Text')
                             addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                             if addr == 0xFFFF:
-                                lines.append(f'    dw $FFFF')
+                                do_write_line(write_line, lines, f'    dw $FFFF')
                                 break
                             # Option branch
                             reference_id = add_reference(current_bank, addr, None, None, None)
-                            lines.append(f'    dw {prefix}Reference{reference_id:02X} ; Option Branch')
+                            do_write_line(write_line, lines, f'    dw {prefix}Reference{reference_id:04X} ; Option Branch')
                     elif val == 0x19:
                         # Not sure
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
                     elif val == 0x1A:
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Spawn/spin in entity')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Spawn/spin in entity')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x1B:
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Chest')
-                        lines.append(f'    db ${arg1:02X} ; Item in chest')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Chest')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X} ; Item in chest')
                     elif val == 0x1C:
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Chest 2')
-                        lines.append(f'    db ${arg1:02X} ; Item in chest')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Chest 2')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X} ; Item in chest')
                     elif val == 0x1D:
                         arg1 = utils.read_byte(rom)
                         addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                         reference_id = add_reference(current_bank, addr, None, None, None)
                         arg3 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Timer')
-                        lines.append(f'    db ${arg1:02X} ; Available Time') # Lower is smaller
-                        lines.append(f'    dw {prefix}Reference{reference_id:02X} ; On Timer Branch')
-                        lines.append(f'    db ${arg3:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Timer')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X} ; Available Time') # Lower is smaller
+                        do_write_line(write_line, lines, f'    dw {prefix}Reference{reference_id:04X} ; On Timer Branch')
+                        do_write_line(write_line, lines, f'    db ${arg3:02X}')
                         is_term = True # Not sure about this
                     elif val == 0x1E:
-                        lines.append(f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
                     elif val == 0x1F:
-                        lines.append(f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
                     elif val == 0x20:
                         # Effect
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Visual Effect')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Visual Effect')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x21:
-                        lines.append(f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
                     elif val == 0x23:
-                        lines.append(f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
                     elif val == 0x25:
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Incrementing Timer')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X} ; Max Seconds')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Incrementing Timer')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X} ; Max Seconds')
                     elif val == 0x26:
                         # If Male/Female
                         addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
@@ -455,109 +486,106 @@ with open(rom_path, 'rb') as rom:
                         addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                         bank = utils.read_byte(rom)
                         option2_reference_id = add_reference(bank, addr, None, None, None)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    dwb {prefix}Reference{option1_reference_id:02X}, BANK({prefix}Reference{option1_reference_id:02X}) ; If Male')
-                        lines.append(f'    dwb {prefix}Reference{option2_reference_id:02X}, BANK({prefix}Reference{option2_reference_id:02X}) ; If Female')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    dwb {prefix}Reference{option1_reference_id:04X}, BANK({prefix}Reference{option1_reference_id:04X}) ; If Male')
+                        do_write_line(write_line, lines, f'    dwb {prefix}Reference{option2_reference_id:04X}, BANK({prefix}Reference{option2_reference_id:04X}) ; If Female')
                         is_term = True
                     elif val == 0x27:
-                        lines.append(f'  db ${val:02X} ; Branch based on party members')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Branch based on party members')
                         for i in range(0, 9):
                             addr = utils.read_byte(rom) | (utils.read_byte(rom) << 8)
                             bank = utils.read_byte(rom)
                             reference_id = add_reference(bank, addr, None, None, None)
-                            lines.append(f'    dwb {prefix}Reference{reference_id:02X}, BANK({prefix}Reference{reference_id:02X}) ; {i}')
+                            do_write_line(write_line, lines, f'    dwb {prefix}Reference{reference_id:04X}, BANK({prefix}Reference{reference_id:04X}) ; {i}')
                         is_term = True
                     elif val == 0x28:
                         # Unsure
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
                     elif val == 0x29:
                         # Unsure
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
                     elif val == 0x2A:
                         # Unsure, plays a sound effect?
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x2B:
                         # Seems to spawn and move an entity
                         # Unsure if this is just modifying another command though
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')                    
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')                    
                     elif val == 0x2C:
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Lights off')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Lights off')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
                     elif val == 0x2D:
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Lights on')
-                        lines.append(f'    db ${arg1:02X}')
-                        lines.append(f'    db ${arg2:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Lights on')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
                     elif val == 0x2E:
                         # Whiteout screen
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Screen whiteout')
-                        lines.append(f'    db ${arg1:02X} ; Time 1')
-                        lines.append(f'    db ${arg2:02X} ; Time 2')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Screen whiteout')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X} ; Time 1')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X} ; Time 2')
                     elif val == 0x30:
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x31:
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X}')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x32:
-                        lines.append(f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
                     elif val == 0x33:
-                        lines.append(f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
                     elif val == 0x34:
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Spawn and move entity away')
-                        lines.append(f'    db ${arg1:02X} ; Entity')
-                        lines.append(f'    db ${arg2:02X} ; Direction') # Might be some negative/positive velocity thing
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Spawn and move entity away')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X} ; Entity')
+                        do_write_line(write_line, lines, f'    db ${arg2:02X} ; Direction') # Might be some negative/positive velocity thing
                     elif val == 0x35:
                         # Jump but the argument seems to be an effect or entity that is jumping?
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Jump')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Jump')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x37:
-                        lines.append(f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
                     elif val == 0x38:
-                        lines.append(f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
                     elif val == 0x39:
                         # Not sure
                         arg1 = utils.read_byte(rom)
-                        lines.append(f'  db ${val:02X} ; Jump')
-                        lines.append(f'    db ${arg1:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Jump')
+                        do_write_line(write_line, lines, f'    db ${arg1:02X}')
                     elif val == 0x3A:
                         # Lock input, seems to be used for debug?
                         # 00 77 40 24 3A FF seems to give a portrait debug box
-                        lines.append(f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
                     elif val == 0x3C:
-                        lines.append(f'  db ${val:02X}')
+                        do_write_line(write_line, lines, f'  db ${val:02X}')
                     elif val == 0xFF:
-                        lines.append(f'  db ${val:02X} ; Exit')
+                        do_write_line(write_line, lines, f'  db ${val:02X} ; Exit')
                         is_term = True
                     else:
-                        # TODO: This branch should assert when we have a more complete set
-                        #is_term = True
-                        #state = None
                         print('\n'.join(lines))
                         print(f'{utils.real2romaddr(rom.tell())[0]:02X}:{utils.real2romaddr(rom.tell())[1]:04X}')
                         raise ValueError(f"Unknown command {val:02X}")
@@ -570,14 +598,22 @@ with open(rom_path, 'rb') as rom:
                     data_type = val[5]
                     is_data = data_terminator is not None
                     current_bank = bank
+
+                    if reference_id < initial_reference:
+                        continue
+
+                    real_addr = utils.rom2realaddr((bank, addr))
                     try:
-                        rom.seek(utils.rom2realaddr((bank, addr)))
+                        rom.seek(real_addr)
                     except:
                         print("\n".join(lines))
                         raise
-                    lines.append(f'\nSECTION "{title} Reference {reference_id:02X} ({"Data" if is_data else "Subroutine"})", ROMX[${addr:04X}], BANK[${bank:02X}]')
-                    lines.append(f'{prefix}Reference{reference_id:02X}::')
+                    if initial_written == False:
+                        initial_written = True 
+                    elif real_addr not in handled_references:
+                        do_write_line(write_line, lines, f'\nSECTION "{title} Reference {reference_id:04X} ({"Data" if is_data else "Subroutine"})", ROMX[${addr:04X}], BANK[${bank:02X}]')
                     if is_data:
+                        do_write_line(write_line, lines, f'{prefix}Reference{reference_id:04X}::')
                         is_term = True
                         for _ in range(data_count):
                             data = list(iter(partial(utils.read_byte, rom), data_terminator))
@@ -608,19 +644,31 @@ with open(rom_path, 'rb') as rom:
                                         print('\n'.join(lines))
                                         raise ValueError(f"{index:04X}: Unknown character at {bank:02X}:{addr:04X} {byte:02X}")
                                     length += 1
-                                lines.append(f'  db "{text}",${data_terminator:02X}')
+                                do_write_line(write_line, lines, f'  db "{text}",${data_terminator:02X}')
                             else:
-                                lines.append(f'  db {",".join([f"${x:02X}" for x in data])},${data_terminator:02X}' + f' ; {data_type}' if data_type is not None else '')
-                    else:
+                                do_write_line(write_line, lines, f'  db {",".join([f"${x:02X}" for x in data])},${data_terminator:02X}' + f' ; {data_type}' if data_type is not None else '')
+                    elif real_addr not in handled_references:
                         is_term = False
 
                 if is_term == False:
                     # Queue up the next byte to parse, in order
-                    to_parse.appendleft(utils.read_byte(rom))
+                    real_addr = rom.tell()
+                    if write_stage == 0:
+                        to_parse.appendleft(utils.read_byte(rom))
+                    elif (real_addr in reference_map) and (real_addr not in handled_references):
+                        reference_id = reference_map[real_addr][1]
+                        handled_references.append(real_addr)
+                        if reference_id >= initial_reference:
+                            do_write_line(write_line, lines, f'{prefix}Reference{reference_id:04X}::')
+                            to_parse.appendleft(utils.read_byte(rom))
+                    elif real_addr not in handled_references:
+                        to_parse.appendleft(utils.read_byte(rom))
 
+    for filename in files:
+        with open(filename, 'w') as text_fp:
+            lines = files[filename]
             for line in lines:
                 text_fp.write(line + '\n')
-
             text_fp.write('\nPOPC\n')
 
     with open(game_scene_npc_charmap, 'w') as charmap_fp:
