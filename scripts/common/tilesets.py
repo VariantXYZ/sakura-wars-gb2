@@ -21,5 +21,5 @@ def get_tileset(tileset_name, index = -1, override_offset = -1):
     else:
         base_offset = override_offset
 
-    tbl = utils.read_list(f'scripts/res/tilesets/{tileset_name}.lst', base_offset)
+    tbl = utils.read_list(f'scripts/res/tilesets/{tileset_name}.lst', base_offset, True)
     return tbl

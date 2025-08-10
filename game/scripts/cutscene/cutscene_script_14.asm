@@ -13,7 +13,7 @@ CutsceneScript14::
   WriteText "これ おれいです。<BR>"
   PromptContinue
   Unknown0F $00,$01
-  WriteText "xxxxxですね。<BR>ありがとうございます。<BR>"
+  WriteText "×××××ですね。<BR>ありがとうございます。<BR>"
   PromptContinue
   SetPortrait $0E,$11,$01
   WriteText "にんむ がんばって<BR>くださいね。<BR>"
@@ -27,7 +27,7 @@ CutsceneScript14::
   WriteText "これ おれいです。<BR>"
   PromptContinue
   Unknown0F $00,$01
-  WriteText "xxxxxですね。<BR>ありがとうございます。<BR>"
+  WriteText "×××××ですね。<BR>ありがとうございます。<BR>"
   PromptContinue
   SetPortrait $0E,$11,$01
   WriteText "にんむ がんばって<BR>くださいね。<BR>"
