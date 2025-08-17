@@ -15,7 +15,7 @@ CutsceneScript17::
   WriteText "はい これあたしからの<BR>こころをこめた<BR>プレゼントです<RED>♥<BLACK><BR>"
   PromptContinue
   Unknown0F $00,$02
-  WriteText "<NAME>は<BR>xxxxx を<BR>てにいれた<BR>"
+  WriteText "<NAME>は<BR>××××× を<BR>てにいれた<BR>"
   PromptContinue
   Unknown0F $00,$01
   WriteText "ありがとうございます。<BR>きくちゃん。<BR>"
@@ -31,7 +31,7 @@ CutsceneScript17::
   WriteText "はい これあたしからの<BR>おれいです<RED>♥<BLACK><BR>"
   PromptContinue
   Unknown0F $00,$02
-  WriteText "<NAME>は<BR>xxxxx を<BR>てにいれた<BR>"
+  WriteText "<NAME>は<BR>××××× を<BR>てにいれた<BR>"
   PromptContinue
   Unknown0F $00,$01
   WriteText "ありがとうございます。<BR>きくちゃん。<BR>"
@@ -44,7 +44,7 @@ CutsceneScript17::
   WriteText "はい これあたしからの<BR>おれいです<RED>♥<BLACK><BR>"
   PromptContinue
   Unknown0F $00,$02
-  WriteText "<NAME>は<BR>xxxxx を<BR>てにいれた<BR>"
+  WriteText "<NAME>は<BR>××××× を<BR>てにいれた<BR>"
   PromptContinue
   Unknown0F $00,$01
   WriteText "???‥‥<BR>ありがとうございます。<BR>きくちゃん。<BR>"
@@ -63,7 +63,7 @@ CutsceneScript17::
   WriteText "はい これあたしからの<BR>こころをこめた<BR>プレゼントです<RED>♥<BLACK><BR>"
   PromptContinue
   Unknown0F $00,$02
-  WriteText "<NAME>は<BR>xxxxx を<BR>てにいれた<BR>"
+  WriteText "<NAME>は<BR>××××× を<BR>てにいれた<BR>"
   PromptContinue
   Unknown0F $00,$01
   WriteText "ありがとうございます。<BR>きくちゃん。<BR>"
@@ -79,7 +79,7 @@ CutsceneScript17::
   WriteText "はい これあたしからの<BR>おれいです<RED>♥<BLACK><BR>"
   PromptContinue
   Unknown0F $00,$02
-  WriteText "<NAME>は<BR>xxxxx を<BR>てにいれた<BR>"
+  WriteText "<NAME>は<BR>××××× を<BR>てにいれた<BR>"
   PromptContinue
   Unknown0F $00,$01
   WriteText "ありがとうございます。<BR>きくちゃん。<BR>"
@@ -92,7 +92,7 @@ CutsceneScript17::
   WriteText "はい これあたしからの<BR>おれいです<RED>♥<BLACK><BR>"
   PromptContinue
   Unknown0F $00,$02
-  WriteText "<NAME>は<BR>xxxxx を<BR>てにいれた<BR>"
+  WriteText "<NAME>は<BR>××××× を<BR>てにいれた<BR>"
   PromptContinue
   Unknown0F $00,$01
   WriteText "???‥‥<BR>ありがとうございます。<BR>きくちゃん。<BR>"

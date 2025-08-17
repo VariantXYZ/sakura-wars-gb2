@@ -59,6 +59,7 @@ TEXT_DIR := $(GAME_DIR)/text
 GAME_SCRIPT_DIR := $(GAME_DIR)/scripts
 CUTSCENE_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/cutscene
 GAMESCENE_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/gamescene
+GAMESCENE_NPC_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/gamescene_npc
 
 ## Output Directories
 GFX_OUT_DIR := $(BUILD_DIR)/gfx
@@ -81,15 +82,17 @@ OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(I
 COMMON_SRC := $(wildcard $(COMMON)/*.$(SOURCE_TYPE))
 TILESETS_1BPP_IMAGE_FILES := $(notdir $(basename $(wildcard $(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE))))
 CUTSCENE_SCRIPT_OBJNAMES := $(foreach FILE, $(notdir $(basename $(wildcard $(CUTSCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)))), $(addprefix cs., $(FILE)) )
+GAMESCENE_NPC_SCRIPT_OBJNAMES := $(foreach FILE, $(notdir $(basename $(wildcard $(GAMESCENE_NPC_SCRIPT_DIR)/*.$(SOURCE_TYPE)))), $(addprefix gs.npc., $(FILE)) )
 
 # Intermediates
 CUTSCENE_SCRIPT_OBJECTS := $(foreach OBJECT,$(CUTSCENE_SCRIPT_OBJNAMES), $(addsuffix .$(INT_TYPE), $(addprefix $(BUILD_DIR)/,$(OBJECT))) )
-OBJECTS := $(foreach OBJECT,$(OBJNAMES), $(addprefix $(BUILD_DIR)/,$(OBJECT))) $(CUTSCENE_SCRIPT_OBJECTS)
+GAMESCENE_NPC_SCRIPT_OBJECTS := $(foreach OBJECT,$(GAMESCENE_NPC_SCRIPT_OBJNAMES), $(addsuffix .$(INT_TYPE), $(addprefix $(BUILD_DIR)/,$(OBJECT))) )
+OBJECTS := $(foreach OBJECT,$(OBJNAMES), $(addprefix $(BUILD_DIR)/,$(OBJECT))) $(CUTSCENE_SCRIPT_OBJECTS) $(GAMESCENE_NPC_SCRIPT_OBJECTS)
 TILESET_1BPP_FILES := $(foreach FILE,$(TILESETS_1BPP_IMAGE_FILES),$(TILESET_OUT_DIR)/$(basename $(FILE)).$(1BPP_TYPE))
 
 # Additional dependencies, per module granularity (i.e. core) or per file granularity (e.g. core_main_ADDITIONAL)
 gfx_tilesets_data_ADDITIONAL := $(TILESET_1BPP_FILES)
-scene_game_scene_table_ADDITIONAL := $(wildcard $(GAMESCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE))
+scene_game_scene_table_ADDITIONAL := $(wildcard $(GAMESCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) $(wildcard $(GAMESCENE_NPC_SCRIPT_DIR)/*.$(SOURCE_TYPE))
 
 .PHONY: default clean
 default: $(TARGET_ROM)
@@ -109,7 +112,7 @@ $(BUILD_DIR)/%.$(INT_TYPE): $(SRC_DIR)/$$(firstword $$(subst ., ,$$*))/$$(lastwo
 	$(CC) $(CC_ARGS) -o $@ $<
 
 # Build cutscene script objects
-$(BUILD_DIR)/cs.%.$(INT_TYPE): $(BUILD_DIR)/cs.%.asm
+$(BUILD_DIR)/cs.%.$(INT_TYPE): $(BUILD_DIR)/cs.%.$(SOURCE_TYPE)
 	$(CC) $(CC_ARGS) -o $@ $<
 
 # build/tilesets/*.1bpp from source png
@@ -117,9 +120,13 @@ $(TILESET_OUT_DIR)/%.$(1BPP_TYPE): $(TILESET_GFX_DIR)/%.$(RAW_1BPP_SRC_TYPE) | $
 	$(CCGFX) $(CCGFX_ARGS) -d 1 -o $@ $<
 
 # build/cs.*.asm from cutscene scripts
-$(BUILD_DIR)/cs.%.asm: $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BUILD_DIR)
+$(BUILD_DIR)/cs.%.$(SOURCE_TYPE): $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BUILD_DIR)
 	$(PYTHON) $(SCRIPT_DIR)/cs2asm.py $@ $^
 
+# TODO: Handle this the same way as cutscene scripts
+# For now, build gamescene npc script objects from source
+$(BUILD_DIR)/gs.npc.%.$(INT_TYPE): $(GAMESCENE_NPC_SCRIPT_DIR)/%.$(SOURCE_TYPE)
+	$(CC) $(CC_ARGS) -o $@ $<
 
 # Dumping
 .PHONY: dump dump_tilesets dump_cutscene_scripts dump_gamescene_scripts
@@ -131,11 +138,14 @@ dump_tilesets: | $(TILESET_GFX_DIR)
 
 dump_cutscene_scripts: | $(CUTSCENE_SCRIPT_DIR)
 	rm $(call ESCAPE,$(CUTSCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
+	rm $(call ESCAPE,$(GAME_EVENT_SRC_DIR)/cutscene_script_table.$(SOURCE_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_cutscene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(CUTSCENE_SCRIPT_DIR)"
 
-dump_gamescene_scripts: | $(GAMESCENE_SCRIPT_DIR)
+dump_gamescene_scripts: | $(GAMESCENE_SCRIPT_DIR) $(GAMESCENE_NPC_SCRIPT_DIR)
 	rm $(call ESCAPE,$(GAMESCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
-	$(PYTHON) $(SCRIPT_DIR)/dump_gamescene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(GAMESCENE_SCRIPT_DIR)"
+	rm $(call ESCAPE,$(GAMESCENE_NPC_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
+	rm $(call ESCAPE,$(GAME_EVENT_SRC_DIR)/game_scene_table.$(SOURCE_TYPE)) || echo ""
+	$(PYTHON) $(SCRIPT_DIR)/dump_gamescene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(GAMESCENE_SCRIPT_DIR)" "$(GAMESCENE_NPC_SCRIPT_DIR)"
 
 #Make directories if necessary
 $(BUILD_DIR):
@@ -152,3 +162,6 @@ $(CUTSCENE_SCRIPT_DIR):
 
 $(GAMESCENE_SCRIPT_DIR):
 	mkdir -p $(GAMESCENE_SCRIPT_DIR)
+
+$(GAMESCENE_NPC_SCRIPT_DIR):
+	mkdir -p $(GAMESCENE_NPC_SCRIPT_DIR)

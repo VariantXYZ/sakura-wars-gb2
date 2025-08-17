@@ -92,7 +92,7 @@ def read_table(filename, reverse=False, keystring=False):
             return dict((int(line.strip().split('=', 1)[0],16) if not keystring else line.strip().split('=', 1)[0], literal_eval("'{0}'".format(line.strip('\n').strip('\r\n').split('=', 1)[1].replace("'","\\\'")))) for line in f if line.strip())
     return table
 
-def read_list(filename, base_offset=0):
+def read_list(filename, base_offset=0, require_unique=False):
     tbl = {}
     with open(filename, 'r', encoding='utf-8') as f:
         current_offset = base_offset
@@ -103,6 +103,8 @@ def read_list(filename, base_offset=0):
             if line.startswith('|') and len(line) > 1:
                 current_offset = base_offset + int(line.lstrip('|'), 16)
             else:
+                if line in tbl.values() and require_unique:
+                    raise Exception(f'{line} appears more than once in {filename}')
                 tbl[current_offset] = line
                 current_offset += 1
     return tbl

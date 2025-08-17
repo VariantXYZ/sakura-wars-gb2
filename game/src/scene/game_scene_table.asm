@@ -2,6 +2,8 @@
 
 INCLUDE "game/src/common/macros.asm"
 
+INCLUDE "./game/scripts/gamescene/game_scene_scripts.asm"
+
 INCLUDE "./game/scripts/gamescene/game_scene_00.asm"
 INCLUDE "./game/scripts/gamescene/game_scene_01.asm"
 INCLUDE "./game/scripts/gamescene/game_scene_02.asm"
