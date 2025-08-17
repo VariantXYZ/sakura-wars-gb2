@@ -139,11 +139,13 @@ dump_tilesets: | $(TILESET_GFX_DIR)
 
 dump_cutscene_scripts: | $(CUTSCENE_SCRIPT_DIR)
 	rm $(call ESCAPE,$(CUTSCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
+	rm $(call ESCAPE,$(GAME_EVENT_SRC_DIR)/cutscene_script_table.$(SOURCE_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_cutscene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(CUTSCENE_SCRIPT_DIR)"
 
 dump_gamescene_scripts: | $(GAMESCENE_SCRIPT_DIR) $(GAMESCENE_NPC_SCRIPT_DIR)
 	rm $(call ESCAPE,$(GAMESCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
-	rm $(call ESCAPE,$(GAMESCENE_NPC_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo "" 
+	rm $(call ESCAPE,$(GAMESCENE_NPC_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
+	rm $(call ESCAPE,$(GAME_EVENT_SRC_DIR)/game_scene_table.$(SOURCE_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_gamescene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(GAMESCENE_SCRIPT_DIR)" "$(GAMESCENE_NPC_SCRIPT_DIR)"
 
 #Make directories if necessary
