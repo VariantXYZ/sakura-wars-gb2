@@ -31,7 +31,7 @@ game_scene_npc_charmap = os.path.join(game_scene_npc_script_dir, f'charmap.asm')
 # Load tileset info
 character_table = tilesets.get_tileset("GameSceneNPCScript", override_offset=0x00)
 
-gs = game.GameSceneScript(character_table)
+gs = game.GameSceneScript()
 GS_COMMANDS = gs.COMMANDS
 
 with open(os.path.join(game_scene_script_dir, f'commands.asm'), 'w') as commands_fp:

@@ -51,13 +51,7 @@ class GameSceneScript:
     def is_branch(self, command):
         return self.COMMANDS[command].name in ["Branch", "ConditionalBranch"]
 
-    def __init__(self, character_table, character_widths_table = None):
-        # bytes -> text
-        self.character_table = character_table
-        # text -> bytes
-        self.character_table_reversed = { character_table[key]: key for key in character_table }
-        self.character_widths_table = character_widths_table
-
+    def __init__(self):
         self.COMMANDS = AliasDict()
         self.COMMANDS[0x00] = GameSceneScript.CommandFunction.dummy("Unknown00", 0x00, 0)
         self.COMMANDS[0x01] = GameSceneScript.CommandFunction.dummy("Unknown01", 0x01, 3)
