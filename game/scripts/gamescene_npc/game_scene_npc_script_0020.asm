@@ -190,15 +190,15 @@ GameSceneNPCScriptReference07F9::
 
 SECTION "Game Scene NPC Script 0020 Reference 07FA (Data)", ROMX[$6761], BANK[$63]
 GameSceneNPCScriptReference07FA::
-  db "そうだ！！<BR>ここは　ミカサのなかじゃ<BR>ないか！！",$00
+  db "そうだ!!<BR>ここは　ミカサのなかじゃ<BR>ないか!!",$00
 
 SECTION "Game Scene NPC Script 0020 Reference 07FB (Data)", ROMX[$677A], BANK[$63]
 GameSceneNPCScriptReference07FB::
-  db "なにか　いいものが<BR>おちているかも　しれない！！",$00
+  db "なにか　いいものが<BR>おちているかも　しれない!!",$00
 
 SECTION "Game Scene NPC Script 0020 Reference 07FC (Data)", ROMX[$6793], BANK[$63]
 GameSceneNPCScriptReference07FC::
-  db "<NAME>　なにか<BR>つかえそうなものを<BR>さがすんだ！！",$00
+  db "<NAME>　なにか<BR>つかえそうなものを<BR>さがすんだ!!",$00
 
 SECTION "Game Scene NPC Script 0020 Reference 07FD (Subroutine)", ROMX[$4098], BANK[$54]
 GameSceneNPCScriptReference07FD::
@@ -218,7 +218,7 @@ GameSceneNPCScriptReference0800::
 
 SECTION "Game Scene NPC Script 0020 Reference 0801 (Data)", ROMX[$67B9], BANK[$65]
 GameSceneNPCScriptReference0801::
-  db "そうですわ！<BR>ここは　ミカサのなか。",$00
+  db "そうですわ!<BR>ここは　ミカサのなか。",$00
 
 SECTION "Game Scene NPC Script 0020 Reference 0802 (Data)", ROMX[$67CC], BANK[$65]
 GameSceneNPCScriptReference0802::
@@ -417,15 +417,15 @@ GameSceneNPCScriptReference0810::
 
 SECTION "Game Scene NPC Script 0020 Reference 0811 (Data)", ROMX[$4850], BANK[$63]
 GameSceneNPCScriptReference0811::
-  db "そうだ！！<BR>ここは　ミカサのなかじゃ<BR>ないか！！",$00
+  db "そうだ!!<BR>ここは　ミカサのなかじゃ<BR>ないか!!",$00
 
 SECTION "Game Scene NPC Script 0020 Reference 0812 (Data)", ROMX[$4869], BANK[$63]
 GameSceneNPCScriptReference0812::
-  db "なにか　いいものが<BR>おちているかも　しれない！！",$00
+  db "なにか　いいものが<BR>おちているかも　しれない!!",$00
 
 SECTION "Game Scene NPC Script 0020 Reference 0813 (Data)", ROMX[$4882], BANK[$63]
 GameSceneNPCScriptReference0813::
-  db "<NAME>　なにか<BR>つかえそうなものを<BR>さがすんだ！！",$00
+  db "<NAME>　なにか<BR>つかえそうなものを<BR>さがすんだ!!",$00
 
 SECTION "Game Scene NPC Script 0020 Reference 0814 (Subroutine)", ROMX[$633F], BANK[$53]
 GameSceneNPCScriptReference0814::
@@ -445,7 +445,7 @@ GameSceneNPCScriptReference0817::
 
 SECTION "Game Scene NPC Script 0020 Reference 0818 (Data)", ROMX[$671F], BANK[$64]
 GameSceneNPCScriptReference0818::
-  db "そうでーす！！<BR>ここは　ミカサのなか！！",$00
+  db "そうでーす!!<BR>ここは　ミカサのなか!!",$00
 
 SECTION "Game Scene NPC Script 0020 Reference 0819 (Data)", ROMX[$6734], BANK[$64]
 GameSceneNPCScriptReference0819::
@@ -473,7 +473,7 @@ GameSceneNPCScriptReference081E::
 
 SECTION "Game Scene NPC Script 0020 Reference 081F (Data)", ROMX[$46D4], BANK[$64]
 GameSceneNPCScriptReference081F::
-  db "そうでーす！！<BR>ここは　ミカサのなか！！",$00
+  db "そうでーす!!<BR>ここは　ミカサのなか!!",$00
 
 SECTION "Game Scene NPC Script 0020 Reference 0820 (Data)", ROMX[$46E9], BANK[$64]
 GameSceneNPCScriptReference0820::

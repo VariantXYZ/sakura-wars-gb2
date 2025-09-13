@@ -79,7 +79,7 @@ GameSceneNPCScriptReference1589::
 
 SECTION "Game Scene NPC Script 0038 Reference 158A (Data)", ROMX[$5D12], BANK[$67]
 GameSceneNPCScriptReference158A::
-  db "このさきに　いくには……<BR>どうする？　<NAME>くん。",$00
+  db "このさきに　いくには……<BR>どうする?　<NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 158B (Data)", ROMX[$5D2A], BANK[$67]
 GameSceneNPCScriptReference158B::
@@ -324,7 +324,7 @@ GameSceneNPCScriptReference1593::
 
 SECTION "Game Scene NPC Script 0038 Reference 1594 (Data)", ROMX[$5D41], BANK[$67]
 GameSceneNPCScriptReference1594::
-  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか？",$00
+  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 1595 (Data)", ROMX[$5D60], BANK[$67]
 GameSceneNPCScriptReference1595::
@@ -332,19 +332,19 @@ GameSceneNPCScriptReference1595::
 
 SECTION "Game Scene NPC Script 0038 Reference 1596 (Data)", ROMX[$5D7E], BANK[$67]
 GameSceneNPCScriptReference1596::
-  db "だが<BR>オレたちが　もぐっていられる<BR>じかんは　30びょうほどだ。",$00
+  db "だが<BR>オレたちが　もぐっていられる<BR>じかんは　３０びょうほどだ。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 1597 (Data)", ROMX[$5D9F], BANK[$67]
 GameSceneNPCScriptReference1597::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいだ……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいだ……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 1598 (Data)", ROMX[$5DC5], BANK[$67]
 GameSceneNPCScriptReference1598::
-  db "でも　それしか　ほうほうは<BR>ないじゃないですか。<BR>いきましょう！　<BR>おおがみさん！！",$00
+  db "でも　それしか　ほうほうは<BR>ないじゃないですか。<BR>いきましょう!　<BR>おおがみさん!!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 1599 (Data)", ROMX[$5DF0], BANK[$67]
 GameSceneNPCScriptReference1599::
-  db "よし　わかった。<BR><NAME>くん！",$00
+  db "よし　わかった。<BR><NAME>くん!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 159A (Data)", ROMX[$5DFE], BANK[$67]
 GameSceneNPCScriptReference159A::
@@ -364,7 +364,7 @@ GameSceneNPCScriptReference159D::
 
 SECTION "Game Scene NPC Script 0038 Reference 159E (Data)", ROMX[$5E5D], BANK[$67]
 GameSceneNPCScriptReference159E::
-  db "よし！<BR>ここは　もぐって<BR>さきにすすもう！",$00
+  db "よし!<BR>ここは　もぐって<BR>さきにすすもう!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 159F (Data)", ROMX[$5E73], BANK[$67]
 GameSceneNPCScriptReference159F::
@@ -372,11 +372,11 @@ GameSceneNPCScriptReference159F::
 
 SECTION "Game Scene NPC Script 0038 Reference 15A0 (Data)", ROMX[$5E91], BANK[$67]
 GameSceneNPCScriptReference15A0::
-  db "それに<BR>オレたちが　もぐっていられる<BR>じかんは　30びょうほどだ。",$00
+  db "それに<BR>オレたちが　もぐっていられる<BR>じかんは　３０びょうほどだ。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15A1 (Data)", ROMX[$5EB3], BANK[$67]
 GameSceneNPCScriptReference15A1::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいだ……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいだ……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15A2 (Data)", ROMX[$5ED9], BANK[$67]
 GameSceneNPCScriptReference15A2::
@@ -392,7 +392,7 @@ GameSceneNPCScriptReference15A4::
 
 SECTION "Game Scene NPC Script 0038 Reference 15A5 (Data)", ROMX[$7C18], BANK[$66]
 GameSceneNPCScriptReference15A5::
-  db "このさきに　いくには……<BR>どうしたらいいと　おもう<BR><NAME>くん？",$00
+  db "このさきに　いくには……<BR>どうしたらいいと　おもう<BR><NAME>くん?",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15A6 (Data)", ROMX[$7C37], BANK[$66]
 GameSceneNPCScriptReference15A6::
@@ -484,7 +484,7 @@ GameSceneNPCScriptReference15AB::
 
 SECTION "Game Scene NPC Script 0038 Reference 15AC (Data)", ROMX[$6F75], BANK[$66]
 GameSceneNPCScriptReference15AC::
-  db "このさきに　いくには……<BR>どうしたらいいと　おもう<BR><NAME>？",$00
+  db "このさきに　いくには……<BR>どうしたらいいと　おもう<BR><NAME>?",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15AD (Data)", ROMX[$6F92], BANK[$66]
 GameSceneNPCScriptReference15AD::
@@ -567,7 +567,7 @@ GameSceneNPCScriptReference15B2::
 
 SECTION "Game Scene NPC Script 0038 Reference 15B3 (Data)", ROMX[$630A], BANK[$66]
 GameSceneNPCScriptReference15B3::
-  db "さて　どないしょーか？<BR><NAME>はん。",$00
+  db "さて　どないしょーか?<BR><NAME>はん。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15B4 (Data)", ROMX[$631B], BANK[$66]
 GameSceneNPCScriptReference15B4::
@@ -652,7 +652,7 @@ GameSceneNPCScriptReference15B9::
 
 SECTION "Game Scene NPC Script 0038 Reference 15BA (Data)", ROMX[$55F2], BANK[$66]
 GameSceneNPCScriptReference15BA::
-  db "さて　どないしょーか？<BR><NAME>はん。",$00
+  db "さて　どないしょーか?<BR><NAME>はん。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15BB (Data)", ROMX[$5603], BANK[$66]
 GameSceneNPCScriptReference15BB::
@@ -744,7 +744,7 @@ GameSceneNPCScriptReference15C0::
 
 SECTION "Game Scene NPC Script 0038 Reference 15C1 (Data)", ROMX[$5012], BANK[$67]
 GameSceneNPCScriptReference15C1::
-  db "このさきに　いくには……<BR>どうする？　<NAME>くん。",$00
+  db "このさきに　いくには……<BR>どうする?　<NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15C2 (Data)", ROMX[$502A], BANK[$67]
 GameSceneNPCScriptReference15C2::
@@ -828,7 +828,7 @@ GameSceneNPCScriptReference15C5::
 
 SECTION "Game Scene NPC Script 0038 Reference 15C6 (Data)", ROMX[$7C4E], BANK[$66]
 GameSceneNPCScriptReference15C6::
-  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか？",$00
+  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15C7 (Data)", ROMX[$7C6D], BANK[$66]
 GameSceneNPCScriptReference15C7::
@@ -836,19 +836,19 @@ GameSceneNPCScriptReference15C7::
 
 SECTION "Game Scene NPC Script 0038 Reference 15C8 (Data)", ROMX[$7C8D], BANK[$66]
 GameSceneNPCScriptReference15C8::
-  db "わたしたちが<BR>もぐっていられる　じかんは<BR>30びょうほど。",$00
+  db "わたしたちが<BR>もぐっていられる　じかんは<BR>３０びょうほど。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15C9 (Data)", ROMX[$7CAB], BANK[$66]
 GameSceneNPCScriptReference15C9::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいよ……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいよ……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15CA (Data)", ROMX[$7CD1], BANK[$66]
 GameSceneNPCScriptReference15CA::
-  db "でも　それしか　ほうほうは<BR>ないじゃないですか。<BR>いきましょう！　<BR>マリアさん！！",$00
+  db "でも　それしか　ほうほうは<BR>ないじゃないですか。<BR>いきましょう!　<BR>マリアさん!!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15CB (Data)", ROMX[$7CFB], BANK[$66]
 GameSceneNPCScriptReference15CB::
-  db "わかったわ。<BR><NAME>くん！",$00
+  db "わかったわ。<BR><NAME>くん!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15CC (Data)", ROMX[$7D07], BANK[$66]
 GameSceneNPCScriptReference15CC::
@@ -880,11 +880,11 @@ GameSceneNPCScriptReference15D2::
 
 SECTION "Game Scene NPC Script 0038 Reference 15D3 (Data)", ROMX[$7DD9], BANK[$66]
 GameSceneNPCScriptReference15D3::
-  db "それに　わたしたちが<BR>もぐっていられる　じかんは<BR>30びょうほど。",$00
+  db "それに　わたしたちが<BR>もぐっていられる　じかんは<BR>３０びょうほど。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15D4 (Data)", ROMX[$7DFB], BANK[$66]
 GameSceneNPCScriptReference15D4::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいよ……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいよ……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15D5 (Data)", ROMX[$7E21], BANK[$66]
 GameSceneNPCScriptReference15D5::
@@ -896,7 +896,7 @@ GameSceneNPCScriptReference15D6::
 
 SECTION "Game Scene NPC Script 0038 Reference 15D7 (Data)", ROMX[$6FA9], BANK[$66]
 GameSceneNPCScriptReference15D7::
-  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか？",$00
+  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15D8 (Data)", ROMX[$6FC8], BANK[$66]
 GameSceneNPCScriptReference15D8::
@@ -904,19 +904,19 @@ GameSceneNPCScriptReference15D8::
 
 SECTION "Game Scene NPC Script 0038 Reference 15D9 (Data)", ROMX[$6FE8], BANK[$66]
 GameSceneNPCScriptReference15D9::
-  db "わたしたちが<BR>もぐっていられる　じかんは<BR>30びょうほど。",$00
+  db "わたしたちが<BR>もぐっていられる　じかんは<BR>３０びょうほど。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15DA (Data)", ROMX[$7006], BANK[$66]
 GameSceneNPCScriptReference15DA::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいよ……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいよ……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15DB (Data)", ROMX[$702C], BANK[$66]
 GameSceneNPCScriptReference15DB::
-  db "でも　それしか　ほうほうは<BR>ないとおもいます。<BR>いきましょう！　<BR>マリアさん！！",$00
+  db "でも　それしか　ほうほうは<BR>ないとおもいます。<BR>いきましょう!　<BR>マリアさん!!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15DC (Data)", ROMX[$7055], BANK[$66]
 GameSceneNPCScriptReference15DC::
-  db "わかったわ。<BR><NAME>！",$00
+  db "わかったわ。<BR><NAME>!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15DD (Data)", ROMX[$705F], BANK[$66]
 GameSceneNPCScriptReference15DD::
@@ -924,7 +924,7 @@ GameSceneNPCScriptReference15DD::
 
 SECTION "Game Scene NPC Script 0038 Reference 15DE (Data)", ROMX[$7079], BANK[$66]
 GameSceneNPCScriptReference15DE::
-  db "ていげきに　もどって<BR>どうするの？",$00
+  db "ていげきに　もどって<BR>どうするの?",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15DF (Data)", ROMX[$708B], BANK[$66]
 GameSceneNPCScriptReference15DF::
@@ -944,19 +944,19 @@ GameSceneNPCScriptReference15E2::
 
 SECTION "Game Scene NPC Script 0038 Reference 15E3 (Data)", ROMX[$70FD], BANK[$66]
 GameSceneNPCScriptReference15E3::
-  db "それに　わたしたちが<BR>もぐっていられる　じかんは<BR>30びょうほど。",$00
+  db "それに　わたしたちが<BR>もぐっていられる　じかんは<BR>３０びょうほど。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15E4 (Data)", ROMX[$711F], BANK[$66]
 GameSceneNPCScriptReference15E4::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいよ……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいよ……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15E5 (Data)", ROMX[$7145], BANK[$66]
 GameSceneNPCScriptReference15E5::
-  db "かくごは　いい　<NAME>。<BR>いくわよ！",$00
+  db "かくごは　いい　<NAME>。<BR>いくわよ!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15E6 (Data)", ROMX[$6332], BANK[$66]
 GameSceneNPCScriptReference15E6::
-  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか？",$00
+  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15E7 (Data)", ROMX[$6351], BANK[$66]
 GameSceneNPCScriptReference15E7::
@@ -964,19 +964,19 @@ GameSceneNPCScriptReference15E7::
 
 SECTION "Game Scene NPC Script 0038 Reference 15E8 (Data)", ROMX[$636A], BANK[$66]
 GameSceneNPCScriptReference15E8::
-  db "そやけど　ウチらが<BR>もぐってられる　じかんは<BR>30びょうほど……",$00
+  db "そやけど　ウチらが<BR>もぐってられる　じかんは<BR>３０びょうほど……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15E9 (Data)", ROMX[$638B], BANK[$66]
 GameSceneNPCScriptReference15E9::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいや……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいや……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15EA (Data)", ROMX[$63B1], BANK[$66]
 GameSceneNPCScriptReference15EA::
-  db "でも　それしか　ほうほうは<BR>ないじゃないですか。<BR>いきましょう！　<BR>こうらんさん！！",$00
+  db "でも　それしか　ほうほうは<BR>ないじゃないですか。<BR>いきましょう!　<BR>こうらんさん!!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15EB (Data)", ROMX[$63DC], BANK[$66]
 GameSceneNPCScriptReference15EB::
-  db "よっしゃ！<BR><NAME>はんの<BR>かくごは　わかった。",$00
+  db "よっしゃ!<BR><NAME>はんの<BR>かくごは　わかった。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15EC (Data)", ROMX[$63F2], BANK[$66]
 GameSceneNPCScriptReference15EC::
@@ -988,7 +988,7 @@ GameSceneNPCScriptReference15ED::
 
 SECTION "Game Scene NPC Script 0038 Reference 15EE (Data)", ROMX[$6421], BANK[$66]
 GameSceneNPCScriptReference15EE::
-  db "<NAME>はんは<BR>カンナはんや　アイリスが<BR>しんぱいや　ないんか？",$00
+  db "<NAME>はんは<BR>カンナはんや　アイリスが<BR>しんぱいや　ないんか?",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15EF (Data)", ROMX[$643F], BANK[$66]
 GameSceneNPCScriptReference15EF::
@@ -1004,11 +1004,11 @@ GameSceneNPCScriptReference15F1::
 
 SECTION "Game Scene NPC Script 0038 Reference 15F2 (Data)", ROMX[$64A8], BANK[$66]
 GameSceneNPCScriptReference15F2::
-  db "それに　ウチらが<BR>もぐってられる　じかんは<BR>30びょうほど……",$00
+  db "それに　ウチらが<BR>もぐってられる　じかんは<BR>３０びょうほど……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15F3 (Data)", ROMX[$64C8], BANK[$66]
 GameSceneNPCScriptReference15F3::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいや……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいや……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15F4 (Data)", ROMX[$64EE], BANK[$66]
 GameSceneNPCScriptReference15F4::
@@ -1016,7 +1016,7 @@ GameSceneNPCScriptReference15F4::
 
 SECTION "Game Scene NPC Script 0038 Reference 15F5 (Data)", ROMX[$561A], BANK[$66]
 GameSceneNPCScriptReference15F5::
-  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか？",$00
+  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15F6 (Data)", ROMX[$5639], BANK[$66]
 GameSceneNPCScriptReference15F6::
@@ -1024,19 +1024,19 @@ GameSceneNPCScriptReference15F6::
 
 SECTION "Game Scene NPC Script 0038 Reference 15F7 (Data)", ROMX[$5652], BANK[$66]
 GameSceneNPCScriptReference15F7::
-  db "そやけど　ウチらが<BR>もぐってられる　じかんは<BR>30びょうほど……",$00
+  db "そやけど　ウチらが<BR>もぐってられる　じかんは<BR>３０びょうほど……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15F8 (Data)", ROMX[$5673], BANK[$66]
 GameSceneNPCScriptReference15F8::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいや……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいや……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15F9 (Data)", ROMX[$5699], BANK[$66]
 GameSceneNPCScriptReference15F9::
-  db "でも　それしか　ほうほうは<BR>ないじゃないですか。<BR>いきましょう！　<BR>こうらんさん！！",$00
+  db "でも　それしか　ほうほうは<BR>ないじゃないですか。<BR>いきましょう!　<BR>こうらんさん!!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15FA (Data)", ROMX[$56C4], BANK[$66]
 GameSceneNPCScriptReference15FA::
-  db "よっしゃ！<BR><NAME>はんの<BR>かくごは　わかった。",$00
+  db "よっしゃ!<BR><NAME>はんの<BR>かくごは　わかった。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 15FB (Data)", ROMX[$56DA], BANK[$66]
 GameSceneNPCScriptReference15FB::
@@ -1068,11 +1068,11 @@ GameSceneNPCScriptReference1601::
 
 SECTION "Game Scene NPC Script 0038 Reference 1602 (Data)", ROMX[$57AC], BANK[$66]
 GameSceneNPCScriptReference1602::
-  db "それに　ウチらが<BR>もぐってられる　じかんは<BR>30びょうほど……",$00
+  db "それに　ウチらが<BR>もぐってられる　じかんは<BR>３０びょうほど……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 1603 (Data)", ROMX[$57CC], BANK[$66]
 GameSceneNPCScriptReference1603::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいや……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいや……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 1604 (Data)", ROMX[$57F2], BANK[$66]
 GameSceneNPCScriptReference1604::
@@ -1084,7 +1084,7 @@ GameSceneNPCScriptReference1605::
 
 SECTION "Game Scene NPC Script 0038 Reference 1606 (Data)", ROMX[$5041], BANK[$67]
 GameSceneNPCScriptReference1606::
-  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか？",$00
+  db "もぐりましょう。<BR>もぐって　いくしかないんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 1607 (Data)", ROMX[$5060], BANK[$67]
 GameSceneNPCScriptReference1607::
@@ -1092,19 +1092,19 @@ GameSceneNPCScriptReference1607::
 
 SECTION "Game Scene NPC Script 0038 Reference 1608 (Data)", ROMX[$507E], BANK[$67]
 GameSceneNPCScriptReference1608::
-  db "だが<BR>オレたちが　もぐっていられる<BR>じかんは　30びょうほどだ。",$00
+  db "だが<BR>オレたちが　もぐっていられる<BR>じかんは　３０びょうほどだ。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 1609 (Data)", ROMX[$509F], BANK[$67]
 GameSceneNPCScriptReference1609::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいだ……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまいだ……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 160A (Data)", ROMX[$50C5], BANK[$67]
 GameSceneNPCScriptReference160A::
-  db "でも　それしか　ほうほうは<BR>ありません。<BR>いきましょう！　<BR>おおがみさん！！",$00
+  db "でも　それしか　ほうほうは<BR>ありません。<BR>いきましょう!　<BR>おおがみさん!!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 160B (Data)", ROMX[$50EC], BANK[$67]
 GameSceneNPCScriptReference160B::
-  db "よし　わかった。<BR><NAME>くん！",$00
+  db "よし　わかった。<BR><NAME>くん!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 160C (Data)", ROMX[$50FA], BANK[$67]
 GameSceneNPCScriptReference160C::
@@ -1128,7 +1128,7 @@ GameSceneNPCScriptReference1610::
 
 SECTION "Game Scene NPC Script 0038 Reference 1611 (Data)", ROMX[$5186], BANK[$67]
 GameSceneNPCScriptReference1611::
-  db "…………よし！<BR>ここは　もぐって<BR>さきにすすもう！",$00
+  db "…………よし!<BR>ここは　もぐって<BR>さきにすすもう!",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 1612 (Data)", ROMX[$51A0], BANK[$67]
 GameSceneNPCScriptReference1612::
@@ -1136,11 +1136,11 @@ GameSceneNPCScriptReference1612::
 
 SECTION "Game Scene NPC Script 0038 Reference 1613 (Data)", ROMX[$51BE], BANK[$67]
 GameSceneNPCScriptReference1613::
-  db "それに<BR>オレたちが　もぐっていられる<BR>じかんは　30びょうほど<BR>しかない。",$00
+  db "それに<BR>オレたちが　もぐっていられる<BR>じかんは　３０びょうほど<BR>しかない。",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 1614 (Data)", ROMX[$51E4], BANK[$67]
 GameSceneNPCScriptReference1614::
-  db "30びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまい……",$00
+  db "３０びょうを　すぎると<BR>こうぶのなかに　<BR>みずが　はいって<BR>おしまい……",$00
 
 SECTION "Game Scene NPC Script 0038 Reference 1615 (Data)", ROMX[$5209], BANK[$67]
 GameSceneNPCScriptReference1615::

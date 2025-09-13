@@ -214,7 +214,7 @@ GameSceneNPCScriptReference1B03::
 
 SECTION "Game Scene NPC Script 004E Reference 1B04 (Data)", ROMX[$5B0E], BANK[$6B]
 GameSceneNPCScriptReference1B04::
-  db "あら？　こっちにも<BR>とうが　あるんですね。",$00
+  db "あら?　こっちにも<BR>とうが　あるんですね。",$00
 
 SECTION "Game Scene NPC Script 004E Reference 1B05 (Data)", ROMX[$5B24], BANK[$6B]
 GameSceneNPCScriptReference1B05::
@@ -561,7 +561,7 @@ GameSceneNPCScriptReference1B0D::
 
 SECTION "Game Scene NPC Script 004E Reference 1B0E (Data)", ROMX[$41E4], BANK[$6B]
 GameSceneNPCScriptReference1B0E::
-  db "なんだ？　こっちにも<BR>とう　があるのか？",$00
+  db "なんだ?　こっちにも<BR>とう　があるのか?",$00
 
 SECTION "Game Scene NPC Script 004E Reference 1B0F (Data)", ROMX[$41F9], BANK[$6B]
 GameSceneNPCScriptReference1B0F::
@@ -670,7 +670,7 @@ GameSceneNPCScriptReference1B20::
 
 SECTION "Game Scene NPC Script 004E Reference 1B21 (Data)", ROMX[$6041], BANK[$6A]
 GameSceneNPCScriptReference1B21::
-  db "なんだ？　こっちにも<BR>とう　があるのか？",$00
+  db "なんだ?　こっちにも<BR>とう　があるのか?",$00
 
 SECTION "Game Scene NPC Script 004E Reference 1B22 (Data)", ROMX[$6056], BANK[$6A]
 GameSceneNPCScriptReference1B22::
@@ -705,7 +705,7 @@ GameSceneNPCScriptReference1B26::
 
 SECTION "Game Scene NPC Script 004E Reference 1B27 (Data)", ROMX[$47E1], BANK[$6A]
 GameSceneNPCScriptReference1B27::
-  db "なんだ？　こっちにも<BR>とう　があるのか？",$00
+  db "なんだ?　こっちにも<BR>とう　があるのか?",$00
 
 SECTION "Game Scene NPC Script 004E Reference 1B28 (Data)", ROMX[$47F6], BANK[$6A]
 GameSceneNPCScriptReference1B28::

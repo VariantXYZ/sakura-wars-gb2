@@ -104,7 +104,7 @@ GameSceneNPCScriptReference1644::
 
 SECTION "Game Scene NPC Script 003A Reference 1645 (Data)", ROMX[$5FCC], BANK[$67]
 GameSceneNPCScriptReference1645::
-  db "おい！<BR>だいじょうぶか<BR><NAME>くん。",$00
+  db "おい!<BR>だいじょうぶか<BR><NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 003A Reference 1646 (Data)", ROMX[$5FDD], BANK[$67]
 GameSceneNPCScriptReference1646::
@@ -221,7 +221,7 @@ GameSceneNPCScriptReference164C::
 
 SECTION "Game Scene NPC Script 003A Reference 164D (Data)", ROMX[$7F37], BANK[$66]
 GameSceneNPCScriptReference164D::
-  db "だいじょうぶ！？<BR><NAME>くん！！",$00
+  db "だいじょうぶ!?<BR><NAME>くん!!",$00
 
 SECTION "Game Scene NPC Script 003A Reference 164E (Data)", ROMX[$7F46], BANK[$66]
 GameSceneNPCScriptReference164E::
@@ -233,7 +233,7 @@ GameSceneNPCScriptReference164F::
 
 SECTION "Game Scene NPC Script 003A Reference 1650 (Data)", ROMX[$723C], BANK[$66]
 GameSceneNPCScriptReference1650::
-  db "だいじょうぶ　<NAME>！<BR>しっかりしなさい！！",$00
+  db "だいじょうぶ　<NAME>!<BR>しっかりしなさい!!",$00
 
 SECTION "Game Scene NPC Script 003A Reference 1651 (Data)", ROMX[$7251], BANK[$66]
 GameSceneNPCScriptReference1651::
@@ -245,7 +245,7 @@ GameSceneNPCScriptReference1652::
 
 SECTION "Game Scene NPC Script 003A Reference 1653 (Data)", ROMX[$65BA], BANK[$66]
 GameSceneNPCScriptReference1653::
-  db "だいじょうぶか！？<BR><NAME>はん！！",$00
+  db "だいじょうぶか!?<BR><NAME>はん!!",$00
 
 SECTION "Game Scene NPC Script 003A Reference 1654 (Data)", ROMX[$65CA], BANK[$66]
 GameSceneNPCScriptReference1654::
@@ -257,7 +257,7 @@ GameSceneNPCScriptReference1655::
 
 SECTION "Game Scene NPC Script 003A Reference 1656 (Data)", ROMX[$58C9], BANK[$66]
 GameSceneNPCScriptReference1656::
-  db "だいじょうぶか！？<BR><NAME>はん！！",$00
+  db "だいじょうぶか!?<BR><NAME>はん!!",$00
 
 SECTION "Game Scene NPC Script 003A Reference 1657 (Data)", ROMX[$58D9], BANK[$66]
 GameSceneNPCScriptReference1657::
@@ -269,7 +269,7 @@ GameSceneNPCScriptReference1658::
 
 SECTION "Game Scene NPC Script 003A Reference 1659 (Data)", ROMX[$534B], BANK[$67]
 GameSceneNPCScriptReference1659::
-  db "おい！<BR>だいじょうぶか<BR><NAME>くん。",$00
+  db "おい!<BR>だいじょうぶか<BR><NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 003A Reference 165A (Data)", ROMX[$535C], BANK[$67]
 GameSceneNPCScriptReference165A::

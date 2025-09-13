@@ -19,7 +19,7 @@ GameSceneNPCScriptReference0000::
 
 SECTION "Game Scene NPC Script 0000 Reference 0001 (Data)", ROMX[$7BF0], BANK[$91]
 GameSceneNPCScriptReference0001::
-  db "＜リターンポイント＞<BR>ていげきへもどりますか？",$00
+  db "＜リターンポイント＞<BR>ていげきへもどりますか?",$00
 
 SECTION "Game Scene NPC Script 0000 Reference 0002 (Data)", ROMX[$7C0A], BANK[$91]
 GameSceneNPCScriptReference0002::

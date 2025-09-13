@@ -96,15 +96,15 @@ GameSceneNPCScriptReference217F::
 
 SECTION "Game Scene NPC Script 0057 Reference 2180 (Data)", ROMX[$692D], BANK[$6B]
 GameSceneNPCScriptReference2180::
-  db "あっ！<BR>ほのおが　きえてます！！<BR><NAME>さん！！！",$00
+  db "あっ!<BR>ほのおが　きえてます!!<BR><NAME>さん!!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 2181 (Data)", ROMX[$6945], BANK[$6B]
 GameSceneNPCScriptReference2181::
-  db "ほんとだ！<BR>だいせいこう　ですね！！",$00
+  db "ほんとだ!<BR>だいせいこう　ですね!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 2182 (Data)", ROMX[$6958], BANK[$6B]
 GameSceneNPCScriptReference2182::
-  db "さあ　『まじんき』を<BR>かいしゅう　しましょう！！",$00
+  db "さあ　『まじんき』を<BR>かいしゅう　しましょう!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 2183 (Subroutine)", ROMX[$5088], BANK[$56]
 GameSceneNPCScriptReference2183::
@@ -228,15 +228,15 @@ GameSceneNPCScriptReference2187::
 
 SECTION "Game Scene NPC Script 0057 Reference 2188 (Data)", ROMX[$4F57], BANK[$6B]
 GameSceneNPCScriptReference2188::
-  db "よしっ！<BR>ほのおが　きえてるよ！！<BR><NAME>くん！！！",$00
+  db "よしっ!<BR>ほのおが　きえてるよ!!<BR><NAME>くん!!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 2189 (Data)", ROMX[$4F70], BANK[$6B]
 GameSceneNPCScriptReference2189::
-  db "ほんとうだわ！<BR>だいせいこう　ですね！！",$00
+  db "ほんとうだわ!<BR>だいせいこう　ですね!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 218A (Data)", ROMX[$4F85], BANK[$6B]
 GameSceneNPCScriptReference218A::
-  db "さあ　『まじんき』を<BR>かいしゅう　しよう！！",$00
+  db "さあ　『まじんき』を<BR>かいしゅう　しよう!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 218B (Data)", ROMX[$7B70], BANK[$69]
 GameSceneNPCScriptReference218B::
@@ -244,15 +244,15 @@ GameSceneNPCScriptReference218B::
 
 SECTION "Game Scene NPC Script 0057 Reference 218C (Data)", ROMX[$7B77], BANK[$69]
 GameSceneNPCScriptReference218C::
-  db "あっ！<BR>ほのおが　きえてるよ<BR><NAME>！！！",$00
+  db "あっ!<BR>ほのおが　きえてるよ<BR><NAME>!!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 218D (Data)", ROMX[$7B8B], BANK[$69]
 GameSceneNPCScriptReference218D::
-  db "ほんとだ！<BR>だいせいこうだ！！",$00
+  db "ほんとだ!<BR>だいせいこうだ!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 218E (Data)", ROMX[$7B9B], BANK[$69]
 GameSceneNPCScriptReference218E::
-  db "よーし！<BR>『まじんき』を<BR>とりもどそう<BR><NAME>！！",$00
+  db "よーし!<BR>『まじんき』を<BR>とりもどそう<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 218F (Data)", ROMX[$61A9], BANK[$69]
 GameSceneNPCScriptReference218F::
@@ -260,15 +260,15 @@ GameSceneNPCScriptReference218F::
 
 SECTION "Game Scene NPC Script 0057 Reference 2190 (Data)", ROMX[$61B0], BANK[$69]
 GameSceneNPCScriptReference2190::
-  db "あっ！<BR>ほのおが　きえてるよ<BR><NAME>！！！",$00
+  db "あっ!<BR>ほのおが　きえてるよ<BR><NAME>!!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 2191 (Data)", ROMX[$61C4], BANK[$69]
 GameSceneNPCScriptReference2191::
-  db "ほんとだ！<BR>だいせいこうだわ！！",$00
+  db "ほんとだ!<BR>だいせいこうだわ!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 2192 (Data)", ROMX[$61D5], BANK[$69]
 GameSceneNPCScriptReference2192::
-  db "よーし！<BR>『まじんき』を<BR>とりもどそう<BR><NAME>！！",$00
+  db "よーし!<BR>『まじんき』を<BR>とりもどそう<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 2193 (Data)", ROMX[$6D38], BANK[$6A]
 GameSceneNPCScriptReference2193::
@@ -276,15 +276,15 @@ GameSceneNPCScriptReference2193::
 
 SECTION "Game Scene NPC Script 0057 Reference 2194 (Data)", ROMX[$6D3F], BANK[$6A]
 GameSceneNPCScriptReference2194::
-  db "おっ！<BR>ほのおが　きえてるぜ！！<BR><NAME>！！！",$00
+  db "おっ!<BR>ほのおが　きえてるぜ!!<BR><NAME>!!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 2195 (Data)", ROMX[$6D55], BANK[$6A]
 GameSceneNPCScriptReference2195::
-  db "ほんとだ！<BR>だいせいこう　ですね！！",$00
+  db "ほんとだ!<BR>だいせいこう　ですね!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 2196 (Data)", ROMX[$6D68], BANK[$6A]
 GameSceneNPCScriptReference2196::
-  db "よーし！<BR>『まじんき』を<BR>かいしゅう　するぜ！！",$00
+  db "よーし!<BR>『まじんき』を<BR>かいしゅう　するぜ!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 2197 (Data)", ROMX[$54F3], BANK[$6A]
 GameSceneNPCScriptReference2197::
@@ -292,14 +292,14 @@ GameSceneNPCScriptReference2197::
 
 SECTION "Game Scene NPC Script 0057 Reference 2198 (Data)", ROMX[$54FA], BANK[$6A]
 GameSceneNPCScriptReference2198::
-  db "おっ！<BR>ほのおが　きえてるぜ！！<BR><NAME>！！！",$00
+  db "おっ!<BR>ほのおが　きえてるぜ!!<BR><NAME>!!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 2199 (Data)", ROMX[$5510], BANK[$6A]
 GameSceneNPCScriptReference2199::
-  db "ほんとうだわ！<BR>だいせいこう　ですね！！",$00
+  db "ほんとうだわ!<BR>だいせいこう　ですね!!",$00
 
 SECTION "Game Scene NPC Script 0057 Reference 219A (Data)", ROMX[$5525], BANK[$6A]
 GameSceneNPCScriptReference219A::
-  db "よーし！<BR>『まじんき』を<BR>かいしゅう　するぜ！！",$00
+  db "よーし!<BR>『まじんき』を<BR>かいしゅう　するぜ!!",$00
 
 POPC

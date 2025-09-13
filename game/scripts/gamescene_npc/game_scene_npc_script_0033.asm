@@ -70,11 +70,11 @@ GameSceneNPCScriptReference13E5::
 
 SECTION "Game Scene NPC Script 0033 Reference 13E6 (Data)", ROMX[$4805], BANK[$66]
 GameSceneNPCScriptReference13E6::
-  db "はい。<BR>こちら　<NAME>。<BR>なんだい？　アイリス。",$00
+  db "はい。<BR>こちら　<NAME>。<BR>なんだい?　アイリス。",$00
 
 SECTION "Game Scene NPC Script 0033 Reference 13E7 (Data)", ROMX[$481C], BANK[$66]
 GameSceneNPCScriptReference13E7::
-  db "<NAME>　がんばってる？",$00
+  db "<NAME>　がんばってる?",$00
 
 SECTION "Game Scene NPC Script 0033 Reference 13E8 (Data)", ROMX[$4826], BANK[$66]
 GameSceneNPCScriptReference13E8::
@@ -123,7 +123,7 @@ GameSceneNPCScriptReference13EC::
 
 SECTION "Game Scene NPC Script 0033 Reference 13ED (Data)", ROMX[$493E], BANK[$66]
 GameSceneNPCScriptReference13ED::
-  db "<NAME>！<BR>こちら　カンナ。<BR>おうとう　ねがいます。",$00
+  db "<NAME>!<BR>こちら　カンナ。<BR>おうとう　ねがいます。",$00
 
 SECTION "Game Scene NPC Script 0033 Reference 13EE (Data)", ROMX[$4956], BANK[$66]
 GameSceneNPCScriptReference13EE::
@@ -131,7 +131,7 @@ GameSceneNPCScriptReference13EE::
 
 SECTION "Game Scene NPC Script 0033 Reference 13EF (Data)", ROMX[$496E], BANK[$66]
 GameSceneNPCScriptReference13EF::
-  db "がんばってるか？<BR><NAME>！",$00
+  db "がんばってるか?<BR><NAME>!",$00
 
 SECTION "Game Scene NPC Script 0033 Reference 13F0 (Data)", ROMX[$497A], BANK[$66]
 GameSceneNPCScriptReference13F0::
@@ -199,7 +199,7 @@ GameSceneNPCScriptReference13F7::
 
 SECTION "Game Scene NPC Script 0033 Reference 13F8 (Data)", ROMX[$489D], BANK[$66]
 GameSceneNPCScriptReference13F8::
-  db "ダメだよ〜。<BR>アイリスもいっしょうけんめい<BR>やってるんだよ〜。<BR><NAME>も　ガンバって！",$00
+  db "ダメだよ〜。<BR>アイリスもいっしょうけんめい<BR>やってるんだよ〜。<BR><NAME>も　ガンバって!",$00
 
 SECTION "Game Scene NPC Script 0033 Reference 13F9 (Data)", ROMX[$48C7], BANK[$66]
 GameSceneNPCScriptReference13F9::

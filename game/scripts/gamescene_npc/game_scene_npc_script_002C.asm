@@ -321,15 +321,15 @@ GameSceneNPCScriptReference1265::
 
 SECTION "Game Scene NPC Script 002C Reference 1266 (Data)", ROMX[$5969], BANK[$67]
 GameSceneNPCScriptReference1266::
-  db "スイッチが　2つあると<BR>いうことは……",$00
+  db "スイッチが　２つあると<BR>いうことは……",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1267 (Data)", ROMX[$597D], BANK[$67]
 GameSceneNPCScriptReference1267::
-  db "そのスイッチを　どうじに<BR>おしてみたら　どうだ？",$00
+  db "そのスイッチを　どうじに<BR>おしてみたら　どうだ?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1268 (Data)", ROMX[$5996], BANK[$67]
 GameSceneNPCScriptReference1268::
-  db "そうだな！<BR>やってみよう！",$00
+  db "そうだな!<BR>やってみよう!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1269 (Data)", ROMX[$59A4], BANK[$67]
 GameSceneNPCScriptReference1269::
@@ -341,7 +341,7 @@ GameSceneNPCScriptReference126A::
 
 SECTION "Game Scene NPC Script 002C Reference 126B (Data)", ROMX[$59DB], BANK[$67]
 GameSceneNPCScriptReference126B::
-  db "よし！　じゃあ<BR>じゅんびはいいか〜！",$00
+  db "よし!　じゃあ<BR>じゅんびはいいか〜!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 126C (Data)", ROMX[$59EE], BANK[$67]
 GameSceneNPCScriptReference126C::
@@ -349,11 +349,11 @@ GameSceneNPCScriptReference126C::
 
 SECTION "Game Scene NPC Script 002C Reference 126D (Data)", ROMX[$59F4], BANK[$67]
 GameSceneNPCScriptReference126D::
-  db "3つかぞえたら　どうじに<BR>おすんだ！",$00
+  db "３つかぞえたら　どうじに<BR>おすんだ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 126E (Data)", ROMX[$5A07], BANK[$67]
 GameSceneNPCScriptReference126E::
-  db "じゃあ　いくぞ！",$00
+  db "じゃあ　いくぞ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 126F (Subroutine)", ROMX[$6AF5], BANK[$54]
 GameSceneNPCScriptReference126F::
@@ -458,11 +458,11 @@ GameSceneNPCScriptReference1272::
 
 SECTION "Game Scene NPC Script 002C Reference 1273 (Data)", ROMX[$5A10], BANK[$67]
 GameSceneNPCScriptReference1273::
-  db "やったー！　<NAME>！！<BR>いっかいで　トビラが<BR>ひらいたよ。",$00
+  db "やったー!　<NAME>!!<BR>いっかいで　トビラが<BR>ひらいたよ。",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1274 (Data)", ROMX[$5A2C], BANK[$67]
 GameSceneNPCScriptReference1274::
-  db "スゴイじゃないか<BR><NAME>！！",$00
+  db "スゴイじゃないか<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1275 (Data)", ROMX[$5A39], BANK[$67]
 GameSceneNPCScriptReference1275::
@@ -474,7 +474,7 @@ GameSceneNPCScriptReference1276::
 
 SECTION "Game Scene NPC Script 002C Reference 1277 (Data)", ROMX[$5A5E], BANK[$67]
 GameSceneNPCScriptReference1277::
-  db "よし！　<NAME>くん<BR>オレたちも　いくぞ！",$00
+  db "よし!　<NAME>くん<BR>オレたちも　いくぞ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1278 (Subroutine)", ROMX[$5BA2], BANK[$54]
 GameSceneNPCScriptReference1278::
@@ -1466,7 +1466,7 @@ GameSceneNPCScriptReference1281::
 
 SECTION "Game Scene NPC Script 002C Reference 1282 (Data)", ROMX[$5A71], BANK[$67]
 GameSceneNPCScriptReference1282::
-  db "やったぜ！<BR>トビラが　ひらいた！！",$00
+  db "やったぜ!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1283 (Data)", ROMX[$5A83], BANK[$67]
 GameSceneNPCScriptReference1283::
@@ -1478,11 +1478,11 @@ GameSceneNPCScriptReference1284::
 
 SECTION "Game Scene NPC Script 002C Reference 1285 (Data)", ROMX[$5AA8], BANK[$67]
 GameSceneNPCScriptReference1285::
-  db "よし！　<NAME>くん<BR>オレたちも　いくぞ！",$00
+  db "よし!　<NAME>くん<BR>オレたちも　いくぞ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1286 (Data)", ROMX[$5ABB], BANK[$67]
 GameSceneNPCScriptReference1286::
-  db "やったぜ！<BR>トビラが　ひらいた！！",$00
+  db "やったぜ!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1287 (Data)", ROMX[$5ACD], BANK[$67]
 GameSceneNPCScriptReference1287::
@@ -1490,7 +1490,7 @@ GameSceneNPCScriptReference1287::
 
 SECTION "Game Scene NPC Script 002C Reference 1288 (Data)", ROMX[$5AE5], BANK[$67]
 GameSceneNPCScriptReference1288::
-  db "よし！　<NAME>くん<BR>オレたちも　いくぞ！",$00
+  db "よし!　<NAME>くん<BR>オレたちも　いくぞ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1289 (Data)", ROMX[$77BD], BANK[$66]
 GameSceneNPCScriptReference1289::
@@ -1502,7 +1502,7 @@ GameSceneNPCScriptReference128A::
 
 SECTION "Game Scene NPC Script 002C Reference 128B (Data)", ROMX[$77D9], BANK[$66]
 GameSceneNPCScriptReference128B::
-  db "あれは<BR>スイッチじゃないかしら<BR><NAME>くん　おしてみて<BR>くれない？",$00
+  db "あれは<BR>スイッチじゃないかしら<BR><NAME>くん　おしてみて<BR>くれない?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 128C (Data)", ROMX[$77F9], BANK[$66]
 GameSceneNPCScriptReference128C::
@@ -1518,7 +1518,7 @@ GameSceneNPCScriptReference128E::
 
 SECTION "Game Scene NPC Script 002C Reference 128F (Data)", ROMX[$7826], BANK[$66]
 GameSceneNPCScriptReference128F::
-  db "カンナ　アイリス<BR>むこうの　スイッチを<BR>しらべてくれない？",$00
+  db "カンナ　アイリス<BR>むこうの　スイッチを<BR>しらべてくれない?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1290 (Data)", ROMX[$7844], BANK[$66]
 GameSceneNPCScriptReference1290::
@@ -1534,11 +1534,11 @@ GameSceneNPCScriptReference1292::
 
 SECTION "Game Scene NPC Script 002C Reference 1293 (Data)", ROMX[$7864], BANK[$66]
 GameSceneNPCScriptReference1293::
-  db "スイッチが　2つあると<BR>いうことは……",$00
+  db "スイッチが　２つあると<BR>いうことは……",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1294 (Data)", ROMX[$7878], BANK[$66]
 GameSceneNPCScriptReference1294::
-  db "そのスイッチを　どうじに<BR>おしてみたら　どうだ？",$00
+  db "そのスイッチを　どうじに<BR>おしてみたら　どうだ?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1295 (Data)", ROMX[$7891], BANK[$66]
 GameSceneNPCScriptReference1295::
@@ -1554,7 +1554,7 @@ GameSceneNPCScriptReference1297::
 
 SECTION "Game Scene NPC Script 002C Reference 1298 (Data)", ROMX[$78D8], BANK[$66]
 GameSceneNPCScriptReference1298::
-  db "それじゃあ<BR>じゅんびはいい？",$00
+  db "それじゃあ<BR>じゅんびはいい?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1299 (Data)", ROMX[$78E7], BANK[$66]
 GameSceneNPCScriptReference1299::
@@ -1562,11 +1562,11 @@ GameSceneNPCScriptReference1299::
 
 SECTION "Game Scene NPC Script 002C Reference 129A (Data)", ROMX[$78ED], BANK[$66]
 GameSceneNPCScriptReference129A::
-  db "3つかぞえたら　どうじに<BR>おすのよ。",$00
+  db "３つかぞえたら　どうじに<BR>おすのよ。",$00
 
 SECTION "Game Scene NPC Script 002C Reference 129B (Data)", ROMX[$7900], BANK[$66]
 GameSceneNPCScriptReference129B::
-  db "いくわよ！",$00
+  db "いくわよ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 129C (Subroutine)", ROMX[$5D1A], BANK[$54]
 GameSceneNPCScriptReference129C::
@@ -1671,11 +1671,11 @@ GameSceneNPCScriptReference129F::
 
 SECTION "Game Scene NPC Script 002C Reference 12A0 (Data)", ROMX[$7906], BANK[$66]
 GameSceneNPCScriptReference12A0::
-  db "やったー！　<NAME>！！<BR>いっかいで　トビラが<BR>ひらいたよ。",$00
+  db "やったー!　<NAME>!!<BR>いっかいで　トビラが<BR>ひらいたよ。",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12A1 (Data)", ROMX[$7922], BANK[$66]
 GameSceneNPCScriptReference12A1::
-  db "スゴイじゃないか<BR><NAME>！！",$00
+  db "スゴイじゃないか<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12A2 (Data)", ROMX[$792F], BANK[$66]
 GameSceneNPCScriptReference12A2::
@@ -1699,7 +1699,7 @@ GameSceneNPCScriptReference12A6::
 
 SECTION "Game Scene NPC Script 002C Reference 12A7 (Data)", ROMX[$6B24], BANK[$66]
 GameSceneNPCScriptReference12A7::
-  db "あれは<BR>スイッチじゃないかしら<BR><NAME>　おしてみて<BR>くれない？",$00
+  db "あれは<BR>スイッチじゃないかしら<BR><NAME>　おしてみて<BR>くれない?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12A8 (Data)", ROMX[$6B42], BANK[$66]
 GameSceneNPCScriptReference12A8::
@@ -1715,7 +1715,7 @@ GameSceneNPCScriptReference12AA::
 
 SECTION "Game Scene NPC Script 002C Reference 12AB (Data)", ROMX[$6B6F], BANK[$66]
 GameSceneNPCScriptReference12AB::
-  db "カンナ　アイリス<BR>むこうの　スイッチを<BR>しらべてくれない？",$00
+  db "カンナ　アイリス<BR>むこうの　スイッチを<BR>しらべてくれない?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12AC (Data)", ROMX[$6B8D], BANK[$66]
 GameSceneNPCScriptReference12AC::
@@ -1731,7 +1731,7 @@ GameSceneNPCScriptReference12AE::
 
 SECTION "Game Scene NPC Script 002C Reference 12AF (Data)", ROMX[$6BAE], BANK[$66]
 GameSceneNPCScriptReference12AF::
-  db "スイッチが　2つあると<BR>いうことは……",$00
+  db "スイッチが　２つあると<BR>いうことは……",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12B0 (Data)", ROMX[$6BC2], BANK[$66]
 GameSceneNPCScriptReference12B0::
@@ -1739,7 +1739,7 @@ GameSceneNPCScriptReference12B0::
 
 SECTION "Game Scene NPC Script 002C Reference 12B1 (Data)", ROMX[$6BE4], BANK[$66]
 GameSceneNPCScriptReference12B1::
-  db "そうね！<BR>いいかんがえだわ　アイリス。<BR>やってみましょう。",$00
+  db "そうね!<BR>いいかんがえだわ　アイリス。<BR>やってみましょう。",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12B2 (Data)", ROMX[$6C02], BANK[$66]
 GameSceneNPCScriptReference12B2::
@@ -1751,19 +1751,19 @@ GameSceneNPCScriptReference12B3::
 
 SECTION "Game Scene NPC Script 002C Reference 12B4 (Data)", ROMX[$6C38], BANK[$66]
 GameSceneNPCScriptReference12B4::
-  db "それじゃあ<BR>じゅんびはいい？",$00
+  db "それじゃあ<BR>じゅんびはいい?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12B5 (Data)", ROMX[$6C47], BANK[$66]
 GameSceneNPCScriptReference12B5::
-  db "ああ！　こっちは　いつでも<BR>オッケーだぜ！",$00
+  db "ああ!　こっちは　いつでも<BR>オッケーだぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12B6 (Data)", ROMX[$6C5D], BANK[$66]
 GameSceneNPCScriptReference12B6::
-  db "3つかぞえたら　どうじに<BR>おすのよ。",$00
+  db "３つかぞえたら　どうじに<BR>おすのよ。",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12B7 (Data)", ROMX[$6C70], BANK[$66]
 GameSceneNPCScriptReference12B7::
-  db "いくわよ！",$00
+  db "いくわよ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12B8 (Subroutine)", ROMX[$5820], BANK[$54]
 GameSceneNPCScriptReference12B8::
@@ -1868,11 +1868,11 @@ GameSceneNPCScriptReference12BB::
 
 SECTION "Game Scene NPC Script 002C Reference 12BC (Data)", ROMX[$6C76], BANK[$66]
 GameSceneNPCScriptReference12BC::
-  db "やったぜ！　<NAME>！！<BR>いっぱつで　トビラが<BR>ひらいたじゃないか！！",$00
+  db "やったぜ!　<NAME>!!<BR>いっぱつで　トビラが<BR>ひらいたじゃないか!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12BD (Data)", ROMX[$6C97], BANK[$66]
 GameSceneNPCScriptReference12BD::
-  db "スゴイ　スゴーイ！<BR><NAME>！！",$00
+  db "スゴイ　スゴーイ!<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12BE (Data)", ROMX[$6CA5], BANK[$66]
 GameSceneNPCScriptReference12BE::
@@ -1880,7 +1880,7 @@ GameSceneNPCScriptReference12BE::
 
 SECTION "Game Scene NPC Script 002C Reference 12BF (Data)", ROMX[$6CAF], BANK[$66]
 GameSceneNPCScriptReference12BF::
-  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ！",$00
+  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12C0 (Data)", ROMX[$6CC8], BANK[$66]
 GameSceneNPCScriptReference12C0::
@@ -1928,11 +1928,11 @@ GameSceneNPCScriptReference12CA::
 
 SECTION "Game Scene NPC Script 002C Reference 12CB (Data)", ROMX[$5ECA], BANK[$66]
 GameSceneNPCScriptReference12CB::
-  db "スイッチが　2つあると<BR>いうことは……",$00
+  db "スイッチが　２つあると<BR>いうことは……",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12CC (Data)", ROMX[$5EDE], BANK[$66]
 GameSceneNPCScriptReference12CC::
-  db "どうじに　おしてみたら？",$00
+  db "どうじに　おしてみたら?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12CD (Subroutine)", ROMX[$51FF], BANK[$54]
 GameSceneNPCScriptReference12CD::
@@ -2138,11 +2138,11 @@ GameSceneNPCScriptReference12D7::
 
 SECTION "Game Scene NPC Script 002C Reference 12D8 (Data)", ROMX[$5193], BANK[$66]
 GameSceneNPCScriptReference12D8::
-  db "スイッチが　2つあると<BR>いうことは……",$00
+  db "スイッチが　２つあると<BR>いうことは……",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12D9 (Data)", ROMX[$51A7], BANK[$66]
 GameSceneNPCScriptReference12D9::
-  db "どうじに　おしてみたら？",$00
+  db "どうじに　おしてみたら?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12DA (Subroutine)", ROMX[$4CCD], BANK[$54]
 GameSceneNPCScriptReference12DA::
@@ -2348,7 +2348,7 @@ GameSceneNPCScriptReference12E4::
 
 SECTION "Game Scene NPC Script 002C Reference 12E5 (Data)", ROMX[$4C1B], BANK[$67]
 GameSceneNPCScriptReference12E5::
-  db "スイッチが　2つあると<BR>いうことは……",$00
+  db "スイッチが　２つあると<BR>いうことは……",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12E6 (Data)", ROMX[$4C2F], BANK[$67]
 GameSceneNPCScriptReference12E6::
@@ -2356,7 +2356,7 @@ GameSceneNPCScriptReference12E6::
 
 SECTION "Game Scene NPC Script 002C Reference 12E7 (Data)", ROMX[$4C51], BANK[$67]
 GameSceneNPCScriptReference12E7::
-  db "そうだな！<BR>アイリス　いいかんがえだ。<BR>それを　やってみよう！",$00
+  db "そうだな!<BR>アイリス　いいかんがえだ。<BR>それを　やってみよう!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12E8 (Data)", ROMX[$4C71], BANK[$67]
 GameSceneNPCScriptReference12E8::
@@ -2368,19 +2368,19 @@ GameSceneNPCScriptReference12E9::
 
 SECTION "Game Scene NPC Script 002C Reference 12EA (Data)", ROMX[$4CA8], BANK[$67]
 GameSceneNPCScriptReference12EA::
-  db "よし！　じゃあ<BR>じゅんびはいいか〜！",$00
+  db "よし!　じゃあ<BR>じゅんびはいいか〜!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12EB (Data)", ROMX[$4CBB], BANK[$67]
 GameSceneNPCScriptReference12EB::
-  db "ああ！　こっちは　いつでも<BR>オッケーだぜ！",$00
+  db "ああ!　こっちは　いつでも<BR>オッケーだぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12EC (Data)", ROMX[$4CD1], BANK[$67]
 GameSceneNPCScriptReference12EC::
-  db "3つかぞえたら　どうじに<BR>おすんだ！",$00
+  db "３つかぞえたら　どうじに<BR>おすんだ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12ED (Data)", ROMX[$4CE4], BANK[$67]
 GameSceneNPCScriptReference12ED::
-  db "じゃあ　いくぞ！",$00
+  db "じゃあ　いくぞ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12EE (Subroutine)", ROMX[$65EC], BANK[$54]
 GameSceneNPCScriptReference12EE::
@@ -2487,11 +2487,11 @@ GameSceneNPCScriptReference12F1::
 
 SECTION "Game Scene NPC Script 002C Reference 12F2 (Data)", ROMX[$4CED], BANK[$67]
 GameSceneNPCScriptReference12F2::
-  db "やったぜ！　<NAME>！！<BR>いっぱつで　トビラが<BR>ひらいたじゃないか！！",$00
+  db "やったぜ!　<NAME>!!<BR>いっぱつで　トビラが<BR>ひらいたじゃないか!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12F3 (Data)", ROMX[$4D0E], BANK[$67]
 GameSceneNPCScriptReference12F3::
-  db "スゴイ　スゴーイ！<BR><NAME>！！",$00
+  db "スゴイ　スゴーイ!<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12F4 (Data)", ROMX[$4D1C], BANK[$67]
 GameSceneNPCScriptReference12F4::
@@ -2499,15 +2499,15 @@ GameSceneNPCScriptReference12F4::
 
 SECTION "Game Scene NPC Script 002C Reference 12F5 (Data)", ROMX[$4D29], BANK[$67]
 GameSceneNPCScriptReference12F5::
-  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ！",$00
+  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12F6 (Data)", ROMX[$4D42], BANK[$67]
 GameSceneNPCScriptReference12F6::
-  db "よし！　<NAME>くん<BR>オレたちも　いくぞ！",$00
+  db "よし!　<NAME>くん<BR>オレたちも　いくぞ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12F7 (Data)", ROMX[$5B33], BANK[$67]
 GameSceneNPCScriptReference12F7::
-  db "おおがみさん<BR>このかいだんは<BR>まだ　つづくんですか？",$00
+  db "おおがみさん<BR>このかいだんは<BR>まだ　つづくんですか?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12F8 (Data)", ROMX[$5B4E], BANK[$67]
 GameSceneNPCScriptReference12F8::
@@ -2539,7 +2539,7 @@ GameSceneNPCScriptReference12FD::
 
 SECTION "Game Scene NPC Script 002C Reference 12FE (Data)", ROMX[$7962], BANK[$66]
 GameSceneNPCScriptReference12FE::
-  db "やったぜ！<BR>トビラが　ひらいた！！",$00
+  db "やったぜ!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 12FF (Data)", ROMX[$7974], BANK[$66]
 GameSceneNPCScriptReference12FF::
@@ -2555,7 +2555,7 @@ GameSceneNPCScriptReference1301::
 
 SECTION "Game Scene NPC Script 002C Reference 1302 (Data)", ROMX[$79A9], BANK[$66]
 GameSceneNPCScriptReference1302::
-  db "やったぜ！<BR>トビラが　ひらいた！！",$00
+  db "やったぜ!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1303 (Data)", ROMX[$79BB], BANK[$66]
 GameSceneNPCScriptReference1303::
@@ -2591,7 +2591,7 @@ GameSceneNPCScriptReference1309::
 
 SECTION "Game Scene NPC Script 002C Reference 130A (Data)", ROMX[$6CD7], BANK[$66]
 GameSceneNPCScriptReference130A::
-  db "やったー！<BR>トビラが　ひらいた！！",$00
+  db "やったー!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 130B (Data)", ROMX[$6CE9], BANK[$66]
 GameSceneNPCScriptReference130B::
@@ -2599,7 +2599,7 @@ GameSceneNPCScriptReference130B::
 
 SECTION "Game Scene NPC Script 002C Reference 130C (Data)", ROMX[$6CF3], BANK[$66]
 GameSceneNPCScriptReference130C::
-  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ！",$00
+  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 130D (Data)", ROMX[$6D0C], BANK[$66]
 GameSceneNPCScriptReference130D::
@@ -2607,11 +2607,11 @@ GameSceneNPCScriptReference130D::
 
 SECTION "Game Scene NPC Script 002C Reference 130E (Data)", ROMX[$6D1B], BANK[$66]
 GameSceneNPCScriptReference130E::
-  db "やったー！<BR>トビラが　ひらいた！！",$00
+  db "やったー!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 130F (Data)", ROMX[$6D2D], BANK[$66]
 GameSceneNPCScriptReference130F::
-  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ！",$00
+  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1310 (Data)", ROMX[$6D46], BANK[$66]
 GameSceneNPCScriptReference1310::
@@ -2619,7 +2619,7 @@ GameSceneNPCScriptReference1310::
 
 SECTION "Game Scene NPC Script 002C Reference 1311 (Data)", ROMX[$5EEB], BANK[$66]
 GameSceneNPCScriptReference1311::
-  db "ふたつのスイッチを　どうじに<BR>おしてみる　っていうのは　<BR>どうですか？",$00
+  db "ふたつのスイッチを　どうじに<BR>おしてみる　っていうのは　<BR>どうですか?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1312 (Data)", ROMX[$5F0F], BANK[$66]
 GameSceneNPCScriptReference1312::
@@ -2631,11 +2631,11 @@ GameSceneNPCScriptReference1313::
 
 SECTION "Game Scene NPC Script 002C Reference 1315 (Data)", ROMX[$5F4C], BANK[$66]
 GameSceneNPCScriptReference1315::
-  db "ふたつのスイッチを<BR>どうじに　おしたら<BR>エエんとちゃうか！",$00
+  db "ふたつのスイッチを<BR>どうじに　おしたら<BR>エエんとちゃうか!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1316 (Data)", ROMX[$5F6A], BANK[$66]
 GameSceneNPCScriptReference1316::
-  db "きっとそうや！<BR>そうに　ちがいない！！",$00
+  db "きっとそうや!<BR>そうに　ちがいない!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1317 (Data)", ROMX[$5F7E], BANK[$66]
 GameSceneNPCScriptReference1317::
@@ -2651,7 +2651,7 @@ GameSceneNPCScriptReference1319::
 
 SECTION "Game Scene NPC Script 002C Reference 131A (Data)", ROMX[$5FC1], BANK[$66]
 GameSceneNPCScriptReference131A::
-  db "それじゃ　みんな<BR>じゅんび　エエか？",$00
+  db "それじゃ　みんな<BR>じゅんび　エエか?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 131B (Data)", ROMX[$5FD4], BANK[$66]
 GameSceneNPCScriptReference131B::
@@ -2659,7 +2659,7 @@ GameSceneNPCScriptReference131B::
 
 SECTION "Game Scene NPC Script 002C Reference 131C (Data)", ROMX[$5FDA], BANK[$66]
 GameSceneNPCScriptReference131C::
-  db "3つかぞえたら　どうじに<BR>おすんやで。",$00
+  db "３つかぞえたら　どうじに<BR>おすんやで。",$00
 
 SECTION "Game Scene NPC Script 002C Reference 131D (Data)", ROMX[$5FEE], BANK[$66]
 GameSceneNPCScriptReference131D::
@@ -2768,11 +2768,11 @@ GameSceneNPCScriptReference1321::
 
 SECTION "Game Scene NPC Script 002C Reference 1322 (Data)", ROMX[$5FF7], BANK[$66]
 GameSceneNPCScriptReference1322::
-  db "やったー！　<NAME>！！<BR>いっかいで　トビラが<BR>ひらいたよ。",$00
+  db "やったー!　<NAME>!!<BR>いっかいで　トビラが<BR>ひらいたよ。",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1323 (Data)", ROMX[$6013], BANK[$66]
 GameSceneNPCScriptReference1323::
-  db "スゴイじゃないか<BR><NAME>！！",$00
+  db "スゴイじゃないか<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1324 (Data)", ROMX[$6020], BANK[$66]
 GameSceneNPCScriptReference1324::
@@ -2788,7 +2788,7 @@ GameSceneNPCScriptReference1326::
 
 SECTION "Game Scene NPC Script 002C Reference 1327 (Data)", ROMX[$51B4], BANK[$66]
 GameSceneNPCScriptReference1327::
-  db "ふたつのスイッチを　どうじに<BR>おしてみる　っていうのは　<BR>どうですか？",$00
+  db "ふたつのスイッチを　どうじに<BR>おしてみる　っていうのは　<BR>どうですか?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1328 (Data)", ROMX[$51D8], BANK[$66]
 GameSceneNPCScriptReference1328::
@@ -2800,11 +2800,11 @@ GameSceneNPCScriptReference1329::
 
 SECTION "Game Scene NPC Script 002C Reference 132B (Data)", ROMX[$5215], BANK[$66]
 GameSceneNPCScriptReference132B::
-  db "ふたつのスイッチを<BR>どうじに　おしたら<BR>エエんとちゃうか！",$00
+  db "ふたつのスイッチを<BR>どうじに　おしたら<BR>エエんとちゃうか!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 132C (Data)", ROMX[$5233], BANK[$66]
 GameSceneNPCScriptReference132C::
-  db "きっとそうや！<BR>そうに　ちがいない！！",$00
+  db "きっとそうや!<BR>そうに　ちがいない!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 132D (Data)", ROMX[$5247], BANK[$66]
 GameSceneNPCScriptReference132D::
@@ -2820,15 +2820,15 @@ GameSceneNPCScriptReference132F::
 
 SECTION "Game Scene NPC Script 002C Reference 1330 (Data)", ROMX[$528A], BANK[$66]
 GameSceneNPCScriptReference1330::
-  db "それじゃ　みんな<BR>じゅんび　エエか？",$00
+  db "それじゃ　みんな<BR>じゅんび　エエか?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1331 (Data)", ROMX[$529D], BANK[$66]
 GameSceneNPCScriptReference1331::
-  db "ああ！　こっちは　いつでも<BR>オッケーだぜ！",$00
+  db "ああ!　こっちは　いつでも<BR>オッケーだぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1332 (Data)", ROMX[$52B3], BANK[$66]
 GameSceneNPCScriptReference1332::
-  db "3つかぞえたら　どうじに<BR>おすんやで。",$00
+  db "３つかぞえたら　どうじに<BR>おすんやで。",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1333 (Data)", ROMX[$52C7], BANK[$66]
 GameSceneNPCScriptReference1333::
@@ -2937,11 +2937,11 @@ GameSceneNPCScriptReference1337::
 
 SECTION "Game Scene NPC Script 002C Reference 1338 (Data)", ROMX[$52D0], BANK[$66]
 GameSceneNPCScriptReference1338::
-  db "やったぜ！　<NAME>！！<BR>いっぱつで　トビラが<BR>ひらいたじゃないか！！",$00
+  db "やったぜ!　<NAME>!!<BR>いっぱつで　トビラが<BR>ひらいたじゃないか!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1339 (Data)", ROMX[$52F1], BANK[$66]
 GameSceneNPCScriptReference1339::
-  db "スゴイ　スゴーイ！<BR><NAME>！！",$00
+  db "スゴイ　スゴーイ!<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 133A (Data)", ROMX[$52FF], BANK[$66]
 GameSceneNPCScriptReference133A::
@@ -2949,7 +2949,7 @@ GameSceneNPCScriptReference133A::
 
 SECTION "Game Scene NPC Script 002C Reference 133B (Data)", ROMX[$530F], BANK[$66]
 GameSceneNPCScriptReference133B::
-  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ！",$00
+  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 133C (Data)", ROMX[$5328], BANK[$66]
 GameSceneNPCScriptReference133C::
@@ -2981,7 +2981,7 @@ GameSceneNPCScriptReference1341::
 
 SECTION "Game Scene NPC Script 002C Reference 1342 (Data)", ROMX[$4D55], BANK[$67]
 GameSceneNPCScriptReference1342::
-  db "やったー！<BR>トビラが　ひらいた！！",$00
+  db "やったー!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1343 (Data)", ROMX[$4D67], BANK[$67]
 GameSceneNPCScriptReference1343::
@@ -2989,27 +2989,27 @@ GameSceneNPCScriptReference1343::
 
 SECTION "Game Scene NPC Script 002C Reference 1344 (Data)", ROMX[$4D74], BANK[$67]
 GameSceneNPCScriptReference1344::
-  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ！",$00
+  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1345 (Data)", ROMX[$4D8D], BANK[$67]
 GameSceneNPCScriptReference1345::
-  db "よし！　<NAME>くん<BR>オレたちも　いくぞ！",$00
+  db "よし!　<NAME>くん<BR>オレたちも　いくぞ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1346 (Data)", ROMX[$4DA0], BANK[$67]
 GameSceneNPCScriptReference1346::
-  db "やったー！<BR>トビラが　ひらいた！！",$00
+  db "やったー!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1347 (Data)", ROMX[$4DB2], BANK[$67]
 GameSceneNPCScriptReference1347::
-  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ！",$00
+  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1348 (Data)", ROMX[$4DCB], BANK[$67]
 GameSceneNPCScriptReference1348::
-  db "よし！　<NAME>くん<BR>オレたちも　いくぞ！",$00
+  db "よし!　<NAME>くん<BR>オレたちも　いくぞ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1349 (Data)", ROMX[$7A22], BANK[$66]
 GameSceneNPCScriptReference1349::
-  db "マリアさん<BR>このかいだんは<BR>まだ　つづくんですか？",$00
+  db "マリアさん<BR>このかいだんは<BR>まだ　つづくんですか?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 134A (Data)", ROMX[$7A3C], BANK[$66]
 GameSceneNPCScriptReference134A::
@@ -3017,7 +3017,7 @@ GameSceneNPCScriptReference134A::
 
 SECTION "Game Scene NPC Script 002C Reference 134B (Data)", ROMX[$6D8F], BANK[$66]
 GameSceneNPCScriptReference134B::
-  db "マリアさん<BR>このかいだんは<BR>まだ　つづくんですか？",$00
+  db "マリアさん<BR>このかいだんは<BR>まだ　つづくんですか?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 134C (Data)", ROMX[$6DA9], BANK[$66]
 GameSceneNPCScriptReference134C::
@@ -3049,7 +3049,7 @@ GameSceneNPCScriptReference1351::
 
 SECTION "Game Scene NPC Script 002C Reference 1352 (Data)", ROMX[$6057], BANK[$66]
 GameSceneNPCScriptReference1352::
-  db "やったぜ！<BR>トビラが　ひらいた！！",$00
+  db "やったぜ!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1353 (Data)", ROMX[$6069], BANK[$66]
 GameSceneNPCScriptReference1353::
@@ -3065,7 +3065,7 @@ GameSceneNPCScriptReference1355::
 
 SECTION "Game Scene NPC Script 002C Reference 1356 (Data)", ROMX[$609A], BANK[$66]
 GameSceneNPCScriptReference1356::
-  db "やったぜ！<BR>トビラが　ひらいた！！",$00
+  db "やったぜ!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1357 (Data)", ROMX[$60AC], BANK[$66]
 GameSceneNPCScriptReference1357::
@@ -3101,7 +3101,7 @@ GameSceneNPCScriptReference135D::
 
 SECTION "Game Scene NPC Script 002C Reference 135E (Data)", ROMX[$5337], BANK[$66]
 GameSceneNPCScriptReference135E::
-  db "やったー！<BR>トビラが　ひらいた！！",$00
+  db "やったー!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 135F (Data)", ROMX[$5349], BANK[$66]
 GameSceneNPCScriptReference135F::
@@ -3109,7 +3109,7 @@ GameSceneNPCScriptReference135F::
 
 SECTION "Game Scene NPC Script 002C Reference 1360 (Data)", ROMX[$5353], BANK[$66]
 GameSceneNPCScriptReference1360::
-  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ！",$00
+  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1361 (Data)", ROMX[$536C], BANK[$66]
 GameSceneNPCScriptReference1361::
@@ -3117,11 +3117,11 @@ GameSceneNPCScriptReference1361::
 
 SECTION "Game Scene NPC Script 002C Reference 1362 (Data)", ROMX[$537B], BANK[$66]
 GameSceneNPCScriptReference1362::
-  db "やったー！<BR>トビラが　ひらいた！！",$00
+  db "やったー!<BR>トビラが　ひらいた!!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1363 (Data)", ROMX[$538D], BANK[$66]
 GameSceneNPCScriptReference1363::
-  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ！",$00
+  db "じゃあ　あたいたちは<BR>さきに　いかせてもらうぜ!",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1364 (Data)", ROMX[$53A6], BANK[$66]
 GameSceneNPCScriptReference1364::
@@ -3129,7 +3129,7 @@ GameSceneNPCScriptReference1364::
 
 SECTION "Game Scene NPC Script 002C Reference 1365 (Data)", ROMX[$4E21], BANK[$67]
 GameSceneNPCScriptReference1365::
-  db "おおがみさん<BR>このかいだんは<BR>まだ　つづくんですか？",$00
+  db "おおがみさん<BR>このかいだんは<BR>まだ　つづくんですか?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1366 (Data)", ROMX[$4E3C], BANK[$67]
 GameSceneNPCScriptReference1366::
@@ -3137,7 +3137,7 @@ GameSceneNPCScriptReference1366::
 
 SECTION "Game Scene NPC Script 002C Reference 1367 (Data)", ROMX[$610E], BANK[$66]
 GameSceneNPCScriptReference1367::
-  db "こうらんさん<BR>このかいだんは<BR>まだ　つづくんですか？",$00
+  db "こうらんさん<BR>このかいだんは<BR>まだ　つづくんですか?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 1368 (Data)", ROMX[$6129], BANK[$66]
 GameSceneNPCScriptReference1368::
@@ -3145,7 +3145,7 @@ GameSceneNPCScriptReference1368::
 
 SECTION "Game Scene NPC Script 002C Reference 1369 (Data)", ROMX[$53F2], BANK[$66]
 GameSceneNPCScriptReference1369::
-  db "こうらんさん<BR>このかいだんは<BR>まだ　つづくんですか？",$00
+  db "こうらんさん<BR>このかいだんは<BR>まだ　つづくんですか?",$00
 
 SECTION "Game Scene NPC Script 002C Reference 136A (Data)", ROMX[$540D], BANK[$66]
 GameSceneNPCScriptReference136A::

@@ -171,15 +171,15 @@ GameSceneNPCScriptReference26FE::
 
 SECTION "Game Scene NPC Script 006B Reference 26FF (Data)", ROMX[$56A1], BANK[$6E]
 GameSceneNPCScriptReference26FF::
-  db "<NAME>さん<BR>だらしがないですわ！！",$00
+  db "<NAME>さん<BR>だらしがないですわ!!",$00
 
 SECTION "Game Scene NPC Script 006B Reference 2700 (Data)", ROMX[$4975], BANK[$6E]
 GameSceneNPCScriptReference2700::
-  db "<NAME>さん<BR>しっかり！！",$00
+  db "<NAME>さん<BR>しっかり!!",$00
 
 SECTION "Game Scene NPC Script 006B Reference 2701 (Data)", ROMX[$6F69], BANK[$6D]
 GameSceneNPCScriptReference2701::
-  db "だらしがないぞ！<BR><NAME>！！",$00
+  db "だらしがないぞ!<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 006B Reference 2702 (Subroutine)", ROMX[$4D16], BANK[$58]
 GameSceneNPCScriptReference2702::
@@ -211,11 +211,11 @@ GameSceneNPCScriptReference2705::
 
 SECTION "Game Scene NPC Script 006B Reference 2706 (Data)", ROMX[$7C68], BANK[$6D]
 GameSceneNPCScriptReference2706::
-  db "<NAME>さん<BR>がんばって！！",$00
+  db "<NAME>さん<BR>がんばって!!",$00
 
 SECTION "Game Scene NPC Script 006B Reference 2707 (Data)", ROMX[$608D], BANK[$6D]
 GameSceneNPCScriptReference2707::
-  db "おい！　<NAME>くん。<BR>しっかりしてくれよ。",$00
+  db "おい!　<NAME>くん。<BR>しっかりしてくれよ。",$00
 
 SECTION "Game Scene NPC Script 006B Reference 2708 (Data)", ROMX[$5440], BANK[$6D]
 GameSceneNPCScriptReference2708::

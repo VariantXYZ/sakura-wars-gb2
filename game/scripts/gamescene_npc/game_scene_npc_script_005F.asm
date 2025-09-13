@@ -578,7 +578,7 @@ GameSceneNPCScriptReference232E::
 
 SECTION "Game Scene NPC Script 005F Reference 22E8 (Data)", ROMX[$5830], BANK[$6C]
 GameSceneNPCScriptReference22E8::
-  db "よっしゃ　<NAME>はん<BR>ここがあやしいんやな？",$00
+  db "よっしゃ　<NAME>はん<BR>ここがあやしいんやな?",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22E9 (Data)", ROMX[$5845], BANK[$6C]
 GameSceneNPCScriptReference22E9::
@@ -586,39 +586,39 @@ GameSceneNPCScriptReference22E9::
 
 SECTION "Game Scene NPC Script 005F Reference 22EA (Data)", ROMX[$5858], BANK[$6C]
 GameSceneNPCScriptReference22EA::
-  db "セットかんりょう！<BR>いくで〜！！",$00
+  db "セットかんりょう!<BR>いくで〜!!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22EB (Data)", ROMX[$5869], BANK[$6C]
 GameSceneNPCScriptReference22EB::
-  db "おお〜！！<BR>あいた！あいたで！！<BR>やったな　<NAME>はん！",$00
+  db "おお〜!!<BR>あいた!あいたで!!<BR>やったな　<NAME>はん!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22EC (Data)", ROMX[$5884], BANK[$6C]
 GameSceneNPCScriptReference22EC::
-  db "ほな　とつげきや！<BR>おたからが　まってるで〜！",$00
+  db "ほな　とつげきや!<BR>おたからが　まってるで〜!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22ED (Data)", ROMX[$589C], BANK[$6C]
 GameSceneNPCScriptReference22ED::
-  db "わ！　ちょっと！<BR>こうらんさん！",$00
+  db "わ!　ちょっと!<BR>こうらんさん!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22EE (Data)", ROMX[$58AD], BANK[$6C]
 GameSceneNPCScriptReference22EE::
-  db "これや！<BR><NAME>はん<BR>おたから　はっけんや！",$00
+  db "これや!<BR><NAME>はん<BR>おたから　はっけんや!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22EF (Data)", ROMX[$58C2], BANK[$6C]
 GameSceneNPCScriptReference22EF::
-  db "うわっ！こうらんさん！！<BR>うしろ　うしろ！！",$00
+  db "うわっ!こうらんさん!!<BR>うしろ　うしろ!!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22F0 (Data)", ROMX[$58D9], BANK[$6C]
 GameSceneNPCScriptReference22F0::
-  db "ウガガガー？！<BR>おまえら　なにものだウガ！",$00
+  db "ウガガガー?!<BR>おまえら　なにものだウガ!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22F1 (Data)", ROMX[$58EF], BANK[$6C]
 GameSceneNPCScriptReference22F1::
-  db "なんや　アンタは！<BR>これは　ウチらがみつけたんや<BR>よこどりはさせへんで！",$00
+  db "なんや　アンタは!<BR>これは　ウチらがみつけたんや<BR>よこどりはさせへんで!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22F2 (Data)", ROMX[$5914], BANK[$6C]
 GameSceneNPCScriptReference22F2::
-  db "ウガガ？<BR>なんのことウガ？",$00
+  db "ウガガ?<BR>なんのことウガ?",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22F3 (Data)", ROMX[$5922], BANK[$6C]
 GameSceneNPCScriptReference22F3::
@@ -630,11 +630,11 @@ GameSceneNPCScriptReference22F4::
 
 SECTION "Game Scene NPC Script 005F Reference 22F5 (Data)", ROMX[$5958], BANK[$6C]
 GameSceneNPCScriptReference22F5::
-  db "そや！　そんなことより<BR>おたからや！",$00
+  db "そや!　そんなことより<BR>おたからや!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22F6 (Data)", ROMX[$596B], BANK[$6C]
 GameSceneNPCScriptReference22F6::
-  db "うわわ！　なんや？！<BR>あんた　だれや！",$00
+  db "うわわ!　なんや?!<BR>あんた　だれや!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22F7 (Data)", ROMX[$597F], BANK[$6C]
 GameSceneNPCScriptReference22F7::
@@ -642,7 +642,7 @@ GameSceneNPCScriptReference22F7::
 
 SECTION "Game Scene NPC Script 005F Reference 22F8 (Data)", ROMX[$59A5], BANK[$6C]
 GameSceneNPCScriptReference22F8::
-  db "ええっ！<BR>まものにくわれる！？",$00
+  db "ええっ!<BR>まものにくわれる!?",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22F9 (Data)", ROMX[$59B5], BANK[$6C]
 GameSceneNPCScriptReference22F9::
@@ -666,7 +666,7 @@ GameSceneNPCScriptReference22FD::
 
 SECTION "Game Scene NPC Script 005F Reference 22FE (Data)", ROMX[$5A46], BANK[$6C]
 GameSceneNPCScriptReference22FE::
-  db "『ちみゃくのしょ』……<BR>これは？",$00
+  db "『ちみゃくのしょ』……<BR>これは?",$00
 
 SECTION "Game Scene NPC Script 005F Reference 22FF (Data)", ROMX[$5A57], BANK[$6C]
 GameSceneNPCScriptReference22FF::
@@ -686,7 +686,7 @@ GameSceneNPCScriptReference2302::
 
 SECTION "Game Scene NPC Script 005F Reference 2303 (Data)", ROMX[$5ABE], BANK[$6C]
 GameSceneNPCScriptReference2303::
-  db "<NAME>は<BR>『ガンセキまつり』のわざを<BR>おぼえた！",$00
+  db "<NAME>は<BR>『ガンセキまつり』のわざを<BR>おぼえた!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 2307 (Data)", ROMX[$5AD5], BANK[$6C]
 GameSceneNPCScriptReference2307::
@@ -710,11 +710,11 @@ GameSceneNPCScriptReference230C::
 
 SECTION "Game Scene NPC Script 005F Reference 230D (Data)", ROMX[$5B7C], BANK[$6C]
 GameSceneNPCScriptReference230D::
-  db "なんや……まあ<BR>おたからやなかったけど<BR>よかったな！",$00
+  db "なんや……まあ<BR>おたからやなかったけど<BR>よかったな!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 230E (Data)", ROMX[$54C8], BANK[$6C]
 GameSceneNPCScriptReference230E::
-  db "よっしゃ　<NAME>はん<BR>ここがあやしいんやな？",$00
+  db "よっしゃ　<NAME>はん<BR>ここがあやしいんやな?",$00
 
 SECTION "Game Scene NPC Script 005F Reference 230F (Data)", ROMX[$54DD], BANK[$6C]
 GameSceneNPCScriptReference230F::
@@ -722,39 +722,39 @@ GameSceneNPCScriptReference230F::
 
 SECTION "Game Scene NPC Script 005F Reference 2310 (Data)", ROMX[$54F0], BANK[$6C]
 GameSceneNPCScriptReference2310::
-  db "セットかんりょう！<BR>いくで〜！！",$00
+  db "セットかんりょう!<BR>いくで〜!!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 2311 (Data)", ROMX[$5501], BANK[$6C]
 GameSceneNPCScriptReference2311::
-  db "おお〜！！<BR>あいた！あいたで！！<BR>やったな　<NAME>はん！",$00
+  db "おお〜!!<BR>あいた!あいたで!!<BR>やったな　<NAME>はん!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 2312 (Data)", ROMX[$551C], BANK[$6C]
 GameSceneNPCScriptReference2312::
-  db "ほな　とつげきや！<BR>おたからが　まってるで〜！",$00
+  db "ほな　とつげきや!<BR>おたからが　まってるで〜!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 2313 (Data)", ROMX[$5534], BANK[$6C]
 GameSceneNPCScriptReference2313::
-  db "あ！　ちょっと！<BR>こうらんさん！",$00
+  db "あ!　ちょっと!<BR>こうらんさん!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 2314 (Data)", ROMX[$5545], BANK[$6C]
 GameSceneNPCScriptReference2314::
-  db "これや！<BR><NAME>はん<BR>おたから　はっけんや！",$00
+  db "これや!<BR><NAME>はん<BR>おたから　はっけんや!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 2315 (Data)", ROMX[$555A], BANK[$6C]
 GameSceneNPCScriptReference2315::
-  db "きゃあ！こうらんさん！！<BR>うしろ　うしろに！！",$00
+  db "きゃあ!こうらんさん!!<BR>うしろ　うしろに!!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 2316 (Data)", ROMX[$5572], BANK[$6C]
 GameSceneNPCScriptReference2316::
-  db "ウガガガー？！<BR>おまえら　なにものだウガ！",$00
+  db "ウガガガー?!<BR>おまえら　なにものだウガ!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 2317 (Data)", ROMX[$5588], BANK[$6C]
 GameSceneNPCScriptReference2317::
-  db "なんや　アンタは！<BR>これは　ウチらがみつけたんや<BR>よこどりはさせへんで！",$00
+  db "なんや　アンタは!<BR>これは　ウチらがみつけたんや<BR>よこどりはさせへんで!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 2318 (Data)", ROMX[$55AD], BANK[$6C]
 GameSceneNPCScriptReference2318::
-  db "ウガガ？<BR>なんのことウガ？",$00
+  db "ウガガ?<BR>なんのことウガ?",$00
 
 SECTION "Game Scene NPC Script 005F Reference 2319 (Data)", ROMX[$55BB], BANK[$6C]
 GameSceneNPCScriptReference2319::
@@ -766,11 +766,11 @@ GameSceneNPCScriptReference231A::
 
 SECTION "Game Scene NPC Script 005F Reference 231B (Data)", ROMX[$55F1], BANK[$6C]
 GameSceneNPCScriptReference231B::
-  db "そや！　そんなことより<BR>おたからや！",$00
+  db "そや!　そんなことより<BR>おたからや!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 231C (Data)", ROMX[$5604], BANK[$6C]
 GameSceneNPCScriptReference231C::
-  db "うわわ！　なんや？！<BR>あんた　だれや！",$00
+  db "うわわ!　なんや?!<BR>あんた　だれや!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 231D (Data)", ROMX[$5618], BANK[$6C]
 GameSceneNPCScriptReference231D::
@@ -778,7 +778,7 @@ GameSceneNPCScriptReference231D::
 
 SECTION "Game Scene NPC Script 005F Reference 231E (Data)", ROMX[$563E], BANK[$6C]
 GameSceneNPCScriptReference231E::
-  db "ええっ！<BR>まものにくわれる！？",$00
+  db "ええっ!<BR>まものにくわれる!?",$00
 
 SECTION "Game Scene NPC Script 005F Reference 231F (Data)", ROMX[$564E], BANK[$6C]
 GameSceneNPCScriptReference231F::
@@ -802,7 +802,7 @@ GameSceneNPCScriptReference2323::
 
 SECTION "Game Scene NPC Script 005F Reference 2324 (Data)", ROMX[$56DF], BANK[$6C]
 GameSceneNPCScriptReference2324::
-  db "『ちみゃくのしょ』……<BR>これは？",$00
+  db "『ちみゃくのしょ』……<BR>これは?",$00
 
 SECTION "Game Scene NPC Script 005F Reference 2325 (Data)", ROMX[$56F0], BANK[$6C]
 GameSceneNPCScriptReference2325::
@@ -822,7 +822,7 @@ GameSceneNPCScriptReference2328::
 
 SECTION "Game Scene NPC Script 005F Reference 2329 (Data)", ROMX[$5757], BANK[$6C]
 GameSceneNPCScriptReference2329::
-  db "<NAME>は<BR>『ガンセキまつり』のわざを<BR>おぼえた！",$00
+  db "<NAME>は<BR>『ガンセキまつり』のわざを<BR>おぼえた!",$00
 
 SECTION "Game Scene NPC Script 005F Reference 232D (Data)", ROMX[$576E], BANK[$6C]
 GameSceneNPCScriptReference232D::
@@ -846,6 +846,6 @@ GameSceneNPCScriptReference2332::
 
 SECTION "Game Scene NPC Script 005F Reference 2333 (Data)", ROMX[$5815], BANK[$6C]
 GameSceneNPCScriptReference2333::
-  db "なんや……まあ<BR>おたからやなかったけど<BR>よかったな！",$00
+  db "なんや……まあ<BR>おたからやなかったけど<BR>よかったな!",$00
 
 POPC

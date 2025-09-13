@@ -188,7 +188,7 @@ GameSceneNPCScriptReference0137::
 
 SECTION "Game Scene NPC Script 0008 Reference 0138 (Data)", ROMX[$702D], BANK[$62]
 GameSceneNPCScriptReference0138::
-  db "すみれさん。<BR>これが　エンジンをうごかす<BR>パネルなんでしょうか？",$00
+  db "すみれさん。<BR>これが　エンジンをうごかす<BR>パネルなんでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 0139 (Data)", ROMX[$704E], BANK[$62]
 GameSceneNPCScriptReference0139::
@@ -196,7 +196,7 @@ GameSceneNPCScriptReference0139::
 
 SECTION "Game Scene NPC Script 0008 Reference 013A (Data)", ROMX[$7073], BANK[$62]
 GameSceneNPCScriptReference013A::
-  db "レバーを　うえにあげる<BR>のですか？",$00
+  db "レバーを　うえにあげる<BR>のですか?",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 013B (Data)", ROMX[$7085], BANK[$62]
 GameSceneNPCScriptReference013B::
@@ -322,7 +322,7 @@ GameSceneNPCScriptReference0141::
 
 SECTION "Game Scene NPC Script 0008 Reference 0142 (Data)", ROMX[$7AD6], BANK[$61]
 GameSceneNPCScriptReference0142::
-  db "さくらさん。<BR>これが　エンジンをうごかす<BR>パネルなんでしょうか？",$00
+  db "さくらさん。<BR>これが　エンジンをうごかす<BR>パネルなんでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 0143 (Data)", ROMX[$7AF7], BANK[$61]
 GameSceneNPCScriptReference0143::
@@ -472,7 +472,7 @@ GameSceneNPCScriptReference0148::
 
 SECTION "Game Scene NPC Script 0008 Reference 0149 (Data)", ROMX[$5A44], BANK[$62]
 GameSceneNPCScriptReference0149::
-  db "レニさん。<BR>これが　エンジンをうごかす<BR>パネルなんでしょうか？",$00
+  db "レニさん。<BR>これが　エンジンをうごかす<BR>パネルなんでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 014A (Data)", ROMX[$5A64], BANK[$62]
 GameSceneNPCScriptReference014A::
@@ -593,7 +593,7 @@ GameSceneNPCScriptReference0151::
 
 SECTION "Game Scene NPC Script 0008 Reference 0152 (Data)", ROMX[$61D0], BANK[$61]
 GameSceneNPCScriptReference0152::
-  db "さくらさん。<BR>これが　エンジンをうごかす<BR>パネルなんでしょうか？",$00
+  db "さくらさん。<BR>これが　エンジンをうごかす<BR>パネルなんでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 0153 (Data)", ROMX[$61F1], BANK[$61]
 GameSceneNPCScriptReference0153::
@@ -716,11 +716,11 @@ GameSceneNPCScriptReference015C::
 
 SECTION "Game Scene NPC Script 0008 Reference 015D (Data)", ROMX[$70D6], BANK[$62]
 GameSceneNPCScriptReference015D::
-  db "エイヤッ！！",$00
+  db "エイヤッ!!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 015E (Data)", ROMX[$70DD], BANK[$62]
 GameSceneNPCScriptReference015E::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 015F (Data)", ROMX[$70E2], BANK[$62]
 GameSceneNPCScriptReference015F::
@@ -728,7 +728,7 @@ GameSceneNPCScriptReference015F::
 
 SECTION "Game Scene NPC Script 0008 Reference 0160 (Data)", ROMX[$70F3], BANK[$62]
 GameSceneNPCScriptReference0160::
-  db "<NAME>さん！<BR>ちゅういしましたでしょ。<BR>ふるくなってるって。",$00
+  db "<NAME>さん!<BR>ちゅういしましたでしょ。<BR>ふるくなってるって。",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 0161 (Data)", ROMX[$7110], BANK[$62]
 GameSceneNPCScriptReference0161::
@@ -748,7 +748,7 @@ GameSceneNPCScriptReference0164::
 
 SECTION "Game Scene NPC Script 0008 Reference 0165 (Data)", ROMX[$717B], BANK[$62]
 GameSceneNPCScriptReference0165::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 0166 (Data)", ROMX[$7180], BANK[$62]
 GameSceneNPCScriptReference0166::
@@ -835,11 +835,11 @@ GameSceneNPCScriptReference0171::
 
 SECTION "Game Scene NPC Script 0008 Reference 0172 (Data)", ROMX[$7B25], BANK[$61]
 GameSceneNPCScriptReference0172::
-  db "レバーを　うえにあげるん<BR>ですね。<BR>エイヤッ！！",$00
+  db "レバーを　うえにあげるん<BR>ですね。<BR>エイヤッ!!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 0173 (Data)", ROMX[$7B3E], BANK[$61]
 GameSceneNPCScriptReference0173::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 0174 (Data)", ROMX[$7B43], BANK[$61]
 GameSceneNPCScriptReference0174::
@@ -1198,11 +1198,11 @@ GameSceneNPCScriptReference0192::
 
 SECTION "Game Scene NPC Script 0008 Reference 0193 (Data)", ROMX[$5AC1], BANK[$62]
 GameSceneNPCScriptReference0193::
-  db "よいしょっと！！",$00
+  db "よいしょっと!!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 0194 (Data)", ROMX[$5ACA], BANK[$62]
 GameSceneNPCScriptReference0194::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 0195 (Data)", ROMX[$5ACF], BANK[$62]
 GameSceneNPCScriptReference0195::
@@ -1210,7 +1210,7 @@ GameSceneNPCScriptReference0195::
 
 SECTION "Game Scene NPC Script 0008 Reference 0196 (Data)", ROMX[$5AE1], BANK[$62]
 GameSceneNPCScriptReference0196::
-  db "ちゅういしろと　いっただろ？<BR><NAME>。",$00
+  db "ちゅういしろと　いっただろ?<BR><NAME>。",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 0197 (Data)", ROMX[$5AF3], BANK[$62]
 GameSceneNPCScriptReference0197::
@@ -1230,7 +1230,7 @@ GameSceneNPCScriptReference019A::
 
 SECTION "Game Scene NPC Script 0008 Reference 019B (Data)", ROMX[$5B54], BANK[$62]
 GameSceneNPCScriptReference019B::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 019C (Data)", ROMX[$5B59], BANK[$62]
 GameSceneNPCScriptReference019C::
@@ -1317,7 +1317,7 @@ GameSceneNPCScriptReference01A7::
 
 SECTION "Game Scene NPC Script 0008 Reference 01A8 (Data)", ROMX[$6231], BANK[$61]
 GameSceneNPCScriptReference01A8::
-  db "あら？　このレバー<BR>ふるくなって<BR>おれそうだわ……",$00
+  db "あら?　このレバー<BR>ふるくなって<BR>おれそうだわ……",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01A9 (Data)", ROMX[$624B], BANK[$61]
 GameSceneNPCScriptReference01A9::
@@ -1325,7 +1325,7 @@ GameSceneNPCScriptReference01A9::
 
 SECTION "Game Scene NPC Script 0008 Reference 01AA (Data)", ROMX[$6275], BANK[$61]
 GameSceneNPCScriptReference01AA::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01AB (Data)", ROMX[$627A], BANK[$61]
 GameSceneNPCScriptReference01AB::
@@ -1349,11 +1349,11 @@ GameSceneNPCScriptReference01AF::
 
 SECTION "Game Scene NPC Script 0008 Reference 01B0 (Data)", ROMX[$7284], BANK[$62]
 GameSceneNPCScriptReference01B0::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01B1 (Data)", ROMX[$7289], BANK[$62]
 GameSceneNPCScriptReference01B1::
-  db "あっ！<BR>レバーが　おれちゃった……",$00
+  db "あっ!<BR>レバーが　おれちゃった……",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01B2 (Data)", ROMX[$729B], BANK[$62]
 GameSceneNPCScriptReference01B2::
@@ -1373,11 +1373,11 @@ GameSceneNPCScriptReference01B5::
 
 SECTION "Game Scene NPC Script 0008 Reference 01B6 (Data)", ROMX[$7E0B], BANK[$61]
 GameSceneNPCScriptReference01B6::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01B7 (Data)", ROMX[$7E10], BANK[$61]
 GameSceneNPCScriptReference01B7::
-  db "あっ！<BR>レバーが　おれちゃった……",$00
+  db "あっ!<BR>レバーが　おれちゃった……",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01B8 (Data)", ROMX[$7E22], BANK[$61]
 GameSceneNPCScriptReference01B8::
@@ -1456,11 +1456,11 @@ GameSceneNPCScriptReference01C1::
 
 SECTION "Game Scene NPC Script 0008 Reference 01C2 (Data)", ROMX[$482D], BANK[$61]
 GameSceneNPCScriptReference01C2::
-  db "エイヤッ！！",$00
+  db "エイヤッ!!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01C3 (Data)", ROMX[$4834], BANK[$61]
 GameSceneNPCScriptReference01C3::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01C4 (Data)", ROMX[$4839], BANK[$61]
 GameSceneNPCScriptReference01C4::
@@ -1472,7 +1472,7 @@ GameSceneNPCScriptReference01C5::
 
 SECTION "Game Scene NPC Script 0008 Reference 01C6 (Data)", ROMX[$485A], BANK[$61]
 GameSceneNPCScriptReference01C6::
-  db "ふるくなってるって<BR>いったじゃない！",$00
+  db "ふるくなってるって<BR>いったじゃない!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01C7 (Data)", ROMX[$486D], BANK[$61]
 GameSceneNPCScriptReference01C7::
@@ -1492,7 +1492,7 @@ GameSceneNPCScriptReference01CA::
 
 SECTION "Game Scene NPC Script 0008 Reference 01CB (Data)", ROMX[$48D3], BANK[$61]
 GameSceneNPCScriptReference01CB::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01CC (Data)", ROMX[$48D8], BANK[$61]
 GameSceneNPCScriptReference01CC::
@@ -1512,7 +1512,7 @@ GameSceneNPCScriptReference01CF::
 
 SECTION "Game Scene NPC Script 0008 Reference 01D0 (Data)", ROMX[$4930], BANK[$61]
 GameSceneNPCScriptReference01D0::
-  db "じゃあ　エレベーターへ<BR>いこう！",$00
+  db "じゃあ　エレベーターへ<BR>いこう!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01D1 (Data)", ROMX[$6E9A], BANK[$60]
 GameSceneNPCScriptReference01D1::
@@ -1579,11 +1579,11 @@ GameSceneNPCScriptReference01D7::
 
 SECTION "Game Scene NPC Script 0008 Reference 01D8 (Data)", ROMX[$6D84], BANK[$60]
 GameSceneNPCScriptReference01D8::
-  db "よいしょっ！！",$00
+  db "よいしょっ!!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01D9 (Data)", ROMX[$6D8C], BANK[$60]
 GameSceneNPCScriptReference01D9::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01DA (Data)", ROMX[$6D91], BANK[$60]
 GameSceneNPCScriptReference01DA::
@@ -1595,7 +1595,7 @@ GameSceneNPCScriptReference01DB::
 
 SECTION "Game Scene NPC Script 0008 Reference 01DC (Data)", ROMX[$6DB5], BANK[$60]
 GameSceneNPCScriptReference01DC::
-  db "ふるくなってるって<BR>いったじゃない！",$00
+  db "ふるくなってるって<BR>いったじゃない!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01DD (Data)", ROMX[$6DC8], BANK[$60]
 GameSceneNPCScriptReference01DD::
@@ -1615,7 +1615,7 @@ GameSceneNPCScriptReference01E0::
 
 SECTION "Game Scene NPC Script 0008 Reference 01E1 (Data)", ROMX[$6E2D], BANK[$60]
 GameSceneNPCScriptReference01E1::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01E2 (Data)", ROMX[$6E32], BANK[$60]
 GameSceneNPCScriptReference01E2::
@@ -1635,7 +1635,7 @@ GameSceneNPCScriptReference01E5::
 
 SECTION "Game Scene NPC Script 0008 Reference 01E6 (Data)", ROMX[$6E89], BANK[$60]
 GameSceneNPCScriptReference01E6::
-  db "じゃあ　エレベーターへ<BR>いこう！",$00
+  db "じゃあ　エレベーターへ<BR>いこう!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01E7 (Data)", ROMX[$5C12], BANK[$62]
 GameSceneNPCScriptReference01E7::
@@ -1643,7 +1643,7 @@ GameSceneNPCScriptReference01E7::
 
 SECTION "Game Scene NPC Script 0008 Reference 01E8 (Data)", ROMX[$5C31], BANK[$62]
 GameSceneNPCScriptReference01E8::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01E9 (Data)", ROMX[$5C36], BANK[$62]
 GameSceneNPCScriptReference01E9::
@@ -1667,7 +1667,7 @@ GameSceneNPCScriptReference01ED::
 
 SECTION "Game Scene NPC Script 0008 Reference 01EE (Data)", ROMX[$64FB], BANK[$61]
 GameSceneNPCScriptReference01EE::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01EF (Data)", ROMX[$6500], BANK[$61]
 GameSceneNPCScriptReference01EF::
@@ -1691,11 +1691,11 @@ GameSceneNPCScriptReference01F3::
 
 SECTION "Game Scene NPC Script 0008 Reference 01F4 (Data)", ROMX[$49BF], BANK[$61]
 GameSceneNPCScriptReference01F4::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01F5 (Data)", ROMX[$49C4], BANK[$61]
 GameSceneNPCScriptReference01F5::
-  db "あっ！<BR>レバーが　おれちゃった……",$00
+  db "あっ!<BR>レバーが　おれちゃった……",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01F6 (Data)", ROMX[$49D6], BANK[$61]
 GameSceneNPCScriptReference01F6::
@@ -1715,7 +1715,7 @@ GameSceneNPCScriptReference01F9::
 
 SECTION "Game Scene NPC Script 0008 Reference 01FA (Data)", ROMX[$6F17], BANK[$60]
 GameSceneNPCScriptReference01FA::
-  db "ボキッ！",$00
+  db "ボキッ!",$00
 
 SECTION "Game Scene NPC Script 0008 Reference 01FB (Data)", ROMX[$6F1C], BANK[$60]
 GameSceneNPCScriptReference01FB::

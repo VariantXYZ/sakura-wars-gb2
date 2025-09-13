@@ -78,11 +78,11 @@ GameSceneNPCScriptReference1406::
 
 SECTION "Game Scene NPC Script 0034 Reference 1407 (Data)", ROMX[$5C59], BANK[$67]
 GameSceneNPCScriptReference1407::
-  db "『４ぽあがって　2ほさがる<BR>　3ぽあがって　1ぽさがる<BR>　2ほあがる』",$00
+  db "『4ぽあがって　２ほさがる<BR>　３ぽあがって　１ぽさがる<BR>　２ほあがる』",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1408 (Data)", ROMX[$5C7E], BANK[$67]
 GameSceneNPCScriptReference1408::
-  db "……なんだ？<BR>さっぱり　いみが<BR>わからないぞ？",$00
+  db "……なんだ?<BR>さっぱり　いみが<BR>わからないぞ?",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1409 (Data)", ROMX[$5C96], BANK[$67]
 GameSceneNPCScriptReference1409::
@@ -271,15 +271,15 @@ GameSceneNPCScriptReference1410::
 
 SECTION "Game Scene NPC Script 0034 Reference 1411 (Data)", ROMX[$7B3B], BANK[$66]
 GameSceneNPCScriptReference1411::
-  db "これは……　メモ？<BR>カンナが　かいたのね。",$00
+  db "これは……　メモ?<BR>カンナが　かいたのね。",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1412 (Data)", ROMX[$7B51], BANK[$66]
 GameSceneNPCScriptReference1412::
-  db "『４ぽあがって　2ほさがる<BR>　3ぽあがって　1ぽさがる<BR>　2ほあがる』",$00
+  db "『4ぽあがって　２ほさがる<BR>　３ぽあがって　１ぽさがる<BR>　２ほあがる』",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1413 (Data)", ROMX[$7B76], BANK[$66]
 GameSceneNPCScriptReference1413::
-  db "……？<BR>さっぱり　いみが<BR>わからないわ。",$00
+  db "……?<BR>さっぱり　いみが<BR>わからないわ。",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1414 (Data)", ROMX[$7B8B], BANK[$66]
 GameSceneNPCScriptReference1414::
@@ -299,15 +299,15 @@ GameSceneNPCScriptReference1417::
 
 SECTION "Game Scene NPC Script 0034 Reference 1418 (Data)", ROMX[$6E9C], BANK[$66]
 GameSceneNPCScriptReference1418::
-  db "これは……　メモ？<BR>カンナが　かいたのね。",$00
+  db "これは……　メモ?<BR>カンナが　かいたのね。",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1419 (Data)", ROMX[$6EB2], BANK[$66]
 GameSceneNPCScriptReference1419::
-  db "『４ぽあがって　2ほさがる<BR>　3ぽあがって　1ぽさがる<BR>　2ほあがる』",$00
+  db "『4ぽあがって　２ほさがる<BR>　３ぽあがって　１ぽさがる<BR>　２ほあがる』",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 141A (Data)", ROMX[$6ED7], BANK[$66]
 GameSceneNPCScriptReference141A::
-  db "……？<BR>さっぱり　いみが<BR>わからないわ。",$00
+  db "……?<BR>さっぱり　いみが<BR>わからないわ。",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 141B (Data)", ROMX[$6EEC], BANK[$66]
 GameSceneNPCScriptReference141B::
@@ -327,15 +327,15 @@ GameSceneNPCScriptReference141E::
 
 SECTION "Game Scene NPC Script 0034 Reference 141F (Data)", ROMX[$6230], BANK[$66]
 GameSceneNPCScriptReference141F::
-  db "なんや……　メモか？<BR>カンナはんが　かいたんやな。",$00
+  db "なんや……　メモか?<BR>カンナはんが　かいたんやな。",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1420 (Data)", ROMX[$624A], BANK[$66]
 GameSceneNPCScriptReference1420::
-  db "『４ぽあがって　2ほさがる<BR>　3ぽあがって　1ぽさがる<BR>　2ほあがる』",$00
+  db "『4ぽあがって　２ほさがる<BR>　３ぽあがって　１ぽさがる<BR>　２ほあがる』",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1421 (Data)", ROMX[$626F], BANK[$66]
 GameSceneNPCScriptReference1421::
-  db "……？<BR>なんのこっちゃ　さっぱり<BR>わからへんがな。",$00
+  db "……?<BR>なんのこっちゃ　さっぱり<BR>わからへんがな。",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1422 (Data)", ROMX[$6289], BANK[$66]
 GameSceneNPCScriptReference1422::
@@ -355,15 +355,15 @@ GameSceneNPCScriptReference1425::
 
 SECTION "Game Scene NPC Script 0034 Reference 1426 (Data)", ROMX[$5518], BANK[$66]
 GameSceneNPCScriptReference1426::
-  db "なんや……　メモか？<BR>カンナはんが　かいたんやな。",$00
+  db "なんや……　メモか?<BR>カンナはんが　かいたんやな。",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1427 (Data)", ROMX[$5532], BANK[$66]
 GameSceneNPCScriptReference1427::
-  db "『４ぽあがって　2ほさがる<BR>　3ぽあがって　1ぽさがる<BR>　2ほあがる』",$00
+  db "『4ぽあがって　２ほさがる<BR>　３ぽあがって　１ぽさがる<BR>　２ほあがる』",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1428 (Data)", ROMX[$5557], BANK[$66]
 GameSceneNPCScriptReference1428::
-  db "……？<BR>なんのこっちゃ　さっぱり<BR>わからへんがな。",$00
+  db "……?<BR>なんのこっちゃ　さっぱり<BR>わからへんがな。",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1429 (Data)", ROMX[$5571], BANK[$66]
 GameSceneNPCScriptReference1429::
@@ -387,11 +387,11 @@ GameSceneNPCScriptReference142D::
 
 SECTION "Game Scene NPC Script 0034 Reference 142E (Data)", ROMX[$4F58], BANK[$67]
 GameSceneNPCScriptReference142E::
-  db "『４ぽあがって　2ほさがる<BR>　3ぽあがって　1ぽさがる<BR>　2ほあがる』",$00
+  db "『4ぽあがって　２ほさがる<BR>　３ぽあがって　１ぽさがる<BR>　２ほあがる』",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 142F (Data)", ROMX[$4F7D], BANK[$67]
 GameSceneNPCScriptReference142F::
-  db "……なんだ？<BR>さっぱり　いみが<BR>わからないぞ？",$00
+  db "……なんだ?<BR>さっぱり　いみが<BR>わからないぞ?",$00
 
 SECTION "Game Scene NPC Script 0034 Reference 1430 (Data)", ROMX[$4F95], BANK[$67]
 GameSceneNPCScriptReference1430::

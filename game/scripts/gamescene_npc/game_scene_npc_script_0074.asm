@@ -507,7 +507,7 @@ GameSceneNPCScriptReference29D6::
 
 SECTION "Game Scene NPC Script 0074 Reference 29D7 (Data)", ROMX[$5A77], BANK[$6E]
 GameSceneNPCScriptReference29D7::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 29D8 (Subroutine)", ROMX[$402C], BANK[$59]
 GameSceneNPCScriptReference29D8::
@@ -540,7 +540,7 @@ GameSceneNPCScriptReference29DB::
 
 SECTION "Game Scene NPC Script 0074 Reference 29DC (Data)", ROMX[$6731], BANK[$6E]
 GameSceneNPCScriptReference29DC::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 29DD (Subroutine)", ROMX[$451C], BANK[$59]
 GameSceneNPCScriptReference29DD::
@@ -573,7 +573,7 @@ GameSceneNPCScriptReference29E0::
 
 SECTION "Game Scene NPC Script 0074 Reference 29E1 (Data)", ROMX[$7436], BANK[$6E]
 GameSceneNPCScriptReference29E1::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 29E2 (Subroutine)", ROMX[$4A0B], BANK[$59]
 GameSceneNPCScriptReference29E2::
@@ -606,7 +606,7 @@ GameSceneNPCScriptReference29E5::
 
 SECTION "Game Scene NPC Script 0074 Reference 29E6 (Data)", ROMX[$4193], BANK[$6F]
 GameSceneNPCScriptReference29E6::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 29E7 (Subroutine)", ROMX[$4F01], BANK[$59]
 GameSceneNPCScriptReference29E7::
@@ -639,7 +639,7 @@ GameSceneNPCScriptReference29EA::
 
 SECTION "Game Scene NPC Script 0074 Reference 29EB (Data)", ROMX[$40CE], BANK[$90]
 GameSceneNPCScriptReference29EB::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 29EC (Subroutine)", ROMX[$6810], BANK[$59]
 GameSceneNPCScriptReference29EC::
@@ -672,7 +672,7 @@ GameSceneNPCScriptReference29EF::
 
 SECTION "Game Scene NPC Script 0074 Reference 29F0 (Data)", ROMX[$4D09], BANK[$90]
 GameSceneNPCScriptReference29F0::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 29F1 (Subroutine)", ROMX[$6CFF], BANK[$59]
 GameSceneNPCScriptReference29F1::
@@ -697,7 +697,7 @@ GameSceneNPCScriptReference29F2::
 
 SECTION "Game Scene NPC Script 0074 Reference 29F3 (Data)", ROMX[$4EC2], BANK[$6F]
 GameSceneNPCScriptReference29F3::
-  db "こういうところを　『まかい』<BR>って　いうのかな〜？<BR>なんだか　つよい　まものが<BR>でそうだよ……",$00
+  db "こういうところを　『まかい』<BR>って　いうのかな〜?<BR>なんだか　つよい　まものが<BR>でそうだよ……",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 29F4 (Data)", ROMX[$4EF2], BANK[$6F]
 GameSceneNPCScriptReference29F4::
@@ -705,7 +705,7 @@ GameSceneNPCScriptReference29F4::
 
 SECTION "Game Scene NPC Script 0074 Reference 29F5 (Data)", ROMX[$4F02], BANK[$6F]
 GameSceneNPCScriptReference29F5::
-  db "うん！",$00
+  db "うん!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 29F6 (Subroutine)", ROMX[$5401], BANK[$59]
 GameSceneNPCScriptReference29F6::
@@ -730,7 +730,7 @@ GameSceneNPCScriptReference29F7::
 
 SECTION "Game Scene NPC Script 0074 Reference 29F8 (Data)", ROMX[$5B0E], BANK[$6F]
 GameSceneNPCScriptReference29F8::
-  db "こういうところを　『まかい』<BR>って　いうのかな〜？<BR>なんだか　つよい　まものが<BR>でそうだよ……",$00
+  db "こういうところを　『まかい』<BR>って　いうのかな〜?<BR>なんだか　つよい　まものが<BR>でそうだよ……",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 29F9 (Data)", ROMX[$5B3E], BANK[$6F]
 GameSceneNPCScriptReference29F9::
@@ -771,7 +771,7 @@ GameSceneNPCScriptReference29FE::
 
 SECTION "Game Scene NPC Script 0074 Reference 29FF (Data)", ROMX[$4925], BANK[$91]
 GameSceneNPCScriptReference29FF::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A00 (Subroutine)", ROMX[$5B95], BANK[$58]
 GameSceneNPCScriptReference2A00::
@@ -804,7 +804,7 @@ GameSceneNPCScriptReference2A03::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A04 (Data)", ROMX[$5593], BANK[$91]
 GameSceneNPCScriptReference2A04::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A05 (Subroutine)", ROMX[$6084], BANK[$58]
 GameSceneNPCScriptReference2A05::
@@ -833,11 +833,11 @@ GameSceneNPCScriptReference2A07::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A08 (Data)", ROMX[$67B3], BANK[$6F]
 GameSceneNPCScriptReference2A08::
-  db "<NAME>！<BR>このさきにいる　まものは<BR>てごわそうだぜ！<BR>きあいを　いれろよ！！",$00
+  db "<NAME>!<BR>このさきにいる　まものは<BR>てごわそうだぜ!<BR>きあいを　いれろよ!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A09 (Data)", ROMX[$67D8], BANK[$6F]
 GameSceneNPCScriptReference2A09::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A0A (Subroutine)", ROMX[$5E30], BANK[$59]
 GameSceneNPCScriptReference2A0A::
@@ -866,11 +866,11 @@ GameSceneNPCScriptReference2A0C::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A0D (Data)", ROMX[$7430], BANK[$6F]
 GameSceneNPCScriptReference2A0D::
-  db "<NAME>！<BR>このさきにいる　まものは<BR>てごわそうだぜ！<BR>きあいを　いれろよ！！",$00
+  db "<NAME>!<BR>このさきにいる　まものは<BR>てごわそうだぜ!<BR>きあいを　いれろよ!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A0E (Data)", ROMX[$7455], BANK[$6F]
 GameSceneNPCScriptReference2A0E::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A0F (Subroutine)", ROMX[$631E], BANK[$59]
 GameSceneNPCScriptReference2A0F::
@@ -891,19 +891,19 @@ GameSceneNPCScriptReference2A0F::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A10 (Data)", ROMX[$619B], BANK[$91]
 GameSceneNPCScriptReference2A10::
-  db "なんですか？　ここは……<BR>ものすごくビッグな<BR>まのパワーを　かんじまーす。",$00
+  db "なんですか?　ここは……<BR>ものすごくビッグな<BR>まのパワーを　かんじまーす。",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A11 (Data)", ROMX[$61C1], BANK[$91]
 GameSceneNPCScriptReference2A11::
-  db "いわゆる　『まかい』って<BR>かんじでーすか？！<BR>まものも　てごわくなって<BR>きそうでーす。",$00
+  db "いわゆる　『まかい』って<BR>かんじでーすか?!<BR>まものも　てごわくなって<BR>きそうでーす。",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A12 (Data)", ROMX[$61ED], BANK[$91]
 GameSceneNPCScriptReference2A12::
-  db "<NAME>さん<BR>きあいを　いれて<BR>いきましょー！！",$00
+  db "<NAME>さん<BR>きあいを　いれて<BR>いきましょー!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A13 (Data)", ROMX[$6203], BANK[$91]
 GameSceneNPCScriptReference2A13::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A14 (Subroutine)", ROMX[$6574], BANK[$58]
 GameSceneNPCScriptReference2A14::
@@ -924,19 +924,19 @@ GameSceneNPCScriptReference2A14::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A15 (Data)", ROMX[$6EAE], BANK[$91]
 GameSceneNPCScriptReference2A15::
-  db "なんですか？　ここは……<BR>ものすごくビッグな<BR>まのパワーを　かんじまーす。",$00
+  db "なんですか?　ここは……<BR>ものすごくビッグな<BR>まのパワーを　かんじまーす。",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A16 (Data)", ROMX[$6ED4], BANK[$91]
 GameSceneNPCScriptReference2A16::
-  db "いわゆる　『まかい』って<BR>かんじでーすか？！<BR>まものも　てごわくなって<BR>きそうでーす。",$00
+  db "いわゆる　『まかい』って<BR>かんじでーすか?!<BR>まものも　てごわくなって<BR>きそうでーす。",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A17 (Data)", ROMX[$6F00], BANK[$91]
 GameSceneNPCScriptReference2A17::
-  db "<NAME>さん<BR>きあいを　いれて<BR>いきましょー！！",$00
+  db "<NAME>さん<BR>きあいを　いれて<BR>いきましょー!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A18 (Data)", ROMX[$6F16], BANK[$91]
 GameSceneNPCScriptReference2A18::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A19 (Subroutine)", ROMX[$6A6A], BANK[$58]
 GameSceneNPCScriptReference2A19::
@@ -965,11 +965,11 @@ GameSceneNPCScriptReference2A1B::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A1C (Data)", ROMX[$58FD], BANK[$90]
 GameSceneNPCScriptReference2A1C::
-  db "まものも　つよくなりそうだ。<BR><NAME>！<BR>きを　ひきしめて<BR>いくよ。",$00
+  db "まものも　つよくなりそうだ。<BR><NAME>!<BR>きを　ひきしめて<BR>いくよ。",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A1D (Data)", ROMX[$591D], BANK[$90]
 GameSceneNPCScriptReference2A1D::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A1E (Subroutine)", ROMX[$5782], BANK[$57]
 GameSceneNPCScriptReference2A1E::
@@ -998,11 +998,11 @@ GameSceneNPCScriptReference2A20::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A21 (Data)", ROMX[$64A5], BANK[$90]
 GameSceneNPCScriptReference2A21::
-  db "まものも　つよくなりそうだ。<BR><NAME>！<BR>きを　ひきしめて<BR>いくよ。",$00
+  db "まものも　つよくなりそうだ。<BR><NAME>!<BR>きを　ひきしめて<BR>いくよ。",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A22 (Data)", ROMX[$64C5], BANK[$90]
 GameSceneNPCScriptReference2A22::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A23 (Subroutine)", ROMX[$5C70], BANK[$57]
 GameSceneNPCScriptReference2A23::
@@ -1031,11 +1031,11 @@ GameSceneNPCScriptReference2A25::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A26 (Data)", ROMX[$7044], BANK[$90]
 GameSceneNPCScriptReference2A26::
-  db "<NAME>くん。<BR>このさき　てごわくなるぞ！<BR>きを　ぬくなよ！！",$00
+  db "<NAME>くん。<BR>このさき　てごわくなるぞ!<BR>きを　ぬくなよ!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A27 (Data)", ROMX[$7061], BANK[$90]
 GameSceneNPCScriptReference2A27::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A28 (Subroutine)", ROMX[$615B], BANK[$57]
 GameSceneNPCScriptReference2A28::
@@ -1068,11 +1068,11 @@ GameSceneNPCScriptReference2A2A::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A2B (Data)", ROMX[$7C65], BANK[$90]
 GameSceneNPCScriptReference2A2B::
-  db "<NAME>くん。<BR>このさき　てごわくなるぞ！<BR>きを　ぬくなよ！！",$00
+  db "<NAME>くん。<BR>このさき　てごわくなるぞ!<BR>きを　ぬくなよ!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A2C (Data)", ROMX[$7C82], BANK[$90]
 GameSceneNPCScriptReference2A2C::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A2D (Subroutine)", ROMX[$6642], BANK[$57]
 GameSceneNPCScriptReference2A2D::
@@ -1097,7 +1097,7 @@ GameSceneNPCScriptReference2A2D::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A2E (Data)", ROMX[$5AB4], BANK[$6E]
 GameSceneNPCScriptReference2A2E::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A2F (Data)", ROMX[$5ABB], BANK[$6E]
 GameSceneNPCScriptReference2A2F::
@@ -1105,7 +1105,7 @@ GameSceneNPCScriptReference2A2F::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A30 (Data)", ROMX[$67A1], BANK[$6E]
 GameSceneNPCScriptReference2A30::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A31 (Data)", ROMX[$67A8], BANK[$6E]
 GameSceneNPCScriptReference2A31::
@@ -1113,39 +1113,39 @@ GameSceneNPCScriptReference2A31::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A32 (Data)", ROMX[$7487], BANK[$6E]
 GameSceneNPCScriptReference2A32::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A33 (Data)", ROMX[$748E], BANK[$6E]
 GameSceneNPCScriptReference2A33::
-  db "いいへんじですわ。<BR><NAME>さん。<BR>では　まいりますわよ！！",$00
+  db "いいへんじですわ。<BR><NAME>さん。<BR>では　まいりますわよ!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A34 (Data)", ROMX[$41D2], BANK[$6F]
 GameSceneNPCScriptReference2A34::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A35 (Data)", ROMX[$41D9], BANK[$6F]
 GameSceneNPCScriptReference2A35::
-  db "いいへんじですわ。<BR><NAME>さん。<BR>では　まいりますわよ！！",$00
+  db "いいへんじですわ。<BR><NAME>さん。<BR>では　まいりますわよ!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A36 (Data)", ROMX[$410A], BANK[$90]
 GameSceneNPCScriptReference2A36::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A37 (Data)", ROMX[$4111], BANK[$90]
 GameSceneNPCScriptReference2A37::
-  db "いいへんじね。<BR>では　いくわよ<BR><NAME>くん！！",$00
+  db "いいへんじね。<BR>では　いくわよ<BR><NAME>くん!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A38 (Data)", ROMX[$4D42], BANK[$90]
 GameSceneNPCScriptReference2A38::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A39 (Data)", ROMX[$4D49], BANK[$90]
 GameSceneNPCScriptReference2A39::
-  db "いいへんじね。<BR>では　いくわよ　<NAME>！",$00
+  db "いいへんじね。<BR>では　いくわよ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A3A (Data)", ROMX[$4F44], BANK[$6F]
 GameSceneNPCScriptReference2A3A::
-  db "うん！　がんばろう！！",$00
+  db "うん!　がんばろう!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A3B (Data)", ROMX[$4F50], BANK[$6F]
 GameSceneNPCScriptReference2A3B::
@@ -1157,75 +1157,75 @@ GameSceneNPCScriptReference2A3C::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A3D (Data)", ROMX[$5BAF], BANK[$6F]
 GameSceneNPCScriptReference2A3D::
-  db "うん！<BR>いっしょに　がんばろう！！<BR>じゃあ　いくよ！<BR><NAME>！！",$00
+  db "うん!<BR>いっしょに　がんばろう!!<BR>じゃあ　いくよ!<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A3E (Data)", ROMX[$4974], BANK[$91]
 GameSceneNPCScriptReference2A3E::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A3F (Data)", ROMX[$497B], BANK[$91]
 GameSceneNPCScriptReference2A3F::
-  db "ほな　ビシッと　きあいを<BR>いれて　いきましょか<BR><NAME>はん！！",$00
+  db "ほな　ビシッと　きあいを<BR>いれて　いきましょか<BR><NAME>はん!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A40 (Data)", ROMX[$55E8], BANK[$91]
 GameSceneNPCScriptReference2A40::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A41 (Data)", ROMX[$55EF], BANK[$91]
 GameSceneNPCScriptReference2A41::
-  db "ほな　ビシッと　きあいを<BR>いれて　いきましょか<BR><NAME>はん！！",$00
+  db "ほな　ビシッと　きあいを<BR>いれて　いきましょか<BR><NAME>はん!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A42 (Data)", ROMX[$6823], BANK[$6F]
 GameSceneNPCScriptReference2A42::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A43 (Data)", ROMX[$682A], BANK[$6F]
 GameSceneNPCScriptReference2A43::
-  db "きあい　じゅうぶんだな<BR><NAME>！！<BR>じゃ　いくぜ！！！",$00
+  db "きあい　じゅうぶんだな<BR><NAME>!!<BR>じゃ　いくぜ!!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A44 (Data)", ROMX[$749B], BANK[$6F]
 GameSceneNPCScriptReference2A44::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A45 (Data)", ROMX[$74A2], BANK[$6F]
 GameSceneNPCScriptReference2A45::
-  db "きあい　じゅうぶんだな<BR><NAME>！！<BR>じゃ　いくぜ！！！",$00
+  db "きあい　じゅうぶんだな<BR><NAME>!!<BR>じゃ　いくぜ!!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A46 (Data)", ROMX[$6242], BANK[$91]
 GameSceneNPCScriptReference2A46::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A47 (Data)", ROMX[$6249], BANK[$91]
 GameSceneNPCScriptReference2A47::
-  db "いいへんじでーす。<BR>では　<NAME>さん<BR>レッツ　ゴー！！",$00
+  db "いいへんじでーす。<BR>では　<NAME>さん<BR>レッツ　ゴー!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A48 (Data)", ROMX[$6F70], BANK[$91]
 GameSceneNPCScriptReference2A48::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A49 (Data)", ROMX[$6F77], BANK[$91]
 GameSceneNPCScriptReference2A49::
-  db "いいへんじでーす。<BR>では　<NAME>さん<BR>レッツ　ゴー！！",$00
+  db "いいへんじでーす。<BR>では　<NAME>さん<BR>レッツ　ゴー!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A4A (Data)", ROMX[$5959], BANK[$90]
 GameSceneNPCScriptReference2A4A::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A4B (Data)", ROMX[$5960], BANK[$90]
 GameSceneNPCScriptReference2A4B::
-  db "よし。<BR>じゃあ　いこう。<BR><NAME>！！",$00
+  db "よし。<BR>じゃあ　いこう。<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A4C (Data)", ROMX[$6500], BANK[$90]
 GameSceneNPCScriptReference2A4C::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A4D (Data)", ROMX[$6507], BANK[$90]
 GameSceneNPCScriptReference2A4D::
-  db "よし。<BR>じゃあ　いこう。<BR><NAME>！！",$00
+  db "よし。<BR>じゃあ　いこう。<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A4E (Data)", ROMX[$7099], BANK[$90]
 GameSceneNPCScriptReference2A4E::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A4F (Data)", ROMX[$70A0], BANK[$90]
 GameSceneNPCScriptReference2A4F::
@@ -1233,11 +1233,11 @@ GameSceneNPCScriptReference2A4F::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A50 (Data)", ROMX[$70B1], BANK[$90]
 GameSceneNPCScriptReference2A50::
-  db "よし　いくぞ！！",$00
+  db "よし　いくぞ!!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A51 (Data)", ROMX[$7CE3], BANK[$90]
 GameSceneNPCScriptReference2A51::
-  db "りょうかい！",$00
+  db "りょうかい!",$00
 
 SECTION "Game Scene NPC Script 0074 Reference 2A52 (Data)", ROMX[$7CEA], BANK[$90]
 GameSceneNPCScriptReference2A52::
@@ -1245,6 +1245,6 @@ GameSceneNPCScriptReference2A52::
 
 SECTION "Game Scene NPC Script 0074 Reference 2A53 (Data)", ROMX[$7CF9], BANK[$90]
 GameSceneNPCScriptReference2A53::
-  db "では　いくぞ！！",$00
+  db "では　いくぞ!!",$00
 
 POPC

@@ -65,11 +65,11 @@ GameSceneNPCScriptReference2A55::
 
 SECTION "Game Scene NPC Script 0075 Reference 2A56 (Data)", ROMX[$5BE0], BANK[$94]
 GameSceneNPCScriptReference2A56::
-  db "キミたちは……<BR>オレをたすけに<BR>きてくれたのかい？",$00
+  db "キミたちは……<BR>オレをたすけに<BR>きてくれたのかい?",$00
 
 SECTION "Game Scene NPC Script 0075 Reference 2A57 (Data)", ROMX[$5BFA], BANK[$94]
 GameSceneNPCScriptReference2A57::
-  db "もちろんですよ！",$00
+  db "もちろんですよ!",$00
 
 SECTION "Game Scene NPC Script 0075 Reference 2A58 (Data)", ROMX[$5C03], BANK[$94]
 GameSceneNPCScriptReference2A58::

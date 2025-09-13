@@ -520,11 +520,11 @@ GameSceneNPCScriptReference0895::
 
 SECTION "Game Scene NPC Script 0023 Reference 0896 (Data)", ROMX[$7FE9], BANK[$63]
 GameSceneNPCScriptReference0896::
-  db "おや？　これはなんだ？",$00
+  db "おや?　これはなんだ?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 0897 (Data)", ROMX[$4000], BANK[$64]
 GameSceneNPCScriptReference0897::
-  db "<NAME>　なにを<BR>みつけたんだ？",$00
+  db "<NAME>　なにを<BR>みつけたんだ?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 0898 (Data)", ROMX[$400E], BANK[$64]
 GameSceneNPCScriptReference0898::
@@ -624,11 +624,11 @@ GameSceneNPCScriptReference089E::
 
 SECTION "Game Scene NPC Script 0023 Reference 089F (Data)", ROMX[$415C], BANK[$66]
 GameSceneNPCScriptReference089F::
-  db "あら？　これは　なにかしら？",$00
+  db "あら?　これは　なにかしら?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08A0 (Data)", ROMX[$416B], BANK[$66]
 GameSceneNPCScriptReference08A0::
-  db "<NAME>さん<BR>なにを　みつけたんですの？",$00
+  db "<NAME>さん<BR>なにを　みつけたんですの?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08A1 (Data)", ROMX[$417D], BANK[$66]
 GameSceneNPCScriptReference08A1::
@@ -875,7 +875,7 @@ GameSceneNPCScriptReference08B3::
 
 SECTION "Game Scene NPC Script 0023 Reference 08B4 (Data)", ROMX[$6144], BANK[$65]
 GameSceneNPCScriptReference08B4::
-  db "おや？　これはなんだ？",$00
+  db "おや?　これはなんだ?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08B5 (Data)", ROMX[$6150], BANK[$65]
 GameSceneNPCScriptReference08B5::
@@ -887,7 +887,7 @@ GameSceneNPCScriptReference08B6::
 
 SECTION "Game Scene NPC Script 0023 Reference 08B7 (Data)", ROMX[$617B], BANK[$65]
 GameSceneNPCScriptReference08B7::
-  db "それを　どうするんだ？？",$00
+  db "それを　どうするんだ??",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08B8 (Data)", ROMX[$6188], BANK[$65]
 GameSceneNPCScriptReference08B8::
@@ -1011,15 +1011,15 @@ GameSceneNPCScriptReference08C9::
 
 SECTION "Game Scene NPC Script 0023 Reference 08CA (Data)", ROMX[$4158], BANK[$64]
 GameSceneNPCScriptReference08CA::
-  db "それで　あのファンを<BR>とめるってか？",$00
+  db "それで　あのファンを<BR>とめるってか?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08CB (Data)", ROMX[$416B], BANK[$64]
 GameSceneNPCScriptReference08CB::
-  db "そのとおりです！！",$00
+  db "そのとおりです!!",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08CC (Data)", ROMX[$4175], BANK[$64]
 GameSceneNPCScriptReference08CC::
-  db "おまえな〜　きょだいファンの<BR>リモコンなんて　そうこに<BR>おちてるわけねーだろ？",$00
+  db "おまえな〜　きょだいファンの<BR>リモコンなんて　そうこに<BR>おちてるわけねーだろ?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08CD (Data)", ROMX[$419D], BANK[$64]
 GameSceneNPCScriptReference08CD::
@@ -1051,7 +1051,7 @@ GameSceneNPCScriptReference08D3::
 
 SECTION "Game Scene NPC Script 0023 Reference 08D4 (Data)", ROMX[$4207], BANK[$66]
 GameSceneNPCScriptReference08D4::
-  db "まものに　おそわれたとき<BR>てが　ふさがっていては<BR>たたかえないでは<BR>ありませんの？",$00
+  db "まものに　おそわれたとき<BR>てが　ふさがっていては<BR>たたかえないでは<BR>ありませんの?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08D5 (Data)", ROMX[$4231], BANK[$66]
 GameSceneNPCScriptReference08D5::
@@ -1087,15 +1087,15 @@ GameSceneNPCScriptReference08DC::
 
 SECTION "Game Scene NPC Script 0023 Reference 08DD (Data)", ROMX[$430C], BANK[$66]
 GameSceneNPCScriptReference08DD::
-  db "それで　あのファンを<BR>とめるんですの？",$00
+  db "それで　あのファンを<BR>とめるんですの?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08DE (Data)", ROMX[$4320], BANK[$66]
 GameSceneNPCScriptReference08DE::
-  db "そのとおりです！！",$00
+  db "そのとおりです!!",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08DF (Data)", ROMX[$432A], BANK[$66]
 GameSceneNPCScriptReference08DF::
-  db "きょだいファンの<BR>リモコンなんて　そうこに<BR>あるわけないでしょう！<BR><NAME>さん！！",$00
+  db "きょだいファンの<BR>リモコンなんて　そうこに<BR>あるわけないでしょう!<BR><NAME>さん!!",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08E0 (Data)", ROMX[$4352], BANK[$66]
 GameSceneNPCScriptReference08E0::
@@ -1111,11 +1111,11 @@ GameSceneNPCScriptReference08E2::
 
 SECTION "Game Scene NPC Script 0023 Reference 08E3 (Data)", ROMX[$6064], BANK[$63]
 GameSceneNPCScriptReference08E3::
-  db "あら？　これは　なにかしら？",$00
+  db "あら?　これは　なにかしら?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08E4 (Data)", ROMX[$6073], BANK[$63]
 GameSceneNPCScriptReference08E4::
-  db "<NAME>　なにを<BR>みつけたんだ？",$00
+  db "<NAME>　なにを<BR>みつけたんだ?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08E5 (Data)", ROMX[$6081], BANK[$63]
 GameSceneNPCScriptReference08E5::
@@ -1213,7 +1213,7 @@ GameSceneNPCScriptReference08EB::
 
 SECTION "Game Scene NPC Script 0023 Reference 08EC (Data)", ROMX[$4087], BANK[$65]
 GameSceneNPCScriptReference08EC::
-  db "おや？　これはなんだ？",$00
+  db "おや?　これはなんだ?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08ED (Data)", ROMX[$4093], BANK[$65]
 GameSceneNPCScriptReference08ED::
@@ -1225,7 +1225,7 @@ GameSceneNPCScriptReference08EE::
 
 SECTION "Game Scene NPC Script 0023 Reference 08EF (Data)", ROMX[$40C0], BANK[$65]
 GameSceneNPCScriptReference08EF::
-  db "それを　どうするですか？",$00
+  db "それを　どうするですか?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08F0 (Data)", ROMX[$40CD], BANK[$65]
 GameSceneNPCScriptReference08F0::
@@ -1305,7 +1305,7 @@ GameSceneNPCScriptReference08F6::
 
 SECTION "Game Scene NPC Script 0023 Reference 08F7 (Data)", ROMX[$6012], BANK[$64]
 GameSceneNPCScriptReference08F7::
-  db "あら？　これはなにかしら？",$00
+  db "あら?　これはなにかしら?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08F8 (Data)", ROMX[$6020], BANK[$64]
 GameSceneNPCScriptReference08F8::
@@ -1317,7 +1317,7 @@ GameSceneNPCScriptReference08F9::
 
 SECTION "Game Scene NPC Script 0023 Reference 08FA (Data)", ROMX[$604D], BANK[$64]
 GameSceneNPCScriptReference08FA::
-  db "それを　どうするですか？",$00
+  db "それを　どうするですか?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 08FB (Data)", ROMX[$605A], BANK[$64]
 GameSceneNPCScriptReference08FB::
@@ -1409,7 +1409,7 @@ GameSceneNPCScriptReference0904::
 
 SECTION "Game Scene NPC Script 0023 Reference 0905 (Data)", ROMX[$6213], BANK[$65]
 GameSceneNPCScriptReference0905::
-  db "ものほしざおを<BR>ファンにつっこんで<BR>ファンをとめましょう！",$00
+  db "ものほしざおを<BR>ファンにつっこんで<BR>ファンをとめましょう!",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 0906 (Data)", ROMX[$6231], BANK[$65]
 GameSceneNPCScriptReference0906::
@@ -1433,7 +1433,7 @@ GameSceneNPCScriptReference090A::
 
 SECTION "Game Scene NPC Script 0023 Reference 090B (Data)", ROMX[$62A2], BANK[$65]
 GameSceneNPCScriptReference090B::
-  db "それが　どうかしたのか？<BR>いまは　せんたくなんて<BR>かんけいない。",$00
+  db "それが　どうかしたのか?<BR>いまは　せんたくなんて<BR>かんけいない。",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 090C (Data)", ROMX[$62C3], BANK[$65]
 GameSceneNPCScriptReference090C::
@@ -1457,7 +1457,7 @@ GameSceneNPCScriptReference0910::
 
 SECTION "Game Scene NPC Script 0023 Reference 0911 (Data)", ROMX[$60F1], BANK[$63]
 GameSceneNPCScriptReference0911::
-  db "だけどダメだ。<BR>それで　まものに<BR>おそわれたら　てがふさがって<BR>たたかえないだろ？",$00
+  db "だけどダメだ。<BR>それで　まものに<BR>おそわれたら　てがふさがって<BR>たたかえないだろ?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 0912 (Data)", ROMX[$611B], BANK[$63]
 GameSceneNPCScriptReference0912::
@@ -1493,15 +1493,15 @@ GameSceneNPCScriptReference0919::
 
 SECTION "Game Scene NPC Script 0023 Reference 091A (Data)", ROMX[$61F2], BANK[$63]
 GameSceneNPCScriptReference091A::
-  db "それで　あのファンを<BR>とめるってか？",$00
+  db "それで　あのファンを<BR>とめるってか?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 091B (Data)", ROMX[$6205], BANK[$63]
 GameSceneNPCScriptReference091B::
-  db "そのとおりです！！",$00
+  db "そのとおりです!!",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 091C (Data)", ROMX[$620F], BANK[$63]
 GameSceneNPCScriptReference091C::
-  db "おまえな〜　きょだいファンの<BR>リモコンなんて　そうこに<BR>おちてるわけねーだろ？",$00
+  db "おまえな〜　きょだいファンの<BR>リモコンなんて　そうこに<BR>おちてるわけねーだろ?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 091D (Data)", ROMX[$6237], BANK[$63]
 GameSceneNPCScriptReference091D::
@@ -1521,7 +1521,7 @@ GameSceneNPCScriptReference0920::
 
 SECTION "Game Scene NPC Script 0023 Reference 0921 (Data)", ROMX[$412C], BANK[$65]
 GameSceneNPCScriptReference0921::
-  db "でも……　ダメでーす。<BR>てんじょうに<BR>ぶつかって　しまいまーす！",$00
+  db "でも……　ダメでーす。<BR>てんじょうに<BR>ぶつかって　しまいまーす!",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 0922 (Data)", ROMX[$414D], BANK[$65]
 GameSceneNPCScriptReference0922::
@@ -1553,7 +1553,7 @@ GameSceneNPCScriptReference0928::
 
 SECTION "Game Scene NPC Script 0023 Reference 0929 (Data)", ROMX[$41FC], BANK[$65]
 GameSceneNPCScriptReference0929::
-  db "それが　どうかしましたか？<BR>いまは　せんたくなんて<BR>カンケーありませーん。",$00
+  db "それが　どうかしましたか?<BR>いまは　せんたくなんて<BR>カンケーありませーん。",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 092A (Data)", ROMX[$4222], BANK[$65]
 GameSceneNPCScriptReference092A::
@@ -1569,7 +1569,7 @@ GameSceneNPCScriptReference092C::
 
 SECTION "Game Scene NPC Script 0023 Reference 092D (Data)", ROMX[$60B5], BANK[$64]
 GameSceneNPCScriptReference092D::
-  db "でも……　ダメでーす。<BR>てんじょうに<BR>ぶつかって　しまいまーす！",$00
+  db "でも……　ダメでーす。<BR>てんじょうに<BR>ぶつかって　しまいまーす!",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 092E (Data)", ROMX[$60D6], BANK[$64]
 GameSceneNPCScriptReference092E::
@@ -1577,7 +1577,7 @@ GameSceneNPCScriptReference092E::
 
 SECTION "Game Scene NPC Script 0023 Reference 092F (Data)", ROMX[$60E9], BANK[$64]
 GameSceneNPCScriptReference092F::
-  db "これを　こうぶの　つえ<BR>としてつかえば　ファンに<BR>とばされないんじゃ<BR>ないですか？",$00
+  db "これを　こうぶの　つえ<BR>としてつかえば　ファンに<BR>とばされないんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0023 Reference 0930 (Data)", ROMX[$6113], BANK[$64]
 GameSceneNPCScriptReference0930::

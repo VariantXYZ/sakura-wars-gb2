@@ -275,7 +275,7 @@ GameSceneNPCScriptReference2744::
 
 SECTION "Game Scene NPC Script 0072 Reference 2745 (Data)", ROMX[$4BCF], BANK[$6E]
 GameSceneNPCScriptReference2745::
-  db "！！<BR><NAME>さん！",$00
+  db "!!<BR><NAME>さん!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 2746 (Data)", ROMX[$4BD7], BANK[$6E]
 GameSceneNPCScriptReference2746::
@@ -283,11 +283,11 @@ GameSceneNPCScriptReference2746::
 
 SECTION "Game Scene NPC Script 0072 Reference 2747 (Data)", ROMX[$4BF0], BANK[$6E]
 GameSceneNPCScriptReference2747::
-  db "……なにもの！<BR>こそこそ　かくれていないで<BR>でてらっしゃい！！",$00
+  db "……なにもの!<BR>こそこそ　かくれていないで<BR>でてらっしゃい!!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 2748 (Data)", ROMX[$4C10], BANK[$6E]
 GameSceneNPCScriptReference2748::
-  db "！！！<BR>すみれさん　うしろ！！",$00
+  db "!!!<BR>すみれさん　うしろ!!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 2749 (Data)", ROMX[$4C20], BANK[$6E]
 GameSceneNPCScriptReference2749::
@@ -299,7 +299,7 @@ GameSceneNPCScriptReference274A::
 
 SECTION "Game Scene NPC Script 0072 Reference 274B (Data)", ROMX[$7EB9], BANK[$6D]
 GameSceneNPCScriptReference274B::
-  db "！！<BR><NAME>さん！",$00
+  db "!!<BR><NAME>さん!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 274C (Data)", ROMX[$7EC1], BANK[$6D]
 GameSceneNPCScriptReference274C::
@@ -307,11 +307,11 @@ GameSceneNPCScriptReference274C::
 
 SECTION "Game Scene NPC Script 0072 Reference 274D (Data)", ROMX[$7EDA], BANK[$6D]
 GameSceneNPCScriptReference274D::
-  db "……ちかくに　います……<BR>なにもの！　でてきなさい！！",$00
+  db "……ちかくに　います……<BR>なにもの!　でてきなさい!!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 274E (Data)", ROMX[$7EF6], BANK[$6D]
 GameSceneNPCScriptReference274E::
-  db "！！！<BR>さくらさん　うしろ！！",$00
+  db "!!!<BR>さくらさん　うしろ!!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 274F (Data)", ROMX[$7F06], BANK[$6D]
 GameSceneNPCScriptReference274F::
@@ -323,7 +323,7 @@ GameSceneNPCScriptReference2750::
 
 SECTION "Game Scene NPC Script 0072 Reference 2751 (Data)", ROMX[$65EB], BANK[$6D]
 GameSceneNPCScriptReference2751::
-  db "！！<BR><NAME>！",$00
+  db "!!<BR><NAME>!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 2752 (Data)", ROMX[$65F1], BANK[$6D]
 GameSceneNPCScriptReference2752::
@@ -335,7 +335,7 @@ GameSceneNPCScriptReference2753::
 
 SECTION "Game Scene NPC Script 0072 Reference 2754 (Data)", ROMX[$660C], BANK[$6D]
 GameSceneNPCScriptReference2754::
-  db "！！！<BR>レニさん　うしろ！！",$00
+  db "!!!<BR>レニさん　うしろ!!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 2755 (Data)", ROMX[$661B], BANK[$6D]
 GameSceneNPCScriptReference2755::
@@ -469,7 +469,7 @@ GameSceneNPCScriptReference2758::
 
 SECTION "Game Scene NPC Script 0072 Reference 2759 (Data)", ROMX[$71CD], BANK[$6D]
 GameSceneNPCScriptReference2759::
-  db "！！<BR><NAME>さん！",$00
+  db "!!<BR><NAME>さん!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 275A (Data)", ROMX[$71D5], BANK[$6D]
 GameSceneNPCScriptReference275A::
@@ -477,11 +477,11 @@ GameSceneNPCScriptReference275A::
 
 SECTION "Game Scene NPC Script 0072 Reference 275B (Data)", ROMX[$71EE], BANK[$6D]
 GameSceneNPCScriptReference275B::
-  db "……ちかくに　います……<BR>なにもの！　でてきなさい！！",$00
+  db "……ちかくに　います……<BR>なにもの!　でてきなさい!!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 275C (Data)", ROMX[$720A], BANK[$6D]
 GameSceneNPCScriptReference275C::
-  db "！！！<BR>さくらさん　うしろ！！",$00
+  db "!!!<BR>さくらさん　うしろ!!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 275D (Data)", ROMX[$721A], BANK[$6D]
 GameSceneNPCScriptReference275D::
@@ -493,7 +493,7 @@ GameSceneNPCScriptReference275E::
 
 SECTION "Game Scene NPC Script 0072 Reference 275F (Data)", ROMX[$5687], BANK[$6D]
 GameSceneNPCScriptReference275F::
-  db "！！<BR><NAME>くん！",$00
+  db "!!<BR><NAME>くん!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 2760 (Data)", ROMX[$568F], BANK[$6D]
 GameSceneNPCScriptReference2760::
@@ -505,7 +505,7 @@ GameSceneNPCScriptReference2761::
 
 SECTION "Game Scene NPC Script 0072 Reference 2762 (Data)", ROMX[$56B3], BANK[$6D]
 GameSceneNPCScriptReference2762::
-  db "！！！<BR>うしろ！！",$00
+  db "!!!<BR>うしろ!!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 2763 (Data)", ROMX[$56BD], BANK[$6D]
 GameSceneNPCScriptReference2763::
@@ -517,7 +517,7 @@ GameSceneNPCScriptReference2764::
 
 SECTION "Game Scene NPC Script 0072 Reference 2765 (Data)", ROMX[$49F3], BANK[$6D]
 GameSceneNPCScriptReference2765::
-  db "！！<BR><NAME>くん！",$00
+  db "!!<BR><NAME>くん!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 2766 (Data)", ROMX[$49FB], BANK[$6D]
 GameSceneNPCScriptReference2766::
@@ -529,7 +529,7 @@ GameSceneNPCScriptReference2767::
 
 SECTION "Game Scene NPC Script 0072 Reference 2768 (Data)", ROMX[$4A2F], BANK[$6D]
 GameSceneNPCScriptReference2768::
-  db "！！！<BR>おおがみさん！　うしろ！！",$00
+  db "!!!<BR>おおがみさん!　うしろ!!",$00
 
 SECTION "Game Scene NPC Script 0072 Reference 2769 (Data)", ROMX[$4A41], BANK[$6D]
 GameSceneNPCScriptReference2769::

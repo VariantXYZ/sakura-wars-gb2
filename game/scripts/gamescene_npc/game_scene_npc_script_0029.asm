@@ -429,11 +429,11 @@ GameSceneNPCScriptReference0FE1::
 
 SECTION "Game Scene NPC Script 0029 Reference 0FE2 (Data)", ROMX[$688B], BANK[$63]
 GameSceneNPCScriptReference0FE2::
-  db "カンナさん　これは？",$00
+  db "カンナさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 0FE3 (Data)", ROMX[$6896], BANK[$63]
 GameSceneNPCScriptReference0FE3::
-  db "これは　『まじんき』のひとつ<BR>『けん』じゃねーか！！",$00
+  db "これは　『まじんき』のひとつ<BR>『けん』じゃねーか!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 0FE4 (Data)", ROMX[$68B1], BANK[$63]
 GameSceneNPCScriptReference0FE4::
@@ -441,7 +441,7 @@ GameSceneNPCScriptReference0FE4::
 
 SECTION "Game Scene NPC Script 0029 Reference 0FE5 (Data)", ROMX[$68C4], BANK[$63]
 GameSceneNPCScriptReference0FE5::
-  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか？　<NAME>。",$00
+  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか?　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 0FE6 (Data)", ROMX[$68E9], BANK[$63]
 GameSceneNPCScriptReference0FE6::
@@ -626,11 +626,11 @@ GameSceneNPCScriptReference0FEE::
 
 SECTION "Game Scene NPC Script 0029 Reference 0FEF (Data)", ROMX[$68F2], BANK[$65]
 GameSceneNPCScriptReference0FEF::
-  db "すみれさん　これは？",$00
+  db "すみれさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 0FF0 (Data)", ROMX[$68FD], BANK[$65]
 GameSceneNPCScriptReference0FF0::
-  db "これは　『まじんき』のひとつ<BR>『けん』ですわ！！",$00
+  db "これは　『まじんき』のひとつ<BR>『けん』ですわ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 0FF1 (Data)", ROMX[$6916], BANK[$65]
 GameSceneNPCScriptReference0FF1::
@@ -638,7 +638,7 @@ GameSceneNPCScriptReference0FF1::
 
 SECTION "Game Scene NPC Script 0029 Reference 0FF2 (Data)", ROMX[$693B], BANK[$65]
 GameSceneNPCScriptReference0FF2::
-  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしましょうか？<BR><NAME>さん。",$00
+  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしましょうか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 0FF3 (Data)", ROMX[$6964], BANK[$65]
 GameSceneNPCScriptReference0FF3::
@@ -1002,7 +1002,7 @@ GameSceneNPCScriptReference1007::
 
 SECTION "Game Scene NPC Script 0029 Reference 1008 (Data)", ROMX[$4B07], BANK[$65]
 GameSceneNPCScriptReference1008::
-  db "レニさん　これは？",$00
+  db "レニさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1009 (Data)", ROMX[$4B11], BANK[$65]
 GameSceneNPCScriptReference1009::
@@ -1014,7 +1014,7 @@ GameSceneNPCScriptReference100A::
 
 SECTION "Game Scene NPC Script 0029 Reference 100B (Data)", ROMX[$4B39], BANK[$65]
 GameSceneNPCScriptReference100B::
-  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR><NAME>　どうしたら<BR>いいとおもう？",$00
+  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR><NAME>　どうしたら<BR>いいとおもう?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 100C (Data)", ROMX[$4B63], BANK[$65]
 GameSceneNPCScriptReference100C::
@@ -1162,11 +1162,11 @@ GameSceneNPCScriptReference1012::
 
 SECTION "Game Scene NPC Script 0029 Reference 1013 (Data)", ROMX[$6D07], BANK[$63]
 GameSceneNPCScriptReference1013::
-  db "カンナさん　これは？",$00
+  db "カンナさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1014 (Data)", ROMX[$6D12], BANK[$63]
 GameSceneNPCScriptReference1014::
-  db "これは　『まじんき』のひとつ<BR>『けん』じゃねーか！！",$00
+  db "これは　『まじんき』のひとつ<BR>『けん』じゃねーか!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1015 (Data)", ROMX[$6D2D], BANK[$63]
 GameSceneNPCScriptReference1015::
@@ -1174,7 +1174,7 @@ GameSceneNPCScriptReference1015::
 
 SECTION "Game Scene NPC Script 0029 Reference 1016 (Data)", ROMX[$6D40], BANK[$63]
 GameSceneNPCScriptReference1016::
-  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか？　<NAME>。",$00
+  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか?　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1017 (Data)", ROMX[$6D65], BANK[$63]
 GameSceneNPCScriptReference1017::
@@ -1322,7 +1322,7 @@ GameSceneNPCScriptReference101C::
 
 SECTION "Game Scene NPC Script 0029 Reference 101D (Data)", ROMX[$6911], BANK[$63]
 GameSceneNPCScriptReference101D::
-  db "カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうですか？",$00
+  db "カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうですか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 101E (Data)", ROMX[$6936], BANK[$63]
 GameSceneNPCScriptReference101E::
@@ -1334,59 +1334,59 @@ GameSceneNPCScriptReference101F::
 
 SECTION "Game Scene NPC Script 0029 Reference 1020 (Data)", ROMX[$6976], BANK[$63]
 GameSceneNPCScriptReference1020::
-  db "あ　そうだ！<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ！",$00
+  db "あ　そうだ!<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1021 (Data)", ROMX[$6995], BANK[$63]
 GameSceneNPCScriptReference1021::
-  db "ということは<BR>このミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか！？",$00
+  db "ということは<BR>このミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1022 (Data)", ROMX[$69BE], BANK[$63]
 GameSceneNPCScriptReference1022::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1023 (Data)", ROMX[$69E1], BANK[$63]
 GameSceneNPCScriptReference1023::
-  db "そうだよ　<NAME>！",$00
+  db "そうだよ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1024 (Data)", ROMX[$69E9], BANK[$63]
 GameSceneNPCScriptReference1024::
-  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>！",$00
+  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1025 (Data)", ROMX[$6A10], BANK[$63]
 GameSceneNPCScriptReference1025::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1026 (Data)", ROMX[$6A28], BANK[$63]
 GameSceneNPCScriptReference1026::
-  db "どうやってだ？",$00
+  db "どうやってだ?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1027 (Data)", ROMX[$6A30], BANK[$63]
 GameSceneNPCScriptReference1027::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1028 (Data)", ROMX[$6A50], BANK[$63]
 GameSceneNPCScriptReference1028::
-  db "だんぼう？<BR>………………",$00
+  db "だんぼう?<BR>………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1029 (Data)", ROMX[$6A5D], BANK[$63]
 GameSceneNPCScriptReference1029::
-  db "あっ　そうか！！<BR>ミカサには　ボイラーが<BR>あるんだ！！",$00
+  db "あっ　そうか!!<BR>ミカサには　ボイラーが<BR>あるんだ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 102A (Data)", ROMX[$6A79], BANK[$63]
 GameSceneNPCScriptReference102A::
-  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける！！",$00
+  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 102B (Data)", ROMX[$6AA3], BANK[$63]
 GameSceneNPCScriptReference102B::
-  db "ナイスだぜ！",$00
+  db "ナイスだぜ!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 102C (Data)", ROMX[$6AAA], BANK[$63]
 GameSceneNPCScriptReference102C::
-  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>！",$00
+  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 102D (Data)", ROMX[$6BE0], BANK[$63]
 GameSceneNPCScriptReference102D::
-  db "なめて　とかしましょうか？<BR>なーんちゃって。",$00
+  db "なめて　とかしましょうか?<BR>なーんちゃって。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 102E (Data)", ROMX[$6BF7], BANK[$63]
 GameSceneNPCScriptReference102E::
@@ -1402,23 +1402,23 @@ GameSceneNPCScriptReference1030::
 
 SECTION "Game Scene NPC Script 0029 Reference 1031 (Data)", ROMX[$6C29], BANK[$63]
 GameSceneNPCScriptReference1031::
-  db "あっ　そうか！！<BR>ミカサには　ボイラーが<BR>あるんだ！！",$00
+  db "あっ　そうか!!<BR>ミカサには　ボイラーが<BR>あるんだ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1032 (Data)", ROMX[$6C45], BANK[$63]
 GameSceneNPCScriptReference1032::
-  db "ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか！？",$00
+  db "ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1033 (Data)", ROMX[$6C6C], BANK[$63]
 GameSceneNPCScriptReference1033::
-  db "あっ！　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1034 (Data)", ROMX[$6C87], BANK[$63]
 GameSceneNPCScriptReference1034::
-  db "そうだよ　<NAME>！<BR>ボイラーを　うごかして<BR>だんぼうをいれて　こおりを<BR>とかすんだ！！",$00
+  db "そうだよ　<NAME>!<BR>ボイラーを　うごかして<BR>だんぼうをいれて　こおりを<BR>とかすんだ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1035 (Data)", ROMX[$6CB1], BANK[$63]
 GameSceneNPCScriptReference1035::
-  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>！",$00
+  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1036 (Data)", ROMX[$72CD], BANK[$65]
 GameSceneNPCScriptReference1036::
@@ -1426,11 +1426,11 @@ GameSceneNPCScriptReference1036::
 
 SECTION "Game Scene NPC Script 0029 Reference 1037 (Data)", ROMX[$6DF0], BANK[$65]
 GameSceneNPCScriptReference1037::
-  db "すみれさん　これは？",$00
+  db "すみれさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1038 (Data)", ROMX[$6DFB], BANK[$65]
 GameSceneNPCScriptReference1038::
-  db "これは　『まじんき』のひとつ<BR>『けん』ですわ！！",$00
+  db "これは　『まじんき』のひとつ<BR>『けん』ですわ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1039 (Data)", ROMX[$6E14], BANK[$65]
 GameSceneNPCScriptReference1039::
@@ -1438,7 +1438,7 @@ GameSceneNPCScriptReference1039::
 
 SECTION "Game Scene NPC Script 0029 Reference 103A (Data)", ROMX[$6E39], BANK[$65]
 GameSceneNPCScriptReference103A::
-  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしましょうか？<BR><NAME>さん。",$00
+  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしましょうか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 103B (Data)", ROMX[$6E62], BANK[$65]
 GameSceneNPCScriptReference103B::
@@ -1591,7 +1591,7 @@ GameSceneNPCScriptReference1040::
 
 SECTION "Game Scene NPC Script 0029 Reference 1041 (Data)", ROMX[$698A], BANK[$65]
 GameSceneNPCScriptReference1041::
-  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょうか？<BR>すみれさん。",$00
+  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょうか?<BR>すみれさん。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1042 (Data)", ROMX[$69AD], BANK[$65]
 GameSceneNPCScriptReference1042::
@@ -1603,7 +1603,7 @@ GameSceneNPCScriptReference1043::
 
 SECTION "Game Scene NPC Script 0029 Reference 1044 (Data)", ROMX[$69FA], BANK[$65]
 GameSceneNPCScriptReference1044::
-  db "あっ　そうですわ！<BR>ミカサには　ボイラーが<BR>あったはずですわ！！",$00
+  db "あっ　そうですわ!<BR>ミカサには　ボイラーが<BR>あったはずですわ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1045 (Data)", ROMX[$6A1B], BANK[$65]
 GameSceneNPCScriptReference1045::
@@ -1611,7 +1611,7 @@ GameSceneNPCScriptReference1045::
 
 SECTION "Game Scene NPC Script 0029 Reference 1046 (Data)", ROMX[$6A3A], BANK[$65]
 GameSceneNPCScriptReference1046::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1047 (Data)", ROMX[$6A5D], BANK[$65]
 GameSceneNPCScriptReference1047::
@@ -1623,27 +1623,27 @@ GameSceneNPCScriptReference1048::
 
 SECTION "Game Scene NPC Script 0029 Reference 1049 (Data)", ROMX[$6A89], BANK[$65]
 GameSceneNPCScriptReference1049::
-  db "<NAME>さん。　ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずですわ。<BR>さがしますわよ！",$00
+  db "<NAME>さん。　ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずですわ。<BR>さがしますわよ!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 104A (Data)", ROMX[$6AB7], BANK[$65]
 GameSceneNPCScriptReference104A::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 104B (Data)", ROMX[$6ACF], BANK[$65]
 GameSceneNPCScriptReference104B::
-  db "どうやってですの？",$00
+  db "どうやってですの?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 104C (Data)", ROMX[$6AD9], BANK[$65]
 GameSceneNPCScriptReference104C::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 104D (Data)", ROMX[$6AF9], BANK[$65]
 GameSceneNPCScriptReference104D::
-  db "だんぼう？<BR>…………………",$00
+  db "だんぼう?<BR>…………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 104E (Data)", ROMX[$6B07], BANK[$65]
 GameSceneNPCScriptReference104E::
-  db "あっ！　そういえば<BR>ミカサには　ボイラーが<BR>あったのですわ！！",$00
+  db "あっ!　そういえば<BR>ミカサには　ボイラーが<BR>あったのですわ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 104F (Data)", ROMX[$6B27], BANK[$65]
 GameSceneNPCScriptReference104F::
@@ -1655,27 +1655,27 @@ GameSceneNPCScriptReference1050::
 
 SECTION "Game Scene NPC Script 0029 Reference 1051 (Data)", ROMX[$6B6A], BANK[$65]
 GameSceneNPCScriptReference1051::
-  db "<NAME>さん。　ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずですわ。<BR>さがしますわよ！",$00
+  db "<NAME>さん。　ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずですわ。<BR>さがしますわよ!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1052 (Data)", ROMX[$6B98], BANK[$65]
 GameSceneNPCScriptReference1052::
-  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか？",$00
+  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1053 (Data)", ROMX[$6BB4], BANK[$65]
 GameSceneNPCScriptReference1053::
-  db "こんなところに<BR>あつい　おゆなんて<BR>あるわけないでしょ！！",$00
+  db "こんなところに<BR>あつい　おゆなんて<BR>あるわけないでしょ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1054 (Data)", ROMX[$6BD2], BANK[$65]
 GameSceneNPCScriptReference1054::
-  db "えっ！？　……………<BR>あつい？　……………<BR>あたためる………………",$00
+  db "えっ!?　……………<BR>あつい?　……………<BR>あたためる………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1055 (Data)", ROMX[$6BF4], BANK[$65]
 GameSceneNPCScriptReference1055::
-  db "………だんぼう！<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃありませんこと！",$00
+  db "………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃありませんこと!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1056 (Data)", ROMX[$6C20], BANK[$65]
 GameSceneNPCScriptReference1056::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1057 (Data)", ROMX[$6C43], BANK[$65]
 GameSceneNPCScriptReference1057::
@@ -1691,7 +1691,7 @@ GameSceneNPCScriptReference1059::
 
 SECTION "Game Scene NPC Script 0029 Reference 105A (Data)", ROMX[$6C87], BANK[$65]
 GameSceneNPCScriptReference105A::
-  db "<NAME>さん。ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずですわ。<BR>さがしますわよ！",$00
+  db "<NAME>さん。ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずですわ。<BR>さがしますわよ!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 105B (Subroutine)", ROMX[$4349], BANK[$53]
 GameSceneNPCScriptReference105B::
@@ -1734,11 +1734,11 @@ GameSceneNPCScriptReference105D::
 
 SECTION "Game Scene NPC Script 0029 Reference 105E (Data)", ROMX[$4979], BANK[$63]
 GameSceneNPCScriptReference105E::
-  db "カンナさん　これは？",$00
+  db "カンナさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 105F (Data)", ROMX[$4984], BANK[$63]
 GameSceneNPCScriptReference105F::
-  db "これは　『まじんき』のひとつ<BR>『けん』じゃねーか！！",$00
+  db "これは　『まじんき』のひとつ<BR>『けん』じゃねーか!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1060 (Data)", ROMX[$499F], BANK[$63]
 GameSceneNPCScriptReference1060::
@@ -1746,7 +1746,7 @@ GameSceneNPCScriptReference1060::
 
 SECTION "Game Scene NPC Script 0029 Reference 1061 (Data)", ROMX[$49B2], BANK[$63]
 GameSceneNPCScriptReference1061::
-  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか？　<NAME>。",$00
+  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか?　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1062 (Data)", ROMX[$49D7], BANK[$63]
 GameSceneNPCScriptReference1062::
@@ -1928,11 +1928,11 @@ GameSceneNPCScriptReference106A::
 
 SECTION "Game Scene NPC Script 0029 Reference 106B (Data)", ROMX[$684E], BANK[$64]
 GameSceneNPCScriptReference106B::
-  db "おりひめさん　これは？",$00
+  db "おりひめさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 106C (Data)", ROMX[$685A], BANK[$64]
 GameSceneNPCScriptReference106C::
-  db "これは　『まじんき』のひとつ<BR>『けん』でーす！",$00
+  db "これは　『まじんき』のひとつ<BR>『けん』でーす!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 106D (Data)", ROMX[$6872], BANK[$64]
 GameSceneNPCScriptReference106D::
@@ -1940,7 +1940,7 @@ GameSceneNPCScriptReference106D::
 
 SECTION "Game Scene NPC Script 0029 Reference 106E (Data)", ROMX[$6886], BANK[$64]
 GameSceneNPCScriptReference106E::
-  db "せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか？<BR><NAME>さん。",$00
+  db "せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 106F (Data)", ROMX[$68AE], BANK[$64]
 GameSceneNPCScriptReference106F::
@@ -2125,11 +2125,11 @@ GameSceneNPCScriptReference1077::
 
 SECTION "Game Scene NPC Script 0029 Reference 1078 (Data)", ROMX[$480E], BANK[$64]
 GameSceneNPCScriptReference1078::
-  db "おりひめさん　これは？",$00
+  db "おりひめさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1079 (Data)", ROMX[$481A], BANK[$64]
 GameSceneNPCScriptReference1079::
-  db "これは　『まじんき』のひとつ<BR>『けん』でーす！",$00
+  db "これは　『まじんき』のひとつ<BR>『けん』でーす!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 107A (Data)", ROMX[$4832], BANK[$64]
 GameSceneNPCScriptReference107A::
@@ -2137,7 +2137,7 @@ GameSceneNPCScriptReference107A::
 
 SECTION "Game Scene NPC Script 0029 Reference 107B (Data)", ROMX[$4846], BANK[$64]
 GameSceneNPCScriptReference107B::
-  db "せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか？<BR><NAME>さん。",$00
+  db "せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 107C (Data)", ROMX[$486E], BANK[$64]
 GameSceneNPCScriptReference107C::
@@ -2288,7 +2288,7 @@ GameSceneNPCScriptReference1082::
 
 SECTION "Game Scene NPC Script 0029 Reference 1083 (Data)", ROMX[$4F28], BANK[$65]
 GameSceneNPCScriptReference1083::
-  db "レニさん　これは？",$00
+  db "レニさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1084 (Data)", ROMX[$4F32], BANK[$65]
 GameSceneNPCScriptReference1084::
@@ -2300,7 +2300,7 @@ GameSceneNPCScriptReference1085::
 
 SECTION "Game Scene NPC Script 0029 Reference 1086 (Data)", ROMX[$4F5A], BANK[$65]
 GameSceneNPCScriptReference1086::
-  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR><NAME>　どうしたら<BR>いいとおもう？",$00
+  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR><NAME>　どうしたら<BR>いいとおもう?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1087 (Data)", ROMX[$4F84], BANK[$65]
 GameSceneNPCScriptReference1087::
@@ -2458,7 +2458,7 @@ GameSceneNPCScriptReference108F::
 
 SECTION "Game Scene NPC Script 0029 Reference 1090 (Data)", ROMX[$4BDD], BANK[$65]
 GameSceneNPCScriptReference1090::
-  db "そうだ！<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ！",$00
+  db "そうだ!<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1091 (Data)", ROMX[$4BFA], BANK[$65]
 GameSceneNPCScriptReference1091::
@@ -2466,7 +2466,7 @@ GameSceneNPCScriptReference1091::
 
 SECTION "Game Scene NPC Script 0029 Reference 1092 (Data)", ROMX[$4C19], BANK[$65]
 GameSceneNPCScriptReference1092::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1093 (Data)", ROMX[$4C3C], BANK[$65]
 GameSceneNPCScriptReference1093::
@@ -2482,27 +2482,27 @@ GameSceneNPCScriptReference1095::
 
 SECTION "Game Scene NPC Script 0029 Reference 1096 (Data)", ROMX[$4C80], BANK[$65]
 GameSceneNPCScriptReference1096::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1097 (Data)", ROMX[$4C98], BANK[$65]
 GameSceneNPCScriptReference1097::
-  db "どうやって？",$00
+  db "どうやって?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1098 (Data)", ROMX[$4C9F], BANK[$65]
 GameSceneNPCScriptReference1098::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1099 (Data)", ROMX[$4CBF], BANK[$65]
 GameSceneNPCScriptReference1099::
-  db "だんぼう？<BR>…………………",$00
+  db "だんぼう?<BR>…………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 109A (Data)", ROMX[$4CCD], BANK[$65]
 GameSceneNPCScriptReference109A::
-  db "そうか！！<BR>ミカサには　ボイラーしつが<BR>あるんだ！！",$00
+  db "そうか!!<BR>ミカサには　ボイラーしつが<BR>あるんだ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 109B (Data)", ROMX[$4CE8], BANK[$65]
 GameSceneNPCScriptReference109B::
-  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける！！",$00
+  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 109C (Data)", ROMX[$4D12], BANK[$65]
 GameSceneNPCScriptReference109C::
@@ -2514,7 +2514,7 @@ GameSceneNPCScriptReference109D::
 
 SECTION "Game Scene NPC Script 0029 Reference 109E (Data)", ROMX[$4E0C], BANK[$65]
 GameSceneNPCScriptReference109E::
-  db "なめて　とかしましょうか？<BR>なーんちゃって。",$00
+  db "なめて　とかしましょうか?<BR>なーんちゃって。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 109F (Data)", ROMX[$4E23], BANK[$65]
 GameSceneNPCScriptReference109F::
@@ -2530,7 +2530,7 @@ GameSceneNPCScriptReference10A1::
 
 SECTION "Game Scene NPC Script 0029 Reference 10A2 (Data)", ROMX[$4E5E], BANK[$65]
 GameSceneNPCScriptReference10A2::
-  db "そうだ！<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ！",$00
+  db "そうだ!<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10A3 (Data)", ROMX[$4E7B], BANK[$65]
 GameSceneNPCScriptReference10A3::
@@ -2538,7 +2538,7 @@ GameSceneNPCScriptReference10A3::
 
 SECTION "Game Scene NPC Script 0029 Reference 10A4 (Data)", ROMX[$4E98], BANK[$65]
 GameSceneNPCScriptReference10A4::
-  db "あっ！　だんぼうをいれ<BR>あたためて　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれ<BR>あたためて　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10A5 (Data)", ROMX[$4EB8], BANK[$65]
 GameSceneNPCScriptReference10A5::
@@ -2550,7 +2550,7 @@ GameSceneNPCScriptReference10A6::
 
 SECTION "Game Scene NPC Script 0029 Reference 10A7 (Data)", ROMX[$6D8D], BANK[$63]
 GameSceneNPCScriptReference10A7::
-  db "カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうですか？",$00
+  db "カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうですか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10A8 (Data)", ROMX[$6DB2], BANK[$63]
 GameSceneNPCScriptReference10A8::
@@ -2562,19 +2562,19 @@ GameSceneNPCScriptReference10A9::
 
 SECTION "Game Scene NPC Script 0029 Reference 10AA (Data)", ROMX[$6DEC], BANK[$63]
 GameSceneNPCScriptReference10AA::
-  db "あ　そうだ！<BR>たしか　ボイラースイッチが<BR>あったよな！！",$00
+  db "あ　そうだ!<BR>たしか　ボイラースイッチが<BR>あったよな!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10AB (Data)", ROMX[$6E09], BANK[$63]
 GameSceneNPCScriptReference10AB::
-  db "ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか！？",$00
+  db "ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10AC (Data)", ROMX[$6E30], BANK[$63]
 GameSceneNPCScriptReference10AC::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10AD (Data)", ROMX[$6E53], BANK[$63]
 GameSceneNPCScriptReference10AD::
-  db "そうだよ　<NAME>！",$00
+  db "そうだよ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10AE (Data)", ROMX[$6E5B], BANK[$63]
 GameSceneNPCScriptReference10AE::
@@ -2582,43 +2582,43 @@ GameSceneNPCScriptReference10AE::
 
 SECTION "Game Scene NPC Script 0029 Reference 10AF (Data)", ROMX[$6E76], BANK[$63]
 GameSceneNPCScriptReference10AF::
-  db "<NAME>。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ！！",$00
+  db "<NAME>。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10B0 (Data)", ROMX[$6E97], BANK[$63]
 GameSceneNPCScriptReference10B0::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10B1 (Data)", ROMX[$6EAF], BANK[$63]
 GameSceneNPCScriptReference10B1::
-  db "どうやってだ？",$00
+  db "どうやってだ?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10B2 (Data)", ROMX[$6EB7], BANK[$63]
 GameSceneNPCScriptReference10B2::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10B3 (Data)", ROMX[$6ED7], BANK[$63]
 GameSceneNPCScriptReference10B3::
-  db "だんぼう？<BR>………………",$00
+  db "だんぼう?<BR>………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10B4 (Data)", ROMX[$6EE4], BANK[$63]
 GameSceneNPCScriptReference10B4::
-  db "あっ　そうか！！<BR>あの　ボイラースイッチを<BR>いれれば　ボイラーがうごく！",$00
+  db "あっ　そうか!!<BR>あの　ボイラースイッチを<BR>いれれば　ボイラーがうごく!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10B5 (Data)", ROMX[$6F09], BANK[$63]
 GameSceneNPCScriptReference10B5::
-  db "ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とける！！",$00
+  db "ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とける!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10B6 (Data)", ROMX[$6F31], BANK[$63]
 GameSceneNPCScriptReference10B6::
-  db "<NAME>！<BR>いいアイディアじゃねーか！！",$00
+  db "<NAME>!<BR>いいアイディアじゃねーか!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10B7 (Data)", ROMX[$6F43], BANK[$63]
 GameSceneNPCScriptReference10B7::
-  db "よーし！<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ！！",$00
+  db "よーし!<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10B8 (Data)", ROMX[$70AD], BANK[$63]
 GameSceneNPCScriptReference10B8::
-  db "なめて　とかしましょうか？<BR>なーんちゃって。",$00
+  db "なめて　とかしましょうか?<BR>なーんちゃって。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10B9 (Data)", ROMX[$70C4], BANK[$63]
 GameSceneNPCScriptReference10B9::
@@ -2634,27 +2634,27 @@ GameSceneNPCScriptReference10BB::
 
 SECTION "Game Scene NPC Script 0029 Reference 10BC (Data)", ROMX[$70FB], BANK[$63]
 GameSceneNPCScriptReference10BC::
-  db "そうだ！<BR>たしか　さっき<BR>ボイラースイッチを<BR>みつけたよな！",$00
+  db "そうだ!<BR>たしか　さっき<BR>ボイラースイッチを<BR>みつけたよな!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10BD (Data)", ROMX[$711A], BANK[$63]
 GameSceneNPCScriptReference10BD::
-  db "ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか！？",$00
+  db "ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10BE (Data)", ROMX[$7141], BANK[$63]
 GameSceneNPCScriptReference10BE::
-  db "あっ！　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10BF (Data)", ROMX[$715C], BANK[$63]
 GameSceneNPCScriptReference10BF::
-  db "そうだよ　<NAME>！<BR>ボイラーを　うごかして<BR>だんぼうをいれて　こおりを<BR>とかすんだ！！",$00
+  db "そうだよ　<NAME>!<BR>ボイラーを　うごかして<BR>だんぼうをいれて　こおりを<BR>とかすんだ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10C0 (Data)", ROMX[$7186], BANK[$63]
 GameSceneNPCScriptReference10C0::
-  db "<NAME>。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ！！",$00
+  db "<NAME>。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10C1 (Data)", ROMX[$6E88], BANK[$65]
 GameSceneNPCScriptReference10C1::
-  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょうか？<BR>すみれさん。",$00
+  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょうか?<BR>すみれさん。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10C2 (Data)", ROMX[$6EAB], BANK[$65]
 GameSceneNPCScriptReference10C2::
@@ -2666,7 +2666,7 @@ GameSceneNPCScriptReference10C3::
 
 SECTION "Game Scene NPC Script 0029 Reference 10C4 (Data)", ROMX[$6EF8], BANK[$65]
 GameSceneNPCScriptReference10C4::
-  db "あっ　そうですわ！<BR>たしか　さきほど<BR>ボイラースイッチを<BR>みつけましたわね。",$00
+  db "あっ　そうですわ!<BR>たしか　さきほど<BR>ボイラースイッチを<BR>みつけましたわね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10C5 (Data)", ROMX[$6F1F], BANK[$65]
 GameSceneNPCScriptReference10C5::
@@ -2674,7 +2674,7 @@ GameSceneNPCScriptReference10C5::
 
 SECTION "Game Scene NPC Script 0029 Reference 10C6 (Data)", ROMX[$6F3E], BANK[$65]
 GameSceneNPCScriptReference10C6::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10C7 (Data)", ROMX[$6F61], BANK[$65]
 GameSceneNPCScriptReference10C7::
@@ -2686,23 +2686,23 @@ GameSceneNPCScriptReference10C8::
 
 SECTION "Game Scene NPC Script 0029 Reference 10C9 (Data)", ROMX[$6F8D], BANK[$65]
 GameSceneNPCScriptReference10C9::
-  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎますわよ！！",$00
+  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎますわよ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10CA (Data)", ROMX[$6FB2], BANK[$65]
 GameSceneNPCScriptReference10CA::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10CB (Data)", ROMX[$6FCA], BANK[$65]
 GameSceneNPCScriptReference10CB::
-  db "どうやってですの？",$00
+  db "どうやってですの?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10CC (Data)", ROMX[$6FD4], BANK[$65]
 GameSceneNPCScriptReference10CC::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10CD (Data)", ROMX[$6FF4], BANK[$65]
 GameSceneNPCScriptReference10CD::
-  db "だんぼう？<BR>…………………",$00
+  db "だんぼう?<BR>…………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10CE (Data)", ROMX[$7002], BANK[$65]
 GameSceneNPCScriptReference10CE::
@@ -2718,23 +2718,23 @@ GameSceneNPCScriptReference10D0::
 
 SECTION "Game Scene NPC Script 0029 Reference 10D1 (Data)", ROMX[$7067], BANK[$65]
 GameSceneNPCScriptReference10D1::
-  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎますわよ！！",$00
+  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎますわよ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10D2 (Data)", ROMX[$708C], BANK[$65]
 GameSceneNPCScriptReference10D2::
-  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか？",$00
+  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10D3 (Data)", ROMX[$70A8], BANK[$65]
 GameSceneNPCScriptReference10D3::
-  db "こんなところに<BR>あつい　おゆなんて<BR>あるわけないでしょ！！",$00
+  db "こんなところに<BR>あつい　おゆなんて<BR>あるわけないでしょ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10D4 (Data)", ROMX[$70C6], BANK[$65]
 GameSceneNPCScriptReference10D4::
-  db "えっ！？　……………<BR>あつい？　……………<BR>あたためる………………",$00
+  db "えっ!?　……………<BR>あつい?　……………<BR>あたためる………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10D5 (Data)", ROMX[$70E8], BANK[$65]
 GameSceneNPCScriptReference10D5::
-  db "………だんぼう！<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃありませんこと！",$00
+  db "………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃありませんこと!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10D6 (Data)", ROMX[$7114], BANK[$65]
 GameSceneNPCScriptReference10D6::
@@ -2746,7 +2746,7 @@ GameSceneNPCScriptReference10D7::
 
 SECTION "Game Scene NPC Script 0029 Reference 10D8 (Data)", ROMX[$7150], BANK[$65]
 GameSceneNPCScriptReference10D8::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10D9 (Data)", ROMX[$7173], BANK[$65]
 GameSceneNPCScriptReference10D9::
@@ -2758,7 +2758,7 @@ GameSceneNPCScriptReference10DA::
 
 SECTION "Game Scene NPC Script 0029 Reference 10DB (Data)", ROMX[$718E], BANK[$65]
 GameSceneNPCScriptReference10DB::
-  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎますわよ！！",$00
+  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎますわよ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10DC (Data)", ROMX[$5217], BANK[$63]
 GameSceneNPCScriptReference10DC::
@@ -2766,11 +2766,11 @@ GameSceneNPCScriptReference10DC::
 
 SECTION "Game Scene NPC Script 0029 Reference 10DD (Data)", ROMX[$4DB4], BANK[$63]
 GameSceneNPCScriptReference10DD::
-  db "カンナさん　これは？",$00
+  db "カンナさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10DE (Data)", ROMX[$4DBF], BANK[$63]
 GameSceneNPCScriptReference10DE::
-  db "これは　『まじんき』のひとつ<BR>『けん』じゃねーか！！",$00
+  db "これは　『まじんき』のひとつ<BR>『けん』じゃねーか!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10DF (Data)", ROMX[$4DDA], BANK[$63]
 GameSceneNPCScriptReference10DF::
@@ -2778,7 +2778,7 @@ GameSceneNPCScriptReference10DF::
 
 SECTION "Game Scene NPC Script 0029 Reference 10E0 (Data)", ROMX[$4DED], BANK[$63]
 GameSceneNPCScriptReference10E0::
-  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか？　<NAME>。",$00
+  db "せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか?　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10E1 (Data)", ROMX[$4E12], BANK[$63]
 GameSceneNPCScriptReference10E1::
@@ -2918,7 +2918,7 @@ GameSceneNPCScriptReference10E6::
 
 SECTION "Game Scene NPC Script 0029 Reference 10E7 (Data)", ROMX[$49FD], BANK[$63]
 GameSceneNPCScriptReference10E7::
-  db "カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうでしょうか？",$00
+  db "カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10E8 (Data)", ROMX[$4A24], BANK[$63]
 GameSceneNPCScriptReference10E8::
@@ -2930,59 +2930,59 @@ GameSceneNPCScriptReference10E9::
 
 SECTION "Game Scene NPC Script 0029 Reference 10EA (Data)", ROMX[$4A64], BANK[$63]
 GameSceneNPCScriptReference10EA::
-  db "あ　そうだ！<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ！",$00
+  db "あ　そうだ!<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10EB (Data)", ROMX[$4A83], BANK[$63]
 GameSceneNPCScriptReference10EB::
-  db "ということは<BR>このミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか！？",$00
+  db "ということは<BR>このミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10EC (Data)", ROMX[$4AAC], BANK[$63]
 GameSceneNPCScriptReference10EC::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10ED (Data)", ROMX[$4ACF], BANK[$63]
 GameSceneNPCScriptReference10ED::
-  db "そうだよ　<NAME>！",$00
+  db "そうだよ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10EE (Data)", ROMX[$4AD7], BANK[$63]
 GameSceneNPCScriptReference10EE::
-  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>！",$00
+  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10EF (Data)", ROMX[$4AFE], BANK[$63]
 GameSceneNPCScriptReference10EF::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10F0 (Data)", ROMX[$4B16], BANK[$63]
 GameSceneNPCScriptReference10F0::
-  db "どうやってだ？",$00
+  db "どうやってだ?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10F1 (Data)", ROMX[$4B1E], BANK[$63]
 GameSceneNPCScriptReference10F1::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10F2 (Data)", ROMX[$4B3E], BANK[$63]
 GameSceneNPCScriptReference10F2::
-  db "だんぼう？<BR>…………………",$00
+  db "だんぼう?<BR>…………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10F3 (Data)", ROMX[$4B4C], BANK[$63]
 GameSceneNPCScriptReference10F3::
-  db "あっ　そうか！！<BR>ミカサには　ボイラーが<BR>あるんだ！！",$00
+  db "あっ　そうか!!<BR>ミカサには　ボイラーが<BR>あるんだ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10F4 (Data)", ROMX[$4B68], BANK[$63]
 GameSceneNPCScriptReference10F4::
-  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける！！",$00
+  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10F5 (Data)", ROMX[$4B92], BANK[$63]
 GameSceneNPCScriptReference10F5::
-  db "ナイスだぜ！",$00
+  db "ナイスだぜ!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10F6 (Data)", ROMX[$4B99], BANK[$63]
 GameSceneNPCScriptReference10F6::
-  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>！",$00
+  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10F7 (Data)", ROMX[$4BC0], BANK[$63]
 GameSceneNPCScriptReference10F7::
-  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか？",$00
+  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10F8 (Data)", ROMX[$4BDC], BANK[$63]
 GameSceneNPCScriptReference10F8::
@@ -2990,11 +2990,11 @@ GameSceneNPCScriptReference10F8::
 
 SECTION "Game Scene NPC Script 0029 Reference 10F9 (Data)", ROMX[$4BF8], BANK[$63]
 GameSceneNPCScriptReference10F9::
-  db "ん？　……………<BR>あつい？　……………<BR>あたためる………………",$00
+  db "ん?　……………<BR>あつい?　……………<BR>あたためる………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10FA (Data)", ROMX[$4C18], BANK[$63]
 GameSceneNPCScriptReference10FA::
-  db "………だんぼう！<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃねーか！？",$00
+  db "………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃねーか!?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10FB (Data)", ROMX[$4C41], BANK[$63]
 GameSceneNPCScriptReference10FB::
@@ -3002,15 +3002,15 @@ GameSceneNPCScriptReference10FB::
 
 SECTION "Game Scene NPC Script 0029 Reference 10FC (Data)", ROMX[$4C5B], BANK[$63]
 GameSceneNPCScriptReference10FC::
-  db "あっ！　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10FD (Data)", ROMX[$4C76], BANK[$63]
 GameSceneNPCScriptReference10FD::
-  db "そうだよ！<BR>ナイス　ヒントだぜ<BR><NAME>！！",$00
+  db "そうだよ!<BR>ナイス　ヒントだぜ<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10FE (Data)", ROMX[$4C8A], BANK[$63]
 GameSceneNPCScriptReference10FE::
-  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>！",$00
+  db "ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 10FF (Data)", ROMX[$7216], BANK[$64]
 GameSceneNPCScriptReference10FF::
@@ -3018,11 +3018,11 @@ GameSceneNPCScriptReference10FF::
 
 SECTION "Game Scene NPC Script 0029 Reference 1100 (Data)", ROMX[$6D25], BANK[$64]
 GameSceneNPCScriptReference1100::
-  db "おりひめさん　これは？",$00
+  db "おりひめさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1101 (Data)", ROMX[$6D31], BANK[$64]
 GameSceneNPCScriptReference1101::
-  db "これは　『まじんき』のひとつ<BR>『けん』でーす！",$00
+  db "これは　『まじんき』のひとつ<BR>『けん』でーす!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1102 (Data)", ROMX[$6D49], BANK[$64]
 GameSceneNPCScriptReference1102::
@@ -3030,7 +3030,7 @@ GameSceneNPCScriptReference1102::
 
 SECTION "Game Scene NPC Script 0029 Reference 1103 (Data)", ROMX[$6D5D], BANK[$64]
 GameSceneNPCScriptReference1103::
-  db "せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか？<BR><NAME>さん。",$00
+  db "せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1104 (Data)", ROMX[$6D85], BANK[$64]
 GameSceneNPCScriptReference1104::
@@ -3178,7 +3178,7 @@ GameSceneNPCScriptReference1109::
 
 SECTION "Game Scene NPC Script 0029 Reference 110A (Data)", ROMX[$68D6], BANK[$64]
 GameSceneNPCScriptReference110A::
-  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう！<BR>おりひめさん！！",$00
+  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう!<BR>おりひめさん!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 110B (Data)", ROMX[$68FA], BANK[$64]
 GameSceneNPCScriptReference110B::
@@ -3190,7 +3190,7 @@ GameSceneNPCScriptReference110C::
 
 SECTION "Game Scene NPC Script 0029 Reference 110D (Data)", ROMX[$693C], BANK[$64]
 GameSceneNPCScriptReference110D::
-  db "Ｏｈ！！<BR>たしか　ミカサには<BR>ボイラーが　あったはず<BR>でーす！！",$00
+  db "Oh!!<BR>たしか　ミカサには<BR>ボイラーが　あったはず<BR>でーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 110E (Data)", ROMX[$695F], BANK[$64]
 GameSceneNPCScriptReference110E::
@@ -3198,11 +3198,11 @@ GameSceneNPCScriptReference110E::
 
 SECTION "Game Scene NPC Script 0029 Reference 110F (Data)", ROMX[$6986], BANK[$64]
 GameSceneNPCScriptReference110F::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1110 (Data)", ROMX[$69A9], BANK[$64]
 GameSceneNPCScriptReference1110::
-  db "そのとおりでーす！",$00
+  db "そのとおりでーす!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1111 (Data)", ROMX[$69B3], BANK[$64]
 GameSceneNPCScriptReference1111::
@@ -3214,27 +3214,27 @@ GameSceneNPCScriptReference1112::
 
 SECTION "Game Scene NPC Script 0029 Reference 1113 (Data)", ROMX[$6A02], BANK[$64]
 GameSceneNPCScriptReference1113::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1114 (Data)", ROMX[$6A1A], BANK[$64]
 GameSceneNPCScriptReference1114::
-  db "どうやってでーすか？",$00
+  db "どうやってでーすか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1115 (Data)", ROMX[$6A25], BANK[$64]
 GameSceneNPCScriptReference1115::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1116 (Data)", ROMX[$6A45], BANK[$64]
 GameSceneNPCScriptReference1116::
-  db "だんぼう？<BR>…………………",$00
+  db "だんぼう?<BR>…………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1117 (Data)", ROMX[$6A53], BANK[$64]
 GameSceneNPCScriptReference1117::
-  db "Ｏｈ！<BR>ミカサには　ボイラーが<BR>ありまーした！！",$00
+  db "Oh!<BR>ミカサには　ボイラーが<BR>ありまーした!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1118 (Data)", ROMX[$6A6E], BANK[$64]
 GameSceneNPCScriptReference1118::
-  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とけるでーす！！",$00
+  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とけるでーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1119 (Data)", ROMX[$6A9B], BANK[$64]
 GameSceneNPCScriptReference1119::
@@ -3246,7 +3246,7 @@ GameSceneNPCScriptReference111A::
 
 SECTION "Game Scene NPC Script 0029 Reference 111B (Data)", ROMX[$6BD6], BANK[$64]
 GameSceneNPCScriptReference111B::
-  db "なめて　とかしましょうか？<BR>なーんちゃって。",$00
+  db "なめて　とかしましょうか?<BR>なーんちゃって。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 111C (Data)", ROMX[$6BED], BANK[$64]
 GameSceneNPCScriptReference111C::
@@ -3262,7 +3262,7 @@ GameSceneNPCScriptReference111E::
 
 SECTION "Game Scene NPC Script 0029 Reference 111F (Data)", ROMX[$6C3D], BANK[$64]
 GameSceneNPCScriptReference111F::
-  db "Ｏｈ！！<BR>たしか　ミカサには<BR>ボイラーが　あったはず<BR>でーす！！",$00
+  db "Oh!!<BR>たしか　ミカサには<BR>ボイラーが　あったはず<BR>でーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1120 (Data)", ROMX[$6C60], BANK[$64]
 GameSceneNPCScriptReference1120::
@@ -3270,11 +3270,11 @@ GameSceneNPCScriptReference1120::
 
 SECTION "Game Scene NPC Script 0029 Reference 1121 (Data)", ROMX[$6C87], BANK[$64]
 GameSceneNPCScriptReference1121::
-  db "あっ！　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1122 (Data)", ROMX[$6CA2], BANK[$64]
 GameSceneNPCScriptReference1122::
-  db "そのとおりでーす！<BR>そのためには　まず<BR>ボイラーを　うごかさなくては<BR>いけませーん。",$00
+  db "そのとおりでーす!<BR>そのためには　まず<BR>ボイラーを　うごかさなくては<BR>いけませーん。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1123 (Data)", ROMX[$6CCD], BANK[$64]
 GameSceneNPCScriptReference1123::
@@ -3286,11 +3286,11 @@ GameSceneNPCScriptReference1124::
 
 SECTION "Game Scene NPC Script 0029 Reference 1125 (Data)", ROMX[$4CC8], BANK[$64]
 GameSceneNPCScriptReference1125::
-  db "おりひめさん　これは？",$00
+  db "おりひめさん　これは?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1126 (Data)", ROMX[$4CD4], BANK[$64]
 GameSceneNPCScriptReference1126::
-  db "これは　『まじんき』のひとつ<BR>『けん』でーす！",$00
+  db "これは　『まじんき』のひとつ<BR>『けん』でーす!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1127 (Data)", ROMX[$4CEC], BANK[$64]
 GameSceneNPCScriptReference1127::
@@ -3298,7 +3298,7 @@ GameSceneNPCScriptReference1127::
 
 SECTION "Game Scene NPC Script 0029 Reference 1128 (Data)", ROMX[$4D00], BANK[$64]
 GameSceneNPCScriptReference1128::
-  db "せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか？<BR><NAME>さん。",$00
+  db "せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1129 (Data)", ROMX[$4D28], BANK[$64]
 GameSceneNPCScriptReference1129::
@@ -3451,7 +3451,7 @@ GameSceneNPCScriptReference112E::
 
 SECTION "Game Scene NPC Script 0029 Reference 112F (Data)", ROMX[$4894], BANK[$64]
 GameSceneNPCScriptReference112F::
-  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう！<BR>おりひめさん！！",$00
+  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう!<BR>おりひめさん!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1130 (Data)", ROMX[$48B8], BANK[$64]
 GameSceneNPCScriptReference1130::
@@ -3463,7 +3463,7 @@ GameSceneNPCScriptReference1131::
 
 SECTION "Game Scene NPC Script 0029 Reference 1132 (Data)", ROMX[$48FA], BANK[$64]
 GameSceneNPCScriptReference1132::
-  db "Ｏｈ！！<BR>たしか　ミカサには<BR>ボイラーが　あったはず<BR>でーす！！",$00
+  db "Oh!!<BR>たしか　ミカサには<BR>ボイラーが　あったはず<BR>でーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1133 (Data)", ROMX[$491D], BANK[$64]
 GameSceneNPCScriptReference1133::
@@ -3471,11 +3471,11 @@ GameSceneNPCScriptReference1133::
 
 SECTION "Game Scene NPC Script 0029 Reference 1134 (Data)", ROMX[$4944], BANK[$64]
 GameSceneNPCScriptReference1134::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1135 (Data)", ROMX[$4967], BANK[$64]
 GameSceneNPCScriptReference1135::
-  db "そのとおりでーす！",$00
+  db "そのとおりでーす!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1136 (Data)", ROMX[$4971], BANK[$64]
 GameSceneNPCScriptReference1136::
@@ -3487,27 +3487,27 @@ GameSceneNPCScriptReference1137::
 
 SECTION "Game Scene NPC Script 0029 Reference 1138 (Data)", ROMX[$49C0], BANK[$64]
 GameSceneNPCScriptReference1138::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1139 (Data)", ROMX[$49D8], BANK[$64]
 GameSceneNPCScriptReference1139::
-  db "どうやってでーすか？",$00
+  db "どうやってでーすか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 113A (Data)", ROMX[$49E3], BANK[$64]
 GameSceneNPCScriptReference113A::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 113B (Data)", ROMX[$4A03], BANK[$64]
 GameSceneNPCScriptReference113B::
-  db "だんぼう？<BR>…………………",$00
+  db "だんぼう?<BR>…………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 113C (Data)", ROMX[$4A11], BANK[$64]
 GameSceneNPCScriptReference113C::
-  db "Ｏｈ！<BR>ミカサには　ボイラーが<BR>ありまーした！！",$00
+  db "Oh!<BR>ミカサには　ボイラーが<BR>ありまーした!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 113D (Data)", ROMX[$4A2C], BANK[$64]
 GameSceneNPCScriptReference113D::
-  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とけるでーす！！",$00
+  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とけるでーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 113E (Data)", ROMX[$4A59], BANK[$64]
 GameSceneNPCScriptReference113E::
@@ -3519,7 +3519,7 @@ GameSceneNPCScriptReference113F::
 
 SECTION "Game Scene NPC Script 0029 Reference 1140 (Data)", ROMX[$4A94], BANK[$64]
 GameSceneNPCScriptReference1140::
-  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないでしょうか？",$00
+  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1141 (Data)", ROMX[$4AB2], BANK[$64]
 GameSceneNPCScriptReference1141::
@@ -3527,19 +3527,19 @@ GameSceneNPCScriptReference1141::
 
 SECTION "Game Scene NPC Script 0029 Reference 1142 (Data)", ROMX[$4ACC], BANK[$64]
 GameSceneNPCScriptReference1142::
-  db "ん？……………<BR>あつい？……………<BR>あたためる………………",$00
+  db "ん?……………<BR>あつい?……………<BR>あたためる………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1143 (Data)", ROMX[$4AEA], BANK[$64]
 GameSceneNPCScriptReference1143::
-  db "………だんぼう！<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>オッケーでーす。",$00
+  db "………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>オッケーでーす。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1144 (Data)", ROMX[$4B11], BANK[$64]
 GameSceneNPCScriptReference1144::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1145 (Data)", ROMX[$4B34], BANK[$64]
 GameSceneNPCScriptReference1145::
-  db "そのとおりでーす！",$00
+  db "そのとおりでーす!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1146 (Data)", ROMX[$4B3E], BANK[$64]
 GameSceneNPCScriptReference1146::
@@ -3567,7 +3567,7 @@ GameSceneNPCScriptReference114B::
 
 SECTION "Game Scene NPC Script 0029 Reference 114C (Data)", ROMX[$4FFE], BANK[$65]
 GameSceneNPCScriptReference114C::
-  db "そうだ！<BR>たしか　さっき<BR>ボイラースイッチが<BR>あったよね。",$00
+  db "そうだ!<BR>たしか　さっき<BR>ボイラースイッチが<BR>あったよね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 114D (Data)", ROMX[$501C], BANK[$65]
 GameSceneNPCScriptReference114D::
@@ -3575,7 +3575,7 @@ GameSceneNPCScriptReference114D::
 
 SECTION "Game Scene NPC Script 0029 Reference 114E (Data)", ROMX[$503E], BANK[$65]
 GameSceneNPCScriptReference114E::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 114F (Data)", ROMX[$5061], BANK[$65]
 GameSceneNPCScriptReference114F::
@@ -3587,31 +3587,31 @@ GameSceneNPCScriptReference1150::
 
 SECTION "Game Scene NPC Script 0029 Reference 1151 (Data)", ROMX[$5082], BANK[$65]
 GameSceneNPCScriptReference1151::
-  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごう！！",$00
+  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごう!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1152 (Data)", ROMX[$509F], BANK[$65]
 GameSceneNPCScriptReference1152::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1153 (Data)", ROMX[$50B7], BANK[$65]
 GameSceneNPCScriptReference1153::
-  db "どうやって？",$00
+  db "どうやって?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1154 (Data)", ROMX[$50BE], BANK[$65]
 GameSceneNPCScriptReference1154::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1155 (Data)", ROMX[$50DE], BANK[$65]
 GameSceneNPCScriptReference1155::
-  db "だんぼう？<BR>…………………",$00
+  db "だんぼう?<BR>…………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1156 (Data)", ROMX[$50EC], BANK[$65]
 GameSceneNPCScriptReference1156::
-  db "そうか！<BR>さっき　ボイラースイッチを<BR>みつけていたな！！",$00
+  db "そうか!<BR>さっき　ボイラースイッチを<BR>みつけていたな!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1157 (Data)", ROMX[$5109], BANK[$65]
 GameSceneNPCScriptReference1157::
-  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける！！",$00
+  db "ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1158 (Data)", ROMX[$5133], BANK[$65]
 GameSceneNPCScriptReference1158::
@@ -3619,11 +3619,11 @@ GameSceneNPCScriptReference1158::
 
 SECTION "Game Scene NPC Script 0029 Reference 1159 (Data)", ROMX[$513E], BANK[$65]
 GameSceneNPCScriptReference1159::
-  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごう！！",$00
+  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごう!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 115A (Data)", ROMX[$525E], BANK[$65]
 GameSceneNPCScriptReference115A::
-  db "なめて　とかしましょうか？<BR>なーんちゃって。",$00
+  db "なめて　とかしましょうか?<BR>なーんちゃって。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 115B (Data)", ROMX[$5275], BANK[$65]
 GameSceneNPCScriptReference115B::
@@ -3639,7 +3639,7 @@ GameSceneNPCScriptReference115D::
 
 SECTION "Game Scene NPC Script 0029 Reference 115E (Data)", ROMX[$52B0], BANK[$65]
 GameSceneNPCScriptReference115E::
-  db "そうだ！<BR>たしか　さっき<BR>ボイラースイッチが<BR>あったよね。",$00
+  db "そうだ!<BR>たしか　さっき<BR>ボイラースイッチが<BR>あったよね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 115F (Data)", ROMX[$52CE], BANK[$65]
 GameSceneNPCScriptReference115F::
@@ -3647,7 +3647,7 @@ GameSceneNPCScriptReference115F::
 
 SECTION "Game Scene NPC Script 0029 Reference 1160 (Data)", ROMX[$52F0], BANK[$65]
 GameSceneNPCScriptReference1160::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1161 (Data)", ROMX[$5313], BANK[$65]
 GameSceneNPCScriptReference1161::
@@ -3659,11 +3659,11 @@ GameSceneNPCScriptReference1162::
 
 SECTION "Game Scene NPC Script 0029 Reference 1163 (Data)", ROMX[$5334], BANK[$65]
 GameSceneNPCScriptReference1163::
-  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごう！！",$00
+  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごう!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1164 (Data)", ROMX[$4E38], BANK[$63]
 GameSceneNPCScriptReference1164::
-  db "カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうですか？",$00
+  db "カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうですか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1165 (Data)", ROMX[$4E5D], BANK[$63]
 GameSceneNPCScriptReference1165::
@@ -3675,19 +3675,19 @@ GameSceneNPCScriptReference1166::
 
 SECTION "Game Scene NPC Script 0029 Reference 1167 (Data)", ROMX[$4E97], BANK[$63]
 GameSceneNPCScriptReference1167::
-  db "あ　そうだ！<BR>たしか　ボイラースイッチが<BR>あったよな！！",$00
+  db "あ　そうだ!<BR>たしか　ボイラースイッチが<BR>あったよな!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1168 (Data)", ROMX[$4EB4], BANK[$63]
 GameSceneNPCScriptReference1168::
-  db "ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか！？",$00
+  db "ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1169 (Data)", ROMX[$4EDB], BANK[$63]
 GameSceneNPCScriptReference1169::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 116A (Data)", ROMX[$4EFE], BANK[$63]
 GameSceneNPCScriptReference116A::
-  db "そうだよ　<NAME>！",$00
+  db "そうだよ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 116B (Data)", ROMX[$4F06], BANK[$63]
 GameSceneNPCScriptReference116B::
@@ -3695,43 +3695,43 @@ GameSceneNPCScriptReference116B::
 
 SECTION "Game Scene NPC Script 0029 Reference 116C (Data)", ROMX[$4F21], BANK[$63]
 GameSceneNPCScriptReference116C::
-  db "<NAME>。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ！！",$00
+  db "<NAME>。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 116D (Data)", ROMX[$4F42], BANK[$63]
 GameSceneNPCScriptReference116D::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 116E (Data)", ROMX[$4F5A], BANK[$63]
 GameSceneNPCScriptReference116E::
-  db "どうやってだ？",$00
+  db "どうやってだ?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 116F (Data)", ROMX[$4F62], BANK[$63]
 GameSceneNPCScriptReference116F::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1170 (Data)", ROMX[$4F82], BANK[$63]
 GameSceneNPCScriptReference1170::
-  db "だんぼう？<BR>………………",$00
+  db "だんぼう?<BR>………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1171 (Data)", ROMX[$4F8F], BANK[$63]
 GameSceneNPCScriptReference1171::
-  db "あっ　そうか！！<BR>あの　ボイラースイッチを<BR>いれれば　ボイラーがうごく！",$00
+  db "あっ　そうか!!<BR>あの　ボイラースイッチを<BR>いれれば　ボイラーがうごく!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1172 (Data)", ROMX[$4FB4], BANK[$63]
 GameSceneNPCScriptReference1172::
-  db "ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とける！！",$00
+  db "ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とける!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1173 (Data)", ROMX[$4FDC], BANK[$63]
 GameSceneNPCScriptReference1173::
-  db "<NAME>！<BR>いいアイディアじゃねーか！！",$00
+  db "<NAME>!<BR>いいアイディアじゃねーか!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1174 (Data)", ROMX[$4FEE], BANK[$63]
 GameSceneNPCScriptReference1174::
-  db "よーし！<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ！！",$00
+  db "よーし!<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1175 (Data)", ROMX[$5011], BANK[$63]
 GameSceneNPCScriptReference1175::
-  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか？",$00
+  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1176 (Data)", ROMX[$502D], BANK[$63]
 GameSceneNPCScriptReference1176::
@@ -3739,11 +3739,11 @@ GameSceneNPCScriptReference1176::
 
 SECTION "Game Scene NPC Script 0029 Reference 1177 (Data)", ROMX[$5049], BANK[$63]
 GameSceneNPCScriptReference1177::
-  db "ん？　……………<BR>あつい？　……………<BR>あたためる………………",$00
+  db "ん?　……………<BR>あつい?　……………<BR>あたためる………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1178 (Data)", ROMX[$5069], BANK[$63]
 GameSceneNPCScriptReference1178::
-  db "………だんぼう！<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃねーか！？",$00
+  db "………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃねーか!?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1179 (Data)", ROMX[$5092], BANK[$63]
 GameSceneNPCScriptReference1179::
@@ -3751,19 +3751,19 @@ GameSceneNPCScriptReference1179::
 
 SECTION "Game Scene NPC Script 0029 Reference 117A (Data)", ROMX[$50B4], BANK[$63]
 GameSceneNPCScriptReference117A::
-  db "あっ！　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 117B (Data)", ROMX[$50CF], BANK[$63]
 GameSceneNPCScriptReference117B::
-  db "そうだよ！<BR>ナイス　ヒントだぜ<BR><NAME>！！",$00
+  db "そうだよ!<BR>ナイス　ヒントだぜ<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 117C (Data)", ROMX[$50E3], BANK[$63]
 GameSceneNPCScriptReference117C::
-  db "よーし！<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ！！",$00
+  db "よーし!<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 117D (Data)", ROMX[$6DAD], BANK[$64]
 GameSceneNPCScriptReference117D::
-  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう！<BR>おりひめさん！！",$00
+  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう!<BR>おりひめさん!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 117E (Data)", ROMX[$6DD1], BANK[$64]
 GameSceneNPCScriptReference117E::
@@ -3775,7 +3775,7 @@ GameSceneNPCScriptReference117F::
 
 SECTION "Game Scene NPC Script 0029 Reference 1180 (Data)", ROMX[$6E13], BANK[$64]
 GameSceneNPCScriptReference1180::
-  db "そうでーす！<BR>おもいだしましたー！<BR>たしか　ボイラースイッチが<BR>ありましたね！！",$00
+  db "そうでーす!<BR>おもいだしましたー!<BR>たしか　ボイラースイッチが<BR>ありましたね!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1181 (Data)", ROMX[$6E3C], BANK[$64]
 GameSceneNPCScriptReference1181::
@@ -3783,11 +3783,11 @@ GameSceneNPCScriptReference1181::
 
 SECTION "Game Scene NPC Script 0029 Reference 1182 (Data)", ROMX[$6E63], BANK[$64]
 GameSceneNPCScriptReference1182::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1183 (Data)", ROMX[$6E86], BANK[$64]
 GameSceneNPCScriptReference1183::
-  db "そのとおりでーす！",$00
+  db "そのとおりでーす!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1184 (Data)", ROMX[$6E90], BANK[$64]
 GameSceneNPCScriptReference1184::
@@ -3795,31 +3795,31 @@ GameSceneNPCScriptReference1184::
 
 SECTION "Game Scene NPC Script 0029 Reference 1185 (Data)", ROMX[$6EB1], BANK[$64]
 GameSceneNPCScriptReference1185::
-  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす！！",$00
+  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1186 (Data)", ROMX[$6ED5], BANK[$64]
 GameSceneNPCScriptReference1186::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1187 (Data)", ROMX[$6EED], BANK[$64]
 GameSceneNPCScriptReference1187::
-  db "どうやってでーすか？",$00
+  db "どうやってでーすか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1188 (Data)", ROMX[$6EF8], BANK[$64]
 GameSceneNPCScriptReference1188::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1189 (Data)", ROMX[$6F18], BANK[$64]
 GameSceneNPCScriptReference1189::
-  db "だんぼう？<BR>…………………",$00
+  db "だんぼう?<BR>…………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 118A (Data)", ROMX[$6F26], BANK[$64]
 GameSceneNPCScriptReference118A::
-  db "Ｏｈ！　わかりましたー！<BR>さっきのボイラースイッチを<BR>いれれば　ボイラーが<BR>うごくでーす！！",$00
+  db "Oh!　わかりましたー!<BR>さっきのボイラースイッチを<BR>いれれば　ボイラーが<BR>うごくでーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 118B (Data)", ROMX[$6F57], BANK[$64]
 GameSceneNPCScriptReference118B::
-  db "ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とけますねー！！",$00
+  db "ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とけますねー!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 118C (Data)", ROMX[$6F82], BANK[$64]
 GameSceneNPCScriptReference118C::
@@ -3827,11 +3827,11 @@ GameSceneNPCScriptReference118C::
 
 SECTION "Game Scene NPC Script 0029 Reference 118D (Data)", ROMX[$6F94], BANK[$64]
 GameSceneNPCScriptReference118D::
-  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす！！",$00
+  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 118E (Data)", ROMX[$70F2], BANK[$64]
 GameSceneNPCScriptReference118E::
-  db "なめて　とかしましょうか？<BR>なーんちゃって。",$00
+  db "なめて　とかしましょうか?<BR>なーんちゃって。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 118F (Data)", ROMX[$7109], BANK[$64]
 GameSceneNPCScriptReference118F::
@@ -3847,7 +3847,7 @@ GameSceneNPCScriptReference1191::
 
 SECTION "Game Scene NPC Script 0029 Reference 1192 (Data)", ROMX[$7159], BANK[$64]
 GameSceneNPCScriptReference1192::
-  db "Ｏｈ！　そうでーす！！<BR>とちゅうに　ボイラースイッチ<BR>が　あったでーす！！",$00
+  db "Oh!　そうでーす!!<BR>とちゅうに　ボイラースイッチ<BR>が　あったでーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1193 (Data)", ROMX[$7181], BANK[$64]
 GameSceneNPCScriptReference1193::
@@ -3855,19 +3855,19 @@ GameSceneNPCScriptReference1193::
 
 SECTION "Game Scene NPC Script 0029 Reference 1194 (Data)", ROMX[$71A8], BANK[$64]
 GameSceneNPCScriptReference1194::
-  db "あっ！　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1195 (Data)", ROMX[$71C3], BANK[$64]
 GameSceneNPCScriptReference1195::
-  db "そのとおりでーす！<BR>ボイラーを　うごかして<BR>だんぼうをいれて　こおりを<BR>とかすのでーす！！",$00
+  db "そのとおりでーす!<BR>ボイラーを　うごかして<BR>だんぼうをいれて　こおりを<BR>とかすのでーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1196 (Data)", ROMX[$71F1], BANK[$64]
 GameSceneNPCScriptReference1196::
-  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎましょー！！",$00
+  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎましょー!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1197 (Data)", ROMX[$4D4E], BANK[$64]
 GameSceneNPCScriptReference1197::
-  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう！<BR>おりひめさん！！",$00
+  db "ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう!<BR>おりひめさん!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 1198 (Data)", ROMX[$4D72], BANK[$64]
 GameSceneNPCScriptReference1198::
@@ -3879,7 +3879,7 @@ GameSceneNPCScriptReference1199::
 
 SECTION "Game Scene NPC Script 0029 Reference 119A (Data)", ROMX[$4DB4], BANK[$64]
 GameSceneNPCScriptReference119A::
-  db "そうでーす！<BR>おもいだしましたー！<BR>たしか　ボイラースイッチが<BR>ありましたね！！",$00
+  db "そうでーす!<BR>おもいだしましたー!<BR>たしか　ボイラースイッチが<BR>ありましたね!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 119B (Data)", ROMX[$4DDD], BANK[$64]
 GameSceneNPCScriptReference119B::
@@ -3887,11 +3887,11 @@ GameSceneNPCScriptReference119B::
 
 SECTION "Game Scene NPC Script 0029 Reference 119C (Data)", ROMX[$4E04], BANK[$64]
 GameSceneNPCScriptReference119C::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 119D (Data)", ROMX[$4E27], BANK[$64]
 GameSceneNPCScriptReference119D::
-  db "そのとおりでーす！",$00
+  db "そのとおりでーす!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 119E (Data)", ROMX[$4E31], BANK[$64]
 GameSceneNPCScriptReference119E::
@@ -3899,31 +3899,31 @@ GameSceneNPCScriptReference119E::
 
 SECTION "Game Scene NPC Script 0029 Reference 119F (Data)", ROMX[$4E52], BANK[$64]
 GameSceneNPCScriptReference119F::
-  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす！！",$00
+  db "<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11A0 (Data)", ROMX[$4E76], BANK[$64]
 GameSceneNPCScriptReference11A0::
-  db "こおりを　とかせば<BR>いいんじゃないでしょうか？",$00
+  db "こおりを　とかせば<BR>いいんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11A1 (Data)", ROMX[$4E8E], BANK[$64]
 GameSceneNPCScriptReference11A1::
-  db "どうやってでーすか？",$00
+  db "どうやってでーすか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11A2 (Data)", ROMX[$4E99], BANK[$64]
 GameSceneNPCScriptReference11A2::
-  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか？",$00
+  db "だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11A3 (Data)", ROMX[$4EB9], BANK[$64]
 GameSceneNPCScriptReference11A3::
-  db "だんぼう？<BR>…………………",$00
+  db "だんぼう?<BR>…………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11A4 (Data)", ROMX[$4EC7], BANK[$64]
 GameSceneNPCScriptReference11A4::
-  db "Ｏｈ！　わかりましたー！<BR>さっきのボイラースイッチを<BR>いれれば　ボイラーが<BR>うごくでーす！！",$00
+  db "Oh!　わかりましたー!<BR>さっきのボイラースイッチを<BR>いれれば　ボイラーが<BR>うごくでーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11A5 (Data)", ROMX[$4EF8], BANK[$64]
 GameSceneNPCScriptReference11A5::
-  db "ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とけますねー！！",$00
+  db "ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とけますねー!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11A6 (Data)", ROMX[$4F23], BANK[$64]
 GameSceneNPCScriptReference11A6::
@@ -3931,11 +3931,11 @@ GameSceneNPCScriptReference11A6::
 
 SECTION "Game Scene NPC Script 0029 Reference 11A7 (Data)", ROMX[$4F35], BANK[$64]
 GameSceneNPCScriptReference11A7::
-  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす！！",$00
+  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11A8 (Data)", ROMX[$4F54], BANK[$64]
 GameSceneNPCScriptReference11A8::
-  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか？",$00
+  db "あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11A9 (Data)", ROMX[$4F70], BANK[$64]
 GameSceneNPCScriptReference11A9::
@@ -3943,15 +3943,15 @@ GameSceneNPCScriptReference11A9::
 
 SECTION "Game Scene NPC Script 0029 Reference 11AA (Data)", ROMX[$4F8A], BANK[$64]
 GameSceneNPCScriptReference11AA::
-  db "ん？　……………<BR>あつい？　……………<BR>あたためる………………",$00
+  db "ん?　……………<BR>あつい?　……………<BR>あたためる………………",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11AB (Data)", ROMX[$4FAA], BANK[$64]
 GameSceneNPCScriptReference11AB::
-  db "………だんぼう！<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>オッケーでーす。",$00
+  db "………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>オッケーでーす。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11AC (Data)", ROMX[$4FD1], BANK[$64]
 GameSceneNPCScriptReference11AC::
-  db "たしか　さっき<BR>ボイラースイッチを<BR>みつけましたね！！",$00
+  db "たしか　さっき<BR>ボイラースイッチを<BR>みつけましたね!!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11AD (Data)", ROMX[$4FED], BANK[$64]
 GameSceneNPCScriptReference11AD::
@@ -3959,11 +3959,11 @@ GameSceneNPCScriptReference11AD::
 
 SECTION "Game Scene NPC Script 0029 Reference 11AE (Data)", ROMX[$5014], BANK[$64]
 GameSceneNPCScriptReference11AE::
-  db "あっ！　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
+  db "あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11AF (Data)", ROMX[$5037], BANK[$64]
 GameSceneNPCScriptReference11AF::
-  db "そのとおりでーす！",$00
+  db "そのとおりでーす!",$00
 
 SECTION "Game Scene NPC Script 0029 Reference 11B0 (Data)", ROMX[$5041], BANK[$64]
 GameSceneNPCScriptReference11B0::
@@ -3971,6 +3971,6 @@ GameSceneNPCScriptReference11B0::
 
 SECTION "Game Scene NPC Script 0029 Reference 11B1 (Data)", ROMX[$5056], BANK[$64]
 GameSceneNPCScriptReference11B1::
-  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす！！",$00
+  db "さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす!!",$00
 
 POPC

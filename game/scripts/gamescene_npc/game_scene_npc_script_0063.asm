@@ -399,7 +399,7 @@ GameSceneNPCScriptReference243E::
 
 SECTION "Game Scene NPC Script 0063 Reference 243F (Data)", ROMX[$6BA6], BANK[$6C]
 GameSceneNPCScriptReference243F::
-  db "うわっ！<BR>てきだ！！",$00
+  db "うわっ!<BR>てきだ!!",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 2442 (Data)", ROMX[$4F0D], BANK[$6C]
 GameSceneNPCScriptReference2442::
@@ -407,7 +407,7 @@ GameSceneNPCScriptReference2442::
 
 SECTION "Game Scene NPC Script 0063 Reference 2443 (Data)", ROMX[$4F19], BANK[$6C]
 GameSceneNPCScriptReference2443::
-  db "いしの　かんおけか……<BR>なにが　はいってんのかなぁ。<BR>あけてみるか？<BR><NAME>はん。",$00
+  db "いしの　かんおけか……<BR>なにが　はいってんのかなぁ。<BR>あけてみるか?<BR><NAME>はん。",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 2444 (Data)", ROMX[$4F41], BANK[$6C]
 GameSceneNPCScriptReference2444::
@@ -463,7 +463,7 @@ GameSceneNPCScriptReference244A::
 
 SECTION "Game Scene NPC Script 0063 Reference 244B (Data)", ROMX[$44F2], BANK[$6C]
 GameSceneNPCScriptReference244B::
-  db "いしの　かんおけか……<BR>なにが　はいってんのかなぁ。<BR>あけてみるか？<BR><NAME>はん。",$00
+  db "いしの　かんおけか……<BR>なにが　はいってんのかなぁ。<BR>あけてみるか?<BR><NAME>はん。",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 244C (Data)", ROMX[$451A], BANK[$6C]
 GameSceneNPCScriptReference244C::
@@ -519,7 +519,7 @@ GameSceneNPCScriptReference2452::
 
 SECTION "Game Scene NPC Script 0063 Reference 2453 (Data)", ROMX[$40A5], BANK[$6D]
 GameSceneNPCScriptReference2453::
-  db "いしの　かんおけでーす。<BR>なにが　はいってるか<BR>わかりませーん。あけますか？<BR><NAME>さん。",$00
+  db "いしの　かんおけでーす。<BR>なにが　はいってるか<BR>わかりませーん。あけますか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 2454 (Data)", ROMX[$40D1], BANK[$6D]
 GameSceneNPCScriptReference2454::
@@ -575,7 +575,7 @@ GameSceneNPCScriptReference245A::
 
 SECTION "Game Scene NPC Script 0063 Reference 245B (Data)", ROMX[$75E4], BANK[$6C]
 GameSceneNPCScriptReference245B::
-  db "いしの　かんおけでーす。<BR>なにが　はいってるか<BR>わかりませーん。あけますか？<BR><NAME>さん。",$00
+  db "いしの　かんおけでーす。<BR>なにが　はいってるか<BR>わかりませーん。あけますか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 245C (Data)", ROMX[$7610], BANK[$6C]
 GameSceneNPCScriptReference245C::
@@ -649,11 +649,11 @@ GameSceneNPCScriptReference2462::
 
 SECTION "Game Scene NPC Script 0063 Reference 2463 (Data)", ROMX[$6178], BANK[$6C]
 GameSceneNPCScriptReference2463::
-  db "あっ！<BR>てきだわ！！",$00
+  db "あっ!<BR>てきだわ!!",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 2464 (Data)", ROMX[$6BB1], BANK[$6C]
 GameSceneNPCScriptReference2464::
-  db "……おや？<BR>なにかあるぞ？",$00
+  db "……おや?<BR>なにかあるぞ?",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 2465 (Data)", ROMX[$6BBF], BANK[$6C]
 GameSceneNPCScriptReference2465::
@@ -683,7 +683,7 @@ GameSceneNPCScriptReference2468::
 
 SECTION "Game Scene NPC Script 0063 Reference 2469 (Data)", ROMX[$4F6B], BANK[$6C]
 GameSceneNPCScriptReference2469::
-  db "うわっ！<BR>てきだ！！",$00
+  db "うわっ!<BR>てきだ!!",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 246A (Data)", ROMX[$4523], BANK[$6C]
 GameSceneNPCScriptReference246A::
@@ -709,7 +709,7 @@ GameSceneNPCScriptReference246C::
 
 SECTION "Game Scene NPC Script 0063 Reference 246D (Data)", ROMX[$4543], BANK[$6C]
 GameSceneNPCScriptReference246D::
-  db "あっ！<BR>てきだわ！！",$00
+  db "あっ!<BR>てきだわ!!",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 246E (Data)", ROMX[$40DA], BANK[$6D]
 GameSceneNPCScriptReference246E::
@@ -735,7 +735,7 @@ GameSceneNPCScriptReference2470::
 
 SECTION "Game Scene NPC Script 0063 Reference 2471 (Data)", ROMX[$40FB], BANK[$6D]
 GameSceneNPCScriptReference2471::
-  db "うわっ！<BR>てきだ！！",$00
+  db "うわっ!<BR>てきだ!!",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 2472 (Data)", ROMX[$7619], BANK[$6C]
 GameSceneNPCScriptReference2472::
@@ -761,11 +761,11 @@ GameSceneNPCScriptReference2474::
 
 SECTION "Game Scene NPC Script 0063 Reference 2475 (Data)", ROMX[$7639], BANK[$6C]
 GameSceneNPCScriptReference2475::
-  db "あっ！<BR>てきだわ！！",$00
+  db "あっ!<BR>てきだわ!!",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 2476 (Data)", ROMX[$6183], BANK[$6C]
 GameSceneNPCScriptReference2476::
-  db "……あら？<BR>なにかあるわ？",$00
+  db "……あら?<BR>なにかあるわ?",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 2477 (Data)", ROMX[$6191], BANK[$6C]
 GameSceneNPCScriptReference2477::
@@ -773,7 +773,7 @@ GameSceneNPCScriptReference2477::
 
 SECTION "Game Scene NPC Script 0063 Reference 2478 (Data)", ROMX[$4F76], BANK[$6C]
 GameSceneNPCScriptReference2478::
-  db "……おや？<BR>なにかあるぞ？",$00
+  db "……おや?<BR>なにかあるぞ?",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 2479 (Data)", ROMX[$4F84], BANK[$6C]
 GameSceneNPCScriptReference2479::
@@ -781,7 +781,7 @@ GameSceneNPCScriptReference2479::
 
 SECTION "Game Scene NPC Script 0063 Reference 247A (Data)", ROMX[$454E], BANK[$6C]
 GameSceneNPCScriptReference247A::
-  db "……あら？<BR>なにかあるわ？",$00
+  db "……あら?<BR>なにかあるわ?",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 247B (Data)", ROMX[$455C], BANK[$6C]
 GameSceneNPCScriptReference247B::
@@ -789,7 +789,7 @@ GameSceneNPCScriptReference247B::
 
 SECTION "Game Scene NPC Script 0063 Reference 247C (Data)", ROMX[$4106], BANK[$6D]
 GameSceneNPCScriptReference247C::
-  db "……おや？<BR>なにかあるぞ？",$00
+  db "……おや?<BR>なにかあるぞ?",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 247D (Data)", ROMX[$4114], BANK[$6D]
 GameSceneNPCScriptReference247D::
@@ -797,7 +797,7 @@ GameSceneNPCScriptReference247D::
 
 SECTION "Game Scene NPC Script 0063 Reference 247E (Data)", ROMX[$7644], BANK[$6C]
 GameSceneNPCScriptReference247E::
-  db "……あら？<BR>なにかあるわ？",$00
+  db "……あら?<BR>なにかあるわ?",$00
 
 SECTION "Game Scene NPC Script 0063 Reference 247F (Data)", ROMX[$7652], BANK[$6C]
 GameSceneNPCScriptReference247F::

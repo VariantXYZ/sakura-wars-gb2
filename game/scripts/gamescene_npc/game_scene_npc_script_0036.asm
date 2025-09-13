@@ -125,7 +125,7 @@ GameSceneNPCScriptReference1439::
 
 SECTION "Game Scene NPC Script 0036 Reference 143A (Data)", ROMX[$4766], BANK[$67]
 GameSceneNPCScriptReference143A::
-  db "そうだわ　<NAME>くん<BR>じゅうのくんれんを<BR>してみない？",$00
+  db "そうだわ　<NAME>くん<BR>じゅうのくんれんを<BR>してみない?",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 143B (Data)", ROMX[$4780], BANK[$67]
 GameSceneNPCScriptReference143B::
@@ -214,7 +214,7 @@ GameSceneNPCScriptReference1441::
 
 SECTION "Game Scene NPC Script 0036 Reference 1442 (Data)", ROMX[$4404], BANK[$67]
 GameSceneNPCScriptReference1442::
-  db "そうだわ　<NAME>　<BR>じゅうのくんれんを<BR>してみない？",$00
+  db "そうだわ　<NAME>　<BR>じゅうのくんれんを<BR>してみない?",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1443 (Data)", ROMX[$441D], BANK[$67]
 GameSceneNPCScriptReference1443::
@@ -270,7 +270,7 @@ GameSceneNPCScriptReference1445::
 
 SECTION "Game Scene NPC Script 0036 Reference 1447 (Data)", ROMX[$4848], BANK[$67]
 GameSceneNPCScriptReference1447::
-  db "どうしたの？　<BR><NAME>くん。<BR>しゃげきのくんれん　するの？",$00
+  db "どうしたの?　<BR><NAME>くん。<BR>しゃげきのくんれん　するの?",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1448 (Data)", ROMX[$4864], BANK[$67]
 GameSceneNPCScriptReference1448::
@@ -462,7 +462,7 @@ GameSceneNPCScriptReference144B::
 
 SECTION "Game Scene NPC Script 0036 Reference 144C (Data)", ROMX[$4793], BANK[$67]
 GameSceneNPCScriptReference144C::
-  db "はい！<BR>やってみたいです。<BR>ぜひ　おねがいします！！",$00
+  db "はい!<BR>やってみたいです。<BR>ぜひ　おねがいします!!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 144D (Data)", ROMX[$47AE], BANK[$67]
 GameSceneNPCScriptReference144D::
@@ -474,7 +474,7 @@ GameSceneNPCScriptReference144F::
 
 SECTION "Game Scene NPC Script 0036 Reference 1450 (Data)", ROMX[$47EB], BANK[$67]
 GameSceneNPCScriptReference1450::
-  db "そうなの？<BR>なら　なおさら　きほんを<BR>しっかりみにつけなさい。",$00
+  db "そうなの?<BR>なら　なおさら　きほんを<BR>しっかりみにつけなさい。",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1451 (Data)", ROMX[$480B], BANK[$67]
 GameSceneNPCScriptReference1451::
@@ -486,11 +486,11 @@ GameSceneNPCScriptReference1452::
 
 SECTION "Game Scene NPC Script 0036 Reference 1453 (Data)", ROMX[$482C], BANK[$67]
 GameSceneNPCScriptReference1453::
-  db "どうしたの？<BR>さあ　わたしのじゅうを<BR>かしてあげるわ。",$00
+  db "どうしたの?<BR>さあ　わたしのじゅうを<BR>かしてあげるわ。",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1454 (Data)", ROMX[$44E8], BANK[$67]
 GameSceneNPCScriptReference1454::
-  db "どうしたの？　<NAME>。<BR>しゃげきのくんれん　するの？",$00
+  db "どうしたの?　<NAME>。<BR>しゃげきのくんれん　するの?",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1455 (Data)", ROMX[$4501], BANK[$67]
 GameSceneNPCScriptReference1455::
@@ -682,7 +682,7 @@ GameSceneNPCScriptReference1458::
 
 SECTION "Game Scene NPC Script 0036 Reference 1459 (Data)", ROMX[$4430], BANK[$67]
 GameSceneNPCScriptReference1459::
-  db "はい！<BR>やってみたかったんです。<BR>ぜひ　おねがいします！！",$00
+  db "はい!<BR>やってみたかったんです。<BR>ぜひ　おねがいします!!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 145A (Data)", ROMX[$444E], BANK[$67]
 GameSceneNPCScriptReference145A::
@@ -694,7 +694,7 @@ GameSceneNPCScriptReference145C::
 
 SECTION "Game Scene NPC Script 0036 Reference 145D (Data)", ROMX[$448B], BANK[$67]
 GameSceneNPCScriptReference145D::
-  db "そうなの？<BR>なら　なおさら　きほんを<BR>しっかりみにつけなさい。",$00
+  db "そうなの?<BR>なら　なおさら　きほんを<BR>しっかりみにつけなさい。",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 145E (Data)", ROMX[$44AB], BANK[$67]
 GameSceneNPCScriptReference145E::
@@ -706,7 +706,7 @@ GameSceneNPCScriptReference145F::
 
 SECTION "Game Scene NPC Script 0036 Reference 1460 (Data)", ROMX[$44CC], BANK[$67]
 GameSceneNPCScriptReference1460::
-  db "どうしたの？<BR>さあ　わたしのじゅうを<BR>かしてあげるわ。",$00
+  db "どうしたの?<BR>さあ　わたしのじゅうを<BR>かしてあげるわ。",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1461 (Data)", ROMX[$488D], BANK[$67]
 GameSceneNPCScriptReference1461::
@@ -722,11 +722,11 @@ GameSceneNPCScriptReference1463::
 
 SECTION "Game Scene NPC Script 0036 Reference 1464 (Data)", ROMX[$48B6], BANK[$67]
 GameSceneNPCScriptReference1464::
-  db "いい？<BR>たまは　ぜんぶで<BR>５はつよ。",$00
+  db "いい?<BR>たまは　ぜんぶで<BR>5はつよ。",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1465 (Data)", ROMX[$48CA], BANK[$67]
 GameSceneNPCScriptReference1465::
-  db "わたしが　あいずしたら<BR>3つ　かぞえて<BR>ひきがねをひくのよ。",$00
+  db "わたしが　あいずしたら<BR>３つ　かぞえて<BR>ひきがねをひくのよ。",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1466 (Data)", ROMX[$48E9], BANK[$67]
 GameSceneNPCScriptReference1466::
@@ -734,19 +734,19 @@ GameSceneNPCScriptReference1466::
 
 SECTION "Game Scene NPC Script 0036 Reference 1467 (Data)", ROMX[$48F4], BANK[$67]
 GameSceneNPCScriptReference1467::
-  db "ねらって！！",$00
+  db "ねらって!!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 146A (Data)", ROMX[$48FB], BANK[$67]
 GameSceneNPCScriptReference146A::
-  db "ダメ！<BR>つぎいくわよ！",$00
+  db "ダメ!<BR>つぎいくわよ!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 146C (Data)", ROMX[$4907], BANK[$67]
 GameSceneNPCScriptReference146C::
-  db "いいわ！<BR>つぎいくわよ！",$00
+  db "いいわ!<BR>つぎいくわよ!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1470 (Data)", ROMX[$4914], BANK[$67]
 GameSceneNPCScriptReference1470::
-  db "すごいわ！　<NAME>くん！<BR>かんぺきよ！<BR>すばらしいわ！！",$00
+  db "すごいわ!　<NAME>くん!<BR>かんぺきよ!<BR>すばらしいわ!!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1471 (Subroutine)", ROMX[$63BB], BANK[$54]
 GameSceneNPCScriptReference1471::
@@ -817,7 +817,7 @@ GameSceneNPCScriptReference1472::
 
 SECTION "Game Scene NPC Script 0036 Reference 1473 (Data)", ROMX[$4946], BANK[$67]
 GameSceneNPCScriptReference1473::
-  db "どうしたの？　もっと<BR>しゅうちゅうしなさい。<BR>もういちど　やってみる？",$00
+  db "どうしたの?　もっと<BR>しゅうちゅうしなさい。<BR>もういちど　やってみる?",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1474 (Data)", ROMX[$496A], BANK[$67]
 GameSceneNPCScriptReference1474::
@@ -904,11 +904,11 @@ GameSceneNPCScriptReference147C::
 
 SECTION "Game Scene NPC Script 0036 Reference 147D (Data)", ROMX[$4553], BANK[$67]
 GameSceneNPCScriptReference147D::
-  db "いい？<BR>たまは　ぜんぶで<BR>５はつよ。",$00
+  db "いい?<BR>たまは　ぜんぶで<BR>5はつよ。",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 147E (Data)", ROMX[$4567], BANK[$67]
 GameSceneNPCScriptReference147E::
-  db "わたしが　あいずしたら<BR>3つ　かぞえて<BR>ひきがねをひくのよ。",$00
+  db "わたしが　あいずしたら<BR>３つ　かぞえて<BR>ひきがねをひくのよ。",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 147F (Data)", ROMX[$4586], BANK[$67]
 GameSceneNPCScriptReference147F::
@@ -916,19 +916,19 @@ GameSceneNPCScriptReference147F::
 
 SECTION "Game Scene NPC Script 0036 Reference 1480 (Data)", ROMX[$4591], BANK[$67]
 GameSceneNPCScriptReference1480::
-  db "ねらって！！",$00
+  db "ねらって!!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1483 (Data)", ROMX[$4598], BANK[$67]
 GameSceneNPCScriptReference1483::
-  db "ダメ！<BR>つぎいくわよ！",$00
+  db "ダメ!<BR>つぎいくわよ!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1485 (Data)", ROMX[$45A4], BANK[$67]
 GameSceneNPCScriptReference1485::
-  db "いいわ！<BR>つぎいくわよ！",$00
+  db "いいわ!<BR>つぎいくわよ!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1489 (Data)", ROMX[$45B1], BANK[$67]
 GameSceneNPCScriptReference1489::
-  db "すごいじゃない　<NAME>！<BR>かんぺきよ！<BR>すばらしいわ！！",$00
+  db "すごいじゃない　<NAME>!<BR>かんぺきよ!<BR>すばらしいわ!!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 148A (Subroutine)", ROMX[$61D6], BANK[$54]
 GameSceneNPCScriptReference148A::
@@ -999,7 +999,7 @@ GameSceneNPCScriptReference148B::
 
 SECTION "Game Scene NPC Script 0036 Reference 148C (Data)", ROMX[$45E6], BANK[$67]
 GameSceneNPCScriptReference148C::
-  db "どうしたの？　もっと<BR>しゅうちゅうしなさい。<BR>もういちど　やってみる？",$00
+  db "どうしたの?　もっと<BR>しゅうちゅうしなさい。<BR>もういちど　やってみる?",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 148D (Data)", ROMX[$460A], BANK[$67]
 GameSceneNPCScriptReference148D::
@@ -1082,7 +1082,7 @@ GameSceneNPCScriptReference1494::
 
 SECTION "Game Scene NPC Script 0036 Reference 1495 (Data)", ROMX[$4A01], BANK[$67]
 GameSceneNPCScriptReference1495::
-  db "<NAME>は<BR>『こおりのたま』のわざを<BR>おぼえた！",$00
+  db "<NAME>は<BR>『こおりのたま』のわざを<BR>おぼえた!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 1497 (Data)", ROMX[$4A17], BANK[$67]
 GameSceneNPCScriptReference1497::
@@ -1110,7 +1110,7 @@ GameSceneNPCScriptReference149D::
 
 SECTION "Game Scene NPC Script 0036 Reference 149E (Data)", ROMX[$49B1], BANK[$67]
 GameSceneNPCScriptReference149E::
-  db "もういちど<BR>やらせてください！",$00
+  db "もういちど<BR>やらせてください!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 149F (Data)", ROMX[$49C1], BANK[$67]
 GameSceneNPCScriptReference149F::
@@ -1126,7 +1126,7 @@ GameSceneNPCScriptReference14A1::
 
 SECTION "Game Scene NPC Script 0036 Reference 14A2 (Data)", ROMX[$46A1], BANK[$67]
 GameSceneNPCScriptReference14A2::
-  db "<NAME>は<BR>『こおりのたま』のわざを<BR>おぼえた！",$00
+  db "<NAME>は<BR>『こおりのたま』のわざを<BR>おぼえた!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 14A4 (Data)", ROMX[$46B7], BANK[$67]
 GameSceneNPCScriptReference14A4::
@@ -1154,7 +1154,7 @@ GameSceneNPCScriptReference14AA::
 
 SECTION "Game Scene NPC Script 0036 Reference 14AB (Data)", ROMX[$4651], BANK[$67]
 GameSceneNPCScriptReference14AB::
-  db "もういちど<BR>やらせてください！",$00
+  db "もういちど<BR>やらせてください!",$00
 
 SECTION "Game Scene NPC Script 0036 Reference 14AC (Data)", ROMX[$4661], BANK[$67]
 GameSceneNPCScriptReference14AC::

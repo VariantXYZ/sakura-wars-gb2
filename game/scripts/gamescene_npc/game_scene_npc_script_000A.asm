@@ -117,11 +117,11 @@ GameSceneNPCScriptReference0260::
 
 SECTION "Game Scene NPC Script 000A Reference 0261 (Data)", ROMX[$454A], BANK[$63]
 GameSceneNPCScriptReference0261::
-  db "あっ！　すみれさん！！<BR>なにかいます！",$00
+  db "あっ!　すみれさん!!<BR>なにかいます!",$00
 
 SECTION "Game Scene NPC Script 000A Reference 0262 (Data)", ROMX[$455E], BANK[$63]
 GameSceneNPCScriptReference0262::
-  db "まものです！！",$00
+  db "まものです!!",$00
 
 SECTION "Game Scene NPC Script 000A Reference 0263 (Data)", ROMX[$4566], BANK[$63]
 GameSceneNPCScriptReference0263::
@@ -133,11 +133,11 @@ GameSceneNPCScriptReference0264::
 
 SECTION "Game Scene NPC Script 000A Reference 0265 (Data)", ROMX[$50BD], BANK[$62]
 GameSceneNPCScriptReference0265::
-  db "あっ！　さくらさん！！<BR>なにかいます！",$00
+  db "あっ!　さくらさん!!<BR>なにかいます!",$00
 
 SECTION "Game Scene NPC Script 000A Reference 0266 (Data)", ROMX[$50D1], BANK[$62]
 GameSceneNPCScriptReference0266::
-  db "まものだわ！",$00
+  db "まものだわ!",$00
 
 SECTION "Game Scene NPC Script 000A Reference 0267 (Data)", ROMX[$50D8], BANK[$62]
 GameSceneNPCScriptReference0267::
@@ -195,7 +195,7 @@ GameSceneNPCScriptReference026A::
 
 SECTION "Game Scene NPC Script 000A Reference 026B (Data)", ROMX[$6B88], BANK[$62]
 GameSceneNPCScriptReference026B::
-  db "あっ！　レニさん！！<BR>なにかいます！",$00
+  db "あっ!　レニさん!!<BR>なにかいます!",$00
 
 SECTION "Game Scene NPC Script 000A Reference 026C (Data)", ROMX[$6B9B], BANK[$62]
 GameSceneNPCScriptReference026C::
@@ -211,11 +211,11 @@ GameSceneNPCScriptReference026E::
 
 SECTION "Game Scene NPC Script 000A Reference 026F (Data)", ROMX[$77D6], BANK[$61]
 GameSceneNPCScriptReference026F::
-  db "あっ！　さくらさん！！<BR>なにかいます！",$00
+  db "あっ!　さくらさん!!<BR>なにかいます!",$00
 
 SECTION "Game Scene NPC Script 000A Reference 0270 (Data)", ROMX[$77EA], BANK[$61]
 GameSceneNPCScriptReference0270::
-  db "まものだわ！",$00
+  db "まものだわ!",$00
 
 SECTION "Game Scene NPC Script 000A Reference 0271 (Data)", ROMX[$77F1], BANK[$61]
 GameSceneNPCScriptReference0271::
@@ -227,11 +227,11 @@ GameSceneNPCScriptReference0272::
 
 SECTION "Game Scene NPC Script 000A Reference 0273 (Data)", ROMX[$5A6A], BANK[$61]
 GameSceneNPCScriptReference0273::
-  db "あっ！　なにかいるよ！<BR>アイリス！",$00
+  db "あっ!　なにかいるよ!<BR>アイリス!",$00
 
 SECTION "Game Scene NPC Script 000A Reference 0274 (Data)", ROMX[$5A7C], BANK[$61]
 GameSceneNPCScriptReference0274::
-  db "まものだ！",$00
+  db "まものだ!",$00
 
 SECTION "Game Scene NPC Script 000A Reference 0275 (Data)", ROMX[$5A82], BANK[$61]
 GameSceneNPCScriptReference0275::
@@ -243,11 +243,11 @@ GameSceneNPCScriptReference0276::
 
 SECTION "Game Scene NPC Script 000A Reference 0277 (Data)", ROMX[$401E], BANK[$61]
 GameSceneNPCScriptReference0277::
-  db "あっ！　なにかいるわ！<BR>アイリス！",$00
+  db "あっ!　なにかいるわ!<BR>アイリス!",$00
 
 SECTION "Game Scene NPC Script 000A Reference 0278 (Data)", ROMX[$4030], BANK[$61]
 GameSceneNPCScriptReference0278::
-  db "まものだ！",$00
+  db "まものだ!",$00
 
 SECTION "Game Scene NPC Script 000A Reference 0279 (Data)", ROMX[$4036], BANK[$61]
 GameSceneNPCScriptReference0279::

@@ -98,11 +98,11 @@ GameSceneNPCScriptReference0368::
 
 SECTION "Game Scene NPC Script 000E Reference 0369 (Data)", ROMX[$6D3D], BANK[$62]
 GameSceneNPCScriptReference0369::
-  db "うわ〜　たかい！！<BR>ミカサって　けっこう<BR>たかいんですね。",$00
+  db "うわ〜　たかい!!<BR>ミカサって　けっこう<BR>たかいんですね。",$00
 
 SECTION "Game Scene NPC Script 000E Reference 036A (Data)", ROMX[$6D5B], BANK[$62]
 GameSceneNPCScriptReference036A::
-  db "ミカサのたかさは<BR>1000メートルいじょうも<BR>ありますのよ。",$00
+  db "ミカサのたかさは<BR>１０００メートルいじょうも<BR>ありますのよ。",$00
 
 SECTION "Game Scene NPC Script 000E Reference 036B (Subroutine)", ROMX[$4A94], BANK[$52]
 GameSceneNPCScriptReference036B::
@@ -210,19 +210,19 @@ GameSceneNPCScriptReference036D::
 
 SECTION "Game Scene NPC Script 000E Reference 036E (Data)", ROMX[$57E9], BANK[$62]
 GameSceneNPCScriptReference036E::
-  db "うわ〜　たかい！！<BR>ミカサって　けっこう<BR>たかいんですね。",$00
+  db "うわ〜　たかい!!<BR>ミカサって　けっこう<BR>たかいんですね。",$00
 
 SECTION "Game Scene NPC Script 000E Reference 036F (Data)", ROMX[$5807], BANK[$62]
 GameSceneNPCScriptReference036F::
-  db "ミカサのたかさは<BR>1000メートルいじょう<BR>あるんだ。",$00
+  db "ミカサのたかさは<BR>１０００メートルいじょう<BR>あるんだ。",$00
 
 SECTION "Game Scene NPC Script 000E Reference 0371 (Data)", ROMX[$42A5], BANK[$61]
 GameSceneNPCScriptReference0371::
-  db "ひっひえ〜っ！　たかい！！<BR>ミカサって　こんなに<BR>たかかったんだね。",$00
+  db "ひっひえ〜っ!　たかい!!<BR>ミカサって　こんなに<BR>たかかったんだね。",$00
 
 SECTION "Game Scene NPC Script 000E Reference 0372 (Data)", ROMX[$42C8], BANK[$61]
 GameSceneNPCScriptReference0372::
-  db "そうだよ　ミカサは　<BR>と〜っても　おっきいんだよ！",$00
+  db "そうだよ　ミカサは　<BR>と〜っても　おっきいんだよ!",$00
 
 SECTION "Game Scene NPC Script 000E Reference 0373 (Subroutine)", ROMX[$4B2B], BANK[$52]
 GameSceneNPCScriptReference0373::
@@ -234,7 +234,7 @@ GameSceneNPCScriptReference0374::
 
 SECTION "Game Scene NPC Script 000E Reference 0375 (Data)", ROMX[$42FA], BANK[$61]
 GameSceneNPCScriptReference0375::
-  db "とりにいこーよ！",$00
+  db "とりにいこーよ!",$00
 
 SECTION "Game Scene NPC Script 000E Reference 0376 (Data)", ROMX[$4303], BANK[$61]
 GameSceneNPCScriptReference0376::
@@ -294,7 +294,7 @@ GameSceneNPCScriptReference037B::
 
 SECTION "Game Scene NPC Script 000E Reference 037C (Data)", ROMX[$684F], BANK[$60]
 GameSceneNPCScriptReference037C::
-  db "そうだよ　ミカサは　<BR>と〜っても　おっきいんだよ！",$00
+  db "そうだよ　ミカサは　<BR>と〜っても　おっきいんだよ!",$00
 
 SECTION "Game Scene NPC Script 000E Reference 037D (Subroutine)", ROMX[$4097], BANK[$52]
 GameSceneNPCScriptReference037D::
@@ -306,7 +306,7 @@ GameSceneNPCScriptReference037E::
 
 SECTION "Game Scene NPC Script 000E Reference 037F (Data)", ROMX[$6881], BANK[$60]
 GameSceneNPCScriptReference037F::
-  db "とりにいこーよ！",$00
+  db "とりにいこーよ!",$00
 
 SECTION "Game Scene NPC Script 000E Reference 0380 (Data)", ROMX[$688A], BANK[$60]
 GameSceneNPCScriptReference0380::
@@ -362,19 +362,19 @@ GameSceneNPCScriptReference0383::
 
 SECTION "Game Scene NPC Script 000E Reference 0384 (Data)", ROMX[$4340], BANK[$61]
 GameSceneNPCScriptReference0384::
-  db "よし　とりにいこう！<BR>……でも　あんなところに<BR>どうやって　とりに<BR>いくんだい？",$00
+  db "よし　とりにいこう!<BR>……でも　あんなところに<BR>どうやって　とりに<BR>いくんだい?",$00
 
 SECTION "Game Scene NPC Script 000E Reference 0385 (Data)", ROMX[$4369], BANK[$61]
 GameSceneNPCScriptReference0385::
-  db "えへへへへへ。<BR>それは　アイリスに<BR>おまかせー！！",$00
+  db "えへへへへへ。<BR>それは　アイリスに<BR>おまかせー!!",$00
 
 SECTION "Game Scene NPC Script 000E Reference 0386 (Data)", ROMX[$4383], BANK[$61]
 GameSceneNPCScriptReference0386::
-  db "いっくよー！<BR>アイリスにしっかり<BR>つかまっててね！",$00
+  db "いっくよー!<BR>アイリスにしっかり<BR>つかまっててね!",$00
 
 SECTION "Game Scene NPC Script 000E Reference 0387 (Data)", ROMX[$439D], BANK[$61]
 GameSceneNPCScriptReference0387::
-  db "びっくりした？<BR>いまのがテレポートって<BR>いうんだよ！",$00
+  db "びっくりした?<BR>いまのがテレポートって<BR>いうんだよ!",$00
 
 SECTION "Game Scene NPC Script 000E Reference 0388 (Data)", ROMX[$4314], BANK[$61]
 GameSceneNPCScriptReference0388::
@@ -382,30 +382,30 @@ GameSceneNPCScriptReference0388::
 
 SECTION "Game Scene NPC Script 000E Reference 0389 (Data)", ROMX[$432D], BANK[$61]
 GameSceneNPCScriptReference0389::
-  db "え〜〜〜〜っ！<BR>アイリスつまんない！",$00
+  db "え〜〜〜〜っ!<BR>アイリスつまんない!",$00
 
 SECTION "Game Scene NPC Script 000E Reference 038A (Data)", ROMX[$68CD], BANK[$60]
 GameSceneNPCScriptReference038A::
-  db "いいわよ　いきましょう。<BR>……でも　あんなところに<BR>どうやって　とりにいくの？",$00
+  db "いいわよ　いきましょう。<BR>……でも　あんなところに<BR>どうやって　とりにいくの?",$00
 
 SECTION "Game Scene NPC Script 000E Reference 038B (Data)", ROMX[$68F5], BANK[$60]
 GameSceneNPCScriptReference038B::
-  db "えへへへへへ。<BR>それは　アイリスに<BR>おまかせー！！",$00
+  db "えへへへへへ。<BR>それは　アイリスに<BR>おまかせー!!",$00
 
 SECTION "Game Scene NPC Script 000E Reference 038C (Data)", ROMX[$690F], BANK[$60]
 GameSceneNPCScriptReference038C::
-  db "いっくよー！<BR>アイリスにしっかり<BR>つかまっててね！",$00
+  db "いっくよー!<BR>アイリスにしっかり<BR>つかまっててね!",$00
 
 SECTION "Game Scene NPC Script 000E Reference 038D (Data)", ROMX[$6929], BANK[$60]
 GameSceneNPCScriptReference038D::
-  db "びっくりした？<BR>いまのがテレポートって<BR>いうんだよ！",$00
+  db "びっくりした?<BR>いまのがテレポートって<BR>いうんだよ!",$00
 
 SECTION "Game Scene NPC Script 000E Reference 038E (Data)", ROMX[$689F], BANK[$60]
 GameSceneNPCScriptReference038E::
-  db "え〜。<BR>おちたら　どうするの？<BR>ヤメときましょうよ。",$00
+  db "え〜。<BR>おちたら　どうするの?<BR>ヤメときましょうよ。",$00
 
 SECTION "Game Scene NPC Script 000E Reference 038F (Data)", ROMX[$68BA], BANK[$60]
 GameSceneNPCScriptReference038F::
-  db "え〜〜〜〜っ！<BR>アイリスつまんない！",$00
+  db "え〜〜〜〜っ!<BR>アイリスつまんない!",$00
 
 POPC

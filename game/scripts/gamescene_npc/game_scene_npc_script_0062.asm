@@ -81,7 +81,7 @@ GameSceneNPCScriptReference2381::
 
 SECTION "Game Scene NPC Script 0062 Reference 2382 (Data)", ROMX[$6964], BANK[$6C]
 GameSceneNPCScriptReference2382::
-  db "あっ！　つうしんだ！<BR>はい<BR>こちら　<NAME>です。",$00
+  db "あっ!　つうしんだ!<BR>はい<BR>こちら　<NAME>です。",$00
 
 SECTION "Game Scene NPC Script 0062 Reference 2383 (Subroutine)", ROMX[$4E7E], BANK[$57]
 GameSceneNPCScriptReference2383::
@@ -260,7 +260,7 @@ GameSceneNPCScriptReference238C::
 
 SECTION "Game Scene NPC Script 0062 Reference 238D (Data)", ROMX[$5F40], BANK[$6C]
 GameSceneNPCScriptReference238D::
-  db "あっ！　つうしんだわ！<BR>はい<BR>こちら　<NAME>です。",$00
+  db "あっ!　つうしんだわ!<BR>はい<BR>こちら　<NAME>です。",$00
 
 SECTION "Game Scene NPC Script 0062 Reference 238E (Subroutine)", ROMX[$4B19], BANK[$57]
 GameSceneNPCScriptReference238E::
@@ -423,7 +423,7 @@ GameSceneNPCScriptReference23A6::
 
 SECTION "Game Scene NPC Script 0062 Reference 23A7 (Data)", ROMX[$4D25], BANK[$6C]
 GameSceneNPCScriptReference23A7::
-  db "あっ！　つうしんだ！<BR>はい<BR>こちら　<NAME>です。",$00
+  db "あっ!　つうしんだ!<BR>はい<BR>こちら　<NAME>です。",$00
 
 SECTION "Game Scene NPC Script 0062 Reference 23A8 (Subroutine)", ROMX[$4476], BANK[$57]
 GameSceneNPCScriptReference23A8::
@@ -514,7 +514,7 @@ GameSceneNPCScriptReference23AD::
 
 SECTION "Game Scene NPC Script 0062 Reference 23AE (Data)", ROMX[$42FF], BANK[$6C]
 GameSceneNPCScriptReference23AE::
-  db "あっ！　つうしんだわ！<BR>はい<BR>こちら　<NAME>です。",$00
+  db "あっ!　つうしんだわ!<BR>はい<BR>こちら　<NAME>です。",$00
 
 SECTION "Game Scene NPC Script 0062 Reference 23AF (Subroutine)", ROMX[$4111], BANK[$57]
 GameSceneNPCScriptReference23AF::
@@ -605,7 +605,7 @@ GameSceneNPCScriptReference23B3::
 
 SECTION "Game Scene NPC Script 0062 Reference 23B5 (Data)", ROMX[$7EA0], BANK[$6C]
 GameSceneNPCScriptReference23B5::
-  db "あっ！　つうしんだ！<BR>はい<BR>こちら　<NAME>です。",$00
+  db "あっ!　つうしんだ!<BR>はい<BR>こちら　<NAME>です。",$00
 
 SECTION "Game Scene NPC Script 0062 Reference 23B6 (Subroutine)", ROMX[$5529], BANK[$57]
 GameSceneNPCScriptReference23B6::
@@ -696,7 +696,7 @@ GameSceneNPCScriptReference23BB::
 
 SECTION "Game Scene NPC Script 0062 Reference 23BC (Data)", ROMX[$73E6], BANK[$6C]
 GameSceneNPCScriptReference23BC::
-  db "あっ！　つうしんだわ！<BR>はい<BR>こちら　<NAME>です。",$00
+  db "あっ!　つうしんだわ!<BR>はい<BR>こちら　<NAME>です。",$00
 
 SECTION "Game Scene NPC Script 0062 Reference 23BD (Subroutine)", ROMX[$51BA], BANK[$57]
 GameSceneNPCScriptReference23BD::
@@ -895,7 +895,7 @@ GameSceneNPCScriptReference23DF::
 
 SECTION "Game Scene NPC Script 0062 Reference 23E0 (Data)", ROMX[$4EFC], BANK[$6C]
 GameSceneNPCScriptReference23E0::
-  db "よっしゃ！<BR>いそぐで　<NAME>はん！！",$00
+  db "よっしゃ!<BR>いそぐで　<NAME>はん!!",$00
 
 SECTION "Game Scene NPC Script 0062 Reference 23E1 (Data)", ROMX[$4D4D], BANK[$6C]
 GameSceneNPCScriptReference23E1::
@@ -983,7 +983,7 @@ GameSceneNPCScriptReference23F6::
 
 SECTION "Game Scene NPC Script 0062 Reference 23F7 (Data)", ROMX[$44D5], BANK[$6C]
 GameSceneNPCScriptReference23F7::
-  db "よっしゃ！<BR>いそぐで　<NAME>はん！！",$00
+  db "よっしゃ!<BR>いそぐで　<NAME>はん!!",$00
 
 SECTION "Game Scene NPC Script 0062 Reference 23F8 (Data)", ROMX[$4328], BANK[$6C]
 GameSceneNPCScriptReference23F8::
@@ -1039,7 +1039,7 @@ GameSceneNPCScriptReference2405::
 
 SECTION "Game Scene NPC Script 0062 Reference 2406 (Data)", ROMX[$407D], BANK[$6D]
 GameSceneNPCScriptReference2406::
-  db "オッケー！　わかりました！<BR>いそぎましょう<BR><NAME>さん！！",$00
+  db "オッケー!　わかりました!<BR>いそぎましょう<BR><NAME>さん!!",$00
 
 SECTION "Game Scene NPC Script 0062 Reference 2407 (Data)", ROMX[$7EC8], BANK[$6C]
 GameSceneNPCScriptReference2407::
@@ -1127,7 +1127,7 @@ GameSceneNPCScriptReference241C::
 
 SECTION "Game Scene NPC Script 0062 Reference 241D (Data)", ROMX[$75BC], BANK[$6C]
 GameSceneNPCScriptReference241D::
-  db "オッケー！　わかりました！<BR>いそぎましょう<BR><NAME>さん！！",$00
+  db "オッケー!　わかりました!<BR>いそぎましょう<BR><NAME>さん!!",$00
 
 SECTION "Game Scene NPC Script 0062 Reference 241E (Data)", ROMX[$740F], BANK[$6C]
 GameSceneNPCScriptReference241E::

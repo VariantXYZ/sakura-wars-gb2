@@ -128,7 +128,7 @@ GameSceneNPCScriptReference0F68::
 
 SECTION "Game Scene NPC Script 0028 Reference 0F69 (Data)", ROMX[$7DCF], BANK[$63]
 GameSceneNPCScriptReference0F69::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F6A (Data)", ROMX[$7DE1], BANK[$63]
 GameSceneNPCScriptReference0F6A::
@@ -171,7 +171,7 @@ GameSceneNPCScriptReference0F6F::
 
 SECTION "Game Scene NPC Script 0028 Reference 0F70 (Data)", ROMX[$7F08], BANK[$65]
 GameSceneNPCScriptReference0F70::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F71 (Data)", ROMX[$7F1A], BANK[$65]
 GameSceneNPCScriptReference0F71::
@@ -298,7 +298,7 @@ GameSceneNPCScriptReference0F79::
 
 SECTION "Game Scene NPC Script 0028 Reference 0F7A (Data)", ROMX[$5F6D], BANK[$65]
 GameSceneNPCScriptReference0F7A::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F7B (Data)", ROMX[$5F7F], BANK[$65]
 GameSceneNPCScriptReference0F7B::
@@ -328,7 +328,7 @@ GameSceneNPCScriptReference0F7E::
 
 SECTION "Game Scene NPC Script 0028 Reference 0F7F (Data)", ROMX[$7E0B], BANK[$63]
 GameSceneNPCScriptReference0F7F::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F80 (Data)", ROMX[$7E1D], BANK[$63]
 GameSceneNPCScriptReference0F80::
@@ -373,15 +373,15 @@ GameSceneNPCScriptReference0F83::
 
 SECTION "Game Scene NPC Script 0028 Reference 0F84 (Data)", ROMX[$7DE8], BANK[$63]
 GameSceneNPCScriptReference0F84::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F85 (Data)", ROMX[$7DF1], BANK[$63]
 GameSceneNPCScriptReference0F85::
-  db "あれ？<BR>なにも　おこらないぞ？<BR>こわれてるのかな？",$00
+  db "あれ?<BR>なにも　おこらないぞ?<BR>こわれてるのかな?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F86 (Data)", ROMX[$7F45], BANK[$65]
 GameSceneNPCScriptReference0F86::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F87 (Data)", ROMX[$7F57], BANK[$65]
 GameSceneNPCScriptReference0F87::
@@ -426,11 +426,11 @@ GameSceneNPCScriptReference0F8A::
 
 SECTION "Game Scene NPC Script 0028 Reference 0F8B (Data)", ROMX[$7F21], BANK[$65]
 GameSceneNPCScriptReference0F8B::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F8C (Data)", ROMX[$7F2A], BANK[$65]
 GameSceneNPCScriptReference0F8C::
-  db "あら？<BR>なにも　おこらないわ？<BR>こわれてるのかしら？",$00
+  db "あら?<BR>なにも　おこらないわ?<BR>こわれてるのかしら?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F8E (Subroutine)", ROMX[$4855], BANK[$53]
 GameSceneNPCScriptReference0F8E::
@@ -447,7 +447,7 @@ GameSceneNPCScriptReference0F8E::
 
 SECTION "Game Scene NPC Script 0028 Reference 0F8F (Data)", ROMX[$5E3D], BANK[$63]
 GameSceneNPCScriptReference0F8F::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F90 (Data)", ROMX[$5E4F], BANK[$63]
 GameSceneNPCScriptReference0F90::
@@ -490,7 +490,7 @@ GameSceneNPCScriptReference0F95::
 
 SECTION "Game Scene NPC Script 0028 Reference 0F96 (Data)", ROMX[$7E52], BANK[$64]
 GameSceneNPCScriptReference0F96::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F97 (Data)", ROMX[$7E64], BANK[$64]
 GameSceneNPCScriptReference0F97::
@@ -533,7 +533,7 @@ GameSceneNPCScriptReference0F9C::
 
 SECTION "Game Scene NPC Script 0028 Reference 0F9D (Data)", ROMX[$5DE5], BANK[$64]
 GameSceneNPCScriptReference0F9D::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0F9E (Data)", ROMX[$5DF7], BANK[$64]
 GameSceneNPCScriptReference0F9E::
@@ -563,7 +563,7 @@ GameSceneNPCScriptReference0FA1::
 
 SECTION "Game Scene NPC Script 0028 Reference 0FA2 (Data)", ROMX[$5FA9], BANK[$65]
 GameSceneNPCScriptReference0FA2::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FA3 (Data)", ROMX[$5FBB], BANK[$65]
 GameSceneNPCScriptReference0FA3::
@@ -608,23 +608,23 @@ GameSceneNPCScriptReference0FA6::
 
 SECTION "Game Scene NPC Script 0028 Reference 0FA7 (Data)", ROMX[$5F86], BANK[$65]
 GameSceneNPCScriptReference0FA7::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FA8 (Data)", ROMX[$5F8F], BANK[$65]
 GameSceneNPCScriptReference0FA8::
-  db "あれ？<BR>なにも　おこらないぞ？<BR>こわれてるのかな？",$00
+  db "あれ?<BR>なにも　おこらないぞ?<BR>こわれてるのかな?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FA9 (Data)", ROMX[$7E24], BANK[$63]
 GameSceneNPCScriptReference0FA9::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FAA (Data)", ROMX[$7E2D], BANK[$63]
 GameSceneNPCScriptReference0FAA::
-  db "よし　だんぼうが<BR>はいったぜ！<BR>こおりが　とけていくぞ！！",$00
+  db "よし　だんぼうが<BR>はいったぜ!<BR>こおりが　とけていくぞ!!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FAB (Data)", ROMX[$7F5E], BANK[$65]
 GameSceneNPCScriptReference0FAB::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FAC (Data)", ROMX[$7F67], BANK[$65]
 GameSceneNPCScriptReference0FAC::
@@ -632,7 +632,7 @@ GameSceneNPCScriptReference0FAC::
 
 SECTION "Game Scene NPC Script 0028 Reference 0FAD (Data)", ROMX[$5E7A], BANK[$63]
 GameSceneNPCScriptReference0FAD::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FAE (Data)", ROMX[$5E8C], BANK[$63]
 GameSceneNPCScriptReference0FAE::
@@ -677,15 +677,15 @@ GameSceneNPCScriptReference0FB1::
 
 SECTION "Game Scene NPC Script 0028 Reference 0FB2 (Data)", ROMX[$5E56], BANK[$63]
 GameSceneNPCScriptReference0FB2::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FB3 (Data)", ROMX[$5E5F], BANK[$63]
 GameSceneNPCScriptReference0FB3::
-  db "あら？<BR>なにも　おこらないわ？<BR>こわれてるのかしら？",$00
+  db "あら?<BR>なにも　おこらないわ?<BR>こわれてるのかしら?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FB4 (Data)", ROMX[$7E8E], BANK[$64]
 GameSceneNPCScriptReference0FB4::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FB5 (Data)", ROMX[$7EA0], BANK[$64]
 GameSceneNPCScriptReference0FB5::
@@ -730,15 +730,15 @@ GameSceneNPCScriptReference0FB8::
 
 SECTION "Game Scene NPC Script 0028 Reference 0FB9 (Data)", ROMX[$7E6B], BANK[$64]
 GameSceneNPCScriptReference0FB9::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FBA (Data)", ROMX[$7E74], BANK[$64]
 GameSceneNPCScriptReference0FBA::
-  db "あれ？<BR>なにも　おこらないぞ？<BR>こわれてるのかな？",$00
+  db "あれ?<BR>なにも　おこらないぞ?<BR>こわれてるのかな?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FBB (Data)", ROMX[$5E22], BANK[$64]
 GameSceneNPCScriptReference0FBB::
-  db "スイッチがあります。<BR>おしますか？",$00
+  db "スイッチがあります。<BR>おしますか?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FBC (Data)", ROMX[$5E34], BANK[$64]
 GameSceneNPCScriptReference0FBC::
@@ -783,15 +783,15 @@ GameSceneNPCScriptReference0FBF::
 
 SECTION "Game Scene NPC Script 0028 Reference 0FC0 (Data)", ROMX[$5DFE], BANK[$64]
 GameSceneNPCScriptReference0FC0::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FC1 (Data)", ROMX[$5E07], BANK[$64]
 GameSceneNPCScriptReference0FC1::
-  db "あら？<BR>なにも　おこらないわ？<BR>こわれてるのかしら？",$00
+  db "あら?<BR>なにも　おこらないわ?<BR>こわれてるのかしら?",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FC2 (Data)", ROMX[$5FC2], BANK[$65]
 GameSceneNPCScriptReference0FC2::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FC3 (Data)", ROMX[$5FCB], BANK[$65]
 GameSceneNPCScriptReference0FC3::
@@ -799,15 +799,15 @@ GameSceneNPCScriptReference0FC3::
 
 SECTION "Game Scene NPC Script 0028 Reference 0FC4 (Data)", ROMX[$5E93], BANK[$63]
 GameSceneNPCScriptReference0FC4::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FC5 (Data)", ROMX[$5E9C], BANK[$63]
 GameSceneNPCScriptReference0FC5::
-  db "よし　だんぼうが<BR>はいったぜ！<BR>こおりが　とけていくぞ！！",$00
+  db "よし　だんぼうが<BR>はいったぜ!<BR>こおりが　とけていくぞ!!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FC6 (Data)", ROMX[$7EA7], BANK[$64]
 GameSceneNPCScriptReference0FC6::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FC7 (Data)", ROMX[$7EB0], BANK[$64]
 GameSceneNPCScriptReference0FC7::
@@ -815,7 +815,7 @@ GameSceneNPCScriptReference0FC7::
 
 SECTION "Game Scene NPC Script 0028 Reference 0FC8 (Data)", ROMX[$5E3B], BANK[$64]
 GameSceneNPCScriptReference0FC8::
-  db "スイッチ　オン！",$00
+  db "スイッチ　オン!",$00
 
 SECTION "Game Scene NPC Script 0028 Reference 0FC9 (Data)", ROMX[$5E44], BANK[$64]
 GameSceneNPCScriptReference0FC9::

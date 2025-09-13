@@ -287,39 +287,39 @@ GameSceneNPCScriptReference03C8::
 
 SECTION "Game Scene NPC Script 0011 Reference 03C9 (Data)", ROMX[$72D9], BANK[$62]
 GameSceneNPCScriptReference03C9::
-  db "！！！",$00
+  db "!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03CA (Data)", ROMX[$72DD], BANK[$62]
 GameSceneNPCScriptReference03CA::
-  db "あっ！<BR>さっきにげていった<BR>まものだ！！",$00
+  db "あっ!<BR>さっきにげていった<BR>まものだ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03CB (Data)", ROMX[$72F2], BANK[$62]
 GameSceneNPCScriptReference03CB::
-  db "ワキ〜〜〜！！",$00
+  db "ワキ〜〜〜!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03CC (Data)", ROMX[$72FA], BANK[$62]
 GameSceneNPCScriptReference03CC::
-  db "エッ！？",$00
+  db "エッ!?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03CD (Data)", ROMX[$72FF], BANK[$62]
 GameSceneNPCScriptReference03CD::
-  db "えっ！？",$00
+  db "えっ!?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03CE (Data)", ROMX[$7304], BANK[$62]
 GameSceneNPCScriptReference03CE::
-  db "な　なんですかーーー！！！",$00
+  db "な　なんですかーーー!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03CF (Data)", ROMX[$7312], BANK[$62]
 GameSceneNPCScriptReference03CF::
-  db "まものが　メインダクトに<BR>すいこまれた　から<BR>エンジンが　オーバーヒート<BR>しているんですわ！！",$00
+  db "まものが　メインダクトに<BR>すいこまれた　から<BR>エンジンが　オーバーヒート<BR>しているんですわ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03D0 (Data)", ROMX[$7342], BANK[$62]
 GameSceneNPCScriptReference03D0::
-  db "このままでは　エンジンが<BR>ばくはつして　しまいますわ！",$00
+  db "このままでは　エンジンが<BR>ばくはつして　しまいますわ!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03D1 (Data)", ROMX[$735E], BANK[$62]
 GameSceneNPCScriptReference03D1::
-  db "はやく　あのまものを<BR>なんとかしないと！！",$00
+  db "はやく　あのまものを<BR>なんとかしないと!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03D2 (Data)", ROMX[$7374], BANK[$62]
 GameSceneNPCScriptReference03D2::
@@ -464,39 +464,39 @@ GameSceneNPCScriptReference03D6::
 
 SECTION "Game Scene NPC Script 0011 Reference 03D8 (Data)", ROMX[$7E5D], BANK[$61]
 GameSceneNPCScriptReference03D8::
-  db "！！！",$00
+  db "!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03D9 (Data)", ROMX[$7E61], BANK[$61]
 GameSceneNPCScriptReference03D9::
-  db "あっ！<BR>さっきにげていった<BR>まもの！！",$00
+  db "あっ!<BR>さっきにげていった<BR>まもの!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03DA (Data)", ROMX[$7E75], BANK[$61]
 GameSceneNPCScriptReference03DA::
-  db "ワキ〜〜〜！！",$00
+  db "ワキ〜〜〜!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03DB (Data)", ROMX[$7E7D], BANK[$61]
 GameSceneNPCScriptReference03DB::
-  db "エッ！？",$00
+  db "エッ!?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03DC (Data)", ROMX[$7E82], BANK[$61]
 GameSceneNPCScriptReference03DC::
-  db "あっ！　た　たいへん！！",$00
+  db "あっ!　た　たいへん!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03DD (Data)", ROMX[$7E8F], BANK[$61]
 GameSceneNPCScriptReference03DD::
-  db "な　なんですかーーー！！！",$00
+  db "な　なんですかーーー!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03DE (Data)", ROMX[$7E9D], BANK[$61]
 GameSceneNPCScriptReference03DE::
-  db "まものが　メインダクトに<BR>すいこまれた　から<BR>エンジンが　オーバーヒート<BR>しているんです！！",$00
+  db "まものが　メインダクトに<BR>すいこまれた　から<BR>エンジンが　オーバーヒート<BR>しているんです!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03DF (Data)", ROMX[$7ECC], BANK[$61]
 GameSceneNPCScriptReference03DF::
-  db "このままでは<BR>エンジンが　ばくはつして<BR>しまいます！",$00
+  db "このままでは<BR>エンジンが　ばくはつして<BR>しまいます!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03E0 (Data)", ROMX[$7EE7], BANK[$61]
 GameSceneNPCScriptReference03E0::
-  db "はやく　あのまものを<BR>なんとかしないと！！",$00
+  db "はやく　あのまものを<BR>なんとかしないと!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03E1 (Data)", ROMX[$7EFD], BANK[$61]
 GameSceneNPCScriptReference03E1::
@@ -776,39 +776,39 @@ GameSceneNPCScriptReference03E8::
 
 SECTION "Game Scene NPC Script 0011 Reference 03E9 (Data)", ROMX[$5C7F], BANK[$62]
 GameSceneNPCScriptReference03E9::
-  db "！！！",$00
+  db "!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03EA (Data)", ROMX[$5C83], BANK[$62]
 GameSceneNPCScriptReference03EA::
-  db "あっ！<BR>さっきにげていった<BR>まものだわ！！",$00
+  db "あっ!<BR>さっきにげていった<BR>まものだわ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03EB (Data)", ROMX[$5C99], BANK[$62]
 GameSceneNPCScriptReference03EB::
-  db "ワキ〜〜〜！！",$00
+  db "ワキ〜〜〜!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03EC (Data)", ROMX[$5CA1], BANK[$62]
 GameSceneNPCScriptReference03EC::
-  db "エッ！？",$00
+  db "エッ!?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03ED (Data)", ROMX[$5CA6], BANK[$62]
 GameSceneNPCScriptReference03ED::
-  db "なにっ！",$00
+  db "なにっ!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03EE (Data)", ROMX[$5CAB], BANK[$62]
 GameSceneNPCScriptReference03EE::
-  db "キャアァァァァァァァァ！！！<BR>どうしたんですかぁぁぁぁぁ！",$00
+  db "キャアァァァァァァァァ!!!<BR>どうしたんですかぁぁぁぁぁ!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03EF (Data)", ROMX[$5CC9], BANK[$62]
 GameSceneNPCScriptReference03EF::
-  db "まものが　メインダクトに<BR>すいこまれた　から<BR>エンジンが　オーバーヒート<BR>しているんだ！！",$00
+  db "まものが　メインダクトに<BR>すいこまれた　から<BR>エンジンが　オーバーヒート<BR>しているんだ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03F0 (Data)", ROMX[$5CF7], BANK[$62]
 GameSceneNPCScriptReference03F0::
-  db "このままでは　エンジンが<BR>ばくはつ　してしまう！",$00
+  db "このままでは　エンジンが<BR>ばくはつ　してしまう!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03F1 (Data)", ROMX[$5D10], BANK[$62]
 GameSceneNPCScriptReference03F1::
-  db "はやく　あの　まものを<BR>なんとかしないと！！",$00
+  db "はやく　あの　まものを<BR>なんとかしないと!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03F2 (Data)", ROMX[$5D27], BANK[$62]
 GameSceneNPCScriptReference03F2::
@@ -954,39 +954,39 @@ GameSceneNPCScriptReference03F6::
 
 SECTION "Game Scene NPC Script 0011 Reference 03F8 (Data)", ROMX[$6558], BANK[$61]
 GameSceneNPCScriptReference03F8::
-  db "！！！",$00
+  db "!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03F9 (Data)", ROMX[$655C], BANK[$61]
 GameSceneNPCScriptReference03F9::
-  db "あっ！<BR>さっきにげていった<BR>まもの！！",$00
+  db "あっ!<BR>さっきにげていった<BR>まもの!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03FA (Data)", ROMX[$6570], BANK[$61]
 GameSceneNPCScriptReference03FA::
-  db "ワキ〜〜〜！！",$00
+  db "ワキ〜〜〜!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03FB (Data)", ROMX[$6578], BANK[$61]
 GameSceneNPCScriptReference03FB::
-  db "エッ！？",$00
+  db "エッ!?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03FC (Data)", ROMX[$657D], BANK[$61]
 GameSceneNPCScriptReference03FC::
-  db "あっ！　た　たいへん！！",$00
+  db "あっ!　た　たいへん!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03FD (Data)", ROMX[$658A], BANK[$61]
 GameSceneNPCScriptReference03FD::
-  db "キャアァァァァァァァァ！！！<BR>どうしたんですかぁぁぁぁぁ！",$00
+  db "キャアァァァァァァァァ!!!<BR>どうしたんですかぁぁぁぁぁ!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03FE (Data)", ROMX[$65A8], BANK[$61]
 GameSceneNPCScriptReference03FE::
-  db "まものが　メインダクトに<BR>すいこまれた　から<BR>エンジンが　オーバーヒート<BR>しているんです！！",$00
+  db "まものが　メインダクトに<BR>すいこまれた　から<BR>エンジンが　オーバーヒート<BR>しているんです!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 03FF (Data)", ROMX[$65D7], BANK[$61]
 GameSceneNPCScriptReference03FF::
-  db "このままでは<BR>エンジンが　ばくはつして<BR>しまいます！",$00
+  db "このままでは<BR>エンジンが　ばくはつして<BR>しまいます!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0400 (Data)", ROMX[$65F2], BANK[$61]
 GameSceneNPCScriptReference0400::
-  db "はやく　あのまものを<BR>なんとかしないと！！",$00
+  db "はやく　あのまものを<BR>なんとかしないと!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0401 (Data)", ROMX[$6608], BANK[$61]
 GameSceneNPCScriptReference0401::
@@ -1134,23 +1134,23 @@ GameSceneNPCScriptReference0405::
 
 SECTION "Game Scene NPC Script 0011 Reference 0407 (Data)", ROMX[$738C], BANK[$62]
 GameSceneNPCScriptReference0407::
-  db "ミカサから　にげましょう！！",$00
+  db "ミカサから　にげましょう!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0408 (Data)", ROMX[$739B], BANK[$62]
 GameSceneNPCScriptReference0408::
-  db "なにを　おっしゃってますの<BR><NAME>さん！！<BR>そんなこと　ゆるしませんわ！",$00
+  db "なにを　おっしゃってますの<BR><NAME>さん!!<BR>そんなこと　ゆるしませんわ!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0409 (Data)", ROMX[$73BE], BANK[$62]
 GameSceneNPCScriptReference0409::
-  db "このミカサが　ばくはつしたら<BR>ていとが　ふきとんで<BR>しまいますのよ！",$00
+  db "このミカサが　ばくはつしたら<BR>ていとが　ふきとんで<BR>しまいますのよ!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 040A (Data)", ROMX[$73E1], BANK[$62]
 GameSceneNPCScriptReference040A::
-  db "バカなことは<BR>おっしゃらないで！",$00
+  db "バカなことは<BR>おっしゃらないで!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 040B (Data)", ROMX[$73F2], BANK[$62]
 GameSceneNPCScriptReference040B::
-  db "<NAME>さん！<BR>あのまものを　ダクトから<BR>ひきぬいて　ちょうだい！！",$00
+  db "<NAME>さん!<BR>あのまものを　ダクトから<BR>ひきぬいて　ちょうだい!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 040D (Data)", ROMX[$7412], BANK[$62]
 GameSceneNPCScriptReference040D::
@@ -1158,7 +1158,7 @@ GameSceneNPCScriptReference040D::
 
 SECTION "Game Scene NPC Script 0011 Reference 040E (Data)", ROMX[$742A], BANK[$62]
 GameSceneNPCScriptReference040E::
-  db "そうですわね！<BR><NAME>さん！<BR>いいかんがえですわ！！",$00
+  db "そうですわね!<BR><NAME>さん!<BR>いいかんがえですわ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 040F (Data)", ROMX[$7443], BANK[$62]
 GameSceneNPCScriptReference040F::
@@ -1178,7 +1178,7 @@ GameSceneNPCScriptReference0412::
 
 SECTION "Game Scene NPC Script 0011 Reference 0413 (Data)", ROMX[$74A2], BANK[$62]
 GameSceneNPCScriptReference0413::
-  db "そうですわ！<BR><NAME>さん！<BR>あのまものを　ダクトから<BR>ひきぬいてちょうだい！！",$00
+  db "そうですわ!<BR><NAME>さん!<BR>あのまものを　ダクトから<BR>ひきぬいてちょうだい!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0414 (Data)", ROMX[$74C8], BANK[$62]
 GameSceneNPCScriptReference0414::
@@ -1186,23 +1186,23 @@ GameSceneNPCScriptReference0414::
 
 SECTION "Game Scene NPC Script 0011 Reference 0415 (Data)", ROMX[$74D4], BANK[$62]
 GameSceneNPCScriptReference0415::
-  db "<NAME>さん！<BR>あのまものを　ダクトから<BR>ひきぬくんですのよ！！",$00
+  db "<NAME>さん!<BR>あのまものを　ダクトから<BR>ひきぬくんですのよ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0416 (Data)", ROMX[$74F2], BANK[$62]
 GameSceneNPCScriptReference0416::
-  db "ダ　ダメです！！<BR>すみれさん！！！",$00
+  db "ダ　ダメです!!<BR>すみれさん!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0417 (Data)", ROMX[$7504], BANK[$62]
 GameSceneNPCScriptReference0417::
-  db "は　はやくしないと<BR>オーバーヒートで　エンジンが<BR>ばくはつして　しまいますわ！",$00
+  db "は　はやくしないと<BR>オーバーヒートで　エンジンが<BR>ばくはつして　しまいますわ!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0418 (Data)", ROMX[$752C], BANK[$62]
 GameSceneNPCScriptReference0418::
-  db "すみれさん！<BR>ミカサのエンジンに<BR>いじょうが　みられます！<BR>どうかしたんですか！！",$00
+  db "すみれさん!<BR>ミカサのエンジンに<BR>いじょうが　みられます!<BR>どうかしたんですか!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0419 (Data)", ROMX[$7556], BANK[$62]
 GameSceneNPCScriptReference0419::
-  db "あら　ゆりさん！<BR>ちょっと　エンジンが　<BR>ぼうそうして<BR>いるだけですのよ！！！",$00
+  db "あら　ゆりさん!<BR>ちょっと　エンジンが　<BR>ぼうそうして<BR>いるだけですのよ!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 041A (Data)", ROMX[$757E], BANK[$62]
 GameSceneNPCScriptReference041A::
@@ -1210,11 +1210,11 @@ GameSceneNPCScriptReference041A::
 
 SECTION "Game Scene NPC Script 0011 Reference 041B (Data)", ROMX[$75B3], BANK[$62]
 GameSceneNPCScriptReference041B::
-  db "「おっほほほ」って<BR>すみれさん……<BR>たいへん　じゃないですか！",$00
+  db "「おっほほほ」って<BR>すみれさん……<BR>たいへん　じゃないですか!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 041C (Data)", ROMX[$75D3], BANK[$62]
 GameSceneNPCScriptReference041C::
-  db "だったら<BR>だい2せいぎょしつへ<BR>いってください。",$00
+  db "だったら<BR>だい２せいぎょしつへ<BR>いってください。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 041D (Data)", ROMX[$75EC], BANK[$62]
 GameSceneNPCScriptReference041D::
@@ -1226,19 +1226,19 @@ GameSceneNPCScriptReference041E::
 
 SECTION "Game Scene NPC Script 0011 Reference 041F (Data)", ROMX[$760F], BANK[$62]
 GameSceneNPCScriptReference041F::
-  db "だい2せいぎょしつは<BR>このフロアの　おくですわ。<BR><NAME>さん！<BR>いそぎますわよ！！",$00
+  db "だい２せいぎょしつは<BR>このフロアの　おくですわ。<BR><NAME>さん!<BR>いそぎますわよ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0420 (Data)", ROMX[$7F16], BANK[$61]
 GameSceneNPCScriptReference0420::
-  db "やっつけましょう！",$00
+  db "やっつけましょう!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0421 (Data)", ROMX[$7F20], BANK[$61]
 GameSceneNPCScriptReference0421::
-  db "それは　ダメです！<BR>ショックで　エンジンが<BR>ばくはつするかも<BR>しれませんから！！",$00
+  db "それは　ダメです!<BR>ショックで　エンジンが<BR>ばくはつするかも<BR>しれませんから!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0422 (Data)", ROMX[$7F49], BANK[$61]
 GameSceneNPCScriptReference0422::
-  db "そうだわ！　<NAME>さん！<BR>まものを　ダクトから<BR>ひきぬいてください！！",$00
+  db "そうだわ!　<NAME>さん!<BR>まものを　ダクトから<BR>ひきぬいてください!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0424 (Data)", ROMX[$7F6B], BANK[$61]
 GameSceneNPCScriptReference0424::
@@ -1246,7 +1246,7 @@ GameSceneNPCScriptReference0424::
 
 SECTION "Game Scene NPC Script 0011 Reference 0425 (Data)", ROMX[$7F83], BANK[$61]
 GameSceneNPCScriptReference0425::
-  db "そうですね！<BR><NAME>さん！<BR>いいかんがえですよ！！",$00
+  db "そうですね!<BR><NAME>さん!<BR>いいかんがえですよ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0426 (Data)", ROMX[$7F9B], BANK[$61]
 GameSceneNPCScriptReference0426::
@@ -1254,11 +1254,11 @@ GameSceneNPCScriptReference0426::
 
 SECTION "Game Scene NPC Script 0011 Reference 0427 (Data)", ROMX[$7FA8], BANK[$61]
 GameSceneNPCScriptReference0427::
-  db "そうですね！<BR><NAME>さん！<BR>いいかんがえですよ！！",$00
+  db "そうですね!<BR><NAME>さん!<BR>いいかんがえですよ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0428 (Data)", ROMX[$7FC0], BANK[$61]
 GameSceneNPCScriptReference0428::
-  db "じゃあ　さっそく<BR>エンジンせいぎょパネルへ<BR>いきましょう！",$00
+  db "じゃあ　さっそく<BR>エンジンせいぎょパネルへ<BR>いきましょう!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0429 (Data)", ROMX[$4000], BANK[$62]
 GameSceneNPCScriptReference0429::
@@ -1266,7 +1266,7 @@ GameSceneNPCScriptReference0429::
 
 SECTION "Game Scene NPC Script 0011 Reference 042A (Data)", ROMX[$4035], BANK[$62]
 GameSceneNPCScriptReference042A::
-  db "あっ！<BR>そうでしたね。",$00
+  db "あっ!<BR>そうでしたね。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 042B (Data)", ROMX[$4041], BANK[$62]
 GameSceneNPCScriptReference042B::
@@ -1274,7 +1274,7 @@ GameSceneNPCScriptReference042B::
 
 SECTION "Game Scene NPC Script 0011 Reference 042C (Data)", ROMX[$405F], BANK[$62]
 GameSceneNPCScriptReference042C::
-  db "そうだわ！　<NAME>さん！<BR>まものを　ダクトから<BR>ひきぬいてください！！",$00
+  db "そうだわ!　<NAME>さん!<BR>まものを　ダクトから<BR>ひきぬいてください!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 042D (Data)", ROMX[$4081], BANK[$62]
 GameSceneNPCScriptReference042D::
@@ -1282,11 +1282,11 @@ GameSceneNPCScriptReference042D::
 
 SECTION "Game Scene NPC Script 0011 Reference 042E (Data)", ROMX[$408D], BANK[$62]
 GameSceneNPCScriptReference042E::
-  db "<NAME>さん！<BR>まものを　ダクトから<BR>ひきぬいてください！！",$00
+  db "<NAME>さん!<BR>まものを　ダクトから<BR>ひきぬいてください!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 042F (Data)", ROMX[$40A9], BANK[$62]
 GameSceneNPCScriptReference042F::
-  db "ダ　ダメです！！<BR>さくらさん！！！",$00
+  db "ダ　ダメです!!<BR>さくらさん!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0430 (Data)", ROMX[$40BB], BANK[$62]
 GameSceneNPCScriptReference0430::
@@ -1294,51 +1294,51 @@ GameSceneNPCScriptReference0430::
 
 SECTION "Game Scene NPC Script 0011 Reference 0431 (Data)", ROMX[$40DF], BANK[$62]
 GameSceneNPCScriptReference0431::
-  db "さくらさん！<BR>ミカサのエンジンに<BR>いじょうが　みられます！<BR>どうかしたんですか！！",$00
+  db "さくらさん!<BR>ミカサのエンジンに<BR>いじょうが　みられます!<BR>どうかしたんですか!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0432 (Data)", ROMX[$4109], BANK[$62]
 GameSceneNPCScriptReference0432::
-  db "ゆりさん！<BR>たいへんなんです！！<BR>エンジンが　ぼうそうして<BR>しまったんです！！！",$00
+  db "ゆりさん!<BR>たいへんなんです!!<BR>エンジンが　ぼうそうして<BR>しまったんです!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0433 (Data)", ROMX[$4132], BANK[$62]
 GameSceneNPCScriptReference0433::
-  db "エンジンせいぎょレバーを<BR>こわして　しまって<BR>とめることが<BR>できないんです！",$00
+  db "エンジンせいぎょレバーを<BR>こわして　しまって<BR>とめることが<BR>できないんです!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0434 (Data)", ROMX[$4159], BANK[$62]
 GameSceneNPCScriptReference0434::
-  db "エンジンをとめる<BR>ほうほうは<BR>ありませんか！！",$00
+  db "エンジンをとめる<BR>ほうほうは<BR>ありませんか!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0435 (Data)", ROMX[$4171], BANK[$62]
 GameSceneNPCScriptReference0435::
-  db "だったら<BR>だい2せいぎょしつへ<BR>いってください。",$00
+  db "だったら<BR>だい２せいぎょしつへ<BR>いってください。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0436 (Data)", ROMX[$418A], BANK[$62]
 GameSceneNPCScriptReference0436::
-  db "そこでエンジンを<BR>とめられる　はずです！",$00
+  db "そこでエンジンを<BR>とめられる　はずです!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0437 (Data)", ROMX[$419F], BANK[$62]
 GameSceneNPCScriptReference0437::
-  db "だい2せいぎょしつは<BR>このフロアの　おくです！<BR>いそぎましょう！<BR><NAME>さん！！",$00
+  db "だい２せいぎょしつは<BR>このフロアの　おくです!<BR>いそぎましょう!<BR><NAME>さん!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0438 (Data)", ROMX[$4A11], BANK[$61]
 GameSceneNPCScriptReference0438::
-  db "！！！",$00
+  db "!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0439 (Data)", ROMX[$4A15], BANK[$61]
 GameSceneNPCScriptReference0439::
-  db "あっ！<BR>さっきにげていった<BR>まものだ！！",$00
+  db "あっ!<BR>さっきにげていった<BR>まものだ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 043A (Data)", ROMX[$4A2A], BANK[$61]
 GameSceneNPCScriptReference043A::
-  db "ワキ〜〜〜！！",$00
+  db "ワキ〜〜〜!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 043B (Data)", ROMX[$4A32], BANK[$61]
 GameSceneNPCScriptReference043B::
-  db "エッ！？",$00
+  db "エッ!?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 043C (Data)", ROMX[$4A37], BANK[$61]
 GameSceneNPCScriptReference043C::
-  db "な　なに？",$00
+  db "な　なに?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 043D (Data)", ROMX[$4A3D], BANK[$61]
 GameSceneNPCScriptReference043D::
@@ -1346,7 +1346,7 @@ GameSceneNPCScriptReference043D::
 
 SECTION "Game Scene NPC Script 0011 Reference 043E (Data)", ROMX[$4A59], BANK[$61]
 GameSceneNPCScriptReference043E::
-  db "まものが　メインダクトに<BR>すいこまれちゃったから<BR>エンジンが　ぼうそうを<BR>はじめたんだよ　きっと！",$00
+  db "まものが　メインダクトに<BR>すいこまれちゃったから<BR>エンジンが　ぼうそうを<BR>はじめたんだよ　きっと!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 043F (Data)", ROMX[$4A8B], BANK[$61]
 GameSceneNPCScriptReference043F::
@@ -1354,7 +1354,7 @@ GameSceneNPCScriptReference043F::
 
 SECTION "Game Scene NPC Script 0011 Reference 0440 (Data)", ROMX[$4AA5], BANK[$61]
 GameSceneNPCScriptReference0440::
-  db "どうしよう？<BR><NAME>！",$00
+  db "どうしよう?<BR><NAME>!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0441 (Data)", ROMX[$4AAF], BANK[$61]
 GameSceneNPCScriptReference0441::
@@ -1573,23 +1573,23 @@ GameSceneNPCScriptReference0445::
 
 SECTION "Game Scene NPC Script 0011 Reference 0447 (Data)", ROMX[$6F6B], BANK[$60]
 GameSceneNPCScriptReference0447::
-  db "！！！",$00
+  db "!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0448 (Data)", ROMX[$6F6F], BANK[$60]
 GameSceneNPCScriptReference0448::
-  db "あっ！<BR>さっきにげていった<BR>まものだ！！",$00
+  db "あっ!<BR>さっきにげていった<BR>まものだ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0449 (Data)", ROMX[$6F84], BANK[$60]
 GameSceneNPCScriptReference0449::
-  db "ワキ〜〜〜！！",$00
+  db "ワキ〜〜〜!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 044A (Data)", ROMX[$6F8C], BANK[$60]
 GameSceneNPCScriptReference044A::
-  db "エッ！？",$00
+  db "エッ!?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 044B (Data)", ROMX[$6F91], BANK[$60]
 GameSceneNPCScriptReference044B::
-  db "な　なに？",$00
+  db "な　なに?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 044C (Data)", ROMX[$6F97], BANK[$60]
 GameSceneNPCScriptReference044C::
@@ -1597,7 +1597,7 @@ GameSceneNPCScriptReference044C::
 
 SECTION "Game Scene NPC Script 0011 Reference 044D (Data)", ROMX[$6FB2], BANK[$60]
 GameSceneNPCScriptReference044D::
-  db "まものが　メインダクトに<BR>すいこまれちゃったから<BR>エンジンが　ぼうそうを<BR>はじめたんだよ　きっと！",$00
+  db "まものが　メインダクトに<BR>すいこまれちゃったから<BR>エンジンが　ぼうそうを<BR>はじめたんだよ　きっと!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 044E (Data)", ROMX[$6FE4], BANK[$60]
 GameSceneNPCScriptReference044E::
@@ -1605,7 +1605,7 @@ GameSceneNPCScriptReference044E::
 
 SECTION "Game Scene NPC Script 0011 Reference 044F (Data)", ROMX[$6FFE], BANK[$60]
 GameSceneNPCScriptReference044F::
-  db "どうしよう？<BR><NAME>！",$00
+  db "どうしよう?<BR><NAME>!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0450 (Data)", ROMX[$7008], BANK[$60]
 GameSceneNPCScriptReference0450::
@@ -1835,7 +1835,7 @@ GameSceneNPCScriptReference0454::
 
 SECTION "Game Scene NPC Script 0011 Reference 0456 (Data)", ROMX[$5D40], BANK[$62]
 GameSceneNPCScriptReference0456::
-  db "やっつけましょう！",$00
+  db "やっつけましょう!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0457 (Data)", ROMX[$5D4A], BANK[$62]
 GameSceneNPCScriptReference0457::
@@ -1847,7 +1847,7 @@ GameSceneNPCScriptReference0458::
 
 SECTION "Game Scene NPC Script 0011 Reference 0459 (Data)", ROMX[$5D96], BANK[$62]
 GameSceneNPCScriptReference0459::
-  db "よし！<BR>あいつを　ダクトから<BR>ひきぬくんだ！！",$00
+  db "よし!<BR>あいつを　ダクトから<BR>ひきぬくんだ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 045B (Data)", ROMX[$5DAE], BANK[$62]
 GameSceneNPCScriptReference045B::
@@ -1875,7 +1875,7 @@ GameSceneNPCScriptReference0460::
 
 SECTION "Game Scene NPC Script 0011 Reference 0461 (Data)", ROMX[$5E2C], BANK[$62]
 GameSceneNPCScriptReference0461::
-  db "そうだ！<BR>あいつを　ダクトから<BR>ひきぬくんだ！！",$00
+  db "そうだ!<BR>あいつを　ダクトから<BR>ひきぬくんだ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0462 (Data)", ROMX[$5E45], BANK[$62]
 GameSceneNPCScriptReference0462::
@@ -1883,31 +1883,31 @@ GameSceneNPCScriptReference0462::
 
 SECTION "Game Scene NPC Script 0011 Reference 0463 (Data)", ROMX[$5E51], BANK[$62]
 GameSceneNPCScriptReference0463::
-  db "そうだ！<BR>あいつを　ダクトから<BR>ひきぬくんだ！！",$00
+  db "そうだ!<BR>あいつを　ダクトから<BR>ひきぬくんだ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0464 (Data)", ROMX[$5E6A], BANK[$62]
 GameSceneNPCScriptReference0464::
-  db "ダ　ダメです！！<BR>レニさん！！！",$00
+  db "ダ　ダメです!!<BR>レニさん!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0465 (Data)", ROMX[$5E7B], BANK[$62]
 GameSceneNPCScriptReference0465::
-  db "くっ！　はやくしないと<BR>オーバーヒートで<BR>エンジンが　ばくはつ<BR>してしまう！！",$00
+  db "くっ!　はやくしないと<BR>オーバーヒートで<BR>エンジンが　ばくはつ<BR>してしまう!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0466 (Data)", ROMX[$5EA3], BANK[$62]
 GameSceneNPCScriptReference0466::
-  db "レニ！<BR>ミカサのエンジンに<BR>いじょうが　みられるけど<BR>どうかしたの？",$00
+  db "レニ!<BR>ミカサのエンジンに<BR>いじょうが　みられるけど<BR>どうかしたの?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0467 (Data)", ROMX[$5EC6], BANK[$62]
 GameSceneNPCScriptReference0467::
-  db "かえでさん！<BR>ミカサのエンジンが<BR>ぼうそうしたんだ！！",$00
+  db "かえでさん!<BR>ミカサのエンジンが<BR>ぼうそうしたんだ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0468 (Data)", ROMX[$5EE2], BANK[$62]
 GameSceneNPCScriptReference0468::
-  db "エンジンせいぎょレバーを<BR>こわして　しまって<BR>とめることが　できない！！",$00
+  db "エンジンせいぎょレバーを<BR>こわして　しまって<BR>とめることが　できない!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0469 (Data)", ROMX[$5F07], BANK[$62]
 GameSceneNPCScriptReference0469::
-  db "だったら<BR>だい2せいぎょしつへ<BR>いきなさい。",$00
+  db "だったら<BR>だい２せいぎょしつへ<BR>いきなさい。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 046A (Data)", ROMX[$5F1E], BANK[$62]
 GameSceneNPCScriptReference046A::
@@ -1915,23 +1915,23 @@ GameSceneNPCScriptReference046A::
 
 SECTION "Game Scene NPC Script 0011 Reference 046B (Data)", ROMX[$5F32], BANK[$62]
 GameSceneNPCScriptReference046B::
-  db "りょうかい！！",$00
+  db "りょうかい!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 046C (Data)", ROMX[$5F3A], BANK[$62]
 GameSceneNPCScriptReference046C::
-  db "だい2せいぎょしつは<BR>このフロアの　おくだ！<BR>いそぐよ　<NAME>。",$00
+  db "だい２せいぎょしつは<BR>このフロアの　おくだ!<BR>いそぐよ　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 046D (Data)", ROMX[$6621], BANK[$61]
 GameSceneNPCScriptReference046D::
-  db "やっつけましょう！",$00
+  db "やっつけましょう!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 046E (Data)", ROMX[$662B], BANK[$61]
 GameSceneNPCScriptReference046E::
-  db "それは　ダメです！<BR>たおしたショックで<BR>エンジンが　ばくはつする<BR>かもしれませんから！！",$00
+  db "それは　ダメです!<BR>たおしたショックで<BR>エンジンが　ばくはつする<BR>かもしれませんから!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 046F (Data)", ROMX[$6658], BANK[$61]
 GameSceneNPCScriptReference046F::
-  db "そうだわ！　<NAME>さん！<BR>まものを　ダクトから<BR>ひきぬきましょう！！",$00
+  db "そうだわ!　<NAME>さん!<BR>まものを　ダクトから<BR>ひきぬきましょう!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0471 (Data)", ROMX[$6679], BANK[$61]
 GameSceneNPCScriptReference0471::
@@ -1939,7 +1939,7 @@ GameSceneNPCScriptReference0471::
 
 SECTION "Game Scene NPC Script 0011 Reference 0472 (Data)", ROMX[$6691], BANK[$61]
 GameSceneNPCScriptReference0472::
-  db "そうね！<BR><NAME>さん！<BR>いいかんがえだわ！！",$00
+  db "そうね!<BR><NAME>さん!<BR>いいかんがえだわ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0473 (Data)", ROMX[$66A6], BANK[$61]
 GameSceneNPCScriptReference0473::
@@ -1947,11 +1947,11 @@ GameSceneNPCScriptReference0473::
 
 SECTION "Game Scene NPC Script 0011 Reference 0474 (Data)", ROMX[$66B3], BANK[$61]
 GameSceneNPCScriptReference0474::
-  db "そうね！<BR><NAME>さん！<BR>いいかんがえだわ！！",$00
+  db "そうね!<BR><NAME>さん!<BR>いいかんがえだわ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0475 (Data)", ROMX[$66C8], BANK[$61]
 GameSceneNPCScriptReference0475::
-  db "じゃあ　さっそく<BR>エンジンせいぎょパネルへ<BR>いきましょう！",$00
+  db "じゃあ　さっそく<BR>エンジンせいぎょパネルへ<BR>いきましょう!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0476 (Data)", ROMX[$66E6], BANK[$61]
 GameSceneNPCScriptReference0476::
@@ -1959,7 +1959,7 @@ GameSceneNPCScriptReference0476::
 
 SECTION "Game Scene NPC Script 0011 Reference 0477 (Data)", ROMX[$671F], BANK[$61]
 GameSceneNPCScriptReference0477::
-  db "あっ！<BR>そうだったわね……",$00
+  db "あっ!<BR>そうだったわね……",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0478 (Data)", ROMX[$672D], BANK[$61]
 GameSceneNPCScriptReference0478::
@@ -1967,7 +1967,7 @@ GameSceneNPCScriptReference0478::
 
 SECTION "Game Scene NPC Script 0011 Reference 0479 (Data)", ROMX[$674B], BANK[$61]
 GameSceneNPCScriptReference0479::
-  db "そうだわ！　<NAME>さん！<BR>まものを　ダクトから<BR>ひきぬきましょう！！",$00
+  db "そうだわ!　<NAME>さん!<BR>まものを　ダクトから<BR>ひきぬきましょう!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 047A (Data)", ROMX[$676C], BANK[$61]
 GameSceneNPCScriptReference047A::
@@ -1975,11 +1975,11 @@ GameSceneNPCScriptReference047A::
 
 SECTION "Game Scene NPC Script 0011 Reference 047B (Data)", ROMX[$6778], BANK[$61]
 GameSceneNPCScriptReference047B::
-  db "<NAME>さん！<BR>まものを　ダクトから<BR>ひきぬきましょう！！",$00
+  db "<NAME>さん!<BR>まものを　ダクトから<BR>ひきぬきましょう!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 047C (Data)", ROMX[$6793], BANK[$61]
 GameSceneNPCScriptReference047C::
-  db "ダ　ダメです！！<BR>さくらさん！！！",$00
+  db "ダ　ダメです!!<BR>さくらさん!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 047D (Data)", ROMX[$67A5], BANK[$61]
 GameSceneNPCScriptReference047D::
@@ -1987,43 +1987,43 @@ GameSceneNPCScriptReference047D::
 
 SECTION "Game Scene NPC Script 0011 Reference 047E (Data)", ROMX[$67C9], BANK[$61]
 GameSceneNPCScriptReference047E::
-  db "さくらさん！<BR>ミカサのエンジンに<BR>いじょうが　みられます！<BR>どうかしたんですか！！",$00
+  db "さくらさん!<BR>ミカサのエンジンに<BR>いじょうが　みられます!<BR>どうかしたんですか!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 047F (Data)", ROMX[$67F3], BANK[$61]
 GameSceneNPCScriptReference047F::
-  db "ゆりさん！<BR>たいへんなんです！！<BR>エンジンが　ぼうそうして<BR>しまったんです！！！",$00
+  db "ゆりさん!<BR>たいへんなんです!!<BR>エンジンが　ぼうそうして<BR>しまったんです!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0480 (Data)", ROMX[$681C], BANK[$61]
 GameSceneNPCScriptReference0480::
-  db "エンジンせいぎょレバーを<BR>こわして　しまって<BR>とめることが<BR>できないんです！",$00
+  db "エンジンせいぎょレバーを<BR>こわして　しまって<BR>とめることが<BR>できないんです!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0481 (Data)", ROMX[$6843], BANK[$61]
 GameSceneNPCScriptReference0481::
-  db "エンジンをとめる<BR>ほうほうは<BR>ありませんか！！",$00
+  db "エンジンをとめる<BR>ほうほうは<BR>ありませんか!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0482 (Data)", ROMX[$685B], BANK[$61]
 GameSceneNPCScriptReference0482::
-  db "だったら<BR>だい2せいぎょしつへ<BR>いってください。",$00
+  db "だったら<BR>だい２せいぎょしつへ<BR>いってください。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0483 (Data)", ROMX[$6874], BANK[$61]
 GameSceneNPCScriptReference0483::
-  db "そこでエンジンを<BR>とめられる　はずです！",$00
+  db "そこでエンジンを<BR>とめられる　はずです!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0484 (Data)", ROMX[$6889], BANK[$61]
 GameSceneNPCScriptReference0484::
-  db "だい2せいぎょしつは<BR>このフロアの　おくです！<BR>いそぎましょう！<BR><NAME>さん！！",$00
+  db "だい２せいぎょしつは<BR>このフロアの　おくです!<BR>いそぎましょう!<BR><NAME>さん!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0485 (Data)", ROMX[$4AC8], BANK[$61]
 GameSceneNPCScriptReference0485::
-  db "やっつけよう！",$00
+  db "やっつけよう!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0486 (Data)", ROMX[$4AD0], BANK[$61]
 GameSceneNPCScriptReference0486::
-  db "そうだね。<BR>やっつけちゃおう！！",$00
+  db "そうだね。<BR>やっつけちゃおう!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0487 (Data)", ROMX[$4AE1], BANK[$61]
 GameSceneNPCScriptReference0487::
-  db "アイリス。<BR>ミカサのエンジンに<BR>いじょうが　みられるけど<BR>どうかしたの？",$00
+  db "アイリス。<BR>ミカサのエンジンに<BR>いじょうが　みられるけど<BR>どうかしたの?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0488 (Data)", ROMX[$4B06], BANK[$61]
 GameSceneNPCScriptReference0488::
@@ -2039,7 +2039,7 @@ GameSceneNPCScriptReference048A::
 
 SECTION "Game Scene NPC Script 0011 Reference 048B (Data)", ROMX[$4B71], BANK[$61]
 GameSceneNPCScriptReference048B::
-  db "ちょ　ちょっとまちなさい！<BR><NAME>くん　アイリス！！",$00
+  db "ちょ　ちょっとまちなさい!<BR><NAME>くん　アイリス!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 048C (Data)", ROMX[$4B8A], BANK[$61]
 GameSceneNPCScriptReference048C::
@@ -2047,7 +2047,7 @@ GameSceneNPCScriptReference048C::
 
 SECTION "Game Scene NPC Script 0011 Reference 048D (Data)", ROMX[$4BB7], BANK[$61]
 GameSceneNPCScriptReference048D::
-  db "…………そのまもの……<BR>メインダクトから<BR>ひきぬけないかしら？",$00
+  db "…………そのまもの……<BR>メインダクトから<BR>ひきぬけないかしら?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 048E (Data)", ROMX[$4BD7], BANK[$61]
 GameSceneNPCScriptReference048E::
@@ -2055,7 +2055,7 @@ GameSceneNPCScriptReference048E::
 
 SECTION "Game Scene NPC Script 0011 Reference 048F (Data)", ROMX[$4BE7], BANK[$61]
 GameSceneNPCScriptReference048F::
-  db "ダ　ダメです！！<BR>かえでさん！！！",$00
+  db "ダ　ダメです!!<BR>かえでさん!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0490 (Data)", ROMX[$4BF9], BANK[$61]
 GameSceneNPCScriptReference0490::
@@ -2067,7 +2067,7 @@ GameSceneNPCScriptReference0491::
 
 SECTION "Game Scene NPC Script 0011 Reference 0492 (Data)", ROMX[$4C36], BANK[$61]
 GameSceneNPCScriptReference0492::
-  db "だったら<BR>だい2せいぎょしつへ<BR>いきなさい。",$00
+  db "だったら<BR>だい２せいぎょしつへ<BR>いきなさい。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0493 (Data)", ROMX[$4C4D], BANK[$61]
 GameSceneNPCScriptReference0493::
@@ -2075,7 +2075,7 @@ GameSceneNPCScriptReference0493::
 
 SECTION "Game Scene NPC Script 0011 Reference 0494 (Data)", ROMX[$4C61], BANK[$61]
 GameSceneNPCScriptReference0494::
-  db "だい2せいぎょしつは<BR>このフロアの　おくだよ。<BR>レッツゴー　<NAME>。",$00
+  db "だい２せいぎょしつは<BR>このフロアの　おくだよ。<BR>レッツゴー　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0495 (Data)", ROMX[$4C82], BANK[$61]
 GameSceneNPCScriptReference0495::
@@ -2083,7 +2083,7 @@ GameSceneNPCScriptReference0495::
 
 SECTION "Game Scene NPC Script 0011 Reference 0496 (Data)", ROMX[$4C9E], BANK[$61]
 GameSceneNPCScriptReference0496::
-  db "うん！　そうだね。<BR>それがいいよ　<NAME>。",$00
+  db "うん!　そうだね。<BR>それがいいよ　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 0498 (Data)", ROMX[$4CB2], BANK[$61]
 GameSceneNPCScriptReference0498::
@@ -2095,7 +2095,7 @@ GameSceneNPCScriptReference0499::
 
 SECTION "Game Scene NPC Script 0011 Reference 049A (Data)", ROMX[$4CDC], BANK[$61]
 GameSceneNPCScriptReference049A::
-  db "それよりも　まものを<BR>あそこから　ひきぬいたら<BR>いいんじゃない？",$00
+  db "それよりも　まものを<BR>あそこから　ひきぬいたら<BR>いいんじゃない?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 049B (Data)", ROMX[$4CFD], BANK[$61]
 GameSceneNPCScriptReference049B::
@@ -2119,7 +2119,7 @@ GameSceneNPCScriptReference049F::
 
 SECTION "Game Scene NPC Script 0011 Reference 04A0 (Data)", ROMX[$4D74], BANK[$61]
 GameSceneNPCScriptReference04A0::
-  db "アイリス！<BR>ミカサのエンジンに<BR>いじょうが　みられるけど<BR>どうかしたの？",$00
+  db "アイリス!<BR>ミカサのエンジンに<BR>いじょうが　みられるけど<BR>どうかしたの?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04A1 (Data)", ROMX[$4D99], BANK[$61]
 GameSceneNPCScriptReference04A1::
@@ -2131,7 +2131,7 @@ GameSceneNPCScriptReference04A2::
 
 SECTION "Game Scene NPC Script 0011 Reference 04A3 (Data)", ROMX[$4DE5], BANK[$61]
 GameSceneNPCScriptReference04A3::
-  db "まものを<BR>ひっぱってみたんだけど<BR>ぬけなくて……<BR>どうしたらいい？",$00
+  db "まものを<BR>ひっぱってみたんだけど<BR>ぬけなくて……<BR>どうしたらいい?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04A4 (Data)", ROMX[$4E07], BANK[$61]
 GameSceneNPCScriptReference04A4::
@@ -2143,11 +2143,11 @@ GameSceneNPCScriptReference04A5::
 
 SECTION "Game Scene NPC Script 0011 Reference 04A6 (Data)", ROMX[$4E44], BANK[$61]
 GameSceneNPCScriptReference04A6::
-  db "エエッ！<BR>それは　たいへんだわ！！",$00
+  db "エエッ!<BR>それは　たいへんだわ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04A7 (Data)", ROMX[$4E56], BANK[$61]
 GameSceneNPCScriptReference04A7::
-  db "アイリス　<NAME>くん！<BR>だい2せいぎょしつへ<BR>いきなさい。",$00
+  db "アイリス　<NAME>くん!<BR>だい２せいぎょしつへ<BR>いきなさい。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04A8 (Data)", ROMX[$4E72], BANK[$61]
 GameSceneNPCScriptReference04A8::
@@ -2155,19 +2155,19 @@ GameSceneNPCScriptReference04A8::
 
 SECTION "Game Scene NPC Script 0011 Reference 04A9 (Data)", ROMX[$4E86], BANK[$61]
 GameSceneNPCScriptReference04A9::
-  db "だい2せいぎょしつは<BR>このフロアの　おくだよ。<BR>レッツゴー　<NAME>。",$00
+  db "だい２せいぎょしつは<BR>このフロアの　おくだよ。<BR>レッツゴー　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04AA (Data)", ROMX[$7021], BANK[$60]
 GameSceneNPCScriptReference04AA::
-  db "やっつけましょう！",$00
+  db "やっつけましょう!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04AB (Data)", ROMX[$702B], BANK[$60]
 GameSceneNPCScriptReference04AB::
-  db "そうだね。<BR>やっつけちゃおう！！",$00
+  db "そうだね。<BR>やっつけちゃおう!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04AC (Data)", ROMX[$703C], BANK[$60]
 GameSceneNPCScriptReference04AC::
-  db "アイリス。<BR>ミカサのエンジンに<BR>いじょうが　みられるけど<BR>どうかしたの？",$00
+  db "アイリス。<BR>ミカサのエンジンに<BR>いじょうが　みられるけど<BR>どうかしたの?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04AD (Data)", ROMX[$7061], BANK[$60]
 GameSceneNPCScriptReference04AD::
@@ -2183,7 +2183,7 @@ GameSceneNPCScriptReference04AF::
 
 SECTION "Game Scene NPC Script 0011 Reference 04B0 (Data)", ROMX[$70CC], BANK[$60]
 GameSceneNPCScriptReference04B0::
-  db "ちょ　ちょっとまちなさい！<BR><NAME>　アイリス！！",$00
+  db "ちょ　ちょっとまちなさい!<BR><NAME>　アイリス!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04B1 (Data)", ROMX[$70E3], BANK[$60]
 GameSceneNPCScriptReference04B1::
@@ -2191,7 +2191,7 @@ GameSceneNPCScriptReference04B1::
 
 SECTION "Game Scene NPC Script 0011 Reference 04B2 (Data)", ROMX[$7110], BANK[$60]
 GameSceneNPCScriptReference04B2::
-  db "…………そのまもの……<BR>メインダクトから<BR>ひきぬけないかしら？",$00
+  db "…………そのまもの……<BR>メインダクトから<BR>ひきぬけないかしら?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04B3 (Data)", ROMX[$7130], BANK[$60]
 GameSceneNPCScriptReference04B3::
@@ -2199,7 +2199,7 @@ GameSceneNPCScriptReference04B3::
 
 SECTION "Game Scene NPC Script 0011 Reference 04B4 (Data)", ROMX[$7140], BANK[$60]
 GameSceneNPCScriptReference04B4::
-  db "ダ　ダメです！！<BR>かえでさん！！！",$00
+  db "ダ　ダメです!!<BR>かえでさん!!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04B5 (Data)", ROMX[$7152], BANK[$60]
 GameSceneNPCScriptReference04B5::
@@ -2211,7 +2211,7 @@ GameSceneNPCScriptReference04B6::
 
 SECTION "Game Scene NPC Script 0011 Reference 04B7 (Data)", ROMX[$718F], BANK[$60]
 GameSceneNPCScriptReference04B7::
-  db "だったら<BR>だい2せいぎょしつへ<BR>いきなさい。",$00
+  db "だったら<BR>だい２せいぎょしつへ<BR>いきなさい。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04B8 (Data)", ROMX[$71A6], BANK[$60]
 GameSceneNPCScriptReference04B8::
@@ -2219,7 +2219,7 @@ GameSceneNPCScriptReference04B8::
 
 SECTION "Game Scene NPC Script 0011 Reference 04B9 (Data)", ROMX[$71BA], BANK[$60]
 GameSceneNPCScriptReference04B9::
-  db "だい2せいぎょしつは<BR>このフロアの　おくだよ。<BR>レッツゴー　<NAME>。",$00
+  db "だい２せいぎょしつは<BR>このフロアの　おくだよ。<BR>レッツゴー　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04BA (Data)", ROMX[$71DB], BANK[$60]
 GameSceneNPCScriptReference04BA::
@@ -2227,7 +2227,7 @@ GameSceneNPCScriptReference04BA::
 
 SECTION "Game Scene NPC Script 0011 Reference 04BB (Data)", ROMX[$71FB], BANK[$60]
 GameSceneNPCScriptReference04BB::
-  db "うん！　そうだね。<BR>それがいいよ　<NAME>。",$00
+  db "うん!　そうだね。<BR>それがいいよ　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04BD (Data)", ROMX[$720F], BANK[$60]
 GameSceneNPCScriptReference04BD::
@@ -2235,7 +2235,7 @@ GameSceneNPCScriptReference04BD::
 
 SECTION "Game Scene NPC Script 0011 Reference 04BE (Data)", ROMX[$721C], BANK[$60]
 GameSceneNPCScriptReference04BE::
-  db "うん！　そうだね！！",$00
+  db "うん!　そうだね!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04BF (Data)", ROMX[$7227], BANK[$60]
 GameSceneNPCScriptReference04BF::
@@ -2243,7 +2243,7 @@ GameSceneNPCScriptReference04BF::
 
 SECTION "Game Scene NPC Script 0011 Reference 04C0 (Data)", ROMX[$724B], BANK[$60]
 GameSceneNPCScriptReference04C0::
-  db "それよりも　まものを<BR>あそこから　ひきぬいたら<BR>いいんじゃない？",$00
+  db "それよりも　まものを<BR>あそこから　ひきぬいたら<BR>いいんじゃない?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04C1 (Data)", ROMX[$726C], BANK[$60]
 GameSceneNPCScriptReference04C1::
@@ -2267,7 +2267,7 @@ GameSceneNPCScriptReference04C5::
 
 SECTION "Game Scene NPC Script 0011 Reference 04C6 (Data)", ROMX[$72E1], BANK[$60]
 GameSceneNPCScriptReference04C6::
-  db "アイリス！<BR>ミカサのエンジンに<BR>いじょうが　みられるけど<BR>どうかしたの？",$00
+  db "アイリス!<BR>ミカサのエンジンに<BR>いじょうが　みられるけど<BR>どうかしたの?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04C7 (Data)", ROMX[$7306], BANK[$60]
 GameSceneNPCScriptReference04C7::
@@ -2279,7 +2279,7 @@ GameSceneNPCScriptReference04C8::
 
 SECTION "Game Scene NPC Script 0011 Reference 04C9 (Data)", ROMX[$7352], BANK[$60]
 GameSceneNPCScriptReference04C9::
-  db "まものを<BR>ひっぱってみたんだけど<BR>ぬけなくて……<BR>どうしたらいい？",$00
+  db "まものを<BR>ひっぱってみたんだけど<BR>ぬけなくて……<BR>どうしたらいい?",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04CA (Data)", ROMX[$7374], BANK[$60]
 GameSceneNPCScriptReference04CA::
@@ -2291,11 +2291,11 @@ GameSceneNPCScriptReference04CB::
 
 SECTION "Game Scene NPC Script 0011 Reference 04CC (Data)", ROMX[$73B1], BANK[$60]
 GameSceneNPCScriptReference04CC::
-  db "エエッ！<BR>それは　たいへんだわ！！",$00
+  db "エエッ!<BR>それは　たいへんだわ!!",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04CD (Data)", ROMX[$73C3], BANK[$60]
 GameSceneNPCScriptReference04CD::
-  db "アイリス　<NAME>！<BR>だい2せいぎょしつへ<BR>いきなさい。",$00
+  db "アイリス　<NAME>!<BR>だい２せいぎょしつへ<BR>いきなさい。",$00
 
 SECTION "Game Scene NPC Script 0011 Reference 04CE (Data)", ROMX[$73DD], BANK[$60]
 GameSceneNPCScriptReference04CE::
@@ -2303,6 +2303,6 @@ GameSceneNPCScriptReference04CE::
 
 SECTION "Game Scene NPC Script 0011 Reference 04CF (Data)", ROMX[$73F1], BANK[$60]
 GameSceneNPCScriptReference04CF::
-  db "だい2せいぎょしつは<BR>このフロアの　おくだよ。<BR>レッツゴー　<NAME>。",$00
+  db "だい２せいぎょしつは<BR>このフロアの　おくだよ。<BR>レッツゴー　<NAME>。",$00
 
 POPC

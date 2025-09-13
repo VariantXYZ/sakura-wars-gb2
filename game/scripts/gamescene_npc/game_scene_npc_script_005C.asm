@@ -70,11 +70,11 @@ GameSceneNPCScriptReference229C::
 
 SECTION "Game Scene NPC Script 005C Reference 229D (Data)", ROMX[$780F], BANK[$6B]
 GameSceneNPCScriptReference229D::
-  db "すみません。<BR>あなたは　ひと　ですか？",$00
+  db "すみません。<BR>あなたは　ひと　ですか?",$00
 
 SECTION "Game Scene NPC Script 005C Reference 229E (Data)", ROMX[$7823], BANK[$6B]
 GameSceneNPCScriptReference229E::
-  db "あたりめーじゃねーかウガ。<BR>なにいってやがんでぇいウガ。<BR>はやくここから　だしウガ<BR>やがれウガ！",$00
+  db "あたりめーじゃねーかウガ。<BR>なにいってやがんでぇいウガ。<BR>はやくここから　だしウガ<BR>やがれウガ!",$00
 
 SECTION "Game Scene NPC Script 005C Reference 229F (Data)", ROMX[$7854], BANK[$6B]
 GameSceneNPCScriptReference229F::
@@ -168,11 +168,11 @@ GameSceneNPCScriptReference22A3::
 
 SECTION "Game Scene NPC Script 005C Reference 22A4 (Data)", ROMX[$7937], BANK[$6B]
 GameSceneNPCScriptReference22A4::
-  db "すみません。<BR>あなたは　ひと　ですか？",$00
+  db "すみません。<BR>あなたは　ひと　ですか?",$00
 
 SECTION "Game Scene NPC Script 005C Reference 22A5 (Data)", ROMX[$794B], BANK[$6B]
 GameSceneNPCScriptReference22A5::
-  db "みたら　わかるギャオ？<BR>おまえは　アホかギャオ。<BR>はやく　ここからだすギャオ。<BR>ギャオーーーン！！",$00
+  db "みたら　わかるギャオ?<BR>おまえは　アホかギャオ。<BR>はやく　ここからだすギャオ。<BR>ギャオーーーン!!",$00
 
 SECTION "Game Scene NPC Script 005C Reference 22A6 (Data)", ROMX[$797D], BANK[$6B]
 GameSceneNPCScriptReference22A6::
@@ -262,7 +262,7 @@ GameSceneNPCScriptReference22A9::
 
 SECTION "Game Scene NPC Script 005C Reference 22AA (Data)", ROMX[$7884], BANK[$6B]
 GameSceneNPCScriptReference22AA::
-  db "ウガってなんだ？<BR>もしかしたら　まものじゃ<BR>ないのか？",$00
+  db "ウガってなんだ?<BR>もしかしたら　まものじゃ<BR>ないのか?",$00
 
 SECTION "Game Scene NPC Script 005C Reference 22AB (Data)", ROMX[$78A0], BANK[$6B]
 GameSceneNPCScriptReference22AB::
@@ -278,7 +278,7 @@ GameSceneNPCScriptReference22AD::
 
 SECTION "Game Scene NPC Script 005C Reference 22AE (Data)", ROMX[$78EE], BANK[$6B]
 GameSceneNPCScriptReference22AE::
-  db "あっ！<BR>まものだったのか！！",$00
+  db "あっ!<BR>まものだったのか!!",$00
 
 SECTION "Game Scene NPC Script 005C Reference 22AF (Subroutine)", ROMX[$53F1], BANK[$51]
 GameSceneNPCScriptReference22AF::
@@ -302,7 +302,7 @@ GameSceneNPCScriptReference22AF::
 
 SECTION "Game Scene NPC Script 005C Reference 22B0 (Data)", ROMX[$79B7], BANK[$6B]
 GameSceneNPCScriptReference22B0::
-  db "ギャオってなに？<BR>もしかしたら……<BR>まもの……　じゃないかしら。",$00
+  db "ギャオってなに?<BR>もしかしたら……<BR>まもの……　じゃないかしら。",$00
 
 SECTION "Game Scene NPC Script 005C Reference 22B1 (Data)", ROMX[$79D8], BANK[$6B]
 GameSceneNPCScriptReference22B1::
@@ -318,7 +318,7 @@ GameSceneNPCScriptReference22B3::
 
 SECTION "Game Scene NPC Script 005C Reference 22B4 (Data)", ROMX[$7A21], BANK[$6B]
 GameSceneNPCScriptReference22B4::
-  db "あっ！<BR>まものだったのね！！",$00
+  db "あっ!<BR>まものだったのね!!",$00
 
 SECTION "Game Scene NPC Script 005C Reference 22B5 (Subroutine)", ROMX[$5485], BANK[$51]
 GameSceneNPCScriptReference22B5::

@@ -255,7 +255,7 @@ GameSceneNPCScriptReference07AA::
 
 SECTION "Game Scene NPC Script 001F Reference 07AB (Data)", ROMX[$65F8], BANK[$63]
 GameSceneNPCScriptReference07AB::
-  db "カンナさん！<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません！！",$00
+  db "カンナさん!<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません!!",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07AC (Data)", ROMX[$661A], BANK[$63]
 GameSceneNPCScriptReference07AC::
@@ -271,7 +271,7 @@ GameSceneNPCScriptReference07AE::
 
 SECTION "Game Scene NPC Script 001F Reference 07AF (Data)", ROMX[$6670], BANK[$63]
 GameSceneNPCScriptReference07AF::
-  db "では　ここからさきには<BR>すすめないんですか？",$00
+  db "では　ここからさきには<BR>すすめないんですか?",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07B0 (Data)", ROMX[$6687], BANK[$63]
 GameSceneNPCScriptReference07B0::
@@ -291,15 +291,15 @@ GameSceneNPCScriptReference07B3::
 
 SECTION "Game Scene NPC Script 001F Reference 07B4 (Data)", ROMX[$66DB], BANK[$63]
 GameSceneNPCScriptReference07B4::
-  db "すばやく　うごくには<BR>Ｂボタンを　おしながら<BR>いどうすると　いいぜ。",$00
+  db "すばやく　うごくには<BR>Bボタンを　おしながら<BR>いどうすると　いいぜ。",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07B5 (Data)", ROMX[$66FF], BANK[$63]
 GameSceneNPCScriptReference07B5::
-  db "ということで　<NAME>。<BR>かぜに　ながされないように<BR>がんばっていこうぜ！",$00
+  db "ということで　<NAME>。<BR>かぜに　ながされないように<BR>がんばっていこうぜ!",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07B6 (Data)", ROMX[$662E], BANK[$65]
 GameSceneNPCScriptReference07B6::
-  db "すみれさん！<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません！！",$00
+  db "すみれさん!<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません!!",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07B7 (Data)", ROMX[$6650], BANK[$65]
 GameSceneNPCScriptReference07B7::
@@ -315,7 +315,7 @@ GameSceneNPCScriptReference07B9::
 
 SECTION "Game Scene NPC Script 001F Reference 07BA (Data)", ROMX[$66B9], BANK[$65]
 GameSceneNPCScriptReference07BA::
-  db "では　ここからさきには<BR>すすめないんですか？",$00
+  db "では　ここからさきには<BR>すすめないんですか?",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07BB (Data)", ROMX[$66D0], BANK[$65]
 GameSceneNPCScriptReference07BB::
@@ -335,7 +335,7 @@ GameSceneNPCScriptReference07BE::
 
 SECTION "Game Scene NPC Script 001F Reference 07BF (Data)", ROMX[$672F], BANK[$65]
 GameSceneNPCScriptReference07BF::
-  db "すばやく　とおりぬけるには<BR>Ｂボタンを　おしながら<BR>いどうすると　いいですわよ。",$00
+  db "すばやく　とおりぬけるには<BR>Bボタンを　おしながら<BR>いどうすると　いいですわよ。",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07C0 (Data)", ROMX[$6759], BANK[$65]
 GameSceneNPCScriptReference07C0::
@@ -571,7 +571,7 @@ GameSceneNPCScriptReference07C3::
 
 SECTION "Game Scene NPC Script 001F Reference 07C4 (Data)", ROMX[$48D7], BANK[$65]
 GameSceneNPCScriptReference07C4::
-  db "レニさん！<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません！！",$00
+  db "レニさん!<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません!!",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07C5 (Data)", ROMX[$48F8], BANK[$65]
 GameSceneNPCScriptReference07C5::
@@ -587,7 +587,7 @@ GameSceneNPCScriptReference07C7::
 
 SECTION "Game Scene NPC Script 001F Reference 07C8 (Data)", ROMX[$493B], BANK[$65]
 GameSceneNPCScriptReference07C8::
-  db "じゃあ　ここからさきには<BR>すすめないんですか？",$00
+  db "じゃあ　ここからさきには<BR>すすめないんですか?",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07C9 (Data)", ROMX[$4953], BANK[$65]
 GameSceneNPCScriptReference07C9::
@@ -607,15 +607,15 @@ GameSceneNPCScriptReference07CC::
 
 SECTION "Game Scene NPC Script 001F Reference 07CD (Data)", ROMX[$49A4], BANK[$65]
 GameSceneNPCScriptReference07CD::
-  db "すばやく　とおりぬけるには<BR>Ｂボタンを　おしながら<BR>いどうすれば　いい。",$00
+  db "すばやく　とおりぬけるには<BR>Bボタンを　おしながら<BR>いどうすれば　いい。",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07CE (Data)", ROMX[$49CA], BANK[$65]
 GameSceneNPCScriptReference07CE::
-  db "わかった？　<NAME>。",$00
+  db "わかった?　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07CF (Data)", ROMX[$46E6], BANK[$63]
 GameSceneNPCScriptReference07CF::
-  db "カンナさん！<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません！！",$00
+  db "カンナさん!<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません!!",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07D0 (Data)", ROMX[$4708], BANK[$63]
 GameSceneNPCScriptReference07D0::
@@ -631,7 +631,7 @@ GameSceneNPCScriptReference07D2::
 
 SECTION "Game Scene NPC Script 001F Reference 07D3 (Data)", ROMX[$475E], BANK[$63]
 GameSceneNPCScriptReference07D3::
-  db "では　ここからさきには<BR>すすめないんですか？",$00
+  db "では　ここからさきには<BR>すすめないんですか?",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07D4 (Data)", ROMX[$4775], BANK[$63]
 GameSceneNPCScriptReference07D4::
@@ -651,19 +651,19 @@ GameSceneNPCScriptReference07D7::
 
 SECTION "Game Scene NPC Script 001F Reference 07D8 (Data)", ROMX[$47C9], BANK[$63]
 GameSceneNPCScriptReference07D8::
-  db "すばやく　うごくには<BR>Ｂボタンを　おしながら<BR>いどうすると　いいぜ。",$00
+  db "すばやく　うごくには<BR>Bボタンを　おしながら<BR>いどうすると　いいぜ。",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07D9 (Data)", ROMX[$47ED], BANK[$63]
 GameSceneNPCScriptReference07D9::
-  db "ということで　<NAME>。<BR>かぜに　ながされないように<BR>がんばっていこうぜ！",$00
+  db "ということで　<NAME>。<BR>かぜに　ながされないように<BR>がんばっていこうぜ!",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07DA (Data)", ROMX[$65AD], BANK[$64]
 GameSceneNPCScriptReference07DA::
-  db "おりひめさん！<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません！！",$00
+  db "おりひめさん!<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません!!",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07DB (Data)", ROMX[$65D0], BANK[$64]
 GameSceneNPCScriptReference07DB::
-  db "Ｏｈ！そのとーりでーす。<BR>わすれていました！",$00
+  db "Oh!そのとーりでーす。<BR>わすれていました!",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07DC (Data)", ROMX[$65E9], BANK[$64]
 GameSceneNPCScriptReference07DC::
@@ -675,7 +675,7 @@ GameSceneNPCScriptReference07DD::
 
 SECTION "Game Scene NPC Script 001F Reference 07DE (Data)", ROMX[$662B], BANK[$64]
 GameSceneNPCScriptReference07DE::
-  db "では　ここからさきには<BR>すすめないんですか？",$00
+  db "では　ここからさきには<BR>すすめないんですか?",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07DF (Data)", ROMX[$6642], BANK[$64]
 GameSceneNPCScriptReference07DF::
@@ -695,19 +695,19 @@ GameSceneNPCScriptReference07E2::
 
 SECTION "Game Scene NPC Script 001F Reference 07E3 (Data)", ROMX[$669A], BANK[$64]
 GameSceneNPCScriptReference07E3::
-  db "すばやく　とおりぬけるには<BR>Ｂボタンを　おしながら<BR>いどうすれば　いいでーす。",$00
+  db "すばやく　とおりぬけるには<BR>Bボタンを　おしながら<BR>いどうすれば　いいでーす。",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07E4 (Data)", ROMX[$66C3], BANK[$64]
 GameSceneNPCScriptReference07E4::
-  db "では　<NAME>さん<BR>がんばっていくでーす。<BR>レッツゴー！",$00
+  db "では　<NAME>さん<BR>がんばっていくでーす。<BR>レッツゴー!",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07E5 (Data)", ROMX[$4561], BANK[$64]
 GameSceneNPCScriptReference07E5::
-  db "おりひめさん！<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません！！",$00
+  db "おりひめさん!<BR>つよいかぜに　じゃまされて<BR>さきに　すすめません!!",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07E6 (Data)", ROMX[$4584], BANK[$64]
 GameSceneNPCScriptReference07E6::
-  db "Ｏｈ！そのとーりでーす。<BR>わすれていました！",$00
+  db "Oh!そのとーりでーす。<BR>わすれていました!",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07E7 (Data)", ROMX[$459D], BANK[$64]
 GameSceneNPCScriptReference07E7::
@@ -719,7 +719,7 @@ GameSceneNPCScriptReference07E8::
 
 SECTION "Game Scene NPC Script 001F Reference 07E9 (Data)", ROMX[$45DF], BANK[$64]
 GameSceneNPCScriptReference07E9::
-  db "では　ここからさきには<BR>すすめないんですか？",$00
+  db "では　ここからさきには<BR>すすめないんですか?",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07EA (Data)", ROMX[$45F6], BANK[$64]
 GameSceneNPCScriptReference07EA::
@@ -739,10 +739,10 @@ GameSceneNPCScriptReference07ED::
 
 SECTION "Game Scene NPC Script 001F Reference 07EE (Data)", ROMX[$464E], BANK[$64]
 GameSceneNPCScriptReference07EE::
-  db "すばやく　とおりぬけるには<BR>Ｂボタンを　おしながら<BR>いどうすれば　いいでーす。",$00
+  db "すばやく　とおりぬけるには<BR>Bボタンを　おしながら<BR>いどうすれば　いいでーす。",$00
 
 SECTION "Game Scene NPC Script 001F Reference 07EF (Data)", ROMX[$4677], BANK[$64]
 GameSceneNPCScriptReference07EF::
-  db "では　<NAME>さん<BR>がんばっていくでーす。<BR>レッツゴー！",$00
+  db "では　<NAME>さん<BR>がんばっていくでーす。<BR>レッツゴー!",$00
 
 POPC

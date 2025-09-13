@@ -171,15 +171,15 @@ GameSceneNPCScriptReference26E3::
 
 SECTION "Game Scene NPC Script 006A Reference 26E4 (Data)", ROMX[$5688], BANK[$6E]
 GameSceneNPCScriptReference26E4::
-  db "<NAME>さん！<BR>むぼうと　ゆうきは<BR>ちがいますのよ！！",$00
+  db "<NAME>さん!<BR>むぼうと　ゆうきは<BR>ちがいますのよ!!",$00
 
 SECTION "Game Scene NPC Script 006A Reference 26E5 (Data)", ROMX[$4965], BANK[$6E]
 GameSceneNPCScriptReference26E5::
-  db "<NAME>さん！<BR>ムチャをしないで！！",$00
+  db "<NAME>さん!<BR>ムチャをしないで!!",$00
 
 SECTION "Game Scene NPC Script 006A Reference 26E6 (Data)", ROMX[$6F57], BANK[$6D]
 GameSceneNPCScriptReference26E6::
-  db "タイマーに　ちゅういしろ！<BR><NAME>！！",$00
+  db "タイマーに　ちゅういしろ!<BR><NAME>!!",$00
 
 SECTION "Game Scene NPC Script 006A Reference 26E7 (Subroutine)", ROMX[$4CFF], BANK[$58]
 GameSceneNPCScriptReference26E7::
@@ -211,11 +211,11 @@ GameSceneNPCScriptReference26EA::
 
 SECTION "Game Scene NPC Script 006A Reference 26EB (Data)", ROMX[$7C58], BANK[$6D]
 GameSceneNPCScriptReference26EB::
-  db "<NAME>さん！<BR>ムチャをしないで！！",$00
+  db "<NAME>さん!<BR>ムチャをしないで!!",$00
 
 SECTION "Game Scene NPC Script 006A Reference 26EC (Data)", ROMX[$607E], BANK[$6D]
 GameSceneNPCScriptReference26EC::
-  db "<NAME>くん！<BR>ムチャをするな！！",$00
+  db "<NAME>くん!<BR>ムチャをするな!!",$00
 
 SECTION "Game Scene NPC Script 006A Reference 26ED (Data)", ROMX[$542C], BANK[$6D]
 GameSceneNPCScriptReference26ED::

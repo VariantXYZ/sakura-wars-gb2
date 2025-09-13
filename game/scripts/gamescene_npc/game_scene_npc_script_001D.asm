@@ -144,15 +144,15 @@ GameSceneNPCScriptReference078C::
 
 SECTION "Game Scene NPC Script 001D Reference 078D (Data)", ROMX[$698B], BANK[$93]
 GameSceneNPCScriptReference078D::
-  db "だれかいるぞ！？",$00
+  db "だれかいるぞ!?",$00
 
 SECTION "Game Scene NPC Script 001D Reference 078E (Data)", ROMX[$6994], BANK[$93]
 GameSceneNPCScriptReference078E::
-  db "ウガ―！！",$00
+  db "ウガ―!!",$00
 
 SECTION "Game Scene NPC Script 001D Reference 078F (Data)", ROMX[$699B], BANK[$93]
 GameSceneNPCScriptReference078F::
-  db "だいじょうぶかい？",$00
+  db "だいじょうぶかい?",$00
 
 SECTION "Game Scene NPC Script 001D Reference 0790 (Data)", ROMX[$69A5], BANK[$93]
 GameSceneNPCScriptReference0790::
@@ -172,7 +172,7 @@ GameSceneNPCScriptReference0793::
 
 SECTION "Game Scene NPC Script 001D Reference 0794 (Data)", ROMX[$6A1C], BANK[$93]
 GameSceneNPCScriptReference0794::
-  db "ねえ　ねえ。<BR>ミキちゃん　ここから<BR>でられるの？",$00
+  db "ねえ　ねえ。<BR>ミキちゃん　ここから<BR>でられるの?",$00
 
 SECTION "Game Scene NPC Script 001D Reference 0795 (Data)", ROMX[$6A35], BANK[$93]
 GameSceneNPCScriptReference0795::
@@ -188,15 +188,15 @@ GameSceneNPCScriptReference0797::
 
 SECTION "Game Scene NPC Script 001D Reference 0798 (Data)", ROMX[$6868], BANK[$93]
 GameSceneNPCScriptReference0798::
-  db "だれかいるわ！？",$00
+  db "だれかいるわ!?",$00
 
 SECTION "Game Scene NPC Script 001D Reference 0799 (Data)", ROMX[$6871], BANK[$93]
 GameSceneNPCScriptReference0799::
-  db "ウガ―！！",$00
+  db "ウガ―!!",$00
 
 SECTION "Game Scene NPC Script 001D Reference 079A (Data)", ROMX[$6878], BANK[$93]
 GameSceneNPCScriptReference079A::
-  db "だいじょうぶ？",$00
+  db "だいじょうぶ?",$00
 
 SECTION "Game Scene NPC Script 001D Reference 079B (Data)", ROMX[$6880], BANK[$93]
 GameSceneNPCScriptReference079B::
@@ -216,7 +216,7 @@ GameSceneNPCScriptReference079E::
 
 SECTION "Game Scene NPC Script 001D Reference 079F (Data)", ROMX[$6902], BANK[$93]
 GameSceneNPCScriptReference079F::
-  db "ねえ　ねえ。<BR>ミキちゃん　ここから<BR>でられるの？",$00
+  db "ねえ　ねえ。<BR>ミキちゃん　ここから<BR>でられるの?",$00
 
 SECTION "Game Scene NPC Script 001D Reference 07A0 (Data)", ROMX[$691B], BANK[$93]
 GameSceneNPCScriptReference07A0::

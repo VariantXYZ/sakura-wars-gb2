@@ -37,7 +37,7 @@ GameSceneNPCScriptReference012B::
 
 SECTION "Game Scene NPC Script 0005 Reference 0119 (Data)", ROMX[$62E9], BANK[$60]
 GameSceneNPCScriptReference0119::
-  db "よし！<BR>そろそろ　ミカサじょうくうへ<BR>とうちゃくするな……",$00
+  db "よし!<BR>そろそろ　ミカサじょうくうへ<BR>とうちゃくするな……",$00
 
 SECTION "Game Scene NPC Script 0005 Reference 011A (Data)", ROMX[$6307], BANK[$60]
 GameSceneNPCScriptReference011A::
@@ -57,11 +57,11 @@ GameSceneNPCScriptReference011D::
 
 SECTION "Game Scene NPC Script 0005 Reference 011E (Data)", ROMX[$6397], BANK[$60]
 GameSceneNPCScriptReference011E::
-  db "ウィンドウが　ひらいたら<BR>じゅうじボタンで<BR>メニューをえらんで<BR>Ａボタンを　おすんだ。",$00
+  db "ウィンドウが　ひらいたら<BR>じゅうじボタンで<BR>メニューをえらんで<BR>Aボタンを　おすんだ。",$00
 
 SECTION "Game Scene NPC Script 0005 Reference 011F (Data)", ROMX[$63C4], BANK[$60]
 GameSceneNPCScriptReference011F::
-  db "そうすると　えらんだメニュー<BR>の　なかに　はいれる。<BR>わかったかな？",$00
+  db "そうすると　えらんだメニュー<BR>の　なかに　はいれる。<BR>わかったかな?",$00
 
 SECTION "Game Scene NPC Script 0005 Reference 0120 (Data)", ROMX[$63E7], BANK[$60]
 GameSceneNPCScriptReference0120::
@@ -111,11 +111,11 @@ GameSceneNPCScriptReference0123::
 
 SECTION "Game Scene NPC Script 0005 Reference 0124 (Data)", ROMX[$63EE], BANK[$60]
 GameSceneNPCScriptReference0124::
-  db "はい！　わかりました！！",$00
+  db "はい!　わかりました!!",$00
 
 SECTION "Game Scene NPC Script 0005 Reference 0125 (Data)", ROMX[$63FB], BANK[$60]
 GameSceneNPCScriptReference0125::
-  db "よし！<BR>では　こうかようい！",$00
+  db "よし!<BR>では　こうかようい!",$00
 
 SECTION "Game Scene NPC Script 0005 Reference 0126 (Data)", ROMX[$640A], BANK[$60]
 GameSceneNPCScriptReference0126::
@@ -123,11 +123,11 @@ GameSceneNPCScriptReference0126::
 
 SECTION "Game Scene NPC Script 0005 Reference 0127 (Data)", ROMX[$6438], BANK[$60]
 GameSceneNPCScriptReference0127::
-  db "くうちゅうで　バランスを<BR>くずさない　ようにして<BR>ちゃくちの　しょうげきに<BR>そなえるんだぞ！",$00
+  db "くうちゅうで　バランスを<BR>くずさない　ようにして<BR>ちゃくちの　しょうげきに<BR>そなえるんだぞ!",$00
 
 SECTION "Game Scene NPC Script 0005 Reference 0128 (Data)", ROMX[$6467], BANK[$60]
 GameSceneNPCScriptReference0128::
-  db "では　しゅつげき！！",$00
+  db "では　しゅつげき!!",$00
 
 SECTION "Game Scene NPC Script 0005 Reference 0129 (Data)", ROMX[$6472], BANK[$60]
 GameSceneNPCScriptReference0129::

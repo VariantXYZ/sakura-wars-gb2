@@ -129,11 +129,11 @@ GameSceneNPCScriptReference18E7::
 
 SECTION "Game Scene NPC Script 004A Reference 18E8 (Data)", ROMX[$7064], BANK[$67]
 GameSceneNPCScriptReference18E8::
-  db "これは　いったい！",$00
+  db "これは　いったい!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 18E9 (Data)", ROMX[$706E], BANK[$67]
 GameSceneNPCScriptReference18E9::
-  db "マリアさん！<BR>あれは！！",$00
+  db "マリアさん!<BR>あれは!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 18EA (Data)", ROMX[$707B], BANK[$67]
 GameSceneNPCScriptReference18EA::
@@ -141,7 +141,7 @@ GameSceneNPCScriptReference18EA::
 
 SECTION "Game Scene NPC Script 004A Reference 18EB (Data)", ROMX[$708D], BANK[$67]
 GameSceneNPCScriptReference18EB::
-  db "あれは！　バラぐみの<BR>よきひこさん　じゃない！",$00
+  db "あれは!　バラぐみの<BR>よきひこさん　じゃない!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 18EC (Data)", ROMX[$70A5], BANK[$67]
 GameSceneNPCScriptReference18EC::
@@ -153,7 +153,7 @@ GameSceneNPCScriptReference18ED::
 
 SECTION "Game Scene NPC Script 004A Reference 18EE (Data)", ROMX[$70C6], BANK[$67]
 GameSceneNPCScriptReference18EE::
-  db "<NAME><BR>よきひこさんを<BR>たすけるわよ！！",$00
+  db "<NAME><BR>よきひこさんを<BR>たすけるわよ!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 18EF (Subroutine)", ROMX[$6569], BANK[$55]
 GameSceneNPCScriptReference18EF::
@@ -255,11 +255,11 @@ GameSceneNPCScriptReference18F0::
 
 SECTION "Game Scene NPC Script 004A Reference 18F1 (Data)", ROMX[$7DE2], BANK[$67]
 GameSceneNPCScriptReference18F1::
-  db "なんでーすか　これは！",$00
+  db "なんでーすか　これは!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 18F2 (Data)", ROMX[$7DEE], BANK[$67]
 GameSceneNPCScriptReference18F2::
-  db "おりひめさん！<BR>あれは！！",$00
+  db "おりひめさん!<BR>あれは!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 18F3 (Data)", ROMX[$7DFC], BANK[$67]
 GameSceneNPCScriptReference18F3::
@@ -267,7 +267,7 @@ GameSceneNPCScriptReference18F3::
 
 SECTION "Game Scene NPC Script 004A Reference 18F4 (Data)", ROMX[$7E11], BANK[$67]
 GameSceneNPCScriptReference18F4::
-  db "あれは！　バラぐみの<BR>よきひこさん　でーす。",$00
+  db "あれは!　バラぐみの<BR>よきひこさん　でーす。",$00
 
 SECTION "Game Scene NPC Script 004A Reference 18F5 (Data)", ROMX[$7E28], BANK[$67]
 GameSceneNPCScriptReference18F5::
@@ -279,7 +279,7 @@ GameSceneNPCScriptReference18F6::
 
 SECTION "Game Scene NPC Script 004A Reference 18F7 (Data)", ROMX[$7E53], BANK[$67]
 GameSceneNPCScriptReference18F7::
-  db "<NAME>さん<BR>よきひこさんを<BR>たすけるでーす！！",$00
+  db "<NAME>さん<BR>よきひこさんを<BR>たすけるでーす!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 18F8 (Subroutine)", ROMX[$5518], BANK[$55]
 GameSceneNPCScriptReference18F8::
@@ -381,11 +381,11 @@ GameSceneNPCScriptReference18F9::
 
 SECTION "Game Scene NPC Script 004A Reference 18FA (Data)", ROMX[$426F], BANK[$69]
 GameSceneNPCScriptReference18FA::
-  db "なんですの！　これは？！",$00
+  db "なんですの!　これは?!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 18FB (Data)", ROMX[$427C], BANK[$69]
 GameSceneNPCScriptReference18FB::
-  db "すみれさん！<BR>あれは！！",$00
+  db "すみれさん!<BR>あれは!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 18FC (Data)", ROMX[$4289], BANK[$69]
 GameSceneNPCScriptReference18FC::
@@ -393,7 +393,7 @@ GameSceneNPCScriptReference18FC::
 
 SECTION "Game Scene NPC Script 004A Reference 18FD (Data)", ROMX[$429B], BANK[$69]
 GameSceneNPCScriptReference18FD::
-  db "あれは！　バラぐみの<BR>よきひこさん　ですわ。",$00
+  db "あれは!　バラぐみの<BR>よきひこさん　ですわ。",$00
 
 SECTION "Game Scene NPC Script 004A Reference 18FE (Data)", ROMX[$42B2], BANK[$69]
 GameSceneNPCScriptReference18FE::
@@ -405,15 +405,15 @@ GameSceneNPCScriptReference18FF::
 
 SECTION "Game Scene NPC Script 004A Reference 1900 (Data)", ROMX[$42D8], BANK[$69]
 GameSceneNPCScriptReference1900::
-  db "<NAME>さん<BR>よきひこさんを<BR>たすけますわよ！！",$00
+  db "<NAME>さん<BR>よきひこさんを<BR>たすけますわよ!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 1901 (Data)", ROMX[$74E4], BANK[$68]
 GameSceneNPCScriptReference1901::
-  db "なんですの！　これは？！",$00
+  db "なんですの!　これは?!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 1902 (Data)", ROMX[$74F1], BANK[$68]
 GameSceneNPCScriptReference1902::
-  db "すみれさん！<BR>あれは！！",$00
+  db "すみれさん!<BR>あれは!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 1903 (Data)", ROMX[$74FE], BANK[$68]
 GameSceneNPCScriptReference1903::
@@ -421,7 +421,7 @@ GameSceneNPCScriptReference1903::
 
 SECTION "Game Scene NPC Script 004A Reference 1904 (Data)", ROMX[$7510], BANK[$68]
 GameSceneNPCScriptReference1904::
-  db "あれは！　バラぐみの<BR>よきひこさん　ですわ。",$00
+  db "あれは!　バラぐみの<BR>よきひこさん　ですわ。",$00
 
 SECTION "Game Scene NPC Script 004A Reference 1905 (Data)", ROMX[$7527], BANK[$68]
 GameSceneNPCScriptReference1905::
@@ -433,7 +433,7 @@ GameSceneNPCScriptReference1906::
 
 SECTION "Game Scene NPC Script 004A Reference 1907 (Data)", ROMX[$754C], BANK[$68]
 GameSceneNPCScriptReference1907::
-  db "<NAME>さん<BR>よきひこさんを<BR>たすけますわよ！！",$00
+  db "<NAME>さん<BR>よきひこさんを<BR>たすけますわよ!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 1908 (Data)", ROMX[$596A], BANK[$68]
 GameSceneNPCScriptReference1908::
@@ -441,7 +441,7 @@ GameSceneNPCScriptReference1908::
 
 SECTION "Game Scene NPC Script 004A Reference 1909 (Data)", ROMX[$5974], BANK[$68]
 GameSceneNPCScriptReference1909::
-  db "レニさん！<BR>あれは！！",$00
+  db "レニさん!<BR>あれは!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 190A (Data)", ROMX[$5980], BANK[$68]
 GameSceneNPCScriptReference190A::
@@ -449,7 +449,7 @@ GameSceneNPCScriptReference190A::
 
 SECTION "Game Scene NPC Script 004A Reference 190B (Data)", ROMX[$5993], BANK[$68]
 GameSceneNPCScriptReference190B::
-  db "あれは！　バラぐみの<BR>よきひこ！！",$00
+  db "あれは!　バラぐみの<BR>よきひこ!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 190C (Data)", ROMX[$59A5], BANK[$68]
 GameSceneNPCScriptReference190C::
@@ -461,7 +461,7 @@ GameSceneNPCScriptReference190D::
 
 SECTION "Game Scene NPC Script 004A Reference 190E (Data)", ROMX[$59C9], BANK[$68]
 GameSceneNPCScriptReference190E::
-  db "よきひこを<BR>たすけよう　<NAME>！",$00
+  db "よきひこを<BR>たすけよう　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 190F (Data)", ROMX[$4C2F], BANK[$68]
 GameSceneNPCScriptReference190F::
@@ -469,7 +469,7 @@ GameSceneNPCScriptReference190F::
 
 SECTION "Game Scene NPC Script 004A Reference 1910 (Data)", ROMX[$4C39], BANK[$68]
 GameSceneNPCScriptReference1910::
-  db "レニさん！<BR>あれは！！",$00
+  db "レニさん!<BR>あれは!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 1911 (Data)", ROMX[$4C45], BANK[$68]
 GameSceneNPCScriptReference1911::
@@ -477,7 +477,7 @@ GameSceneNPCScriptReference1911::
 
 SECTION "Game Scene NPC Script 004A Reference 1912 (Data)", ROMX[$4C58], BANK[$68]
 GameSceneNPCScriptReference1912::
-  db "あれは！　バラぐみの<BR>よきひこ！！",$00
+  db "あれは!　バラぐみの<BR>よきひこ!!",$00
 
 SECTION "Game Scene NPC Script 004A Reference 1913 (Data)", ROMX[$4C6A], BANK[$68]
 GameSceneNPCScriptReference1913::
@@ -489,6 +489,6 @@ GameSceneNPCScriptReference1914::
 
 SECTION "Game Scene NPC Script 004A Reference 1915 (Data)", ROMX[$4C8D], BANK[$68]
 GameSceneNPCScriptReference1915::
-  db "よきひこを<BR>たすけよう　<NAME>！",$00
+  db "よきひこを<BR>たすけよう　<NAME>!",$00
 
 POPC

@@ -175,31 +175,31 @@ GameSceneNPCScriptReference178E::
 
 SECTION "Game Scene NPC Script 0047 Reference 178F (Data)", ROMX[$6A4F], BANK[$67]
 GameSceneNPCScriptReference178F::
-  db "マリアさん？！",$00
+  db "マリアさん?!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 1790 (Data)", ROMX[$6A57], BANK[$67]
 GameSceneNPCScriptReference1790::
-  db "<NAME>！",$00
+  db "<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 1791 (Data)", ROMX[$6A5A], BANK[$67]
 GameSceneNPCScriptReference1791::
-  db "だいじょうぶですか！",$00
+  db "だいじょうぶですか!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 1792 (Data)", ROMX[$6A65], BANK[$67]
 GameSceneNPCScriptReference1792::
-  db "<NAME>！<BR>きては　ダメよ！！",$00
+  db "<NAME>!<BR>きては　ダメよ!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 1793 (Data)", ROMX[$6A72], BANK[$67]
 GameSceneNPCScriptReference1793::
-  db "キキ――！！",$00
+  db "キキ――!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 1794 (Data)", ROMX[$6A7B], BANK[$67]
 GameSceneNPCScriptReference1794::
-  db "あらわれたわね！！",$00
+  db "あらわれたわね!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 1795 (Data)", ROMX[$6A85], BANK[$67]
 GameSceneNPCScriptReference1795::
-  db "マリアさん！<BR>だいじょうぶですか！！",$00
+  db "マリアさん!<BR>だいじょうぶですか!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 1796 (Data)", ROMX[$6A98], BANK[$67]
 GameSceneNPCScriptReference1796::
@@ -207,7 +207,7 @@ GameSceneNPCScriptReference1796::
 
 SECTION "Game Scene NPC Script 0047 Reference 1797 (Data)", ROMX[$6AA4], BANK[$67]
 GameSceneNPCScriptReference1797::
-  db "これは　なんなのですか？",$00
+  db "これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 1798 (Subroutine)", ROMX[$41D8], BANK[$55]
 GameSceneNPCScriptReference1798::
@@ -473,39 +473,39 @@ GameSceneNPCScriptReference179E::
 
 SECTION "Game Scene NPC Script 0047 Reference 179F (Data)", ROMX[$77DD], BANK[$67]
 GameSceneNPCScriptReference179F::
-  db "おりひめさん？！",$00
+  db "おりひめさん?!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17A0 (Data)", ROMX[$77E6], BANK[$67]
 GameSceneNPCScriptReference17A0::
-  db "<NAME>さん！",$00
+  db "<NAME>さん!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17A1 (Data)", ROMX[$77EB], BANK[$67]
 GameSceneNPCScriptReference17A1::
-  db "だいじょうぶですか！",$00
+  db "だいじょうぶですか!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17A2 (Data)", ROMX[$77F6], BANK[$67]
 GameSceneNPCScriptReference17A2::
-  db "きては　いけませーん！<BR>ワナでーす！！",$00
+  db "きては　いけませーん!<BR>ワナでーす!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17A3 (Data)", ROMX[$780A], BANK[$67]
 GameSceneNPCScriptReference17A3::
-  db "キキ――！！",$00
+  db "キキ――!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17A4 (Data)", ROMX[$7813], BANK[$67]
 GameSceneNPCScriptReference17A4::
-  db "くっそー！　ワナか！！",$00
+  db "くっそー!　ワナか!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17A5 (Data)", ROMX[$781F], BANK[$67]
 GameSceneNPCScriptReference17A5::
-  db "おりひめさん！<BR>だいじょうぶですか！！",$00
+  db "おりひめさん!<BR>だいじょうぶですか!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17A6 (Data)", ROMX[$7833], BANK[$67]
 GameSceneNPCScriptReference17A6::
-  db "だいじょうぶでーす！",$00
+  db "だいじょうぶでーす!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17A7 (Data)", ROMX[$783E], BANK[$67]
 GameSceneNPCScriptReference17A7::
-  db "これは　なんなのですか？",$00
+  db "これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17A8 (Subroutine)", ROMX[$47A9], BANK[$55]
 GameSceneNPCScriptReference17A8::
@@ -740,7 +740,7 @@ GameSceneNPCScriptReference17AC::
 
 SECTION "Game Scene NPC Script 0047 Reference 17AD (Data)", ROMX[$6AC6], BANK[$67]
 GameSceneNPCScriptReference17AD::
-  db "いったい<BR>これは　なんなのですか？",$00
+  db "いったい<BR>これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17AE (Data)", ROMX[$6AD8], BANK[$67]
 GameSceneNPCScriptReference17AE::
@@ -812,31 +812,31 @@ GameSceneNPCScriptReference17BF::
 
 SECTION "Game Scene NPC Script 0047 Reference 17C0 (Data)", ROMX[$7C2C], BANK[$68]
 GameSceneNPCScriptReference17C0::
-  db "すみれさん？！",$00
+  db "すみれさん?!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17C1 (Data)", ROMX[$7C34], BANK[$68]
 GameSceneNPCScriptReference17C1::
-  db "<NAME>さん！",$00
+  db "<NAME>さん!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17C2 (Data)", ROMX[$7C39], BANK[$68]
 GameSceneNPCScriptReference17C2::
-  db "だいじょうぶですか！",$00
+  db "だいじょうぶですか!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17C3 (Data)", ROMX[$7C44], BANK[$68]
 GameSceneNPCScriptReference17C3::
-  db "ダメですわ！<BR>きては　いけません！！<BR>おにげなさい！",$00
+  db "ダメですわ!<BR>きては　いけません!!<BR>おにげなさい!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17C4 (Data)", ROMX[$7C5F], BANK[$68]
 GameSceneNPCScriptReference17C4::
-  db "キキ――！！",$00
+  db "キキ――!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17C5 (Data)", ROMX[$7C68], BANK[$68]
 GameSceneNPCScriptReference17C5::
-  db "くっそー！　ワナか！！",$00
+  db "くっそー!　ワナか!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17C6 (Data)", ROMX[$7C74], BANK[$68]
 GameSceneNPCScriptReference17C6::
-  db "すみれさん！<BR>だいじょうぶですか！！",$00
+  db "すみれさん!<BR>だいじょうぶですか!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17C7 (Data)", ROMX[$7C87], BANK[$68]
 GameSceneNPCScriptReference17C7::
@@ -844,7 +844,7 @@ GameSceneNPCScriptReference17C7::
 
 SECTION "Game Scene NPC Script 0047 Reference 17C8 (Data)", ROMX[$7C95], BANK[$68]
 GameSceneNPCScriptReference17C8::
-  db "これは　なんなのですか？",$00
+  db "これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17C9 (Subroutine)", ROMX[$638E], BANK[$55]
 GameSceneNPCScriptReference17C9::
@@ -939,31 +939,31 @@ GameSceneNPCScriptReference17CA::
 
 SECTION "Game Scene NPC Script 0047 Reference 17CC (Data)", ROMX[$6DFB], BANK[$68]
 GameSceneNPCScriptReference17CC::
-  db "すみれさん？！",$00
+  db "すみれさん?!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17CD (Data)", ROMX[$6E03], BANK[$68]
 GameSceneNPCScriptReference17CD::
-  db "<NAME>さん！",$00
+  db "<NAME>さん!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17CE (Data)", ROMX[$6E08], BANK[$68]
 GameSceneNPCScriptReference17CE::
-  db "だいじょうぶですか！",$00
+  db "だいじょうぶですか!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17CF (Data)", ROMX[$6E13], BANK[$68]
 GameSceneNPCScriptReference17CF::
-  db "ダメですわ！<BR>きては　いけません！！<BR>おにげなさい！",$00
+  db "ダメですわ!<BR>きては　いけません!!<BR>おにげなさい!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17D0 (Data)", ROMX[$6E2E], BANK[$68]
 GameSceneNPCScriptReference17D0::
-  db "キキ――！！",$00
+  db "キキ――!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17D1 (Data)", ROMX[$6E37], BANK[$68]
 GameSceneNPCScriptReference17D1::
-  db "あらわれたわね！",$00
+  db "あらわれたわね!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17D2 (Data)", ROMX[$6E40], BANK[$68]
 GameSceneNPCScriptReference17D2::
-  db "すみれさん！<BR>だいじょうぶですか！！",$00
+  db "すみれさん!<BR>だいじょうぶですか!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17D3 (Data)", ROMX[$6E53], BANK[$68]
 GameSceneNPCScriptReference17D3::
@@ -971,7 +971,7 @@ GameSceneNPCScriptReference17D3::
 
 SECTION "Game Scene NPC Script 0047 Reference 17D4 (Data)", ROMX[$6E61], BANK[$68]
 GameSceneNPCScriptReference17D4::
-  db "これは　なんなのですか？",$00
+  db "これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17D5 (Subroutine)", ROMX[$5DEB], BANK[$55]
 GameSceneNPCScriptReference17D5::
@@ -1095,7 +1095,7 @@ GameSceneNPCScriptReference17D8::
 
 SECTION "Game Scene NPC Script 0047 Reference 17DA (Data)", ROMX[$7853], BANK[$67]
 GameSceneNPCScriptReference17DA::
-  db "いったい<BR>これは　なんなのですか？",$00
+  db "いったい<BR>これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17DB (Data)", ROMX[$7865], BANK[$67]
 GameSceneNPCScriptReference17DB::
@@ -1143,31 +1143,31 @@ GameSceneNPCScriptReference17E6::
 
 SECTION "Game Scene NPC Script 0047 Reference 17E7 (Data)", ROMX[$52BE], BANK[$68]
 GameSceneNPCScriptReference17E7::
-  db "レニさん？！",$00
+  db "レニさん?!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17E8 (Data)", ROMX[$52C5], BANK[$68]
 GameSceneNPCScriptReference17E8::
-  db "<NAME>！",$00
+  db "<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17E9 (Data)", ROMX[$52C8], BANK[$68]
 GameSceneNPCScriptReference17E9::
-  db "だいじょうぶですか！",$00
+  db "だいじょうぶですか!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17EA (Data)", ROMX[$52D3], BANK[$68]
 GameSceneNPCScriptReference17EA::
-  db "ダメだ！<BR>くるな！",$00
+  db "ダメだ!<BR>くるな!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17EB (Data)", ROMX[$52DD], BANK[$68]
 GameSceneNPCScriptReference17EB::
-  db "キキ――！！",$00
+  db "キキ――!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17EC (Data)", ROMX[$52E6], BANK[$68]
 GameSceneNPCScriptReference17EC::
-  db "くっそー！　ワナか！！",$00
+  db "くっそー!　ワナか!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17ED (Data)", ROMX[$52F2], BANK[$68]
 GameSceneNPCScriptReference17ED::
-  db "レニさん！<BR>だいじょうぶですか！！",$00
+  db "レニさん!<BR>だいじょうぶですか!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17EE (Data)", ROMX[$5304], BANK[$68]
 GameSceneNPCScriptReference17EE::
@@ -1175,7 +1175,7 @@ GameSceneNPCScriptReference17EE::
 
 SECTION "Game Scene NPC Script 0047 Reference 17EF (Data)", ROMX[$530F], BANK[$68]
 GameSceneNPCScriptReference17EF::
-  db "これは　なんなのですか？",$00
+  db "これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17F0 (Subroutine)", ROMX[$531A], BANK[$55]
 GameSceneNPCScriptReference17F0::
@@ -1309,31 +1309,31 @@ GameSceneNPCScriptReference17F3::
 
 SECTION "Game Scene NPC Script 0047 Reference 17F5 (Data)", ROMX[$456D], BANK[$68]
 GameSceneNPCScriptReference17F5::
-  db "レニさん？！",$00
+  db "レニさん?!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17F6 (Data)", ROMX[$4574], BANK[$68]
 GameSceneNPCScriptReference17F6::
-  db "<NAME>！",$00
+  db "<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17F7 (Data)", ROMX[$4577], BANK[$68]
 GameSceneNPCScriptReference17F7::
-  db "だいじょうぶですか！",$00
+  db "だいじょうぶですか!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17F8 (Data)", ROMX[$4582], BANK[$68]
 GameSceneNPCScriptReference17F8::
-  db "ダメだ！<BR>くるな！",$00
+  db "ダメだ!<BR>くるな!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17F9 (Data)", ROMX[$458C], BANK[$68]
 GameSceneNPCScriptReference17F9::
-  db "キキ――！！",$00
+  db "キキ――!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17FA (Data)", ROMX[$4595], BANK[$68]
 GameSceneNPCScriptReference17FA::
-  db "あらわれたわね！！",$00
+  db "あらわれたわね!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17FB (Data)", ROMX[$459F], BANK[$68]
 GameSceneNPCScriptReference17FB::
-  db "レニさん！<BR>だいじょうぶですか！！",$00
+  db "レニさん!<BR>だいじょうぶですか!!",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17FC (Data)", ROMX[$45B1], BANK[$68]
 GameSceneNPCScriptReference17FC::
@@ -1341,7 +1341,7 @@ GameSceneNPCScriptReference17FC::
 
 SECTION "Game Scene NPC Script 0047 Reference 17FD (Data)", ROMX[$45BC], BANK[$68]
 GameSceneNPCScriptReference17FD::
-  db "これは　なんなのですか？",$00
+  db "これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 17FE (Subroutine)", ROMX[$4D59], BANK[$55]
 GameSceneNPCScriptReference17FE::
@@ -1484,7 +1484,7 @@ GameSceneNPCScriptReference1801::
 
 SECTION "Game Scene NPC Script 0047 Reference 1803 (Data)", ROMX[$7CAA], BANK[$68]
 GameSceneNPCScriptReference1803::
-  db "いったい<BR>これは　なんなのですか？",$00
+  db "いったい<BR>これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 1804 (Data)", ROMX[$7CBC], BANK[$68]
 GameSceneNPCScriptReference1804::
@@ -1536,7 +1536,7 @@ GameSceneNPCScriptReference1810::
 
 SECTION "Game Scene NPC Script 0047 Reference 1811 (Data)", ROMX[$6E83], BANK[$68]
 GameSceneNPCScriptReference1811::
-  db "いったい<BR>これは　なんなのですか？",$00
+  db "いったい<BR>これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 1812 (Data)", ROMX[$6E95], BANK[$68]
 GameSceneNPCScriptReference1812::
@@ -1604,7 +1604,7 @@ GameSceneNPCScriptReference1822::
 
 SECTION "Game Scene NPC Script 0047 Reference 1823 (Data)", ROMX[$5331], BANK[$68]
 GameSceneNPCScriptReference1823::
-  db "いったい<BR>これは　なんなのですか？",$00
+  db "いったい<BR>これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 1824 (Data)", ROMX[$5343], BANK[$68]
 GameSceneNPCScriptReference1824::
@@ -1696,7 +1696,7 @@ GameSceneNPCScriptReference183A::
 
 SECTION "Game Scene NPC Script 0047 Reference 183B (Data)", ROMX[$45DE], BANK[$68]
 GameSceneNPCScriptReference183B::
-  db "いったい<BR>これは　なんなのですか？",$00
+  db "いったい<BR>これは　なんなのですか?",$00
 
 SECTION "Game Scene NPC Script 0047 Reference 183C (Data)", ROMX[$45F0], BANK[$68]
 GameSceneNPCScriptReference183C::

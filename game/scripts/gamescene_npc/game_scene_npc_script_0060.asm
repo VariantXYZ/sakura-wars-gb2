@@ -74,15 +74,15 @@ GameSceneNPCScriptReference2337::
 
 SECTION "Game Scene NPC Script 0060 Reference 2338 (Data)", ROMX[$7A6A], BANK[$6B]
 GameSceneNPCScriptReference2338::
-  db "すみません。<BR>あなたは　ひと　ですか？",$00
+  db "すみません。<BR>あなたは　ひと　ですか?",$00
 
 SECTION "Game Scene NPC Script 0060 Reference 2339 (Data)", ROMX[$7A7E], BANK[$6B]
 GameSceneNPCScriptReference2339::
-  db "なにを　いっているんだい。<BR>みれば　わかるだろ？",$00
+  db "なにを　いっているんだい。<BR>みれば　わかるだろ?",$00
 
 SECTION "Game Scene NPC Script 0060 Reference 233A (Data)", ROMX[$7A97], BANK[$6B]
 GameSceneNPCScriptReference233A::
-  db "ぼくは　あの　まきびしけの<BR>むすこなんだぞ。<BR>はやく　ここから<BR>だしたまえ！",$00
+  db "ぼくは　あの　まきびしけの<BR>むすこなんだぞ。<BR>はやく　ここから<BR>だしたまえ!",$00
 
 SECTION "Game Scene NPC Script 0060 Reference 233B (Data)", ROMX[$7ABE], BANK[$6B]
 GameSceneNPCScriptReference233B::
@@ -161,15 +161,15 @@ GameSceneNPCScriptReference233F::
 
 SECTION "Game Scene NPC Script 0060 Reference 2340 (Data)", ROMX[$7C2B], BANK[$6B]
 GameSceneNPCScriptReference2340::
-  db "すみません。<BR>あなたは　ひと　ですか？",$00
+  db "すみません。<BR>あなたは　ひと　ですか?",$00
 
 SECTION "Game Scene NPC Script 0060 Reference 2341 (Data)", ROMX[$7C3F], BANK[$6B]
 GameSceneNPCScriptReference2341::
-  db "なにを　いっているんだい。<BR>みれば　わかるだろ？",$00
+  db "なにを　いっているんだい。<BR>みれば　わかるだろ?",$00
 
 SECTION "Game Scene NPC Script 0060 Reference 2342 (Data)", ROMX[$7C58], BANK[$6B]
 GameSceneNPCScriptReference2342::
-  db "ぼくは　あの　まきびしけの<BR>むすこなんだぞ。<BR>はやく　ここから<BR>だしたまえ！",$00
+  db "ぼくは　あの　まきびしけの<BR>むすこなんだぞ。<BR>はやく　ここから<BR>だしたまえ!",$00
 
 SECTION "Game Scene NPC Script 0060 Reference 2343 (Data)", ROMX[$7C7F], BANK[$6B]
 GameSceneNPCScriptReference2343::
@@ -276,7 +276,7 @@ GameSceneNPCScriptReference234E::
 
 SECTION "Game Scene NPC Script 0060 Reference 234F (Data)", ROMX[$7BB1], BANK[$6B]
 GameSceneNPCScriptReference234F::
-  db "あいつは　おたくらの<BR>なかま　なんじゃないの？",$00
+  db "あいつは　おたくらの<BR>なかま　なんじゃないの?",$00
 
 SECTION "Game Scene NPC Script 0060 Reference 2350 (Data)", ROMX[$7BC9], BANK[$6B]
 GameSceneNPCScriptReference2350::
@@ -324,7 +324,7 @@ GameSceneNPCScriptReference235A::
 
 SECTION "Game Scene NPC Script 0060 Reference 235B (Data)", ROMX[$7D86], BANK[$6B]
 GameSceneNPCScriptReference235B::
-  db "あいつは　おたくらの<BR>なかま　なんじゃないの？",$00
+  db "あいつは　おたくらの<BR>なかま　なんじゃないの?",$00
 
 SECTION "Game Scene NPC Script 0060 Reference 235C (Data)", ROMX[$7D9E], BANK[$6B]
 GameSceneNPCScriptReference235C::

@@ -66,11 +66,11 @@ GameSceneNPCScriptReference2362::
 
 SECTION "Game Scene NPC Script 0061 Reference 2363 (Data)", ROMX[$71CE], BANK[$6B]
 GameSceneNPCScriptReference2363::
-  db "おや？<BR>……………………………………<BR>めが　するどいぞ……",$00
+  db "おや?<BR>……………………………………<BR>めが　するどいぞ……",$00
 
 SECTION "Game Scene NPC Script 0061 Reference 2364 (Data)", ROMX[$71EC], BANK[$6B]
 GameSceneNPCScriptReference2364::
-  db "くちには……　キバ？<BR>おおっ！　ぜんしんがウロコで<BR>おおわれている。",$00
+  db "くちには……　キバ?<BR>おおっ!　ぜんしんがウロコで<BR>おおわれている。",$00
 
 SECTION "Game Scene NPC Script 0061 Reference 2365 (Data)", ROMX[$720F], BANK[$6B]
 GameSceneNPCScriptReference2365::
@@ -160,11 +160,11 @@ GameSceneNPCScriptReference2369::
 
 SECTION "Game Scene NPC Script 0061 Reference 236A (Data)", ROMX[$72BC], BANK[$6B]
 GameSceneNPCScriptReference236A::
-  db "あら？<BR>……………………………………<BR>あたまに　ツノがあるわ？！",$00
+  db "あら?<BR>……………………………………<BR>あたまに　ツノがあるわ?!",$00
 
 SECTION "Game Scene NPC Script 0061 Reference 236B (Data)", ROMX[$72DD], BANK[$6B]
 GameSceneNPCScriptReference236B::
-  db "キバが　するどそうだわ。<BR>あっ！　めから<BR>ビームをだしたわ！！",$00
+  db "キバが　するどそうだわ。<BR>あっ!　めから<BR>ビームをだしたわ!!",$00
 
 SECTION "Game Scene NPC Script 0061 Reference 236C (Data)", ROMX[$72FD], BANK[$6B]
 GameSceneNPCScriptReference236C::
@@ -262,7 +262,7 @@ GameSceneNPCScriptReference2372::
 
 SECTION "Game Scene NPC Script 0061 Reference 2373 (Data)", ROMX[$7282], BANK[$6B]
 GameSceneNPCScriptReference2373::
-  db "あっ！<BR>まものだったのか！！",$00
+  db "あっ!<BR>まものだったのか!!",$00
 
 SECTION "Game Scene NPC Script 0061 Reference 2374 (Subroutine)", ROMX[$516B], BANK[$51]
 GameSceneNPCScriptReference2374::
@@ -298,7 +298,7 @@ GameSceneNPCScriptReference2377::
 
 SECTION "Game Scene NPC Script 0061 Reference 2378 (Data)", ROMX[$7378], BANK[$6B]
 GameSceneNPCScriptReference2378::
-  db "あっ！<BR>まものだったのね！！",$00
+  db "あっ!<BR>まものだったのね!!",$00
 
 SECTION "Game Scene NPC Script 0061 Reference 2379 (Subroutine)", ROMX[$51F7], BANK[$51]
 GameSceneNPCScriptReference2379::

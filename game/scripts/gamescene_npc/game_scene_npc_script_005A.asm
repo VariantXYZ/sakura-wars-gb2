@@ -328,15 +328,15 @@ GameSceneNPCScriptReference2275::
 
 SECTION "Game Scene NPC Script 005A Reference 2276 (Data)", ROMX[$745E], BANK[$6B]
 GameSceneNPCScriptReference2276::
-  db "きゃあああああ！<BR>ありがとうございますぅ！<BR>あたし　ののむらつぼみって<BR>いいます！",$00
+  db "きゃあああああ!<BR>ありがとうございますぅ!<BR>あたし　ののむらつぼみって<BR>いいます!",$00
 
 SECTION "Game Scene NPC Script 005A Reference 2277 (Data)", ROMX[$7488], BANK[$6B]
 GameSceneNPCScriptReference2277::
-  db "きがついたら<BR>まわりが　まものだらけで<BR>どうしようと　おもったけど<BR>たすかりましたぁ！",$00
+  db "きがついたら<BR>まわりが　まものだらけで<BR>どうしようと　おもったけど<BR>たすかりましたぁ!",$00
 
 SECTION "Game Scene NPC Script 005A Reference 2278 (Data)", ROMX[$74B4], BANK[$6B]
 GameSceneNPCScriptReference2278::
-  db "これ　ひろったものですけど<BR>おれいに　さしあげます！<BR>うけとってください！",$00
+  db "これ　ひろったものですけど<BR>おれいに　さしあげます!<BR>うけとってください!",$00
 
 SECTION "Game Scene NPC Script 005A Reference 2279 (Data)", ROMX[$74DA], BANK[$6B]
 GameSceneNPCScriptReference2279::
@@ -344,7 +344,7 @@ GameSceneNPCScriptReference2279::
 
 SECTION "Game Scene NPC Script 005A Reference 227A (Data)", ROMX[$74F0], BANK[$6B]
 GameSceneNPCScriptReference227A::
-  db "<NAME>は<BR>『スイリュウまつり』のわざを<BR>おぼえた！",$00
+  db "<NAME>は<BR>『スイリュウまつり』のわざを<BR>おぼえた!",$00
 
 SECTION "Game Scene NPC Script 005A Reference 227E (Data)", ROMX[$7508], BANK[$6B]
 GameSceneNPCScriptReference227E::
@@ -384,15 +384,15 @@ GameSceneNPCScriptReference2287::
 
 SECTION "Game Scene NPC Script 005A Reference 2288 (Data)", ROMX[$7685], BANK[$6B]
 GameSceneNPCScriptReference2288::
-  db "きゃあああああ！<BR>ありがとうございますぅ！<BR>あたし　ののむらつぼみって<BR>いいます！",$00
+  db "きゃあああああ!<BR>ありがとうございますぅ!<BR>あたし　ののむらつぼみって<BR>いいます!",$00
 
 SECTION "Game Scene NPC Script 005A Reference 2289 (Data)", ROMX[$76AF], BANK[$6B]
 GameSceneNPCScriptReference2289::
-  db "きがついたら<BR>まわりが　まものだらけで<BR>どうしようと　おもったけど<BR>たすかりましたぁ！",$00
+  db "きがついたら<BR>まわりが　まものだらけで<BR>どうしようと　おもったけど<BR>たすかりましたぁ!",$00
 
 SECTION "Game Scene NPC Script 005A Reference 228A (Data)", ROMX[$76DB], BANK[$6B]
 GameSceneNPCScriptReference228A::
-  db "これ　ひろったものですけど<BR>おれいに　さしあげます！<BR>うけとってください！",$00
+  db "これ　ひろったものですけど<BR>おれいに　さしあげます!<BR>うけとってください!",$00
 
 SECTION "Game Scene NPC Script 005A Reference 228B (Data)", ROMX[$7701], BANK[$6B]
 GameSceneNPCScriptReference228B::
@@ -400,7 +400,7 @@ GameSceneNPCScriptReference228B::
 
 SECTION "Game Scene NPC Script 005A Reference 228C (Data)", ROMX[$7717], BANK[$6B]
 GameSceneNPCScriptReference228C::
-  db "<NAME>は<BR>『スイリュウまつり』のわざを<BR>おぼえた！",$00
+  db "<NAME>は<BR>『スイリュウまつり』のわざを<BR>おぼえた!",$00
 
 SECTION "Game Scene NPC Script 005A Reference 2290 (Data)", ROMX[$772F], BANK[$6B]
 GameSceneNPCScriptReference2290::

@@ -242,7 +242,7 @@ GameSceneNPCScriptReference22CA::
 
 SECTION "Game Scene NPC Script 005D Reference 22CB (Data)", ROMX[$5F3C], BANK[$94]
 GameSceneNPCScriptReference22CB::
-  db "よお！　にいちゃん！<BR>たすけてくれんだな？！<BR>ありがとよっ！！",$00
+  db "よお!　にいちゃん!<BR>たすけてくれんだな?!<BR>ありがとよっ!!",$00
 
 SECTION "Game Scene NPC Script 005D Reference 22CC (Data)", ROMX[$5F5C], BANK[$94]
 GameSceneNPCScriptReference22CC::
@@ -278,7 +278,7 @@ GameSceneNPCScriptReference22D3::
 
 SECTION "Game Scene NPC Script 005D Reference 22D4 (Data)", ROMX[$5DCB], BANK[$94]
 GameSceneNPCScriptReference22D4::
-  db "よお！　ねえちゃん！<BR>たすけてくれんだな？！<BR>ありがとよっ！！",$00
+  db "よお!　ねえちゃん!<BR>たすけてくれんだな?!<BR>ありがとよっ!!",$00
 
 SECTION "Game Scene NPC Script 005D Reference 22D5 (Data)", ROMX[$5DEB], BANK[$94]
 GameSceneNPCScriptReference22D5::

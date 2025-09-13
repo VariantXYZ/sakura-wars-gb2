@@ -66,11 +66,11 @@ GameSceneNPCScriptReference224C::
 
 SECTION "Game Scene NPC Script 0059 Reference 224D (Data)", ROMX[$6FDE], BANK[$6B]
 GameSceneNPCScriptReference224D::
-  db "おや？<BR>……………………………………<BR>あたまに　ツノがある……",$00
+  db "おや?<BR>……………………………………<BR>あたまに　ツノがある……",$00
 
 SECTION "Game Scene NPC Script 0059 Reference 224E (Data)", ROMX[$6FFE], BANK[$6B]
 GameSceneNPCScriptReference224E::
-  db "するどい　キバだな〜。<BR>……………………………………<BR>あっ！　ひをはいたぞ！！",$00
+  db "するどい　キバだな〜。<BR>……………………………………<BR>あっ!　ひをはいたぞ!!",$00
 
 SECTION "Game Scene NPC Script 0059 Reference 224F (Data)", ROMX[$7026], BANK[$6B]
 GameSceneNPCScriptReference224F::
@@ -160,11 +160,11 @@ GameSceneNPCScriptReference2253::
 
 SECTION "Game Scene NPC Script 0059 Reference 2254 (Data)", ROMX[$70D3], BANK[$6B]
 GameSceneNPCScriptReference2254::
-  db "あら？<BR>……………………………………<BR>おおきな　めだわ〜……<BR>くちも　おおきいわ。",$00
+  db "あら?<BR>……………………………………<BR>おおきな　めだわ〜……<BR>くちも　おおきいわ。",$00
 
 SECTION "Game Scene NPC Script 0059 Reference 2255 (Data)", ROMX[$70FD], BANK[$6B]
 GameSceneNPCScriptReference2255::
-  db "あっ！　しっぽがある！<BR>せなかに　トゲがはえてるわ！",$00
+  db "あっ!　しっぽがある!<BR>せなかに　トゲがはえてるわ!",$00
 
 SECTION "Game Scene NPC Script 0059 Reference 2256 (Data)", ROMX[$7118], BANK[$6B]
 GameSceneNPCScriptReference2256::
@@ -262,7 +262,7 @@ GameSceneNPCScriptReference225C::
 
 SECTION "Game Scene NPC Script 0059 Reference 225D (Data)", ROMX[$7099], BANK[$6B]
 GameSceneNPCScriptReference225D::
-  db "あっ！<BR>まものだったのか！！",$00
+  db "あっ!<BR>まものだったのか!!",$00
 
 SECTION "Game Scene NPC Script 0059 Reference 225E (Subroutine)", ROMX[$5053], BANK[$51]
 GameSceneNPCScriptReference225E::
@@ -298,7 +298,7 @@ GameSceneNPCScriptReference2261::
 
 SECTION "Game Scene NPC Script 0059 Reference 2262 (Data)", ROMX[$7193], BANK[$6B]
 GameSceneNPCScriptReference2262::
-  db "あっ！<BR>まものだったのね！！",$00
+  db "あっ!<BR>まものだったのね!!",$00
 
 SECTION "Game Scene NPC Script 0059 Reference 2263 (Subroutine)", ROMX[$50DF], BANK[$51]
 GameSceneNPCScriptReference2263::

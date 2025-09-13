@@ -50,11 +50,11 @@ GameSceneNPCScriptReference168B::
 
 SECTION "Game Scene NPC Script 0040 Reference 168C (Data)", ROMX[$4E02], BANK[$66]
 GameSceneNPCScriptReference168C::
-  db "カンナさん！　アイリス！",$00
+  db "カンナさん!　アイリス!",$00
 
 SECTION "Game Scene NPC Script 0040 Reference 168D (Data)", ROMX[$4E0F], BANK[$66]
 GameSceneNPCScriptReference168D::
-  db "<NAME>！！！",$00
+  db "<NAME>!!!",$00
 
 SECTION "Game Scene NPC Script 0040 Reference 168E (Data)", ROMX[$4E14], BANK[$66]
 GameSceneNPCScriptReference168E::
@@ -62,10 +62,10 @@ GameSceneNPCScriptReference168E::
 
 SECTION "Game Scene NPC Script 0040 Reference 168F (Data)", ROMX[$4E18], BANK[$66]
 GameSceneNPCScriptReference168F::
-  db "いま　たすけます！！",$00
+  db "いま　たすけます!!",$00
 
 SECTION "Game Scene NPC Script 0040 Reference 1690 (Data)", ROMX[$4E23], BANK[$66]
 GameSceneNPCScriptReference1690::
-  db "きをつけろ！<BR>そいつらは　つええぞ！",$00
+  db "きをつけろ!<BR>そいつらは　つええぞ!",$00
 
 POPC

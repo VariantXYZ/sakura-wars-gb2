@@ -36,7 +36,7 @@ GameSceneNPCScriptReference22DB::
 
 SECTION "Game Scene NPC Script 005E Reference 22DC (Data)", ROMX[$5B97], BANK[$6C]
 GameSceneNPCScriptReference22DC::
-  db "おっ！<BR><NAME>はん<BR>ちょっとまった。",$00
+  db "おっ!<BR><NAME>はん<BR>ちょっとまった。",$00
 
 SECTION "Game Scene NPC Script 005E Reference 22DD (Data)", ROMX[$5BA8], BANK[$6C]
 GameSceneNPCScriptReference22DD::
@@ -48,7 +48,7 @@ GameSceneNPCScriptReference22DE::
 
 SECTION "Game Scene NPC Script 005E Reference 22DF (Data)", ROMX[$5BD9], BANK[$6C]
 GameSceneNPCScriptReference22DF::
-  db "<NAME>はん<BR>あやしそうなところを<BR>しらべてくれへんか？",$00
+  db "<NAME>はん<BR>あやしそうなところを<BR>しらべてくれへんか?",$00
 
 SECTION "Game Scene NPC Script 005E Reference 22E0 (Data)", ROMX[$5BF3], BANK[$6C]
 GameSceneNPCScriptReference22E0::

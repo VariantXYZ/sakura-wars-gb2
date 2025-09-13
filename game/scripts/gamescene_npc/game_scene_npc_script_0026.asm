@@ -144,11 +144,11 @@ GameSceneNPCScriptReference0A8F::
 
 SECTION "Game Scene NPC Script 0026 Reference 0A90 (Data)", ROMX[$4813], BANK[$65]
 GameSceneNPCScriptReference0A90::
-  db "わたし　シエスタさせて<BR>いただきまーす！<BR>いいですね？",$00
+  db "わたし　シエスタさせて<BR>いただきまーす!<BR>いいですね?",$00
 
 SECTION "Game Scene NPC Script 0026 Reference 0A91 (Data)", ROMX[$482F], BANK[$65]
 GameSceneNPCScriptReference0A91::
-  db "は……はい？<BR>わかりました。",$00
+  db "は……はい?<BR>わかりました。",$00
 
 SECTION "Game Scene NPC Script 0026 Reference 0A92 (Data)", ROMX[$483E], BANK[$65]
 GameSceneNPCScriptReference0A92::
@@ -156,7 +156,7 @@ GameSceneNPCScriptReference0A92::
 
 SECTION "Game Scene NPC Script 0026 Reference 0A93 (Data)", ROMX[$4857], BANK[$65]
 GameSceneNPCScriptReference0A93::
-  db "ここでまつとするか……<BR>……ん？！",$00
+  db "ここでまつとするか……<BR>……ん?!",$00
 
 SECTION "Game Scene NPC Script 0026 Reference 0A94 (Data)", ROMX[$4869], BANK[$65]
 GameSceneNPCScriptReference0A94::
@@ -164,11 +164,11 @@ GameSceneNPCScriptReference0A94::
 
 SECTION "Game Scene NPC Script 0026 Reference 0A95 (Data)", ROMX[$4883], BANK[$65]
 GameSceneNPCScriptReference0A95::
-  db "Ｏｈ！　まもの！！<BR>まものが　おそってきたの<BR>でーすね。",$00
+  db "Oh!　まもの!!<BR>まものが　おそってきたの<BR>でーすね。",$00
 
 SECTION "Game Scene NPC Script 0026 Reference 0A96 (Data)", ROMX[$48A2], BANK[$65]
 GameSceneNPCScriptReference0A96::
-  db "<NAME>さん<BR>だいじょうぶでしたか？",$00
+  db "<NAME>さん<BR>だいじょうぶでしたか?",$00
 
 SECTION "Game Scene NPC Script 0026 Reference 0A97 (Data)", ROMX[$48B2], BANK[$65]
 GameSceneNPCScriptReference0A97::
@@ -184,7 +184,7 @@ GameSceneNPCScriptReference0A99::
 
 SECTION "Game Scene NPC Script 0026 Reference 0A9A (Data)", ROMX[$4641], BANK[$65]
 GameSceneNPCScriptReference0A9A::
-  db "わたし　シエスタさせて<BR>いただきまーす！<BR>いいですね？",$00
+  db "わたし　シエスタさせて<BR>いただきまーす!<BR>いいですね?",$00
 
 SECTION "Game Scene NPC Script 0026 Reference 0A9B (Data)", ROMX[$465D], BANK[$65]
 GameSceneNPCScriptReference0A9B::
@@ -342,7 +342,7 @@ GameSceneNPCScriptReference0A9F::
 
 SECTION "Game Scene NPC Script 0026 Reference 0AA0 (Data)", ROMX[$4719], BANK[$65]
 GameSceneNPCScriptReference0AA0::
-  db "サンキューでーす。<BR>チャオ！",$00
+  db "サンキューでーす。<BR>チャオ!",$00
 
 SECTION "Game Scene NPC Script 0026 Reference 0AA2 (Data)", ROMX[$4728], BANK[$65]
 GameSceneNPCScriptReference0AA2::
@@ -358,7 +358,7 @@ GameSceneNPCScriptReference0AA4::
 
 SECTION "Game Scene NPC Script 0026 Reference 0AA5 (Data)", ROMX[$4766], BANK[$65]
 GameSceneNPCScriptReference0AA5::
-  db "ここでまつことにしましょう…<BR>……あら？！",$00
+  db "ここでまつことにしましょう…<BR>……あら?!",$00
 
 SECTION "Game Scene NPC Script 0026 Reference 0AA6 (Data)", ROMX[$477C], BANK[$65]
 GameSceneNPCScriptReference0AA6::
@@ -366,11 +366,11 @@ GameSceneNPCScriptReference0AA6::
 
 SECTION "Game Scene NPC Script 0026 Reference 0AA7 (Data)", ROMX[$4796], BANK[$65]
 GameSceneNPCScriptReference0AA7::
-  db "Ｏｈ！　まもの！！<BR>まものが　おそってきたの<BR>でーすね。",$00
+  db "Oh!　まもの!!<BR>まものが　おそってきたの<BR>でーすね。",$00
 
 SECTION "Game Scene NPC Script 0026 Reference 0AA8 (Data)", ROMX[$47B5], BANK[$65]
 GameSceneNPCScriptReference0AA8::
-  db "<NAME>さん<BR>だいじょうぶでしたか？",$00
+  db "<NAME>さん<BR>だいじょうぶでしたか?",$00
 
 SECTION "Game Scene NPC Script 0026 Reference 0AA9 (Data)", ROMX[$47C5], BANK[$65]
 GameSceneNPCScriptReference0AA9::

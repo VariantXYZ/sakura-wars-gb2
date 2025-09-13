@@ -89,7 +89,7 @@ GameSceneNPCScriptReference0053::
 
 SECTION "Game Scene NPC Script 0002 Reference 0054 (Data)", ROMX[$651F], BANK[$60]
 GameSceneNPCScriptReference0054::
-  db "わかったかい？",$00
+  db "わかったかい?",$00
 
 SECTION "Game Scene NPC Script 0002 Reference 0055 (Data)", ROMX[$6527], BANK[$60]
 GameSceneNPCScriptReference0055::

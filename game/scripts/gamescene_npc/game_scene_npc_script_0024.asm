@@ -520,11 +520,11 @@ GameSceneNPCScriptReference094C::
 
 SECTION "Game Scene NPC Script 0024 Reference 094D (Data)", ROMX[$4201], BANK[$64]
 GameSceneNPCScriptReference094D::
-  db "おや？　これはなんだ？",$00
+  db "おや?　これはなんだ?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 094E (Data)", ROMX[$420D], BANK[$64]
 GameSceneNPCScriptReference094E::
-  db "<NAME>　なにを<BR>みつけたんだ？",$00
+  db "<NAME>　なにを<BR>みつけたんだ?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 094F (Data)", ROMX[$421B], BANK[$64]
 GameSceneNPCScriptReference094F::
@@ -614,11 +614,11 @@ GameSceneNPCScriptReference0955::
 
 SECTION "Game Scene NPC Script 0024 Reference 0956 (Data)", ROMX[$43BB], BANK[$66]
 GameSceneNPCScriptReference0956::
-  db "あら？　これは　なにかしら？",$00
+  db "あら?　これは　なにかしら?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 0957 (Data)", ROMX[$43CA], BANK[$66]
 GameSceneNPCScriptReference0957::
-  db "<NAME>さん<BR>なにを　みつけたんですの？",$00
+  db "<NAME>さん<BR>なにを　みつけたんですの?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 0958 (Data)", ROMX[$43DC], BANK[$66]
 GameSceneNPCScriptReference0958::
@@ -874,7 +874,7 @@ GameSceneNPCScriptReference096A::
 
 SECTION "Game Scene NPC Script 0024 Reference 096B (Data)", ROMX[$6317], BANK[$65]
 GameSceneNPCScriptReference096B::
-  db "おや？　これはなんだ？",$00
+  db "おや?　これはなんだ?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 096C (Data)", ROMX[$6323], BANK[$65]
 GameSceneNPCScriptReference096C::
@@ -886,7 +886,7 @@ GameSceneNPCScriptReference096D::
 
 SECTION "Game Scene NPC Script 0024 Reference 096E (Data)", ROMX[$634C], BANK[$65]
 GameSceneNPCScriptReference096E::
-  db "それを　どうするんだ？",$00
+  db "それを　どうするんだ?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 096F (Data)", ROMX[$6358], BANK[$65]
 GameSceneNPCScriptReference096F::
@@ -978,7 +978,7 @@ GameSceneNPCScriptReference0977::
 
 SECTION "Game Scene NPC Script 0024 Reference 0978 (Data)", ROMX[$4283], BANK[$64]
 GameSceneNPCScriptReference0978::
-  db "でもな　あいては<BR>ただのきかいだ。<BR>おとりもなにもねーだろっ！！",$00
+  db "でもな　あいては<BR>ただのきかいだ。<BR>おとりもなにもねーだろっ!!",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 0979 (Data)", ROMX[$42A4], BANK[$64]
 GameSceneNPCScriptReference0979::
@@ -990,7 +990,7 @@ GameSceneNPCScriptReference097A::
 
 SECTION "Game Scene NPC Script 0024 Reference 097B (Data)", ROMX[$42CB], BANK[$64]
 GameSceneNPCScriptReference097B::
-  db "これを　はけば<BR>ふきとばされないんじゃ<BR>ないですか？",$00
+  db "これを　はけば<BR>ふきとばされないんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 097C (Data)", ROMX[$42E6], BANK[$64]
 GameSceneNPCScriptReference097C::
@@ -1018,11 +1018,11 @@ GameSceneNPCScriptReference0981::
 
 SECTION "Game Scene NPC Script 0024 Reference 0982 (Data)", ROMX[$438B], BANK[$64]
 GameSceneNPCScriptReference0982::
-  db "それが　せいこうしたとして<BR>ウチワを　あおいでたやつは<BR>どうするんだ？",$00
+  db "それが　せいこうしたとして<BR>ウチワを　あおいでたやつは<BR>どうするんだ?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 0983 (Data)", ROMX[$43AF], BANK[$64]
 GameSceneNPCScriptReference0983::
-  db "おいてきぼりに<BR>なっちゃうだろ？<BR>じゃあ　ダメだな。",$00
+  db "おいてきぼりに<BR>なっちゃうだろ?<BR>じゃあ　ダメだな。",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 0984 (Data)", ROMX[$43CA], BANK[$64]
 GameSceneNPCScriptReference0984::
@@ -1098,7 +1098,7 @@ GameSceneNPCScriptReference0995::
 
 SECTION "Game Scene NPC Script 0024 Reference 0996 (Data)", ROMX[$45D4], BANK[$66]
 GameSceneNPCScriptReference0996::
-  db "それが　せいこうしたとして<BR>センスを　あおいでたひとは<BR>どうしますの？",$00
+  db "それが　せいこうしたとして<BR>センスを　あおいでたひとは<BR>どうしますの?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 0997 (Data)", ROMX[$45F8], BANK[$66]
 GameSceneNPCScriptReference0997::
@@ -1114,11 +1114,11 @@ GameSceneNPCScriptReference0999::
 
 SECTION "Game Scene NPC Script 0024 Reference 099A (Data)", ROMX[$629B], BANK[$63]
 GameSceneNPCScriptReference099A::
-  db "あら？　これは　なにかしら？",$00
+  db "あら?　これは　なにかしら?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 099B (Data)", ROMX[$62AA], BANK[$63]
 GameSceneNPCScriptReference099B::
-  db "<NAME>　なにを<BR>みつけたんだ？",$00
+  db "<NAME>　なにを<BR>みつけたんだ?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 099C (Data)", ROMX[$62B8], BANK[$63]
 GameSceneNPCScriptReference099C::
@@ -1215,7 +1215,7 @@ GameSceneNPCScriptReference09A2::
 
 SECTION "Game Scene NPC Script 0024 Reference 09A3 (Data)", ROMX[$427E], BANK[$65]
 GameSceneNPCScriptReference09A3::
-  db "おや？　これはなんだ？",$00
+  db "おや?　これはなんだ?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 09A4 (Data)", ROMX[$428A], BANK[$65]
 GameSceneNPCScriptReference09A4::
@@ -1227,7 +1227,7 @@ GameSceneNPCScriptReference09A5::
 
 SECTION "Game Scene NPC Script 0024 Reference 09A6 (Data)", ROMX[$42B5], BANK[$65]
 GameSceneNPCScriptReference09A6::
-  db "それを　どうするですか？",$00
+  db "それを　どうするですか?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 09A7 (Data)", ROMX[$42C2], BANK[$65]
 GameSceneNPCScriptReference09A7::
@@ -1313,7 +1313,7 @@ GameSceneNPCScriptReference09AD::
 
 SECTION "Game Scene NPC Script 0024 Reference 09AE (Data)", ROMX[$6210], BANK[$64]
 GameSceneNPCScriptReference09AE::
-  db "あら？　これはなにかしら？",$00
+  db "あら?　これはなにかしら?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 09AF (Data)", ROMX[$621E], BANK[$64]
 GameSceneNPCScriptReference09AF::
@@ -1325,7 +1325,7 @@ GameSceneNPCScriptReference09B0::
 
 SECTION "Game Scene NPC Script 0024 Reference 09B1 (Data)", ROMX[$6249], BANK[$64]
 GameSceneNPCScriptReference09B1::
-  db "それを　どうするですか？",$00
+  db "それを　どうするですか?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 09B2 (Data)", ROMX[$6256], BANK[$64]
 GameSceneNPCScriptReference09B2::
@@ -1485,7 +1485,7 @@ GameSceneNPCScriptReference09CB::
 
 SECTION "Game Scene NPC Script 0024 Reference 09CC (Data)", ROMX[$635F], BANK[$63]
 GameSceneNPCScriptReference09CC::
-  db "これを　はけば<BR>ふきとばされないんじゃ<BR>ないですか？",$00
+  db "これを　はけば<BR>ふきとばされないんじゃ<BR>ないですか?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 09CD (Data)", ROMX[$637A], BANK[$63]
 GameSceneNPCScriptReference09CD::
@@ -1513,11 +1513,11 @@ GameSceneNPCScriptReference09D2::
 
 SECTION "Game Scene NPC Script 0024 Reference 09D3 (Data)", ROMX[$641F], BANK[$63]
 GameSceneNPCScriptReference09D3::
-  db "それが　せいこうしたとして<BR>ウチワを　あおいでたやつは<BR>どうするんだ？",$00
+  db "それが　せいこうしたとして<BR>ウチワを　あおいでたやつは<BR>どうするんだ?",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 09D4 (Data)", ROMX[$6443], BANK[$63]
 GameSceneNPCScriptReference09D4::
-  db "おいてきぼりに<BR>なっちゃうだろ？<BR>じゃあ　ダメだな。",$00
+  db "おいてきぼりに<BR>なっちゃうだろ?<BR>じゃあ　ダメだな。",$00
 
 SECTION "Game Scene NPC Script 0024 Reference 09D5 (Data)", ROMX[$645E], BANK[$63]
 GameSceneNPCScriptReference09D5::

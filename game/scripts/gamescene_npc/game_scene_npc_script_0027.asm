@@ -995,7 +995,7 @@ GameSceneNPCScriptReference0AF6::
 
 SECTION "Game Scene NPC Script 0027 Reference 0AF7 (Data)", ROMX[$729B], BANK[$63]
 GameSceneNPCScriptReference0AF7::
-  db "はい　こちらかすみです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0AF8 (Data)", ROMX[$72B7], BANK[$63]
 GameSceneNPCScriptReference0AF8::
@@ -1125,7 +1125,7 @@ GameSceneNPCScriptReference0B05::
 
 SECTION "Game Scene NPC Script 0027 Reference 0B06 (Data)", ROMX[$755B], BANK[$63]
 GameSceneNPCScriptReference0B06::
-  db "はい　こちらゆりです。<BR>どうかしたの？<BR><NAME>くん。",$00
+  db "はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0B07 (Data)", ROMX[$7574], BANK[$63]
 GameSceneNPCScriptReference0B07::
@@ -1255,7 +1255,7 @@ GameSceneNPCScriptReference0B14::
 
 SECTION "Game Scene NPC Script 0027 Reference 0B15 (Data)", ROMX[$7806], BANK[$63]
 GameSceneNPCScriptReference0B15::
-  db "はい　こちらつばきです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0B16 (Data)", ROMX[$7822], BANK[$63]
 GameSceneNPCScriptReference0B16::
@@ -1385,7 +1385,7 @@ GameSceneNPCScriptReference0B23::
 
 SECTION "Game Scene NPC Script 0027 Reference 0B24 (Data)", ROMX[$73D2], BANK[$65]
 GameSceneNPCScriptReference0B24::
-  db "はい　こちらかすみです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0B25 (Data)", ROMX[$73EE], BANK[$65]
 GameSceneNPCScriptReference0B25::
@@ -1515,7 +1515,7 @@ GameSceneNPCScriptReference0B32::
 
 SECTION "Game Scene NPC Script 0027 Reference 0B33 (Data)", ROMX[$7694], BANK[$65]
 GameSceneNPCScriptReference0B33::
-  db "はい　こちらゆりです。<BR>どうかしたの？<BR><NAME>さん。",$00
+  db "はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0B34 (Data)", ROMX[$76AD], BANK[$65]
 GameSceneNPCScriptReference0B34::
@@ -1645,7 +1645,7 @@ GameSceneNPCScriptReference0B41::
 
 SECTION "Game Scene NPC Script 0027 Reference 0B42 (Data)", ROMX[$7941], BANK[$65]
 GameSceneNPCScriptReference0B42::
-  db "はい　こちらつばきです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0B43 (Data)", ROMX[$795D], BANK[$65]
 GameSceneNPCScriptReference0B43::
@@ -2237,7 +2237,7 @@ GameSceneNPCScriptReference0B71::
 
 SECTION "Game Scene NPC Script 0027 Reference 0B72 (Data)", ROMX[$543D], BANK[$65]
 GameSceneNPCScriptReference0B72::
-  db "はい　こちらかすみです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0B73 (Data)", ROMX[$5459], BANK[$65]
 GameSceneNPCScriptReference0B73::
@@ -2367,7 +2367,7 @@ GameSceneNPCScriptReference0B80::
 
 SECTION "Game Scene NPC Script 0027 Reference 0B81 (Data)", ROMX[$56FD], BANK[$65]
 GameSceneNPCScriptReference0B81::
-  db "はい　こちらゆりです。<BR>どうかしたの？<BR><NAME>くん。",$00
+  db "はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0B82 (Data)", ROMX[$5716], BANK[$65]
 GameSceneNPCScriptReference0B82::
@@ -2497,7 +2497,7 @@ GameSceneNPCScriptReference0B8F::
 
 SECTION "Game Scene NPC Script 0027 Reference 0B90 (Data)", ROMX[$59A8], BANK[$65]
 GameSceneNPCScriptReference0B90::
-  db "はい　こちらつばきです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0B91 (Data)", ROMX[$59C4], BANK[$65]
 GameSceneNPCScriptReference0B91::
@@ -3041,7 +3041,7 @@ GameSceneNPCScriptReference0C04::
 
 SECTION "Game Scene NPC Script 0027 Reference 0C05 (Data)", ROMX[$530B], BANK[$63]
 GameSceneNPCScriptReference0C05::
-  db "はい　こちらかすみです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0C06 (Data)", ROMX[$5327], BANK[$63]
 GameSceneNPCScriptReference0C06::
@@ -3171,7 +3171,7 @@ GameSceneNPCScriptReference0C13::
 
 SECTION "Game Scene NPC Script 0027 Reference 0C14 (Data)", ROMX[$55CD], BANK[$63]
 GameSceneNPCScriptReference0C14::
-  db "はい　こちらゆりです。<BR>どうかしたの？<BR><NAME>さん。",$00
+  db "はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0C15 (Data)", ROMX[$55E6], BANK[$63]
 GameSceneNPCScriptReference0C15::
@@ -3301,7 +3301,7 @@ GameSceneNPCScriptReference0C22::
 
 SECTION "Game Scene NPC Script 0027 Reference 0C23 (Data)", ROMX[$587A], BANK[$63]
 GameSceneNPCScriptReference0C23::
-  db "はい　こちらつばきです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0C24 (Data)", ROMX[$5896], BANK[$63]
 GameSceneNPCScriptReference0C24::
@@ -3431,7 +3431,7 @@ GameSceneNPCScriptReference0C31::
 
 SECTION "Game Scene NPC Script 0027 Reference 0C32 (Data)", ROMX[$7316], BANK[$64]
 GameSceneNPCScriptReference0C32::
-  db "はい　こちらかすみです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0C33 (Data)", ROMX[$7332], BANK[$64]
 GameSceneNPCScriptReference0C33::
@@ -3561,7 +3561,7 @@ GameSceneNPCScriptReference0C40::
 
 SECTION "Game Scene NPC Script 0027 Reference 0C41 (Data)", ROMX[$75D6], BANK[$64]
 GameSceneNPCScriptReference0C41::
-  db "はい　こちらゆりです。<BR>どうかしたの？<BR><NAME>くん。",$00
+  db "はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0C42 (Data)", ROMX[$75EF], BANK[$64]
 GameSceneNPCScriptReference0C42::
@@ -3691,7 +3691,7 @@ GameSceneNPCScriptReference0C4F::
 
 SECTION "Game Scene NPC Script 0027 Reference 0C50 (Data)", ROMX[$7881], BANK[$64]
 GameSceneNPCScriptReference0C50::
-  db "はい　こちらつばきです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0C51 (Data)", ROMX[$789D], BANK[$64]
 GameSceneNPCScriptReference0C51::
@@ -3821,7 +3821,7 @@ GameSceneNPCScriptReference0C5E::
 
 SECTION "Game Scene NPC Script 0027 Reference 0C5F (Data)", ROMX[$52AB], BANK[$64]
 GameSceneNPCScriptReference0C5F::
-  db "はい　こちらかすみです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0C60 (Data)", ROMX[$52C7], BANK[$64]
 GameSceneNPCScriptReference0C60::
@@ -3951,7 +3951,7 @@ GameSceneNPCScriptReference0C6D::
 
 SECTION "Game Scene NPC Script 0027 Reference 0C6E (Data)", ROMX[$556D], BANK[$64]
 GameSceneNPCScriptReference0C6E::
-  db "はい　こちらゆりです。<BR>どうかしたの？<BR><NAME>さん。",$00
+  db "はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0C6F (Data)", ROMX[$5586], BANK[$64]
 GameSceneNPCScriptReference0C6F::
@@ -4081,7 +4081,7 @@ GameSceneNPCScriptReference0C7C::
 
 SECTION "Game Scene NPC Script 0027 Reference 0C7D (Data)", ROMX[$581A], BANK[$64]
 GameSceneNPCScriptReference0C7D::
-  db "はい　こちらつばきです。<BR>どうしたんですか？<BR><NAME>さん。",$00
+  db "はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0C7E (Data)", ROMX[$5836], BANK[$64]
 GameSceneNPCScriptReference0C7E::
@@ -5687,7 +5687,7 @@ GameSceneNPCScriptReference0D84::
 
 SECTION "Game Scene NPC Script 0027 Reference 0D85 (Data)", ROMX[$74F8], BANK[$63]
 GameSceneNPCScriptReference0D85::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0D86 (Data)", ROMX[$7506], BANK[$63]
 GameSceneNPCScriptReference0D86::
@@ -5756,7 +5756,7 @@ GameSceneNPCScriptReference0D8C::
 
 SECTION "Game Scene NPC Script 0027 Reference 0D8D (Data)", ROMX[$77A4], BANK[$63]
 GameSceneNPCScriptReference0D8D::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0D8E (Data)", ROMX[$77B2], BANK[$63]
 GameSceneNPCScriptReference0D8E::
@@ -5776,7 +5776,7 @@ GameSceneNPCScriptReference0D93::
 
 SECTION "Game Scene NPC Script 0027 Reference 0D94 (Data)", ROMX[$7A61], BANK[$63]
 GameSceneNPCScriptReference0D94::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0D95 (Data)", ROMX[$7A6F], BANK[$63]
 GameSceneNPCScriptReference0D95::
@@ -5796,7 +5796,7 @@ GameSceneNPCScriptReference0D9A::
 
 SECTION "Game Scene NPC Script 0027 Reference 0D9B (Data)", ROMX[$7AC7], BANK[$63]
 GameSceneNPCScriptReference0D9B::
-  db "はい　こちらかえで。<BR>どうしたの？<BR><NAME>くん。",$00
+  db "はい　こちらかえで。<BR>どうしたの?<BR><NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0D9C (Data)", ROMX[$7ADE], BANK[$63]
 GameSceneNPCScriptReference0D9C::
@@ -5926,7 +5926,7 @@ GameSceneNPCScriptReference0DA9::
 
 SECTION "Game Scene NPC Script 0027 Reference 0DAA (Data)", ROMX[$762E], BANK[$65]
 GameSceneNPCScriptReference0DAA::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0DAB (Data)", ROMX[$763F], BANK[$65]
 GameSceneNPCScriptReference0DAB::
@@ -5995,7 +5995,7 @@ GameSceneNPCScriptReference0DB1::
 
 SECTION "Game Scene NPC Script 0027 Reference 0DB2 (Data)", ROMX[$78DC], BANK[$65]
 GameSceneNPCScriptReference0DB2::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0DB3 (Data)", ROMX[$78ED], BANK[$65]
 GameSceneNPCScriptReference0DB3::
@@ -6015,7 +6015,7 @@ GameSceneNPCScriptReference0DB8::
 
 SECTION "Game Scene NPC Script 0027 Reference 0DB9 (Data)", ROMX[$7B9B], BANK[$65]
 GameSceneNPCScriptReference0DB9::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0DBA (Data)", ROMX[$7BAC], BANK[$65]
 GameSceneNPCScriptReference0DBA::
@@ -6035,7 +6035,7 @@ GameSceneNPCScriptReference0DBF::
 
 SECTION "Game Scene NPC Script 0027 Reference 0DC0 (Data)", ROMX[$7C04], BANK[$65]
 GameSceneNPCScriptReference0DC0::
-  db "はい　こちらかえで。<BR>どうしたの？<BR><NAME>。",$00
+  db "はい　こちらかえで。<BR>どうしたの?<BR><NAME>。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0DC1 (Data)", ROMX[$7C19], BANK[$65]
 GameSceneNPCScriptReference0DC1::
@@ -6817,7 +6817,7 @@ GameSceneNPCScriptReference0DFB::
 
 SECTION "Game Scene NPC Script 0027 Reference 0DFC (Data)", ROMX[$569A], BANK[$65]
 GameSceneNPCScriptReference0DFC::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0DFD (Data)", ROMX[$56A8], BANK[$65]
 GameSceneNPCScriptReference0DFD::
@@ -6886,7 +6886,7 @@ GameSceneNPCScriptReference0E03::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E04 (Data)", ROMX[$5946], BANK[$65]
 GameSceneNPCScriptReference0E04::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E05 (Data)", ROMX[$5954], BANK[$65]
 GameSceneNPCScriptReference0E05::
@@ -6906,7 +6906,7 @@ GameSceneNPCScriptReference0E0A::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E0B (Data)", ROMX[$5C03], BANK[$65]
 GameSceneNPCScriptReference0E0B::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E0C (Data)", ROMX[$5C11], BANK[$65]
 GameSceneNPCScriptReference0E0C::
@@ -6926,7 +6926,7 @@ GameSceneNPCScriptReference0E11::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E12 (Data)", ROMX[$5C69], BANK[$65]
 GameSceneNPCScriptReference0E12::
-  db "はい　こちらかえで。<BR>どうしたの？<BR><NAME>くん。",$00
+  db "はい　こちらかえで。<BR>どうしたの?<BR><NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E13 (Data)", ROMX[$5C80], BANK[$65]
 GameSceneNPCScriptReference0E13::
@@ -7226,7 +7226,7 @@ GameSceneNPCScriptReference0E4E::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E4F (Data)", ROMX[$5567], BANK[$63]
 GameSceneNPCScriptReference0E4F::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E50 (Data)", ROMX[$5578], BANK[$63]
 GameSceneNPCScriptReference0E50::
@@ -7295,7 +7295,7 @@ GameSceneNPCScriptReference0E56::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E57 (Data)", ROMX[$5815], BANK[$63]
 GameSceneNPCScriptReference0E57::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E58 (Data)", ROMX[$5826], BANK[$63]
 GameSceneNPCScriptReference0E58::
@@ -7315,7 +7315,7 @@ GameSceneNPCScriptReference0E5D::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E5E (Data)", ROMX[$5AD4], BANK[$63]
 GameSceneNPCScriptReference0E5E::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E5F (Data)", ROMX[$5AE5], BANK[$63]
 GameSceneNPCScriptReference0E5F::
@@ -7335,7 +7335,7 @@ GameSceneNPCScriptReference0E64::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E65 (Data)", ROMX[$5B3D], BANK[$63]
 GameSceneNPCScriptReference0E65::
-  db "はい　こちらかえで。<BR>どうしたの？<BR><NAME>。",$00
+  db "はい　こちらかえで。<BR>どうしたの?<BR><NAME>。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E66 (Data)", ROMX[$5B52], BANK[$63]
 GameSceneNPCScriptReference0E66::
@@ -7465,7 +7465,7 @@ GameSceneNPCScriptReference0E73::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E74 (Data)", ROMX[$7573], BANK[$64]
 GameSceneNPCScriptReference0E74::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E75 (Data)", ROMX[$7581], BANK[$64]
 GameSceneNPCScriptReference0E75::
@@ -7534,7 +7534,7 @@ GameSceneNPCScriptReference0E7B::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E7C (Data)", ROMX[$781F], BANK[$64]
 GameSceneNPCScriptReference0E7C::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E7D (Data)", ROMX[$782D], BANK[$64]
 GameSceneNPCScriptReference0E7D::
@@ -7554,7 +7554,7 @@ GameSceneNPCScriptReference0E82::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E83 (Data)", ROMX[$7ADC], BANK[$64]
 GameSceneNPCScriptReference0E83::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E84 (Data)", ROMX[$7AEA], BANK[$64]
 GameSceneNPCScriptReference0E84::
@@ -7574,7 +7574,7 @@ GameSceneNPCScriptReference0E89::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E8A (Data)", ROMX[$7B42], BANK[$64]
 GameSceneNPCScriptReference0E8A::
-  db "はい　こちらかえで。<BR>どうしたの？<BR><NAME>くん。",$00
+  db "はい　こちらかえで。<BR>どうしたの?<BR><NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E8B (Data)", ROMX[$7B59], BANK[$64]
 GameSceneNPCScriptReference0E8B::
@@ -7704,7 +7704,7 @@ GameSceneNPCScriptReference0E98::
 
 SECTION "Game Scene NPC Script 0027 Reference 0E99 (Data)", ROMX[$5507], BANK[$64]
 GameSceneNPCScriptReference0E99::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0E9A (Data)", ROMX[$5518], BANK[$64]
 GameSceneNPCScriptReference0E9A::
@@ -7773,7 +7773,7 @@ GameSceneNPCScriptReference0EA0::
 
 SECTION "Game Scene NPC Script 0027 Reference 0EA1 (Data)", ROMX[$57B5], BANK[$64]
 GameSceneNPCScriptReference0EA1::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0EA2 (Data)", ROMX[$57C6], BANK[$64]
 GameSceneNPCScriptReference0EA2::
@@ -7793,7 +7793,7 @@ GameSceneNPCScriptReference0EA7::
 
 SECTION "Game Scene NPC Script 0027 Reference 0EA8 (Data)", ROMX[$5A74], BANK[$64]
 GameSceneNPCScriptReference0EA8::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0EA9 (Data)", ROMX[$5A85], BANK[$64]
 GameSceneNPCScriptReference0EA9::
@@ -7813,7 +7813,7 @@ GameSceneNPCScriptReference0EAE::
 
 SECTION "Game Scene NPC Script 0027 Reference 0EAF (Data)", ROMX[$5ADD], BANK[$64]
 GameSceneNPCScriptReference0EAF::
-  db "はい　こちらかえで。<BR>どうしたの？<BR><NAME>。",$00
+  db "はい　こちらかえで。<BR>どうしたの?<BR><NAME>。",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0EB0 (Data)", ROMX[$5AF2], BANK[$64]
 GameSceneNPCScriptReference0EB0::
@@ -8239,7 +8239,7 @@ GameSceneNPCScriptReference0EF8::
 
 SECTION "Game Scene NPC Script 0027 Reference 0EF9 (Data)", ROMX[$7E23], BANK[$64]
 GameSceneNPCScriptReference0EF9::
-  db "では　『けん』の<BR>ところへ　もどりましょう！",$00
+  db "では　『けん』の<BR>ところへ　もどりましょう!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0EFA (Data)", ROMX[$7E3A], BANK[$64]
 GameSceneNPCScriptReference0EFA::
@@ -8324,7 +8324,7 @@ GameSceneNPCScriptReference0F0F::
 
 SECTION "Game Scene NPC Script 0027 Reference 0F10 (Data)", ROMX[$5DB6], BANK[$64]
 GameSceneNPCScriptReference0F10::
-  db "では　『けん』の<BR>ところへ　もどりましょう！",$00
+  db "では　『けん』の<BR>ところへ　もどりましょう!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0F11 (Data)", ROMX[$5DCD], BANK[$64]
 GameSceneNPCScriptReference0F11::
@@ -8468,7 +8468,7 @@ GameSceneNPCScriptReference0F28::
 
 SECTION "Game Scene NPC Script 0027 Reference 0F29 (Data)", ROMX[$7D1F], BANK[$63]
 GameSceneNPCScriptReference0F29::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0F2A (Data)", ROMX[$7D2D], BANK[$63]
 GameSceneNPCScriptReference0F2A::
@@ -8488,7 +8488,7 @@ GameSceneNPCScriptReference0F2F::
 
 SECTION "Game Scene NPC Script 0027 Reference 0F30 (Data)", ROMX[$7E53], BANK[$65]
 GameSceneNPCScriptReference0F30::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0F31 (Data)", ROMX[$7E64], BANK[$65]
 GameSceneNPCScriptReference0F31::
@@ -8689,7 +8689,7 @@ GameSceneNPCScriptReference0F45::
 
 SECTION "Game Scene NPC Script 0027 Reference 0F46 (Data)", ROMX[$5EC1], BANK[$65]
 GameSceneNPCScriptReference0F46::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0F47 (Data)", ROMX[$5ECF], BANK[$65]
 GameSceneNPCScriptReference0F47::
@@ -8709,7 +8709,7 @@ GameSceneNPCScriptReference0F4C::
 
 SECTION "Game Scene NPC Script 0027 Reference 0F4D (Data)", ROMX[$5D8C], BANK[$63]
 GameSceneNPCScriptReference0F4D::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0F4E (Data)", ROMX[$5D9D], BANK[$63]
 GameSceneNPCScriptReference0F4E::
@@ -8729,7 +8729,7 @@ GameSceneNPCScriptReference0F53::
 
 SECTION "Game Scene NPC Script 0027 Reference 0F54 (Data)", ROMX[$7D9A], BANK[$64]
 GameSceneNPCScriptReference0F54::
-  db "あっ　ボイラーがついた！！",$00
+  db "あっ　ボイラーがついた!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0F55 (Data)", ROMX[$7DA8], BANK[$64]
 GameSceneNPCScriptReference0F55::
@@ -8749,7 +8749,7 @@ GameSceneNPCScriptReference0F5A::
 
 SECTION "Game Scene NPC Script 0027 Reference 0F5B (Data)", ROMX[$5D2C], BANK[$64]
 GameSceneNPCScriptReference0F5B::
-  db "あっ　ボイラーが<BR>つきました！！",$00
+  db "あっ　ボイラーが<BR>つきました!!",$00
 
 SECTION "Game Scene NPC Script 0027 Reference 0F5C (Data)", ROMX[$5D3D], BANK[$64]
 GameSceneNPCScriptReference0F5C::

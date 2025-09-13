@@ -328,11 +328,11 @@ GameSceneNPCScriptReference11B9::
 
 SECTION "Game Scene NPC Script 002A Reference 11BA (Data)", ROMX[$7E80], BANK[$63]
 GameSceneNPCScriptReference11BA::
-  db "ああっ！　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
+  db "ああっ!　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11BB (Data)", ROMX[$7E9A], BANK[$63]
 GameSceneNPCScriptReference11BB::
-  db "おまえは　なにものだ！！",$00
+  db "おまえは　なにものだ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11BC (Data)", ROMX[$7EA7], BANK[$63]
 GameSceneNPCScriptReference11BC::
@@ -340,27 +340,27 @@ GameSceneNPCScriptReference11BC::
 
 SECTION "Game Scene NPC Script 002A Reference 11BD (Data)", ROMX[$7EC6], BANK[$63]
 GameSceneNPCScriptReference11BD::
-  db "バカだと〜　コノヤロ〜！<BR>ゆるさねーぜ！！",$00
+  db "バカだと〜　コノヤロ〜!<BR>ゆるさねーぜ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11BE (Data)", ROMX[$7EDC], BANK[$63]
 GameSceneNPCScriptReference11BE::
-  db "ゆるさないから<BR>なんだってーんだよ！<BR>オレさまは　この『けん』を<BR>まもってんだ！！",$00
+  db "ゆるさないから<BR>なんだってーんだよ!<BR>オレさまは　この『けん』を<BR>まもってんだ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11BF (Data)", ROMX[$7F06], BANK[$63]
 GameSceneNPCScriptReference11BF::
-  db "おまえらなんか<BR>オレさまに　かなうわけ<BR>ねーだろ！",$00
+  db "おまえらなんか<BR>オレさまに　かなうわけ<BR>ねーだろ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11C0 (Data)", ROMX[$7F20], BANK[$63]
 GameSceneNPCScriptReference11C0::
-  db "『けん』を　まもってる？<BR>だれに　いわれてだ！！",$00
+  db "『けん』を　まもってる?<BR>だれに　いわれてだ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11C1 (Data)", ROMX[$7F39], BANK[$63]
 GameSceneNPCScriptReference11C1::
-  db "ごちゃごちゃ　うるせー！<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ！",$00
+  db "ごちゃごちゃ　うるせー!<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11C2 (Data)", ROMX[$7F5E], BANK[$63]
 GameSceneNPCScriptReference11C2::
-  db "<NAME>！　いくぜ！！",$00
+  db "<NAME>!　いくぜ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11C3 (Data)", ROMX[$7F67], BANK[$63]
 GameSceneNPCScriptReference11C3::
@@ -372,11 +372,11 @@ GameSceneNPCScriptReference11C4::
 
 SECTION "Game Scene NPC Script 002A Reference 11C5 (Data)", ROMX[$7F9C], BANK[$63]
 GameSceneNPCScriptReference11C5::
-  db "やりましたね　カンナさん！",$00
+  db "やりましたね　カンナさん!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11C6 (Data)", ROMX[$7FAA], BANK[$63]
 GameSceneNPCScriptReference11C6::
-  db "おう！　<NAME><BR>バッチリだぜ！！",$00
+  db "おう!　<NAME><BR>バッチリだぜ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11C7 (Data)", ROMX[$7FB9], BANK[$63]
 GameSceneNPCScriptReference11C7::
@@ -392,11 +392,11 @@ GameSceneNPCScriptReference11C9::
 
 SECTION "Game Scene NPC Script 002A Reference 11CA (Data)", ROMX[$7FB9], BANK[$65]
 GameSceneNPCScriptReference11CA::
-  db "ああっ！　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
+  db "ああっ!　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11CB (Data)", ROMX[$7FD3], BANK[$65]
 GameSceneNPCScriptReference11CB::
-  db "おまえは　なにものですの！！",$00
+  db "おまえは　なにものですの!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11CC (Data)", ROMX[$4000], BANK[$66]
 GameSceneNPCScriptReference11CC::
@@ -408,27 +408,27 @@ GameSceneNPCScriptReference11CD::
 
 SECTION "Game Scene NPC Script 002A Reference 11CE (Data)", ROMX[$403D], BANK[$66]
 GameSceneNPCScriptReference11CE::
-  db "ゆるしませんことよ！！",$00
+  db "ゆるしませんことよ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11CF (Data)", ROMX[$4049], BANK[$66]
 GameSceneNPCScriptReference11CF::
-  db "ゆるさないから<BR>なんだってーんだよ！<BR>オレさまは　この『けん』を<BR>まもってんだ！！",$00
+  db "ゆるさないから<BR>なんだってーんだよ!<BR>オレさまは　この『けん』を<BR>まもってんだ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11D0 (Data)", ROMX[$4073], BANK[$66]
 GameSceneNPCScriptReference11D0::
-  db "おまえらなんか<BR>オレさまに　かなうわけ<BR>ねーだろ！",$00
+  db "おまえらなんか<BR>オレさまに　かなうわけ<BR>ねーだろ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11D1 (Data)", ROMX[$408D], BANK[$66]
 GameSceneNPCScriptReference11D1::
-  db "『けん』を<BR>まもっているですって？<BR>だれに　いわれてですの！？",$00
+  db "『けん』を<BR>まもっているですって?<BR>だれに　いわれてですの!?",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11D2 (Data)", ROMX[$40AD], BANK[$66]
 GameSceneNPCScriptReference11D2::
-  db "ごちゃごちゃ　うるせー！<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ！",$00
+  db "ごちゃごちゃ　うるせー!<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11D3 (Data)", ROMX[$40D2], BANK[$66]
 GameSceneNPCScriptReference11D3::
-  db "<NAME>さん！<BR>いきますわよ！！",$00
+  db "<NAME>さん!<BR>いきますわよ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11D4 (Data)", ROMX[$40E0], BANK[$66]
 GameSceneNPCScriptReference11D4::
@@ -440,7 +440,7 @@ GameSceneNPCScriptReference11D5::
 
 SECTION "Game Scene NPC Script 002A Reference 11D6 (Data)", ROMX[$4115], BANK[$66]
 GameSceneNPCScriptReference11D6::
-  db "やりましたね　すみれさん！",$00
+  db "やりましたね　すみれさん!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11D7 (Data)", ROMX[$4123], BANK[$66]
 GameSceneNPCScriptReference11D7::
@@ -745,7 +745,7 @@ GameSceneNPCScriptReference11DD::
 
 SECTION "Game Scene NPC Script 002A Reference 11DE (Data)", ROMX[$6018], BANK[$65]
 GameSceneNPCScriptReference11DE::
-  db "ああっ！　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
+  db "ああっ!　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11DF (Data)", ROMX[$6032], BANK[$65]
 GameSceneNPCScriptReference11DF::
@@ -757,27 +757,27 @@ GameSceneNPCScriptReference11E0::
 
 SECTION "Game Scene NPC Script 002A Reference 11E1 (Data)", ROMX[$605D], BANK[$65]
 GameSceneNPCScriptReference11E1::
-  db "バカ？……",$00
+  db "バカ?……",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11E2 (Data)", ROMX[$6063], BANK[$65]
 GameSceneNPCScriptReference11E2::
-  db "おまえは　ここで<BR>なにをしているんだ？",$00
+  db "おまえは　ここで<BR>なにをしているんだ?",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11E3 (Data)", ROMX[$6077], BANK[$65]
 GameSceneNPCScriptReference11E3::
-  db "なんだ〜　コノヤロー。<BR>オレさまは　この『けん』を<BR>まもってんだよ！",$00
+  db "なんだ〜　コノヤロー。<BR>オレさまは　この『けん』を<BR>まもってんだよ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11E4 (Data)", ROMX[$609A], BANK[$65]
 GameSceneNPCScriptReference11E4::
-  db "『けん』を　まもってる？<BR>だれの　めいれいだ？",$00
+  db "『けん』を　まもってる?<BR>だれの　めいれいだ?",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11E5 (Data)", ROMX[$60B2], BANK[$65]
 GameSceneNPCScriptReference11E5::
-  db "ごちゃごちゃ　うるせー！<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ！",$00
+  db "ごちゃごちゃ　うるせー!<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11E6 (Data)", ROMX[$60D7], BANK[$65]
 GameSceneNPCScriptReference11E6::
-  db "くるぞ！　<NAME>！！",$00
+  db "くるぞ!　<NAME>!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11E7 (Data)", ROMX[$60E0], BANK[$65]
 GameSceneNPCScriptReference11E7::
@@ -789,7 +789,7 @@ GameSceneNPCScriptReference11E8::
 
 SECTION "Game Scene NPC Script 002A Reference 11E9 (Data)", ROMX[$6115], BANK[$65]
 GameSceneNPCScriptReference11E9::
-  db "やりましたね　レニさん！",$00
+  db "やりましたね　レニさん!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11EA (Data)", ROMX[$6122], BANK[$65]
 GameSceneNPCScriptReference11EA::
@@ -809,11 +809,11 @@ GameSceneNPCScriptReference11ED::
 
 SECTION "Game Scene NPC Script 002A Reference 11EE (Data)", ROMX[$5EEF], BANK[$63]
 GameSceneNPCScriptReference11EE::
-  db "ああっ！　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
+  db "ああっ!　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11EF (Data)", ROMX[$5F09], BANK[$63]
 GameSceneNPCScriptReference11EF::
-  db "おまえは　なにものだ！！",$00
+  db "おまえは　なにものだ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11F0 (Data)", ROMX[$5F16], BANK[$63]
 GameSceneNPCScriptReference11F0::
@@ -821,27 +821,27 @@ GameSceneNPCScriptReference11F0::
 
 SECTION "Game Scene NPC Script 002A Reference 11F1 (Data)", ROMX[$5F35], BANK[$63]
 GameSceneNPCScriptReference11F1::
-  db "バカだと〜　コノヤロ〜！<BR>ゆるさねーぜ！！",$00
+  db "バカだと〜　コノヤロ〜!<BR>ゆるさねーぜ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11F2 (Data)", ROMX[$5F4B], BANK[$63]
 GameSceneNPCScriptReference11F2::
-  db "ゆるさないから<BR>なんだってーんだよ！<BR>オレさまは　この『けん』を<BR>まもってんだ！！",$00
+  db "ゆるさないから<BR>なんだってーんだよ!<BR>オレさまは　この『けん』を<BR>まもってんだ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11F3 (Data)", ROMX[$5F75], BANK[$63]
 GameSceneNPCScriptReference11F3::
-  db "おまえらなんか<BR>オレさまに　かなうわけ<BR>ねーだろ！",$00
+  db "おまえらなんか<BR>オレさまに　かなうわけ<BR>ねーだろ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11F4 (Data)", ROMX[$5F8F], BANK[$63]
 GameSceneNPCScriptReference11F4::
-  db "『けん』を　まもってる？<BR>だれに　いわれてだ！！",$00
+  db "『けん』を　まもってる?<BR>だれに　いわれてだ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11F5 (Data)", ROMX[$5FA8], BANK[$63]
 GameSceneNPCScriptReference11F5::
-  db "ごちゃごちゃ　うるせー！<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ！",$00
+  db "ごちゃごちゃ　うるせー!<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11F6 (Data)", ROMX[$5FCD], BANK[$63]
 GameSceneNPCScriptReference11F6::
-  db "<NAME>！　いくぜ！！",$00
+  db "<NAME>!　いくぜ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11F7 (Data)", ROMX[$5FD6], BANK[$63]
 GameSceneNPCScriptReference11F7::
@@ -853,11 +853,11 @@ GameSceneNPCScriptReference11F8::
 
 SECTION "Game Scene NPC Script 002A Reference 11F9 (Data)", ROMX[$600B], BANK[$63]
 GameSceneNPCScriptReference11F9::
-  db "やりましたね　カンナさん！",$00
+  db "やりましたね　カンナさん!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11FA (Data)", ROMX[$6019], BANK[$63]
 GameSceneNPCScriptReference11FA::
-  db "おう！　<NAME>！！<BR>おまえ　なかなかやるじゃ<BR>ねーか！！",$00
+  db "おう!　<NAME>!!<BR>おまえ　なかなかやるじゃ<BR>ねーか!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11FB (Data)", ROMX[$6034], BANK[$63]
 GameSceneNPCScriptReference11FB::
@@ -873,11 +873,11 @@ GameSceneNPCScriptReference11FD::
 
 SECTION "Game Scene NPC Script 002A Reference 11FE (Data)", ROMX[$7F02], BANK[$64]
 GameSceneNPCScriptReference11FE::
-  db "ああっ！　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
+  db "ああっ!　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
 
 SECTION "Game Scene NPC Script 002A Reference 11FF (Data)", ROMX[$7F1C], BANK[$64]
 GameSceneNPCScriptReference11FF::
-  db "おまえは　なにものでーすか！",$00
+  db "おまえは　なにものでーすか!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1200 (Data)", ROMX[$7F2B], BANK[$64]
 GameSceneNPCScriptReference1200::
@@ -885,27 +885,27 @@ GameSceneNPCScriptReference1200::
 
 SECTION "Game Scene NPC Script 002A Reference 1201 (Data)", ROMX[$7F4A], BANK[$64]
 GameSceneNPCScriptReference1201::
-  db "Ｏｈ！　おまえ　わたしを<BR>バカよばわりしましたね。<BR>ゆるしませーん。",$00
+  db "Oh!　おまえ　わたしを<BR>バカよばわりしましたね。<BR>ゆるしませーん。",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1202 (Data)", ROMX[$7F6F], BANK[$64]
 GameSceneNPCScriptReference1202::
-  db "ゆるさないから<BR>なんだってーんだよ！<BR>オレさまは　この『けん』を<BR>まもってんだ！！",$00
+  db "ゆるさないから<BR>なんだってーんだよ!<BR>オレさまは　この『けん』を<BR>まもってんだ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1203 (Data)", ROMX[$7F99], BANK[$64]
 GameSceneNPCScriptReference1203::
-  db "おまえらなんか<BR>オレさまに　かなうわけ<BR>ねーだろ！",$00
+  db "おまえらなんか<BR>オレさまに　かなうわけ<BR>ねーだろ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1204 (Data)", ROMX[$7FB3], BANK[$64]
 GameSceneNPCScriptReference1204::
-  db "『けん』を　<BR>まもってるですって？<BR>だれに　いわれてですか？",$00
+  db "『けん』を　<BR>まもってるですって?<BR>だれに　いわれてですか?",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1205 (Data)", ROMX[$7FD2], BANK[$64]
 GameSceneNPCScriptReference1205::
-  db "ごちゃごちゃ　うるせー！<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ！",$00
+  db "ごちゃごちゃ　うるせー!<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1206 (Data)", ROMX[$4000], BANK[$65]
 GameSceneNPCScriptReference1206::
-  db "<NAME>さん！<BR>いくでーす！",$00
+  db "<NAME>さん!<BR>いくでーす!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1207 (Data)", ROMX[$400C], BANK[$65]
 GameSceneNPCScriptReference1207::
@@ -937,11 +937,11 @@ GameSceneNPCScriptReference120D::
 
 SECTION "Game Scene NPC Script 002A Reference 120E (Data)", ROMX[$5E96], BANK[$64]
 GameSceneNPCScriptReference120E::
-  db "ああっ！　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
+  db "ああっ!　おまえらか〜<BR>こんな　わるさしたのは〜。",$00
 
 SECTION "Game Scene NPC Script 002A Reference 120F (Data)", ROMX[$5EB0], BANK[$64]
 GameSceneNPCScriptReference120F::
-  db "おまえは　なにものでーすか！",$00
+  db "おまえは　なにものでーすか!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1210 (Data)", ROMX[$5EBF], BANK[$64]
 GameSceneNPCScriptReference1210::
@@ -949,27 +949,27 @@ GameSceneNPCScriptReference1210::
 
 SECTION "Game Scene NPC Script 002A Reference 1211 (Data)", ROMX[$5EDE], BANK[$64]
 GameSceneNPCScriptReference1211::
-  db "Ｏｈ！　おまえ　わたしを<BR>バカよばわりしましたね。<BR>ゆるしませーん。",$00
+  db "Oh!　おまえ　わたしを<BR>バカよばわりしましたね。<BR>ゆるしませーん。",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1212 (Data)", ROMX[$5F03], BANK[$64]
 GameSceneNPCScriptReference1212::
-  db "ゆるさないから<BR>なんだってーんだよ！<BR>オレさまは　この『けん』を<BR>まもってんだ！！",$00
+  db "ゆるさないから<BR>なんだってーんだよ!<BR>オレさまは　この『けん』を<BR>まもってんだ!!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1213 (Data)", ROMX[$5F2D], BANK[$64]
 GameSceneNPCScriptReference1213::
-  db "おまえらなんか<BR>オレさまに　かなうわけ<BR>ねーだろ！",$00
+  db "おまえらなんか<BR>オレさまに　かなうわけ<BR>ねーだろ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1214 (Data)", ROMX[$5F47], BANK[$64]
 GameSceneNPCScriptReference1214::
-  db "『けん』を　<BR>まもってるですって？<BR>だれに　いわれてですか？",$00
+  db "『けん』を　<BR>まもってるですって?<BR>だれに　いわれてですか?",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1215 (Data)", ROMX[$5F66], BANK[$64]
 GameSceneNPCScriptReference1215::
-  db "ごちゃごちゃ　うるせー！<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ！",$00
+  db "ごちゃごちゃ　うるせー!<BR>めんどくせーから<BR>おまえら　やっつけちゃうぜ!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1216 (Data)", ROMX[$5F8B], BANK[$64]
 GameSceneNPCScriptReference1216::
-  db "<NAME>さん！<BR>いくでーす！",$00
+  db "<NAME>さん!<BR>いくでーす!",$00
 
 SECTION "Game Scene NPC Script 002A Reference 1217 (Data)", ROMX[$5F97], BANK[$64]
 GameSceneNPCScriptReference1217::

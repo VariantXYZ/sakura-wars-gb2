@@ -140,15 +140,15 @@ GameSceneNPCScriptReference137F::
 
 SECTION "Game Scene NPC Script 002F Reference 1380 (Data)", ROMX[$4B05], BANK[$66]
 GameSceneNPCScriptReference1380::
-  db "な　なんだ？！",$00
+  db "な　なんだ?!",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1381 (Data)", ROMX[$4B0D], BANK[$66]
 GameSceneNPCScriptReference1381::
-  db "いまの　ゆれは　じしん？<BR>それとも　てきか？！<BR>…………………………それとも<BR>カンナさんたちが？！",$00
+  db "いまの　ゆれは　じしん?<BR>それとも　てきか?!<BR>…………………………それとも<BR>カンナさんたちが?!",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1382 (Data)", ROMX[$4B3F], BANK[$66]
 GameSceneNPCScriptReference1382::
-  db "カンナさん！　アイリス！<BR><NAME>です。<BR>なにが　あったんですか！！",$00
+  db "カンナさん!　アイリス!<BR><NAME>です。<BR>なにが　あったんですか!!",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1383 (Data)", ROMX[$4B5F], BANK[$66]
 GameSceneNPCScriptReference1383::
@@ -156,19 +156,19 @@ GameSceneNPCScriptReference1383::
 
 SECTION "Game Scene NPC Script 002F Reference 1384 (Data)", ROMX[$4B7A], BANK[$66]
 GameSceneNPCScriptReference1384::
-  db "もー！　カンナったら<BR>せっかちなんだからー！！",$00
+  db "もー!　カンナったら<BR>せっかちなんだからー!!",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1385 (Data)", ROMX[$4B92], BANK[$66]
 GameSceneNPCScriptReference1385::
-  db "アイリス！<BR>だいじょうぶなのか？",$00
+  db "アイリス!<BR>だいじょうぶなのか?",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1386 (Data)", ROMX[$4BA3], BANK[$66]
 GameSceneNPCScriptReference1386::
-  db "あっ！　<NAME>。<BR>だいじょうぶだよ。<BR>しんぱい　しないで。",$00
+  db "あっ!　<NAME>。<BR>だいじょうぶだよ。<BR>しんぱい　しないで。",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1387 (Data)", ROMX[$4BBF], BANK[$66]
 GameSceneNPCScriptReference1387::
-  db "カンナが　ながい　かいだんに<BR>しびれを　きらしちゃって<BR>「あ〜もう！　ちんたら<BR>　おりてらんねえ〜っ」って",$00
+  db "カンナが　ながい　かいだんに<BR>しびれを　きらしちゃって<BR>「あ〜もう!　ちんたら<BR>　おりてらんねえ〜っ」って",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1388 (Data)", ROMX[$4BF5], BANK[$66]
 GameSceneNPCScriptReference1388::
@@ -192,15 +192,15 @@ GameSceneNPCScriptReference138C::
 
 SECTION "Game Scene NPC Script 002F Reference 138D (Data)", ROMX[$4C80], BANK[$66]
 GameSceneNPCScriptReference138D::
-  db "な　なに！！<BR>なにが　おこったの？！",$00
+  db "な　なに!!<BR>なにが　おこったの?!",$00
 
 SECTION "Game Scene NPC Script 002F Reference 138E (Data)", ROMX[$4C93], BANK[$66]
 GameSceneNPCScriptReference138E::
-  db "いまの　ゆれは　じしん？<BR>それとも　てき？！<BR>…………………………それとも<BR>アイリスたちが？！",$00
+  db "いまの　ゆれは　じしん?<BR>それとも　てき?!<BR>…………………………それとも<BR>アイリスたちが?!",$00
 
 SECTION "Game Scene NPC Script 002F Reference 138F (Data)", ROMX[$4CC3], BANK[$66]
 GameSceneNPCScriptReference138F::
-  db "カンナさん！　アイリス！<BR><NAME>です。<BR>なにが　あったんですか！！",$00
+  db "カンナさん!　アイリス!<BR><NAME>です。<BR>なにが　あったんですか!!",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1390 (Data)", ROMX[$4CE3], BANK[$66]
 GameSceneNPCScriptReference1390::
@@ -208,19 +208,19 @@ GameSceneNPCScriptReference1390::
 
 SECTION "Game Scene NPC Script 002F Reference 1391 (Data)", ROMX[$4CFE], BANK[$66]
 GameSceneNPCScriptReference1391::
-  db "もー！　カンナったら<BR>せっかちなんだからー！！",$00
+  db "もー!　カンナったら<BR>せっかちなんだからー!!",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1392 (Data)", ROMX[$4D16], BANK[$66]
 GameSceneNPCScriptReference1392::
-  db "アイリス！<BR>だいじょうぶなの？",$00
+  db "アイリス!<BR>だいじょうぶなの?",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1393 (Data)", ROMX[$4D26], BANK[$66]
 GameSceneNPCScriptReference1393::
-  db "あっ！　<NAME>。<BR>だいじょうぶだよ。<BR>しんぱい　しないで。",$00
+  db "あっ!　<NAME>。<BR>だいじょうぶだよ。<BR>しんぱい　しないで。",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1394 (Data)", ROMX[$4D42], BANK[$66]
 GameSceneNPCScriptReference1394::
-  db "カンナが　ながい　かいだんに<BR>しびれを　きらしちゃって<BR>「あ〜もう！　ちんたら<BR>　おりてらんねえ〜っ」って",$00
+  db "カンナが　ながい　かいだんに<BR>しびれを　きらしちゃって<BR>「あ〜もう!　ちんたら<BR>　おりてらんねえ〜っ」って",$00
 
 SECTION "Game Scene NPC Script 002F Reference 1395 (Data)", ROMX[$4D78], BANK[$66]
 GameSceneNPCScriptReference1395::

@@ -171,7 +171,7 @@ GameSceneNPCScriptReference2614::
 
 SECTION "Game Scene NPC Script 0067 Reference 2615 (Data)", ROMX[$49BB], BANK[$6E]
 GameSceneNPCScriptReference2615::
-  db "どうしましょう？<BR><NAME>さん。",$00
+  db "どうしましょう?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2616 (Data)", ROMX[$49C9], BANK[$6E]
 GameSceneNPCScriptReference2616::
@@ -265,7 +265,7 @@ GameSceneNPCScriptReference261C::
 
 SECTION "Game Scene NPC Script 0067 Reference 261D (Data)", ROMX[$7CAE], BANK[$6D]
 GameSceneNPCScriptReference261D::
-  db "どうしましょう？<BR><NAME>さん。",$00
+  db "どうしましょう?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 261E (Data)", ROMX[$7CBC], BANK[$6D]
 GameSceneNPCScriptReference261E::
@@ -354,7 +354,7 @@ GameSceneNPCScriptReference2624::
 
 SECTION "Game Scene NPC Script 0067 Reference 2625 (Data)", ROMX[$6430], BANK[$6D]
 GameSceneNPCScriptReference2625::
-  db "どうする？　<NAME>。",$00
+  db "どうする?　<NAME>。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2626 (Data)", ROMX[$6439], BANK[$6D]
 GameSceneNPCScriptReference2626::
@@ -506,7 +506,7 @@ GameSceneNPCScriptReference262E::
 
 SECTION "Game Scene NPC Script 0067 Reference 262F (Data)", ROMX[$6FB1], BANK[$6D]
 GameSceneNPCScriptReference262F::
-  db "どうしましょう？<BR><NAME>さん。",$00
+  db "どうしましょう?<BR><NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2630 (Data)", ROMX[$6FBF], BANK[$6D]
 GameSceneNPCScriptReference2630::
@@ -580,7 +580,7 @@ GameSceneNPCScriptReference2633::
 
 SECTION "Game Scene NPC Script 0067 Reference 2634 (Data)", ROMX[$4B7A], BANK[$6E]
 GameSceneNPCScriptReference2634::
-  db "<NAME>さん。<BR>すいちゅうそうびが　あること<BR>わすれていませんか？",$00
+  db "<NAME>さん。<BR>すいちゅうそうびが　あること<BR>わすれていませんか?",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2635 (Data)", ROMX[$4B99], BANK[$6E]
 GameSceneNPCScriptReference2635::
@@ -588,7 +588,7 @@ GameSceneNPCScriptReference2635::
 
 SECTION "Game Scene NPC Script 0067 Reference 2636 (Data)", ROMX[$4BC3], BANK[$6E]
 GameSceneNPCScriptReference2636::
-  db "いきますわよ<BR><NAME>さん！",$00
+  db "いきますわよ<BR><NAME>さん!",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2637 (Data)", ROMX[$49E3], BANK[$6E]
 GameSceneNPCScriptReference2637::
@@ -596,11 +596,11 @@ GameSceneNPCScriptReference2637::
 
 SECTION "Game Scene NPC Script 0067 Reference 2638 (Data)", ROMX[$4A06], BANK[$6E]
 GameSceneNPCScriptReference2638::
-  db "そうですわね。<BR>でも　わたくしたちが<BR>もぐっていられる　じかんは<BR>30びょうほどですわ。",$00
+  db "そうですわね。<BR>でも　わたくしたちが<BR>もぐっていられる　じかんは<BR>３０びょうほどですわ。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2639 (Data)", ROMX[$4A33], BANK[$6E]
 GameSceneNPCScriptReference2639::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなって　しまいますの。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなって　しまいますの。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 263A (Data)", ROMX[$4A57], BANK[$6E]
 GameSceneNPCScriptReference263A::
@@ -628,11 +628,11 @@ GameSceneNPCScriptReference263F::
 
 SECTION "Game Scene NPC Script 0067 Reference 2640 (Data)", ROMX[$4B10], BANK[$6E]
 GameSceneNPCScriptReference2640::
-  db "でも　わたくしたちが<BR>もぐっていられる　じかんは<BR>30びょうですわ。",$00
+  db "でも　わたくしたちが<BR>もぐっていられる　じかんは<BR>３０びょうですわ。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2641 (Data)", ROMX[$4B33], BANK[$6E]
 GameSceneNPCScriptReference2641::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなって　しまいますの。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなって　しまいますの。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2642 (Data)", ROMX[$4B57], BANK[$6E]
 GameSceneNPCScriptReference2642::
@@ -648,7 +648,7 @@ GameSceneNPCScriptReference2644::
 
 SECTION "Game Scene NPC Script 0067 Reference 2645 (Data)", ROMX[$7E9F], BANK[$6D]
 GameSceneNPCScriptReference2645::
-  db "それじゃ　<NAME>さん<BR>きを　ひきしめて<BR>いきましょう！",$00
+  db "それじゃ　<NAME>さん<BR>きを　ひきしめて<BR>いきましょう!",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2646 (Data)", ROMX[$7CD6], BANK[$6D]
 GameSceneNPCScriptReference2646::
@@ -656,15 +656,15 @@ GameSceneNPCScriptReference2646::
 
 SECTION "Game Scene NPC Script 0067 Reference 2647 (Data)", ROMX[$7CF9], BANK[$6D]
 GameSceneNPCScriptReference2647::
-  db "そうですね。<BR>でも　あたしたちが<BR>もぐっていられる　じかんは<BR>30びょうほどです。",$00
+  db "そうですね。<BR>でも　あたしたちが<BR>もぐっていられる　じかんは<BR>３０びょうほどです。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2648 (Data)", ROMX[$7D23], BANK[$6D]
 GameSceneNPCScriptReference2648::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまいます。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまいます。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2649 (Data)", ROMX[$7D45], BANK[$6D]
 GameSceneNPCScriptReference2649::
-  db "じかんとの　たたかいです。<BR><NAME>さん<BR>きを　ひきしめて<BR>いきましょう！",$00
+  db "じかんとの　たたかいです。<BR><NAME>さん<BR>きを　ひきしめて<BR>いきましょう!",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 264A (Data)", ROMX[$7D68], BANK[$6D]
 GameSceneNPCScriptReference264A::
@@ -688,15 +688,15 @@ GameSceneNPCScriptReference264E::
 
 SECTION "Game Scene NPC Script 0067 Reference 264F (Data)", ROMX[$7DF6], BANK[$6D]
 GameSceneNPCScriptReference264F::
-  db "でも　あたしたちが<BR>もぐっていられる　じかんは<BR>30びょうです。",$00
+  db "でも　あたしたちが<BR>もぐっていられる　じかんは<BR>３０びょうです。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2650 (Data)", ROMX[$7E17], BANK[$6D]
 GameSceneNPCScriptReference2650::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまいます。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまいます。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2651 (Data)", ROMX[$7E39], BANK[$6D]
 GameSceneNPCScriptReference2651::
-  db "じかんとの　たたかいです。<BR><NAME>さん<BR>きを　ひきしめて<BR>いきましょう！",$00
+  db "じかんとの　たたかいです。<BR><NAME>さん<BR>きを　ひきしめて<BR>いきましょう!",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2652 (Data)", ROMX[$65A2], BANK[$6D]
 GameSceneNPCScriptReference2652::
@@ -716,11 +716,11 @@ GameSceneNPCScriptReference2655::
 
 SECTION "Game Scene NPC Script 0067 Reference 2656 (Data)", ROMX[$6476], BANK[$6D]
 GameSceneNPCScriptReference2656::
-  db "そうだね。<BR>でも　ボクたちが<BR>もぐっていられる　じかんは<BR>30びょうだ。",$00
+  db "そうだね。<BR>でも　ボクたちが<BR>もぐっていられる　じかんは<BR>３０びょうだ。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2657 (Data)", ROMX[$649B], BANK[$6D]
 GameSceneNPCScriptReference2657::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2658 (Data)", ROMX[$64BB], BANK[$6D]
 GameSceneNPCScriptReference2658::
@@ -744,11 +744,11 @@ GameSceneNPCScriptReference265C::
 
 SECTION "Game Scene NPC Script 0067 Reference 265D (Data)", ROMX[$654B], BANK[$6D]
 GameSceneNPCScriptReference265D::
-  db "しかし　ボクたちが<BR>もぐっていられる　じかんは<BR>30びょうだ。",$00
+  db "しかし　ボクたちが<BR>もぐっていられる　じかんは<BR>３０びょうだ。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 265E (Data)", ROMX[$656B], BANK[$6D]
 GameSceneNPCScriptReference265E::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 265F (Data)", ROMX[$658B], BANK[$6D]
 GameSceneNPCScriptReference265F::
@@ -778,7 +778,7 @@ GameSceneNPCScriptReference2662::
 
 SECTION "Game Scene NPC Script 0067 Reference 2663 (Data)", ROMX[$548E], BANK[$6D]
 GameSceneNPCScriptReference2663::
-  db "どうする？　<NAME>くん。",$00
+  db "どうする?　<NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2664 (Data)", ROMX[$5499], BANK[$6D]
 GameSceneNPCScriptReference2664::
@@ -872,7 +872,7 @@ GameSceneNPCScriptReference266A::
 
 SECTION "Game Scene NPC Script 0067 Reference 266B (Data)", ROMX[$47F6], BANK[$6D]
 GameSceneNPCScriptReference266B::
-  db "どうしようか？<BR><NAME>くん。",$00
+  db "どうしようか?<BR><NAME>くん。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 266C (Data)", ROMX[$4803], BANK[$6D]
 GameSceneNPCScriptReference266C::
@@ -955,7 +955,7 @@ GameSceneNPCScriptReference2671::
 
 SECTION "Game Scene NPC Script 0067 Reference 2672 (Data)", ROMX[$71B3], BANK[$6D]
 GameSceneNPCScriptReference2672::
-  db "それじゃ　<NAME>さん<BR>きを　ひきしめて<BR>いきましょう！",$00
+  db "それじゃ　<NAME>さん<BR>きを　ひきしめて<BR>いきましょう!",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2673 (Data)", ROMX[$6FD9], BANK[$6D]
 GameSceneNPCScriptReference2673::
@@ -963,15 +963,15 @@ GameSceneNPCScriptReference2673::
 
 SECTION "Game Scene NPC Script 0067 Reference 2674 (Data)", ROMX[$6FFC], BANK[$6D]
 GameSceneNPCScriptReference2674::
-  db "そうですね。<BR>でも　あたしたちが<BR>もぐっていられる　じかんは<BR>30びょうほどです。",$00
+  db "そうですね。<BR>でも　あたしたちが<BR>もぐっていられる　じかんは<BR>３０びょうほどです。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2675 (Data)", ROMX[$7026], BANK[$6D]
 GameSceneNPCScriptReference2675::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまいます。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまいます。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2676 (Data)", ROMX[$7048], BANK[$6D]
 GameSceneNPCScriptReference2676::
-  db "じかんとの　たたかいですよ<BR><NAME>さん。<BR>きを　ひきしめて<BR>いきましょうね！",$00
+  db "じかんとの　たたかいですよ<BR><NAME>さん。<BR>きを　ひきしめて<BR>いきましょうね!",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2677 (Data)", ROMX[$706D], BANK[$6D]
 GameSceneNPCScriptReference2677::
@@ -995,15 +995,15 @@ GameSceneNPCScriptReference267B::
 
 SECTION "Game Scene NPC Script 0067 Reference 267C (Data)", ROMX[$7108], BANK[$6D]
 GameSceneNPCScriptReference267C::
-  db "でも　あたしたちが<BR>もぐっていられる　じかんは<BR>30びょうです。",$00
+  db "でも　あたしたちが<BR>もぐっていられる　じかんは<BR>３０びょうです。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 267D (Data)", ROMX[$7129], BANK[$6D]
 GameSceneNPCScriptReference267D::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまいます。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまいます。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 267E (Data)", ROMX[$714B], BANK[$6D]
 GameSceneNPCScriptReference267E::
-  db "じかんとの　たたかいですよ<BR><NAME>さん。<BR>きを　ひきしめて<BR>いきましょうね！",$00
+  db "じかんとの　たたかいですよ<BR><NAME>さん。<BR>きを　ひきしめて<BR>いきましょうね!",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 267F (Data)", ROMX[$5629], BANK[$6D]
 GameSceneNPCScriptReference267F::
@@ -1023,11 +1023,11 @@ GameSceneNPCScriptReference2682::
 
 SECTION "Game Scene NPC Script 0067 Reference 2683 (Data)", ROMX[$54D6], BANK[$6D]
 GameSceneNPCScriptReference2683::
-  db "そうだな。<BR>でも　オレたちが<BR>もぐっていられる　じかんは<BR>30びょうほどだ。",$00
+  db "そうだな。<BR>でも　オレたちが<BR>もぐっていられる　じかんは<BR>３０びょうほどだ。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2684 (Data)", ROMX[$54FD], BANK[$6D]
 GameSceneNPCScriptReference2684::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2685 (Data)", ROMX[$551D], BANK[$6D]
 GameSceneNPCScriptReference2685::
@@ -1055,11 +1055,11 @@ GameSceneNPCScriptReference268A::
 
 SECTION "Game Scene NPC Script 0067 Reference 268B (Data)", ROMX[$55CB], BANK[$6D]
 GameSceneNPCScriptReference268B::
-  db "だが　オレたちが<BR>もぐっていられる　じかんは<BR>30びょうだ。",$00
+  db "だが　オレたちが<BR>もぐっていられる　じかんは<BR>３０びょうだ。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 268C (Data)", ROMX[$55EA], BANK[$6D]
 GameSceneNPCScriptReference268C::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 268D (Data)", ROMX[$560A], BANK[$6D]
 GameSceneNPCScriptReference268D::
@@ -1083,11 +1083,11 @@ GameSceneNPCScriptReference2691::
 
 SECTION "Game Scene NPC Script 0067 Reference 2692 (Data)", ROMX[$4840], BANK[$6D]
 GameSceneNPCScriptReference2692::
-  db "そうだな。<BR>でも　オレたちが<BR>もぐっていられる　じかんは<BR>30びょうほどだ。",$00
+  db "そうだな。<BR>でも　オレたちが<BR>もぐっていられる　じかんは<BR>３０びょうほどだ。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2693 (Data)", ROMX[$4867], BANK[$6D]
 GameSceneNPCScriptReference2693::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 2694 (Data)", ROMX[$4887], BANK[$6D]
 GameSceneNPCScriptReference2694::
@@ -1115,11 +1115,11 @@ GameSceneNPCScriptReference2699::
 
 SECTION "Game Scene NPC Script 0067 Reference 269A (Data)", ROMX[$4937], BANK[$6D]
 GameSceneNPCScriptReference269A::
-  db "だが　オレたちが<BR>もぐっていられる　じかんは<BR>30びょうだ。",$00
+  db "だが　オレたちが<BR>もぐっていられる　じかんは<BR>３０びょうだ。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 269B (Data)", ROMX[$4956], BANK[$6D]
 GameSceneNPCScriptReference269B::
-  db "30びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
+  db "３０びょうを　すぎると<BR>こうぶの　さんそが<BR>なくなってしまう。",$00
 
 SECTION "Game Scene NPC Script 0067 Reference 269C (Data)", ROMX[$4976], BANK[$6D]
 GameSceneNPCScriptReference269C::

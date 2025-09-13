@@ -26,6 +26,6 @@ GameSceneNPCScriptReference273C::
 
 SECTION "Game Scene NPC Script 0071 Reference 273D (Data)", ROMX[$4674], BANK[$6D]
 GameSceneNPCScriptReference273D::
-  db "　　　　　！！",$00
+  db "　　　　　!!",$00
 
 POPC

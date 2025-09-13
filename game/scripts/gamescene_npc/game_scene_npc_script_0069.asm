@@ -171,7 +171,7 @@ GameSceneNPCScriptReference26C8::
 
 SECTION "Game Scene NPC Script 0069 Reference 26C9 (Data)", ROMX[$566F], BANK[$6E]
 GameSceneNPCScriptReference26C9::
-  db "<NAME>さん<BR>タイマーに　ちゅういして<BR>すすみなさい！",$00
+  db "<NAME>さん<BR>タイマーに　ちゅういして<BR>すすみなさい!",$00
 
 SECTION "Game Scene NPC Script 0069 Reference 26CA (Data)", ROMX[$494A], BANK[$6E]
 GameSceneNPCScriptReference26CA::
@@ -211,11 +211,11 @@ GameSceneNPCScriptReference26CF::
 
 SECTION "Game Scene NPC Script 0069 Reference 26D0 (Data)", ROMX[$7C3D], BANK[$6D]
 GameSceneNPCScriptReference26D0::
-  db "<NAME>さん<BR>タイマーに　ちゅういして<BR>すすんでください！",$00
+  db "<NAME>さん<BR>タイマーに　ちゅういして<BR>すすんでください!",$00
 
 SECTION "Game Scene NPC Script 0069 Reference 26D1 (Data)", ROMX[$6069], BANK[$6D]
 GameSceneNPCScriptReference26D1::
-  db "<NAME>くん。<BR>タイマーに<BR>ちゅういするんだ！",$00
+  db "<NAME>くん。<BR>タイマーに<BR>ちゅういするんだ!",$00
 
 SECTION "Game Scene NPC Script 0069 Reference 26D2 (Data)", ROMX[$5410], BANK[$6D]
 GameSceneNPCScriptReference26D2::

@@ -95,15 +95,15 @@ GameSceneNPCScriptReference1222::
 
 SECTION "Game Scene NPC Script 002B Reference 1223 (Data)", ROMX[$5834], BANK[$67]
 GameSceneNPCScriptReference1223::
-  db "おう　たいちょう！<BR>まかせてくれよ！！",$00
+  db "おう　たいちょう!<BR>まかせてくれよ!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1224 (Data)", ROMX[$5848], BANK[$67]
 GameSceneNPCScriptReference1224::
-  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね！",$00
+  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1225 (Data)", ROMX[$5861], BANK[$67]
 GameSceneNPCScriptReference1225::
-  db "がんばります！！",$00
+  db "がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1226 (Subroutine)", ROMX[$694E], BANK[$54]
 GameSceneNPCScriptReference1226::
@@ -380,11 +380,11 @@ GameSceneNPCScriptReference122B::
 
 SECTION "Game Scene NPC Script 002B Reference 122C (Data)", ROMX[$586A], BANK[$67]
 GameSceneNPCScriptReference122C::
-  db "ボクも　せいいっぱい<BR>がんばります！！",$00
+  db "ボクも　せいいっぱい<BR>がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 122D (Data)", ROMX[$587E], BANK[$67]
 GameSceneNPCScriptReference122D::
-  db "よし！<BR>きあいじゅうぶんだな<BR>いこう！",$00
+  db "よし!<BR>きあいじゅうぶんだな<BR>いこう!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 122E (Data)", ROMX[$76ED], BANK[$66]
 GameSceneNPCScriptReference122E::
@@ -400,11 +400,11 @@ GameSceneNPCScriptReference1230::
 
 SECTION "Game Scene NPC Script 002B Reference 1231 (Data)", ROMX[$7732], BANK[$66]
 GameSceneNPCScriptReference1231::
-  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね！",$00
+  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1232 (Data)", ROMX[$774B], BANK[$66]
 GameSceneNPCScriptReference1232::
-  db "がんばります！！",$00
+  db "がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1233 (Subroutine)", ROMX[$5B71], BANK[$54]
 GameSceneNPCScriptReference1233::
@@ -443,11 +443,11 @@ GameSceneNPCScriptReference1236::
 
 SECTION "Game Scene NPC Script 002B Reference 1237 (Data)", ROMX[$6A64], BANK[$66]
 GameSceneNPCScriptReference1237::
-  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね！",$00
+  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1238 (Data)", ROMX[$6A7D], BANK[$66]
 GameSceneNPCScriptReference1238::
-  db "がんばります！！",$00
+  db "がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1239 (Subroutine)", ROMX[$566B], BANK[$54]
 GameSceneNPCScriptReference1239::
@@ -490,11 +490,11 @@ GameSceneNPCScriptReference123C::
 
 SECTION "Game Scene NPC Script 002B Reference 123D (Data)", ROMX[$5D9E], BANK[$66]
 GameSceneNPCScriptReference123D::
-  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね！",$00
+  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 123E (Data)", ROMX[$5DB7], BANK[$66]
 GameSceneNPCScriptReference123E::
-  db "がんばります！！",$00
+  db "がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 123F (Subroutine)", ROMX[$5143], BANK[$54]
 GameSceneNPCScriptReference123F::
@@ -533,11 +533,11 @@ GameSceneNPCScriptReference1242::
 
 SECTION "Game Scene NPC Script 002B Reference 1243 (Data)", ROMX[$5047], BANK[$66]
 GameSceneNPCScriptReference1243::
-  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね！",$00
+  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1244 (Data)", ROMX[$5060], BANK[$66]
 GameSceneNPCScriptReference1244::
-  db "がんばります！！",$00
+  db "がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1245 (Subroutine)", ROMX[$4C0B], BANK[$54]
 GameSceneNPCScriptReference1245::
@@ -572,15 +572,15 @@ GameSceneNPCScriptReference1247::
 
 SECTION "Game Scene NPC Script 002B Reference 1248 (Data)", ROMX[$4ACF], BANK[$67]
 GameSceneNPCScriptReference1248::
-  db "おう　たいちょう！<BR>まかせてくれよ！！",$00
+  db "おう　たいちょう!<BR>まかせてくれよ!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1249 (Data)", ROMX[$4AE3], BANK[$67]
 GameSceneNPCScriptReference1249::
-  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね！",$00
+  db "アイリスも<BR><NAME>に<BR>まけないよう<BR>がんばるからね!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 124A (Data)", ROMX[$4AFC], BANK[$67]
 GameSceneNPCScriptReference124A::
-  db "がんばります！！",$00
+  db "がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 124B (Subroutine)", ROMX[$6443], BANK[$54]
 GameSceneNPCScriptReference124B::
@@ -607,7 +607,7 @@ GameSceneNPCScriptReference124B::
 
 SECTION "Game Scene NPC Script 002B Reference 124C (Data)", ROMX[$7754], BANK[$66]
 GameSceneNPCScriptReference124C::
-  db "ボクも　せいいっぱい<BR>がんばります！！",$00
+  db "ボクも　せいいっぱい<BR>がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 124D (Data)", ROMX[$7768], BANK[$66]
 GameSceneNPCScriptReference124D::
@@ -615,7 +615,7 @@ GameSceneNPCScriptReference124D::
 
 SECTION "Game Scene NPC Script 002B Reference 124E (Data)", ROMX[$6A86], BANK[$66]
 GameSceneNPCScriptReference124E::
-  db "わたしも　せいいっぱい<BR>がんばります！！",$00
+  db "わたしも　せいいっぱい<BR>がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 124F (Data)", ROMX[$6A9B], BANK[$66]
 GameSceneNPCScriptReference124F::
@@ -627,7 +627,7 @@ GameSceneNPCScriptReference1250::
 
 SECTION "Game Scene NPC Script 002B Reference 1251 (Data)", ROMX[$5DC0], BANK[$66]
 GameSceneNPCScriptReference1251::
-  db "せいいっぱい<BR>がんばります！！",$00
+  db "せいいっぱい<BR>がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1252 (Data)", ROMX[$5DD0], BANK[$66]
 GameSceneNPCScriptReference1252::
@@ -635,7 +635,7 @@ GameSceneNPCScriptReference1252::
 
 SECTION "Game Scene NPC Script 002B Reference 1253 (Data)", ROMX[$5069], BANK[$66]
 GameSceneNPCScriptReference1253::
-  db "わたしも　せいいっぱい<BR>がんばります！！",$00
+  db "わたしも　せいいっぱい<BR>がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1254 (Data)", ROMX[$507E], BANK[$66]
 GameSceneNPCScriptReference1254::
@@ -643,10 +643,10 @@ GameSceneNPCScriptReference1254::
 
 SECTION "Game Scene NPC Script 002B Reference 1255 (Data)", ROMX[$4B05], BANK[$67]
 GameSceneNPCScriptReference1255::
-  db "わたしも　せいいっぱい<BR>がんばります！！",$00
+  db "わたしも　せいいっぱい<BR>がんばります!!",$00
 
 SECTION "Game Scene NPC Script 002B Reference 1256 (Data)", ROMX[$4B1A], BANK[$67]
 GameSceneNPCScriptReference1256::
-  db "よし！<BR>きあいじゅうぶんだな<BR>いこう！",$00
+  db "よし!<BR>きあいじゅうぶんだな<BR>いこう!",$00
 
 POPC

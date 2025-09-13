@@ -107,7 +107,7 @@ GameSceneNPCScriptReference13AF::
 
 SECTION "Game Scene NPC Script 0031 Reference 13B0 (Data)", ROMX[$5B72], BANK[$67]
 GameSceneNPCScriptReference13B0::
-  db "おおがみさん<BR>いったい　どこまで<BR>おりていくんですか？",$00
+  db "おおがみさん<BR>いったい　どこまで<BR>おりていくんですか?",$00
 
 SECTION "Game Scene NPC Script 0031 Reference 13B1 (Data)", ROMX[$5B8E], BANK[$67]
 GameSceneNPCScriptReference13B1::
@@ -199,7 +199,7 @@ GameSceneNPCScriptReference13BB::
 
 SECTION "Game Scene NPC Script 0031 Reference 13BC (Data)", ROMX[$7A5E], BANK[$66]
 GameSceneNPCScriptReference13BC::
-  db "マリアさん<BR>いったい　どこまで<BR>おりていくんですか？",$00
+  db "マリアさん<BR>いったい　どこまで<BR>おりていくんですか?",$00
 
 SECTION "Game Scene NPC Script 0031 Reference 13BD (Data)", ROMX[$7A79], BANK[$66]
 GameSceneNPCScriptReference13BD::
@@ -207,7 +207,7 @@ GameSceneNPCScriptReference13BD::
 
 SECTION "Game Scene NPC Script 0031 Reference 13BE (Data)", ROMX[$6DCB], BANK[$66]
 GameSceneNPCScriptReference13BE::
-  db "マリアさん<BR>いったい　どこまで<BR>おりていくんでしょうか？",$00
+  db "マリアさん<BR>いったい　どこまで<BR>おりていくんでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0031 Reference 13BF (Data)", ROMX[$6DE8], BANK[$66]
 GameSceneNPCScriptReference13BF::
@@ -215,11 +215,11 @@ GameSceneNPCScriptReference13BF::
 
 SECTION "Game Scene NPC Script 0031 Reference 13C0 (Data)", ROMX[$615A], BANK[$66]
 GameSceneNPCScriptReference13C0::
-  db "こうらんさん<BR>いったい　どこまで<BR>おりていくんですか？",$00
+  db "こうらんさん<BR>いったい　どこまで<BR>おりていくんですか?",$00
 
 SECTION "Game Scene NPC Script 0031 Reference 13C1 (Data)", ROMX[$6176], BANK[$66]
 GameSceneNPCScriptReference13C1::
-  db "どこまでやろか？<BR>ウチも　わからへんわ。",$00
+  db "どこまでやろか?<BR>ウチも　わからへんわ。",$00
 
 SECTION "Game Scene NPC Script 0031 Reference 13C2 (Data)", ROMX[$618B], BANK[$66]
 GameSceneNPCScriptReference13C2::
@@ -227,11 +227,11 @@ GameSceneNPCScriptReference13C2::
 
 SECTION "Game Scene NPC Script 0031 Reference 13C3 (Data)", ROMX[$543E], BANK[$66]
 GameSceneNPCScriptReference13C3::
-  db "こうらんさん<BR>いったい　どこまで<BR>おりていくんでしょうか？",$00
+  db "こうらんさん<BR>いったい　どこまで<BR>おりていくんでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0031 Reference 13C4 (Data)", ROMX[$545C], BANK[$66]
 GameSceneNPCScriptReference13C4::
-  db "どこまでやろか？<BR>ウチも　わからへんわ。",$00
+  db "どこまでやろか?<BR>ウチも　わからへんわ。",$00
 
 SECTION "Game Scene NPC Script 0031 Reference 13C5 (Data)", ROMX[$5471], BANK[$66]
 GameSceneNPCScriptReference13C5::
@@ -239,7 +239,7 @@ GameSceneNPCScriptReference13C5::
 
 SECTION "Game Scene NPC Script 0031 Reference 13C6 (Data)", ROMX[$4E60], BANK[$67]
 GameSceneNPCScriptReference13C6::
-  db "おおがみさん<BR>いったい　どこまで<BR>おりていくんでしょうか？",$00
+  db "おおがみさん<BR>いったい　どこまで<BR>おりていくんでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0031 Reference 13C7 (Data)", ROMX[$4E7E], BANK[$67]
 GameSceneNPCScriptReference13C7::

@@ -154,27 +154,27 @@ GameSceneNPCScriptReference18BE::
 
 SECTION "Game Scene NPC Script 0049 Reference 18BF (Data)", ROMX[$48B0], BANK[$69]
 GameSceneNPCScriptReference18BF::
-  db "うわ〜〜〜！！",$00
+  db "うわ〜〜〜!!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18C0 (Data)", ROMX[$48B8], BANK[$69]
 GameSceneNPCScriptReference18C0::
-  db "すみれさん　ひめいが！！",$00
+  db "すみれさん　ひめいが!!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18C1 (Data)", ROMX[$48C5], BANK[$69]
 GameSceneNPCScriptReference18C1::
-  db "あのこえは　おじいさま！！",$00
+  db "あのこえは　おじいさま!!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18C2 (Data)", ROMX[$48D3], BANK[$69]
 GameSceneNPCScriptReference18C2::
-  db "このさきに　おじいさまが！？",$00
+  db "このさきに　おじいさまが!?",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18C3 (Data)", ROMX[$48E2], BANK[$69]
 GameSceneNPCScriptReference18C3::
-  db "キキキー！",$00
+  db "キキキー!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18C4 (Data)", ROMX[$48E8], BANK[$69]
 GameSceneNPCScriptReference18C4::
-  db "こんなときに……<BR><NAME>さん！？",$00
+  db "こんなときに……<BR><NAME>さん!?",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18C5 (Data)", ROMX[$48F7], BANK[$69]
 GameSceneNPCScriptReference18C5::
@@ -270,27 +270,27 @@ GameSceneNPCScriptReference18D1::
 
 SECTION "Game Scene NPC Script 0049 Reference 18C7 (Data)", ROMX[$47B0], BANK[$69]
 GameSceneNPCScriptReference18C7::
-  db "うわ〜〜〜！！",$00
+  db "うわ〜〜〜!!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18C8 (Data)", ROMX[$47B8], BANK[$69]
 GameSceneNPCScriptReference18C8::
-  db "すみれさん　ひめいです！！",$00
+  db "すみれさん　ひめいです!!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18C9 (Data)", ROMX[$47C6], BANK[$69]
 GameSceneNPCScriptReference18C9::
-  db "あのこえは　おじいさま！！",$00
+  db "あのこえは　おじいさま!!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18CA (Data)", ROMX[$47D4], BANK[$69]
 GameSceneNPCScriptReference18CA::
-  db "このさきに　おじいさまが！？",$00
+  db "このさきに　おじいさまが!?",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18CB (Data)", ROMX[$47E3], BANK[$69]
 GameSceneNPCScriptReference18CB::
-  db "キキキー！",$00
+  db "キキキー!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18CC (Data)", ROMX[$47E9], BANK[$69]
 GameSceneNPCScriptReference18CC::
-  db "こんなときに……<BR><NAME>さん！？",$00
+  db "こんなときに……<BR><NAME>さん!?",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18CD (Data)", ROMX[$47F8], BANK[$69]
 GameSceneNPCScriptReference18CD::
@@ -386,11 +386,11 @@ GameSceneNPCScriptReference18DB::
 
 SECTION "Game Scene NPC Script 0049 Reference 18CF (Data)", ROMX[$4903], BANK[$69]
 GameSceneNPCScriptReference18CF::
-  db "すみれさん！<BR>ここは　ボクにまかせて<BR>おくへ　いそいでください。",$00
+  db "すみれさん!<BR>ここは　ボクにまかせて<BR>おくへ　いそいでください。",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18D0 (Data)", ROMX[$4924], BANK[$69]
 GameSceneNPCScriptReference18D0::
-  db "わかりましたわ！<BR><NAME>さん<BR>たのみましたわよ！",$00
+  db "わかりましたわ!<BR><NAME>さん<BR>たのみましたわよ!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18D2 (Data)", ROMX[$493B], BANK[$69]
 GameSceneNPCScriptReference18D2::
@@ -406,27 +406,27 @@ GameSceneNPCScriptReference18D4::
 
 SECTION "Game Scene NPC Script 0049 Reference 18D5 (Data)", ROMX[$4968], BANK[$69]
 GameSceneNPCScriptReference18D5::
-  db "すみれさん！",$00
+  db "すみれさん!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18D6 (Data)", ROMX[$496F], BANK[$69]
 GameSceneNPCScriptReference18D6::
-  db "<NAME>さん！<BR>ごぶじでしたのね。",$00
+  db "<NAME>さん!<BR>ごぶじでしたのね。",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18D7 (Data)", ROMX[$497E], BANK[$69]
 GameSceneNPCScriptReference18D7::
-  db "おじいさまは？",$00
+  db "おじいさまは?",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18D8 (Data)", ROMX[$4986], BANK[$69]
 GameSceneNPCScriptReference18D8::
-  db "それが……<BR>みあたらないのです<BR>さがすのを　てつだって<BR>くださらないかしら？",$00
+  db "それが……<BR>みあたらないのです<BR>さがすのを　てつだって<BR>くださらないかしら?",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18D9 (Data)", ROMX[$4805], BANK[$69]
 GameSceneNPCScriptReference18D9::
-  db "すみれさん！<BR>ここは　わたしにまかせて<BR>おくへ　いそいでください。",$00
+  db "すみれさん!<BR>ここは　わたしにまかせて<BR>おくへ　いそいでください。",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18DA (Data)", ROMX[$4827], BANK[$69]
 GameSceneNPCScriptReference18DA::
-  db "わかりましたわ！<BR><NAME>さん<BR>たのみましたわよ！",$00
+  db "わかりましたわ!<BR><NAME>さん<BR>たのみましたわよ!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18DC (Data)", ROMX[$483E], BANK[$69]
 GameSceneNPCScriptReference18DC::
@@ -442,18 +442,18 @@ GameSceneNPCScriptReference18DE::
 
 SECTION "Game Scene NPC Script 0049 Reference 18DF (Data)", ROMX[$486B], BANK[$69]
 GameSceneNPCScriptReference18DF::
-  db "すみれさん！",$00
+  db "すみれさん!",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18E0 (Data)", ROMX[$4872], BANK[$69]
 GameSceneNPCScriptReference18E0::
-  db "<NAME>さん！<BR>ごぶじでしたのね。",$00
+  db "<NAME>さん!<BR>ごぶじでしたのね。",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18E1 (Data)", ROMX[$4881], BANK[$69]
 GameSceneNPCScriptReference18E1::
-  db "おじいさまは？",$00
+  db "おじいさまは?",$00
 
 SECTION "Game Scene NPC Script 0049 Reference 18E2 (Data)", ROMX[$4889], BANK[$69]
 GameSceneNPCScriptReference18E2::
-  db "それが……<BR>みあたらないのです<BR>さがすのを　てつだって<BR>くださらないかしら？",$00
+  db "それが……<BR>みあたらないのです<BR>さがすのを　てつだって<BR>くださらないかしら?",$00
 
 POPC

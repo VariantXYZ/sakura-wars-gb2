@@ -100,11 +100,11 @@ GameSceneNPCScriptReference2716::
 
 SECTION "Game Scene NPC Script 0070 Reference 2717 (Data)", ROMX[$60B4], BANK[$6D]
 GameSceneNPCScriptReference2717::
-  db "か……　かやま？！",$00
+  db "か……　かやま?!",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 2718 (Data)", ROMX[$60BE], BANK[$6D]
 GameSceneNPCScriptReference2718::
-  db "かやまじゃないか！<BR>こんなところで<BR>なにしてるんだ？",$00
+  db "かやまじゃないか!<BR>こんなところで<BR>なにしてるんだ?",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 2719 (Data)", ROMX[$60D9], BANK[$6D]
 GameSceneNPCScriptReference2719::
@@ -112,7 +112,7 @@ GameSceneNPCScriptReference2719::
 
 SECTION "Game Scene NPC Script 0070 Reference 271A (Data)", ROMX[$60FA], BANK[$6D]
 GameSceneNPCScriptReference271A::
-  db "エッ！？<BR>だって　おまえ　ギター<BR>もっているじゃないか。　",$00
+  db "エッ!?<BR>だって　おまえ　ギター<BR>もっているじゃないか。　",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 271B (Data)", ROMX[$6118], BANK[$6D]
 GameSceneNPCScriptReference271B::
@@ -132,15 +132,15 @@ GameSceneNPCScriptReference271E::
 
 SECTION "Game Scene NPC Script 0070 Reference 271F (Data)", ROMX[$61A0], BANK[$6D]
 GameSceneNPCScriptReference271F::
-  db "お……　おい！　かやま……<BR>……………………………………<BR>いっちゃったか……",$00
+  db "お……　おい!　かやま……<BR>……………………………………<BR>いっちゃったか……",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 2720 (Data)", ROMX[$61C7], BANK[$6D]
 GameSceneNPCScriptReference2720::
-  db "さがすといったって……<BR>どうしようか……<BR>………………？",$00
+  db "さがすといったって……<BR>どうしようか……<BR>………………?",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 2721 (Data)", ROMX[$61E4], BANK[$6D]
 GameSceneNPCScriptReference2721::
-  db "な　な……なんだ？！",$00
+  db "な　な……なんだ?!",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 2722 (Data)", ROMX[$61EF], BANK[$6D]
 GameSceneNPCScriptReference2722::
@@ -148,7 +148,7 @@ GameSceneNPCScriptReference2722::
 
 SECTION "Game Scene NPC Script 0070 Reference 2723 (Data)", ROMX[$620F], BANK[$6D]
 GameSceneNPCScriptReference2723::
-  db "おまえが　すてたゴミは<BR>この『しろいギター』か……<BR>それとも　ごうかな<BR>『きんのギター』か？",$00
+  db "おまえが　すてたゴミは<BR>この『しろいギター』か……<BR>それとも　ごうかな<BR>『きんのギター』か?",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 2724 (Data)", ROMX[$623E], BANK[$6D]
 GameSceneNPCScriptReference2724::
@@ -287,19 +287,19 @@ GameSceneNPCScriptReference272D::
 
 SECTION "Game Scene NPC Script 0070 Reference 272E (Data)", ROMX[$62A2], BANK[$6D]
 GameSceneNPCScriptReference272E::
-  db "……そうか。<BR>おまえのような　ウソつきは<BR>こらしめてやる〜！",$00
+  db "……そうか。<BR>おまえのような　ウソつきは<BR>こらしめてやる〜!",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 272F (Data)", ROMX[$62C1], BANK[$6D]
 GameSceneNPCScriptReference272F::
-  db "そうですね〜……<BR>くろいギター……　かな？",$00
+  db "そうですね〜……<BR>くろいギター……　かな?",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 2730 (Data)", ROMX[$62D7], BANK[$6D]
 GameSceneNPCScriptReference2730::
-  db "……くろい？<BR>おまえ　オレのはなしを<BR>きいてなかったな？",$00
+  db "……くろい?<BR>おまえ　オレのはなしを<BR>きいてなかったな?",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 2731 (Data)", ROMX[$62F4], BANK[$6D]
 GameSceneNPCScriptReference2731::
-  db "つうしんぼに　いつも<BR>「おちつきがない」とか<BR>「ひとのはなしを　きかない」<BR>とか　かかれているだろ？",$00
+  db "つうしんぼに　いつも<BR>「おちつきがない」とか<BR>「ひとのはなしを　きかない」<BR>とか　かかれているだろ?",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 2732 (Data)", ROMX[$6327], BANK[$6D]
 GameSceneNPCScriptReference2732::
@@ -319,7 +319,7 @@ GameSceneNPCScriptReference2735::
 
 SECTION "Game Scene NPC Script 0070 Reference 2736 (Data)", ROMX[$637F], BANK[$6D]
 GameSceneNPCScriptReference2736::
-  db "ゴミは　すてるなよな！！",$00
+  db "ゴミは　すてるなよな!!",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 2737 (Data)", ROMX[$638C], BANK[$6D]
 GameSceneNPCScriptReference2737::

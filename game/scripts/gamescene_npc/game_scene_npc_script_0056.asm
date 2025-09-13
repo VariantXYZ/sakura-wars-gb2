@@ -163,19 +163,19 @@ GameSceneNPCScriptReference1FF2::
 
 SECTION "Game Scene NPC Script 0056 Reference 1FD8 (Data)", ROMX[$5E46], BANK[$6B]
 GameSceneNPCScriptReference1FD8::
-  db "あっ！！",$00
+  db "あっ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 1FD9 (Data)", ROMX[$5E4B], BANK[$6B]
 GameSceneNPCScriptReference1FD9::
-  db "さくらさん！　あれ！<BR>ほのおの　まんなかに！！",$00
+  db "さくらさん!　あれ!<BR>ほのおの　まんなかに!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 1FDA (Data)", ROMX[$5E63], BANK[$6B]
 GameSceneNPCScriptReference1FDA::
-  db "あっ！<BR>あれは『まじんき』の<BR>『たま』だわ！！",$00
+  db "あっ!<BR>あれは『まじんき』の<BR>『たま』だわ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 1FDB (Data)", ROMX[$5E7B], BANK[$6B]
 GameSceneNPCScriptReference1FDB::
-  db "でも……<BR>ほのおに　かこまれて<BR>とりに　いけません！",$00
+  db "でも……<BR>ほのおに　かこまれて<BR>とりに　いけません!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 1FDC (Data)", ROMX[$5E96], BANK[$6B]
 GameSceneNPCScriptReference1FDC::
@@ -602,19 +602,19 @@ GameSceneNPCScriptReference204F::
 
 SECTION "Game Scene NPC Script 0056 Reference 1FEB (Data)", ROMX[$452F], BANK[$6B]
 GameSceneNPCScriptReference1FEB::
-  db "あっ！！",$00
+  db "あっ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 1FEC (Data)", ROMX[$4534], BANK[$6B]
 GameSceneNPCScriptReference1FEC::
-  db "おおがみさん！　あれ！<BR>ほのおの　まんなかに！！",$00
+  db "おおがみさん!　あれ!<BR>ほのおの　まんなかに!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 1FED (Data)", ROMX[$454D], BANK[$6B]
 GameSceneNPCScriptReference1FED::
-  db "おおっ！<BR>あれは『まじんき』の<BR>『たま』じゃないか！！",$00
+  db "おおっ!<BR>あれは『まじんき』の<BR>『たま』じゃないか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 1FEE (Data)", ROMX[$4569], BANK[$6B]
 GameSceneNPCScriptReference1FEE::
-  db "でも……<BR>ほのおに　かこまれて<BR>とりに　いけません！",$00
+  db "でも……<BR>ほのおに　かこまれて<BR>とりに　いけません!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 1FEF (Data)", ROMX[$4584], BANK[$6B]
 GameSceneNPCScriptReference1FEF::
@@ -917,23 +917,23 @@ GameSceneNPCScriptReference2004::
 
 SECTION "Game Scene NPC Script 0056 Reference 2005 (Data)", ROMX[$5F0E], BANK[$6B]
 GameSceneNPCScriptReference2005::
-  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないですか？",$00
+  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないですか?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2006 (Data)", ROMX[$5F2C], BANK[$6B]
 GameSceneNPCScriptReference2006::
-  db "みず？……………………………<BR>あっ！　そうですね！！",$00
+  db "みず?……………………………<BR>あっ!　そうですね!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2007 (Data)", ROMX[$5F47], BANK[$6B]
 GameSceneNPCScriptReference2007::
-  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれませんね！！",$00
+  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれませんね!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2008 (Data)", ROMX[$5F69], BANK[$6B]
 GameSceneNPCScriptReference2008::
-  db "さすが　<NAME>さん！！<BR>いいところに<BR>きがつきますね。",$00
+  db "さすが　<NAME>さん!!<BR>いいところに<BR>きがつきますね。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2009 (Data)", ROMX[$5F83], BANK[$6B]
 GameSceneNPCScriptReference2009::
-  db "じゃあ　おくじょうへ<BR>いってみましょう！",$00
+  db "じゃあ　おくじょうへ<BR>いってみましょう!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 200A (Data)", ROMX[$5F98], BANK[$6B]
 GameSceneNPCScriptReference200A::
@@ -941,7 +941,7 @@ GameSceneNPCScriptReference200A::
 
 SECTION "Game Scene NPC Script 0056 Reference 200B (Data)", ROMX[$5FA8], BANK[$6B]
 GameSceneNPCScriptReference200B::
-  db "しょうかき？<BR>なるほど　ひを　けすには<BR>しょうかき　ですね。",$00
+  db "しょうかき?<BR>なるほど　ひを　けすには<BR>しょうかき　ですね。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 200C (Data)", ROMX[$5FC7], BANK[$6B]
 GameSceneNPCScriptReference200C::
@@ -957,7 +957,7 @@ GameSceneNPCScriptReference200F::
 
 SECTION "Game Scene NPC Script 0056 Reference 2010 (Data)", ROMX[$602A], BANK[$6B]
 GameSceneNPCScriptReference2010::
-  db "フーフーいきを<BR>ふきかける？！",$00
+  db "フーフーいきを<BR>ふきかける?!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2011 (Data)", ROMX[$603A], BANK[$6B]
 GameSceneNPCScriptReference2011::
@@ -965,7 +965,7 @@ GameSceneNPCScriptReference2011::
 
 SECTION "Game Scene NPC Script 0056 Reference 2012 (Data)", ROMX[$605F], BANK[$6B]
 GameSceneNPCScriptReference2012::
-  db "いきを　ふきかけたぐらいで<BR>この　ほのおが　きえるわけ<BR>ないじゃ　ないですか！！",$00
+  db "いきを　ふきかけたぐらいで<BR>この　ほのおが　きえるわけ<BR>ないじゃ　ないですか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2013 (Data)", ROMX[$6088], BANK[$6B]
 GameSceneNPCScriptReference2013::
@@ -985,11 +985,11 @@ GameSceneNPCScriptReference2016::
 
 SECTION "Game Scene NPC Script 0056 Reference 2017 (Data)", ROMX[$610D], BANK[$6B]
 GameSceneNPCScriptReference2017::
-  db "そうだわ！！<BR>おくじょう！！！",$00
+  db "そうだわ!!<BR>おくじょう!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2018 (Data)", ROMX[$611D], BANK[$6B]
 GameSceneNPCScriptReference2018::
-  db "となりの　とうのおくじょうに<BR>みずが　たくさん<BR>あったじゃないですか！！",$00
+  db "となりの　とうのおくじょうに<BR>みずが　たくさん<BR>あったじゃないですか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2019 (Data)", ROMX[$6142], BANK[$6B]
 GameSceneNPCScriptReference2019::
@@ -997,19 +997,19 @@ GameSceneNPCScriptReference2019::
 
 SECTION "Game Scene NPC Script 0056 Reference 201A (Data)", ROMX[$616B], BANK[$6B]
 GameSceneNPCScriptReference201A::
-  db "こっちのとうにも<BR>みずが　あるかどうか<BR>しらべに　いきましょう！！",$00
+  db "こっちのとうにも<BR>みずが　あるかどうか<BR>しらべに　いきましょう!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 201B (Data)", ROMX[$7191], BANK[$69]
 GameSceneNPCScriptReference201B::
-  db "あっ！！",$00
+  db "あっ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 201C (Data)", ROMX[$7196], BANK[$69]
 GameSceneNPCScriptReference201C::
-  db "アイリス！　あれ！<BR>ほのおの　まんなかに！！",$00
+  db "アイリス!　あれ!<BR>ほのおの　まんなかに!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 201D (Data)", ROMX[$71AD], BANK[$69]
 GameSceneNPCScriptReference201D::
-  db "あっ！<BR>あれは『まじんき』の<BR>『たま』だ！！",$00
+  db "あっ!<BR>あれは『まじんき』の<BR>『たま』だ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 201E (Data)", ROMX[$71C4], BANK[$69]
 GameSceneNPCScriptReference201E::
@@ -1169,15 +1169,15 @@ GameSceneNPCScriptReference2028::
 
 SECTION "Game Scene NPC Script 0056 Reference 202A (Data)", ROMX[$57A6], BANK[$69]
 GameSceneNPCScriptReference202A::
-  db "あっ！！",$00
+  db "あっ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 202B (Data)", ROMX[$57AB], BANK[$69]
 GameSceneNPCScriptReference202B::
-  db "アイリス！　あれ！<BR>ほのおの　まんなかに！！",$00
+  db "アイリス!　あれ!<BR>ほのおの　まんなかに!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 202C (Data)", ROMX[$57C2], BANK[$69]
 GameSceneNPCScriptReference202C::
-  db "あっ！<BR>あれは『まじんき』の<BR>『たま』だ！！",$00
+  db "あっ!<BR>あれは『まじんき』の<BR>『たま』だ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 202D (Data)", ROMX[$57D9], BANK[$69]
 GameSceneNPCScriptReference202D::
@@ -1337,19 +1337,19 @@ GameSceneNPCScriptReference2037::
 
 SECTION "Game Scene NPC Script 0056 Reference 2039 (Data)", ROMX[$6359], BANK[$6A]
 GameSceneNPCScriptReference2039::
-  db "あっ！！",$00
+  db "あっ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 203A (Data)", ROMX[$635E], BANK[$6A]
 GameSceneNPCScriptReference203A::
-  db "カンナさん！　あれ！<BR>ほのおの　まんなかに！！",$00
+  db "カンナさん!　あれ!<BR>ほのおの　まんなかに!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 203B (Data)", ROMX[$6376], BANK[$6A]
 GameSceneNPCScriptReference203B::
-  db "おおっ！<BR>あれは『まじんき』の<BR>『たま』じゃねーか！！",$00
+  db "おおっ!<BR>あれは『まじんき』の<BR>『たま』じゃねーか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 203C (Data)", ROMX[$6392], BANK[$6A]
 GameSceneNPCScriptReference203C::
-  db "でも……<BR>ほのおに　かこまれて<BR>とりに　いけません！",$00
+  db "でも……<BR>ほのおに　かこまれて<BR>とりに　いけません!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 203D (Data)", ROMX[$63AD], BANK[$6A]
 GameSceneNPCScriptReference203D::
@@ -1509,19 +1509,19 @@ GameSceneNPCScriptReference2046::
 
 SECTION "Game Scene NPC Script 0056 Reference 2048 (Data)", ROMX[$4B05], BANK[$6A]
 GameSceneNPCScriptReference2048::
-  db "あっ！！",$00
+  db "あっ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2049 (Data)", ROMX[$4B0A], BANK[$6A]
 GameSceneNPCScriptReference2049::
-  db "カンナさん！　あれ！<BR>ほのおの　まんなかに！！",$00
+  db "カンナさん!　あれ!<BR>ほのおの　まんなかに!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 204A (Data)", ROMX[$4B22], BANK[$6A]
 GameSceneNPCScriptReference204A::
-  db "おおっ！<BR>あれは『まじんき』の<BR>『たま』じゃねーか！！",$00
+  db "おおっ!<BR>あれは『まじんき』の<BR>『たま』じゃねーか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 204B (Data)", ROMX[$4B3E], BANK[$6A]
 GameSceneNPCScriptReference204B::
-  db "でも……<BR>ほのおに　かこまれて<BR>とりに　いけません！",$00
+  db "でも……<BR>ほのおに　かこまれて<BR>とりに　いけません!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 204C (Data)", ROMX[$4B59], BANK[$6A]
 GameSceneNPCScriptReference204C::
@@ -1809,7 +1809,7 @@ GameSceneNPCScriptReference205F::
 
 SECTION "Game Scene NPC Script 0056 Reference 2060 (Data)", ROMX[$48AB], BANK[$6B]
 GameSceneNPCScriptReference2060::
-  db "いけるところまで<BR>いってみよう<BR><NAME>くん！",$00
+  db "いけるところまで<BR>いってみよう<BR><NAME>くん!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2061 (Data)", ROMX[$45F1], BANK[$6B]
 GameSceneNPCScriptReference2061::
@@ -1817,23 +1817,23 @@ GameSceneNPCScriptReference2061::
 
 SECTION "Game Scene NPC Script 0056 Reference 2062 (Data)", ROMX[$4616], BANK[$6B]
 GameSceneNPCScriptReference2062::
-  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないでしょうか？",$00
+  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2063 (Data)", ROMX[$4636], BANK[$6B]
 GameSceneNPCScriptReference2063::
-  db "みず？……………………………<BR>そうか！",$00
+  db "みず?……………………………<BR>そうか!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2064 (Data)", ROMX[$464A], BANK[$6B]
 GameSceneNPCScriptReference2064::
-  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない！！",$00
+  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2065 (Data)", ROMX[$466A], BANK[$6B]
 GameSceneNPCScriptReference2065::
-  db "<NAME>くん<BR>すばらしいよ。<BR>めのつけどころが　スゴイ！<BR>さすがだ。",$00
+  db "<NAME>くん<BR>すばらしいよ。<BR>めのつけどころが　スゴイ!<BR>さすがだ。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2066 (Data)", ROMX[$468A], BANK[$6B]
 GameSceneNPCScriptReference2066::
-  db "よし！<BR>おくじょうへ<BR>いってみよう！！",$00
+  db "よし!<BR>おくじょうへ<BR>いってみよう!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2067 (Data)", ROMX[$469E], BANK[$6B]
 GameSceneNPCScriptReference2067::
@@ -1841,7 +1841,7 @@ GameSceneNPCScriptReference2067::
 
 SECTION "Game Scene NPC Script 0056 Reference 2068 (Data)", ROMX[$46AE], BANK[$6B]
 GameSceneNPCScriptReference2068::
-  db "しょうかき？<BR>それは　ダメだろう。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえない。",$00
+  db "しょうかき?<BR>それは　ダメだろう。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえない。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2069 (Data)", ROMX[$46DA], BANK[$6B]
 GameSceneNPCScriptReference2069::
@@ -1853,7 +1853,7 @@ GameSceneNPCScriptReference206B::
 
 SECTION "Game Scene NPC Script 0056 Reference 206C (Data)", ROMX[$4718], BANK[$6B]
 GameSceneNPCScriptReference206C::
-  db "フーフーいきを<BR>ふきかける？！",$00
+  db "フーフーいきを<BR>ふきかける?!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 206D (Data)", ROMX[$4728], BANK[$6B]
 GameSceneNPCScriptReference206D::
@@ -1861,7 +1861,7 @@ GameSceneNPCScriptReference206D::
 
 SECTION "Game Scene NPC Script 0056 Reference 206E (Data)", ROMX[$4749], BANK[$6B]
 GameSceneNPCScriptReference206E::
-  db "いきを　ふきかけたぐらいで<BR>この　ほのおが　きえるわけ<BR>ないだろ？",$00
+  db "いきを　ふきかけたぐらいで<BR>この　ほのおが　きえるわけ<BR>ないだろ?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 206F (Data)", ROMX[$476B], BANK[$6B]
 GameSceneNPCScriptReference206F::
@@ -1881,19 +1881,19 @@ GameSceneNPCScriptReference2072::
 
 SECTION "Game Scene NPC Script 0056 Reference 2073 (Data)", ROMX[$47DA], BANK[$6B]
 GameSceneNPCScriptReference2073::
-  db "そうだ！！<BR>おくじょうだ！！！",$00
+  db "そうだ!!<BR>おくじょうだ!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2074 (Data)", ROMX[$47EA], BANK[$6B]
 GameSceneNPCScriptReference2074::
-  db "となりの　とうのおくじょうに<BR>みずが　たくさん<BR>あったじゃないか！！",$00
+  db "となりの　とうのおくじょうに<BR>みずが　たくさん<BR>あったじゃないか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2075 (Data)", ROMX[$480D], BANK[$6B]
 GameSceneNPCScriptReference2075::
-  db "あれだけの　みずがあれば<BR>この　ほのおも<BR>なんとか　なるんじゃないか？",$00
+  db "あれだけの　みずがあれば<BR>この　ほのおも<BR>なんとか　なるんじゃないか?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2076 (Data)", ROMX[$4831], BANK[$6B]
 GameSceneNPCScriptReference2076::
-  db "こっちのとうにも<BR>みずが　あるかどうか<BR>しらべにいこう！！",$00
+  db "こっちのとうにも<BR>みずが　あるかどうか<BR>しらべにいこう!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2077 (Data)", ROMX[$6226], BANK[$6B]
 GameSceneNPCScriptReference2077::
@@ -1901,19 +1901,19 @@ GameSceneNPCScriptReference2077::
 
 SECTION "Game Scene NPC Script 0056 Reference 2078 (Data)", ROMX[$624C], BANK[$6B]
 GameSceneNPCScriptReference2078::
-  db "みず？……………………………<BR>あっ！　そうですね！！",$00
+  db "みず?……………………………<BR>あっ!　そうですね!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2079 (Data)", ROMX[$6267], BANK[$6B]
 GameSceneNPCScriptReference2079::
-  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれませんね！！",$00
+  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれませんね!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 207A (Data)", ROMX[$6289], BANK[$6B]
 GameSceneNPCScriptReference207A::
-  db "さすが　<NAME>さん！！<BR>いいところに<BR>きがつきますね。",$00
+  db "さすが　<NAME>さん!!<BR>いいところに<BR>きがつきますね。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 207B (Data)", ROMX[$62A3], BANK[$6B]
 GameSceneNPCScriptReference207B::
-  db "じゃあ　おくじょうへ<BR>もどりましょう！",$00
+  db "じゃあ　おくじょうへ<BR>もどりましょう!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 207C (Data)", ROMX[$62B7], BANK[$6B]
 GameSceneNPCScriptReference207C::
@@ -1921,7 +1921,7 @@ GameSceneNPCScriptReference207C::
 
 SECTION "Game Scene NPC Script 0056 Reference 207D (Data)", ROMX[$62C7], BANK[$6B]
 GameSceneNPCScriptReference207D::
-  db "しょうかき？<BR>なるほど　ひを　けすには<BR>しょうかき　ですね。",$00
+  db "しょうかき?<BR>なるほど　ひを　けすには<BR>しょうかき　ですね。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 207E (Data)", ROMX[$62E6], BANK[$6B]
 GameSceneNPCScriptReference207E::
@@ -1937,7 +1937,7 @@ GameSceneNPCScriptReference2081::
 
 SECTION "Game Scene NPC Script 0056 Reference 2082 (Data)", ROMX[$6349], BANK[$6B]
 GameSceneNPCScriptReference2082::
-  db "フーフーいきを<BR>ふきかける？！",$00
+  db "フーフーいきを<BR>ふきかける?!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2083 (Data)", ROMX[$6359], BANK[$6B]
 GameSceneNPCScriptReference2083::
@@ -1945,7 +1945,7 @@ GameSceneNPCScriptReference2083::
 
 SECTION "Game Scene NPC Script 0056 Reference 2084 (Data)", ROMX[$637E], BANK[$6B]
 GameSceneNPCScriptReference2084::
-  db "いきを　ふきかけたぐらいで<BR>この　ほのおが　きえるわけ<BR>ないじゃ　ないですか！！",$00
+  db "いきを　ふきかけたぐらいで<BR>この　ほのおが　きえるわけ<BR>ないじゃ　ないですか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2085 (Data)", ROMX[$63A7], BANK[$6B]
 GameSceneNPCScriptReference2085::
@@ -1965,11 +1965,11 @@ GameSceneNPCScriptReference2088::
 
 SECTION "Game Scene NPC Script 0056 Reference 2089 (Data)", ROMX[$642C], BANK[$6B]
 GameSceneNPCScriptReference2089::
-  db "そうだわ！！<BR>おくじょう！！！",$00
+  db "そうだわ!!<BR>おくじょう!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 208A (Data)", ROMX[$643C], BANK[$6B]
 GameSceneNPCScriptReference208A::
-  db "このとうの　おくじょうに<BR>みずが　たくさん<BR>あったじゃないですか！！",$00
+  db "このとうの　おくじょうに<BR>みずが　たくさん<BR>あったじゃないですか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 208B (Data)", ROMX[$645F], BANK[$6B]
 GameSceneNPCScriptReference208B::
@@ -1977,7 +1977,7 @@ GameSceneNPCScriptReference208B::
 
 SECTION "Game Scene NPC Script 0056 Reference 208C (Data)", ROMX[$6488], BANK[$6B]
 GameSceneNPCScriptReference208C::
-  db "おくじょうに　もどって<BR>しらべてみましょう！",$00
+  db "おくじょうに　もどって<BR>しらべてみましょう!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 208D (Data)", ROMX[$74E0], BANK[$69]
 GameSceneNPCScriptReference208D::
@@ -2117,23 +2117,23 @@ GameSceneNPCScriptReference2097::
 
 SECTION "Game Scene NPC Script 0056 Reference 2098 (Data)", ROMX[$7251], BANK[$69]
 GameSceneNPCScriptReference2098::
-  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないかな？",$00
+  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないかな?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2099 (Data)", ROMX[$726E], BANK[$69]
 GameSceneNPCScriptReference2099::
-  db "おみず？…………………………<BR>あっ　そうか！",$00
+  db "おみず?…………………………<BR>あっ　そうか!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 209A (Data)", ROMX[$7285], BANK[$69]
 GameSceneNPCScriptReference209A::
-  db "あれだけ　たくさんの<BR>おみずが　あれば<BR>このほのおを<BR>けせるかもしれないね！！",$00
+  db "あれだけ　たくさんの<BR>おみずが　あれば<BR>このほのおを<BR>けせるかもしれないね!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 209B (Data)", ROMX[$72AD], BANK[$69]
 GameSceneNPCScriptReference209B::
-  db "<NAME>　あったまいー！",$00
+  db "<NAME>　あったまいー!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 209C (Data)", ROMX[$72B7], BANK[$69]
 GameSceneNPCScriptReference209C::
-  db "じゃあ　おくじょうへ<BR>レッツ　ゴー！！",$00
+  db "じゃあ　おくじょうへ<BR>レッツ　ゴー!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 209D (Data)", ROMX[$72CB], BANK[$69]
 GameSceneNPCScriptReference209D::
@@ -2141,7 +2141,7 @@ GameSceneNPCScriptReference209D::
 
 SECTION "Game Scene NPC Script 0056 Reference 209E (Data)", ROMX[$72D9], BANK[$69]
 GameSceneNPCScriptReference209E::
-  db "しょうかき？<BR>ダメだよ。<BR>このほのおは　しょうかき<BR>なんかじゃ　きえないよ。",$00
+  db "しょうかき?<BR>ダメだよ。<BR>このほのおは　しょうかき<BR>なんかじゃ　きえないよ。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 209F (Data)", ROMX[$7300], BANK[$69]
 GameSceneNPCScriptReference209F::
@@ -2153,19 +2153,19 @@ GameSceneNPCScriptReference20A0::
 
 SECTION "Game Scene NPC Script 0056 Reference 20A2 (Data)", ROMX[$734D], BANK[$69]
 GameSceneNPCScriptReference20A2::
-  db "フーフー　ふいてみようか？",$00
+  db "フーフー　ふいてみようか?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20A3 (Data)", ROMX[$735B], BANK[$69]
 GameSceneNPCScriptReference20A3::
-  db "フーフーふく？",$00
+  db "フーフーふく?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20A4 (Data)", ROMX[$7363], BANK[$69]
 GameSceneNPCScriptReference20A4::
-  db "おたんじょうケーキの<BR>ロウソクじゃないんだよ！",$00
+  db "おたんじょうケーキの<BR>ロウソクじゃないんだよ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20A5 (Data)", ROMX[$737B], BANK[$69]
 GameSceneNPCScriptReference20A5::
-  db "そんなので　このほのおが<BR>きえるわけ　ないでしょ！！",$00
+  db "そんなので　このほのおが<BR>きえるわけ　ないでしょ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20A6 (Data)", ROMX[$7396], BANK[$69]
 GameSceneNPCScriptReference20A6::
@@ -2185,11 +2185,11 @@ GameSceneNPCScriptReference20A9::
 
 SECTION "Game Scene NPC Script 0056 Reference 20AA (Data)", ROMX[$73EF], BANK[$69]
 GameSceneNPCScriptReference20AA::
-  db "そうだ！！<BR>おくじょうだ！！！",$00
+  db "そうだ!!<BR>おくじょうだ!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20AB (Data)", ROMX[$73FF], BANK[$69]
 GameSceneNPCScriptReference20AB::
-  db "となりの　とうのおくじょうに<BR>おみずが　たくさん<BR>あったよね！",$00
+  db "となりの　とうのおくじょうに<BR>おみずが　たくさん<BR>あったよね!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20AC (Data)", ROMX[$741F], BANK[$69]
 GameSceneNPCScriptReference20AC::
@@ -2197,7 +2197,7 @@ GameSceneNPCScriptReference20AC::
 
 SECTION "Game Scene NPC Script 0056 Reference 20AD (Data)", ROMX[$7443], BANK[$69]
 GameSceneNPCScriptReference20AD::
-  db "こっちのとうにも<BR>おみずが　あるかどうか<BR>しらべにいこうよ！！",$00
+  db "こっちのとうにも<BR>おみずが　あるかどうか<BR>しらべにいこうよ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20AE (Data)", ROMX[$5AFD], BANK[$69]
 GameSceneNPCScriptReference20AE::
@@ -2337,23 +2337,23 @@ GameSceneNPCScriptReference20B8::
 
 SECTION "Game Scene NPC Script 0056 Reference 20B9 (Data)", ROMX[$5868], BANK[$69]
 GameSceneNPCScriptReference20B9::
-  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないかしら？",$00
+  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないかしら?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20BA (Data)", ROMX[$5886], BANK[$69]
 GameSceneNPCScriptReference20BA::
-  db "おみず？…………………………<BR>あっ　そうか！",$00
+  db "おみず?…………………………<BR>あっ　そうか!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20BB (Data)", ROMX[$589D], BANK[$69]
 GameSceneNPCScriptReference20BB::
-  db "あれだけ　たくさんの<BR>おみずが　あれば<BR>このほのおを<BR>けせるかもしれないね！！",$00
+  db "あれだけ　たくさんの<BR>おみずが　あれば<BR>このほのおを<BR>けせるかもしれないね!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20BC (Data)", ROMX[$58C5], BANK[$69]
 GameSceneNPCScriptReference20BC::
-  db "<NAME>　あったまいー！",$00
+  db "<NAME>　あったまいー!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20BD (Data)", ROMX[$58CF], BANK[$69]
 GameSceneNPCScriptReference20BD::
-  db "じゃあ　おくじょうへ<BR>レッツ　ゴー！！",$00
+  db "じゃあ　おくじょうへ<BR>レッツ　ゴー!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20BE (Data)", ROMX[$58E3], BANK[$69]
 GameSceneNPCScriptReference20BE::
@@ -2361,7 +2361,7 @@ GameSceneNPCScriptReference20BE::
 
 SECTION "Game Scene NPC Script 0056 Reference 20BF (Data)", ROMX[$58F3], BANK[$69]
 GameSceneNPCScriptReference20BF::
-  db "しょうかき？<BR>ダメだよ。<BR>このほのおは　しょうかき<BR>なんかじゃ　きえないよ。",$00
+  db "しょうかき?<BR>ダメだよ。<BR>このほのおは　しょうかき<BR>なんかじゃ　きえないよ。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20C0 (Data)", ROMX[$591A], BANK[$69]
 GameSceneNPCScriptReference20C0::
@@ -2373,19 +2373,19 @@ GameSceneNPCScriptReference20C1::
 
 SECTION "Game Scene NPC Script 0056 Reference 20C3 (Data)", ROMX[$5967], BANK[$69]
 GameSceneNPCScriptReference20C3::
-  db "フーフー　ふいて<BR>みましょうか？",$00
+  db "フーフー　ふいて<BR>みましょうか?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20C4 (Data)", ROMX[$5978], BANK[$69]
 GameSceneNPCScriptReference20C4::
-  db "フーフーふく？",$00
+  db "フーフーふく?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20C5 (Data)", ROMX[$5980], BANK[$69]
 GameSceneNPCScriptReference20C5::
-  db "おたんじょうケーキの<BR>ロウソクじゃないんだよ！",$00
+  db "おたんじょうケーキの<BR>ロウソクじゃないんだよ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20C6 (Data)", ROMX[$5998], BANK[$69]
 GameSceneNPCScriptReference20C6::
-  db "そんなので　このほのおが<BR>きえるわけ　ないでしょ！！",$00
+  db "そんなので　このほのおが<BR>きえるわけ　ないでしょ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20C7 (Data)", ROMX[$59B3], BANK[$69]
 GameSceneNPCScriptReference20C7::
@@ -2405,11 +2405,11 @@ GameSceneNPCScriptReference20CA::
 
 SECTION "Game Scene NPC Script 0056 Reference 20CB (Data)", ROMX[$5A0C], BANK[$69]
 GameSceneNPCScriptReference20CB::
-  db "そうだ！！<BR>おくじょうだ！！！",$00
+  db "そうだ!!<BR>おくじょうだ!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20CC (Data)", ROMX[$5A1C], BANK[$69]
 GameSceneNPCScriptReference20CC::
-  db "となりの　とうのおくじょうに<BR>おみずが　たくさん<BR>あったよね！",$00
+  db "となりの　とうのおくじょうに<BR>おみずが　たくさん<BR>あったよね!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20CD (Data)", ROMX[$5A3C], BANK[$69]
 GameSceneNPCScriptReference20CD::
@@ -2417,7 +2417,7 @@ GameSceneNPCScriptReference20CD::
 
 SECTION "Game Scene NPC Script 0056 Reference 20CE (Data)", ROMX[$5A60], BANK[$69]
 GameSceneNPCScriptReference20CE::
-  db "こっちのとうにも<BR>おみずが　あるかどうか<BR>しらべにいこうよ！！",$00
+  db "こっちのとうにも<BR>おみずが　あるかどうか<BR>しらべにいこうよ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20CF (Data)", ROMX[$66B5], BANK[$6A]
 GameSceneNPCScriptReference20CF::
@@ -2551,7 +2551,7 @@ GameSceneNPCScriptReference20D7::
 
 SECTION "Game Scene NPC Script 0056 Reference 20D8 (Data)", ROMX[$66A4], BANK[$6A]
 GameSceneNPCScriptReference20D8::
-  db "いけるところまで<BR>いってみよう！",$00
+  db "いけるところまで<BR>いってみよう!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20D9 (Data)", ROMX[$6412], BANK[$6A]
 GameSceneNPCScriptReference20D9::
@@ -2559,23 +2559,23 @@ GameSceneNPCScriptReference20D9::
 
 SECTION "Game Scene NPC Script 0056 Reference 20DA (Data)", ROMX[$6437], BANK[$6A]
 GameSceneNPCScriptReference20DA::
-  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないですか？",$00
+  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないですか?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20DB (Data)", ROMX[$6455], BANK[$6A]
 GameSceneNPCScriptReference20DB::
-  db "みず？……………………………<BR>そうか！",$00
+  db "みず?……………………………<BR>そうか!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20DC (Data)", ROMX[$6469], BANK[$6A]
 GameSceneNPCScriptReference20DC::
-  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない！！",$00
+  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20DD (Data)", ROMX[$6489], BANK[$6A]
 GameSceneNPCScriptReference20DD::
-  db "さすがだぜ　<NAME>！！",$00
+  db "さすがだぜ　<NAME>!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20DE (Data)", ROMX[$6493], BANK[$6A]
 GameSceneNPCScriptReference20DE::
-  db "よし！<BR>おくじょうへ<BR>いってみようぜ！",$00
+  db "よし!<BR>おくじょうへ<BR>いってみようぜ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20DF (Data)", ROMX[$64A7], BANK[$6A]
 GameSceneNPCScriptReference20DF::
@@ -2583,7 +2583,7 @@ GameSceneNPCScriptReference20DF::
 
 SECTION "Game Scene NPC Script 0056 Reference 20E0 (Data)", ROMX[$64B7], BANK[$6A]
 GameSceneNPCScriptReference20E0::
-  db "しょうかき？<BR>ダメだ　ダメだ。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえないぜ。",$00
+  db "しょうかき?<BR>ダメだ　ダメだ。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえないぜ。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20E1 (Data)", ROMX[$64E2], BANK[$6A]
 GameSceneNPCScriptReference20E1::
@@ -2595,7 +2595,7 @@ GameSceneNPCScriptReference20E3::
 
 SECTION "Game Scene NPC Script 0056 Reference 20E4 (Data)", ROMX[$6520], BANK[$6A]
 GameSceneNPCScriptReference20E4::
-  db "フーフーいきを<BR>ふきかける？！",$00
+  db "フーフーいきを<BR>ふきかける?!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20E5 (Data)", ROMX[$6530], BANK[$6A]
 GameSceneNPCScriptReference20E5::
@@ -2603,7 +2603,7 @@ GameSceneNPCScriptReference20E5::
 
 SECTION "Game Scene NPC Script 0056 Reference 20E6 (Data)", ROMX[$6548], BANK[$6A]
 GameSceneNPCScriptReference20E6::
-  db "いきを　ふきかけたぐらいで<BR>きえるわけ　ないだろ？<BR>この　ほのおが！！",$00
+  db "いきを　ふきかけたぐらいで<BR>きえるわけ　ないだろ?<BR>この　ほのおが!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20E7 (Data)", ROMX[$656C], BANK[$6A]
 GameSceneNPCScriptReference20E7::
@@ -2623,11 +2623,11 @@ GameSceneNPCScriptReference20EA::
 
 SECTION "Game Scene NPC Script 0056 Reference 20EB (Data)", ROMX[$65D9], BANK[$6A]
 GameSceneNPCScriptReference20EB::
-  db "そうだ！！<BR>おくじょうだ！！！",$00
+  db "そうだ!!<BR>おくじょうだ!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20EC (Data)", ROMX[$65E9], BANK[$6A]
 GameSceneNPCScriptReference20EC::
-  db "となりの　とうのおくじょうに<BR>みずが　たっぷり<BR>あったじゃないか！！",$00
+  db "となりの　とうのおくじょうに<BR>みずが　たっぷり<BR>あったじゃないか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20ED (Data)", ROMX[$660C], BANK[$6A]
 GameSceneNPCScriptReference20ED::
@@ -2635,7 +2635,7 @@ GameSceneNPCScriptReference20ED::
 
 SECTION "Game Scene NPC Script 0056 Reference 20EE (Data)", ROMX[$6630], BANK[$6A]
 GameSceneNPCScriptReference20EE::
-  db "こっちのとうにも<BR>みずが　あるかどうか<BR>しらべにいこうぜ！",$00
+  db "こっちのとうにも<BR>みずが　あるかどうか<BR>しらべにいこうぜ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20EF (Data)", ROMX[$4E60], BANK[$6A]
 GameSceneNPCScriptReference20EF::
@@ -2769,7 +2769,7 @@ GameSceneNPCScriptReference20F7::
 
 SECTION "Game Scene NPC Script 0056 Reference 20F8 (Data)", ROMX[$4E4F], BANK[$6A]
 GameSceneNPCScriptReference20F8::
-  db "いけるところまで<BR>いってみよう！",$00
+  db "いけるところまで<BR>いってみよう!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20F9 (Data)", ROMX[$4BBE], BANK[$6A]
 GameSceneNPCScriptReference20F9::
@@ -2777,23 +2777,23 @@ GameSceneNPCScriptReference20F9::
 
 SECTION "Game Scene NPC Script 0056 Reference 20FA (Data)", ROMX[$4BE0], BANK[$6A]
 GameSceneNPCScriptReference20FA::
-  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないでしょうか？",$00
+  db "あれと　おなじものが<BR>このとうにも<BR>あるんじゃないでしょうか?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20FB (Data)", ROMX[$4C00], BANK[$6A]
 GameSceneNPCScriptReference20FB::
-  db "みず？……………………………<BR>そうか！",$00
+  db "みず?……………………………<BR>そうか!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20FC (Data)", ROMX[$4C14], BANK[$6A]
 GameSceneNPCScriptReference20FC::
-  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない！！",$00
+  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20FD (Data)", ROMX[$4C34], BANK[$6A]
 GameSceneNPCScriptReference20FD::
-  db "さすがだぜ　<NAME>！！",$00
+  db "さすがだぜ　<NAME>!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20FE (Data)", ROMX[$4C3E], BANK[$6A]
 GameSceneNPCScriptReference20FE::
-  db "よし！<BR>おくじょうへ<BR>いってみようぜ！",$00
+  db "よし!<BR>おくじょうへ<BR>いってみようぜ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 20FF (Data)", ROMX[$4C52], BANK[$6A]
 GameSceneNPCScriptReference20FF::
@@ -2801,7 +2801,7 @@ GameSceneNPCScriptReference20FF::
 
 SECTION "Game Scene NPC Script 0056 Reference 2100 (Data)", ROMX[$4C62], BANK[$6A]
 GameSceneNPCScriptReference2100::
-  db "しょうかき？<BR>ダメだ　ダメだ。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえないぜ。",$00
+  db "しょうかき?<BR>ダメだ　ダメだ。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえないぜ。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2101 (Data)", ROMX[$4C8D], BANK[$6A]
 GameSceneNPCScriptReference2101::
@@ -2813,7 +2813,7 @@ GameSceneNPCScriptReference2103::
 
 SECTION "Game Scene NPC Script 0056 Reference 2104 (Data)", ROMX[$4CCB], BANK[$6A]
 GameSceneNPCScriptReference2104::
-  db "フーフーいきを<BR>ふきかける？！",$00
+  db "フーフーいきを<BR>ふきかける?!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2105 (Data)", ROMX[$4CDB], BANK[$6A]
 GameSceneNPCScriptReference2105::
@@ -2821,7 +2821,7 @@ GameSceneNPCScriptReference2105::
 
 SECTION "Game Scene NPC Script 0056 Reference 2106 (Data)", ROMX[$4CF3], BANK[$6A]
 GameSceneNPCScriptReference2106::
-  db "いきを　ふきかけたぐらいで<BR>きえるわけ　ないだろ？<BR>この　ほのおが！！",$00
+  db "いきを　ふきかけたぐらいで<BR>きえるわけ　ないだろ?<BR>この　ほのおが!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2107 (Data)", ROMX[$4D17], BANK[$6A]
 GameSceneNPCScriptReference2107::
@@ -2841,11 +2841,11 @@ GameSceneNPCScriptReference210A::
 
 SECTION "Game Scene NPC Script 0056 Reference 210B (Data)", ROMX[$4D84], BANK[$6A]
 GameSceneNPCScriptReference210B::
-  db "そうだ！！<BR>おくじょうだ！！！",$00
+  db "そうだ!!<BR>おくじょうだ!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 210C (Data)", ROMX[$4D94], BANK[$6A]
 GameSceneNPCScriptReference210C::
-  db "となりの　とうのおくじょうに<BR>みずが　たっぷり<BR>あったじゃないか！！",$00
+  db "となりの　とうのおくじょうに<BR>みずが　たっぷり<BR>あったじゃないか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 210D (Data)", ROMX[$4DB7], BANK[$6A]
 GameSceneNPCScriptReference210D::
@@ -2853,7 +2853,7 @@ GameSceneNPCScriptReference210D::
 
 SECTION "Game Scene NPC Script 0056 Reference 210E (Data)", ROMX[$4DDB], BANK[$6A]
 GameSceneNPCScriptReference210E::
-  db "こっちのとうにも<BR>みずが　あるかどうか<BR>しらべにいこうぜ！",$00
+  db "こっちのとうにも<BR>みずが　あるかどうか<BR>しらべにいこうぜ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 210F (Data)", ROMX[$48E4], BANK[$6B]
 GameSceneNPCScriptReference210F::
@@ -2861,19 +2861,19 @@ GameSceneNPCScriptReference210F::
 
 SECTION "Game Scene NPC Script 0056 Reference 2110 (Data)", ROMX[$4908], BANK[$6B]
 GameSceneNPCScriptReference2110::
-  db "みず？……………………………<BR>そうか！",$00
+  db "みず?……………………………<BR>そうか!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2111 (Data)", ROMX[$491C], BANK[$6B]
 GameSceneNPCScriptReference2111::
-  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない！！",$00
+  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2112 (Data)", ROMX[$493C], BANK[$6B]
 GameSceneNPCScriptReference2112::
-  db "<NAME>くん<BR>すばらしいよ。<BR>めのつけどころが　スゴイ！<BR>さすがだ。",$00
+  db "<NAME>くん<BR>すばらしいよ。<BR>めのつけどころが　スゴイ!<BR>さすがだ。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2113 (Data)", ROMX[$495C], BANK[$6B]
 GameSceneNPCScriptReference2113::
-  db "よし！<BR>おくじょうへ<BR>いってみよう！！",$00
+  db "よし!<BR>おくじょうへ<BR>いってみよう!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2114 (Data)", ROMX[$4970], BANK[$6B]
 GameSceneNPCScriptReference2114::
@@ -2881,7 +2881,7 @@ GameSceneNPCScriptReference2114::
 
 SECTION "Game Scene NPC Script 0056 Reference 2115 (Data)", ROMX[$4980], BANK[$6B]
 GameSceneNPCScriptReference2115::
-  db "しょうかき？<BR>それは　ダメだろう。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえない。",$00
+  db "しょうかき?<BR>それは　ダメだろう。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえない。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2116 (Data)", ROMX[$49AC], BANK[$6B]
 GameSceneNPCScriptReference2116::
@@ -2893,7 +2893,7 @@ GameSceneNPCScriptReference2118::
 
 SECTION "Game Scene NPC Script 0056 Reference 2119 (Data)", ROMX[$49EA], BANK[$6B]
 GameSceneNPCScriptReference2119::
-  db "フーフーいきを<BR>ふきかける？！",$00
+  db "フーフーいきを<BR>ふきかける?!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 211A (Data)", ROMX[$49FA], BANK[$6B]
 GameSceneNPCScriptReference211A::
@@ -2901,7 +2901,7 @@ GameSceneNPCScriptReference211A::
 
 SECTION "Game Scene NPC Script 0056 Reference 211B (Data)", ROMX[$4A1B], BANK[$6B]
 GameSceneNPCScriptReference211B::
-  db "いきを　ふきかけたぐらいで<BR>この　ほのおが　きえるわけ<BR>ないだろ？",$00
+  db "いきを　ふきかけたぐらいで<BR>この　ほのおが　きえるわけ<BR>ないだろ?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 211C (Data)", ROMX[$4A3D], BANK[$6B]
 GameSceneNPCScriptReference211C::
@@ -2921,19 +2921,19 @@ GameSceneNPCScriptReference211F::
 
 SECTION "Game Scene NPC Script 0056 Reference 2120 (Data)", ROMX[$4AAC], BANK[$6B]
 GameSceneNPCScriptReference2120::
-  db "そうだ！！<BR>おくじょうだ！！！",$00
+  db "そうだ!!<BR>おくじょうだ!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2121 (Data)", ROMX[$4ABC], BANK[$6B]
 GameSceneNPCScriptReference2121::
-  db "このとうの　おくじょうに<BR>みずが　たくさん<BR>あったじゃないか！！",$00
+  db "このとうの　おくじょうに<BR>みずが　たくさん<BR>あったじゃないか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2122 (Data)", ROMX[$4ADD], BANK[$6B]
 GameSceneNPCScriptReference2122::
-  db "あれだけの　みずがあれば<BR>この　ほのおも<BR>なんとか　なるんじゃないか？",$00
+  db "あれだけの　みずがあれば<BR>この　ほのおも<BR>なんとか　なるんじゃないか?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2123 (Data)", ROMX[$4B01], BANK[$6B]
 GameSceneNPCScriptReference2123::
-  db "もういちど　おくじょうへ<BR>いって　しらべてみよう！",$00
+  db "もういちど　おくじょうへ<BR>いって　しらべてみよう!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2124 (Data)", ROMX[$7504], BANK[$69]
 GameSceneNPCScriptReference2124::
@@ -2941,19 +2941,19 @@ GameSceneNPCScriptReference2124::
 
 SECTION "Game Scene NPC Script 0056 Reference 2125 (Data)", ROMX[$7526], BANK[$69]
 GameSceneNPCScriptReference2125::
-  db "おみず？…………………………<BR>あっ　そうか！",$00
+  db "おみず?…………………………<BR>あっ　そうか!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2126 (Data)", ROMX[$753D], BANK[$69]
 GameSceneNPCScriptReference2126::
-  db "あのプールいっぱいの<BR>おみずを　つかえば<BR>このほのおを<BR>けせるかもしれないね！！",$00
+  db "あのプールいっぱいの<BR>おみずを　つかえば<BR>このほのおを<BR>けせるかもしれないね!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2127 (Data)", ROMX[$7566], BANK[$69]
 GameSceneNPCScriptReference2127::
-  db "<NAME>　あったまいー！",$00
+  db "<NAME>　あったまいー!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2128 (Data)", ROMX[$7570], BANK[$69]
 GameSceneNPCScriptReference2128::
-  db "じゃあ　おくじょうへ<BR>レッツ　ゴー！！",$00
+  db "じゃあ　おくじょうへ<BR>レッツ　ゴー!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2129 (Data)", ROMX[$7584], BANK[$69]
 GameSceneNPCScriptReference2129::
@@ -2961,7 +2961,7 @@ GameSceneNPCScriptReference2129::
 
 SECTION "Game Scene NPC Script 0056 Reference 212A (Data)", ROMX[$7592], BANK[$69]
 GameSceneNPCScriptReference212A::
-  db "しょうかき？<BR>ダメだよ。<BR>このほのおは　しょうかき<BR>なんかじゃ　きえないよ。",$00
+  db "しょうかき?<BR>ダメだよ。<BR>このほのおは　しょうかき<BR>なんかじゃ　きえないよ。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 212B (Data)", ROMX[$75B9], BANK[$69]
 GameSceneNPCScriptReference212B::
@@ -2973,19 +2973,19 @@ GameSceneNPCScriptReference212C::
 
 SECTION "Game Scene NPC Script 0056 Reference 212E (Data)", ROMX[$7606], BANK[$69]
 GameSceneNPCScriptReference212E::
-  db "フーフー　ふいてみようか？",$00
+  db "フーフー　ふいてみようか?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 212F (Data)", ROMX[$7614], BANK[$69]
 GameSceneNPCScriptReference212F::
-  db "フーフーふく？",$00
+  db "フーフーふく?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2130 (Data)", ROMX[$761C], BANK[$69]
 GameSceneNPCScriptReference2130::
-  db "おたんじょうケーキの<BR>ロウソクじゃないんだよ！",$00
+  db "おたんじょうケーキの<BR>ロウソクじゃないんだよ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2131 (Data)", ROMX[$7634], BANK[$69]
 GameSceneNPCScriptReference2131::
-  db "そんなので　このほのおが<BR>きえるわけ　ないでしょ！！",$00
+  db "そんなので　このほのおが<BR>きえるわけ　ないでしょ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2132 (Data)", ROMX[$764F], BANK[$69]
 GameSceneNPCScriptReference2132::
@@ -3005,11 +3005,11 @@ GameSceneNPCScriptReference2135::
 
 SECTION "Game Scene NPC Script 0056 Reference 2136 (Data)", ROMX[$76A8], BANK[$69]
 GameSceneNPCScriptReference2136::
-  db "そうだ！！<BR>おくじょうだ！！！",$00
+  db "そうだ!!<BR>おくじょうだ!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2137 (Data)", ROMX[$76B8], BANK[$69]
 GameSceneNPCScriptReference2137::
-  db "このとうの　おくじょうに<BR>おみずが　たくさん<BR>あったよね！",$00
+  db "このとうの　おくじょうに<BR>おみずが　たくさん<BR>あったよね!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2138 (Data)", ROMX[$76D6], BANK[$69]
 GameSceneNPCScriptReference2138::
@@ -3017,7 +3017,7 @@ GameSceneNPCScriptReference2138::
 
 SECTION "Game Scene NPC Script 0056 Reference 2139 (Data)", ROMX[$76FA], BANK[$69]
 GameSceneNPCScriptReference2139::
-  db "もういちど　おくじょうへ<BR>いって　しらべてみようよ！",$00
+  db "もういちど　おくじょうへ<BR>いって　しらべてみようよ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 213A (Data)", ROMX[$5B21], BANK[$69]
 GameSceneNPCScriptReference213A::
@@ -3025,19 +3025,19 @@ GameSceneNPCScriptReference213A::
 
 SECTION "Game Scene NPC Script 0056 Reference 213B (Data)", ROMX[$5B45], BANK[$69]
 GameSceneNPCScriptReference213B::
-  db "おみず？…………………………<BR>あっ　そうか！",$00
+  db "おみず?…………………………<BR>あっ　そうか!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 213C (Data)", ROMX[$5B5C], BANK[$69]
 GameSceneNPCScriptReference213C::
-  db "あのプールいっぱいの<BR>おみずを　つかえば<BR>このほのおを<BR>けせるかもしれないね！！",$00
+  db "あのプールいっぱいの<BR>おみずを　つかえば<BR>このほのおを<BR>けせるかもしれないね!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 213D (Data)", ROMX[$5B85], BANK[$69]
 GameSceneNPCScriptReference213D::
-  db "<NAME>　あったまいー！",$00
+  db "<NAME>　あったまいー!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 213E (Data)", ROMX[$5B8F], BANK[$69]
 GameSceneNPCScriptReference213E::
-  db "じゃあ　おくじょうへ<BR>レッツ　ゴー！！",$00
+  db "じゃあ　おくじょうへ<BR>レッツ　ゴー!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 213F (Data)", ROMX[$5BA3], BANK[$69]
 GameSceneNPCScriptReference213F::
@@ -3045,7 +3045,7 @@ GameSceneNPCScriptReference213F::
 
 SECTION "Game Scene NPC Script 0056 Reference 2140 (Data)", ROMX[$5BB3], BANK[$69]
 GameSceneNPCScriptReference2140::
-  db "しょうかき？<BR>ダメだよ。<BR>このほのおは　しょうかき<BR>なんかじゃ　きえないよ。",$00
+  db "しょうかき?<BR>ダメだよ。<BR>このほのおは　しょうかき<BR>なんかじゃ　きえないよ。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2141 (Data)", ROMX[$5BDA], BANK[$69]
 GameSceneNPCScriptReference2141::
@@ -3057,19 +3057,19 @@ GameSceneNPCScriptReference2142::
 
 SECTION "Game Scene NPC Script 0056 Reference 2144 (Data)", ROMX[$5C27], BANK[$69]
 GameSceneNPCScriptReference2144::
-  db "フーフー　ふいて<BR>みましょうか？",$00
+  db "フーフー　ふいて<BR>みましょうか?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2145 (Data)", ROMX[$5C38], BANK[$69]
 GameSceneNPCScriptReference2145::
-  db "フーフーふく？",$00
+  db "フーフーふく?",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2146 (Data)", ROMX[$5C40], BANK[$69]
 GameSceneNPCScriptReference2146::
-  db "おたんじょうケーキの<BR>ロウソクじゃないんだよ！",$00
+  db "おたんじょうケーキの<BR>ロウソクじゃないんだよ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2147 (Data)", ROMX[$5C58], BANK[$69]
 GameSceneNPCScriptReference2147::
-  db "そんなので　このほのおが<BR>きえるわけ　ないでしょ！！",$00
+  db "そんなので　このほのおが<BR>きえるわけ　ないでしょ!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2148 (Data)", ROMX[$5C73], BANK[$69]
 GameSceneNPCScriptReference2148::
@@ -3089,11 +3089,11 @@ GameSceneNPCScriptReference214B::
 
 SECTION "Game Scene NPC Script 0056 Reference 214C (Data)", ROMX[$5CCC], BANK[$69]
 GameSceneNPCScriptReference214C::
-  db "そうだ！！<BR>おくじょうだ！！！",$00
+  db "そうだ!!<BR>おくじょうだ!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 214D (Data)", ROMX[$5CDC], BANK[$69]
 GameSceneNPCScriptReference214D::
-  db "このとうの　おくじょうに<BR>おみずが　たくさん<BR>あったよね！",$00
+  db "このとうの　おくじょうに<BR>おみずが　たくさん<BR>あったよね!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 214E (Data)", ROMX[$5CFA], BANK[$69]
 GameSceneNPCScriptReference214E::
@@ -3101,7 +3101,7 @@ GameSceneNPCScriptReference214E::
 
 SECTION "Game Scene NPC Script 0056 Reference 214F (Data)", ROMX[$5D1E], BANK[$69]
 GameSceneNPCScriptReference214F::
-  db "もういちど　おくじょうへ<BR>いって　しらべてみようよ！",$00
+  db "もういちど　おくじょうへ<BR>いって　しらべてみようよ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2150 (Data)", ROMX[$66D9], BANK[$6A]
 GameSceneNPCScriptReference2150::
@@ -3109,19 +3109,19 @@ GameSceneNPCScriptReference2150::
 
 SECTION "Game Scene NPC Script 0056 Reference 2151 (Data)", ROMX[$66FF], BANK[$6A]
 GameSceneNPCScriptReference2151::
-  db "みず？……………………………<BR>そうか！",$00
+  db "みず?……………………………<BR>そうか!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2152 (Data)", ROMX[$6713], BANK[$6A]
 GameSceneNPCScriptReference2152::
-  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない！！",$00
+  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2153 (Data)", ROMX[$6733], BANK[$6A]
 GameSceneNPCScriptReference2153::
-  db "さすがだぜ　<NAME>！！",$00
+  db "さすがだぜ　<NAME>!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2154 (Data)", ROMX[$673D], BANK[$6A]
 GameSceneNPCScriptReference2154::
-  db "よし！<BR>おくじょうへ<BR>いってみようぜ！",$00
+  db "よし!<BR>おくじょうへ<BR>いってみようぜ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2155 (Data)", ROMX[$6751], BANK[$6A]
 GameSceneNPCScriptReference2155::
@@ -3129,7 +3129,7 @@ GameSceneNPCScriptReference2155::
 
 SECTION "Game Scene NPC Script 0056 Reference 2156 (Data)", ROMX[$6761], BANK[$6A]
 GameSceneNPCScriptReference2156::
-  db "しょうかき？<BR>ダメだ　ダメだ。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえないぜ。",$00
+  db "しょうかき?<BR>ダメだ　ダメだ。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえないぜ。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2157 (Data)", ROMX[$678C], BANK[$6A]
 GameSceneNPCScriptReference2157::
@@ -3141,7 +3141,7 @@ GameSceneNPCScriptReference2159::
 
 SECTION "Game Scene NPC Script 0056 Reference 215A (Data)", ROMX[$67CA], BANK[$6A]
 GameSceneNPCScriptReference215A::
-  db "フーフーいきを<BR>ふきかける？！",$00
+  db "フーフーいきを<BR>ふきかける?!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 215B (Data)", ROMX[$67DA], BANK[$6A]
 GameSceneNPCScriptReference215B::
@@ -3149,7 +3149,7 @@ GameSceneNPCScriptReference215B::
 
 SECTION "Game Scene NPC Script 0056 Reference 215C (Data)", ROMX[$67F2], BANK[$6A]
 GameSceneNPCScriptReference215C::
-  db "いきを　ふきかけたぐらいで<BR>きえるわけ　ないだろ？<BR>この　ほのおが！！",$00
+  db "いきを　ふきかけたぐらいで<BR>きえるわけ　ないだろ?<BR>この　ほのおが!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 215D (Data)", ROMX[$6816], BANK[$6A]
 GameSceneNPCScriptReference215D::
@@ -3169,11 +3169,11 @@ GameSceneNPCScriptReference2160::
 
 SECTION "Game Scene NPC Script 0056 Reference 2161 (Data)", ROMX[$6883], BANK[$6A]
 GameSceneNPCScriptReference2161::
-  db "そうだ！！<BR>おくじょうだ！！！",$00
+  db "そうだ!!<BR>おくじょうだ!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2162 (Data)", ROMX[$6893], BANK[$6A]
 GameSceneNPCScriptReference2162::
-  db "このとうの　おくじょうに<BR>みずが　たっぷり<BR>あったじゃないか！！",$00
+  db "このとうの　おくじょうに<BR>みずが　たっぷり<BR>あったじゃないか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2163 (Data)", ROMX[$68B4], BANK[$6A]
 GameSceneNPCScriptReference2163::
@@ -3181,7 +3181,7 @@ GameSceneNPCScriptReference2163::
 
 SECTION "Game Scene NPC Script 0056 Reference 2164 (Data)", ROMX[$68D8], BANK[$6A]
 GameSceneNPCScriptReference2164::
-  db "もういちど　おくじょうへ<BR>いって　しらべてみようぜ！",$00
+  db "もういちど　おくじょうへ<BR>いって　しらべてみようぜ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2165 (Data)", ROMX[$4E84], BANK[$6A]
 GameSceneNPCScriptReference2165::
@@ -3189,19 +3189,19 @@ GameSceneNPCScriptReference2165::
 
 SECTION "Game Scene NPC Script 0056 Reference 2166 (Data)", ROMX[$4EAA], BANK[$6A]
 GameSceneNPCScriptReference2166::
-  db "みず？……………………………<BR>そうか！",$00
+  db "みず?……………………………<BR>そうか!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2167 (Data)", ROMX[$4EBE], BANK[$6A]
 GameSceneNPCScriptReference2167::
-  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない！！",$00
+  db "あれだけの　みずがあれば<BR>このほのおを<BR>けせるかもしれない!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2168 (Data)", ROMX[$4EDE], BANK[$6A]
 GameSceneNPCScriptReference2168::
-  db "さすがだぜ　<NAME>！！",$00
+  db "さすがだぜ　<NAME>!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2169 (Data)", ROMX[$4EE8], BANK[$6A]
 GameSceneNPCScriptReference2169::
-  db "よし！<BR>おくじょうへ<BR>いってみようぜ！",$00
+  db "よし!<BR>おくじょうへ<BR>いってみようぜ!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 216A (Data)", ROMX[$4EFC], BANK[$6A]
 GameSceneNPCScriptReference216A::
@@ -3209,7 +3209,7 @@ GameSceneNPCScriptReference216A::
 
 SECTION "Game Scene NPC Script 0056 Reference 216B (Data)", ROMX[$4F0C], BANK[$6A]
 GameSceneNPCScriptReference216B::
-  db "しょうかき？<BR>ダメだ　ダメだ。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえないぜ。",$00
+  db "しょうかき?<BR>ダメだ　ダメだ。<BR>この　ほのおは　しょうかき<BR>ていどじゃ　きえないぜ。",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 216C (Data)", ROMX[$4F37], BANK[$6A]
 GameSceneNPCScriptReference216C::
@@ -3221,7 +3221,7 @@ GameSceneNPCScriptReference216E::
 
 SECTION "Game Scene NPC Script 0056 Reference 216F (Data)", ROMX[$4F75], BANK[$6A]
 GameSceneNPCScriptReference216F::
-  db "フーフーいきを<BR>ふきかける？！",$00
+  db "フーフーいきを<BR>ふきかける?!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2170 (Data)", ROMX[$4F85], BANK[$6A]
 GameSceneNPCScriptReference2170::
@@ -3229,7 +3229,7 @@ GameSceneNPCScriptReference2170::
 
 SECTION "Game Scene NPC Script 0056 Reference 2171 (Data)", ROMX[$4F9D], BANK[$6A]
 GameSceneNPCScriptReference2171::
-  db "いきを　ふきかけたぐらいで<BR>きえるわけ　ないだろ？<BR>この　ほのおが！！",$00
+  db "いきを　ふきかけたぐらいで<BR>きえるわけ　ないだろ?<BR>この　ほのおが!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2172 (Data)", ROMX[$4FC1], BANK[$6A]
 GameSceneNPCScriptReference2172::
@@ -3249,11 +3249,11 @@ GameSceneNPCScriptReference2175::
 
 SECTION "Game Scene NPC Script 0056 Reference 2176 (Data)", ROMX[$502E], BANK[$6A]
 GameSceneNPCScriptReference2176::
-  db "そうだ！！<BR>おくじょうだ！！！",$00
+  db "そうだ!!<BR>おくじょうだ!!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2177 (Data)", ROMX[$503E], BANK[$6A]
 GameSceneNPCScriptReference2177::
-  db "このとうの　おくじょうに<BR>みずが　たっぷり<BR>あったじゃないか！！",$00
+  db "このとうの　おくじょうに<BR>みずが　たっぷり<BR>あったじゃないか!!",$00
 
 SECTION "Game Scene NPC Script 0056 Reference 2178 (Data)", ROMX[$505F], BANK[$6A]
 GameSceneNPCScriptReference2178::
@@ -3261,6 +3261,6 @@ GameSceneNPCScriptReference2178::
 
 SECTION "Game Scene NPC Script 0056 Reference 2179 (Data)", ROMX[$5083], BANK[$6A]
 GameSceneNPCScriptReference2179::
-  db "もういちど　おくじょうへ<BR>いって　しらべてみようぜ！",$00
+  db "もういちど　おくじょうへ<BR>いって　しらべてみようぜ!",$00
 
 POPC

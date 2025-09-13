@@ -290,7 +290,7 @@ GameSceneNPCScriptReference083A::
 
 SECTION "Game Scene NPC Script 0021 Reference 083B (Data)", ROMX[$681B], BANK[$63]
 GameSceneNPCScriptReference083B::
-  db "なにやってんだ　<NAME>！<BR>はやくしろよ。",$00
+  db "なにやってんだ　<NAME>!<BR>はやくしろよ。",$00
 
 SECTION "Game Scene NPC Script 0021 Reference 083C (Data)", ROMX[$682E], BANK[$63]
 GameSceneNPCScriptReference083C::
@@ -333,7 +333,7 @@ GameSceneNPCScriptReference0841::
 
 SECTION "Game Scene NPC Script 0021 Reference 0842 (Data)", ROMX[$687A], BANK[$65]
 GameSceneNPCScriptReference0842::
-  db "<NAME>さん！<BR>グズグズしない！！",$00
+  db "<NAME>さん!<BR>グズグズしない!!",$00
 
 SECTION "Game Scene NPC Script 0021 Reference 0843 (Data)", ROMX[$6889], BANK[$65]
 GameSceneNPCScriptReference0843::
@@ -588,7 +588,7 @@ GameSceneNPCScriptReference0861::
 
 SECTION "Game Scene NPC Script 0021 Reference 0862 (Data)", ROMX[$490A], BANK[$63]
 GameSceneNPCScriptReference0862::
-  db "なにやってんだ　<NAME>！<BR>はやくしろよ。",$00
+  db "なにやってんだ　<NAME>!<BR>はやくしろよ。",$00
 
 SECTION "Game Scene NPC Script 0021 Reference 0863 (Data)", ROMX[$491D], BANK[$63]
 GameSceneNPCScriptReference0863::

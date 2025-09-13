@@ -46,7 +46,7 @@ GameSceneNPCScriptReference1AD4::
 
 SECTION "Game Scene NPC Script 004D Reference 1AD5 (Data)", ROMX[$49AD], BANK[$69]
 GameSceneNPCScriptReference1AD5::
-  db "グオオオォォ！",$00
+  db "グオオオォォ!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AD6 (Data)", ROMX[$49B5], BANK[$69]
 GameSceneNPCScriptReference1AD6::
@@ -110,7 +110,7 @@ GameSceneNPCScriptReference1ADA::
 
 SECTION "Game Scene NPC Script 004D Reference 1ADB (Data)", ROMX[$4B7C], BANK[$69]
 GameSceneNPCScriptReference1ADB::
-  db "グオオオォォ！",$00
+  db "グオオオォォ!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1ADC (Data)", ROMX[$4B84], BANK[$69]
 GameSceneNPCScriptReference1ADC::
@@ -174,31 +174,31 @@ GameSceneNPCScriptReference1AE0::
 
 SECTION "Game Scene NPC Script 004D Reference 1AE1 (Data)", ROMX[$4A00], BANK[$69]
 GameSceneNPCScriptReference1AE1::
-  db "よし　あけるぞ！",$00
+  db "よし　あけるぞ!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AE2 (Data)", ROMX[$4A09], BANK[$69]
 GameSceneNPCScriptReference1AE2::
-  db "グオオオ！<BR>スピ〜〜<BR>……………………………………",$00
+  db "グオオオ!<BR>スピ〜〜<BR>……………………………………",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AE3 (Data)", ROMX[$4A23], BANK[$69]
 GameSceneNPCScriptReference1AE3::
-  db "ンガッ！",$00
+  db "ンガッ!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AE4 (Data)", ROMX[$4A28], BANK[$69]
 GameSceneNPCScriptReference1AE4::
-  db "ンン〜？！……<BR>わしの　ネムリを<BR>ジャマ　するのは<BR>だれジャ〜！！",$00
+  db "ンン〜?!……<BR>わしの　ネムリを<BR>ジャマ　するのは<BR>だれジャ〜!!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AE5 (Data)", ROMX[$4A4A], BANK[$69]
 GameSceneNPCScriptReference1AE5::
-  db "ンン？<BR>なんジャ？　オメエらは！！",$00
+  db "ンン?<BR>なんジャ?　オメエらは!!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AE6 (Data)", ROMX[$4A5C], BANK[$69]
 GameSceneNPCScriptReference1AE6::
-  db "おまえこそ　なにもの！？<BR>まさか……",$00
+  db "おまえこそ　なにもの!?<BR>まさか……",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AE7 (Data)", ROMX[$4A6F], BANK[$69]
 GameSceneNPCScriptReference1AE7::
-  db "おおボス？",$00
+  db "おおボス?",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AE8 (Subroutine)", ROMX[$4DD1], BANK[$51]
 GameSceneNPCScriptReference1AE8::
@@ -233,31 +233,31 @@ GameSceneNPCScriptReference1AE9::
 
 SECTION "Game Scene NPC Script 004D Reference 1AEA (Data)", ROMX[$4BCE], BANK[$69]
 GameSceneNPCScriptReference1AEA::
-  db "よし　あけるわよ！",$00
+  db "よし　あけるわよ!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AEB (Data)", ROMX[$4BD8], BANK[$69]
 GameSceneNPCScriptReference1AEB::
-  db "グオオオ！<BR>スピ〜〜<BR>……………………………………",$00
+  db "グオオオ!<BR>スピ〜〜<BR>……………………………………",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AEC (Data)", ROMX[$4BF2], BANK[$69]
 GameSceneNPCScriptReference1AEC::
-  db "ンガッ！",$00
+  db "ンガッ!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AED (Data)", ROMX[$4BF7], BANK[$69]
 GameSceneNPCScriptReference1AED::
-  db "ンン〜？！……<BR>わしの　ネムリを<BR>ジャマ　するのは<BR>だれジャ〜！！",$00
+  db "ンン〜?!……<BR>わしの　ネムリを<BR>ジャマ　するのは<BR>だれジャ〜!!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AEE (Data)", ROMX[$4C19], BANK[$69]
 GameSceneNPCScriptReference1AEE::
-  db "ンン？<BR>なんジャ？　オメエらは！！",$00
+  db "ンン?<BR>なんジャ?　オメエらは!!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AEF (Data)", ROMX[$4C2B], BANK[$69]
 GameSceneNPCScriptReference1AEF::
-  db "あなたこそ　なにもの！？<BR>まさか……",$00
+  db "あなたこそ　なにもの!?<BR>まさか……",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AF0 (Data)", ROMX[$4C3E], BANK[$69]
 GameSceneNPCScriptReference1AF0::
-  db "おおボス？",$00
+  db "おおボス?",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AF1 (Subroutine)", ROMX[$4E68], BANK[$51]
 GameSceneNPCScriptReference1AF1::
@@ -292,34 +292,34 @@ GameSceneNPCScriptReference1AF2::
 
 SECTION "Game Scene NPC Script 004D Reference 1AF3 (Data)", ROMX[$4A75], BANK[$69]
 GameSceneNPCScriptReference1AF3::
-  db "おまえが　おおボス？<BR>『まじんき』を　あつめている<BR>おやだま　なのか？！",$00
+  db "おまえが　おおボス?<BR>『まじんき』を　あつめている<BR>おやだま　なのか?!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AF4 (Data)", ROMX[$4A9A], BANK[$69]
 GameSceneNPCScriptReference1AF4::
-  db "そのとおりジャ！<BR>わしが　さいごの<BR>おおボスなのジャ！！",$00
+  db "そのとおりジャ!<BR>わしが　さいごの<BR>おおボスなのジャ!!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AF5 (Data)", ROMX[$4AB7], BANK[$69]
 GameSceneNPCScriptReference1AF5::
-  db "この　さきは<BR>『せいまじょう』……<BR>ダレも　このさきへは<BR>いかせぬのジャーッ！",$00
+  db "この　さきは<BR>『せいまじょう』……<BR>ダレも　このさきへは<BR>いかせぬのジャーッ!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AF6 (Data)", ROMX[$4ADF], BANK[$69]
 GameSceneNPCScriptReference1AF6::
-  db "やられちゃったのジャーッ！<BR>わしが　おおボス　というのは<BR>ウソなのジャーッ！！",$00
+  db "やられちゃったのジャーッ!<BR>わしが　おおボス　というのは<BR>ウソなのジャーッ!!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AF7 (Data)", ROMX[$4C44], BANK[$69]
 GameSceneNPCScriptReference1AF7::
-  db "あなたが　おおボス？<BR>『まじんき』を　あつめている<BR>おやだま　なの？！",$00
+  db "あなたが　おおボス?<BR>『まじんき』を　あつめている<BR>おやだま　なの?!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AF8 (Data)", ROMX[$4C68], BANK[$69]
 GameSceneNPCScriptReference1AF8::
-  db "そのとおりジャ！<BR>わしが　さいごの<BR>おおボスなのジャ！！",$00
+  db "そのとおりジャ!<BR>わしが　さいごの<BR>おおボスなのジャ!!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AF9 (Data)", ROMX[$4C85], BANK[$69]
 GameSceneNPCScriptReference1AF9::
-  db "この　さきは<BR>『せいまじょう』……<BR>ダレも　このさきへは<BR>いかせぬのジャーッ！",$00
+  db "この　さきは<BR>『せいまじょう』……<BR>ダレも　このさきへは<BR>いかせぬのジャーッ!",$00
 
 SECTION "Game Scene NPC Script 004D Reference 1AFA (Data)", ROMX[$4CAD], BANK[$69]
 GameSceneNPCScriptReference1AFA::
-  db "やられちゃったのジャーッ！<BR>わしが　おおボス　というのは<BR>ウソなのジャーッ！！",$00
+  db "やられちゃったのジャーッ!<BR>わしが　おおボス　というのは<BR>ウソなのジャーッ!!",$00
 
 POPC

@@ -215,10 +215,10 @@ GameSceneNPCScriptReference26B5::
 
 SECTION "Game Scene NPC Script 0068 Reference 26B6 (Data)", ROMX[$6059], BANK[$6D]
 GameSceneNPCScriptReference26B6::
-  db "<NAME>くん。<BR>しっかりしてくれ！！",$00
+  db "<NAME>くん。<BR>しっかりしてくれ!!",$00
 
 SECTION "Game Scene NPC Script 0068 Reference 26B7 (Data)", ROMX[$5404], BANK[$6D]
 GameSceneNPCScriptReference26B7::
-  db "<NAME>くん。<BR>しっかり！！",$00
+  db "<NAME>くん。<BR>しっかり!!",$00
 
 POPC

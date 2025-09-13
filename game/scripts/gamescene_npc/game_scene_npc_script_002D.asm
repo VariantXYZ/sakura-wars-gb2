@@ -66,10 +66,10 @@ GameSceneNPCScriptReference1371::
 
 SECTION "Game Scene NPC Script 002D Reference 1372 (Data)", ROMX[$4AC1], BANK[$66]
 GameSceneNPCScriptReference1372::
-  db "このスイッチは<BR>なんだろう？",$00
+  db "このスイッチは<BR>なんだろう?",$00
 
 SECTION "Game Scene NPC Script 002D Reference 1373 (Data)", ROMX[$4AD0], BANK[$66]
 GameSceneNPCScriptReference1373::
-  db "これは　なんのスイッチ<BR>なのかしら？",$00
+  db "これは　なんのスイッチ<BR>なのかしら?",$00
 
 POPC

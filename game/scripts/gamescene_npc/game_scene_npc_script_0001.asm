@@ -141,7 +141,7 @@ GameSceneNPCScriptReference000F::
 
 SECTION "Game Scene NPC Script 0001 Reference 0010 (Data)", ROMX[$58A6], BANK[$60]
 GameSceneNPCScriptReference0010::
-  db "そうだな……<BR>どうしようか<BR><NAME>くん？",$00
+  db "そうだな……<BR>どうしようか<BR><NAME>くん?",$00
 
 SECTION "Game Scene NPC Script 0001 Reference 0011 (Data)", ROMX[$58B9], BANK[$60]
 GameSceneNPCScriptReference0011::
@@ -255,7 +255,7 @@ GameSceneNPCScriptReference0019::
 
 SECTION "Game Scene NPC Script 0001 Reference 001A (Data)", ROMX[$476A], BANK[$60]
 GameSceneNPCScriptReference001A::
-  db "そうだな……<BR>どうしようか<BR><NAME>くん？",$00
+  db "そうだな……<BR>どうしようか<BR><NAME>くん?",$00
 
 SECTION "Game Scene NPC Script 0001 Reference 001B (Data)", ROMX[$477D], BANK[$60]
 GameSceneNPCScriptReference001B::
@@ -390,7 +390,7 @@ GameSceneNPCScriptReference0022::
 
 SECTION "Game Scene NPC Script 0001 Reference 0023 (Data)", ROMX[$58CA], BANK[$60]
 GameSceneNPCScriptReference0023::
-  db "こわしましょう！<BR>トリャー！！",$00
+  db "こわしましょう!<BR>トリャー!!",$00
 
 SECTION "Game Scene NPC Script 0001 Reference 0024 (Data)", ROMX[$58DA], BANK[$60]
 GameSceneNPCScriptReference0024::
@@ -398,7 +398,7 @@ GameSceneNPCScriptReference0024::
 
 SECTION "Game Scene NPC Script 0001 Reference 0025 (Data)", ROMX[$58FA], BANK[$60]
 GameSceneNPCScriptReference0025::
-  db "おいおい　まつんだ！<BR>カンナか　キミは？！",$00
+  db "おいおい　まつんだ!<BR>カンナか　キミは?!",$00
 
 SECTION "Game Scene NPC Script 0001 Reference 0026 (Data)", ROMX[$5910], BANK[$60]
 GameSceneNPCScriptReference0026::
@@ -410,7 +410,7 @@ GameSceneNPCScriptReference0027::
 
 SECTION "Game Scene NPC Script 0001 Reference 0029 (Data)", ROMX[$5940], BANK[$60]
 GameSceneNPCScriptReference0029::
-  db "……こまりましたね。<BR>このさきは　なにか<BR>じゅうような　ところ<BR>なんですか？",$00
+  db "……こまりましたね。<BR>このさきは　なにか<BR>じゅうような　ところ<BR>なんですか?",$00
 
 SECTION "Game Scene NPC Script 0001 Reference 002A (Data)", ROMX[$5967], BANK[$60]
 GameSceneNPCScriptReference002A::
@@ -492,7 +492,7 @@ GameSceneNPCScriptReference0034::
 
 SECTION "Game Scene NPC Script 0001 Reference 0035 (Data)", ROMX[$4790], BANK[$60]
 GameSceneNPCScriptReference0035::
-  db "ばくは　しましょう！",$00
+  db "ばくは　しましょう!",$00
 
 SECTION "Game Scene NPC Script 0001 Reference 0036 (Data)", ROMX[$479B], BANK[$60]
 GameSceneNPCScriptReference0036::
@@ -500,7 +500,7 @@ GameSceneNPCScriptReference0036::
 
 SECTION "Game Scene NPC Script 0001 Reference 0037 (Data)", ROMX[$47BC], BANK[$60]
 GameSceneNPCScriptReference0037::
-  db "おいおい　まつんだ！<BR>キミは　こうらんか？！",$00
+  db "おいおい　まつんだ!<BR>キミは　こうらんか?!",$00
 
 SECTION "Game Scene NPC Script 0001 Reference 0038 (Data)", ROMX[$47D3], BANK[$60]
 GameSceneNPCScriptReference0038::
@@ -512,7 +512,7 @@ GameSceneNPCScriptReference0039::
 
 SECTION "Game Scene NPC Script 0001 Reference 003B (Data)", ROMX[$4800], BANK[$60]
 GameSceneNPCScriptReference003B::
-  db "……こまりましたね。<BR>このさきは　なにか<BR>じゅうような　ところ<BR>なんですか？",$00
+  db "……こまりましたね。<BR>このさきは　なにか<BR>じゅうような　ところ<BR>なんですか?",$00
 
 SECTION "Game Scene NPC Script 0001 Reference 003C (Data)", ROMX[$4827], BANK[$60]
 GameSceneNPCScriptReference003C::
@@ -544,7 +544,7 @@ GameSceneNPCScriptReference0042::
 
 SECTION "Game Scene NPC Script 0001 Reference 0043 (Data)", ROMX[$5A5D], BANK[$60]
 GameSceneNPCScriptReference0043::
-  db "はい　おおがみさん！",$00
+  db "はい　おおがみさん!",$00
 
 SECTION "Game Scene NPC Script 0001 Reference 0044 (Data)", ROMX[$5A68], BANK[$60]
 GameSceneNPCScriptReference0044::
@@ -564,7 +564,7 @@ GameSceneNPCScriptReference0047::
 
 SECTION "Game Scene NPC Script 0001 Reference 0048 (Data)", ROMX[$491C], BANK[$60]
 GameSceneNPCScriptReference0048::
-  db "はい　おおがみさん！",$00
+  db "はい　おおがみさん!",$00
 
 SECTION "Game Scene NPC Script 0001 Reference 0049 (Data)", ROMX[$4927], BANK[$60]
 GameSceneNPCScriptReference0049::

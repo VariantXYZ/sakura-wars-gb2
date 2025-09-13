@@ -392,7 +392,7 @@ GameSceneNPCScriptReference0349::
 
 SECTION "Game Scene NPC Script 000D Reference 0322 (Data)", ROMX[$510B], BANK[$62]
 GameSceneNPCScriptReference0322::
-  db "うわ〜！！<BR>そとですよ　<NAME>さん。",$00
+  db "うわ〜!!<BR>そとですよ　<NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0323 (Data)", ROMX[$511C], BANK[$62]
 GameSceneNPCScriptReference0323::
@@ -400,11 +400,11 @@ GameSceneNPCScriptReference0323::
 
 SECTION "Game Scene NPC Script 000D Reference 0325 (Data)", ROMX[$5137], BANK[$62]
 GameSceneNPCScriptReference0325::
-  db "うわ〜　たかい！！<BR>ミカサって　けっこう<BR>たかいんですね。",$00
+  db "うわ〜　たかい!!<BR>ミカサって　けっこう<BR>たかいんですね。",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0326 (Data)", ROMX[$5155], BANK[$62]
 GameSceneNPCScriptReference0326::
-  db "ミカサのたかさは<BR>1000メートルいじょう<BR>ありますからね。",$00
+  db "ミカサのたかさは<BR>１０００メートルいじょう<BR>ありますからね。",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0328 (Data)", ROMX[$5174], BANK[$62]
 GameSceneNPCScriptReference0328::
@@ -412,7 +412,7 @@ GameSceneNPCScriptReference0328::
 
 SECTION "Game Scene NPC Script 000D Reference 032A (Data)", ROMX[$519A], BANK[$62]
 GameSceneNPCScriptReference032A::
-  db "1000メートルいじょう！？<BR>ひぇ〜〜！！<BR>おちない　ように<BR>きをつけます！！",$00
+  db "１０００メートルいじょう!?<BR>ひぇ〜〜!!<BR>おちない　ように<BR>きをつけます!!",$00
 
 SECTION "Game Scene NPC Script 000D Reference 032B (Data)", ROMX[$51C2], BANK[$62]
 GameSceneNPCScriptReference032B::
@@ -428,7 +428,7 @@ GameSceneNPCScriptReference032D::
 
 SECTION "Game Scene NPC Script 000D Reference 032E (Data)", ROMX[$522F], BANK[$62]
 GameSceneNPCScriptReference032E::
-  db "！！！……あれっ！！<BR>……ない………ないわ…………<BR>おかしいわ　たしかここに……",$00
+  db "!!!……あれっ!!<BR>……ない………ないわ…………<BR>おかしいわ　たしかここに……",$00
 
 SECTION "Game Scene NPC Script 000D Reference 032F (Data)", ROMX[$5258], BANK[$62]
 GameSceneNPCScriptReference032F::
@@ -440,7 +440,7 @@ GameSceneNPCScriptReference0330::
 
 SECTION "Game Scene NPC Script 000D Reference 0331 (Data)", ROMX[$5288], BANK[$62]
 GameSceneNPCScriptReference0331::
-  db "えっ？<BR>いま　おとさない　ようにって<BR>いった　ばかりじゃ<BR>ありませんでしたっけ！？",$00
+  db "えっ?<BR>いま　おとさない　ようにって<BR>いった　ばかりじゃ<BR>ありませんでしたっけ!?",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0332 (Data)", ROMX[$52B2], BANK[$62]
 GameSceneNPCScriptReference0332::
@@ -452,31 +452,31 @@ GameSceneNPCScriptReference0333::
 
 SECTION "Game Scene NPC Script 000D Reference 0334 (Data)", ROMX[$52EF], BANK[$62]
 GameSceneNPCScriptReference0334::
-  db "えっ　おサイフを！？",$00
+  db "えっ　おサイフを!?",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0335 (Data)", ROMX[$52FA], BANK[$62]
 GameSceneNPCScriptReference0335::
-  db "！！",$00
+  db "!!",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0336 (Data)", ROMX[$52FD], BANK[$62]
 GameSceneNPCScriptReference0336::
-  db "この　ピンクいろのモノは<BR>なんだウガ？<BR>？？？",$00
+  db "この　ピンクいろのモノは<BR>なんだウガ?<BR>???",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0337 (Data)", ROMX[$5315], BANK[$62]
 GameSceneNPCScriptReference0337::
-  db "あっ！　<NAME>さん！！<BR>あのまものが　もってるの<BR>あたしの　おサイフです！",$00
+  db "あっ!　<NAME>さん!!<BR>あのまものが　もってるの<BR>あたしの　おサイフです!",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0338 (Data)", ROMX[$5339], BANK[$62]
 GameSceneNPCScriptReference0338::
-  db "そのピンクいろの　おサイフは<BR>あたしのです！<BR>かえしてください！！",$00
+  db "そのピンクいろの　おサイフは<BR>あたしのです!<BR>かえしてください!!",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0339 (Data)", ROMX[$535B], BANK[$62]
 GameSceneNPCScriptReference0339::
-  db "なんだウガ？<BR>これは　オレがひろったんだ。<BR>オレのものウガ。",$00
+  db "なんだウガ?<BR>これは　オレがひろったんだ。<BR>オレのものウガ。",$00
 
 SECTION "Game Scene NPC Script 000D Reference 033A (Data)", ROMX[$537A], BANK[$62]
 GameSceneNPCScriptReference033A::
-  db "ほしかったら<BR>オレを　たおして<BR>うばうがいいウガ！",$00
+  db "ほしかったら<BR>オレを　たおして<BR>うばうがいいウガ!",$00
 
 SECTION "Game Scene NPC Script 000D Reference 033B (Data)", ROMX[$5394], BANK[$62]
 GameSceneNPCScriptReference033B::
@@ -488,7 +488,7 @@ GameSceneNPCScriptReference033C::
 
 SECTION "Game Scene NPC Script 000D Reference 033D (Data)", ROMX[$53C2], BANK[$62]
 GameSceneNPCScriptReference033D::
-  db "でも　そんなに<BR>だいじなものなら<BR>ていげきに　おいといたほうが<BR>いいんじゃ　ないですか？",$00
+  db "でも　そんなに<BR>だいじなものなら<BR>ていげきに　おいといたほうが<BR>いいんじゃ　ないですか?",$00
 
 SECTION "Game Scene NPC Script 000D Reference 033E (Data)", ROMX[$53EF], BANK[$62]
 GameSceneNPCScriptReference033E::
@@ -508,7 +508,7 @@ GameSceneNPCScriptReference0341::
 
 SECTION "Game Scene NPC Script 000D Reference 0342 (Data)", ROMX[$546C], BANK[$62]
 GameSceneNPCScriptReference0342::
-  db "うわ〜！！<BR>そとですよ　<NAME>さん。",$00
+  db "うわ〜!!<BR>そとですよ　<NAME>さん。",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0343 (Data)", ROMX[$547D], BANK[$62]
 GameSceneNPCScriptReference0343::
@@ -516,11 +516,11 @@ GameSceneNPCScriptReference0343::
 
 SECTION "Game Scene NPC Script 000D Reference 0345 (Data)", ROMX[$5498], BANK[$62]
 GameSceneNPCScriptReference0345::
-  db "キャ〜　たかい！！<BR>ミカサって　けっこう<BR>たかいんですね。",$00
+  db "キャ〜　たかい!!<BR>ミカサって　けっこう<BR>たかいんですね。",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0346 (Data)", ROMX[$54B6], BANK[$62]
 GameSceneNPCScriptReference0346::
-  db "ミカサのたかさは<BR>1000メートルいじょう<BR>ありますからね。",$00
+  db "ミカサのたかさは<BR>１０００メートルいじょう<BR>ありますからね。",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0348 (Data)", ROMX[$54D5], BANK[$62]
 GameSceneNPCScriptReference0348::
@@ -528,7 +528,7 @@ GameSceneNPCScriptReference0348::
 
 SECTION "Game Scene NPC Script 000D Reference 034A (Data)", ROMX[$5504], BANK[$62]
 GameSceneNPCScriptReference034A::
-  db "1000メートルいじょう！？<BR>ひぇ〜〜！！<BR>おちない　ように<BR>きをつけます！！",$00
+  db "１０００メートルいじょう!?<BR>ひぇ〜〜!!<BR>おちない　ように<BR>きをつけます!!",$00
 
 SECTION "Game Scene NPC Script 000D Reference 034B (Data)", ROMX[$552C], BANK[$62]
 GameSceneNPCScriptReference034B::
@@ -544,7 +544,7 @@ GameSceneNPCScriptReference034D::
 
 SECTION "Game Scene NPC Script 000D Reference 034E (Data)", ROMX[$5599], BANK[$62]
 GameSceneNPCScriptReference034E::
-  db "！！！……あれっ！！<BR>……ない………ないわ…………<BR>おかしいわ　たしかここに……",$00
+  db "!!!……あれっ!!<BR>……ない………ないわ…………<BR>おかしいわ　たしかここに……",$00
 
 SECTION "Game Scene NPC Script 000D Reference 034F (Data)", ROMX[$55C2], BANK[$62]
 GameSceneNPCScriptReference034F::
@@ -556,7 +556,7 @@ GameSceneNPCScriptReference0350::
 
 SECTION "Game Scene NPC Script 000D Reference 0351 (Data)", ROMX[$55F2], BANK[$62]
 GameSceneNPCScriptReference0351::
-  db "えっ？<BR>いま　おとさない　ようにって<BR>いった　ばかりじゃ<BR>ありませんでしたっけ！？",$00
+  db "えっ?<BR>いま　おとさない　ようにって<BR>いった　ばかりじゃ<BR>ありませんでしたっけ!?",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0352 (Data)", ROMX[$561C], BANK[$62]
 GameSceneNPCScriptReference0352::
@@ -568,31 +568,31 @@ GameSceneNPCScriptReference0353::
 
 SECTION "Game Scene NPC Script 000D Reference 0354 (Data)", ROMX[$5659], BANK[$62]
 GameSceneNPCScriptReference0354::
-  db "えっ　おサイフを！？",$00
+  db "えっ　おサイフを!?",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0355 (Data)", ROMX[$5664], BANK[$62]
 GameSceneNPCScriptReference0355::
-  db "！！",$00
+  db "!!",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0356 (Data)", ROMX[$5667], BANK[$62]
 GameSceneNPCScriptReference0356::
-  db "この　ピンクいろのモノは<BR>なんだウガ？<BR>？？？",$00
+  db "この　ピンクいろのモノは<BR>なんだウガ?<BR>???",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0357 (Data)", ROMX[$567F], BANK[$62]
 GameSceneNPCScriptReference0357::
-  db "あっ！　<NAME>さん！！<BR>あのまものが　もってるの<BR>あたしの　おサイフです！",$00
+  db "あっ!　<NAME>さん!!<BR>あのまものが　もってるの<BR>あたしの　おサイフです!",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0358 (Data)", ROMX[$56A3], BANK[$62]
 GameSceneNPCScriptReference0358::
-  db "そのピンクいろの　おサイフは<BR>あたしのです！<BR>かえしてください！！",$00
+  db "そのピンクいろの　おサイフは<BR>あたしのです!<BR>かえしてください!!",$00
 
 SECTION "Game Scene NPC Script 000D Reference 0359 (Data)", ROMX[$56C5], BANK[$62]
 GameSceneNPCScriptReference0359::
-  db "なんだウガ？<BR>これは　オレがひろったんだ。<BR>オレのものウガ。",$00
+  db "なんだウガ?<BR>これは　オレがひろったんだ。<BR>オレのものウガ。",$00
 
 SECTION "Game Scene NPC Script 000D Reference 035A (Data)", ROMX[$56E4], BANK[$62]
 GameSceneNPCScriptReference035A::
-  db "ほしかったら<BR>オレを　たおして<BR>うばうがいいウガ！",$00
+  db "ほしかったら<BR>オレを　たおして<BR>うばうがいいウガ!",$00
 
 SECTION "Game Scene NPC Script 000D Reference 035B (Data)", ROMX[$56FE], BANK[$62]
 GameSceneNPCScriptReference035B::
@@ -604,7 +604,7 @@ GameSceneNPCScriptReference035C::
 
 SECTION "Game Scene NPC Script 000D Reference 035D (Data)", ROMX[$572C], BANK[$62]
 GameSceneNPCScriptReference035D::
-  db "でも　そんなに<BR>だいじなものなら<BR>ていげきに　おいといたほうが<BR>いいんじゃ　ないですか？",$00
+  db "でも　そんなに<BR>だいじなものなら<BR>ていげきに　おいといたほうが<BR>いいんじゃ　ないですか?",$00
 
 SECTION "Game Scene NPC Script 000D Reference 035E (Data)", ROMX[$5759], BANK[$62]
 GameSceneNPCScriptReference035E::

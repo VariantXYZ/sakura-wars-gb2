@@ -62,7 +62,7 @@ GameSceneNPCScriptReference14B1::
 
 SECTION "Game Scene NPC Script 0037 Reference 14B2 (Data)", ROMX[$617D], BANK[$67]
 GameSceneNPCScriptReference14B2::
-  db "あっ　ていげきから<BR>よびだしだ！",$00
+  db "あっ　ていげきから<BR>よびだしだ!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14B3 (Subroutine)", ROMX[$6D27], BANK[$54]
 GameSceneNPCScriptReference14B3::
@@ -342,7 +342,7 @@ GameSceneNPCScriptReference14C1::
 
 SECTION "Game Scene NPC Script 0037 Reference 14C2 (Data)", ROMX[$61EF], BANK[$67]
 GameSceneNPCScriptReference14C2::
-  db "ええっ！！",$00
+  db "ええっ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14C3 (Data)", ROMX[$61F5], BANK[$67]
 GameSceneNPCScriptReference14C3::
@@ -350,11 +350,11 @@ GameSceneNPCScriptReference14C3::
 
 SECTION "Game Scene NPC Script 0037 Reference 14C4 (Data)", ROMX[$6212], BANK[$67]
 GameSceneNPCScriptReference14C4::
-  db "おおがみさん！！",$00
+  db "おおがみさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14C5 (Data)", ROMX[$621B], BANK[$67]
 GameSceneNPCScriptReference14C5::
-  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう！！",$00
+  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14C6 (Data)", ROMX[$623E], BANK[$67]
 GameSceneNPCScriptReference14C6::
@@ -378,7 +378,7 @@ GameSceneNPCScriptReference14CA::
 
 SECTION "Game Scene NPC Script 0037 Reference 14CB (Data)", ROMX[$629A], BANK[$67]
 GameSceneNPCScriptReference14CB::
-  db "ええっ！！",$00
+  db "ええっ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14CC (Data)", ROMX[$62A0], BANK[$67]
 GameSceneNPCScriptReference14CC::
@@ -386,11 +386,11 @@ GameSceneNPCScriptReference14CC::
 
 SECTION "Game Scene NPC Script 0037 Reference 14CD (Data)", ROMX[$62BC], BANK[$67]
 GameSceneNPCScriptReference14CD::
-  db "おおがみさん！！",$00
+  db "おおがみさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14CE (Data)", ROMX[$62C5], BANK[$67]
 GameSceneNPCScriptReference14CE::
-  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう！！",$00
+  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14CF (Data)", ROMX[$62E8], BANK[$67]
 GameSceneNPCScriptReference14CF::
@@ -414,7 +414,7 @@ GameSceneNPCScriptReference14D3::
 
 SECTION "Game Scene NPC Script 0037 Reference 14D4 (Data)", ROMX[$6344], BANK[$67]
 GameSceneNPCScriptReference14D4::
-  db "ええっ！！",$00
+  db "ええっ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14D5 (Data)", ROMX[$634A], BANK[$67]
 GameSceneNPCScriptReference14D5::
@@ -422,11 +422,11 @@ GameSceneNPCScriptReference14D5::
 
 SECTION "Game Scene NPC Script 0037 Reference 14D6 (Data)", ROMX[$6366], BANK[$67]
 GameSceneNPCScriptReference14D6::
-  db "おおがみさん！！",$00
+  db "おおがみさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14D7 (Data)", ROMX[$636F], BANK[$67]
 GameSceneNPCScriptReference14D7::
-  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう！！",$00
+  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14D8 (Data)", ROMX[$6392], BANK[$67]
 GameSceneNPCScriptReference14D8::
@@ -434,7 +434,7 @@ GameSceneNPCScriptReference14D8::
 
 SECTION "Game Scene NPC Script 0037 Reference 14D9 (Data)", ROMX[$40F3], BANK[$67]
 GameSceneNPCScriptReference14D9::
-  db "あっ　ていげきから<BR>よびだしだ！",$00
+  db "あっ　ていげきから<BR>よびだしだ!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14DA (Subroutine)", ROMX[$5F5B], BANK[$54]
 GameSceneNPCScriptReference14DA::
@@ -573,7 +573,7 @@ GameSceneNPCScriptReference14DF::
 
 SECTION "Game Scene NPC Script 0037 Reference 14E0 (Data)", ROMX[$73F6], BANK[$66]
 GameSceneNPCScriptReference14E0::
-  db "あっ　ていげきから<BR>よびだしだわ！",$00
+  db "あっ　ていげきから<BR>よびだしだわ!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14E1 (Subroutine)", ROMX[$5A8C], BANK[$54]
 GameSceneNPCScriptReference14E1::
@@ -712,7 +712,7 @@ GameSceneNPCScriptReference14E6::
 
 SECTION "Game Scene NPC Script 0037 Reference 14E7 (Data)", ROMX[$6772], BANK[$66]
 GameSceneNPCScriptReference14E7::
-  db "あっ　ていげきから<BR>よびだしだ！",$00
+  db "あっ　ていげきから<BR>よびだしだ!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14E8 (Subroutine)", ROMX[$554D], BANK[$54]
 GameSceneNPCScriptReference14E8::
@@ -851,7 +851,7 @@ GameSceneNPCScriptReference14ED::
 
 SECTION "Game Scene NPC Script 0037 Reference 14EE (Data)", ROMX[$5A85], BANK[$66]
 GameSceneNPCScriptReference14EE::
-  db "あっ　ていげきから<BR>よびだしだわ！",$00
+  db "あっ　ていげきから<BR>よびだしだわ!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14EF (Subroutine)", ROMX[$505E], BANK[$54]
 GameSceneNPCScriptReference14EF::
@@ -990,7 +990,7 @@ GameSceneNPCScriptReference14F4::
 
 SECTION "Game Scene NPC Script 0037 Reference 14F5 (Data)", ROMX[$54FC], BANK[$67]
 GameSceneNPCScriptReference14F5::
-  db "あっ　ていげきから<BR>よびだしだわ！",$00
+  db "あっ　ていげきから<BR>よびだしだわ!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 14F6 (Subroutine)", ROMX[$6869], BANK[$54]
 GameSceneNPCScriptReference14F6::
@@ -1145,7 +1145,7 @@ GameSceneNPCScriptReference14FF::
 
 SECTION "Game Scene NPC Script 0037 Reference 1500 (Data)", ROMX[$4165], BANK[$67]
 GameSceneNPCScriptReference1500::
-  db "ええっ！！",$00
+  db "ええっ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1501 (Data)", ROMX[$416B], BANK[$67]
 GameSceneNPCScriptReference1501::
@@ -1153,11 +1153,11 @@ GameSceneNPCScriptReference1501::
 
 SECTION "Game Scene NPC Script 0037 Reference 1502 (Data)", ROMX[$4188], BANK[$67]
 GameSceneNPCScriptReference1502::
-  db "マリアさん！！",$00
+  db "マリアさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1503 (Data)", ROMX[$4190], BANK[$67]
 GameSceneNPCScriptReference1503::
-  db "わかったわ！<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう！！",$00
+  db "わかったわ!<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1504 (Data)", ROMX[$41B3], BANK[$67]
 GameSceneNPCScriptReference1504::
@@ -1181,7 +1181,7 @@ GameSceneNPCScriptReference1508::
 
 SECTION "Game Scene NPC Script 0037 Reference 1509 (Data)", ROMX[$4210], BANK[$67]
 GameSceneNPCScriptReference1509::
-  db "ええっ！！",$00
+  db "ええっ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 150A (Data)", ROMX[$4216], BANK[$67]
 GameSceneNPCScriptReference150A::
@@ -1189,11 +1189,11 @@ GameSceneNPCScriptReference150A::
 
 SECTION "Game Scene NPC Script 0037 Reference 150B (Data)", ROMX[$4232], BANK[$67]
 GameSceneNPCScriptReference150B::
-  db "マリアさん！！",$00
+  db "マリアさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 150C (Data)", ROMX[$423A], BANK[$67]
 GameSceneNPCScriptReference150C::
-  db "わかったわ！<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう！！",$00
+  db "わかったわ!<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 150D (Data)", ROMX[$425D], BANK[$67]
 GameSceneNPCScriptReference150D::
@@ -1217,7 +1217,7 @@ GameSceneNPCScriptReference1511::
 
 SECTION "Game Scene NPC Script 0037 Reference 1512 (Data)", ROMX[$42BA], BANK[$67]
 GameSceneNPCScriptReference1512::
-  db "ええっ！！",$00
+  db "ええっ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1513 (Data)", ROMX[$42C0], BANK[$67]
 GameSceneNPCScriptReference1513::
@@ -1225,11 +1225,11 @@ GameSceneNPCScriptReference1513::
 
 SECTION "Game Scene NPC Script 0037 Reference 1514 (Data)", ROMX[$42DC], BANK[$67]
 GameSceneNPCScriptReference1514::
-  db "マリアさん！！",$00
+  db "マリアさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1515 (Data)", ROMX[$42E4], BANK[$67]
 GameSceneNPCScriptReference1515::
-  db "わかったわ！<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう！！",$00
+  db "わかったわ!<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1516 (Data)", ROMX[$4307], BANK[$67]
 GameSceneNPCScriptReference1516::
@@ -1253,7 +1253,7 @@ GameSceneNPCScriptReference151A::
 
 SECTION "Game Scene NPC Script 0037 Reference 151B (Data)", ROMX[$751D], BANK[$66]
 GameSceneNPCScriptReference151B::
-  db "エッ！<BR>それは　たいへんだわ！！",$00
+  db "エッ!<BR>それは　たいへんだわ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 151C (Data)", ROMX[$752E], BANK[$66]
 GameSceneNPCScriptReference151C::
@@ -1261,11 +1261,11 @@ GameSceneNPCScriptReference151C::
 
 SECTION "Game Scene NPC Script 0037 Reference 151D (Data)", ROMX[$754A], BANK[$66]
 GameSceneNPCScriptReference151D::
-  db "マリアさん！！",$00
+  db "マリアさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 151E (Data)", ROMX[$7552], BANK[$66]
 GameSceneNPCScriptReference151E::
-  db "わかったわ！<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう！！",$00
+  db "わかったわ!<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 151F (Data)", ROMX[$7575], BANK[$66]
 GameSceneNPCScriptReference151F::
@@ -1289,7 +1289,7 @@ GameSceneNPCScriptReference1523::
 
 SECTION "Game Scene NPC Script 0037 Reference 1524 (Data)", ROMX[$7469], BANK[$66]
 GameSceneNPCScriptReference1524::
-  db "エッ！<BR>それは　たいへんだわ！！",$00
+  db "エッ!<BR>それは　たいへんだわ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1525 (Data)", ROMX[$747A], BANK[$66]
 GameSceneNPCScriptReference1525::
@@ -1297,11 +1297,11 @@ GameSceneNPCScriptReference1525::
 
 SECTION "Game Scene NPC Script 0037 Reference 1526 (Data)", ROMX[$7497], BANK[$66]
 GameSceneNPCScriptReference1526::
-  db "マリアさん！！",$00
+  db "マリアさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1527 (Data)", ROMX[$749F], BANK[$66]
 GameSceneNPCScriptReference1527::
-  db "わかったわ！<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう！！",$00
+  db "わかったわ!<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1528 (Data)", ROMX[$74C2], BANK[$66]
 GameSceneNPCScriptReference1528::
@@ -1325,7 +1325,7 @@ GameSceneNPCScriptReference152C::
 
 SECTION "Game Scene NPC Script 0037 Reference 152D (Data)", ROMX[$75D0], BANK[$66]
 GameSceneNPCScriptReference152D::
-  db "エッ！<BR>それは　たいへんだわ！！",$00
+  db "エッ!<BR>それは　たいへんだわ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 152E (Data)", ROMX[$75E1], BANK[$66]
 GameSceneNPCScriptReference152E::
@@ -1333,11 +1333,11 @@ GameSceneNPCScriptReference152E::
 
 SECTION "Game Scene NPC Script 0037 Reference 152F (Data)", ROMX[$75FD], BANK[$66]
 GameSceneNPCScriptReference152F::
-  db "マリアさん！！",$00
+  db "マリアさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1530 (Data)", ROMX[$7605], BANK[$66]
 GameSceneNPCScriptReference1530::
-  db "わかったわ！<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう！！",$00
+  db "わかったわ!<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしましょう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1531 (Data)", ROMX[$7628], BANK[$66]
 GameSceneNPCScriptReference1531::
@@ -1361,7 +1361,7 @@ GameSceneNPCScriptReference1535::
 
 SECTION "Game Scene NPC Script 0037 Reference 1536 (Data)", ROMX[$67E4], BANK[$66]
 GameSceneNPCScriptReference1536::
-  db "ええっ！！",$00
+  db "ええっ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1537 (Data)", ROMX[$67EA], BANK[$66]
 GameSceneNPCScriptReference1537::
@@ -1369,15 +1369,15 @@ GameSceneNPCScriptReference1537::
 
 SECTION "Game Scene NPC Script 0037 Reference 1538 (Data)", ROMX[$6807], BANK[$66]
 GameSceneNPCScriptReference1538::
-  db "こうらんさん！！",$00
+  db "こうらんさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1539 (Data)", ROMX[$6810], BANK[$66]
 GameSceneNPCScriptReference1539::
-  db "<NAME>はん！<BR>いくで！！",$00
+  db "<NAME>はん!<BR>いくで!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 153A (Data)", ROMX[$681B], BANK[$66]
 GameSceneNPCScriptReference153A::
-  db "カンナはんとアイリスを<BR>さがすんや！！",$00
+  db "カンナはんとアイリスを<BR>さがすんや!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 153B (Data)", ROMX[$682F], BANK[$66]
 GameSceneNPCScriptReference153B::
@@ -1397,7 +1397,7 @@ GameSceneNPCScriptReference153E::
 
 SECTION "Game Scene NPC Script 0037 Reference 153F (Data)", ROMX[$6882], BANK[$66]
 GameSceneNPCScriptReference153F::
-  db "ええっ！！",$00
+  db "ええっ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1540 (Data)", ROMX[$6888], BANK[$66]
 GameSceneNPCScriptReference1540::
@@ -1405,15 +1405,15 @@ GameSceneNPCScriptReference1540::
 
 SECTION "Game Scene NPC Script 0037 Reference 1541 (Data)", ROMX[$68A4], BANK[$66]
 GameSceneNPCScriptReference1541::
-  db "こうらんさん！！",$00
+  db "こうらんさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1542 (Data)", ROMX[$68AD], BANK[$66]
 GameSceneNPCScriptReference1542::
-  db "<NAME>はん！<BR>いくで！！",$00
+  db "<NAME>はん!<BR>いくで!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1543 (Data)", ROMX[$68B8], BANK[$66]
 GameSceneNPCScriptReference1543::
-  db "カンナはんとアイリスを<BR>さがすんや！！",$00
+  db "カンナはんとアイリスを<BR>さがすんや!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1544 (Data)", ROMX[$68CC], BANK[$66]
 GameSceneNPCScriptReference1544::
@@ -1433,7 +1433,7 @@ GameSceneNPCScriptReference1547::
 
 SECTION "Game Scene NPC Script 0037 Reference 1548 (Data)", ROMX[$691F], BANK[$66]
 GameSceneNPCScriptReference1548::
-  db "ええっ！！",$00
+  db "ええっ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1549 (Data)", ROMX[$6925], BANK[$66]
 GameSceneNPCScriptReference1549::
@@ -1441,15 +1441,15 @@ GameSceneNPCScriptReference1549::
 
 SECTION "Game Scene NPC Script 0037 Reference 154A (Data)", ROMX[$6941], BANK[$66]
 GameSceneNPCScriptReference154A::
-  db "こうらんさん！！",$00
+  db "こうらんさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 154B (Data)", ROMX[$694A], BANK[$66]
 GameSceneNPCScriptReference154B::
-  db "<NAME>はん！<BR>いくで！！",$00
+  db "<NAME>はん!<BR>いくで!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 154C (Data)", ROMX[$6955], BANK[$66]
 GameSceneNPCScriptReference154C::
-  db "カンナはんとアイリスを<BR>さがすんや！！",$00
+  db "カンナはんとアイリスを<BR>さがすんや!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 154D (Data)", ROMX[$5B4E], BANK[$66]
 GameSceneNPCScriptReference154D::
@@ -1469,7 +1469,7 @@ GameSceneNPCScriptReference1550::
 
 SECTION "Game Scene NPC Script 0037 Reference 1551 (Data)", ROMX[$5BA1], BANK[$66]
 GameSceneNPCScriptReference1551::
-  db "エッ！<BR>それは　たいへんだわ！！",$00
+  db "エッ!<BR>それは　たいへんだわ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1552 (Data)", ROMX[$5BB2], BANK[$66]
 GameSceneNPCScriptReference1552::
@@ -1477,15 +1477,15 @@ GameSceneNPCScriptReference1552::
 
 SECTION "Game Scene NPC Script 0037 Reference 1553 (Data)", ROMX[$5BCE], BANK[$66]
 GameSceneNPCScriptReference1553::
-  db "こうらんさん！！",$00
+  db "こうらんさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1554 (Data)", ROMX[$5BD7], BANK[$66]
 GameSceneNPCScriptReference1554::
-  db "<NAME>はん！<BR>いくで！！",$00
+  db "<NAME>はん!<BR>いくで!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1555 (Data)", ROMX[$5BE2], BANK[$66]
 GameSceneNPCScriptReference1555::
-  db "カンナはんとアイリスを<BR>さがすんや！！",$00
+  db "カンナはんとアイリスを<BR>さがすんや!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1556 (Data)", ROMX[$5AA8], BANK[$66]
 GameSceneNPCScriptReference1556::
@@ -1505,7 +1505,7 @@ GameSceneNPCScriptReference1559::
 
 SECTION "Game Scene NPC Script 0037 Reference 155A (Data)", ROMX[$5AF8], BANK[$66]
 GameSceneNPCScriptReference155A::
-  db "エッ！<BR>それは　たいへんだわ！！",$00
+  db "エッ!<BR>それは　たいへんだわ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 155B (Data)", ROMX[$5B09], BANK[$66]
 GameSceneNPCScriptReference155B::
@@ -1513,15 +1513,15 @@ GameSceneNPCScriptReference155B::
 
 SECTION "Game Scene NPC Script 0037 Reference 155C (Data)", ROMX[$5B26], BANK[$66]
 GameSceneNPCScriptReference155C::
-  db "こうらんさん！！",$00
+  db "こうらんさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 155D (Data)", ROMX[$5B2F], BANK[$66]
 GameSceneNPCScriptReference155D::
-  db "<NAME>はん！<BR>いくで！！",$00
+  db "<NAME>はん!<BR>いくで!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 155E (Data)", ROMX[$5B3A], BANK[$66]
 GameSceneNPCScriptReference155E::
-  db "カンナはんとアイリスを<BR>さがすんや！！",$00
+  db "カンナはんとアイリスを<BR>さがすんや!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 155F (Data)", ROMX[$5BF6], BANK[$66]
 GameSceneNPCScriptReference155F::
@@ -1541,7 +1541,7 @@ GameSceneNPCScriptReference1562::
 
 SECTION "Game Scene NPC Script 0037 Reference 1563 (Data)", ROMX[$5C49], BANK[$66]
 GameSceneNPCScriptReference1563::
-  db "エッ！<BR>それは　たいへんだわ！！",$00
+  db "エッ!<BR>それは　たいへんだわ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1564 (Data)", ROMX[$5C5A], BANK[$66]
 GameSceneNPCScriptReference1564::
@@ -1549,15 +1549,15 @@ GameSceneNPCScriptReference1564::
 
 SECTION "Game Scene NPC Script 0037 Reference 1565 (Data)", ROMX[$5C76], BANK[$66]
 GameSceneNPCScriptReference1565::
-  db "こうらんさん！！",$00
+  db "こうらんさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1566 (Data)", ROMX[$5C7F], BANK[$66]
 GameSceneNPCScriptReference1566::
-  db "<NAME>はん！<BR>いくで！！",$00
+  db "<NAME>はん!<BR>いくで!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1567 (Data)", ROMX[$5C8A], BANK[$66]
 GameSceneNPCScriptReference1567::
-  db "カンナはんとアイリスを<BR>さがすんや！！",$00
+  db "カンナはんとアイリスを<BR>さがすんや!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1568 (Data)", ROMX[$55D2], BANK[$67]
 GameSceneNPCScriptReference1568::
@@ -1577,7 +1577,7 @@ GameSceneNPCScriptReference156B::
 
 SECTION "Game Scene NPC Script 0037 Reference 156C (Data)", ROMX[$5625], BANK[$67]
 GameSceneNPCScriptReference156C::
-  db "エッ！<BR>それは　たいへんだわ！！",$00
+  db "エッ!<BR>それは　たいへんだわ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 156D (Data)", ROMX[$5636], BANK[$67]
 GameSceneNPCScriptReference156D::
@@ -1585,11 +1585,11 @@ GameSceneNPCScriptReference156D::
 
 SECTION "Game Scene NPC Script 0037 Reference 156E (Data)", ROMX[$5652], BANK[$67]
 GameSceneNPCScriptReference156E::
-  db "おおがみさん！！",$00
+  db "おおがみさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 156F (Data)", ROMX[$565B], BANK[$67]
 GameSceneNPCScriptReference156F::
-  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう！！",$00
+  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1570 (Data)", ROMX[$567E], BANK[$67]
 GameSceneNPCScriptReference1570::
@@ -1613,7 +1613,7 @@ GameSceneNPCScriptReference1574::
 
 SECTION "Game Scene NPC Script 0037 Reference 1575 (Data)", ROMX[$556F], BANK[$67]
 GameSceneNPCScriptReference1575::
-  db "エッ！<BR>それは　たいへんだわ！！",$00
+  db "エッ!<BR>それは　たいへんだわ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1576 (Data)", ROMX[$5580], BANK[$67]
 GameSceneNPCScriptReference1576::
@@ -1621,11 +1621,11 @@ GameSceneNPCScriptReference1576::
 
 SECTION "Game Scene NPC Script 0037 Reference 1577 (Data)", ROMX[$559D], BANK[$67]
 GameSceneNPCScriptReference1577::
-  db "おおがみさん！！",$00
+  db "おおがみさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1578 (Data)", ROMX[$55A6], BANK[$67]
 GameSceneNPCScriptReference1578::
-  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう！！",$00
+  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1579 (Data)", ROMX[$55C9], BANK[$67]
 GameSceneNPCScriptReference1579::
@@ -1649,7 +1649,7 @@ GameSceneNPCScriptReference157D::
 
 SECTION "Game Scene NPC Script 0037 Reference 157E (Data)", ROMX[$56DA], BANK[$67]
 GameSceneNPCScriptReference157E::
-  db "エッ！<BR>それは　たいへんだわ！！",$00
+  db "エッ!<BR>それは　たいへんだわ!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 157F (Data)", ROMX[$56EB], BANK[$67]
 GameSceneNPCScriptReference157F::
@@ -1657,11 +1657,11 @@ GameSceneNPCScriptReference157F::
 
 SECTION "Game Scene NPC Script 0037 Reference 1580 (Data)", ROMX[$5707], BANK[$67]
 GameSceneNPCScriptReference1580::
-  db "おおがみさん！！",$00
+  db "おおがみさん!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1581 (Data)", ROMX[$5710], BANK[$67]
 GameSceneNPCScriptReference1581::
-  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう！！",$00
+  db "よし。わかった。<BR>いそいで　カンナ　アイリスと<BR>ごうりゅうしよう!!",$00
 
 SECTION "Game Scene NPC Script 0037 Reference 1582 (Data)", ROMX[$5733], BANK[$67]
 GameSceneNPCScriptReference1582::

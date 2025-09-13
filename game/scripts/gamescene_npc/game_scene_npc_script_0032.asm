@@ -171,7 +171,7 @@ GameSceneNPCScriptReference13DA::
 
 SECTION "Game Scene NPC Script 0032 Reference 13DB (Data)", ROMX[$61AE], BANK[$66]
 GameSceneNPCScriptReference13DB::
-  db "な　なんや　これは！！",$00
+  db "な　なんや　これは!!",$00
 
 SECTION "Game Scene NPC Script 0032 Reference 13DC (Data)", ROMX[$61BA], BANK[$66]
 GameSceneNPCScriptReference13DC::
@@ -179,7 +179,7 @@ GameSceneNPCScriptReference13DC::
 
 SECTION "Game Scene NPC Script 0032 Reference 13DD (Data)", ROMX[$5494], BANK[$66]
 GameSceneNPCScriptReference13DD::
-  db "な　なんや　これは！！",$00
+  db "な　なんや　これは!!",$00
 
 SECTION "Game Scene NPC Script 0032 Reference 13DE (Data)", ROMX[$54A0], BANK[$66]
 GameSceneNPCScriptReference13DE::

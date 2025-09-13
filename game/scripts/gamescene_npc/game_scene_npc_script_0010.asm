@@ -537,19 +537,19 @@ GameSceneNPCScriptReference03AA::
 
 SECTION "Game Scene NPC Script 0010 Reference 03AB (Data)", ROMX[$41B7], BANK[$63]
 GameSceneNPCScriptReference03AB::
-  db "どこへいくんですの！<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　",$00
+  db "どこへいくんですの!<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　",$00
 
 SECTION "Game Scene NPC Script 0010 Reference 03AC (Data)", ROMX[$41D9], BANK[$63]
 GameSceneNPCScriptReference03AC::
-  db "たいへんなことに<BR>なりますわよ！！",$00
+  db "たいへんなことに<BR>なりますわよ!!",$00
 
 SECTION "Game Scene NPC Script 0010 Reference 03AD (Data)", ROMX[$41EB], BANK[$63]
 GameSceneNPCScriptReference03AD::
-  db "エンジンが<BR>とまっているのに<BR>うごくわけないじゃ<BR>ありませんの！",$00
+  db "エンジンが<BR>とまっているのに<BR>うごくわけないじゃ<BR>ありませんの!",$00
 
 SECTION "Game Scene NPC Script 0010 Reference 03AE (Data)", ROMX[$4D30], BANK[$62]
 GameSceneNPCScriptReference03AE::
-  db "どこへいくんですか！<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになります！！",$00
+  db "どこへいくんですか!<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになります!!",$00
 
 SECTION "Game Scene NPC Script 0010 Reference 03AF (Data)", ROMX[$4D61], BANK[$62]
 GameSceneNPCScriptReference03AF::
@@ -615,7 +615,7 @@ GameSceneNPCScriptReference03B7::
 
 SECTION "Game Scene NPC Script 0010 Reference 03B8 (Data)", ROMX[$69DA], BANK[$62]
 GameSceneNPCScriptReference03B8::
-  db "どこへいくんだ！<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになる！！",$00
+  db "どこへいくんだ!<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになる!!",$00
 
 SECTION "Game Scene NPC Script 0010 Reference 03B9 (Data)", ROMX[$6A07], BANK[$62]
 GameSceneNPCScriptReference03B9::
@@ -623,7 +623,7 @@ GameSceneNPCScriptReference03B9::
 
 SECTION "Game Scene NPC Script 0010 Reference 03BA (Data)", ROMX[$744C], BANK[$61]
 GameSceneNPCScriptReference03BA::
-  db "どこへいくんですか！<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになります！！",$00
+  db "どこへいくんですか!<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになります!!",$00
 
 SECTION "Game Scene NPC Script 0010 Reference 03BB (Data)", ROMX[$747D], BANK[$61]
 GameSceneNPCScriptReference03BB::
@@ -631,7 +631,7 @@ GameSceneNPCScriptReference03BB::
 
 SECTION "Game Scene NPC Script 0010 Reference 03BC (Data)", ROMX[$58C1], BANK[$61]
 GameSceneNPCScriptReference03BC::
-  db "どこへいくの？<BR>ダメだよ　<NAME>！",$00
+  db "どこへいくの?<BR>ダメだよ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0010 Reference 03BD (Data)", ROMX[$58D1], BANK[$61]
 GameSceneNPCScriptReference03BD::
@@ -643,7 +643,7 @@ GameSceneNPCScriptReference03BE::
 
 SECTION "Game Scene NPC Script 0010 Reference 03BF (Data)", ROMX[$7E5C], BANK[$60]
 GameSceneNPCScriptReference03BF::
-  db "どこへいくの？<BR>ダメだよ　<NAME>！",$00
+  db "どこへいくの?<BR>ダメだよ　<NAME>!",$00
 
 SECTION "Game Scene NPC Script 0010 Reference 03C0 (Data)", ROMX[$7E6C], BANK[$60]
 GameSceneNPCScriptReference03C0::
