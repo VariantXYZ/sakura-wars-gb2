@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 0046", ROMX[$4A05], BANK[$50]
 GameSceneNPCScript0046::
 GameSceneNPCScriptReference1783::
@@ -33,21 +29,3 @@ GameSceneNPCScriptReference1784::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference1789, BANK(GameSceneNPCScriptReference1789)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0046 Reference 1786 (Data)", ROMX[$65D2], BANK[$67]
-GameSceneNPCScriptReference1786::
-  db "えたいのしれない　えきたいが<BR>グツグツと　にえている。",$00
-
-SECTION "Game Scene NPC Script 0046 Reference 1787 (Data)", ROMX[$65EE], BANK[$67]
-GameSceneNPCScriptReference1787::
-  db "ま……まさか　これで<BR>こうぶごと　にるつもり<BR>だったの　かしら……",$00
-
-SECTION "Game Scene NPC Script 0046 Reference 1788 (Data)", ROMX[$6610], BANK[$67]
-GameSceneNPCScriptReference1788::
-  db "えたいのしれない　えきたいが<BR>グツグツと　にえている。",$00
-
-SECTION "Game Scene NPC Script 0046 Reference 1789 (Data)", ROMX[$662C], BANK[$67]
-GameSceneNPCScriptReference1789::
-  db "ま……まさか　これで<BR>こうぶごと　にるつもり<BR>だったんじゃ……",$00
-
-POPC

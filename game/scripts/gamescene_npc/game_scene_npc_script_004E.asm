@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 004E", ROMX[$4A44], BANK[$50]
 GameSceneNPCScript004E::
 GameSceneNPCScriptReference1AFB::
@@ -658,77 +654,3 @@ GameSceneNPCScriptReference1B29::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B08 (Data)", ROMX[$54C1], BANK[$69]
-GameSceneNPCScriptReference1B08::
-  db "こっちにも　おなじような<BR>とうがあるよ。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B09 (Data)", ROMX[$54D6], BANK[$69]
-GameSceneNPCScriptReference1B09::
-  db "こっちは　はいれそうだね。<BR>いってみよう　<NAME>。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B0A (Data)", ROMX[$54EE], BANK[$69]
-GameSceneNPCScriptReference1B0A::
-  db "なんか　ぶきみな<BR>とうだね〜。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B0F (Data)", ROMX[$6E9E], BANK[$69]
-GameSceneNPCScriptReference1B0F::
-  db "こっちにも　おなじような<BR>とうがあるよ。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B10 (Data)", ROMX[$6EB3], BANK[$69]
-GameSceneNPCScriptReference1B10::
-  db "こっちは　はいれそうだね。<BR>いってみよう　<NAME>。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B11 (Data)", ROMX[$6ECB], BANK[$69]
-GameSceneNPCScriptReference1B11::
-  db "なんか　ぶきみな<BR>とうだね〜。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B16 (Data)", ROMX[$47E1], BANK[$6A]
-GameSceneNPCScriptReference1B16::
-  db "なんだ?　こっちにも<BR>とう　があるのか?",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B17 (Data)", ROMX[$47F6], BANK[$6A]
-GameSceneNPCScriptReference1B17::
-  db "こっちは　はいれそうだ。<BR>いこうぜ　<NAME>。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B18 (Data)", ROMX[$480B], BANK[$6A]
-GameSceneNPCScriptReference1B18::
-  db "なんだか　ぶきみな<BR>とうだな〜。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B1D (Data)", ROMX[$6041], BANK[$6A]
-GameSceneNPCScriptReference1B1D::
-  db "なんだ?　こっちにも<BR>とう　があるのか?",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B1E (Data)", ROMX[$6056], BANK[$6A]
-GameSceneNPCScriptReference1B1E::
-  db "こっちは　はいれそうだ。<BR>いこうぜ　<NAME>。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B1F (Data)", ROMX[$606B], BANK[$6A]
-GameSceneNPCScriptReference1B1F::
-  db "なんだか　ぶきみな<BR>とうだな〜。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B24 (Data)", ROMX[$41E4], BANK[$6B]
-GameSceneNPCScriptReference1B24::
-  db "なんだ?　こっちにも<BR>とう　があるのか?",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B25 (Data)", ROMX[$41F9], BANK[$6B]
-GameSceneNPCScriptReference1B25::
-  db "こっちは　はいれそうだ。<BR>いこう　<NAME>くん。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B26 (Data)", ROMX[$420F], BANK[$6B]
-GameSceneNPCScriptReference1B26::
-  db "なんだか　ぶきみな<BR>とうだな〜。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B2B (Data)", ROMX[$5B0E], BANK[$6B]
-GameSceneNPCScriptReference1B2B::
-  db "あら?　こっちにも<BR>とうが　あるんですね。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B2C (Data)", ROMX[$5B24], BANK[$6B]
-GameSceneNPCScriptReference1B2C::
-  db "こっちは　はいれそうですよ。<BR>いきましょう。<BR><NAME>さん。",$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B2D (Data)", ROMX[$5B40], BANK[$6B]
-GameSceneNPCScriptReference1B2D::
-  db "なんだか　ぶきみな<BR>とうですね〜。",$00
-
-POPC

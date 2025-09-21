@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 0068", ROMX[$4D4D], BANK[$50]
 GameSceneNPCScript0068::
 GameSceneNPCScriptReference269D::
@@ -196,29 +192,3 @@ GameSceneNPCScriptReference26B6::
 SECTION "Game Scene NPC Script 0068 Reference 26B5 (Subroutine)", ROMX[$5B1C], BANK[$58]
 GameSceneNPCScriptReference26B5::
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0068 Reference 26AB (Data)", ROMX[$5404], BANK[$6D]
-GameSceneNPCScriptReference26AB::
-  db "<NAME>くん。<BR>しっかり!!",$00
-
-SECTION "Game Scene NPC Script 0068 Reference 26AE (Data)", ROMX[$6059], BANK[$6D]
-GameSceneNPCScriptReference26AE::
-  db "<NAME>くん。<BR>しっかりしてくれ!!",$00
-
-SECTION "Game Scene NPC Script 0068 Reference 26A8 (Data)", ROMX[$6F37], BANK[$6D]
-GameSceneNPCScriptReference26A8::
-  db "しっかりしろ　<NAME>。",$00
-
-SECTION "Game Scene NPC Script 0068 Reference 26B1 (Data)", ROMX[$7C2C], BANK[$6D]
-GameSceneNPCScriptReference26B1::
-  db "<NAME>さん<BR>しっかり　してください。",$00
-
-SECTION "Game Scene NPC Script 0068 Reference 26B4 (Data)", ROMX[$4939], BANK[$6E]
-GameSceneNPCScriptReference26B4::
-  db "<NAME>さん<BR>しっかり　してください。",$00
-
-SECTION "Game Scene NPC Script 0068 Reference 26B7 (Data)", ROMX[$565D], BANK[$6E]
-GameSceneNPCScriptReference26B7::
-  db "<NAME>さん<BR>しっかり　してくださいな。",$00
-
-POPC

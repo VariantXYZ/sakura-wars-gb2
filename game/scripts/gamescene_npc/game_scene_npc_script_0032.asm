@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 0032", ROMX[$469A], BANK[$50]
 GameSceneNPCScript0032::
 GameSceneNPCScriptReference13C8::
@@ -132,69 +128,3 @@ GameSceneNPCScriptReference13C9::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference13E1, BANK(GameSceneNPCScriptReference13E1)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0032 Reference 13D2 (Data)", ROMX[$5494], BANK[$66]
-GameSceneNPCScriptReference13D2::
-  db "な　なんや　これは!!",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13D3 (Data)", ROMX[$54A0], BANK[$66]
-GameSceneNPCScriptReference13D3::
-  db "これが　ミカサのなか<BR>なんか……",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13D4 (Data)", ROMX[$61AE], BANK[$66]
-GameSceneNPCScriptReference13D4::
-  db "な　なんや　これは!!",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13D5 (Data)", ROMX[$61BA], BANK[$66]
-GameSceneNPCScriptReference13D5::
-  db "これが　ミカサのなか<BR>なんか……",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13D6 (Data)", ROMX[$6E04], BANK[$66]
-GameSceneNPCScriptReference13D6::
-  db "な　なんなの　これは……",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13D7 (Data)", ROMX[$6E11], BANK[$66]
-GameSceneNPCScriptReference13D7::
-  db "これが　ミカサのなか<BR>なの…………",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13D8 (Data)", ROMX[$6E23], BANK[$66]
-GameSceneNPCScriptReference13D8::
-  db "<NAME><BR>きを　ひきしめなさい。",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13D9 (Data)", ROMX[$7AA2], BANK[$66]
-GameSceneNPCScriptReference13D9::
-  db "な　なんなの　これは……",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13DA (Data)", ROMX[$7AAF], BANK[$66]
-GameSceneNPCScriptReference13DA::
-  db "これが　ミカサのなか<BR>なの…………",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13DB (Data)", ROMX[$7AC1], BANK[$66]
-GameSceneNPCScriptReference13DB::
-  db "<NAME>くん<BR>きをひきしめて　いくわよ。",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13DC (Data)", ROMX[$4EA6], BANK[$67]
-GameSceneNPCScriptReference13DC::
-  db "な　なんだこれは……",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13DD (Data)", ROMX[$4EB1], BANK[$67]
-GameSceneNPCScriptReference13DD::
-  db "これが　ミカサのなか<BR>なのか…………",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13DE (Data)", ROMX[$4EC4], BANK[$67]
-GameSceneNPCScriptReference13DE::
-  db "<NAME>くん<BR>きをひきしめて　いくぞ。",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13DF (Data)", ROMX[$5BAE], BANK[$67]
-GameSceneNPCScriptReference13DF::
-  db "な　なんだこれは……",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13E0 (Data)", ROMX[$5BB9], BANK[$67]
-GameSceneNPCScriptReference13E0::
-  db "これが　ミカサのなか<BR>なのか…………",$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13E1 (Data)", ROMX[$5BCC], BANK[$67]
-GameSceneNPCScriptReference13E1::
-  db "<NAME>くん<BR>きをひきしめて　いくぞ。",$00
-
-POPC

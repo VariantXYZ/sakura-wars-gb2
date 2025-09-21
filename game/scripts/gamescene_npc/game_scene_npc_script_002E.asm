@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 002E", ROMX[$4861], BANK[$50]
 GameSceneNPCScript002E::
 GameSceneNPCScriptReference1374::
@@ -63,13 +59,3 @@ GameSceneNPCScriptReference137B::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference137C, BANK(GameSceneNPCScriptReference137C)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 002E Reference 1379 (Data)", ROMX[$4AE3], BANK[$66]
-GameSceneNPCScriptReference1379::
-  db "このスイッチは<BR>なんだろう?",$00
-
-SECTION "Game Scene NPC Script 002E Reference 137C (Data)", ROMX[$4AF2], BANK[$66]
-GameSceneNPCScriptReference137C::
-  db "これは　なんのスイッチ<BR>なのかしら?",$00
-
-POPC

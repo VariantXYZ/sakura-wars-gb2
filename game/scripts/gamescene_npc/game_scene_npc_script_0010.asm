@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 0010", ROMX[$4328], BANK[$50]
 GameSceneNPCScript0010::
 GameSceneNPCScriptReference0392::
@@ -592,65 +588,3 @@ GameSceneNPCScriptReference03BB::
   db $14 ; Change scene
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0010 Reference 039F (Data)", ROMX[$7E5C], BANK[$60]
-GameSceneNPCScriptReference039F::
-  db "どこへいくの?<BR>ダメだよ　<NAME>!",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03A0 (Data)", ROMX[$7E6C], BANK[$60]
-GameSceneNPCScriptReference03A0::
-  db "はやく　エンジンのぼうそうを<BR>とめないと　タイヘンなことに<BR>なっちゃうよ。",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03A1 (Data)", ROMX[$7E92], BANK[$60]
-GameSceneNPCScriptReference03A1::
-  db "エンジンが　とまっているから<BR>うごかないんだよ。",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03A6 (Data)", ROMX[$58C1], BANK[$61]
-GameSceneNPCScriptReference03A6::
-  db "どこへいくの?<BR>ダメだよ　<NAME>!",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03A7 (Data)", ROMX[$58D1], BANK[$61]
-GameSceneNPCScriptReference03A7::
-  db "はやく　エンジンのぼうそうを<BR>とめないと　タイヘンなことに<BR>なっちゃうよ。",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03A8 (Data)", ROMX[$58F7], BANK[$61]
-GameSceneNPCScriptReference03A8::
-  db "エンジンが　とまっているから<BR>うごかないんだよ。",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03B3 (Data)", ROMX[$744C], BANK[$61]
-GameSceneNPCScriptReference03B3::
-  db "どこへいくんですか!<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになります!!",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03B4 (Data)", ROMX[$747D], BANK[$61]
-GameSceneNPCScriptReference03B4::
-  db "エンジンが<BR>とまっているから<BR>うごかないんですよ。",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03B9 (Data)", ROMX[$4D30], BANK[$62]
-GameSceneNPCScriptReference03B9::
-  db "どこへいくんですか!<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになります!!",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03BA (Data)", ROMX[$4D61], BANK[$62]
-GameSceneNPCScriptReference03BA::
-  db "エンジンが<BR>とまっているんですから<BR>うごきませんよ。",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03AD (Data)", ROMX[$69DA], BANK[$62]
-GameSceneNPCScriptReference03AD::
-  db "どこへいくんだ!<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　<BR>たいへんなことになる!!",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03AE (Data)", ROMX[$6A07], BANK[$62]
-GameSceneNPCScriptReference03AE::
-  db "エンジンが<BR>とまっているのに<BR>うごくわけないだろ。",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03BF (Data)", ROMX[$41B7], BANK[$63]
-GameSceneNPCScriptReference03BF::
-  db "どこへいくんですの!<BR>はやく　エンジンの<BR>ぼうそうを　とめないと　",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03C0 (Data)", ROMX[$41D9], BANK[$63]
-GameSceneNPCScriptReference03C0::
-  db "たいへんなことに<BR>なりますわよ!!",$00
-
-SECTION "Game Scene NPC Script 0010 Reference 03C1 (Data)", ROMX[$41EB], BANK[$63]
-GameSceneNPCScriptReference03C1::
-  db "エンジンが<BR>とまっているのに<BR>うごくわけないじゃ<BR>ありませんの!",$00
-
-POPC

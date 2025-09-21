@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 0064", ROMX[$4C5F], BANK[$50]
 GameSceneNPCScript0064::
 GameSceneNPCScriptReference2480::
@@ -185,69 +181,3 @@ GameSceneNPCScriptReference2499::
   db $1C ; Chest 2
     db $3A ; Item in chest
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0064 Reference 2485 (Data)", ROMX[$7F98], BANK[$6B]
-GameSceneNPCScriptReference2485::
-  db "いしでできた　かんおけ……<BR>みたいだぞ。",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 2486 (Data)", ROMX[$7FAD], BANK[$6B]
-GameSceneNPCScriptReference2486::
-  db "あけない",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 2488 (Data)", ROMX[$7FB2], BANK[$6B]
-GameSceneNPCScriptReference2488::
-  db "あける",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 248A (Data)", ROMX[$7FB6], BANK[$6B]
-GameSceneNPCScriptReference248A::
-  db "……………………………………<BR>やっぱりやめておこう。",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 248B (Data)", ROMX[$7FD1], BANK[$6B]
-GameSceneNPCScriptReference248B::
-  db "あけます。",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 248D (Data)", ROMX[$7FD7], BANK[$6B]
-GameSceneNPCScriptReference248D::
-  db "うわっ!<BR>てきだ!!",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 248E (Data)", ROMX[$7FE2], BANK[$6B]
-GameSceneNPCScriptReference248E::
-  db "……おや?<BR>なにかあるぞ?",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 248F (Data)", ROMX[$4000], BANK[$6C]
-GameSceneNPCScriptReference248F::
-  db "<NAME>は<BR>『リペアキット』を<BR>てにいれた。",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 2492 (Data)", ROMX[$4014], BANK[$6C]
-GameSceneNPCScriptReference2492::
-  db "いしでできた　かんおけ……<BR>みたいだわ。",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 2493 (Data)", ROMX[$4029], BANK[$6C]
-GameSceneNPCScriptReference2493::
-  db "あけない",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 2495 (Data)", ROMX[$402E], BANK[$6C]
-GameSceneNPCScriptReference2495::
-  db "あける",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 2497 (Data)", ROMX[$4032], BANK[$6C]
-GameSceneNPCScriptReference2497::
-  db "……………………………………<BR>やめておきましょう。",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 2498 (Data)", ROMX[$404C], BANK[$6C]
-GameSceneNPCScriptReference2498::
-  db "あけます。",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 249A (Data)", ROMX[$4052], BANK[$6C]
-GameSceneNPCScriptReference249A::
-  db "あっ!<BR>てきだわ!!",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 249B (Data)", ROMX[$405D], BANK[$6C]
-GameSceneNPCScriptReference249B::
-  db "……あら?<BR>なにかあるわ?",$00
-
-SECTION "Game Scene NPC Script 0064 Reference 249C (Data)", ROMX[$406B], BANK[$6C]
-GameSceneNPCScriptReference249C::
-  db "<NAME>は<BR>『リペアキット』を<BR>てにいれた。",$00
-
-POPC

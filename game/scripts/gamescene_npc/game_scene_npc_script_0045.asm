@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 0045", ROMX[$48CA], BANK[$50]
 GameSceneNPCScript0045::
 GameSceneNPCScriptReference1768::
@@ -112,77 +108,3 @@ GameSceneNPCScriptReference176F::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference1782, BANK(GameSceneNPCScriptReference1782)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0045 Reference 1771 (Data)", ROMX[$6A1B], BANK[$67]
-GameSceneNPCScriptReference1771::
-  db "あいたたた……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 1772 (Data)", ROMX[$6A23], BANK[$67]
-GameSceneNPCScriptReference1772::
-  db "また　おちちゃったわ……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 1773 (Data)", ROMX[$6A30], BANK[$67]
-GameSceneNPCScriptReference1773::
-  db "そんなことより<BR>いそいで　マリアさんと<BR>ごうりゅうしなきゃ。",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 1774 (Data)", ROMX[$77A5], BANK[$67]
-GameSceneNPCScriptReference1774::
-  db "いててて……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 1775 (Data)", ROMX[$77AC], BANK[$67]
-GameSceneNPCScriptReference1775::
-  db "まいったな〜<BR>おちてしまった……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 1776 (Data)", ROMX[$77BD], BANK[$67]
-GameSceneNPCScriptReference1776::
-  db "そんなことより<BR>いそいで　おりひめさんと<BR>ごうりゅうしなきゃ。",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 1777 (Data)", ROMX[$453A], BANK[$68]
-GameSceneNPCScriptReference1777::
-  db "あいたたた……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 1778 (Data)", ROMX[$4542], BANK[$68]
-GameSceneNPCScriptReference1778::
-  db "また　おちちゃったわ……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 1779 (Data)", ROMX[$454F], BANK[$68]
-GameSceneNPCScriptReference1779::
-  db "そんなことより<BR>いそいで　レニさんと<BR>ごうりゅうしなきゃ。",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 177A (Data)", ROMX[$5288], BANK[$68]
-GameSceneNPCScriptReference177A::
-  db "いててて……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 177B (Data)", ROMX[$528F], BANK[$68]
-GameSceneNPCScriptReference177B::
-  db "まいったな〜<BR>おちてしまった……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 177C (Data)", ROMX[$52A0], BANK[$68]
-GameSceneNPCScriptReference177C::
-  db "そんなことより<BR>いそいで　レニさんと<BR>ごうりゅうしなきゃ。",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 177D (Data)", ROMX[$6DC7], BANK[$68]
-GameSceneNPCScriptReference177D::
-  db "あいたたた……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 177E (Data)", ROMX[$6DCF], BANK[$68]
-GameSceneNPCScriptReference177E::
-  db "また　おちちゃったわ……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 177F (Data)", ROMX[$6DDC], BANK[$68]
-GameSceneNPCScriptReference177F::
-  db "そんなことより<BR>いそいで　すみれさんと<BR>ごうりゅうしなきゃ。",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 1780 (Data)", ROMX[$7BF5], BANK[$68]
-GameSceneNPCScriptReference1780::
-  db "いててて……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 1781 (Data)", ROMX[$7BFC], BANK[$68]
-GameSceneNPCScriptReference1781::
-  db "まいったな〜<BR>おちてしまった……",$00
-
-SECTION "Game Scene NPC Script 0045 Reference 1782 (Data)", ROMX[$7C0D], BANK[$68]
-GameSceneNPCScriptReference1782::
-  db "そんなことより<BR>いそいで　すみれさんと<BR>ごうりゅうしなきゃ。",$00
-
-POPC

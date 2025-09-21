@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 006A", ROMX[$4DA1], BANK[$50]
 GameSceneNPCScript006A::
 GameSceneNPCScriptReference26D3::
@@ -196,29 +192,3 @@ GameSceneNPCScriptReference26EC::
 SECTION "Game Scene NPC Script 006A Reference 26EB (Subroutine)", ROMX[$5B4A], BANK[$58]
 GameSceneNPCScriptReference26EB::
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 006A Reference 26E1 (Data)", ROMX[$542C], BANK[$6D]
-GameSceneNPCScriptReference26E1::
-  db "<NAME>くん。<BR>ムチャを　するんじゃないぞ。",$00
-
-SECTION "Game Scene NPC Script 006A Reference 26E4 (Data)", ROMX[$607E], BANK[$6D]
-GameSceneNPCScriptReference26E4::
-  db "<NAME>くん!<BR>ムチャをするな!!",$00
-
-SECTION "Game Scene NPC Script 006A Reference 26DE (Data)", ROMX[$6F57], BANK[$6D]
-GameSceneNPCScriptReference26DE::
-  db "タイマーに　ちゅういしろ!<BR><NAME>!!",$00
-
-SECTION "Game Scene NPC Script 006A Reference 26E7 (Data)", ROMX[$7C58], BANK[$6D]
-GameSceneNPCScriptReference26E7::
-  db "<NAME>さん!<BR>ムチャをしないで!!",$00
-
-SECTION "Game Scene NPC Script 006A Reference 26EA (Data)", ROMX[$4965], BANK[$6E]
-GameSceneNPCScriptReference26EA::
-  db "<NAME>さん!<BR>ムチャをしないで!!",$00
-
-SECTION "Game Scene NPC Script 006A Reference 26ED (Data)", ROMX[$5688], BANK[$6E]
-GameSceneNPCScriptReference26ED::
-  db "<NAME>さん!<BR>むぼうと　ゆうきは<BR>ちがいますのよ!!",$00
-
-POPC

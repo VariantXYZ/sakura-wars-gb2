@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 006F", ROMX[$57EC], BANK[$51]
 GameSceneNPCScript006F::
 GameSceneNPCScriptReference2712::
@@ -27,5 +23,3 @@ GameSceneNPCScriptReference2714::
 SECTION "Game Scene NPC Script 006F Reference 2713 (Subroutine)", ROMX[$57FC], BANK[$51]
 GameSceneNPCScriptReference2713::
   db $FF ; Exit
-
-POPC

@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 003A", ROMX[$4765], BANK[$50]
 GameSceneNPCScript003A::
 GameSceneNPCScriptReference1639::
@@ -226,53 +222,3 @@ GameSceneNPCScriptReference1657::
 SECTION "Game Scene NPC Script 003A Reference 1658 (Subroutine)", ROMX[$6C73], BANK[$54]
 GameSceneNPCScriptReference1658::
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 003A Reference 1645 (Data)", ROMX[$58C9], BANK[$66]
-GameSceneNPCScriptReference1645::
-  db "だいじょうぶか!?<BR><NAME>はん!!",$00
-
-SECTION "Game Scene NPC Script 003A Reference 1646 (Data)", ROMX[$58D9], BANK[$66]
-GameSceneNPCScriptReference1646::
-  db "もうすこしで<BR>おぼれるところやったで。",$00
-
-SECTION "Game Scene NPC Script 003A Reference 1649 (Data)", ROMX[$65BA], BANK[$66]
-GameSceneNPCScriptReference1649::
-  db "だいじょうぶか!?<BR><NAME>はん!!",$00
-
-SECTION "Game Scene NPC Script 003A Reference 164A (Data)", ROMX[$65CA], BANK[$66]
-GameSceneNPCScriptReference164A::
-  db "もうすこしで<BR>おぼれるところやったで。",$00
-
-SECTION "Game Scene NPC Script 003A Reference 164D (Data)", ROMX[$723C], BANK[$66]
-GameSceneNPCScriptReference164D::
-  db "だいじょうぶ　<NAME>!<BR>しっかりしなさい!!",$00
-
-SECTION "Game Scene NPC Script 003A Reference 164E (Data)", ROMX[$7251], BANK[$66]
-GameSceneNPCScriptReference164E::
-  db "もうすこしで<BR>おぼれるところ<BR>だったわよ。",$00
-
-SECTION "Game Scene NPC Script 003A Reference 1651 (Data)", ROMX[$7F37], BANK[$66]
-GameSceneNPCScriptReference1651::
-  db "だいじょうぶ!?<BR><NAME>くん!!",$00
-
-SECTION "Game Scene NPC Script 003A Reference 1652 (Data)", ROMX[$7F46], BANK[$66]
-GameSceneNPCScriptReference1652::
-  db "もうすこしで<BR>おぼれるところ<BR>だったわよ。",$00
-
-SECTION "Game Scene NPC Script 003A Reference 1655 (Data)", ROMX[$534B], BANK[$67]
-GameSceneNPCScriptReference1655::
-  db "おい!<BR>だいじょうぶか<BR><NAME>くん。",$00
-
-SECTION "Game Scene NPC Script 003A Reference 1656 (Data)", ROMX[$535C], BANK[$67]
-GameSceneNPCScriptReference1656::
-  db "もうすこしで<BR>おぼれるところだったぞ。",$00
-
-SECTION "Game Scene NPC Script 003A Reference 1659 (Data)", ROMX[$5FCC], BANK[$67]
-GameSceneNPCScriptReference1659::
-  db "おい!<BR>だいじょうぶか<BR><NAME>くん。",$00
-
-SECTION "Game Scene NPC Script 003A Reference 165A (Data)", ROMX[$5FDD], BANK[$67]
-GameSceneNPCScriptReference165A::
-  db "もうすこしで<BR>おぼれるところだったぞ。",$00
-
-POPC
