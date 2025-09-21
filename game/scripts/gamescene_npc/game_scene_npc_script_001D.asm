@@ -10,8 +10,8 @@ GameSceneNPCScriptReference078A::
     dwb GameSceneNPCScriptReference078B, BANK(GameSceneNPCScriptReference078B) ; If Male
     dwb GameSceneNPCScriptReference078C, BANK(GameSceneNPCScriptReference078C) ; If Female
 
-SECTION "Game Scene NPC Script 001D Reference 078B (Subroutine)", ROMX[$7564], BANK[$50]
-GameSceneNPCScriptReference078B::
+SECTION "Game Scene NPC Script 001D Reference 078C (Subroutine)", ROMX[$750F], BANK[$50]
+GameSceneNPCScriptReference078C::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
@@ -76,8 +76,8 @@ GameSceneNPCScriptReference078B::
     db $80
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 001D Reference 078C (Subroutine)", ROMX[$750F], BANK[$50]
-GameSceneNPCScriptReference078C::
+SECTION "Game Scene NPC Script 001D Reference 078B (Subroutine)", ROMX[$7564], BANK[$50]
+GameSceneNPCScriptReference078B::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
@@ -142,91 +142,91 @@ GameSceneNPCScriptReference078C::
     db $80
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 001D Reference 078D (Data)", ROMX[$698B], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 078D (Data)", ROMX[$6868], BANK[$93]
 GameSceneNPCScriptReference078D::
-  db "だれかいるぞ!?",$00
+  db "だれかいるわ!?",$00
 
-SECTION "Game Scene NPC Script 001D Reference 078E (Data)", ROMX[$6994], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 078E (Data)", ROMX[$6871], BANK[$93]
 GameSceneNPCScriptReference078E::
   db "ウガ―!!",$00
 
-SECTION "Game Scene NPC Script 001D Reference 078F (Data)", ROMX[$699B], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 078F (Data)", ROMX[$6878], BANK[$93]
 GameSceneNPCScriptReference078F::
-  db "だいじょうぶかい?",$00
+  db "だいじょうぶ?",$00
 
-SECTION "Game Scene NPC Script 001D Reference 0790 (Data)", ROMX[$69A5], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 0790 (Data)", ROMX[$6880], BANK[$93]
 GameSceneNPCScriptReference0790::
   db "うん。<BR>ミキちゃん　だいじょうぶ。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 0791 (Data)", ROMX[$69B7], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 0791 (Data)", ROMX[$6892], BANK[$93]
 GameSceneNPCScriptReference0791::
   db "ミキちゃんねー<BR>はなうらないをして<BR>ずーっと　ここで<BR>まってたの。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 0792 (Data)", ROMX[$69D9], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 0792 (Data)", ROMX[$68B4], BANK[$93]
 GameSceneNPCScriptReference0792::
   db "ぜったいに　だれかが<BR>たすけにきてくれるって<BR>うらないには　でてたんだよ。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 0793 (Data)", ROMX[$69FF], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 0793 (Data)", ROMX[$68DA], BANK[$93]
 GameSceneNPCScriptReference0793::
-  db "じゃあ　ずーっとここに<BR>かくれていたんだね。<BR>えらいぞ。",$00
+  db "じゃあ　ずーっとここに<BR>かくれていたのね。<BR>こわかったでしょうに<BR>えらいわ〜。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 0794 (Data)", ROMX[$6A1C], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 0794 (Data)", ROMX[$6902], BANK[$93]
 GameSceneNPCScriptReference0794::
   db "ねえ　ねえ。<BR>ミキちゃん　ここから<BR>でられるの?",$00
 
-SECTION "Game Scene NPC Script 001D Reference 0795 (Data)", ROMX[$6A35], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 0795 (Data)", ROMX[$691B], BANK[$93]
 GameSceneNPCScriptReference0795::
-  db "ああ　もちろん。<BR>ボクたちが　きたからには<BR>もう　だいじょうぶさ。",$00
+  db "ええ　もちろんよ。<BR>わたしたちが　きたからには<BR>もう　だいじょうぶ。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 0796 (Data)", ROMX[$6A57], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 0796 (Data)", ROMX[$693E], BANK[$93]
 GameSceneNPCScriptReference0796::
-  db "あーよかった。<BR>ありがとう　おにいちゃん。",$00
+  db "あっ　そうだ。<BR>たすけてもらった　おれいを<BR>いわないと。<BR>ありがとう　おねえちゃん。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 0797 (Data)", ROMX[$6A6D], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 0797 (Data)", ROMX[$6969], BANK[$93]
 GameSceneNPCScriptReference0797::
   db "<NAME>　は　<BR>うらないずきの　おんなのこ<BR>ふくだ　ミキ　を<BR>たすけた。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 0798 (Data)", ROMX[$6868], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 0798 (Data)", ROMX[$698B], BANK[$93]
 GameSceneNPCScriptReference0798::
-  db "だれかいるわ!?",$00
+  db "だれかいるぞ!?",$00
 
-SECTION "Game Scene NPC Script 001D Reference 0799 (Data)", ROMX[$6871], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 0799 (Data)", ROMX[$6994], BANK[$93]
 GameSceneNPCScriptReference0799::
   db "ウガ―!!",$00
 
-SECTION "Game Scene NPC Script 001D Reference 079A (Data)", ROMX[$6878], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 079A (Data)", ROMX[$699B], BANK[$93]
 GameSceneNPCScriptReference079A::
-  db "だいじょうぶ?",$00
+  db "だいじょうぶかい?",$00
 
-SECTION "Game Scene NPC Script 001D Reference 079B (Data)", ROMX[$6880], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 079B (Data)", ROMX[$69A5], BANK[$93]
 GameSceneNPCScriptReference079B::
   db "うん。<BR>ミキちゃん　だいじょうぶ。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 079C (Data)", ROMX[$6892], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 079C (Data)", ROMX[$69B7], BANK[$93]
 GameSceneNPCScriptReference079C::
   db "ミキちゃんねー<BR>はなうらないをして<BR>ずーっと　ここで<BR>まってたの。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 079D (Data)", ROMX[$68B4], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 079D (Data)", ROMX[$69D9], BANK[$93]
 GameSceneNPCScriptReference079D::
   db "ぜったいに　だれかが<BR>たすけにきてくれるって<BR>うらないには　でてたんだよ。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 079E (Data)", ROMX[$68DA], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 079E (Data)", ROMX[$69FF], BANK[$93]
 GameSceneNPCScriptReference079E::
-  db "じゃあ　ずーっとここに<BR>かくれていたのね。<BR>こわかったでしょうに<BR>えらいわ〜。",$00
+  db "じゃあ　ずーっとここに<BR>かくれていたんだね。<BR>えらいぞ。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 079F (Data)", ROMX[$6902], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 079F (Data)", ROMX[$6A1C], BANK[$93]
 GameSceneNPCScriptReference079F::
   db "ねえ　ねえ。<BR>ミキちゃん　ここから<BR>でられるの?",$00
 
-SECTION "Game Scene NPC Script 001D Reference 07A0 (Data)", ROMX[$691B], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 07A0 (Data)", ROMX[$6A35], BANK[$93]
 GameSceneNPCScriptReference07A0::
-  db "ええ　もちろんよ。<BR>わたしたちが　きたからには<BR>もう　だいじょうぶ。",$00
+  db "ああ　もちろん。<BR>ボクたちが　きたからには<BR>もう　だいじょうぶさ。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 07A1 (Data)", ROMX[$693E], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 07A1 (Data)", ROMX[$6A57], BANK[$93]
 GameSceneNPCScriptReference07A1::
-  db "あっ　そうだ。<BR>たすけてもらった　おれいを<BR>いわないと。<BR>ありがとう　おねえちゃん。",$00
+  db "あーよかった。<BR>ありがとう　おにいちゃん。",$00
 
-SECTION "Game Scene NPC Script 001D Reference 07A2 (Data)", ROMX[$6969], BANK[$93]
+SECTION "Game Scene NPC Script 001D Reference 07A2 (Data)", ROMX[$6A6D], BANK[$93]
 GameSceneNPCScriptReference07A2::
   db "<NAME>　は　<BR>うらないずきの　おんなのこ<BR>ふくだ　ミキ　を<BR>たすけた。",$00
 

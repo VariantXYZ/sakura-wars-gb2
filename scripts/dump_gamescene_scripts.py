@@ -6,6 +6,7 @@ from collections import OrderedDict, deque
 import io
 import csv
 from functools import partial, reduce
+import bisect
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
 from common import utils, tilesets
@@ -33,6 +34,17 @@ character_table = tilesets.get_tileset("GameSceneNPCScript", override_offset=0x0
 
 gs = game.GameSceneScript()
 GS_COMMANDS = gs.COMMANDS
+
+class ParseReference:
+    def __init__(self, reference_id, bank, addr, data_terminator, data_count, data_type):
+        self.reference_id = reference_id
+        self.bank = bank
+        self.addr = addr
+        self.data_terminator = data_terminator
+        self.data_count = data_count
+        self.data_type = data_type
+        self.is_data = data_terminator is not None
+
 
 with open(os.path.join(game_scene_script_dir, f'commands.asm'), 'w') as commands_fp:
     for command in GS_COMMANDS:
@@ -187,10 +199,14 @@ with open(rom_path, 'rb') as rom:
     handled_references = []
     initial_references = []
 
+    # Parse/write subroutines before data, sorted by absolute address
+    # Doing it this way guarantees all data is grouped
     to_parse = deque()
+    parse_sort = lambda a: utils.rom2realaddr((a.bank, a.addr)) + 0x40000000 if type(a) is ParseReference and a.is_data else utils.rom2realaddr((a.bank, a.addr)) if type(a) is ParseReference else a
     def add_reference(bank, addr, data_terminator, data_count, data_type):
         global reference_count
         global reference_map
+        global to_parse
 
         real_addr = utils.rom2realaddr((bank, addr))
         
@@ -204,8 +220,7 @@ with open(rom_path, 'rb') as rom:
             reference_count += 1
 
         reference_id = reference_map[real_addr][1]
-        to_parse.append((reference_id, bank, addr, data_terminator, data_count, data_type))
-
+        bisect.insort(to_parse, ParseReference(reference_id, bank, addr, data_terminator, data_count, data_type), key = parse_sort)
         return reference_id
 
     def do_write_line(write_line, ls, l):
@@ -589,14 +604,14 @@ with open(rom_path, 'rb') as rom:
                         print('\n'.join(lines))
                         print(f'{utils.real2romaddr(rom.tell())[0]:02X}:{utils.real2romaddr(rom.tell())[1]:04X}')
                         raise ValueError(f"Unknown command {val:02X}")
-                elif type(val) is tuple:
-                    reference_id = val[0]
-                    bank = val[1]
-                    addr = val[2]
-                    data_terminator = val[3]
-                    data_count = val[4]
-                    data_type = val[5]
-                    is_data = data_terminator is not None
+                elif type(val) is ParseReference:
+                    reference_id = val.reference_id
+                    bank = val.bank
+                    addr = val.addr
+                    data_terminator = val.data_terminator
+                    data_count = val.data_count
+                    data_type = val.data_type
+                    is_data = val.is_data
                     current_bank = bank
 
                     if reference_id < initial_reference:

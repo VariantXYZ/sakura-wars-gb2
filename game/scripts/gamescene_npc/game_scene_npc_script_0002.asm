@@ -63,6 +63,20 @@ GameSceneNPCScriptReference0058::
     dw GameSceneNPCScriptReference0058 ; Option Branch
     dw $FFFF
 
+SECTION "Game Scene NPC Script 0002 Reference 0056 (Subroutine)", ROMX[$64F1], BANK[$51]
+GameSceneNPCScriptReference0056::
+  db $07 ; Portrait
+    db $00
+  db $00 ; WriteText
+    dwb GameSceneNPCScriptReference0059, BANK(GameSceneNPCScriptReference0059)
+  db $07 ; Portrait
+    db $4D
+  db $00 ; WriteText
+    dwb GameSceneNPCScriptReference005A, BANK(GameSceneNPCScriptReference005A)
+  db $17 ; Spawn Visual Entity
+    db $01
+  db $FF ; Exit
+
 SECTION "Game Scene NPC Script 0002 Reference 004E (Data)", ROMX[$6492], BANK[$60]
 GameSceneNPCScriptReference004E::
   db "<NAME>くん<BR>ちょっと　まってくれないか。",$00
@@ -94,20 +108,6 @@ GameSceneNPCScriptReference0054::
 SECTION "Game Scene NPC Script 0002 Reference 0055 (Data)", ROMX[$6527], BANK[$60]
 GameSceneNPCScriptReference0055::
   db "はい",$00
-
-SECTION "Game Scene NPC Script 0002 Reference 0056 (Subroutine)", ROMX[$64F1], BANK[$51]
-GameSceneNPCScriptReference0056::
-  db $07 ; Portrait
-    db $00
-  db $00 ; WriteText
-    dwb GameSceneNPCScriptReference0059, BANK(GameSceneNPCScriptReference0059)
-  db $07 ; Portrait
-    db $4D
-  db $00 ; WriteText
-    dwb GameSceneNPCScriptReference005A, BANK(GameSceneNPCScriptReference005A)
-  db $17 ; Spawn Visual Entity
-    db $01
-  db $FF ; Exit
 
 SECTION "Game Scene NPC Script 0002 Reference 0057 (Data)", ROMX[$652A], BANK[$60]
 GameSceneNPCScriptReference0057::

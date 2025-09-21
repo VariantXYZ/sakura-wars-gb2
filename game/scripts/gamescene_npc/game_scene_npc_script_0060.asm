@@ -39,83 +39,30 @@ GameSceneNPCScriptReference2335::
     dw GameSceneNPCScriptReference233E ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0060 Reference 2336 (Subroutine)", ROMX[$551B], BANK[$51]
-GameSceneNPCScriptReference2336::
-  db $0F
-    db $00
-    db $03
-  db $07 ; Portrait
-    db $00
-  db $00 ; WriteText
-    dwb GameSceneNPCScriptReference233F, BANK(GameSceneNPCScriptReference233F)
-  db $16 ; Move character
-    db $44
-    db $58
-  db $00 ; WriteText
-    dwb GameSceneNPCScriptReference2340, BANK(GameSceneNPCScriptReference2340)
-  db $07 ; Portrait
-    db $9F
-  db $00 ; WriteText
-    dwb GameSceneNPCScriptReference2341, BANK(GameSceneNPCScriptReference2341)
-  db $00 ; WriteText
-    dwb GameSceneNPCScriptReference2342, BANK(GameSceneNPCScriptReference2342)
-  db $01 ; TimedOption
-    db $01 ; Available Time
-    db $28
-    dwb GameSceneNPCScriptReference2343, BANK(GameSceneNPCScriptReference2343) ; Text
-    dw GameSceneNPCScriptReference2344 ; Option Branch
-    dwb GameSceneNPCScriptReference2345, BANK(GameSceneNPCScriptReference2345) ; Text
-    dw GameSceneNPCScriptReference2346 ; Option Branch
-    dw $FFFF
-
-SECTION "Game Scene NPC Script 0060 Reference 2337 (Data)", ROMX[$7A4F], BANK[$6B]
-GameSceneNPCScriptReference2337::
-  db "ろうやに　ひとがいるぞ……<BR>……しつもんしてみよう。",$00
-
-SECTION "Game Scene NPC Script 0060 Reference 2338 (Data)", ROMX[$7A6A], BANK[$6B]
-GameSceneNPCScriptReference2338::
-  db "すみません。<BR>あなたは　ひと　ですか?",$00
-
-SECTION "Game Scene NPC Script 0060 Reference 2339 (Data)", ROMX[$7A7E], BANK[$6B]
-GameSceneNPCScriptReference2339::
-  db "なにを　いっているんだい。<BR>みれば　わかるだろ?",$00
-
-SECTION "Game Scene NPC Script 0060 Reference 233A (Data)", ROMX[$7A97], BANK[$6B]
-GameSceneNPCScriptReference233A::
-  db "ぼくは　あの　まきびしけの<BR>むすこなんだぞ。<BR>はやく　ここから<BR>だしたまえ!",$00
-
-SECTION "Game Scene NPC Script 0060 Reference 233B (Data)", ROMX[$7ABE], BANK[$6B]
-GameSceneNPCScriptReference233B::
-  db "たすけない",$00
-
 SECTION "Game Scene NPC Script 0060 Reference 233C (Subroutine)", ROMX[$54CA], BANK[$51]
 GameSceneNPCScriptReference233C::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference2347, BANK(GameSceneNPCScriptReference2347)
+    dwb GameSceneNPCScriptReference233F, BANK(GameSceneNPCScriptReference233F)
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference2348, BANK(GameSceneNPCScriptReference2348)
+    dwb GameSceneNPCScriptReference2340, BANK(GameSceneNPCScriptReference2340)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0060 Reference 233D (Data)", ROMX[$7AC4], BANK[$6B]
-GameSceneNPCScriptReference233D::
-  db "たすける",$00
 
 SECTION "Game Scene NPC Script 0060 Reference 233E (Subroutine)", ROMX[$54D5], BANK[$51]
 GameSceneNPCScriptReference233E::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference2349, BANK(GameSceneNPCScriptReference2349)
+    dwb GameSceneNPCScriptReference2341, BANK(GameSceneNPCScriptReference2341)
   db $07 ; Portrait
     db $9F
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference234A, BANK(GameSceneNPCScriptReference234A)
+    dwb GameSceneNPCScriptReference2342, BANK(GameSceneNPCScriptReference2342)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference234B, BANK(GameSceneNPCScriptReference234B)
+    dwb GameSceneNPCScriptReference2343, BANK(GameSceneNPCScriptReference2343)
   db $2A
     db $04
   db $16 ; Move character
@@ -124,21 +71,21 @@ GameSceneNPCScriptReference233E::
   db $07 ; Portrait
     db $9F
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference234C, BANK(GameSceneNPCScriptReference234C)
+    dwb GameSceneNPCScriptReference2344, BANK(GameSceneNPCScriptReference2344)
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference234D, BANK(GameSceneNPCScriptReference234D)
+    dwb GameSceneNPCScriptReference2345, BANK(GameSceneNPCScriptReference2345)
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference234E, BANK(GameSceneNPCScriptReference234E)
+    dwb GameSceneNPCScriptReference2346, BANK(GameSceneNPCScriptReference2346)
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference234F, BANK(GameSceneNPCScriptReference234F)
+    dwb GameSceneNPCScriptReference2347, BANK(GameSceneNPCScriptReference2347)
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference2350, BANK(GameSceneNPCScriptReference2350)
+    dwb GameSceneNPCScriptReference2348, BANK(GameSceneNPCScriptReference2348)
   db $07 ; Portrait
     db $9F
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference2351, BANK(GameSceneNPCScriptReference2351)
+    dwb GameSceneNPCScriptReference2349, BANK(GameSceneNPCScriptReference2349)
   db $0B
     db $00
     db $FF
@@ -147,7 +94,7 @@ GameSceneNPCScriptReference233E::
   db $07 ; Portrait
     db $C4
   db $00 ; WriteText
-    dwb GameSceneNPCScriptReference2352, BANK(GameSceneNPCScriptReference2352)
+    dwb GameSceneNPCScriptReference234A, BANK(GameSceneNPCScriptReference234A)
   db $0B
     db $00
     db $FF
@@ -155,28 +102,37 @@ GameSceneNPCScriptReference233E::
     db $80
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0060 Reference 233F (Data)", ROMX[$7C10], BANK[$6B]
-GameSceneNPCScriptReference233F::
-  db "ろうやに　ひとがいるわ……<BR>……しつもんしてみよう。",$00
+SECTION "Game Scene NPC Script 0060 Reference 2336 (Subroutine)", ROMX[$551B], BANK[$51]
+GameSceneNPCScriptReference2336::
+  db $0F
+    db $00
+    db $03
+  db $07 ; Portrait
+    db $00
+  db $00 ; WriteText
+    dwb GameSceneNPCScriptReference234B, BANK(GameSceneNPCScriptReference234B)
+  db $16 ; Move character
+    db $44
+    db $58
+  db $00 ; WriteText
+    dwb GameSceneNPCScriptReference234C, BANK(GameSceneNPCScriptReference234C)
+  db $07 ; Portrait
+    db $9F
+  db $00 ; WriteText
+    dwb GameSceneNPCScriptReference234D, BANK(GameSceneNPCScriptReference234D)
+  db $00 ; WriteText
+    dwb GameSceneNPCScriptReference234E, BANK(GameSceneNPCScriptReference234E)
+  db $01 ; TimedOption
+    db $01 ; Available Time
+    db $28
+    dwb GameSceneNPCScriptReference234F, BANK(GameSceneNPCScriptReference234F) ; Text
+    dw GameSceneNPCScriptReference2350 ; Option Branch
+    dwb GameSceneNPCScriptReference2351, BANK(GameSceneNPCScriptReference2351) ; Text
+    dw GameSceneNPCScriptReference2352 ; Option Branch
+    dw $FFFF
 
-SECTION "Game Scene NPC Script 0060 Reference 2340 (Data)", ROMX[$7C2B], BANK[$6B]
-GameSceneNPCScriptReference2340::
-  db "すみません。<BR>あなたは　ひと　ですか?",$00
-
-SECTION "Game Scene NPC Script 0060 Reference 2341 (Data)", ROMX[$7C3F], BANK[$6B]
-GameSceneNPCScriptReference2341::
-  db "なにを　いっているんだい。<BR>みれば　わかるだろ?",$00
-
-SECTION "Game Scene NPC Script 0060 Reference 2342 (Data)", ROMX[$7C58], BANK[$6B]
-GameSceneNPCScriptReference2342::
-  db "ぼくは　あの　まきびしけの<BR>むすこなんだぞ。<BR>はやく　ここから<BR>だしたまえ!",$00
-
-SECTION "Game Scene NPC Script 0060 Reference 2343 (Data)", ROMX[$7C7F], BANK[$6B]
-GameSceneNPCScriptReference2343::
-  db "たすけない",$00
-
-SECTION "Game Scene NPC Script 0060 Reference 2344 (Subroutine)", ROMX[$554D], BANK[$51]
-GameSceneNPCScriptReference2344::
+SECTION "Game Scene NPC Script 0060 Reference 2350 (Subroutine)", ROMX[$554D], BANK[$51]
+GameSceneNPCScriptReference2350::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
@@ -185,12 +141,8 @@ GameSceneNPCScriptReference2344::
     dwb GameSceneNPCScriptReference2354, BANK(GameSceneNPCScriptReference2354)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0060 Reference 2345 (Data)", ROMX[$7C85], BANK[$6B]
-GameSceneNPCScriptReference2345::
-  db "たすける",$00
-
-SECTION "Game Scene NPC Script 0060 Reference 2346 (Subroutine)", ROMX[$5558], BANK[$51]
-GameSceneNPCScriptReference2346::
+SECTION "Game Scene NPC Script 0060 Reference 2352 (Subroutine)", ROMX[$5558], BANK[$51]
+GameSceneNPCScriptReference2352::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
@@ -242,53 +194,101 @@ GameSceneNPCScriptReference2346::
     db $80
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0060 Reference 2347 (Data)", ROMX[$7AEE], BANK[$6B]
-GameSceneNPCScriptReference2347::
+SECTION "Game Scene NPC Script 0060 Reference 2337 (Data)", ROMX[$7A4F], BANK[$6B]
+GameSceneNPCScriptReference2337::
+  db "ろうやに　ひとがいるぞ……<BR>……しつもんしてみよう。",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 2338 (Data)", ROMX[$7A6A], BANK[$6B]
+GameSceneNPCScriptReference2338::
+  db "すみません。<BR>あなたは　ひと　ですか?",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 2339 (Data)", ROMX[$7A7E], BANK[$6B]
+GameSceneNPCScriptReference2339::
+  db "なにを　いっているんだい。<BR>みれば　わかるだろ?",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 233A (Data)", ROMX[$7A97], BANK[$6B]
+GameSceneNPCScriptReference233A::
+  db "ぼくは　あの　まきびしけの<BR>むすこなんだぞ。<BR>はやく　ここから<BR>だしたまえ!",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 233B (Data)", ROMX[$7ABE], BANK[$6B]
+GameSceneNPCScriptReference233B::
+  db "たすけない",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 233D (Data)", ROMX[$7AC4], BANK[$6B]
+GameSceneNPCScriptReference233D::
+  db "たすける",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 233F (Data)", ROMX[$7AEE], BANK[$6B]
+GameSceneNPCScriptReference233F::
   db "たいどがデカい……<BR>こんなやつは　まものに<BR>ちがいない。",$00
 
-SECTION "Game Scene NPC Script 0060 Reference 2348 (Data)", ROMX[$7B0B], BANK[$6B]
-GameSceneNPCScriptReference2348::
+SECTION "Game Scene NPC Script 0060 Reference 2340 (Data)", ROMX[$7B0B], BANK[$6B]
+GameSceneNPCScriptReference2340::
   db "たすけるのは<BR>ヤメておこう。",$00
 
-SECTION "Game Scene NPC Script 0060 Reference 2349 (Data)", ROMX[$7B1A], BANK[$6B]
-GameSceneNPCScriptReference2349::
+SECTION "Game Scene NPC Script 0060 Reference 2341 (Data)", ROMX[$7B1A], BANK[$6B]
+GameSceneNPCScriptReference2341::
   db "えらそうなひとだな〜。<BR>たすけるのヤメようかな……",$00
 
-SECTION "Game Scene NPC Script 0060 Reference 234A (Data)", ROMX[$7B34], BANK[$6B]
-GameSceneNPCScriptReference234A::
+SECTION "Game Scene NPC Script 0060 Reference 2342 (Data)", ROMX[$7B34], BANK[$6B]
+GameSceneNPCScriptReference2342::
   db "なにを　しているんだ<BR>はやく　ここから<BR>だしてくれ。",$00
 
-SECTION "Game Scene NPC Script 0060 Reference 234B (Data)", ROMX[$7B4F], BANK[$6B]
-GameSceneNPCScriptReference234B::
+SECTION "Game Scene NPC Script 0060 Reference 2343 (Data)", ROMX[$7B4F], BANK[$6B]
+GameSceneNPCScriptReference2343::
   db "しかたない。<BR>たすけてあげるか。",$00
 
-SECTION "Game Scene NPC Script 0060 Reference 234C (Data)", ROMX[$7B60], BANK[$6B]
-GameSceneNPCScriptReference234C::
+SECTION "Game Scene NPC Script 0060 Reference 2344 (Data)", ROMX[$7B60], BANK[$6B]
+GameSceneNPCScriptReference2344::
   db "やあ　ごくろうであった。",$00
 
-SECTION "Game Scene NPC Script 0060 Reference 234D (Data)", ROMX[$7B6D], BANK[$6B]
-GameSceneNPCScriptReference234D::
+SECTION "Game Scene NPC Script 0060 Reference 2345 (Data)", ROMX[$7B6D], BANK[$6B]
+GameSceneNPCScriptReference2345::
   db "それにしても<BR>たすけにくるのが<BR>おそすぎるじゃないか<BR>まったくもー。",$00
 
-SECTION "Game Scene NPC Script 0060 Reference 234E (Data)", ROMX[$7B90], BANK[$6B]
-GameSceneNPCScriptReference234E::
+SECTION "Game Scene NPC Script 0060 Reference 2346 (Data)", ROMX[$7B90], BANK[$6B]
+GameSceneNPCScriptReference2346::
   db "さっきは<BR>しろいハデなふくをきた<BR>おとこおんなに<BR>ムシされるし。",$00
 
-SECTION "Game Scene NPC Script 0060 Reference 234F (Data)", ROMX[$7BB1], BANK[$6B]
-GameSceneNPCScriptReference234F::
+SECTION "Game Scene NPC Script 0060 Reference 2347 (Data)", ROMX[$7BB1], BANK[$6B]
+GameSceneNPCScriptReference2347::
   db "あいつは　おたくらの<BR>なかま　なんじゃないの?",$00
 
-SECTION "Game Scene NPC Script 0060 Reference 2350 (Data)", ROMX[$7BC9], BANK[$6B]
-GameSceneNPCScriptReference2350::
+SECTION "Game Scene NPC Script 0060 Reference 2348 (Data)", ROMX[$7BC9], BANK[$6B]
+GameSceneNPCScriptReference2348::
   db "さあ〜……………………",$00
 
-SECTION "Game Scene NPC Script 0060 Reference 2351 (Data)", ROMX[$7BD5], BANK[$6B]
-GameSceneNPCScriptReference2351::
+SECTION "Game Scene NPC Script 0060 Reference 2349 (Data)", ROMX[$7BD5], BANK[$6B]
+GameSceneNPCScriptReference2349::
   db "まあ　いいや。<BR>それじゃ　ボクは<BR>しつれいするよ。",$00
 
-SECTION "Game Scene NPC Script 0060 Reference 2352 (Data)", ROMX[$7BEF], BANK[$6B]
-GameSceneNPCScriptReference2352::
+SECTION "Game Scene NPC Script 0060 Reference 234A (Data)", ROMX[$7BEF], BANK[$6B]
+GameSceneNPCScriptReference234A::
   db "<NAME>は<BR>かねもちの　むすこ<BR>まきびし　よういちろう　を<BR>たすけた。",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 234B (Data)", ROMX[$7C10], BANK[$6B]
+GameSceneNPCScriptReference234B::
+  db "ろうやに　ひとがいるわ……<BR>……しつもんしてみよう。",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 234C (Data)", ROMX[$7C2B], BANK[$6B]
+GameSceneNPCScriptReference234C::
+  db "すみません。<BR>あなたは　ひと　ですか?",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 234D (Data)", ROMX[$7C3F], BANK[$6B]
+GameSceneNPCScriptReference234D::
+  db "なにを　いっているんだい。<BR>みれば　わかるだろ?",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 234E (Data)", ROMX[$7C58], BANK[$6B]
+GameSceneNPCScriptReference234E::
+  db "ぼくは　あの　まきびしけの<BR>むすこなんだぞ。<BR>はやく　ここから<BR>だしたまえ!",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 234F (Data)", ROMX[$7C7F], BANK[$6B]
+GameSceneNPCScriptReference234F::
+  db "たすけない",$00
+
+SECTION "Game Scene NPC Script 0060 Reference 2351 (Data)", ROMX[$7C85], BANK[$6B]
+GameSceneNPCScriptReference2351::
+  db "たすける",$00
 
 SECTION "Game Scene NPC Script 0060 Reference 2353 (Data)", ROMX[$7CB7], BANK[$6B]
 GameSceneNPCScriptReference2353::

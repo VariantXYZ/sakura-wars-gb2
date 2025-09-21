@@ -18,14 +18,14 @@ GameSceneNPCScriptReference2709::
     dw GameSceneNPCScriptReference270B ; On Timer Branch
     db $FF
 
-SECTION "Game Scene NPC Script 006C Reference 270A (Subroutine)", ROMX[$57C9], BANK[$51]
-GameSceneNPCScriptReference270A::
-  db $FF ; Exit
-
 SECTION "Game Scene NPC Script 006C Reference 270B (Subroutine)", ROMX[$57C6], BANK[$51]
 GameSceneNPCScriptReference270B::
   db $14 ; Change scene
     db $2C
+  db $FF ; Exit
+
+SECTION "Game Scene NPC Script 006C Reference 270A (Subroutine)", ROMX[$57C9], BANK[$51]
+GameSceneNPCScriptReference270A::
   db $FF ; Exit
 
 POPC

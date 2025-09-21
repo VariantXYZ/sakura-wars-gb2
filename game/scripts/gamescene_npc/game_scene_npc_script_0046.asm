@@ -10,8 +10,8 @@ GameSceneNPCScriptReference1783::
     dwb GameSceneNPCScriptReference1784, BANK(GameSceneNPCScriptReference1784) ; If Male
     dwb GameSceneNPCScriptReference1785, BANK(GameSceneNPCScriptReference1785) ; If Female
 
-SECTION "Game Scene NPC Script 0046 Reference 1784 (Subroutine)", ROMX[$55A6], BANK[$50]
-GameSceneNPCScriptReference1784::
+SECTION "Game Scene NPC Script 0046 Reference 1785 (Subroutine)", ROMX[$5599], BANK[$50]
+GameSceneNPCScriptReference1785::
   db $07 ; Portrait
     db $C4
   db $00 ; WriteText
@@ -22,8 +22,8 @@ GameSceneNPCScriptReference1784::
     dwb GameSceneNPCScriptReference1787, BANK(GameSceneNPCScriptReference1787)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0046 Reference 1785 (Subroutine)", ROMX[$5599], BANK[$50]
-GameSceneNPCScriptReference1785::
+SECTION "Game Scene NPC Script 0046 Reference 1784 (Subroutine)", ROMX[$55A6], BANK[$50]
+GameSceneNPCScriptReference1784::
   db $07 ; Portrait
     db $C4
   db $00 ; WriteText
@@ -34,20 +34,20 @@ GameSceneNPCScriptReference1785::
     dwb GameSceneNPCScriptReference1789, BANK(GameSceneNPCScriptReference1789)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0046 Reference 1786 (Data)", ROMX[$6610], BANK[$67]
+SECTION "Game Scene NPC Script 0046 Reference 1786 (Data)", ROMX[$65D2], BANK[$67]
 GameSceneNPCScriptReference1786::
   db "えたいのしれない　えきたいが<BR>グツグツと　にえている。",$00
 
-SECTION "Game Scene NPC Script 0046 Reference 1787 (Data)", ROMX[$662C], BANK[$67]
+SECTION "Game Scene NPC Script 0046 Reference 1787 (Data)", ROMX[$65EE], BANK[$67]
 GameSceneNPCScriptReference1787::
-  db "ま……まさか　これで<BR>こうぶごと　にるつもり<BR>だったんじゃ……",$00
+  db "ま……まさか　これで<BR>こうぶごと　にるつもり<BR>だったの　かしら……",$00
 
-SECTION "Game Scene NPC Script 0046 Reference 1788 (Data)", ROMX[$65D2], BANK[$67]
+SECTION "Game Scene NPC Script 0046 Reference 1788 (Data)", ROMX[$6610], BANK[$67]
 GameSceneNPCScriptReference1788::
   db "えたいのしれない　えきたいが<BR>グツグツと　にえている。",$00
 
-SECTION "Game Scene NPC Script 0046 Reference 1789 (Data)", ROMX[$65EE], BANK[$67]
+SECTION "Game Scene NPC Script 0046 Reference 1789 (Data)", ROMX[$662C], BANK[$67]
 GameSceneNPCScriptReference1789::
-  db "ま……まさか　これで<BR>こうぶごと　にるつもり<BR>だったの　かしら……",$00
+  db "ま……まさか　これで<BR>こうぶごと　にるつもり<BR>だったんじゃ……",$00
 
 POPC

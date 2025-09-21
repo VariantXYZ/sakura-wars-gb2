@@ -94,66 +94,6 @@ GameSceneNPCScriptReference2715::
     dw GameSceneNPCScriptReference2729 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0070 Reference 2716 (Data)", ROMX[$60A1], BANK[$6D]
-GameSceneNPCScriptReference2716::
-  db "おおがみさん……<BR>だれか　いますよ。",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 2717 (Data)", ROMX[$60B4], BANK[$6D]
-GameSceneNPCScriptReference2717::
-  db "か……　かやま?!",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 2718 (Data)", ROMX[$60BE], BANK[$6D]
-GameSceneNPCScriptReference2718::
-  db "かやまじゃないか!<BR>こんなところで<BR>なにしてるんだ?",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 2719 (Data)", ROMX[$60D9], BANK[$6D]
-GameSceneNPCScriptReference2719::
-  db "おとしちゃったんだよ〜。<BR>オレのたいせつな<BR>『しろいギター』……",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 271A (Data)", ROMX[$60FA], BANK[$6D]
-GameSceneNPCScriptReference271A::
-  db "エッ!?<BR>だって　おまえ　ギター<BR>もっているじゃないか。　",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 271B (Data)", ROMX[$6118], BANK[$6D]
-GameSceneNPCScriptReference271B::
-  db "ちがうんだよ〜<BR>こんな　ヤスモノじゃなくて<BR>オレのは　とくべつしよう<BR>なんだよ〜。",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 271C (Data)", ROMX[$6142], BANK[$6D]
-GameSceneNPCScriptReference271C::
-  db "この　いけに　<BR>おとしちゃったんだよ〜。<BR>さがしてくれよ〜<BR>おおがみぃ〜〜〜。",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 271D (Data)", ROMX[$616A], BANK[$6D]
-GameSceneNPCScriptReference271D::
-  db "オレは　いそがしくて<BR>さがしてられないんだよ〜。",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 271E (Data)", ROMX[$6183], BANK[$6D]
-GameSceneNPCScriptReference271E::
-  db "『しろいギター』なんだ〜。<BR>たのんだよ　おおがみぃ〜〜。",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 271F (Data)", ROMX[$61A0], BANK[$6D]
-GameSceneNPCScriptReference271F::
-  db "お……　おい!　かやま……<BR>……………………………………<BR>いっちゃったか……",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 2720 (Data)", ROMX[$61C7], BANK[$6D]
-GameSceneNPCScriptReference2720::
-  db "さがすといったって……<BR>どうしようか……<BR>………………?",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 2721 (Data)", ROMX[$61E4], BANK[$6D]
-GameSceneNPCScriptReference2721::
-  db "な　な……なんだ?!",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 2722 (Data)", ROMX[$61EF], BANK[$6D]
-GameSceneNPCScriptReference2722::
-  db "おまえたちか〜<BR>この　うつくしい　いけに<BR>ゴミをすてたのは〜。",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 2723 (Data)", ROMX[$620F], BANK[$6D]
-GameSceneNPCScriptReference2723::
-  db "おまえが　すてたゴミは<BR>この『しろいギター』か……<BR>それとも　ごうかな<BR>『きんのギター』か?",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 2724 (Data)", ROMX[$623E], BANK[$6D]
-GameSceneNPCScriptReference2724::
-  db "しろいギター",$00
-
 SECTION "Game Scene NPC Script 0070 Reference 2725 (Subroutine)", ROMX[$4D96], BANK[$58]
 GameSceneNPCScriptReference2725::
   db $07 ; Portrait
@@ -216,22 +156,6 @@ GameSceneNPCScriptReference2729::
     db $30
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0070 Reference 2726 (Data)", ROMX[$6245], BANK[$6D]
-GameSceneNPCScriptReference2726::
-  db "きんのギター",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 2728 (Data)", ROMX[$624C], BANK[$6D]
-GameSceneNPCScriptReference2728::
-  db "くろいギター",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 272A (Data)", ROMX[$6253], BANK[$6D]
-GameSceneNPCScriptReference272A::
-  db "しろいギターです。",$00
-
-SECTION "Game Scene NPC Script 0070 Reference 272B (Data)", ROMX[$625D], BANK[$6D]
-GameSceneNPCScriptReference272B::
-  db "しょうじきな　やつだな〜。<BR>その　しょうじきさにめんじて<BR>たたかいにかてば　このギター<BR>かえしてやろう。",$00
-
 SECTION "Game Scene NPC Script 0070 Reference 272C (Subroutine)", ROMX[$4DE6], BANK[$58]
 GameSceneNPCScriptReference272C::
   db $07 ; Portrait
@@ -280,6 +204,82 @@ GameSceneNPCScriptReference272C::
     db $53
     db $81
   db $FF ; Exit
+
+SECTION "Game Scene NPC Script 0070 Reference 2716 (Data)", ROMX[$60A1], BANK[$6D]
+GameSceneNPCScriptReference2716::
+  db "おおがみさん……<BR>だれか　いますよ。",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 2717 (Data)", ROMX[$60B4], BANK[$6D]
+GameSceneNPCScriptReference2717::
+  db "か……　かやま?!",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 2718 (Data)", ROMX[$60BE], BANK[$6D]
+GameSceneNPCScriptReference2718::
+  db "かやまじゃないか!<BR>こんなところで<BR>なにしてるんだ?",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 2719 (Data)", ROMX[$60D9], BANK[$6D]
+GameSceneNPCScriptReference2719::
+  db "おとしちゃったんだよ〜。<BR>オレのたいせつな<BR>『しろいギター』……",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 271A (Data)", ROMX[$60FA], BANK[$6D]
+GameSceneNPCScriptReference271A::
+  db "エッ!?<BR>だって　おまえ　ギター<BR>もっているじゃないか。　",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 271B (Data)", ROMX[$6118], BANK[$6D]
+GameSceneNPCScriptReference271B::
+  db "ちがうんだよ〜<BR>こんな　ヤスモノじゃなくて<BR>オレのは　とくべつしよう<BR>なんだよ〜。",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 271C (Data)", ROMX[$6142], BANK[$6D]
+GameSceneNPCScriptReference271C::
+  db "この　いけに　<BR>おとしちゃったんだよ〜。<BR>さがしてくれよ〜<BR>おおがみぃ〜〜〜。",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 271D (Data)", ROMX[$616A], BANK[$6D]
+GameSceneNPCScriptReference271D::
+  db "オレは　いそがしくて<BR>さがしてられないんだよ〜。",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 271E (Data)", ROMX[$6183], BANK[$6D]
+GameSceneNPCScriptReference271E::
+  db "『しろいギター』なんだ〜。<BR>たのんだよ　おおがみぃ〜〜。",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 271F (Data)", ROMX[$61A0], BANK[$6D]
+GameSceneNPCScriptReference271F::
+  db "お……　おい!　かやま……<BR>……………………………………<BR>いっちゃったか……",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 2720 (Data)", ROMX[$61C7], BANK[$6D]
+GameSceneNPCScriptReference2720::
+  db "さがすといったって……<BR>どうしようか……<BR>………………?",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 2721 (Data)", ROMX[$61E4], BANK[$6D]
+GameSceneNPCScriptReference2721::
+  db "な　な……なんだ?!",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 2722 (Data)", ROMX[$61EF], BANK[$6D]
+GameSceneNPCScriptReference2722::
+  db "おまえたちか〜<BR>この　うつくしい　いけに<BR>ゴミをすてたのは〜。",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 2723 (Data)", ROMX[$620F], BANK[$6D]
+GameSceneNPCScriptReference2723::
+  db "おまえが　すてたゴミは<BR>この『しろいギター』か……<BR>それとも　ごうかな<BR>『きんのギター』か?",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 2724 (Data)", ROMX[$623E], BANK[$6D]
+GameSceneNPCScriptReference2724::
+  db "しろいギター",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 2726 (Data)", ROMX[$6245], BANK[$6D]
+GameSceneNPCScriptReference2726::
+  db "きんのギター",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 2728 (Data)", ROMX[$624C], BANK[$6D]
+GameSceneNPCScriptReference2728::
+  db "くろいギター",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 272A (Data)", ROMX[$6253], BANK[$6D]
+GameSceneNPCScriptReference272A::
+  db "しろいギターです。",$00
+
+SECTION "Game Scene NPC Script 0070 Reference 272B (Data)", ROMX[$625D], BANK[$6D]
+GameSceneNPCScriptReference272B::
+  db "しょうじきな　やつだな〜。<BR>その　しょうじきさにめんじて<BR>たたかいにかてば　このギター<BR>かえしてやろう。",$00
 
 SECTION "Game Scene NPC Script 0070 Reference 272D (Data)", ROMX[$6292], BANK[$6D]
 GameSceneNPCScriptReference272D::

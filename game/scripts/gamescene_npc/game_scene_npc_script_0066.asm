@@ -40,6 +40,13 @@ GameSceneNPCScriptReference2603::
     db $81
   db $FF ; Exit
 
+SECTION "Game Scene NPC Script 0066 Reference 2605 (Subroutine)", ROMX[$55BE], BANK[$51]
+GameSceneNPCScriptReference2605::
+  db $0D
+    db $24
+    db $FF
+  db $FF ; Exit
+
 SECTION "Game Scene NPC Script 0066 Reference 2604 (Subroutine)", ROMX[$55C2], BANK[$51]
 GameSceneNPCScriptReference2604::
   db $08 ; Local Branch
@@ -70,8 +77,8 @@ GameSceneNPCScriptReference2604::
     db $81
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0066 Reference 2605 (Subroutine)", ROMX[$55BE], BANK[$51]
-GameSceneNPCScriptReference2605::
+SECTION "Game Scene NPC Script 0066 Reference 2608 (Subroutine)", ROMX[$55E2], BANK[$51]
+GameSceneNPCScriptReference2608::
   db $0D
     db $24
     db $FF
@@ -84,13 +91,6 @@ GameSceneNPCScriptReference2606::
 SECTION "Game Scene NPC Script 0066 Reference 2607 (Data)", ROMX[$7DFA], BANK[$6B]
 GameSceneNPCScriptReference2607::
   db "さあ　いこう。",$00
-
-SECTION "Game Scene NPC Script 0066 Reference 2608 (Subroutine)", ROMX[$55E2], BANK[$51]
-GameSceneNPCScriptReference2608::
-  db $0D
-    db $24
-    db $FF
-  db $FF ; Exit
 
 SECTION "Game Scene NPC Script 0066 Reference 2609 (Data)", ROMX[$7E02], BANK[$6B]
 GameSceneNPCScriptReference2609::
