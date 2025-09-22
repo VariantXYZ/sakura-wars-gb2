@@ -6,6 +6,7 @@ from collections import OrderedDict, deque
 import io
 import csv
 from functools import partial, reduce
+import bisect
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
 from common import utils, tilesets
@@ -27,12 +28,24 @@ game_scene_script_dir = sys.argv[3]
 game_scene_npc_script_dir = sys.argv[4]
 
 game_scene_npc_charmap = os.path.join(game_scene_npc_script_dir, f'charmap.asm')
+game_scene_npc_text = os.path.join(game_scene_npc_script_dir, f'game_scene_npc_text.asm')
 
 # Load tileset info
 character_table = tilesets.get_tileset("GameSceneNPCScript", override_offset=0x00)
 
-gs = game.GameSceneScript(character_table)
+gs = game.GameSceneScript()
 GS_COMMANDS = gs.COMMANDS
+
+class ParseReference:
+    def __init__(self, reference_id, bank, addr, data_terminator, data_count, data_type):
+        self.reference_id = reference_id
+        self.bank = bank
+        self.addr = addr
+        self.data_terminator = data_terminator
+        self.data_count = data_count
+        self.data_type = data_type
+        self.is_data = data_terminator is not None
+
 
 with open(os.path.join(game_scene_script_dir, f'commands.asm'), 'w') as commands_fp:
     for command in GS_COMMANDS:
@@ -186,11 +199,16 @@ with open(rom_path, 'rb') as rom:
     reference_count = 0
     handled_references = []
     initial_references = []
+    all_text = []
 
+    # Parse/write subroutines before data, sorted by absolute address
+    # Doing it this way guarantees all data is grouped
     to_parse = deque()
+    parse_sort = lambda a: utils.rom2realaddr((a.bank, a.addr)) + 0x40000000 if type(a) is ParseReference and a.is_data else utils.rom2realaddr((a.bank, a.addr)) if type(a) is ParseReference else a
     def add_reference(bank, addr, data_terminator, data_count, data_type):
         global reference_count
         global reference_map
+        global to_parse
 
         real_addr = utils.rom2realaddr((bank, addr))
         
@@ -204,8 +222,7 @@ with open(rom_path, 'rb') as rom:
             reference_count += 1
 
         reference_id = reference_map[real_addr][1]
-        to_parse.append((reference_id, bank, addr, data_terminator, data_count, data_type))
-
+        bisect.insort(to_parse, ParseReference(reference_id, bank, addr, data_terminator, data_count, data_type), key = parse_sort)
         return reference_id
 
     def do_write_line(write_line, ls, l):
@@ -229,9 +246,9 @@ with open(rom_path, 'rb') as rom:
             lines = files[file_path]
 
             title = f'Game Scene NPC Script {index:04X}'
-            do_write_line(write_line, lines, 'PUSHC\n')
+            data_section_written = False
+            data_section_current_bank = None
             do_write_line(write_line, lines, f'INCLUDE "game/src/common/macros.asm"')
-            do_write_line(write_line, lines, f'INCLUDE "{game_scene_npc_charmap}"\n')
             do_write_line(write_line, lines, f'SECTION "{title}", ROMX[${rom_addr[1]:04X}], BANK[${rom_addr[0]:02X}]')
             do_write_line(write_line, lines, f'{prefix}{index:04X}::')
             rom.seek(addr)
@@ -589,14 +606,14 @@ with open(rom_path, 'rb') as rom:
                         print('\n'.join(lines))
                         print(f'{utils.real2romaddr(rom.tell())[0]:02X}:{utils.real2romaddr(rom.tell())[1]:04X}')
                         raise ValueError(f"Unknown command {val:02X}")
-                elif type(val) is tuple:
-                    reference_id = val[0]
-                    bank = val[1]
-                    addr = val[2]
-                    data_terminator = val[3]
-                    data_count = val[4]
-                    data_type = val[5]
-                    is_data = data_terminator is not None
+                elif type(val) is ParseReference:
+                    reference_id = val.reference_id
+                    bank = val.bank
+                    addr = val.addr
+                    data_terminator = val.data_terminator
+                    data_count = val.data_count
+                    data_type = val.data_type
+                    is_data = val.is_data
                     current_bank = bank
 
                     if reference_id < initial_reference:
@@ -611,13 +628,15 @@ with open(rom_path, 'rb') as rom:
                     if initial_written == False:
                         initial_written = True 
                     elif real_addr not in handled_references:
-                        do_write_line(write_line, lines, f'\nSECTION "{title} Reference {reference_id:04X} ({"Data" if is_data else "Subroutine"})", ROMX[${addr:04X}], BANK[${bank:02X}]')
+                        if not is_data:
+                            do_write_line(write_line, lines, f'\nSECTION "{title} Reference {reference_id:04X} (Subroutine)", ROMX[${addr:04X}], BANK[${bank:02X}]')
                     if is_data:
-                        do_write_line(write_line, lines, f'{prefix}Reference{reference_id:04X}::')
+                        assert data_type == 'Text', "Text is the only supported data type"
                         is_term = True
                         for _ in range(data_count):
                             data = list(iter(partial(utils.read_byte, rom), data_terminator))
                             # Parse text
+                            # Since all text is relatively packed, we can just group it all which will simplify spacing for translation
                             length = 0
                             text = ""
                             if data_type == 'Text':
@@ -644,7 +663,8 @@ with open(rom_path, 'rb') as rom:
                                         print('\n'.join(lines))
                                         raise ValueError(f"{index:04X}: Unknown character at {bank:02X}:{addr:04X} {byte:02X}")
                                     length += 1
-                                do_write_line(write_line, lines, f'  db "{text}",${data_terminator:02X}')
+                                if write_line:
+                                    bisect.insort(all_text, (utils.rom2realaddr((bank, addr)), f'{prefix}Reference{reference_id:04X}', f'  db "{text}",${data_terminator:02X}', length), key = lambda a: a[0] )
                             else:
                                 do_write_line(write_line, lines, f'  db {",".join([f"${x:02X}" for x in data])},${data_terminator:02X}' + f' ; {data_type}' if data_type is not None else '')
                     elif real_addr not in handled_references:
@@ -669,7 +689,35 @@ with open(rom_path, 'rb') as rom:
             lines = files[filename]
             for line in lines:
                 text_fp.write(line + '\n')
-            text_fp.write('\nPOPC\n')
+
+
+    with open(game_scene_npc_text, 'w') as text_fp:
+        current_bank = None
+        next_addr = None
+        current_segment = 0
+        text_fp.write('PUSHC\n')
+        text_fp.write(f'INCLUDE "{game_scene_npc_charmap}"\n')
+        for data in all_text:
+            bank, addr = utils.real2romaddr(data[0])
+            reference_name = data[1]
+            text = data[2]
+            length = data[3] + 1 # String length + terminator
+
+            if current_bank != bank:
+                text_fp.write(f'\nSECTION "Text Bank {bank:02X} Segment {current_segment}", ROMX[${addr:04X}], BANK[${bank:02X}]\n')
+                current_segment = 0
+                current_bank = bank
+                next_addr = None
+            elif next_addr is not None and addr != next_addr:
+                current_segment += 1
+                text_fp.write(f'\nSECTION "Text Bank {bank:02X} {current_segment}", ROMX[${addr:04X}], BANK[${bank:02X}]\n')
+
+            next_addr = addr + length
+
+            text_fp.write(f'{reference_name}::\n')
+            text_fp.write(f'\t{text}\n')
+        text_fp.write('\nPOPC\n')
+
 
     with open(game_scene_npc_charmap, 'w') as charmap_fp:
         for key, value in character_table.items():

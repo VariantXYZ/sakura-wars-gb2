@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 0016", ROMX[$4F6C], BANK[$50]
 GameSceneNPCScript0016::
 GameSceneNPCScriptReference062A::
@@ -29,9 +25,3 @@ GameSceneNPCScriptReference062B::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference062C, BANK(GameSceneNPCScriptReference062C)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0016 Reference 062C (Data)", ROMX[$66C2], BANK[$60]
-GameSceneNPCScriptReference062C::
-  db "エンジンが<BR>うごいていません。",$00
-
-POPC

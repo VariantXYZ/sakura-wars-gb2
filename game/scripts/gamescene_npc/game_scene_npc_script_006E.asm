@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 006E", ROMX[$57DB], BANK[$51]
 GameSceneNPCScript006E::
 GameSceneNPCScriptReference270F::
@@ -18,14 +14,12 @@ GameSceneNPCScriptReference270F::
     dw GameSceneNPCScriptReference2711 ; On Timer Branch
     db $FF
 
-SECTION "Game Scene NPC Script 006E Reference 2710 (Subroutine)", ROMX[$57EB], BANK[$51]
-GameSceneNPCScriptReference2710::
-  db $FF ; Exit
-
 SECTION "Game Scene NPC Script 006E Reference 2711 (Subroutine)", ROMX[$57E8], BANK[$51]
 GameSceneNPCScriptReference2711::
   db $14 ; Change scene
     db $2E
   db $FF ; Exit
 
-POPC
+SECTION "Game Scene NPC Script 006E Reference 2710 (Subroutine)", ROMX[$57EB], BANK[$51]
+GameSceneNPCScriptReference2710::
+  db $FF ; Exit

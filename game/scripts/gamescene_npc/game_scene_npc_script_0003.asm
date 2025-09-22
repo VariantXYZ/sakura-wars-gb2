@@ -1,8 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
 SECTION "Game Scene NPC Script 0003", ROMX[$6500], BANK[$51]
 GameSceneNPCScript0003::
 GameSceneNPCScriptReference005B::
@@ -61,38 +57,6 @@ GameSceneNPCScriptReference0066::
     dw GameSceneNPCScriptReference0066 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0003 Reference 005C (Data)", ROMX[$6549], BANK[$60]
-GameSceneNPCScriptReference005C::
-  db "あ　これは……",$00
-
-SECTION "Game Scene NPC Script 0003 Reference 005D (Data)", ROMX[$6551], BANK[$60]
-GameSceneNPCScriptReference005D::
-  db "<NAME>くん。<BR>『リターンポイント』　の<BR>せつめいをしておくよ。",$00
-
-SECTION "Game Scene NPC Script 0003 Reference 005E (Data)", ROMX[$656F], BANK[$60]
-GameSceneNPCScriptReference005E::
-  db "うえをみてごらん。",$00
-
-SECTION "Game Scene NPC Script 0003 Reference 005F (Data)", ROMX[$6579], BANK[$60]
-GameSceneNPCScriptReference005F::
-  db "あれが<BR>『リターンポイント』だ。",$00
-
-SECTION "Game Scene NPC Script 0003 Reference 0060 (Data)", ROMX[$658A], BANK[$60]
-GameSceneNPCScriptReference0060::
-  db "まんなかにたつと　<BR>ていげきに　もどることが<BR>できるんだ。",$00
-
-SECTION "Game Scene NPC Script 0003 Reference 0061 (Data)", ROMX[$65A8], BANK[$60]
-GameSceneNPCScriptReference0061::
-  db "いちどつかった<BR>『リターンポイント』には<BR>ていげきから<BR>もどってくることもできるぞ。",$00
-
-SECTION "Game Scene NPC Script 0003 Reference 0062 (Data)", ROMX[$65D3], BANK[$60]
-GameSceneNPCScriptReference0062::
-  db "わかったかい？",$00
-
-SECTION "Game Scene NPC Script 0003 Reference 0063 (Data)", ROMX[$65DB], BANK[$60]
-GameSceneNPCScriptReference0063::
-  db "はい",$00
-
 SECTION "Game Scene NPC Script 0003 Reference 0064 (Subroutine)", ROMX[$654A], BANK[$51]
 GameSceneNPCScriptReference0064::
   db $07 ; Portrait
@@ -106,17 +70,3 @@ GameSceneNPCScriptReference0064::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0003 Reference 0065 (Data)", ROMX[$65DE], BANK[$60]
-GameSceneNPCScriptReference0065::
-  db "もういちどきく",$00
-
-SECTION "Game Scene NPC Script 0003 Reference 0067 (Data)", ROMX[$65E6], BANK[$60]
-GameSceneNPCScriptReference0067::
-  db "はい　わかりました。",$00
-
-SECTION "Game Scene NPC Script 0003 Reference 0068 (Data)", ROMX[$65F1], BANK[$60]
-GameSceneNPCScriptReference0068::
-  db "よし　じゃあ　いこう。",$00
-
-POPC
