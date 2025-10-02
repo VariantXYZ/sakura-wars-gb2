@@ -28,7 +28,6 @@ game_scene_script_dir = sys.argv[3]
 game_scene_npc_script_dir = sys.argv[4]
 
 game_scene_npc_charmap = os.path.join(game_scene_npc_script_dir, f'charmap.asm')
-game_scene_npc_text = os.path.join(game_scene_npc_script_dir, f'game_scene_npc_text.asm')
 
 # Load tileset info
 character_table = tilesets.get_tileset("GameSceneNPCScript", override_offset=0x00)
@@ -199,7 +198,7 @@ with open(rom_path, 'rb') as rom:
     reference_count = 0
     handled_references = []
     initial_references = []
-    all_text = []
+    all_text = {}
 
     # Parse/write subroutines before data, sorted by absolute address
     # Doing it this way guarantees all data is grouped
@@ -252,6 +251,9 @@ with open(rom_path, 'rb') as rom:
             do_write_line(write_line, lines, f'SECTION "{title}", ROMX[${rom_addr[1]:04X}], BANK[${rom_addr[0]:02X}]')
             do_write_line(write_line, lines, f'{prefix}{index:04X}::')
             rom.seek(addr)
+
+            if index not in all_text:
+                all_text[index] = []
 
             if index + 1 > len(initial_references):
                 initial_references.append(reference_count)
@@ -664,7 +666,7 @@ with open(rom_path, 'rb') as rom:
                                         raise ValueError(f"{index:04X}: Unknown character at {bank:02X}:{addr:04X} {byte:02X}")
                                     length += 1
                                 if write_line:
-                                    bisect.insort(all_text, (utils.rom2realaddr((bank, addr)), f'{prefix}Reference{reference_id:04X}', f'  db "{text}",${data_terminator:02X}', length), key = lambda a: a[0] )
+                                    bisect.insort(all_text[index], (utils.rom2realaddr((bank, addr)), f'{prefix}Reference{reference_id:04X}', f'  db "{text}",${data_terminator:02X}', length), key = lambda a: a[0] )
                             else:
                                 do_write_line(write_line, lines, f'  db {",".join([f"${x:02X}" for x in data])},${data_terminator:02X}' + f' ; {data_type}' if data_type is not None else '')
                     elif real_addr not in handled_references:
@@ -690,33 +692,33 @@ with open(rom_path, 'rb') as rom:
             for line in lines:
                 text_fp.write(line + '\n')
 
+    for index in all_text:
+        with open(os.path.join(game_scene_npc_script_dir, f'game_scene_npc_script_text_{index:04X}.asm'), 'w') as text_fp:
+            current_bank = None
+            next_addr = None
+            current_segment = 0
+            text_fp.write('PUSHC\n')
+            text_fp.write(f'INCLUDE "{game_scene_npc_charmap}"\n')
+            for data in all_text[index]:
+                bank, addr = utils.real2romaddr(data[0])
+                reference_name = data[1]
+                text = data[2]
+                length = data[3] + 1 # String length + terminator
 
-    with open(game_scene_npc_text, 'w') as text_fp:
-        current_bank = None
-        next_addr = None
-        current_segment = 0
-        text_fp.write('PUSHC\n')
-        text_fp.write(f'INCLUDE "{game_scene_npc_charmap}"\n')
-        for data in all_text:
-            bank, addr = utils.real2romaddr(data[0])
-            reference_name = data[1]
-            text = data[2]
-            length = data[3] + 1 # String length + terminator
+                if current_bank != bank:
+                    current_segment = 0
+                    text_fp.write(f'\nSECTION "Text{index:04X} Bank {bank:02X} Segment {current_segment}", ROMX[${addr:04X}], BANK[${bank:02X}]\n')
+                    current_bank = bank
+                    next_addr = None
+                elif next_addr is not None and addr != next_addr:
+                    current_segment += 1
+                    text_fp.write(f'\nSECTION "Text{index:04X} Bank {bank:02X} Segment {current_segment}", ROMX[${addr:04X}], BANK[${bank:02X}]\n')
 
-            if current_bank != bank:
-                text_fp.write(f'\nSECTION "Text Bank {bank:02X} Segment {current_segment}", ROMX[${addr:04X}], BANK[${bank:02X}]\n')
-                current_segment = 0
-                current_bank = bank
-                next_addr = None
-            elif next_addr is not None and addr != next_addr:
-                current_segment += 1
-                text_fp.write(f'\nSECTION "Text Bank {bank:02X} {current_segment}", ROMX[${addr:04X}], BANK[${bank:02X}]\n')
+                next_addr = addr + length
 
-            next_addr = addr + length
-
-            text_fp.write(f'{reference_name}::\n')
-            text_fp.write(f'\t{text}\n')
-        text_fp.write('\nPOPC\n')
+                text_fp.write(f'{reference_name}::\n')
+                text_fp.write(f'\t{text}\n')
+            text_fp.write('\nPOPC\n')
 
 
     with open(game_scene_npc_charmap, 'w') as charmap_fp:
