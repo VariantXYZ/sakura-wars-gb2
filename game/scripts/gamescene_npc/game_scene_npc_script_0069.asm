@@ -1,4 +1,10 @@
+PUSHC
+
 INCLUDE "game/src/common/macros.asm"
+INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
+
+INCLUDE "./build/text.game_scene_npc_script_0069.asm"
+
 SECTION "Game Scene NPC Script 0069", ROMX[$4D77], BANK[$50]
 GameSceneNPCScript0069::
 GameSceneNPCScriptReference26B8::
@@ -192,3 +198,29 @@ GameSceneNPCScriptReference26D1::
 SECTION "Game Scene NPC Script 0069 Reference 26D0 (Subroutine)", ROMX[$5B33], BANK[$58]
 GameSceneNPCScriptReference26D0::
   db $FF ; Exit
+
+SECTION "Game Scene NPC Script 0069 Reference 26C6 (Data)", ROMX[$5410], BANK[$6D]
+GameSceneNPCScriptReference26C6::
+  db #cGameSceneNPCScriptReference26C6,$00
+
+SECTION "Game Scene NPC Script 0069 Reference 26C9 (Data)", ROMX[$6069], BANK[$6D]
+GameSceneNPCScriptReference26C9::
+  db #cGameSceneNPCScriptReference26C9,$00
+
+SECTION "Game Scene NPC Script 0069 Reference 26C3 (Data)", ROMX[$6F41], BANK[$6D]
+GameSceneNPCScriptReference26C3::
+  db #cGameSceneNPCScriptReference26C3,$00
+
+SECTION "Game Scene NPC Script 0069 Reference 26CC (Data)", ROMX[$7C3D], BANK[$6D]
+GameSceneNPCScriptReference26CC::
+  db #cGameSceneNPCScriptReference26CC,$00
+
+SECTION "Game Scene NPC Script 0069 Reference 26CF (Data)", ROMX[$494A], BANK[$6E]
+GameSceneNPCScriptReference26CF::
+  db #cGameSceneNPCScriptReference26CF,$00
+
+SECTION "Game Scene NPC Script 0069 Reference 26D2 (Data)", ROMX[$566F], BANK[$6E]
+GameSceneNPCScriptReference26D2::
+  db #cGameSceneNPCScriptReference26D2,$00
+
+POPC

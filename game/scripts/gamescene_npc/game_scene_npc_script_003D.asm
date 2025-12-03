@@ -1,4 +1,10 @@
+PUSHC
+
 INCLUDE "game/src/common/macros.asm"
+INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
+
+INCLUDE "./build/text.game_scene_npc_script_003D.asm"
+
 SECTION "Game Scene NPC Script 003D", ROMX[$5477], BANK[$50]
 GameSceneNPCScript003D::
 GameSceneNPCScriptReference165F::
@@ -12,3 +18,9 @@ GameSceneNPCScriptReference165F::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference1660, BANK(GameSceneNPCScriptReference1660)
   db $FF ; Exit
+
+SECTION "Game Scene NPC Script 003D Reference 1660 (Data)", ROMX[$4F8D], BANK[$66]
+GameSceneNPCScriptReference1660::
+  db #cGameSceneNPCScriptReference1660,$00
+
+POPC

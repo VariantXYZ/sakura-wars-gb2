@@ -1,0 +1,414 @@
+ID,Text
+cGameSceneNPCScriptReference0FD6,はやく　だんぼうのスイッチを<BR>いれようぜ　<NAME>。
+cGameSceneNPCScriptReference0FD8,カンナさん　これは?
+cGameSceneNPCScriptReference0FD9,これは　『まじんき』のひとつ<BR>『けん』じゃねーか!!
+cGameSceneNPCScriptReference0FDA,でも……<BR>こおりづけに　なってる……
+cGameSceneNPCScriptReference0FDB,せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか?　<NAME>。
+cGameSceneNPCScriptReference0FDC,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference0FDE,こおりを　とかしましょう
+cGameSceneNPCScriptReference0FE0,おゆをかけましょう
+cGameSceneNPCScriptReference0FE2,カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうでしょうか?
+cGameSceneNPCScriptReference0FE3,それは　ダメだ。<BR>『けん』もいっしょに<BR>こわれてしまうかもしれない。
+cGameSceneNPCScriptReference0FE4,う〜ん…………<BR>こまったな…………<BR>…………………………
+cGameSceneNPCScriptReference0FE5,あ　そうだ!<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ!
+cGameSceneNPCScriptReference0FE6,ということは<BR>このミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?
+cGameSceneNPCScriptReference0FE7,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference0FE8,そうだよ　<NAME>!
+cGameSceneNPCScriptReference0FE9,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!
+cGameSceneNPCScriptReference0FEA,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference0FEB,どうやってだ?
+cGameSceneNPCScriptReference0FEC,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference0FED,だんぼう?<BR>…………………
+cGameSceneNPCScriptReference0FEE,あっ　そうか!!<BR>ミカサには　ボイラーが<BR>あるんだ!!
+cGameSceneNPCScriptReference0FEF,ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける!!
+cGameSceneNPCScriptReference0FF0,ナイスだぜ!
+cGameSceneNPCScriptReference0FF1,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!
+cGameSceneNPCScriptReference0FF2,あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか?
+cGameSceneNPCScriptReference0FF3,こんなところに<BR>あついおゆ　なんて<BR>ねーじゃねーかよ。
+cGameSceneNPCScriptReference0FF4,ん?　……………<BR>あつい?　……………<BR>あたためる………………
+cGameSceneNPCScriptReference0FF5,………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃねーか!?
+cGameSceneNPCScriptReference0FF6,ボイラーを　うごかして<BR>だんぼうをいれれば…………
+cGameSceneNPCScriptReference0FF7,あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。
+cGameSceneNPCScriptReference0FF8,そうだよ!<BR>ナイス　ヒントだぜ<BR><NAME>!!
+cGameSceneNPCScriptReference0FF9,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!
+cGameSceneNPCScriptReference0FFB,これが『まじんき』ね……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
+cGameSceneNPCScriptReference0FFC,カンナさん　これは?
+cGameSceneNPCScriptReference0FFD,これは　『まじんき』のひとつ<BR>『けん』じゃねーか!!
+cGameSceneNPCScriptReference0FFE,でも……<BR>こおりづけに　なってる……
+cGameSceneNPCScriptReference0FFF,せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか?　<NAME>。
+cGameSceneNPCScriptReference1000,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference1002,こおりを　とかしましょう
+cGameSceneNPCScriptReference1004,おゆをかけましょう
+cGameSceneNPCScriptReference1006,カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうですか?
+cGameSceneNPCScriptReference1007,それは　ダメだ。<BR>『けん』もいっしょに<BR>こわれてしまう。
+cGameSceneNPCScriptReference1008,う〜ん…………<BR>こまったな…………<BR>…………………………
+cGameSceneNPCScriptReference1009,あ　そうだ!<BR>たしか　ボイラースイッチが<BR>あったよな!!
+cGameSceneNPCScriptReference100A,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?
+cGameSceneNPCScriptReference100B,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference100C,そうだよ　<NAME>!
+cGameSceneNPCScriptReference100D,そのためには<BR>ボイラーをうごかさないと<BR>いけないな。
+cGameSceneNPCScriptReference100E,<NAME>。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!
+cGameSceneNPCScriptReference100F,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference1010,どうやってだ?
+cGameSceneNPCScriptReference1011,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference1012,だんぼう?<BR>………………
+cGameSceneNPCScriptReference1013,あっ　そうか!!<BR>あの　ボイラースイッチを<BR>いれれば　ボイラーがうごく!
+cGameSceneNPCScriptReference1014,ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とける!!
+cGameSceneNPCScriptReference1015,<NAME>!<BR>いいアイディアじゃねーか!!
+cGameSceneNPCScriptReference1016,よーし!<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!
+cGameSceneNPCScriptReference1017,あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか?
+cGameSceneNPCScriptReference1018,こんなところに<BR>あついおゆ　なんて<BR>ねーじゃねーかよ。
+cGameSceneNPCScriptReference1019,ん?　……………<BR>あつい?　……………<BR>あたためる………………
+cGameSceneNPCScriptReference101A,………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃねーか!?
+cGameSceneNPCScriptReference101B,さっきみつけた<BR>ボイラーを　うごかして<BR>だんぼうをいれれば…………
+cGameSceneNPCScriptReference101C,あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。
+cGameSceneNPCScriptReference101D,そうだよ!<BR>ナイス　ヒントだぜ<BR><NAME>!!
+cGameSceneNPCScriptReference101E,よーし!<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!
+cGameSceneNPCScriptReference101F,これが『まじんき』ね……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
+cGameSceneNPCScriptReference1023,はやく　だんぼうのスイッチを<BR>いれようぜ　<NAME>。
+cGameSceneNPCScriptReference1025,カンナさん　これは?
+cGameSceneNPCScriptReference1026,これは　『まじんき』のひとつ<BR>『けん』じゃねーか!!
+cGameSceneNPCScriptReference1027,でも……<BR>こおりづけに　なってる……
+cGameSceneNPCScriptReference1028,せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか?　<NAME>。
+cGameSceneNPCScriptReference1029,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference102B,こおりを　とかしましょう
+cGameSceneNPCScriptReference102D,なめて　こおりをとかす
+cGameSceneNPCScriptReference102F,カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうですか?
+cGameSceneNPCScriptReference1030,それは　ダメだ。<BR>『けん』もいっしょに<BR>こわれてしまうかもしれない。
+cGameSceneNPCScriptReference1031,う〜ん…………<BR>こまったな…………<BR>…………………………
+cGameSceneNPCScriptReference1032,あ　そうだ!<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ!
+cGameSceneNPCScriptReference1033,ということは<BR>このミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?
+cGameSceneNPCScriptReference1034,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference1035,そうだよ　<NAME>!
+cGameSceneNPCScriptReference1036,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!
+cGameSceneNPCScriptReference1037,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference1038,どうやってだ?
+cGameSceneNPCScriptReference1039,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference103A,だんぼう?<BR>………………
+cGameSceneNPCScriptReference103B,あっ　そうか!!<BR>ミカサには　ボイラーが<BR>あるんだ!!
+cGameSceneNPCScriptReference103C,ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける!!
+cGameSceneNPCScriptReference103D,ナイスだぜ!
+cGameSceneNPCScriptReference103E,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!
+cGameSceneNPCScriptReference103F,なめて　とかしましょうか?<BR>なーんちゃって。
+cGameSceneNPCScriptReference1040,できるもんなら<BR>やってみろよ　<NAME>。
+cGameSceneNPCScriptReference1041,す　すみません。<BR>カンナさん。
+cGameSceneNPCScriptReference1042,それにしても<BR>どうしょうか……
+cGameSceneNPCScriptReference1043,あっ　そうか!!<BR>ミカサには　ボイラーが<BR>あるんだ!!
+cGameSceneNPCScriptReference1044,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?
+cGameSceneNPCScriptReference1045,あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。
+cGameSceneNPCScriptReference1046,そうだよ　<NAME>!<BR>ボイラーを　うごかして<BR>だんぼうをいれて　こおりを<BR>とかすんだ!!
+cGameSceneNPCScriptReference1047,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずだ。<BR>さがそうぜ　<NAME>!
+cGameSceneNPCScriptReference1049,これが『まじんき』か……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
+cGameSceneNPCScriptReference104A,カンナさん　これは?
+cGameSceneNPCScriptReference104B,これは　『まじんき』のひとつ<BR>『けん』じゃねーか!!
+cGameSceneNPCScriptReference104C,でも……<BR>こおりづけに　なってる……
+cGameSceneNPCScriptReference104D,せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしようか?　<NAME>。
+cGameSceneNPCScriptReference104E,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference1050,こおりを　とかしましょう
+cGameSceneNPCScriptReference1052,なめて　こおりをとかす
+cGameSceneNPCScriptReference1054,カンナさんの　カラテで<BR>こおりを　たたきわるって<BR>いうのは　どうですか?
+cGameSceneNPCScriptReference1055,それは　ダメだ。<BR>『けん』もいっしょに<BR>こわれてしまう。
+cGameSceneNPCScriptReference1056,う〜ん…………<BR>こまったな…………<BR>…………………………
+cGameSceneNPCScriptReference1057,あ　そうだ!<BR>たしか　ボイラースイッチが<BR>あったよな!!
+cGameSceneNPCScriptReference1058,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?
+cGameSceneNPCScriptReference1059,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference105A,そうだよ　<NAME>!
+cGameSceneNPCScriptReference105B,そのためには<BR>ボイラーをうごかさないと<BR>いけないな。
+cGameSceneNPCScriptReference105C,<NAME>。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!
+cGameSceneNPCScriptReference105D,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference105E,どうやってだ?
+cGameSceneNPCScriptReference105F,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference1060,だんぼう?<BR>………………
+cGameSceneNPCScriptReference1061,あっ　そうか!!<BR>あの　ボイラースイッチを<BR>いれれば　ボイラーがうごく!
+cGameSceneNPCScriptReference1062,ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とける!!
+cGameSceneNPCScriptReference1063,<NAME>!<BR>いいアイディアじゃねーか!!
+cGameSceneNPCScriptReference1064,よーし!<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!
+cGameSceneNPCScriptReference1065,なめて　とかしましょうか?<BR>なーんちゃって。
+cGameSceneNPCScriptReference1066,できるもんなら<BR>やってみろよ　<NAME>。
+cGameSceneNPCScriptReference1067,す　すみません。<BR>カンナさん。
+cGameSceneNPCScriptReference1068,それにしても<BR>どうしたらいいんだ…………
+cGameSceneNPCScriptReference1069,そうだ!<BR>たしか　さっき<BR>ボイラースイッチを<BR>みつけたよな!
+cGameSceneNPCScriptReference106A,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できるんじゃ<BR>ねーのか!?
+cGameSceneNPCScriptReference106B,あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。
+cGameSceneNPCScriptReference106C,そうだよ　<NAME>!<BR>ボイラーを　うごかして<BR>だんぼうをいれて　こおりを<BR>とかすんだ!!
+cGameSceneNPCScriptReference106D,<NAME>。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごうぜ!!
+cGameSceneNPCScriptReference106E,これが『まじんき』か……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
+cGameSceneNPCScriptReference1072,はやく　だんぼうのスイッチを<BR>いれるでーす<BR><NAME>さん。
+cGameSceneNPCScriptReference1074,おりひめさん　これは?
+cGameSceneNPCScriptReference1075,これは　『まじんき』のひとつ<BR>『けん』でーす!
+cGameSceneNPCScriptReference1076,でも……<BR>こおりづけに　なってまーす。
+cGameSceneNPCScriptReference1077,せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか?<BR><NAME>さん。
+cGameSceneNPCScriptReference1078,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference107A,こおりを　とかしましょう
+cGameSceneNPCScriptReference107C,おゆをかけましょう
+cGameSceneNPCScriptReference107E,ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう!<BR>おりひめさん!!
+cGameSceneNPCScriptReference107F,それは　ダメでーす。<BR>『けん』もいっしょに<BR>こわれてしまいまーす。
+cGameSceneNPCScriptReference1080,う〜ん…………<BR>こまったでーす…………<BR>……………………………
+cGameSceneNPCScriptReference1081,Oh!!<BR>たしか　ミカサには<BR>ボイラーが　あったはず<BR>でーす!!
+cGameSceneNPCScriptReference1082,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できる<BR>というわけでーす。
+cGameSceneNPCScriptReference1083,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference1084,そのとおりでーす!
+cGameSceneNPCScriptReference1085,そのためには　まず<BR>ボイラーを　うごかさなくては<BR>いけませーん。
+cGameSceneNPCScriptReference1086,<NAME>さん。　ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずでーす。<BR>さがしましょー。
+cGameSceneNPCScriptReference1087,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference1088,どうやってでーすか?
+cGameSceneNPCScriptReference1089,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference108A,だんぼう?<BR>…………………
+cGameSceneNPCScriptReference108B,Oh!<BR>ミカサには　ボイラーが<BR>ありまーした!!
+cGameSceneNPCScriptReference108C,ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とけるでーす!!
+cGameSceneNPCScriptReference108D,<NAME>さん<BR>ナイス　アイディアでーす。
+cGameSceneNPCScriptReference108E,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずでーす。<BR>さがしましょー。
+cGameSceneNPCScriptReference108F,あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference1090,こんなところに<BR>あつい　おゆなんて<BR>ありませーん。
+cGameSceneNPCScriptReference1091,ん?……………<BR>あつい?……………<BR>あたためる………………
+cGameSceneNPCScriptReference1092,………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>オッケーでーす。
+cGameSceneNPCScriptReference1093,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference1094,そのとおりでーす!
+cGameSceneNPCScriptReference1095,<NAME>さん<BR>ナイスな　ヒント<BR>さすがでーす。
+cGameSceneNPCScriptReference1096,だんぼうをいれるには<BR>まず　ボイラーを<BR>うごかさなくては<BR>いけませーん。
+cGameSceneNPCScriptReference1097,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずでーす。<BR>さがしましょー。
+cGameSceneNPCScriptReference1099,これが『まじんき』ね……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
+cGameSceneNPCScriptReference109A,おりひめさん　これは?
+cGameSceneNPCScriptReference109B,これは　『まじんき』のひとつ<BR>『けん』でーす!
+cGameSceneNPCScriptReference109C,でも……<BR>こおりづけに　なってまーす。
+cGameSceneNPCScriptReference109D,せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか?<BR><NAME>さん。
+cGameSceneNPCScriptReference109E,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference10A0,こおりを　とかしましょう
+cGameSceneNPCScriptReference10A2,おゆをかけましょう
+cGameSceneNPCScriptReference10A4,ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう!<BR>おりひめさん!!
+cGameSceneNPCScriptReference10A5,それは　ダメでーす。<BR>『けん』もいっしょに<BR>こわれてしまいまーす。
+cGameSceneNPCScriptReference10A6,う〜ん…………<BR>こまったでーす…………<BR>……………………………
+cGameSceneNPCScriptReference10A7,そうでーす!<BR>おもいだしましたー!<BR>たしか　ボイラースイッチが<BR>ありましたね!!
+cGameSceneNPCScriptReference10A8,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できる<BR>というわけでーす。
+cGameSceneNPCScriptReference10A9,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference10AA,そのとおりでーす!
+cGameSceneNPCScriptReference10AB,そのためには　まず<BR>ボイラーを　うごかさなくては<BR>いけませーん。
+cGameSceneNPCScriptReference10AC,<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす!!
+cGameSceneNPCScriptReference10AD,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference10AE,どうやってでーすか?
+cGameSceneNPCScriptReference10AF,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference10B0,だんぼう?<BR>…………………
+cGameSceneNPCScriptReference10B1,Oh!　わかりましたー!<BR>さっきのボイラースイッチを<BR>いれれば　ボイラーが<BR>うごくでーす!!
+cGameSceneNPCScriptReference10B2,ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とけますねー!!
+cGameSceneNPCScriptReference10B3,<NAME>さん<BR>ナイス　アイディアでーす。
+cGameSceneNPCScriptReference10B4,さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす!!
+cGameSceneNPCScriptReference10B5,あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか?
+cGameSceneNPCScriptReference10B6,こんなところに<BR>あつい　おゆなんて<BR>ありませーん。
+cGameSceneNPCScriptReference10B7,ん?　……………<BR>あつい?　……………<BR>あたためる………………
+cGameSceneNPCScriptReference10B8,………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>オッケーでーす。
+cGameSceneNPCScriptReference10B9,たしか　さっき<BR>ボイラースイッチを<BR>みつけましたね!!
+cGameSceneNPCScriptReference10BA,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できる<BR>というわけでーす。
+cGameSceneNPCScriptReference10BB,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference10BC,そのとおりでーす!
+cGameSceneNPCScriptReference10BD,<NAME>さん<BR>ナイスな　ヒント<BR>さすがでーす。
+cGameSceneNPCScriptReference10BE,さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす!!
+cGameSceneNPCScriptReference10BF,これが『まじんき』ね……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
+cGameSceneNPCScriptReference10C3,はやく　だんぼうのスイッチを<BR>いれるでーす<BR><NAME>さん。
+cGameSceneNPCScriptReference10C5,おりひめさん　これは?
+cGameSceneNPCScriptReference10C6,これは　『まじんき』のひとつ<BR>『けん』でーす!
+cGameSceneNPCScriptReference10C7,でも……<BR>こおりづけに　なってまーす。
+cGameSceneNPCScriptReference10C8,せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか?<BR><NAME>さん。
+cGameSceneNPCScriptReference10C9,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference10CB,こおりを　とかしましょう
+cGameSceneNPCScriptReference10CD,なめて　こおりをとかす
+cGameSceneNPCScriptReference10CF,ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう!<BR>おりひめさん!!
+cGameSceneNPCScriptReference10D0,それは　ダメでーす。<BR>『けん』もいっしょに<BR>こわれてしまいまーす。
+cGameSceneNPCScriptReference10D1,う〜ん…………<BR>こまったでーす…………<BR>……………………………
+cGameSceneNPCScriptReference10D2,Oh!!<BR>たしか　ミカサには<BR>ボイラーが　あったはず<BR>でーす!!
+cGameSceneNPCScriptReference10D3,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できる<BR>というわけでーす。
+cGameSceneNPCScriptReference10D4,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference10D5,そのとおりでーす!
+cGameSceneNPCScriptReference10D6,そのためには　まず<BR>ボイラーを　うごかさなくては<BR>いけませーん。
+cGameSceneNPCScriptReference10D7,<NAME>さん。　ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずでーす。<BR>さがしましょー。
+cGameSceneNPCScriptReference10D8,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference10D9,どうやってでーすか?
+cGameSceneNPCScriptReference10DA,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference10DB,だんぼう?<BR>…………………
+cGameSceneNPCScriptReference10DC,Oh!<BR>ミカサには　ボイラーが<BR>ありまーした!!
+cGameSceneNPCScriptReference10DD,ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とけるでーす!!
+cGameSceneNPCScriptReference10DE,<NAME>さん<BR>ナイス　アイディアでーす。
+cGameSceneNPCScriptReference10DF,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずでーす。<BR>さがしましょー。
+cGameSceneNPCScriptReference10E0,なめて　とかしましょうか?<BR>なーんちゃって。
+cGameSceneNPCScriptReference10E1,<NAME>さん<BR>できるものなら<BR>やってみると　いいでーす。
+cGameSceneNPCScriptReference10E2,す　すみません。<BR>おりひめさん。
+cGameSceneNPCScriptReference10E3,それにしても<BR>どうしましょうか………………<BR>……………………………………
+cGameSceneNPCScriptReference10E4,Oh!!<BR>たしか　ミカサには<BR>ボイラーが　あったはず<BR>でーす!!
+cGameSceneNPCScriptReference10E5,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できる<BR>というわけでーす。
+cGameSceneNPCScriptReference10E6,あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。
+cGameSceneNPCScriptReference10E7,そのとおりでーす!<BR>そのためには　まず<BR>ボイラーを　うごかさなくては<BR>いけませーん。
+cGameSceneNPCScriptReference10E8,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずでーす。<BR>さがしましょー。
+cGameSceneNPCScriptReference10EA,これが『まじんき』か……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
+cGameSceneNPCScriptReference10EB,おりひめさん　これは?
+cGameSceneNPCScriptReference10EC,これは　『まじんき』のひとつ<BR>『けん』でーす!
+cGameSceneNPCScriptReference10ED,でも……<BR>こおりづけに　なってまーす。
+cGameSceneNPCScriptReference10EE,せっかく　『まじんき』が<BR>めのまえにあるのに……<BR>どうしましょうか?<BR><NAME>さん。
+cGameSceneNPCScriptReference10EF,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference10F1,こおりを　とかしましょう
+cGameSceneNPCScriptReference10F3,なめて　こおりをとかす
+cGameSceneNPCScriptReference10F5,ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょう!<BR>おりひめさん!!
+cGameSceneNPCScriptReference10F6,それは　ダメでーす。<BR>『けん』もいっしょに<BR>こわれてしまいまーす。
+cGameSceneNPCScriptReference10F7,う〜ん…………<BR>こまったでーす…………<BR>……………………………
+cGameSceneNPCScriptReference10F8,そうでーす!<BR>おもいだしましたー!<BR>たしか　ボイラースイッチが<BR>ありましたね!!
+cGameSceneNPCScriptReference10F9,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できる<BR>というわけでーす。
+cGameSceneNPCScriptReference10FA,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference10FB,そのとおりでーす!
+cGameSceneNPCScriptReference10FC,そのためには　まず<BR>ボイラーを　うごかさなくては<BR>いけませーん。
+cGameSceneNPCScriptReference10FD,<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす!!
+cGameSceneNPCScriptReference10FE,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference10FF,どうやってでーすか?
+cGameSceneNPCScriptReference1100,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference1101,だんぼう?<BR>…………………
+cGameSceneNPCScriptReference1102,Oh!　わかりましたー!<BR>さっきのボイラースイッチを<BR>いれれば　ボイラーが<BR>うごくでーす!!
+cGameSceneNPCScriptReference1103,ボイラーが　うごけば<BR>だんぼうがはいり<BR>あたたかくなって<BR>こおりが　とけますねー!!
+cGameSceneNPCScriptReference1104,<NAME>さん<BR>ナイス　アイディアでーす。
+cGameSceneNPCScriptReference1105,さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぐでーす!!
+cGameSceneNPCScriptReference1106,なめて　とかしましょうか?<BR>なーんちゃって。
+cGameSceneNPCScriptReference1107,<NAME>さん<BR>できるものなら<BR>やってみると　いいでーす。
+cGameSceneNPCScriptReference1108,す　すみません。<BR>おりひめさん。
+cGameSceneNPCScriptReference1109,それにしても<BR>どうしましょうか………………<BR>……………………………………
+cGameSceneNPCScriptReference110A,Oh!　そうでーす!!<BR>とちゅうに　ボイラースイッチ<BR>が　あったでーす!!
+cGameSceneNPCScriptReference110B,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できる<BR>というわけでーす。
+cGameSceneNPCScriptReference110C,あっ!　だんぼうをいれて<BR>こおりを　とかすんですね。
+cGameSceneNPCScriptReference110D,そのとおりでーす!<BR>ボイラーを　うごかして<BR>だんぼうをいれて　こおりを<BR>とかすのでーす!!
+cGameSceneNPCScriptReference110E,<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎましょー!!
+cGameSceneNPCScriptReference110F,これが『まじんき』か……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
+cGameSceneNPCScriptReference1113,はやく　だんぼうのスイッチを<BR>いれよう　……………。
+cGameSceneNPCScriptReference1115,レニさん　これは?
+cGameSceneNPCScriptReference1116,これは　『まじんき』のひとつ<BR>『けん』だ。
+cGameSceneNPCScriptReference1117,でも……<BR>こおりづけに　なってる。
+cGameSceneNPCScriptReference1118,せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR><NAME>　どうしたら<BR>いいとおもう?
+cGameSceneNPCScriptReference1119,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference111B,こおりを　とかしましょう
+cGameSceneNPCScriptReference111D,なめて　こおりをとかす
+cGameSceneNPCScriptReference111F,レニさんの　ヤリで<BR>こおりを　わりましょう。
+cGameSceneNPCScriptReference1120,それは　ダメだ。<BR>『けん』もいっしょに<BR>こわれてしまう。
+cGameSceneNPCScriptReference1121,……………………………………<BR>こまった…………………………
+cGameSceneNPCScriptReference1122,そうだ!<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ!
+cGameSceneNPCScriptReference1123,ということは<BR>このミカサに　だんぼうを<BR>いれることができる。
+cGameSceneNPCScriptReference1124,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference1125,そのとおりだ　<NAME>。
+cGameSceneNPCScriptReference1126,それには　まず<BR>ボイラーを<BR>うごかさないと。
+cGameSceneNPCScriptReference1127,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにある。<BR>さがそう　<NAME>。
+cGameSceneNPCScriptReference1128,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference1129,どうやって?
+cGameSceneNPCScriptReference112A,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference112B,だんぼう?<BR>…………………
+cGameSceneNPCScriptReference112C,そうか!!<BR>ミカサには　ボイラーしつが<BR>あるんだ!!
+cGameSceneNPCScriptReference112D,ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける!!
+cGameSceneNPCScriptReference112E,いいアイデアだ。
+cGameSceneNPCScriptReference112F,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにある。<BR>さがそう　<NAME>。
+cGameSceneNPCScriptReference1130,なめて　とかしましょうか?<BR>なーんちゃって。
+cGameSceneNPCScriptReference1131,ふざけるな。
+cGameSceneNPCScriptReference1132,す　すみません。<BR>レニさん。
+cGameSceneNPCScriptReference1133,それにしても<BR>どうしよう………………………<BR>……………………………………
+cGameSceneNPCScriptReference1134,そうだ!<BR>たしか　ミカサには<BR>ボイラーが　あったはずだ!
+cGameSceneNPCScriptReference1135,ということは<BR>ミカサに　だんぼうを<BR>いれることができる。
+cGameSceneNPCScriptReference1136,あっ!　だんぼうをいれ<BR>あたためて　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference1137,そうだ。<BR>そのためには　まず<BR>ボイラーを<BR>うごかさないと。
+cGameSceneNPCScriptReference1138,ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにある。<BR>さがそう　<NAME>。
+cGameSceneNPCScriptReference113A,これが『まじんき』か……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
+cGameSceneNPCScriptReference113B,レニさん　これは?
+cGameSceneNPCScriptReference113C,これは　『まじんき』のひとつ<BR>『けん』だ。
+cGameSceneNPCScriptReference113D,でも……<BR>こおりづけに　なってる。
+cGameSceneNPCScriptReference113E,せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR><NAME>　どうしたら<BR>いいとおもう?
+cGameSceneNPCScriptReference113F,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference1141,こおりを　とかしましょう
+cGameSceneNPCScriptReference1143,なめて　こおりをとかす
+cGameSceneNPCScriptReference1145,レニさんの　ヤリで<BR>こおりを　わりましょう。
+cGameSceneNPCScriptReference1146,それは　ダメだ。<BR>『けん』もいっしょに<BR>こわれてしまう。
+cGameSceneNPCScriptReference1147,……………………………………<BR>こまった…………………………
+cGameSceneNPCScriptReference1148,そうだ!<BR>たしか　さっき<BR>ボイラースイッチが<BR>あったよね。
+cGameSceneNPCScriptReference1149,ということは<BR>このミカサに　だんぼうを<BR>いれることができるはずだ。
+cGameSceneNPCScriptReference114A,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference114B,そのとおりだ　<NAME>。
+cGameSceneNPCScriptReference114C,それには　まず<BR>ボイラーを<BR>うごかさないと。
+cGameSceneNPCScriptReference114D,さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごう!!
+cGameSceneNPCScriptReference114E,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference114F,どうやって?
+cGameSceneNPCScriptReference1150,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference1151,だんぼう?<BR>…………………
+cGameSceneNPCScriptReference1152,そうか!<BR>さっき　ボイラースイッチを<BR>みつけていたな!!
+cGameSceneNPCScriptReference1153,ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって<BR>こおりが　とける!!
+cGameSceneNPCScriptReference1154,いいアイデアだ　<NAME>。
+cGameSceneNPCScriptReference1155,さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごう!!
+cGameSceneNPCScriptReference1156,なめて　とかしましょうか?<BR>なーんちゃって。
+cGameSceneNPCScriptReference1157,ふざけるな。
+cGameSceneNPCScriptReference1158,す　すみません。<BR>レニさん。
+cGameSceneNPCScriptReference1159,それにしても<BR>どうしよう………………………<BR>……………………………………
+cGameSceneNPCScriptReference115A,そうだ!<BR>たしか　さっき<BR>ボイラースイッチが<BR>あったよね。
+cGameSceneNPCScriptReference115B,ということは<BR>このミカサに　だんぼうを<BR>いれることができるはずだ。
+cGameSceneNPCScriptReference115C,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference115D,そのとおりだ　<NAME>。
+cGameSceneNPCScriptReference115E,それには　まず<BR>ボイラーを<BR>うごかさないと。
+cGameSceneNPCScriptReference115F,さっきみつけた<BR>ボイラースイッチのところへ<BR>いそごう!!
+cGameSceneNPCScriptReference1160,これが『まじんき』か……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
+cGameSceneNPCScriptReference1164,<NAME>さん。<BR>はやく　だんぼうのスイッチを<BR>いれるのですわ。
+cGameSceneNPCScriptReference1166,すみれさん　これは?
+cGameSceneNPCScriptReference1167,これは　『まじんき』のひとつ<BR>『けん』ですわ!!
+cGameSceneNPCScriptReference1168,こおりづけに　なってるじゃ<BR>ありませんの……<BR>こまりましたわねぇ…………
+cGameSceneNPCScriptReference1169,せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしましょうか?<BR><NAME>さん。
+cGameSceneNPCScriptReference116A,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference116C,こおりを　とかしましょう
+cGameSceneNPCScriptReference116E,おゆをかけましょう
+cGameSceneNPCScriptReference1170,ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょうか?<BR>すみれさん。
+cGameSceneNPCScriptReference1171,それは　ダメですわ。<BR>『けん』もいっしょに<BR>こわれてしまいますわよ。
+cGameSceneNPCScriptReference1172,……………………………………<BR>どうしましょう…………………<BR>……………………………
+cGameSceneNPCScriptReference1173,あっ　そうですわ!<BR>ミカサには　ボイラーが<BR>あったはずですわ!!
+cGameSceneNPCScriptReference1174,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できる……
+cGameSceneNPCScriptReference1175,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference1176,そのとおりですわ。
+cGameSceneNPCScriptReference1177,そのためには　まず<BR>ボイラーを　うごかさなくては<BR>いけませんわね。
+cGameSceneNPCScriptReference1178,<NAME>さん。　ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずですわ。<BR>さがしますわよ!
+cGameSceneNPCScriptReference1179,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference117A,どうやってですの?
+cGameSceneNPCScriptReference117B,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference117C,だんぼう?<BR>…………………
+cGameSceneNPCScriptReference117D,あっ!　そういえば<BR>ミカサには　ボイラーが<BR>あったのですわ!!
+cGameSceneNPCScriptReference117E,ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって　こおりが<BR>とける　ということですわね。
+cGameSceneNPCScriptReference117F,なかなか<BR>いいアイデアですわ。
+cGameSceneNPCScriptReference1180,<NAME>さん。　ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずですわ。<BR>さがしますわよ!
+cGameSceneNPCScriptReference1181,あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか?
+cGameSceneNPCScriptReference1182,こんなところに<BR>あつい　おゆなんて<BR>あるわけないでしょ!!
+cGameSceneNPCScriptReference1183,えっ!?　……………<BR>あつい?　……………<BR>あたためる………………
+cGameSceneNPCScriptReference1184,………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃありませんこと!
+cGameSceneNPCScriptReference1185,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference1186,そのとおりですわ。
+cGameSceneNPCScriptReference1187,<NAME>さん　なかなか<BR>いいヒントでしたわ。
+cGameSceneNPCScriptReference1188,だんぼうをいれるには<BR>まず　ボイラーを<BR>うごかさなくては<BR>いけませんわね。
+cGameSceneNPCScriptReference1189,<NAME>さん。ボイラーは<BR>この　ミカサつうきこうの<BR>どこかにあるはずですわ。<BR>さがしますわよ!
+cGameSceneNPCScriptReference118B,これが『まじんき』ね……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
+cGameSceneNPCScriptReference118C,すみれさん　これは?
+cGameSceneNPCScriptReference118D,これは　『まじんき』のひとつ<BR>『けん』ですわ!!
+cGameSceneNPCScriptReference118E,こおりづけに　なってるじゃ<BR>ありませんの……<BR>こまりましたわねぇ…………
+cGameSceneNPCScriptReference118F,せっかく　『まじんき』が<BR>めのまえに　あるのに……<BR>どうしましょうか?<BR><NAME>さん。
+cGameSceneNPCScriptReference1190,こおりを　たたきわりましょう
+cGameSceneNPCScriptReference1192,こおりを　とかしましょう
+cGameSceneNPCScriptReference1194,おゆをかけましょう
+cGameSceneNPCScriptReference1196,ハンマーか　なにかで<BR>こおりを<BR>たたきわりましょうか?<BR>すみれさん。
+cGameSceneNPCScriptReference1197,それは　ダメですわ。<BR>『けん』もいっしょに<BR>こわれてしまいますわよ。
+cGameSceneNPCScriptReference1198,……………………………………<BR>どうしましょう…………………<BR>……………………………
+cGameSceneNPCScriptReference1199,あっ　そうですわ!<BR>たしか　さきほど<BR>ボイラースイッチを<BR>みつけましたわね。
+cGameSceneNPCScriptReference119A,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できる……
+cGameSceneNPCScriptReference119B,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference119C,そのとおりですわ。
+cGameSceneNPCScriptReference119D,そのためには　まず<BR>ボイラーを　うごかさなくては<BR>いけませんわね。
+cGameSceneNPCScriptReference119E,<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎますわよ!!
+cGameSceneNPCScriptReference119F,こおりを　とかせば<BR>いいんじゃないでしょうか?
+cGameSceneNPCScriptReference11A0,どうやってですの?
+cGameSceneNPCScriptReference11A1,だんぼうを　いれれば<BR>こおりは　とけるんじゃ<BR>ないでしょうか?
+cGameSceneNPCScriptReference11A2,だんぼう?<BR>…………………
+cGameSceneNPCScriptReference11A3,あっ　そういえば<BR>さきほど　ボイラースイッチを<BR>みつけましたわね。
+cGameSceneNPCScriptReference11A4,ボイラーを　うごかして<BR>だんぼうをいれれば<BR>あたたかくなって　こおりが<BR>とける　ということですわね。
+cGameSceneNPCScriptReference11A5,なかなか<BR>いいアイデアですわ。
+cGameSceneNPCScriptReference11A6,<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎますわよ!!
+cGameSceneNPCScriptReference11A7,あついおゆ　でも<BR>かけたら　とけるんじゃ<BR>ないですか?
+cGameSceneNPCScriptReference11A8,こんなところに<BR>あつい　おゆなんて<BR>あるわけないでしょ!!
+cGameSceneNPCScriptReference11A9,えっ!?　……………<BR>あつい?　……………<BR>あたためる………………
+cGameSceneNPCScriptReference11AA,………だんぼう!<BR>ミカサのだんぼうを<BR>いれて　あたためれば<BR>いいんじゃありませんこと!
+cGameSceneNPCScriptReference11AB,たしか　さきほど<BR>ボイラースイッチを<BR>みつけましたわね。
+cGameSceneNPCScriptReference11AC,ということは<BR>ミカサに　だんぼうを<BR>いれることが　できる……
+cGameSceneNPCScriptReference11AD,あっ!　だんぼうをいれて<BR>あたたかくして　こおりを<BR>とかすんですね。
+cGameSceneNPCScriptReference11AE,そのとおりですわ。
+cGameSceneNPCScriptReference11AF,なかなか<BR>いいヒントでしたわよ。
+cGameSceneNPCScriptReference11B0,<NAME>さん。<BR>さっきみつけた<BR>ボイラースイッチのところへ<BR>いそぎますわよ!!
+cGameSceneNPCScriptReference11B1,これが『まじんき』ね……<BR>はやく　ボイラーをうごかして<BR>だんぼうで　こおりを<BR>とかさなきゃ。
