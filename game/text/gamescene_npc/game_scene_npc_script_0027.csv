@@ -1,0 +1,901 @@
+ID,Text
+cGameSceneNPCScriptReference0AB9,なんだか　スイッチが<BR>いっぱい　ならんでますね。
+cGameSceneNPCScriptReference0ABA,それは　ボイラーの<BR>スイッチだ。
+cGameSceneNPCScriptReference0ABB,あぶないから<BR>かってに　さわるなよ。
+cGameSceneNPCScriptReference0ABD,なんだか　スイッチが<BR>いっぱい　ならんでますね。
+cGameSceneNPCScriptReference0ABE,これが　ボイラーの<BR>スイッチだ。
+cGameSceneNPCScriptReference0ABF,スイッチのそうさには<BR>てじゅんがあるんだ。
+cGameSceneNPCScriptReference0AC0,<NAME>　つうしんで<BR>てじゅんを　きいて<BR>やってくれ。
+cGameSceneNPCScriptReference0AC1,かすみ　をよぶ
+cGameSceneNPCScriptReference0AC3,ゆり　をよぶ
+cGameSceneNPCScriptReference0AC5,つばき　をよぶ
+cGameSceneNPCScriptReference0AC7,かすみさん　かすみさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0AC8,はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0AC9,いまから　ミカサのだんぼうを<BR>いれようと　おもうのですが
+cGameSceneNPCScriptReference0ACA,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0ACB,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0ACC,りょうかいしました。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0ACD,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0ACE,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0ACF,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0AD0,あかいボタン
+cGameSceneNPCScriptReference0AD2,あおいボタン
+cGameSceneNPCScriptReference0AD4,きいろいボタン
+cGameSceneNPCScriptReference0AD6,あおいボタンをおして……
+cGameSceneNPCScriptReference0AD7,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0AD9,きいろいボタンをおして……
+cGameSceneNPCScriptReference0ADA,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0ADB,あかいボタンをおして……
+cGameSceneNPCScriptReference0ADC,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0ADD,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0ADE,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0ADF,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0AE1,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0AE2,あかいボタン
+cGameSceneNPCScriptReference0AE4,あおいボタン
+cGameSceneNPCScriptReference0AE6,きいろいボタン
+cGameSceneNPCScriptReference0AE7,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0AE8,あかいボタン
+cGameSceneNPCScriptReference0AE9,あおいボタン
+cGameSceneNPCScriptReference0AEA,きいろいボタン
+cGameSceneNPCScriptReference0AEC,きいろいボタンをおす。
+cGameSceneNPCScriptReference0AED,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0AEE,かすみさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0AF1,いいえ　どういたしまして。<BR>では　がんばってください。
+cGameSceneNPCScriptReference0AF3,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0AF4,ゆりさん　ゆりさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0AF5,はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>さん。
+cGameSceneNPCScriptReference0AF6,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0AF7,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0AF8,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0AF9,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0AFA,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0AFB,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0AFC,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0AFD,あかいボタン
+cGameSceneNPCScriptReference0AFF,あおいボタン
+cGameSceneNPCScriptReference0B01,きいろいボタン
+cGameSceneNPCScriptReference0B03,あおいボタンをおして……
+cGameSceneNPCScriptReference0B04,ちがうわよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0B06,きいろいボタンをおして……
+cGameSceneNPCScriptReference0B07,ちがうわよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0B08,あかいボタンをおして……
+cGameSceneNPCScriptReference0B09,ちがうわよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0B0A,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0B0B,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0B0C,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0B0E,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0B0F,あかいボタン
+cGameSceneNPCScriptReference0B11,あおいボタン
+cGameSceneNPCScriptReference0B13,きいろいボタン
+cGameSceneNPCScriptReference0B14,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0B15,あかいボタン
+cGameSceneNPCScriptReference0B16,あおいボタン
+cGameSceneNPCScriptReference0B17,きいろいボタン
+cGameSceneNPCScriptReference0B19,きいろいボタンをおす。
+cGameSceneNPCScriptReference0B1A,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0B1B,ゆりさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0B1E,いいえ　どういたしまして。<BR>じゃあ　がんばってね。
+cGameSceneNPCScriptReference0B1F,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0B20,つばきさん　つばきさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0B21,はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0B22,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0B23,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0B24,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0B25,りょうかい。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0B26,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0B27,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0B28,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0B29,あかいボタン
+cGameSceneNPCScriptReference0B2B,あおいボタン
+cGameSceneNPCScriptReference0B2D,きいろいボタン
+cGameSceneNPCScriptReference0B2F,あおいボタンをおして……
+cGameSceneNPCScriptReference0B30,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0B32,きいろいボタンをおして……
+cGameSceneNPCScriptReference0B33,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0B34,あかいボタンをおして……
+cGameSceneNPCScriptReference0B35,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0B36,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0B37,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんですよ。
+cGameSceneNPCScriptReference0B38,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0B3A,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0B3B,あかいボタン
+cGameSceneNPCScriptReference0B3D,あおいボタン
+cGameSceneNPCScriptReference0B3F,きいろいボタン
+cGameSceneNPCScriptReference0B40,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0B41,あかいボタン
+cGameSceneNPCScriptReference0B42,あおいボタン
+cGameSceneNPCScriptReference0B43,きいろいボタン
+cGameSceneNPCScriptReference0B45,きいろいボタンをおす。
+cGameSceneNPCScriptReference0B46,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0B47,つばきさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0B4A,いいえ　どういたしまして。<BR>じゃあ　がんばってください。
+cGameSceneNPCScriptReference0B4B,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0B4C,かえでさん　かえでさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0B4D,はい　こちらかえで。<BR>どうしたの?<BR><NAME>。
+cGameSceneNPCScriptReference0B4E,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0B4F,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0B50,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0B51,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0B52,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0B53,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0B54,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0B55,あかいボタン
+cGameSceneNPCScriptReference0B57,あおいボタン
+cGameSceneNPCScriptReference0B59,きいろいボタン
+cGameSceneNPCScriptReference0B5B,あおいボタンをおして……
+cGameSceneNPCScriptReference0B5C,ちがうでしょ　<NAME>。
+cGameSceneNPCScriptReference0B5E,きいろいボタンをおして……
+cGameSceneNPCScriptReference0B5F,ちがうでしょ　<NAME>。
+cGameSceneNPCScriptReference0B60,あかいボタンをおして……
+cGameSceneNPCScriptReference0B61,ちがうでしょ　<NAME>。
+cGameSceneNPCScriptReference0B62,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0B63,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0B64,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0B66,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0B67,あかいボタン
+cGameSceneNPCScriptReference0B69,あおいボタン
+cGameSceneNPCScriptReference0B6B,きいろいボタン
+cGameSceneNPCScriptReference0B6C,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0B6D,あかいボタン
+cGameSceneNPCScriptReference0B6E,あおいボタン
+cGameSceneNPCScriptReference0B6F,きいろいボタン
+cGameSceneNPCScriptReference0B71,きいろいボタンをおす。
+cGameSceneNPCScriptReference0B72,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0B73,かえでさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0B76,いいえ　どういたしまして。<BR>じゃあ　がんばるのよ。
+cGameSceneNPCScriptReference0B77,……<NAME><BR>これくらいのことは<BR>まちがわずに　いちどで<BR>やるようにね。
+cGameSceneNPCScriptReference0B78,カンナさん<BR>ボイラーてんか　できました。
+cGameSceneNPCScriptReference0B7B,よし　<NAME><BR>よくやった。
+cGameSceneNPCScriptReference0B7C,それじゃあ　『けん』の<BR>ところへ　もどろう。
+cGameSceneNPCScriptReference0B7D,あのへやに<BR>だんぼうのスイッチが<BR>あるんだ。
+cGameSceneNPCScriptReference0B80,なんだか　スイッチが<BR>いっぱい　ならんでますよ。
+cGameSceneNPCScriptReference0B81,それは　ボイラーの<BR>スイッチだ。
+cGameSceneNPCScriptReference0B82,あぶないから<BR>かってに　さわるなよ。
+cGameSceneNPCScriptReference0B84,なんだか　スイッチが<BR>いっぱい　ならんでますね。
+cGameSceneNPCScriptReference0B85,これが　ボイラーの<BR>スイッチだ。
+cGameSceneNPCScriptReference0B86,スイッチのそうさには<BR>てじゅんがあるんだ。
+cGameSceneNPCScriptReference0B87,<NAME>　つうしんで<BR>てじゅんを　きいて<BR>やってくれ。
+cGameSceneNPCScriptReference0B88,かすみ　をよぶ
+cGameSceneNPCScriptReference0B8A,ゆり　をよぶ
+cGameSceneNPCScriptReference0B8C,つばき　をよぶ
+cGameSceneNPCScriptReference0B8E,かすみさん　かすみさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0B8F,はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0B90,いまから　ミカサのだんぼうを<BR>いれようと　おもうのですが
+cGameSceneNPCScriptReference0B91,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0B92,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0B93,りょうかいしました。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0B94,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0B95,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0B96,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0B97,あかいボタン
+cGameSceneNPCScriptReference0B99,あおいボタン
+cGameSceneNPCScriptReference0B9B,きいろいボタン
+cGameSceneNPCScriptReference0B9D,あおいボタンをおして……
+cGameSceneNPCScriptReference0B9E,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0BA0,きいろいボタンをおして……
+cGameSceneNPCScriptReference0BA1,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0BA2,あかいボタンをおして……
+cGameSceneNPCScriptReference0BA3,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0BA4,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0BA5,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0BA6,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0BA8,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0BA9,あかいボタン
+cGameSceneNPCScriptReference0BAB,あおいボタン
+cGameSceneNPCScriptReference0BAD,きいろいボタン
+cGameSceneNPCScriptReference0BAE,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0BAF,あかいボタン
+cGameSceneNPCScriptReference0BB0,あおいボタン
+cGameSceneNPCScriptReference0BB1,きいろいボタン
+cGameSceneNPCScriptReference0BB3,きいろいボタンをおす。
+cGameSceneNPCScriptReference0BB4,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0BB5,かすみさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0BB8,いいえ　どういたしまして。<BR>では　がんばってください。
+cGameSceneNPCScriptReference0BBA,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0BBB,ゆりさん　ゆりさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0BBC,はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>くん。
+cGameSceneNPCScriptReference0BBD,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0BBE,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0BBF,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0BC0,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0BC1,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0BC2,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0BC3,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0BC4,あかいボタン
+cGameSceneNPCScriptReference0BC6,あおいボタン
+cGameSceneNPCScriptReference0BC8,きいろいボタン
+cGameSceneNPCScriptReference0BCA,あおいボタンをおして……
+cGameSceneNPCScriptReference0BCB,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0BCD,きいろいボタンをおして……
+cGameSceneNPCScriptReference0BCE,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0BCF,あかいボタンをおして……
+cGameSceneNPCScriptReference0BD0,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0BD1,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0BD2,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0BD3,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0BD5,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0BD6,あかいボタン
+cGameSceneNPCScriptReference0BD8,あおいボタン
+cGameSceneNPCScriptReference0BDA,きいろいボタン
+cGameSceneNPCScriptReference0BDB,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0BDC,あかいボタン
+cGameSceneNPCScriptReference0BDD,あおいボタン
+cGameSceneNPCScriptReference0BDE,きいろいボタン
+cGameSceneNPCScriptReference0BE0,きいろいボタンをおす。
+cGameSceneNPCScriptReference0BE1,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0BE2,ゆりさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0BE5,いいえ　どういたしまして。<BR>じゃあ　がんばってね。
+cGameSceneNPCScriptReference0BE6,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0BE7,つばきさん　つばきさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0BE8,はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0BE9,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0BEA,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0BEB,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0BEC,りょうかい。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0BED,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0BEE,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0BEF,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0BF0,あかいボタン
+cGameSceneNPCScriptReference0BF2,あおいボタン
+cGameSceneNPCScriptReference0BF4,きいろいボタン
+cGameSceneNPCScriptReference0BF6,あおいボタンをおして……
+cGameSceneNPCScriptReference0BF7,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0BF9,きいろいボタンをおして……
+cGameSceneNPCScriptReference0BFA,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0BFB,あかいボタンをおして……
+cGameSceneNPCScriptReference0BFC,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0BFD,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0BFE,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんですよ。
+cGameSceneNPCScriptReference0BFF,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0C01,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0C02,あかいボタン
+cGameSceneNPCScriptReference0C04,あおいボタン
+cGameSceneNPCScriptReference0C06,きいろいボタン
+cGameSceneNPCScriptReference0C07,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0C08,あかいボタン
+cGameSceneNPCScriptReference0C09,あおいボタン
+cGameSceneNPCScriptReference0C0A,きいろいボタン
+cGameSceneNPCScriptReference0C0C,きいろいボタンをおす。
+cGameSceneNPCScriptReference0C0D,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0C0E,つばきさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0C11,いいえ　どういたしまして。<BR>じゃあ　がんばってください。
+cGameSceneNPCScriptReference0C12,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0C13,かえでさん　かえでさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0C14,はい　こちらかえで。<BR>どうしたの?<BR><NAME>くん。
+cGameSceneNPCScriptReference0C15,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0C16,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0C17,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0C18,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0C19,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0C1A,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0C1B,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0C1C,あかいボタン
+cGameSceneNPCScriptReference0C1E,あおいボタン
+cGameSceneNPCScriptReference0C20,きいろいボタン
+cGameSceneNPCScriptReference0C22,あおいボタンをおして……
+cGameSceneNPCScriptReference0C23,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0C25,きいろいボタンをおして……
+cGameSceneNPCScriptReference0C26,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0C27,あかいボタンをおして……
+cGameSceneNPCScriptReference0C28,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0C29,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0C2A,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0C2B,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0C2D,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0C2E,あかいボタン
+cGameSceneNPCScriptReference0C30,あおいボタン
+cGameSceneNPCScriptReference0C32,きいろいボタン
+cGameSceneNPCScriptReference0C33,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0C34,あかいボタン
+cGameSceneNPCScriptReference0C35,あおいボタン
+cGameSceneNPCScriptReference0C36,きいろいボタン
+cGameSceneNPCScriptReference0C38,きいろいボタンをおす。
+cGameSceneNPCScriptReference0C39,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0C3A,かえでさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0C3D,いいえ　どういたしまして。<BR>じゃあ　がんばるのよ。
+cGameSceneNPCScriptReference0C3E,……<NAME>くん<BR>これくらいのことは<BR>まちがわずに　いちどで<BR>やるようにね。
+cGameSceneNPCScriptReference0C3F,カンナさん<BR>ボイラーてんか　できました。
+cGameSceneNPCScriptReference0C42,よし　<NAME><BR>よくやった。
+cGameSceneNPCScriptReference0C43,それじゃあ　『けん』の<BR>ところへ　もどろう。
+cGameSceneNPCScriptReference0C44,あのへやに<BR>だんぼうのスイッチが<BR>あるんだ。
+cGameSceneNPCScriptReference0C47,なんだか　スイッチが<BR>いっぱい　ならんでますね。
+cGameSceneNPCScriptReference0C48,それは　ボイラーの<BR>スイッチでーす。
+cGameSceneNPCScriptReference0C49,むやみに　さわると<BR>キケンが　あぶないでーす。
+cGameSceneNPCScriptReference0C4B,なんだか　スイッチが<BR>いっぱい　ならんでますね。
+cGameSceneNPCScriptReference0C4C,これが　ボイラーの<BR>スイッチでーす。
+cGameSceneNPCScriptReference0C4D,スイッチのそうさには<BR>てじゅんがあるでーす。
+cGameSceneNPCScriptReference0C4E,<NAME>さん。<BR>つうしんで　てじゅんを<BR>きいてくださーい。
+cGameSceneNPCScriptReference0C4F,かすみ　をよぶ
+cGameSceneNPCScriptReference0C51,ゆり　をよぶ
+cGameSceneNPCScriptReference0C53,つばき　をよぶ
+cGameSceneNPCScriptReference0C55,かすみさん　かすみさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0C56,はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0C57,いまから　ミカサのだんぼうを<BR>いれようと　おもうのですが
+cGameSceneNPCScriptReference0C58,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0C59,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0C5A,りょうかいしました。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0C5B,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0C5C,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0C5D,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0C5E,あかいボタン
+cGameSceneNPCScriptReference0C60,あおいボタン
+cGameSceneNPCScriptReference0C62,きいろいボタン
+cGameSceneNPCScriptReference0C64,あおいボタンをおして……
+cGameSceneNPCScriptReference0C65,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0C67,きいろいボタンをおして……
+cGameSceneNPCScriptReference0C68,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0C69,あかいボタンをおして……
+cGameSceneNPCScriptReference0C6A,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0C6B,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0C6C,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0C6D,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0C6F,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0C70,あかいボタン
+cGameSceneNPCScriptReference0C72,あおいボタン
+cGameSceneNPCScriptReference0C74,きいろいボタン
+cGameSceneNPCScriptReference0C75,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0C76,あかいボタン
+cGameSceneNPCScriptReference0C77,あおいボタン
+cGameSceneNPCScriptReference0C78,きいろいボタン
+cGameSceneNPCScriptReference0C7A,きいろいボタンをおす。
+cGameSceneNPCScriptReference0C7B,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0C7C,かすみさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0C7F,いいえ　どういたしまして。<BR>では　がんばってください。
+cGameSceneNPCScriptReference0C81,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0C82,ゆりさん　ゆりさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0C83,はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>さん。
+cGameSceneNPCScriptReference0C84,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0C85,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0C86,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0C87,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0C88,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0C89,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0C8A,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0C8B,あかいボタン
+cGameSceneNPCScriptReference0C8D,あおいボタン
+cGameSceneNPCScriptReference0C8F,きいろいボタン
+cGameSceneNPCScriptReference0C91,あおいボタンをおして……
+cGameSceneNPCScriptReference0C92,ちがうわよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0C94,きいろいボタンをおして……
+cGameSceneNPCScriptReference0C95,ちがうわよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0C96,あかいボタンをおして……
+cGameSceneNPCScriptReference0C97,ちがうわよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0C98,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0C99,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0C9A,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0C9C,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0C9D,あかいボタン
+cGameSceneNPCScriptReference0C9F,あおいボタン
+cGameSceneNPCScriptReference0CA1,きいろいボタン
+cGameSceneNPCScriptReference0CA2,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0CA3,あかいボタン
+cGameSceneNPCScriptReference0CA4,あおいボタン
+cGameSceneNPCScriptReference0CA5,きいろいボタン
+cGameSceneNPCScriptReference0CA7,きいろいボタンをおす。
+cGameSceneNPCScriptReference0CA8,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0CA9,ゆりさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0CAC,いいえ　どういたしまして。<BR>じゃあ　がんばってね。
+cGameSceneNPCScriptReference0CAD,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0CAE,つばきさん　つばきさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0CAF,はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0CB0,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0CB1,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0CB2,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0CB3,りょうかい。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0CB4,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0CB5,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0CB6,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0CB7,あかいボタン
+cGameSceneNPCScriptReference0CB9,あおいボタン
+cGameSceneNPCScriptReference0CBB,きいろいボタン
+cGameSceneNPCScriptReference0CBD,あおいボタンをおして……
+cGameSceneNPCScriptReference0CBE,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0CC0,きいろいボタンをおして……
+cGameSceneNPCScriptReference0CC1,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0CC2,あかいボタンをおして……
+cGameSceneNPCScriptReference0CC3,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0CC4,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0CC5,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんですよ。
+cGameSceneNPCScriptReference0CC6,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0CC8,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0CC9,あかいボタン
+cGameSceneNPCScriptReference0CCB,あおいボタン
+cGameSceneNPCScriptReference0CCD,きいろいボタン
+cGameSceneNPCScriptReference0CCE,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0CCF,あかいボタン
+cGameSceneNPCScriptReference0CD0,あおいボタン
+cGameSceneNPCScriptReference0CD1,きいろいボタン
+cGameSceneNPCScriptReference0CD3,きいろいボタンをおす。
+cGameSceneNPCScriptReference0CD4,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0CD5,つばきさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0CD8,いいえ　どういたしまして。<BR>じゃあ　がんばってください。
+cGameSceneNPCScriptReference0CD9,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0CDA,かえでさん　かえでさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0CDB,はい　こちらかえで。<BR>どうしたの?<BR><NAME>。
+cGameSceneNPCScriptReference0CDC,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0CDD,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0CDE,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0CDF,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0CE0,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0CE1,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0CE2,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0CE3,あかいボタン
+cGameSceneNPCScriptReference0CE5,あおいボタン
+cGameSceneNPCScriptReference0CE7,きいろいボタン
+cGameSceneNPCScriptReference0CE9,あおいボタンをおして……
+cGameSceneNPCScriptReference0CEA,ちがうでしょ　<NAME>。
+cGameSceneNPCScriptReference0CEC,きいろいボタンをおして……
+cGameSceneNPCScriptReference0CED,ちがうでしょ　<NAME>。
+cGameSceneNPCScriptReference0CEE,あかいボタンをおして……
+cGameSceneNPCScriptReference0CEF,ちがうでしょ　<NAME>。
+cGameSceneNPCScriptReference0CF0,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0CF1,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0CF2,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0CF4,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0CF5,あかいボタン
+cGameSceneNPCScriptReference0CF7,あおいボタン
+cGameSceneNPCScriptReference0CF9,きいろいボタン
+cGameSceneNPCScriptReference0CFA,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0CFB,あかいボタン
+cGameSceneNPCScriptReference0CFC,あおいボタン
+cGameSceneNPCScriptReference0CFD,きいろいボタン
+cGameSceneNPCScriptReference0CFF,きいろいボタンをおす。
+cGameSceneNPCScriptReference0D00,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0D01,かえでさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0D04,いいえ　どういたしまして。<BR>じゃあ　がんばるのよ。
+cGameSceneNPCScriptReference0D05,……<NAME><BR>これくらいのことは<BR>まちがわずに　いちどで<BR>やるようにね。
+cGameSceneNPCScriptReference0D06,おりひめさん<BR>ボイラーてんか　できました。
+cGameSceneNPCScriptReference0D09,オッケー　<NAME>さん<BR>バッチリでーす。
+cGameSceneNPCScriptReference0D0A,では　『けん』の<BR>ところへ　もどりましょう!
+cGameSceneNPCScriptReference0D0B,あのへやに<BR>だんぼうのスイッチが<BR>ありまーす。
+cGameSceneNPCScriptReference0D0E,なんだか　スイッチが<BR>いっぱい　ならんでますよ。
+cGameSceneNPCScriptReference0D0F,それは　ボイラーの<BR>スイッチでーす。
+cGameSceneNPCScriptReference0D10,むやみに　さわると<BR>キケンが　あぶないでーす。
+cGameSceneNPCScriptReference0D12,なんだか　スイッチが<BR>いっぱい　ならんでますね。
+cGameSceneNPCScriptReference0D13,これが　ボイラーの<BR>スイッチでーす。
+cGameSceneNPCScriptReference0D14,スイッチのそうさには<BR>てじゅんがあるでーす。
+cGameSceneNPCScriptReference0D15,<NAME>さん。<BR>つうしんで　てじゅんを<BR>きいてくださーい。
+cGameSceneNPCScriptReference0D16,かすみ　をよぶ
+cGameSceneNPCScriptReference0D18,ゆり　をよぶ
+cGameSceneNPCScriptReference0D1A,つばき　をよぶ
+cGameSceneNPCScriptReference0D1C,かすみさん　かすみさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0D1D,はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0D1E,いまから　ミカサのだんぼうを<BR>いれようと　おもうのですが
+cGameSceneNPCScriptReference0D1F,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0D20,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0D21,りょうかいしました。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0D22,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0D23,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0D24,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0D25,あかいボタン
+cGameSceneNPCScriptReference0D27,あおいボタン
+cGameSceneNPCScriptReference0D29,きいろいボタン
+cGameSceneNPCScriptReference0D2B,あおいボタンをおして……
+cGameSceneNPCScriptReference0D2C,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0D2E,きいろいボタンをおして……
+cGameSceneNPCScriptReference0D2F,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0D30,あかいボタンをおして……
+cGameSceneNPCScriptReference0D31,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0D32,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0D33,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0D34,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0D36,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0D37,あかいボタン
+cGameSceneNPCScriptReference0D39,あおいボタン
+cGameSceneNPCScriptReference0D3B,きいろいボタン
+cGameSceneNPCScriptReference0D3C,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0D3D,あかいボタン
+cGameSceneNPCScriptReference0D3E,あおいボタン
+cGameSceneNPCScriptReference0D3F,きいろいボタン
+cGameSceneNPCScriptReference0D41,きいろいボタンをおす。
+cGameSceneNPCScriptReference0D42,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0D43,かすみさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0D46,いいえ　どういたしまして。<BR>では　がんばってください。
+cGameSceneNPCScriptReference0D48,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0D49,ゆりさん　ゆりさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0D4A,はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>くん。
+cGameSceneNPCScriptReference0D4B,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0D4C,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0D4D,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0D4E,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0D4F,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0D50,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0D51,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0D52,あかいボタン
+cGameSceneNPCScriptReference0D54,あおいボタン
+cGameSceneNPCScriptReference0D56,きいろいボタン
+cGameSceneNPCScriptReference0D58,あおいボタンをおして……
+cGameSceneNPCScriptReference0D59,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0D5B,きいろいボタンをおして……
+cGameSceneNPCScriptReference0D5C,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0D5D,あかいボタンをおして……
+cGameSceneNPCScriptReference0D5E,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0D5F,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0D60,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0D61,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0D63,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0D64,あかいボタン
+cGameSceneNPCScriptReference0D66,あおいボタン
+cGameSceneNPCScriptReference0D68,きいろいボタン
+cGameSceneNPCScriptReference0D69,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0D6A,あかいボタン
+cGameSceneNPCScriptReference0D6B,あおいボタン
+cGameSceneNPCScriptReference0D6C,きいろいボタン
+cGameSceneNPCScriptReference0D6E,きいろいボタンをおす。
+cGameSceneNPCScriptReference0D6F,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0D70,ゆりさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0D73,いいえ　どういたしまして。<BR>じゃあ　がんばってね。
+cGameSceneNPCScriptReference0D74,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0D75,つばきさん　つばきさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0D76,はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0D77,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0D78,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0D79,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0D7A,りょうかい。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0D7B,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0D7C,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0D7D,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0D7E,あかいボタン
+cGameSceneNPCScriptReference0D80,あおいボタン
+cGameSceneNPCScriptReference0D82,きいろいボタン
+cGameSceneNPCScriptReference0D84,あおいボタンをおして……
+cGameSceneNPCScriptReference0D85,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0D87,きいろいボタンをおして……
+cGameSceneNPCScriptReference0D88,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0D89,あかいボタンをおして……
+cGameSceneNPCScriptReference0D8A,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0D8B,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0D8C,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんですよ。
+cGameSceneNPCScriptReference0D8D,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0D8F,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0D90,あかいボタン
+cGameSceneNPCScriptReference0D92,あおいボタン
+cGameSceneNPCScriptReference0D94,きいろいボタン
+cGameSceneNPCScriptReference0D95,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0D96,あかいボタン
+cGameSceneNPCScriptReference0D97,あおいボタン
+cGameSceneNPCScriptReference0D98,きいろいボタン
+cGameSceneNPCScriptReference0D9A,きいろいボタンをおす。
+cGameSceneNPCScriptReference0D9B,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0D9C,つばきさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0D9F,いいえ　どういたしまして。<BR>じゃあ　がんばってください。
+cGameSceneNPCScriptReference0DA0,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0DA1,かえでさん　かえでさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0DA2,はい　こちらかえで。<BR>どうしたの?<BR><NAME>くん。
+cGameSceneNPCScriptReference0DA3,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0DA4,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0DA5,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0DA6,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0DA7,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0DA8,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0DA9,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0DAA,あかいボタン
+cGameSceneNPCScriptReference0DAC,あおいボタン
+cGameSceneNPCScriptReference0DAE,きいろいボタン
+cGameSceneNPCScriptReference0DB0,あおいボタンをおして……
+cGameSceneNPCScriptReference0DB1,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0DB3,きいろいボタンをおして……
+cGameSceneNPCScriptReference0DB4,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0DB5,あかいボタンをおして……
+cGameSceneNPCScriptReference0DB6,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0DB7,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0DB8,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0DB9,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0DBB,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0DBC,あかいボタン
+cGameSceneNPCScriptReference0DBE,あおいボタン
+cGameSceneNPCScriptReference0DC0,きいろいボタン
+cGameSceneNPCScriptReference0DC1,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0DC2,あかいボタン
+cGameSceneNPCScriptReference0DC3,あおいボタン
+cGameSceneNPCScriptReference0DC4,きいろいボタン
+cGameSceneNPCScriptReference0DC6,きいろいボタンをおす。
+cGameSceneNPCScriptReference0DC7,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0DC8,かえでさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0DCB,いいえ　どういたしまして。<BR>じゃあ　がんばるのよ。
+cGameSceneNPCScriptReference0DCC,……<NAME>くん<BR>これくらいのことは<BR>まちがわずに　いちどで<BR>やるようにね。
+cGameSceneNPCScriptReference0DCD,おりひめさん<BR>ボイラーてんか　できました。
+cGameSceneNPCScriptReference0DD0,オッケー　<NAME>さん<BR>バッチリでーす。
+cGameSceneNPCScriptReference0DD1,では　『けん』の<BR>ところへ　もどりましょう!
+cGameSceneNPCScriptReference0DD2,あのへやに<BR>だんぼうのスイッチが<BR>ありまーす。
+cGameSceneNPCScriptReference0DD5,なんだか　スイッチが<BR>いっぱい　ならんでますよ。
+cGameSceneNPCScriptReference0DD6,それは　ボイラーの<BR>スイッチだ。
+cGameSceneNPCScriptReference0DD7,キケンだから　むやみに<BR>さわるな。
+cGameSceneNPCScriptReference0DD9,なんだか　スイッチが<BR>いっぱい　ならんでますね。
+cGameSceneNPCScriptReference0DDA,これが　ボイラーの<BR>スイッチだ。
+cGameSceneNPCScriptReference0DDB,スイッチのそうさには<BR>てじゅんがある。
+cGameSceneNPCScriptReference0DDC,<NAME><BR>つうしんで　てじゅんを<BR>きくんだ。
+cGameSceneNPCScriptReference0DDD,かすみ　をよぶ
+cGameSceneNPCScriptReference0DDF,ゆり　をよぶ
+cGameSceneNPCScriptReference0DE1,つばき　をよぶ
+cGameSceneNPCScriptReference0DE3,かすみさん　かすみさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0DE4,はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0DE5,いまから　ミカサのだんぼうを<BR>いれようと　おもうのですが
+cGameSceneNPCScriptReference0DE6,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0DE7,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0DE8,りょうかいしました。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0DE9,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0DEA,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0DEB,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0DEC,あかいボタン
+cGameSceneNPCScriptReference0DEE,あおいボタン
+cGameSceneNPCScriptReference0DF0,きいろいボタン
+cGameSceneNPCScriptReference0DF2,あおいボタンをおして……
+cGameSceneNPCScriptReference0DF3,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0DF5,きいろいボタンをおして……
+cGameSceneNPCScriptReference0DF6,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0DF7,あかいボタンをおして……
+cGameSceneNPCScriptReference0DF8,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0DF9,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0DFA,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0DFB,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0DFD,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0DFE,あかいボタン
+cGameSceneNPCScriptReference0E00,あおいボタン
+cGameSceneNPCScriptReference0E02,きいろいボタン
+cGameSceneNPCScriptReference0E03,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0E04,あかいボタン
+cGameSceneNPCScriptReference0E05,あおいボタン
+cGameSceneNPCScriptReference0E06,きいろいボタン
+cGameSceneNPCScriptReference0E08,きいろいボタンをおす。
+cGameSceneNPCScriptReference0E09,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0E0A,かすみさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0E0D,いいえ　どういたしまして。<BR>では　がんばってください。
+cGameSceneNPCScriptReference0E0F,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0E10,ゆりさん　ゆりさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0E11,はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>くん。
+cGameSceneNPCScriptReference0E12,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0E13,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0E14,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0E15,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0E16,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0E17,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0E18,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0E19,あかいボタン
+cGameSceneNPCScriptReference0E1B,あおいボタン
+cGameSceneNPCScriptReference0E1D,きいろいボタン
+cGameSceneNPCScriptReference0E1F,あおいボタンをおして……
+cGameSceneNPCScriptReference0E20,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0E22,きいろいボタンをおして……
+cGameSceneNPCScriptReference0E23,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0E24,あかいボタンをおして……
+cGameSceneNPCScriptReference0E25,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0E26,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0E27,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0E28,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0E2A,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0E2B,あかいボタン
+cGameSceneNPCScriptReference0E2D,あおいボタン
+cGameSceneNPCScriptReference0E2F,きいろいボタン
+cGameSceneNPCScriptReference0E30,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0E31,あかいボタン
+cGameSceneNPCScriptReference0E32,あおいボタン
+cGameSceneNPCScriptReference0E33,きいろいボタン
+cGameSceneNPCScriptReference0E35,きいろいボタンをおす。
+cGameSceneNPCScriptReference0E36,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0E37,ゆりさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0E3A,いいえ　どういたしまして。<BR>じゃあ　がんばってね。
+cGameSceneNPCScriptReference0E3B,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0E3C,つばきさん　つばきさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0E3D,はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0E3E,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0E3F,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0E40,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0E41,りょうかい。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0E42,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0E43,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0E44,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0E45,あかいボタン
+cGameSceneNPCScriptReference0E47,あおいボタン
+cGameSceneNPCScriptReference0E49,きいろいボタン
+cGameSceneNPCScriptReference0E4B,あおいボタンをおして……
+cGameSceneNPCScriptReference0E4C,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0E4E,きいろいボタンをおして……
+cGameSceneNPCScriptReference0E4F,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0E50,あかいボタンをおして……
+cGameSceneNPCScriptReference0E51,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0E52,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0E53,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんですよ。
+cGameSceneNPCScriptReference0E54,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0E56,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0E57,あかいボタン
+cGameSceneNPCScriptReference0E59,あおいボタン
+cGameSceneNPCScriptReference0E5B,きいろいボタン
+cGameSceneNPCScriptReference0E5C,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0E5D,あかいボタン
+cGameSceneNPCScriptReference0E5E,あおいボタン
+cGameSceneNPCScriptReference0E5F,きいろいボタン
+cGameSceneNPCScriptReference0E61,きいろいボタンをおす。
+cGameSceneNPCScriptReference0E62,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0E63,つばきさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0E66,いいえ　どういたしまして。<BR>じゃあ　がんばってください。
+cGameSceneNPCScriptReference0E67,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0E68,かえでさん　かえでさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0E69,はい　こちらかえで。<BR>どうしたの?<BR><NAME>くん。
+cGameSceneNPCScriptReference0E6A,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0E6B,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんですよ。
+cGameSceneNPCScriptReference0E6C,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0E6D,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0E6E,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0E6F,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0E70,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0E71,あかいボタン
+cGameSceneNPCScriptReference0E73,あおいボタン
+cGameSceneNPCScriptReference0E75,きいろいボタン
+cGameSceneNPCScriptReference0E77,あおいボタンをおして……
+cGameSceneNPCScriptReference0E78,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0E7A,きいろいボタンをおして……
+cGameSceneNPCScriptReference0E7B,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0E7C,あかいボタンをおして……
+cGameSceneNPCScriptReference0E7D,ちがうわよ。<BR><NAME>くん。
+cGameSceneNPCScriptReference0E7E,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0E7F,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0E80,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0E82,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0E83,あかいボタン
+cGameSceneNPCScriptReference0E85,あおいボタン
+cGameSceneNPCScriptReference0E87,きいろいボタン
+cGameSceneNPCScriptReference0E88,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0E89,あかいボタン
+cGameSceneNPCScriptReference0E8A,あおいボタン
+cGameSceneNPCScriptReference0E8B,きいろいボタン
+cGameSceneNPCScriptReference0E8D,きいろいボタンをおす。
+cGameSceneNPCScriptReference0E8E,あっ　ボイラーがついた!!
+cGameSceneNPCScriptReference0E8F,かえでさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0E92,いいえ　どういたしまして。<BR>じゃあ　がんばるのよ。
+cGameSceneNPCScriptReference0E93,……<NAME>くん<BR>これくらいのことは<BR>まちがわずに　いちどで<BR>やるようにね。
+cGameSceneNPCScriptReference0E94,レニさん<BR>ボイラーてんか　できました。
+cGameSceneNPCScriptReference0E97,スムーズにできたな。<BR><NAME>。
+cGameSceneNPCScriptReference0E98,では　『けん』の<BR>ところへ　もどろう。
+cGameSceneNPCScriptReference0E99,あのへやに<BR>だんぼうのスイッチが　ある。
+cGameSceneNPCScriptReference0E9C,なんだか　スイッチが<BR>いっぱい　ならんでますね。
+cGameSceneNPCScriptReference0E9D,それは　ボイラーの<BR>スイッチですわ。
+cGameSceneNPCScriptReference0E9E,さわっては　いけませんわよ。<BR>キケンですからね。
+cGameSceneNPCScriptReference0EA0,なんだか　スイッチが<BR>いっぱい　ならんでますね。
+cGameSceneNPCScriptReference0EA1,これが　ボイラーの<BR>スイッチですわ。
+cGameSceneNPCScriptReference0EA2,スイッチのそうさには<BR>てじゅんが　ありますのよ。
+cGameSceneNPCScriptReference0EA3,<NAME>さん。<BR>つうしんで　てじゅんを<BR>きいて　おやりなさい。
+cGameSceneNPCScriptReference0EA4,かすみ　をよぶ
+cGameSceneNPCScriptReference0EA6,ゆり　をよぶ
+cGameSceneNPCScriptReference0EA8,つばき　をよぶ
+cGameSceneNPCScriptReference0EAA,かすみさん　かすみさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0EAB,はい　こちらかすみです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0EAC,いまから　ミカサのだんぼうを<BR>いれようと　おもうのですが
+cGameSceneNPCScriptReference0EAD,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0EAE,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0EAF,りょうかいしました。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0EB0,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0EB1,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0EB2,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0EB3,あかいボタン
+cGameSceneNPCScriptReference0EB5,あおいボタン
+cGameSceneNPCScriptReference0EB7,きいろいボタン
+cGameSceneNPCScriptReference0EB9,あおいボタンをおして……
+cGameSceneNPCScriptReference0EBA,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0EBC,きいろいボタンをおして……
+cGameSceneNPCScriptReference0EBD,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0EBE,あかいボタンをおして……
+cGameSceneNPCScriptReference0EBF,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0EC0,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0EC1,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0EC2,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますから。
+cGameSceneNPCScriptReference0EC4,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0EC5,あかいボタン
+cGameSceneNPCScriptReference0EC7,あおいボタン
+cGameSceneNPCScriptReference0EC9,きいろいボタン
+cGameSceneNPCScriptReference0ECA,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0ECB,あかいボタン
+cGameSceneNPCScriptReference0ECC,あおいボタン
+cGameSceneNPCScriptReference0ECD,きいろいボタン
+cGameSceneNPCScriptReference0ECF,きいろいボタンをおす。
+cGameSceneNPCScriptReference0ED0,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0ED1,かすみさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0ED4,いいえ　どういたしまして。<BR>では　がんばってください。
+cGameSceneNPCScriptReference0ED6,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0ED7,ゆりさん　ゆりさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0ED8,はい　こちらゆりです。<BR>どうかしたの?<BR><NAME>さん。
+cGameSceneNPCScriptReference0ED9,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0EDA,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0EDB,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0EDC,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0EDD,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0EDE,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0EDF,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0EE0,あかいボタン
+cGameSceneNPCScriptReference0EE2,あおいボタン
+cGameSceneNPCScriptReference0EE4,きいろいボタン
+cGameSceneNPCScriptReference0EE6,あおいボタンをおして……
+cGameSceneNPCScriptReference0EE7,ちがうわよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0EE9,きいろいボタンをおして……
+cGameSceneNPCScriptReference0EEA,ちがうわよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0EEB,あかいボタンをおして……
+cGameSceneNPCScriptReference0EEC,ちがうわよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0EED,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0EEE,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0EEF,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるからね。
+cGameSceneNPCScriptReference0EF1,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0EF2,あかいボタン
+cGameSceneNPCScriptReference0EF4,あおいボタン
+cGameSceneNPCScriptReference0EF6,きいろいボタン
+cGameSceneNPCScriptReference0EF7,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0EF8,あかいボタン
+cGameSceneNPCScriptReference0EF9,あおいボタン
+cGameSceneNPCScriptReference0EFA,きいろいボタン
+cGameSceneNPCScriptReference0EFC,きいろいボタンをおす。
+cGameSceneNPCScriptReference0EFD,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0EFE,ゆりさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0F01,いいえ　どういたしまして。<BR>じゃあ　がんばってね。
+cGameSceneNPCScriptReference0F02,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0F03,つばきさん　つばきさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0F04,はい　こちらつばきです。<BR>どうしたんですか?<BR><NAME>さん。
+cGameSceneNPCScriptReference0F05,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0F06,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0F07,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0F08,りょうかい。<BR>では　てじゅんをいいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0F09,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんです。
+cGameSceneNPCScriptReference0F0A,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0F0B,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0F0C,あかいボタン
+cGameSceneNPCScriptReference0F0E,あおいボタン
+cGameSceneNPCScriptReference0F10,きいろいボタン
+cGameSceneNPCScriptReference0F12,あおいボタンをおして……
+cGameSceneNPCScriptReference0F13,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0F15,きいろいボタンをおして……
+cGameSceneNPCScriptReference0F16,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0F17,あかいボタンをおして……
+cGameSceneNPCScriptReference0F18,ちがいますよ。<BR><NAME>さん。
+cGameSceneNPCScriptReference0F19,じゃあ　もういちど<BR>いいますよ。<BR>じゅんびはいいですね。
+cGameSceneNPCScriptReference0F1A,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすんですよ。
+cGameSceneNPCScriptReference0F1B,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なりますからね。
+cGameSceneNPCScriptReference0F1D,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0F1E,あかいボタン
+cGameSceneNPCScriptReference0F20,あおいボタン
+cGameSceneNPCScriptReference0F22,きいろいボタン
+cGameSceneNPCScriptReference0F23,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0F24,あかいボタン
+cGameSceneNPCScriptReference0F25,あおいボタン
+cGameSceneNPCScriptReference0F26,きいろいボタン
+cGameSceneNPCScriptReference0F28,きいろいボタンをおす。
+cGameSceneNPCScriptReference0F29,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0F2A,つばきさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0F2D,いいえ　どういたしまして。<BR>じゃあ　がんばってください。
+cGameSceneNPCScriptReference0F2E,いいえ　どういたしまして。
+cGameSceneNPCScriptReference0F2F,かえでさん　かえでさん。<BR>おうとうねがいます。
+cGameSceneNPCScriptReference0F30,はい　こちらかえで。<BR>どうしたの?<BR><NAME>。
+cGameSceneNPCScriptReference0F31,いまから　ミカサのだんぼうを<BR>いれようとおもうのですが
+cGameSceneNPCScriptReference0F32,だんぼうを　いれるために<BR>ボイラーしつにある<BR>もとせんを　あけないと<BR>いけないんです。
+cGameSceneNPCScriptReference0F33,その　てじゅんを<BR>おしえてください。
+cGameSceneNPCScriptReference0F34,りょうかい。<BR>では　てじゅんをいうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0F35,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0F36,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0F37,りょうかい。<BR>まずは……
+cGameSceneNPCScriptReference0F38,あかいボタン
+cGameSceneNPCScriptReference0F3A,あおいボタン
+cGameSceneNPCScriptReference0F3C,きいろいボタン
+cGameSceneNPCScriptReference0F3E,あおいボタンをおして……
+cGameSceneNPCScriptReference0F3F,ちがうでしょ　<NAME>。
+cGameSceneNPCScriptReference0F41,きいろいボタンをおして……
+cGameSceneNPCScriptReference0F42,ちがうでしょ　<NAME>。
+cGameSceneNPCScriptReference0F43,あかいボタンをおして……
+cGameSceneNPCScriptReference0F44,ちがうでしょ　<NAME>。
+cGameSceneNPCScriptReference0F45,じゃあ　もういちど<BR>いうわよ。<BR>じゅんびはいいわね。
+cGameSceneNPCScriptReference0F46,まず　あかいボタンをおす。<BR>つぎに　あおいボタンをおす。<BR>さいごに　きいろいボタンを<BR>おすのよ。
+cGameSceneNPCScriptReference0F47,じゅんばんを　まちがえると<BR>はじめから　やりなおしに<BR>なるから　きをひきしめてね。
+cGameSceneNPCScriptReference0F49,あかいボタンをおして……<BR>つぎは……
+cGameSceneNPCScriptReference0F4A,あかいボタン
+cGameSceneNPCScriptReference0F4C,あおいボタン
+cGameSceneNPCScriptReference0F4E,きいろいボタン
+cGameSceneNPCScriptReference0F4F,あおいボタンをおして……<BR>さいごに……
+cGameSceneNPCScriptReference0F50,あかいボタン
+cGameSceneNPCScriptReference0F51,あおいボタン
+cGameSceneNPCScriptReference0F52,きいろいボタン
+cGameSceneNPCScriptReference0F54,きいろいボタンをおす。
+cGameSceneNPCScriptReference0F55,あっ　ボイラーが<BR>つきました!!
+cGameSceneNPCScriptReference0F56,かえでさん。　<BR>ありがとうございました。
+cGameSceneNPCScriptReference0F59,いいえ　どういたしまして。<BR>じゃあ　がんばるのよ。
+cGameSceneNPCScriptReference0F5A,……<NAME><BR>これくらいのことは<BR>まちがわずに　いちどで<BR>やるようにね。
+cGameSceneNPCScriptReference0F5B,すみれさん<BR>ボイラーてんか　できました。
+cGameSceneNPCScriptReference0F5E,<NAME>さん<BR>バッチリですわね。
+cGameSceneNPCScriptReference0F5F,では　『けん』の<BR>ところへ　もどりましょう。
+cGameSceneNPCScriptReference0F60,あのへやに<BR>だんぼうのスイッチが<BR>ありますから。

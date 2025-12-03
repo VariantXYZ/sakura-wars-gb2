@@ -1,0 +1,515 @@
+ID,Text
+cGameSceneNPCScriptReference27D3,あっ!!<BR>なんだ　あれは?!
+cGameSceneNPCScriptReference27D4,おおがみさん……<BR>あれは……
+cGameSceneNPCScriptReference27D5,『まじんき・かがみ』ですか?
+cGameSceneNPCScriptReference27D7,あやしいかがみですね。
+cGameSceneNPCScriptReference27D9,『まじんき』の『かがみ』<BR>ですか?
+cGameSceneNPCScriptReference27DA,いや……<BR>『まじんき』の『かがみ』は<BR>もっと　ちいさいんだよ。
+cGameSceneNPCScriptReference27DB,しかし　ふつうのかがみでも<BR>なさそうだな……<BR>ねんのため　しらべてみよう。
+cGameSceneNPCScriptReference27DC,<NAME>くんは　ここで<BR>たいき　していてくれ。
+cGameSceneNPCScriptReference27DE,なんだか　あやしい<BR>かんじの　かがみですね。
+cGameSceneNPCScriptReference27DF,<NAME>くんも<BR>そうおもうか。
+cGameSceneNPCScriptReference27E0,ただの　おおきなかがみでも<BR>なさそうだ……<BR>ねんのため　しらべてみよう。
+cGameSceneNPCScriptReference27E1,<NAME>くんは　ここで<BR>たいき　していてくれ。
+cGameSceneNPCScriptReference27E2,……………………………………
+cGameSceneNPCScriptReference27E3,おおきな　かがみだ……
+cGameSceneNPCScriptReference27E4,しかし　ふつうのかがみでも<BR>なさそうだな……<BR>ねんのため　しらべてみよう。
+cGameSceneNPCScriptReference27E5,<NAME>くんは　ここで<BR>たいき　していてくれ。
+cGameSceneNPCScriptReference27E6,う〜ん……<BR>みたところ　ただのかがみの<BR>ようだが……
+cGameSceneNPCScriptReference27E7,あっ!?
+cGameSceneNPCScriptReference27E8,あかりが　きえたぞ!!<BR><NAME>くん<BR>ちゅういするんだ!!
+cGameSceneNPCScriptReference27E9,あら……ついたわ………………<BR>……………………………………<BR>キャッ!<BR>おおがみさんが　ふたり?!
+cGameSceneNPCScriptReference27EA,!!<BR>わわっ!<BR>オレが　もうひとり!!
+cGameSceneNPCScriptReference27EB,ど……　どうなってるの?<BR>どっちが　ホンモノなの?
+cGameSceneNPCScriptReference27EC,おいおい　<NAME>くん。<BR>オレが　ホンモノに<BR>きまってるじゃないか。
+cGameSceneNPCScriptReference27ED,な……<BR>なにを　いうんだキサマ!
+cGameSceneNPCScriptReference27EE,<NAME>くん!!<BR>オレが　ホンモノだ!!<BR>しんじてくれ!!
+cGameSceneNPCScriptReference27EF,よわったわ…………<BR>そうだわ!<BR>おおがみさんの　こうぶつを<BR>…………
+cGameSceneNPCScriptReference27F0,あっ!　カツどんが!!
+cGameSceneNPCScriptReference27F2,あっ!　プリンが!!
+cGameSceneNPCScriptReference27F4,あっ!　タコヤキが!!
+cGameSceneNPCScriptReference27F6,あっ!　プリンが!!
+cGameSceneNPCScriptReference27F7,プリン?<BR>プリンが　どうかしたのか?
+cGameSceneNPCScriptReference27F8,あら……<BR>プリンじゃ　ダメなのね……<BR>それじゃあ……
+cGameSceneNPCScriptReference27FA,あっ!　タコヤキが!!
+cGameSceneNPCScriptReference27FB,タコヤキ?<BR>タコヤキが　どうかしたのか?
+cGameSceneNPCScriptReference27FC,あら……<BR>タコヤキじゃ　ダメなのね……<BR>それじゃあ……
+cGameSceneNPCScriptReference27FD,あっ!　カツどんが!!
+cGameSceneNPCScriptReference27FE,えっ!?<BR>カツどん!?<BR>どこ　どこ?<BR>どこにあるんだ?!
+cGameSceneNPCScriptReference27FF,カツどんなんて<BR>どこにも　ないじゃないか!
+cGameSceneNPCScriptReference2800,うふふ　じょうだんですよ。<BR>でも　これでわかりました。<BR>ニセモノは……
+cGameSceneNPCScriptReference2801,みぎ　です!!
+cGameSceneNPCScriptReference2803,ひだり　です!!
+cGameSceneNPCScriptReference2805,ニセモノは　ひだりの<BR>あなたよ!!
+cGameSceneNPCScriptReference2806,な……なにをいうんだい<BR><NAME>くん。<BR>も　もういちど　よく<BR>かんがえてくれ。
+cGameSceneNPCScriptReference2807,いいかい?<BR>カツどんと　きいたときの<BR>はんのうを　もういちど<BR>みせるよ。
+cGameSceneNPCScriptReference2808,あっ!　カツどんが!!
+cGameSceneNPCScriptReference2809,えっ!?<BR>カツどん!?<BR>どこ　どこ?<BR>どこにあるんだ?!
+cGameSceneNPCScriptReference280A,カツどんなんて<BR>どこにも　ないじゃないか!
+cGameSceneNPCScriptReference280B,ほらね。<BR>これで　わかっただろ?<BR>ニセモノは……
+cGameSceneNPCScriptReference280D,ニセモノは　みぎの<BR>あなたよ!!
+cGameSceneNPCScriptReference280E,な……なにをいうんだい<BR><NAME>くん。<BR>オレは　ホンモノだよ。
+cGameSceneNPCScriptReference280F,はは……どうやら<BR><NAME>くんに<BR>してやられたようだな。
+cGameSceneNPCScriptReference2810,な……なんだと!?
+cGameSceneNPCScriptReference2811,おおがみさんは　カツどんが<BR>だいこうぶつ　なのよ。
+cGameSceneNPCScriptReference2812,だから　それに　きょうみを<BR>しめさなかった　あなたが<BR>ニセモノってわけ……
+cGameSceneNPCScriptReference2813,ぐ………………………<BR>…………………………<BR>ふ……ふっふっふ……
+cGameSceneNPCScriptReference2814,!!
+cGameSceneNPCScriptReference2815,よーーくーーぞ<BR>みやぶった!!
+cGameSceneNPCScriptReference2816,おバカだ　おバカだと<BR>おもっていたけど<BR>まんざら　おバカでは<BR>なーーかったんだねーー。
+cGameSceneNPCScriptReference2817,おい!<BR>いったい　おまえは<BR>なにものなんだ!
+cGameSceneNPCScriptReference2818,『まじんき』をつかって<BR>なにをしているんだ!!
+cGameSceneNPCScriptReference2819,Oh!　なーーんてことなの!<BR>キミたちは　そんなことも<BR>しらないで　たたかって<BR>いたのかい。
+cGameSceneNPCScriptReference281A,やっぱり　キミたちは<BR>おバカだね!　おバカだね!!<BR>おーーーおバカだね!!!
+cGameSceneNPCScriptReference281B,クッ!<BR>ひとをバカに　するやつは<BR>じぶんが　バカだということに<BR>きづいてないん　だからなっ!
+cGameSceneNPCScriptReference281C,おおがみさん。<BR>そんなことよりも　なにを<BR>たくらんでいるのかを<BR>ききださないと。
+cGameSceneNPCScriptReference281D,われら　まものが<BR>やること　といえば<BR>ただひとつ。
+cGameSceneNPCScriptReference281E,まかいおう　とともに<BR>せかいを　やみにつつみ<BR>しはいすること……
+cGameSceneNPCScriptReference281F,なーんちゃって<BR>なーんちゃって<BR>スゴイ　スゴイ　スゴイ<BR>スゴすぎ〜〜っ!
+cGameSceneNPCScriptReference2820,まかいおう……
+cGameSceneNPCScriptReference2821,おまえたち　『まじんき』を<BR>つかって　まかいおう<BR>とやらを　よびだすつもり<BR>だったのか?
+cGameSceneNPCScriptReference2822,おおあたりーーー!<BR>おバカちゃんでも<BR>それくらいは<BR>わかるんだね。
+cGameSceneNPCScriptReference2823,ま　そういうことで<BR>『まじんき』を　あつめてる<BR>おまえたちを　いきてかえす<BR>わけには　いかないのだーー!
+cGameSceneNPCScriptReference2824,それは　こっちのセリフだ!<BR>キサマらのような　やつを<BR>のばなしには　させない!!
+cGameSceneNPCScriptReference2825,いくぞ!!<BR><NAME>くん!!
+cGameSceneNPCScriptReference2826,うう……
+cGameSceneNPCScriptReference2827,クッ!　このアタシが<BR>やられるなんて〜〜〜。<BR>くやしい〜〜〜〜〜〜〜!!
+cGameSceneNPCScriptReference2828,……………………………………<BR>でも　まあ　いいや……
+cGameSceneNPCScriptReference2829,やりましたね　おおがみさん。
+cGameSceneNPCScriptReference282A,ああ　<NAME>くんも<BR>よくがんばったね。
+cGameSceneNPCScriptReference282C,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference282D,うん……なんだろうな?<BR>まあ　とりあえず　<BR>『まじんき』を　さがそう。
+cGameSceneNPCScriptReference282E,ボスがいるってことは<BR>このちかくに　『まじんき』が<BR>あると　いうことだ。
+cGameSceneNPCScriptReference282F,カツどん　さくせんも<BR>なかなか　よかったよ。<BR>さすが　<NAME>くんだ。
+cGameSceneNPCScriptReference2830,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference2831,うん……なんだろうな?<BR>まあ　とりあえず　<BR>『まじんき』を　さがそう。
+cGameSceneNPCScriptReference2832,ボスがいるってことは<BR>このちかくに　『まじんき』が<BR>あると　いうことだ。
+cGameSceneNPCScriptReference2833,あっ!!<BR>なんだ　あれは?!
+cGameSceneNPCScriptReference2834,おおがみさん……<BR>あれは……
+cGameSceneNPCScriptReference2835,『まじんき・かがみ』ですか?
+cGameSceneNPCScriptReference2837,あやしいかがみですね。
+cGameSceneNPCScriptReference2839,『まじんき』の『かがみ』<BR>ですか?
+cGameSceneNPCScriptReference283A,いや……ちがうな<BR>『まじんき』の『かがみ』は<BR>もっと　ちいさいんだ。
+cGameSceneNPCScriptReference283B,しかし　ふつうのかがみでも<BR>なさそうだな……<BR>ねんのため　しらべてみるか。
+cGameSceneNPCScriptReference283C,<NAME>くんは　ここで<BR>たいき　していてくれ。
+cGameSceneNPCScriptReference283E,なんだか　あやしい<BR>かんじの　かがみですね。
+cGameSceneNPCScriptReference283F,<NAME>くんも<BR>そうおもうか。
+cGameSceneNPCScriptReference2840,ただの　おおきなかがみでも<BR>なさそうだ……<BR>ねんのため　しらべてみるか。
+cGameSceneNPCScriptReference2841,<NAME>くんは　ここで<BR>たいき　していてくれ。
+cGameSceneNPCScriptReference2842,……………………………………
+cGameSceneNPCScriptReference2843,おおきな　かがみだ……
+cGameSceneNPCScriptReference2844,しかし　ふつうのかがみでも<BR>なさそうだな……<BR>ねんのため　しらべてみるか。
+cGameSceneNPCScriptReference2845,<NAME>くんは　ここで<BR>たいき　していてくれ。
+cGameSceneNPCScriptReference2846,う〜ん……<BR>みたところ　ただのかがみの<BR>ようだが……
+cGameSceneNPCScriptReference2847,わっ!?
+cGameSceneNPCScriptReference2848,うっ!<BR>あかりが　きえたぞ!!<BR><NAME>くん<BR>ちゅういするんだ!!
+cGameSceneNPCScriptReference2849,あっ……ついた…………………<BR>……………………………………<BR>エエッ!!<BR>おおがみさんが　ふたり?!
+cGameSceneNPCScriptReference284A,!!<BR>わわっ!<BR>オレが　もうひとり!!
+cGameSceneNPCScriptReference284B,ど……　どっちが　ホンモノ<BR>なんだ……
+cGameSceneNPCScriptReference284C,おいおい　<NAME>くん。<BR>オレが　ホンモノに<BR>きまってるじゃないか。
+cGameSceneNPCScriptReference284D,な……<BR>なにを　いうんだキサマ!
+cGameSceneNPCScriptReference284E,<NAME>くん!!<BR>しんじてくれ!!<BR>オレが　ホンモノだ!!
+cGameSceneNPCScriptReference284F,うう……よわったな…………<BR>あっ　そうだ!<BR>おおがみさんの　こうぶつを<BR>…………
+cGameSceneNPCScriptReference2850,あっ!　カツどんが!!
+cGameSceneNPCScriptReference2852,あっ!　ウナじゅうが!!
+cGameSceneNPCScriptReference2854,あっ!　スパゲティーが!!
+cGameSceneNPCScriptReference2856,あっ!　ウナじゅうが!!
+cGameSceneNPCScriptReference2857,ウナじゅう?<BR>ウナじゅうが<BR>どうかしたのか?
+cGameSceneNPCScriptReference2858,しまった……<BR>ウナじゅうじゃ　ダメか……<BR>それじゃあ……
+cGameSceneNPCScriptReference285A,あっ!　スパゲティーが!!
+cGameSceneNPCScriptReference285B,スパゲティー?<BR>スパゲティーが　どうか<BR>したのか?
+cGameSceneNPCScriptReference285C,しまった……<BR>スパゲティーじゃ　ダメか……<BR>それじゃあ……
+cGameSceneNPCScriptReference285D,あっ!　カツどんが!!
+cGameSceneNPCScriptReference285E,えっ!?<BR>カツどん!?<BR>どこ　どこ?<BR>どこにあるんだ?!
+cGameSceneNPCScriptReference285F,カツどんなんて<BR>どこにも　ないじゃないか!
+cGameSceneNPCScriptReference2860,ふふっ　じょうだんですよ。<BR>でも　これでわかりました。<BR>ニセモノは……
+cGameSceneNPCScriptReference2861,みぎ　だ!!
+cGameSceneNPCScriptReference2863,ひだり　だ!!
+cGameSceneNPCScriptReference2865,ニセモノは　ひだりのやつ!!<BR>おまえだ!!
+cGameSceneNPCScriptReference2866,な……なにをいうんだい<BR><NAME>くん。<BR>も　もういちど　よく<BR>かんがえてくれ。
+cGameSceneNPCScriptReference2867,いいかい?<BR>カツどんと　きいたときの<BR>はんのうを　もういちど<BR>みせるよ。
+cGameSceneNPCScriptReference2868,あっ!　カツどんが!!
+cGameSceneNPCScriptReference2869,えっ!?<BR>カツどん!?<BR>どこ　どこ?<BR>どこにあるんだ?!
+cGameSceneNPCScriptReference286A,カツどんなんて<BR>どこにも　ないじゃないか!
+cGameSceneNPCScriptReference286B,ほらね。<BR>これで　わかっただろ?<BR>ニセモノは……
+cGameSceneNPCScriptReference286D,みぎのやつ!!<BR>おまえだ!!
+cGameSceneNPCScriptReference286E,な……なにをいうんだい<BR><NAME>くん。<BR>オレは　ホンモノだよ。
+cGameSceneNPCScriptReference286F,はは……どうやら<BR><NAME>くんに<BR>してやられたようだな。
+cGameSceneNPCScriptReference2870,な……なんだと!?
+cGameSceneNPCScriptReference2871,おおがみさんは　カツどんが<BR>だいこうぶつ　なんですよ。
+cGameSceneNPCScriptReference2872,だから　それに　きょうみを<BR>しめさなかった　おまえは<BR>ニセモノだ!!
+cGameSceneNPCScriptReference2873,ぐ………………………<BR>…………………………<BR>ふ……ふっふっふ……
+cGameSceneNPCScriptReference2874,!!
+cGameSceneNPCScriptReference2875,よーーくーーぞ<BR>みやぶった!!
+cGameSceneNPCScriptReference2876,おバカだ　おバカだと<BR>おもっていたけど<BR>まんざら　おバカでは<BR>なーーかったんだねーー。
+cGameSceneNPCScriptReference2877,おい!<BR>いったい　おまえは<BR>なにものなんだ!
+cGameSceneNPCScriptReference2878,『まじんき』をつかって<BR>なにをしているんだ!!
+cGameSceneNPCScriptReference2879,Oh!　なーーんてことなの!<BR>キミたちは　そんなことも<BR>しらないで　たたかって<BR>いたのかい。
+cGameSceneNPCScriptReference287A,やっぱり　キミたちは<BR>おバカだね!　おバカだね!!<BR>おーーーおバカだね!!!
+cGameSceneNPCScriptReference287B,クッ!<BR>ひとをバカに　するやつは<BR>じぶんが　バカだということに<BR>きづいてないん　だからなっ!
+cGameSceneNPCScriptReference287C,おおがみさん。<BR>そんなことよりも　なにを<BR>たくらんでいるのかを<BR>ききださないと。
+cGameSceneNPCScriptReference287D,われら　まものが<BR>やること　といえば<BR>ただひとつ。
+cGameSceneNPCScriptReference287E,まかいおう　とともに<BR>せかいを　やみにつつみ<BR>しはいすること……
+cGameSceneNPCScriptReference287F,なーんちゃって<BR>なーんちゃって<BR>スゴイ　スゴイ　スゴイ<BR>スゴすぎ〜〜っ!
+cGameSceneNPCScriptReference2880,まかいおう……
+cGameSceneNPCScriptReference2881,おまえたち　『まじんき』を<BR>つかって　まかいおう<BR>とやらを　よびだすつもり<BR>だったのか?
+cGameSceneNPCScriptReference2882,おおあたりーーー!<BR>おバカちゃんでも<BR>それくらいは<BR>わかるんだね。
+cGameSceneNPCScriptReference2883,ま　そういうことで<BR>『まじんき』を　あつめてる<BR>おまえたちを　いきてかえす<BR>わけには　いかないのだーー!
+cGameSceneNPCScriptReference2884,それは　こっちのセリフだ!<BR>キサマらのような　やつを<BR>のばなしには　させない!!
+cGameSceneNPCScriptReference2885,いくぞ!!<BR><NAME>くん!!
+cGameSceneNPCScriptReference2886,うう……
+cGameSceneNPCScriptReference2887,クッ!　このアタシが<BR>やられるなんて〜〜〜。<BR>くやしい〜〜〜〜〜〜〜!!
+cGameSceneNPCScriptReference2888,……………………………………<BR>でも　まあ　いいや……
+cGameSceneNPCScriptReference2889,やりましたね　おおがみさん。
+cGameSceneNPCScriptReference288A,ああ　<NAME>くん。<BR>よくやった。
+cGameSceneNPCScriptReference288C,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference288D,うん……なんだろうな?<BR>まあ　とりあえず　<BR>『まじんき』を　さがそう。
+cGameSceneNPCScriptReference288E,ボスがいるってことは<BR>このちかくに　『まじんき』が<BR>あると　いうことだ。
+cGameSceneNPCScriptReference288F,カツどん　さくせんも<BR>なかなか　よかったぞ。
+cGameSceneNPCScriptReference2890,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference2891,うん……なんだろうな?<BR>まあ　とりあえず　<BR>『まじんき』を　さがそう。
+cGameSceneNPCScriptReference2892,ボスがいるってことは<BR>このちかくに　『まじんき』が<BR>あると　いうことだ。
+cGameSceneNPCScriptReference2774,あれは　なんだ?
+cGameSceneNPCScriptReference2775,レニさん……<BR>あれは……
+cGameSceneNPCScriptReference2776,『まじんき・かがみ』ですか?
+cGameSceneNPCScriptReference2778,あやしいかがみですね。
+cGameSceneNPCScriptReference277A,『まじんき』の『かがみ』<BR>ですか?
+cGameSceneNPCScriptReference277B,いや。<BR>『まじんき』の『かがみ』は<BR>もっと　ちいさい。
+cGameSceneNPCScriptReference277C,でも……ふつうのかがみでも<BR>なさそうだ。<BR>ねんのために<BR>しらべてみよう。
+cGameSceneNPCScriptReference277D,<NAME><BR>ここで　まっていろ。
+cGameSceneNPCScriptReference277F,なんだか　あやしい<BR>かんじの　かがみですね。
+cGameSceneNPCScriptReference2780,うん……<BR>そうだね　<NAME>。
+cGameSceneNPCScriptReference2781,ただの　おおきなかがみでも<BR>なさそうだ。<BR>ねんのために<BR>しらべてみよう。
+cGameSceneNPCScriptReference2782,<NAME><BR>ここで　まっていろ。
+cGameSceneNPCScriptReference2783,……………………………………
+cGameSceneNPCScriptReference2784,おおきな　かがみだ……
+cGameSceneNPCScriptReference2785,でも　ふつうのかがみでは<BR>ないようだ。<BR>ねんのために<BR>しらべてみよう。
+cGameSceneNPCScriptReference2786,<NAME><BR>ここで　まっていろ。
+cGameSceneNPCScriptReference2787,……………………………………<BR>いっけん　ふつうのかがみに<BR>みえるのだけど……
+cGameSceneNPCScriptReference2788,あっ!?
+cGameSceneNPCScriptReference2789,あかりが　きえた!<BR><NAME><BR>ちゅういしろ!!
+cGameSceneNPCScriptReference278A,あっ……ついた…………………<BR>……………………………………<BR>エエッ!!<BR>レニさんが　ふたり?!
+cGameSceneNPCScriptReference278B,!!<BR>ボクが　もうひとりいる。<BR>どういうことだ!
+cGameSceneNPCScriptReference278C,ど……　どうなってるの?<BR>どっちが　ホンモノなの?
+cGameSceneNPCScriptReference278D,<NAME><BR>ホンモノは　ボクだ。<BR>わかるだろ?
+cGameSceneNPCScriptReference278E,な……　なにを!!
+cGameSceneNPCScriptReference278F,<NAME>!<BR>ホンモノは　ボクだ!<BR>わかるだろ?
+cGameSceneNPCScriptReference2790,よわったわ…………<BR>そうだわ!<BR>レニさんが　だいすきな<BR>どうぶつを……
+cGameSceneNPCScriptReference2791,あっ!　イヌがいます!!
+cGameSceneNPCScriptReference2793,あっ!　ネコがいます!!
+cGameSceneNPCScriptReference2795,あっ!　カバがいます!!
+cGameSceneNPCScriptReference2797,あっ!　ネコが!<BR>ネコがいます!!
+cGameSceneNPCScriptReference2798,ネコ?<BR>ネコが　どうかしたのか?
+cGameSceneNPCScriptReference2799,あら……<BR>ネコじゃ　ダメなのね。<BR>それじゃあ……
+cGameSceneNPCScriptReference279B,あっ!　カバが!<BR>カバがいます!!
+cGameSceneNPCScriptReference279C,カバ?<BR>カバが　どうかしたのか?
+cGameSceneNPCScriptReference279D,あら……<BR>カバじゃ　ダメなのね。<BR>それじゃあ……
+cGameSceneNPCScriptReference279E,あっ!　イヌが!!<BR>かわいい　イヌがいます!!
+cGameSceneNPCScriptReference279F,えっ!?<BR>イヌだって?<BR>ここはキケンだ<BR>ひなんさせなくては!
+cGameSceneNPCScriptReference27A0,……イヌなんて<BR>どこにも　いないじゃないか<BR><NAME>。
+cGameSceneNPCScriptReference27A1,うふふ　じょうだんですよ。<BR>でも　これでわかりました。<BR>ニセモノは……
+cGameSceneNPCScriptReference27A2,みぎ　です!!
+cGameSceneNPCScriptReference27A4,ひだり　です!!
+cGameSceneNPCScriptReference27A6,ニセモノは　ひだりの<BR>あなたよ!!
+cGameSceneNPCScriptReference27A7,<NAME>……<BR>もういちど　よく<BR>かんがえるんだ。
+cGameSceneNPCScriptReference27A8,いいかい?<BR>イヌと　きいたときの<BR>はんのうを　もういちど<BR>みせるからね。
+cGameSceneNPCScriptReference27A9,あっ!　イヌが!!<BR>かわいい　イヌがいます!!
+cGameSceneNPCScriptReference27AA,えっ!?<BR>イヌだって?<BR>ここはキケンだ<BR>ひなん　させなくては!
+cGameSceneNPCScriptReference27AB,イヌなんて<BR>どこにも　いないじゃないか<BR><NAME>。
+cGameSceneNPCScriptReference27AC,これで　わかっただろ?<BR>ニセモノは……
+cGameSceneNPCScriptReference27AE,ニセモノは　みぎの<BR>あなたよ!!
+cGameSceneNPCScriptReference27AF,な……なにを　いうんだ<BR><NAME>。<BR>ボクは　ホンモノだよ。
+cGameSceneNPCScriptReference27B0,ふふふ……<BR>さすがだね　<NAME><BR>まさか　そんなてで<BR>みやぶる　なんてね。
+cGameSceneNPCScriptReference27B1,な……なんだと!?
+cGameSceneNPCScriptReference27B2,レニさんは　かわいいイヌが<BR>だいすきなんですよ。
+cGameSceneNPCScriptReference27B3,だから　それに　きょうみを<BR>しめさなかった　あなたが<BR>ニセモノってわけ……
+cGameSceneNPCScriptReference27B4,ぐ………………………<BR>…………………………<BR>ふ……ふっふっふ……
+cGameSceneNPCScriptReference27B5,!!
+cGameSceneNPCScriptReference27B6,よーーくーーぞ<BR>みやぶった!!
+cGameSceneNPCScriptReference27B7,おバカだ　おバカだと<BR>おもっていたけど<BR>まんざら　おバカでは<BR>なーーかったんだねーー。
+cGameSceneNPCScriptReference27B8,おまえは　なにもの!
+cGameSceneNPCScriptReference27B9,『まじんき』をつかって<BR>なにを　しているんだ!!
+cGameSceneNPCScriptReference27BA,Oh!　なーーんてことなの!<BR>キミたちは　そんなことも<BR>しらないで　たたかって<BR>いたのかい。
+cGameSceneNPCScriptReference27BB,やっぱり　キミたちは<BR>おバカだね!　おバカだね!!<BR>おーーーおバカだね!!!
+cGameSceneNPCScriptReference27BC,あいてのじつりょくも<BR>しらずに　バカにすると<BR>こうかいすることになる……
+cGameSceneNPCScriptReference27BD,こうかい?<BR>こうかいするのは<BR>おまえたちの　ほうだよ。<BR>なぜなら……
+cGameSceneNPCScriptReference27BE,われら　まものは<BR>まかいおう　とともに<BR>せかいを　やみにつつみ<BR>しはい　するんだから……
+cGameSceneNPCScriptReference27BF,なーんちゃって<BR>なーんちゃって<BR>スゴイ　スゴイ　スゴイ<BR>スゴすぎ〜〜っ!
+cGameSceneNPCScriptReference27C0,まかいおう……
+cGameSceneNPCScriptReference27C1,おまえたち　『まじんき』を<BR>つかって　まかいおう<BR>とやらを　よびだそうと<BR>していたのか!!
+cGameSceneNPCScriptReference27C2,おおあたりーーー!<BR>おバカちゃんでも<BR>それくらいは<BR>わかるんだね。
+cGameSceneNPCScriptReference27C3,ま　そういうことで<BR>『まじんき』を　あつめてる<BR>おまえたちを　いきてかえす<BR>わけには　いかないのだーー!
+cGameSceneNPCScriptReference27C4,それは　こっちのセリフ!<BR>おまえたちの　すきには<BR>させない!!
+cGameSceneNPCScriptReference27C5,<NAME>　いくぞ!!
+cGameSceneNPCScriptReference27C6,うう……
+cGameSceneNPCScriptReference27C7,クッ!　このアタシが<BR>やられるなんて〜〜〜。<BR>くやしい〜〜〜〜〜〜〜!!
+cGameSceneNPCScriptReference27C8,……………………………………<BR>でも　まあ　いいや……
+cGameSceneNPCScriptReference27C9,やりましたね　レニさん。
+cGameSceneNPCScriptReference27CA,うん。<BR>そうだね　<NAME>。
+cGameSceneNPCScriptReference27CC,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference27CD,きになるな……<BR>でも　いまは『まじんき』を<BR>さがそう。
+cGameSceneNPCScriptReference27CE,ボスが　いたから<BR>きっと　このちかくに<BR>『まじんき』が　あるはずだ。
+cGameSceneNPCScriptReference27CF,さっきの　イヌさくせん。<BR>なかなか　よかったよ。
+cGameSceneNPCScriptReference27D0,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference27D1,きになるな……<BR>でも　いまは『まじんき』を<BR>さがそう。
+cGameSceneNPCScriptReference27D2,ボスが　いたから<BR>きっと　このちかくに<BR>『まじんき』が　あるはずだ。
+cGameSceneNPCScriptReference2893,あっ!!<BR>あれは　なに?!
+cGameSceneNPCScriptReference2894,さくらさん……<BR>あれは……
+cGameSceneNPCScriptReference2895,『まじんき・かがみ』ですか?
+cGameSceneNPCScriptReference2897,あやしいかがみですね。
+cGameSceneNPCScriptReference2899,『まじんき』の『かがみ』<BR>ですか?
+cGameSceneNPCScriptReference289A,いいえ……<BR>『まじんき』の『かがみ』は<BR>もっと　ちいさい<BR>ものなんですよ。
+cGameSceneNPCScriptReference289B,でも……ふつうのかがみでも<BR>なさそうですね。<BR>ねんのために<BR>しらべてみましょう。
+cGameSceneNPCScriptReference289C,<NAME>さんは<BR>ここで　まっててください。
+cGameSceneNPCScriptReference289E,なんだか　あやしい<BR>かんじの　かがみですね。
+cGameSceneNPCScriptReference289F,<NAME>さんも<BR>そう　おもいますか?
+cGameSceneNPCScriptReference28A0,ただの　おおきなかがみでも<BR>なさそうですね。<BR>ねんのために<BR>しらべて　みましょう。
+cGameSceneNPCScriptReference28A1,<NAME>さんは<BR>ここで　まっててください。
+cGameSceneNPCScriptReference28A2,……………………………………
+cGameSceneNPCScriptReference28A3,おおきな　かがみだわ……
+cGameSceneNPCScriptReference28A4,でも　ふつうのかがみでは<BR>ないようですね。<BR>ねんのために<BR>しらべて　みましょう。
+cGameSceneNPCScriptReference28A5,<NAME>さんは<BR>ここで　まっててください。
+cGameSceneNPCScriptReference28A6,……………………………………<BR>いっけん　ふつうのかがみの<BR>ようなんですが……
+cGameSceneNPCScriptReference28A7,あっ!?
+cGameSceneNPCScriptReference28A8,あかりが　きえたわ!<BR><NAME>さん!<BR>ちゅういしてください!!
+cGameSceneNPCScriptReference28A9,あっ……ついた…………………<BR>……………………………………<BR>エエッ!!<BR>さくらさんが　ふたり?!
+cGameSceneNPCScriptReference28AA,!!<BR>な　なに?!<BR>あたしが　もうひとりいる!!<BR>どういうこと?!
+cGameSceneNPCScriptReference28AB,ど……　どうなってるの?<BR>どっちが　ホンモノなの?
+cGameSceneNPCScriptReference28AC,いやだわ　<NAME>さん。<BR>あたしが　ホンモノに<BR>きまってるじゃ　ないですか。
+cGameSceneNPCScriptReference28AD,な……なんですって!!
+cGameSceneNPCScriptReference28AE,<NAME>さん!<BR>ホンモノは　あたしです!<BR>わかりますよね!!
+cGameSceneNPCScriptReference28AF,こまったわ……<BR>どうしよう……
+cGameSceneNPCScriptReference28B0,そういえば　さくらさんって<BR>わがしが　すきだって<BR>いってたわね……
+cGameSceneNPCScriptReference28B1,と　いうことは……<BR>さくらさんが　すきな<BR>たべものは……
+cGameSceneNPCScriptReference28B2,あっ!　ヨモギもちが!!
+cGameSceneNPCScriptReference28B4,あっ!　ショートケーキが!!
+cGameSceneNPCScriptReference28B6,あっ!　おにぎりが!!
+cGameSceneNPCScriptReference28B8,あっ!　ショートケーキが!!
+cGameSceneNPCScriptReference28B9,ショートケーキ?<BR>ショートケーキが<BR>どうかしましたか?
+cGameSceneNPCScriptReference28BA,あら……<BR>ショートケーキじゃ<BR>ダメなのね……<BR>それじゃあ……
+cGameSceneNPCScriptReference28BC,あっ!　おにぎりが!!
+cGameSceneNPCScriptReference28BD,おにぎり?<BR>おにぎりが<BR>どうかしましたか?
+cGameSceneNPCScriptReference28BE,しまった……<BR>おにぎり　じゃダメなのね……<BR>それじゃあ……
+cGameSceneNPCScriptReference28BF,あっ!　ヨモギもちが!!
+cGameSceneNPCScriptReference28C0,えっ!?<BR>ヨモギもち!?<BR>どこ　どこ?<BR>どこにあるんですか?!
+cGameSceneNPCScriptReference28C1,ヨモギもち　なんて<BR>どこにも　ありませんよ<BR><NAME>さん。
+cGameSceneNPCScriptReference28C2,うふふ　じょうだんですよ。<BR>でも　これでわかりました。<BR>ニセモノは……
+cGameSceneNPCScriptReference28C3,みぎ　です!!
+cGameSceneNPCScriptReference28C5,ひだり　です!!
+cGameSceneNPCScriptReference28C7,ニセモノは　ひだりの<BR>あなたよ!!
+cGameSceneNPCScriptReference28C8,<NAME>さん……<BR>もういちど　よく<BR>かんがえてくれませんか?
+cGameSceneNPCScriptReference28C9,いいですか?<BR>ヨモギもちと　きいたときの<BR>はんのうを　もういちど<BR>みせますよ。
+cGameSceneNPCScriptReference28CA,あっ!　ヨモギもちが!!
+cGameSceneNPCScriptReference28CB,えっ!?<BR>ヨモギもち!?<BR>どこ　どこ?<BR>どこにあるんですか?!
+cGameSceneNPCScriptReference28CC,ヨモギもち　なんて<BR>どこにも　ありませんよ<BR><NAME>さん。
+cGameSceneNPCScriptReference28CD,ほら　これで<BR>わかりましたよね?<BR>ニセモノは……
+cGameSceneNPCScriptReference28CF,ニセモノは　みぎの<BR>あなたよ!!
+cGameSceneNPCScriptReference28D0,な……なにをいうんですか<BR><NAME>さん<BR>あたしは　ホンモノですよ。
+cGameSceneNPCScriptReference28D1,ふふふ……<BR><NAME>さんに<BR>みやぶられたようですね。
+cGameSceneNPCScriptReference28D2,な……なんだと!?
+cGameSceneNPCScriptReference28D3,さくらさんは　ヨモギもちが<BR>だいこうぶつ　なんですよ。
+cGameSceneNPCScriptReference28D4,だから　それに　きょうみを<BR>しめさなかった　あなたが<BR>ニセモノってわけ……
+cGameSceneNPCScriptReference28D5,ぐ………………………<BR>…………………………<BR>ふ……ふっふっふ……
+cGameSceneNPCScriptReference28D6,!!
+cGameSceneNPCScriptReference28D7,よーーくーーぞ<BR>みやぶった!!
+cGameSceneNPCScriptReference28D8,おバカだ　おバカだと<BR>おもっていたけど<BR>まんざら　おバカでは<BR>なーーかったんだねーー。
+cGameSceneNPCScriptReference28D9,おまえは　なにもの!
+cGameSceneNPCScriptReference28DA,『まじんき』をつかって<BR>なにを　しているの!!
+cGameSceneNPCScriptReference28DB,Oh!　なーーんてことなの!<BR>キミたちは　そんなことも<BR>しらないで　たたかって<BR>いたのかい。
+cGameSceneNPCScriptReference28DC,やっぱり　キミたちは<BR>おバカだね!　おバカだね!!<BR>おーーーおバカだね!!!
+cGameSceneNPCScriptReference28DD,バカは　おまえたちよ。<BR>あたしたち<BR>ていこくかげきだんが<BR>いるかぎり
+cGameSceneNPCScriptReference28DE,おまえたちの　やぼうは<BR>ぜんぶ　たたきつぶされるの<BR>ですから!!
+cGameSceneNPCScriptReference28DF,われら　まものの　やぼう……<BR>それは……
+cGameSceneNPCScriptReference28E0,まかいおう　とともに<BR>せかいを　やみにつつみ<BR>しはいすること……
+cGameSceneNPCScriptReference28E1,なーんちゃって<BR>なーんちゃって<BR>スゴイ　スゴイ　スゴイ<BR>スゴイでしょう〜〜っ!!
+cGameSceneNPCScriptReference28E2,まかいおう……
+cGameSceneNPCScriptReference28E3,おまえたち　『まじんき』を<BR>つかって　まかいおう<BR>とやらを　よびだそうと<BR>していたのね!!
+cGameSceneNPCScriptReference28E4,おおあたりーーー!<BR>おバカちゃんでも<BR>それくらいは<BR>わかるんだね。
+cGameSceneNPCScriptReference28E5,ま　そういうことで<BR>『まじんき』を　あつめてる<BR>おまえたちを　いきてかえす<BR>わけには　いかないのだーー!
+cGameSceneNPCScriptReference28E6,それは　こっちのセリフよ!<BR>まかいおうの　ふっかつなんて<BR>ぜったいに　させないわ!!
+cGameSceneNPCScriptReference28E7,<NAME>さん!<BR>いきます!!
+cGameSceneNPCScriptReference28E8,うう……
+cGameSceneNPCScriptReference28E9,クッ!　このアタシが<BR>やられるなんて〜〜〜。<BR>くやしい〜〜〜〜〜〜〜!!
+cGameSceneNPCScriptReference28EA,……………………………………<BR>でも　まあ　いいや……
+cGameSceneNPCScriptReference28EB,やりましたね　さくらさん。
+cGameSceneNPCScriptReference28EC,ええ　<NAME>さん。<BR>よく　がんばりましたね。
+cGameSceneNPCScriptReference28EE,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference28EF,きになりますね……<BR>でも　いまは『まじんき』を<BR>さがしましょう。
+cGameSceneNPCScriptReference28F0,ボスが　いたんですから<BR>きっと　このちかくに<BR>『まじんき』が<BR>あるはずです。
+cGameSceneNPCScriptReference28F1,ヨモギもち　さくせん。<BR>なかなか　おもしろい<BR>さくせんでしたね。
+cGameSceneNPCScriptReference28F2,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference28F3,きになりますね……<BR>でも　いまは『まじんき』を<BR>さがしましょう。
+cGameSceneNPCScriptReference28F4,ボスが　いたんですから<BR>きっと　このちかくに<BR>『まじんき』が<BR>あるはずです。
+cGameSceneNPCScriptReference28F5,あっ!!<BR>あれは　なに?!
+cGameSceneNPCScriptReference28F6,さくらさん……<BR>あれは……
+cGameSceneNPCScriptReference28F7,『まじんき・かがみ』ですか?
+cGameSceneNPCScriptReference28F9,あやしいかがみですね。
+cGameSceneNPCScriptReference28FB,『まじんき』の『かがみ』<BR>ですか?
+cGameSceneNPCScriptReference28FC,いいえ……<BR>『まじんき』の『かがみ』は<BR>もっと　ちいさい<BR>ものなんですよ。
+cGameSceneNPCScriptReference28FD,でも……ふつうのかがみでも<BR>なさそうですね。<BR>ねんのために<BR>しらべてみましょう。
+cGameSceneNPCScriptReference28FE,<NAME>さんは<BR>ここで　まっててください。
+cGameSceneNPCScriptReference2900,なんだか　あやしい<BR>かんじの　かがみですね。
+cGameSceneNPCScriptReference2901,<NAME>さんも<BR>そう　おもいますか?
+cGameSceneNPCScriptReference2902,ただの　おおきなかがみでも<BR>なさそうですね。<BR>ねんのために<BR>しらべて　みましょう。
+cGameSceneNPCScriptReference2903,<NAME>さんは<BR>ここで　まっててください。
+cGameSceneNPCScriptReference2904,……………………………………
+cGameSceneNPCScriptReference2905,おおきな　かがみだわ……
+cGameSceneNPCScriptReference2906,でも　ふつうのかがみでは<BR>ないようですね。<BR>ねんのために<BR>しらべて　みましょう。
+cGameSceneNPCScriptReference2907,<NAME>さんは<BR>ここで　まっててください。
+cGameSceneNPCScriptReference2908,……………………………………<BR>いっけん　ふつうのかがみの<BR>ようなんですが……
+cGameSceneNPCScriptReference2909,わっ!?
+cGameSceneNPCScriptReference290A,あかりが　きえたわ!<BR><NAME>さん!<BR>ちゅういしてください!!
+cGameSceneNPCScriptReference290B,あっ……ついた…………………<BR>……………………………………<BR>エエッ!!<BR>さくらさんが　ふたり?!
+cGameSceneNPCScriptReference290C,!!<BR>な　なに!?<BR>あたしが　もうひとりいる!!<BR>どういうこと!?
+cGameSceneNPCScriptReference290D,ど……　どっちが　ホンモノ<BR>なんだ……
+cGameSceneNPCScriptReference290E,いやだわ　<NAME>さん。<BR>あたしが　ホンモノに<BR>きまってるじゃ　ないですか。
+cGameSceneNPCScriptReference290F,な……なんですって!!
+cGameSceneNPCScriptReference2910,<NAME>さん!<BR>ホンモノは　あたしです!<BR>わかりますよね!!
+cGameSceneNPCScriptReference2911,うう……よわったな…………<BR>どうしよう……
+cGameSceneNPCScriptReference2912,そういえば　さくらさんって<BR>わがしが　すきだって<BR>いってたな……
+cGameSceneNPCScriptReference2913,ということは……<BR>さくらさんが　すきな<BR>たべものは……
+cGameSceneNPCScriptReference2914,あっ!　ヨモギもちが!!
+cGameSceneNPCScriptReference2916,あっ!　ショートケーキが!!
+cGameSceneNPCScriptReference2918,あっ!　おにぎりが!!
+cGameSceneNPCScriptReference291A,あっ!　ショートケーキが!!
+cGameSceneNPCScriptReference291B,ショートケーキ?<BR>ショートケーキが<BR>どうかしましたか?
+cGameSceneNPCScriptReference291C,しまった……<BR>ショートケーキじゃないのか。<BR>それじゃあ……
+cGameSceneNPCScriptReference291E,あっ!　おにぎりが!!
+cGameSceneNPCScriptReference291F,おにぎり?<BR>おにぎりが<BR>どうかしましたか?
+cGameSceneNPCScriptReference2920,しまった……<BR>おにぎり　じゃダメか。<BR>それじゃあ……
+cGameSceneNPCScriptReference2921,あっ!　ヨモギもちが!!
+cGameSceneNPCScriptReference2922,えっ!?<BR>ヨモギもち!?<BR>どこ　どこ?<BR>どこにあるんですか?!
+cGameSceneNPCScriptReference2923,ヨモギもちなんて　どこにも<BR>ありませんよ<BR><NAME>さん。
+cGameSceneNPCScriptReference2924,ふふっ　じょうだんですよ。<BR>でも　これでわかりました。<BR>ニセモノは……
+cGameSceneNPCScriptReference2925,みぎ　だ!!
+cGameSceneNPCScriptReference2927,ひだり　だ!!
+cGameSceneNPCScriptReference2929,ニセモノは　ひだりのやつ!!<BR>おまえだ!!
+cGameSceneNPCScriptReference292A,<NAME>さん……<BR>もういちど　よく<BR>かんがえてくれませんか?
+cGameSceneNPCScriptReference292B,いいですか?<BR>ヨモギもちと　きいたときの<BR>はんのうを　もういちど<BR>みせますよ。
+cGameSceneNPCScriptReference292C,あっ!　ヨモギもちが!!
+cGameSceneNPCScriptReference292D,えっ!?<BR>ヨモギもち!?<BR>どこ　どこ?<BR>どこにあるんですか?!
+cGameSceneNPCScriptReference292E,ヨモギもちなんて　どこにも<BR>ありませんよ<BR><NAME>さん。
+cGameSceneNPCScriptReference292F,ほら　これで<BR>わかりましたよね?<BR>ニセモノは……
+cGameSceneNPCScriptReference2931,みぎのやつ!!<BR>おまえだ!!
+cGameSceneNPCScriptReference2932,な……なにをいうんですか<BR><NAME>さん<BR>あたしは　ホンモノですよ。
+cGameSceneNPCScriptReference2933,ふふふ……<BR><NAME>さんに<BR>みやぶられたようですね。
+cGameSceneNPCScriptReference2934,な……なんだと!?
+cGameSceneNPCScriptReference2935,さくらさんは　ヨモギもちが<BR>だいこうぶつ　なんですよ。
+cGameSceneNPCScriptReference2936,だから　それに　きょうみを<BR>しめさなかった　おまえは<BR>ニセモノだ!!
+cGameSceneNPCScriptReference2937,ぐ………………………<BR>…………………………<BR>ふ……ふっふっふ……
+cGameSceneNPCScriptReference2938,!!
+cGameSceneNPCScriptReference2939,よーーくーーぞ<BR>みやぶった!!
+cGameSceneNPCScriptReference293A,おバカだ　おバカだと<BR>おもっていたけど<BR>まんざら　おバカでは<BR>なーーかったんだねーー。
+cGameSceneNPCScriptReference293B,おまえは　なにもの!
+cGameSceneNPCScriptReference293C,『まじんき』をつかって<BR>なにを　しているの!!
+cGameSceneNPCScriptReference293D,Oh!　なーーんてことなの!<BR>キミたちは　そんなことも<BR>しらないで　たたかって<BR>いたのかい。
+cGameSceneNPCScriptReference293E,やっぱり　キミたちは<BR>おバカだね!　おバカだね!!<BR>おーーーおバカだね!!!
+cGameSceneNPCScriptReference293F,バカは　おまえたちよ。<BR>あたしたち<BR>ていこくかげきだんが<BR>いるかぎり
+cGameSceneNPCScriptReference2940,おまえたちの　やぼうは<BR>ぜんぶ　たたきつぶされるの<BR>ですから!!
+cGameSceneNPCScriptReference2941,われら　まものの　やぼう……<BR>それは……
+cGameSceneNPCScriptReference2942,まかいおう　とともに<BR>せかいを　やみにつつみ<BR>しはいすること……
+cGameSceneNPCScriptReference2943,なーんちゃって<BR>なーんちゃって<BR>スゴイ　スゴイ　スゴイ<BR>スゴイでしょう〜〜っ!!
+cGameSceneNPCScriptReference2944,まかいおう……
+cGameSceneNPCScriptReference2945,おまえたち　『まじんき』を<BR>つかって　まかいおう<BR>とやらを　よびだそうと<BR>していたのね!!
+cGameSceneNPCScriptReference2946,おおあたりーーー!<BR>おバカちゃんでも<BR>それくらいは<BR>わかるんだね。
+cGameSceneNPCScriptReference2947,ま　そういうことで<BR>『まじんき』を　あつめてる<BR>おまえたちを　いきてかえす<BR>わけには　いかないのだーー!
+cGameSceneNPCScriptReference2948,それは　こっちのセリフよ!<BR>まかいおうの　ふっかつなんて<BR>ぜったいに　させないわ!!
+cGameSceneNPCScriptReference2949,<NAME>さん!<BR>いきます!!
+cGameSceneNPCScriptReference294A,うう……
+cGameSceneNPCScriptReference294B,クッ!　このアタシが<BR>やられるなんて〜〜〜。<BR>くやしい〜〜〜〜〜〜〜!!
+cGameSceneNPCScriptReference294C,……………………………………<BR>でも　まあ　いいや……
+cGameSceneNPCScriptReference294D,やりましたね　さくらさん。
+cGameSceneNPCScriptReference294E,ええ　<NAME>さん。<BR>よく　がんばりましたね。
+cGameSceneNPCScriptReference2950,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference2951,きになりますね……<BR>でも　いまは『まじんき』を<BR>さがしましょう。
+cGameSceneNPCScriptReference2952,ボスが　いたんですから<BR>きっと　このちかくに<BR>『まじんき』が<BR>あるはずです。
+cGameSceneNPCScriptReference2953,ヨモギもち　さくせん。<BR>なかなか　おもしろい<BR>さくせんでしたね。<BR>さすがは　<NAME>さん。
+cGameSceneNPCScriptReference2954,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference2955,きになりますね……<BR>でも　いまは『まじんき』を<BR>さがしましょう。
+cGameSceneNPCScriptReference2956,ボスが　いたんですから<BR>きっと　このちかくに<BR>『まじんき』が<BR>あるはずです。
+cGameSceneNPCScriptReference2957,あれは　なにかしら?
+cGameSceneNPCScriptReference2958,すみれさん……<BR>あれは……
+cGameSceneNPCScriptReference2959,『まじんき・かがみ』ですか?
+cGameSceneNPCScriptReference295B,あやしいかがみですね。
+cGameSceneNPCScriptReference295D,『まじんき』の『かがみ』<BR>ですか?
+cGameSceneNPCScriptReference295E,いいえ……<BR>『まじんき』の『かがみ』は<BR>もっと　ちいさいかがみ<BR>ですわ。
+cGameSceneNPCScriptReference295F,でも……ふつうのかがみでも<BR>なさそうですわね。<BR>ねんのために<BR>しらべて　みましょう。
+cGameSceneNPCScriptReference2960,<NAME>さんは<BR>ここで　まっていなさい。
+cGameSceneNPCScriptReference2962,なんだか　あやしい<BR>かんじの　かがみですね。
+cGameSceneNPCScriptReference2963,<NAME>さんも<BR>そう　おもいまして?
+cGameSceneNPCScriptReference2964,なかなか　カンが<BR>するどくなってきたじゃ<BR>ありませんこと。
+cGameSceneNPCScriptReference2965,ただの　おおきなかがみでは<BR>なさそうですわね。<BR>ねんのために<BR>しらべて　みましょう。
+cGameSceneNPCScriptReference2966,<NAME>さんは<BR>ここで　まっていなさい。
+cGameSceneNPCScriptReference2967,……………………………………
+cGameSceneNPCScriptReference2968,おおきな　かがみですわね。
+cGameSceneNPCScriptReference2969,でも　ふつうのかがみでは<BR>ないようですわね。<BR>しらべてみましょう。
+cGameSceneNPCScriptReference296A,<NAME>さんは<BR>ここで　まっていなさい。
+cGameSceneNPCScriptReference296B,……………………………………<BR>いっけん　ふつうのかがみの<BR>ようなんですが……
+cGameSceneNPCScriptReference296C,わっ!?
+cGameSceneNPCScriptReference296D,あかりが　きえましたわ!<BR><NAME>さん!<BR>ちゅういなさい!!
+cGameSceneNPCScriptReference296E,あっ……ついた…………………<BR>……………………………………<BR>エエッ!!<BR>すみれさんが　ふたり?!
+cGameSceneNPCScriptReference296F,!!<BR>な　なんですって?!<BR>わたくしが　もうひとり……<BR>どういうことですの?!
+cGameSceneNPCScriptReference2970,ど……　どっちが　ホンモノ<BR>なんだ……
+cGameSceneNPCScriptReference2971,<NAME>さん。<BR>どちらがホンモノか<BR>あなたなら<BR>わかりますわよね。
+cGameSceneNPCScriptReference2972,な……　なんですって!!<BR>かんざきすみれ　は<BR>このよに　ひとりで<BR>じゅうぶんですわ!!
+cGameSceneNPCScriptReference2973,<NAME>さん!<BR>ホンモノは　わたくしです。<BR>わかりますわね!!
+cGameSceneNPCScriptReference2974,うう……よわったな…………<BR>あっ　そうだ!<BR>すみれさんの　こうぶつを<BR>…………
+cGameSceneNPCScriptReference2975,あっ!　こうちゃが!!
+cGameSceneNPCScriptReference2977,あっ!　コーヒーが!!
+cGameSceneNPCScriptReference2979,あっ!　りょくちゃが!!
+cGameSceneNPCScriptReference297B,あっ!　コーヒーが!!
+cGameSceneNPCScriptReference297C,コーヒー?<BR>コーヒーが<BR>どうかしましたか?
+cGameSceneNPCScriptReference297D,しまった……<BR>コーヒーじゃないのか。<BR>それじゃあ……
+cGameSceneNPCScriptReference297F,あっ!　りょくちゃが!!
+cGameSceneNPCScriptReference2980,りょくちゃ?<BR>りょくちゃが<BR>どうかしましたか?
+cGameSceneNPCScriptReference2981,しまった……<BR>りょくちゃ　じゃないのか。<BR>それじゃあ……
+cGameSceneNPCScriptReference2982,あっ!　こうちゃが!!
+cGameSceneNPCScriptReference2983,えっ!?<BR>こうちゃですって!?<BR>どこに　あるんですの?<BR>のどが　かわいてましたのよ。
+cGameSceneNPCScriptReference2984,こうちゃなんて　どこにも<BR>ありませんわ……<BR><NAME>さん。
+cGameSceneNPCScriptReference2985,ふふっ　じょうだんですよ。<BR>でも　これでわかりました。<BR>ニセモノは……
+cGameSceneNPCScriptReference2986,みぎ　だ!!
+cGameSceneNPCScriptReference2988,ひだり　だ!!
+cGameSceneNPCScriptReference298A,ニセモノは　ひだりのやつ!!<BR>おまえだ!!
+cGameSceneNPCScriptReference298B,<NAME>さん!<BR>もういちど　よく<BR>かんがえなさい!!
+cGameSceneNPCScriptReference298C,よろしいですか?<BR>こうちゃと　きいたときの<BR>はんのうを　もういちど<BR>おみせしますわよ。
+cGameSceneNPCScriptReference298D,あっ!　こうちゃが!!
+cGameSceneNPCScriptReference298E,えっ!?<BR>こうちゃですって!?<BR>どこに　あるんですの?<BR>のどが　かわいてましたのよ。
+cGameSceneNPCScriptReference298F,こうちゃなんて　どこにも<BR>ありませんわ……<BR><NAME>さん。
+cGameSceneNPCScriptReference2990,これで　わかりましたわね。<BR>ニセモノは……
+cGameSceneNPCScriptReference2992,みぎのやつ!!<BR>おまえだ!!
+cGameSceneNPCScriptReference2993,な……なにをいうんですか<BR><NAME>さん<BR>わたくしは<BR>ホンモノですわよ。
+cGameSceneNPCScriptReference2994,ふふふ……<BR><NAME>さんに<BR>みやぶられた　ようですわね。
+cGameSceneNPCScriptReference2995,な……なんだと!?
+cGameSceneNPCScriptReference2996,すみれさんは　こうちゃが<BR>だいすき　なんですよ。
+cGameSceneNPCScriptReference2997,だから　それに　きょうみを<BR>しめさなかった　おまえは<BR>ニセモノだ!!
+cGameSceneNPCScriptReference2998,ぐ………………………<BR>…………………………<BR>ふ……ふっふっふ……
+cGameSceneNPCScriptReference2999,!!
+cGameSceneNPCScriptReference299A,よーーくーーぞ<BR>みやぶった!!
+cGameSceneNPCScriptReference299B,おバカだ　おバカだと<BR>おもっていたけど<BR>まんざら　おバカでは<BR>なーーかったんだねーー。
+cGameSceneNPCScriptReference299C,おまえは　なにもの!
+cGameSceneNPCScriptReference299D,『まじんき』をつかって<BR>なにを　しようと<BR>しているんですの!
+cGameSceneNPCScriptReference299E,Oh!　なーーんてことなの!<BR>キミたちは　そんなことも<BR>しらないで　たたかって<BR>いたのかい。
+cGameSceneNPCScriptReference299F,やっぱり　キミたちは<BR>おバカだね!　おバカだね!!<BR>おーーーおバカだね!!!
+cGameSceneNPCScriptReference29A0,バカ?　…………<BR>わたくしを　バカよばわりする<BR>おまえこそ　おおバカ<BR>ですわ。
+cGameSceneNPCScriptReference29A1,なぜなら　おまえは　ここで<BR>わたくしに　やられるの<BR>ですから!!
+cGameSceneNPCScriptReference29A2,やっぱり　バカだね。<BR>あたしが　おまえごときに<BR>やられるわけ　なーーーい。<BR>なーぜなら……
+cGameSceneNPCScriptReference29A3,まかいおう　とともに<BR>せかいを　やみにつつみ<BR>しはいするんだから……
+cGameSceneNPCScriptReference29A4,なーんちゃって<BR>なーんちゃって<BR>スゴイ　スゴイ　スゴイ<BR>スゴすぎ〜〜っ!
+cGameSceneNPCScriptReference29A5,まかいおう……
+cGameSceneNPCScriptReference29A6,おまえたち　『まじんき』を<BR>つかって　まかいおう<BR>とやらを　よびだそうと<BR>していたのですわね!!
+cGameSceneNPCScriptReference29A7,おおあたりーーー!<BR>おバカちゃんでも<BR>それくらいは<BR>わかるんだね。
+cGameSceneNPCScriptReference29A8,ま　そういうことで<BR>『まじんき』を　あつめてる<BR>おまえたちを　いきてかえす<BR>わけには　いかないのだーー!
+cGameSceneNPCScriptReference29A9,おふざけに　ならないで!<BR>おまえたちの　すきには<BR>させませんわ!!
+cGameSceneNPCScriptReference29AA,いきますわよ!<BR><NAME>さん!!
+cGameSceneNPCScriptReference29AB,うう……
+cGameSceneNPCScriptReference29AC,クッ!　このアタシが<BR>やられるなんて〜〜〜。<BR>くやしい〜〜〜〜〜〜〜!!
+cGameSceneNPCScriptReference29AD,……………………………………<BR>でも　まあ　いいや……
+cGameSceneNPCScriptReference29AE,やりましたね　すみれさん。
+cGameSceneNPCScriptReference29AF,ええ　<NAME>さんも<BR>よくやりましたわ。
+cGameSceneNPCScriptReference29B1,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference29B2,きになりますわね……<BR>でも　いまは『まじんき』を<BR>さがしましょう。
+cGameSceneNPCScriptReference29B3,ボスが　いたんですから<BR>きっと　このちかくに<BR>『まじんき』が<BR>あるはずですわ。
+cGameSceneNPCScriptReference29B4,こうちゃ　さくせん……<BR>よく　おもいつきましたわね。<BR>さすがは　<NAME>さん。
+cGameSceneNPCScriptReference29B5,けど……<BR>「まあ　いいや」って<BR>どういうことなんでしょう……
+cGameSceneNPCScriptReference29B6,きになりますわね……<BR>でも　いまは『まじんき』を<BR>さがしましょう。
+cGameSceneNPCScriptReference29B7,ボスが　いたんですから<BR>きっと　このちかくに<BR>『まじんき』が<BR>あるはずですわ。

@@ -1,0 +1,600 @@
+ID,Text
+cGameSceneNPCScriptReference2B9A,あっ!<BR>さくらさん!
+cGameSceneNPCScriptReference2B9B,えっ……<BR>あの　まものは………
+cGameSceneNPCScriptReference2B9C,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2B9D,おまえは<BR>『けん』の『まじんき』を　<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2B9E,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2B9F,ええっ!<BR>『たま』の『まじんき』を　<BR>まもっていた　まものも!
+cGameSceneNPCScriptReference2BA0,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2BA1,そんな!<BR>『かがみ』の『まじんき』を　<BR>まもっていた　おまえまで!
+cGameSceneNPCScriptReference2BA2,……どうやら<BR>この『まじんき』を<BR>とりもどしに　きたようね!
+cGameSceneNPCScriptReference2BA3,そのとおり!
+cGameSceneNPCScriptReference2BA4,『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2BA5,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2BA6,なに!<BR>おまえたち　なんかに……
+cGameSceneNPCScriptReference2BA7,まけないぞ!
+cGameSceneNPCScriptReference2BA9,……てごわそうだ……
+cGameSceneNPCScriptReference2BAB,いちどたおした　おまえたち<BR>なんかに　まけるものか!<BR>また　やっつけてやる!!
+cGameSceneNPCScriptReference2BAC,そのいきですよ。<BR><NAME>さん!
+cGameSceneNPCScriptReference2BAE,いちど　たおしたとはいえ<BR>３にん　どうじだと<BR>てごわそうだぞ……
+cGameSceneNPCScriptReference2BAF,<NAME>さん<BR>そんな　きよわなことを<BR>いわないで　ください。
+cGameSceneNPCScriptReference2BB0,いまの　<NAME>さんなら<BR>あんなやつら　３にんいても<BR>へっちゃらですよ!
+cGameSceneNPCScriptReference2BB1,さあ　バシッと<BR>やっつけちゃいましょう!
+cGameSceneNPCScriptReference2BB2,………………………………
+cGameSceneNPCScriptReference2BB3,いちどまけた　おまえたちに<BR>かちめは　ないわよ!
+cGameSceneNPCScriptReference2BB4,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2BB5,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2BB6,<NAME>さん!<BR>いきますよ!!
+cGameSceneNPCScriptReference2BB7,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2BB8,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2BB9,<NAME>さん<BR>やりましたね。<BR>さすがです。
+cGameSceneNPCScriptReference2BBA,さくらさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2BBB,わかりません………………<BR>…………………でも………
+cGameSceneNPCScriptReference2BBC,なにか　わるいことが<BR>おこっていることは<BR>たしかですね!
+cGameSceneNPCScriptReference2BBD,いそぎましょう!<BR><NAME>さん。
+cGameSceneNPCScriptReference2BBE,あっ!<BR>さくらさん!
+cGameSceneNPCScriptReference2BBF,えっ……<BR>あの　まものは………
+cGameSceneNPCScriptReference2BC0,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2BC1,おまえは<BR>『けん』の『まじんき』を　<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2BC2,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2BC3,ええっ!<BR>『たま』の『まじんき』を　<BR>まもっていた　まものも!
+cGameSceneNPCScriptReference2BC4,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2BC5,そんな!<BR>『かがみ』の『まじんき』を　<BR>まもっていた　おまえまで!
+cGameSceneNPCScriptReference2BC6,……どうやら<BR>この『まじんき』を<BR>とりもどしに　きたようね!
+cGameSceneNPCScriptReference2BC7,そのとおり!
+cGameSceneNPCScriptReference2BC8,『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2BC9,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2BCA,なんですって!<BR>おまえたち　なんかに……
+cGameSceneNPCScriptReference2BCB,まけないわよ!
+cGameSceneNPCScriptReference2BCD,……てごわそうだわ……
+cGameSceneNPCScriptReference2BCF,いちどたおした　おまえたち<BR>なんかに　まけないわよ!
+cGameSceneNPCScriptReference2BD0,そのいきですよ。<BR><NAME>さん!
+cGameSceneNPCScriptReference2BD2,いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだわ……
+cGameSceneNPCScriptReference2BD3,<NAME>さん<BR>そんな　きよわなことを<BR>いわないで　ください。
+cGameSceneNPCScriptReference2BD4,じしんを　なくしたら<BR>かてる　たたかいでも<BR>まけてしまいますよ。
+cGameSceneNPCScriptReference2BD5,さあ　きあいをいれて<BR>あんなやつら　バシッと<BR>やっつけちゃいましょう!
+cGameSceneNPCScriptReference2BD6,………………………………
+cGameSceneNPCScriptReference2BD7,いちどたたかった<BR>おまえたちには<BR>まけたりしないわ!
+cGameSceneNPCScriptReference2BD8,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2BD9,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2BDA,<NAME>さん!<BR>いきますよ!!
+cGameSceneNPCScriptReference2BDB,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2BDC,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2BDD,<NAME>さん<BR>やりましたね。<BR>さすがです。
+cGameSceneNPCScriptReference2BDE,さくらさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2BDF,わかりません………………<BR>…………………でも………
+cGameSceneNPCScriptReference2BE0,なにか　わるいことが<BR>おこっていることは<BR>たしかですね!
+cGameSceneNPCScriptReference2BE1,いそぎましょう!<BR><NAME>さん。
+cGameSceneNPCScriptReference2BE2,あっ!<BR>すみれさん!
+cGameSceneNPCScriptReference2BE3,あら……<BR>あの　まものは………
+cGameSceneNPCScriptReference2BE4,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2BE5,おまえは　いちどたおした<BR>『けん』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2BE6,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2BE7,おまえは<BR>『たま』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2BE8,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2BE9,おまえは<BR>『かがみ』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2BEA,いちど　わたくしたちに<BR>たおされた　ザコが<BR>なんの　ようですの?!
+cGameSceneNPCScriptReference2BEB,ふふふ……<BR>『まじんき』を　かえして<BR>もらおうと　おもってな。
+cGameSceneNPCScriptReference2BEC,なんですって!!
+cGameSceneNPCScriptReference2BED,さあ……<BR>『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2BEE,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2BEF,いちどたおした　おまえたちに<BR>このわたくしが　まけるわけ<BR>ございませんわ。
+cGameSceneNPCScriptReference2BF0,ねえ　<NAME>さん。
+cGameSceneNPCScriptReference2BF1,まけません
+cGameSceneNPCScriptReference2BF3,……てごわそうだ……
+cGameSceneNPCScriptReference2BF5,もちろんですよ!<BR>あんな　ザコなんて<BR>らくしょうですよ。
+cGameSceneNPCScriptReference2BF6,おっほほほほ。<BR>なかなか　いいますわね<BR><NAME>さんも。
+cGameSceneNPCScriptReference2BF8,いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだぞ……
+cGameSceneNPCScriptReference2BF9,<NAME>さん<BR>なさけないですわよ!
+cGameSceneNPCScriptReference2BFA,やつらは　いちどたおした<BR>まもの。<BR>そんなやつらを　おそれて<BR>どうするんですの!
+cGameSceneNPCScriptReference2BFB,………………………………
+cGameSceneNPCScriptReference2BFC,<NAME>さん!<BR>いちどたおした　まものを<BR>おそれて　どうするんですの!
+cGameSceneNPCScriptReference2BFD,……まったく<BR>なさけない!
+cGameSceneNPCScriptReference2BFE,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2BFF,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2C00,<NAME>さん!<BR>まいりますわよ!
+cGameSceneNPCScriptReference2C01,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2C02,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2C03,<NAME>さん<BR>よく　がんばりましたわね。
+cGameSceneNPCScriptReference2C04,すみれさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2C05,わかりませんわ……………<BR>…………………でも………
+cGameSceneNPCScriptReference2C06,なにか　わるいことが<BR>おこっていることは<BR>たしかですわね!
+cGameSceneNPCScriptReference2C07,いそぎますわよ!<BR><NAME>さん。
+cGameSceneNPCScriptReference2C08,あっ!<BR>すみれさん!
+cGameSceneNPCScriptReference2C09,あら……<BR>あの　まものは………
+cGameSceneNPCScriptReference2C0A,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2C0B,おまえは　いちどたおした<BR>『けん』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2C0C,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2C0D,おまえは<BR>『たま』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2C0E,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2C0F,おまえは<BR>『かがみ』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2C10,いちど　わたくしたちに<BR>たおされた　ザコが<BR>なんの　ようですの?!
+cGameSceneNPCScriptReference2C11,ふふふ……<BR>『まじんき』を　かえして<BR>もらおうと　おもってな。
+cGameSceneNPCScriptReference2C12,なんですって!!
+cGameSceneNPCScriptReference2C13,さあ……<BR>『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2C14,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2C15,いちどたおした　おまえたちに<BR>このわたくしが　まけるわけ<BR>ございませんわ。
+cGameSceneNPCScriptReference2C16,ねえ　<NAME>さん。
+cGameSceneNPCScriptReference2C17,まけません
+cGameSceneNPCScriptReference2C19,……てごわそうだ……
+cGameSceneNPCScriptReference2C1B,もちろんです!<BR>いちどたおした　あいてに<BR>まけるわけには　いきません<BR>からね!!
+cGameSceneNPCScriptReference2C1C,おっほほほほ。<BR>なかなか　いいますわね<BR><NAME>さんも。
+cGameSceneNPCScriptReference2C1E,いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだわ……
+cGameSceneNPCScriptReference2C1F,<NAME>さん<BR>だいじょうぶですわ。<BR>この　わたくしが<BR>いっしょに　いるのですから。
+cGameSceneNPCScriptReference2C20,さあ　おもいっきり<BR>たたかいますわよ!
+cGameSceneNPCScriptReference2C21,………………………………
+cGameSceneNPCScriptReference2C22,<NAME>さん!<BR>いちどたおした　まものを<BR>おそれて　どうするんですの!
+cGameSceneNPCScriptReference2C23,……まったく<BR>なさけない!
+cGameSceneNPCScriptReference2C24,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2C25,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2C26,<NAME>さん!<BR>まいりますわよ!
+cGameSceneNPCScriptReference2C27,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2C28,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2C29,<NAME>さん<BR>よく　がんばりましたわね。
+cGameSceneNPCScriptReference2C2A,すみれさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2C2B,わかりませんわ……………<BR>…………………でも………
+cGameSceneNPCScriptReference2C2C,なにか　わるいことが<BR>おこっていることは<BR>たしかですわね!
+cGameSceneNPCScriptReference2C2D,いそぎますわよ!<BR><NAME>さん。
+cGameSceneNPCScriptReference2C2E,あっ!<BR>アイリス!
+cGameSceneNPCScriptReference2C2F,あっ!　まものだぁ!!
+cGameSceneNPCScriptReference2C30,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2C31,ひさしぶり?<BR>……………………………………
+cGameSceneNPCScriptReference2C32,あっ!<BR>『けん』の『まじんき』に<BR>くっついてた　まものだ!
+cGameSceneNPCScriptReference2C33,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2C34,ああっ!!<BR>『たま』の『まじんき』に<BR>くっついてた　やつ!
+cGameSceneNPCScriptReference2C35,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2C36,ウソ!?<BR>『かがみ』の『まじんき』の<BR>ときの　まものもいるの!
+cGameSceneNPCScriptReference2C37,いちど　やっつけたハズ<BR>なのに!<BR>どうして?!
+cGameSceneNPCScriptReference2C38,『まじんき』を<BR>かえして　もらうため<BR>じごくから<BR>よみがえったのさ。
+cGameSceneNPCScriptReference2C39,エッ?!<BR>じゃあ　オバケなんだ!!<BR>どうしよう　<NAME>。
+cGameSceneNPCScriptReference2C3A,たたかおう!
+cGameSceneNPCScriptReference2C3C,にげようか?
+cGameSceneNPCScriptReference2C3E,たたかおう　アイリス!<BR>あいては　３たいも　いるけど<BR>いちど　たおしたやつらだ。
+cGameSceneNPCScriptReference2C3F,だいじょうぶ。<BR>らくしょうで　かてるよ。
+cGameSceneNPCScriptReference2C40,うん　そうだね!<BR>あんなまもの<BR>やっつけちゃおう!!
+cGameSceneNPCScriptReference2C42,にげようか　アイリス?<BR>オバケと　たたかうのって<BR>なんだか　こわいしね。
+cGameSceneNPCScriptReference2C43,さんせーいの　はんたーい。
+cGameSceneNPCScriptReference2C44,「さんせいの　はんたい」って<BR>どういうことだ?　アイリス。
+cGameSceneNPCScriptReference2C45,オバケは　こわいから<BR>アイリスも　にげたいんだけど<BR>……
+cGameSceneNPCScriptReference2C46,でも……『まじんき』を<BR>とられるわけには<BR>いかないんだよ。<BR>だから……
+cGameSceneNPCScriptReference2C47,がんばって　あいつらを<BR>やっつけちゃおう!<BR><NAME>!!
+cGameSceneNPCScriptReference2C48,さあ……<BR>『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2C49,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2C4A,フフフフフ……<BR>うまれかわった　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2C4B,いくぞ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2C4C,いくよ!　<NAME>!!
+cGameSceneNPCScriptReference2C4D,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2C4E,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2C4F,やったね　<NAME>!!
+cGameSceneNPCScriptReference2C50,アイリス……<BR>『まかいのトビラ』って<BR>なんなのかな?
+cGameSceneNPCScriptReference2C51,う〜ん……<BR>アイリスにも　わかんないよ。
+cGameSceneNPCScriptReference2C52,でも　なんだか<BR>いやな　よかんがするね。
+cGameSceneNPCScriptReference2C53,いそごう!<BR><NAME>!!
+cGameSceneNPCScriptReference2C54,あっ!<BR>アイリス!
+cGameSceneNPCScriptReference2C55,あっ!　まものだぁ!!
+cGameSceneNPCScriptReference2C56,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2C57,ひさしぶり?<BR>……………………………………
+cGameSceneNPCScriptReference2C58,あっ!<BR>『けん』の『まじんき』に<BR>くっついてた　まものだ!
+cGameSceneNPCScriptReference2C59,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2C5A,ああっ!!<BR>『たま』の『まじんき』に<BR>くっついてた　やつ!
+cGameSceneNPCScriptReference2C5B,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2C5C,ウソ!?<BR>『かがみ』の『まじんき』の<BR>ときの　まものもいるの!
+cGameSceneNPCScriptReference2C5D,いちど　やっつけたハズ<BR>なのに!<BR>どうして?!
+cGameSceneNPCScriptReference2C5E,その『まじんき』を<BR>かえして　もらうため<BR>じごくから<BR>よみがえったのさ。
+cGameSceneNPCScriptReference2C5F,エッ?!<BR>じゃあ　オバケなんだ!!<BR>どうしよう　<NAME>。
+cGameSceneNPCScriptReference2C60,たたかいましょう!
+cGameSceneNPCScriptReference2C62,オバケって　こわい
+cGameSceneNPCScriptReference2C64,たたかいましょう　アイリス!<BR>あいては　３たいも　いるけど<BR>いちど　たおしたやつら<BR>だから　だいじょうぶよ!
+cGameSceneNPCScriptReference2C65,わたしと　アイリスなら<BR>きっと　かんたんに<BR>たおせるわ!!
+cGameSceneNPCScriptReference2C66,うん　そうだね!<BR>あんな　まもの<BR>やっつけちゃおう!!
+cGameSceneNPCScriptReference2C68,オバケ?<BR>まものは　こわくないけど<BR>オバケってきくと　なんだか<BR>こわいわ　アイリス。
+cGameSceneNPCScriptReference2C69,うん……<BR>アイリスも　こわいよ……
+cGameSceneNPCScriptReference2C6A,でも………………………………<BR>………………『まじんき』を<BR>とられるわけには<BR>いかないのよね……
+cGameSceneNPCScriptReference2C6B,うん……　そうだよ。<BR>オバケは　こわいけど……
+cGameSceneNPCScriptReference2C6C,がんばって　あいつらを<BR>やっつけちゃおう!<BR><NAME>!!
+cGameSceneNPCScriptReference2C6D,さあ……<BR>『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2C6E,こーーーんどは<BR>まけなかったり<BR>しちゃったり　するんだから。
+cGameSceneNPCScriptReference2C6F,フフフフフ……<BR>うまれかわった　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2C70,いくぞ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2C71,いくよ!　<NAME>!!
+cGameSceneNPCScriptReference2C72,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2C73,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2C74,やったね　<NAME>!!
+cGameSceneNPCScriptReference2C75,アイリス……<BR>『まかいのトビラ』って<BR>なんなのかしら?
+cGameSceneNPCScriptReference2C76,う〜ん……<BR>アイリスにも　わかんないよ。
+cGameSceneNPCScriptReference2C77,でも　なんだか<BR>いやな　よかんがするね。
+cGameSceneNPCScriptReference2C78,いそごう!<BR><NAME>!!
+cGameSceneNPCScriptReference2C79,あっ!<BR>カンナさん!
+cGameSceneNPCScriptReference2C7A,あの　まものは………
+cGameSceneNPCScriptReference2C7B,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2C7C,おまえは<BR>『けん』の『まじんき』を　<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2C7D,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2C7E,なに……<BR>『たま』の『まじんき』を　<BR>まもっていた　まものか!
+cGameSceneNPCScriptReference2C7F,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2C80,クソ!<BR>『かがみ』の『まじんき』を　<BR>まもっていた　ヤツまで<BR>いるのか!
+cGameSceneNPCScriptReference2C81,いちど　あたいたちに<BR>たおされたハズなのに!!
+cGameSceneNPCScriptReference2C82,どうやら<BR>この『まじんき』が<BR>よっぽど　ほしいらしいな!
+cGameSceneNPCScriptReference2C83,そのとおり!
+cGameSceneNPCScriptReference2C84,『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2C85,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2C86,いちど　たたかった<BR>おまえたち　なんかに<BR>まけるか!<BR>なっ　<NAME>!!
+cGameSceneNPCScriptReference2C87,もちろんですよ!
+cGameSceneNPCScriptReference2C89,……てごわそうだ……
+cGameSceneNPCScriptReference2C8B,もちろんですよ!<BR>いちど　たおしたあいてに<BR>まけるものか!<BR>やっつけてやる!!
+cGameSceneNPCScriptReference2C8C,そのいきだぜ　<NAME>。
+cGameSceneNPCScriptReference2C8E,いちど　たおしたとはいえ<BR>あいてが　３たいもいると<BR>てごわそうだぞ……
+cGameSceneNPCScriptReference2C8F,なに　よわきに<BR>なってんだよ。
+cGameSceneNPCScriptReference2C90,いちど　たおした　あいてだ。<BR>ガンガン　いこうぜ!
+cGameSceneNPCScriptReference2C91,………………………………
+cGameSceneNPCScriptReference2C92,ボサッとするな　<NAME>!<BR>いちどたおした　あいて<BR>とはいえ　ゆだんすると<BR>やられるぜ!
+cGameSceneNPCScriptReference2C93,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2C94,みて　おどろけ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2C95,いくぜ!　<NAME>!!
+cGameSceneNPCScriptReference2C96,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2C97,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2C98,やったな　<NAME>!
+cGameSceneNPCScriptReference2C99,カンナさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2C9A,なんだろうな……<BR>わからない……
+cGameSceneNPCScriptReference2C9B,でも　なんだか<BR>ヤバそうだ……ってことは<BR>わかるぜ。
+cGameSceneNPCScriptReference2C9C,いそぐぞ!<BR><NAME>!!
+cGameSceneNPCScriptReference2C9D,あっ!<BR>カンナさん!
+cGameSceneNPCScriptReference2C9E,あの　まものは………
+cGameSceneNPCScriptReference2C9F,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2CA0,おまえは<BR>『けん』の『まじんき』を　<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2CA1,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2CA2,なに……<BR>『たま』の『まじんき』を　<BR>まもっていた　まものか!
+cGameSceneNPCScriptReference2CA3,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2CA4,クソ!<BR>『かがみ』の『まじんき』を　<BR>まもっていた　ヤツまで<BR>いるのか!
+cGameSceneNPCScriptReference2CA5,いちど　あたいたちに<BR>たおされたハズなのに!!
+cGameSceneNPCScriptReference2CA6,どうやら<BR>この『まじんき』が<BR>よっぽど　ほしいらしいな!
+cGameSceneNPCScriptReference2CA7,そのとおり!
+cGameSceneNPCScriptReference2CA8,『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2CA9,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2CAA,いちど　たたかった<BR>おまえたち　なんかに<BR>まけるか!<BR>なっ　<NAME>!!
+cGameSceneNPCScriptReference2CAB,もちろんです!
+cGameSceneNPCScriptReference2CAD,……てごわそうだわ……
+cGameSceneNPCScriptReference2CAF,もちろんです!<BR>いちど　たおしたあいてに<BR>まけるものですか!
+cGameSceneNPCScriptReference2CB0,そのいきだぜ　<NAME>。
+cGameSceneNPCScriptReference2CB2,いちど　たおしたとはいえ<BR>あいてが　３たいもいると<BR>てごわそうだわ……
+cGameSceneNPCScriptReference2CB3,なに　よわきに<BR>なってんだよ。
+cGameSceneNPCScriptReference2CB4,いちど　たおした　あいてだ。<BR>ガンガン　いこうぜ!
+cGameSceneNPCScriptReference2CB5,………………………………
+cGameSceneNPCScriptReference2CB6,ボサッとするな　<NAME>!<BR>いちどたおした　あいて<BR>とはいえ　ゆだんすると<BR>やられるぜ!
+cGameSceneNPCScriptReference2CB7,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2CB8,みて　おどろけ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2CB9,いくぜ!　<NAME>!!
+cGameSceneNPCScriptReference2CBA,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2CBB,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2CBC,やったな　<NAME>!
+cGameSceneNPCScriptReference2CBD,カンナさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2CBE,なんだろうな……<BR>わからない……
+cGameSceneNPCScriptReference2CBF,でも　なんだか<BR>ヤバそうだ……ってことは<BR>わかるぜ。
+cGameSceneNPCScriptReference2CC0,いそぐぞ!<BR><NAME>!!
+cGameSceneNPCScriptReference2CC1,あっ!<BR>マリアさん!
+cGameSceneNPCScriptReference2CC2,あの　まものは………
+cGameSceneNPCScriptReference2CC3,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2CC4,おまえは<BR>いちど　たおしたハズの<BR>『けん』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2CC5,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2CC6,おまえは<BR>『たま』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2CC7,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2CC8,おまえは<BR>『かがみ』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2CC9,おまえたちの　ねらいは……
+cGameSceneNPCScriptReference2CCA,この『まじんき』ね!!
+cGameSceneNPCScriptReference2CCB,そのとおり!
+cGameSceneNPCScriptReference2CCC,さあ……<BR>『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2CCD,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2CCE,なにを!<BR>おまえたち　なんか……
+cGameSceneNPCScriptReference2CCF,まけないぞ!
+cGameSceneNPCScriptReference2CD1,……てごわそうだ……
+cGameSceneNPCScriptReference2CD3,いちどたおした　おまえたち<BR>なんかに　まけるものか!<BR>やっつけてやる!!
+cGameSceneNPCScriptReference2CD4,そのいきよ　<NAME>くん。
+cGameSceneNPCScriptReference2CD5,でも　ゆだんしちゃ<BR>ダメよ　<NAME>くん。
+cGameSceneNPCScriptReference2CD7,いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだぞ……
+cGameSceneNPCScriptReference2CD8,そうね　<NAME>くん。<BR>どんなてきも　あなどっては<BR>いけないわ。<BR>ゆだんは　きんもつよ。
+cGameSceneNPCScriptReference2CD9,………………………………
+cGameSceneNPCScriptReference2CDA,いちどたたかった<BR>おまえたちには<BR>まけないわよ!!
+cGameSceneNPCScriptReference2CDB,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2CDC,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2CDD,<NAME>くん<BR>いくわよ!!
+cGameSceneNPCScriptReference2CDE,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2CDF,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2CE0,やったわね　<NAME>くん。
+cGameSceneNPCScriptReference2CE1,マリアさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2CE2,さあ……<BR>わからないわ……
+cGameSceneNPCScriptReference2CE3,でも　よくないことが<BR>おこり　はじめているのは<BR>わかるわ!
+cGameSceneNPCScriptReference2CE4,いそぐわよ!<BR><NAME>くん!!
+cGameSceneNPCScriptReference2CE5,あっ!<BR>マリアさん!
+cGameSceneNPCScriptReference2CE6,あの　まものは………
+cGameSceneNPCScriptReference2CE7,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2CE8,おまえは<BR>いちど　たおしたハズの<BR>『けん』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2CE9,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2CEA,おまえは<BR>『たま』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2CEB,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2CEC,おまえは<BR>『かがみ』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2CED,おまえたちの　ねらいは……
+cGameSceneNPCScriptReference2CEE,この『まじんき』ね!!
+cGameSceneNPCScriptReference2CEF,そのとおり!
+cGameSceneNPCScriptReference2CF0,さあ……<BR>『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2CF1,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2CF2,なにを!<BR>おまえたち　なんか……
+cGameSceneNPCScriptReference2CF3,まけないわ!
+cGameSceneNPCScriptReference2CF5,……てごわそうだわ……
+cGameSceneNPCScriptReference2CF7,いちどたおした　おまえたち<BR>なんかに　まけないわよ!
+cGameSceneNPCScriptReference2CF8,そのいきよ　<NAME>。
+cGameSceneNPCScriptReference2CF9,でも　ゆだんは　きんもつよ<BR><NAME>。
+cGameSceneNPCScriptReference2CFB,いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだわ……
+cGameSceneNPCScriptReference2CFC,そうね　<NAME>。<BR>どんなてきも　あなどっては<BR>いけないわ。<BR>ゆだんは　きんもつよ。
+cGameSceneNPCScriptReference2CFD,………………………………
+cGameSceneNPCScriptReference2CFE,いちどたたかった<BR>おまえたちには<BR>まけないわよ!!
+cGameSceneNPCScriptReference2CFF,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2D00,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2D01,いくわよ!　<NAME>!!
+cGameSceneNPCScriptReference2D02,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2D03,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2D04,よくやったわね　<NAME>。
+cGameSceneNPCScriptReference2D05,マリアさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2D06,さあ……<BR>わからないわ……
+cGameSceneNPCScriptReference2D07,でも　よくないことが<BR>おこり　はじめているのは<BR>わかるわ!
+cGameSceneNPCScriptReference2D08,いそぐわよ!　<NAME>!!
+cGameSceneNPCScriptReference2A7C,あっ!<BR>レニさん!
+cGameSceneNPCScriptReference2A7D,あの　まものは………
+cGameSceneNPCScriptReference2A7E,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2A7F,おまえは<BR>『けん』の『まじんき』を<BR>まもっていた　まもの。
+cGameSceneNPCScriptReference2A80,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2A81,おまえは<BR>『たま』の『まじんき』を<BR>まもっていた　まもの。
+cGameSceneNPCScriptReference2A82,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2A83,おまえは<BR>『かがみ』の『まじんき』を<BR>まもっていた　まもの。
+cGameSceneNPCScriptReference2A84,おまえたちは……<BR>いちど　ボクたちに<BR>たおされたハズ……
+cGameSceneNPCScriptReference2A85,そうか……<BR>この　『まじんき』が<BR>ねらいか!
+cGameSceneNPCScriptReference2A86,そのとおり!
+cGameSceneNPCScriptReference2A87,『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2A88,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2A89,なにを!<BR>おまえたち　なんか……
+cGameSceneNPCScriptReference2A8A,まけないぞ!
+cGameSceneNPCScriptReference2A8C,……てごわそうだ……
+cGameSceneNPCScriptReference2A8E,いちどたおした　おまえたち<BR>なんかに　まけるものか!<BR>やっつけてやる!!
+cGameSceneNPCScriptReference2A8F,<NAME>。<BR>てきを　あなどるな。
+cGameSceneNPCScriptReference2A90,せんじょうでは<BR>ゆだんしたものから<BR>しんでいく……
+cGameSceneNPCScriptReference2A92,いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだぞ……
+cGameSceneNPCScriptReference2A93,そうだ　<NAME>。<BR>どんなてきも　あなどっては<BR>いけない。<BR>ゆだんは　きんもつだ。
+cGameSceneNPCScriptReference2A94,………………………………
+cGameSceneNPCScriptReference2A95,なにがあろうと<BR>この『まじんき』は<BR>わたさない!
+cGameSceneNPCScriptReference2A96,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2A97,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2A98,いくぞ!　<NAME>!!
+cGameSceneNPCScriptReference2A99,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2A9A,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2A9B,よくやった　<NAME>。
+cGameSceneNPCScriptReference2A9C,レニさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2A9D,……わからない…………
+cGameSceneNPCScriptReference2A9E,でも　なにかが<BR>おこっていることは<BR>たしかだ。
+cGameSceneNPCScriptReference2A9F,グズグズしてられない。<BR>いそぐよ　<NAME>!
+cGameSceneNPCScriptReference2AA0,あっ!<BR>レニさん!
+cGameSceneNPCScriptReference2AA1,あの　まものは………
+cGameSceneNPCScriptReference2AA2,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2AA3,おまえは<BR>『けん』の『まじんき』を<BR>まもっていた　まもの。
+cGameSceneNPCScriptReference2AA4,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2AA5,おまえは<BR>『たま』の『まじんき』を<BR>まもっていた　まもの。
+cGameSceneNPCScriptReference2AA6,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2AA7,おまえは<BR>『かがみ』の『まじんき』を<BR>まもっていた　まもの。
+cGameSceneNPCScriptReference2AA8,おまえたちは……<BR>いちど　ボクたちに<BR>たおされたハズ……
+cGameSceneNPCScriptReference2AA9,そうか……<BR>この　『まじんき』が<BR>ねらいか!
+cGameSceneNPCScriptReference2AAA,そのとおり!
+cGameSceneNPCScriptReference2AAB,『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2AAC,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2AAD,なにを!<BR>おまえたち　なんか……
+cGameSceneNPCScriptReference2AAE,まけないわよ!
+cGameSceneNPCScriptReference2AB0,……てごわそうだわ……
+cGameSceneNPCScriptReference2AB2,いちどたおした　おまえたち<BR>なんかに　まけないわよ!
+cGameSceneNPCScriptReference2AB3,<NAME>。<BR>てきを　あなどるな。
+cGameSceneNPCScriptReference2AB4,せんじょうでは<BR>ゆだんしたものから<BR>しんでいく……
+cGameSceneNPCScriptReference2AB6,いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだわ……
+cGameSceneNPCScriptReference2AB7,そうだ　<NAME>。<BR>どんなてきも　あなどっては<BR>いけない。<BR>ゆだんは　きんもつだ。
+cGameSceneNPCScriptReference2AB8,………………………………
+cGameSceneNPCScriptReference2AB9,なにがあろうと<BR>この『まじんき』は<BR>わたさない!
+cGameSceneNPCScriptReference2ABA,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2ABB,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2ABC,いくぞ!　<NAME>!!
+cGameSceneNPCScriptReference2ABD,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2ABE,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2ABF,よくやった　<NAME>。
+cGameSceneNPCScriptReference2AC0,レニさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2AC1,……わからない…………
+cGameSceneNPCScriptReference2AC2,でも　なにかが<BR>おこっていることは<BR>たしかだ。
+cGameSceneNPCScriptReference2AC3,グズグズしてられない。<BR>いそぐよ　<NAME>!
+cGameSceneNPCScriptReference2AC4,あっ!<BR>おおがみさん!
+cGameSceneNPCScriptReference2AC5,むっ……<BR>あいつは………
+cGameSceneNPCScriptReference2AC6,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2AC7,おまえは　『けん』を<BR>とりもどすときに<BR>たおした　まもの!!
+cGameSceneNPCScriptReference2AC8,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2AC9,おまえは　『たま』を<BR>とりもどすときに<BR>たおした　まもの!!
+cGameSceneNPCScriptReference2ACA,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2ACB,おまえは　『かがみ』を<BR>とりもどすときに<BR>たおした　まもの!!
+cGameSceneNPCScriptReference2ACC,なんの　ようかは<BR>きくまでも　ないな……
+cGameSceneNPCScriptReference2ACD,おまえたち<BR>この　『まじんき』が<BR>めあてなんだろ!!
+cGameSceneNPCScriptReference2ACE,そのとおり!
+cGameSceneNPCScriptReference2ACF,さあ……<BR>『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2AD0,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2AD1,なにを!<BR>おまえたち　なんかに……
+cGameSceneNPCScriptReference2AD2,まけないぞ!
+cGameSceneNPCScriptReference2AD4,……てごわそうだ……
+cGameSceneNPCScriptReference2AD6,いちどたおした　おまえたち<BR>なんかに　まけるものか!<BR>やっつけてやる!!
+cGameSceneNPCScriptReference2AD7,うん!<BR>そのいきだ　<NAME>くん!
+cGameSceneNPCScriptReference2AD9,うーむ……<BR>いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだぞ……
+cGameSceneNPCScriptReference2ADA,そうだ　<NAME>くん。<BR>どんなてきも　あなどるな。<BR>ゆだんは　きんもつだ。
+cGameSceneNPCScriptReference2ADB,………………………………
+cGameSceneNPCScriptReference2ADC,いちどたたかった<BR>おまえたちには　まけん!!
+cGameSceneNPCScriptReference2ADD,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2ADE,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2ADF,<NAME>くん　いくぞ!<BR>きあいをいれろ!!
+cGameSceneNPCScriptReference2AE0,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2AE1,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2AE2,ふう……<BR><NAME>くん<BR>よくがんばったな。
+cGameSceneNPCScriptReference2AE3,おおがみさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2AE4,………わからない………………
+cGameSceneNPCScriptReference2AE5,しかし　よくないことが<BR>おこり　はじめているのは<BR>わかる!
+cGameSceneNPCScriptReference2AE6,<NAME>くん!!<BR>さきを　いそぐぞ!
+cGameSceneNPCScriptReference2AE7,あっ!<BR>おおがみさん!
+cGameSceneNPCScriptReference2AE8,むっ……<BR>あいつは………
+cGameSceneNPCScriptReference2AE9,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2AEA,おまえは　『けん』を<BR>とりもどすときに<BR>たおした　まもの!!
+cGameSceneNPCScriptReference2AEB,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2AEC,おまえは　『たま』を<BR>とりもどすときに<BR>たおした　まもの!!
+cGameSceneNPCScriptReference2AED,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2AEE,おまえは　『かがみ』を<BR>とりもどすときに<BR>たおした　まもの!!
+cGameSceneNPCScriptReference2AEF,なんの　ようかは<BR>きくまでも　ないな……
+cGameSceneNPCScriptReference2AF0,おまえたち!<BR>この　『まじんき』が<BR>めあてなんだろ!!
+cGameSceneNPCScriptReference2AF1,そのとおり!
+cGameSceneNPCScriptReference2AF2,さあ……<BR>『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2AF3,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2AF4,なにを!<BR>おまえたち　なんかに……
+cGameSceneNPCScriptReference2AF5,まけないわ!
+cGameSceneNPCScriptReference2AF7,……てごわそうだわ……
+cGameSceneNPCScriptReference2AF9,いちどたおした　おまえたち<BR>なんかに　まけるものですか!
+cGameSceneNPCScriptReference2AFA,うん!<BR>そのいきだ　<NAME>くん!
+cGameSceneNPCScriptReference2AFC,……いちど　たおした<BR>とはいっても……<BR>３たい　どうじだと<BR>てごわそうだわ……
+cGameSceneNPCScriptReference2AFD,そうだ　<NAME>くん。<BR>どんなてきも　あなどっちゃ<BR>いけない。<BR>ゆだんは　きんもつだからね。
+cGameSceneNPCScriptReference2AFE,………………………………
+cGameSceneNPCScriptReference2AFF,いちどたたかった<BR>おまえたちには　まけん!!
+cGameSceneNPCScriptReference2B00,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2B01,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2B02,<NAME>くん　いくぞ!<BR>きあいを　いれるんだ!!
+cGameSceneNPCScriptReference2B03,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2B04,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2B05,ふう……<BR><NAME>くん<BR>よくがんばったな。
+cGameSceneNPCScriptReference2B06,おおがみさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2B07,………わからない………………
+cGameSceneNPCScriptReference2B08,しかし　よくないことが<BR>おこり　はじめているのは<BR>わかる!
+cGameSceneNPCScriptReference2B09,さきを　いそごう!<BR><NAME>くん!!
+cGameSceneNPCScriptReference2B0A,あっ!<BR>こうらんさん!
+cGameSceneNPCScriptReference2B0B,ん……<BR>あの　まものは………
+cGameSceneNPCScriptReference2B0C,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2B0D,おまえは<BR>『けん』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2B0E,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2B0F,おまえは<BR>『たま』の『まじんき』を　<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2B10,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2B11,おまえは<BR>『かがみ』の『まじんき』を　<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2B12,おまえたち!<BR>『まじんき』を　とりかえしに<BR>きたんやな!!
+cGameSceneNPCScriptReference2B13,そのとおり!
+cGameSceneNPCScriptReference2B14,『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2B15,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2B16,なにを!<BR>おまえたち　なんかに……
+cGameSceneNPCScriptReference2B17,まけないぞ!
+cGameSceneNPCScriptReference2B19,……てごわそうだ……
+cGameSceneNPCScriptReference2B1B,いちどたおした　おまえたち<BR>なんかに　まけるものか!<BR>やっつけてやる!!
+cGameSceneNPCScriptReference2B1C,そうや!<BR><NAME>はん<BR>そのいきやで!
+cGameSceneNPCScriptReference2B1E,いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだぞ……
+cGameSceneNPCScriptReference2B1F,<NAME>はんも<BR>そう　おもうか〜。
+cGameSceneNPCScriptReference2B20,ゆだんは　きんもつや。<BR>きを　ひきしめて　いくで<BR><NAME>はん。
+cGameSceneNPCScriptReference2B21,………………………………
+cGameSceneNPCScriptReference2B22,いちどたたかった<BR>おまえたちには<BR>まけへんで〜!!
+cGameSceneNPCScriptReference2B23,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2B24,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2B25,いくで!<BR><NAME>はん!!
+cGameSceneNPCScriptReference2B26,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2B27,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2B28,やったな〜。<BR>さすがやで　<NAME>はん。
+cGameSceneNPCScriptReference2B29,こうらんさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2B2A,……う〜ん…………………<BR>わからん……………………<BR>でも………………
+cGameSceneNPCScriptReference2B2B,なんか　わるいことが<BR>おこってるんは<BR>たしかや!
+cGameSceneNPCScriptReference2B2C,いそぐで<BR><NAME>はん。
+cGameSceneNPCScriptReference2B2D,あっ!<BR>こうらんさん!
+cGameSceneNPCScriptReference2B2E,ん……<BR>あの　まものは………
+cGameSceneNPCScriptReference2B2F,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2B30,おまえは<BR>『けん』の『まじんき』を<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2B31,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2B32,おまえは<BR>『たま』の『まじんき』を　<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2B33,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2B34,おまえは<BR>『かがみ』の『まじんき』を　<BR>まもっていた　まもの!
+cGameSceneNPCScriptReference2B35,おまえたち!<BR>『まじんき』を　とりかえしに<BR>きたんやな!!
+cGameSceneNPCScriptReference2B36,そのとおり!
+cGameSceneNPCScriptReference2B37,『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2B38,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2B39,なにを!<BR>おまえたち　なんかに……
+cGameSceneNPCScriptReference2B3A,まけないわよ!
+cGameSceneNPCScriptReference2B3C,……てごわそうだわ……
+cGameSceneNPCScriptReference2B3E,いちどたおした　おまえたち<BR>なんかに　まけるものですか!
+cGameSceneNPCScriptReference2B3F,そうや!<BR><NAME>はん<BR>そのいきやで!
+cGameSceneNPCScriptReference2B41,いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだわ……
+cGameSceneNPCScriptReference2B42,そうや。　<NAME>はん。<BR>ゆだんは　きんもつや。
+cGameSceneNPCScriptReference2B43,きを　ひきしめて　いくで<BR><NAME>はん。
+cGameSceneNPCScriptReference2B44,………………………………
+cGameSceneNPCScriptReference2B45,いちどたたかった<BR>おまえたちには<BR>まけへんで〜!!
+cGameSceneNPCScriptReference2B46,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2B47,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2B48,いくで!<BR><NAME>はん!!
+cGameSceneNPCScriptReference2B49,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2B4A,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2B4B,やったな〜。<BR>さすがやで　<NAME>はん。
+cGameSceneNPCScriptReference2B4C,こうらんさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2B4D,……う〜ん…………………<BR>わからん……………………<BR>でも………………
+cGameSceneNPCScriptReference2B4E,なんか　わるいことが<BR>おこってるんは<BR>たしかや!
+cGameSceneNPCScriptReference2B4F,いそぐで<BR><NAME>はん。
+cGameSceneNPCScriptReference2B50,あっ!<BR>おりひめさん!
+cGameSceneNPCScriptReference2B51,あの　まものは………
+cGameSceneNPCScriptReference2B52,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2B53,おまえは<BR>『けん』の『まじんき』の<BR>まもの!!
+cGameSceneNPCScriptReference2B54,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2B55,おまえは<BR>『たま』の『まじんき』の<BR>まもの!!
+cGameSceneNPCScriptReference2B56,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2B57,おまえは<BR>『かがみ』の『まじんき』の<BR>まもの!!
+cGameSceneNPCScriptReference2B58,いちど　たおしたハズなのに!
+cGameSceneNPCScriptReference2B59,わかったでーす!<BR>おまえたちは　オバケなの<BR>でーすね!!
+cGameSceneNPCScriptReference2B5A,ふっふっふっふっふ……<BR>オレたちは　『まじんき』を<BR>とりもどすために<BR>よみがえったのさ!
+cGameSceneNPCScriptReference2B5B,さあ……<BR>『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2B5C,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2B5D,よみがえった?<BR>やっぱり　オバケでーす!!<BR>ゾンビでーす!!
+cGameSceneNPCScriptReference2B5E,わたしたちが　ゾンビなんかに<BR>まけるわけが　ありませーん。<BR>ねっ。<NAME>さん。
+cGameSceneNPCScriptReference2B5F,まけないぞ!
+cGameSceneNPCScriptReference2B61,……てごわそうだ……
+cGameSceneNPCScriptReference2B63,いちどたおした　おまえたち<BR>なんかに　まけるものか!<BR>やっつけてやる!!
+cGameSceneNPCScriptReference2B64,そのいきでーす!<BR><NAME>さん!!
+cGameSceneNPCScriptReference2B66,いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだぞ……
+cGameSceneNPCScriptReference2B67,<NAME>さん<BR>なさけないでーす!
+cGameSceneNPCScriptReference2B68,おとこなら<BR>「らくしょうだぜ!」<BR>ぐらい　いうべきでーす。
+cGameSceneNPCScriptReference2B69,………………………………
+cGameSceneNPCScriptReference2B6A,いちどたたかった<BR>おまえたちには<BR>まけませーん!!
+cGameSceneNPCScriptReference2B6B,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2B6C,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2B6D,<NAME>さん!<BR>レッツ!　ファイト!!
+cGameSceneNPCScriptReference2B6E,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2B6F,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2B70,やりましたね。<BR>さすが　<NAME>さん<BR>でーす。
+cGameSceneNPCScriptReference2B71,おりひめさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2B72,なんでしょう……<BR>わかりませーん……<BR>……でも…………
+cGameSceneNPCScriptReference2B73,なんだか　ヤバイことが<BR>おこっているのは<BR>そうぞうできまーす。
+cGameSceneNPCScriptReference2B74,いそぐでーす!<BR><NAME>さん!!
+cGameSceneNPCScriptReference2B75,あっ!<BR>おりひめさん!
+cGameSceneNPCScriptReference2B76,あの　まものは………
+cGameSceneNPCScriptReference2B77,よお。<BR>ひさしぶりだな〜。
+cGameSceneNPCScriptReference2B78,おまえは<BR>『けん』の『まじんき』の<BR>まもの!!
+cGameSceneNPCScriptReference2B79,あらららららら。<BR>こっちにも　いますよ。
+cGameSceneNPCScriptReference2B7A,おまえは<BR>『たま』の『まじんき』の<BR>まもの!!
+cGameSceneNPCScriptReference2B7B,こーーーっちにも<BR>いちゃったり　なんか<BR>するんだからねーーっ。
+cGameSceneNPCScriptReference2B7C,おまえは<BR>『かがみ』の『まじんき』の<BR>まもの!!
+cGameSceneNPCScriptReference2B7D,いちど　たおしたハズなのに!
+cGameSceneNPCScriptReference2B7E,わかったでーす!<BR>おまえたちは　オバケなの<BR>でーすね!!
+cGameSceneNPCScriptReference2B7F,ふっふっふっふっふ……<BR>オレたちは　『まじんき』を<BR>とりもどすために<BR>よみがえったのさ!
+cGameSceneNPCScriptReference2B80,さあ……<BR>『まじんき』を　かえして<BR>もらいますよ。
+cGameSceneNPCScriptReference2B81,こーーーんどは<BR>まけなかったり<BR>しちゃったりするんだから。
+cGameSceneNPCScriptReference2B82,よみがえった?<BR>やっぱり　オバケでーす!!<BR>ゾンビでーす!!
+cGameSceneNPCScriptReference2B83,わたしたちが　ゾンビなんかに<BR>まけるわけが　ありませーん。<BR>ねっ。<NAME>さん。
+cGameSceneNPCScriptReference2B84,まけませんよ!
+cGameSceneNPCScriptReference2B86,……てごわそうだわ……
+cGameSceneNPCScriptReference2B88,いちどたおした　おまえたち<BR>なんかに　まけるものですか!
+cGameSceneNPCScriptReference2B89,そのいきでーす!<BR><NAME>さん!!
+cGameSceneNPCScriptReference2B8B,いちど　たおしたとはいえ<BR>３たい　どうじだと<BR>てごわそうだわ……
+cGameSceneNPCScriptReference2B8C,<NAME>さん<BR>ふあんに　ならなくても<BR>だいじょーぶでーす。
+cGameSceneNPCScriptReference2B8D,このわたしが　ついてまーす。<BR>がんばりましょう!
+cGameSceneNPCScriptReference2B8E,………………………………
+cGameSceneNPCScriptReference2B8F,いちどたたかった<BR>おまえたちには<BR>まけませーん!!
+cGameSceneNPCScriptReference2B90,フフフフフ……<BR>こんどの　オレたちは<BR>ひとあじ　ちがうぜ。
+cGameSceneNPCScriptReference2B91,いくぜ!<BR>３たい　がったいだ!
+cGameSceneNPCScriptReference2B92,<NAME>さん!<BR>レッツ!　ファイト!!
+cGameSceneNPCScriptReference2B93,ぐおお……お……ま……<BR>『まかいのトビラ』が<BR>かんぜんに　ひらけば……
+cGameSceneNPCScriptReference2B94,『トビラ』がひらけば<BR>われわれは　なんどでも<BR>よみがえってくるぞーー!!!
+cGameSceneNPCScriptReference2B95,やりましたね。<BR>さすが　<NAME>さん<BR>でーす。
+cGameSceneNPCScriptReference2B96,おりひめさん……<BR>『まかいのトビラ』って<BR>なんなのですか?
+cGameSceneNPCScriptReference2B97,なんでしょう……<BR>わかりませーん……<BR>……でも…………
+cGameSceneNPCScriptReference2B98,なんだか　ヤバイことが<BR>おこっているのは<BR>そうぞうできまーす。
+cGameSceneNPCScriptReference2B99,いそぐでーす!<BR><NAME>さん!!

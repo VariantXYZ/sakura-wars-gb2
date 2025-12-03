@@ -26,6 +26,8 @@ rom_path = sys.argv[1]
 game_scene_src_dir = sys.argv[2]
 game_scene_script_dir = sys.argv[3]
 game_scene_npc_script_dir = sys.argv[4]
+game_scene_npc_text_dir = sys.argv[5]
+build_dir = sys.argv[6]
 
 game_scene_npc_charmap = os.path.join(game_scene_npc_script_dir, f'charmap.asm')
 
@@ -247,7 +249,10 @@ with open(rom_path, 'rb') as rom:
             title = f'Game Scene NPC Script {index:04X}'
             data_section_written = False
             data_section_current_bank = None
+            do_write_line(write_line, lines, 'PUSHC\n')
             do_write_line(write_line, lines, f'INCLUDE "game/src/common/macros.asm"')
+            do_write_line(write_line, lines, f'INCLUDE "{game_scene_npc_charmap}"\n')
+            do_write_line(write_line, lines, f'INCLUDE "{os.path.join(build_dir, f"text.game_scene_npc_script_{index:04X}.asm") }"\n')
             do_write_line(write_line, lines, f'SECTION "{title}", ROMX[${rom_addr[1]:04X}], BANK[${rom_addr[0]:02X}]')
             do_write_line(write_line, lines, f'{prefix}{index:04X}::')
             rom.seek(addr)
@@ -630,17 +635,16 @@ with open(rom_path, 'rb') as rom:
                     if initial_written == False:
                         initial_written = True 
                     elif real_addr not in handled_references:
-                        if not is_data:
-                            do_write_line(write_line, lines, f'\nSECTION "{title} Reference {reference_id:04X} (Subroutine)", ROMX[${addr:04X}], BANK[${bank:02X}]')
+                        do_write_line(write_line, lines, f'\nSECTION "{title} Reference {reference_id:04X} ({"Data" if is_data else "Subroutine"})", ROMX[${addr:04X}], BANK[${bank:02X}]')
                     if is_data:
-                        assert data_type == 'Text', "Text is the only supported data type"
+                        do_write_line(write_line, lines, f'{prefix}Reference{reference_id:04X}::')
                         is_term = True
                         for _ in range(data_count):
                             data = list(iter(partial(utils.read_byte, rom), data_terminator))
                             # Parse text
-                            # Since all text is relatively packed, we can just group it all which will simplify spacing for translation
                             length = 0
                             text = ""
+                            assert data_type == 'Text', "Text is the only supported data type currently"
                             if data_type == 'Text':
                                 while length < len(data):
                                     byte = data[length]
@@ -665,8 +669,10 @@ with open(rom_path, 'rb') as rom:
                                         print('\n'.join(lines))
                                         raise ValueError(f"{index:04X}: Unknown character at {bank:02X}:{addr:04X} {byte:02X}")
                                     length += 1
+                                reference_name = f"c{prefix}Reference{reference_id:04X}"
                                 if write_line:
-                                    bisect.insort(all_text[index], (utils.rom2realaddr((bank, addr)), f'{prefix}Reference{reference_id:04X}', text, data_terminator, length), key = lambda a: a[0] )
+                                    all_text[index].append([reference_name, text])
+                                do_write_line(write_line, lines, f'  db #{reference_name},${data_terminator:02X}')
                             else:
                                 do_write_line(write_line, lines, f'  db {",".join([f"${x:02X}" for x in data])},${data_terminator:02X}' + f' ; {data_type}' if data_type is not None else '')
                     elif real_addr not in handled_references:
@@ -687,42 +693,27 @@ with open(rom_path, 'rb') as rom:
                         to_parse.appendleft(utils.read_byte(rom))
 
     for filename in files:
-        with open(filename, 'w') as text_fp:
+        with open(filename, 'w', encoding='utf-8') as text_fp:
             lines = files[filename]
             for line in lines:
                 text_fp.write(line + '\n')
+            text_fp.write('\nPOPC\n')
 
     for index in all_text:
-        with open(os.path.join(game_scene_npc_script_dir, f'game_scene_npc_script_text_{index:04X}.asm'), 'w') as text_fp:
+        with open(os.path.join(game_scene_npc_text_dir, f'game_scene_npc_script_{index:04X}.csv'), 'w', encoding='utf-8') as csv_fp:
             current_bank = None
             next_addr = None
             current_segment = 0
-            text_fp.write('PUSHC\n')
-            text_fp.write(f'INCLUDE "{game_scene_npc_charmap}"\n')
+            writer = csv.writer(csv_fp, lineterminator='\n', delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            writer.writerow(["ID", "Text"])
+
             for data in all_text[index]:
-                bank, addr = utils.real2romaddr(data[0])
-                reference_name = data[1]
-                text = data[2]
-                data_terminator = data[3]
-                length = data[4] + 1 # String length + terminator
-
-                if current_bank != bank:
-                    current_segment = 0
-                    text_fp.write(f'\nSECTION "Text{index:04X} Bank {bank:02X} Segment {current_segment}", ROMX[${addr:04X}], BANK[${bank:02X}]\n')
-                    current_bank = bank
-                    next_addr = None
-                elif next_addr is not None and addr != next_addr:
-                    current_segment += 1
-                    text_fp.write(f'\nSECTION "Text{index:04X} Bank {bank:02X} Segment {current_segment}", ROMX[${addr:04X}], BANK[${bank:02X}]\n')
-
-                next_addr = addr + length
-
-                text_fp.write(f'{reference_name}::\n')
-                text_fp.write(f'  db "{text}",${data_terminator:02X}\n')
-            text_fp.write('\nPOPC\n')
+                reference_name = data[0]
+                text = data[1]
+                writer.writerow([f'{reference_name}', text])
 
 
-    with open(game_scene_npc_charmap, 'w') as charmap_fp:
+    with open(game_scene_npc_charmap, 'w', encoding='utf-8') as charmap_fp:
         for key, value in character_table.items():
             if key > 0xFF:
                 charmap_fp.write(f'CHARMAP "{value}",${(key >> 8):02X},${(key & 0xFF):02X}\n')

@@ -60,6 +60,7 @@ GAME_SCRIPT_DIR := $(GAME_DIR)/scripts
 CUTSCENE_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/cutscene
 GAMESCENE_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/gamescene
 GAMESCENE_NPC_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/gamescene_npc
+GAMESCENE_NPC_TEXT_DIR := $(TEXT_DIR)/gamescene_npc
 
 ## Output Directories
 GFX_OUT_DIR := $(BUILD_DIR)/gfx
@@ -82,7 +83,7 @@ OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(I
 COMMON_SRC := $(wildcard $(COMMON)/*.$(SOURCE_TYPE))
 TILESETS_1BPP_IMAGE_FILES := $(notdir $(basename $(wildcard $(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE))))
 CUTSCENE_SCRIPT_OBJNAMES := $(foreach FILE, $(notdir $(basename $(wildcard $(CUTSCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)))), $(addprefix cs., $(FILE)) )
-GAMESCENE_NPC_SCRIPT_OBJNAMES := $(foreach FILE, $(notdir $(basename $(wildcard $(GAMESCENE_NPC_SCRIPT_DIR)/*.$(SOURCE_TYPE)))), $(addprefix gs.npc., $(FILE)) )
+GAMESCENE_NPC_SCRIPT_OBJNAMES := $(foreach FILE, $(notdir $(basename $(wildcard $(GAMESCENE_NPC_SCRIPT_DIR)/game_scene_npc_script_*.$(SOURCE_TYPE)))), $(addprefix gs.npc., $(FILE)) )
 
 # Intermediates
 CUTSCENE_SCRIPT_OBJECTS := $(foreach OBJECT,$(CUTSCENE_SCRIPT_OBJNAMES), $(addsuffix .$(INT_TYPE), $(addprefix $(BUILD_DIR)/,$(OBJECT))) )
@@ -124,10 +125,12 @@ $(TILESET_OUT_DIR)/%.$(1BPP_TYPE): $(TILESET_GFX_DIR)/%.$(RAW_1BPP_SRC_TYPE) | $
 $(BUILD_DIR)/cs.%.$(SOURCE_TYPE): $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BUILD_DIR)
 	$(PYTHON) $(SCRIPT_DIR)/cs2asm.py $@ $^
 
-# TODO: Handle this the same way as cutscene scripts
-# For now, build gamescene npc script objects from source
-$(BUILD_DIR)/gs.npc.%.$(INT_TYPE): $(GAMESCENE_NPC_SCRIPT_DIR)/%.$(SOURCE_TYPE)
+
+$(BUILD_DIR)/gs.npc.%.$(INT_TYPE): $(GAMESCENE_NPC_SCRIPT_DIR)/%.$(SOURCE_TYPE) $(BUILD_DIR)/text.%.$(SOURCE_TYPE) | $(BUILD_DIR)
 	$(CC) $(CC_ARGS) -o $@ $<
+
+$(BUILD_DIR)/text.%.$(SOURCE_TYPE): $(GAMESCENE_NPC_TEXT_DIR)/%.$(CSV_TYPE) | $(BUILD_DIR)
+	$(PYTHON) $(SCRIPT_DIR)/csv2asm.py $@ $<
 
 # Dumping
 .PHONY: dump dump_tilesets dump_cutscene_scripts dump_gamescene_scripts
@@ -142,11 +145,12 @@ dump_cutscene_scripts: | $(CUTSCENE_SCRIPT_DIR)
 	rm $(call ESCAPE,$(GAME_EVENT_SRC_DIR)/cutscene_script_table.$(SOURCE_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_cutscene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(CUTSCENE_SCRIPT_DIR)"
 
-dump_gamescene_scripts: | $(GAMESCENE_SCRIPT_DIR) $(GAMESCENE_NPC_SCRIPT_DIR)
+dump_gamescene_scripts: | $(GAMESCENE_SCRIPT_DIR) $(GAMESCENE_NPC_SCRIPT_DIR) $(GAMESCENE_NPC_TEXT_DIR)
 	rm $(call ESCAPE,$(GAMESCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
 	rm $(call ESCAPE,$(GAMESCENE_NPC_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
+	rm $(call ESCAPE,$(GAMESCENE_NPC_TEXT_DIR)/*.$(CSV_TYPE)) || echo ""
 	rm $(call ESCAPE,$(GAME_EVENT_SRC_DIR)/game_scene_table.$(SOURCE_TYPE)) || echo ""
-	$(PYTHON) $(SCRIPT_DIR)/dump_gamescene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(GAMESCENE_SCRIPT_DIR)" "$(GAMESCENE_NPC_SCRIPT_DIR)"
+	$(PYTHON) $(SCRIPT_DIR)/dump_gamescene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(GAMESCENE_SCRIPT_DIR)" "$(GAMESCENE_NPC_SCRIPT_DIR)" "$(GAMESCENE_NPC_TEXT_DIR)" "$(BUILD_DIR)"
 
 #Make directories if necessary
 $(BUILD_DIR):
@@ -166,3 +170,6 @@ $(GAMESCENE_SCRIPT_DIR):
 
 $(GAMESCENE_NPC_SCRIPT_DIR):
 	mkdir -p $(GAMESCENE_NPC_SCRIPT_DIR)
+
+$(GAMESCENE_NPC_TEXT_DIR):
+	mkdir -p $(GAMESCENE_NPC_TEXT_DIR)
