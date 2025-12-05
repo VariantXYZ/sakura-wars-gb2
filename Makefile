@@ -152,6 +152,13 @@ dump_gamescene_scripts: | $(GAMESCENE_SCRIPT_DIR) $(GAMESCENE_NPC_SCRIPT_DIR) $(
 	rm $(call ESCAPE,$(GAME_EVENT_SRC_DIR)/game_scene_table.$(SOURCE_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_gamescene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(GAMESCENE_SCRIPT_DIR)" "$(GAMESCENE_NPC_SCRIPT_DIR)" "$(GAMESCENE_NPC_TEXT_DIR)" "$(BUILD_DIR)"
 
+# Spreadsheet updating/dumping
+
+.PHONY: update_gamescene_npc
+
+update_gamescene_npc: $(wildcard $(GAMESCENE_NPC_TEXT_DIR)/*.$(CSV_TYPE))
+	$(PYTHON) $(SCRIPT_DIR)/update_gamescene_npc.py "$(TEXT_DIR)/gamescene_npc.xlsx" $^
+
 #Make directories if necessary
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
