@@ -1,53 +1,53 @@
 ID,Text
-cGameSceneNPCScriptReference000B,このさき<BR>たちいり　きんし
-cGameSceneNPCScriptReference000F,おおがみさん。<BR>このトビラ　ひらきません。
-cGameSceneNPCScriptReference0010,そうだな……<BR>どうしようか<BR><NAME>くん?
-cGameSceneNPCScriptReference0011,ばくは　しましょう
-cGameSceneNPCScriptReference0013,なやみますね……
-cGameSceneNPCScriptReference0015,ばくは　しましょう!
-cGameSceneNPCScriptReference0016,<NAME>は　なぜか<BR>こうらんの　こうかんどが<BR>あがったようなきがした。
-cGameSceneNPCScriptReference0017,おいおい　まつんだ!<BR>キミは　こうらんか?!
-cGameSceneNPCScriptReference0018,これは　ブリッジにつうじる<BR>じゅうようなトビラなんだ。
-cGameSceneNPCScriptReference0019,ばくは　なんて<BR>とんでもないぞ。
-cGameSceneNPCScriptReference001B,……こまりましたね。<BR>このさきは　なにか<BR>じゅうような　ところ<BR>なんですか?
-cGameSceneNPCScriptReference001C,そうなんだ　このさきには<BR>ブリッジが　あるんだ。
-cGameSceneNPCScriptReference001D,じゃあ　このトビラ<BR>かんたんには<BR>あかないんですね。
-cGameSceneNPCScriptReference001E,そうだな　<NAME>くん。<BR>よく　ぶんせき　できてるじゃ<BR>ないか。
-cGameSceneNPCScriptReference001F,……………………………………
-cGameSceneNPCScriptReference0020,このままでは　さきに<BR>すすめないな。
-cGameSceneNPCScriptReference0021,おそらく　このトビラを<BR>ひらくには　『つうこうパス』<BR>が　ひつようなんだろう。
-cGameSceneNPCScriptReference0022,もどって　さがしてみよう。
-cGameSceneNPCScriptReference0023,やはり　『つうこうパス』が<BR>ひつよう　だな。<BR>もどって　さがしてみよう。
-cGameSceneNPCScriptReference0024,<NAME>くん。<BR>さっき　てにいれた<BR>『つうこうパス』を<BR>つかうんだ。
-cGameSceneNPCScriptReference0025,りょうかい
-cGameSceneNPCScriptReference0027,はい　おおがみさん!
-cGameSceneNPCScriptReference0028,パスを　かくにん。<BR>ロック　かいじょ。
-cGameSceneNPCScriptReference0029,よし　ひらいたな。
-cGameSceneNPCScriptReference002A,なかなか　てぎわがいいね。<BR>やるな〜　<NAME>くん。
-cGameSceneNPCScriptReference002B,これからも　そのちょうしで<BR>たのむよ。
-cGameSceneNPCScriptReference002C,このさき<BR>たちいり　きんし
-cGameSceneNPCScriptReference0030,おおがみさん。<BR>このトビラ　ひらきません。
-cGameSceneNPCScriptReference0031,そうだな……<BR>どうしようか<BR><NAME>くん?
-cGameSceneNPCScriptReference0032,こわしましょう
-cGameSceneNPCScriptReference0034,なやみますね……
-cGameSceneNPCScriptReference0036,こわしましょう!<BR>トリャー!!
-cGameSceneNPCScriptReference0037,<NAME>は　なぜか<BR>カンナの　こうかんどが<BR>あがったようなきがした。
-cGameSceneNPCScriptReference0038,おいおい　まつんだ!<BR>カンナか　キミは?!
-cGameSceneNPCScriptReference0039,これは　ブリッジにつうじる<BR>じゅうようなトビラなんだ。
-cGameSceneNPCScriptReference003A,そうかんたんに<BR>こわれたり　しないよ。
-cGameSceneNPCScriptReference003C,……こまりましたね。<BR>このさきは　なにか<BR>じゅうような　ところ<BR>なんですか?
-cGameSceneNPCScriptReference003D,そうなんだ　このさきには<BR>ブリッジが　あるんだ。
-cGameSceneNPCScriptReference003E,じゃあ　このトビラ<BR>かんたんには<BR>あかないんですね。
-cGameSceneNPCScriptReference003F,そうだな　<NAME>くん。<BR>よく　ぶんせき　できてるじゃ<BR>ないか。
-cGameSceneNPCScriptReference0040,……………………………………
-cGameSceneNPCScriptReference0041,このままでは　さきに<BR>すすめないな。
-cGameSceneNPCScriptReference0042,おそらく　このトビラを<BR>ひらくには　『つうこうパス』<BR>が　ひつようなんだろう。
-cGameSceneNPCScriptReference0043,もどって　さがしてみよう。
-cGameSceneNPCScriptReference0044,やはり　『つうこうパス』が<BR>ひつよう　だな。<BR>もどって　さがしてみよう。
-cGameSceneNPCScriptReference0045,<NAME>くん。<BR>さっき　てにいれた<BR>『つうこうパス』　を<BR>つかうんだ。
-cGameSceneNPCScriptReference0046,りょうかい
-cGameSceneNPCScriptReference0048,はい　おおがみさん!
-cGameSceneNPCScriptReference0049,パスを　かくにん。<BR>ロック　かいじょ。
-cGameSceneNPCScriptReference004A,よし　ひらいたな。
-cGameSceneNPCScriptReference004B,<NAME>くん<BR>なかなか　てぎわがいいね。
-cGameSceneNPCScriptReference004C,これからも　そのちょうしで<BR>たのむよ。
+cGameSceneNPCScriptReference000B,No entry beyond this point.
+cGameSceneNPCScriptReference000F,"Hey Ogami, this door won’t open."
+cGameSceneNPCScriptReference0010,"You’re right.<BR>What do you think we should do, <NAME>?"
+cGameSceneNPCScriptReference0011,Blow it up
+cGameSceneNPCScriptReference0013,No idea…
+cGameSceneNPCScriptReference0015,Let’s blow it up!
+cGameSceneNPCScriptReference0016,<NAME> felt closer to Kohran for some reason.
+cGameSceneNPCScriptReference0017,"Whoa, hold it!<BR>Who do you think you are, Kohran?!"
+cGameSceneNPCScriptReference0018,This is a very important door leading to the bridge.
+cGameSceneNPCScriptReference0019,We can’t just blow it up!
+cGameSceneNPCScriptReference001B,… I have no idea.<BR>Is there something important back there?
+cGameSceneNPCScriptReference001C,"Yeah, the bridge is just past here."
+cGameSceneNPCScriptReference001D,"So it’s not going to open easily, is it?"
+cGameSceneNPCScriptReference001E,"That’s right, <NAME>.<BR>You’re pretty sharp."
+cGameSceneNPCScriptReference001F,…
+cGameSceneNPCScriptReference0020,Well we’re not getting anywhere at this rate.
+cGameSceneNPCScriptReference0021,We probably need an access pass to get through here.
+cGameSceneNPCScriptReference0022,Let’s go back and look for one.
+cGameSceneNPCScriptReference0023,We’ll need an access pass to get through. Let’s go look for it.
+cGameSceneNPCScriptReference0024,"Hey, <NAME>, try using the access pass you just picked up."
+cGameSceneNPCScriptReference0025,Roger.
+cGameSceneNPCScriptReference0027,"Yes sir, Mr. Ogami!"
+cGameSceneNPCScriptReference0028,Pass confirmed.<BR>Releasing lock.
+cGameSceneNPCScriptReference0029,"Alright, it’s open."
+cGameSceneNPCScriptReference002A,"Nicely done, <NAME>!<BR>Way to go!"
+cGameSceneNPCScriptReference002B,"Keep up the good work,<BR>we’re counting on you."
+cGameSceneNPCScriptReference002C,No entry beyond this point.
+cGameSceneNPCScriptReference0030,"Hey Ogami, this door won’t open."
+cGameSceneNPCScriptReference0031,"You’re right.<BR>What do you think we should do, <NAME>?"
+cGameSceneNPCScriptReference0032,Let’s smash it open
+cGameSceneNPCScriptReference0034,No idea…
+cGameSceneNPCScriptReference0036,Let’s smash it open!<BR>Hiyahh!!
+cGameSceneNPCScriptReference0037,<NAME> felt closer to Kanna for some reason.
+cGameSceneNPCScriptReference0038,"Whoa, hold it!<BR>Who do you think you are, Kanna?!"
+cGameSceneNPCScriptReference0039,This is a very important door leading to the bridge.
+cGameSceneNPCScriptReference003A,You won’t be able to smash through it that easily.
+cGameSceneNPCScriptReference003C,… I have no idea.<BR>Is there something important back there?
+cGameSceneNPCScriptReference003D,"Yeah, the bridge is just past here."
+cGameSceneNPCScriptReference003E,"So it’s not going to open easily, is it?"
+cGameSceneNPCScriptReference003F,"That’s right, <NAME>.<BR>You’re pretty sharp."
+cGameSceneNPCScriptReference0040,…
+cGameSceneNPCScriptReference0041,Well we’re not getting anywhere at this rate.
+cGameSceneNPCScriptReference0042,We probably need an access pass to get through here.
+cGameSceneNPCScriptReference0043,Let’s go back and look for one.
+cGameSceneNPCScriptReference0044,We’ll need an access pass to get through. Let’s go look for it.
+cGameSceneNPCScriptReference0045,"Hey, <NAME>, try using the access pass you just picked up."
+cGameSceneNPCScriptReference0046,Roger.
+cGameSceneNPCScriptReference0048,"Yes sir, Mr. Ogami!"
+cGameSceneNPCScriptReference0049,Pass confirmed.<BR>Releasing lock.
+cGameSceneNPCScriptReference004A,"Alright, it’s open."
+cGameSceneNPCScriptReference004B,"Nicely done, <NAME>.<BR>Good job."
+cGameSceneNPCScriptReference004C,"Keep up the good work,<BR>we’re counting on you."

@@ -1,59 +1,59 @@
 ID,Text
-cGameSceneNPCScriptReference0322,うわ〜!!<BR>そとですよ　<NAME>さん。
-cGameSceneNPCScriptReference0323,てんぼうだいから　したを　<BR>みおろして　みましょう。
-cGameSceneNPCScriptReference0325,うわ〜　たかい!!<BR>ミカサって　けっこう<BR>たかいんですね。
-cGameSceneNPCScriptReference0326,ミカサのたかさは<BR>１０００メートルいじょう<BR>ありますからね。
-cGameSceneNPCScriptReference0328,う〜ん……<BR>やっぱり　たかいですね〜。<BR>おちない　ように<BR>きをつけなきゃ。
-cGameSceneNPCScriptReference032A,１０００メートルいじょう!?<BR>ひぇ〜〜!!<BR>おちない　ように<BR>きをつけます!!
-cGameSceneNPCScriptReference032B,フフフ……<BR>じぶんが　おちないように<BR>するのは　もちろんですけど
-cGameSceneNPCScriptReference032C,モノを　おとしたりも<BR>しないよう　きをつけて<BR>くださいね。
-cGameSceneNPCScriptReference032D,このしたは　こうえんに<BR>なっていますから<BR>だれかに　あたると<BR>おおケガしちゃいますからね。
-cGameSceneNPCScriptReference032E,!!!……あれっ!!<BR>……ない………ないわ…………<BR>おかしいわ　たしかここに……
-cGameSceneNPCScriptReference032F,どうしたんですか<BR>さくらさん。
-cGameSceneNPCScriptReference0330,あ……あの……<BR>じつは……　おとしちゃった<BR>みたいなんですよ。
-cGameSceneNPCScriptReference0331,えっ?<BR>いま　おとさない　ようにって<BR>いった　ばかりじゃ<BR>ありませんでしたっけ!?
-cGameSceneNPCScriptReference0332,い……いえ　そうではなくて。<BR>ここにくる　とちゅうに　<BR>その……
-cGameSceneNPCScriptReference0333,おサイフを……<BR>おとしちゃった<BR>みたいなんです…………
-cGameSceneNPCScriptReference0334,えっ　おサイフを!?
+cGameSceneNPCScriptReference0322,"Whoa! Look, <NAME>, we’re outside."
+cGameSceneNPCScriptReference0323,Let’s take a look down from the observation deck.
+cGameSceneNPCScriptReference0325,"Whoa, we’re so high up!<BR>The Mikasa’s huge!"
+cGameSceneNPCScriptReference0326,"The Mikasa’s over 1000 meters tall, you know."
+cGameSceneNPCScriptReference0328,"Huh…<BR>It sure is huge, alright.<BR>Gotta be careful not to fall."
+cGameSceneNPCScriptReference032A,1000 meters?!<BR>Eek!<BR>I’ll be extra careful not to fall!
+cGameSceneNPCScriptReference032B,Heehee…<BR>I think you ought to be fine…
+cGameSceneNPCScriptReference032C,But do be careful not to drop anything from up here.
+cGameSceneNPCScriptReference032D,"There’s a park down there, so if anything here falls, it might hit someone."
+cGameSceneNPCScriptReference032E,… Huh?!<BR>It’s not here… It’s gone!<BR>I could’ve sworn it was here…
+cGameSceneNPCScriptReference032F,"What’s wrong, Sakura?"
+cGameSceneNPCScriptReference0330,"U-Um… Well…<BR>It seems I’ve, uh…<BR>Dropped something…"
+cGameSceneNPCScriptReference0331,Huh? Didn’t you just tell me to be careful not to drop anything?
+cGameSceneNPCScriptReference0332,"No, not like that.<BR>I lost something on the way here."
+cGameSceneNPCScriptReference0333,"It was, um, my wallet…"
+cGameSceneNPCScriptReference0334,Huh? Your wallet?!
 cGameSceneNPCScriptReference0335,!!
-cGameSceneNPCScriptReference0336,この　ピンクいろのモノは<BR>なんだウガ?<BR>???
-cGameSceneNPCScriptReference0337,あっ!　<NAME>さん!!<BR>あのまものが　もってるの<BR>あたしの　おサイフです!
-cGameSceneNPCScriptReference0338,そのピンクいろの　おサイフは<BR>あたしのです!<BR>かえしてください!!
-cGameSceneNPCScriptReference0339,なんだウガ?<BR>これは　オレがひろったんだ。<BR>オレのものウガ。
-cGameSceneNPCScriptReference033A,ほしかったら<BR>オレを　たおして<BR>うばうがいいウガ!
-cGameSceneNPCScriptReference033B,よかった〜　あたしの<BR>だいじな　おサイフが<BR>もどってきて……
-cGameSceneNPCScriptReference033C,よかったですね　さくらさん。
-cGameSceneNPCScriptReference033D,でも　そんなに<BR>だいじなものなら<BR>ていげきに　おいといたほうが<BR>いいんじゃ　ないですか?
-cGameSceneNPCScriptReference033E,そうなんですけど……<BR>これは　おとうさまから<BR>いただいた　たいせつな<BR>おサイフなんです。
-cGameSceneNPCScriptReference033F,これをもってると<BR>おとうさまが<BR>まもってくれてるようで　<BR>こころづよくて……
-cGameSceneNPCScriptReference0340,その　おサイフは　<BR>さくらさんの<BR>おまもりなんですね。
-cGameSceneNPCScriptReference0341,ウフフ。<BR>そうなんです。
-cGameSceneNPCScriptReference0342,うわ〜!!<BR>そとですよ　<NAME>さん。
-cGameSceneNPCScriptReference0343,てんぼうだいから　したを　<BR>みおろして　みましょう。
-cGameSceneNPCScriptReference0345,キャ〜　たかい!!<BR>ミカサって　けっこう<BR>たかいんですね。
-cGameSceneNPCScriptReference0346,ミカサのたかさは<BR>１０００メートルいじょう<BR>ありますからね。
-cGameSceneNPCScriptReference0348,……………………………………<BR>やっぱり　たかいですね〜。<BR>おちない　ように<BR>きをつけなきゃ。
-cGameSceneNPCScriptReference034A,１０００メートルいじょう!?<BR>ひぇ〜〜!!<BR>おちない　ように<BR>きをつけます!!
-cGameSceneNPCScriptReference034B,フフフ……<BR>じぶんが　おちないように<BR>するのは　もちろんですけど
-cGameSceneNPCScriptReference034C,モノを　おとしたりも<BR>しないよう　きをつけて<BR>くださいね。
-cGameSceneNPCScriptReference034D,このしたは　こうえんに<BR>なっていますから<BR>だれかに　あたると<BR>おおケガしちゃいますからね。
-cGameSceneNPCScriptReference034E,!!!……あれっ!!<BR>……ない………ないわ…………<BR>おかしいわ　たしかここに……
-cGameSceneNPCScriptReference034F,どうかしましたか<BR>さくらさん。
-cGameSceneNPCScriptReference0350,あ……あの……<BR>じつは……　おとしちゃった<BR>みたいなんですよ。
-cGameSceneNPCScriptReference0351,えっ?<BR>いま　おとさない　ようにって<BR>いった　ばかりじゃ<BR>ありませんでしたっけ!?
-cGameSceneNPCScriptReference0352,い……いえ　そうではなくて。<BR>ここにくる　とちゅうに　<BR>その……
-cGameSceneNPCScriptReference0353,おサイフを……<BR>おとしちゃった<BR>みたいなんです…………
-cGameSceneNPCScriptReference0354,えっ　おサイフを!?
+cGameSceneNPCScriptReference0336,Ugah!<BR>What’s this pink thing?
+cGameSceneNPCScriptReference0337,Ah! <NAME>!<BR>That demon’s got my wallet!
+cGameSceneNPCScriptReference0338,That pink wallet’s mine!<BR>Give it back!
+cGameSceneNPCScriptReference0339,Ugah? This thing?<BR>It’s mine!<BR>Finders keepers!
+cGameSceneNPCScriptReference033A,"If you want it, then fight me for it, ugah!"
+cGameSceneNPCScriptReference033B,Thank goodness I got my precious wallet back…
+cGameSceneNPCScriptReference033C,"That’s great, Sakura…"
+cGameSceneNPCScriptReference033D,But shouldn’t you have left something that important back at the Theater?
+cGameSceneNPCScriptReference033E,"Well, sure, but…<BR>This wallet is very special to me.<BR>My father gave it to me."
+cGameSceneNPCScriptReference033F,"I feel safer when I have it with me, like my father is watching over me…"
+cGameSceneNPCScriptReference0340,"So it’s a protective charm of sorts, huh?"
+cGameSceneNPCScriptReference0341,"Heehee, that’s right."
+cGameSceneNPCScriptReference0342,"Whoa! Look, <NAME>, we’re outside."
+cGameSceneNPCScriptReference0343,Let’s take a look down from the observation deck.
+cGameSceneNPCScriptReference0345,"Eek, we’re so high up!<BR>The Mikasa’s huge!"
+cGameSceneNPCScriptReference0346,"The Mikasa’s over 1000 meters tall, you know."
+cGameSceneNPCScriptReference0348,"…<BR>That sure is tall, alright.<BR>I’ll have to be careful not to fall."
+cGameSceneNPCScriptReference034A,1000 meters?!<BR>Eek!<BR>I’ll be extra careful not to fall!
+cGameSceneNPCScriptReference034B,Heehee…<BR>I think you ought to be fine…
+cGameSceneNPCScriptReference034C,But do be careful not to drop anything from up here.
+cGameSceneNPCScriptReference034D,"There’s a park down there, so if anything here falls, it might hit someone."
+cGameSceneNPCScriptReference034E,… Huh?!<BR>It’s not here… It’s gone!<BR>I could’ve sworn it was here…
+cGameSceneNPCScriptReference034F,"Is something the matter, Sakura?"
+cGameSceneNPCScriptReference0350,"U-Um… Well…<BR>It seems I’ve, uh…<BR>Dropped something…"
+cGameSceneNPCScriptReference0351,Huh? Didn’t you just tell me to be careful not to drop anything?
+cGameSceneNPCScriptReference0352,"No, not like that.<BR>I lost something on the way here."
+cGameSceneNPCScriptReference0353,"It was, um, my wallet…"
+cGameSceneNPCScriptReference0354,Huh? Your wallet?!
 cGameSceneNPCScriptReference0355,!!
-cGameSceneNPCScriptReference0356,この　ピンクいろのモノは<BR>なんだウガ?<BR>???
-cGameSceneNPCScriptReference0357,あっ!　<NAME>さん!!<BR>あのまものが　もってるの<BR>あたしの　おサイフです!
-cGameSceneNPCScriptReference0358,そのピンクいろの　おサイフは<BR>あたしのです!<BR>かえしてください!!
-cGameSceneNPCScriptReference0359,なんだウガ?<BR>これは　オレがひろったんだ。<BR>オレのものウガ。
-cGameSceneNPCScriptReference035A,ほしかったら<BR>オレを　たおして<BR>うばうがいいウガ!
-cGameSceneNPCScriptReference035B,よかった〜　あたしの<BR>だいじな　おサイフが<BR>もどってきて……
-cGameSceneNPCScriptReference035C,よかったですね　さくらさん。
-cGameSceneNPCScriptReference035D,でも　そんなに<BR>だいじなものなら<BR>ていげきに　おいといたほうが<BR>いいんじゃ　ないですか?
-cGameSceneNPCScriptReference035E,そうなんですけど……<BR>これは　おとうさまから<BR>いただいた　たいせつな<BR>おサイフなんです。
-cGameSceneNPCScriptReference035F,これをもってると<BR>おとうさまが<BR>まもってくれてるようで　<BR>こころづよくて……
-cGameSceneNPCScriptReference0360,その　おサイフは　<BR>さくらさんの<BR>おまもりなんですね。
-cGameSceneNPCScriptReference0361,はい。<BR>そうなんです。
+cGameSceneNPCScriptReference0356,Ugah!<BR>What’s this pink thing?
+cGameSceneNPCScriptReference0357,Ah! <NAME>!<BR>That demon’s got my wallet!
+cGameSceneNPCScriptReference0358,That pink wallet’s mine!<BR>Give it back!
+cGameSceneNPCScriptReference0359,Ugah? This thing?<BR>It’s mine!<BR>Finders keepers!
+cGameSceneNPCScriptReference035A,"If you want it, then fight me for it, ugah!"
+cGameSceneNPCScriptReference035B,Thank goodness I got my precious wallet back…
+cGameSceneNPCScriptReference035C,"That’s great, Sakura…"
+cGameSceneNPCScriptReference035D,But shouldn’t you have left something that important back at the Theater?
+cGameSceneNPCScriptReference035E,"Well, sure, but…<BR>This wallet is very special to me.<BR>My father gave it to me."
+cGameSceneNPCScriptReference035F,"I feel safer when I have it with me, like my father is watching over me…"
+cGameSceneNPCScriptReference0360,"So it’s a protective charm of sorts, huh?"
+cGameSceneNPCScriptReference0361,"Yes, that’s right."

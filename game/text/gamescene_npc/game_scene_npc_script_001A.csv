@@ -1,41 +1,41 @@
 ID,Text
-cGameSceneNPCScriptReference075F,アイリス!　<NAME>さん!
-cGameSceneNPCScriptReference0760,どうしたの?
-cGameSceneNPCScriptReference0761,ばらぐみの　きくちゃんと<BR>れんらくが<BR>とれなくなったの。
-cGameSceneNPCScriptReference0762,エエッ!
-cGameSceneNPCScriptReference0763,さいごに　つうしんが<BR>あったのは　そこから<BR>すこしさきの　エリアよ。
-cGameSceneNPCScriptReference0764,りょうかい!<BR><NAME>　いそごう!!
-cGameSceneNPCScriptReference0765,アイリス!　<NAME>くん!
-cGameSceneNPCScriptReference0766,どうしたの?
-cGameSceneNPCScriptReference0767,ばらぐみの　きくちゃんと<BR>れんらくが<BR>とれなくなったの。
-cGameSceneNPCScriptReference0768,エエッ!
-cGameSceneNPCScriptReference0769,さいごに　つうしんが<BR>あったのは　そこから<BR>すこしさきの　エリアよ。
-cGameSceneNPCScriptReference076A,りょうかい!<BR><NAME>　いそごう!!
-cGameSceneNPCScriptReference0772,さくらさん!
-cGameSceneNPCScriptReference0773,どうしたんですか?<BR>ゆりさん。
-cGameSceneNPCScriptReference0774,ばらぐみの　きくちゃんと<BR>れんらくが<BR>とれなくなりました。
-cGameSceneNPCScriptReference0775,ほんとうですか!
-cGameSceneNPCScriptReference0776,さいごに　つうしんが<BR>あったのは　そこから<BR>すこしさきの　エリアです。
-cGameSceneNPCScriptReference0777,わかりました。<BR><NAME>さん<BR>いそぎましょう。
-cGameSceneNPCScriptReference0778,はい!
-cGameSceneNPCScriptReference0779,さくらさん!
-cGameSceneNPCScriptReference077A,どうしたんですか?<BR>ゆりさん。
-cGameSceneNPCScriptReference077B,ばらぐみの　きくちゃんと<BR>れんらくが<BR>とれなくなりました。
-cGameSceneNPCScriptReference077C,ほんとうですか!
-cGameSceneNPCScriptReference077D,さいごに　つうしんが<BR>あったのは　そこから<BR>すこしさきの　エリアです。
-cGameSceneNPCScriptReference077E,わかりました。<BR><NAME>さん<BR>いそぎましょう。
-cGameSceneNPCScriptReference077F,はい!
-cGameSceneNPCScriptReference076B,レニさん!
-cGameSceneNPCScriptReference076C,なに?
-cGameSceneNPCScriptReference076D,ばらぐみの　きくちゃんと<BR>れんらくが<BR>とれなくなりました。
-cGameSceneNPCScriptReference076E,それで!
-cGameSceneNPCScriptReference076F,さいごに　つうしんが<BR>あったのは　そこから<BR>すこしさきの　エリアです。
-cGameSceneNPCScriptReference0770,りょうかい。<BR>いそごう　<NAME>。
-cGameSceneNPCScriptReference0771,はい!
-cGameSceneNPCScriptReference0780,すみれさん!
-cGameSceneNPCScriptReference0781,どうしたんですの?<BR>ゆりさん。
-cGameSceneNPCScriptReference0782,ばらぐみの　きくちゃんと<BR>れんらくが<BR>とれなくなりました。
-cGameSceneNPCScriptReference0783,ほんとうですの!
-cGameSceneNPCScriptReference0784,さいごに　つうしんが<BR>あったのは　そこから<BR>すこしさきの　エリアです。
-cGameSceneNPCScriptReference0785,わかりました。<BR><NAME>さん<BR>いそぎますわよ。
-cGameSceneNPCScriptReference0786,はい!
+cGameSceneNPCScriptReference075F,Iris! <NAME>!
+cGameSceneNPCScriptReference0760,What’s wrong?
+cGameSceneNPCScriptReference0761,We’ve lost contact with Kiku from the Rose Division.
+cGameSceneNPCScriptReference0762,Huh?!
+cGameSceneNPCScriptReference0763,His last known position is just a bit further ahead from where you are.
+cGameSceneNPCScriptReference0764,"Roger!<BR>Let’s hurry, <NAME>!"
+cGameSceneNPCScriptReference0765,Iris! <NAME>!
+cGameSceneNPCScriptReference0766,What’s wrong?
+cGameSceneNPCScriptReference0767,We’ve lost contact with Kiku from the Rose Division.
+cGameSceneNPCScriptReference0768,Huh?!
+cGameSceneNPCScriptReference0769,His last known position is just a bit further ahead from where you are.
+cGameSceneNPCScriptReference076A,"Roger!<BR>Let’s hurry, <NAME>!"
+cGameSceneNPCScriptReference0772,Sakura!
+cGameSceneNPCScriptReference0773,"What is it, Yuri?"
+cGameSceneNPCScriptReference0774,We’ve lost contact with Kiku from the Rose Division.
+cGameSceneNPCScriptReference0775,Really?!
+cGameSceneNPCScriptReference0776,His last known position is just a bit further ahead from where you are.
+cGameSceneNPCScriptReference0777,"Understood.<BR>Come on, <NAME>.<BR>Let’s hurry."
+cGameSceneNPCScriptReference0778,Got it!
+cGameSceneNPCScriptReference0779,Sakura!
+cGameSceneNPCScriptReference077A,"What is it, Yuri?"
+cGameSceneNPCScriptReference077B,We’ve lost contact with Kiku from the Rose Division.
+cGameSceneNPCScriptReference077C,Really?!
+cGameSceneNPCScriptReference077D,His last known position is just a bit further ahead from where you are.
+cGameSceneNPCScriptReference077E,"Understood.<BR>Come on, <NAME>.<BR>Let’s hurry."
+cGameSceneNPCScriptReference077F,OK!
+cGameSceneNPCScriptReference076B,Reni!
+cGameSceneNPCScriptReference076C,What is it?
+cGameSceneNPCScriptReference076D,We’ve lost contact with Kiku from the Rose Division.
+cGameSceneNPCScriptReference076E,What?!
+cGameSceneNPCScriptReference076F,His last known position is just a bit further ahead from where you are.
+cGameSceneNPCScriptReference0770,"Roger.<BR>Let’s hurry, <NAME>."
+cGameSceneNPCScriptReference0771,OK!
+cGameSceneNPCScriptReference0780,Sumire!
+cGameSceneNPCScriptReference0781,"What is it, Yuri?"
+cGameSceneNPCScriptReference0782,We’ve lost contact with Kiku from the Rose Division.
+cGameSceneNPCScriptReference0783,Really?!
+cGameSceneNPCScriptReference0784,His last known position is just a bit further ahead from where you are.
+cGameSceneNPCScriptReference0785,"Understood.<BR>Come, <NAME>.<BR>We must hurry."
+cGameSceneNPCScriptReference0786,OK!

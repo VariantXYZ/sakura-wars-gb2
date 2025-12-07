@@ -1,6 +1,6 @@
 ID,Text
-cGameSceneNPCScriptReference0001,＜リターンポイント＞<BR>ていげきへもどりますか?
-cGameSceneNPCScriptReference0002,もどる
-cGameSceneNPCScriptReference0004,もどらない
-cGameSceneNPCScriptReference0006,ていげきへ　もどります。
-cGameSceneNPCScriptReference0007,<NAME>たち　は<BR>たいきゅうち　が<BR>ぜんかいした。
+cGameSceneNPCScriptReference0001,[Return Point] <BR> Return to the theater?
+cGameSceneNPCScriptReference0002,Return
+cGameSceneNPCScriptReference0004,Stay
+cGameSceneNPCScriptReference0006,Returning to the Theater.
+cGameSceneNPCScriptReference0007,<NAME> and crew<BR>have fully recovered.
