@@ -153,7 +153,8 @@ dump_gamescene_scripts: | $(GAMESCENE_SCRIPT_DIR) $(GAMESCENE_NPC_SCRIPT_DIR) $(
 
 # Spreadsheet updating/dumping
 
-.PHONY: update_gamescene_npc
+.PHONY: update_text update_gamescene_npc
+update_text: update_gamescene_npc
 
 update_gamescene_npc: $(wildcard $(GAMESCENE_NPC_TEXT_DIR)/*.$(CSV_TYPE))
 	$(PYTHON) $(SCRIPT_DIR)/update_gamescene_npc.py "$(TEXT_DIR)/gamescene_npc.xlsx" $^

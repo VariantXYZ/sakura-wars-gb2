@@ -47,10 +47,15 @@ for csv_file in sorted(csv_files):
     rows = wb[name].rows # translated_idx won't be accounted for in rows otherwise
     next(rows) # Skip the header
 
+    wb[name].column_dimensions[chr(ord('A') + text_idx)].width = 30
+
     for row in rows:
         ID = row[id_idx].value
+        text = row[translated_idx].value.replace('\n', '<BR>')
+
         if ID in text_map and text_map[ID] != row[text_idx].value:
             row[translated_idx].value = text_map[ID]
+            row[translated_idx].alignment = xl.styles.Alignment(wrap_text=True)
             del text_map[ID]
 
     for ID in text_map:
