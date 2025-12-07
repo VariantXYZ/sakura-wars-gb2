@@ -12,3 +12,9 @@ Specifically, the intended workflow constraints are:
 * In a translation branch, the XLSX file is expected to be the source of truth for updating text
   * The 'master' branch will not rely on the XLSX files at all when building
 * Building in a translation branch will check if the XLSX file has been changed and update the CSVs prior to building the game
+
+## Notes for translators
+* The XLSX file only cares about a few columns, so other than these, you can do whatever you'd like to make annotations and comments:
+  * ID - The unique symbol for this text (treat this as **Read-Only**)
+  * Text - The original Japanese text (treat this as **Read-Only**)
+  * Translated - This is the text that will be added
