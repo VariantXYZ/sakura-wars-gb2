@@ -27,21 +27,30 @@ for csv_file in sorted(csv_files):
             text_map[line[id_idx].strip()] = line[text_idx].strip()
 
     name = os.path.basename(csv_file)
-    if name not in wb:
-        wb.create_sheet(title=name, index=index)
-        wb[name].append(["ID","Text"])
+    assert name in wb, f"{name} not found in {xlsx}, make sure the file was generated on the master branch"
 
     row_idx = 0
     rows = wb[name].rows
     header = [r.value for r in next(rows)]
     id_idx = header.index("ID")
     text_idx = header.index("Text")
+    translated_idx = None
+    try:
+        translated_idx = header.index("Translated")
+    except ValueError:
+        # Translated doesn't exist, so put it after text
+        translated_idx = text_idx + 1
+        wb[name].insert_cols(translated_idx + 1, amount=1)
+        # Cell indices are base-1
+        wb[name].cell(row=1, column=translated_idx + 1, value="Translated")
+    # This script is really only meant to be called if the CSVs are updated instead of the XLSX
+    rows = wb[name].rows # translated_idx won't be accounted for in rows otherwise
+    next(rows) # Skip the header
 
     for row in rows:
         ID = row[id_idx].value
-        text = row[text_idx].value
-        if ID in text_map:
-            row[text_idx].value = text_map[ID]
+        if ID in text_map and text_map[ID] != row[text_idx].value:
+            row[translated_idx].value = text_map[ID]
             del text_map[ID]
 
     for ID in text_map:

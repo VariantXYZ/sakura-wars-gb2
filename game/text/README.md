@@ -18,3 +18,4 @@ Specifically, the intended workflow constraints are:
   * ID - The unique symbol for this text (treat this as **Read-Only**)
   * Text - The original Japanese text (treat this as **Read-Only**)
   * Translated - This is the text that will be added
+* If you do have the CSVs updated for some reason, `make update_text` will forcibly overwrite the Translated column's text with whatever is currently in the CSVs
