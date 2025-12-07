@@ -62,7 +62,7 @@ for csv_file in sorted(csv_files):
             del text_map[ID]
 
     for ID in text_map:
-        wb[name].append([ID, text_map[ID]])
+        wb[name].append([ID, text_map[ID].replace('<BR>', '\n')])
 
     index += 1
 
