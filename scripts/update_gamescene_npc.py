@@ -48,13 +48,14 @@ for csv_file in sorted(csv_files):
     next(rows) # Skip the header
 
     wb[name].column_dimensions[chr(ord('A') + text_idx)].width = 30
+    wb[name].column_dimensions[chr(ord('A') + translated_idx)].width = 30
 
     for row in rows:
         ID = row[id_idx].value
-        text = row[translated_idx].value.replace('\n', '<BR>')
-
-        if ID in text_map and text_map[ID] != row[text_idx].value:
-            row[translated_idx].value = text_map[ID]
+        text = row[text_idx].value.replace('\n', '<BR>')
+        if ID in text_map and text != text_map[ID]:
+            new_text = text_map[ID].replace('<BR>','\n')
+            row[translated_idx].value = new_text
             row[translated_idx].alignment = xl.styles.Alignment(wrap_text=True)
             del text_map[ID]
 
