@@ -37,7 +37,7 @@ for csv_file in sorted(csv_files):
     id_idx = header.index("ID")
     text_idx = header.index("Text")
 
-    for row in wb[name].rows:
+    for row in rows:
         ID = row[id_idx].value
         text = row[text_idx].value
         if ID in text_map:
