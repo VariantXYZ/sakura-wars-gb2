@@ -3,6 +3,8 @@ FROM ubuntu:latest
 ARG RGBDS_REPOSITORY
 ARG RGBDS_VERSION
 ARG PYTHON_VERSION_NUM
+ARG OPENPYXL_REPOSITORY
+ARG OPENPYXL_VERSION
 
 RUN apt-get update && \
     apt-get -qq -y install \
@@ -39,6 +41,9 @@ RUN wget https://www.python.org/ftp/python/$PYTHON_VERSION_NUM/Python-$PYTHON_VE
 # Update pip
 RUN python3 -m pip install --upgrade pip
 
+# Install setuptools
+RUN python3 -m pip install --upgrade setuptools
+
 # install rgbds
 RUN git clone $RGBDS_REPOSITORY ~/rgbds && \
     cd ~/rgbds && \
@@ -50,3 +55,13 @@ RUN git clone $RGBDS_REPOSITORY ~/rgbds && \
     make -C ~/rgbds install && \
     rm -rf ~/rgbds && \
     rgbasm --version
+
+# install openpyxl
+RUN git clone $OPENPYXL_REPOSITORY ~/openpyxl && \
+    cd ~/openpyxl && \
+    git fetch --all && \
+    git checkout -f $OPENPYXL_VERSION && \
+    python3 setup.py build && \
+    python3 setup.py install && \
+    cd - && \
+    rm -rf ~/openpyxl

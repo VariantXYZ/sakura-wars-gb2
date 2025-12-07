@@ -11,3 +11,4 @@ Makefile text
 *.1bpp binary diff=hex
 *.2bpp binary diff=hex
 *.png binary diff=hex
+*.xlsx binary eol=crlf
