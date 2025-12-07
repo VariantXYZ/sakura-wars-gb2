@@ -54,10 +54,11 @@ for csv_file in sorted(csv_files):
     for row in rows:
         ID = row[id_idx].value
         text = row[text_idx].value.replace('\n', '<BR>')
-        if ID in text_map and text != text_map[ID]:
-            new_text = text_map[ID].replace('<BR>','\n')
-            row[translated_idx].value = new_text
-            row[translated_idx].alignment = xl.styles.Alignment(wrap_text=True)
+        if ID in text_map:
+            if text != text_map[ID]:
+                new_text = text_map[ID].replace('<BR>','\n')
+                row[translated_idx].value = new_text
+                row[translated_idx].alignment = xl.styles.Alignment(wrap_text=True)
             del text_map[ID]
 
     for ID in text_map:
