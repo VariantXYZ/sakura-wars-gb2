@@ -17,6 +17,8 @@ env:
   RGBDS_REPOSITORY: https://github.com/gbdev/rgbds.git
   RGBDS_VERSION: v0.9.4
   PYTHON_VERSION_NUM: 3.13.9
+  OPENPYXL_REPOSITORY: https://github.com/VariantXYZ/openpyxl-variant.git
+  OPENPYXL_VERSION: 873cc3dda43578c098843ebe930325c879d20baf
   FLIPS_REPOSITORY: https://github.com/Alcaro/Flips.git
   FLIPS_VERSION: e12ef189900b2c720c6dcd55036a8bb43925ea53
 
@@ -52,5 +54,7 @@ jobs:
             RGBDS_REPOSITORY=${{ env.RGBDS_REPOSITORY }}
             RGBDS_VERSION=${{ env.RGBDS_VERSION }}
             PYTHON_VERSION_NUM=${{ env.PYTHON_VERSION_NUM }}
+            OPENPYXL_REPOSITORY=${{ env.OPENPYXL_REPOSITORY }}
+            OPENPYXL_VERSION=${{ env.OPENPYXL_VERSION }}
             FLIPS_REPOSITORY=${{ env.FLIPS_REPOSITORY }}
             FLIPS_VERSION=${{ env.FLIPS_VERSION }}
