@@ -37,7 +37,8 @@ for csv_file in sorted(csv_files):
     id_idx = header.index("ID")
     text_idx = header.index("Text")
 
-    wb[name].column_dimensions[chr(ord('A') + text_idx)].width = 30
+    wb[name].column_dimensions[chr(ord('A') + id_idx)].width = 40
+    wb[name].column_dimensions[chr(ord('A') + text_idx)].width = 40
 
     for row in rows:
         ID = row[id_idx].value
