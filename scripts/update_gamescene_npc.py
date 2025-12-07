@@ -47,6 +47,7 @@ for csv_file in sorted(csv_files):
     rows = wb[name].rows # translated_idx won't be accounted for in rows otherwise
     next(rows) # Skip the header
 
+    wb[name].column_dimensions[chr(ord('A') + id_idx)].width = 40
     wb[name].column_dimensions[chr(ord('A') + text_idx)].width = 30
     wb[name].column_dimensions[chr(ord('A') + translated_idx)].width = 30
 
