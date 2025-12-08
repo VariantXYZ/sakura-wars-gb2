@@ -9,7 +9,8 @@ script_name = sys.argv[0]
 xlsx = sys.argv[1]
 csv_files = sys.argv[2:]
 
-MAX_WIDTH = 13 * 8
+# Possible that we can do 15 for some, but portrait-text caps at 14
+MAX_WIDTH = 14 * 8
 
 # Compute badness for a line of given length
 def badness(remaining):
