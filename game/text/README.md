@@ -5,7 +5,7 @@ For ease of translation work and to not be tied to something like Google Sheets 
 Due to the nature of XLSX files updating internal timestamps and being zipped archives, it isn't trivial for Git to handle them. As such, there's a bit of a workflow with these spreadsheets.
 
 Specifically, the intended workflow constraints are:
-* After the initial creation of an xlsx file, the 'master' branch will only update the XlSX file if there was missed text (which has a specific workflow below)
+* After the initial creation of an xlsx file, the 'master' branch will only update the XLSX file if there was missed text (which has a specific workflow below)
   * Text is maintained as an ID to Text mapping corresponding with symbols in the disassembly
   * If an ID exists, the text will be updated
   * If an ID does not exist, a new ID and text will be added at the bottom of the sheet
