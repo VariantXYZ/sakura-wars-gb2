@@ -268,6 +268,7 @@ with open(rom_path, 'rb') as rom:
             initial_written = False
             add_reference(rom_addr[0], rom_addr[1], None, None, None)
             current_bank = rom_addr[0]
+            prev_is_data = None
             is_term = False
 
             while len(to_parse) > 0:
@@ -621,20 +622,25 @@ with open(rom_path, 'rb') as rom:
                     data_count = val.data_count
                     data_type = val.data_type
                     is_data = val.is_data
+                    real_addr = utils.rom2realaddr((bank, addr))
+
+                    # We want to group data as best as possible to better move it for translations, don't interleave subroutines
+                    is_new_section = (rom.tell() != real_addr) or (prev_is_data != is_data) or (current_bank != bank)
+
+                    prev_is_data = is_data
                     current_bank = bank
 
                     if reference_id < initial_reference:
                         continue
 
-                    real_addr = utils.rom2realaddr((bank, addr))
                     try:
                         rom.seek(real_addr)
                     except:
                         print("\n".join(lines))
                         raise
                     if initial_written == False:
-                        initial_written = True 
-                    elif real_addr not in handled_references:
+                        initial_written = True
+                    elif real_addr not in handled_references and is_new_section:
                         do_write_line(write_line, lines, f'\nSECTION "{title} Reference {reference_id:04X} ({"Data" if is_data else "Subroutine"})", ROMX[${addr:04X}], BANK[${bank:02X}]')
                     if is_data:
                         do_write_line(write_line, lines, f'{prefix}Reference{reference_id:04X}::')
@@ -701,7 +707,6 @@ with open(rom_path, 'rb') as rom:
 
     for index in all_text:
         with open(os.path.join(game_scene_npc_text_dir, f'game_scene_npc_script_{index:04X}.csv'), 'w', encoding='utf-8') as csv_fp:
-            current_bank = None
             next_addr = None
             current_segment = 0
             writer = csv.writer(csv_fp, lineterminator='\n', delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)

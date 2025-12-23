@@ -53,20 +53,12 @@ GameSceneNPCScriptReference168B::
 SECTION "Game Scene NPC Script 0040 Reference 168C (Data)", ROMX[$4E02], BANK[$66]
 GameSceneNPCScriptReference168C::
   db #cGameSceneNPCScriptReference168C,$00
-
-SECTION "Game Scene NPC Script 0040 Reference 168D (Data)", ROMX[$4E0F], BANK[$66]
 GameSceneNPCScriptReference168D::
   db #cGameSceneNPCScriptReference168D,$00
-
-SECTION "Game Scene NPC Script 0040 Reference 168E (Data)", ROMX[$4E14], BANK[$66]
 GameSceneNPCScriptReference168E::
   db #cGameSceneNPCScriptReference168E,$00
-
-SECTION "Game Scene NPC Script 0040 Reference 168F (Data)", ROMX[$4E18], BANK[$66]
 GameSceneNPCScriptReference168F::
   db #cGameSceneNPCScriptReference168F,$00
-
-SECTION "Game Scene NPC Script 0040 Reference 1690 (Data)", ROMX[$4E23], BANK[$66]
 GameSceneNPCScriptReference1690::
   db #cGameSceneNPCScriptReference1690,$00
 

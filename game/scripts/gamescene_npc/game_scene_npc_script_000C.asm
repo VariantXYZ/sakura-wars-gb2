@@ -23,8 +23,6 @@ GameSceneNPCScriptReference031C::
   db $14 ; Change scene
     db $51
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 000C Reference 031D (Subroutine)", ROMX[$4F93], BANK[$50]
 GameSceneNPCScriptReference031D::
   db $07 ; Portrait
     db $C4

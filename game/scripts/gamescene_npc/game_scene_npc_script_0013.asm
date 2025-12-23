@@ -18,14 +18,10 @@ GameSceneNPCScriptReference050F::
     dwb GameSceneNPCScriptReference0512, BANK(GameSceneNPCScriptReference0512) ; 6
     dwb GameSceneNPCScriptReference0514, BANK(GameSceneNPCScriptReference0514) ; 7
     dwb GameSceneNPCScriptReference0512, BANK(GameSceneNPCScriptReference0512) ; 8
-
-SECTION "Game Scene NPC Script 0013 Reference 0510 (Subroutine)", ROMX[$429C], BANK[$50]
 GameSceneNPCScriptReference0510::
   db $26
     dwb GameSceneNPCScriptReference0512, BANK(GameSceneNPCScriptReference0512) ; If Male
     dwb GameSceneNPCScriptReference0515, BANK(GameSceneNPCScriptReference0515) ; If Female
-
-SECTION "Game Scene NPC Script 0013 Reference 0513 (Subroutine)", ROMX[$42A3], BANK[$50]
 GameSceneNPCScriptReference0513::
   db $26
     dwb GameSceneNPCScriptReference0516, BANK(GameSceneNPCScriptReference0516) ; If Male
@@ -94,8 +90,6 @@ GameSceneNPCScriptReference0519::
     db $40
     db $80
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0013 Reference 051A (Subroutine)", ROMX[$45F3], BANK[$52]
 GameSceneNPCScriptReference051A::
   db $FF ; Exit
 
@@ -162,8 +156,6 @@ GameSceneNPCScriptReference051E::
     db $40
     db $80
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0013 Reference 051F (Subroutine)", ROMX[$506E], BANK[$52]
 GameSceneNPCScriptReference051F::
   db $FF ; Exit
 
@@ -230,8 +222,6 @@ GameSceneNPCScriptReference0523::
     db $40
     db $80
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0013 Reference 0524 (Subroutine)", ROMX[$5995], BANK[$52]
 GameSceneNPCScriptReference0524::
   db $FF ; Exit
 
@@ -298,8 +288,6 @@ GameSceneNPCScriptReference0528::
     db $40
     db $80
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0013 Reference 0529 (Subroutine)", ROMX[$63C5], BANK[$52]
 GameSceneNPCScriptReference0529::
   db $FF ; Exit
 
@@ -366,8 +354,6 @@ GameSceneNPCScriptReference052D::
     db $40
     db $80
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0013 Reference 052E (Subroutine)", ROMX[$6D64], BANK[$52]
 GameSceneNPCScriptReference052E::
   db $FF ; Exit
 
@@ -434,56 +420,42 @@ GameSceneNPCScriptReference0532::
     db $40
     db $80
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0013 Reference 0533 (Subroutine)", ROMX[$78B7], BANK[$52]
 GameSceneNPCScriptReference0533::
   db $FF ; Exit
 
 SECTION "Game Scene NPC Script 0013 Reference 051B (Data)", ROMX[$765F], BANK[$60]
 GameSceneNPCScriptReference051B::
   db #cGameSceneNPCScriptReference051B,$00
-
-SECTION "Game Scene NPC Script 0013 Reference 051C (Data)", ROMX[$7688], BANK[$60]
 GameSceneNPCScriptReference051C::
   db #cGameSceneNPCScriptReference051C,$00
 
 SECTION "Game Scene NPC Script 0013 Reference 0520 (Data)", ROMX[$50F0], BANK[$61]
 GameSceneNPCScriptReference0520::
   db #cGameSceneNPCScriptReference0520,$00
-
-SECTION "Game Scene NPC Script 0013 Reference 0521 (Data)", ROMX[$5119], BANK[$61]
 GameSceneNPCScriptReference0521::
   db #cGameSceneNPCScriptReference0521,$00
 
 SECTION "Game Scene NPC Script 0013 Reference 052A (Data)", ROMX[$6B32], BANK[$61]
 GameSceneNPCScriptReference052A::
   db #cGameSceneNPCScriptReference052A,$00
-
-SECTION "Game Scene NPC Script 0013 Reference 052B (Data)", ROMX[$6B5C], BANK[$61]
 GameSceneNPCScriptReference052B::
   db #cGameSceneNPCScriptReference052B,$00
 
 SECTION "Game Scene NPC Script 0013 Reference 052F (Data)", ROMX[$4449], BANK[$62]
 GameSceneNPCScriptReference052F::
   db #cGameSceneNPCScriptReference052F,$00
-
-SECTION "Game Scene NPC Script 0013 Reference 0530 (Data)", ROMX[$4473], BANK[$62]
 GameSceneNPCScriptReference0530::
   db #cGameSceneNPCScriptReference0530,$00
 
 SECTION "Game Scene NPC Script 0013 Reference 0525 (Data)", ROMX[$61AA], BANK[$62]
 GameSceneNPCScriptReference0525::
   db #cGameSceneNPCScriptReference0525,$00
-
-SECTION "Game Scene NPC Script 0013 Reference 0526 (Data)", ROMX[$61D2], BANK[$62]
 GameSceneNPCScriptReference0526::
   db #cGameSceneNPCScriptReference0526,$00
 
 SECTION "Game Scene NPC Script 0013 Reference 0534 (Data)", ROMX[$78C1], BANK[$62]
 GameSceneNPCScriptReference0534::
   db #cGameSceneNPCScriptReference0534,$00
-
-SECTION "Game Scene NPC Script 0013 Reference 0535 (Data)", ROMX[$78EC], BANK[$62]
 GameSceneNPCScriptReference0535::
   db #cGameSceneNPCScriptReference0535,$00
 

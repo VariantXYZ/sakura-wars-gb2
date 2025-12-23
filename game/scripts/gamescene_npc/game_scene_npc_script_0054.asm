@@ -18,14 +18,10 @@ GameSceneNPCScriptReference1FC9::
     dwb GameSceneNPCScriptReference1FCA, BANK(GameSceneNPCScriptReference1FCA) ; 6
     dwb GameSceneNPCScriptReference1FCA, BANK(GameSceneNPCScriptReference1FCA) ; 7
     dwb GameSceneNPCScriptReference1FCD, BANK(GameSceneNPCScriptReference1FCD) ; 8
-
-SECTION "Game Scene NPC Script 0054 Reference 1FCB (Subroutine)", ROMX[$4B63], BANK[$50]
 GameSceneNPCScriptReference1FCB::
   db $26
     dwb GameSceneNPCScriptReference1FCE, BANK(GameSceneNPCScriptReference1FCE) ; If Male
     dwb GameSceneNPCScriptReference1FCF, BANK(GameSceneNPCScriptReference1FCF) ; If Female
-
-SECTION "Game Scene NPC Script 0054 Reference 1FCC (Subroutine)", ROMX[$4B6A], BANK[$50]
 GameSceneNPCScriptReference1FCC::
   db $26
     dwb GameSceneNPCScriptReference1FD0, BANK(GameSceneNPCScriptReference1FD0) ; If Male

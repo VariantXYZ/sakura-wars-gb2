@@ -22,8 +22,6 @@ GameSceneNPCScriptReference0000::
 SECTION "Game Scene NPC Script 0000 Reference 0005 (Subroutine)", ROMX[$4D16], BANK[$51]
 GameSceneNPCScriptReference0005::
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0000 Reference 0003 (Subroutine)", ROMX[$4D17], BANK[$51]
 GameSceneNPCScriptReference0003::
   db $07 ; Portrait
     db $C4
@@ -53,20 +51,12 @@ GameSceneNPCScriptReference0003::
 SECTION "Game Scene NPC Script 0000 Reference 0001 (Data)", ROMX[$7BF0], BANK[$91]
 GameSceneNPCScriptReference0001::
   db #cGameSceneNPCScriptReference0001,$00
-
-SECTION "Game Scene NPC Script 0000 Reference 0002 (Data)", ROMX[$7C0A], BANK[$91]
 GameSceneNPCScriptReference0002::
   db #cGameSceneNPCScriptReference0002,$00
-
-SECTION "Game Scene NPC Script 0000 Reference 0004 (Data)", ROMX[$7C0E], BANK[$91]
 GameSceneNPCScriptReference0004::
   db #cGameSceneNPCScriptReference0004,$00
-
-SECTION "Game Scene NPC Script 0000 Reference 0006 (Data)", ROMX[$7C14], BANK[$91]
 GameSceneNPCScriptReference0006::
   db #cGameSceneNPCScriptReference0006,$00
-
-SECTION "Game Scene NPC Script 0000 Reference 0007 (Data)", ROMX[$7C21], BANK[$91]
 GameSceneNPCScriptReference0007::
   db #cGameSceneNPCScriptReference0007,$00
 

@@ -18,20 +18,14 @@ GameSceneNPCScriptReference1617::
     dwb GameSceneNPCScriptReference1618, BANK(GameSceneNPCScriptReference1618) ; 6
     dwb GameSceneNPCScriptReference1618, BANK(GameSceneNPCScriptReference1618) ; 7
     dwb GameSceneNPCScriptReference161B, BANK(GameSceneNPCScriptReference161B) ; 8
-
-SECTION "Game Scene NPC Script 0039 Reference 161A (Subroutine)", ROMX[$47B2], BANK[$50]
 GameSceneNPCScriptReference161A::
   db $26
     dwb GameSceneNPCScriptReference161C, BANK(GameSceneNPCScriptReference161C) ; If Male
     dwb GameSceneNPCScriptReference161D, BANK(GameSceneNPCScriptReference161D) ; If Female
-
-SECTION "Game Scene NPC Script 0039 Reference 1619 (Subroutine)", ROMX[$47B9], BANK[$50]
 GameSceneNPCScriptReference1619::
   db $26
     dwb GameSceneNPCScriptReference161E, BANK(GameSceneNPCScriptReference161E) ; If Male
     dwb GameSceneNPCScriptReference161F, BANK(GameSceneNPCScriptReference161F) ; If Female
-
-SECTION "Game Scene NPC Script 0039 Reference 161B (Subroutine)", ROMX[$47C0], BANK[$50]
 GameSceneNPCScriptReference161B::
   db $26
     dwb GameSceneNPCScriptReference1618, BANK(GameSceneNPCScriptReference1618) ; If Male
@@ -43,8 +37,6 @@ GameSceneNPCScriptReference161D::
     db $30 ; Available Time
     dw GameSceneNPCScriptReference1621 ; On Timer Branch
     db $FF
-
-SECTION "Game Scene NPC Script 0039 Reference 1621 (Subroutine)", ROMX[$4F78], BANK[$54]
 GameSceneNPCScriptReference1621::
   db $14 ; Change scene
     db $0D
@@ -64,8 +56,6 @@ GameSceneNPCScriptReference1621::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference1624, BANK(GameSceneNPCScriptReference1624)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0039 Reference 1622 (Subroutine)", ROMX[$4F8F], BANK[$54]
 GameSceneNPCScriptReference1622::
   db $FF ; Exit
 
@@ -75,8 +65,6 @@ GameSceneNPCScriptReference161C::
     db $30 ; Available Time
     dw GameSceneNPCScriptReference1625 ; On Timer Branch
     db $FF
-
-SECTION "Game Scene NPC Script 0039 Reference 1625 (Subroutine)", ROMX[$549F], BANK[$54]
 GameSceneNPCScriptReference1625::
   db $14 ; Change scene
     db $0D
@@ -96,8 +84,6 @@ GameSceneNPCScriptReference1625::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference1628, BANK(GameSceneNPCScriptReference1628)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0039 Reference 1626 (Subroutine)", ROMX[$54B6], BANK[$54]
 GameSceneNPCScriptReference1626::
   db $FF ; Exit
 
@@ -107,8 +93,6 @@ GameSceneNPCScriptReference161F::
     db $30 ; Available Time
     dw GameSceneNPCScriptReference1629 ; On Timer Branch
     db $FF
-
-SECTION "Game Scene NPC Script 0039 Reference 1629 (Subroutine)", ROMX[$59A6], BANK[$54]
 GameSceneNPCScriptReference1629::
   db $14 ; Change scene
     db $0D
@@ -128,8 +112,6 @@ GameSceneNPCScriptReference1629::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference162C, BANK(GameSceneNPCScriptReference162C)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0039 Reference 162A (Subroutine)", ROMX[$59BD], BANK[$54]
 GameSceneNPCScriptReference162A::
   db $FF ; Exit
 
@@ -139,8 +121,6 @@ GameSceneNPCScriptReference161E::
     db $30 ; Available Time
     dw GameSceneNPCScriptReference162D ; On Timer Branch
     db $FF
-
-SECTION "Game Scene NPC Script 0039 Reference 162D (Subroutine)", ROMX[$5EAD], BANK[$54]
 GameSceneNPCScriptReference162D::
   db $14 ; Change scene
     db $0D
@@ -160,8 +140,6 @@ GameSceneNPCScriptReference162D::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference1630, BANK(GameSceneNPCScriptReference1630)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0039 Reference 162E (Subroutine)", ROMX[$5EC4], BANK[$54]
 GameSceneNPCScriptReference162E::
   db $FF ; Exit
 
@@ -171,8 +149,6 @@ GameSceneNPCScriptReference1620::
     db $30 ; Available Time
     dw GameSceneNPCScriptReference1631 ; On Timer Branch
     db $FF
-
-SECTION "Game Scene NPC Script 0039 Reference 1631 (Subroutine)", ROMX[$6783], BANK[$54]
 GameSceneNPCScriptReference1631::
   db $14 ; Change scene
     db $0D
@@ -192,8 +168,6 @@ GameSceneNPCScriptReference1631::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference1634, BANK(GameSceneNPCScriptReference1634)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0039 Reference 1632 (Subroutine)", ROMX[$679A], BANK[$54]
 GameSceneNPCScriptReference1632::
   db $FF ; Exit
 
@@ -224,56 +198,42 @@ GameSceneNPCScriptReference1635::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference1638, BANK(GameSceneNPCScriptReference1638)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0039 Reference 1636 (Subroutine)", ROMX[$6C90], BANK[$54]
 GameSceneNPCScriptReference1636::
   db $FF ; Exit
 
 SECTION "Game Scene NPC Script 0039 Reference 1623 (Data)", ROMX[$58ED], BANK[$66]
 GameSceneNPCScriptReference1623::
   db #cGameSceneNPCScriptReference1623,$00
-
-SECTION "Game Scene NPC Script 0039 Reference 1624 (Data)", ROMX[$58FD], BANK[$66]
 GameSceneNPCScriptReference1624::
   db #cGameSceneNPCScriptReference1624,$00
 
 SECTION "Game Scene NPC Script 0039 Reference 1627 (Data)", ROMX[$65DE], BANK[$66]
 GameSceneNPCScriptReference1627::
   db #cGameSceneNPCScriptReference1627,$00
-
-SECTION "Game Scene NPC Script 0039 Reference 1628 (Data)", ROMX[$65EE], BANK[$66]
 GameSceneNPCScriptReference1628::
   db #cGameSceneNPCScriptReference1628,$00
 
 SECTION "Game Scene NPC Script 0039 Reference 162B (Data)", ROMX[$7267], BANK[$66]
 GameSceneNPCScriptReference162B::
   db #cGameSceneNPCScriptReference162B,$00
-
-SECTION "Game Scene NPC Script 0039 Reference 162C (Data)", ROMX[$727C], BANK[$66]
 GameSceneNPCScriptReference162C::
   db #cGameSceneNPCScriptReference162C,$00
 
 SECTION "Game Scene NPC Script 0039 Reference 162F (Data)", ROMX[$7F5C], BANK[$66]
 GameSceneNPCScriptReference162F::
   db #cGameSceneNPCScriptReference162F,$00
-
-SECTION "Game Scene NPC Script 0039 Reference 1630 (Data)", ROMX[$7F6B], BANK[$66]
 GameSceneNPCScriptReference1630::
   db #cGameSceneNPCScriptReference1630,$00
 
 SECTION "Game Scene NPC Script 0039 Reference 1633 (Data)", ROMX[$5370], BANK[$67]
 GameSceneNPCScriptReference1633::
   db #cGameSceneNPCScriptReference1633,$00
-
-SECTION "Game Scene NPC Script 0039 Reference 1634 (Data)", ROMX[$5381], BANK[$67]
 GameSceneNPCScriptReference1634::
   db #cGameSceneNPCScriptReference1634,$00
 
 SECTION "Game Scene NPC Script 0039 Reference 1637 (Data)", ROMX[$5FF1], BANK[$67]
 GameSceneNPCScriptReference1637::
   db #cGameSceneNPCScriptReference1637,$00
-
-SECTION "Game Scene NPC Script 0039 Reference 1638 (Data)", ROMX[$6002], BANK[$67]
 GameSceneNPCScriptReference1638::
   db #cGameSceneNPCScriptReference1638,$00
 

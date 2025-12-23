@@ -12,8 +12,6 @@ GameSceneNPCScriptReference165B::
     db $30 ; Available Time
     dw GameSceneNPCScriptReference165C ; On Timer Branch
     db $FF
-
-SECTION "Game Scene NPC Script 003B Reference 165C (Subroutine)", ROMX[$54BA], BANK[$50]
 GameSceneNPCScriptReference165C::
   db $14 ; Change scene
     db $0D

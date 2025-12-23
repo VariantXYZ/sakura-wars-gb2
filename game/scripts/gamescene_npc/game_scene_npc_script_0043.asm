@@ -19,8 +19,6 @@ GameSceneNPCScriptReference1764::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference1765, BANK(GameSceneNPCScriptReference1765)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0043 Reference 1763 (Subroutine)", ROMX[$5592], BANK[$50]
 GameSceneNPCScriptReference1763::
   db $07 ; Portrait
     db $00
@@ -31,8 +29,6 @@ GameSceneNPCScriptReference1763::
 SECTION "Game Scene NPC Script 0043 Reference 1765 (Data)", ROMX[$659E], BANK[$67]
 GameSceneNPCScriptReference1765::
   db #cGameSceneNPCScriptReference1765,$00
-
-SECTION "Game Scene NPC Script 0043 Reference 1766 (Data)", ROMX[$65B8], BANK[$67]
 GameSceneNPCScriptReference1766::
   db #cGameSceneNPCScriptReference1766,$00
 

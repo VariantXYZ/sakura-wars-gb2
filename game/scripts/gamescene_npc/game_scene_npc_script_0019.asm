@@ -23,8 +23,6 @@ GameSceneNPCScriptReference0753::
   db $14 ; Change scene
     db $52
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0019 Reference 0754 (Subroutine)", ROMX[$4FAA], BANK[$50]
 GameSceneNPCScriptReference0754::
   db $07 ; Portrait
     db $C4

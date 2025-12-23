@@ -38,8 +38,6 @@ GameSceneNPCScriptReference1378::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference1379, BANK(GameSceneNPCScriptReference1379)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 002E Reference 1376 (Subroutine)", ROMX[$52A7], BANK[$50]
 GameSceneNPCScriptReference1376::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference137A
@@ -69,8 +67,6 @@ GameSceneNPCScriptReference137B::
 SECTION "Game Scene NPC Script 002E Reference 1379 (Data)", ROMX[$4AE3], BANK[$66]
 GameSceneNPCScriptReference1379::
   db #cGameSceneNPCScriptReference1379,$00
-
-SECTION "Game Scene NPC Script 002E Reference 137C (Data)", ROMX[$4AF2], BANK[$66]
 GameSceneNPCScriptReference137C::
   db #cGameSceneNPCScriptReference137C,$00
 

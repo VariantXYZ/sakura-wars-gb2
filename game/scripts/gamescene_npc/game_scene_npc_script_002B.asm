@@ -18,20 +18,14 @@ GameSceneNPCScriptReference121C::
     dwb GameSceneNPCScriptReference121D, BANK(GameSceneNPCScriptReference121D) ; 6
     dwb GameSceneNPCScriptReference121D, BANK(GameSceneNPCScriptReference121D) ; 7
     dwb GameSceneNPCScriptReference1220, BANK(GameSceneNPCScriptReference1220) ; 8
-
-SECTION "Game Scene NPC Script 002B Reference 121F (Subroutine)", ROMX[$45F2], BANK[$50]
 GameSceneNPCScriptReference121F::
   db $26
     dwb GameSceneNPCScriptReference1221, BANK(GameSceneNPCScriptReference1221) ; If Male
     dwb GameSceneNPCScriptReference1222, BANK(GameSceneNPCScriptReference1222) ; If Female
-
-SECTION "Game Scene NPC Script 002B Reference 121E (Subroutine)", ROMX[$45F9], BANK[$50]
 GameSceneNPCScriptReference121E::
   db $26
     dwb GameSceneNPCScriptReference1223, BANK(GameSceneNPCScriptReference1223) ; If Male
     dwb GameSceneNPCScriptReference1224, BANK(GameSceneNPCScriptReference1224) ; If Female
-
-SECTION "Game Scene NPC Script 002B Reference 1220 (Subroutine)", ROMX[$4600], BANK[$50]
 GameSceneNPCScriptReference1220::
   db $26
     dwb GameSceneNPCScriptReference121D, BANK(GameSceneNPCScriptReference121D) ; If Male
@@ -482,172 +476,98 @@ GameSceneNPCScriptReference1254::
 SECTION "Game Scene NPC Script 002B Reference 1226 (Data)", ROMX[$4FF9], BANK[$66]
 GameSceneNPCScriptReference1226::
   db #cGameSceneNPCScriptReference1226,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1227 (Data)", ROMX[$5014], BANK[$66]
 GameSceneNPCScriptReference1227::
   db #cGameSceneNPCScriptReference1227,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1228 (Data)", ROMX[$5031], BANK[$66]
 GameSceneNPCScriptReference1228::
   db #cGameSceneNPCScriptReference1228,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1229 (Data)", ROMX[$5047], BANK[$66]
 GameSceneNPCScriptReference1229::
   db #cGameSceneNPCScriptReference1229,$00
-
-SECTION "Game Scene NPC Script 002B Reference 122A (Data)", ROMX[$5060], BANK[$66]
 GameSceneNPCScriptReference122A::
   db #cGameSceneNPCScriptReference122A,$00
-
-SECTION "Game Scene NPC Script 002B Reference 122C (Data)", ROMX[$5069], BANK[$66]
 GameSceneNPCScriptReference122C::
   db #cGameSceneNPCScriptReference122C,$00
-
-SECTION "Game Scene NPC Script 002B Reference 122D (Data)", ROMX[$507E], BANK[$66]
 GameSceneNPCScriptReference122D::
   db #cGameSceneNPCScriptReference122D,$00
 
 SECTION "Game Scene NPC Script 002B Reference 122E (Data)", ROMX[$5D50], BANK[$66]
 GameSceneNPCScriptReference122E::
   db #cGameSceneNPCScriptReference122E,$00
-
-SECTION "Game Scene NPC Script 002B Reference 122F (Data)", ROMX[$5D6B], BANK[$66]
 GameSceneNPCScriptReference122F::
   db #cGameSceneNPCScriptReference122F,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1230 (Data)", ROMX[$5D88], BANK[$66]
 GameSceneNPCScriptReference1230::
   db #cGameSceneNPCScriptReference1230,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1231 (Data)", ROMX[$5D9E], BANK[$66]
 GameSceneNPCScriptReference1231::
   db #cGameSceneNPCScriptReference1231,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1232 (Data)", ROMX[$5DB7], BANK[$66]
 GameSceneNPCScriptReference1232::
   db #cGameSceneNPCScriptReference1232,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1234 (Data)", ROMX[$5DC0], BANK[$66]
 GameSceneNPCScriptReference1234::
   db #cGameSceneNPCScriptReference1234,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1235 (Data)", ROMX[$5DD0], BANK[$66]
 GameSceneNPCScriptReference1235::
   db #cGameSceneNPCScriptReference1235,$00
 
 SECTION "Game Scene NPC Script 002B Reference 1236 (Data)", ROMX[$6A1F], BANK[$66]
 GameSceneNPCScriptReference1236::
   db #cGameSceneNPCScriptReference1236,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1237 (Data)", ROMX[$6A35], BANK[$66]
 GameSceneNPCScriptReference1237::
   db #cGameSceneNPCScriptReference1237,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1238 (Data)", ROMX[$6A58], BANK[$66]
 GameSceneNPCScriptReference1238::
   db #cGameSceneNPCScriptReference1238,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1239 (Data)", ROMX[$6A64], BANK[$66]
 GameSceneNPCScriptReference1239::
   db #cGameSceneNPCScriptReference1239,$00
-
-SECTION "Game Scene NPC Script 002B Reference 123A (Data)", ROMX[$6A7D], BANK[$66]
 GameSceneNPCScriptReference123A::
   db #cGameSceneNPCScriptReference123A,$00
-
-SECTION "Game Scene NPC Script 002B Reference 123C (Data)", ROMX[$6A86], BANK[$66]
 GameSceneNPCScriptReference123C::
   db #cGameSceneNPCScriptReference123C,$00
-
-SECTION "Game Scene NPC Script 002B Reference 123D (Data)", ROMX[$6A9B], BANK[$66]
 GameSceneNPCScriptReference123D::
   db #cGameSceneNPCScriptReference123D,$00
-
-SECTION "Game Scene NPC Script 002B Reference 123E (Data)", ROMX[$6AB5], BANK[$66]
 GameSceneNPCScriptReference123E::
   db #cGameSceneNPCScriptReference123E,$00
 
 SECTION "Game Scene NPC Script 002B Reference 123F (Data)", ROMX[$76ED], BANK[$66]
 GameSceneNPCScriptReference123F::
   db #cGameSceneNPCScriptReference123F,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1240 (Data)", ROMX[$7703], BANK[$66]
 GameSceneNPCScriptReference1240::
   db #cGameSceneNPCScriptReference1240,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1241 (Data)", ROMX[$7726], BANK[$66]
 GameSceneNPCScriptReference1241::
   db #cGameSceneNPCScriptReference1241,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1242 (Data)", ROMX[$7732], BANK[$66]
 GameSceneNPCScriptReference1242::
   db #cGameSceneNPCScriptReference1242,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1243 (Data)", ROMX[$774B], BANK[$66]
 GameSceneNPCScriptReference1243::
   db #cGameSceneNPCScriptReference1243,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1245 (Data)", ROMX[$7754], BANK[$66]
 GameSceneNPCScriptReference1245::
   db #cGameSceneNPCScriptReference1245,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1246 (Data)", ROMX[$7768], BANK[$66]
 GameSceneNPCScriptReference1246::
   db #cGameSceneNPCScriptReference1246,$00
 
 SECTION "Game Scene NPC Script 002B Reference 1247 (Data)", ROMX[$4A96], BANK[$67]
 GameSceneNPCScriptReference1247::
   db #cGameSceneNPCScriptReference1247,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1248 (Data)", ROMX[$4AAC], BANK[$67]
 GameSceneNPCScriptReference1248::
   db #cGameSceneNPCScriptReference1248,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1249 (Data)", ROMX[$4ACF], BANK[$67]
 GameSceneNPCScriptReference1249::
   db #cGameSceneNPCScriptReference1249,$00
-
-SECTION "Game Scene NPC Script 002B Reference 124A (Data)", ROMX[$4AE3], BANK[$67]
 GameSceneNPCScriptReference124A::
   db #cGameSceneNPCScriptReference124A,$00
-
-SECTION "Game Scene NPC Script 002B Reference 124B (Data)", ROMX[$4AFC], BANK[$67]
 GameSceneNPCScriptReference124B::
   db #cGameSceneNPCScriptReference124B,$00
-
-SECTION "Game Scene NPC Script 002B Reference 124D (Data)", ROMX[$4B05], BANK[$67]
 GameSceneNPCScriptReference124D::
   db #cGameSceneNPCScriptReference124D,$00
-
-SECTION "Game Scene NPC Script 002B Reference 124E (Data)", ROMX[$4B1A], BANK[$67]
 GameSceneNPCScriptReference124E::
   db #cGameSceneNPCScriptReference124E,$00
 
 SECTION "Game Scene NPC Script 002B Reference 124F (Data)", ROMX[$57FB], BANK[$67]
 GameSceneNPCScriptReference124F::
   db #cGameSceneNPCScriptReference124F,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1250 (Data)", ROMX[$5811], BANK[$67]
 GameSceneNPCScriptReference1250::
   db #cGameSceneNPCScriptReference1250,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1251 (Data)", ROMX[$5834], BANK[$67]
 GameSceneNPCScriptReference1251::
   db #cGameSceneNPCScriptReference1251,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1252 (Data)", ROMX[$5848], BANK[$67]
 GameSceneNPCScriptReference1252::
   db #cGameSceneNPCScriptReference1252,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1253 (Data)", ROMX[$5861], BANK[$67]
 GameSceneNPCScriptReference1253::
   db #cGameSceneNPCScriptReference1253,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1255 (Data)", ROMX[$586A], BANK[$67]
 GameSceneNPCScriptReference1255::
   db #cGameSceneNPCScriptReference1255,$00
-
-SECTION "Game Scene NPC Script 002B Reference 1256 (Data)", ROMX[$587E], BANK[$67]
 GameSceneNPCScriptReference1256::
   db #cGameSceneNPCScriptReference1256,$00
 

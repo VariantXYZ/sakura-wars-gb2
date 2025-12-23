@@ -18,14 +18,10 @@ GameSceneNPCScriptReference1AFB::
     dwb GameSceneNPCScriptReference1AFC, BANK(GameSceneNPCScriptReference1AFC) ; 6
     dwb GameSceneNPCScriptReference1AFC, BANK(GameSceneNPCScriptReference1AFC) ; 7
     dwb GameSceneNPCScriptReference1AFF, BANK(GameSceneNPCScriptReference1AFF) ; 8
-
-SECTION "Game Scene NPC Script 004E Reference 1AFD (Subroutine)", ROMX[$4A60], BANK[$50]
 GameSceneNPCScriptReference1AFD::
   db $26
     dwb GameSceneNPCScriptReference1B00, BANK(GameSceneNPCScriptReference1B00) ; If Male
     dwb GameSceneNPCScriptReference1B01, BANK(GameSceneNPCScriptReference1B01) ; If Female
-
-SECTION "Game Scene NPC Script 004E Reference 1AFE (Subroutine)", ROMX[$4A67], BANK[$50]
 GameSceneNPCScriptReference1AFE::
   db $26
     dwb GameSceneNPCScriptReference1B02, BANK(GameSceneNPCScriptReference1B02) ; If Male
@@ -123,14 +119,10 @@ GameSceneNPCScriptReference1B05::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B07 (Subroutine)", ROMX[$42CD], BANK[$56]
 GameSceneNPCScriptReference1B07::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B06 (Subroutine)", ROMX[$42D0], BANK[$56]
 GameSceneNPCScriptReference1B06::
   db $17 ; Spawn Visual Entity
     db $01
@@ -228,14 +220,10 @@ GameSceneNPCScriptReference1B0C::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B0E (Subroutine)", ROMX[$4C42], BANK[$56]
 GameSceneNPCScriptReference1B0E::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B0D (Subroutine)", ROMX[$4C45], BANK[$56]
 GameSceneNPCScriptReference1B0D::
   db $17 ; Spawn Visual Entity
     db $01
@@ -333,14 +321,10 @@ GameSceneNPCScriptReference1B13::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B15 (Subroutine)", ROMX[$55BC], BANK[$56]
 GameSceneNPCScriptReference1B15::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B14 (Subroutine)", ROMX[$55BF], BANK[$56]
 GameSceneNPCScriptReference1B14::
   db $17 ; Spawn Visual Entity
     db $01
@@ -438,14 +422,10 @@ GameSceneNPCScriptReference1B1A::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B1C (Subroutine)", ROMX[$5EA0], BANK[$56]
 GameSceneNPCScriptReference1B1C::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B1B (Subroutine)", ROMX[$5EA3], BANK[$56]
 GameSceneNPCScriptReference1B1B::
   db $17 ; Spawn Visual Entity
     db $01
@@ -543,14 +523,10 @@ GameSceneNPCScriptReference1B21::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B23 (Subroutine)", ROMX[$6C2B], BANK[$56]
 GameSceneNPCScriptReference1B23::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B22 (Subroutine)", ROMX[$6C2E], BANK[$56]
 GameSceneNPCScriptReference1B22::
   db $17 ; Spawn Visual Entity
     db $01
@@ -648,14 +624,10 @@ GameSceneNPCScriptReference1B28::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B2A (Subroutine)", ROMX[$750A], BANK[$56]
 GameSceneNPCScriptReference1B2A::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 004E Reference 1B29 (Subroutine)", ROMX[$750D], BANK[$56]
 GameSceneNPCScriptReference1B29::
   db $17 ; Spawn Visual Entity
     db $01
@@ -664,72 +636,48 @@ GameSceneNPCScriptReference1B29::
 SECTION "Game Scene NPC Script 004E Reference 1B08 (Data)", ROMX[$54C1], BANK[$69]
 GameSceneNPCScriptReference1B08::
   db #cGameSceneNPCScriptReference1B08,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B09 (Data)", ROMX[$54D6], BANK[$69]
 GameSceneNPCScriptReference1B09::
   db #cGameSceneNPCScriptReference1B09,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B0A (Data)", ROMX[$54EE], BANK[$69]
 GameSceneNPCScriptReference1B0A::
   db #cGameSceneNPCScriptReference1B0A,$00
 
 SECTION "Game Scene NPC Script 004E Reference 1B0F (Data)", ROMX[$6E9E], BANK[$69]
 GameSceneNPCScriptReference1B0F::
   db #cGameSceneNPCScriptReference1B0F,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B10 (Data)", ROMX[$6EB3], BANK[$69]
 GameSceneNPCScriptReference1B10::
   db #cGameSceneNPCScriptReference1B10,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B11 (Data)", ROMX[$6ECB], BANK[$69]
 GameSceneNPCScriptReference1B11::
   db #cGameSceneNPCScriptReference1B11,$00
 
 SECTION "Game Scene NPC Script 004E Reference 1B16 (Data)", ROMX[$47E1], BANK[$6A]
 GameSceneNPCScriptReference1B16::
   db #cGameSceneNPCScriptReference1B16,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B17 (Data)", ROMX[$47F6], BANK[$6A]
 GameSceneNPCScriptReference1B17::
   db #cGameSceneNPCScriptReference1B17,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B18 (Data)", ROMX[$480B], BANK[$6A]
 GameSceneNPCScriptReference1B18::
   db #cGameSceneNPCScriptReference1B18,$00
 
 SECTION "Game Scene NPC Script 004E Reference 1B1D (Data)", ROMX[$6041], BANK[$6A]
 GameSceneNPCScriptReference1B1D::
   db #cGameSceneNPCScriptReference1B1D,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B1E (Data)", ROMX[$6056], BANK[$6A]
 GameSceneNPCScriptReference1B1E::
   db #cGameSceneNPCScriptReference1B1E,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B1F (Data)", ROMX[$606B], BANK[$6A]
 GameSceneNPCScriptReference1B1F::
   db #cGameSceneNPCScriptReference1B1F,$00
 
 SECTION "Game Scene NPC Script 004E Reference 1B24 (Data)", ROMX[$41E4], BANK[$6B]
 GameSceneNPCScriptReference1B24::
   db #cGameSceneNPCScriptReference1B24,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B25 (Data)", ROMX[$41F9], BANK[$6B]
 GameSceneNPCScriptReference1B25::
   db #cGameSceneNPCScriptReference1B25,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B26 (Data)", ROMX[$420F], BANK[$6B]
 GameSceneNPCScriptReference1B26::
   db #cGameSceneNPCScriptReference1B26,$00
 
 SECTION "Game Scene NPC Script 004E Reference 1B2B (Data)", ROMX[$5B0E], BANK[$6B]
 GameSceneNPCScriptReference1B2B::
   db #cGameSceneNPCScriptReference1B2B,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B2C (Data)", ROMX[$5B24], BANK[$6B]
 GameSceneNPCScriptReference1B2C::
   db #cGameSceneNPCScriptReference1B2C,$00
-
-SECTION "Game Scene NPC Script 004E Reference 1B2D (Data)", ROMX[$5B40], BANK[$6B]
 GameSceneNPCScriptReference1B2D::
   db #cGameSceneNPCScriptReference1B2D,$00
 
