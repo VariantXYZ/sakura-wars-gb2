@@ -1,9 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
-INCLUDE "./build/text.game_scene_npc_script_0054.asm"
 
 SECTION "Game Scene NPC Script 0054", ROMX[$4B47], BANK[$50]
 GameSceneNPCScript0054::
@@ -27,28 +22,26 @@ GameSceneNPCScriptReference1FCC::
     dwb GameSceneNPCScriptReference1FD0, BANK(GameSceneNPCScriptReference1FD0) ; If Male
     dwb GameSceneNPCScriptReference1FD1, BANK(GameSceneNPCScriptReference1FD1) ; If Female
 
-SECTION "Game Scene NPC Script 0054 Reference 1FCF (Subroutine)", ROMX[$483D], BANK[$56]
+SECTION "Game Scene NPC Script 0054 Subroutine 1FCF", ROMX[$483D], BANK[$56]
 GameSceneNPCScriptReference1FCF::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0054 Reference 1FCE (Subroutine)", ROMX[$51AA], BANK[$56]
+SECTION "Game Scene NPC Script 0054 Subroutine 1FCE", ROMX[$51AA], BANK[$56]
 GameSceneNPCScriptReference1FCE::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0054 Reference 1FD1 (Subroutine)", ROMX[$5AA3], BANK[$56]
+SECTION "Game Scene NPC Script 0054 Subroutine 1FD1", ROMX[$5AA3], BANK[$56]
 GameSceneNPCScriptReference1FD1::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0054 Reference 1FD0 (Subroutine)", ROMX[$6387], BANK[$56]
+SECTION "Game Scene NPC Script 0054 Subroutine 1FD0", ROMX[$6387], BANK[$56]
 GameSceneNPCScriptReference1FD0::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0054 Reference 1FCD (Subroutine)", ROMX[$7112], BANK[$56]
+SECTION "Game Scene NPC Script 0054 Subroutine 1FCD", ROMX[$7112], BANK[$56]
 GameSceneNPCScriptReference1FCD::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0054 Reference 1FCA (Subroutine)", ROMX[$7A08], BANK[$56]
+SECTION "Game Scene NPC Script 0054 Subroutine 1FCA", ROMX[$7A08], BANK[$56]
 GameSceneNPCScriptReference1FCA::
   db $FF ; Exit
-
-POPC

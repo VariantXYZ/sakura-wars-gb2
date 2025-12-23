@@ -89,7 +89,7 @@ with open(rom_path, 'rb') as rom:
         scene_table_fp.write('INCLUDE "game/src/common/macros.asm"\n')
         scene_table_fp.write('\n')
 
-        scene_table_fp.write(f'INCLUDE "{os.path.join(game_scene_script_dir, f"game_scene_scripts.asm")}"\n\n') 
+        scene_table_fp.write(f'INCLUDE "{os.path.join(game_scene_script_dir, f"game_scene_scripts.asm")}"\n\n')
         for x in range(0, len(scenes)):
             scene_table_fp.write(f'INCLUDE "{os.path.join(game_scene_script_dir, f"game_scene_{x:02X}.asm")}"\n')
         scene_table_fp.write('\n')
@@ -201,6 +201,10 @@ with open(rom_path, 'rb') as rom:
     handled_references = []
     initial_references = []
     all_text = {}
+    section_idx = -1
+    section_lengths = {}
+    reference_section_map = OrderedDict()
+    sections = {}
 
     # Parse/write subroutines before data, sorted by absolute address
     # Doing it this way guarantees all data is grouped
@@ -212,7 +216,7 @@ with open(rom_path, 'rb') as rom:
         global to_parse
 
         real_addr = utils.rom2realaddr((bank, addr))
-        
+
         if real_addr in reference_map and reference_map[real_addr][0] == False:
             return reference_map[real_addr][1]
 
@@ -249,10 +253,7 @@ with open(rom_path, 'rb') as rom:
             title = f'Game Scene NPC Script {index:04X}'
             data_section_written = False
             data_section_current_bank = None
-            do_write_line(write_line, lines, 'PUSHC\n')
-            do_write_line(write_line, lines, f'INCLUDE "game/src/common/macros.asm"')
-            do_write_line(write_line, lines, f'INCLUDE "{game_scene_npc_charmap}"\n')
-            do_write_line(write_line, lines, f'INCLUDE "{os.path.join(build_dir, f"text.game_scene_npc_script_{index:04X}.asm") }"\n')
+            do_write_line(write_line, lines, f'INCLUDE "game/src/common/macros.asm"\n')
             do_write_line(write_line, lines, f'SECTION "{title}", ROMX[${rom_addr[1]:04X}], BANK[${rom_addr[0]:02X}]')
             do_write_line(write_line, lines, f'{prefix}{index:04X}::')
             rom.seek(addr)
@@ -549,7 +550,7 @@ with open(rom_path, 'rb') as rom:
                         arg2 = utils.read_byte(rom)
                         do_write_line(write_line, lines, f'  db ${val:02X}')
                         do_write_line(write_line, lines, f'    db ${arg1:02X}')
-                        do_write_line(write_line, lines, f'    db ${arg2:02X}')                    
+                        do_write_line(write_line, lines, f'    db ${arg2:02X}')
                     elif val == 0x2C:
                         arg1 = utils.read_byte(rom)
                         arg2 = utils.read_byte(rom)
@@ -627,7 +628,6 @@ with open(rom_path, 'rb') as rom:
                     # We want to group data as best as possible to better move it for translations, don't interleave subroutines
                     is_new_section = (rom.tell() != real_addr) or (prev_is_data != is_data) or (current_bank != bank)
 
-                    prev_is_data = is_data
                     current_bank = bank
 
                     if reference_id < initial_reference:
@@ -638,15 +638,24 @@ with open(rom_path, 'rb') as rom:
                     except:
                         print("\n".join(lines))
                         raise
+
                     if initial_written == False:
                         initial_written = True
                     elif real_addr not in handled_references and is_new_section:
-                        do_write_line(write_line, lines, f'\nSECTION "{title} Reference {reference_id:04X} ({"Data" if is_data else "Subroutine"})", ROMX[${addr:04X}], BANK[${bank:02X}]')
+                        if is_data:
+                            if write_line:
+                                section_idx += 1
+                                section_lengths[section_idx] = 0
+                                sections[section_idx] = utils.rom2realaddr((bank, addr))
+                        else:
+                            do_write_line(write_line, lines, f'\nSECTION "{title} Subroutine {reference_id:04X}", ROMX[${addr:04X}], BANK[${bank:02X}]')
                     if is_data:
-                        do_write_line(write_line, lines, f'{prefix}Reference{reference_id:04X}::')
+                        reference_name = f"{prefix}Reference{reference_id:04X}"
                         is_term = True
                         for _ in range(data_count):
                             data = list(iter(partial(utils.read_byte, rom), data_terminator))
+                            if write_line:
+                                section_lengths[section_idx] += len(data) + 1 # data + terminator
                             # Parse text
                             length = 0
                             text = ""
@@ -675,14 +684,15 @@ with open(rom_path, 'rb') as rom:
                                         print('\n'.join(lines))
                                         raise ValueError(f"{index:04X}: Unknown character at {bank:02X}:{addr:04X} {byte:02X}")
                                     length += 1
-                                reference_name = f"c{prefix}Reference{reference_id:04X}"
                                 if write_line:
                                     all_text[index].append([reference_name, text])
-                                do_write_line(write_line, lines, f'  db #{reference_name},${data_terminator:02X}')
+                                    reference_section_map[reference_name] = section_idx
                             else:
                                 do_write_line(write_line, lines, f'  db {",".join([f"${x:02X}" for x in data])},${data_terminator:02X}' + f' ; {data_type}' if data_type is not None else '')
                     elif real_addr not in handled_references:
                         is_term = False
+
+                    prev_is_data = is_data
 
                 if is_term == False:
                     # Queue up the next byte to parse, in order
@@ -703,7 +713,6 @@ with open(rom_path, 'rb') as rom:
             lines = files[filename]
             for line in lines:
                 text_fp.write(line + '\n')
-            text_fp.write('\nPOPC\n')
 
     for index in all_text:
         with open(os.path.join(game_scene_npc_text_dir, f'game_scene_npc_script_{index:04X}.csv'), 'w', encoding='utf-8') as csv_fp:
@@ -715,7 +724,17 @@ with open(rom_path, 'rb') as rom:
             for data in all_text[index]:
                 reference_name = data[0]
                 text = data[1]
-                writer.writerow([f'{reference_name}', text])
+                # Note the 'c' added here to denote the constant definition
+                # (Separate the reference name from the text)
+                writer.writerow([f'c{reference_name}', text])
+
+    with open(os.path.join(game_scene_npc_text_dir, f'text_section.tbl'), 'w', encoding='utf-8') as ts_fp:
+        for reference_name in reference_section_map:
+            ts_fp.write(f'{reference_name}={reference_section_map[reference_name]}\n')
+
+    with open(os.path.join(game_scene_npc_text_dir, f'sections.tbl'), 'w', encoding='utf-8') as s_fp:
+        for section in sections:
+            s_fp.write(f'{section}={sections[section], section_lengths[section]}\n')
 
 
     with open(game_scene_npc_charmap, 'w', encoding='utf-8') as charmap_fp:

@@ -1,9 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
-INCLUDE "./build/text.game_scene_npc_script_0069.asm"
 
 SECTION "Game Scene NPC Script 0069", ROMX[$4D77], BANK[$50]
 GameSceneNPCScript0069::
@@ -27,7 +22,7 @@ GameSceneNPCScriptReference26BD::
     dwb GameSceneNPCScriptReference26BF, BANK(GameSceneNPCScriptReference26BF) ; If Male
     dwb GameSceneNPCScriptReference26C0, BANK(GameSceneNPCScriptReference26C0) ; If Female
 
-SECTION "Game Scene NPC Script 0069 Reference 26BC (Subroutine)", ROMX[$4408], BANK[$58]
+SECTION "Game Scene NPC Script 0069 Subroutine 26BC", ROMX[$4408], BANK[$58]
 GameSceneNPCScriptReference26BC::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference26C1
@@ -51,7 +46,7 @@ GameSceneNPCScriptReference26C2::
 GameSceneNPCScriptReference26C1::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0069 Reference 26C0 (Subroutine)", ROMX[$4873], BANK[$58]
+SECTION "Game Scene NPC Script 0069 Subroutine 26C0", ROMX[$4873], BANK[$58]
 GameSceneNPCScriptReference26C0::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference26C4
@@ -75,7 +70,7 @@ GameSceneNPCScriptReference26C5::
 GameSceneNPCScriptReference26C4::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0069 Reference 26BF (Subroutine)", ROMX[$4CD2], BANK[$58]
+SECTION "Game Scene NPC Script 0069 Subroutine 26BF", ROMX[$4CD2], BANK[$58]
 GameSceneNPCScriptReference26BF::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference26C7
@@ -99,7 +94,7 @@ GameSceneNPCScriptReference26C8::
 GameSceneNPCScriptReference26C7::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0069 Reference 26BE (Subroutine)", ROMX[$524B], BANK[$58]
+SECTION "Game Scene NPC Script 0069 Subroutine 26BE", ROMX[$524B], BANK[$58]
 GameSceneNPCScriptReference26BE::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference26CA
@@ -123,7 +118,7 @@ GameSceneNPCScriptReference26CB::
 GameSceneNPCScriptReference26CA::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0069 Reference 26BB (Subroutine)", ROMX[$56B5], BANK[$58]
+SECTION "Game Scene NPC Script 0069 Subroutine 26BB", ROMX[$56B5], BANK[$58]
 GameSceneNPCScriptReference26BB::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference26CD
@@ -137,7 +132,7 @@ GameSceneNPCScriptReference26BB::
     dw GameSceneNPCScriptReference26CE ; On Timer Branch
     db $FF
 
-SECTION "Game Scene NPC Script 0069 Reference 26CE (Subroutine)", ROMX[$56C2], BANK[$58]
+SECTION "Game Scene NPC Script 0069 Subroutine 26CE", ROMX[$56C2], BANK[$58]
 GameSceneNPCScriptReference26CE::
   db $14 ; Change scene
     db $2D
@@ -149,7 +144,7 @@ GameSceneNPCScriptReference26CE::
 GameSceneNPCScriptReference26CD::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0069 Reference 26BA (Subroutine)", ROMX[$5B1D], BANK[$58]
+SECTION "Game Scene NPC Script 0069 Subroutine 26BA", ROMX[$5B1D], BANK[$58]
 GameSceneNPCScriptReference26BA::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference26D0
@@ -172,29 +167,3 @@ GameSceneNPCScriptReference26D1::
   db $FF ; Exit
 GameSceneNPCScriptReference26D0::
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0069 Reference 26C6 (Data)", ROMX[$5410], BANK[$6D]
-GameSceneNPCScriptReference26C6::
-  db #cGameSceneNPCScriptReference26C6,$00
-
-SECTION "Game Scene NPC Script 0069 Reference 26C9 (Data)", ROMX[$6069], BANK[$6D]
-GameSceneNPCScriptReference26C9::
-  db #cGameSceneNPCScriptReference26C9,$00
-
-SECTION "Game Scene NPC Script 0069 Reference 26C3 (Data)", ROMX[$6F41], BANK[$6D]
-GameSceneNPCScriptReference26C3::
-  db #cGameSceneNPCScriptReference26C3,$00
-
-SECTION "Game Scene NPC Script 0069 Reference 26CC (Data)", ROMX[$7C3D], BANK[$6D]
-GameSceneNPCScriptReference26CC::
-  db #cGameSceneNPCScriptReference26CC,$00
-
-SECTION "Game Scene NPC Script 0069 Reference 26CF (Data)", ROMX[$494A], BANK[$6E]
-GameSceneNPCScriptReference26CF::
-  db #cGameSceneNPCScriptReference26CF,$00
-
-SECTION "Game Scene NPC Script 0069 Reference 26D2 (Data)", ROMX[$566F], BANK[$6E]
-GameSceneNPCScriptReference26D2::
-  db #cGameSceneNPCScriptReference26D2,$00
-
-POPC

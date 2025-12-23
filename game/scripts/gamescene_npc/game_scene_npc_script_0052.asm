@@ -1,9 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
-INCLUDE "./build/text.game_scene_npc_script_0052.asm"
 
 SECTION "Game Scene NPC Script 0052", ROMX[$4A98], BANK[$50]
 GameSceneNPCScript0052::
@@ -12,7 +7,7 @@ GameSceneNPCScriptReference1E7B::
     dwb GameSceneNPCScriptReference1E7C, BANK(GameSceneNPCScriptReference1E7C) ; If Male
     dwb GameSceneNPCScriptReference1E7D, BANK(GameSceneNPCScriptReference1E7D) ; If Female
 
-SECTION "Game Scene NPC Script 0052 Reference 1E7C (Subroutine)", ROMX[$4EA8], BANK[$51]
+SECTION "Game Scene NPC Script 0052 Subroutine 1E7C", ROMX[$4EA8], BANK[$51]
 GameSceneNPCScriptReference1E7C::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference1E7E
@@ -110,31 +105,3 @@ GameSceneNPCScriptReference1E86::
     db $D0
     db $80
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0052 Reference 1E80 (Data)", ROMX[$4D4A], BANK[$69]
-GameSceneNPCScriptReference1E80::
-  db #cGameSceneNPCScriptReference1E80,$00
-GameSceneNPCScriptReference1E81::
-  db #cGameSceneNPCScriptReference1E81,$00
-GameSceneNPCScriptReference1E82::
-  db #cGameSceneNPCScriptReference1E82,$00
-GameSceneNPCScriptReference1E83::
-  db #cGameSceneNPCScriptReference1E83,$00
-GameSceneNPCScriptReference1E84::
-  db #cGameSceneNPCScriptReference1E84,$00
-GameSceneNPCScriptReference1E85::
-  db #cGameSceneNPCScriptReference1E85,$00
-GameSceneNPCScriptReference1E88::
-  db #cGameSceneNPCScriptReference1E88,$00
-GameSceneNPCScriptReference1E89::
-  db #cGameSceneNPCScriptReference1E89,$00
-GameSceneNPCScriptReference1E8A::
-  db #cGameSceneNPCScriptReference1E8A,$00
-GameSceneNPCScriptReference1E8B::
-  db #cGameSceneNPCScriptReference1E8B,$00
-GameSceneNPCScriptReference1E8C::
-  db #cGameSceneNPCScriptReference1E8C,$00
-GameSceneNPCScriptReference1E8D::
-  db #cGameSceneNPCScriptReference1E8D,$00
-
-POPC

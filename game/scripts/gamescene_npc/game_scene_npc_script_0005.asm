@@ -1,9 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
-INCLUDE "./build/text.game_scene_npc_script_0005.asm"
 
 SECTION "Game Scene NPC Script 0005", ROMX[$6446], BANK[$51]
 GameSceneNPCScript0005::
@@ -37,7 +32,7 @@ GameSceneNPCScriptReference012B::
     dw GameSceneNPCScriptReference0123 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0005 Reference 0121 (Subroutine)", ROMX[$6476], BANK[$51]
+SECTION "Game Scene NPC Script 0005 Subroutine 0121", ROMX[$6476], BANK[$51]
 GameSceneNPCScriptReference0121::
   db $07 ; Portrait
     db $00
@@ -72,39 +67,3 @@ GameSceneNPCScriptReference0123::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference012B
     db $00
-
-SECTION "Game Scene NPC Script 0005 Reference 0119 (Data)", ROMX[$62E9], BANK[$60]
-GameSceneNPCScriptReference0119::
-  db #cGameSceneNPCScriptReference0119,$00
-GameSceneNPCScriptReference011A::
-  db #cGameSceneNPCScriptReference011A,$00
-GameSceneNPCScriptReference011B::
-  db #cGameSceneNPCScriptReference011B,$00
-GameSceneNPCScriptReference011C::
-  db #cGameSceneNPCScriptReference011C,$00
-GameSceneNPCScriptReference011D::
-  db #cGameSceneNPCScriptReference011D,$00
-GameSceneNPCScriptReference011E::
-  db #cGameSceneNPCScriptReference011E,$00
-GameSceneNPCScriptReference011F::
-  db #cGameSceneNPCScriptReference011F,$00
-GameSceneNPCScriptReference0120::
-  db #cGameSceneNPCScriptReference0120,$00
-GameSceneNPCScriptReference0122::
-  db #cGameSceneNPCScriptReference0122,$00
-GameSceneNPCScriptReference0124::
-  db #cGameSceneNPCScriptReference0124,$00
-GameSceneNPCScriptReference0125::
-  db #cGameSceneNPCScriptReference0125,$00
-GameSceneNPCScriptReference0126::
-  db #cGameSceneNPCScriptReference0126,$00
-GameSceneNPCScriptReference0127::
-  db #cGameSceneNPCScriptReference0127,$00
-GameSceneNPCScriptReference0128::
-  db #cGameSceneNPCScriptReference0128,$00
-GameSceneNPCScriptReference0129::
-  db #cGameSceneNPCScriptReference0129,$00
-GameSceneNPCScriptReference012A::
-  db #cGameSceneNPCScriptReference012A,$00
-
-POPC

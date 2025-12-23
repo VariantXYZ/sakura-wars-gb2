@@ -1,9 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
-INCLUDE "./build/text.game_scene_npc_script_005E.asm"
 
 SECTION "Game Scene NPC Script 005E", ROMX[$4954], BANK[$57]
 GameSceneNPCScript005E::
@@ -35,17 +30,3 @@ GameSceneNPCScriptReference22DB::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 005E Reference 22DC (Data)", ROMX[$5B97], BANK[$6C]
-GameSceneNPCScriptReference22DC::
-  db #cGameSceneNPCScriptReference22DC,$00
-GameSceneNPCScriptReference22DD::
-  db #cGameSceneNPCScriptReference22DD,$00
-GameSceneNPCScriptReference22DE::
-  db #cGameSceneNPCScriptReference22DE,$00
-GameSceneNPCScriptReference22DF::
-  db #cGameSceneNPCScriptReference22DF,$00
-GameSceneNPCScriptReference22E0::
-  db #cGameSceneNPCScriptReference22E0,$00
-
-POPC

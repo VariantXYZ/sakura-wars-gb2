@@ -1,9 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
-INCLUDE "./build/text.game_scene_npc_script_002D.asm"
 
 SECTION "Game Scene NPC Script 002D", ROMX[$485A], BANK[$50]
 GameSceneNPCScript002D::
@@ -12,7 +7,7 @@ GameSceneNPCScriptReference136B::
     dwb GameSceneNPCScriptReference136C, BANK(GameSceneNPCScriptReference136C) ; If Male
     dwb GameSceneNPCScriptReference136D, BANK(GameSceneNPCScriptReference136D) ; If Female
 
-SECTION "Game Scene NPC Script 002D Reference 136C (Subroutine)", ROMX[$525F], BANK[$50]
+SECTION "Game Scene NPC Script 002D Subroutine 136C", ROMX[$525F], BANK[$50]
 GameSceneNPCScriptReference136C::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference136E
@@ -31,7 +26,7 @@ GameSceneNPCScriptReference136C::
 GameSceneNPCScriptReference136E::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 002D Reference 136F (Subroutine)", ROMX[$5270], BANK[$50]
+SECTION "Game Scene NPC Script 002D Subroutine 136F", ROMX[$5270], BANK[$50]
 GameSceneNPCScriptReference136F::
   db $07 ; Portrait
     db $00
@@ -56,18 +51,10 @@ GameSceneNPCScriptReference136D::
 GameSceneNPCScriptReference1371::
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 002D Reference 1372 (Subroutine)", ROMX[$5288], BANK[$50]
+SECTION "Game Scene NPC Script 002D Subroutine 1372", ROMX[$5288], BANK[$50]
 GameSceneNPCScriptReference1372::
   db $07 ; Portrait
     db $00
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference1373, BANK(GameSceneNPCScriptReference1373)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 002D Reference 1370 (Data)", ROMX[$4AC1], BANK[$66]
-GameSceneNPCScriptReference1370::
-  db #cGameSceneNPCScriptReference1370,$00
-GameSceneNPCScriptReference1373::
-  db #cGameSceneNPCScriptReference1373,$00
-
-POPC

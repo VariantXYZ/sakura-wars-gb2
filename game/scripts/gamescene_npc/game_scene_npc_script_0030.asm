@@ -1,9 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
-INCLUDE "./build/text.game_scene_npc_script_0030.asm"
 
 SECTION "Game Scene NPC Script 0030", ROMX[$4638], BANK[$50]
 GameSceneNPCScript0030::
@@ -30,5 +25,3 @@ GameSceneNPCScriptReference139E::
   db $26
     dwb GameSceneNPCScriptReference139B, BANK(GameSceneNPCScriptReference139B) ; If Male
     dwb GameSceneNPCScriptReference13A3, BANK(GameSceneNPCScriptReference13A3) ; If Female
-
-POPC

@@ -1,9 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
-INCLUDE "./build/text.game_scene_npc_script_0050.asm"
 
 SECTION "Game Scene NPC Script 0050", ROMX[$4B71], BANK[$50]
 GameSceneNPCScript0050::
@@ -12,7 +7,7 @@ GameSceneNPCScriptReference1D12::
     dwb GameSceneNPCScriptReference1D13, BANK(GameSceneNPCScriptReference1D13) ; If Male
     dwb GameSceneNPCScriptReference1D14, BANK(GameSceneNPCScriptReference1D14) ; If Female
 
-SECTION "Game Scene NPC Script 0050 Reference 1D14 (Subroutine)", ROMX[$64BB], BANK[$56]
+SECTION "Game Scene NPC Script 0050 Subroutine 1D14", ROMX[$64BB], BANK[$56]
 GameSceneNPCScriptReference1D14::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference1D15
@@ -109,7 +104,7 @@ GameSceneNPCScriptReference1D2B::
     dw GameSceneNPCScriptReference1D25 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0050 Reference 1D21 (Subroutine)", ROMX[$6538], BANK[$56]
+SECTION "Game Scene NPC Script 0050 Subroutine 1D21", ROMX[$6538], BANK[$56]
 GameSceneNPCScriptReference1D21::
   db $07 ; Portrait
     db $00
@@ -179,7 +174,7 @@ GameSceneNPCScriptReference1D28::
     dw GameSceneNPCScriptReference1D35 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0050 Reference 1D31 (Subroutine)", ROMX[$6598], BANK[$56]
+SECTION "Game Scene NPC Script 0050 Subroutine 1D31", ROMX[$6598], BANK[$56]
 GameSceneNPCScriptReference1D31::
   db $07 ; Portrait
     db $00
@@ -253,7 +248,7 @@ GameSceneNPCScriptReference1D38::
     dw GameSceneNPCScriptReference1D45 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0050 Reference 1D41 (Subroutine)", ROMX[$65FE], BANK[$56]
+SECTION "Game Scene NPC Script 0050 Subroutine 1D41", ROMX[$65FE], BANK[$56]
 GameSceneNPCScriptReference1D41::
   db $07 ; Portrait
     db $00
@@ -395,7 +390,7 @@ GameSceneNPCScriptReference1D53::
     db $81
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0050 Reference 1D13 (Subroutine)", ROMX[$66AC], BANK[$56]
+SECTION "Game Scene NPC Script 0050 Subroutine 1D13", ROMX[$66AC], BANK[$56]
 GameSceneNPCScriptReference1D13::
   db $08 ; Local Branch
     dw GameSceneNPCScriptReference1D5B
@@ -492,7 +487,7 @@ GameSceneNPCScriptReference1D71::
     dw GameSceneNPCScriptReference1D6B ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0050 Reference 1D67 (Subroutine)", ROMX[$6729], BANK[$56]
+SECTION "Game Scene NPC Script 0050 Subroutine 1D67", ROMX[$6729], BANK[$56]
 GameSceneNPCScriptReference1D67::
   db $07 ; Portrait
     db $00
@@ -569,7 +564,7 @@ GameSceneNPCScriptReference1D6E::
     dw GameSceneNPCScriptReference1D7C ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0050 Reference 1D78 (Subroutine)", ROMX[$6792], BANK[$56]
+SECTION "Game Scene NPC Script 0050 Subroutine 1D78", ROMX[$6792], BANK[$56]
 GameSceneNPCScriptReference1D78::
   db $07 ; Portrait
     db $00
@@ -648,7 +643,7 @@ GameSceneNPCScriptReference1D7F::
     dw GameSceneNPCScriptReference1D8C ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0050 Reference 1D88 (Subroutine)", ROMX[$67FD], BANK[$56]
+SECTION "Game Scene NPC Script 0050 Subroutine 1D88", ROMX[$67FD], BANK[$56]
 GameSceneNPCScriptReference1D88::
   db $07 ; Portrait
     db $00
@@ -793,223 +788,3 @@ GameSceneNPCScriptReference1D9B::
     db $4C
     db $81
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0050 Reference 1D16 (Data)", ROMX[$739E], BANK[$6A]
-GameSceneNPCScriptReference1D16::
-  db #cGameSceneNPCScriptReference1D16,$00
-GameSceneNPCScriptReference1D17::
-  db #cGameSceneNPCScriptReference1D17,$00
-GameSceneNPCScriptReference1D18::
-  db #cGameSceneNPCScriptReference1D18,$00
-GameSceneNPCScriptReference1D19::
-  db #cGameSceneNPCScriptReference1D19,$00
-GameSceneNPCScriptReference1D1A::
-  db #cGameSceneNPCScriptReference1D1A,$00
-GameSceneNPCScriptReference1D1B::
-  db #cGameSceneNPCScriptReference1D1B,$00
-GameSceneNPCScriptReference1D1C::
-  db #cGameSceneNPCScriptReference1D1C,$00
-GameSceneNPCScriptReference1D1D::
-  db #cGameSceneNPCScriptReference1D1D,$00
-GameSceneNPCScriptReference1D1E::
-  db #cGameSceneNPCScriptReference1D1E,$00
-GameSceneNPCScriptReference1D1F::
-  db #cGameSceneNPCScriptReference1D1F,$00
-GameSceneNPCScriptReference1D20::
-  db #cGameSceneNPCScriptReference1D20,$00
-GameSceneNPCScriptReference1D22::
-  db #cGameSceneNPCScriptReference1D22,$00
-GameSceneNPCScriptReference1D24::
-  db #cGameSceneNPCScriptReference1D24,$00
-GameSceneNPCScriptReference1D26::
-  db #cGameSceneNPCScriptReference1D26,$00
-GameSceneNPCScriptReference1D27::
-  db #cGameSceneNPCScriptReference1D27,$00
-GameSceneNPCScriptReference1D29::
-  db #cGameSceneNPCScriptReference1D29,$00
-GameSceneNPCScriptReference1D2A::
-  db #cGameSceneNPCScriptReference1D2A,$00
-GameSceneNPCScriptReference1D2C::
-  db #cGameSceneNPCScriptReference1D2C,$00
-GameSceneNPCScriptReference1D2D::
-  db #cGameSceneNPCScriptReference1D2D,$00
-GameSceneNPCScriptReference1D2E::
-  db #cGameSceneNPCScriptReference1D2E,$00
-GameSceneNPCScriptReference1D2F::
-  db #cGameSceneNPCScriptReference1D2F,$00
-GameSceneNPCScriptReference1D30::
-  db #cGameSceneNPCScriptReference1D30,$00
-GameSceneNPCScriptReference1D32::
-  db #cGameSceneNPCScriptReference1D32,$00
-GameSceneNPCScriptReference1D34::
-  db #cGameSceneNPCScriptReference1D34,$00
-GameSceneNPCScriptReference1D36::
-  db #cGameSceneNPCScriptReference1D36,$00
-GameSceneNPCScriptReference1D37::
-  db #cGameSceneNPCScriptReference1D37,$00
-GameSceneNPCScriptReference1D39::
-  db #cGameSceneNPCScriptReference1D39,$00
-GameSceneNPCScriptReference1D3A::
-  db #cGameSceneNPCScriptReference1D3A,$00
-GameSceneNPCScriptReference1D3B::
-  db #cGameSceneNPCScriptReference1D3B,$00
-GameSceneNPCScriptReference1D3C::
-  db #cGameSceneNPCScriptReference1D3C,$00
-GameSceneNPCScriptReference1D3D::
-  db #cGameSceneNPCScriptReference1D3D,$00
-GameSceneNPCScriptReference1D3E::
-  db #cGameSceneNPCScriptReference1D3E,$00
-GameSceneNPCScriptReference1D3F::
-  db #cGameSceneNPCScriptReference1D3F,$00
-GameSceneNPCScriptReference1D40::
-  db #cGameSceneNPCScriptReference1D40,$00
-GameSceneNPCScriptReference1D42::
-  db #cGameSceneNPCScriptReference1D42,$00
-GameSceneNPCScriptReference1D44::
-  db #cGameSceneNPCScriptReference1D44,$00
-GameSceneNPCScriptReference1D46::
-  db #cGameSceneNPCScriptReference1D46,$00
-GameSceneNPCScriptReference1D47::
-  db #cGameSceneNPCScriptReference1D47,$00
-GameSceneNPCScriptReference1D49::
-  db #cGameSceneNPCScriptReference1D49,$00
-GameSceneNPCScriptReference1D4A::
-  db #cGameSceneNPCScriptReference1D4A,$00
-GameSceneNPCScriptReference1D4B::
-  db #cGameSceneNPCScriptReference1D4B,$00
-GameSceneNPCScriptReference1D4C::
-  db #cGameSceneNPCScriptReference1D4C,$00
-GameSceneNPCScriptReference1D4D::
-  db #cGameSceneNPCScriptReference1D4D,$00
-GameSceneNPCScriptReference1D50::
-  db #cGameSceneNPCScriptReference1D50,$00
-GameSceneNPCScriptReference1D51::
-  db #cGameSceneNPCScriptReference1D51,$00
-GameSceneNPCScriptReference1D52::
-  db #cGameSceneNPCScriptReference1D52,$00
-GameSceneNPCScriptReference1D54::
-  db #cGameSceneNPCScriptReference1D54,$00
-GameSceneNPCScriptReference1D55::
-  db #cGameSceneNPCScriptReference1D55,$00
-GameSceneNPCScriptReference1D56::
-  db #cGameSceneNPCScriptReference1D56,$00
-GameSceneNPCScriptReference1D57::
-  db #cGameSceneNPCScriptReference1D57,$00
-GameSceneNPCScriptReference1D58::
-  db #cGameSceneNPCScriptReference1D58,$00
-GameSceneNPCScriptReference1D59::
-  db #cGameSceneNPCScriptReference1D59,$00
-GameSceneNPCScriptReference1D5A::
-  db #cGameSceneNPCScriptReference1D5A,$00
-GameSceneNPCScriptReference1D5C::
-  db #cGameSceneNPCScriptReference1D5C,$00
-GameSceneNPCScriptReference1D5D::
-  db #cGameSceneNPCScriptReference1D5D,$00
-GameSceneNPCScriptReference1D5E::
-  db #cGameSceneNPCScriptReference1D5E,$00
-GameSceneNPCScriptReference1D5F::
-  db #cGameSceneNPCScriptReference1D5F,$00
-GameSceneNPCScriptReference1D60::
-  db #cGameSceneNPCScriptReference1D60,$00
-GameSceneNPCScriptReference1D61::
-  db #cGameSceneNPCScriptReference1D61,$00
-GameSceneNPCScriptReference1D62::
-  db #cGameSceneNPCScriptReference1D62,$00
-GameSceneNPCScriptReference1D63::
-  db #cGameSceneNPCScriptReference1D63,$00
-GameSceneNPCScriptReference1D64::
-  db #cGameSceneNPCScriptReference1D64,$00
-GameSceneNPCScriptReference1D65::
-  db #cGameSceneNPCScriptReference1D65,$00
-GameSceneNPCScriptReference1D66::
-  db #cGameSceneNPCScriptReference1D66,$00
-GameSceneNPCScriptReference1D68::
-  db #cGameSceneNPCScriptReference1D68,$00
-GameSceneNPCScriptReference1D6A::
-  db #cGameSceneNPCScriptReference1D6A,$00
-GameSceneNPCScriptReference1D6C::
-  db #cGameSceneNPCScriptReference1D6C,$00
-GameSceneNPCScriptReference1D6D::
-  db #cGameSceneNPCScriptReference1D6D,$00
-GameSceneNPCScriptReference1D6F::
-  db #cGameSceneNPCScriptReference1D6F,$00
-GameSceneNPCScriptReference1D70::
-  db #cGameSceneNPCScriptReference1D70,$00
-GameSceneNPCScriptReference1D72::
-  db #cGameSceneNPCScriptReference1D72,$00
-GameSceneNPCScriptReference1D73::
-  db #cGameSceneNPCScriptReference1D73,$00
-GameSceneNPCScriptReference1D74::
-  db #cGameSceneNPCScriptReference1D74,$00
-GameSceneNPCScriptReference1D75::
-  db #cGameSceneNPCScriptReference1D75,$00
-GameSceneNPCScriptReference1D76::
-  db #cGameSceneNPCScriptReference1D76,$00
-GameSceneNPCScriptReference1D77::
-  db #cGameSceneNPCScriptReference1D77,$00
-GameSceneNPCScriptReference1D79::
-  db #cGameSceneNPCScriptReference1D79,$00
-GameSceneNPCScriptReference1D7B::
-  db #cGameSceneNPCScriptReference1D7B,$00
-GameSceneNPCScriptReference1D7D::
-  db #cGameSceneNPCScriptReference1D7D,$00
-GameSceneNPCScriptReference1D7E::
-  db #cGameSceneNPCScriptReference1D7E,$00
-GameSceneNPCScriptReference1D80::
-  db #cGameSceneNPCScriptReference1D80,$00
-GameSceneNPCScriptReference1D81::
-  db #cGameSceneNPCScriptReference1D81,$00
-GameSceneNPCScriptReference1D82::
-  db #cGameSceneNPCScriptReference1D82,$00
-GameSceneNPCScriptReference1D83::
-  db #cGameSceneNPCScriptReference1D83,$00
-GameSceneNPCScriptReference1D84::
-  db #cGameSceneNPCScriptReference1D84,$00
-GameSceneNPCScriptReference1D85::
-  db #cGameSceneNPCScriptReference1D85,$00
-GameSceneNPCScriptReference1D86::
-  db #cGameSceneNPCScriptReference1D86,$00
-GameSceneNPCScriptReference1D87::
-  db #cGameSceneNPCScriptReference1D87,$00
-GameSceneNPCScriptReference1D89::
-  db #cGameSceneNPCScriptReference1D89,$00
-GameSceneNPCScriptReference1D8B::
-  db #cGameSceneNPCScriptReference1D8B,$00
-GameSceneNPCScriptReference1D8D::
-  db #cGameSceneNPCScriptReference1D8D,$00
-GameSceneNPCScriptReference1D8E::
-  db #cGameSceneNPCScriptReference1D8E,$00
-GameSceneNPCScriptReference1D90::
-  db #cGameSceneNPCScriptReference1D90,$00
-GameSceneNPCScriptReference1D91::
-  db #cGameSceneNPCScriptReference1D91,$00
-GameSceneNPCScriptReference1D92::
-  db #cGameSceneNPCScriptReference1D92,$00
-GameSceneNPCScriptReference1D93::
-  db #cGameSceneNPCScriptReference1D93,$00
-GameSceneNPCScriptReference1D94::
-  db #cGameSceneNPCScriptReference1D94,$00
-GameSceneNPCScriptReference1D95::
-  db #cGameSceneNPCScriptReference1D95,$00
-GameSceneNPCScriptReference1D98::
-  db #cGameSceneNPCScriptReference1D98,$00
-GameSceneNPCScriptReference1D99::
-  db #cGameSceneNPCScriptReference1D99,$00
-GameSceneNPCScriptReference1D9A::
-  db #cGameSceneNPCScriptReference1D9A,$00
-GameSceneNPCScriptReference1D9C::
-  db #cGameSceneNPCScriptReference1D9C,$00
-GameSceneNPCScriptReference1D9D::
-  db #cGameSceneNPCScriptReference1D9D,$00
-GameSceneNPCScriptReference1D9E::
-  db #cGameSceneNPCScriptReference1D9E,$00
-GameSceneNPCScriptReference1D9F::
-  db #cGameSceneNPCScriptReference1D9F,$00
-GameSceneNPCScriptReference1DA0::
-  db #cGameSceneNPCScriptReference1DA0,$00
-GameSceneNPCScriptReference1DA1::
-  db #cGameSceneNPCScriptReference1DA1,$00
-GameSceneNPCScriptReference1DA2::
-  db #cGameSceneNPCScriptReference1DA2,$00
-
-POPC

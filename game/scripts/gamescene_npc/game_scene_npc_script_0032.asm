@@ -1,9 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
-INCLUDE "./build/text.game_scene_npc_script_0032.asm"
 
 SECTION "Game Scene NPC Script 0032", ROMX[$469A], BANK[$50]
 GameSceneNPCScript0032::
@@ -31,7 +26,7 @@ GameSceneNPCScriptReference13CC::
     dwb GameSceneNPCScriptReference13C9, BANK(GameSceneNPCScriptReference13C9) ; If Male
     dwb GameSceneNPCScriptReference13D1, BANK(GameSceneNPCScriptReference13D1) ; If Female
 
-SECTION "Game Scene NPC Script 0032 Reference 13CE (Subroutine)", ROMX[$4E46], BANK[$54]
+SECTION "Game Scene NPC Script 0032 Subroutine 13CE", ROMX[$4E46], BANK[$54]
 GameSceneNPCScriptReference13CE::
   db $0F
     db $00
@@ -46,7 +41,7 @@ GameSceneNPCScriptReference13CE::
     dwb GameSceneNPCScriptReference13D3, BANK(GameSceneNPCScriptReference13D3)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0032 Reference 13CD (Subroutine)", ROMX[$5378], BANK[$54]
+SECTION "Game Scene NPC Script 0032 Subroutine 13CD", ROMX[$5378], BANK[$54]
 GameSceneNPCScriptReference13CD::
   db $0F
     db $00
@@ -61,7 +56,7 @@ GameSceneNPCScriptReference13CD::
     dwb GameSceneNPCScriptReference13D5, BANK(GameSceneNPCScriptReference13D5)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0032 Reference 13D0 (Subroutine)", ROMX[$587D], BANK[$54]
+SECTION "Game Scene NPC Script 0032 Subroutine 13D0", ROMX[$587D], BANK[$54]
 GameSceneNPCScriptReference13D0::
   db $0F
     db $00
@@ -78,7 +73,7 @@ GameSceneNPCScriptReference13D0::
     dwb GameSceneNPCScriptReference13D8, BANK(GameSceneNPCScriptReference13D8)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0032 Reference 13CF (Subroutine)", ROMX[$5D77], BANK[$54]
+SECTION "Game Scene NPC Script 0032 Subroutine 13CF", ROMX[$5D77], BANK[$54]
 GameSceneNPCScriptReference13CF::
   db $0F
     db $00
@@ -95,7 +90,7 @@ GameSceneNPCScriptReference13CF::
     dwb GameSceneNPCScriptReference13DB, BANK(GameSceneNPCScriptReference13DB)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0032 Reference 13D1 (Subroutine)", ROMX[$664B], BANK[$54]
+SECTION "Game Scene NPC Script 0032 Subroutine 13D1", ROMX[$664B], BANK[$54]
 GameSceneNPCScriptReference13D1::
   db $0F
     db $00
@@ -112,7 +107,7 @@ GameSceneNPCScriptReference13D1::
     dwb GameSceneNPCScriptReference13DE, BANK(GameSceneNPCScriptReference13DE)
   db $FF ; Exit
 
-SECTION "Game Scene NPC Script 0032 Reference 13C9 (Subroutine)", ROMX[$6B52], BANK[$54]
+SECTION "Game Scene NPC Script 0032 Subroutine 13C9", ROMX[$6B52], BANK[$54]
 GameSceneNPCScriptReference13C9::
   db $0F
     db $00
@@ -128,49 +123,3 @@ GameSceneNPCScriptReference13C9::
   db $00 ; WriteText
     dwb GameSceneNPCScriptReference13E1, BANK(GameSceneNPCScriptReference13E1)
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0032 Reference 13D2 (Data)", ROMX[$5494], BANK[$66]
-GameSceneNPCScriptReference13D2::
-  db #cGameSceneNPCScriptReference13D2,$00
-GameSceneNPCScriptReference13D3::
-  db #cGameSceneNPCScriptReference13D3,$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13D4 (Data)", ROMX[$61AE], BANK[$66]
-GameSceneNPCScriptReference13D4::
-  db #cGameSceneNPCScriptReference13D4,$00
-GameSceneNPCScriptReference13D5::
-  db #cGameSceneNPCScriptReference13D5,$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13D6 (Data)", ROMX[$6E04], BANK[$66]
-GameSceneNPCScriptReference13D6::
-  db #cGameSceneNPCScriptReference13D6,$00
-GameSceneNPCScriptReference13D7::
-  db #cGameSceneNPCScriptReference13D7,$00
-GameSceneNPCScriptReference13D8::
-  db #cGameSceneNPCScriptReference13D8,$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13D9 (Data)", ROMX[$7AA2], BANK[$66]
-GameSceneNPCScriptReference13D9::
-  db #cGameSceneNPCScriptReference13D9,$00
-GameSceneNPCScriptReference13DA::
-  db #cGameSceneNPCScriptReference13DA,$00
-GameSceneNPCScriptReference13DB::
-  db #cGameSceneNPCScriptReference13DB,$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13DC (Data)", ROMX[$4EA6], BANK[$67]
-GameSceneNPCScriptReference13DC::
-  db #cGameSceneNPCScriptReference13DC,$00
-GameSceneNPCScriptReference13DD::
-  db #cGameSceneNPCScriptReference13DD,$00
-GameSceneNPCScriptReference13DE::
-  db #cGameSceneNPCScriptReference13DE,$00
-
-SECTION "Game Scene NPC Script 0032 Reference 13DF (Data)", ROMX[$5BAE], BANK[$67]
-GameSceneNPCScriptReference13DF::
-  db #cGameSceneNPCScriptReference13DF,$00
-GameSceneNPCScriptReference13E0::
-  db #cGameSceneNPCScriptReference13E0,$00
-GameSceneNPCScriptReference13E1::
-  db #cGameSceneNPCScriptReference13E1,$00
-
-POPC

@@ -87,7 +87,7 @@ GAMESCENE_NPC_SCRIPT_OBJNAMES := $(foreach FILE, $(notdir $(basename $(wildcard 
 
 # Intermediates
 CUTSCENE_SCRIPT_OBJECTS := $(foreach OBJECT,$(CUTSCENE_SCRIPT_OBJNAMES), $(addsuffix .$(INT_TYPE), $(addprefix $(BUILD_DIR)/,$(OBJECT))) )
-GAMESCENE_NPC_SCRIPT_OBJECTS := $(foreach OBJECT,$(GAMESCENE_NPC_SCRIPT_OBJNAMES), $(addsuffix .$(INT_TYPE), $(addprefix $(BUILD_DIR)/,$(OBJECT))) )
+GAMESCENE_NPC_SCRIPT_OBJECTS := $(foreach OBJECT,$(GAMESCENE_NPC_SCRIPT_OBJNAMES), $(addsuffix .$(INT_TYPE), $(addprefix $(BUILD_DIR)/,$(OBJECT)))) $(BUILD_DIR)/gs.npc.text.$(INT_TYPE)
 OBJECTS := $(foreach OBJECT,$(OBJNAMES), $(addprefix $(BUILD_DIR)/,$(OBJECT))) $(CUTSCENE_SCRIPT_OBJECTS) $(GAMESCENE_NPC_SCRIPT_OBJECTS)
 TILESET_1BPP_FILES := $(foreach FILE,$(TILESETS_1BPP_IMAGE_FILES),$(TILESET_OUT_DIR)/$(basename $(FILE)).$(1BPP_TYPE))
 
@@ -123,14 +123,18 @@ $(TILESET_OUT_DIR)/%.$(1BPP_TYPE): $(TILESET_GFX_DIR)/%.$(RAW_1BPP_SRC_TYPE) | $
 
 # build/cs.*.asm from cutscene scripts
 $(BUILD_DIR)/cs.%.$(SOURCE_TYPE): $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BUILD_DIR)
-	$(PYTHON) $(SCRIPT_DIR)/cs2asm.py $@ $^
+	$(PYTHON) $(SCRIPT_DIR)/cs2asm.py $@ $<
 
+# build/gs.npc.text.asm from all GSNPC NPC CSVs
+# This is a single rule since it handles space management
+$(BUILD_DIR)/gs.npc.text.$(SOURCE_TYPE): $(GAMESCENE_NPC_SCRIPT_DIR)/charmap.asm $(GAMESCENE_NPC_TEXT_DIR)/sections.tbl $(GAMESCENE_NPC_TEXT_DIR)/text_section.tbl $(GAMESCENE_NPC_TEXT_DIR)/*.$(CSV_TYPE) | $(BUILD_DIR)
+	$(PYTHON) $(SCRIPT_DIR)/gstext2asm.py $@ $^
 
-$(BUILD_DIR)/gs.npc.%.$(INT_TYPE): $(GAMESCENE_NPC_SCRIPT_DIR)/%.$(SOURCE_TYPE) $(BUILD_DIR)/text.%.$(SOURCE_TYPE) | $(BUILD_DIR)
+$(BUILD_DIR)/gs.npc.text.$(INT_TYPE): $(BUILD_DIR)/gs.npc.text.$(SOURCE_TYPE) | $(BUILD_DIR)
 	$(CC) $(CC_ARGS) -o $@ $<
 
-$(BUILD_DIR)/text.%.$(SOURCE_TYPE): $(GAMESCENE_NPC_TEXT_DIR)/%.$(CSV_TYPE) | $(BUILD_DIR)
-	$(PYTHON) $(SCRIPT_DIR)/csv2asm.py $@ $<
+$(BUILD_DIR)/gs.npc.%.$(INT_TYPE): $(GAMESCENE_NPC_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BUILD_DIR)
+	$(CC) $(CC_ARGS) -o $@ $<
 
 # Dumping
 .PHONY: dump dump_tilesets dump_cutscene_scripts dump_gamescene_scripts

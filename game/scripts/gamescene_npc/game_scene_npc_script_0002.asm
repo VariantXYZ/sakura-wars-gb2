@@ -1,9 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
-INCLUDE "./build/text.game_scene_npc_script_0002.asm"
 
 SECTION "Game Scene NPC Script 0002", ROMX[$64A5], BANK[$51]
 GameSceneNPCScript0002::
@@ -65,7 +60,7 @@ GameSceneNPCScriptReference0058::
     dw GameSceneNPCScriptReference0058 ; Option Branch
     dw $FFFF
 
-SECTION "Game Scene NPC Script 0002 Reference 0056 (Subroutine)", ROMX[$64F1], BANK[$51]
+SECTION "Game Scene NPC Script 0002 Subroutine 0056", ROMX[$64F1], BANK[$51]
 GameSceneNPCScriptReference0056::
   db $07 ; Portrait
     db $00
@@ -78,29 +73,3 @@ GameSceneNPCScriptReference0056::
   db $17 ; Spawn Visual Entity
     db $01
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0002 Reference 004E (Data)", ROMX[$6492], BANK[$60]
-GameSceneNPCScriptReference004E::
-  db #cGameSceneNPCScriptReference004E,$00
-GameSceneNPCScriptReference004F::
-  db #cGameSceneNPCScriptReference004F,$00
-GameSceneNPCScriptReference0050::
-  db #cGameSceneNPCScriptReference0050,$00
-GameSceneNPCScriptReference0051::
-  db #cGameSceneNPCScriptReference0051,$00
-GameSceneNPCScriptReference0052::
-  db #cGameSceneNPCScriptReference0052,$00
-GameSceneNPCScriptReference0053::
-  db #cGameSceneNPCScriptReference0053,$00
-GameSceneNPCScriptReference0054::
-  db #cGameSceneNPCScriptReference0054,$00
-GameSceneNPCScriptReference0055::
-  db #cGameSceneNPCScriptReference0055,$00
-GameSceneNPCScriptReference0057::
-  db #cGameSceneNPCScriptReference0057,$00
-GameSceneNPCScriptReference0059::
-  db #cGameSceneNPCScriptReference0059,$00
-GameSceneNPCScriptReference005A::
-  db #cGameSceneNPCScriptReference005A,$00
-
-POPC
