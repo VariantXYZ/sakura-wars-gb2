@@ -127,7 +127,7 @@ $(BUILD_DIR)/cs.%.$(SOURCE_TYPE): $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BU
 # build/gs.npc.text.asm from all GSNPC NPC CSVs
 # This is a single rule since it handles space management
 $(BUILD_DIR)/gs.npc.text.$(SOURCE_TYPE): $(GAMESCENE_NPC_SCRIPT_DIR)/charmap.asm $(GAMESCENE_NPC_TEXT_DIR)/sections.tbl $(GAMESCENE_NPC_TEXT_DIR)/text_section.tbl $(GAMESCENE_NPC_TEXT_DIR)/*.$(CSV_TYPE) | $(BUILD_DIR)
-	$(PYTHON) $(SCRIPT_DIR)/gstext2asm.py $@ $^
+	$(PYTHON) $(SCRIPT_DIR)/gstext2asm.py $@ $^ || rm $@
 
 $(BUILD_DIR)/gs.npc.text.$(INT_TYPE): $(BUILD_DIR)/gs.npc.text.$(SOURCE_TYPE) | $(BUILD_DIR)
 	$(CC) $(CC_ARGS) -o $@ $<

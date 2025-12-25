@@ -61,7 +61,7 @@ def txt2bin(txt, tbl, pad=0, padbyte=0):
                 if key in tbl:
                     break
             else:
-                raise KeyError
+                assert False, f'No mapping for "{key}"'
 
             # Prepare the byte to be written into the tmap
             # Note that if the associated value is > 0xFF, we need to write it out in big endian
