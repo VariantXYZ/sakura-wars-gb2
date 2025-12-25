@@ -59,6 +59,10 @@ RUN git clone $RGBDS_REPOSITORY ~/rgbds && \
     rm -rf ~/rgbds && \
     rgbasm --version
 
+# Install openpyxl requirements
+RUN python3 -m pip install --upgrade et_xmlfile
+RUN python3 -m pip install --upgrade jdcal
+
 # install openpyxl
 RUN git clone $OPENPYXL_REPOSITORY ~/openpyxl && \
     cd ~/openpyxl && \
