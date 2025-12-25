@@ -737,9 +737,27 @@ with open(rom_path, 'rb') as rom:
             s_fp.write(f'{section}={sections[section], section_lengths[section]}\n')
 
 
+    # Try to identify missing characters
+    for b1 in range(0x81, 0xFF + 1):
+        # Valid lead bytes for Shift JIS
+        if (0x81 <= b1 <= 0x9F) or (0xE0 <= b1 <= 0xEF):
+            for b2 in range(0x40, 0xFF + 1):
+                # Valid trailing bytes
+                if b2 not in [0x7F]: # 0x7F is skipped in Shift JIS trailing bytes
+                    try:
+                        # Attempt to decode the two-byte sequence
+                        byte_seq = bytes([b1, b2])
+                        char = byte_seq.decode('shift_jis')
+                        if (b1 << 8 | b2) not in character_table and char not in character_table.values():
+                            character_table[(b1 << 8 | b2)] = char
+                    except UnicodeDecodeError:
+                        # Many byte combinations are invalid in the Shift JIS standard
+                        continue
+
     with open(game_scene_npc_charmap, 'w', encoding='utf-8') as charmap_fp:
         for key, value in character_table.items():
             if key > 0xFF:
                 charmap_fp.write(f'CHARMAP "{value}",${(key >> 8):02X},${(key & 0xFF):02X}\n')
             else:
                 charmap_fp.write(f'CHARMAP "{value}",${key:02X}\n')
+
