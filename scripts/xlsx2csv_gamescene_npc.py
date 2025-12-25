@@ -9,6 +9,13 @@ script_name = sys.argv[0]
 xlsx = sys.argv[1]
 csv_files = sys.argv[2:]
 
+# Do some additional processing here for now to make charset conversions more convenient
+REPLACE_MAP = ({
+    '－' : '―',
+    '-' : '―',
+    ':' : '：',
+})
+
 # Possible that we can do 15 for some, but portrait-text caps at 14
 MAX_WIDTH = 14 * 8
 
@@ -92,6 +99,9 @@ def format_text_knuth_plass(text, max_width):
 # Experimentally trying knuth-plass
 def format_text(text):
     #return text.replace('\n', '<BR>')
+    for t in REPLACE_MAP:
+        text = text.replace(t, REPLACE_MAP[t])
+
     return format_text_knuth_plass(text, MAX_WIDTH).replace('\n', '<BR>')
 
 wb = xl.load_workbook(xlsx)
