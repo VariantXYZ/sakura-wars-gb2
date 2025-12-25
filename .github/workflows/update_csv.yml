@@ -1,0 +1,36 @@
+# Update CSVs from XLSX files
+
+name: Update CSVs from XLSX
+
+on:
+  # Allows running manually
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    container: ghcr.io/variantxyz/sakura-wars-gb2:tr_EN
+
+    steps:
+      - name: List versions
+        run: |
+          git --version
+          python3 --version
+          rgbasm --version
+          rgblink --version
+          rgbgfx --version
+
+      - name: Checkout main repository
+        uses: actions/checkout@v2
+        with:
+          path: 'sakura-wars-gb2'
+
+      - name: Update CSV
+        working-directory: 'sakura-wars-gb2'
+        run: |
+          make update_csv
+
+      - name: Commit if there are changes
+        working-directory: 'sakura-wars-gb2'
+        run: |
+          git commit -C HEAD && git push || echo "No text changes"
