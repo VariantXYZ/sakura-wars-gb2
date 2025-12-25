@@ -46,10 +46,11 @@ for csv_file in sorted(csv_files):
         if ID in text_map:
             row[text_idx].value = text_map[ID].replace('<BR>','\n')
             row[text_idx].alignment = xl.styles.Alignment(wrap_text=True)
-            del text_map[ID]
+            text_map[ID] = None
 
     for ID in text_map:
-        wb[name].append([ID, text_map[ID].replace('<BR>', '\n')])
+        if text_map[ID] is not None:
+            wb[name].append([ID, text_map[ID].replace('<BR>', '\n')])
 
     index += 1
 
