@@ -31,7 +31,13 @@ sections_table = OrderedDict()
 with open(sections_file, 'r', encoding='utf-8') as fp:
     for line in fp:
         line = line.strip().split('=')
-        sections_table[int(line[0])] = literal_eval(line[1])
+        section_idx = int(line[0])
+        value = literal_eval(line[1])
+        assert type(value) is tuple
+        if type(value[0]) is tuple:
+            value = (utils.rom2realaddr(value[0]), value[1])
+        sections_table[section_idx] = value
+
 sections_size = { int(key): sections_table[key][1] for key in sections_table }
 
 text_section_table = OrderedDict()
