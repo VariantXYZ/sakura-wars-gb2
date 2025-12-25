@@ -37,15 +37,19 @@ for csv_file in sorted(csv_files):
     id_idx = header.index("ID")
     text_idx = header.index("Text")
 
-    for row in wb[name].rows:
+    wb[name].column_dimensions[chr(ord('A') + id_idx)].width = 40
+    wb[name].column_dimensions[chr(ord('A') + text_idx)].width = 40
+
+    for row in rows:
         ID = row[id_idx].value
-        text = row[text_idx].value
+        text = row[text_idx].value.replace('\n', '<BR>')
         if ID in text_map:
-            row[text_idx].value = text_map[ID]
+            row[text_idx].value = text_map[ID].replace('<BR>','\n')
+            row[text_idx].alignment = xl.styles.Alignment(wrap_text=True)
             del text_map[ID]
 
     for ID in text_map:
-        wb[name].append([ID, text_map[ID]])
+        wb[name].append([ID, text_map[ID].replace('<BR>', '\n')])
 
     index += 1
 

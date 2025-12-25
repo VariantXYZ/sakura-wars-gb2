@@ -1,9 +1,4 @@
-PUSHC
-
 INCLUDE "game/src/common/macros.asm"
-INCLUDE "./game/scripts/gamescene_npc/charmap.asm"
-
-INCLUDE "./build/text.game_scene_npc_script_0075.asm"
 
 SECTION "Game Scene NPC Script 0075", ROMX[$49B6], BANK[$51]
 GameSceneNPCScript0075::
@@ -60,49 +55,3 @@ GameSceneNPCScriptReference2A54::
     db $89
     db $80
   db $FF ; Exit
-
-SECTION "Game Scene NPC Script 0075 Reference 2A55 (Data)", ROMX[$5BD8], BANK[$94]
-GameSceneNPCScriptReference2A55::
-  db #cGameSceneNPCScriptReference2A55,$00
-
-SECTION "Game Scene NPC Script 0075 Reference 2A56 (Data)", ROMX[$5BE0], BANK[$94]
-GameSceneNPCScriptReference2A56::
-  db #cGameSceneNPCScriptReference2A56,$00
-
-SECTION "Game Scene NPC Script 0075 Reference 2A57 (Data)", ROMX[$5BFA], BANK[$94]
-GameSceneNPCScriptReference2A57::
-  db #cGameSceneNPCScriptReference2A57,$00
-
-SECTION "Game Scene NPC Script 0075 Reference 2A58 (Data)", ROMX[$5C03], BANK[$94]
-GameSceneNPCScriptReference2A58::
-  db #cGameSceneNPCScriptReference2A58,$00
-
-SECTION "Game Scene NPC Script 0075 Reference 2A59 (Data)", ROMX[$5C22], BANK[$94]
-GameSceneNPCScriptReference2A59::
-  db #cGameSceneNPCScriptReference2A59,$00
-
-SECTION "Game Scene NPC Script 0075 Reference 2A5A (Data)", ROMX[$5C4C], BANK[$94]
-GameSceneNPCScriptReference2A5A::
-  db #cGameSceneNPCScriptReference2A5A,$00
-
-SECTION "Game Scene NPC Script 0075 Reference 2A5B (Data)", ROMX[$5C71], BANK[$94]
-GameSceneNPCScriptReference2A5B::
-  db #cGameSceneNPCScriptReference2A5B,$00
-
-SECTION "Game Scene NPC Script 0075 Reference 2A5C (Data)", ROMX[$5C8B], BANK[$94]
-GameSceneNPCScriptReference2A5C::
-  db #cGameSceneNPCScriptReference2A5C,$00
-
-SECTION "Game Scene NPC Script 0075 Reference 2A5D (Data)", ROMX[$5CA3], BANK[$94]
-GameSceneNPCScriptReference2A5D::
-  db #cGameSceneNPCScriptReference2A5D,$00
-
-SECTION "Game Scene NPC Script 0075 Reference 2A5E (Data)", ROMX[$5CBE], BANK[$94]
-GameSceneNPCScriptReference2A5E::
-  db #cGameSceneNPCScriptReference2A5E,$00
-
-SECTION "Game Scene NPC Script 0075 Reference 2A5F (Data)", ROMX[$5CE1], BANK[$94]
-GameSceneNPCScriptReference2A5F::
-  db #cGameSceneNPCScriptReference2A5F,$00
-
-POPC
