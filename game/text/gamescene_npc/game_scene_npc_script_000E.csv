@@ -1,30 +1,30 @@
 ID,Text
-cGameSceneNPCScriptReference036A,うわ〜。<BR>ミカサって　こんなに<BR>たかかったのね。
-cGameSceneNPCScriptReference036B,そうだよ　ミカサは　<BR>と〜っても　おっきいんだよ!
-cGameSceneNPCScriptReference036D,ねえ　<NAME><BR>あそこに　たからばこが<BR>あるでしょ。
-cGameSceneNPCScriptReference036E,とりにいこーよ!
-cGameSceneNPCScriptReference036F,いいわよ　いきましょう
-cGameSceneNPCScriptReference0371,ヤメときましょう
-cGameSceneNPCScriptReference0373,え〜。<BR>おちたら　どうするの?<BR>ヤメときましょうよ。
-cGameSceneNPCScriptReference0374,え〜〜〜〜っ!<BR>アイリスつまんない!
-cGameSceneNPCScriptReference0375,いいわよ　いきましょう。<BR>……でも　あんなところに<BR>どうやって　とりにいくの?
-cGameSceneNPCScriptReference0376,えへへへへへ。<BR>それは　アイリスに<BR>おまかせー!!
-cGameSceneNPCScriptReference0377,いっくよー!<BR>アイリスにしっかり<BR>つかまっててね!
-cGameSceneNPCScriptReference0378,びっくりした?<BR>いまのがテレポートって<BR>いうんだよ!
-cGameSceneNPCScriptReference037A,ひっひえ〜っ!　たかい!!<BR>ミカサって　こんなに<BR>たかかったんだね。
-cGameSceneNPCScriptReference037B,そうだよ　ミカサは　<BR>と〜っても　おっきいんだよ!
-cGameSceneNPCScriptReference037D,ねえ　<NAME><BR>あそこに　たからばこが<BR>あるでしょ。
-cGameSceneNPCScriptReference037E,とりにいこーよ!
-cGameSceneNPCScriptReference037F,よし　とりにいこう
-cGameSceneNPCScriptReference0381,ヤメとこうよ
-cGameSceneNPCScriptReference0383,え〜。<BR>おちたら　どうするのさ。<BR>ヤメとこうよ。
-cGameSceneNPCScriptReference0384,え〜〜〜〜っ!<BR>アイリスつまんない!
-cGameSceneNPCScriptReference0385,よし　とりにいこう!<BR>……でも　あんなところに<BR>どうやって　とりに<BR>いくんだい?
-cGameSceneNPCScriptReference0386,えへへへへへ。<BR>それは　アイリスに<BR>おまかせー!!
-cGameSceneNPCScriptReference0387,いっくよー!<BR>アイリスにしっかり<BR>つかまっててね!
-cGameSceneNPCScriptReference0388,びっくりした?<BR>いまのがテレポートって<BR>いうんだよ!
-cGameSceneNPCScriptReference038C,う〜ん……<BR>やっぱり　たかいですね〜。
-cGameSceneNPCScriptReference038A,うわ〜　たかい!!<BR>ミカサって　けっこう<BR>たかいんですね。
-cGameSceneNPCScriptReference038B,ミカサのたかさは<BR>１０００メートルいじょう<BR>あるんだ。
-cGameSceneNPCScriptReference038E,うわ〜　たかい!!<BR>ミカサって　けっこう<BR>たかいんですね。
-cGameSceneNPCScriptReference038F,ミカサのたかさは<BR>１０００メートルいじょうも<BR>ありますのよ。
+cGameSceneNPCScriptReference036A,Whoa!<BR>I didn’t know<BR>the Mikasa<BR>was so tall.
+cGameSceneNPCScriptReference036B,Yup!<BR>The Mikasa is<BR>suuuuper big!
+cGameSceneNPCScriptReference036D,"Hey, <NAME>,<BR>I think I see<BR>a chest over<BR>there!"
+cGameSceneNPCScriptReference036E,Let’s go open<BR>it!
+cGameSceneNPCScriptReference036F,"Sure, let’s<BR>go"
+cGameSceneNPCScriptReference0371,Let’s not
+cGameSceneNPCScriptReference0373,"It’d be bad<BR>if we well,<BR>so let’s not."
+cGameSceneNPCScriptReference0374,Huhhh?!<BR>You’re no<BR>fun!
+cGameSceneNPCScriptReference0375,"Sure, let’s<BR>go.<BR>… How are we<BR>gonna get it<BR>from here,<BR>though?"
+cGameSceneNPCScriptReference0376,"Heheh, you<BR>can leave<BR>that to me!"
+cGameSceneNPCScriptReference0377,Here we go!<BR>Make sure<BR>to hold on<BR>tight!
+cGameSceneNPCScriptReference0378,"Surprised,<BR>huh?<BR>I just<BR>teleported us<BR>over here!"
+cGameSceneNPCScriptReference037A,Yikes!<BR>I didn’t know<BR>the Mikasa<BR>was so tall!
+cGameSceneNPCScriptReference037B,Yup!<BR>The Mikasa is<BR>suuuuper big!
+cGameSceneNPCScriptReference037D,"Hey, <NAME>,<BR>I think I see<BR>a chest over<BR>there!"
+cGameSceneNPCScriptReference037E,Let’s go open<BR>it!
+cGameSceneNPCScriptReference037F,"Alright,<BR>let’s go"
+cGameSceneNPCScriptReference0381,Let’s not
+cGameSceneNPCScriptReference0383,"It’d be bad<BR>if we well,<BR>so let’s not."
+cGameSceneNPCScriptReference0384,Huhhh?!<BR>You’re no<BR>fun!
+cGameSceneNPCScriptReference0385,"Alright,<BR>let’s go!<BR>… So how are<BR>we gonna get<BR>it from here?"
+cGameSceneNPCScriptReference0386,"Heheh, you<BR>can leave<BR>that to me!"
+cGameSceneNPCScriptReference0387,Here we go!<BR>Make sure<BR>to hold on<BR>tight!
+cGameSceneNPCScriptReference0388,"Surprised,<BR>huh?<BR>I just<BR>teleported us<BR>over here!"
+cGameSceneNPCScriptReference038C,Hmm…<BR>We sure are<BR>high up.
+cGameSceneNPCScriptReference038A,Whoa! We’re<BR>so high up!<BR>I had no idea<BR>the Mikasa<BR>was so tall.
+cGameSceneNPCScriptReference038B,The Mikasa<BR>is over 1000<BR>meters tall.
+cGameSceneNPCScriptReference038E,Whoa! We’re<BR>so high up!<BR>I had no idea<BR>the Mikasa<BR>was so tall.
+cGameSceneNPCScriptReference038F,"The Mikasa<BR>is over 1000<BR>meters tall,<BR>you know!"

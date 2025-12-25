@@ -1,133 +1,133 @@
 ID,Text
-cGameSceneNPCScriptReference0285,あれ?　アイリス。<BR>このエレベーター<BR>うごかないわよ。
-cGameSceneNPCScriptReference0286,どうしてかな〜?
-cGameSceneNPCScriptReference0287,そうねぇ……<BR>エレベーターがうごかないのは<BR>きっと……
-cGameSceneNPCScriptReference0288,どうりょくが　とまっている
-cGameSceneNPCScriptReference028A,こわれてる
-cGameSceneNPCScriptReference028C,どうりょくが　とまっている<BR>からじゃ　ないかしら?
-cGameSceneNPCScriptReference028D,どうりょく?………………
-cGameSceneNPCScriptReference028E,あっそうか!<BR>じゃあ　エンジンを<BR>うごかせば　いいんだね!!
-cGameSceneNPCScriptReference028F,<NAME>って<BR>あったまいいーーー。
-cGameSceneNPCScriptReference0290,それじゃ　エンジンをうごかす<BR>スイッチをさがしに<BR>レッツゴー!!
-cGameSceneNPCScriptReference0291,こわれてるんじゃ<BR>ないかしら?
-cGameSceneNPCScriptReference0292,え〜っ!<BR>じゃあ　ここから　さきには<BR>すすめないの〜。
-cGameSceneNPCScriptReference0293,う〜ん……<BR>こまったわね……
+cGameSceneNPCScriptReference0285,"Oh? Hey,<BR>Iris, the<BR>elevator’s<BR>not working."
+cGameSceneNPCScriptReference0286,I wonder why?
+cGameSceneNPCScriptReference0287,Let’s see…<BR>Well it must<BR>be because…
+cGameSceneNPCScriptReference0288,It’s out of<BR>power
+cGameSceneNPCScriptReference028A,It’s broken
+cGameSceneNPCScriptReference028C,Maybe it’s<BR>just out of<BR>power?
+cGameSceneNPCScriptReference028D,Power…?
+cGameSceneNPCScriptReference028E,"Oh, I see!<BR>Then we just<BR>need to start<BR>the engines,<BR>huh!"
+cGameSceneNPCScriptReference028F,"You’re<BR>sooo smart,<BR><NAME>!"
+cGameSceneNPCScriptReference0290,"OK, let’s<BR>go find the<BR>switch for<BR>the engines!<BR>Allons-y!"
+cGameSceneNPCScriptReference0291,Could it be<BR>broken?
+cGameSceneNPCScriptReference0292,Huhhh?! Then<BR>we can’t go<BR>any further!
+cGameSceneNPCScriptReference0293,Hmm… This is<BR>a pickle…
 cGameSceneNPCScriptReference0294,……………………………………<BR>……………………………………<BR>……………………………………<BR>……………………………………
-cGameSceneNPCScriptReference0295,あ　わかった!
-cGameSceneNPCScriptReference0296,エレベーターが<BR>うごかないのは<BR>どうりょくが　とまっている<BR>からだよ　きっと。
-cGameSceneNPCScriptReference0297,だったら　エンジンを<BR>うごかせば　いいのね!
-cGameSceneNPCScriptReference0298,アイリスってば<BR>あったまいい〜。
-cGameSceneNPCScriptReference0299,エヘヘ……
-cGameSceneNPCScriptReference029A,それじゃ　エンジンをうごかす<BR>スイッチをさがしに<BR>レッツゴー!!
-cGameSceneNPCScriptReference029B,エンジンをうごかせば<BR>つかえるね。
-cGameSceneNPCScriptReference029D,あれ?　アイリス。<BR>このエレベーター<BR>うごかないよ。
-cGameSceneNPCScriptReference029E,え〜　どうしてぇ〜。
-cGameSceneNPCScriptReference029F,どうしてって　いわれても……<BR>それは　たぶん……
-cGameSceneNPCScriptReference02A0,どうりょくが　とまっている
-cGameSceneNPCScriptReference02A2,こわれてる
-cGameSceneNPCScriptReference02A4,どうりょくが　とまっている<BR>からじゃ　ないかな?
-cGameSceneNPCScriptReference02A5,どうりょく?………………
-cGameSceneNPCScriptReference02A6,あっそうか!!<BR>じゃあ　エンジンを<BR>うごかせば　いいんだね!!
-cGameSceneNPCScriptReference02A7,<NAME>って<BR>あったまいいーーー。
-cGameSceneNPCScriptReference02A8,それじゃ　エンジンをうごかす<BR>スイッチをさがしに<BR>レッツゴー!!
-cGameSceneNPCScriptReference02A9,こわれてるんじゃないか?
-cGameSceneNPCScriptReference02AA,え〜っ!<BR>じゃあ　ここから　さきには<BR>すすめないじゃん!!<BR>どうするの!　ねえ!!
-cGameSceneNPCScriptReference02AB,あわわ……<BR>そんなに　おこらなくても<BR>いいじゃないか……
+cGameSceneNPCScriptReference0295,Ah! I know!
+cGameSceneNPCScriptReference0296,The<BR>elevator’s<BR>not working<BR>because it’s<BR>out of power!<BR>That’s gotta<BR>be it!
+cGameSceneNPCScriptReference0297,Then all we<BR>need to do<BR>is start the<BR>engine!
+cGameSceneNPCScriptReference0298,"Gee, Iris,<BR>you’re smart!"
+cGameSceneNPCScriptReference0299,Eheheh…
+cGameSceneNPCScriptReference029A,"OK, let’s<BR>go find the<BR>switch for<BR>the engines!<BR>Allons-y!"
+cGameSceneNPCScriptReference029B,"If we start<BR>up the<BR>engines, we<BR>can use this<BR>elevator."
+cGameSceneNPCScriptReference029D,"Huh? Hey,<BR>Iris, the<BR>elevator’s<BR>not working."
+cGameSceneNPCScriptReference029E,Huhhhh?<BR>Why noooot?
+cGameSceneNPCScriptReference029F,"Why not?<BR>Well, maybe<BR>because…"
+cGameSceneNPCScriptReference02A0,It’s out of<BR>power
+cGameSceneNPCScriptReference02A2,It’s broken
+cGameSceneNPCScriptReference02A4,Maybe it’s<BR>just out of<BR>power?
+cGameSceneNPCScriptReference02A5,Power…?
+cGameSceneNPCScriptReference02A6,"Oh, I see!<BR>Then we just<BR>need to start<BR>the engines,<BR>huh!"
+cGameSceneNPCScriptReference02A7,"You’re<BR>sooo smart,<BR><NAME>!"
+cGameSceneNPCScriptReference02A8,"OK, let’s<BR>go find the<BR>switch for<BR>the engines!<BR>Allons-y!"
+cGameSceneNPCScriptReference02A9,Maybe it’s<BR>just broken?
+cGameSceneNPCScriptReference02AA,Huhhh?! Then<BR>we can’t go<BR>any further!
+cGameSceneNPCScriptReference02AB,Hmm… This is<BR>a pickle…
 cGameSceneNPCScriptReference02AC,……………………………………<BR>……………………………………<BR>……………………………………<BR>……………………………………
-cGameSceneNPCScriptReference02AD,あ　わかった!
-cGameSceneNPCScriptReference02AE,エレベーターが<BR>うごかないのは<BR>どうりょくが　とまっている<BR>からだよ　きっと。
-cGameSceneNPCScriptReference02AF,だったら　エンジンを<BR>うごかせば　いいんだ!
-cGameSceneNPCScriptReference02B0,やったね　アイリスってば<BR>あったまいい〜。
-cGameSceneNPCScriptReference02B1,それじゃ　エンジンをうごかす<BR>スイッチをさがしに<BR>レッツゴー!!
-cGameSceneNPCScriptReference02B2,エンジンをうごかせば<BR>つかえるね。
-cGameSceneNPCScriptReference02C7,あら?　さくらさん。<BR>このエレベーター<BR>うごきませんよ。
-cGameSceneNPCScriptReference02C8,どうしてかしら?
-cGameSceneNPCScriptReference02C9,そうですね…………
-cGameSceneNPCScriptReference02CA,どうりょくが　とまっている
-cGameSceneNPCScriptReference02CC,こわれてる
-cGameSceneNPCScriptReference02CE,どうりょくが　とまっている<BR>からじゃ　ないですか?
-cGameSceneNPCScriptReference02CF,きっと　そうですね。<BR>あたしも　そうおもいます。
-cGameSceneNPCScriptReference02D0,それでは　まず<BR>エンジンをうごかしに<BR>いきましょう。
-cGameSceneNPCScriptReference02D1,こわれてるんじゃ<BR>ないですか?<BR>さくらさん。
-cGameSceneNPCScriptReference02D2,こわれてる……<BR>……こまったわ…………<BR>どうしよう……
-cGameSceneNPCScriptReference02D3,じゃあ　つうしんで……
-cGameSceneNPCScriptReference02D4,おおがみにきく
-cGameSceneNPCScriptReference02D6,こうらんにきく
-cGameSceneNPCScriptReference02D8,つうしんで　おおがみさんに<BR>きいてみます。
-cGameSceneNPCScriptReference02D9,おおがみさん　おおがみさん<BR>おうとう　ねがいます。
-cGameSceneNPCScriptReference02DA,どうしたんだい?<BR><NAME>くん。
-cGameSceneNPCScriptReference02DB,じつは……………………………<BR>……………………………………<BR>……ということなんですが。
-cGameSceneNPCScriptReference02DC,それは　きっと　どうりょくが<BR>とまっているからだよ。
-cGameSceneNPCScriptReference02DD,だったら　エンジンを<BR>うごかせば　いいんですね。
-cGameSceneNPCScriptReference02DE,そのとおりだ<BR><NAME>くん。<BR>それじゃ　がんばってくれ。
-cGameSceneNPCScriptReference02DF,ありがとうございました<BR>おおがみさん。
-cGameSceneNPCScriptReference02E0,と　いうことです。<BR>さくらさん。
-cGameSceneNPCScriptReference02E1,では　まず<BR>エンジンをうごかしに<BR>いきましょう。
-cGameSceneNPCScriptReference02E2,つうしんで　こうらんさんに<BR>きいてみます。
-cGameSceneNPCScriptReference02E3,こうらんさん　こうらんさん<BR>おうとう　ねがいます。
-cGameSceneNPCScriptReference02E4,どないしたんや?<BR><NAME>はん。
-cGameSceneNPCScriptReference02E5,じつは……………………………<BR>……………………………………<BR>……ということなんですが。
-cGameSceneNPCScriptReference02E6,それは　きっと　どうりょくが<BR>とまっているからやな。
-cGameSceneNPCScriptReference02E7,だったら　エンジンを<BR>うごかせば　いいんですね。
-cGameSceneNPCScriptReference02E8,そのとおりや<BR><NAME>はん。<BR>ほな　がんばってな。
-cGameSceneNPCScriptReference02E9,ありがとうございました<BR>こうらんさん。
-cGameSceneNPCScriptReference02EA,と　いうことです。<BR>さくらさん。
-cGameSceneNPCScriptReference02EB,きかいにつよい　こうらんに<BR>きくなんて　さすがですね<BR><NAME>さん。
-cGameSceneNPCScriptReference02EC,では　まず<BR>エンジンをうごかしに<BR>いきましょう。
-cGameSceneNPCScriptReference02ED,エンジンをうごかせば<BR>つかえそうですね。
-cGameSceneNPCScriptReference02EF,あれ?　さくらさん。<BR>このエレベーター<BR>うごきませんよ。
-cGameSceneNPCScriptReference02F0,どうしてかしら?
-cGameSceneNPCScriptReference02F1,そうですね…………
-cGameSceneNPCScriptReference02F2,どうりょくが　とまっている
-cGameSceneNPCScriptReference02F4,じゅうりょうオーバー
-cGameSceneNPCScriptReference02F6,どうりょくが　とまっている<BR>からじゃ　ないですか?
-cGameSceneNPCScriptReference02F7,きっと　そうですね。<BR>あたしも　そうおもいます。
-cGameSceneNPCScriptReference02F8,それでは　まず<BR>エンジンをうごかしに<BR>いきましょう。
-cGameSceneNPCScriptReference02F9,…………わかった!<BR>じゅうりょうオーバーですよ<BR>さくらさん!
-cGameSceneNPCScriptReference02FA,きっとそうですよ。<BR>じゅうりょうオーバーですよ<BR>じゅうりょうオーバー!<BR>おもたいんですよ!
-cGameSceneNPCScriptReference02FB,……なんかいも　いわなくても<BR>きこえてますよ<BR><NAME>さん。
-cGameSceneNPCScriptReference02FC,あたしの　たいじゅうが<BR>おもい……<BR>そういいたいのですね。<BR><NAME>さん……
-cGameSceneNPCScriptReference02FD,えっ……あの…………<BR>いや〜……………………………
-cGameSceneNPCScriptReference02FE,……………………………………
-cGameSceneNPCScriptReference02FF,わかった!
-cGameSceneNPCScriptReference0300,きっと<BR>どうりょくが　とまって<BR>いるんですよ。
-cGameSceneNPCScriptReference0301,だったら　エンジンを<BR>うごかせば　いいんですね!<BR>さすが　さくらさん!
-cGameSceneNPCScriptReference0302,ありがとうございます<BR><NAME>さん。
-cGameSceneNPCScriptReference0303,あ　あの<BR>さくらさん……<BR>おこってます?
-cGameSceneNPCScriptReference0304,いいえ……<BR>さあ　エンジンをうごかしに<BR>いきますよ。
-cGameSceneNPCScriptReference0305,エンジンをうごかせば<BR>つかえそうですね。
-cGameSceneNPCScriptReference02B4,あれ?　レニさん。<BR>このエレベーター<BR>うごきませんよ。
-cGameSceneNPCScriptReference02B5,うん。<BR>げんいんは<BR>なんだとおもう?
-cGameSceneNPCScriptReference02B6,そうですね…………<BR>げんいんは…………
-cGameSceneNPCScriptReference02B7,どうりょくが　とまっている
-cGameSceneNPCScriptReference02B9,こわれている
-cGameSceneNPCScriptReference02BB,どうりょくが　とまっている<BR>からじゃ　ないでしょうか?
-cGameSceneNPCScriptReference02BC,うん。<BR>おそらくそうだろう。
-cGameSceneNPCScriptReference02BD,それじゃあ<BR>エンジンをうごかしに<BR>いこう。
-cGameSceneNPCScriptReference02BE,こわれているんじゃ<BR>ないでしょうか?
-cGameSceneNPCScriptReference02BF,こわれてる?<BR>いきなり　そう<BR>けつろんを　だすのは<BR>まちがっている。
-cGameSceneNPCScriptReference02C0,うごかない……　ということは<BR>まず　どうりょくを<BR>たしかめるのが<BR>せんけつだ。
-cGameSceneNPCScriptReference02C1,どうりょくを　たしかめて<BR>それでも　うごかないの<BR>であれば……
-cGameSceneNPCScriptReference02C2,そこではじめて<BR>こわれているんじゃないか<BR>という　かのうせいが<BR>でてくるんだ。
-cGameSceneNPCScriptReference02C3,わかった?　<NAME>。
-cGameSceneNPCScriptReference02C4,じゃあ　エンジンを<BR>うごかしにいこう。
-cGameSceneNPCScriptReference02C5,エンジンをうごかせば<BR>つかえそうだな。
-cGameSceneNPCScriptReference0307,あれ?　すみれさん。<BR>このエレベーター<BR>うごきませんよ。
-cGameSceneNPCScriptReference0308,あら?<BR>どうしてなのかしら?
-cGameSceneNPCScriptReference0309,そうですね…………
-cGameSceneNPCScriptReference030A,どうりょくが　とまっている
-cGameSceneNPCScriptReference030C,わからない　こうらんにきく
-cGameSceneNPCScriptReference030E,どうりょくが　とまっている<BR>からじゃ　ないでしょうか?
-cGameSceneNPCScriptReference030F,きっと　そうですわね。<BR>わたくしも<BR>そうおもっておりましたわ。<BR>おっほほほほ。
-cGameSceneNPCScriptReference0310,それでは　まず<BR>エンジンをうごかしに<BR>まいりましょう。
-cGameSceneNPCScriptReference0311,…………わかりません。<BR>わからないので<BR>こうらんさんに<BR>きいてみますね。
-cGameSceneNPCScriptReference0312,こうらんさん　こうらんさん<BR>おうとうねがいます。
-cGameSceneNPCScriptReference0313,ほいほい。<BR>なんや　<NAME>はん。
-cGameSceneNPCScriptReference0314,じつは……かくかくしかじか<BR>……なんですけど…………
-cGameSceneNPCScriptReference0315,それは　どうりょくが<BR>とまってるからや。
-cGameSceneNPCScriptReference0316,エンジンを　うごかせば<BR>エレベーターもうごくで。
-cGameSceneNPCScriptReference0317,わかりました。<BR>こうらんさん　ありがとう<BR>ございました。
-cGameSceneNPCScriptReference0318,と　いうことです。<BR>すみれさん。
-cGameSceneNPCScriptReference0319,じぶんの　しらないことは<BR>ひとにきく……<BR>なかなか　すなおですわね<BR><NAME>さん。
-cGameSceneNPCScriptReference031A,では　エンジンをうごかしに<BR>まいりましょう。
-cGameSceneNPCScriptReference031B,エンジンをうごかせば<BR>つかえそうですわね。
+cGameSceneNPCScriptReference02AD,Ah! I know!
+cGameSceneNPCScriptReference02AE,The<BR>elevator’s<BR>not working<BR>because it’s<BR>out of power!<BR>That’s gotta<BR>be it!
+cGameSceneNPCScriptReference02AF,Then all we<BR>need to do<BR>is start the<BR>engine!
+cGameSceneNPCScriptReference02B0,"Good<BR>thinking,<BR>Iris!<BR>You’re so<BR>smart!"
+cGameSceneNPCScriptReference02B1,"OK, let’s<BR>go find the<BR>switch for<BR>the engines!<BR>Allons-y!"
+cGameSceneNPCScriptReference02B2,"If we start<BR>up the<BR>engines, we<BR>can use this<BR>elevator."
+cGameSceneNPCScriptReference02C7,"Oh? Hey,<BR>Sakura, the<BR>elevator’s<BR>not working."
+cGameSceneNPCScriptReference02C8,I wonder why?
+cGameSceneNPCScriptReference02C9,"Hmm, maybe…"
+cGameSceneNPCScriptReference02CA,It’s out of<BR>power
+cGameSceneNPCScriptReference02CC,It’s broken
+cGameSceneNPCScriptReference02CE,Maybe it’s<BR>just out of<BR>power?
+cGameSceneNPCScriptReference02CF,I think so<BR>too.<BR>That must be<BR>it.
+cGameSceneNPCScriptReference02D0,"OK, let’s<BR>go activate<BR>the engines,<BR>then."
+cGameSceneNPCScriptReference02D1,Do you think<BR>it might be<BR>broken?
+cGameSceneNPCScriptReference02D2,"Broken, huh?<BR>Well, shoot.<BR>What do we do<BR>now?"
+cGameSceneNPCScriptReference02D3,"Well, we<BR>could try<BR>calling…"
+cGameSceneNPCScriptReference02D4,Ogami
+cGameSceneNPCScriptReference02D6,Kohran
+cGameSceneNPCScriptReference02D8,We could try<BR>calling Ogami<BR>for advice.
+cGameSceneNPCScriptReference02D9,"Mr. Ogami?<BR>Mr. Ogami,<BR>sir?<BR>Please<BR>respond."
+cGameSceneNPCScriptReference02DA,"Yes, <NAME>?<BR>What is it?"
+cGameSceneNPCScriptReference02DB,"Well, you<BR>see…<BR>……………………………………<BR>...And there<BR>you have it."
+cGameSceneNPCScriptReference02DC,It must be<BR>out of power.
+cGameSceneNPCScriptReference02DD,So all I<BR>need to do is<BR>activate the<BR>engines?
+cGameSceneNPCScriptReference02DE,"Exactly,<BR><NAME>.<BR>Alright,<BR>good luck out<BR>there."
+cGameSceneNPCScriptReference02DF,"Thank you<BR>very much,<BR>Mr. Ogami."
+cGameSceneNPCScriptReference02E0,"You heard<BR>him, Sakura."
+cGameSceneNPCScriptReference02E1,"OK, let’s<BR>go activate<BR>the engines,<BR>then."
+cGameSceneNPCScriptReference02E2,We could<BR>try calling<BR>Kohran for<BR>advice.
+cGameSceneNPCScriptReference02E3,Kohran? Ms.<BR>Kohran?<BR>Please<BR>respond.
+cGameSceneNPCScriptReference02E4,"Yeah, what’s<BR>up, <NAME>?"
+cGameSceneNPCScriptReference02E5,"Well, you<BR>see…<BR>………<BR>...And there<BR>you have it."
+cGameSceneNPCScriptReference02E6,It must be<BR>out of power.
+cGameSceneNPCScriptReference02E7,So all I<BR>need to do is<BR>activate the<BR>engines?
+cGameSceneNPCScriptReference02E8,"You nailed<BR>it, <NAME>.<BR>Alright,<BR>good luck out<BR>there!"
+cGameSceneNPCScriptReference02E9,"Thank you<BR>very much,<BR>Kohran."
+cGameSceneNPCScriptReference02EA,"You heard<BR>her, Sakura."
+cGameSceneNPCScriptReference02EB,"Good<BR>thinking,<BR>calling<BR>Kohran<BR>for help,<BR><NAME>. She’s<BR>great with<BR>machinery."
+cGameSceneNPCScriptReference02EC,"OK, let’s<BR>go activate<BR>the engines,<BR>then."
+cGameSceneNPCScriptReference02ED,"If we start<BR>up the<BR>engines, we<BR>can use this<BR>elevator."
+cGameSceneNPCScriptReference02EF,"Huh? Hey,<BR>Sakura, the<BR>elevator’s<BR>not working."
+cGameSceneNPCScriptReference02F0,I wonder why?
+cGameSceneNPCScriptReference02F1,"Hmm, maybe…"
+cGameSceneNPCScriptReference02F2,It’s out of<BR>power
+cGameSceneNPCScriptReference02F4,It’s over<BR>capacity
+cGameSceneNPCScriptReference02F6,Maybe it’s<BR>just out of<BR>power?
+cGameSceneNPCScriptReference02F7,I think so<BR>too.<BR>That must be<BR>it.
+cGameSceneNPCScriptReference02F8,"OK, let’s<BR>go activate<BR>the engines,<BR>then."
+cGameSceneNPCScriptReference02F9,"… I’ve got<BR>it!<BR>It must<BR>be over<BR>capacity,<BR>Sakura!"
+cGameSceneNPCScriptReference02FA,That’s gotta<BR>be it!<BR>There’s too<BR>much weight!<BR>It’s over<BR>capacity!<BR>Over<BR>capacity!
+cGameSceneNPCScriptReference02FB,"...I heard<BR>you the first<BR>time, <NAME>."
+cGameSceneNPCScriptReference02FC,"You’re saying<BR>I’m heavy,<BR>is that it,<BR><NAME>…?"
+cGameSceneNPCScriptReference02FD,"Huh? Well,<BR>uh…<BR>Hoo boy…"
+cGameSceneNPCScriptReference02FE,…
+cGameSceneNPCScriptReference02FF,I’ve got it!
+cGameSceneNPCScriptReference0300,It must be<BR>out of power.
+cGameSceneNPCScriptReference0301,"Meaning it<BR>ought to work<BR>again if we<BR>start up the<BR>engines! Nice<BR>one, Sakura!"
+cGameSceneNPCScriptReference0302,"Thank you,<BR><NAME>."
+cGameSceneNPCScriptReference0303,"U-um…<BR>You’re not<BR>mad at me,<BR>are you,<BR>Sakura?"
+cGameSceneNPCScriptReference0304,"Not at all…<BR>Now, let’s<BR>go activate<BR>those<BR>engines."
+cGameSceneNPCScriptReference0305,"If we start<BR>up the<BR>engines, we<BR>can use this<BR>elevator."
+cGameSceneNPCScriptReference02B4,"Oh? Hey,<BR>Reni, the<BR>elevator’s<BR>not working."
+cGameSceneNPCScriptReference02B5,Indeed.<BR>What do you<BR>suppose the<BR>cause could<BR>be?
+cGameSceneNPCScriptReference02B6,The cause?<BR>Let’s see…
+cGameSceneNPCScriptReference02B7,It’s out of<BR>power
+cGameSceneNPCScriptReference02B9,It’s broken
+cGameSceneNPCScriptReference02BB,You think it<BR>might be out<BR>of power?
+cGameSceneNPCScriptReference02BC,Yes.<BR>That’s most<BR>likely the<BR>case.
+cGameSceneNPCScriptReference02BD,"Let’s go<BR>activate<BR>the engines,<BR>then."
+cGameSceneNPCScriptReference02BE,You think<BR>it might be<BR>broken?
+cGameSceneNPCScriptReference02BF,Broken?<BR>It’s too<BR>soon to<BR>come to that<BR>conclusion.
+cGameSceneNPCScriptReference02C0,"If it’s not<BR>working, then<BR>our first<BR>course of<BR>action should<BR>be to check<BR>the power."
+cGameSceneNPCScriptReference02C1,If there is<BR>power and<BR>it’s still<BR>not working…
+cGameSceneNPCScriptReference02C2,From there<BR>we’ll be able<BR>to determine<BR>whether it’s<BR>truly broken<BR>or not.
+cGameSceneNPCScriptReference02C3,"Understood,<BR><NAME>?"
+cGameSceneNPCScriptReference02C4,"Alright,<BR>let’s go<BR>start the<BR>engines,<BR>then."
+cGameSceneNPCScriptReference02C5,"If we start<BR>up the<BR>engines, we<BR>can use this<BR>elevator."
+cGameSceneNPCScriptReference0307,"Huh? Hey,<BR>Sumire, the<BR>elevator’s<BR>not working."
+cGameSceneNPCScriptReference0308,"Oh?<BR>Why not, I<BR>wonder?"
+cGameSceneNPCScriptReference0309,"Hmm, maybe…"
+cGameSceneNPCScriptReference030A,It’s out of<BR>power
+cGameSceneNPCScriptReference030C,"No idea,<BR>let’s ask<BR>Kohran"
+cGameSceneNPCScriptReference030E,Maybe it’s<BR>just out of<BR>power?
+cGameSceneNPCScriptReference030F,That must be<BR>the case.<BR>I was<BR>thinking the<BR>very same!<BR>Ohohoho!
+cGameSceneNPCScriptReference0310,"Now, let us<BR>be off to<BR>investigate<BR>the engines!"
+cGameSceneNPCScriptReference0311,… No idea.<BR>Let’s try<BR>asking<BR>Kohran.
+cGameSceneNPCScriptReference0312,Kohran? Ms.<BR>Kohran?<BR>Please<BR>respond.
+cGameSceneNPCScriptReference0313,"Hello hello?<BR>Oh, it’s you,<BR><NAME>."
+cGameSceneNPCScriptReference0314,You see…<BR>Blah blah<BR>blah…<BR>… So we’re<BR>stuck.
+cGameSceneNPCScriptReference0315,It must be<BR>outta power.
+cGameSceneNPCScriptReference0316,Activate the<BR>engines and<BR>the elevator<BR>should get<BR>right back to<BR>moving.
+cGameSceneNPCScriptReference0317,"Got it.<BR>Thanks,<BR>Kohran."
+cGameSceneNPCScriptReference0318,"You heard<BR>her, Sumire?"
+cGameSceneNPCScriptReference0319,"Asking others<BR>for help for<BR>things you<BR>don’t know…<BR>How very<BR>honest of<BR>you, <NAME>."
+cGameSceneNPCScriptReference031A,"Now, let us<BR>be off to<BR>investigate<BR>the engines!"
+cGameSceneNPCScriptReference031B,"If we start<BR>up the<BR>engines, we<BR>can use this<BR>elevator."
