@@ -55,14 +55,16 @@ jobs:
           git add game/text
           git commit -C HEAD && git push -u origin HEAD || echo "No text changes"
 
+      # This trigger is only necessary when we rely on the automation with the pull_request trigger
       - name: Trigger Build All
         uses: actions/github-script@v7
+        if: github.event_name == 'pull_request'
         with:
           script: |
             github.rest.actions.createWorkflowDispatch({
               owner: context.repo.owner,
               repo: context.repo.repo,
               workflow_id: 'build.yml',
-              ref: '${{ github.ref }}',
+              ref: '${{ github.head_ref }}',
             })
 
