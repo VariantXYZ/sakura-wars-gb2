@@ -6,15 +6,11 @@ on:
   push:
     branches:
       - tr_EN
+
   pull_request_target:
 
   # Allows running manually
   workflow_dispatch:
-
-  workflow_run:
-    workflows: ["Update CSVs from XLSX"]
-    types:
-      - completed
 
 jobs:
   build:
