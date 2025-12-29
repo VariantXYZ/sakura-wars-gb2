@@ -12,6 +12,9 @@ on:
   # Allows running manually
   workflow_dispatch:
 
+  # Allow triggering from another job
+  repository_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
