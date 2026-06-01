@@ -12,16 +12,18 @@ gfx_src_path = sys.argv[2]
 gfx_raw_path = sys.argv[3]
 gfx_out_path = sys.argv[4]
 
-
 # We just manually define tilesets to dump, there's not really any table
 tileset_information = (
-    # Name, Address, Type (1bpp, 2bpp), Tile Count (ignored when compressed), Ignored in tile data
-    ["Font1", (0x8, 0x4000), "1bpp", 0x800, False],
-    ["Font2", (0x9, 0x4000), "1bpp", 0x800, False],
-    ["Font3", (0xA, 0x4000), "1bpp", 0x800, False],
-    ["DoubleHeightFont1", (0x6, 0x4110), "1bpp", 0x210, False],
-    ["DoubleHeightFont2", (0x6, 0x6000), "1bpp", 0x400, False],
-    ["DoubleHeightFont3", (0x7, 0x4000), "1bpp", 0x5d6, False]
+    # Name, Address, Type (1bpp, 2bpp), Tile Count (ignored when compressed), Compressed, Ignored?
+    ["Font1", (0x8, 0x4000), "1bpp", 0x800, False, False],
+    ["Font2", (0x9, 0x4000), "1bpp", 0x800, False, False],
+    ["Font3", (0xA, 0x4000), "1bpp", 0x800, False, False],
+    ["DoubleHeightFont1", (0x6, 0x4110), "1bpp", 0x210, False, False],
+    ["DoubleHeightFont2", (0x6, 0x6000), "1bpp", 0x400, False, False],
+    ["DoubleHeightFont3", (0x7, 0x4000), "1bpp", 0x5d6, False, False],
+    ["TitleScreen1", (0x3B, 0x7246), "2bpp", None, True, True], # TODO: Ignore until recompression is done
+    ["TitleScreen2", (0x37, 0x72EA), "2bpp", None, True, True],
+    ["TitleScreen3", (0x38, 0x6D43), "2bpp", None, True, True],
 )
 
 gfx_src_filename = os.path.join(gfx_src_path, "tilesets_data.asm")
@@ -32,27 +34,55 @@ with open(rom_filename, "rb") as rom, open(gfx_src_filename, "w") as source_fp:
 
     for tileset in tileset_information:
         name = tileset[0]
+        compressed = tileset[4]
+        ignored = tileset[5]
         address = utils.rom2realaddr(tileset[1]) if isinstance(tileset[1], tuple) else tileset[1]
         rom_address = tileset[1] if isinstance(tileset[1], tuple) else utils.real2romaddr(tileset[1])
-        png_filename = os.path.join(gfx_raw_path, f"{name}.{tileset[2]}.png")
+        png_filename = os.path.join(gfx_raw_path, f"{name}.{tileset[2]}.png") if not compressed else os.path.join(gfx_raw_path, f"{name}.{tileset[2]}.compressed.png")
         out_filename = os.path.join(gfx_out_path, f"{name}.{tileset[2]}")
         size = 0
-        ignored = tileset[4]
 
         rom.seek(address)
         data = []
         assert tileset[2] in ["2bpp", "1bpp"]
-        assert tileset[3] is not None
+        assert tileset[3] is not None or compressed
         bytes_per_tile = 0
         if tileset[2] == "1bpp":
+            assert not compressed, "Compressed 1bpp unsupported"
             bytes_per_tile = (1 * 8 * 8) // 8
             size = bytes_per_tile * tileset[3]
             data = rom.read(size)
             gfx.dump_1bpp_to_png(png_filename, data)
         elif tileset[2] == "2bpp":
             bytes_per_tile = (2 * 8 * 8) // 8
-            size = bytes_per_tile * tileset[3]
-            data = rom.read(size)
+            data = None
+            if not compressed:
+                size = bytes_per_tile * tileset[3]
+                data = rom.read(size)
+            else:
+                # Decompress
+                segment_count = utils.read_short(rom)
+                init_state = 0x00
+                data = []
+                for segment_idx in range(0, segment_count):
+                    segment_length = utils.read_byte(rom)
+                    repeat_mode = False
+                    if segment_length & 0x80:
+                        # Repeat mode
+                        repeat_mode = True
+                        segment_length = segment_length - 0x7E
+                    else:
+                        segment_length += 1
+
+                    byte = utils.read_byte(rom)
+                    data.append(byte ^ init_state)
+                    for byte_idx in range(1, segment_length):
+                        if not repeat_mode:
+                            byte = utils.read_byte(rom)
+                        data.append(byte ^ data[-1])
+
+                    init_state = data[-1]
+
             gfx.dump_2bpp_to_png(png_filename, data)
 
         source_fp.write(f'SECTION "Tileset {name}", ROMX[${rom_address[1]:04X}], BANK[${rom_address[0]:02X}]\n')

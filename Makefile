@@ -41,6 +41,8 @@ SOURCE_TYPE := asm
 INT_TYPE := o
 RAW_1BPP_SRC_TYPE := 1bpp.png
 1BPP_TYPE := 1bpp
+RAW_2BPP_COMPRESSED_SRC_TYPE := 2bpp.compressed.png
+2BPP_TYPE := 2bpp
 CSV_TYPE := csv
 
 # Directories
@@ -142,6 +144,7 @@ dump: dump_tilesets dump_cutscene_scripts dump_gamescene_scripts
 
 dump_tilesets: | $(TILESET_GFX_DIR)
 	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE)) || echo ""
+	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_2BPP_COMPRESSED_SRC_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_tilesets.py "$(ORIGINAL_ROM)" "$(GFX_SRC_DIR)" "$(TILESET_GFX_DIR)" "$(TILESET_OUT_DIR)"
 
 dump_cutscene_scripts: | $(CUTSCENE_SCRIPT_DIR)
