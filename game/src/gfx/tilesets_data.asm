@@ -32,16 +32,16 @@ SECTION "Tileset DoubleHeightFont3 End", ROMX[$6EAF], BANK[$07]
 
 SECTION "Tileset TitleScreen1", ROMX[$7246], BANK[$3B]
 TilesetTitleScreen1::
-;  INCBIN "./build/gfx/tilesets/TitleScreen1.2bpp"
+  INCBIN "./build/gfx/tilesets/TitleScreen1.compressed.2bpp.compressed"
 SECTION "Tileset TitleScreen1 End", ROMX[$7267], BANK[$3B]
 
 SECTION "Tileset TitleScreen2", ROMX[$72EA], BANK[$37]
 TilesetTitleScreen2::
-;  INCBIN "./build/gfx/tilesets/TitleScreen2.2bpp"
+  INCBIN "./build/gfx/tilesets/TitleScreen2.compressed.2bpp.compressed"
 SECTION "Tileset TitleScreen2 End", ROMX[$79E5], BANK[$37]
 
 SECTION "Tileset TitleScreen3", ROMX[$6D43], BANK[$38]
 TilesetTitleScreen3::
-;  INCBIN "./build/gfx/tilesets/TitleScreen3.2bpp"
+  INCBIN "./build/gfx/tilesets/TitleScreen3.compressed.2bpp.compressed"
 SECTION "Tileset TitleScreen3 End", ROMX[$725C], BANK[$38]
 

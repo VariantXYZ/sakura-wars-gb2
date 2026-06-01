@@ -38,8 +38,8 @@ with open(rom_filename, "rb") as rom, open(gfx_src_filename, "w") as source_fp:
         ignored = tileset[5]
         address = utils.rom2realaddr(tileset[1]) if isinstance(tileset[1], tuple) else tileset[1]
         rom_address = tileset[1] if isinstance(tileset[1], tuple) else utils.real2romaddr(tileset[1])
-        png_filename = os.path.join(gfx_raw_path, f"{name}.{tileset[2]}.png") if not compressed else os.path.join(gfx_raw_path, f"{name}.{tileset[2]}.compressed.png")
-        out_filename = os.path.join(gfx_out_path, f"{name}.{tileset[2]}")
+        png_filename = os.path.join(gfx_raw_path, f"{name}.{tileset[2]}.png") if not compressed else os.path.join(gfx_raw_path, f"{name}.compressed.{tileset[2]}.png")
+        out_filename = os.path.join(gfx_out_path, f"{name}.{tileset[2]}") if not compressed else os.path.join(gfx_out_path, f"{name}.compressed.{tileset[2]}.compressed")
         size = 0
 
         rom.seek(address)

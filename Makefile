@@ -41,8 +41,10 @@ SOURCE_TYPE := asm
 INT_TYPE := o
 RAW_1BPP_SRC_TYPE := 1bpp.png
 1BPP_TYPE := 1bpp
-RAW_2BPP_COMPRESSED_SRC_TYPE := 2bpp.compressed.png
+RAW_2BPP_SRC_TYPE := 2bpp.png
+RAW_2BPP_COMPRESSED_SRC_TYPE := compressed.2bpp.png
 2BPP_TYPE := 2bpp
+COMPRESSED_2BPP_TYPE := 2bpp.compressed
 CSV_TYPE := csv
 
 # Directories
@@ -84,6 +86,8 @@ text\
 OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(INT_TYPE), $(notdir $(basename $(wildcard $(SRC_DIR)/$(MODULE)/*.$(SOURCE_TYPE)))))))
 COMMON_SRC := $(wildcard $(COMMON)/*.$(SOURCE_TYPE))
 TILESETS_1BPP_IMAGE_FILES := $(notdir $(basename $(wildcard $(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE))))
+TILESETS_COMPRESSED_2BPP_IMAGE_FILES := $(notdir $(basename $(wildcard $(TILESET_GFX_DIR)/*.$(RAW_2BPP_COMPRESSED_SRC_TYPE))))
+TILESETS_2BPP_IMAGE_FILES := $(filter-out $(TILESETS_COMPRESSED_2BPP_IMAGE_FILES),$(notdir $(basename $(wildcard $(TILESET_GFX_DIR)/*.$(RAW_2BPP_SRC_TYPE)))))
 CUTSCENE_SCRIPT_OBJNAMES := $(foreach FILE, $(notdir $(basename $(wildcard $(CUTSCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)))), $(addprefix cs., $(FILE)) )
 GAMESCENE_NPC_SCRIPT_OBJNAMES := $(foreach FILE, $(notdir $(basename $(wildcard $(GAMESCENE_NPC_SCRIPT_DIR)/game_scene_npc_script_*.$(SOURCE_TYPE)))), $(addprefix gs.npc., $(FILE)) )
 
@@ -92,9 +96,11 @@ CUTSCENE_SCRIPT_OBJECTS := $(foreach OBJECT,$(CUTSCENE_SCRIPT_OBJNAMES), $(addsu
 GAMESCENE_NPC_SCRIPT_OBJECTS := $(foreach OBJECT,$(GAMESCENE_NPC_SCRIPT_OBJNAMES), $(addsuffix .$(INT_TYPE), $(addprefix $(BUILD_DIR)/,$(OBJECT)))) $(BUILD_DIR)/gs.npc.text.$(INT_TYPE)
 OBJECTS := $(foreach OBJECT,$(OBJNAMES), $(addprefix $(BUILD_DIR)/,$(OBJECT))) $(CUTSCENE_SCRIPT_OBJECTS) $(GAMESCENE_NPC_SCRIPT_OBJECTS)
 TILESET_1BPP_FILES := $(foreach FILE,$(TILESETS_1BPP_IMAGE_FILES),$(TILESET_OUT_DIR)/$(basename $(FILE)).$(1BPP_TYPE))
+TILESET_2BPP_FILES := $(foreach FILE,$(TILESETS_2BPP_IMAGE_FILES),$(TILESET_OUT_DIR)/$(basename $(FILE)).$(2BPP_TYPE))
+TILESET_COMPRESSED_2BPP_FILES := $(foreach FILE,$(TILESETS_COMPRESSED_2BPP_IMAGE_FILES),$(TILESET_OUT_DIR)/$(basename $(FILE)).$(COMPRESSED_2BPP_TYPE))
 
 # Additional dependencies, per module granularity (i.e. core) or per file granularity (e.g. core_main_ADDITIONAL)
-gfx_tilesets_data_ADDITIONAL := $(TILESET_1BPP_FILES)
+gfx_tilesets_data_ADDITIONAL := $(TILESET_1BPP_FILES) $(TILESET_2BPP_FILES) $(TILESET_COMPRESSED_2BPP_FILES)
 scene_game_scene_table_ADDITIONAL := $(wildcard $(GAMESCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) $(wildcard $(GAMESCENE_NPC_SCRIPT_DIR)/*.$(SOURCE_TYPE))
 
 .PHONY: default clean
@@ -123,6 +129,14 @@ $(BUILD_DIR)/cs.%.$(INT_TYPE): $(BUILD_DIR)/cs.%.$(SOURCE_TYPE)
 $(TILESET_OUT_DIR)/%.$(1BPP_TYPE): $(TILESET_GFX_DIR)/%.$(RAW_1BPP_SRC_TYPE) | $(TILESET_OUT_DIR)
 	$(CCGFX) $(CCGFX_ARGS) -d 1 -o $@ $<
 
+# build/tilesets/*.2bpp from source png
+$(TILESET_OUT_DIR)/%.$(2BPP_TYPE): $(TILESET_GFX_DIR)/%.$(RAW_2BPP_SRC_TYPE) | $(TILESET_OUT_DIR)
+	$(CCGFX) $(CCGFX_ARGS) -d 2 -o $@ $<
+
+# build/tilesets/*.2bpp.compressed from 2bpp
+$(TILESET_OUT_DIR)/%.$(COMPRESSED_2BPP_TYPE): $(TILESET_OUT_DIR)/%.$(2BPP_TYPE) | $(TILESET_OUT_DIR)
+	$(PYTHON) $(SCRIPT_DIR)/compress_tileset.py $@ $<
+
 # build/cs.*.asm from cutscene scripts
 $(BUILD_DIR)/cs.%.$(SOURCE_TYPE): $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BUILD_DIR)
 	$(PYTHON) $(SCRIPT_DIR)/cs2asm.py $@ $<
@@ -144,7 +158,7 @@ dump: dump_tilesets dump_cutscene_scripts dump_gamescene_scripts
 
 dump_tilesets: | $(TILESET_GFX_DIR)
 	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE)) || echo ""
-	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_2BPP_COMPRESSED_SRC_TYPE)) || echo ""
+	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_2BPP_SRC_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_tilesets.py "$(ORIGINAL_ROM)" "$(GFX_SRC_DIR)" "$(TILESET_GFX_DIR)" "$(TILESET_OUT_DIR)"
 
 dump_cutscene_scripts: | $(CUTSCENE_SCRIPT_DIR)
