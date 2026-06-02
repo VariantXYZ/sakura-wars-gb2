@@ -21,9 +21,15 @@ tileset_information = (
     ["DoubleHeightFont1", (0x6, 0x4110), "1bpp", 0x210, False, False],
     ["DoubleHeightFont2", (0x6, 0x6000), "1bpp", 0x400, False, False],
     ["DoubleHeightFont3", (0x7, 0x4000), "1bpp", 0x5d6, False, False],
-    ["TitleScreen1", (0x3B, 0x7246), "2bpp", None, True, True], # TODO: Ignore until recompression is done
+    ["TitleScreen1", (0x3B, 0x7246), "2bpp", None, True, True],
     ["TitleScreen2", (0x37, 0x72EA), "2bpp", None, True, True],
     ["TitleScreen3", (0x38, 0x6D43), "2bpp", None, True, True],
+    ["NewGameScreen1", (0x3B, 0x6827), "2bpp", None, True, True],
+    ["NewGameScreen2", (0x3A, 0x594C), "2bpp", None, True, True],
+    ["NewGameScreen3", (0x39, 0x44FB), "2bpp", None, True, True],
+    ["NewGameScreen4", (0x39, 0x57F0), "2bpp", None, True, True],
+    ["NewGameScreen5", (0x37, 0x4000), "2bpp", None, True, True],
+    ["NewGameScreen6", (0x37, 0x58A0), "2bpp", None, True, True],
 )
 
 gfx_src_filename = os.path.join(gfx_src_path, "tilesets_data.asm")
