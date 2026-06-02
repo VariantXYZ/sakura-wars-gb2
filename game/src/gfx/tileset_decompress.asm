@@ -1,3 +1,5 @@
+INCLUDE "game/src/common/macros.asm"
+
 SECTION "Tileset Decompression", ROM0[$0B5F]
 DecompressTileset::
   push af
@@ -59,4 +61,6 @@ DecompressTileset::
   ldh [$FFE6], a
   ld [$2000], a
   ret
+
+  padend $bae
 ; 0xbae
