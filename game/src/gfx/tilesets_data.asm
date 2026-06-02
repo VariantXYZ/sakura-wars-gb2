@@ -32,16 +32,46 @@ SECTION "Tileset DoubleHeightFont3 End", ROMX[$6EAF], BANK[$07]
 
 SECTION "Tileset TitleScreen1", ROMX[$7246], BANK[$3B]
 TilesetTitleScreen1::
-  INCBIN "./build/gfx/tilesets/TitleScreen1.compressed.2bpp.compressed"
+;  INCBIN "./build/gfx/tilesets/TitleScreen1.compressed.2bpp.compressed"
 SECTION "Tileset TitleScreen1 End", ROMX[$7267], BANK[$3B]
 
 SECTION "Tileset TitleScreen2", ROMX[$72EA], BANK[$37]
 TilesetTitleScreen2::
-  INCBIN "./build/gfx/tilesets/TitleScreen2.compressed.2bpp.compressed"
+;  INCBIN "./build/gfx/tilesets/TitleScreen2.compressed.2bpp.compressed"
 SECTION "Tileset TitleScreen2 End", ROMX[$79E5], BANK[$37]
 
 SECTION "Tileset TitleScreen3", ROMX[$6D43], BANK[$38]
 TilesetTitleScreen3::
-  INCBIN "./build/gfx/tilesets/TitleScreen3.compressed.2bpp.compressed"
+;  INCBIN "./build/gfx/tilesets/TitleScreen3.compressed.2bpp.compressed"
 SECTION "Tileset TitleScreen3 End", ROMX[$725C], BANK[$38]
+
+SECTION "Tileset NewGameScreen1", ROMX[$6827], BANK[$3B]
+TilesetNewGameScreen1::
+;  INCBIN "./build/gfx/tilesets/NewGameScreen1.compressed.2bpp.compressed"
+SECTION "Tileset NewGameScreen1 End", ROMX[$68D3], BANK[$3B]
+
+SECTION "Tileset NewGameScreen2", ROMX[$594C], BANK[$3A]
+TilesetNewGameScreen2::
+;  INCBIN "./build/gfx/tilesets/NewGameScreen2.compressed.2bpp.compressed"
+SECTION "Tileset NewGameScreen2 End", ROMX[$5AF8], BANK[$3A]
+
+SECTION "Tileset NewGameScreen3", ROMX[$44FB], BANK[$39]
+TilesetNewGameScreen3::
+;  INCBIN "./build/gfx/tilesets/NewGameScreen3.compressed.2bpp.compressed"
+SECTION "Tileset NewGameScreen3 End", ROMX[$49EA], BANK[$39]
+
+SECTION "Tileset NewGameScreen4", ROMX[$57F0], BANK[$39]
+TilesetNewGameScreen4::
+;  INCBIN "./build/gfx/tilesets/NewGameScreen4.compressed.2bpp.compressed"
+SECTION "Tileset NewGameScreen4 End", ROMX[$5C6D], BANK[$39]
+
+SECTION "Tileset NewGameScreen5", ROMX[$4000], BANK[$37]
+TilesetNewGameScreen5::
+;  INCBIN "./build/gfx/tilesets/NewGameScreen5.compressed.2bpp.compressed"
+SECTION "Tileset NewGameScreen5 End", ROMX[$477C], BANK[$37]
+
+SECTION "Tileset NewGameScreen6", ROMX[$58A0], BANK[$37]
+TilesetNewGameScreen6::
+;  INCBIN "./build/gfx/tilesets/NewGameScreen6.compressed.2bpp.compressed"
+SECTION "Tileset NewGameScreen6 End", ROMX[$5BED], BANK[$37]
 
