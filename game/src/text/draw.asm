@@ -246,3 +246,120 @@ DrawTextUtilityLoad1BPPTile::
   jr nz, .asm_18fb
   pop hl
   ret
+
+  padend $1904
+
+SECTION "Draw text normal", ROM0[$115A]
+DrawTextSub::
+  bit 7, b
+  jr nz, .draw
+  ld a, b
+  cp $0a
+  jr z, .endchar
+  cp $0d ; new line
+  jr z, .newline
+  jr .return
+.endchar
+  ld a, c
+  ld [$C7D7], a
+  jr .return
+.newline
+  xor a
+  ld [$C7D2], a
+  ld a, [$C7D5]
+  ld b, a
+  ld hl, $C7D3
+  inc [hl]
+  ld a, [hl]
+  cp b
+  jr c, .return
+  xor a
+  ld [hl], a
+.return
+  ret
+.draw
+  ld d, h
+  ld e, l
+  ld a, [$C7D4]
+  ld h, a
+  ld a, [$C7D3]
+  ld l, a
+  call $0D74
+  ld a, [$C7D2]
+  add l
+  ld h, $00
+  ld l, a
+  ; Calculate the current offset relative to [hl]
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, de
+  push hl
+  call $12AA
+  ld d, h
+  ld e, l
+  pop hl
+  call $12F6
+  ld a, [$C7D4]
+  ld b, a
+  ld a, [$C7D2]
+  inc a
+  ld [$C7D2], a
+  cp b
+  jr c, .return
+  xor a
+  ld [$C7D2], a
+  jr .return
+
+DrawTextNormal:: ; 11B9 (00:11B9)
+  push af
+  push af
+  push hl
+  ld hl, sp+$05
+  ldh a, [$FFE6]
+  ld [hl], a
+  pop hl
+  pop af
+  ldh [$FFE6], a
+  ld [$2000], a
+  ld a, [$C7D6]
+  ld [$C7D7], a
+.next_char
+  ld a, [de]
+  inc de
+  or a
+  jr z, .return
+  cp $0a
+  jr z, .second_byte
+  cp $0d
+  jr nz, .load_second_byte
+  ld b, a
+  ld c, $00
+  jr .draw_character
+.load_second_byte
+  ld b, a
+  ld a, [de]
+  inc de
+  ld c, a
+.draw_character
+  push hl
+  push de
+  ; 'bc' is the character to draw
+  ; 'hl' is initial location
+  ; [$C7D2] is the offset low byte
+  ; [$C7D3] is the line count ($0D is a newline)
+  call DrawTextSub
+  pop de
+  pop hl
+  jr .next_char
+.return
+  pop af
+  ldh [$FFE6], a
+  ld [$2000], a
+  ret
+.second_byte
+  jr .load_second_byte
+
+  padend $11f6
+; 0x11f6
