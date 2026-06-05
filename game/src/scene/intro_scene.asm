@@ -120,9 +120,9 @@ SetupIntroScene::
   ld hl, .text
   ld d, h
   ld e, l
-  ld a, $33
+  ld a, BANK(SetupIntroScene)
   ld hl, $D000
-  call $11B9
+  call DrawTextNormal
   ld c, $80
   ld de, $9000
   ld a, $03
