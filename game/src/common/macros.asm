@@ -61,3 +61,8 @@ MACRO TableAddressBankEntry
   dwb \1\2, BANK(\1\2)
   EXPORT \1IDX_\2
 ENDM
+
+MACRO CallHack
+  ld a, HackIDX_\1
+  rst $28
+ENDM

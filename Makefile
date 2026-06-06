@@ -24,7 +24,7 @@ RAM_SIZE_INFO := 0x2
 CC := rgbasm
 CC_ARGS :=
 LD := rgblink
-LD_ARGS :=
+LD_ARGS := -p 0
 FIX := rgbfix
 FIX_ARGS := -v -l 0x33 $(COLOR_FLAG_INFO) -k $(LICENSEE_INFO) -m $(MBC_TYPE_INFO) -p 0 -r $(RAM_SIZE_INFO) $@ -i "$(ID_INFO)" -t "$(NAME_INFO)"
 CCGFX := rgbgfx
@@ -70,6 +70,10 @@ GAMESCENE_NPC_TEXT_DIR := $(TEXT_DIR)/gamescene_npc
 GFX_OUT_DIR := $(BUILD_DIR)/gfx
 TILESET_OUT_DIR := $(GFX_OUT_DIR)/tilesets
 
+# Patch Directories
+PATCH_TILESET_GFX := $(TILESET_GFX_DIR)/patch
+PATCH_TILESET_OUT := $(TILESET_OUT_DIR)/patch
+
 # Inputs and outputs
 ORIGINAL_ROM := $(BASE_DIR)/$(ORIGINAL_PREFIX).$(ROM_TYPE)
 TARGET_ROM := $(BASE_DIR)/$(OUTPUT_PREFIX).$(ROM_TYPE)
@@ -78,6 +82,7 @@ TARGET_MAP := $(BASE_DIR)/$(OUTPUT_PREFIX).$(MAP_TYPE)
 
 # Source Modules (directories in SRC_DIR)
 MODULES := \
+patch\
 core\
 gfx\
 scene\
@@ -99,9 +104,18 @@ TILESET_1BPP_FILES := $(foreach FILE,$(TILESETS_1BPP_IMAGE_FILES),$(TILESET_OUT_
 TILESET_2BPP_FILES := $(foreach FILE,$(TILESETS_2BPP_IMAGE_FILES),$(TILESET_OUT_DIR)/$(basename $(FILE)).$(2BPP_TYPE))
 TILESET_COMPRESSED_2BPP_FILES := $(foreach FILE,$(TILESETS_COMPRESSED_2BPP_IMAGE_FILES),$(TILESET_OUT_DIR)/$(basename $(FILE)).$(COMPRESSED_2BPP_TYPE))
 
+# Patch specific
+PATCH_TILESETS_2BPP = $(notdir $(basename $(wildcard $(PATCH_TILESET_GFX)/*.$(RAW_2BPP_SRC_TYPE))))
+PATCH_TILESETS_1BPP = $(notdir $(basename $(wildcard $(PATCH_TILESET_GFX)/*.$(RAW_1BPP_SRC_TYPE))))
+PATCH_TILESET_FILES_2BPP := $(foreach FILE,$(PATCH_TILESETS_2BPP),$(PATCH_TILESET_OUT)/$(basename $(FILE)).$(2BPP_TYPE))
+PATCH_TILESET_FILES_1BPP := $(foreach FILE,$(PATCH_TILESETS_1BPP),$(PATCH_TILESET_OUT)/$(basename $(FILE)).$(1BPP_TYPE))
+
 # Additional dependencies, per module granularity (i.e. core) or per file granularity (e.g. core_main_ADDITIONAL)
 gfx_tilesets_data_ADDITIONAL := $(TILESET_1BPP_FILES) $(TILESET_2BPP_FILES) $(TILESET_COMPRESSED_2BPP_FILES)
 scene_game_scene_table_ADDITIONAL := $(wildcard $(GAMESCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) $(wildcard $(GAMESCENE_NPC_SCRIPT_DIR)/*.$(SOURCE_TYPE))
+
+# Patch specific
+patch_vwf_ADDITIONAL := $(PATCH_TILESET_OUT)/Font.1bpp $(PATCH_TILESET_OUT)/FontNarrow.1bpp
 
 .PHONY: default clean
 default: $(TARGET_ROM)
@@ -150,6 +164,15 @@ $(BUILD_DIR)/gs.npc.text.$(INT_TYPE): $(BUILD_DIR)/gs.npc.text.$(SOURCE_TYPE) | 
 
 $(BUILD_DIR)/gs.npc.%.$(INT_TYPE): $(GAMESCENE_NPC_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BUILD_DIR)
 	$(CC) $(CC_ARGS) -o $@ $<
+
+## Patch Specific
+# build/tilesets/patch/*.2bpp from source png
+$(PATCH_TILESET_OUT)/%.$(2BPP_TYPE): $(PATCH_TILESET_GFX)/%.$(RAW_2BPP_SRC_TYPE) | $(PATCH_TILESET_OUT)
+	$(CCGFX) $(CCGFX_ARGS) -d 2 -o $@ $<
+
+# build/tilesets/patch/*.1bpp from source png
+$(PATCH_TILESET_OUT)/%.$(1BPP_TYPE): $(PATCH_TILESET_GFX)/%.$(RAW_1BPP_SRC_TYPE) | $(PATCH_TILESET_OUT)
+	$(CCGFX) $(CCGFX_ARGS) -d 1 -o $@ $<
 
 # Dumping
 .PHONY: dump dump_tilesets dump_cutscene_scripts dump_gamescene_scripts
@@ -205,3 +228,6 @@ $(GAMESCENE_NPC_SCRIPT_DIR):
 
 $(GAMESCENE_NPC_TEXT_DIR):
 	mkdir -p $(GAMESCENE_NPC_TEXT_DIR)
+
+$(PATCH_TILESET_OUT):
+	mkdir -p $(PATCH_TILESET_OUT)

@@ -117,7 +117,7 @@ SetupIntroScene::
   call $1444
   ld a, $02
   call $144F
-  ld hl, .text
+  ld hl, Text1
   ld d, h
   ld e, l
   ld a, BANK(SetupIntroScene)
@@ -161,4 +161,7 @@ SetupIntroScene::
 .text
   db " `い`ち`ね`ん`ま`え‥",$00
 
+SECTION "Bank 33 free", ROMX[$5400], BANK[$33]
+Text1:
+  db $0A,$DB,$3C,$28,$24,$35,$DB,$24,$2A,$32,$00
 POPC

@@ -319,12 +319,11 @@ DrawTextNormal:: ; 11B9 (00:11B9)
   ld hl, sp+$05
   ldh a, [$FFE6]
   ld [hl], a
+  CallHack VWFInitializeDialogNormal
   pop hl
   pop af
   ldh [$FFE6], a
   ld [$2000], a
-  ld a, [$C7D6]
-  ld [$C7D7], a
 .next_char
   ld a, [de]
   inc de
@@ -349,7 +348,8 @@ DrawTextNormal:: ; 11B9 (00:11B9)
   ; 'hl' is initial location
   ; [$C7D2] is the offset low byte
   ; [$C7D3] is the line count ($0D is a newline)
-  call DrawTextSub
+  ;call DrawTextSub
+  CallHack VWFDrawCharacter
   pop de
   pop hl
   jr .next_char
