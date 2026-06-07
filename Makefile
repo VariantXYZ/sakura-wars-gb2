@@ -46,6 +46,7 @@ RAW_2BPP_COMPRESSED_SRC_TYPE := compressed.2bpp.png
 2BPP_TYPE := 2bpp
 COMPRESSED_2BPP_TYPE := 2bpp.compressed
 CSV_TYPE := csv
+LIST_TYPE := lst
 
 # Directories
 #BASE_DIR := $(realpath $(dir $(realpath $(lastword $(MAKEFILE_LIST)))))
@@ -115,7 +116,8 @@ gfx_tilesets_data_ADDITIONAL := $(TILESET_1BPP_FILES) $(TILESET_2BPP_FILES) $(TI
 scene_game_scene_table_ADDITIONAL := $(wildcard $(GAMESCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) $(wildcard $(GAMESCENE_NPC_SCRIPT_DIR)/*.$(SOURCE_TYPE))
 
 # Patch specific
-patch_vwf_ADDITIONAL := $(PATCH_TILESET_OUT)/Font.1bpp $(PATCH_TILESET_OUT)/FontNarrow.1bpp
+patch_vwf_ADDITIONAL := $(PATCH_TILESET_OUT)/Font.$(1BPP_TYPE) $(PATCH_TILESET_OUT)/FontNarrow.$(1BPP_TYPE)
+scene_intro_scene_ADDITIONAL := $(scene_intro_scene_ADDITIONAL) $(BUILD_DIR)/charmap_vwf.$(SOURCE_TYPE)
 
 .PHONY: default clean
 default: $(TARGET_ROM)
@@ -164,6 +166,10 @@ $(BUILD_DIR)/gs.npc.text.$(INT_TYPE): $(BUILD_DIR)/gs.npc.text.$(SOURCE_TYPE) | 
 
 $(BUILD_DIR)/gs.npc.%.$(INT_TYPE): $(GAMESCENE_NPC_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BUILD_DIR)
 	$(CC) $(CC_ARGS) -o $@ $<
+
+# build/charmap_*.asm from tileset lists
+$(BUILD_DIR)/charmap_%.$(SOURCE_TYPE): $(SCRIPT_DIR)/res/tilesets/%.$(LIST_TYPE) | $(BUILD_DIR)
+	$(PYTHON) $(SCRIPT_DIR)/lst2charmap.py $@ $*
 
 ## Patch Specific
 # build/tilesets/patch/*.2bpp from source png

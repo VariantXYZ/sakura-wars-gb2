@@ -44,7 +44,7 @@ HackVWFInitializeDialog:
   ret
 
 HackVWFDrawCharacter:
-  ; 'bc' is 2 byte character to draw
+  ; 'b' is the character index to draw
   ; 'hl' is the destination start point
   ; [W_TextTileIndex] is the tile destination in WRAM we need to increment
   ; Note that we do not need to wait for LCDStat because we are not expected to write to VRAM directly here

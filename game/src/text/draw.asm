@@ -329,26 +329,31 @@ DrawTextNormal:: ; 11B9 (00:11B9)
   inc de
   or a
   jr z, .return
-  cp $0a
-  jr z, .second_byte
+  ; Go to the old handler if we see 0A or 0D
   cp $0d
-  jr nz, .load_second_byte
-  ld b, a
-  ld c, $00
-  jr .draw_character
+  jr z, .old_handler
+  cp $0a
+  jr nz, .new_handler
 .load_second_byte
   ld b, a
   ld a, [de]
   inc de
   ld c, a
-.draw_character
+.old_handler
   push hl
   push de
-  ; 'bc' is the character to draw
+  call DrawTextSub
+  pop de
+  pop hl
+  jr .next_char
+.new_handler
+  ld b, a
+  push hl
+  push de
+  ; 'b' is the character to draw
   ; 'hl' is initial location
   ; [$C7D2] is the offset low byte
   ; [$C7D3] is the line count ($0D is a newline)
-  ;call DrawTextSub
   CallHack VWFDrawCharacter
   pop de
   pop hl
@@ -358,8 +363,6 @@ DrawTextNormal:: ; 11B9 (00:11B9)
   ldh [$FFE6], a
   ld [$2000], a
   ret
-.second_byte
-  jr .load_second_byte
 
   padend $11f6
 ; 0x11f6

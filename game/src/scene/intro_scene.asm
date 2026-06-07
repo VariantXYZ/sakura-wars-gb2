@@ -1,7 +1,7 @@
 INCLUDE "game/src/common/macros.asm"
 
 PUSHC
-INCLUDE "game/scripts/gamescene_npc/charmap.asm"
+INCLUDE "build/charmap_vwf.asm"
 
 SECTION "Setup Intro Scene", ROMX[$401A], BANK[$33]
 SetupIntroScene::
@@ -159,9 +159,9 @@ SetupIntroScene::
   inc [hl]
   ret
 .text
-  db " `い`ち`ね`ん`ま`え‥",$00
+;  db " `い`ち`ね`ん`ま`え‥",$00
 
 SECTION "Bank 33 free", ROMX[$5400], BANK[$33]
 Text1:
-  db $0A,$DB,$3C,$28,$24,$35,$DB,$24,$2A,$32,$00
+  db "    A year ago...",$00
 POPC
