@@ -330,12 +330,12 @@ DrawTextNormal:: ; 11B9 (00:11B9)
   or a
   jr z, .return
   ; Go to the old handler if we see 0A or 0D
+  ld b, a
   cp $0d
   jr z, .old_handler
   cp $0a
   jr nz, .new_handler
 .load_second_byte
-  ld b, a
   ld a, [de]
   inc de
   ld c, a
@@ -347,7 +347,6 @@ DrawTextNormal:: ; 11B9 (00:11B9)
   pop hl
   jr .next_char
 .new_handler
-  ld b, a
   push hl
   push de
   ; 'b' is the character to draw
