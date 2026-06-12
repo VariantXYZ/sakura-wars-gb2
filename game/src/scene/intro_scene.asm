@@ -144,7 +144,7 @@ SetupIntroScene::
   call $4365
   jr c, .asm_cc17a
   ld a, [$C934]
-  call $4381
+  call IntroSceneSub1
   call $460E
   call $4342
   jr c, .asm_cc17a
@@ -160,5 +160,72 @@ SetupIntroScene::
   ret
 .text
   db " `い`ち`ね`ん`ま`え‥",$00
+
+SECTION "Intro Scene Sub 1", ROMX[$4381], BANK[$33]
+IntroSceneSub1::
+  ld [$C912], a
+  ldh a, [$FFE7]
+  push af
+  ld a, $03
+  ldh [$FFE7], a
+  ldh [$FF70], a
+  ld hl, $D000
+  ld bc, $0200
+  ld de, $0000
+  call $0B2E
+  call $1131
+  ld bc, $1204
+  call $1434
+  ld bc, $0000
+  call $1444
+  ld a, $02
+  call $144F
+  ld a, [$C912]
+  sla a
+  ld d, $00
+  ld e, a
+  ld hl, .table
+  add hl, de
+  ld a, [hli]
+  ld h, [hl]
+  ld l, a
+  ld d, h
+  ld e, l
+  ld a, $33
+  ld hl, $D000
+  call DrawTextNormal
+  ld c, $80
+  ld de, $9000
+  ld a, $03
+  ld hl, $D000
+  ld b, $36
+  call $0357
+  rst $8
+  pop af
+  ldh [$FFE7], a
+  ldh [$FF70], a
+  ret
+.table
+  dw .text1
+  dw .text2
+  dw .text3
+  dw .text4
+  dw .text5
+  dw .text6
+  dw .text7
+.text1:
+  db "`て`い`と`の `う`ん`め`い`を`か`け`た<BR>`は`げ`し`い`た`た`か`い`が`あ`っ`た`。",$00
+.text2:
+  db "`そ`の `た`た`か`い`は<BR>`て`い`と`の `ひ`と`び`と`か`ら<BR>`え`が`お`を `う`ば`い`さ`っ`た`。",$00
+.text3:
+  db "`て`い`こ`く`か`げ`き`だ`ん `は`な`ぐ`み`は<BR>`き`ょ`だ`い`せ`ん`か`ん `ミ`カ`サ`に<BR>`さ`い`ご`の `き`ぼ`う`を `た`く`し‥‥",$00
+.text4:
+  db "`ミ`カ`サ`は `て`き`の `さ`い`し`ゅ`う<BR>`へ`い`き`を `は`か`い`す`る`た`め`に<BR>`て`き `き`ち`へ`と `と`つ`げ`き`し`た`。",$00
+.text5:
+  db "`み`ご`と `て`き `さ`い`し`ゅ`う`へ`い`き`を<BR>`は`か`い`し`た `ミ`カ`サ`だ`っ`た`が<BR>`に`ど`と `う`ご`く`こ`と`は `な`く`な`っ`た`。",$00
+.text6:
+  db "`て`い`と`に `へ`い`わ`が`お`と`ず`れ<BR>`ひ`と`び`と`の`か`お`に `え`が`お`が<BR>`も`ど`っ`た`。`そ`し`て `い`ち`ね`ん`ご‥‥",$00
+.text7
+  db "`ミ`カ`サ`が `そ`び`え`る `そ`の`し`ま`は<BR>`ミ`カ`サ`き`ね`ん`こ`う`え`ん `と`し`て<BR>`の`こ`っ`た`。"
 
 POPC
