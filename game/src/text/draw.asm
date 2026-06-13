@@ -265,10 +265,10 @@ DrawTextSub::
   jr .return
 .newline
   xor a
-  ld [$C7D2], a
-  ld a, [$C7D5]
+  ld [W_TextTileIndex], a
+  ld a, [W_TextLineCountMax]
   ld b, a
-  ld hl, $C7D3
+  ld hl, W_TextLineCount
   inc [hl]
   ld a, [hl]
   cp b
@@ -280,12 +280,12 @@ DrawTextSub::
 .draw
   ld d, h
   ld e, l
-  ld a, [$C7D4]
+  ld a, [W_TextLineCharMax]
   ld h, a
-  ld a, [$C7D3]
+  ld a, [W_TextLineCount]
   ld l, a
   call $0D74
-  ld a, [$C7D2]
+  ld a, [W_TextTileIndex]
   add l
   ld h, $00
   ld l, a
@@ -301,15 +301,15 @@ DrawTextSub::
   ld e, l
   pop hl
   call $12F6
-  ld a, [$C7D4]
+  ld a, [W_TextLineCharMax]
   ld b, a
-  ld a, [$C7D2]
+  ld a, [W_TextTileIndex]
   inc a
-  ld [$C7D2], a
+  ld [W_TextTileIndex], a
   cp b
   jr c, .return
   xor a
-  ld [$C7D2], a
+  ld [W_TextTileIndex], a
   jr .return
 
 DrawTextNormal:: ; 11B9 (00:11B9)
@@ -347,8 +347,8 @@ DrawTextNormal:: ; 11B9 (00:11B9)
   push de
   ; 'bc' is the character to draw
   ; 'hl' is initial location
-  ; [$C7D2] is the offset low byte
-  ; [$C7D3] is the line count ($0D is a newline)
+  ; [W_TextTileIndex] is the offset low byte
+  ; [W_TextLineCount] is the line count ($0D is a newline)
   call DrawTextSub
   pop de
   pop hl
