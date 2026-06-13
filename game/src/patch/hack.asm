@@ -33,10 +33,12 @@ HackPredef::
   TableAddressEntry Hack,VWFInitializeDialogNormal
   TableAddressEntry Hack,VWFInitializeDialog
   TableAddressEntry Hack,VWFDrawCharacter
+  TableAddressEntry Hack,VWFNewLineResetInternal
 
 HackVWFInitializeDialogNormal:
   ld a, [$C7D6]
   ld [$C7D7], a
+
 HackVWFInitializeDialog:
   ld hl, VWFInitializeInternal
   ld b, LOW(BANK(VWFInitializeInternal))
@@ -47,13 +49,28 @@ HackVWFDrawCharacter:
   ; 'b' is the character index to draw
   ; 'hl' is the destination start point
   ; [W_TextTileIndex] is the tile destination in WRAM we need to increment
+  ; [W_TextTileIndex] + ([W_TextLineCharMax] * [W_TextLineCount]) for new lines
   ; Note that we do not need to wait for LCDStat because we are not expected to write to VRAM directly here
   ld a, b
   ld [W_VWFCurrentCharacter], a
 
+  ld a, [W_TextLineCharMax]
+  ld c, a
+  ld b, $00
+  ld a, [W_TextLineCount]
+
+  push hl
+.loop
+  and a
+  jr z, .draw
+  add hl, bc
+  dec a
+  jr .loop
+.draw
   ld a, [W_TextTileIndex]
-  ld d, h
-  ld e, l
+  add l
+  pop de ; old hl -> de
+
   ld h, $00
   ld l, a
   add hl, hl
@@ -67,5 +84,11 @@ HackVWFDrawCharacter:
 
   ld hl, VWFDrawCharacterInternal
   ld b, LOW(BANK(VWFDrawCharacterInternal))
+  rst $38
+  ret
+
+HackVWFNewLineResetInternal::
+  ld hl, VWFNewLineResetInternal
+  ld b, LOW(BANK(VWFNewLineResetInternal))
   rst $38
   ret

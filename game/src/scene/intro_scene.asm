@@ -232,18 +232,18 @@ SECTION "Bank 33 free", ROMX[$5400], BANK[$33]
 Text0:
   db "    A year ago...",$00
 Text1:
-  db "A fierce battle took place,<BR>with the fate of the Imperial<BR>Capital at stake.",$00
+  db "A fierce battle took place, <BR>with the fate of the Imperial <BR>Capital at stake.",$00
 Text2:
-  db "Amidst this battle, the citizens of the Capital succumbed to despair.",$00
+  db "Amidst this battle, the<BR>citizens of the Capital <BR>succumbed to despair.",$00
 Text3:
-  db "The Imperial Combat Revue's Flower Division placed all their hopes on the Aerial Battleship Mikasa...",$00
+  db "The Imperial Assault Troupe's<BR>Flower Division placed all <BR>their hopes on the Aerial Battleship Mikasa...",$00
 Text4:
-  db "And assaulted the enemy stronghold to destroy their ultimate weapon.",$00
+  db "And assaulted the enemy<BR>stronghold to destroy their<BR>ultimate weapon.",$00
 Text5:
-  db "The Mikasa succeeded brilliantly and destroyed the weapon, but was itself wrecked beyond repair.",$00
+  db "The Mikasa succeeded brilliantly<BR>and destroyed the weapon, but <BR>was itself wrecked beyond repair.",$00
 Text6:
-  db "Peace returned to the Capital, and smiles to the people's faces. Then, one year later…",$00
+  db "Peace returned to the Capital,<BR>and smiles to the people's faces. <BR>Then, one year later...",$00
 Text7:
-  db "The island that remained in the Mikasa’s wake became the Mikasa Memorial Park.",$00
+  db "The island that remained in the <BR>Mikasa's wake became the<BR>Mikasa Memorial Park.",$00
 
 POPC

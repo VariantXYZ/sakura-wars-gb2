@@ -251,8 +251,6 @@ DrawTextUtilityLoad1BPPTile::
 
 SECTION "Draw text normal", ROM0[$115A]
 DrawTextSub::
-  bit 7, b
-  jr nz, .draw
   ld a, b
   cp $0a
   jr z, .endchar
@@ -264,6 +262,7 @@ DrawTextSub::
   ld [$C7D7], a
   jr .return
 .newline
+  CallHack VWFNewLineResetInternal
   xor a
   ld [W_TextTileIndex], a
   ld a, [W_TextLineCountMax]
@@ -277,40 +276,8 @@ DrawTextSub::
   ld [hl], a
 .return
   ret
-.draw
-  ld d, h
-  ld e, l
-  ld a, [W_TextLineCharMax]
-  ld h, a
-  ld a, [W_TextLineCount]
-  ld l, a
-  call $0D74
-  ld a, [W_TextTileIndex]
-  add l
-  ld h, $00
-  ld l, a
-  ; Calculate the current offset relative to [hl]
-  add hl, hl
-  add hl, hl
-  add hl, hl
-  add hl, hl
-  add hl, de
-  push hl
-  call $12AA
-  ld d, h
-  ld e, l
-  pop hl
-  call $12F6
-  ld a, [W_TextLineCharMax]
-  ld b, a
-  ld a, [W_TextTileIndex]
-  inc a
-  ld [W_TextTileIndex], a
-  cp b
-  jr c, .return
-  xor a
-  ld [W_TextTileIndex], a
-  jr .return
+
+  padend $11b9
 
 DrawTextNormal:: ; 11B9 (00:11B9)
   push af
@@ -335,10 +302,6 @@ DrawTextNormal:: ; 11B9 (00:11B9)
   jr z, .old_handler
   cp $0a
   jr nz, .new_handler
-.load_second_byte
-  ld a, [de]
-  inc de
-  ld c, a
 .old_handler
   push hl
   push de
