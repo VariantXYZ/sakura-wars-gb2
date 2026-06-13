@@ -277,6 +277,18 @@ DrawTextSub::
 .return
   ret
 
+DrawTextNarrowNormal::
+  push af
+  push af
+  push hl
+  ld hl, sp+$05
+  ldh a, [$FFE6]
+  ld [hl], a
+  CallHack VWFInitializeDialogNarrowNormal
+  pop hl
+  pop af
+  jr DrawTextNormal.draw_text_normal
+
   padend $11b9
 
 DrawTextNormal:: ; 11B9 (00:11B9)
@@ -289,6 +301,7 @@ DrawTextNormal:: ; 11B9 (00:11B9)
   CallHack VWFInitializeDialogNormal
   pop hl
   pop af
+.draw_text_normal
   ldh [$FFE6], a
   ld [$2000], a
 .next_char

@@ -90,7 +90,7 @@ scene\
 text\
 
 OBJNAMES := $(foreach MODULE,$(MODULES),$(addprefix $(MODULE)., $(addsuffix .$(INT_TYPE), $(notdir $(basename $(wildcard $(SRC_DIR)/$(MODULE)/*.$(SOURCE_TYPE)))))))
-COMMON_SRC := $(wildcard $(COMMON)/*.$(SOURCE_TYPE))
+COMMON_SRC := $(wildcard $(COMMON)/*.$(SOURCE_TYPE)) $(SRC_DIR)/patch/hack.asm
 TILESETS_1BPP_IMAGE_FILES := $(notdir $(basename $(wildcard $(TILESET_GFX_DIR)/*.$(RAW_1BPP_SRC_TYPE))))
 TILESETS_COMPRESSED_2BPP_IMAGE_FILES := $(notdir $(basename $(wildcard $(TILESET_GFX_DIR)/*.$(RAW_2BPP_COMPRESSED_SRC_TYPE))))
 TILESETS_2BPP_IMAGE_FILES := $(filter-out $(TILESETS_COMPRESSED_2BPP_IMAGE_FILES),$(notdir $(basename $(wildcard $(TILESET_GFX_DIR)/*.$(RAW_2BPP_SRC_TYPE)))))

@@ -32,16 +32,26 @@ HackPredef::
   TableStart
   TableAddressEntry Hack,VWFInitializeDialogNormal
   TableAddressEntry Hack,VWFInitializeDialog
+  TableAddressEntry Hack,VWFInitializeDialogNarrowNormal
+  TableAddressEntry Hack,VWFInitializeDialogNarrow
   TableAddressEntry Hack,VWFDrawCharacter
   TableAddressEntry Hack,VWFNewLineResetInternal
 
 HackVWFInitializeDialogNormal:
   ld a, [$C7D6]
   ld [$C7D7], a
-
 HackVWFInitializeDialog:
   ld hl, VWFInitializeInternal
   ld b, LOW(BANK(VWFInitializeInternal))
+  rst $38
+  ret
+
+HackVWFInitializeDialogNarrowNormal:
+  ld a, [$C7D6]
+  ld [$C7D7], a
+HackVWFInitializeDialogNarrow:
+  ld hl, VWFInitializeNarrowFontInternal
+  ld b, LOW(BANK(VWFInitializeNarrowFontInternal))
   rst $38
   ret
 

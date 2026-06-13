@@ -122,7 +122,7 @@ SetupIntroScene::
   ld e, l
   ld a, BANK(SetupIntroScene)
   ld hl, $D000
-  call DrawTextNormal
+  call DrawTextNarrowNormal
   ld c, $80
   ld de, $9000
   ld a, $03
@@ -193,7 +193,7 @@ IntroSceneSub1::
   ld e, l
   ld a, $33
   ld hl, $D000
-  call DrawTextNormal
+  call DrawTextNarrowNormal
   ld c, $80
   ld de, $9000
   ld a, $03
@@ -230,20 +230,20 @@ IntroSceneSub1::
 
 SECTION "Bank 33 free", ROMX[$5400], BANK[$33]
 Text0:
-  db "    A year ago...",$00
+  db "      A year ago...",$00
 Text1:
-  db "A fierce battle took place, <BR>with the fate of the Imperial <BR>Capital at stake.",$00
+  db "A fierce battle took place, with the<BR>fate of the Imperial Capital at stake.",$00
 Text2:
-  db "Amidst this battle, the<BR>citizens of the Capital <BR>succumbed to despair.",$00
+  db "Amidst this battle, the citizens of the<BR>Capital succumbed to despair.",$00
 Text3:
-  db "The Imperial Assault Troupe's<BR>Flower Division placed all <BR>their hopes on the Aerial Battleship Mikasa...",$00
+  db "The Imperial Assault Troupe's Flower<BR>Division placed all their hopes on the<BR>Aerial Battleship Mikasa...",$00
 Text4:
-  db "And assaulted the enemy<BR>stronghold to destroy their<BR>ultimate weapon.",$00
+  db "And assaulted the enemy stronghold<BR>to destroy their ultimate weapon.",$00
 Text5:
-  db "The Mikasa succeeded brilliantly<BR>and destroyed the weapon, but <BR>was itself wrecked beyond repair.",$00
+  db "The Mikasa succeeded brilliantly and<BR>destroyed the weapon, but was itself<BR>wrecked beyond repair.",$00
 Text6:
-  db "Peace returned to the Capital,<BR>and smiles to the people's faces. <BR>Then, one year later...",$00
+  db "Peace returned to the Capital, and<BR>smiles to the people's faces. Then,<BR>one year later...",$00
 Text7:
-  db "The island that remained in the <BR>Mikasa's wake became the<BR>Mikasa Memorial Park.",$00
+  db "The island that remained in the <BR>Mikasa's wake became the Mikasa<BR>Memorial Park.",$00
 
 POPC
