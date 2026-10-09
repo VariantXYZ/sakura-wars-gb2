@@ -13,8 +13,9 @@ from sw2gb import cutscene
 script_name = sys.argv[0]
 output_file = sys.argv[1]
 input_asm = sys.argv[2]
+input_csv = sys.argv[3]
 
-def parse_line(cs, references, line):
+def parse_line(cs, references, line, text):
     # [Command] [Parameters]
     data = [x.strip('\n') for x in line.split(' ', 1) if x]
     assert 0 < len(data) <= 2
@@ -25,12 +26,14 @@ def parse_line(cs, references, line):
         c = csv.reader(d, lineterminator='', delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         parameters += next(c)
 
-    # Convert values to integers
+    # Preprocess values
     # Note that we explicitly use a while loop
     # because we may dynamically adjust the size of the loop
     idx = 0
     while idx < len(parameters):
-        if parameters[idx].startswith('$'):
+        if parameters[idx].startswith('ct'):
+            parameters[idx] = text[parameters[idx]]
+        elif parameters[idx].startswith('$'):
             parameters[idx] = int(parameters[idx].lstrip('$'), 16)
         elif parameters[idx].startswith('.') and cs.is_branch(command.command_byte):
             # offset is 2 bytes, so we need to insert 2 bytes in little endian format
@@ -44,11 +47,27 @@ def parse_line(cs, references, line):
 
     return (command.name, parameters, to_write)
 
+text_map = {}
+with open(input_csv, 'r', encoding='utf-8') as csv_fp:
+    reader = csv.reader(csv_fp, delimiter=',', quotechar='"')
+    header = next(reader, None)
+    index_ID = header.index("ID")
+    index_text = header.index("Text")
+
+    for line in reader:
+        # Comment
+        if line[0].startswith('#'):
+            continue
+        ID = line[index_ID]
+        text = line[index_text]
+        text_map[ID] = text
+
 bank = None
 addr = None
 cs_name = None
 lines = []
 references = {}
+
 with open(input_asm, 'r', encoding='utf-8') as fp:
     bank = int(next(fp).lstrip('; '), 16)
     addr = int(next(fp).lstrip('; '), 16)
@@ -74,7 +93,7 @@ with open(input_asm, 'r', encoding='utf-8') as fp:
             continue
         to_write = None
         try:
-            (_, _, to_write) = parse_line(cs, references, line)
+            (_, _, to_write) = parse_line(cs, references, line, text_map)
         except Exception as e:
             print(f"Error at line: {line}, error: {e}")
             exit(1)
@@ -88,7 +107,7 @@ with open(input_asm, 'r', encoding='utf-8') as fp:
         line = line.strip()
         if line.startswith('.') or line.startswith(';'):
             continue
-        (name, parameters, to_write) = parse_line(cs, references, line)
+        (name, parameters, to_write) = parse_line(cs, references, line, text_map)
         lines.append((name, parameters, to_write))
         current_offset += len(to_write)
 

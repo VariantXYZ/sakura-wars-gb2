@@ -6,121 +6,121 @@ CutsceneScript1A::
   FlagIsFemale
   Unknown09 $5A
   SetBackground $01
-  WriteText "～だい4しょう～<BR> 『くらやみからのSOS』<BR>"
+  WriteText ctCutsceneScript1AText0000
   PromptContinue
   SetBackground $02
   Unknown0E $16
   SetPortrait $0B,$10,$00
   ConditionalBranch .reference_02EA,$02,$04,$01,$01,$20,$00
-  WriteText "みんな あつまってるわね。<BR>では はじめましょう。<BR>"
+  WriteText ctCutsceneScript1AText0001
   PromptContinue
-  WriteText "こんかい あらためて<BR>わかったことが あります。<BR>"
+  WriteText ctCutsceneScript1AText0002
   PromptContinue
   SetPortrait $03,$12,$0A
-  WriteText "あきらかに 『まじんき』を<BR>ねらっている なぞのてきが<BR>ミカサにいる‥‥<BR>"
+  WriteText ctCutsceneScript1AText0003
   PromptContinue
-  WriteText "そうですね かえでさん。<BR>"
+  WriteText ctCutsceneScript1AText0004
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そうよ。<BR>"
+  WriteText ctCutsceneScript1AText0005
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "でも だれが なんのために<BR>ということは <BR>まだ わかっていない‥‥<BR>"
+  WriteText ctCutsceneScript1AText0006
   PromptContinue
   SetPortrait $01,$12,$0A
-  WriteText "『けん』を まもっていた<BR>まものが さいごに いった<BR>ことば‥‥<BR>"
+  WriteText ctCutsceneScript1AText0007
   PromptContinue
   SetPortrait $05,$12,$0A
-  WriteText "「これで かったと<BR> おもうなよ」って<BR>どういう いみなんやろ?<BR>"
+  WriteText ctCutsceneScript1AText0008
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "それはおそらく まものが<BR>ミカサのなかに まだまだ<BR>いるって ことじゃないか。<BR>"
+  WriteText ctCutsceneScript1AText0009
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText "ほかの『まじんき』も<BR>まものに とられてるの?<BR>"
+  WriteText ctCutsceneScript1AText000A
   PromptContinue
   SetPortrait $06,$12,$0A
-  WriteText "その かのうせいは<BR>たかいな。<BR>"
+  WriteText ctCutsceneScript1AText000B
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "てきは 『まじんき』を<BR>つかって なにをやろうと<BR>しているのでーすか?<BR>"
+  WriteText ctCutsceneScript1AText000C
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "それが わからないから<BR>しらべてるんじゃ<BR>ありませんこと。<BR>"
+  WriteText ctCutsceneScript1AText000D
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "いまは てきのしょうたいも<BR>てきのもくてきも<BR>わからないわ。<BR>"
+  WriteText ctCutsceneScript1AText000E
   PromptContinue
   SetPortrait $03,$12,$0A
-  WriteText "だから 『まじんき』をはやく<BR>かいしゅうしないと<BR>なにがおこるか わからない‥<BR>"
+  WriteText ctCutsceneScript1AText000F
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そう 『まじんき』を<BR>いっこくも はやく<BR>かいしゅう しなきゃ‥‥<BR>"
+  WriteText ctCutsceneScript1AText0010
   PromptContinue
-  WriteText "こんかいは <NAME>くんの<BR>ほかに もうひとつの<BR>チームを だしましょう。<BR>"
+  WriteText ctCutsceneScript1AText0011
   PromptContinue
-  WriteText "2つのチームで <BR>いっきに かたを<BR>つけるのよ。<BR>"
+  WriteText ctCutsceneScript1AText0012
   PromptContinue
-  WriteText "カンナ アイリス。<BR>あなたたち ふたりに<BR>おねがいするわ。<BR>"
+  WriteText ctCutsceneScript1AText0013
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "では <NAME>くん<BR>しゅつどう!<BR>"
+  WriteText ctCutsceneScript1AText0014
   PromptContinue
   End
 .reference_02EA
-  WriteText "みんな あつまってるわね。<BR>では はじめましょう。<BR>"
+  WriteText ctCutsceneScript1AText0015
   PromptContinue
-  WriteText "こんかい あらためて<BR>わかったことが あるわ。<BR>"
+  WriteText ctCutsceneScript1AText0016
   PromptContinue
   SetPortrait $03,$12,$0A
-  WriteText "あきらかに 『まじんき』を<BR>ねらっている なぞのてきが<BR>ミカサにいる‥‥<BR>"
+  WriteText ctCutsceneScript1AText0017
   PromptContinue
-  WriteText "そうですね かえでさん。<BR>"
+  WriteText ctCutsceneScript1AText0018
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そうよ。<BR>"
+  WriteText ctCutsceneScript1AText0019
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "でも だれが なんのために<BR>ということは <BR>まだ わかっていない‥‥<BR>"
+  WriteText ctCutsceneScript1AText001A
   PromptContinue
   SetPortrait $01,$12,$0A
-  WriteText "『けん』を まもっていた<BR>まものが さいごに いった<BR>ことば‥‥<BR>"
+  WriteText ctCutsceneScript1AText001B
   PromptContinue
   SetPortrait $05,$12,$0A
-  WriteText "「これで かったと<BR> おもうなよ」って<BR>どういう いみなんやろ?<BR>"
+  WriteText ctCutsceneScript1AText001C
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "それはおそらく まものが<BR>ミカサのなかに まだまだ<BR>いるって ことじゃないか。<BR>"
+  WriteText ctCutsceneScript1AText001D
   PromptContinue
   SetPortrait $04,$10,$08
-  WriteText "ほかの『まじんき』も<BR>まものに とられてるの?<BR>"
+  WriteText ctCutsceneScript1AText001E
   PromptContinue
   SetPortrait $06,$12,$0A
-  WriteText "その かのうせいは<BR>たかいな。<BR>"
+  WriteText ctCutsceneScript1AText001F
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "てきは 『まじんき』を<BR>つかって なにをやろうと<BR>しているのでーすか?<BR>"
+  WriteText ctCutsceneScript1AText0020
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "それが わからないから<BR>しらべてるんじゃ<BR>ありませんこと。<BR>"
+  WriteText ctCutsceneScript1AText0021
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "いまは てきのしょうたいも<BR>てきのもくてきも<BR>わからないわ。<BR>"
+  WriteText ctCutsceneScript1AText0022
   PromptContinue
   SetPortrait $03,$12,$0A
-  WriteText "だから 『まじんき』をはやく<BR>かいしゅうしないと<BR>なにがおこるか わからない‥<BR>"
+  WriteText ctCutsceneScript1AText0023
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "そう 『まじんき』を<BR>いっこくも はやく<BR>かいしゅう しなきゃ‥‥<BR>"
+  WriteText ctCutsceneScript1AText0024
   PromptContinue
-  WriteText "こんかいは <NAME>の<BR>ほかに もうひとつの<BR>チームを だしましょう。<BR>"
+  WriteText ctCutsceneScript1AText0025
   PromptContinue
-  WriteText "2つのチームで <BR>いっきに かたを<BR>つけるのよ。<BR>"
+  WriteText ctCutsceneScript1AText0026
   PromptContinue
-  WriteText "カンナ アイリス。<BR>あなたたち ふたりに<BR>おねがいするわ。<BR>"
+  WriteText ctCutsceneScript1AText0027
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "では <NAME><BR>しゅつどう!<BR>"
+  WriteText ctCutsceneScript1AText0028
   PromptContinue
   End
   End

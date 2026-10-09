@@ -5,12 +5,12 @@ CutsceneScript49::
   Unknown0E $0A
   Unknown12 $04
   FlagIsFemale
-  WriteText "よくきてくれたわね。<BR>わたしは ていこくかげきだん<BR>ふくしれい ふじえだかえで。<BR>"
+  WriteText ctCutsceneScript49Text0000
   PromptContinue
-  WriteText "あなたへの さくせんの<BR>しじは すべてわたしが<BR>おこないます。<BR>"
+  WriteText ctCutsceneScript49Text0001
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "はじめての にんむで<BR>たいへんだと おもうけど<BR>しっかりたのむわよ。<BR>"
+  WriteText ctCutsceneScript49Text0002
   PromptContinue
   End
   End

@@ -5,118 +5,118 @@ CutsceneScript5B::
   Unknown0E $16
   FlagIsFemale
   ConditionalBranch .reference_0DE8,$02,$04,$01,$01,$20,$00
-  WriteText "<NAME>くん<BR>にんむ かんりょう<BR>ごくろうさま。<BR>"
+  WriteText ctCutsceneScript5BText0000
   PromptContinue
-  WriteText "ほんとうに<BR>よく がんばったわね。<BR>おつかれさま。<BR>"
+  WriteText ctCutsceneScript5BText0001
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText "<NAME>さん‥‥<BR>カッコイイです‥‥<RED>♥<BLACK><BR>"
+  WriteText ctCutsceneScript5BText0002
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText "<NAME>ちゃん<BR>ステキよ～ん。<BR>ごほうびの チュウをあげる<RED>♥<BLACK><BR>"
+  WriteText ctCutsceneScript5BText0003
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText "<NAME>さん <BR>あなたのおかげで<BR>たすかりました。ありがとう。<BR>"
+  WriteText ctCutsceneScript5BText0004
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText "<NAME>さん<BR>ほんとうに<BR>おつかれさまでした!<BR>"
+  WriteText ctCutsceneScript5BText0005
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText "<NAME>くん<BR>やったわね!<BR>あなたは ヒーローよ!<BR>"
+  WriteText ctCutsceneScript5BText0006
   PromptContinue
   SetPortrait $0C,$11,$01
-  WriteText "<NAME>さんの おかげで<BR>へいわになりました。<BR>ありがとうございます。<BR>"
+  WriteText ctCutsceneScript5BText0007
   PromptContinue
   Unknown0F $00,$01
-  WriteText "なんだか テレますね‥‥<BR>でも こちらこそ たいへん<BR>おせわになりました。<BR>"
+  WriteText ctCutsceneScript5BText0008
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "フフフ‥‥‥‥<BR>じゃあ いきましょうか<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript5BText0009
   PromptContinue
-  WriteText "はなぐみの みんなが<BR>そとでまっているわ。<BR>"
+  WriteText ctCutsceneScript5BText000A
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   SetBackground $02
   Unknown0E $1E
   SetPortrait $03,$03,$03
-  WriteText "<NAME>くん<BR>にんむ ごくろうさま。<BR>"
+  WriteText ctCutsceneScript5BText000B
   PromptContinue
-  WriteText "さいしょは どうなるかと<BR>おもったけど‥‥<BR>"
+  WriteText ctCutsceneScript5BText000C
   PromptContinue
-  WriteText "みごと やりとげたわね<BR><NAME>くん<BR>りっぱだったわよ。<BR>"
+  WriteText ctCutsceneScript5BText000D
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText "まったくだぜ <NAME>!<BR>ついに やりやがったな!<BR>"
+  WriteText ctCutsceneScript5BText000E
   PromptContinue
-  WriteText "まさか おまえが<BR>ここまでやるなんて<BR>おもってなかったよ。<BR>"
+  WriteText ctCutsceneScript5BText000F
   PromptContinue
-  WriteText "これからも あたいみたいに<BR>ジャンジャン メシをくって<BR>つよくなれよ!<BR>"
+  WriteText ctCutsceneScript5BText0010
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "あら カンナさんをみならって<BR>おデブさんに なったら<BR>めも あてられませんわ。<BR>"
+  WriteText ctCutsceneScript5BText0011
   PromptContinue
-  WriteText "<NAME>さんは<BR>いまのままで じゅうぶん<BR>りっぱですわよ。<BR>"
+  WriteText ctCutsceneScript5BText0012
   PromptContinue
-  WriteText "これからも このちょうしで<BR>しっかりと がんばりなさい。<BR>いいですこと?<BR>"
+  WriteText ctCutsceneScript5BText0013
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "わーい!<BR>やったね <NAME>!<BR>"
+  WriteText ctCutsceneScript5BText0014
   PromptContinue
-  WriteText "『まじんき』をとりもどしたし<BR>わるいやつも やっつけたし<BR><NAME>は スゴイよ!<BR>"
+  WriteText ctCutsceneScript5BText0015
   PromptContinue
-  WriteText "<NAME>がいれば<BR>こわいものなしだよ。<BR>ねぇ レニ?<BR>"
+  WriteText ctCutsceneScript5BText0016
   PromptContinue
   SetPortrait $08,$01,$01
-  WriteText "そうだね‥‥<BR>りっぱな せんりょくだ。<BR>"
+  WriteText ctCutsceneScript5BText0017
   PromptContinue
-  WriteText "せんじょうでも<BR>あんしんして せなかを<BR>まかせられる。<BR>"
+  WriteText ctCutsceneScript5BText0018
   PromptContinue
-  WriteText "<NAME><BR>これからも よろしく。<BR>"
+  WriteText ctCutsceneScript5BText0019
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "<NAME>はん<BR>おつかれさまやったな!<BR>"
+  WriteText ctCutsceneScript5BText001A
   PromptContinue
-  WriteText "はじめての にんむ<BR>よう がんばったな。<BR>"
+  WriteText ctCutsceneScript5BText001B
   PromptContinue
-  WriteText "ウチも うかうか<BR>してられへんで。<BR>いっしょに がんばろな!<BR>"
+  WriteText ctCutsceneScript5BText001C
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "Oh! <NAME>さん。<BR>グレートでーす!<BR>"
+  WriteText ctCutsceneScript5BText001D
   PromptContinue
-  WriteText "あなたは まさに<BR>サムライでーす!<BR>カッコイイでーす!<BR>"
+  WriteText ctCutsceneScript5BText001E
   PromptContinue
-  WriteText "わたし ウロコから めが<BR>おちましたでーす!<BR>"
+  WriteText ctCutsceneScript5BText001F
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText "ふふふ おりひめさん<BR>それをいうなら<BR>めからウロコがおちたですよ。<BR>"
+  WriteText ctCutsceneScript5BText0020
   PromptContinue
-  WriteText "でも <NAME>さん<BR>ほんとうに すごいですよ!<BR>"
+  WriteText ctCutsceneScript5BText0021
   PromptContinue
-  WriteText "あたしも <NAME>さんを<BR>みならって がんばろうと<BR>おもいます!<BR>"
+  WriteText ctCutsceneScript5BText0022
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "ついに やったな<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript5BText0023
   PromptContinue
-  WriteText "はじめての じっせんなのに<BR>きみは れいせいに<BR>さいごまで やりとげたよ。<BR>"
+  WriteText ctCutsceneScript5BText0024
   PromptContinue
-  WriteText "きみが ていとのへいわを<BR>まもったんだ。<BR>ありがとう!<BR>"
-  PromptContinue
-  Unknown0F $00,$01
-  WriteText "そんなこと ありません。<BR>こちらこそ たすけてもらって<BR>ありがとうございました。<BR>"
-  PromptContinue
-  SetPortrait $0B,$01,$06
-  WriteText "フフフ‥‥<BR>とにかく しばらくは<BR>あなたも おやすみなさい。<BR>"
-  PromptContinue
-  WriteText "そして また<BR>ていとに きけんがきたら<BR>よろしくたのむわよ。<BR>"
+  WriteText ctCutsceneScript5BText0025
   PromptContinue
   Unknown0F $00,$01
-  WriteText "りょうかい!<BR>"
+  WriteText ctCutsceneScript5BText0026
   PromptContinue
   SetPortrait $0B,$01,$06
-  WriteText "それでは<BR>サンダーボルトさくせん<BR>これで しゅうりょう!<BR>"
+  WriteText ctCutsceneScript5BText0027
   PromptContinue
-  WriteText "みんな ほんとうに<BR>よくがんばってくれたわ!<BR>"
+  WriteText ctCutsceneScript5BText0028
+  PromptContinue
+  Unknown0F $00,$01
+  WriteText ctCutsceneScript5BText0029
+  PromptContinue
+  SetPortrait $0B,$01,$06
+  WriteText ctCutsceneScript5BText002A
+  PromptContinue
+  WriteText ctCutsceneScript5BText002B
   PromptContinue
   Branch .reference_0574
 .reference_0574
@@ -131,198 +131,198 @@ CutsceneScript5B::
   ConditionalBranch .reference_0AEA,$02,$06,$01,$08,$20,$00
 .reference_05C5
   SetPortrait $09,$01,$01
-  WriteText "そうだ <NAME>くん<BR>カメラもってたよな。<BR>"
+  WriteText ctCutsceneScript5BText002C
   PromptContinue
-  WriteText "さいごに みんなで<BR>きねんさつえいを<BR>しようよ。<BR>"
+  WriteText ctCutsceneScript5BText002D
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ ボクが<BR>セルフタイマーを<BR>セットしますよ。<BR>"
+  WriteText ctCutsceneScript5BText002E
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText002F
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "あっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText0030
   PromptContinue
   SetPortrait $09,$06,$06
-  WriteText "<NAME>くん!<BR>いそいで! いそいで!<BR>"
+  WriteText ctCutsceneScript5BText0031
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_0662
   SetPortrait $01,$01,$01
-  WriteText "あ <NAME>さん<BR>カメラ もってましたよね。<BR>"
+  WriteText ctCutsceneScript5BText0032
   PromptContinue
-  WriteText "さいごに みんなで<BR>きねんさつえいを<BR>しませんか?<BR>"
+  WriteText ctCutsceneScript5BText0033
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ ボクが<BR>セルフタイマーを<BR>セットしますよ。<BR>"
+  WriteText ctCutsceneScript5BText0034
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText0035
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "あっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText0036
   PromptContinue
   SetPortrait $01,$03,$03
-  WriteText "<NAME>さん!<BR>いそいで! シャッターが <BR>おりてしまいますよ!!<BR>"
+  WriteText ctCutsceneScript5BText0037
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_070F
   SetPortrait $02,$01,$01
-  WriteText "ところで <NAME>さん<BR>たしか カメラを<BR>おもちでしたわね?<BR>"
+  WriteText ctCutsceneScript5BText0038
   PromptContinue
-  WriteText "そのカメラをつかって<BR>みんなで きねんさつえいを<BR>しませんこと?<BR>"
+  WriteText ctCutsceneScript5BText0039
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ ボクが<BR>セルフタイマーを<BR>セットしますよ。<BR>"
+  WriteText ctCutsceneScript5BText003A
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText003B
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "あっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText003C
   PromptContinue
   SetPortrait $02,$03,$03
-  WriteText "<NAME>さん!<BR>はやくしないと<BR>シャッターが!!<BR>"
+  WriteText ctCutsceneScript5BText003D
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_07C2
   SetPortrait $03,$03,$03
-  WriteText "そういえば <NAME>くん<BR>カメラを もっていたわね。<BR>"
+  WriteText ctCutsceneScript5BText003E
   PromptContinue
-  WriteText "せっかくだから<BR>みんなで きねんしゃしんを<BR>とらない?<BR>"
+  WriteText ctCutsceneScript5BText003F
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ ボクが<BR>セルフタイマーを<BR>セットしますよ。<BR>"
+  WriteText ctCutsceneScript5BText0040
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText0041
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "あっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText0042
   PromptContinue
   SetPortrait $03,$07,$07
-  WriteText "<NAME>くん!<BR>はやくしないと!!<BR>"
+  WriteText ctCutsceneScript5BText0043
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_0865
   SetPortrait $05,$01,$01
-  WriteText "そういえば <NAME>はん。<BR>カメラ もってたよな。<BR>"
+  WriteText ctCutsceneScript5BText0044
   PromptContinue
-  WriteText "せっかくやから<BR>そのカメラで きねんさつえい<BR>やらへんか?<BR>"
+  WriteText ctCutsceneScript5BText0045
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ ボクが<BR>セルフタイマーを<BR>セットしますよ。<BR>"
+  WriteText ctCutsceneScript5BText0046
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText0047
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "あっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText0048
   PromptContinue
   SetPortrait $05,$03,$03
-  WriteText "<NAME>はん!<BR>はよせな まにあえへんで!<BR>"
+  WriteText ctCutsceneScript5BText0049
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_090D
   SetPortrait $04,$01,$01
-  WriteText "<NAME>って<BR>カメラを もってたよね?<BR>"
+  WriteText ctCutsceneScript5BText004A
   PromptContinue
-  WriteText "みんなで おしゃしんを<BR>とろうよ! ね!<BR>"
+  WriteText ctCutsceneScript5BText004B
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ ボクが<BR>セルフタイマーを<BR>セットするよ。<BR>"
+  WriteText ctCutsceneScript5BText004C
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText004D
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "あっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText004E
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText "<NAME>!<BR>はやく! はやく!!<BR>"
+  WriteText ctCutsceneScript5BText004F
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_09A0
   SetPortrait $06,$01,$01
-  WriteText "そうだ <NAME>!<BR>おまえ カメラもってたよな。<BR>"
+  WriteText ctCutsceneScript5BText0050
   PromptContinue
-  WriteText "だったら さいごに<BR>きねんしゃしんを みんなで<BR>とらないか?<BR>"
+  WriteText ctCutsceneScript5BText0051
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ ボクが<BR>セルフタイマーを<BR>セットしますよ。<BR>"
+  WriteText ctCutsceneScript5BText0052
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText0053
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "あっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText0054
   PromptContinue
   SetPortrait $06,$03,$03
-  WriteText "あっ! バカ!<BR>なに マンガみたいなこと<BR>やってんだよ!!<BR>"
+  WriteText ctCutsceneScript5BText0055
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_0A53
   SetPortrait $07,$01,$01
-  WriteText "<NAME>さん!<BR>グッドアイディアが<BR>ありまーす!<BR>"
+  WriteText ctCutsceneScript5BText0056
   PromptContinue
-  WriteText "<NAME>さんの カメラで<BR>きねんさつえいを<BR>するのでーす!<BR>"
+  WriteText ctCutsceneScript5BText0057
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ ボクが<BR>セルフタイマーを<BR>セットしますよ。<BR>"
+  WriteText ctCutsceneScript5BText0058
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText0059
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "あっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText005A
   PromptContinue
   SetPortrait $07,$07,$07
-  WriteText "<NAME>さん!!<BR>"
+  WriteText ctCutsceneScript5BText005B
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_0AEA
   SetPortrait $08,$01,$01
-  WriteText "たしか カメラを<BR>もっていたよね<NAME>。<BR>"
+  WriteText ctCutsceneScript5BText005C
   PromptContinue
-  WriteText "にんむしゅうりょうの<BR>きろくとして みんなで<BR>しゃしんを とろう。<BR>"
+  WriteText ctCutsceneScript5BText005D
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ ボクが<BR>セルフタイマーを<BR>セットしますよ。<BR>"
+  WriteText ctCutsceneScript5BText005E
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText005F
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "あっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText0060
   PromptContinue
   SetPortrait $08,$04,$04
-  WriteText "<NAME> はやく!<BR>"
+  WriteText ctCutsceneScript5BText0061
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
@@ -338,180 +338,180 @@ CutsceneScript5B::
   ConditionalBranch .reference_0DBA,$02,$06,$01,$08,$20,$00
 .reference_0BD7
   SetPortrait $09,$01,$01
-  WriteText "<NAME>くん<BR>こんかいは おつかれさま。<BR>"
+  WriteText ctCutsceneScript5BText0062
   PromptContinue
-  WriteText "これからも<BR>はなぐみの なかまとして<BR>よろしくたのむよ。<BR>"
+  WriteText ctCutsceneScript5BText0063
   PromptContinue
   End
 .reference_0C11
   SetPortrait $01,$01,$01
-  WriteText "<NAME>さん<BR>どうも おつかれさまでした。<BR>"
+  WriteText ctCutsceneScript5BText0064
   PromptContinue
-  WriteText "これからも<BR>いっしょに<BR>がんばりましょうね!<BR>"
+  WriteText ctCutsceneScript5BText0065
   PromptContinue
   End
 .reference_0C46
   SetPortrait $02,$01,$01
-  WriteText "<NAME>さん<BR>このたびの にんむ<BR>ごくろうさま でしたわね。<BR>"
+  WriteText ctCutsceneScript5BText0066
   PromptContinue
-  WriteText "これからも<BR>わたくしの なかまとして<BR>よろしく たのみますわよ。<BR>"
+  WriteText ctCutsceneScript5BText0067
   PromptContinue
   End
 .reference_0C8E
   SetPortrait $03,$03,$03
-  WriteText "<NAME>くん<BR>にんむ おつかれさま。<BR>"
+  WriteText ctCutsceneScript5BText0068
   PromptContinue
-  WriteText "これからも <BR>はなぐみの なかまとして<BR>よろしく おねがいするわ。<BR>"
+  WriteText ctCutsceneScript5BText0069
   PromptContinue
   End
 .reference_0CCB
   SetPortrait $05,$01,$01
-  WriteText "<NAME>はん<BR>ほんま おつかれさん<BR>やったな。<BR>"
+  WriteText ctCutsceneScript5BText006A
   PromptContinue
-  WriteText "これからも<BR>いっしょに がんばって<BR>いこうな!<BR>"
+  WriteText ctCutsceneScript5BText006B
   PromptContinue
   End
 .reference_0D03
   SetPortrait $04,$01,$01
-  WriteText "<NAME>!<BR>どうも ありがとうね!<BR>"
+  WriteText ctCutsceneScript5BText006C
   PromptContinue
-  WriteText "これからも アイリスと<BR>なかよくしてね!<BR>おねがいだよ!<BR>"
+  WriteText ctCutsceneScript5BText006D
   PromptContinue
   End
 .reference_0D3A
   SetPortrait $06,$01,$01
-  WriteText "<NAME>!<BR>ほんとうに<BR>ごくろうだったな!<BR>"
+  WriteText ctCutsceneScript5BText006E
   PromptContinue
-  WriteText "これからも<BR>このちょうしで<BR>よろしくたのむぜ!<BR>"
+  WriteText ctCutsceneScript5BText006F
   PromptContinue
   End
 .reference_0D70
   SetPortrait $07,$01,$01
-  WriteText "<NAME>さん<BR>こんかいの にんむは<BR>ほんとうに おつかれでーす!<BR>"
+  WriteText ctCutsceneScript5BText0070
   PromptContinue
-  WriteText "これからも<BR>はなぐみの なかまとして<BR>よろしく してあげまーす!<BR>"
+  WriteText ctCutsceneScript5BText0071
   PromptContinue
   End
 .reference_0DBA
   SetPortrait $08,$01,$01
-  WriteText "<NAME>‥‥<BR>にんむ おつかれさま。<BR>"
+  WriteText ctCutsceneScript5BText0072
   PromptContinue
-  WriteText "そして‥‥<BR>これからも よろしく‥‥<BR>"
+  WriteText ctCutsceneScript5BText0073
   PromptContinue
   End
 .reference_0DE8
-  WriteText "<NAME><BR>にんむ かんりょう<BR>ごくろうさま。<BR>"
+  WriteText ctCutsceneScript5BText0074
   PromptContinue
-  WriteText "ほんとうに<BR>よく がんばったわね。<BR>おつかれさま。<BR>"
+  WriteText ctCutsceneScript5BText0075
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText "<NAME>ちゃん<BR>やったじゃない!<BR>"
+  WriteText ctCutsceneScript5BText0076
   PromptContinue
   SetPortrait $12,$01,$01
-  WriteText "<NAME>さん<BR>あこがれて しまいます。<BR>"
+  WriteText ctCutsceneScript5BText0077
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText "<NAME>さん <BR>あなたのおかげで<BR>たすかりました。ありがとう。<BR>"
+  WriteText ctCutsceneScript5BText0078
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText "<NAME>さん<BR>ほんとうに<BR>おつかれさまでした!<BR>"
+  WriteText ctCutsceneScript5BText0079
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText "<NAME>さん<BR>やったわね!<BR>これは ニュースだわ!<BR>"
+  WriteText ctCutsceneScript5BText007A
   PromptContinue
   SetPortrait $0C,$11,$01
-  WriteText "<NAME>さんの おかげで<BR>へいわに なりました。<BR>ありがとうございます。<BR>"
+  WriteText ctCutsceneScript5BText007B
   PromptContinue
   Unknown0F $00,$01
-  WriteText "なんだか テレますね‥‥<BR>でも こちらこそ たいへん<BR>おせわになりました。<BR>"
+  WriteText ctCutsceneScript5BText007C
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "フフフ‥‥‥‥<BR>じゃあ いきましょうか<BR><NAME>。<BR>"
+  WriteText ctCutsceneScript5BText007D
   PromptContinue
-  WriteText "はなぐみの みんなが<BR>そとでまっているわ。<BR>"
+  WriteText ctCutsceneScript5BText007E
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   SetBackground $02
   Unknown0E $1E
   SetPortrait $03,$03,$03
-  WriteText "<NAME><BR>にんむ ごくろうさま。<BR>"
+  WriteText ctCutsceneScript5BText007F
   PromptContinue
-  WriteText "あなたは おんなのこだし<BR>さいしょは どうなるかと<BR>おもったけど‥‥<BR>"
+  WriteText ctCutsceneScript5BText0080
   PromptContinue
-  WriteText "みごと やりとげたわね<BR><NAME><BR>りっぱだったわよ。<BR>"
+  WriteText ctCutsceneScript5BText0081
   PromptContinue
   SetPortrait $06,$01,$01
-  WriteText "まったくだぜ <NAME>!<BR>ほんとうに おまえは<BR>たいした おんなだぜ!<BR>"
+  WriteText ctCutsceneScript5BText0082
   PromptContinue
-  WriteText "しょうじき いうと<BR>ここまでやるなんて<BR>おもって なかったぜ。<BR>"
+  WriteText ctCutsceneScript5BText0083
   PromptContinue
-  WriteText "あとは あたいみたいに<BR>たくさんメシをくえば<BR>もっと つよくなれるぜ!<BR>"
+  WriteText ctCutsceneScript5BText0084
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "あら カンナさんをみならって<BR>おデブさんに なったら<BR>めもあてられませんわ。<BR>"
+  WriteText ctCutsceneScript5BText0085
   PromptContinue
-  WriteText "<NAME>さんは<BR>いまのままで じゅうぶん<BR>りっぱですわよ。<BR>"
+  WriteText ctCutsceneScript5BText0086
   PromptContinue
-  WriteText "ま もくひょうにするのなら<BR>わたくしを もくひょうに<BR>すると いいですわよ。<BR>"
+  WriteText ctCutsceneScript5BText0087
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "わーい!<BR>やったね <NAME>!<BR>"
+  WriteText ctCutsceneScript5BText0088
   PromptContinue
-  WriteText "『まじんき』をとりもどしたし<BR>わるいやつも やっつけたし<BR><NAME>は スゴイよ!<BR>"
+  WriteText ctCutsceneScript5BText0089
   PromptContinue
-  WriteText "<NAME>がいれば<BR>こわいものなしだよ。<BR>ねぇ レニ?<BR>"
+  WriteText ctCutsceneScript5BText008A
   PromptContinue
   SetPortrait $08,$01,$01
-  WriteText "そうだね‥‥<BR>りっぱな せんりょくだ。<BR>"
+  WriteText ctCutsceneScript5BText008B
   PromptContinue
-  WriteText "せんじょうでも<BR>あんしんして せなかを<BR>まかせられる。<BR>"
+  WriteText ctCutsceneScript5BText008C
   PromptContinue
-  WriteText "<NAME><BR>これからも よろしく。<BR>"
+  WriteText ctCutsceneScript5BText008D
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "<NAME>はん<BR>おつかれさんやったな!<BR>"
+  WriteText ctCutsceneScript5BText008E
   PromptContinue
-  WriteText "おんなのこやのに<BR>えらい ガッツが<BR>あるんやな。<BR>"
+  WriteText ctCutsceneScript5BText008F
   PromptContinue
-  WriteText "こりゃ ウチも<BR>うかうか してられへんわ。<BR>いっしょに がんばろな!<BR>"
+  WriteText ctCutsceneScript5BText0090
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "Oh! <NAME>さん<BR>グレートでーす!<BR>"
+  WriteText ctCutsceneScript5BText0091
   PromptContinue
-  WriteText "あなたは まさに<BR>ワンダーウーマンでーす!<BR>とうようの しんぴでーす!<BR>"
+  WriteText ctCutsceneScript5BText0092
   PromptContinue
-  WriteText "あなたの かつやくに<BR>わたし ぼうしを<BR>かぶりまーす!<BR>"
+  WriteText ctCutsceneScript5BText0093
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText "ふふふ おりひめさん<BR>それをいうなら<BR>ぼうしを ぬぐですよ。<BR>"
+  WriteText ctCutsceneScript5BText0094
   PromptContinue
-  WriteText "でも <NAME>さん<BR>ほんとうに すごいですよ!<BR>"
+  WriteText ctCutsceneScript5BText0095
   PromptContinue
-  WriteText "おんなじ おんなのこなのに<BR>あたし なんかよりも<BR>ぜんぜん りっぱです!<BR>"
+  WriteText ctCutsceneScript5BText0096
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "ついに やったね<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript5BText0097
   PromptContinue
-  WriteText "はじめての じっせんなのに<BR>きみは れいせいに<BR>さいごまで やりとげたよ。<BR>"
+  WriteText ctCutsceneScript5BText0098
   PromptContinue
-  WriteText "きみが ていとのへいわを<BR>まもったんだ。<BR>どうも ありがとう!<BR>"
-  PromptContinue
-  Unknown0F $00,$01
-  WriteText "そんなこと ありません。<BR>こちらこそ たすけてもらって<BR>ありがとうございました。<BR>"
-  PromptContinue
-  SetPortrait $0B,$01,$06
-  WriteText "フフフ‥‥<BR>とにかく しばらくは<BR>あなたも おやすみなさい。<BR>"
-  PromptContinue
-  WriteText "そして また<BR>ていとに きけんがきたら<BR>よろしくたのむわよ。<BR>"
+  WriteText ctCutsceneScript5BText0099
   PromptContinue
   Unknown0F $00,$01
-  WriteText "りょうかい!<BR>"
+  WriteText ctCutsceneScript5BText009A
   PromptContinue
   SetPortrait $0B,$01,$06
-  WriteText "それでは<BR>サンダーボルトさくせん<BR>これで しゅうりょう!<BR>"
+  WriteText ctCutsceneScript5BText009B
   PromptContinue
-  WriteText "みんな ほんとうに<BR>よくがんばってくれたわ!<BR>"
+  WriteText ctCutsceneScript5BText009C
+  PromptContinue
+  Unknown0F $00,$01
+  WriteText ctCutsceneScript5BText009D
+  PromptContinue
+  SetPortrait $0B,$01,$06
+  WriteText ctCutsceneScript5BText009E
+  PromptContinue
+  WriteText ctCutsceneScript5BText009F
   PromptContinue
   Branch .reference_1363
 .reference_1363
@@ -526,198 +526,198 @@ CutsceneScript5B::
   ConditionalBranch .reference_1912,$02,$06,$01,$08,$20,$00
 .reference_13B4
   SetPortrait $09,$01,$01
-  WriteText "あ そうだ<NAME>くん<BR>たしか カメラを<BR>もってたよね。<BR>"
+  WriteText ctCutsceneScript5BText00A0
   PromptContinue
-  WriteText "さいごに みんなで<BR>きねんさつえいを<BR>しないかい?<BR>"
+  WriteText ctCutsceneScript5BText00A1
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ わたしが<BR>セルフタイマーを<BR>セットしますね。<BR>"
+  WriteText ctCutsceneScript5BText00A2
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText00A3
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "きゃっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText00A4
   PromptContinue
   SetPortrait $09,$06,$06
-  WriteText "<NAME>くん!<BR>だいじょうぶかい?!<BR>あっ! いそがないと!!<BR>"
+  WriteText ctCutsceneScript5BText00A5
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_1467
   SetPortrait $01,$01,$01
-  WriteText "あ <NAME>さん<BR>たしか カメラを<BR>もってましたよね。<BR>"
+  WriteText ctCutsceneScript5BText00A6
   PromptContinue
-  WriteText "さいごに みんなで<BR>きねんさつえいを<BR>しませんか?<BR>"
+  WriteText ctCutsceneScript5BText00A7
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ わたしが<BR>セルフタイマーを<BR>セットしますね。<BR>"
+  WriteText ctCutsceneScript5BText00A8
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText00A9
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "きゃっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText00AA
   PromptContinue
   SetPortrait $01,$03,$03
-  WriteText "<NAME>さん!<BR>いそいで! シャッターが <BR>おりてしまいますよ!!<BR>"
+  WriteText ctCutsceneScript5BText00AB
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_151B
   SetPortrait $02,$01,$01
-  WriteText "ところで <NAME>さん<BR>たしか カメラを<BR>おもちでしたわね?<BR>"
+  WriteText ctCutsceneScript5BText00AC
   PromptContinue
-  WriteText "そのカメラをつかって<BR>みんなで きねんさつえいを<BR>しませんこと?<BR>"
+  WriteText ctCutsceneScript5BText00AD
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ わたしが<BR>セルフタイマーを<BR>セットしますね。<BR>"
+  WriteText ctCutsceneScript5BText00AE
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText00AF
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "きゃっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText00B0
   PromptContinue
   SetPortrait $02,$03,$03
-  WriteText "<NAME>さん!<BR>はやくしないと<BR>シャッターが!!<BR>"
+  WriteText ctCutsceneScript5BText00B1
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_15D0
   SetPortrait $03,$03,$03
-  WriteText "そういえば <NAME><BR>カメラを もっていたわね。<BR>"
+  WriteText ctCutsceneScript5BText00B2
   PromptContinue
-  WriteText "せっかくだから<BR>みんなで きねんしゃしんを<BR>とらない?<BR>"
+  WriteText ctCutsceneScript5BText00B3
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ わたしが<BR>セルフタイマーを<BR>セットしますね。<BR>"
+  WriteText ctCutsceneScript5BText00B4
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText00B5
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "きゃっ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText00B6
   PromptContinue
   SetPortrait $03,$07,$07
-  WriteText "<NAME>!<BR>はやくしないと シャッターが<BR>おりてしまうわよ!!<BR>"
+  WriteText ctCutsceneScript5BText00B7
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_1681
   SetPortrait $05,$01,$01
-  WriteText "そういえば <NAME>はん。<BR>たしか カメラを<BR>もってたよな。<BR>"
+  WriteText ctCutsceneScript5BText00B8
   PromptContinue
-  WriteText "せっかくやから<BR>そのカメラで きねんさつえい<BR>やらへんか?<BR>"
+  WriteText ctCutsceneScript5BText00B9
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ わたしが<BR>セルフタイマーを<BR>セットしますね。<BR>"
+  WriteText ctCutsceneScript5BText00BA
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText00BB
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "キャッ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText00BC
   PromptContinue
   SetPortrait $05,$03,$03
-  WriteText "<NAME>はん!<BR>はよせな まにあえへんで!<BR>"
+  WriteText ctCutsceneScript5BText00BD
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_1730
   SetPortrait $04,$01,$01
-  WriteText "<NAME>って<BR>カメラを もってたよね?<BR>"
+  WriteText ctCutsceneScript5BText00BE
   PromptContinue
-  WriteText "みんなで おしゃしんを<BR>とろうよ! ね!<BR>"
+  WriteText ctCutsceneScript5BText00BF
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ わたしが<BR>セルフタイマーを<BR>セットするわね。<BR>"
+  WriteText ctCutsceneScript5BText00C0
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText00C1
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "キャッ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText00C2
   PromptContinue
   SetPortrait $04,$06,$06
-  WriteText "<NAME>!<BR>はやく! はやく!!<BR>"
+  WriteText ctCutsceneScript5BText00C3
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_17C6
   SetPortrait $06,$01,$01
-  WriteText "そうだ <NAME>!<BR>おまえ カメラもってたよな。<BR>"
+  WriteText ctCutsceneScript5BText00C4
   PromptContinue
-  WriteText "だったら さいごに<BR>きねんしゃしんを みんなで<BR>とらないか?<BR>"
+  WriteText ctCutsceneScript5BText00C5
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ わたしが<BR>セルフタイマーを<BR>セットしますね。<BR>"
+  WriteText ctCutsceneScript5BText00C6
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText00C7
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "キャッ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText00C8
   PromptContinue
   SetPortrait $06,$03,$03
-  WriteText "あっ! バカ!<BR>なに どんくさいこと<BR>やってんだよ!!<BR>"
+  WriteText ctCutsceneScript5BText00C9
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_1879
   SetPortrait $07,$01,$01
-  WriteText "<NAME>さん!<BR>グッドアイディアが<BR>ありまーす!<BR>"
+  WriteText ctCutsceneScript5BText00CA
   PromptContinue
-  WriteText "<NAME>さんの カメラで<BR>きねんさつえいを<BR>するのでーす!<BR>"
+  WriteText ctCutsceneScript5BText00CB
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ わたしが<BR>セルフタイマーを<BR>セットしますね。<BR>"
+  WriteText ctCutsceneScript5BText00CC
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText00CD
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "キャッ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText00CE
   PromptContinue
   SetPortrait $07,$07,$07
-  WriteText "<NAME>さん!!<BR>"
+  WriteText ctCutsceneScript5BText00CF
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
   End
 .reference_1912
   SetPortrait $08,$01,$01
-  WriteText "たしか カメラを<BR>もっていたよね<NAME>。<BR>"
+  WriteText ctCutsceneScript5BText00D0
   PromptContinue
-  WriteText "にんむしゅうりょうの<BR>きろくとして みんなで<BR>しゃしんを とろう。<BR>"
+  WriteText ctCutsceneScript5BText00D1
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じゃあ わたしが<BR>セルフタイマーを<BR>セットしますね。<BR>"
+  WriteText ctCutsceneScript5BText00D2
   PromptContinue
-  WriteText "いいですか?<BR>いきますよ～。<BR>"
+  WriteText ctCutsceneScript5BText00D3
   PromptContinue
   Unknown13 $29,$01
   Unknown09 $78
   Unknown13 $1A,$01
-  WriteText "キャッ! つまずいた!!<BR>"
+  WriteText ctCutsceneScript5BText00D4
   PromptContinue
   SetPortrait $08,$04,$04
-  WriteText "<NAME> はやく!<BR>"
+  WriteText ctCutsceneScript5BText00D5
   PromptContinue
   Unknown12 $00
   Unknown13 $40,$01
@@ -733,65 +733,65 @@ CutsceneScript5B::
   ConditionalBranch .reference_1BDF,$02,$06,$01,$08,$20,$00
 .reference_1A01
   SetPortrait $09,$01,$01
-  WriteText "<NAME>くん<BR>こんかいは ほんとうに<BR>おつかれさまだったね。<BR>"
+  WriteText ctCutsceneScript5BText00D6
   PromptContinue
-  WriteText "これからも<BR>はなぐみの なかまとして<BR>よろしくたのむよ。<BR>"
+  WriteText ctCutsceneScript5BText00D7
   PromptContinue
   End
 .reference_1A45
   SetPortrait $01,$01,$01
-  WriteText "<NAME>さん<BR>どうも おつかれさまでした。<BR>"
+  WriteText ctCutsceneScript5BText00D8
   PromptContinue
-  WriteText "これからも<BR>いっしょに<BR>がんばりましょうね!<BR>"
+  WriteText ctCutsceneScript5BText00D9
   PromptContinue
   End
 .reference_1A7A
   SetPortrait $02,$01,$01
-  WriteText "<NAME>さん<BR>このたびの にんむ<BR>ごくろうさまでしたわね。<BR>"
+  WriteText ctCutsceneScript5BText00DA
   PromptContinue
-  WriteText "これからも<BR>はなぐみの なかまとして<BR>よろしく たのみますわよ。<BR>"
+  WriteText ctCutsceneScript5BText00DB
   PromptContinue
   End
 .reference_1AC1
   SetPortrait $03,$03,$03
-  WriteText "<NAME><BR>にんむ おつかれさま。<BR>"
+  WriteText ctCutsceneScript5BText00DC
   PromptContinue
-  WriteText "これからも<BR>はなぐみの なかまとして<BR>よろしくたのむわね。<BR>"
+  WriteText ctCutsceneScript5BText00DD
   PromptContinue
   End
 .reference_1AF8
   SetPortrait $05,$01,$01
-  WriteText "<NAME>はん<BR>ほんま おつかれさん<BR>やったな。<BR>"
+  WriteText ctCutsceneScript5BText00DE
   PromptContinue
-  WriteText "これからも<BR>いっしょに がんばって<BR>いこうな!<BR>"
+  WriteText ctCutsceneScript5BText00DF
   PromptContinue
   End
 .reference_1B30
   SetPortrait $04,$01,$01
-  WriteText "<NAME>!<BR>どうも ありがとうね!<BR>"
+  WriteText ctCutsceneScript5BText00E0
   PromptContinue
-  WriteText "これからも アイリスと<BR>なかよくしてね!<BR>"
+  WriteText ctCutsceneScript5BText00E1
   PromptContinue
   End
 .reference_1B5F
   SetPortrait $06,$01,$01
-  WriteText "<NAME>!<BR>ほんとうに<BR>ごくろうだったな!<BR>"
+  WriteText ctCutsceneScript5BText00E2
   PromptContinue
-  WriteText "これからも<BR>このちょうしで<BR>よろしくたのむぜ!<BR>"
+  WriteText ctCutsceneScript5BText00E3
   PromptContinue
   End
 .reference_1B95
   SetPortrait $07,$01,$01
-  WriteText "<NAME>さん<BR>こんかいの にんむは<BR>ほんとうに おつかれでーす!<BR>"
+  WriteText ctCutsceneScript5BText00E4
   PromptContinue
-  WriteText "これからも<BR>はなぐみの なかまとして<BR>よろしく してあげまーす!<BR>"
+  WriteText ctCutsceneScript5BText00E5
   PromptContinue
   End
 .reference_1BDF
   SetPortrait $08,$01,$01
-  WriteText "<NAME>‥‥<BR>にんむ おつかれさま。<BR>"
+  WriteText ctCutsceneScript5BText00E6
   PromptContinue
-  WriteText "そして‥‥<BR>これからも よろしく‥‥<BR>"
+  WriteText ctCutsceneScript5BText00E7
   PromptContinue
   End
   End

@@ -1,0 +1,724 @@
+ID,Text
+ctCutsceneScript3DText0000,すこし じかんが できたわ。<BR>どうしようかしら‥‥<BR>
+ctCutsceneScript3DText0001,そうだわ。みんなに<BR>たたかいについて いろいろと<BR>アドバイスをもらいましょう。<BR>
+ctCutsceneScript3DText0002,だれのところに<BR>いこうかしら?<BR>
+ctCutsceneScript3DText0003Sub00,おおがみ さん
+ctCutsceneScript3DText0003Sub01,さくら さん
+ctCutsceneScript3DText0003Sub02,ほかの たいいん
+ctCutsceneScript3DText0004Sub00,すみれ さん
+ctCutsceneScript3DText0004Sub01,マリア さん
+ctCutsceneScript3DText0004Sub02,ほかの たいいん
+ctCutsceneScript3DText0005Sub00,アイリス
+ctCutsceneScript3DText0005Sub01,こうらん さん
+ctCutsceneScript3DText0005Sub02,ほかの たいいん
+ctCutsceneScript3DText0006Sub00,カンナ さん
+ctCutsceneScript3DText0006Sub01,おりひめ さん
+ctCutsceneScript3DText0006Sub02,ほかの たいいん
+ctCutsceneScript3DText0007Sub00,レニ さん
+ctCutsceneScript3DText0007Sub01,ほかの たいいん
+ctCutsceneScript3DText0008,まだ じかんがあるみたいね。<BR>こんどは だれのところへ<BR>いこうかしら?<BR>
+ctCutsceneScript3DText0009,じかんてきには あとひとり<BR>ぐらいね。さいごは だれの<BR>ところへ いこうかしら?<BR>
+ctCutsceneScript3DText000A,ビー! ビー! ビー!<BR>
+ctCutsceneScript3DText000B,けいほうだわ!<BR>
+ctCutsceneScript3DText000C,はなぐみたいいんは<BR>ぜんいん ただちに<BR>さくせんしつに しゅうごう!<BR>
+ctCutsceneScript3DText000D,さくせんしつへ<BR>いそがなくちゃ。<BR>
+ctCutsceneScript3DText000E,おおがみさん のところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText000F,‥‥おおがみさんの<BR>ところへは さっき<BR>いったわね‥‥<BR>
+ctCutsceneScript3DText0010,ほかのひとの ところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText0011,おおがみさん。<BR>しつれいします。<BR>
+ctCutsceneScript3DText0012,\x01\x28
+ctCutsceneScript3DText0013,やあ <NAME>くん<BR>どうしたんだい?<BR>なにかようかい?<BR>
+ctCutsceneScript3DText0014,はい おおがみさん。<BR>つぎの さくせんまで すこし<BR>じかんが あきましたので。<BR>
+ctCutsceneScript3DText0015,そこで おおがみさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+ctCutsceneScript3DText0016,なるほど。<BR>そういうことなら<BR>きょうりょくするよ。<BR>
+ctCutsceneScript3DText0017,オレからの アドバイスは<BR>たったひとつだ。<BR>
+ctCutsceneScript3DText0018,たたかいにおいて<BR>いちばん たいせつなものは<BR>なんだか わかるかい?<BR>
+ctCutsceneScript3DText0019Sub00,こうぶのせいのう
+ctCutsceneScript3DText0019Sub01,つよい ぶき
+ctCutsceneScript3DText0019Sub02,つよい せいしんりょく
+ctCutsceneScript3DText001A,そうですね‥‥<BR>こうぶのせいのう ですか?<BR>
+ctCutsceneScript3DText001B,ちょっと ちがうな。<BR>
+ctCutsceneScript3DText001C,こうぶのせいのうは あくまで<BR>こじんのちからを ひきだす<BR>ための ものだからね。<BR>
+ctCutsceneScript3DText001D,ほかには なにか<BR>おもいあたることは<BR>ないかい? <NAME>くん。<BR>
+ctCutsceneScript3DText001E,そうですね‥‥<BR>つよいぶき ですか?<BR>
+ctCutsceneScript3DText001F,ちょっと ちがうな。<BR>
+ctCutsceneScript3DText0020,ぶきがいくら つよくても<BR>それを つかいこなすのは<BR>ひとだからね。<BR>
+ctCutsceneScript3DText0021,ほかには なにか<BR>おもいあたることは<BR>ないかい? <NAME>くん。<BR>
+ctCutsceneScript3DText0022,そうですね‥‥<BR>つよい せいしんりょく<BR>ですか?<BR>
+ctCutsceneScript3DText0023,\x01\x28
+ctCutsceneScript3DText0024,つよい せいしんりょく‥‥<BR>うん。 それもたいせつだね。<BR>
+ctCutsceneScript3DText0025,でも ほかには なにか<BR>おもいあたることは<BR>ないかい? <NAME>くん。<BR>
+ctCutsceneScript3DText0026,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0027,わからないのかい?<BR>
+ctCutsceneScript3DText0028,まあ じっせんなんて<BR>こんかいの にんむが<BR>はじめてだからね。<BR>
+ctCutsceneScript3DText0029,じゃあ もうすこし<BR>かんがえてごらん。<BR><NAME>くん。<BR>
+ctCutsceneScript3DText002ASub00,ちから
+ctCutsceneScript3DText002ASub01,ひっさつわざ
+ctCutsceneScript3DText002ASub02,れいりょく
+ctCutsceneScript3DText002B,では ちから ですか?<BR>
+ctCutsceneScript3DText002C,まあ ちからは ないより<BR>あったほうが いいよな。<BR>
+ctCutsceneScript3DText002D,でも その ちからを<BR>じゅうぶんに はっきするため<BR>‥‥いや‥‥それいじょうに<BR>
+ctCutsceneScript3DText002E,じぶんのもっている ちからを<BR>さいだいげんに ひきだすには<BR>なにが ひつようだとおもう?<BR>
+ctCutsceneScript3DText002F,では ひっさつわざ<BR>ですか?<BR>
+ctCutsceneScript3DText0030,まあ ひっさつわざは<BR>ないより あったほうが<BR>いいよな。<BR>
+ctCutsceneScript3DText0031,でも そんなひっさつわざでも<BR>どうにもならない<BR>ときがある。<BR>
+ctCutsceneScript3DText0032,そんなときには<BR>いったい なにが<BR>ひつようだとおもう?<BR>
+ctCutsceneScript3DText0033,では れいりょく ですか?<BR>
+ctCutsceneScript3DText0034,まあ れいりょくは<BR>たかいに こしたことは<BR>ないよな。<BR>
+ctCutsceneScript3DText0035,でも その たかいれいりょく<BR>を いかすためには<BR>じぶんの ちからだけじゃ<BR>
+ctCutsceneScript3DText0036,どうにもならないときが<BR>あるんだよ。そういうときに<BR>なにが ひつようだとおもう?<BR>
+ctCutsceneScript3DText0037,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0038,わからないのかい?<BR>
+ctCutsceneScript3DText0039,<NAME>くんが<BR>たたかっているときに<BR>かんじたことで いいんだよ。<BR>
+ctCutsceneScript3DText003A,さあ かんがえてごらん。<BR>
+ctCutsceneScript3DText003BSub00,チームワーク
+ctCutsceneScript3DText003BSub01,くんれん
+ctCutsceneScript3DText003BSub02,メカニックせいび のひと
+ctCutsceneScript3DText003C,わかりました!<BR>チームワークですね!!<BR>
+ctCutsceneScript3DText003D,\x02N
+ctCutsceneScript3DText003E,そうだよ。<NAME>くん<BR>せいかいだ。<BR>さすがだね。<BR>
+ctCutsceneScript3DText003F,それでは くんれん ですか?<BR>
+ctCutsceneScript3DText0040,どんなじょうきょうでも<BR>じぶんのちからを 100%<BR>ひきだすための くんれん。<BR>
+ctCutsceneScript3DText0041,\x01\x28
+ctCutsceneScript3DText0042,くんれんは もちろん<BR>たいせつだよ。<BR>
+ctCutsceneScript3DText0043,しかし ほんとうに<BR>たいせつなものは<BR>チームワークなんだよ。<BR>
+ctCutsceneScript3DText0044,わかりました。<BR>メカニックの ひとですね。<BR>
+ctCutsceneScript3DText0045,こうぶのメンテナンスを<BR>バッチリやってもらえば<BR>
+ctCutsceneScript3DText0046,わたしのチカラを<BR>100%ひきだすことが<BR>できます。<BR>
+ctCutsceneScript3DText0047,\x01\x28
+ctCutsceneScript3DText0048,う～ん‥‥<BR>まあ それも たいせつ<BR>なんだけど‥‥<BR>
+ctCutsceneScript3DText0049,しかし ほんとうに<BR>たいせつなものは<BR>チームワークなんだよ。<BR>
+ctCutsceneScript3DText004A,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText004B,わからないかい?<BR>
+ctCutsceneScript3DText004C,ほんとうに たいせつなものは<BR>チームワークなんだよ。<BR>
+ctCutsceneScript3DText004D,キミが どんなにすぐれた<BR>ちからを もっていても<BR>ひとりでは 100のチカラが<BR>
+ctCutsceneScript3DText004E,げんかいだろう。<BR>しかし チームワークをもって<BR>すれば そのチカラは<BR>
+ctCutsceneScript3DText004F,200にも 300にも<BR>なるんだ。<BR>
+ctCutsceneScript3DText0050,『チームワーク』<BR>このことばを わすれること<BR>なく がんばってくれ。<BR>
+ctCutsceneScript3DText0051,『チームワーク』<BR>このことばを わすれること<BR>なく がんばってくれ。<BR>
+ctCutsceneScript3DText0052,『チームワーク』<BR>このことばを わすれること<BR>なく がんばってくれ。<BR>
+ctCutsceneScript3DText0053,『チームワーク』<BR>このことばを わすれること<BR>なく がんばってくれ。<BR>
+ctCutsceneScript3DText0054,さくらさん のところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText0055,‥‥さくらさんの<BR>ところへは さっき<BR>いったわね‥‥<BR>
+ctCutsceneScript3DText0056,ほかのひとの ところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText0057,さくらさん。<BR>
+ctCutsceneScript3DText0058,しつれいします。<BR>
+ctCutsceneScript3DText0059,\x01\x28
+ctCutsceneScript3DText005A,あら <NAME>さん<BR>なにか ごようですか?<BR>
+ctCutsceneScript3DText005B,はい さくらさん。<BR>つぎの さくせんまで すこし<BR>じかんが あきましたので。<BR>
+ctCutsceneScript3DText005C,そこで さくらさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+ctCutsceneScript3DText005D,そうなんですか。<BR>わかりました。<BR>
+ctCutsceneScript3DText005E,では ほくしんいっとうりゅう<BR>のせいしんを<BR>おしえましょう。<BR>
+ctCutsceneScript3DText005F,まずは なにものにも<BR>みだされない 『しずかなる<BR>こころ』をもつことです。<BR>
+ctCutsceneScript3DText0060,そして あいてを<BR>ちゅういぶかく かんさつし<BR>『てきをしる』こと。<BR>
+ctCutsceneScript3DText0061,いちばん たいせつなのは<BR>じぶんを みつめなおし<BR>『おのれを しる』ことです。<BR>
+ctCutsceneScript3DText0062,わかりましたか?<BR><NAME>さん。<BR>
+ctCutsceneScript3DText0063,では テストをしますよ。<BR>
+ctCutsceneScript3DText0064,ほくしんいっとうりゅうには<BR>どんなこころを もっている<BR>ことがひつようでしょう?<BR>
+ctCutsceneScript3DText0065Sub00,しずかなる こころ
+ctCutsceneScript3DText0065Sub01,にぎやかな こころ
+ctCutsceneScript3DText0065Sub02,きずついた こころ
+ctCutsceneScript3DText0066,なにものにも みだされない<BR>しずかなる こころが<BR>ひつようです。<BR>
+ctCutsceneScript3DText0067,そうですね。<BR>では つぎは‥‥<BR>
+ctCutsceneScript3DText0068,\x01\x28
+ctCutsceneScript3DText0069,みんなを たのしませる<BR>にぎやかな こころが<BR>ひつようです。<BR>
+ctCutsceneScript3DText006A,ちがいますよ<BR><NAME>さん。<BR>
+ctCutsceneScript3DText006B,たしかに たのしいヒトは<BR>すきですけど けんのみちには<BR>かんけい ありませんよ。<BR>
+ctCutsceneScript3DText006C,ひつようなのは<BR>しずかなる こころです。<BR>では つぎは‥‥<BR>
+ctCutsceneScript3DText006D,ちょっと ナイーブで<BR>きずついた こころです。<BR>ブロークン・ハートですね。<BR>
+ctCutsceneScript3DText006E,ちがいますよ<BR><NAME>さん。<BR>
+ctCutsceneScript3DText006F,せんさいなヒトは すきですが<BR>きずつきやすいのは<BR>ちょっと こまりますね。<BR>
+ctCutsceneScript3DText0070,ひつようなのは<BR>しずかなる こころです。<BR>では つぎは‥‥<BR>
+ctCutsceneScript3DText0071,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0072,わすれたんですか?<BR><NAME>さん。<BR>
+ctCutsceneScript3DText0073,ひつようなのは<BR>なにものにも みだされない<BR>しずかなる こころですよ。<BR>
+ctCutsceneScript3DText0074,しっかりおぼえてくださいね。<BR>では つぎは‥‥<BR>
+ctCutsceneScript3DText0075,あいてを よくかんさつして<BR>どうしますか?<BR>
+ctCutsceneScript3DText0076Sub00,てきを しる
+ctCutsceneScript3DText0076Sub01,てきに しらせる
+ctCutsceneScript3DText0076Sub02,てきに する
+ctCutsceneScript3DText0077,あいてを ちゅういぶかく<BR>かんさつして<BR>てきのことを しります。<BR>
+ctCutsceneScript3DText0078,そうですね。<BR>では つぎは‥‥<BR>
+ctCutsceneScript3DText0079,\x01\x28
+ctCutsceneScript3DText007A,あいてを かんさつしたら<BR>てきに しらせます。<BR>
+ctCutsceneScript3DText007B,ちがいますよ<BR><NAME>さん。<BR>
+ctCutsceneScript3DText007C,てきに しらせて<BR>どうするんですか?<BR>
+ctCutsceneScript3DText007D,あいてを みきわめて<BR>てきをしるのです。<BR>では つぎは‥‥<BR>
+ctCutsceneScript3DText007E,あいてを かんさつしたら<BR>てきにします。<BR>ケンカをうるんですよね。<BR>
+ctCutsceneScript3DText007F,ちがいますよ<BR><NAME>さん。<BR>
+ctCutsceneScript3DText0080,そんなに すぐに<BR>ケンカをしないでください。<BR>
+ctCutsceneScript3DText0081,まずは あいてを みきわめて<BR>てきをしるのです。<BR>では つぎは‥‥<BR>
+ctCutsceneScript3DText0082,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0083,わすれたんですか?<BR><NAME>さん。<BR>
+ctCutsceneScript3DText0084,あいてを ちゅういぶかく<BR>かんさつして<BR>てきをしること‥‥<BR>
+ctCutsceneScript3DText0085,これは たたかいにおいて<BR>とても じゅうようですよ。<BR>では つぎは‥‥<BR>
+ctCutsceneScript3DText0086,いちばんたいせつなことです。<BR>じぶんを みつめなおして<BR>どうしますか?<BR>
+ctCutsceneScript3DText0087Sub00,おのれを しる
+ctCutsceneScript3DText0087Sub01,てきを しる
+ctCutsceneScript3DText0087Sub02,おけしょう する
+ctCutsceneScript3DText0088,じぶんをみつめなおし<BR>おのれを しるのですね。<BR>
+ctCutsceneScript3DText0089,そうですね。<BR>じぶんを しってるヒトは<BR>
+ctCutsceneScript3DText008A,\x01\x28
+ctCutsceneScript3DText008B,こころの つよいヒトですよ。<BR>
+ctCutsceneScript3DText008C,やっぱり てきをしります。<BR>てきのことを たくさん<BR>しっていれば ゆうりですよ。<BR>
+ctCutsceneScript3DText008D,ちがいますよ<BR><NAME>さん。<BR>
+ctCutsceneScript3DText008E,たしかに てきのことを<BR>しっていれば ゆうりですが<BR>
+ctCutsceneScript3DText008F,ほんとうに つよいのは<BR>おのれを しっている<BR>ヒトなんですよ。<BR>
+ctCutsceneScript3DText0090,おけしょうを します。<BR>やっぱり おんなのこ<BR>ですからね。<BR>
+ctCutsceneScript3DText0091,ちがいますよ<BR><NAME>さん。<BR>
+ctCutsceneScript3DText0092,おけしょうは<BR>けんのみちには<BR>かんけいありませんよ。<BR>
+ctCutsceneScript3DText0093,たいせつなのは<BR>おのれを しる<BR>ということなんです。<BR>
+ctCutsceneScript3DText0094,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0095,わすれたんですか?<BR><NAME>さん。<BR>
+ctCutsceneScript3DText0096,たいせつなのは<BR>じぶんを みつめなおして<BR>おのれをしることです。<BR>
+ctCutsceneScript3DText0097,じぶんのことを<BR>しっているヒトは<BR>ほんとうにつよいヒトですよ。<BR>
+ctCutsceneScript3DText0098,<NAME>さん。<BR>やるじゃないですか。<BR>
+ctCutsceneScript3DText0099,すばらしい きおくりょく<BR>ですね。<BR>かんぺきです!<BR>
+ctCutsceneScript3DText009A,そのちょうしならば<BR>きっと すばらしいけんしに<BR>なれますよ!<BR>
+ctCutsceneScript3DText009B,なかなか すじがいいですね。<BR>
+ctCutsceneScript3DText009C,もうすこし しゅぎょうすれば<BR>きっと りっぱなけんしに<BR>なれるとおもいますよ。<BR>
+ctCutsceneScript3DText009D,ちょっと むずかしかった<BR>かもしれませんね‥‥<BR>
+ctCutsceneScript3DText009E,でも あきらめないで<BR>しゅぎょうに はげんで<BR>ください。<BR>
+ctCutsceneScript3DText009F,では がんばってくださいね。<BR><NAME>さん。<BR>
+ctCutsceneScript3DText00A0,すみれさん のところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText00A1,‥‥すみれさんの<BR>ところへは さっき<BR>いったわね‥‥<BR>
+ctCutsceneScript3DText00A2,ほかのひとの ところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText00A3,すみれさん。<BR>
+ctCutsceneScript3DText00A4,しつれいします。<BR>
+ctCutsceneScript3DText00A5,\x01\x28
+ctCutsceneScript3DText00A6,あら <NAME>さん。<BR>なにかごようですの?<BR>
+ctCutsceneScript3DText00A7,はい すみれさん。<BR>つぎの さくせんまで すこし<BR>じかんが あきましたので。<BR>
+ctCutsceneScript3DText00A8,そこで すみれさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+ctCutsceneScript3DText00A9,たたかいの アドバイス?<BR>まぁ よろしいですわ。<BR>
+ctCutsceneScript3DText00AA,それでは <NAME>さんに<BR>いくつか しつもんを<BR>いたしますわ。<BR>
+ctCutsceneScript3DText00AB,<NAME>さんは<BR>なにを おもって たたかいに<BR>のぞんでおられますの?<BR>
+ctCutsceneScript3DText00ACSub00,かつこと
+ctCutsceneScript3DText00ACSub01,しなないこと
+ctCutsceneScript3DText00ACSub02,おフロのこと
+ctCutsceneScript3DText00AD,そうですね‥‥<BR>かつこと ですね。<BR>
+ctCutsceneScript3DText00AE,\x01\x28
+ctCutsceneScript3DText00AF,そうですか。<BR>なかなか まえむきな<BR>こころがけですわね。<BR>
+ctCutsceneScript3DText00B0,そうですね‥‥<BR>しなないこと ですね。<BR>
+ctCutsceneScript3DText00B1,あら そうですの?<BR>まあ しなないことは<BR>たいせつですけど‥‥<BR>
+ctCutsceneScript3DText00B2,はじめから そんなよわごし<BR>では かてるたたかいも<BR>かてなく なりますわよ。<BR>
+ctCutsceneScript3DText00B3,たたかいのまえには<BR>「かならず かつ」という<BR>きはくを おもちなさい。<BR>
+ctCutsceneScript3DText00B4,そうですね‥‥<BR>おフロのこと ですかね。<BR>
+ctCutsceneScript3DText00B5,てきをたおして にんむを<BR>はたして そして おフロに<BR>ゆっくりと はいる。<BR>
+ctCutsceneScript3DText00B6,\x01\x28
+ctCutsceneScript3DText00B7,まあ おフロは きもちいい<BR>ですものね。<BR>
+ctCutsceneScript3DText00B8,おフロで からだをやすめて<BR>あすの にんむに そなえる<BR>‥‥<BR>
+ctCutsceneScript3DText00B9,まあ まえむき‥‥<BR>といえば まえむきなので<BR>よしと しましょうか。<BR>
+ctCutsceneScript3DText00BA,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText00BB,なにも かんがえていない<BR>ようですわね。<BR>
+ctCutsceneScript3DText00BC,そんなことでは あっさりと<BR>やられて しまいますわ。<BR>
+ctCutsceneScript3DText00BD,たたかいのまえには<BR>「かならず かつ!」という<BR>きはくを おもちなさい。<BR>
+ctCutsceneScript3DText00BE,では つぎに‥‥<BR><NAME>さんにとって<BR>たたかいとは なんですか?<BR>
+ctCutsceneScript3DText00BFSub00,ていとを まもること
+ctCutsceneScript3DText00BFSub01,しごとのいちぶ
+ctCutsceneScript3DText00BFSub02,あまり すきじゃないこと
+ctCutsceneScript3DText00C0,ていとを まもることです。<BR>
+ctCutsceneScript3DText00C1,\x01\x28
+ctCutsceneScript3DText00C2,りっぱな こころがけ<BR>ですわね。<BR>
+ctCutsceneScript3DText00C3,わたくしたち はなぐみは<BR>まさに そのために<BR>たたかっているのですわ。<BR>
+ctCutsceneScript3DText00C4,そうですね‥‥<BR>しごとのいちぶ<BR>だとおもいます。<BR>
+ctCutsceneScript3DText00C5,まあ‥‥<BR>ずいぶんと<BR>さめていらっしゃることで‥‥<BR>
+ctCutsceneScript3DText00C6,たしかに そうかも<BR>しれませんわ。<BR>
+ctCutsceneScript3DText00C7,でも わたくしたちは<BR>ていとのへいわをまもるために<BR>たたかっているのですわよ。<BR>
+ctCutsceneScript3DText00C8,あなたも はなぐみのたいいん<BR>なのですから そのことは<BR>わすれないでいなさい。<BR>
+ctCutsceneScript3DText00C9,たたかい‥‥<BR>あまり すきじゃないこと<BR>ですね。<BR>
+ctCutsceneScript3DText00CA,だって しぬのイヤですし<BR>めんどくさいし いいこと<BR>ないじゃないですか。<BR>
+ctCutsceneScript3DText00CB,まあ たたかいが ないに<BR>こしたことは ありませんわ。<BR>
+ctCutsceneScript3DText00CC,でも だれかが<BR>たたかわなくては<BR>ならないのですわ。<BR>
+ctCutsceneScript3DText00CD,そして わたくしたちには<BR>たたかう ちからがある‥‥<BR>イヤでも たたかうしかない。<BR>
+ctCutsceneScript3DText00CE,わたくしたち はなぐみは<BR>ていとを まのてから<BR>まもるために<BR>
+ctCutsceneScript3DText00CF,たたかって いるのですわ。<BR>それは わすれないでいて<BR>ちょうだい。<BR>
+ctCutsceneScript3DText00D0,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText00D1,なにも かんがえていない<BR>ようですわね。<BR>
+ctCutsceneScript3DText00D2,ちなみに わたくしたち<BR>はなぐみは ていとを まのて<BR>から まもるために<BR>
+ctCutsceneScript3DText00D3,たたかっているのですわ。<BR>それは わすれないでいて<BR>ちょうだい。<BR>
+ctCutsceneScript3DText00D4,それでは さいごに‥‥<BR><NAME>さんの<BR>たたかいの びがくとは?<BR>
+ctCutsceneScript3DText00D5Sub00,うつくしく かれいに
+ctCutsceneScript3DText00D5Sub01,ちからづよく だいたんに
+ctCutsceneScript3DText00D5Sub02,こうりつよく
+ctCutsceneScript3DText00D6,うつくしく かれいに<BR>かつことです。<BR>
+ctCutsceneScript3DText00D7,\x05N
+ctCutsceneScript3DText00D8,そうですわ。<NAME>さん。<BR>すばらしい こたえですわ。<BR>
+ctCutsceneScript3DText00D9,ちからづよく だいたんに<BR>かつことです。<BR>
+ctCutsceneScript3DText00DA,あらまあ<BR>まるで カンナさんの<BR>ようですわね。<BR>
+ctCutsceneScript3DText00DB,それもまあ いいのですが<BR>やはり たたかいの びがく<BR>と いえば<BR>
+ctCutsceneScript3DText00DC,うつくしく かれいに かつ!<BR>これにつきますのよ。<BR>
+ctCutsceneScript3DText00DD,さいしんの ちゅういをはらい<BR>こうりつよく かつこと<BR>ですね。<BR>
+ctCutsceneScript3DText00DE,う～ん‥‥<BR>まあ それも わるくはないの<BR>ですが‥‥<BR>
+ctCutsceneScript3DText00DF,やはり たたかいの びがく<BR>と いえば<BR>うつくしく かれいに かつ!<BR>
+ctCutsceneScript3DText00E0,これに つきますわね。<BR>
+ctCutsceneScript3DText00E1,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText00E2,なにも かんがえていない<BR>ようですわね。<BR>
+ctCutsceneScript3DText00E3,たたかいの びがく といえば<BR>うつくしく かれいに かつ!<BR>これにつきますのよ。<BR>
+ctCutsceneScript3DText00E4,さすがは <NAME>さん。<BR>たたかいの こころえが<BR>わかっている ようですわね。<BR>
+ctCutsceneScript3DText00E5,『うつくしく かれいに』‥‥<BR>これだけは わすれない<BR>ように してくださいな。<BR>
+ctCutsceneScript3DText00E6,<NAME>さん。<BR>なかなか わかっている<BR>ようですわね。<BR>
+ctCutsceneScript3DText00E7,でも たたかいの こころえで<BR>これだけは おぼえておいて<BR>くださいな。<BR>
+ctCutsceneScript3DText00E8,たたかいは<BR>『うつくしく かれいに』<BR>わかりましたね。<BR>
+ctCutsceneScript3DText00E9,<NAME>さん。<BR>もうすこし たたかいについて<BR>ごじぶんで かんがえなさい。<BR>
+ctCutsceneScript3DText00EA,とはいえ こんかいが<BR>はじめての にんむなので<BR>しかた ありませんわね。<BR>
+ctCutsceneScript3DText00EB,では <NAME>さん。<BR>がんばりなさい。<BR>
+ctCutsceneScript3DText00EC,マリアさん のところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText00ED,‥‥マリアさんの<BR>ところへは さっき<BR>いったわね‥‥<BR>
+ctCutsceneScript3DText00EE,ほかのひとの ところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText00EF,マリアさん。<BR>
+ctCutsceneScript3DText00F0,しつれいします。<BR>
+ctCutsceneScript3DText00F1,\x01\x28
+ctCutsceneScript3DText00F2,あら <NAME>。<BR>なにかよう?<BR>
+ctCutsceneScript3DText00F3,はい マリアさん。<BR>つぎの さくせんまで すこし<BR>じかんが あきましたので。<BR>
+ctCutsceneScript3DText00F4,そこで マリアさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+ctCutsceneScript3DText00F5,たたかいの アドバイス?<BR>そうね‥‥<BR>
+ctCutsceneScript3DText00F6,じゃあ たたかいのこころえ<BR>7かじょうを<BR>おしえてあげるわ。<BR>
+ctCutsceneScript3DText00F7,じゅんばんに いうから<BR>おぼえていきなさい。<BR>
+ctCutsceneScript3DText00F8,1.ムチャは しないこと。<BR>2.じぶんのチカラに<BR>  うぬぼれないこと。<BR>
+ctCutsceneScript3DText00F9,3.つねに さきをよんで<BR>  こうどうすること。<BR>4.てきをあなどらないこと。<BR>
+ctCutsceneScript3DText00FA,5.じょうきょうはんだんは<BR>  ただしく すばやく<BR>  すること。<BR>
+ctCutsceneScript3DText00FB,6.なかまのことを<BR>  おもいやること。<BR>
+ctCutsceneScript3DText00FC,さいごは‥‥<BR>7.かならず いきてかえる<BR>  こと。<BR>
+ctCutsceneScript3DText00FD,いじょうよ。わかった?<BR>じゃあ ちょっとテストを<BR>してみましょう。<BR>
+ctCutsceneScript3DText00FE,ただしいものを えらんで<BR>ちょうだい。<BR>
+ctCutsceneScript3DText00FFSub00,ムチャはしないこと
+ctCutsceneScript3DText00FFSub01,ムチャはすること
+ctCutsceneScript3DText00FFSub02,ムチャをしたい
+ctCutsceneScript3DText0100,ムチャは しないこと。<BR>ですね。<BR>
+ctCutsceneScript3DText0101,そうよ。<BR>じゃ つぎね。<BR>
+ctCutsceneScript3DText0102,\x01\x28
+ctCutsceneScript3DText0103,ムチャはすること?<BR>
+ctCutsceneScript3DText0104,ちがうわよ。<BR>ムチャは しちゃいけないの。<BR>
+ctCutsceneScript3DText0105,ムチャして ケガでもしたら<BR>みんなに めいわくが<BR>かかるのよ。<BR>
+ctCutsceneScript3DText0106,じゃ つぎいくわよ。<BR>
+ctCutsceneScript3DText0107,\x01\x28
+ctCutsceneScript3DText0108,ムチャをしたい?<BR>
+ctCutsceneScript3DText0109,ムチャしちゃ ダメなの!<BR>ムチャして しにたいの!?<BR><NAME>!<BR>
+ctCutsceneScript3DText010A,そうじゃなくて<BR>『ムチャはしないこと』<BR>でしょ。<BR>
+ctCutsceneScript3DText010B,じゃ つぎいくわよ。<BR>
+ctCutsceneScript3DText010C,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText010D,わからないの?<BR>わたしの はなしを ちゃんと<BR>きいてなかったのね。<BR>
+ctCutsceneScript3DText010E,\x01\x28
+ctCutsceneScript3DText010F,もういちど いうわよ。<BR>たたかいのこころえ<BR>7かじょう。<BR>
+ctCutsceneScript3DText0110Sub00,てきを あなどらないこと
+ctCutsceneScript3DText0110Sub01,てきを あなどること
+ctCutsceneScript3DText0110Sub02,てきは あなたです
+ctCutsceneScript3DText0111,てきを あなどらないこと。<BR>ですね。<BR>
+ctCutsceneScript3DText0112,そうよ。<BR>じゃ つぎね。<BR>つぎが さいごよ。<BR>
+ctCutsceneScript3DText0113,\x01\x28
+ctCutsceneScript3DText0114,てきを あなどること?<BR>
+ctCutsceneScript3DText0115,ちがうわよ。<BR>あなどっちゃ ダメでしょ。<BR>
+ctCutsceneScript3DText0116,そんなことしたら<BR>かんたんに やられてしまう<BR>わよ。<BR>
+ctCutsceneScript3DText0117,『てきを あなどらないこと』<BR>わかった? じゃ つぎよ。<BR>つぎが さいごよ。<BR>
+ctCutsceneScript3DText0118,\x01\x28
+ctCutsceneScript3DText0119,てきは あなたです?<BR>
+ctCutsceneScript3DText011A,あなた?<BR>
+ctCutsceneScript3DText011B,<NAME>。わたしと<BR>しょうぶするき?<BR>‥‥そうじゃないでしょ。<BR>
+ctCutsceneScript3DText011C,『てきを あなどらないこと』<BR>わかった? じゃ つぎよ。<BR>つぎが さいごよ。<BR>
+ctCutsceneScript3DText011D,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText011E,\x01\x28
+ctCutsceneScript3DText011F,わからないの?<BR>わたしの はなしを ちゃんと<BR>きいてなかったのね。<BR>
+ctCutsceneScript3DText0120,もういちど いうわよ。<BR>たたかいのこころえ<BR>7かじょう。<BR>
+ctCutsceneScript3DText0121Sub00,いきて かえること
+ctCutsceneScript3DText0121Sub01,いきをして かえること
+ctCutsceneScript3DText0121Sub02,いきた かえるをとる
+ctCutsceneScript3DText0122,かならず いきてかえること<BR>ですね。<BR>
+ctCutsceneScript3DText0123,そうよ。<BR>
+ctCutsceneScript3DText0124,\x01\x28
+ctCutsceneScript3DText0125,いきをして かえること?<BR>
+ctCutsceneScript3DText0126,いきをして かえる?<BR>いきをするのは あたりまえ<BR>でしょ。<BR>
+ctCutsceneScript3DText0127,なにを いってるのよ<BR><NAME>。<BR>
+ctCutsceneScript3DText0128,『かならず いきて<BR> かえること』よ。<BR>わかった?<BR>
+ctCutsceneScript3DText0129,いきた かえるをとる?<BR>
+ctCutsceneScript3DText012A,\x01\x28
+ctCutsceneScript3DText012B,かえる? カエルをとってきて<BR>どうするのよ。<BR>しかも いきたまま。<BR>
+ctCutsceneScript3DText012C,たべるの? カエルは<BR>トリにくを たんぱくに<BR>したような あじよ。<BR>
+ctCutsceneScript3DText012D,そうじゃなくて‥‥<BR>『かならず いきて かえる<BR>こと』よ。わかった?<BR>
+ctCutsceneScript3DText012E,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText012F,\x01\x28
+ctCutsceneScript3DText0130,わからないの?<BR>わたしの はなしを ちゃんと<BR>きいてなかったのね。<BR>
+ctCutsceneScript3DText0131,もういちど いうわよ。<BR>たたかいのこころえ<BR>7かじょう。<BR>
+ctCutsceneScript3DText0132,やるじゃない <NAME>。<BR>ひとのはなしを ちゃんと<BR>きいているわね。<BR>
+ctCutsceneScript3DText0133,いまいった たたかいの<BR>こころえ 7かじょう。<BR>わすれないようにね。<BR>
+ctCutsceneScript3DText0134,まあまあ ひとのはなしは<BR>きいているようね。<BR>ごうかくよ <NAME>。<BR>
+ctCutsceneScript3DText0135,いまいった たたかいの<BR>こころえ 7かじょう。<BR>わすれないようにね。<BR>
+ctCutsceneScript3DText0136,<NAME>。<BR>もうすこし ひとのはなしを<BR>ちゃんと ききなさい。<BR>
+ctCutsceneScript3DText0137,いまいった たたかいの<BR>こころえ 7かじょう。<BR>わすれないようにね。<BR>
+ctCutsceneScript3DText0138,じゃあ <NAME><BR>がんばってね。<BR>
+ctCutsceneScript3DText0139,アイリス のところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText013A,‥‥アイリスの<BR>ところへは さっき<BR>いったわね‥‥<BR>
+ctCutsceneScript3DText013B,ほかのひとの ところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText013C,はーい アイリス。<BR>
+ctCutsceneScript3DText013D,\x01\x28
+ctCutsceneScript3DText013E,あれ <NAME>。<BR>なにかよう?<BR>
+ctCutsceneScript3DText013F,うん アイリス。<BR>つぎの さくせんまで すこし<BR>じかんが あいちゃったのよ。<BR>
+ctCutsceneScript3DText0140,そこで アイリスに<BR>たたかいの アドバイスを<BR>もらおうかな とおもって。<BR>
+ctCutsceneScript3DText0141,たたかいの アドバイス?<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0142,アイリスそんなの<BR>わかんないよ～。<BR>
+ctCutsceneScript3DText0143,それよりもさー<BR>その てにもってるもの<BR>アイリスにも ちょうだい。<BR>
+ctCutsceneScript3DText0144,えっ?<BR>てにもってるもの?<BR>
+ctCutsceneScript3DText0145,(これは わたしが<BR> たべようと おもってた<BR> ものなんだけどな～)<BR>
+ctCutsceneScript3DText0146,(しかたないわ。<BR> あげましょう。<BR> なにを あげようかしら?)<BR>
+ctCutsceneScript3DText0147Sub00,ホットケーキ
+ctCutsceneScript3DText0147Sub01,カツどん
+ctCutsceneScript3DText0147Sub02,ウイスキーボンボン
+ctCutsceneScript3DText0148,じゃあ このホットケーキ<BR>あげるわ。アイリス。<BR>
+ctCutsceneScript3DText0149,\x01\x28
+ctCutsceneScript3DText014A,ありがとう。<BR><NAME>。<BR>
+ctCutsceneScript3DText014B,じゃあ このカツどん<BR>あげるわ。アイリス。<BR>
+ctCutsceneScript3DText014C,カツどん?<BR>それ おおがみ おにいちゃん<BR>の こうぶつだね。<BR>
+ctCutsceneScript3DText014D,それもって おにいちゃんの<BR>ところへ いくつもり<BR>だったんでしょ!!<BR>
+ctCutsceneScript3DText014E,エッ! ちがうわよ。<BR>これは わたしの おやつ<BR>なのよ。<BR>
+ctCutsceneScript3DText014F,カツどんが おやつなの!?<BR>まるで カンナだね。<BR>
+ctCutsceneScript3DText0150,じゃあ この<BR>ウイスキーボンボン<BR>あげるわ。アイリス。<BR>
+ctCutsceneScript3DText0151,ウイスキーボンボン?<BR>アイリス それたべると<BR>ねちゃうから いらない。<BR>
+ctCutsceneScript3DText0152,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0153,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0154,のどかわいちゃった。<BR>その のみもの ちょうだい。<BR>
+ctCutsceneScript3DText0155,(え～と‥‥<BR> なにを あげようかしら?)<BR>
+ctCutsceneScript3DText0156Sub00,オレンジジュース
+ctCutsceneScript3DText0156Sub01,コーヒー
+ctCutsceneScript3DText0156Sub02,ガラナジュース
+ctCutsceneScript3DText0157,はい オレンジジュースよ。<BR>
+ctCutsceneScript3DText0158,\x01\x28
+ctCutsceneScript3DText0159,オレンジジュース!<BR>ありがとう。<BR>
+ctCutsceneScript3DText015A,はい コーヒーよ。<BR>
+ctCutsceneScript3DText015B,コーヒー?<BR>アイリス そんなニガイの<BR>のめないよ～。<BR>
+ctCutsceneScript3DText015C,はい ガラナジュース。<BR>
+ctCutsceneScript3DText015D,ガラナジュース?<BR>アイリス そのあじキライ!!<BR>
+ctCutsceneScript3DText015E,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText015F,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0160,さいごに その てにもってる<BR>ものも ちょーだい。<BR>
+ctCutsceneScript3DText0161,(おもちゃね。<BR> なにを あげようかしら?)<BR>
+ctCutsceneScript3DText0162Sub00,ブーブークッション
+ctCutsceneScript3DText0162Sub01,けんだま
+ctCutsceneScript3DText0162Sub02,ちえのわ
+ctCutsceneScript3DText0163,じゃあ はい アイリス。<BR>ブーブークッション。<BR>
+ctCutsceneScript3DText0164,\x01\x28
+ctCutsceneScript3DText0165,ブーブークッション。<BR>わーい おにいちゃんに<BR>イタズラしよーっと!!<BR>
+ctCutsceneScript3DText0166,じゃあ はい アイリス。<BR>けんだま。<BR>
+ctCutsceneScript3DText0167,けんだま?<BR>アイリス こんなの<BR>いらない!<BR>
+ctCutsceneScript3DText0168,じゃあ はい アイリス。<BR>ちえのわ。<BR>
+ctCutsceneScript3DText0169,ちえのわ?<BR>こんなのもらったら アイリス<BR>ちえねつ でちゃうよ!<BR>
+ctCutsceneScript3DText016A,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText016B,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText016C,<NAME> ありがとう。<BR>アイリスのところに<BR>あそびに きてくれたんだね。<BR>
+ctCutsceneScript3DText016D,<NAME> ありがとう。<BR>ところで なにしに<BR>きたんだっけ?<BR>
+ctCutsceneScript3DText016E,えーと‥‥<BR>あそびにきたのよ。<BR>
+ctCutsceneScript3DText016F,ところで<BR>なにしにきたの?<BR><NAME>。<BR>
+ctCutsceneScript3DText0170,えーと‥‥<BR>あそびにきたのよ。<BR>
+ctCutsceneScript3DText0171,じゃあ アイリス<BR>ジャンポールと おはなしが<BR>あるから またね。<BR>
+ctCutsceneScript3DText0172,こうらんさん のところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText0173,‥‥こうらんさんの<BR>ところへは さっき<BR>いったわね‥‥<BR>
+ctCutsceneScript3DText0174,ほかのひとの ところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText0175,こうらんさん。<BR>しつれいします。<BR>
+ctCutsceneScript3DText0176,\x01\x28
+ctCutsceneScript3DText0177,やあ <NAME>はん。<BR>なんかようか?<BR>
+ctCutsceneScript3DText0178,はい こうらんさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+ctCutsceneScript3DText0179,そこで こうらんさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+ctCutsceneScript3DText017A,たたかいの アドバイス?<BR>そうか! そら ちょうどエエ<BR>とこにきたやんか。<BR>
+ctCutsceneScript3DText017B,<NAME>はんは<BR>いま じぶんに たらんもんは<BR>なんやとおもう?<BR>
+ctCutsceneScript3DText017CSub00,たいりょく
+ctCutsceneScript3DText017CSub01,すばやさ
+ctCutsceneScript3DText017CSub02,れいりょく
+ctCutsceneScript3DText017D,たいりょく ですね。<BR>
+ctCutsceneScript3DText017E,すばやさ ですね。<BR>
+ctCutsceneScript3DText017F,れいりょく ですね。<BR>
+ctCutsceneScript3DText0180,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0181,なんや まよてんのか?<BR>ほな もういっかい。<BR>
+ctCutsceneScript3DText0182,たいりょくか!<BR>よっしゃ よっしゃ!!<BR>
+ctCutsceneScript3DText0183,すばやさか!<BR>よっしゃ よっしゃ!!<BR>
+ctCutsceneScript3DText0184,れいりょくか!<BR>よっしゃ よっしゃ!!<BR>
+ctCutsceneScript3DText0185,たいりょくでも すばやさでも<BR>れいりょくでも なんでも<BR>めんどうみたろ!<BR>
+ctCutsceneScript3DText0186,ウチの しんはつめい<BR>ボアアップくんや!!<BR>
+ctCutsceneScript3DText0187,ボ ボアアップくん?<BR>
+ctCutsceneScript3DText0188,そや しんかいはつ!<BR>にんげんの のうりょくを<BR>そこあげするメカなんや!<BR>
+ctCutsceneScript3DText0189,これで <NAME>はんも<BR>さいきょうの こうぶバトラー<BR>まちがいなしや!!<BR>
+ctCutsceneScript3DText018A,ほな これを つけて<BR>もらおかな。<BR>
+ctCutsceneScript3DText018B,は はい。<BR>
+ctCutsceneScript3DText018C,そしたら ウチが いまから<BR>いうこと おぼえてや。<BR>
+ctCutsceneScript3DText018D,スイッチを みぎ。<BR>スイッチを うえ。<BR>スイッチを ひだり。<BR>
+ctCutsceneScript3DText018E,ウチが あいずしたら<BR>じゅんばんに おすんやで。<BR>エエか?<BR>
+ctCutsceneScript3DText018F,ほな いくで。<BR>まずさいしょの スイッチを<BR>いれるんや。<BR>
+ctCutsceneScript3DText0190Sub00,スイッチを みぎ
+ctCutsceneScript3DText0190Sub01,スイッチを ひだり
+ctCutsceneScript3DText0190Sub02,スイッチを うえ
+ctCutsceneScript3DText0191,\x01\x28
+ctCutsceneScript3DText0192,まずは<BR>スイッチを みぎ<BR>ですね。<BR>
+ctCutsceneScript3DText0193,え～と‥‥<BR>スイッチを ひだり<BR>かな‥‥<BR>
+ctCutsceneScript3DText0194,え～と‥‥<BR>スイッチを うえ<BR>かな‥‥<BR>
+ctCutsceneScript3DText0195,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0196,<NAME>はん!<BR>ボサーッとしとったら<BR>アカンで。<BR>
+ctCutsceneScript3DText0197,わすれたんか?<BR>ほな もういっかい<BR>さいしょからや。<BR>
+ctCutsceneScript3DText0198,よっしゃ。<BR>ほな つぎのスイッチや!<BR>
+ctCutsceneScript3DText0199Sub00,スイッチを うえ
+ctCutsceneScript3DText0199Sub01,スイッチを した
+ctCutsceneScript3DText0199Sub02,スイッチを みぎ
+ctCutsceneScript3DText019A,\x01\x28
+ctCutsceneScript3DText019B,つぎに<BR>スイッチを うえ<BR>ですね。<BR>
+ctCutsceneScript3DText019C,え～と‥‥<BR>スイッチを した<BR>かな‥‥<BR>
+ctCutsceneScript3DText019D,え～と‥‥<BR>スイッチを みぎ<BR>かな‥‥<BR>
+ctCutsceneScript3DText019E,よっしゃ。<BR>ほな さいごのスイッチや!<BR>
+ctCutsceneScript3DText019FSub00,スイッチを ひだり
+ctCutsceneScript3DText019FSub01,スイッチを うえ
+ctCutsceneScript3DText019FSub02,スイッチを みぎ
+ctCutsceneScript3DText01A0,\x01\x28
+ctCutsceneScript3DText01A1,さいごは<BR>スイッチを ひだり<BR>ですね。<BR>
+ctCutsceneScript3DText01A2,え～と‥‥<BR>スイッチを うえ<BR>かな‥‥<BR>
+ctCutsceneScript3DText01A3,え～と‥‥<BR>スイッチを みぎ<BR>かな‥‥<BR>
+ctCutsceneScript3DText01A4,よっしゃ!<BR>かんりょうや!<BR>さあ せいこうするかな!?<BR>
+ctCutsceneScript3DText01A5,せ‥‥<BR>『せいこうするかな』って‥‥<BR>
+ctCutsceneScript3DText01A6,おっ! うごきだしたで。<BR>
+ctCutsceneScript3DText01A7,やったー!<BR>ちゃんと うごいたで～。<BR>
+ctCutsceneScript3DText01A8,<NAME>はんが<BR>バッチリ にゅうりょく<BR>できたからや!!<BR>
+ctCutsceneScript3DText01A9,「ちゃんと うごいたで～」<BR>って わたしが はじめての<BR>じっけんだい だったの!?<BR>
+ctCutsceneScript3DText01AA,あ あれ～?<BR>とまってしもたな?<BR>
+ctCutsceneScript3DText01AB,あれ? あれ?<BR>どないなってんねや?<BR>
+ctCutsceneScript3DText01AC,だ だいじょうぶなのかしら<BR>‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText01AD,こ こうらんさん!<BR>だいじょうぶですか?<BR>
+ctCutsceneScript3DText01AE,ああ‥‥<BR>だいじょうぶや‥‥<BR>
+ctCutsceneScript3DText01AF,すまんかったな～<BR><NAME>はん‥‥<BR>しっぱいやった‥‥‥‥<BR>
+ctCutsceneScript3DText01B0,あ あれ～?<BR>とまってしもたな?<BR>
+ctCutsceneScript3DText01B1,<NAME>はん<BR>にゅうりょく まちがえたな。<BR>
+ctCutsceneScript3DText01B2,すみません。<BR>
+ctCutsceneScript3DText01B3,あれ? あれ?<BR>どないなってんねや?<BR>
+ctCutsceneScript3DText01B4,こ こうらんさん‥‥<BR>
+ctCutsceneScript3DText01B5,あっちゃー‥‥<BR>やってもーた‥‥<BR>
+ctCutsceneScript3DText01B6,こ こうらんさん!<BR>だいじょうぶですか?<BR>
+ctCutsceneScript3DText01B7,ああ‥‥<BR>だいじょうぶや‥‥<BR>
+ctCutsceneScript3DText01B8,すみません こうらんさん。<BR>わたしのミスで こんなことに<BR>なっちゃって‥‥<BR>
+ctCutsceneScript3DText01B9,いや‥‥ ミスっても<BR>バクハツは せーへんハズ<BR>やったんや。<BR>
+ctCutsceneScript3DText01BA,バクハツした ちゅーことは<BR>ウチの せっけいミスも<BR>あった ちゅーこっちゃ。<BR>
+ctCutsceneScript3DText01BB,すまんかったな～<BR><NAME>はん‥‥<BR>
+ctCutsceneScript3DText01BC,まあ あれやな。<BR>じみちに どりょくしろ<BR>ちゅーこっちゃ。<BR>
+ctCutsceneScript3DText01BD,<NAME>はん<BR>がんばってな。<BR>
+ctCutsceneScript3DText01BE,カンナさん のところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText01BF,‥‥カンナさんの<BR>ところへは さっき<BR>いったわね‥‥<BR>
+ctCutsceneScript3DText01C0,ほかのひとの ところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText01C1,カンナさん。<BR>
+ctCutsceneScript3DText01C2,しつれいします。<BR>
+ctCutsceneScript3DText01C3,\x01\x28
+ctCutsceneScript3DText01C4,おう <NAME>。<BR>なんかようか。<BR>
+ctCutsceneScript3DText01C5,はい カンナさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+ctCutsceneScript3DText01C6,そこで カンナさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+ctCutsceneScript3DText01C7,たたかいの アドバイス?<BR>そんなもん きまってるじゃ<BR>ねーか。<BR>
+ctCutsceneScript3DText01C8,えいようのあるものを<BR>しっかりと くえ!!<BR>
+ctCutsceneScript3DText01C9,よし あたいが<BR>えいようまんてんの<BR>りょうりを おしえてやるぜ!<BR>
+ctCutsceneScript3DText01CA,カンナとくせい<BR>ゴーヤチャンプルー‥‥<BR>カンナスペシャルだ!!<BR>
+ctCutsceneScript3DText01CB,つくりかたは かんたんだ。<BR>いいか しっかりと<BR>おぼえるんだぞ。<BR>
+ctCutsceneScript3DText01CC,くろブタと ゴーヤを<BR>トウガラシと くろコショウで<BR>いためるだけだ。<BR>
+ctCutsceneScript3DText01CD,わかったか?<BR>
+ctCutsceneScript3DText01CE,え～っと‥‥<BR>ゴーヤと‥‥‥‥<BR>
+ctCutsceneScript3DText01CFSub00,くろブタを‥‥
+ctCutsceneScript3DText01CFSub01,しろブタを‥‥
+ctCutsceneScript3DText01CFSub02,くろゴマを‥‥
+ctCutsceneScript3DText01D0,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText01D1,\x01\x28
+ctCutsceneScript3DText01D2,なんだよ～<BR>おぼえてないのかよ。<BR>
+ctCutsceneScript3DText01D3,もういっかい いうから<BR>シッカリと<BR>おぼえるんだぞ。<BR>
+ctCutsceneScript3DText01D4,くろブタを<BR>くろコショウと‥‥<BR>
+ctCutsceneScript3DText01D5,うん うん。<BR>
+ctCutsceneScript3DText01D6,\x01\x28
+ctCutsceneScript3DText01D7,しろブタを<BR>くろコショウと‥‥<BR>
+ctCutsceneScript3DText01D8,しろブタじゃねーぞ。<BR>
+ctCutsceneScript3DText01D9,もういっかい いうから<BR>シッカリと<BR>おぼえてくれよ。<BR>
+ctCutsceneScript3DText01DA,\x01\x28
+ctCutsceneScript3DText01DB,くろゴマを<BR>くろコショウと‥‥<BR>
+ctCutsceneScript3DText01DC,くろゴマじゃねーぞ。<BR>
+ctCutsceneScript3DText01DD,もういっかい いうから<BR>シッカリと<BR>おぼえてくれよ。<BR>
+ctCutsceneScript3DText01DESub00,トウガラシ
+ctCutsceneScript3DText01DESub01,トウキビ
+ctCutsceneScript3DText01DESub02,サンショ
+ctCutsceneScript3DText01DF,トウガラシで いためる‥‥<BR>ですね。<BR>
+ctCutsceneScript3DText01E0,そうだ。<BR>
+ctCutsceneScript3DText01E1,おてがるに スグできるから<BR>じぶんでつくって<BR>たべてみるといいぞ。<BR>
+ctCutsceneScript3DText01E2,トウキビで いためる‥‥<BR>ですか?<BR>
+ctCutsceneScript3DText01E3,\x01\x28
+ctCutsceneScript3DText01E4,ちがうよ。トウキビって‥‥<BR>トウモロコシで いためても<BR>しょうがないだろ?<BR>
+ctCutsceneScript3DText01E5,もういっかい いうから<BR>こんどこそ しっかりと<BR>おぼえるんだぞ。<BR>
+ctCutsceneScript3DText01E6,サンショで いためる‥‥<BR>ですか?<BR>
+ctCutsceneScript3DText01E7,\x01\x28
+ctCutsceneScript3DText01E8,ちがうよ。<BR>サンショは つかわないぞ。<BR>
+ctCutsceneScript3DText01E9,もういっかい いうから<BR>こんどこそ しっかりと<BR>おぼえるんだぞ。<BR>
+ctCutsceneScript3DText01EA,ところで ゴーヤって<BR>なんだかしってるか?<BR>
+ctCutsceneScript3DText01EBSub00,にがうり
+ctCutsceneScript3DText01EBSub01,きゅうり
+ctCutsceneScript3DText01EBSub02,ぞうり
+ctCutsceneScript3DText01EC,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText01ED,\x01\x28
+ctCutsceneScript3DText01EE,わからないんだな。<BR>
+ctCutsceneScript3DText01EF,せいかいは にがうりだ。<BR>おぼえといて ソンはないぜ。<BR>
+ctCutsceneScript3DText01F0,にがうり です。<BR>
+ctCutsceneScript3DText01F1,そうだ。<BR>よくしってるじゃないか。<BR>
+ctCutsceneScript3DText01F2,きゅうり‥‥ ですか?<BR>
+ctCutsceneScript3DText01F3,\x01\x28
+ctCutsceneScript3DText01F4,ちがうよ。<BR>ゴーヤは にがうりだ。<BR>
+ctCutsceneScript3DText01F5,おぼえといて ソンはないぜ。<BR>
+ctCutsceneScript3DText01F6,\x01\x28
+ctCutsceneScript3DText01F7,ぞうり‥‥ ですか?<BR>
+ctCutsceneScript3DText01F8,ぞうりって サンダルくって<BR>どうすんだよ!<BR>
+ctCutsceneScript3DText01F9,ゴーヤってのは<BR>にがうりのこと なんだ。<BR>おぼえといて ソンはないぜ。<BR>
+ctCutsceneScript3DText01FA,じゃあ しっかりくって<BR>しっかり うんどうして<BR>
+ctCutsceneScript3DText01FB,けんこうな からだを<BR>つくるんだぞ。<BR>
+ctCutsceneScript3DText01FC,そうすれば コワイものなんて<BR>なしだぜ。<BR>
+ctCutsceneScript3DText01FD,なんとか おぼえたようだな<BR><NAME>。<BR>
+ctCutsceneScript3DText01FE,しっかりくって<BR>しっかり うんどうして<BR>
+ctCutsceneScript3DText01FF,けんこうなからだを<BR>つくるんだ。<BR>
+ctCutsceneScript3DText0200,そうすれば コワイものなんて<BR>なしだぜ。<BR>
+ctCutsceneScript3DText0201,なんとか おぼえたようだな<BR><NAME>。<BR>
+ctCutsceneScript3DText0202,しっかりくって<BR>しっかり うんどうして<BR>
+ctCutsceneScript3DText0203,けんこうなからだを<BR>つくるんだ。<BR>
+ctCutsceneScript3DText0204,そうすれば コワイものなんて<BR>なくなるさ。<BR>
+ctCutsceneScript3DText0205,たたかいってのは<BR>じぶんに じしんをもってる<BR>ヤツが かつもんだぜ。<BR>
+ctCutsceneScript3DText0206,じゃあ がんばれよ<BR><NAME>。<BR>
+ctCutsceneScript3DText0207,おりひめさん のところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText0208,‥‥おりひめさんの<BR>ところへは さっき<BR>いったわね‥‥<BR>
+ctCutsceneScript3DText0209,ほかのひとの ところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText020A,おりひめさん。<BR>
+ctCutsceneScript3DText020B,しつれいします。<BR>
+ctCutsceneScript3DText020C,\x01\x28
+ctCutsceneScript3DText020D,<NAME>さん<BR>なにかよーですか?<BR>
+ctCutsceneScript3DText020E,はい おりひめさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+ctCutsceneScript3DText020F,そこで おりひめさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+ctCutsceneScript3DText0210,たたかいの アドバイス?<BR>そーですねー‥‥<BR>
+ctCutsceneScript3DText0211,わかりました。<BR><NAME>さんの てきせい<BR>テストをしましょう。<BR>
+ctCutsceneScript3DText0212,しつもんに こたえて<BR>くださーい。<BR>
+ctCutsceneScript3DText0213,<NAME>さんは てきに<BR>であったら まず<BR>どうしますか?<BR>
+ctCutsceneScript3DText0214Sub00,てきのチカラを ぶんせきする
+ctCutsceneScript3DText0214Sub01,たたかう
+ctCutsceneScript3DText0214Sub02,にげる
+ctCutsceneScript3DText0215,まずは てきのチカラを<BR>ぶんせきします。<BR>
+ctCutsceneScript3DText0216,\x01\x28
+ctCutsceneScript3DText0217,そうでーす。<BR>
+ctCutsceneScript3DText0218,やみくもに たたかっては<BR>ダメージが おおきくなる<BR>だけでーす。<BR>
+ctCutsceneScript3DText0219,もちろん たたかいます。<BR>
+ctCutsceneScript3DText021A,チョッチちがいまーす。<BR>ただ たたかうだけでは<BR>いけませーん。<BR>
+ctCutsceneScript3DText021B,てきのチカラを ぶんせき<BR>するのでーす。<BR>
+ctCutsceneScript3DText021C,そうすれば ラクにかてる<BR>ほうほうが みつかるかも<BR>しれませーん。<BR>
+ctCutsceneScript3DText021D,もちろん にげます。<BR>
+ctCutsceneScript3DText021E,Oh! <NAME>さん。<BR>おんなのこ だからって<BR>それでは ダメでーす。<BR>
+ctCutsceneScript3DText021F,にげていては いつまでも<BR>かてませーん。<BR>
+ctCutsceneScript3DText0220,てきのチカラを ぶんせき<BR>するのでーす。<BR>
+ctCutsceneScript3DText0221,そうすれば ラクにかてる<BR>ほうほうが みつかるかも<BR>しれませーん。<BR>
+ctCutsceneScript3DText0222,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0223,わからないのでーすか?<BR>
+ctCutsceneScript3DText0224,せいかいは てきのチカラを<BR>ぶんせきする でーす。<BR>
+ctCutsceneScript3DText0225,そうすれば ラクにかてる<BR>ほうほうが みつかるかも<BR>しれませーん。<BR>
+ctCutsceneScript3DText0226,それじゃ つぎのしつもん<BR>でーす。<BR>
+ctCutsceneScript3DText0227,<NAME>さんは<BR>ピンチのとき<BR>どうしますか?<BR>
+ctCutsceneScript3DText0228Sub00,にげる
+ctCutsceneScript3DText0228Sub01,とつげきする
+ctCutsceneScript3DText0228Sub02,ぼうぎょする
+ctCutsceneScript3DText0229,もちろん にげます。<BR>
+ctCutsceneScript3DText022A,\x01\x28
+ctCutsceneScript3DText022B,そうでーす。<BR>
+ctCutsceneScript3DText022C,ピンチで いのちがキケンに<BR>なったら にげる。<BR>これ あたりまえでーす。<BR>
+ctCutsceneScript3DText022D,しんで ハナみは<BR>さくものか でーす。<BR>
+ctCutsceneScript3DText022E,とつげきします。<BR>
+ctCutsceneScript3DText022F,Oh! カミカゼ!<BR>Don't カミカーゼ!!<BR>
+ctCutsceneScript3DText0230,ダメでーす。<BR>しんだら もともこも<BR>ありませーん。<BR>
+ctCutsceneScript3DText0231,ピンチで いのちがキケンに<BR>なったら にげる。<BR>これ あたりまえでーす。<BR>
+ctCutsceneScript3DText0232,ひたすら ぼうぎょです。<BR>
+ctCutsceneScript3DText0233,ぼうぎょ。ダメでーす。<BR>じわじわ たいきゅうち<BR>へっていきまーす。<BR>
+ctCutsceneScript3DText0234,ピンチで いのちがキケンに<BR>なったら にげる。<BR>これ あたりまえでーす。<BR>
+ctCutsceneScript3DText0235,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0236,わからないのでーすか?<BR>
+ctCutsceneScript3DText0237,せいかいは にげる でーす。<BR>
+ctCutsceneScript3DText0238,ピンチで いのちがキケンに<BR>なったら にげる。<BR>これ あたりまえでーす。<BR>
+ctCutsceneScript3DText0239,では さいごの しつもん<BR>でーす。<BR>
+ctCutsceneScript3DText023A,<NAME>さんは<BR>よわいてき にあったら<BR>どうしますか?<BR>
+ctCutsceneScript3DText023BSub00,さっさと やっつける
+ctCutsceneScript3DText023BSub01,ムダなたたかいは しない
+ctCutsceneScript3DText023BSub02,メチャクチャに やっつける
+ctCutsceneScript3DText023C,さっさと やっつけます。<BR>
+ctCutsceneScript3DText023D,\x01\x28
+ctCutsceneScript3DText023E,それも せいかいでーす。<BR>でも ムダなたたかいを<BR>しないのも オッケーでーす。<BR>
+ctCutsceneScript3DText023F,ムダなたたかいは しません。<BR>
+ctCutsceneScript3DText0240,\x01\x28
+ctCutsceneScript3DText0241,それも せいかいでーす。<BR>でも さっさと やっつけても<BR>オッケーでーす。<BR>
+ctCutsceneScript3DText0242,メチャクチャに<BR>やっつけます。<BR>
+ctCutsceneScript3DText0243,それダメでーす。<BR>じかんの ムダでーす。<BR>
+ctCutsceneScript3DText0244,こうりつよく たたかうには<BR>さっさと やっつけるか<BR>ムシするほうが いいでーす。<BR>
+ctCutsceneScript3DText0245,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0246,わからないのでーすか?<BR>
+ctCutsceneScript3DText0247,せいかいは さっさと<BR>やっつける もしくは ムダな<BR>たたかいはしない でーす。<BR>
+ctCutsceneScript3DText0248,こうりつよく たたかうには<BR>さっさと やっつけるか<BR>ムシするほうが いいでーす。<BR>
+ctCutsceneScript3DText0249,さすがは <NAME>さん。<BR>なかなか スジがいいでーす。<BR>
+ctCutsceneScript3DText024A,たたかいのポイントは<BR>ムリしない ことでーす。<BR>わかりましたね。<BR>
+ctCutsceneScript3DText024B,まあまあでーす。<BR><NAME>さん。<BR>
+ctCutsceneScript3DText024C,たたかいのポイントは<BR>むりしない ことでーす。<BR>わかりましたね。<BR>
+ctCutsceneScript3DText024D,<NAME>さん。<BR>たたかいの センスない<BR>でーす。<BR>
+ctCutsceneScript3DText024E,もうすこし かんがえて<BR>たたかったほうが<BR>いいでーすね。<BR>
+ctCutsceneScript3DText024F,では <NAME>さん<BR>がんばってくださーい。<BR>
+ctCutsceneScript3DText0250,レニさん のところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText0251,‥‥レニさんの<BR>ところへは さっき<BR>いったわね‥‥<BR>
+ctCutsceneScript3DText0252,ほかのひとの ところへ<BR>いきましょう。<BR>
+ctCutsceneScript3DText0253,レニさん。<BR>
+ctCutsceneScript3DText0254,しつれいします。<BR>
+ctCutsceneScript3DText0255,\x01\x28
+ctCutsceneScript3DText0256,<NAME><BR>なにかよう?<BR>
+ctCutsceneScript3DText0257,はい レニさん。<BR>つぎの さくせんまで すこし<BR>じかんが あいたんです。<BR>
+ctCutsceneScript3DText0258,そこで レニさんに<BR>たたかいの アドバイスを<BR>いただこうと おもいまして。<BR>
+ctCutsceneScript3DText0259,たたかいの アドバイス‥‥<BR>
+ctCutsceneScript3DText025A,たたかいとは きおくりょくと<BR>はんだんりょくだ。<BR>
+ctCutsceneScript3DText025B,これまでに であった まもの<BR>について ボクがもんだいを<BR>だそう。<BR>
+ctCutsceneScript3DText025C,キミが どれだけ おぼえて<BR>いるか‥‥ どれだけ<BR>すばやく こたえられるか‥‥<BR>
+ctCutsceneScript3DText025D,キミの のうりょくを<BR>テストしてあげるよ。<BR>
+ctCutsceneScript3DText025E,では まず だいいちもん。<BR>
+ctCutsceneScript3DText025F,つぎのうち ほのおけいの<BR>こうげきがとくいな てきは<BR>どれだ?<BR>
+ctCutsceneScript3DText0260Sub00,スカルレッド
+ctCutsceneScript3DText0260Sub01,じょうきスタンド
+ctCutsceneScript3DText0260Sub02,クリオんネん
+ctCutsceneScript3DText0261,スカルレッドです。<BR>
+ctCutsceneScript3DText0262,\x01\x28
+ctCutsceneScript3DText0263,せいかいだ。<BR>
+ctCutsceneScript3DText0264,じょうきスタンドです。<BR>
+ctCutsceneScript3DText0265,ちがう。<BR>
+ctCutsceneScript3DText0266,せいかいは スカルレッドだ。<BR>
+ctCutsceneScript3DText0267,クリオんネんです。<BR>
+ctCutsceneScript3DText0268,ちがう。<BR>
+ctCutsceneScript3DText0269,せいかいは スカルレッドだ。<BR>
+ctCutsceneScript3DText026A,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText026B,わからないのか‥‥<BR>
+ctCutsceneScript3DText026C,せいかいは スカルレッドだ。<BR>
+ctCutsceneScript3DText026D,つぎ だいにもん。<BR>
+ctCutsceneScript3DText026E,つぎのうち<BR>せっきんせんに つよい<BR>てきはどれだ?<BR>
+ctCutsceneScript3DText026FSub00,わきじボクサー
+ctCutsceneScript3DText026FSub01,じょうきほう
+ctCutsceneScript3DText026FSub02,ドラムかん
+ctCutsceneScript3DText0270,わきじボクサーです。<BR>
+ctCutsceneScript3DText0271,\x01\x28
+ctCutsceneScript3DText0272,せいかいだ。<BR>
+ctCutsceneScript3DText0273,じょうきほうです。<BR>
+ctCutsceneScript3DText0274,ちがう。<BR>
+ctCutsceneScript3DText0275,せいかいは<BR>わきじボクサーだ。<BR>
+ctCutsceneScript3DText0276,ドラムかんです。<BR>
+ctCutsceneScript3DText0277,ちがう。<BR>
+ctCutsceneScript3DText0278,せいかいは<BR>わきじボクサーだ。<BR>
+ctCutsceneScript3DText0279,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText027A,わからないのか‥‥<BR>
+ctCutsceneScript3DText027B,せいかいは<BR>わきじボクサーだ。<BR>
+ctCutsceneScript3DText027C,つぎ だいさんもん。<BR>
+ctCutsceneScript3DText027D,つぎのうち<BR>すいちゅうでしゅつげんしない<BR>てきはどれだ?<BR>
+ctCutsceneScript3DText027ESub00,あしがるわきじ
+ctCutsceneScript3DText027ESub01,こうまキャンサー
+ctCutsceneScript3DText027ESub02,わきじマリナー
+ctCutsceneScript3DText027F,あしがるわきじです。<BR>
+ctCutsceneScript3DText0280,\x01\x28
+ctCutsceneScript3DText0281,せいかいだ。<BR>
+ctCutsceneScript3DText0282,こうまキャンサーです。<BR>
+ctCutsceneScript3DText0283,ちがう。<BR>
+ctCutsceneScript3DText0284,せいかいは<BR>あしがるわきじだ。<BR>
+ctCutsceneScript3DText0285,わきじマリナーです。<BR>
+ctCutsceneScript3DText0286,ちがう。<BR>
+ctCutsceneScript3DText0287,せいかいは<BR>あしがるわきじだ。<BR>
+ctCutsceneScript3DText0288,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3DText0289,わからないのか‥‥<BR>
+ctCutsceneScript3DText028A,せいかいは<BR>あしがるわきじだ。<BR>
+ctCutsceneScript3DText028B,やるじゃない。<NAME>。<BR>
+ctCutsceneScript3DText028C,きおくりょくと<BR>はんだんりょく。<BR>それが ポイントだ。<BR>
+ctCutsceneScript3DText028D,まあ こんなものか。<BR>
+ctCutsceneScript3DText028E,きおくりょくと<BR>はんだんりょく。<BR>それが ポイントだ。<BR>
+ctCutsceneScript3DText028F,ダメだな。<BR>
+ctCutsceneScript3DText0290,きおくりょくと<BR>はんだんりょく。<BR>それが ポイントだ。<BR>
+ctCutsceneScript3DText0291,じゃあ がんばれ。<BR>

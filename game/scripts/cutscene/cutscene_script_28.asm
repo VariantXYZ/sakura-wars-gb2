@@ -6,207 +6,207 @@ CutsceneScript28::
   Unknown12 $17
   FlagIsFemale
   ConditionalBranch .reference_0451,$02,$04,$01,$01,$20,$00
-  WriteText "さっき ミカサでもらった<BR>あかいリボン‥‥おそらく‥‥<BR>"
+  WriteText ctCutsceneScript28Text0000
   Unknown05 $84,$0E,$01,$00
   End
-  WriteText "さくらさんのものだろう。<BR>"
+  WriteText ctCutsceneScript28Text0001
   PromptContinue
-  WriteText "よし さくらさんに<BR>わたしにいこう。<BR>"
+  WriteText ctCutsceneScript28Text0002
   PromptContinue
   Unknown1E $0C
-  WriteText "さくらさん。<BR>しつれいします。<BR>"
+  WriteText ctCutsceneScript28Text0003
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "<NAME>さん。<BR>なにかごようですか?<BR>"
+  WriteText ctCutsceneScript28Text0004
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これって<BR>さくらさんのですか?<BR>"
+  WriteText ctCutsceneScript28Text0005
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "あかいリボン‥‥<BR>"
+  WriteText ctCutsceneScript28Text0006
   PromptContinue
   SetPortrait $01,$03,$03
-  WriteText "あー! そうです!<BR>それ あたしのです。<BR>"
+  WriteText ctCutsceneScript28Text0007
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$06,$28,$00
-  WriteText "わざわざ すみません。<BR>ありがとうございます。<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript28Text0008
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "そうだわ <NAME>さん。<BR>リボンうらない<BR>やりましょうよ。<BR>"
+  WriteText ctCutsceneScript28Text0009
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "<NAME>さんは リボンを<BR>つけた おんなのこを<BR>どうおもいますか?<BR>"
+  WriteText ctCutsceneScript28Text000A
   PromptContinue
-  OptionSelectTimed $05,$03,"カッコイイ","カワイイ","あまりすきじゃない"
+  OptionSelectTimed $05,$03,ctCutsceneScript28Text000BSub00,ctCutsceneScript28Text000BSub01,ctCutsceneScript28Text000BSub02
   ConditionalBranch .reference_0177,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_0230,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_02EF,$02,$01,$01,$02,$20,$00
   Branch .reference_03BB
 .reference_0177
   Unknown0F $00,$01
-  WriteText "じゃあ‥‥ カッコイイで <BR>おねがいします。<BR>"
+  WriteText ctCutsceneScript28Text000C
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "カッコイイをえらんだ<BR>あなたは‥‥<BR>"
+  WriteText ctCutsceneScript28Text000D
   PromptContinue
-  WriteText "かみを キリリとまとめた<BR>りりしい おんなのこが<BR>このみ なのでしょう。<BR>"
+  WriteText ctCutsceneScript28Text000E
   PromptContinue
-  WriteText "そんな あなたは<BR>あまえんぼさん。<BR>ですって。<BR>"
+  WriteText ctCutsceneScript28Text000F
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText "<NAME>さんは<BR>あまえんぼさん だったん<BR>ですね。<BR>"
+  WriteText ctCutsceneScript28Text0010
   PromptContinue
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>"
+  WriteText ctCutsceneScript28Text0011
   PromptContinue
   End
 .reference_0230
   Unknown0F $00,$01
-  WriteText "じゃあ‥‥ カワイイで <BR>おねがいします。<BR>"
+  WriteText ctCutsceneScript28Text0012
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "カワイイをえらんだ<BR>あなたは‥‥<BR>"
+  WriteText ctCutsceneScript28Text0013
   PromptContinue
-  WriteText "リボンをつけた かれんな<BR>おんなのこを つつみこめる<BR>ひとです。<BR>"
+  WriteText ctCutsceneScript28Text0014
   PromptContinue
-  WriteText "そんな あなたは やさしく<BR>つよい おとこのこです。<BR>ですって。<BR>"
+  WriteText ctCutsceneScript28Text0015
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$06,$28,$00
-  WriteText "さすがは <NAME>さん。<BR>やりますね。<BR>"
+  WriteText ctCutsceneScript28Text0016
   PromptContinue
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>"
+  WriteText ctCutsceneScript28Text0017
   PromptContinue
   End
 .reference_02EF
   Unknown0F $00,$01
-  WriteText "リボンをつけた おんなのこは<BR>あまり すきじゃないですね。<BR>"
+  WriteText ctCutsceneScript28Text0018
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "リボンをつけた おんなのこは<BR>あまり すきじゃない<BR>あなたは‥‥<BR>"
+  WriteText ctCutsceneScript28Text0019
   PromptContinue
-  WriteText "リボンがいらない<BR>ショートカットのおんなのこが<BR>このみ なのですね。<BR>"
+  WriteText ctCutsceneScript28Text001A
   PromptContinue
-  WriteText "そんな あなたは おそらく<BR>スポーツマンでしょう‥‥<BR>ですって。<BR>"
+  WriteText ctCutsceneScript28Text001B
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText "あたってます?<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript28Text001C
   PromptContinue
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>"
+  WriteText ctCutsceneScript28Text001D
   PromptContinue
   End
 .reference_03BB
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript28Text001E
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "じかんぎれでーす。<BR>えらべなかった あなたは‥‥<BR>‥‥‥‥<BR>"
+  WriteText ctCutsceneScript28Text001F
   PromptContinue
-  WriteText "ズバリ!<BR>ゆうじゅうふだんです!!<BR>"
+  WriteText ctCutsceneScript28Text0020
   PromptContinue
-  WriteText "もうすこし すばやく<BR>けつだんできるように<BR>なりましょう。<BR>"
+  WriteText ctCutsceneScript28Text0021
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>"
+  WriteText ctCutsceneScript28Text0022
   PromptContinue
   End
 .reference_0451
-  WriteText "さっき ミカサでもらった<BR>あかいリボン‥‥さくらさんの<BR>"
+  WriteText ctCutsceneScript28Text0023
   Unknown05 $84,$0E,$01,$00
   End
-  WriteText "じゃないかしら。<BR>"
+  WriteText ctCutsceneScript28Text0024
   PromptContinue
-  WriteText "よし さくらさんに<BR>わたしにいきましょう。<BR>"
+  WriteText ctCutsceneScript28Text0025
   PromptContinue
   Unknown1E $0C
-  WriteText "さくらさん。<BR>しつれいします。<BR>"
+  WriteText ctCutsceneScript28Text0026
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "<NAME>さん。<BR>なにかごようですか?<BR>"
+  WriteText ctCutsceneScript28Text0027
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これって<BR>さくらさんのですか?<BR>"
+  WriteText ctCutsceneScript28Text0028
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "あかいリボン‥‥<BR>"
+  WriteText ctCutsceneScript28Text0029
   PromptContinue
   SetPortrait $01,$03,$03
-  WriteText "あー! そうです!<BR>それ あたしのです。<BR>"
+  WriteText ctCutsceneScript28Text002A
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$06,$28,$00
-  WriteText "わざわざ すみません。<BR>ありがとうございます。<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript28Text002B
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "ところで <NAME>さんは<BR>リボンを つけないんですか?<BR>"
+  WriteText ctCutsceneScript28Text002C
   PromptContinue
-  OptionSelectTimed $05,$03,"いつも つけてます","きぶんで つけます","つけません"
+  OptionSelectTimed $05,$03,ctCutsceneScript28Text002DSub00,ctCutsceneScript28Text002DSub01,ctCutsceneScript28Text002DSub02
   ConditionalBranch .reference_0593,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_063A,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_06D2,$02,$01,$01,$02,$20,$00
   Branch .reference_0763
 .reference_0593
   Unknown0F $00,$01
-  WriteText "いつも つけてますよ。<BR>わたしも リボンすき<BR>なんですよ。<BR>"
+  WriteText ctCutsceneScript28Text002E
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$08,$28,$00
-  WriteText "そうなんですか!<BR>あたしといっしょですね。<BR>なんだか うれしいな～。<BR>"
+  WriteText ctCutsceneScript28Text002F
   PromptContinue
-  WriteText "リボンって アクセントにも<BR>なるし かみをたばねると<BR>すっきりしますもんね。<BR>"
+  WriteText ctCutsceneScript28Text0030
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>"
+  WriteText ctCutsceneScript28Text0031
   PromptContinue
   End
 .reference_063A
   Unknown0F $00,$01
-  WriteText "きぶんで つけますよ。<BR>わたしも けっこうリボン<BR>すきですから。<BR>"
+  WriteText ctCutsceneScript28Text0032
   PromptContinue
   SetPortrait $01,$01,$01
   PlaybackSample $40,$91,$03,$91,$01,$06,$28,$00
-  WriteText "そうなんですか!<BR>うれしいな～。<BR>"
+  WriteText ctCutsceneScript28Text0033
   PromptContinue
-  WriteText "リボンって アクセントにも<BR>なるし かみをたばねると<BR>すっきりしますもんね。<BR>"
+  WriteText ctCutsceneScript28Text0034
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>"
+  WriteText ctCutsceneScript28Text0035
   PromptContinue
   End
 .reference_06D2
   Unknown0F $00,$01
-  WriteText "わたしは つけないんですよ。<BR>べつに キライとかいう<BR>わけじゃ ないんですが。<BR>"
+  WriteText ctCutsceneScript28Text0036
   PromptContinue
   SetPortrait $01,$04,$04
-  WriteText "そーなんですか。<BR>"
+  WriteText ctCutsceneScript28Text0037
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "でも たまには どうですか?<BR>きぶんてんかんに。<BR>"
+  WriteText ctCutsceneScript28Text0038
   PromptContinue
   Unknown0F $00,$01
-  WriteText "そうですね。<BR>"
+  WriteText ctCutsceneScript28Text0039
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>"
+  WriteText ctCutsceneScript28Text003A
   PromptContinue
   End
 .reference_0763
   Unknown0F $00,$01
-  WriteText "ショートヘアーなので<BR>つけないんですよ。<BR>"
+  WriteText ctCutsceneScript28Text003B
   PromptContinue
   SetPortrait $01,$00,$00
-  WriteText "あっ そーですよね。<BR>ショートヘアーじゃ<BR>つけませんよね～。<BR>"
+  WriteText ctCutsceneScript28Text003C
   PromptContinue
   SetPortrait $01,$05,$05
-  WriteText "あたしったら<BR>なに きいてるんだろう?<BR>"
+  WriteText ctCutsceneScript28Text003D
   PromptContinue
-  WriteText "すみません <NAME>さん。<BR>"
+  WriteText ctCutsceneScript28Text003E
   PromptContinue
   Unknown0F $00,$01
-  WriteText "いいえ。<BR>"
+  WriteText ctCutsceneScript28Text003F
   PromptContinue
   SetPortrait $01,$01,$01
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう<BR>ございました。<BR>"
+  WriteText ctCutsceneScript28Text0040
   PromptContinue
   End
   End

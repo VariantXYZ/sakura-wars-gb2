@@ -1,0 +1,77 @@
+ID,Text
+ctCutsceneScript13Text0000,おかえり <NAME>はん。<BR>ごくろうさんやったな。<BR>
+ctCutsceneScript13Text0001,おつかれのところ スマンけど<BR>『かくのうこ』について<BR>せつめいを しとくわ。<BR>
+ctCutsceneScript13Text0002,『かくのうこ』では<BR>ぶきや アイテムを<BR>そうこに あずけたり <BR>
+ctCutsceneScript13Text0003,バックパックのせいりや<BR>こうぶのかいぞうが<BR>できるんや。<BR>
+ctCutsceneScript13Text0004,そうびのへんこう‥‥<BR>すなわち ぶきのもちかえや<BR>ぶきにわざをセットするのも<BR>
+ctCutsceneScript13Text0005,『かくのうこ』で やるんや。<BR>まあ ぶきのもちかえや<BR>ぶきにわざをセット するのは<BR>
+ctCutsceneScript13Text0006,しゅつげきちゅうでも<BR>できるんやけどな。<BR>わかったか?<BR>
+ctCutsceneScript13Text0007Sub00,くわしい せつめいをきく
+ctCutsceneScript13Text0007Sub01,わかりました
+ctCutsceneScript13Text0008,はい わかりました!<BR>
+ctCutsceneScript13Text0009,よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
+ctCutsceneScript13Text000A,もっと くわしいせつめいを<BR>きこう。<BR>
+ctCutsceneScript13Text000BSub00,ぶきそうび についてきく
+ctCutsceneScript13Text000BSub01,わざセット についてきく
+ctCutsceneScript13Text000BSub02,きくのを やめる
+ctCutsceneScript13Text000C,‥‥やっぱり いいや。<BR>
+ctCutsceneScript13Text000D,ん? どないしたんや<BR><NAME>はん。<BR>
+ctCutsceneScript13Text000E,まあ ええわ。<BR>ほな がんばってな<BR><NAME>はん。<BR>
+ctCutsceneScript13Text000F,ぶきのそうびについて<BR>もっとくわしくおしえて<BR>いただけませんか?<BR>
+ctCutsceneScript13Text0010,よっしゃ ぶきのそうびに<BR>ついてやな。<BR>ほな じゅんばんに いうで。<BR>
+ctCutsceneScript13Text0011,1)そうびしたい ぶきは<BR>  バックパックに<BR>  いれること。<BR>
+ctCutsceneScript13Text0012,2)バックパックにある<BR>  そうびしたい ぶきを<BR>  えらぶ。<BR>
+ctCutsceneScript13Text0013,3)メニューにある『そうび』<BR>  を えらぶ。<BR>
+ctCutsceneScript13Text0014,いじょうが ぶきそうびの<BR>てじゅんや。<BR>
+ctCutsceneScript13Text0015,ほかになにか ききたいことは<BR>あるか?<BR>
+ctCutsceneScript13Text0016Sub00,わざセット についてきく
+ctCutsceneScript13Text0016Sub01,ない
+ctCutsceneScript13Text0017,ありません。<BR>
+ctCutsceneScript13Text0018,よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
+ctCutsceneScript13Text0019,ぶきに わざをセットする<BR>ほうほうを くわしくおしえて<BR>いただけませんか?<BR>
+ctCutsceneScript13Text001A,わざのセットについてやな。<BR>わざのセットは<BR>バックパックでやるんや。<BR>
+ctCutsceneScript13Text001B,1)バックパックにあるぶきで<BR>  わざをセットしたいぶきを<BR>  えらぶ。<BR>
+ctCutsceneScript13Text001C,2)メニューにある<BR>  『わざセット』を<BR>  えらぶ。<BR>
+ctCutsceneScript13Text001D,3)そして セットしたい<BR>  わざを えらぶ。<BR>
+ctCutsceneScript13Text001E,いじょうが ぶきに<BR>わざをセットする<BR>てじゅんや。<BR>
+ctCutsceneScript13Text001F,ほかになにか ききたいことは<BR>あるか?<BR>
+ctCutsceneScript13Text0020Sub00,ぶきそうび についてきく
+ctCutsceneScript13Text0020Sub01,ない
+ctCutsceneScript13Text0021,おかえり <NAME>はん。<BR>ごくろうさんやったな。<BR>
+ctCutsceneScript13Text0022,おつかれのところ スマンけど<BR>『かくのうこ』について<BR>せつめいを しとくわ。<BR>
+ctCutsceneScript13Text0023,『かくのうこ』では<BR>ぶきや アイテムを<BR>そうこに あずけたり <BR>
+ctCutsceneScript13Text0024,バックパックのせいりや<BR>こうぶのかいぞうが<BR>できるんや。<BR>
+ctCutsceneScript13Text0025,そうびのへんこう‥‥<BR>すなわち ぶきのもちかえや<BR>ぶきにわざをセットするのも<BR>
+ctCutsceneScript13Text0026,『かくのうこ』で やるんや。<BR>まあ ぶきのもちかえや<BR>ぶきにわざをセット するのは<BR>
+ctCutsceneScript13Text0027,しゅつげきちゅうでも<BR>できるんやけどな。<BR>わかったか?<BR>
+ctCutsceneScript13Text0028Sub00,くわしい せつめいをきく
+ctCutsceneScript13Text0028Sub01,わかりました
+ctCutsceneScript13Text0029,はい わかりました!<BR>
+ctCutsceneScript13Text002A,よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
+ctCutsceneScript13Text002B,もっと くわしいせつめいを<BR>ききたいわ。<BR>
+ctCutsceneScript13Text002CSub00,ぶきそうび についてきく
+ctCutsceneScript13Text002CSub01,わざセット についてきく
+ctCutsceneScript13Text002CSub02,きくのを やめる
+ctCutsceneScript13Text002D,‥‥きかなくても<BR>だいじょうぶな<BR>きがするわ‥‥<BR>
+ctCutsceneScript13Text002E,ん? どないしたんや<BR><NAME>はん。<BR>
+ctCutsceneScript13Text002F,まあ ええわ。<BR>ほな がんばってな<BR><NAME>はん。<BR>
+ctCutsceneScript13Text0030,ぶきのそうびについて<BR>もっとくわしくおしえて<BR>いただけませんか?<BR>
+ctCutsceneScript13Text0031,よっしゃ ぶきのそうびに<BR>ついてやな。<BR>ほな じゅんばんに いうで。<BR>
+ctCutsceneScript13Text0032,1)そうびしたい ぶきは<BR>  バックパックに<BR>  いれること。<BR>
+ctCutsceneScript13Text0033,2)バックパックにある<BR>  そうびしたい ぶきを<BR>  えらぶ。<BR>
+ctCutsceneScript13Text0034,3)メニューにある『そうび』<BR>  を えらぶ。<BR>
+ctCutsceneScript13Text0035,いじょうが ぶきそうびの<BR>てじゅんや。<BR>
+ctCutsceneScript13Text0036,ほかになにか ききたいことは<BR>あるか?<BR>
+ctCutsceneScript13Text0037Sub00,わざセット についてきく
+ctCutsceneScript13Text0037Sub01,ない
+ctCutsceneScript13Text0038,ありません。<BR>
+ctCutsceneScript13Text0039,よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
+ctCutsceneScript13Text003A,ぶきに わざをセットする<BR>ほうほうを くわしくおしえて<BR>いただけませんか?<BR>
+ctCutsceneScript13Text003B,わざのセットについてやな。<BR>わざのセットは<BR>バックパックでやるんや。<BR>
+ctCutsceneScript13Text003C,1)バックパックにあるぶきで<BR>  わざをセットしたいぶきを<BR>  えらぶ。<BR>
+ctCutsceneScript13Text003D,2)メニューにある<BR>  『わざセット』を<BR>  えらぶ。<BR>
+ctCutsceneScript13Text003E,3)そして セットしたい<BR>  わざを えらぶ。<BR>
+ctCutsceneScript13Text003F,いじょうが ぶきに<BR>わざをセットする<BR>てじゅんや。<BR>
+ctCutsceneScript13Text0040,ほかになにか ききたいことは<BR>あるか?<BR>
+ctCutsceneScript13Text0041Sub00,ぶきそうび についてきく
+ctCutsceneScript13Text0041Sub01,ない

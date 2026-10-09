@@ -6,199 +6,199 @@ CutsceneScript2B::
   Unknown12 $17
   FlagIsFemale
   ConditionalBranch .reference_03C6,$02,$04,$01,$01,$20,$00
-  WriteText "さっき みつけた<BR>この むらさきのセンス‥‥<BR>"
+  WriteText ctCutsceneScript2BText0000
   PromptContinue
   Unknown05 $84,$28,$01,$00
   End
-  WriteText "これは きっと<BR>すみれさんのだろう‥‥<BR>"
+  WriteText ctCutsceneScript2BText0001
   PromptContinue
   Unknown1E $0B
-  WriteText "すみれさん。<BR>ちょっとよろしいでしょうか?<BR>"
+  WriteText ctCutsceneScript2BText0002
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "<NAME>さん。<BR>なにかごようですの?<BR>"
+  WriteText ctCutsceneScript2BText0003
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ みつけたんですけど<BR>すみれさんのですか?<BR>"
+  WriteText ctCutsceneScript2BText0004
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "むらさきのセンス‥‥<BR>むらさき?<BR>"
+  WriteText ctCutsceneScript2BText0005
   PromptContinue
   SetPortrait $02,$03,$03
-  WriteText "その むらさきのセンスは<BR>たしかに わたくしの<BR>ものですわ。<BR>"
+  WriteText ctCutsceneScript2BText0006
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "わざわざ とどけてくださって<BR>すみませんわね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript2BText0007
   PromptContinue
   Unknown0F $00,$01
-  WriteText "いえいえ それにしても<BR>そのセンス‥‥<BR>"
+  WriteText ctCutsceneScript2BText0008
   PromptContinue
-  OptionSelectTimed $05,$03,"センスがいいですね","ハデですね","たかそうですね"
+  OptionSelectTimed $05,$03,ctCutsceneScript2BText0009Sub00,ctCutsceneScript2BText0009Sub01,ctCutsceneScript2BText0009Sub02
   ConditionalBranch .reference_0158,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_01F3,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_02E8,$02,$01,$01,$02,$20,$00
   Branch .reference_0374
 .reference_0158
   Unknown0F $00,$01
-  WriteText "そのセンス なかなか<BR>センスがいいですね<BR>なーんちゃって。<BR>"
+  WriteText ctCutsceneScript2BText000A
   PromptContinue
   SetPortrait $02,$03,$03
-  WriteText "エッ‥‥‥‥‥‥‥‥‥‥‥‥<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript2BText000B
   PromptContinue
   SetPortrait $02,$06,$06
-  WriteText "お‥‥ おっほほほほほ‥‥<BR>あら おもしろい‥‥<BR>"
+  WriteText ctCutsceneScript2BText000C
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "そ‥‥<BR>それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2BText000D
   PromptContinue
   End
 .reference_01F3
   Unknown0F $00,$01
-  WriteText "そのセンス ハデですよね～。<BR>"
+  WriteText ctCutsceneScript2BText000E
   PromptContinue
   Unknown0F $00,$01
-  WriteText "むらさきに きんいろで<BR>トップスタアと おおきく<BR>かかれていて。<BR>"
+  WriteText ctCutsceneScript2BText000F
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "あ～ら ぶたいのうえでは<BR>これくらいが ふつう<BR>ですのよ。<BR>"
+  WriteText ctCutsceneScript2BText0010
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あっ!<BR>こどうぐ だったんですか。<BR>"
+  WriteText ctCutsceneScript2BText0011
   PromptContinue
-  WriteText "そのハデさから てっきり<BR>すみれさんの ものかと<BR>おもっちゃいましたよ。<BR>"
+  WriteText ctCutsceneScript2BText0012
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "いいえ これはわたくしの<BR>ものですわよ。<BR>"
+  WriteText ctCutsceneScript2BText0013
   PromptContinue
-  WriteText "ぶたいのうえでも つかって<BR>おりますけど。<BR>"
+  WriteText ctCutsceneScript2BText0014
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2BText0015
   PromptContinue
   End
 .reference_02E8
   Unknown0F $00,$01
-  WriteText "そのセンス たかそうですね。<BR>"
+  WriteText ctCutsceneScript2BText0016
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "おっほほほほ。<BR>みるめが ありますわね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript2BText0017
   PromptContinue
-  WriteText "そう このセンスは<BR>もーーーーーのすごく!!<BR>たかいのですわよ。<BR>"
+  WriteText ctCutsceneScript2BText0018
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "それじゃあ <NAME>さん。<BR>この たかいセンスを<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2BText0019
   PromptContinue
   End
 .reference_0374
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript2BText001A
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "そのセンス‥‥<BR>どうかしまして?<BR>"
+  WriteText ctCutsceneScript2BText001B
   PromptContinue
-  WriteText "まあ いいですわ。<BR>それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2BText001C
   PromptContinue
   End
 .reference_03C6
-  WriteText "さっき みつけた<BR>この むらさきのセンス‥‥<BR>"
+  WriteText ctCutsceneScript2BText001D
   PromptContinue
   Unknown05 $84,$28,$01,$00
   End
-  WriteText "これは きっと<BR>すみれさんのでしょうね。<BR>"
+  WriteText ctCutsceneScript2BText001E
   PromptContinue
   Unknown1E $0B
-  WriteText "すみれさん。<BR>ちょっとよろしいでしょうか?<BR>"
+  WriteText ctCutsceneScript2BText001F
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "あら <NAME>さん。<BR>なにかごようですの?<BR>"
+  WriteText ctCutsceneScript2BText0020
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これを みつけたのですが<BR>すみれさんのですか?<BR>"
+  WriteText ctCutsceneScript2BText0021
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "むらさきのセンス‥‥<BR>むらさき?<BR>"
+  WriteText ctCutsceneScript2BText0022
   PromptContinue
   SetPortrait $02,$03,$03
-  WriteText "その むらさきのセンスは<BR>たしかに わたくしの<BR>ものですわ。<BR>"
+  WriteText ctCutsceneScript2BText0023
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "わざわざ とどけてくださって<BR>すみませんわね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript2BText0024
   PromptContinue
   Unknown0F $00,$01
-  WriteText "いえいえ それにしても<BR>そのセンス すごいですよね。<BR>"
+  WriteText ctCutsceneScript2BText0025
   PromptContinue
-  WriteText "むらさきに きんいろで<BR>トップスタアと おおきく<BR>かかれていて。<BR>"
+  WriteText ctCutsceneScript2BText0026
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "あ～ら ぶたいのうえでは<BR>これくらいが ふつう<BR>ですのよ。<BR>"
+  WriteText ctCutsceneScript2BText0027
   PromptContinue
   Unknown0F $00,$01
-  WriteText "えっ!<BR>こどうぐ だったんですか。<BR>"
+  WriteText ctCutsceneScript2BText0028
   PromptContinue
-  WriteText "そのハデさから てっきり<BR>すみれさんの ものかと<BR>おもっていました。<BR>"
+  WriteText ctCutsceneScript2BText0029
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "いいえ これはわたくしの<BR>ものですわよ。<BR>"
+  WriteText ctCutsceneScript2BText002A
   PromptContinue
-  WriteText "ぶたいのうえでも つかって<BR>おりますけど。<BR>"
+  WriteText ctCutsceneScript2BText002B
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "どう<BR>なかなか いいでしょう?<BR>"
+  WriteText ctCutsceneScript2BText002C
   PromptContinue
-  OptionSelectTimed $05,$03,"かわいいですね","かっこいいですね","おどろきですね"
+  OptionSelectTimed $05,$03,ctCutsceneScript2BText002DSub00,ctCutsceneScript2BText002DSub01,ctCutsceneScript2BText002DSub02
   ConditionalBranch .reference_05EC,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_0655,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_06B8,$02,$01,$01,$02,$20,$00
   Branch .reference_0755
 .reference_05EC
   Unknown0F $00,$01
-  WriteText "かわいいですね。<BR>トップスタアのもじが<BR>キュートで。<BR>"
+  WriteText ctCutsceneScript2BText002E
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "おっほほほほ。<BR>みるめが ありますわね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript2BText002F
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2BText0030
   PromptContinue
   End
 .reference_0655
   Unknown0F $00,$01
-  WriteText "むらさきが しぶくて<BR>かっこいいですね。<BR>"
+  WriteText ctCutsceneScript2BText0031
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "おっほほほほ。<BR>みるめが ありますわね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript2BText0032
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2BText0033
   PromptContinue
   End
 .reference_06B8
   Unknown0F $00,$01
-  WriteText "おどろきですね。<BR>むらさきに そのおおきな<BR>もじ‥‥ ビックリです。<BR>"
+  WriteText ctCutsceneScript2BText0034
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "まあ いっぱんじんの<BR>かんかくでみると<BR>おどろき なんでしょうね。<BR>"
+  WriteText ctCutsceneScript2BText0035
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "おっほほほほ。<BR>あなたには このうつくしさが<BR>りかいは できませんわね。<BR>"
+  WriteText ctCutsceneScript2BText0036
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2BText0037
   PromptContinue
   End
 .reference_0755
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript2BText0038
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "かんどうして ことばが<BR>でないようですわね。<BR>"
+  WriteText ctCutsceneScript2BText0039
   PromptContinue
-  WriteText "まあ いいですわ。<BR>それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2BText003A
   PromptContinue
   End
   End

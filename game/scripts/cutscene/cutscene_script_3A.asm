@@ -5,77 +5,77 @@ CutsceneScript3A::
   Unknown0E $16
   Unknown12 $18
   FlagIsFemale
-  WriteText "<NAME>くん。<BR>フロにでも いこうか。<BR>"
+  WriteText ctCutsceneScript3AText0000
   PromptContinue
-  WriteText "ひえたからだを<BR>あっためるには<BR>フロが いちばんだ。<BR>"
+  WriteText ctCutsceneScript3AText0001
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Unknown1E $17
   Unknown0F $09,$0E
-  WriteText "あ～ いいゆだな～。<BR>"
+  WriteText ctCutsceneScript3AText0002
   PromptContinue
-  WriteText "それにしても ミカサを<BR>こおらせる まものには<BR>おどろいたな～。<BR>"
+  WriteText ctCutsceneScript3AText0003
   PromptContinue
-  WriteText "からだが しんまで<BR>ひえちゃっただろ?<BR>"
+  WriteText ctCutsceneScript3AText0004
   PromptContinue
-  WriteText "ゆっくりと からだを<BR>あたためるといいよ。<BR>"
+  WriteText ctCutsceneScript3AText0005
   PromptContinue
-  WriteText "そうだ。<NAME>くんは<BR>どれくらい ゆぶねに<BR>つかってるのかな?<BR>"
+  WriteText ctCutsceneScript3AText0006
   PromptContinue
-  WriteText "すうじを かぞえるなら<BR>いくつくらい かぞえる?<BR>"
+  WriteText ctCutsceneScript3AText0007
   PromptContinue
-  OptionSelectTimed $05,$03,"10です。","100です。","10000です。"
+  OptionSelectTimed $05,$03,ctCutsceneScript3AText0008Sub00,ctCutsceneScript3AText0008Sub01,ctCutsceneScript3AText0008Sub02
   ConditionalBranch .reference_011F,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_0176,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_01CF,$02,$01,$01,$02,$20,$00
   Branch .reference_0248
 .reference_011F
   Unknown0F $00,$01
-  WriteText "10ぐらいです。<BR>"
+  WriteText ctCutsceneScript3AText0009
   PromptContinue
   Unknown0F $09,$13
-  WriteText "10か‥‥<BR>もうすこし ながくつかった<BR>ほうが いいんじゃないか?<BR>"
+  WriteText ctCutsceneScript3AText000A
   PromptContinue
-  WriteText "ゆっくり はいると<BR>からだのつかれも<BR>とれるしな。<BR>"
+  WriteText ctCutsceneScript3AText000B
   PromptContinue
   Branch .reference_0293
 .reference_0176
   Unknown0F $00,$01
-  WriteText "100ですね。<BR>"
+  WriteText ctCutsceneScript3AText000C
   PromptContinue
   Unknown0F $09,$0F
   PlaybackSample $40,$99,$03,$99,$01,$08,$28,$00
-  WriteText "100か。そうだよな。<BR>オレといっしょだ。<BR>"
+  WriteText ctCutsceneScript3AText000D
   PromptContinue
-  WriteText "やっぱ ゆっくりつかると<BR>つかれが ふきとんでいく<BR>もんな～。<BR>"
+  WriteText ctCutsceneScript3AText000E
   PromptContinue
   Branch .reference_0293
 .reference_01CF
   Unknown0F $00,$01
-  WriteText "10000ですかね。<BR>"
+  WriteText ctCutsceneScript3AText000F
   PromptContinue
   Unknown0F $09,$14
-  WriteText "い いちまん!!!<BR>"
+  WriteText ctCutsceneScript3AText0010
   PromptContinue
-  WriteText "いくらなんでも いちまんは<BR>ないだろう。<BR>"
+  WriteText ctCutsceneScript3AText0011
   PromptContinue
   Unknown0F $09,$13
-  WriteText "のぼせて たおれちゃうよ。<BR>"
+  WriteText ctCutsceneScript3AText0012
   PromptContinue
   Unknown0F $09,$14
   PlaybackSample $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "えっ!? だいじょうぶなの?<BR>スゴイな <NAME>くんは。<BR>"
+  WriteText ctCutsceneScript3AText0013
   PromptContinue
   Branch .reference_0293
 .reference_0248
   Unknown0F $00,$01
-  WriteText "とくに きめて いません。<BR>"
+  WriteText ctCutsceneScript3AText0014
   PromptContinue
   Unknown0F $09,$0E
-  WriteText "そうなのか。<BR>オレは 100ぐらい<BR>かぞえるんだ。<BR>"
+  WriteText ctCutsceneScript3AText0015
   PromptContinue
-  WriteText "それにしても フロは<BR>きもちいいな～。<BR>"
+  WriteText ctCutsceneScript3AText0016
   PromptContinue
 .reference_0293
   Unknown0F $00,$01
@@ -83,9 +83,9 @@ CutsceneScript3A::
   Unknown09 $78
   Unknown0E $17
   Unknown0F $09,$0E
-  WriteText "さて からだも あらったし<BR>ゆっくりと ゆぶねに<BR>つかったし‥‥<BR>"
+  WriteText ctCutsceneScript3AText0017
   PromptContinue
-  WriteText "そろそろ あがろうか<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript3AText0018
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
@@ -93,277 +93,277 @@ CutsceneScript3A::
 .reference_02DF
   Unknown1E $18
   SetPortrait $09,$01,$01
-  WriteText "あ～ いいフロだった。<BR>"
+  WriteText ctCutsceneScript3AText0019
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "あっ そうだ。<BR><NAME>くんに きこうと<BR>おもったことが あったんだ。<BR>"
+  WriteText ctCutsceneScript3AText001A
   PromptContinue
-  WriteText "はなぐみの メンバーのなかで<BR>パートナーとしては<BR>だれが いちばんだい?<BR>"
+  WriteText ctCutsceneScript3AText001B
   PromptContinue
-  WriteText "たたかいかた とか<BR>せんとうのうりょく とか‥‥<BR>"
+  WriteText ctCutsceneScript3AText001C
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "あと かおや せいかくが<BR>すき‥‥ とか いろいろ<BR>あるだろうけどね。<BR>"
+  WriteText ctCutsceneScript3AText001D
   PromptContinue
 .reference_038B
-  OptionSelect $03,$01,"さくら さん","すみれ さん","ほかの たいいん"
+  OptionSelect $03,$01,ctCutsceneScript3AText001ESub00,ctCutsceneScript3AText001ESub01,ctCutsceneScript3AText001ESub02
   ConditionalBranch .reference_046A,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_05A9,$02,$00,$01,$01,$20,$00
   ConditionalBranch .reference_03C3,$02,$00,$01,$02,$20,$00
 .reference_03C3
-  OptionSelect $03,$01,"マリア さん","アイリス","ほかの たいいん"
+  OptionSelect $03,$01,ctCutsceneScript3AText001FSub00,ctCutsceneScript3AText001FSub01,ctCutsceneScript3AText001FSub02
   ConditionalBranch .reference_0725,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_087A,$02,$00,$01,$01,$20,$00
   ConditionalBranch .reference_03F9,$02,$00,$01,$02,$20,$00
 .reference_03F9
-  OptionSelect $03,$01,"こうらん さん","カンナ さん","ほかの たいいん"
+  OptionSelect $03,$01,ctCutsceneScript3AText0020Sub00,ctCutsceneScript3AText0020Sub01,ctCutsceneScript3AText0020Sub02
   ConditionalBranch .reference_09FF,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0B7D,$02,$00,$01,$01,$20,$00
   ConditionalBranch .reference_0432,$02,$00,$01,$02,$20,$00
 .reference_0432
-  OptionSelect $03,$01,"おりひめ さん","レニ さん","ほかの たいいん"
+  OptionSelect $03,$01,ctCutsceneScript3AText0021Sub00,ctCutsceneScript3AText0021Sub01,ctCutsceneScript3AText0021Sub02
   ConditionalBranch .reference_0CEA,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0E5E,$02,$00,$01,$01,$20,$00
   ConditionalBranch .reference_038B,$02,$00,$01,$02,$20,$00
 .reference_046A
   Unknown0F $00,$01
-  WriteText "さくらさんです。<BR>"
+  WriteText ctCutsceneScript3AText0022
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "さくらくんか～。<BR>さくらくんは かっぱつで<BR>あかるくて‥‥<BR>"
+  WriteText ctCutsceneScript3AText0023
   PromptContinue
-  WriteText "そして どんなときでも<BR>くじけない つよいこころを<BR>もっているからね。<BR>"
+  WriteText ctCutsceneScript3AText0024
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "でも ちょっと<BR>おっちょこちょいなのが<BR>たまにキズ かな?<BR>"
+  WriteText ctCutsceneScript3AText0025
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "けど さくらくんは<BR>ほくしんいっとうりゅうの<BR>つかいてで<BR>"
+  WriteText ctCutsceneScript3AText0026
   PromptContinue
-  WriteText "『おうかむしょう』 っていう<BR>すごいワザを つかうんだ。<BR>"
+  WriteText ctCutsceneScript3AText0027
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "さくらくんを えらぶなんて<BR>なかなか めがたかいね～。<BR>はははは。<BR>"
+  WriteText ctCutsceneScript3AText0028
   PromptContinue
   PlaybackSample $40,$91,$03,$91,$01,$08,$28,$00
   SetPortrait $09,$00,$00
-  WriteText "さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>"
+  WriteText ctCutsceneScript3AText0029
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "かえでさんが まってる<BR>だろうからな。<BR>"
+  WriteText ctCutsceneScript3AText002A
   PromptContinue
   End
 .reference_05A9
   Unknown0F $00,$01
-  WriteText "すみれさんです。<BR>"
+  WriteText ctCutsceneScript3AText002B
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "すみれくんか～。<BR>かのじょは まさに<BR>おじょうさま だね。<BR>"
+  WriteText ctCutsceneScript3AText002C
   PromptContinue
-  WriteText "ちょっと えらそうにみえるが<BR>うらでは いっしょうけんめい<BR>どりょくをしている<BR>"
+  WriteText ctCutsceneScript3AText002D
   PromptContinue
-  WriteText "どりょくか なんだ。<BR>くんれんでも しばいのけいこ<BR>でも つねにがんばっている。<BR>"
+  WriteText ctCutsceneScript3AText002E
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "まあ ほんにんは<BR>「どりょくなんて しておりま<BR> せんわ」なんていうけどね。<BR>"
+  WriteText ctCutsceneScript3AText002F
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "すみれくんは <BR>かんざきふうじんりゅう の<BR>つかいてで<BR>"
+  WriteText ctCutsceneScript3AText0030
   PromptContinue
-  WriteText "『れんじゃくのまい』<BR>っていう すごいワザを<BR>つかうんだ。<BR>"
+  WriteText ctCutsceneScript3AText0031
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "すみれくんを えらぶなんて<BR>なかなか チャレンジャー<BR>だね～。ははははは。<BR>"
+  WriteText ctCutsceneScript3AText0032
   PromptContinue
   PlaybackSample $40,$92,$03,$92,$01,$08,$28,$00
   SetPortrait $09,$00,$00
-  WriteText "さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>"
+  WriteText ctCutsceneScript3AText0033
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "かえでさんが まってる<BR>だろうからな。<BR>"
+  WriteText ctCutsceneScript3AText0034
   PromptContinue
   End
 .reference_0725
   Unknown0F $00,$01
-  WriteText "マリアさんです。<BR>"
+  WriteText ctCutsceneScript3AText0035
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "マリアか‥‥<BR>マリアは とても おちついた<BR>たよりになる じょせいだよ。<BR>"
+  WriteText ctCutsceneScript3AText0036
   PromptContinue
-  WriteText "つねに れいせいで<BR>さきをよんで こうどうできる<BR>せんりゃくかだよ。<BR>"
+  WriteText ctCutsceneScript3AText0037
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "ちょっと マジメすぎる<BR>ところもあるけど<BR>それも いいところだね。<BR>"
+  WriteText ctCutsceneScript3AText0038
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "マリアは けんじゅうの<BR>めいしゅで どんなにとおくの<BR>まとでも あてるんだ。<BR>"
+  WriteText ctCutsceneScript3AText0039
   PromptContinue
-  WriteText "『ピーカヴァヤ・ダーマ』<BR>っていう すごいワザを<BR>つかうんだぞ。<BR>"
+  WriteText ctCutsceneScript3AText003A
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "マリアを えらぶなんて<BR>なかなか しぶいね～。<BR>はははははは。<BR>"
+  WriteText ctCutsceneScript3AText003B
   PromptContinue
   PlaybackSample $40,$93,$03,$93,$01,$08,$28,$00
   SetPortrait $09,$00,$00
-  WriteText "さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>"
+  WriteText ctCutsceneScript3AText003C
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "かえでさんが まってる<BR>だろうからな。<BR>"
+  WriteText ctCutsceneScript3AText003D
   PromptContinue
   End
 .reference_087A
   Unknown0F $00,$01
-  WriteText "アイリスです。<BR>"
+  WriteText ctCutsceneScript3AText003E
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "アイリスか～。<BR>アイリスは ほんとうに<BR>げんきで あかるいコだよ。<BR>"
+  WriteText ctCutsceneScript3AText003F
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "こどもあつかいをすると<BR>おこるのも あいかわらず<BR>だけどね。<BR>"
+  WriteText ctCutsceneScript3AText0040
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "でも アイリスの<BR>ちょうのうりょくは<BR>すばらしいんだ。<BR>"
+  WriteText ctCutsceneScript3AText0041
   PromptContinue
-  WriteText "テレポートしたり<BR>みんなのきずを なおしたり<BR>もう だいかつやくさ。<BR>"
+  WriteText ctCutsceneScript3AText0042
   PromptContinue
-  WriteText "『イリスプティ・<BR>ジャンポール』っていう<BR>すごいワザも つかうんだぞ。<BR>"
+  WriteText ctCutsceneScript3AText0043
   PromptContinue
-  WriteText "アイリスは<BR>オレたちのりっぱな<BR>なかまなんだ。<BR>"
+  WriteText ctCutsceneScript3AText0044
   PromptContinue
-  WriteText "オレだって<BR>なんども アイリスには<BR>たすけられているんだよ。<BR>"
+  WriteText ctCutsceneScript3AText0045
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "アイリスを えらぶなんて<BR>なかなか‥‥ やるね～。<BR>はははははは。<BR>"
+  WriteText ctCutsceneScript3AText0046
   PromptContinue
   PlaybackSample $40,$94,$03,$94,$01,$08,$28,$00
   SetPortrait $09,$00,$00
-  WriteText "さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>"
+  WriteText ctCutsceneScript3AText0047
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "かえでさんが まってる<BR>だろうからな。<BR>"
+  WriteText ctCutsceneScript3AText0048
   PromptContinue
   End
 .reference_09FF
   Unknown0F $00,$01
-  WriteText "こうらんさんです。<BR>"
+  WriteText ctCutsceneScript3AText0049
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "こうらんか～。<BR>こうらんは はつめいが<BR>だいすきな おんなのこだ。<BR>"
+  WriteText ctCutsceneScript3AText004A
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "ま なかなか<BR>せいこうしないのが<BR>たまにキズ なんだけどね。<BR>"
+  WriteText ctCutsceneScript3AText004B
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "こうらんは<BR>どんなことがあっても<BR>くじけない あかるいコだよ。<BR>"
+  WriteText ctCutsceneScript3AText004C
   PromptContinue
-  WriteText "それに みんなのために<BR>あたらしいはつめいを<BR>かんがえているんだ。<BR>"
+  WriteText ctCutsceneScript3AText004D
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "いつも バクハツして<BR>かおを まっくろに<BR>しているけどね。ははは。<BR>"
+  WriteText ctCutsceneScript3AText004E
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "こうらんの はつめいで<BR>『じゃんぱいロボ』って<BR>いう すごいワザがあるんだ。<BR>"
+  WriteText ctCutsceneScript3AText004F
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "こうらんを えらぶなんて<BR>なかなか おめがたかいね。<BR>はははははは。<BR>"
+  WriteText ctCutsceneScript3AText0050
   PromptContinue
   PlaybackSample $40,$95,$03,$95,$01,$08,$28,$00
   SetPortrait $09,$00,$00
-  WriteText "さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>"
+  WriteText ctCutsceneScript3AText0051
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "かえでさんが まってる<BR>だろうからな。<BR>"
+  WriteText ctCutsceneScript3AText0052
   PromptContinue
   End
 .reference_0B7D
   Unknown0F $00,$01
-  WriteText "カンナさんです。<BR>"
+  WriteText ctCutsceneScript3AText0053
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "カンナか～。<BR>カンナは サッパリした<BR>いいやつだ。<BR>"
+  WriteText ctCutsceneScript3AText0054
   PromptContinue
-  WriteText "あねごはだで うらおもての<BR>ない かざらないせいかくは<BR>きもちがいいね。<BR>"
+  WriteText ctCutsceneScript3AText0055
   PromptContinue
-  WriteText "そうそう カンナは<BR>メシと うんどうが<BR>だいすきなんだ。<BR>"
+  WriteText ctCutsceneScript3AText0056
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "その きたえた からだから<BR>くりだされる カラテは<BR>すごいんだぜ。<BR>"
+  WriteText ctCutsceneScript3AText0057
   PromptContinue
-  WriteText "カンナは りゅうきゅうカラテ<BR>きりしまりゅう だい28だい<BR>けいしょうしゃで<BR>"
+  WriteText ctCutsceneScript3AText0058
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "『サンチンテンショウ』<BR>っていう すごいワザを<BR>もってるんだ。<BR>"
+  WriteText ctCutsceneScript3AText0059
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "カンナを えらぶなんて<BR>きみは まもられたい<BR>タイプだね。ははは。<BR>"
+  WriteText ctCutsceneScript3AText005A
   PromptContinue
   PlaybackSample $40,$96,$03,$96,$01,$08,$28,$00
   SetPortrait $09,$00,$00
-  WriteText "さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>"
+  WriteText ctCutsceneScript3AText005B
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "かえでさんが まってる<BR>だろうからな。<BR>"
+  WriteText ctCutsceneScript3AText005C
   PromptContinue
   End
 .reference_0CEA
   Unknown0F $00,$01
-  WriteText "おりひめさんです。<BR>"
+  WriteText ctCutsceneScript3AText005D
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "おりひめくんか～。<BR>おりひめくんは イタリアで<BR>だいにんきの じょゆうだ。<BR>"
+  WriteText ctCutsceneScript3AText005E
   PromptContinue
-  WriteText "かのじょの てんさいてきな<BR>センスは ぶたいはもちろん<BR>たたかいでも はっきされる。<BR>"
+  WriteText ctCutsceneScript3AText005F
   PromptContinue
-  WriteText "その たたかってる<BR>すがたは きひんすら<BR>かんじさせるんだ。<BR>"
+  WriteText ctCutsceneScript3AText0060
   PromptContinue
   SetPortrait $09,$05,$05
-  WriteText "でも なぜか<BR>にほんのおとこが<BR>キライ なんだそうだ。<BR>"
+  WriteText ctCutsceneScript3AText0061
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "おりひめくんは <BR>その てんさいてきな<BR>センスをもって<BR>"
+  WriteText ctCutsceneScript3AText0062
   PromptContinue
-  WriteText "『クアットロ・スタジオーニ』<BR>っていう すごいワザを<BR>つかうんだ。<BR>"
+  WriteText ctCutsceneScript3AText0063
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "おりひめくんを えらぶなんて<BR>なかなか めがたかいね～。<BR>はははは。<BR>"
+  WriteText ctCutsceneScript3AText0064
   PromptContinue
   PlaybackSample $40,$97,$03,$97,$01,$08,$28,$00
   SetPortrait $09,$00,$00
-  WriteText "さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>"
+  WriteText ctCutsceneScript3AText0065
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "かえでさんが まってる<BR>だろうからな。<BR>"
+  WriteText ctCutsceneScript3AText0066
   PromptContinue
   End
 .reference_0E5E
   Unknown0F $00,$01
-  WriteText "レニさんです。<BR>"
+  WriteText ctCutsceneScript3AText0067
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "レニか～。<BR>レニは れいせいで<BR>いつも おちついているよ。<BR>"
+  WriteText ctCutsceneScript3AText0068
   PromptContinue
-  WriteText "とても あたまがいいから<BR>どんなじょうきょうでも<BR>れいせいに はんだんできる。<BR>"
+  WriteText ctCutsceneScript3AText0069
   PromptContinue
-  WriteText "せんとうに かつためには<BR>ジャマになるものは すべて<BR>はいじょするんだ。<BR>"
+  WriteText ctCutsceneScript3AText006A
   PromptContinue
-  WriteText "‥‥なんてことをいうと<BR>せんとうマシーンみたいに<BR>おもわれてしまうけど<BR>"
+  WriteText ctCutsceneScript3AText006B
   PromptContinue
-  WriteText "ほんとうは<BR>イヌが だいすきな<BR>やさしいこ なんだよ。<BR>"
+  WriteText ctCutsceneScript3AText006C
   PromptContinue
   SetPortrait $09,$00,$00
-  WriteText "レニは ヤリのすばらしい<BR>つかいてで<BR>"
+  WriteText ctCutsceneScript3AText006D
   PromptContinue
-  WriteText "『ダス・ラインゴルト』という<BR>すごいワザをつかうんだ。<BR>"
+  WriteText ctCutsceneScript3AText006E
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "レニを えらぶなんて<BR>なかなか しぶいね～。<BR>はははは。<BR>"
+  WriteText ctCutsceneScript3AText006F
   PromptContinue
   PlaybackSample $40,$98,$03,$98,$01,$08,$28,$00
   SetPortrait $09,$00,$00
-  WriteText "さて ひえたからだも<BR>あたたまったことだし<BR>さくせんしつに いこうか。<BR>"
+  WriteText ctCutsceneScript3AText0070
   PromptContinue
   SetPortrait $09,$01,$01
-  WriteText "かえでさんが まってる<BR>だろうからな。<BR>"
+  WriteText ctCutsceneScript3AText0071
   PromptContinue
   End
   End

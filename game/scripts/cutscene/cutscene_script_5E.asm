@@ -8,17 +8,17 @@ CutsceneScript5E::
   Unknown09 $32
   ConditionalBranch .reference_05D3,$02,$04,$01,$01,$20,$00
   SetPortrait $0C,$10,$00
-  WriteText "かえでさん ミカサ やまと<BR>せいまじょう まかい<BR>すべてのばしょから<BR>"
+  WriteText ctCutsceneScript5EText0000
   PromptContinue
-  WriteText "まちのひとの はんのうが<BR>なくなりました。<BR>"
+  WriteText ctCutsceneScript5EText0001
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "ということは まかいおうに<BR>よってあつめられた<BR>ひとたちは ぜんいん<BR>"
+  WriteText ctCutsceneScript5EText0002
   PromptContinue
-  WriteText "きゅうしゅつできた<BR>ということね。<BR>"
+  WriteText ctCutsceneScript5EText0003
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "よくやったわね<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript5EText0004
   PromptContinue
   ConditionalBranch .reference_0154,$02,$06,$01,$01,$20,$00
   ConditionalBranch .reference_01B4,$02,$06,$01,$02,$20,$00
@@ -30,142 +30,142 @@ CutsceneScript5E::
   ConditionalBranch .reference_03F4,$02,$06,$01,$08,$20,$00
   SetPortrait $09,$11,$08
   PlaybackSample $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "よく がんばったな<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript5EText0005
   PromptContinue
-  WriteText "たすけられた ひとたちは<BR>みんな <NAME>くんに<BR>かんしゃしているよ。<BR>"
+  WriteText ctCutsceneScript5EText0006
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>おおがみさん。<BR>"
+  WriteText ctCutsceneScript5EText0007
   PromptContinue
   Branch .reference_044B
 .reference_0154
   SetPortrait $01,$11,$09
-  WriteText "やりましたね!<BR><NAME>さん!!<BR>"
+  WriteText ctCutsceneScript5EText0008
   PromptContinue
-  WriteText "たすけてもらった みなさんは<BR>きっと ものすごくかんしゃ<BR>してるとおもいますよ。<BR>"
+  WriteText ctCutsceneScript5EText0009
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>さくらさん。<BR>"
+  WriteText ctCutsceneScript5EText000A
   PromptContinue
   Branch .reference_044B
 .reference_01B4
   SetPortrait $02,$11,$09
-  WriteText "よく がんばりましたわね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript5EText000B
   PromptContinue
-  WriteText "この わたくしが<BR>ほめてさしあげますわ<BR>おっほっほっほっほ。<BR>"
+  WriteText ctCutsceneScript5EText000C
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>すみれさん。<BR>"
+  WriteText ctCutsceneScript5EText000D
   PromptContinue
   Branch .reference_044B
 .reference_020E
   SetPortrait $03,$13,$0B
-  WriteText "すごいじゃない<BR><NAME>くん。<BR>よく がんばったわね。<BR>"
+  WriteText ctCutsceneScript5EText000E
   PromptContinue
-  WriteText "きゅうじょされた ひとたちも<BR>あなたに かんしゃしてると<BR>おもうわ。<BR>"
+  WriteText ctCutsceneScript5EText000F
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>マリアさん。<BR>"
+  WriteText ctCutsceneScript5EText0010
   PromptContinue
   Branch .reference_044B
 .reference_0273
   SetPortrait $05,$11,$09
-  WriteText "やったな! <NAME>はん!<BR>すごい! すごすぎるでぇ!!<BR>"
+  WriteText ctCutsceneScript5EText0011
   PromptContinue
-  WriteText "たすけられた ひとたちは<BR><NAME>はんに あしむけて<BR>ねられへんな。<BR>"
+  WriteText ctCutsceneScript5EText0012
   PromptContinue
   Unknown0F $00,$01
-  WriteText "そんな おおげさな‥‥<BR>でも ありがとうございます<BR>こうらんさん。<BR>"
+  WriteText ctCutsceneScript5EText0013
   PromptContinue
   Branch .reference_044B
 .reference_02E2
   SetPortrait $04,$11,$09
-  WriteText "よくがんばったね<BR><NAME>。<BR>かっこいいよ!<BR>"
+  WriteText ctCutsceneScript5EText0014
   PromptContinue
-  WriteText "きっと みんな <NAME>に<BR>ありがとう! って<BR>おもっているよ。<BR>"
+  WriteText ctCutsceneScript5EText0015
   PromptContinue
   Unknown0F $00,$01
-  WriteText "うん。<BR>ありがとう アイリス。<BR>"
+  WriteText ctCutsceneScript5EText0016
   PromptContinue
   Branch .reference_044B
 .reference_0337
   SetPortrait $06,$11,$09
-  WriteText "やったじゃねーか<BR><NAME>!!<BR>"
+  WriteText ctCutsceneScript5EText0017
   PromptContinue
-  WriteText "たすけられた ひとたちは<BR>みんな おまえに<BR>かんしゃしてるとおもうぜ。<BR>"
+  WriteText ctCutsceneScript5EText0018
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>カンナさん。<BR>"
+  WriteText ctCutsceneScript5EText0019
   PromptContinue
   Branch .reference_044B
 .reference_0391
   SetPortrait $07,$11,$0A
-  WriteText "やりましたね!<BR><NAME>さん!!<BR>スゴイでーす!!<BR>"
+  WriteText ctCutsceneScript5EText001A
   PromptContinue
-  WriteText "たすけられた みなさんは<BR>かんしゃ かんげき<BR>あめ あられでーす。<BR>"
+  WriteText ctCutsceneScript5EText001B
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>おりひめさん。<BR>"
+  WriteText ctCutsceneScript5EText001C
   PromptContinue
   Branch .reference_044B
 .reference_03F4
   SetPortrait $08,$11,$09
-  WriteText "よく がんばったね<BR><NAME>。<BR>"
+  WriteText ctCutsceneScript5EText001D
   PromptContinue
-  WriteText "きゅうじょされた ひとたちは<BR>みんな かんしゃしてると<BR>おもうよ。<BR>"
+  WriteText ctCutsceneScript5EText001E
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>レニさん。<BR>"
+  WriteText ctCutsceneScript5EText001F
   PromptContinue
   Branch .reference_044B
 .reference_044B
   Unknown0D $00,$00
   Unknown1E $1B
   Unknown0F $00,$01
-  WriteText "それにしても ぶじに<BR>みんなを たすけることが<BR>できて よかったな～。<BR>"
+  WriteText ctCutsceneScript5EText0020
   PromptContinue
   Unknown0F $00,$04
-  WriteText "ごくろうだったな<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript5EText0021
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あっ! あなたは<BR>やまぐち かずとよ<BR>かいぐんだいじん!!<BR>"
+  WriteText ctCutsceneScript5EText0022
   PromptContinue
   Unknown0F $00,$04
-  WriteText "まかいおうに あつめられた<BR>ひとたちを みんな たすける<BR>のは たいへんだったろう。<BR>"
+  WriteText ctCutsceneScript5EText0023
   PromptContinue
-  WriteText "みんなを だいひょうして<BR>おれいを いわせてもらうよ。<BR>"
+  WriteText ctCutsceneScript5EText0024
   PromptContinue
-  WriteText "これは わたしの たいせつな<BR>コレクションのひとつなんだが<BR>ぜひ うけとってくれたまえ。<BR>"
+  WriteText ctCutsceneScript5EText0025
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これは おりひめさんと<BR>レニさんの ブロマイド‥‥<BR>ありがとうございます。<BR>"
+  WriteText ctCutsceneScript5EText0026
   PromptContinue
-  WriteText "『<NAME>は<BR> おりひめとレニの<BR> ブロマイドをてにいれた。』<BR>"
+  WriteText ctCutsceneScript5EText0027
   PromptContinue
-  WriteText "『ブロマイドは<BR> キーアイテムのがめんで<BR>"
+  WriteText ctCutsceneScript5EText0028
   Unknown05 $87,$B4,$01,$01
   End
-  WriteText " みることができます。』<BR>"
+  WriteText ctCutsceneScript5EText0029
   PromptContinue
   Unknown05 $87,$B5,$01,$01
   End
   Unknown0F $00,$04
-  WriteText "では これからも<BR>がんばってくれよ<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript5EText002A
   PromptContinue
   End
 .reference_05D3
   SetPortrait $0C,$10,$00
-  WriteText "かえでさん ミカサ やまと<BR>せいまじょう まかい<BR>すべてのばしょから<BR>"
+  WriteText ctCutsceneScript5EText002B
   PromptContinue
-  WriteText "まちのひとの はんのうが<BR>なくなりました。<BR>"
+  WriteText ctCutsceneScript5EText002C
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "ということは まかいおうに<BR>よってあつめられた<BR>ひとたちは ぜんいん<BR>"
+  WriteText ctCutsceneScript5EText002D
   PromptContinue
-  WriteText "きゅうしゅつできた<BR>ということね。<BR>"
+  WriteText ctCutsceneScript5EText002E
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "よくやったわね<BR><NAME>。<BR>"
+  WriteText ctCutsceneScript5EText002F
   PromptContinue
   ConditionalBranch .reference_071E,$02,$06,$01,$01,$20,$00
   ConditionalBranch .reference_077E,$02,$06,$01,$02,$20,$00
@@ -177,126 +177,126 @@ CutsceneScript5E::
   ConditionalBranch .reference_09BF,$02,$06,$01,$08,$20,$00
   SetPortrait $09,$11,$08
   PlaybackSample $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "よく がんばったな<BR><NAME>くん。<BR>キミは すごいよ。<BR>"
+  WriteText ctCutsceneScript5EText0030
   PromptContinue
-  WriteText "たすけられた ひとたちは<BR>みんな <NAME>くんに<BR>かんしゃしているだろう。<BR>"
+  WriteText ctCutsceneScript5EText0031
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>おおがみさん。<BR>"
+  WriteText ctCutsceneScript5EText0032
   PromptContinue
   Branch .reference_0A16
 .reference_071E
   SetPortrait $01,$11,$09
-  WriteText "やりましたね!<BR><NAME>さん!!<BR>"
+  WriteText ctCutsceneScript5EText0033
   PromptContinue
-  WriteText "たすけてもらった みなさんは<BR>きっと ものすごくかんしゃ<BR>してるとおもいますよ。<BR>"
+  WriteText ctCutsceneScript5EText0034
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>さくらさん。<BR>"
+  WriteText ctCutsceneScript5EText0035
   PromptContinue
   Branch .reference_0A16
 .reference_077E
   SetPortrait $02,$11,$09
-  WriteText "よく がんばりましたわね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript5EText0036
   PromptContinue
-  WriteText "この わたくしが<BR>ほめてさしあげますわ<BR>おっほっほっほっほ。<BR>"
+  WriteText ctCutsceneScript5EText0037
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>すみれさん。<BR>"
+  WriteText ctCutsceneScript5EText0038
   PromptContinue
   Branch .reference_0A16
 .reference_07D8
   SetPortrait $03,$13,$0B
-  WriteText "すごいじゃない<BR><NAME>。<BR>よく がんばったわね。<BR>"
+  WriteText ctCutsceneScript5EText0039
   PromptContinue
-  WriteText "きゅうじょされた ひとたちも<BR>あなたに かんしゃしてると<BR>おもうわ。<BR>"
+  WriteText ctCutsceneScript5EText003A
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>マリアさん。<BR>"
+  WriteText ctCutsceneScript5EText003B
   PromptContinue
   Branch .reference_0A16
 .reference_083B
   SetPortrait $05,$11,$09
-  WriteText "やったな! <NAME>はん!<BR>すごい! すごすぎるでぇ!!<BR>"
+  WriteText ctCutsceneScript5EText003C
   PromptContinue
-  WriteText "たすけられた ひとたちは<BR><NAME>はんに あしむけて<BR>ねられへんな。<BR>"
+  WriteText ctCutsceneScript5EText003D
   PromptContinue
   Unknown0F $00,$01
-  WriteText "そんな おおげさな‥‥<BR>でも ありがとうございます<BR>こうらんさん。<BR>"
+  WriteText ctCutsceneScript5EText003E
   PromptContinue
   Branch .reference_0A16
 .reference_08AA
   SetPortrait $04,$11,$09
-  WriteText "よくがんばったね<BR><NAME>。<BR>スゴイ! スゴーイ!<BR>"
+  WriteText ctCutsceneScript5EText003F
   PromptContinue
-  WriteText "きっと みんな <NAME>に<BR>ありがとう! って<BR>おもっているよ。<BR>"
+  WriteText ctCutsceneScript5EText0040
   PromptContinue
   Unknown0F $00,$01
-  WriteText "うん。<BR>ありがとう アイリス。<BR>"
+  WriteText ctCutsceneScript5EText0041
   PromptContinue
   Branch .reference_0A16
 .reference_0902
   SetPortrait $06,$11,$09
-  WriteText "やったじゃねーか<BR><NAME>!!<BR>"
+  WriteText ctCutsceneScript5EText0042
   PromptContinue
-  WriteText "たすけられた ひとたちは<BR>みんな おまえに<BR>かんしゃしてるとおもうぜ。<BR>"
+  WriteText ctCutsceneScript5EText0043
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>カンナさん。<BR>"
+  WriteText ctCutsceneScript5EText0044
   PromptContinue
   Branch .reference_0A16
 .reference_095C
   SetPortrait $07,$11,$0A
-  WriteText "やりましたね!<BR><NAME>さん!!<BR>スゴイでーす!!<BR>"
+  WriteText ctCutsceneScript5EText0045
   PromptContinue
-  WriteText "たすけられた みなさんは<BR>かんしゃ かんげき<BR>あめ あられでーす。<BR>"
+  WriteText ctCutsceneScript5EText0046
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>おりひめさん。<BR>"
+  WriteText ctCutsceneScript5EText0047
   PromptContinue
   Branch .reference_0A16
 .reference_09BF
   SetPortrait $08,$11,$09
-  WriteText "よく がんばったね<BR><NAME>。<BR>"
+  WriteText ctCutsceneScript5EText0048
   PromptContinue
-  WriteText "きゅうじょされた ひとたちは<BR>みんな かんしゃしてると<BR>おもうよ。<BR>"
+  WriteText ctCutsceneScript5EText0049
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>ありがとうございます<BR>レニさん。<BR>"
+  WriteText ctCutsceneScript5EText004A
   PromptContinue
   Branch .reference_0A16
 .reference_0A16
   Unknown0D $00,$00
   Unknown1E $1B
   Unknown0F $00,$01
-  WriteText "それにしても ぶじに<BR>みんなを たすけることが<BR>できて よかったわ。<BR>"
+  WriteText ctCutsceneScript5EText004B
   PromptContinue
   Unknown0F $00,$04
-  WriteText "ごくろうだったな<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript5EText004C
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あっ! あなたは<BR>やまぐち かずとよ<BR>かいぐんだいじん!!<BR>"
+  WriteText ctCutsceneScript5EText004D
   PromptContinue
   Unknown0F $00,$04
-  WriteText "まかいおうに あつめられた<BR>ひとたちを みんな たすける<BR>のは たいへんだったろう。<BR>"
+  WriteText ctCutsceneScript5EText004E
   PromptContinue
-  WriteText "みんなを だいひょうして<BR>おれいを いわせてもらうよ。<BR>"
+  WriteText ctCutsceneScript5EText004F
   PromptContinue
-  WriteText "これは わたしの たいせつな<BR>コレクションのひとつなんだが<BR>ぜひ うけとってくれたまえ。<BR>"
+  WriteText ctCutsceneScript5EText0050
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これは おりひめさんと<BR>レニさんの ブロマイド‥‥<BR>ありがとうございます。<BR>"
+  WriteText ctCutsceneScript5EText0051
   PromptContinue
-  WriteText "『<NAME>は<BR> おりひめとレニの<BR> ブロマイドをてにいれた。』<BR>"
+  WriteText ctCutsceneScript5EText0052
   PromptContinue
-  WriteText "『ブロマイドは<BR> キーアイテムのがめんで<BR>"
+  WriteText ctCutsceneScript5EText0053
   Unknown05 $87,$B4,$01,$01
   End
-  WriteText " みることができます。』<BR>"
+  WriteText ctCutsceneScript5EText0054
   PromptContinue
   Unknown05 $87,$B5,$01,$01
   End
   Unknown0F $00,$04
-  WriteText "では これからも<BR>がんばってくれよ<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript5EText0055
   PromptContinue
   End

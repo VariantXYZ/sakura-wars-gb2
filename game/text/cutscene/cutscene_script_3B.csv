@@ -1,0 +1,507 @@
+ID,Text
+ctCutsceneScript3BText0000,<NAME>さん。<BR>おフロにいきましょうよ。<BR>
+ctCutsceneScript3BText0001,ひえた からだを<BR>あっためるには<BR>おフロが いちばんですよ。<BR>
+ctCutsceneScript3BText0002,あ～ いいおゆですね～。<BR>
+ctCutsceneScript3BText0003,それにしても ミカサを<BR>こおらせる まものには<BR>おどろきましたよね～。<BR>
+ctCutsceneScript3BText0004,からだが しんから<BR>ひえちゃったでしょ。<BR>
+ctCutsceneScript3BText0005,ゆっくりと からだを<BR>あたためましょう。<BR>
+ctCutsceneScript3BText0006,それにしても<BR>いいおゆだわ～。<BR>きもちいい～。<BR>
+ctCutsceneScript3BText0007,そうですね。<BR>
+ctCutsceneScript3BText0008,そうだわ おフロうらない<BR>しませんか?<BR>
+ctCutsceneScript3BText0009,あたしは からだを<BR>あらうとき あしから<BR>あらうんですけど<BR>
+ctCutsceneScript3BText000A,<NAME>さんは<BR>どこから あらいますか?<BR>
+ctCutsceneScript3BText000BSub00,あし から あらう
+ctCutsceneScript3BText000BSub01,あたま から あらう
+ctCutsceneScript3BText000BSub02,せなか から あらう
+ctCutsceneScript3BText000C,あし からです。<BR>
+ctCutsceneScript3BText000D,あしですか。<BR>あたしの おフロうらないに<BR>よるとですね‥‥<BR>
+ctCutsceneScript3BText000E,あし から あらうひとは<BR>しんちょうな ひとです。<BR>
+ctCutsceneScript3BText000F,したから ていねいに<BR>じゅんばんに あらう<BR>その せいかくは<BR>
+ctCutsceneScript3BText0010,しんちょうであり せんさいな<BR>かんかくの もちぬしです。<BR>
+ctCutsceneScript3BText0011,ちみつな ちょうさなどの<BR>にんむに むいています。<BR>ですって。<BR>
+ctCutsceneScript3BText0012,<NAME>さん<BR>いまの にんむにピッタリ<BR>じゃないですか。<BR>
+ctCutsceneScript3BText0013,ミカサのちょうさ<BR>がんばって くださいね。<BR>
+ctCutsceneScript3BText0014,あたま からです。<BR>
+ctCutsceneScript3BText0015,あたまですか。<BR>あたしの おフロうらないに<BR>よるとですね‥‥<BR>
+ctCutsceneScript3BText0016,あたま から あらうひとは<BR>こうきしんおうせいな<BR>ひとです。<BR>
+ctCutsceneScript3BText0017,どんなことにも きょうみを<BR>もって くびをつっこんで<BR>しまいます。<BR>
+ctCutsceneScript3BText0018,しかし あれや これやと<BR>てをひろげすぎ じぶんが<BR>なにをやりたいのか<BR>
+ctCutsceneScript3BText0019,わからなく なったりして<BR>いいかげんに なってしまう<BR>こともあります ですって。<BR>
+ctCutsceneScript3BText001A,<NAME>さん<BR>ミカサのちょうさは ちゃんと<BR>やってくださいね。<BR>
+ctCutsceneScript3BText001B,せなか からです。<BR>
+ctCutsceneScript3BText001C,せなかですか。<BR>あたしの おフロうらないに<BR>よるとですね‥‥<BR>
+ctCutsceneScript3BText001D,せなか から あらうひとは<BR>いさぎよい ひとです。<BR>
+ctCutsceneScript3BText001E,いつなんどき うしろから<BR>バッサリやられてもいいという<BR>こころがまえをもっています。<BR>
+ctCutsceneScript3BText001F,しかし その いさぎよさゆえ<BR>ほんとうに しっぱい<BR>してしまうことも あります。<BR>
+ctCutsceneScript3BText0020,すこし ちゅういぶかく<BR>したほうが いいでしょう<BR>ですって。<BR>
+ctCutsceneScript3BText0021,<NAME>さん<BR>ミカサのちょうさ きをつけて<BR>くださいね。<BR>
+ctCutsceneScript3BText0022,う～ん‥‥<BR>とくに どこから‥‥<BR>というのは ありません。<BR>
+ctCutsceneScript3BText0023,そうなんですか?<BR>そのひの きぶんで<BR>かわるんですね。<BR>
+ctCutsceneScript3BText0024,まあ そんなとこですね。<BR>
+ctCutsceneScript3BText0025,あ～ いいおゆだった‥‥<BR>
+ctCutsceneScript3BText0026,さて じゃあ そろそろ<BR>あがりましょうか<BR><NAME>さん。<BR>
+ctCutsceneScript3BText0027,<NAME>さん。<BR>おフロにいきますわよ。<BR>
+ctCutsceneScript3BText0028,ひえたからだを<BR>あたためるには<BR>おフロが いちばんですのよ。<BR>
+ctCutsceneScript3BText0029,ああ‥‥<BR>いい おゆですこと。<BR>
+ctCutsceneScript3BText002A,それにしても ミカサを<BR>こおらせる なんて<BR>ひどい まものですわね～。<BR>
+ctCutsceneScript3BText002B,おはだに わるいこと<BR>このうえないですわねぇ<BR>
+ctCutsceneScript3BText002C,<NAME>さん。<BR>
+ctCutsceneScript3BText002D,ゆっくりと からだを<BR>あたためて おはだを<BR>ケアしなさいな。<BR>
+ctCutsceneScript3BText002E,‥‥それにしても<BR>いいおゆですわ～。<BR>ごくらく ですわねぇ～。<BR>
+ctCutsceneScript3BText002F,そうですね。<BR>
+ctCutsceneScript3BText0030,そういえば <NAME>さんは<BR>いつも どれくらい おフロに<BR>はいっているんですの?<BR>
+ctCutsceneScript3BText0031Sub00,5ふん
+ctCutsceneScript3BText0031Sub01,20ぷん
+ctCutsceneScript3BText0031Sub02,60ぷん
+ctCutsceneScript3BText0032,そうですね～。<BR>ふだんは5ふん くらいです。<BR>
+ctCutsceneScript3BText0033,きょうは かたが<BR>ひえきっちゃってますから<BR>いつもより ながめですけど。<BR>
+ctCutsceneScript3BText0034,ご ご ごふん～!!!<BR>
+ctCutsceneScript3BText0035,それは レディとして<BR>みじかすぎるんじゃ<BR>ありませんこと。<BR>
+ctCutsceneScript3BText0036,まるで カラスのぎょうずい<BR>ですわね～。<BR>
+ctCutsceneScript3BText0037,りっぱなレディになる<BR>ためにも おフロにはゆっくり<BR>と はいって<BR>
+ctCutsceneScript3BText0038,きちんと おはだのケアを<BR>したほうが いいですわよ。<BR><NAME>さん。<BR>
+ctCutsceneScript3BText0039,そうですね～ 20ぷん<BR>ぐらいです。<BR>
+ctCutsceneScript3BText003A,まあ ふつうですわね。<BR>からだをあらって あたまを<BR>あらって ゆぶねにつかって‥<BR>
+ctCutsceneScript3BText003B,まあ そんなもんでしょうけど<BR>ゆぶねに つかるじかんを<BR>もうすこし ながくすると<BR>
+ctCutsceneScript3BText003C,こころと からだが<BR>やすまって おはだにも<BR>いいんですのよ。<BR>
+ctCutsceneScript3BText003D,おはだは レディの<BR>いのちですからね。<BR><NAME>さん。<BR>
+ctCutsceneScript3BText003E,60ぷん‥‥<BR>1じかんくらい でしょうか。<BR>
+ctCutsceneScript3BText003F,そーーーですわよね。<BR>やはり おフロには<BR>それくらい はいらないと!<BR>
+ctCutsceneScript3BText0040,さすがですわ<BR><NAME>さん。<BR>
+ctCutsceneScript3BText0041,それにくらべて<BR>あのカンナさんったら<BR>「フロなんて 5ふんだぜ!」<BR>
+ctCutsceneScript3BText0042,「1じかんも はいってたら<BR> フニャフニャばばあに<BR> なっちまうぜ!」<BR>
+ctCutsceneScript3BText0043,な～んてことを<BR>おっしゃりますのよ!<BR>まったくもー!<BR>
+ctCutsceneScript3BText0044,でも <NAME>さんは<BR>さすがですわねぇ～。<BR>
+ctCutsceneScript3BText0045,ゆっくりと おフロにはいって<BR>ちゃんと おはだのつかれを<BR>とって いるのですわね。<BR>
+ctCutsceneScript3BText0046,そうですね～<BR>とくに じかんは<BR>きめていません。<BR>
+ctCutsceneScript3BText0047,あら そうなんですの?<BR>そのひの きぶんで かわる‥<BR>ということですのね。<BR>
+ctCutsceneScript3BText0048,そうですね。<BR>
+ctCutsceneScript3BText0049,あ～ いいおゆでしたわ‥‥<BR>
+ctCutsceneScript3BText004A,さて じゃあ そろそろ<BR>あがりますわよ<BR><NAME>さん。<BR>
+ctCutsceneScript3BText004B,<NAME>。<BR>おフロにいくわよ。<BR>
+ctCutsceneScript3BText004C,ひえたからだを<BR>あたためるには おフロが<BR>いちばんね。<BR>
+ctCutsceneScript3BText004D,あ～ いいおゆだわ～。<BR>
+ctCutsceneScript3BText004E,それにしても ミカサを<BR>こおらせる まものには<BR>おどろいたわね～。<BR>
+ctCutsceneScript3BText004F,このさき どんな まものが<BR>いるか わからないから<BR>ようじんしなきゃね。<BR>
+ctCutsceneScript3BText0050,<NAME> ひえたからだを<BR>ゆっくりと あたためなさい。<BR>
+ctCutsceneScript3BText0051,それにしても いいおゆね。<BR>きもちいいわ‥‥<BR>
+ctCutsceneScript3BText0052,そうですね。<BR>
+ctCutsceneScript3BText0053,<NAME>は おフロ<BR>すきなのかしら?<BR>
+ctCutsceneScript3BText0054Sub00,すき です
+ctCutsceneScript3BText0054Sub01,キライ です
+ctCutsceneScript3BText0055,おフロは すきですよ。<BR>
+ctCutsceneScript3BText0056,そうね。おフロにはいると<BR>いちにちの からだのつかれが<BR>とれるものね。<BR>
+ctCutsceneScript3BText0057,シャワーとちがって<BR>ゆっくりと おゆにつかると<BR>こころも からだも‥‥<BR>
+ctCutsceneScript3BText0058,リラックスできるものね。<BR>わたしも おフロだいすきよ。<BR>
+ctCutsceneScript3BText0059,そうですね～<BR>おフロは めんどくさいので<BR>わたしは シャワーです。<BR>
+ctCutsceneScript3BText005A,あら そうなの?<BR>でも おフロにつかると<BR>つれが とれるじゃない。<BR>
+ctCutsceneScript3BText005B,ゆっくり ゆぶねにつかって<BR>つかれを とる。<BR>
+ctCutsceneScript3BText005C,そうしたら あしたも<BR>がんばろう って<BR>きもちになるのよ。<BR>
+ctCutsceneScript3BText005D,だから わたしは<BR>おフロはだいすきよ。<BR>
+ctCutsceneScript3BText005E,そうですね。 きょうは<BR>からだが ひえちゃってるんで<BR>おフロ きもちいいですね。<BR>
+ctCutsceneScript3BText005F,いえ とくに すきとか<BR>キライとかは ないですね。<BR>
+ctCutsceneScript3BText0060,まあ あせをながせて<BR>きもちいい っていうのは<BR>かんじますけど。<BR>
+ctCutsceneScript3BText0061,あら そうなの?<BR>でも おフロにつかると<BR>つかれが とれるじゃない。<BR>
+ctCutsceneScript3BText0062,ゆっくり ゆぶねにつかって<BR>つかれを とる。<BR>
+ctCutsceneScript3BText0063,そうしたら あしたも<BR>がんばろう って<BR>きもちになるのよ。<BR>
+ctCutsceneScript3BText0064,だから わたしは<BR>おフロはだいすきよ。<BR>
+ctCutsceneScript3BText0065,あ～ いいおゆだった‥‥<BR>
+ctCutsceneScript3BText0066,さて <NAME>。<BR>そろそろ あがりましょう。<BR>
+ctCutsceneScript3BText0067,<NAME>。<BR>おフロにいこう!<BR>
+ctCutsceneScript3BText0068,おフロは<BR>あったかくて きもちが<BR>いいよ～!<BR>
+ctCutsceneScript3BText0069,わーい!<BR>きもちいいね～。<BR><NAME>。<BR>
+ctCutsceneScript3BText006A,でもさー ミカサを<BR>こおらせる まものには<BR>ビックリしたよね～。<BR>
+ctCutsceneScript3BText006B,あんなことされたら<BR>さむくて<BR>カゼひいちゃうよね。<BR>
+ctCutsceneScript3BText006C,ゆ～っくりと<BR>あったまろうね <NAME>。<BR>
+ctCutsceneScript3BText006D,きもち いいね～。<BR>
+ctCutsceneScript3BText006E,そうね。アイリス。<BR>
+ctCutsceneScript3BText006F,そうそう。<NAME>は<BR>おフロに なにをもって<BR>はいるの?<BR>
+ctCutsceneScript3BText0070Sub00,アヒルちゃん
+ctCutsceneScript3BText0070Sub01,ぬいぐるみ
+ctCutsceneScript3BText0070Sub02,ポンポンせん
+ctCutsceneScript3BText0071,おフロといえば<BR>アヒルちゃん よね。<BR>
+ctCutsceneScript3BText0072,やっぱりそうだよね。<BR>おフロには アヒルちゃんが<BR>いちばん にあうよね。<BR>
+ctCutsceneScript3BText0073,カエルちゃんも いいけど<BR>やっぱり アヒルちゃんには<BR>かてないよね。<BR>
+ctCutsceneScript3BText0074,あ～～!<BR>おフロってたのしいね<BR><NAME>。<BR>
+ctCutsceneScript3BText0075,そうね‥‥<BR>ぬいぐるみ‥‥ かしら?<BR>
+ctCutsceneScript3BText0076,え～ ぬいぐるみを<BR>おフロに もってはいったら<BR>ベロベロになっちゃうよ～。<BR>
+ctCutsceneScript3BText0077,おフロには アヒルちゃん<BR>とか カエルちゃんみたいな<BR>オモチャだよ～。<BR>
+ctCutsceneScript3BText0078,わかった?<BR><NAME>。<BR>
+ctCutsceneScript3BText0079,そうね～ ポンポンせん<BR>かしら。<BR>
+ctCutsceneScript3BText007A,ポンポンせん ってなぁに?<BR>
+ctCutsceneScript3BText007B,ポンポンせんはね～<BR>ねつエネルギーを りようした<BR>ブリキのおふねよ。<BR>
+ctCutsceneScript3BText007C,おふねに ロウソクとかを<BR>たてると ポンポンとおとを<BR>たてながら うごくのよ。<BR>
+ctCutsceneScript3BText007D,へえ～ おもしろそうだね。<BR>ねえねえ こんど みせてね。<BR>
+ctCutsceneScript3BText007E,おフロって いろいろあそべて<BR>たのしいね <NAME>。<BR>
+ctCutsceneScript3BText007F,う～ん‥‥<BR>おフロに オモチャは<BR>もって はいらないわ。<BR>
+ctCutsceneScript3BText0080,え～ おフロであそぶの<BR>たのしいのになぁ～。<BR>
+ctCutsceneScript3BText0081,オモチャがなくても<BR>こんなことができるのよ。<BR>いくわよ。<BR>
+ctCutsceneScript3BText0082,わぁ～!<BR>てで みずでっぽうだ!<BR>
+ctCutsceneScript3BText0083,やったな～。<BR>しかえしだーっ!<BR>えいっ!<BR>
+ctCutsceneScript3BText0084,きゃっ! やるわね。<BR>アイリス。<BR>
+ctCutsceneScript3BText0085,エヘヘ。おフロって<BR>たのしいね。<NAME>。<BR>
+ctCutsceneScript3BText0086,あ～ たのしかった‥‥<BR>
+ctCutsceneScript3BText0087,さて じゃあ そろそろ<BR>あがりましょう。アイリス。<BR>
+ctCutsceneScript3BText0088,<NAME>はん。<BR>おフロにいかへんか?<BR>
+ctCutsceneScript3BText0089,ひえたからだを<BR>あっためるには<BR>おフロが いちばんや。<BR>
+ctCutsceneScript3BText008A,あ～ エエおゆや～。<BR>きもちエエなぁ～。<BR>
+ctCutsceneScript3BText008B,それにしても ミカサを<BR>こおらせる まものには<BR>ビックリしたなぁ～。<BR>
+ctCutsceneScript3BText008C,からだが しんから<BR>ひえてもうたやろ?<BR>
+ctCutsceneScript3BText008D,からだを ゆっくりと<BR>あたためよな～。<BR>
+ctCutsceneScript3BText008E,それにしても エエかんじや。<BR>きもちエエわ～。<BR>ごくらく ごくらく。<BR>
+ctCutsceneScript3BText008F,ごくらく いうたら<BR>おんせんも エエよな～。<BR>
+ctCutsceneScript3BText0090,そうですね。<BR>
+ctCutsceneScript3BText0091,<NAME>はんは<BR>どんな おんせんが<BR>すきなんや。<BR>
+ctCutsceneScript3BText0092Sub00,ひなびた おんせん
+ctCutsceneScript3BText0092Sub01,ごうかな おんせん
+ctCutsceneScript3BText0092Sub02,メカまんさいの おんせん
+ctCutsceneScript3BText0093,おんせんといえば<BR>ひなびた しぶいおんせんが<BR>すきですね。<BR>
+ctCutsceneScript3BText0094,あ～ エエよな～。<BR>ひなびたおんせん。<BR>じょうちょ あふれててな～。<BR>
+ctCutsceneScript3BText0095,ユキなんか ふったらもー<BR>サイコーやで～。<BR>
+ctCutsceneScript3BText0096,すばらしい けしきのなかで<BR>ゆっくり あったまったら<BR>あたまもさえて<BR>
+ctCutsceneScript3BText0097,はつめい バンバン<BR>おもいつくんやろな～。<BR>
+ctCutsceneScript3BText0098,そうですね～<BR>しかけまんさいの ごうかな<BR>おんせんが すきです。<BR>
+ctCutsceneScript3BText0099,しかけまんさいか～。<BR>ジャングルブロに ジャグジー<BR>とか サウナとかやな。<BR>
+ctCutsceneScript3BText009A,うんうん。エエよな～。<BR>ながれるおフロっちゅーのも<BR>あるしな～。<BR>
+ctCutsceneScript3BText009B,ウチなんかが つくったら<BR>ジェットコースターとかも<BR>つけんねんけどな～。<BR>
+ctCutsceneScript3BText009C,おんせんに <BR>ジェットコースターですか?<BR>おもしろそうですね。<BR>
+ctCutsceneScript3BText009D,そやろ? ゆぶねのなかを<BR>360ど だいかいてんや!<BR>
+ctCutsceneScript3BText009E,あ～ おんせんに<BR>いきたいな～。<BR>
+ctCutsceneScript3BText009F,メカまんさいの おんせん<BR>なんか どうですか?<BR>
+ctCutsceneScript3BText00A0,おーっ! メカまんさいやて?<BR>エエんちゃうか～。<BR>
+ctCutsceneScript3BText00A1,さんすけくん とか<BR>ユキげしょうくん とか<BR>ドリンクくん とかな～。<BR>
+ctCutsceneScript3BText00A2,さんすけくんは<BR>せなかを ながしてくれる<BR>メカやねん。<BR>
+ctCutsceneScript3BText00A3,ユキげしょうくんは<BR>じんこうユキをふらせて<BR>ふんいきを だしてくれる。<BR>
+ctCutsceneScript3BText00A4,ドリンクくんは<BR>すきな のみものを<BR>もってきてくれるんや。<BR>
+ctCutsceneScript3BText00A5,ウチらは なにもいわんと<BR>おんせんに つかっとったら<BR>エエだけやねん。<BR>
+ctCutsceneScript3BText00A6,あ～ おもろそうやな～。<BR>メカまんさいの おんせん。<BR>
+ctCutsceneScript3BText00A7,う～ん‥‥<BR>とくに どういうのがすき‥‥<BR>というのは ありません。<BR>
+ctCutsceneScript3BText00A8,そうか。<NAME>はんは<BR>おんせんやったら なんでも<BR>オッケーなんやな。<BR>
+ctCutsceneScript3BText00A9,まあ そんなとこですね。<BR>
+ctCutsceneScript3BText00AA,あ～ エエおゆやった‥‥<BR>
+ctCutsceneScript3BText00AB,ほな そろそろ<BR>あがろか。<BR><NAME>はん。<BR>
+ctCutsceneScript3BText00AC,おう <NAME>。<BR>フロにいくぞ。<BR>
+ctCutsceneScript3BText00AD,ひえたからだを<BR>あっためるには<BR>フロが いちばんだ。<BR>
+ctCutsceneScript3BText00AE,あ～ いいおゆだな～。<BR>
+ctCutsceneScript3BText00AF,それにしても ミカサを<BR>こおらせる まものには<BR>おどろいたよな～。<BR>
+ctCutsceneScript3BText00B0,からだが しんから<BR>ひえちゃっただろ?<BR>
+ctCutsceneScript3BText00B1,ゆっくりと からだを<BR>あたためような。<BR>
+ctCutsceneScript3BText00B2,それにしても きもちいいぜ。<BR>
+ctCutsceneScript3BText00B3,そうですね。<BR>
+ctCutsceneScript3BText00B4,そうそう。<NAME>は<BR>ふだん フロにはいるときには<BR>どうやってはいるんだ?<BR>
+ctCutsceneScript3BText00B5Sub00,とびこむ
+ctCutsceneScript3BText00B5Sub01,からだに おゆをかけてから
+ctCutsceneScript3BText00B6,とびこみます。<BR>
+ctCutsceneScript3BText00B7,ドバーンと とびこむのか?<BR>それは たのしいけど<BR>まわりに めいわくだろ。<BR>
+ctCutsceneScript3BText00B8,ダメだぞ。<BR>ひとに めいわくかけちゃ。<BR>
+ctCutsceneScript3BText00B9,とか いいながら あたいも<BR>とびこんじゃうん だけどね。<BR>
+ctCutsceneScript3BText00BA,それにしても <BR>きもちいいよな～。<BR>
+ctCutsceneScript3BText00BB,からだに おゆをかけてから<BR>しずかに はいります。<BR>
+ctCutsceneScript3BText00BC,うんうん。そうだよな。<BR>それが フロのマナーって<BR>もんだよな。<BR>
+ctCutsceneScript3BText00BD,でもな あたいは<BR>とびこんじゃうんだよな～。<BR>これが。<BR>
+ctCutsceneScript3BText00BE,もちろん だれもいないとき<BR>だけどな。<BR>
+ctCutsceneScript3BText00BF,きもちいいんだぜ。<BR>ドッパーンと とびこむの。<BR>
+ctCutsceneScript3BText00C0,う～ん‥‥ どうやってって<BR>きかれても ふつうに<BR>あしから はいりますが‥‥<BR>
+ctCutsceneScript3BText00C1,あしから‥‥<BR>まあ そりゃ そうだわな。<BR>
+ctCutsceneScript3BText00C2,フロに あたまから<BR>とびこむやつは いないよな。<BR>
+ctCutsceneScript3BText00C3,あ～ いいフロだった‥‥<BR>
+ctCutsceneScript3BText00C4,さて じゃあ そろそろ<BR>あがろうぜ <NAME>。<BR>
+ctCutsceneScript3BText00C5,<NAME>さん。<BR>おフロ しましょー!<BR>
+ctCutsceneScript3BText00C6,ひえたからだを<BR>あっためるには<BR>おフロが いちばんでーす。<BR>
+ctCutsceneScript3BText00C7,あ～ いいおゆで～す。<BR>
+ctCutsceneScript3BText00C8,それにしても ミカサを<BR>こおらせる まものには<BR>おどろきました。<BR>
+ctCutsceneScript3BText00C9,からだが しんから<BR>ひえひえでーす。<BR>
+ctCutsceneScript3BText00CA,ゆっくりと からだを<BR>あたためましょー。<BR>
+ctCutsceneScript3BText00CB,それにしても<BR>きもちいいでーす。<BR>
+ctCutsceneScript3BText00CC,でも にゅうよくざいを<BR>いれると もっときもちよく<BR>なりまーす。<BR>
+ctCutsceneScript3BText00CD,<NAME>さんは<BR>どんな にゅうよくざいが<BR>すきですか?<BR>
+ctCutsceneScript3BText00CESub00,バラの かおりの
+ctCutsceneScript3BText00CESub01,もりの かおりの
+ctCutsceneScript3BText00CESub02,ニンニクいりの
+ctCutsceneScript3BText00CF,バラのかおりがする<BR>にゅうよくざい が<BR>すきです。<BR>
+ctCutsceneScript3BText00D0,Oh! バラのかおり<BR>さいこうでーす。<BR>
+ctCutsceneScript3BText00D1,わたしも バラのかおり<BR>だいすきでーす。<BR>
+ctCutsceneScript3BText00D2,おフロで からだをやすめ<BR>バラのかおりで こころを<BR>リラックスさせまーす!<BR>
+ctCutsceneScript3BText00D3,こんど おフロに バラの<BR>はなびらを うかべましょう。<BR>ねっ <NAME>さん。<BR>
+ctCutsceneScript3BText00D4,もりの かおりがする<BR>にゅうよくざい が<BR>すきです。<BR>
+ctCutsceneScript3BText00D5,Oh! もりのかおり。<BR>しんりんよく でーすね。<BR>
+ctCutsceneScript3BText00D6,わたしも すがすがしい<BR>もりのかおり すきでーす。<BR>
+ctCutsceneScript3BText00D7,とても リラックス<BR>できまーす。<BR>
+ctCutsceneScript3BText00D8,おフロで みも こころも<BR>リラックスする。<BR>これ サイコーです。<BR>
+ctCutsceneScript3BText00D9,ニンニクいりの<BR>にゅうよくざい が<BR>すきです。<BR>
+ctCutsceneScript3BText00DA,Oh! ニンニク。<BR>からだポカポカ<BR>あたたまりまーす。<BR>
+ctCutsceneScript3BText00DB,BUT! においが<BR>ダメダメでーす。<BR>
+ctCutsceneScript3BText00DC,いくら からだが<BR>あたたまるといっても<BR>わたしは ダメでーす。<BR>
+ctCutsceneScript3BText00DD,でも ギョーザは<BR>だいすきでーす。<BR>おいしーですねー!<BR>
+ctCutsceneScript3BText00DE,う～ん‥‥ とくに すきな<BR>にゅうよくざい というのは<BR>ありません。<BR>
+ctCutsceneScript3BText00DF,そうなんですか?<BR>そのひの きぶんで<BR>かえるんでーすね。<BR>
+ctCutsceneScript3BText00E0,まあ そんなとこですね。<BR>
+ctCutsceneScript3BText00E1,あ～ きもちよかったでーす。<BR>
+ctCutsceneScript3BText00E2,じゃあ そろそろ<BR>あがりましょう。<BR><NAME>さん。<BR>
+ctCutsceneScript3BText00E3,<NAME><BR>おフロにいこう。<BR>
+ctCutsceneScript3BText00E4,ひえたからだを<BR>あたためるには<BR>おフロが いちばんだ。<BR>
+ctCutsceneScript3BText00E5,‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3BText00E6,それにしても ミカサを<BR>こおらせる まものが<BR>いるなんてね‥‥<BR>
+ctCutsceneScript3BText00E7,このさきも ゆだんは<BR>できない。<BR>
+ctCutsceneScript3BText00E8,いまは ゆっくりと<BR>ひえたからだを かいふく<BR>させるんだ。<BR>
+ctCutsceneScript3BText00E9,からだのケアは<BR>はなぐみたいいん としての<BR>ぎむだよ。<BR>
+ctCutsceneScript3BText00EA,はい。<BR>
+ctCutsceneScript3BText00EB,<NAME>。<BR>しゅうになんかい<BR>おフロにはいる?<BR>
+ctCutsceneScript3BText00ECSub00,1かいです
+ctCutsceneScript3BText00ECSub01,3かいです
+ctCutsceneScript3BText00ECSub02,まいにちです
+ctCutsceneScript3BText00ED,そうですね～<BR>しゅうに 1かい ですね。<BR>
+ctCutsceneScript3BText00EE,<NAME>。<BR>キミは じょせいなんだろ?<BR>
+ctCutsceneScript3BText00EF,それが しゅうに1かい<BR>なのか。<BR>
+ctCutsceneScript3BText00F0,しかも いまボクは<BR>からだのケアも たいせつな<BR>にんむだ とおしえたはず‥‥<BR>
+ctCutsceneScript3BText00F1,あっ す すみません。<BR>こんどから まいにち<BR>はいるようにします。<BR>
+ctCutsceneScript3BText00F2,あたりまえだよ。<BR>
+ctCutsceneScript3BText00F3,そうですね～<BR>しゅうに 3 4かい<BR>ぐらいですね。<BR>
+ctCutsceneScript3BText00F4,しゅうに 3 4かい。<BR>いちにちおきだね。<BR>
+ctCutsceneScript3BText00F5,しかし さっきもいったように<BR>からだのケアも たいせつな<BR>にんむだ。<BR>
+ctCutsceneScript3BText00F6,できれば まいにち<BR>はいったほうがいい。<BR>
+ctCutsceneScript3BText00F7,はい。<BR>
+ctCutsceneScript3BText00F8,おフロには まいにち<BR>はいっていますよ。<BR>
+ctCutsceneScript3BText00F9,そう‥‥<BR>
+ctCutsceneScript3BText00FA,さっきもいったように<BR>からだのケアも たいせつな<BR>にんむだ。<BR>
+ctCutsceneScript3BText00FB,おフロにはいって そのひの<BR>つかれを いやす。<BR>
+ctCutsceneScript3BText00FC,これは とてもたいせつな<BR>ことだからね。<BR>
+ctCutsceneScript3BText00FD,う～ん‥‥<BR>とくに なんかいとかは‥‥<BR>きめていませんが‥‥<BR>
+ctCutsceneScript3BText00FE,そうか‥‥<BR>そのひの きぶんで<BR>かわるのか‥‥<BR>
+ctCutsceneScript3BText00FF,さっきもいったように<BR>からだのケアも たいせつな<BR>にんむだ。<BR>
+ctCutsceneScript3BText0100,できれば まいにち はいって<BR>つかれを とるように。<BR>
+ctCutsceneScript3BText0101,はい。<BR>
+ctCutsceneScript3BText0102,‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript3BText0103,そろそろ あがろう。<BR><NAME>。<BR>
+ctCutsceneScript3BText0104,だれに はなしかけますか?<BR>
+ctCutsceneScript3BText0105Sub00,さくら さん
+ctCutsceneScript3BText0105Sub01,すみれ さん
+ctCutsceneScript3BText0105Sub02,ほかの たいいん
+ctCutsceneScript3BText0106Sub00,マリア さん
+ctCutsceneScript3BText0106Sub01,アイリス
+ctCutsceneScript3BText0106Sub02,ほかの たいいん
+ctCutsceneScript3BText0107Sub00,こうらん さん
+ctCutsceneScript3BText0107Sub01,カンナ さん
+ctCutsceneScript3BText0107Sub02,ほかの たいいん
+ctCutsceneScript3BText0108Sub00,おりひめ さん
+ctCutsceneScript3BText0108Sub01,レニ さん
+ctCutsceneScript3BText0108Sub02,ほかの たいいん
+ctCutsceneScript3BText0109,さくらさん。<BR>いいおフロでしたね。<BR>
+ctCutsceneScript3BText010A,そうですね。<BR><NAME>さん。<BR>
+ctCutsceneScript3BText010B,ところで <NAME>さんは<BR>おフロあがりに なにを<BR>のみます?<BR>
+ctCutsceneScript3BText010CSub00,コーヒーぎゅうにゅう
+ctCutsceneScript3BText010CSub01,オレンジジュース
+ctCutsceneScript3BText010CSub02,りょくちゃ
+ctCutsceneScript3BText010D,おフロあがり といえば<BR>コーヒーぎゅうにゅう<BR>ですね。<BR>
+ctCutsceneScript3BText010E,そうなんですか。<BR>あたしは あたたかい<BR>りょくちゃ なんですよ。<BR>
+ctCutsceneScript3BText010F,なんでも おフロあがりには<BR>あたたかい のみものが<BR>からだに いいんですって。<BR>
+ctCutsceneScript3BText0110,おフロあがり といえば<BR>オレンジジュース ですね。<BR>
+ctCutsceneScript3BText0111,そうなんですか。<BR>あたしは あたたかい<BR>りょくちゃ なんですよ。<BR>
+ctCutsceneScript3BText0112,なんでも おフロあがりには<BR>あたたかい のみものが<BR>からだに いいんですって。<BR>
+ctCutsceneScript3BText0113,おフロあがり といえば<BR>りょくちゃ ですね。<BR>
+ctCutsceneScript3BText0114,そうなんですか。<BR>あたしも そうなんですよ。<BR>
+ctCutsceneScript3BText0115,あたたかい りょくちゃが<BR>おいしいですよね～。<BR>それに‥‥<BR>
+ctCutsceneScript3BText0116,おフロあがりには あたたかい<BR>のみものが からだにいい<BR>そうですよ。<BR>
+ctCutsceneScript3BText0117,よくひえた むぎちゃです。<BR>
+ctCutsceneScript3BText0118,そうなんですか。<BR>あたしは あたたかい<BR>りょくちゃ なんですよ。<BR>
+ctCutsceneScript3BText0119,なんでも おフロあがりには<BR>あたたかい のみものが<BR>からだに いいんですって。<BR>
+ctCutsceneScript3BText011A,あー きもちよかった。<BR>
+ctCutsceneScript3BText011B,さて ひえたからだも<BR>あたたまりましたね。<BR>
+ctCutsceneScript3BText011C,じゃあ さくせんしつへ<BR>いきましょう。<BR>
+ctCutsceneScript3BText011D,かえでさんが<BR>まっていますから。<BR>
+ctCutsceneScript3BText011E,すみれさん。<BR>いいおフロでしたね。<BR>
+ctCutsceneScript3BText011F,そうですわね。<BR><NAME>さん。<BR>
+ctCutsceneScript3BText0120,ところで <NAME>さんは<BR>おフロあがりに なにを<BR>おのみに なるのかしら?<BR>
+ctCutsceneScript3BText0121Sub00,ぎゅうにゅう
+ctCutsceneScript3BText0121Sub01,オレンジジュース
+ctCutsceneScript3BText0121Sub02,こうちゃ
+ctCutsceneScript3BText0122,おフロあがり といえば<BR>ぎゅうにゅう ですね。<BR>
+ctCutsceneScript3BText0123,そうなんですの?<BR>わたくしは あたたかい<BR>こうちゃ なんですのよ。<BR>
+ctCutsceneScript3BText0124,おフロあがりには あたたかい<BR>のみもの のほうが からだに<BR>いいと いわれてますのよ。<BR>
+ctCutsceneScript3BText0125,おフロあがり といえば<BR>オレンジジュース ですね。<BR>
+ctCutsceneScript3BText0126,そうなんですの?<BR>わたくしは あたたかい<BR>こうちゃ なんですのよ。<BR>
+ctCutsceneScript3BText0127,おフロあがりには あたたかい<BR>のみもの のほうが からだに<BR>いいと いわれてますのよ。<BR>
+ctCutsceneScript3BText0128,おフロあがり といえば<BR>こうちゃ ですね。<BR>
+ctCutsceneScript3BText0129,まあ わたくしも<BR>こうちゃ なんですのよ。<BR>
+ctCutsceneScript3BText012A,あたたかい こうちゃが<BR>おフロあがりの からだへと<BR>しみわたって<BR>
+ctCutsceneScript3BText012B,これがまた<BR>かくべつですわよねぇ～。<BR>
+ctCutsceneScript3BText012C,よくひえた むぎちゃです。<BR>
+ctCutsceneScript3BText012D,そうなんですの?<BR>わたくしは あたたかい<BR>こうちゃ なんですのよ。<BR>
+ctCutsceneScript3BText012E,おフロあがりには あたたかい<BR>のみもの のほうが からだに<BR>いいと いわれてますのよ。<BR>
+ctCutsceneScript3BText012F,きもちよかったですわね<BR><NAME>さん。<BR>
+ctCutsceneScript3BText0130,さて ひえたからだも<BR>あたたまりましたね。<BR>
+ctCutsceneScript3BText0131,では さくせんしつへ<BR>まいりますわよ。<BR>
+ctCutsceneScript3BText0132,かえでさんが<BR>まっていますわ。<BR>
+ctCutsceneScript3BText0133,マリアさん。<BR>いいおフロでしたね。<BR>
+ctCutsceneScript3BText0134,そうね。<NAME>。<BR>
+ctCutsceneScript3BText0135,ところで <NAME>は<BR>おフロあがりには まず<BR>なにをする?<BR>
+ctCutsceneScript3BText0136Sub00,たいじゅうをはかる
+ctCutsceneScript3BText0136Sub01,ジュースをのむ
+ctCutsceneScript3BText0136Sub02,ハナをかむ
+ctCutsceneScript3BText0137,たいじゅうを はかります。<BR>いちばん きになりますから。<BR>
+ctCutsceneScript3BText0138,まあ おんなのこだったら<BR>そうね。<BR>
+ctCutsceneScript3BText0139,だけど おフロあがりは<BR>まず すいぶんほきゅうよ。<BR>
+ctCutsceneScript3BText013A,おフロにはいると けっこう<BR>からだの すいぶんが<BR>うばわれているのよ。<BR>
+ctCutsceneScript3BText013B,でも のむのは<BR>あたたかい のみもの<BR>のほうが いいわよ。<BR>
+ctCutsceneScript3BText013C,つめたい のみものは<BR>けつえきの ながれを<BR>わるくしてしまうから。<BR>
+ctCutsceneScript3BText013D,まず ジュースをのみます。<BR>
+ctCutsceneScript3BText013E,そうね。<BR>おフロあがりは まず<BR>すいぶんほきゅうね。<BR>
+ctCutsceneScript3BText013F,おフロにはいると けっこう<BR>からだの すいぶんが<BR>うばわれているのよ。<BR>
+ctCutsceneScript3BText0140,でも のむのは<BR>あたたかい のみもの<BR>のほうが いいわよ。<BR>
+ctCutsceneScript3BText0141,つめたい のみものは<BR>けつえきの ながれを<BR>わるくしてしまうから。<BR>
+ctCutsceneScript3BText0142,まずは ハナをかみます。<BR>
+ctCutsceneScript3BText0143,それは そうね‥‥<BR>
+ctCutsceneScript3BText0144,だけど おフロあがりは<BR>まず すいぶんほきゅうよ。<BR>
+ctCutsceneScript3BText0145,おフロにはいると けっこう<BR>からだの すいぶんが<BR>うばわれているのよ。<BR>
+ctCutsceneScript3BText0146,でも のむのは<BR>あたたかい のみもの<BR>のほうが いいわよ。<BR>
+ctCutsceneScript3BText0147,つめたい のみものは<BR>けつえきの ながれを<BR>わるくしてしまうから。<BR>
+ctCutsceneScript3BText0148,そうですね‥‥<BR>おフロあがりに すること‥‥<BR>とくにありませんけど‥‥<BR>
+ctCutsceneScript3BText0149,おフロあがりにはね<BR>まず すいぶんほきゅうよ。<BR>
+ctCutsceneScript3BText014A,おフロにはいると けっこう<BR>からだの すいぶんが<BR>うばわれているのよ。<BR>
+ctCutsceneScript3BText014B,でも のむのは<BR>あたたかい のみもの<BR>のほうが いいわよ。<BR>
+ctCutsceneScript3BText014C,つめたい のみものは<BR>けつえきの ながれを<BR>わるくしてしまうから。<BR>
+ctCutsceneScript3BText014D,さっぱりして<BR>きもちよくなったわ～。<BR>
+ctCutsceneScript3BText014E,さあ ひえたからだも<BR>あたたまったわね。<BR>
+ctCutsceneScript3BText014F,では さくせんしつへ<BR>いくわよ。<BR>
+ctCutsceneScript3BText0150,かえでさんが<BR>まっているわ。<BR>
+ctCutsceneScript3BText0151,アイリス。<BR>いいおフロだったわね。<BR>
+ctCutsceneScript3BText0152,そうだね。<NAME>。<BR>
+ctCutsceneScript3BText0153,<NAME>は<BR>おフロあがり といえば<BR>まずさいしょに なにするの?<BR>
+ctCutsceneScript3BText0154Sub00,たいじゅうをはかる
+ctCutsceneScript3BText0154Sub01,ジュースをのむ
+ctCutsceneScript3BText0154Sub02,ハナをかむ
+ctCutsceneScript3BText0155,たいじゅうを はかるわ。<BR>いちばん きになるから。<BR>
+ctCutsceneScript3BText0156,あ～ たいじゅう<BR>きにしてるんだ <NAME>。<BR>
+ctCutsceneScript3BText0157,アイリスはね～<BR>おフロあがりには まず<BR>おハナをかむんだよ。<BR>
+ctCutsceneScript3BText0158,だって おハナたらしてたら<BR>レディとして かっこわるい<BR>もんね。<BR>
+ctCutsceneScript3BText0159,まず ジュースをのむわね。<BR>
+ctCutsceneScript3BText015A,へ～ そうなんだ～。<BR>
+ctCutsceneScript3BText015B,アイリスはね～<BR>おフロあがりには まず<BR>おハナをかむんだよ。<BR>
+ctCutsceneScript3BText015C,だって おハナたらしたまま<BR>ジュースのんだら しょっぱく<BR>なっちゃうもんね。<BR>
+ctCutsceneScript3BText015D,まずは ハナをかむわね。<BR>
+ctCutsceneScript3BText015E,わー!<BR>アイリスとおんなじだ。<BR>
+ctCutsceneScript3BText015F,アイリスもね<BR>おフロあがりには まず<BR>おハナをかむんだよ。<BR>
+ctCutsceneScript3BText0160,だって おハナたらしてたら<BR>レディとして かっこわるい<BR>もんね。<BR>
+ctCutsceneScript3BText0161,そうね～<BR>おフロあがりに すること‥‥<BR>とくにないけどな～。<BR>
+ctCutsceneScript3BText0162,へ～ そうなんだ～。<BR>
+ctCutsceneScript3BText0163,アイリスはね～<BR>おフロあがりには まず<BR>おハナをかむんだよ。<BR>
+ctCutsceneScript3BText0164,だって おハナたらしてたら<BR>レディとして かっこわるい<BR>もんね。<BR>
+ctCutsceneScript3BText0165,あーきもちよかった。<BR>
+ctCutsceneScript3BText0166,じゃあ <NAME>。<BR>そろそろ さくせんしつへ<BR>いこう!<BR>
+ctCutsceneScript3BText0167,かえでおねえちゃんが<BR>まってるよ。<BR>
+ctCutsceneScript3BText0168,こうらんさん。<BR>いいおフロでしたね。<BR>
+ctCutsceneScript3BText0169,そやな <NAME>はん。<BR>
+ctCutsceneScript3BText016A,ところで <NAME>はんは<BR>おフロあがり どんなのみもの<BR>のむんや?<BR>
+ctCutsceneScript3BText016BSub00,コーヒーぎゅうにゅう
+ctCutsceneScript3BText016BSub01,オレンジジュース
+ctCutsceneScript3BText016BSub02,ウーロンちゃ
+ctCutsceneScript3BText016C,おフロあがり といえば<BR>コーヒーぎゅうにゅう<BR>ですね。<BR>
+ctCutsceneScript3BText016D,そうなんか。<BR>ウチは あったかい<BR>ウーロンちゃ なんや。<BR>
+ctCutsceneScript3BText016E,なんでも フロあがりは<BR>あったかいもんのほうが<BR>からだにエエらしいで。<BR>
+ctCutsceneScript3BText016F,おフロあがり といえば<BR>オレンジジュース ですね。<BR>
+ctCutsceneScript3BText0170,そうなんか。<BR>ウチは あったかい<BR>ウーロンちゃ なんや。<BR>
+ctCutsceneScript3BText0171,なんでも フロあがりは<BR>あったかいもんのほうが<BR>からだにエエらしいで。<BR>
+ctCutsceneScript3BText0172,おフロあがり といえば<BR>ウーロンちゃ ですね。<BR>
+ctCutsceneScript3BText0173,おっ! そうなんか!!<BR>ウチも そうなんや。<BR>
+ctCutsceneScript3BText0174,フロあがりは あったかい<BR>ウーロンちゃ。<BR>これにかぎるな～。<BR>
+ctCutsceneScript3BText0175,フロあがりの あったかい<BR>のみもんは からだにエエ<BR>ちゅー はなしやしな～。<BR>
+ctCutsceneScript3BText0176,よくひえた むぎちゃです。<BR>
+ctCutsceneScript3BText0177,そうなんか。<BR>ウチは あったかい<BR>ウーロンちゃ なんや。<BR>
+ctCutsceneScript3BText0178,なんでも フロあがりは<BR>あったかいもんのほうが<BR>からだにエエらしいで。<BR>
+ctCutsceneScript3BText0179,あ～きもちよかった。<BR>
+ctCutsceneScript3BText017A,さて ひえたからだも<BR>あったまったな。<BR>
+ctCutsceneScript3BText017B,ほな さくせんしつへ<BR>いこか。<BR>
+ctCutsceneScript3BText017C,かえではんが<BR>まってはるからな。<BR>
+ctCutsceneScript3BText017D,カンナさん。<BR>いいおフロでしたね。<BR>
+ctCutsceneScript3BText017E,そうだな。<NAME>。<BR>
+ctCutsceneScript3BText017F,ところでさ <NAME>。<BR>おまえ フロあがりに<BR>ジュースのむときにさー<BR>
+ctCutsceneScript3BText0180,どんなかっこで のむ?<BR>たとえばフルーツぎゅうにゅう<BR>とかだったら。<BR>
+ctCutsceneScript3BText0181Sub00,こしにてを あてて
+ctCutsceneScript3BText0181Sub01,チビチビと
+ctCutsceneScript3BText0181Sub02,オシャレに
+ctCutsceneScript3BText0182,やっぱり おフロあがりには<BR>こしにてを あてて<BR>グイッとのみますね。<BR>
+ctCutsceneScript3BText0183,そうだろう。<BR>やっぱ そうだよな～。<BR>
+ctCutsceneScript3BText0184,こしにてを あてて<BR>のむよな～。<BR>
+ctCutsceneScript3BText0185,あのポーズにゃ<BR>おとこも おんなも<BR>かんけいないよな～。<BR>
+ctCutsceneScript3BText0186,あーやって のむと<BR>かくべつに うまいもんな～。<BR>
+ctCutsceneScript3BText0187,チビチビと のみます。<BR>
+ctCutsceneScript3BText0188,チビチビって‥‥ おまえ<BR>ほにゅうびんの あかちゃん<BR>じゃねーんだからよー。<BR>
+ctCutsceneScript3BText0189,かんべんしてくれよ。<BR>
+ctCutsceneScript3BText018A,フロあがりの いっぱいは<BR>こしにてを あてて グイッと<BR>ごうかいに のむんだ。<BR>
+ctCutsceneScript3BText018B,こうやってのむと<BR>かくべつに うまいんだぜ。<BR>
+ctCutsceneScript3BText018C,そうですね‥‥ <BR>おんなのこらしく オシャレに<BR>のんでみようかしら。<BR>
+ctCutsceneScript3BText018D,オシャレって‥‥<BR>おまえ どうすんだ?<BR>ストローで のむのかよ。<BR>
+ctCutsceneScript3BText018E,かんべんしてくれよ。<BR>
+ctCutsceneScript3BText018F,フロあがりの いっぱいは<BR>こしにてを あてて グイッと<BR>ごうかいに のむんだ。<BR>
+ctCutsceneScript3BText0190,こうやってのむと<BR>かくべつに うまいんだぜ。<BR>
+ctCutsceneScript3BText0191,そうですね‥‥<BR>ふつうに のみますよ。<BR>
+ctCutsceneScript3BText0192,ふつうって‥‥ それじゃ <BR>おまえ フロあがりに<BR>たいして しつれいだろ!?<BR>
+ctCutsceneScript3BText0193,フロあがりの いっぱいは<BR>こしにてを あてて グイッと<BR>ごうかいに のむんだ。<BR>
+ctCutsceneScript3BText0194,こうやってのむと<BR>かくべつに うまいんだぜ。<BR>
+ctCutsceneScript3BText0195,さっぱりしたぜ～!<BR>
+ctCutsceneScript3BText0196,さて ひえたからだも<BR>あったまったし<BR>
+ctCutsceneScript3BText0197,そろそろ さくせんしつへ<BR>いこうか。<BR>
+ctCutsceneScript3BText0198,かえでさんが<BR>まってるからな。<BR>
+ctCutsceneScript3BText0199,おりひめさん。<BR>いいおフロでしたね。<BR>
+ctCutsceneScript3BText019A,そーですね。<BR><NAME>さん。<BR>
+ctCutsceneScript3BText019B,ところで <NAME>さんは<BR>おフロあがりには まず<BR>なにをしますか?<BR>
+ctCutsceneScript3BText019CSub00,たいじゅうをはかる
+ctCutsceneScript3BText019CSub01,ジュースをのむ
+ctCutsceneScript3BText019CSub02,ハナをかむ
+ctCutsceneScript3BText019D,たいじゅうを はかります。<BR>いちばん きになりますから。<BR>
+ctCutsceneScript3BText019E,Oh! やっぱり<BR><NAME>さんも<BR>そうなのでーすね。<BR>
+ctCutsceneScript3BText019F,レディは たいじゅうが<BR>いちばんきになりまーす。<BR>
+ctCutsceneScript3BText01A0,じょゆうとしても<BR>からだのラインを くずす<BR>わけには いきませーん。<BR>
+ctCutsceneScript3BText01A1,たいじゅうを きにすることは<BR>とても たいせつなこと<BR>でーす。<BR>
+ctCutsceneScript3BText01A2,まず ジュースをのみます。<BR>
+ctCutsceneScript3BText01A3,おフロあがりに<BR>すいぶんほきゅう。<BR>たいせつなことでーす。<BR>
+ctCutsceneScript3BText01A4,しかーし レディとして<BR>じょゆうとして もっと<BR>たいせつなこと ありまーす。<BR>
+ctCutsceneScript3BText01A5,それは たいじゅうでーす。<BR>
+ctCutsceneScript3BText01A6,じょゆうとして<BR>からだのラインをくずす<BR>わけには いきませーん。<BR>
+ctCutsceneScript3BText01A7,たいじゅうを きにすることは<BR>とても たいせつなこと<BR>でーす。<BR>
+ctCutsceneScript3BText01A8,まずは ハナをかみます。<BR>
+ctCutsceneScript3BText01A9,まあ‥‥ そうですねー。<BR>レディが ハナをたらしている<BR>のは みっともないでーす。<BR>
+ctCutsceneScript3BText01AA,しかーし レディとして<BR>じょゆうとして もっと<BR>たいせつなこと ありまーす。<BR>
+ctCutsceneScript3BText01AB,それは たいじゅうでーす。<BR>
+ctCutsceneScript3BText01AC,とくに じょゆうとして<BR>からだのラインを くずす<BR>わけには いきませーん。<BR>
+ctCutsceneScript3BText01AD,たいじゅうを きにすることは<BR>とても たいせつなこと<BR>でーす。<BR>
+ctCutsceneScript3BText01AE,そうですね‥‥<BR>おフロあがりに すること‥‥<BR>とくにありませんけど‥‥<BR>
+ctCutsceneScript3BText01AF,おフロあがりには<BR>まず たいじゅうをはかる<BR>これは キホンでーす!<BR>
+ctCutsceneScript3BText01B0,これは レディとして<BR>じょゆうとして とても<BR>たいせつなことでーす。<BR>
+ctCutsceneScript3BText01B1,とくに じょゆうとして<BR>からだのラインを くずす<BR>わけには いきませーん。<BR>
+ctCutsceneScript3BText01B2,たいじゅうを きにすることは<BR>とても たいせつなこと<BR>でーす。<BR>
+ctCutsceneScript3BText01B3,きもちよかったでーす。<BR>
+ctCutsceneScript3BText01B4,さあ からだも<BR>あたたまりました。<BR>
+ctCutsceneScript3BText01B5,そろそろ さくせんしつへ<BR>いきましょう。<BR>
+ctCutsceneScript3BText01B6,かえでさんが<BR>まってまーす。<BR>
+ctCutsceneScript3BText01B7,レニさん。<BR>いいおフロでしたね。<BR>
+ctCutsceneScript3BText01B8,うん‥‥<BR>
+ctCutsceneScript3BText01B9,<NAME><BR>おフロあがりには まず<BR>なにをする?<BR>
+ctCutsceneScript3BText01BASub00,たいじゅうをはかる
+ctCutsceneScript3BText01BASub01,ジュースをのむ
+ctCutsceneScript3BText01BASub02,ハナをかむ
+ctCutsceneScript3BText01BB,たいじゅうを はかります。<BR>いちばん きになりますから。<BR>
+ctCutsceneScript3BText01BC,ふーん‥‥<BR>たしかに けんこうかんりは<BR>たいせつだ。<BR>
+ctCutsceneScript3BText01BD,だけど おフロあがりは<BR>まず すいぶんほきゅうだ。<BR>
+ctCutsceneScript3BText01BE,おフロでは<BR>からだの すいぶんが<BR>うばわれているんだ。<BR>
+ctCutsceneScript3BText01BF,でも このとき<BR>のむのは あたたかいもの。<BR>
+ctCutsceneScript3BText01C0,つめたい のみものは<BR>けつえきの ながれを<BR>わるくするから。<BR>
+ctCutsceneScript3BText01C1,まず ジュースをのみます。<BR>
+ctCutsceneScript3BText01C2,そう。<BR>おフロあがりは まず<BR>すいぶんほきゅう。<BR>
+ctCutsceneScript3BText01C3,おフロでは<BR>からだの すいぶんが<BR>うばわれているからね。<BR>
+ctCutsceneScript3BText01C4,でも このとき<BR>のむのは あたたかいもの<BR>がいい。<BR>
+ctCutsceneScript3BText01C5,つめたい のみものは<BR>けつえきの ながれを<BR>わるくするから。<BR>
+ctCutsceneScript3BText01C6,まずは ハナをかみます。<BR>
+ctCutsceneScript3BText01C7,まあ‥‥ そうだね。<BR>
+ctCutsceneScript3BText01C8,だけど おフロあがりは<BR>まず すいぶんほきゅう。<BR>
+ctCutsceneScript3BText01C9,おフロでは<BR>からだの すいぶんが<BR>うばわれているから。<BR>
+ctCutsceneScript3BText01CA,でも このとき<BR>のむのは あたたかいもの<BR>がいい。<BR>
+ctCutsceneScript3BText01CB,つめたい のみものは<BR>けつえきの ながれを<BR>わるくするから。<BR>
+ctCutsceneScript3BText01CC,そうですね‥‥<BR>おフロあがりに すること‥‥<BR>とくにありませんけど‥‥<BR>
+ctCutsceneScript3BText01CD,おフロあがりにはね<BR>まず すいぶんほきゅう。<BR>
+ctCutsceneScript3BText01CE,おフロでは<BR>からだの すいぶんが<BR>うばわれているから。<BR>
+ctCutsceneScript3BText01CF,でも このとき<BR>のむのは あたたかいもの<BR>がいい。<BR>
+ctCutsceneScript3BText01D0,つめたい のみものは<BR>けつえきの ながれを<BR>わるくするから。<BR>
+ctCutsceneScript3BText01D1,よし さっぱりした。<BR>
+ctCutsceneScript3BText01D2,では さくせんしつへ<BR>いこう。<BR>
+ctCutsceneScript3BText01D3,かえでさんが<BR>まってる。<BR>

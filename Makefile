@@ -62,6 +62,7 @@ GAME_EVENT_SRC_DIR := $(SRC_DIR)/scene
 TEXT_DIR := $(GAME_DIR)/text
 GAME_SCRIPT_DIR := $(GAME_DIR)/scripts
 CUTSCENE_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/cutscene
+CUTSCENE_TEXT_DIR := $(TEXT_DIR)/cutscene
 GAMESCENE_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/gamescene
 GAMESCENE_NPC_SCRIPT_DIR := $(GAME_SCRIPT_DIR)/gamescene_npc
 GAMESCENE_NPC_TEXT_DIR := $(TEXT_DIR)/gamescene_npc
@@ -138,8 +139,8 @@ $(TILESET_OUT_DIR)/%.$(COMPRESSED_2BPP_TYPE): $(TILESET_OUT_DIR)/%.$(2BPP_TYPE) 
 	$(PYTHON) $(SCRIPT_DIR)/compress_tileset.py $@ $<
 
 # build/cs.*.asm from cutscene scripts
-$(BUILD_DIR)/cs.%.$(SOURCE_TYPE): $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) | $(BUILD_DIR)
-	$(PYTHON) $(SCRIPT_DIR)/cs2asm.py $@ $<
+$(BUILD_DIR)/cs.%.$(SOURCE_TYPE): $(CUTSCENE_SCRIPT_DIR)/%.$(SOURCE_TYPE) $(CUTSCENE_TEXT_DIR)/%.$(CSV_TYPE) | $(BUILD_DIR)
+	$(PYTHON) $(SCRIPT_DIR)/cs2asm.py $@ $^
 
 # build/gs.npc.text.asm from all GSNPC NPC CSVs
 # This is a single rule since it handles space management
@@ -161,10 +162,11 @@ dump_tilesets: | $(TILESET_GFX_DIR)
 	rm $(call ESCAPE,$(TILESET_GFX_DIR)/*.$(RAW_2BPP_SRC_TYPE)) || echo ""
 	$(PYTHON) $(SCRIPT_DIR)/dump_tilesets.py "$(ORIGINAL_ROM)" "$(GFX_SRC_DIR)" "$(TILESET_GFX_DIR)" "$(TILESET_OUT_DIR)"
 
-dump_cutscene_scripts: | $(CUTSCENE_SCRIPT_DIR)
+dump_cutscene_scripts: | $(CUTSCENE_SCRIPT_DIR) $(CUTSCENE_TEXT_DIR)
 	rm $(call ESCAPE,$(CUTSCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
 	rm $(call ESCAPE,$(GAME_EVENT_SRC_DIR)/cutscene_script_table.$(SOURCE_TYPE)) || echo ""
-	$(PYTHON) $(SCRIPT_DIR)/dump_cutscene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(CUTSCENE_SCRIPT_DIR)"
+	rm $(call ESCAPE,$(CUTSCENE_TEXT_DIR)/*.$(CSV_TYPE)) || echo ""
+	$(PYTHON) $(SCRIPT_DIR)/dump_cutscene_scripts.py "$(ORIGINAL_ROM)" "$(GAME_EVENT_SRC_DIR)" "$(CUTSCENE_SCRIPT_DIR)" "$(CUTSCENE_TEXT_DIR)"
 
 dump_gamescene_scripts: | $(GAMESCENE_SCRIPT_DIR) $(GAMESCENE_NPC_SCRIPT_DIR) $(GAMESCENE_NPC_TEXT_DIR)
 	rm $(call ESCAPE,$(GAMESCENE_SCRIPT_DIR)/*.$(SOURCE_TYPE)) || echo ""
@@ -193,6 +195,9 @@ $(TILESET_OUT_DIR):
 
 $(CUTSCENE_SCRIPT_DIR):
 	mkdir -p $(CUTSCENE_SCRIPT_DIR)
+
+$(CUTSCENE_TEXT_DIR):
+	mkdir -p $(CUTSCENE_TEXT_DIR)
 
 $(GAMESCENE_SCRIPT_DIR):
 	mkdir -p $(GAMESCENE_SCRIPT_DIR)

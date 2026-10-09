@@ -6,31 +6,31 @@ CutsceneScript19::
   Unknown12 $09
   FlagIsFemale
   ConditionalBranch .reference_008F,$02,$04,$01,$01,$20,$00
-  WriteText "<NAME>くん<BR>おつかれさま。<BR>"
+  WriteText ctCutsceneScript19Text0000
   PromptContinue
-  WriteText "では ほうこくを<BR>おねがいするわ。<BR>"
+  WriteText ctCutsceneScript19Text0001
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>『まじんき・けん』を<BR>かいしゅうしてきました。<BR>"
+  WriteText ctCutsceneScript19Text0002
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "よくやったわね。<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript19Text0003
   PromptContinue
-  WriteText "では つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>"
+  WriteText ctCutsceneScript19Text0004
   PromptContinue
   End
 .reference_008F
-  WriteText "<NAME><BR>おつかれさま。<BR>"
+  WriteText ctCutsceneScript19Text0005
   PromptContinue
-  WriteText "では ほうこくを<BR>おねがいするわ。<BR>"
+  WriteText ctCutsceneScript19Text0006
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>『まじんき・けん』を<BR>かいしゅうしてきました。<BR>"
+  WriteText ctCutsceneScript19Text0007
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "よくやったわね。<BR><NAME>。<BR>"
+  WriteText ctCutsceneScript19Text0008
   PromptContinue
-  WriteText "では つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>"
+  WriteText ctCutsceneScript19Text0009
   PromptContinue
   End
   End

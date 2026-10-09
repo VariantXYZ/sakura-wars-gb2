@@ -6,241 +6,241 @@ CutsceneScript2A::
   Unknown12 $17
   FlagIsFemale
   ConditionalBranch .reference_0545,$02,$04,$01,$01,$20,$00
-  WriteText "ミカサでみつけた<BR>この ティーカップ‥‥<BR>"
+  WriteText ctCutsceneScript2AText0000
   Unknown05 $84,$26,$01,$00
   End
-  WriteText "きっと すみれさんのだな。<BR>"
+  WriteText ctCutsceneScript2AText0001
   PromptContinue
-  WriteText "すみれさんのところへ<BR>もっていこう。<BR>"
+  WriteText ctCutsceneScript2AText0002
   PromptContinue
   Unknown1E $0D
-  WriteText "すみれさん。<BR>しつれいします。<BR>"
+  WriteText ctCutsceneScript2AText0003
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "<NAME>さん。<BR>なにかごようですの?<BR>"
+  WriteText ctCutsceneScript2AText0004
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ みつけたんですが<BR>すみれさんのですか?<BR>"
+  WriteText ctCutsceneScript2AText0005
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "ティーカップ‥‥<BR>"
+  WriteText ctCutsceneScript2AText0006
   PromptContinue
   SetPortrait $02,$03,$03
-  WriteText "その すみれの はながらは<BR>たしかに わたくしの<BR>ものですわ。<BR>"
+  WriteText ctCutsceneScript2AText0007
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "わざわざ とどけてくださって<BR>すみませんわね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript2AText0008
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "それにしても<BR>なかなか がんばっている<BR>ようですわね。<BR>"
+  WriteText ctCutsceneScript2AText0009
   PromptContinue
-  WriteText "そんな <NAME>さんに<BR>いいことを おしえましょう。<BR>"
+  WriteText ctCutsceneScript2AText000A
   PromptContinue
-  WriteText "かんざきふうじんりゅうの<BR>ごくいですわ。<BR>"
+  WriteText ctCutsceneScript2AText000B
   PromptContinue
-  WriteText "かんざきふうじんりゅうは<BR>1に ゆうがに<BR>2に あでやかに<BR>"
+  WriteText ctCutsceneScript2AText000C
   PromptContinue
-  WriteText "3 4 がなくて<BR>5に じょうひんに<BR>ですのよ。<BR>"
+  WriteText ctCutsceneScript2AText000D
   PromptContinue
-  WriteText "すなわち<BR>かんざきふうじんりゅうの<BR>ごくいを ひとことでいうと<BR>"
+  WriteText ctCutsceneScript2AText000E
   PromptContinue
-  WriteText "‥‥わかりますわね。<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript2AText000F
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>かんざきふうじんりゅうの <BR>ごくいをひとことでいうと‥‥<BR>"
+  WriteText ctCutsceneScript2AText0010
   PromptContinue
-  OptionSelectTimed $05,$03,"うつくしく たたかう","わがままに たたかう","おけしょうして たたかう"
+  OptionSelectTimed $05,$03,ctCutsceneScript2AText0011Sub00,ctCutsceneScript2AText0011Sub01,ctCutsceneScript2AText0011Sub02
   ConditionalBranch .reference_0238,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_0310,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_03C8,$02,$01,$01,$02,$20,$00
   Branch .reference_049D
 .reference_0238
   Unknown0F $00,$01
-  WriteText "かんざきふうじんりゅうとは<BR>うつくしく たたかうこと<BR>ですね。<BR>"
+  WriteText ctCutsceneScript2AText0012
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "そのとおりですわ。<BR>でも ただ うつくしい<BR>だけでは ありませんのよ。<BR>"
+  WriteText ctCutsceneScript2AText0013
   PromptContinue
-  WriteText "ほんとうに わざを<BR>きわめたもの というのは<BR>"
+  WriteText ctCutsceneScript2AText0014
   PromptContinue
-  WriteText "たたかいであっても<BR>げいじゅつのように<BR>うつくしい ものなのですわ。<BR>"
+  WriteText ctCutsceneScript2AText0015
   PromptContinue
-  WriteText "これは<BR>そのように なりなさい<BR>というおしえなのです。<BR>"
+  WriteText ctCutsceneScript2AText0016
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2AText0017
   PromptContinue
   End
 .reference_0310
   Unknown0F $00,$01
-  WriteText "かんざきふうじんりゅうとは<BR>わがままに たたかうこと<BR>ですね。<BR>"
+  WriteText ctCutsceneScript2AText0018
   PromptContinue
   SetPortrait $02,$02,$02
-  WriteText "‥‥<NAME>さん。<BR>あなたは なにも<BR>わかっておりませんわね。<BR>"
+  WriteText ctCutsceneScript2AText0019
   PromptContinue
-  WriteText "うつくしく たたかう<BR>ということは<BR>"
+  WriteText ctCutsceneScript2AText001A
   PromptContinue
-  WriteText "うごきに むだがない<BR>ということですわ。<BR>"
+  WriteText ctCutsceneScript2AText001B
   PromptContinue
-  WriteText "ほんとうに わざを<BR>きわめたものとは<BR>そういうものですのよ。<BR>"
+  WriteText ctCutsceneScript2AText001C
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2AText001D
   PromptContinue
   End
 .reference_03C8
   Unknown0F $00,$01
-  WriteText "かんざきふうじんりゅうとは<BR>おけしょうをして<BR>うつくしくなって‥‥<BR>"
+  WriteText ctCutsceneScript2AText001E
   PromptContinue
-  WriteText "たたかうこと‥‥<BR>ですよね。<BR>"
+  WriteText ctCutsceneScript2AText001F
   PromptContinue
   SetPortrait $02,$05,$05
-  WriteText "‥‥そういうことでは<BR>ないのですわよ。<BR>"
+  WriteText ctCutsceneScript2AText0020
   PromptContinue
-  WriteText "うつくしくたたかう<BR>ということは<BR>おけしょうを するのではなく<BR>"
-  PromptContinue
-  SetPortrait $02,$00,$00
-  WriteText "うごきに むだがない<BR>ということですわ。<BR>"
-  PromptContinue
-  WriteText "ほんとうに わざを<BR>きわめたものとは<BR>そういうものですのよ。<BR>"
+  WriteText ctCutsceneScript2AText0021
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2AText0022
+  PromptContinue
+  WriteText ctCutsceneScript2AText0023
+  PromptContinue
+  SetPortrait $02,$00,$00
+  WriteText ctCutsceneScript2AText0024
   PromptContinue
   End
 .reference_049D
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript2AText0025
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "わかりませんの?<BR>かんざきふうじんりゅうの<BR>ごくいは うつくしくですわ。<BR>"
+  WriteText ctCutsceneScript2AText0026
   PromptContinue
-  WriteText "うつくしく たたかう<BR>ということは うごきに<BR>ムダがないということですわ。<BR>"
+  WriteText ctCutsceneScript2AText0027
   PromptContinue
-  WriteText "わざを きわめる<BR>ということは<BR>そういうことですのよ。<BR>"
+  WriteText ctCutsceneScript2AText0028
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2AText0029
   PromptContinue
   End
 .reference_0545
-  WriteText "ミカサでみつけた<BR>この ティーカップ‥‥<BR>"
+  WriteText ctCutsceneScript2AText002A
   Unknown05 $84,$26,$01,$00
   End
-  WriteText "きっと すみれさんのね。<BR>"
+  WriteText ctCutsceneScript2AText002B
   PromptContinue
-  WriteText "すみれさんのところへ<BR>もっていきましょう。<BR>"
+  WriteText ctCutsceneScript2AText002C
   PromptContinue
   Unknown1E $0D
-  WriteText "すみれさん。<BR>しつれいします。<BR>"
+  WriteText ctCutsceneScript2AText002D
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "<NAME>さん。<BR>なにかごようですの?<BR>"
+  WriteText ctCutsceneScript2AText002E
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これを みつけたのですが<BR>すみれさんのですか?<BR>"
+  WriteText ctCutsceneScript2AText002F
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "ティーカップ‥‥<BR>"
+  WriteText ctCutsceneScript2AText0030
   PromptContinue
   SetPortrait $02,$03,$03
-  WriteText "その すみれの はながらは<BR>たしかに わたくしの<BR>ものですわ。<BR>"
+  WriteText ctCutsceneScript2AText0031
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "わざわざ とどけてくださって<BR>すみませんわね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript2AText0032
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "それにしても<BR>なかなか がんばっている<BR>ようですわね。<BR>"
+  WriteText ctCutsceneScript2AText0033
   PromptContinue
-  WriteText "そんな <NAME>さんに<BR>いいことを おしえましょう。<BR>"
+  WriteText ctCutsceneScript2AText0034
   PromptContinue
-  WriteText "かんざきふうじんりゅうの<BR>ごくいですわ。<BR>"
+  WriteText ctCutsceneScript2AText0035
   PromptContinue
-  WriteText "かんざきふうじんりゅうは<BR>1に ゆうがに<BR>2に あでやかに<BR>"
+  WriteText ctCutsceneScript2AText0036
   PromptContinue
-  WriteText "3 4 がなくて<BR>5に じょうひんに<BR>ですのよ。<BR>"
+  WriteText ctCutsceneScript2AText0037
   PromptContinue
-  WriteText "すなわち<BR>かんざきふうじんりゅうの<BR>ごくいを ひとことでいうと<BR>"
+  WriteText ctCutsceneScript2AText0038
   PromptContinue
-  WriteText "‥‥わかりますわね。<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript2AText0039
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい。<BR>かんざきふうじんりゅうの <BR>ごくいをひとことでいうと‥‥<BR>"
+  WriteText ctCutsceneScript2AText003A
   PromptContinue
-  OptionSelectTimed $05,$03,"うつくしく たたかう","わがままに たたかう","つまり たたかわない"
+  OptionSelectTimed $05,$03,ctCutsceneScript2AText003BSub00,ctCutsceneScript2AText003BSub01,ctCutsceneScript2AText003BSub02
   ConditionalBranch .reference_076D,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_0845,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_08FC,$02,$01,$01,$02,$20,$00
   Branch .reference_09D3
 .reference_076D
   Unknown0F $00,$01
-  WriteText "かんざきふうじんりゅうとは<BR>うつくしく たたかうこと<BR>ですね。<BR>"
+  WriteText ctCutsceneScript2AText003C
   PromptContinue
   SetPortrait $02,$01,$01
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "そのとおりですわ。<BR>でも ただ うつくしい<BR>だけでは ありませんのよ。<BR>"
+  WriteText ctCutsceneScript2AText003D
   PromptContinue
-  WriteText "ほんとうに わざを<BR>きわめたもの というのは<BR>"
+  WriteText ctCutsceneScript2AText003E
   PromptContinue
-  WriteText "たたかいであっても<BR>げいじゅつのように<BR>うつくしい ものなのですわ。<BR>"
+  WriteText ctCutsceneScript2AText003F
   PromptContinue
-  WriteText "これは<BR>そのように なりなさい<BR>というおしえなのです。<BR>"
+  WriteText ctCutsceneScript2AText0040
   PromptContinue
   SetPortrait $02,$01,$01
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2AText0041
   PromptContinue
   End
 .reference_0845
   Unknown0F $00,$01
-  WriteText "かんざきふうじんりゅうとは<BR>わがままに たたかうこと<BR>ですね。<BR>"
+  WriteText ctCutsceneScript2AText0042
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "‥‥<NAME>さん。<BR>あなたは なにも<BR>わかっておりませんわね。<BR>"
+  WriteText ctCutsceneScript2AText0043
   PromptContinue
-  WriteText "うつくしくたたかう<BR>ということは<BR>"
+  WriteText ctCutsceneScript2AText0044
   PromptContinue
-  WriteText "うごきに むだがない<BR>ということですわ。<BR>"
+  WriteText ctCutsceneScript2AText0045
   PromptContinue
-  WriteText "ほんとうに わざを<BR>きわめたものとは<BR>そういうものですのよ。<BR>"
+  WriteText ctCutsceneScript2AText0046
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2AText0047
   PromptContinue
   End
 .reference_08FC
   Unknown0F $00,$01
-  WriteText "かんざきふうじんりゅうとは<BR>つまりは たたかわないで<BR>いること なんですね。<BR>"
+  WriteText ctCutsceneScript2AText0048
   PromptContinue
   SetPortrait $02,$05,$05
-  WriteText "‥‥そういうことでは<BR>ないのですわよ。<BR>"
+  WriteText ctCutsceneScript2AText0049
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "うつくしく たたかう<BR>ということは いっけん<BR>むじゅんに きこえますが<BR>"
+  WriteText ctCutsceneScript2AText004A
   PromptContinue
-  WriteText "わざを きわめたものの<BR>たたかいとは うつくしい<BR>げいじゅつのようなのですわ。<BR>"
+  WriteText ctCutsceneScript2AText004B
   PromptContinue
-  WriteText "それは うごきに<BR>ムダがないから<BR>ですのよ。<BR>"
+  WriteText ctCutsceneScript2AText004C
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2AText004D
   PromptContinue
   End
 .reference_09D3
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript2AText004E
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "わかりませんの?<BR>かんざきふうじんりゅうの<BR>ごくいは うつくしくですわ。<BR>"
+  WriteText ctCutsceneScript2AText004F
   PromptContinue
-  WriteText "うつくしく たたかう<BR>ということは うごきに<BR>ムダがないということですわ。<BR>"
+  WriteText ctCutsceneScript2AText0050
   PromptContinue
-  WriteText "わざを きわめる<BR>ということは<BR>そういうことですのよ。<BR>"
+  WriteText ctCutsceneScript2AText0051
   PromptContinue
   SetPortrait $02,$00,$00
-  WriteText "それじゃあ <NAME>さん。<BR>わざわざ ありがとう。<BR>"
+  WriteText ctCutsceneScript2AText0052
   PromptContinue
   End
   End

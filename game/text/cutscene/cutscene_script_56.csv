@@ -1,0 +1,111 @@
+ID,Text
+ctCutsceneScript56Text0000,<NAME>くん<BR>つぎの しゅつげきばしょは<BR>ミカサ せんていぶよ。<BR>
+ctCutsceneScript56Text0001,こんかい <NAME>くんと<BR>いっしょに しゅつげき<BR>できるのは<BR>
+ctCutsceneScript56Text0002,わたしと<BR>
+ctCutsceneScript56Text0003,ウチと<BR>
+ctCutsceneScript56Text0004,オレだ。<BR>
+ctCutsceneScript56Text0005,じゃあ <NAME>くんに<BR>わたしたちの とくいわざを<BR>おしえておくわね。<BR>
+ctCutsceneScript56Text0006,わたしは しゃげきによる<BR>こうげきが とくいよ。<BR>
+ctCutsceneScript56Text0007,ガトリングをつかって<BR>とおくにいる てきにも<BR>こうげきできるのよ。<BR>
+ctCutsceneScript56Text0008,ウチの とくいわざは<BR>ハリセンや!<BR>
+ctCutsceneScript56Text0009,なんじゃ そりゃ?!
+ctCutsceneScript56Text000A,なんじゃ そりゃ?!<BR>そんなので こうげき<BR>できるんですか?!<BR>
+ctCutsceneScript56Text000B,お すばやいつっこみ<BR>ありがとさん。<BR>さすが <NAME>はんや。<BR>
+ctCutsceneScript56Text000C,そやけど ハリセンをバカに<BR>したら アカンで。<BR>
+ctCutsceneScript56Text000D,ちかくのてきには<BR>ゆうこうなぶき やからな。<BR>それに ウチには‥‥<BR>
+ctCutsceneScript56Text000E,とおくのてきを<BR>こうげきできる バルカン<BR>なんかも あるんやで!<BR>
+ctCutsceneScript56Text000F,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript56Text0010,おどろいて こえもでーへん<BR>みたいやな。<BR>
+ctCutsceneScript56Text0011,ハリセンちゅーのは<BR>ちかくのてきには<BR>ゆうこうな ぶきなんや。<BR>
+ctCutsceneScript56Text0012,ま それに ウチには<BR>とおくのてきを こうげきする<BR>バルカンも あるしな。<BR>
+ctCutsceneScript56Text0013,オレの とくいわざは<BR>もう しっているとおもうが<BR>もういちど せつめいするよ。<BR>
+ctCutsceneScript56Text0014,オレのこうげきは<BR>カタナをつかった<BR>きんきょりこうげきだ。<BR>
+ctCutsceneScript56Text0015,それも<BR>カタナを 2ほんつかう<BR>にとうりゅうなんだよ。<BR>
+ctCutsceneScript56Text0016,わかったかしら?<BR>しっかりと おぼえて<BR>おきなさいね。<BR>
+ctCutsceneScript56Text0017,では さっき はいってきた<BR>まちのひとについての<BR>じょうほうを おしえるわ。<BR>
+ctCutsceneScript56Text0018,まちのひとのなかには<BR>かくれていて でてこない<BR>ひとも いるらしいのよ。<BR>
+ctCutsceneScript56Text0019,かなり ようじんぶかいひと<BR>みたいなんだけど‥‥<BR>
+ctCutsceneScript56Text001A,たとえば すみれが<BR>むかえにいくと あんしんして<BR>あらわれるとか‥‥<BR>
+ctCutsceneScript56Text001B,つれていくパートナーによって<BR>でてきたり でてこなかったり<BR>することもあるらしいわ。<BR>
+ctCutsceneScript56Text001C,なんとか ぜんいん<BR>たすけられるように<BR>がんばって <NAME>くん。<BR>
+ctCutsceneScript56Text001D,ところで <NAME>くんは<BR>『さくせんコマンド』を<BR>りかい しているかい?<BR>
+ctCutsceneScript56Text001ESub00,はい
+ctCutsceneScript56Text001ESub01,いいえ
+ctCutsceneScript56Text001F,はい。<BR>わかっています。<BR>
+ctCutsceneScript56Text0020,そうか。<BR>それなら だいじょうぶだな。<BR>
+ctCutsceneScript56Text0021,いいえ。<BR>よくわからないのですが。<BR>
+ctCutsceneScript56Text0022,そうか。<BR>では せつめいしておこう。<BR>
+ctCutsceneScript56Text0023,『かぜ』は すばやさを<BR>『ひ』は こうげきを<BR>『やま』は ぼうぎょを<BR>
+ctCutsceneScript56Text0024,それぞれ パワーアップした<BR>せんとうが できるんだ。<BR>
+ctCutsceneScript56Text0025,『はやし』は すべてにおいて<BR>へいきんてきに なっている。<BR>
+ctCutsceneScript56Text0026,さくせんは せんとうちゅうも<BR>かえることが できるから<BR>よくかんがえて つかうんだ。<BR>
+ctCutsceneScript56Text0027,ほな <NAME>はん<BR>じゅんびはエエか?<BR>
+ctCutsceneScript56Text0028Sub00,さくせんコマンドについて
+ctCutsceneScript56Text0028Sub01,バッチリです
+ctCutsceneScript56Text0029,すみません。<BR>さくせんコマンドについて<BR>もういちど おねがいします。<BR>
+ctCutsceneScript56Text002A,よし。<BR>では もういちど<BR>せつめいするよ。<BR>
+ctCutsceneScript56Text002B,すみません。<BR>さくせんコマンドについて<BR>おしえて いただけますか?<BR>
+ctCutsceneScript56Text002C,よし。<BR>では せつめいするよ。<BR>
+ctCutsceneScript56Text002D,『かぜ』は すばやさを<BR>『ひ』は こうげきを<BR>『やま』は ぼうぎょを<BR>
+ctCutsceneScript56Text002E,それぞれ パワーアップした<BR>せんとうが できるんだ。<BR>
+ctCutsceneScript56Text002F,『はやし』は すべてにおいて<BR>へいきんてきに なっている。<BR>
+ctCutsceneScript56Text0030,さくせんは せんとうちゅうも<BR>かえることが できるから<BR>よくかんがえて つかうんだ。<BR>
+ctCutsceneScript56Text0031,はい バッチリです。<BR>
+ctCutsceneScript56Text0032,では <NAME>くん<BR>がんばって いきましょう。<BR>
+ctCutsceneScript56Text0033,<NAME>くん。<BR>がんばっていこう!<BR>
+ctCutsceneScript56Text0034,ほな <NAME>はん。<BR>がんばろな!<BR>
+ctCutsceneScript56Text0035,<NAME><BR>つぎの しゅつげきばしょは<BR>ミカサ せんていぶよ。<BR>
+ctCutsceneScript56Text0036,こんかい <NAME>と<BR>いっしょに しゅつげき<BR>できるのは<BR>
+ctCutsceneScript56Text0037,わたしと<BR>
+ctCutsceneScript56Text0038,ウチと<BR>
+ctCutsceneScript56Text0039,オレだ。<BR>
+ctCutsceneScript56Text003A,じゃあ <NAME>に<BR>それぞれの とくいわざを<BR>おしえておくわね。<BR>
+ctCutsceneScript56Text003B,わたしは しゃげきによる<BR>こうげきが とくいよ。<BR>
+ctCutsceneScript56Text003C,ガトリングをつかって<BR>とおくにいる てきにも<BR>こうげきできるのよ。<BR>
+ctCutsceneScript56Text003D,ウチの とくいわざは<BR>ハリセンや!<BR>
+ctCutsceneScript56Text003E,なんですか?! それは!!
+ctCutsceneScript56Text003F,なんですか?! それは!!<BR>そんなので こうげき<BR>できるんですか?!<BR>
+ctCutsceneScript56Text0040,お すばやいつっこみ<BR>ありがとさん。<BR>さすが <NAME>はんや。<BR>
+ctCutsceneScript56Text0041,そやけど ハリセンをバカに<BR>したら アカンで。<BR>
+ctCutsceneScript56Text0042,ちかくのてきには<BR>ゆうこうなぶき やからな。<BR>それに ウチには‥‥<BR>
+ctCutsceneScript56Text0043,とおくのてきを<BR>こうげきできる バルカン<BR>なんかも あるんやで!<BR>
+ctCutsceneScript56Text0044,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript56Text0045,おどろいて こえもでーへん<BR>みたいやな。<BR>
+ctCutsceneScript56Text0046,ハリセンちゅーのは<BR>ちかくのてきには<BR>ゆうこうな ぶきなんや。<BR>
+ctCutsceneScript56Text0047,ま それに ウチには<BR>とおくのてきを こうげきする<BR>バルカンも あるんやで。<BR>
+ctCutsceneScript56Text0048,オレの とくいわざは<BR>もう しっているとおもうが<BR>もういちど せつめいするよ。<BR>
+ctCutsceneScript56Text0049,オレのこうげきは<BR>カタナをつかった<BR>きんきょりこうげきなんだ。<BR>
+ctCutsceneScript56Text004A,それも<BR>カタナを 2ほんつかう<BR>にとうりゅうなんだよ。<BR>
+ctCutsceneScript56Text004B,わかったかしら?<BR>しっかりと おぼえて<BR>おきなさいね。<BR>
+ctCutsceneScript56Text004C,では さっき はいってきた<BR>まちのひとについての<BR>じょうほうを おしえるわ。<BR>
+ctCutsceneScript56Text004D,まちのひとのなかには<BR>かくれていて でてこない<BR>ひとも いるらしいのよ。<BR>
+ctCutsceneScript56Text004E,かなり ようじんぶかいひと<BR>みたいなんだけど‥‥<BR>
+ctCutsceneScript56Text004F,たとえば すみれが<BR>むかえにいくと あんしんして<BR>あらわれるとか‥‥<BR>
+ctCutsceneScript56Text0050,つれていくパートナーによって<BR>でてきたり でてこなかったり<BR>することもあるらしいわ。<BR>
+ctCutsceneScript56Text0051,なんとか ぜんいん<BR>たすけられるように<BR>がんばって <NAME>。<BR>
+ctCutsceneScript56Text0052,ところで <NAME>くんは<BR>『さくせんコマンド』を<BR>りかい しているかい?<BR>
+ctCutsceneScript56Text0053Sub00,はい
+ctCutsceneScript56Text0053Sub01,いいえ
+ctCutsceneScript56Text0054,はい。<BR>わかっています。<BR>
+ctCutsceneScript56Text0055,そうか。<BR>それなら だいじょうぶだね。<BR>
+ctCutsceneScript56Text0056,いいえ。<BR>よくわからないのですが。<BR>
+ctCutsceneScript56Text0057,そうか。<BR>では せつめいしてあげるよ。<BR>
+ctCutsceneScript56Text0058,『かぜ』は すばやさを<BR>『ひ』は こうげきを<BR>『やま』は ぼうぎょを<BR>
+ctCutsceneScript56Text0059,それぞれ パワーアップした<BR>せんとうが できるんだ。<BR>
+ctCutsceneScript56Text005A,『はやし』は すべてにおいて<BR>へいきんてきに なっている。<BR>
+ctCutsceneScript56Text005B,さくせんは せんとうちゅうも<BR>かえることが できるから<BR>よくかんがえてつかうといい。<BR>
+ctCutsceneScript56Text005C,ほな <NAME>はん<BR>じゅんびはエエか?<BR>
+ctCutsceneScript56Text005DSub00,さくせんコマンドについて
+ctCutsceneScript56Text005DSub01,バッチリです
+ctCutsceneScript56Text005E,すみません。<BR>さくせんコマンドについて<BR>もういちど おねがいします。<BR>
+ctCutsceneScript56Text005F,よし。<BR>では もういちど<BR>せつめいするよ。<BR>
+ctCutsceneScript56Text0060,すみません。<BR>さくせんコマンドについて<BR>おしえて いただけますか?<BR>
+ctCutsceneScript56Text0061,よし。<BR>では せつめいするよ。<BR>
+ctCutsceneScript56Text0062,『かぜ』は すばやさを<BR>『ひ』は こうげきを<BR>『やま』は ぼうぎょを<BR>
+ctCutsceneScript56Text0063,それぞれ パワーアップした<BR>せんとうが できるんだ。<BR>
+ctCutsceneScript56Text0064,『はやし』は すべてにおいて<BR>へいきんてきに なっている。<BR>
+ctCutsceneScript56Text0065,さくせんは せんとうちゅうも<BR>かえることが できるから<BR>よくかんがえてつかうといい。<BR>
+ctCutsceneScript56Text0066,はい バッチリです。<BR>
+ctCutsceneScript56Text0067,では <NAME><BR>がんばって いきましょう。<BR>
+ctCutsceneScript56Text0068,<NAME>くん。<BR>がんばっていこう!<BR>
+ctCutsceneScript56Text0069,ほな <NAME>はん。<BR>がんばろな!<BR>

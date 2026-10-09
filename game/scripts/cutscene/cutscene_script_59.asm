@@ -6,211 +6,211 @@ CutsceneScript59::
   Unknown12 $04
   FlagIsFemale
   ConditionalBranch .reference_0417,$02,$04,$01,$01,$20,$00
-  WriteText "<NAME>はん<BR>つぎの しゅつげきばしょは<BR>『せいまじょう』の ちかや。<BR>"
+  WriteText ctCutsceneScript59Text0000
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "『せいまじょう』の ちかって<BR>ものすごく ぶきみな<BR>かんじがしまーす。<BR>"
+  WriteText ctCutsceneScript59Text0001
   PromptContinue
   SetPortrait $05,$12,$0A
-  WriteText "そうやな‥‥<BR>しろのちか いうたら<BR>『ろうごく』 やもんな‥‥<BR>"
+  WriteText ctCutsceneScript59Text0002
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "まものたちの おんねんが<BR>うずまいている ばしょ‥‥<BR>と いえるわね。<BR>"
+  WriteText ctCutsceneScript59Text0003
   PromptContinue
   SetPortrait $07,$18,$11
-  WriteText "おんねん‥‥<BR>と いうことは‥‥<BR>"
+  WriteText ctCutsceneScript59Text0004
   PromptContinue
   SetPortrait $07,$17,$10
-  WriteText "ゾンビなんかも<BR>いるでーすか!?<BR>"
+  WriteText ctCutsceneScript59Text0005
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "そうね なにがでてきても<BR>おかしくないわね。<BR>"
+  WriteText ctCutsceneScript59Text0006
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "ゾンビ‥‥<BR>よみがえりしもの‥‥<BR>ようするに オバケやな。<BR>"
+  WriteText ctCutsceneScript59Text0007
   PromptContinue
   SetPortrait $07,$18,$11
-  WriteText "オバケって どうたたかえば<BR>いいのでーすか?<BR>"
+  WriteText ctCutsceneScript59Text0008
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "むずかしいわね‥‥<BR>でも <NAME>くんなら<BR>だいじょうぶでしょ?<BR>"
+  WriteText ctCutsceneScript59Text0009
   PromptContinue
-  OptionSelectTimed $03,$02,"まかせてください","ちょっと ふあんです"
+  OptionSelectTimed $03,$02,ctCutsceneScript59Text000ASub00,ctCutsceneScript59Text000ASub01
   ConditionalBranch .reference_019D,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_023B,$02,$01,$01,$01,$20,$00
   Branch .reference_0312
 .reference_019D
   Unknown0F $00,$01
-  WriteText "まかせてください。<BR>ゾンビでも トンビでも<BR>うけてたちますよ。<BR>"
+  WriteText ctCutsceneScript59Text000B
   PromptContinue
   SetPortrait $07,$11,$0A
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "Oh! <NAME>さん<BR>たのもしいでーす。<BR>"
+  WriteText ctCutsceneScript59Text000C
   PromptContinue
   SetPortrait $05,$11,$09
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "じしんたっぷりやな<BR><NAME>はん。<BR>たよりになるやないの!<BR>"
+  WriteText ctCutsceneScript59Text000D
   PromptContinue
   SetPortrait $03,$13,$0B
   PlaybackSample $40,$93,$03,$93,$01,$06,$28,$00
-  WriteText "フフフ‥‥<BR>でも ゆだんはきんもつよ<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript59Text000E
   PromptContinue
   Branch .reference_03B5
 .reference_023B
   Unknown0F $00,$01
-  WriteText "ちょっと ふあんです。<BR>ゾンビだなんて<BR>どう たたかえばいいのか‥‥<BR>"
+  WriteText ctCutsceneScript59Text000F
   PromptContinue
   SetPortrait $07,$18,$11
-  WriteText "ゾンビ‥‥<BR>しんでいる まもの‥‥<BR>"
+  WriteText ctCutsceneScript59Text0010
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "‥‥そうね‥‥だったら<BR>ほのおで もやしてしまう<BR>なんて どうかしら?<BR>"
+  WriteText ctCutsceneScript59Text0011
   PromptContinue
   SetPortrait $05,$13,$0B
-  WriteText "なるほど!!<BR>マリアはん それはエエ<BR>アイデアや!!<BR>"
+  WriteText ctCutsceneScript59Text0012
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "ほのおで もやしてしまえば<BR>さすがの ゾンビもふっかつ<BR>できへんやろ。<BR>"
+  WriteText ctCutsceneScript59Text0013
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText "マリアさん<BR>ナイス アイデアでーす!<BR>"
+  WriteText ctCutsceneScript59Text0014
   PromptContinue
   Branch .reference_03B5
 .reference_0312
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript59Text0015
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "<NAME>くん<BR>まよっていては ダメよ。<BR>"
+  WriteText ctCutsceneScript59Text0016
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "そうでーす。<BR>まよいは はいぼくを<BR>ひきよせまーす。<BR>"
+  WriteText ctCutsceneScript59Text0017
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "ココまで これた<BR><NAME>はんや!<BR>"
+  WriteText ctCutsceneScript59Text0018
   PromptContinue
-  WriteText "このさき なにがあっても<BR>だいじょうぶやって。<BR>"
+  WriteText ctCutsceneScript59Text0019
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "そうでーす。<BR>きあいをいれて<BR>がんばるでーす!!<BR>"
+  WriteText ctCutsceneScript59Text001A
   PromptContinue
   Branch .reference_03B5
 .reference_03B5
   SetPortrait $05,$10,$08
-  WriteText "ほな <NAME>はん<BR>じゅんびができたら<BR>しゅつげきや!<BR>"
+  WriteText ctCutsceneScript59Text001B
   PromptContinue
   SetPortrait $03,$13,$0B
-  WriteText "がんばってね<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript59Text001C
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText "<NAME>さん<BR>ガッツですよ ガッツ!!<BR>"
+  WriteText ctCutsceneScript59Text001D
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "きばって いこな<BR><NAME>はん!!<BR>"
+  WriteText ctCutsceneScript59Text001E
   PromptContinue
   End
 .reference_0417
-  WriteText "<NAME>はん<BR>つぎの しゅつげきばしょは<BR>『せいまじょう』の ちかや。<BR>"
+  WriteText ctCutsceneScript59Text001F
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "『せいまじょう』の ちかって<BR>ものすごく ぶきみな<BR>かんじがしまーす。<BR>"
+  WriteText ctCutsceneScript59Text0020
   PromptContinue
   SetPortrait $05,$12,$0A
-  WriteText "そうやな‥‥<BR>しろのちか いうたら<BR>『ろうごく』 やもんな‥‥<BR>"
+  WriteText ctCutsceneScript59Text0021
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "まものたちの おんねんが<BR>うずまいている ばしょ‥‥<BR>と いえるわね。<BR>"
+  WriteText ctCutsceneScript59Text0022
   PromptContinue
   SetPortrait $07,$18,$11
-  WriteText "おんねん‥‥<BR>と いうことは‥‥<BR>"
+  WriteText ctCutsceneScript59Text0023
   PromptContinue
   SetPortrait $07,$17,$10
-  WriteText "ゾンビなんかも<BR>いるでーすか!?<BR>"
+  WriteText ctCutsceneScript59Text0024
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "そうね なにがでてきても<BR>おかしくないわね。<BR>"
+  WriteText ctCutsceneScript59Text0025
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "ゾンビ‥‥<BR>よみがえりしもの‥‥<BR>ようするに オバケやな。<BR>"
+  WriteText ctCutsceneScript59Text0026
   PromptContinue
   SetPortrait $07,$18,$11
-  WriteText "オバケって どうたたかえば<BR>いいのでーすか?<BR>"
+  WriteText ctCutsceneScript59Text0027
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "むずかしいわね‥‥<BR>でも <NAME>なら<BR>だいじょうぶでしょ?<BR>"
+  WriteText ctCutsceneScript59Text0028
   PromptContinue
-  OptionSelectTimed $05,$02,"まかせてください","ちょっと ふあんです"
+  OptionSelectTimed $05,$02,ctCutsceneScript59Text0029Sub00,ctCutsceneScript59Text0029Sub01
   ConditionalBranch .reference_05A0,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_063B,$02,$01,$01,$01,$20,$00
   Branch .reference_0712
 .reference_05A0
   Unknown0F $00,$01
-  WriteText "まかせてください。<BR>ゾンビでも トンビでも<BR>うけてたちますよ。<BR>"
+  WriteText ctCutsceneScript59Text002A
   PromptContinue
   SetPortrait $07,$11,$0A
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "Oh! <NAME>さん<BR>たのもしいでーす。<BR>"
+  WriteText ctCutsceneScript59Text002B
   PromptContinue
   SetPortrait $05,$11,$09
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "<NAME>はん。<BR>おんなのこなのに<BR>エライ どきょうやな!<BR>"
+  WriteText ctCutsceneScript59Text002C
   PromptContinue
   SetPortrait $03,$13,$0B
   PlaybackSample $40,$93,$03,$93,$01,$06,$28,$00
-  WriteText "フフフ‥‥<BR>でも ゆだんはきんもつよ<BR><NAME>。<BR>"
+  WriteText ctCutsceneScript59Text002D
   PromptContinue
   Branch .reference_07B3
 .reference_063B
   Unknown0F $00,$01
-  WriteText "ちょっと ふあんです。<BR>ゾンビだなんて<BR>どう たたかえばいいのか‥‥<BR>"
+  WriteText ctCutsceneScript59Text002E
   PromptContinue
   SetPortrait $07,$18,$11
-  WriteText "ゾンビ‥‥<BR>しんでいる まもの‥‥<BR>"
+  WriteText ctCutsceneScript59Text002F
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "‥‥そうね‥‥だったら<BR>ほのおで もやしてしまう<BR>なんて どうかしら?<BR>"
+  WriteText ctCutsceneScript59Text0030
   PromptContinue
   SetPortrait $05,$13,$0B
-  WriteText "なるほど!!<BR>マリアはん それはエエ<BR>アイデアや!!<BR>"
+  WriteText ctCutsceneScript59Text0031
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "ほのおで もやしてしまえば<BR>さすがの ゾンビもふっかつ<BR>できへんやろ。<BR>"
+  WriteText ctCutsceneScript59Text0032
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText "マリアさん<BR>ナイス アイデアでーす!<BR>"
+  WriteText ctCutsceneScript59Text0033
   PromptContinue
   Branch .reference_07B3
 .reference_0712
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript59Text0034
   PromptContinue
   SetPortrait $03,$10,$08
-  WriteText "<NAME><BR>まよっていては ダメよ。<BR>"
+  WriteText ctCutsceneScript59Text0035
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "そうでーす。<BR>まよいは はいぼくを<BR>ひきよせまーす。<BR>"
+  WriteText ctCutsceneScript59Text0036
   PromptContinue
   SetPortrait $05,$10,$08
-  WriteText "ココまで これた<BR><NAME>はんや!<BR>"
+  WriteText ctCutsceneScript59Text0037
   PromptContinue
-  WriteText "このさき なにがあっても<BR>だいじょうぶやって。<BR>"
+  WriteText ctCutsceneScript59Text0038
   PromptContinue
   SetPortrait $07,$10,$09
-  WriteText "そうでーす。<BR>きあいをいれて<BR>がんばるでーす!!<BR>"
+  WriteText ctCutsceneScript59Text0039
   PromptContinue
   Branch .reference_07B3
 .reference_07B3
   SetPortrait $05,$10,$08
-  WriteText "ほな <NAME>はん<BR>じゅんびができたら<BR>しゅつげきや!<BR>"
+  WriteText ctCutsceneScript59Text003A
   PromptContinue
   SetPortrait $03,$13,$0B
-  WriteText "がんばってね <NAME>。<BR>"
+  WriteText ctCutsceneScript59Text003B
   PromptContinue
   SetPortrait $07,$11,$0A
-  WriteText "<NAME>さん<BR>ガッツですよ ガッツ!!<BR>"
+  WriteText ctCutsceneScript59Text003C
   PromptContinue
   SetPortrait $05,$11,$09
-  WriteText "きばって いこな<BR><NAME>はん!!<BR>"
+  WriteText ctCutsceneScript59Text003D
   PromptContinue
   End
   End

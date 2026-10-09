@@ -5,15 +5,15 @@ CutsceneScript48::
   Unknown0E $08
   Unknown12 $04
   FlagIsFemale
-  WriteText "オレは おおがみいちろう。<BR>ていこくかげきだん<BR>はなぐみの たいちょうだ。<BR>"
+  WriteText ctCutsceneScript48Text0000
   PromptContinue
-  WriteText "ぶきは にとうりゅうの<BR>カタナで せっきんせんなら<BR>まかせてくれ。<BR>"
+  WriteText ctCutsceneScript48Text0001
   PromptContinue
-  WriteText "きみは じっせんの<BR>けいけんが すくないから<BR>はじめは サポートするよ。<BR>"
+  WriteText ctCutsceneScript48Text0002
   PromptContinue
-  WriteText "しばらくは オレが<BR>かばってあげるから まずは<BR>せんとうになれるんだ。<BR>"
+  WriteText ctCutsceneScript48Text0003
   PromptContinue
-  WriteText "そして ともに<BR>ていとの へいわのために<BR>たたかおう!<BR>"
+  WriteText ctCutsceneScript48Text0004
   PromptContinue
   End
   End

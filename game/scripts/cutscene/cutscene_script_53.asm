@@ -7,90 +7,90 @@ CutsceneScript53::
   Unknown12 $05
   FlagIsFemale
   ConditionalBranch .reference_01E6,$02,$04,$01,$01,$20,$00
-  WriteText "こうらんさん。<BR>ちょっと いいですか?<BR>"
+  WriteText ctCutsceneScript53Text0000
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "ん～～なんや。<BR><NAME>はん かいな。<BR>"
+  WriteText ctCutsceneScript53Text0001
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じつは こんなモノを<BR>ひろったの ですが‥‥<BR>みてもらえますか?<BR>"
+  WriteText ctCutsceneScript53Text0002
   PromptContinue
   SetPortrait $05,$22,$12
-  WriteText "なんや えらくでかい<BR>いしころやな～。<BR>どれどれ‥‥<BR>"
+  WriteText ctCutsceneScript53Text0003
   PromptContinue
   SetPortrait $05,$23,$13
-  WriteText "あっ!! これは!!<BR>ウーツこう やないか!<BR>"
+  WriteText ctCutsceneScript53Text0004
   PromptContinue
   SetPortrait $05,$21,$11
-  WriteText "<NAME>はん。<BR>エエもん ひろってきたな～。<BR>"
+  WriteText ctCutsceneScript53Text0005
   PromptContinue
   Unknown0F $00,$01
-  WriteText "そ‥そんなスゴイ いしころ<BR>なんですか?<BR>"
+  WriteText ctCutsceneScript53Text0006
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "せや。ウーツこうっていうのは<BR>サビない まがらない<BR>そして しなやかな てつ。<BR>"
+  WriteText ctCutsceneScript53Text0007
   PromptContinue
-  WriteText "つまり かたなを つくるのに<BR>うってつけの<BR>こうせきなんや。<BR>"
+  WriteText ctCutsceneScript53Text0008
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "しかも これでつくられた<BR>けんは『ダマスカスのたち』<BR>いうて‥‥<BR>"
+  WriteText ctCutsceneScript53Text0009
   PromptContinue
-  WriteText "やいばの ひょうめんに<BR>ながれる みずのような<BR>もんようが あらわれるんや。<BR>"
+  WriteText ctCutsceneScript53Text000A
   PromptContinue
   Unknown0F $00,$01
-  WriteText "なんだか スゴイですね‥‥<BR>"
+  WriteText ctCutsceneScript53Text000B
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "そやろ～?<BR>"
+  WriteText ctCutsceneScript53Text000C
   PromptContinue
-  WriteText "つぎの しゅつげきまでには<BR>バッチリ つくっとくから<BR>たのしみに まっとってや。<BR>"
+  WriteText ctCutsceneScript53Text000D
   PromptContinue
-  WriteText "ほな またな。<BR>"
+  WriteText ctCutsceneScript53Text000E
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01
   Unknown09 $64
   End
 .reference_01E6
-  WriteText "こうらんさん。<BR>ちょっと いいですか?<BR>"
+  WriteText ctCutsceneScript53Text000F
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "ん～～なんや。<BR><NAME>はん かいな。<BR>"
+  WriteText ctCutsceneScript53Text0010
   PromptContinue
   Unknown0F $00,$01
-  WriteText "じつは こんなモノを<BR>ひろったの ですが‥‥<BR>みてもらえますか?<BR>"
+  WriteText ctCutsceneScript53Text0011
   PromptContinue
   SetPortrait $05,$22,$12
-  WriteText "なんや えらくでかい<BR>いしころやな～。<BR>どれどれ‥‥<BR>"
+  WriteText ctCutsceneScript53Text0012
   PromptContinue
   SetPortrait $05,$23,$13
-  WriteText "あっ!! これは!!<BR>ウーツこう やないか!<BR>"
+  WriteText ctCutsceneScript53Text0013
   PromptContinue
   SetPortrait $05,$21,$11
-  WriteText "<NAME>はん。<BR>エエもん ひろってきたな～。<BR>"
+  WriteText ctCutsceneScript53Text0014
   PromptContinue
   Unknown0F $00,$01
-  WriteText "そ‥そんなスゴイ いしころ<BR>なんですか?<BR>"
+  WriteText ctCutsceneScript53Text0015
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "せや。ウーツこうっていうのは<BR>サビない まがらない<BR>そして しなやかな てつ。<BR>"
+  WriteText ctCutsceneScript53Text0016
   PromptContinue
-  WriteText "つまり かたなを つくるのに<BR>うってつけの<BR>こうせきなんや。<BR>"
+  WriteText ctCutsceneScript53Text0017
   PromptContinue
   SetPortrait $05,$20,$10
-  WriteText "しかも これでつくられた<BR>けんは『ダマスカスのたち』<BR>いうて‥‥<BR>"
+  WriteText ctCutsceneScript53Text0018
   PromptContinue
-  WriteText "やいばの ひょうめんに<BR>ながれる みずのような<BR>もんようが あらわれるんや。<BR>"
+  WriteText ctCutsceneScript53Text0019
   PromptContinue
   Unknown0F $00,$01
-  WriteText "なんだか スゴイですね‥‥<BR>"
+  WriteText ctCutsceneScript53Text001A
   PromptContinue
   SetPortrait $05,$25,$15
-  WriteText "そやろ～?<BR>"
+  WriteText ctCutsceneScript53Text001B
   PromptContinue
-  WriteText "つぎの しゅつげきまでには<BR>バッチリ つくっとくから<BR>たのしみに まっとってや。<BR>"
+  WriteText ctCutsceneScript53Text001C
   PromptContinue
-  WriteText "ほな またな。<BR>"
+  WriteText ctCutsceneScript53Text001D
   PromptContinue
   Unknown0D $00,$00
   Unknown0F $00,$01

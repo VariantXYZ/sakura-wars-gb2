@@ -5,16 +5,16 @@ CutsceneScript45::
   Unknown0E $11
   Unknown12 $04
   FlagIsFemale
-  WriteText "よう あたいは<BR>きりしま カンナだ。<BR>"
+  WriteText ctCutsceneScript45Text0000
   PromptContinue
-  WriteText "あたいのとくぎは<BR>りゅうきゅうカラテ<BR>っていう かくとうぎだ。<BR>"
+  WriteText ctCutsceneScript45Text0001
   PromptContinue
   SetPortrait $06,$00,$00
-  WriteText "つまり キックや<BR>パンチとかだな。<BR>"
+  WriteText ctCutsceneScript45Text0002
   PromptContinue
-  WriteText "だから ぶきはもたない。<BR>じぶんの からだこそが<BR>ぶきってわけさ。<BR>"
+  WriteText ctCutsceneScript45Text0003
   PromptContinue
-  WriteText "まぁ よろしくたのむぜ!<BR>"
+  WriteText ctCutsceneScript45Text0004
   PromptContinue
   End
   End
