@@ -1,0 +1,858 @@
+ID,Text
+ctCutsceneScript11Text0000,～だい1しょう～<BR>『こうぶ ミカサにたつ!』<BR>
+ctCutsceneScript11Text0001,ふう‥‥<BR>やっとついた。<BR>
+ctCutsceneScript11Text0002,とつぜん よびだされたけど<BR>いったい なにが<BR>あったんだろう‥‥<BR>
+ctCutsceneScript11Text0003,よく きてくれたわね。<BR>わたしは<BR>ふじえだ かえで。<BR>
+ctCutsceneScript11Text0004,ていこくかげきだんの<BR>ふくしれいです。<BR>
+ctCutsceneScript11Text0005,では さっそくだけど<BR>あなたを ここへよんだ<BR>りゆうを せつめいするわ。<BR>
+ctCutsceneScript11Text0006,あなたの にんむは<BR>ミカサきねんこうえんを<BR>しらべることです。<BR>
+ctCutsceneScript11Text0007,すこしまえから ミカサきねん<BR>こうえんで おかしなことが<BR>おこっているのです。<BR>
+ctCutsceneScript11Text0008,そこで こんかいは あなたに<BR>その げんいんを しらべて<BR>もらおうと おもいます。<BR>
+ctCutsceneScript11Text0009,いいわね <NAME>くん。<BR>
+ctCutsceneScript11Text000A,では ていこくかげきだん<BR>はなぐみの たいちょうを<BR>しょうかいするわ。<BR>
+ctCutsceneScript11Text000B,おおがみくん。<BR>
+ctCutsceneScript11Text000C,はい。<BR>
+ctCutsceneScript11Text000DSub00,おおがみさん おひさしぶりです
+ctCutsceneScript11Text000DSub01,はじめまして
+ctCutsceneScript11Text000E,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text000F,ん?<BR>どうした <NAME>くん。<BR>きんちょうしているのか?<BR>
+ctCutsceneScript11Text0010,いまから そんなだと<BR>このさき たいへんだぞ。<BR>リラックス リラックス。<BR>
+ctCutsceneScript11Text0011,じゃあ はなぐみのみんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>
+ctCutsceneScript11Text0012,おひさしぶりです。<BR>おおがみさん。<BR>
+ctCutsceneScript11Text0013,やあ。<BR>げんきだったかい?<BR><NAME>くん。<BR>
+ctCutsceneScript11Text0014,そういえば<BR>ふたりは しりあい<BR>だったわね。<BR>
+ctCutsceneScript11Text0015,<NAME>くんは はなぐみに<BR>たいけんにゅうたいを<BR>したことが あるんですよ。<BR>
+ctCutsceneScript11Text0016,きかんは いっかげつ<BR>だったのですが なかなか<BR>ゆうしゅうでした。<BR>
+ctCutsceneScript11Text0017,そうなの。<BR>それは たのもしいわね。<BR>
+ctCutsceneScript11Text0018,<NAME>くん。こんかいの<BR>にんむは きびしいけど<BR>がんばってくれよ。<BR>
+ctCutsceneScript11Text0019,じゃあ はなぐみのみんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>
+ctCutsceneScript11Text001A,しってるものも いると<BR>おもうけど <BR><NAME>くんだ。<BR>
+ctCutsceneScript11Text001B,ミカサきねんこうえんを<BR>しらべてもらうために<BR>きてもらった。<BR>
+ctCutsceneScript11Text001C,じゃあ <NAME>くん。<BR>みんなに あいさつを。<BR>
+ctCutsceneScript11Text001D,<NAME>です。<BR>みなさん おひさしぶりです。<BR>
+ctCutsceneScript11Text001E,あ でも<BR>そちらの おふたりは <BR>はじめまして。<BR>
+ctCutsceneScript11Text001F,こんかいは たいけんにゅう<BR>たい ではなく にんむが<BR>あたえられる とのことで<BR>
+ctCutsceneScript11Text0020,よりいっそう きあいをいれて<BR>がんばりますので<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text0021,<NAME> ひさしぶりー。<BR>げんきだったー?<BR>
+ctCutsceneScript11Text0022Sub00,げんきにこたえる
+ctCutsceneScript11Text0022Sub01,ジャンポールにもあいさつする
+ctCutsceneScript11Text0022Sub02,ふつうにこたえる
+ctCutsceneScript11Text0023,やあ アイリス。<BR>ボクは このとおり<BR>バッチリ げんきだよ。<BR>
+ctCutsceneScript11Text0024,アイリスも げんきそうで<BR>なによりだね。<BR>
+ctCutsceneScript11Text0025,うん! ありがとう<BR><NAME>。<BR>
+ctCutsceneScript11Text0026,やあ アイリス。<BR>ボクは このとおり<BR>バッチリ げんきだよ。<BR>
+ctCutsceneScript11Text0027,アイリスも ジャンポールも<BR>げんきそうで よかったよ。<BR>
+ctCutsceneScript11Text0028,うん! ありがとう<BR><NAME>。<BR>
+ctCutsceneScript11Text0029,やあ アイリス。<BR>ボクは このとおり<BR>バッチリ げんきだよ。<BR>
+ctCutsceneScript11Text002A,そう よかったね。<BR><NAME>。<BR>
+ctCutsceneScript11Text002B,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text002C,どうしたの? <NAME><BR>なんだか げんきない<BR>みたいだね。<BR>
+ctCutsceneScript11Text002D,‥‥あ いやいや<BR>だいじょうぶだよ。<BR>
+ctCutsceneScript11Text002E,よー <NAME>っ!<BR>もりもりメシくってるか!!<BR>
+ctCutsceneScript11Text002FSub00,もちろん
+ctCutsceneScript11Text002FSub01,そこそこに
+ctCutsceneScript11Text002FSub02,ダイエットしてるんです
+ctCutsceneScript11Text0030,もちろんですよ。カンナさん。<BR>ガンガンたべて バリバリ<BR>からだを うごかしています。<BR>
+ctCutsceneScript11Text0031,そうこなくっちゃ!<BR>こんかいも ビシビシきたえて<BR>やるから かくごしとけよ。<BR>
+ctCutsceneScript11Text0032,いや～ モリモリっていうか‥<BR>ハラはちぶめ‥‥って<BR>かんじです。<BR>
+ctCutsceneScript11Text0033,また たべすぎで<BR>じょたいになるのも<BR>イヤですから。 ハハハ。<BR>
+ctCutsceneScript11Text0034,なんだよ～ きにするなよ<BR>そんなこと‥‥ っていっても<BR>きになるよな～。<BR>
+ctCutsceneScript11Text0035,こんかいは 『たべすぎで<BR>じょたい』 なんてことは<BR>ないから あんしんしな。<BR>
+ctCutsceneScript11Text0036,じつは‥‥<BR>ダイエットしてるんですよ。<BR>
+ctCutsceneScript11Text0037,ダイエットーーッ!?<BR>
+ctCutsceneScript11Text0038,おまえ おとこだろ!<BR>だったら ガツンとくって<BR>ドバッとうんどうしろ!!<BR>
+ctCutsceneScript11Text0039,そのほうが よっぽど<BR>いいダイエットになるぜ!<BR>
+ctCutsceneScript11Text003A,まあいいや。こんかいも<BR>ビシビシきたえてやるから<BR>かくごしときな。<BR>
+ctCutsceneScript11Text003B,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text003C,なんだ なんだ?<BR>げんきねーじゃねーか。<BR>
+ctCutsceneScript11Text003D,わかった。<BR>あさめしくってねーんだろ。<BR>
+ctCutsceneScript11Text003E,ダメだぞ メシは<BR>いちにち さんかい<BR>きちんとくわねーと。<BR>
+ctCutsceneScript11Text003F,やー <NAME>はん。<BR>げんきやった?<BR>
+ctCutsceneScript11Text0040,そうそう <NAME>はん。<BR>これ おぼえとる?<BR>はつめいは‥‥?<BR>
+ctCutsceneScript11Text0041Sub00,バクハツや!
+ctCutsceneScript11Text0041Sub01,バリバリや!
+ctCutsceneScript11Text0041Sub02,バラバラや!
+ctCutsceneScript11Text0042,『バクハツや!』でしょ。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text0043,そのとおり!<BR>はつめいはバクハツや!<BR>よーおぼえててくれたな。<BR>
+ctCutsceneScript11Text0044,さすが <NAME>はんや。<BR>ほな こんかいも<BR>がんばって いこな!<BR>
+ctCutsceneScript11Text0045,『バリバリや!』でしょ。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text0046,そや! ぜんかいバリバリや!<BR>いくで いくで いくで!!!<BR>シェケナベイベー。<BR>
+ctCutsceneScript11Text0047,って なんでやねん!<BR>
+ctCutsceneScript11Text0048,まあ おもろかったから<BR>エエけどな。ハハハ。<BR>
+ctCutsceneScript11Text0049,ほなまー こんかいも<BR>そこんとこ ヨロシク!<BR>
+ctCutsceneScript11Text004A,『バラバラや!』でしょ。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text004B,そう はつめいは<BR>バラバラや!<BR>
+ctCutsceneScript11Text004C,って なんでやねん!<BR>
+ctCutsceneScript11Text004D,はつめいひんが<BR>バラバラになったら<BR>あかんがな～。<BR>
+ctCutsceneScript11Text004E,まあ ウチのはつめいは<BR>たまに そういうことが<BR>あるけどな。ハハハ。<BR>
+ctCutsceneScript11Text004F,ほなまー こんかいも<BR>よろしゅーたのんます。<BR>
+ctCutsceneScript11Text0050,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0051,ん? <NAME>はん。<BR>どないしたんや?<BR>げんき あらへんな～。<BR>
+ctCutsceneScript11Text0052,そうか‥‥<BR>きびしい にんむをまえに<BR>きんちょうしてるんやな。<BR>
+ctCutsceneScript11Text0053,でも いまから それやと<BR>このさき たいへんやで。<BR>
+ctCutsceneScript11Text0054,もうすこし かたのチカラ<BR>ぬいたほうが エエで。<BR>な <NAME>はん。<BR>
+ctCutsceneScript11Text0055,<NAME>くん。<BR>こんかいの にんむは<BR>たいへんよ。 だいじょうぶ?<BR>
+ctCutsceneScript11Text0056Sub00,まかせてください
+ctCutsceneScript11Text0056Sub01,おそらくは‥‥
+ctCutsceneScript11Text0056Sub02,ラクショーですよ
+ctCutsceneScript11Text0057,まかせてください!<BR>ビシッと やってみせますよ。<BR>
+ctCutsceneScript11Text0058,フフフ‥‥<BR>げんきだけは よさそうね。<BR>
+ctCutsceneScript11Text0059,でも ゆだんはきんもつよ。<BR>つねに きんちょうかんを<BR>もって こうどうしなさい。<BR>
+ctCutsceneScript11Text005A,おそらくは だいじょうぶかと<BR>おもいますが‥‥<BR>
+ctCutsceneScript11Text005B,フフフ。しんちょうなのね。<BR>でも それはたいせつな<BR>ことよ。<BR>
+ctCutsceneScript11Text005C,きおわずに しんちょうに<BR>にんむを すすめることが<BR>あなたを まもるのよ。<BR>
+ctCutsceneScript11Text005D,ラクショー ハラショー<BR>ガンバリまっショー<BR>つーかんじですよ。<BR>
+ctCutsceneScript11Text005E,みててください。<BR>パパッとおわらせて<BR>みせますから。<BR>
+ctCutsceneScript11Text005F,なに バカなこといってるの!<BR><NAME>くん!!<BR>
+ctCutsceneScript11Text0060,そんな こころがまえでいると<BR>いのちを おとすことに<BR>なるわよ。<BR>
+ctCutsceneScript11Text0061,もっとキリッとしなさい。<BR>
+ctCutsceneScript11Text0062,いいこと。<BR>どんな にんむでも<BR>きを ぬいてはダメ。<BR>
+ctCutsceneScript11Text0063,きを ひきしめて<BR>がんばりなさい。<BR>
+ctCutsceneScript11Text0064,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0065,どうしたの?<BR>‥‥きんちょうしているのね。<BR>
+ctCutsceneScript11Text0066,ほどよい きんちょうは<BR>いいけど かたくなりすぎ<BR>てはダメよ。<BR>
+ctCutsceneScript11Text0067,もうすこし<BR>リラックスなさい。<BR>
+ctCutsceneScript11Text0068,<NAME>さん<BR>おひさしぶりです。<BR>おげんきでしたか?<BR>
+ctCutsceneScript11Text0069,こんかいのにんむ あたしも<BR>きょうりょく しますから<BR>がんばりましょうね。<BR>
+ctCutsceneScript11Text006ASub00,たよりにしてます
+ctCutsceneScript11Text006ASub01,がんばります
+ctCutsceneScript11Text006ASub02,じしんないです
+ctCutsceneScript11Text006B,たよりにしてますよ～<BR>さくらさん。<BR>
+ctCutsceneScript11Text006C,あ あの～‥‥<BR>あまり たよりにされても<BR>こまるんですけど‥‥<BR>
+ctCutsceneScript11Text006D,ヒトに たよるよりも<BR>まずは じぶんで がんばって<BR>みるといいですよ。<BR>
+ctCutsceneScript11Text006E,それでも ダメだったときには<BR>よろこんで おてつだい<BR>させてくださいね。<BR>
+ctCutsceneScript11Text006F,はい がんばります。<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text0070,こちらこそ よろしく<BR>おねがいします。<BR>
+ctCutsceneScript11Text0071,あの‥‥<BR>あまり じしんないです‥‥<BR>
+ctCutsceneScript11Text0072,そ そんなこと<BR>いわないでくださいよ!<BR>
+ctCutsceneScript11Text0073,いや ボクなんて<BR>ほんとうにドジで のろまで<BR>グズですから‥‥<BR>
+ctCutsceneScript11Text0074,ああ なんだかどんどん<BR>じしんが なくなって<BR>きちゃった‥‥<BR>
+ctCutsceneScript11Text0075,そ そんな‥‥<BR>だいじょうぶですよ!<BR>あたしだって ドジですから!<BR>
+ctCutsceneScript11Text0076,おたがいドジどうし <BR>がんばりましょう。<BR><NAME>さん。<BR>
+ctCutsceneScript11Text0077,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0078,どうかしました?<BR>どこかぐあいが<BR>わるいのですか?<BR>
+ctCutsceneScript11Text0079,あっ‥‥<BR>もしかして きんちょう<BR>してるんですね?<BR>
+ctCutsceneScript11Text007A,<NAME>さんなら<BR>だいじょうぶですよ。<BR>がんばってくださいね。<BR>
+ctCutsceneScript11Text007B,こほん‥‥<BR>
+ctCutsceneScript11Text007C,あっ すみれさん。<BR>
+ctCutsceneScript11Text007DSub00,あいかわらず おうつくしい‥
+ctCutsceneScript11Text007DSub01,ボク がんばります
+ctCutsceneScript11Text007DSub02,サインください
+ctCutsceneScript11Text007E,すみれさん。<BR>あいかわらず<BR>おうつくしい‥‥<BR>
+ctCutsceneScript11Text007F,おーっほほほほほ。<BR>わたくしが うつくしいのは<BR>あたりまえのこと‥‥<BR>
+ctCutsceneScript11Text0080,でも そのあたりまえのことを<BR>すなおに いえるなんて <BR>
+ctCutsceneScript11Text0081,さすがですわね<BR><NAME>さん。<BR>
+ctCutsceneScript11Text0082,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
+ctCutsceneScript11Text0083,まあまあ そんなこまかい<BR>ことは おきになさらないで。<BR>
+ctCutsceneScript11Text0084,せいぜい しなないていどに<BR>がんばりなさい。<BR>
+ctCutsceneScript11Text0085,すみれさん ボク<BR>がんばりますから<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text0086,はいはい。しなないていどに<BR>がんばりなさい。<BR><NAME>さん。<BR>
+ctCutsceneScript11Text0087,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
+ctCutsceneScript11Text0088,まあまあ そんなこまかいこと<BR>どうでもいいじゃ ありません<BR>こと。おーほほほほほ。<BR>
+ctCutsceneScript11Text0089,すみれさん サインください。<BR>このまえ もらい<BR>わすれたんです。<BR>
+ctCutsceneScript11Text008A,は はあ!?<BR>
+ctCutsceneScript11Text008B,<NAME>さん。<BR>あなた どういうつもりで<BR>ここにきたのです。<BR>
+ctCutsceneScript11Text008C,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
+ctCutsceneScript11Text008D,そんな うわついたきもちで<BR>いると とんでもないミスを<BR>おかしますわよ!<BR>
+ctCutsceneScript11Text008E,もっと きをひきしめて<BR>ビシッとしなさい!<BR>
+ctCutsceneScript11Text008F,あ そうそう サインでした<BR>わね。あースタアはたいへん<BR>ですわ。おーほほほほほ。<BR>
+ctCutsceneScript11Text0090,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0091,あらま どうしましょ。<BR>うつくしいことは なんて<BR>つみなこと なのかしら。<BR>
+ctCutsceneScript11Text0092,この わたくしのうつくしさに<BR>みとれて ことばをなくして<BR>しまいましたのね‥‥<BR>
+ctCutsceneScript11Text0093,ちがうよ。あいもかわらない<BR>おまえの バカさかげんに<BR>あきれてるだけだよ。<BR>
+ctCutsceneScript11Text0094,なんですってー カンナさん!<BR>きんにくゴリラは だまってて<BR>くださいませんか!<BR>
+ctCutsceneScript11Text0095,‥‥まあ いいですわ。<BR>
+ctCutsceneScript11Text0096,<NAME>さん くれぐれも<BR>わたくしの あしをひっぱら<BR>ないよう がんばりなさい。<BR>
+ctCutsceneScript11Text0097,じゃ <NAME>くん。<BR>あたらしいメンバーを<BR>しょうかいしよう。<BR>
+ctCutsceneScript11Text0098,まずは おりひめくんだ。<BR>
+ctCutsceneScript11Text0099,チャオ!<BR>ソレッタ・おりひめ<BR>でーす。<BR>
+ctCutsceneScript11Text009ASub00,うつくしさをほめる
+ctCutsceneScript11Text009ASub01,ふつうにあいさつする
+ctCutsceneScript11Text009ASub02,うまれたくに をきく
+ctCutsceneScript11Text009B,び びじんだ～‥‥<BR>
+ctCutsceneScript11Text009C,オー! ニッポンのおとこ<BR>ダメダメでーす。 すぐに<BR>ハナのした のばしまーす。<BR>
+ctCutsceneScript11Text009D,サイテーでーす。<BR>げひんでーす。<BR>ブタにしんじゅでーす!<BR>
+ctCutsceneScript11Text009E,ブ ブタにしんじゅは<BR>かんけいないんじゃ<BR>ないですか‥‥<BR>
+ctCutsceneScript11Text009F,オー!<BR>がいこくじん いじめでーす。<BR>
+ctCutsceneScript11Text00A0,いっしょうけんめい<BR>ニッポンのことば<BR>べんきょうして いるのに!<BR>
+ctCutsceneScript11Text00A1,すみません ごめんなさい。<BR>ともかく よろしくおねがい<BR>します。おりひめさん。<BR>
+ctCutsceneScript11Text00A2,おねがいされても<BR>こまりまーす。<BR>でも まあいいでしょ。<BR>
+ctCutsceneScript11Text00A3,おりひめさん。<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text00A4,おねがい? <BR>わたしに なにを<BR>おねがいするのでーすか?<BR>
+ctCutsceneScript11Text00A5,わたし かみさまじゃ<BR>ありませーん。おねがい<BR>されても こまりまーす。<BR>
+ctCutsceneScript11Text00A6,なーんていうのは<BR>ジョークでーす。<BR>こちらこそ よろしくでーす。<BR>
+ctCutsceneScript11Text00A7,ソレッタ・おりひめさん?<BR>あの～ うまれたくには<BR>どこなんですか?<BR>
+ctCutsceneScript11Text00A8,うまれたくに?<BR>イタリアでーす。<BR>それが どうかしましたか?<BR>
+ctCutsceneScript11Text00A9,いえ かわった おなまえだな<BR>と おもったもので‥‥<BR>
+ctCutsceneScript11Text00AA,かわった?‥‥<BR>それは わたしをバカにして<BR>いるのですか?!<BR>
+ctCutsceneScript11Text00AB,いえいえ とんでもない。<BR>とてもステキな<BR>おなまえですね。<BR>
+ctCutsceneScript11Text00AC,ともかく<BR>よろしくおねがいします。<BR>おりひめさん。<BR>
+ctCutsceneScript11Text00AD,ステキな おなまえ<BR>いいました。<BR>あなた いいひとでーす。<BR>
+ctCutsceneScript11Text00AE,こちらこそ よろしくでーす。<BR>
+ctCutsceneScript11Text00AF,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text00B0,ん? どうしましたか?<BR>へんじがないでーす。<BR>きんちょうしてますか?<BR>
+ctCutsceneScript11Text00B1,まあ いいでーす。<BR>がんばってくださーい。<BR>
+ctCutsceneScript11Text00B2,そして<BR>レニ・ミルヒシュトラーセ<BR>くんだ。<BR>
+ctCutsceneScript11Text00B3,ボクは レニ。<BR>
+ctCutsceneScript11Text00B4Sub00,ふつうにあいさつする
+ctCutsceneScript11Text00B4Sub01,レニをほめる
+ctCutsceneScript11Text00B4Sub02,うまれたくにを きく
+ctCutsceneScript11Text00B5,レニさん。<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text00B6,よろしく‥‥<BR>
+ctCutsceneScript11Text00B7,クールでかっこいいですね。<BR>
+ctCutsceneScript11Text00B8,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text00B9,(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>
+ctCutsceneScript11Text00BA,レニ・ミルヒシュトラーセさん<BR>もしかして ドイツのうまれ<BR>なんですか?<BR>
+ctCutsceneScript11Text00BB,そう‥‥‥‥<BR>
+ctCutsceneScript11Text00BC,やっぱり そうなんですか‥‥<BR>(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>
+ctCutsceneScript11Text00BD,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text00BE,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text00BF,じゃあ みんな<BR><NAME>くんの サポート<BR>よろしくな。<BR>
+ctCutsceneScript11Text00C0,ビー! ビー! ビー!<BR>
+ctCutsceneScript11Text00C1,けいほう?<BR>
+ctCutsceneScript11Text00C2,ぜんいんにつぐ。<BR>しきゅう さくせんしつに<BR>しゅうごう!<BR>
+ctCutsceneScript11Text00C3,<NAME>くん!<BR>いそぐぞ!!<BR>
+ctCutsceneScript11Text00C4,はじめまして おおがみさん。<BR><NAME> ともうします。<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text00C5,おおがみだ。<BR>よろしく <NAME>くん。<BR>
+ctCutsceneScript11Text00C6,では はなぐみの みんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>
+ctCutsceneScript11Text00C7,ミカサきねんこうえんで<BR>おこっている ことを<BR>しらべてもらうために<BR>
+ctCutsceneScript11Text00C8,かいぐん しかんがっこう<BR>から きてもらった<BR><NAME>くんだ。<BR>
+ctCutsceneScript11Text00C9,かいぐん しかんがっこう<BR>から やってまいりました<BR><NAME>です。<BR>
+ctCutsceneScript11Text00CA,みなさんに ごめいわくを<BR>かけないよう せいいっぱい<BR>がんばります。<BR>
+ctCutsceneScript11Text00CB,いたらないところも あると<BR>おもいますが よろしく<BR>おねがいします。<BR>
+ctCutsceneScript11Text00CC,おう げんきいいな～。<BR>
+ctCutsceneScript11Text00CD,あたいは<BR>きりしま カンナだ。<BR>よろしくな。<BR>
+ctCutsceneScript11Text00CESub00,ふつうにあいさつする
+ctCutsceneScript11Text00CESub01,カンナをほめる
+ctCutsceneScript11Text00CESub02,ごまをする
+ctCutsceneScript11Text00CF,はい カンナさん。<BR>いろいろとおしえてください。<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text00D0,よし。<BR>ガンガンきたえてやるから<BR>かくごしとけよ。<BR>
+ctCutsceneScript11Text00D1,はい カンナさん。<BR>ところで カンナさんって<BR>いいからだ してますね～。<BR>
+ctCutsceneScript11Text00D2,どんなスポーツを<BR>やってらっしゃるのですか?<BR>
+ctCutsceneScript11Text00D3,ふ～ん。<BR>おまえ なかなか<BR>みるめが あるな～。<BR>
+ctCutsceneScript11Text00D4,カラテだよ。カ・ラ・テ。<BR>おまえも ビシビシきたえて<BR>やるから かくごしとけよ。<BR>
+ctCutsceneScript11Text00D5,はい カンナさん。<BR>ところでカンナさんって<BR>ステキですよね～。<BR>
+ctCutsceneScript11Text00D6,そのダイナマイトなボディ<BR>ナイスですね～。<BR>
+ctCutsceneScript11Text00D7,はぁ ナイスだぁ?<BR>おまえ ここに なにしに<BR>きたのか わかってるのか?<BR>
+ctCutsceneScript11Text00D8,もっとビシッとしろ!<BR>そんな うわついたことじゃ<BR>いつか おおケガするぞ!<BR>
+ctCutsceneScript11Text00D9,まったくも～。あたいが<BR>ビシビシきたえてやるから<BR>かくごしときな。<BR>
+ctCutsceneScript11Text00DA,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text00DB,なんだ なんだ?<BR>げんきねーじゃねーか。<BR>
+ctCutsceneScript11Text00DC,わかった。<BR>あさめしくってねーんだろ。<BR>ダメだぞ。<BR>
+ctCutsceneScript11Text00DD,メシは あさから<BR>ドンブリ 3バイ。<BR>
+ctCutsceneScript11Text00DE,これが ていこくかげきだんの<BR>きまりなんだぜ。<BR>
+ctCutsceneScript11Text00DF,マリア・タチバナです。<BR>
+ctCutsceneScript11Text00E0Sub00,ふつうにあいさつする
+ctCutsceneScript11Text00E0Sub01,マリアをほめる
+ctCutsceneScript11Text00E0Sub02,ごまをする
+ctCutsceneScript11Text00E1,よろしくおねがいします<BR>マリアさん。<BR>
+ctCutsceneScript11Text00E2,こちらこそ よろしく。<BR>
+ctCutsceneScript11Text00E3,よろしくおねがいします<BR>マリアさん。<BR>
+ctCutsceneScript11Text00E4,マリアさんって<BR>ぜんぜん スキが<BR>ないんですね。<BR>
+ctCutsceneScript11Text00E5,そうかしら? <BR>わたしは これが<BR>ふつうなんだけど。<BR>
+ctCutsceneScript11Text00E6,よろしくおねがいします<BR>マリアさん。<BR>
+ctCutsceneScript11Text00E7,マリアさんって<BR>ステキですよね～。<BR>クールでかっこよくて。<BR>
+ctCutsceneScript11Text00E8,ボク ファンに<BR>なっちゃいそうですよ。<BR>
+ctCutsceneScript11Text00E9,<NAME>くん!<BR>あなた いったいここに<BR>なにをしに きたの!?<BR>
+ctCutsceneScript11Text00EA,あなたには だいじな<BR>にんむが あるでしょ!<BR>
+ctCutsceneScript11Text00EB,もっと キリッとしなさい!<BR>
+ctCutsceneScript11Text00EC,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text00ED,どうかしたの?<BR>きんちょうしているのね。<BR>
+ctCutsceneScript11Text00EE,きんちょうするのは<BR>しょうがないけど あまり<BR>かたくなりすぎては ダメよ。<BR>
+ctCutsceneScript11Text00EF,もうすこし リラックス<BR>しなさい。<BR>
+ctCutsceneScript11Text00F0,はーい。アイリスでーす!<BR>こっちはクマのジャンポール!<BR>よろしくね。<BR>
+ctCutsceneScript11Text00F1Sub00,ふつうにあいさつする
+ctCutsceneScript11Text00F1Sub01,アイリスをほめる
+ctCutsceneScript11Text00F1Sub02,ごまをする
+ctCutsceneScript11Text00F2,よろしくおねがいします<BR>アイリスさん。<BR>
+ctCutsceneScript11Text00F3,アイリスでいいよ。<BR><NAME>。<BR>
+ctCutsceneScript11Text00F4,よろしくおねがいします。<BR>アイリスさん。<BR>
+ctCutsceneScript11Text00F5,エヘヘ アイリスでいいよ。<BR><NAME>。<BR>
+ctCutsceneScript11Text00F6,アイリスって<BR>フランスにんぎょう みたいで<BR>とっても びじんだね～。<BR>
+ctCutsceneScript11Text00F7,アイリス びじんだって!<BR>
+ctCutsceneScript11Text00F8,<NAME>って<BR>いいひとだね～。<BR>ジャンポール。<BR>
+ctCutsceneScript11Text00F9,よろしくおねがいします。<BR>アイリスさん。<BR>
+ctCutsceneScript11Text00FA,エヘヘ アイリスでいいよ。<BR><NAME>。<BR>
+ctCutsceneScript11Text00FB,アイリスも かわいいけど<BR>ジャンポールも なかなか<BR>いいカオしてるよね。<BR>
+ctCutsceneScript11Text00FC,えっ ほんと?<BR>わーい ジャンポール<BR>かっこいいってさ。<BR>
+ctCutsceneScript11Text00FD,<NAME>って<BR>いいひとだね ジャンポール。<BR>
+ctCutsceneScript11Text00FE,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text00FF,あれ? どうしたの?<BR>きんちょうしているの?<BR>
+ctCutsceneScript11Text0100,しょうがないな～。<BR>アイリスが リラックスできる<BR>まほうを かけてあげる。<BR>
+ctCutsceneScript11Text0101,イリス・ジャンポーーール!<BR>
+ctCutsceneScript11Text0102,ほら もうだいじょうぶだよ<BR><NAME>。<BR>
+ctCutsceneScript11Text0103,うん‥‥ ありがとう<BR>アイリス。<BR>
+ctCutsceneScript11Text0104,ウチは り・こうらん や。<BR>
+ctCutsceneScript11Text0105Sub00,ふつうにあいさつする
+ctCutsceneScript11Text0105Sub01,こうらんをほめる
+ctCutsceneScript11Text0105Sub02,ごまをする
+ctCutsceneScript11Text0106,よろしくおねがいします。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text0107,こちらこそ よろしゅーに。<BR>
+ctCutsceneScript11Text0108,よろしくおねがいします。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text0109,こうらんさんって<BR>メガネが にあってて<BR>ステキですね。<BR>
+ctCutsceneScript11Text010A,え? なんやて?<BR>
+ctCutsceneScript11Text010B,メガネかけてる じょせいって<BR>かしこそうで なんだか<BR>カッコイイですよね。<BR>
+ctCutsceneScript11Text010C,そ そうか?<BR>そないなこと いわれたん<BR>ウチ はじめてや。<BR>
+ctCutsceneScript11Text010D,でも‥‥ ウチが<BR>カッコエエかどうかは<BR>わからんけど‥‥<BR>
+ctCutsceneScript11Text010E,ウチの はつめいは<BR>めっちゃカッコエエで!<BR>
+ctCutsceneScript11Text010F,そうなんですか!<BR>
+ctCutsceneScript11Text0110,いつか ウチじまんの<BR>はつめいひんを みせたるわ。<BR>たのしみに しててな!<BR>
+ctCutsceneScript11Text0111,よろしくおねがいします。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text0112,こうらんさんって<BR>メガネが にあってて<BR>とても チャーミングですね。<BR>
+ctCutsceneScript11Text0113,ボク ファンになっちゃい<BR>そうですよ。<BR>
+ctCutsceneScript11Text0114,えっ! チャ チャーミング?<BR>て てれるやん<BR><NAME>はん‥‥<BR>
+ctCutsceneScript11Text0115,<NAME>はん なかなか<BR>ひとを みるめが<BR>あるやんか。<BR>
+ctCutsceneScript11Text0116,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0117,ん? <NAME>はん。<BR>どないしたんや<BR>げんきあらへんな～。<BR>
+ctCutsceneScript11Text0118,そうか にんむをまえに<BR>きんちょうしてるんやな。<BR>
+ctCutsceneScript11Text0119,でも いまから<BR>そんなんやったら<BR>このさき たいへんやで。<BR>
+ctCutsceneScript11Text011A,もうすこし かたのチカラ<BR>ぬいて がんばっていこうや<BR>な <NAME>はん。<BR>
+ctCutsceneScript11Text011B,ちょいと しんじんさん。<BR>
+ctCutsceneScript11Text011C,このわたくしの ジャマを<BR>しないよう しっかりと<BR>がんばるのですわよ。<BR>
+ctCutsceneScript11Text011D,はい‥‥<BR>あ あの‥‥ すみませんが<BR>おなまえは なんと‥‥<BR>
+ctCutsceneScript11Text011E,な なんですって～。<BR>このだいスタアを しらないと<BR>おっしゃるの‥‥<BR>
+ctCutsceneScript11Text011F,しょーがねーだろ?<BR>こいつは しかんがっこうに<BR>いたんだからさー。<BR>
+ctCutsceneScript11Text0120,まぁ それならば <BR>しかたないかも<BR>しれませんわね。<BR>
+ctCutsceneScript11Text0121,わたくしは<BR>かんざき すみれ<BR>ですわ。<BR>
+ctCutsceneScript11Text0122Sub00,ふつうにあいさつする
+ctCutsceneScript11Text0122Sub01,すみれをほめる
+ctCutsceneScript11Text0122Sub02,ごまをする
+ctCutsceneScript11Text0123,よろしくおねがいします。<BR>すみれさん。<BR>
+ctCutsceneScript11Text0124,はい はい。<BR><NAME>さん。<BR>
+ctCutsceneScript11Text0125,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
+ctCutsceneScript11Text0126,まあまあ そんなこまかいこと<BR>どうでもいいじゃ<BR>ありませんこと。<BR>
+ctCutsceneScript11Text0127,よろしくおねがいします。<BR>すみれさん。<BR>
+ctCutsceneScript11Text0128,ところで すみれさんって<BR>ステキな おようふくを<BR>きていらっしゃいますね。<BR>
+ctCutsceneScript11Text0129,あら <NAME>さん。<BR>ようふくを ほめるなんて<BR>なかなかですわよ。<BR>
+ctCutsceneScript11Text012A,そのちょうしで<BR>がんばりなさい。<BR>
+ctCutsceneScript11Text012B,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
+ctCutsceneScript11Text012C,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
+ctCutsceneScript11Text012D,よろしくおねがいします<BR>すみれさん‥‥<BR>あ いや まちがえました。<BR>
+ctCutsceneScript11Text012E,よろしくおねがいします。<BR>うつくしい すみれさん。<BR>
+ctCutsceneScript11Text012F,あーら なかなかわかってる<BR>じゃありませんか。<BR><NAME>さん。<BR>
+ctCutsceneScript11Text0130,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
+ctCutsceneScript11Text0131,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
+ctCutsceneScript11Text0132,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0133,どうしたんですの?<BR>‥‥あ わかりましたわ。<BR>
+ctCutsceneScript11Text0134,このわたくしの まぶしい<BR>までのうつくしさを まえに<BR>きんちょうしているのですね。<BR>
+ctCutsceneScript11Text0135,ま せいぜい わたくしの<BR>あしをひっぱらないよう<BR>しっかり たのみますわよ。<BR>
+ctCutsceneScript11Text0136,あたしは<BR>しんぐうじ さくら<BR>です。<BR>
+ctCutsceneScript11Text0137Sub00,ふつうにあいさつする
+ctCutsceneScript11Text0137Sub01,さくらをほめる
+ctCutsceneScript11Text0137Sub02,ごまをする
+ctCutsceneScript11Text0138,よろしくおねがいします。<BR>さくらさん。<BR>
+ctCutsceneScript11Text0139,こちらこそ よろしくおねがい<BR>します。<NAME>さん。<BR>がんばってくださいね。<BR>
+ctCutsceneScript11Text013A,よろしくおねがいします。<BR>さくらさん。<BR>
+ctCutsceneScript11Text013B,ところで さくらさんの<BR>そのリボン。<BR>
+ctCutsceneScript11Text013C,ながくしなやかな くろかみに<BR>にあって とてもステキ<BR>ですね。<BR>
+ctCutsceneScript11Text013D,えっ‥‥ ありがとう<BR>ございます‥‥<BR>
+ctCutsceneScript11Text013E,よろしくおねがいします。<BR>さくらさん。<BR>
+ctCutsceneScript11Text013F,ボクかんげきです。さくらさん<BR>のような ステキなじょせいと<BR>しりあいに なれるなんて。<BR>
+ctCutsceneScript11Text0140,えっ?!<BR>
+ctCutsceneScript11Text0141,<NAME>さん。<BR>ダメですよ そんなふまじめな<BR>ことをいっていては。<BR>
+ctCutsceneScript11Text0142,<NAME>さんに<BR>あたえられた にんむは<BR>たいへんな ものなんですよ。<BR>
+ctCutsceneScript11Text0143,もっと しっかり<BR>してください。<BR>
+ctCutsceneScript11Text0144,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0145,どうしたんですか?<BR>‥‥あ きんちょうしているの<BR>ですね。<BR>
+ctCutsceneScript11Text0146,あたしもそうでしたよ。<BR>がんばってくださいね。<BR><NAME>さん。<BR>
+ctCutsceneScript11Text0147,チャオ!<BR>わたしは ソレッタ・おりひめ<BR>でーす。<BR>
+ctCutsceneScript11Text0148Sub00,ふつうにあいさつする
+ctCutsceneScript11Text0148Sub01,おりひめをほめる
+ctCutsceneScript11Text0148Sub02,ごまをする
+ctCutsceneScript11Text0149,よろしくおねがいします。<BR>おりひめさん。<BR>
+ctCutsceneScript11Text014A,おねがい? おねがい<BR>するときには おさいせん <BR>これ ひつようでーす。<BR>
+ctCutsceneScript11Text014B,ニッポンのかみさま <BR>みな そういって いまーす。<BR>はやく だすでーす。<BR>
+ctCutsceneScript11Text014C,なーんていうのは<BR>ジョークでーす。<BR>こちらこそ よろしくでーす。<BR>
+ctCutsceneScript11Text014D,よろしくおねがいします。<BR>おりひめさん。<BR>
+ctCutsceneScript11Text014E,いろいろと べんきょうさせて<BR>いただきます。<BR>
+ctCutsceneScript11Text014F,ニッポンのおとこにしては<BR>ずいぶんと マシな<BR>ようですねー!<BR>
+ctCutsceneScript11Text0150,リッパな こころがけでーす!<BR>いろいろと べんきょうすると<BR>いーでーす!<BR>
+ctCutsceneScript11Text0151,よろしくおねがいします。<BR>おりひめさん。<BR>
+ctCutsceneScript11Text0152,おりひめさんの エメラルドの<BR>ようにかがやくひとみ<BR>とてもステキですね～。<BR>
+ctCutsceneScript11Text0153,オー! ニッポンのおとこ<BR>ダメダメでーす。<BR>
+ctCutsceneScript11Text0154,わたしのような<BR>びじんを みると すぐに<BR>ハナのした のばしまーす。<BR>
+ctCutsceneScript11Text0155,いえ そういう<BR>いみじゃあ‥‥<BR>
+ctCutsceneScript11Text0156,なーんですって。<BR>このわたしが びじんじゃない<BR>というのですか?<BR>
+ctCutsceneScript11Text0157,ニッポンのおとこ<BR>しつれいでーす!!!<BR>
+ctCutsceneScript11Text0158,いいたいことは まだあります<BR>‥‥でも ながくなるから<BR>このへんで やめときまーす。<BR>
+ctCutsceneScript11Text0159,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text015A,どうしましたか?<BR>へんじがないでーす。<BR>きんちょうしてますか?<BR>
+ctCutsceneScript11Text015B,まあ いいでーす。<BR>がんばってくださーい。<BR>
+ctCutsceneScript11Text015C,ボクはレニ。<BR>レニ・ミルヒシュトラーセ。<BR>
+ctCutsceneScript11Text015DSub00,ふつうにあいさつする
+ctCutsceneScript11Text015DSub01,レニをほめる
+ctCutsceneScript11Text015DSub02,ごまをする
+ctCutsceneScript11Text015E,よろしくおねがいします。<BR>レニさん。<BR>
+ctCutsceneScript11Text015F,よろしく‥‥<BR>
+ctCutsceneScript11Text0160,よろしくおねがいします。<BR>レニさん。<BR>
+ctCutsceneScript11Text0161,レニさんって<BR>クールでかっこいいですね。<BR>
+ctCutsceneScript11Text0162,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0163,(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>
+ctCutsceneScript11Text0164,よろしくおねがいします。<BR>レニさん。<BR>
+ctCutsceneScript11Text0165,かっこいいですよね～<BR>レニさんの そのおちついた<BR>ふんいき。<BR>
+ctCutsceneScript11Text0166,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0167,(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>
+ctCutsceneScript11Text0168,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0169,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text016A,よし しょうかいは<BR>すんだな。<BR>
+ctCutsceneScript11Text016B,みんな <NAME>くんを<BR>よろしくたのむよ。<BR>
+ctCutsceneScript11Text016C,ビー! ビー! ビー!<BR>
+ctCutsceneScript11Text016D,けいほう?<BR>
+ctCutsceneScript11Text016E,ぜんいんにつぐ。<BR>しきゅう さくせんしつに<BR>しゅうごう!<BR>
+ctCutsceneScript11Text016F,<NAME>くん!<BR>いそぐぞ!!<BR>
+ctCutsceneScript11Text0170,ぜんいん そろったようね‥‥<BR>
+ctCutsceneScript11Text0171,ミカサきねんこうえんでの<BR>かいげんしょうは<BR>しっているわね。<BR>
+ctCutsceneScript11Text0172,いま ミカサきねんこうえんで<BR>きょだいな れいりょくが<BR>かくにんされました。<BR>
+ctCutsceneScript11Text0173,まさか あらたなてきが?!<BR>
+ctCutsceneScript11Text0174,さあ わからないわ。<BR>
+ctCutsceneScript11Text0175,だったら あたし<BR>しらべにいきます。<BR>
+ctCutsceneScript11Text0176,れいりょくの いへん<BR>また おこっています。<BR>ミカサきねんこうえんです。<BR>
+ctCutsceneScript11Text0177,きょだいな れいりょくの<BR>ちゅうしんは‥‥‥‥‥‥‥‥<BR>ミカサです!<BR>
+ctCutsceneScript11Text0178,ミカサから きょだいな<BR>れいりょくが でています!<BR>
+ctCutsceneScript11Text0179,かえでさん!<BR>しゅつどうめいれいを!!<BR>
+ctCutsceneScript11Text017A,ダメよ!<BR>
+ctCutsceneScript11Text017B,げんいんが わからないのに<BR>あなたたちを うごかす<BR>わけには いかないわ。<BR>
+ctCutsceneScript11Text017C,ミカサのしたには『やまと』や<BR>『せいまじょう』が<BR>ねむっています‥‥<BR>
+ctCutsceneScript11Text017D,ということは この<BR>れいりょくの いじょう‥‥<BR>
+ctCutsceneScript11Text017E,いちじてきな<BR>しぜんげんしょう かも<BR>しれんちゅーこっちゃな。<BR>
+ctCutsceneScript11Text017F,まずは ちょうさをしないと<BR>うごけないわね。<BR>
+ctCutsceneScript11Text0180,そういうことだぜ。<BR>そのために <NAME>を<BR>よんだんだろ?<BR>
+ctCutsceneScript11Text0181,<NAME>くん。<BR>しゅつどうよ。<BR>
+ctCutsceneScript11Text0182,きゅうな しゅつどうだから<BR>おおがみくんと いっしょに<BR>いきなさい。<BR>
+ctCutsceneScript11Text0183,おおがみくん たのんだわよ。<BR><NAME>くん しっかりね。<BR>
+ctCutsceneScript11Text0184,りょうかい!<BR>
+ctCutsceneScript11Text0185,りょうかい!
+ctCutsceneScript11Text0186,りょうかい!<BR>
+ctCutsceneScript11Text0187,よし いいへんじだぞ<BR><NAME>くん!<BR>
+ctCutsceneScript11Text0188,どうした <NAME>くん!<BR>しっかりしろ!<BR>
+ctCutsceneScript11Text0189,りょ りょうかい!<BR>
+ctCutsceneScript11Text018A,おおがみ。 <NAME>は<BR>ミカサきねんこうえんを<BR>しらべに しゅつどう!<BR>
+ctCutsceneScript11Text018B,おおがみ。 <NAME>。<BR>ミカサきねんこうえんを<BR>しらべに しゅつどうします!<BR>
+ctCutsceneScript11Text018C,<NAME> がんばってね。<BR>
+ctCutsceneScript11Text018D,いくぞ!<BR><NAME>くん!!<BR>
+ctCutsceneScript11Text018E,～だい1しょう～<BR>『こうぶ ミカサにたつ!』<BR>
+ctCutsceneScript11Text018F,ふう‥‥<BR>やっとついたわ。<BR>
+ctCutsceneScript11Text0190,とつぜん よびだされたけど<BR>いったい なにが<BR>あったのかしら‥‥<BR>
+ctCutsceneScript11Text0191,よく きてくれたわね。<BR>わたしは<BR>ふじえだ かえで。<BR>
+ctCutsceneScript11Text0192,ていこくかげきだんの<BR>ふくしれいです。<BR>
+ctCutsceneScript11Text0193,では さっそくだけど<BR>あなたを ここへよんだ<BR>りゆうを せつめいするわ。<BR>
+ctCutsceneScript11Text0194,あなたの にんむは<BR>ミカサきねんこうえんを<BR>しらべることです。<BR>
+ctCutsceneScript11Text0195,すこしまえから ミカサきねん<BR>こうえんで おかしなことが<BR>おこっているのです。<BR>
+ctCutsceneScript11Text0196,そこで こんかいは あなたに<BR>その げんいんを しらべて<BR>もらおうと おもいます。<BR>
+ctCutsceneScript11Text0197,いいわね <NAME>。<BR>
+ctCutsceneScript11Text0198,では ていこくかげきだん<BR>はなぐみの たいちょうを<BR>しょうかいするわ。<BR>
+ctCutsceneScript11Text0199,おおがみくん。<BR>
+ctCutsceneScript11Text019A,はい。<BR>
+ctCutsceneScript11Text019BSub00,おおがみさん おひさしぶりです
+ctCutsceneScript11Text019BSub01,はじめまして
+ctCutsceneScript11Text019C,‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text019D,おや? どうしたんだい<BR><NAME>くん。<BR>きんちょう しているのか?<BR>
+ctCutsceneScript11Text019E,だいじょうぶだよ そんなに<BR>かたく ならなくても。<BR>リラックス リラックス。<BR>
+ctCutsceneScript11Text019F,じゃあ はなぐみの みんなに<BR>しょうかいするから<BR>ついてきて。<BR>
+ctCutsceneScript11Text01A0,おひさしぶりです。<BR>おおがみさん。<BR>
+ctCutsceneScript11Text01A1,やあ。<BR>げんきだったかい?<BR><NAME>くん。<BR>
+ctCutsceneScript11Text01A2,あら そういえば<BR>ふたりは しりあい<BR>だったわね。<BR>
+ctCutsceneScript11Text01A3,<NAME>くんは はなぐみに<BR>たいけんにゅうたいを<BR>したことが あるんですよ。<BR>
+ctCutsceneScript11Text01A4,きかんは いっかげつだった<BR>のですが <NAME>くんは<BR>なかなかステキな‥‥<BR>
+ctCutsceneScript11Text01A5,あ いや‥‥<BR>ばつぐんの せいせきでした。<BR>
+ctCutsceneScript11Text01A6,そうなの。<BR>それは たのもしいわね。<BR>
+ctCutsceneScript11Text01A7,<NAME>くん。こんかいの<BR>にんむは きびしいが<BR>がんばってくれよ。<BR>
+ctCutsceneScript11Text01A8,じゃあ はなぐみの みんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>
+ctCutsceneScript11Text01A9,しってるものも いると<BR>おもうけど <BR><NAME>くんだ。<BR>
+ctCutsceneScript11Text01AA,ミカサきねんこうえんを<BR>しらべてもらうために<BR>きてもらった。<BR>
+ctCutsceneScript11Text01AB,じゃあ <NAME>くん。<BR>みんなに あいさつを。<BR>
+ctCutsceneScript11Text01AC,<NAME>です。<BR>みなさん おひさしぶりです。<BR>
+ctCutsceneScript11Text01AD,あ でも<BR>そちらの おふたりは <BR>はじめまして ですね。<BR>
+ctCutsceneScript11Text01AE,こんかいは たいけんにゅう<BR>たい ではなく にんむが<BR>あたえられる とのことで<BR>
+ctCutsceneScript11Text01AF,よりいっそう きあいをいれて<BR>がんばりますので<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text01B0,よー <NAME>っ!<BR>ちゃんとメシくってるか!?<BR>
+ctCutsceneScript11Text01B1Sub00,はい
+ctCutsceneScript11Text01B1Sub01,まあ そこそこには‥‥
+ctCutsceneScript11Text01B1Sub02,ダイエットしてるんです
+ctCutsceneScript11Text01B2,はい。<BR>もちろんです。<BR>
+ctCutsceneScript11Text01B3,カンナさんに おしえられた<BR>とおり きちんとたべて<BR>うんどうをしています。<BR>
+ctCutsceneScript11Text01B4,よし! バッチリじゃないか。<BR>それじゃ こんかいもビシビシ<BR>いくから そのつもりでな。<BR>
+ctCutsceneScript11Text01B5,まあ そこそこには<BR>たべています。<BR>
+ctCutsceneScript11Text01B6,たくさんたべすぎて また<BR>じょたいに なるのもイヤ<BR>ですからね。ふふふ‥‥<BR>
+ctCutsceneScript11Text01B7,なんだよ～ きにするなよ<BR>そんなこと‥‥って<BR>いっても きになるよな～。<BR>
+ctCutsceneScript11Text01B8,こんかいは 『たべすぎで<BR>じょたい』 なんてことは<BR>ないから あんしんしな。<BR>
+ctCutsceneScript11Text01B9,じつは‥‥<BR>ダイエットしてるんですよ。<BR>
+ctCutsceneScript11Text01BA,ダイエットーーッ!?<BR>
+ctCutsceneScript11Text01BB,わかいんだからさー そんなの<BR>きにするより ちゃんとたべて<BR>うんどうしろよ～。<BR>
+ctCutsceneScript11Text01BC,そのほうが よっぽど<BR>けんこうてきだし<BR>いいダイエットになるぜ!<BR>
+ctCutsceneScript11Text01BD,まあいいや。 こんかいも<BR>あたいが ビシビシきたえて<BR>やるから かくごしときなよ。<BR>
+ctCutsceneScript11Text01BE,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text01BF,なんだ なんだ?<BR>げんきねーじゃねーか。<BR>
+ctCutsceneScript11Text01C0,わかった。<BR>あさメシ くってないんだろ。<BR>
+ctCutsceneScript11Text01C1,ダメだぞ メシは<BR>いちにち 3かい<BR>きちんとくわねーと。<BR>
+ctCutsceneScript11Text01C2,<NAME>さん。<BR>おひさしぶりです。<BR>おげんきでしたか?<BR>
+ctCutsceneScript11Text01C3,こんかいの にんむ<BR>たいへんそうですけど<BR>がんばってくださいね。<BR>
+ctCutsceneScript11Text01C4Sub00,あまりじしんがない
+ctCutsceneScript11Text01C4Sub01,がんばります
+ctCutsceneScript11Text01C4Sub02,おおがみさんを たよります
+ctCutsceneScript11Text01C5,えっ たいへんなのですか‥‥<BR>なんだかちょっと じしんが<BR>なくなってきました‥‥<BR>
+ctCutsceneScript11Text01C6,な なにをいってるんですか。<BR><NAME>さんなら<BR>だいじょうぶですよ。<BR>
+ctCutsceneScript11Text01C7,それに あたしたちも<BR>ついてますから<BR>だいじょうぶですよ!<BR>
+ctCutsceneScript11Text01C8,おうえんしますから<BR>いっしょに<BR>がんばりましょう。<BR>
+ctCutsceneScript11Text01C9,はい がんばりますので<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text01CA,はい がんばってくださいね。<BR>
+ctCutsceneScript11Text01CB,きつくても<BR>だいじょうぶです。<BR>
+ctCutsceneScript11Text01CC,おおがみさんを たよりに<BR>がんばっていこうと<BR>おもっていますから。<BR>
+ctCutsceneScript11Text01CD,えっ!!<BR>お おおがみさんを!!!<BR>
+ctCutsceneScript11Text01CE,はい。<BR>‥‥どうかしましたか?<BR>
+ctCutsceneScript11Text01CF,あ‥い いえ なんでも‥‥<BR>
+ctCutsceneScript11Text01D0,‥‥そうだわ。おおがみさんは<BR>たいちょうとして なにかと<BR>おいそがしいから‥‥<BR>
+ctCutsceneScript11Text01D1,カンナさんや マリアさんを<BR>たよるといいんじゃ<BR>ないかしら。<BR>
+ctCutsceneScript11Text01D2,ね <NAME>さん。<BR>それじゃ そういうことで<BR>がんばっていきましょうね。<BR>
+ctCutsceneScript11Text01D3,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text01D4,どうかしました?<BR>どこか ぐあいが<BR>わるいのですか?<BR>
+ctCutsceneScript11Text01D5,あっ それともきんちょう<BR>しているのですか?<BR>
+ctCutsceneScript11Text01D6,<NAME>さんなら<BR>だいじょうぶですよ。<BR>がんばってください。<BR>
+ctCutsceneScript11Text01D7,<NAME>はん。<BR>げんきやった?<BR>
+ctCutsceneScript11Text01D8,ところで <NAME>はん<BR>おぼえてる? はつめいは?<BR>
+ctCutsceneScript11Text01D9Sub00,バクハツや!
+ctCutsceneScript11Text01D9Sub01,バッチリや!
+ctCutsceneScript11Text01D9Sub02,バクマツや!
+ctCutsceneScript11Text01DA,『バクハツや!』でしょ。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text01DB,そのとおり!<BR>はつめいは バクハツや!<BR>よーおぼえててくれたな。<BR>
+ctCutsceneScript11Text01DC,さすが <NAME>はんや。<BR>ほな こんかいも<BR>がんばっていこな!<BR>
+ctCutsceneScript11Text01DD,『バッチリや!』でしょ。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text01DE,そや! ウチのはつめいは<BR>いつでも バッチリや!<BR>おーきにありがとう!!<BR>
+ctCutsceneScript11Text01DF,って なんでやねん!<BR>
+ctCutsceneScript11Text01E0,『はつめいは バクハツや!』<BR>が ウチのポリシーや。<BR>
+ctCutsceneScript11Text01E1,まあ バッチリちゅーのも<BR>きもちはエエけどな。<BR>
+ctCutsceneScript11Text01E2,ほなまー こんかいも<BR>よろしゅーたのんます。<BR>
+ctCutsceneScript11Text01E3,『バクマツや!』でしょ。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text01E4,そう はつめいはバクマツ。<BR>すなわち えどじだいや!<BR>ひらがげんない イエ～ィ!!<BR>
+ctCutsceneScript11Text01E5,って なんでやねん!<BR>
+ctCutsceneScript11Text01E6,『バクマツ』って なんの<BR>こっちゃ わけわからんがな。<BR>
+ctCutsceneScript11Text01E7,まあ ひらがげんない は<BR>そんけいしてるけどな。<BR>ハハハ。<BR>
+ctCutsceneScript11Text01E8,ほなまー こんかいも<BR>よろしゅーたのんます。<BR>
+ctCutsceneScript11Text01E9,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text01EA,ん? <NAME>はん。<BR>どないしたんや?<BR>げんきあらへんな～。<BR>
+ctCutsceneScript11Text01EB,そうか‥‥<BR>きびしい にんむをまえに<BR>きんちょうしてるんやな。<BR>
+ctCutsceneScript11Text01EC,でも いまから それやと<BR>このさき たいへんやで。<BR>
+ctCutsceneScript11Text01ED,もうすこし<BR>かたのチカラぬいて<BR>がんばり。<BR>
+ctCutsceneScript11Text01EE,<NAME>。<BR>こんかいの にんむは<BR>きびしいわよ。<BR>
+ctCutsceneScript11Text01EFSub00,わかっています
+ctCutsceneScript11Text01EFSub01,すこし ふあんです
+ctCutsceneScript11Text01EFSub02,だいじょうぶでしょう
+ctCutsceneScript11Text01F0,はい わかっています。<BR>まかせてください。<BR>
+ctCutsceneScript11Text01F1,フフフ‥‥<BR>じしんたっぷりね。<BR>でも ゆだんはきんもつよ。<BR>
+ctCutsceneScript11Text01F2,つねに きんちょうかんを<BR>もって こうどうすることを<BR>わすれないようにね。<BR>
+ctCutsceneScript11Text01F3,じつは‥‥<BR>すこし ふあん なんです。<BR>わたしに できるでしょうか‥<BR>
+ctCutsceneScript11Text01F4,フフフ。しんちょうなのね。<BR>でも それは<BR>たいせつなことよ。<BR>
+ctCutsceneScript11Text01F5,きおわずに しんちょうに<BR>にんむを すすめることが<BR>あなたを まもるのよ。<BR>
+ctCutsceneScript11Text01F6,だいじょうぶでしょう。<BR>しらべるだけなら<BR>かんたんです。<BR>
+ctCutsceneScript11Text01F7,まかせてください。<BR>さっさと おわらせて<BR>みせますから。<BR>
+ctCutsceneScript11Text01F8,たいした じしんね。<BR><NAME>。<BR>
+ctCutsceneScript11Text01F9,でもね しらべるって<BR>いうことは なにがおこるか<BR>わからないっていうこと‥‥<BR>
+ctCutsceneScript11Text01FA,そんな こころがまえでいると<BR>おおきな しっぱいを<BR>してしまうかも しれないわ。<BR>
+ctCutsceneScript11Text01FB,いのちを おとすことにも<BR>なりかねないのよ。<BR>
+ctCutsceneScript11Text01FC,いいこと。<BR>どんな にんむでも<BR>ゆだんしてはダメ。<BR>
+ctCutsceneScript11Text01FD,きを ひきしめて<BR>がんばりなさい。<BR>
+ctCutsceneScript11Text01FE,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text01FF,どうしたの?<BR>‥‥きんちょうしているのね。<BR>
+ctCutsceneScript11Text0200,ほどよい きんちょうは<BR>いいけれど かたくなりすぎ<BR>てはダメよ。<BR>
+ctCutsceneScript11Text0201,もうすこし<BR>リラックスしなさい。<BR>
+ctCutsceneScript11Text0202,<NAME>!<BR>ひさしぶりー。<BR>げんきだったー。<BR>
+ctCutsceneScript11Text0203Sub00,げんきにこたえる
+ctCutsceneScript11Text0203Sub01,ジャンポールにもあいさつ
+ctCutsceneScript11Text0203Sub02,ふつうにこたえる
+ctCutsceneScript11Text0204,ハーイ アイリス。<BR>わたしは このとおり<BR>げんきよ。<BR>
+ctCutsceneScript11Text0205,アイリスも げんきそうで<BR>なによりね。<BR>
+ctCutsceneScript11Text0206,うん! ありがとう<BR><NAME>。<BR>
+ctCutsceneScript11Text0207,ハーイ アイリス。<BR>わたしは このとおり<BR>げんきよ。<BR>
+ctCutsceneScript11Text0208,アイリスも ジャンポールも<BR>げんきそうで よかったわ。<BR>またよろしくね。<BR>
+ctCutsceneScript11Text0209,うん! ありがとう<BR><NAME>。<BR>
+ctCutsceneScript11Text020A,ハーイ アイリス。<BR>わたしは このとおり<BR>げんきよ。<BR>
+ctCutsceneScript11Text020B,そう よかったね。<BR><NAME>。<BR>
+ctCutsceneScript11Text020C,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text020D,どうしたの? なんだか<BR>げんきない みたいだね。<BR><NAME>。<BR>
+ctCutsceneScript11Text020E,あら <NAME>さん<BR>おひさしぶりですわね。<BR>
+ctCutsceneScript11Text020F,あっ すみれさん。<BR>(すみれさん また なまえを<BR> まちがえているわ‥‥)<BR>
+ctCutsceneScript11Text0210Sub00,おひさしぶりです
+ctCutsceneScript11Text0210Sub01,こんかいも がんばります
+ctCutsceneScript11Text0210Sub02,あいかわらず ステキですね
+ctCutsceneScript11Text0211,おひさしぶりです。<BR>おげんきそうで<BR>なによりです。<BR>
+ctCutsceneScript11Text0212,こんかいの にんむでは<BR>ごめいわくを<BR>おかけするかも しれませんが<BR>
+ctCutsceneScript11Text0213,よろしくおねがいします。<BR>
+ctCutsceneScript11Text0214,<NAME>さんこそ<BR>おげんきそうで<BR>なによりですわ。<BR>
+ctCutsceneScript11Text0215,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
+ctCutsceneScript11Text0216,まあまあ そんなこまかいこと<BR>おきになさらないで。<BR>
+ctCutsceneScript11Text0217,くれぐれも わたくしの<BR>あしをひっぱらないよう<BR>がんばりなさい。<BR>
+ctCutsceneScript11Text0218,すみれさん。こんかいの<BR>にんむ がんばりますので <BR>よろしくおねがいいたします。<BR>
+ctCutsceneScript11Text0219,はいはい ケガしないていどに<BR>がんばりなさい。<BR><NAME>さん。<BR>
+ctCutsceneScript11Text021A,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
+ctCutsceneScript11Text021B,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
+ctCutsceneScript11Text021C,すみれさん。<BR>このまえ ききそびれた<BR>のですが‥‥<BR>
+ctCutsceneScript11Text021D,すみれさんの うつくしさを<BR>たもつひけつ っていうのは<BR>なんなのですか?<BR>
+ctCutsceneScript11Text021E,わたくしの うつくしさの<BR>ひけつ?<BR>
+ctCutsceneScript11Text021F,それは わたくしが<BR>かんざき すみれ である<BR>ということ。<BR>
+ctCutsceneScript11Text0220,このひとことに<BR>つきますわね。<BR>おーほほほほほ。<BR>
+ctCutsceneScript11Text0221,それじゃ <NAME>さん。<BR>こんかいも がんばりなさい。<BR>
+ctCutsceneScript11Text0222,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
+ctCutsceneScript11Text0223,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
+ctCutsceneScript11Text0224,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0225,どうかしましたか?<BR><NAME>さん。<BR>
+ctCutsceneScript11Text0226,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
+ctCutsceneScript11Text0227,そんな こまかいことは<BR>どうでもいいじゃ<BR>ありませんこと。<BR>
+ctCutsceneScript11Text0228,あまり こまかいことを<BR>きにしていると<BR>こジワがふえますわよ。<BR>
+ctCutsceneScript11Text0229,くれぐれも わたくしたちの<BR>あしを ひっぱらないよう<BR>がんばりなさい。<BR>
+ctCutsceneScript11Text022A,じゃあ <NAME>くん。<BR>あたらしいメンバーを<BR>しょうかいしよう。<BR>
+ctCutsceneScript11Text022B,まずは おりひめくんだ。<BR>
+ctCutsceneScript11Text022C,ソレッタ・おりひめ<BR>でーす。<BR>
+ctCutsceneScript11Text022DSub00,おりひめを ほめる
+ctCutsceneScript11Text022DSub01,ふつうにあいさつする
+ctCutsceneScript11Text022DSub02,うまれたくにを きく
+ctCutsceneScript11Text022E,おりひめさん<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text022F,ハーイ。<BR>よろしくでーす。<BR>
+ctCutsceneScript11Text0230,おりひめさんって すずやかな<BR>エメラルドの ひとみがとても<BR>ステキなかた なんですね。<BR>
+ctCutsceneScript11Text0231,いえいえ <NAME>さんも<BR>なかなかカワイイでーす。<BR>くさってもタイですねー。<BR>
+ctCutsceneScript11Text0232,おりひめさん。<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text0233,おねがい? <BR>わたしに なにを<BR>おねがいするのでーすか?<BR>
+ctCutsceneScript11Text0234,わたし かみさまじゃ<BR>ありませーん。 おねがい<BR>されても こまりまーす。<BR>
+ctCutsceneScript11Text0235,なーんていうのは<BR>ジョークでーす。<BR>こちらこそよろしくでーす。<BR>
+ctCutsceneScript11Text0236,ソレッタ・おりひめさん?<BR>うまれたくには<BR>どこなんですか?<BR>
+ctCutsceneScript11Text0237,うまれたくに?<BR>イタリアでーす。<BR>それが どうかしましたか?<BR>
+ctCutsceneScript11Text0238,いえ かわった<BR>おなまえだなと<BR>おもいましたので‥‥<BR>
+ctCutsceneScript11Text0239,かわった?‥‥<BR>それは わたしをバカにして<BR>いるのですか!?<BR>
+ctCutsceneScript11Text023A,いえいえ とんでもない。<BR>とてもステキな<BR>おなまえです。<BR>
+ctCutsceneScript11Text023B,よろしくおねがいします。<BR>おりひめさん。<BR>
+ctCutsceneScript11Text023C,ステキな おなまえ<BR>いいました。<BR>あなた いいひとでーす。<BR>
+ctCutsceneScript11Text023D,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text023E,おや? どうしましたか?<BR>へんじが ないでーす。<BR>きんちょうしてますか?<BR>
+ctCutsceneScript11Text023F,まあ いいでーす。<BR>がんばってくださーい。<BR>
+ctCutsceneScript11Text0240,そして<BR>レニ・ミルヒシュトラーセ<BR>くんだ。<BR>
+ctCutsceneScript11Text0241,ボクは レニ‥‥<BR>
+ctCutsceneScript11Text0242Sub00,ふつうにあいさつする
+ctCutsceneScript11Text0242Sub01,レニをほめる
+ctCutsceneScript11Text0242Sub02,うまれたくにを きく
+ctCutsceneScript11Text0243,レニさん。<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text0244,よろしく‥‥<BR>
+ctCutsceneScript11Text0245,かっこいいですね。<BR>ボーイッシュな かんじが<BR>とてもステキです。<BR>
+ctCutsceneScript11Text0246,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0247,(なんだか むずかしそうな<BR> ひとだわ‥‥)<BR>
+ctCutsceneScript11Text0248,レニさんって<BR>もしかして ドイツのうまれ<BR>なんですか?<BR>
+ctCutsceneScript11Text0249,そう‥‥‥‥<BR>
+ctCutsceneScript11Text024A,やっぱり そうなんですか‥‥<BR>(なんだか むずかしそうな<BR> ひとだわ‥‥)<BR>
+ctCutsceneScript11Text024B,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text024C,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text024D,じゃあ みんな<BR><NAME>くんの サポートを<BR>よろしくな。<BR>
+ctCutsceneScript11Text024E,ビー! ビー! ビー!<BR>
+ctCutsceneScript11Text024F,けいほう?<BR>
+ctCutsceneScript11Text0250,ぜんいんにつぐ。<BR>しきゅう さくせんしつに<BR>しゅうごう!<BR>
+ctCutsceneScript11Text0251,<NAME>くん!<BR>いそぐぞ!!<BR>
+ctCutsceneScript11Text0252,はじめまして おおがみさん。<BR><NAME> ともうします。<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text0253,おおがみ いちろう です。<BR>よろしく <NAME>くん。<BR>
+ctCutsceneScript11Text0254,じゃあ はなぐみの みんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>
+ctCutsceneScript11Text0255,ミカサきねんこうえんで<BR>おこっている いへんを<BR>しらべてもらうため<BR>
+ctCutsceneScript11Text0256,ていこくかげきだん<BR>たいいん ようせいじょの<BR>おとめがくえん から<BR>
+ctCutsceneScript11Text0257,きてもらった<BR><NAME>くんだ。<BR>
+ctCutsceneScript11Text0258,おとめがくえん から<BR>やってまいりました<BR><NAME>です。<BR>
+ctCutsceneScript11Text0259,みなさんに ごめいわくを<BR>かけないよう せいいっぱい<BR>がんばります。<BR>
+ctCutsceneScript11Text025A,いたらないところも<BR>あるとおもいますが<BR>よろしくおねがいします。<BR>
+ctCutsceneScript11Text025B,マリア・タチバナです。<BR>
+ctCutsceneScript11Text025CSub00,ふつうに あいさつ
+ctCutsceneScript11Text025CSub01,ふあんげに あいさつ
+ctCutsceneScript11Text025CSub02,じしんたっぷりに あいさつ
+ctCutsceneScript11Text025D,よろしくおねがいします。<BR>マリアさん。<BR>
+ctCutsceneScript11Text025E,こちらこそ よろしく。<BR>
+ctCutsceneScript11Text025F,よろしくおねがいします。<BR>マリアさん。<BR>
+ctCutsceneScript11Text0260,マリアさん‥‥ じつはわたし<BR>こんかいのにんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
+ctCutsceneScript11Text0261,ダメよ。<BR>にんむにつく まえから<BR>よわきで いては。<BR>
+ctCutsceneScript11Text0262,<NAME>。あなたは <BR>えらばれて ここにきたのよ。<BR>じしんをもちなさい。<BR>
+ctCutsceneScript11Text0263,よろしくおねがいします。<BR>マリアさん。<BR>
+ctCutsceneScript11Text0264,このわたしが きたからには<BR>もう だいじょうぶです。<BR>あんしんしてください。<BR>
+ctCutsceneScript11Text0265,あら たいしたじしんね。<BR>でもね それが いのちとりに<BR>なることもあるのよ。<BR>
+ctCutsceneScript11Text0266,つねに きんちょうかんを<BR>もって こうどうすること。<BR>わかったわね <NAME>。<BR>
+ctCutsceneScript11Text0267,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0268,どうしたの?<BR>きんちょうしているのね。<BR>
+ctCutsceneScript11Text0269,もうすこし リラックス<BR>しなさい。<BR>
+ctCutsceneScript11Text026A,ウチは り・こうらん や。<BR>
+ctCutsceneScript11Text026BSub00,ふつうに あいさつ
+ctCutsceneScript11Text026BSub01,ふあんげに あいさつ
+ctCutsceneScript11Text026BSub02,じしんたっぷりに あいさつ
+ctCutsceneScript11Text026C,よろしくおねがいします。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text026D,こちらこそ よろしゅーに。<BR>
+ctCutsceneScript11Text026E,よろしくおねがいします。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text026F,こうらんさん‥‥じつはわたし<BR>こんかいのにんむ‥<BR>すこし ふあんなんです‥‥<BR>
+ctCutsceneScript11Text0270,えっ そうなんか～。<BR>まあ おとめがくえんから<BR>いきなり じっせんやもんな。<BR>
+ctCutsceneScript11Text0271,ほんでもまあ そないにふかく<BR>かんがえんでも<BR>だいじょうぶや。<BR>
+ctCutsceneScript11Text0272,がんばったら けっかは<BR>ついてくるさかいにな。<BR>
+ctCutsceneScript11Text0273,<NAME>はん<BR>がんばっていこう。<BR>
+ctCutsceneScript11Text0274,よろしくおねがいします。<BR>こうらんさん。<BR>
+ctCutsceneScript11Text0275,このわたしが きたからには<BR>すみからすみまで バッチリ<BR>しらべて みせますよ。<BR>
+ctCutsceneScript11Text0276,おっ! なかなか いうやんか<BR><NAME>はん。<BR>
+ctCutsceneScript11Text0277,ほな そのちょうしで<BR>たのむで。<BR>
+ctCutsceneScript11Text0278,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text0279,<NAME>はん。<BR>どないしたんや?<BR>げんきあらへんな～。<BR>
+ctCutsceneScript11Text027A,きんちょう してんのかいな。<BR>まあ さいしょは<BR>そんなもんやて。<BR>
+ctCutsceneScript11Text027B,もうすこし<BR>かたのチカラぬいて<BR>がんばり。<BR>
+ctCutsceneScript11Text027C,よお! あたいは <BR>きりしま カンナだ。<BR>よろしくな。<BR>
+ctCutsceneScript11Text027DSub00,ふつうに あいさつ
+ctCutsceneScript11Text027DSub01,ふあんげに あいさつ
+ctCutsceneScript11Text027DSub02,じしんたっぷりに あいさつ
+ctCutsceneScript11Text027E,はい カンナさん!<BR>いろいろと ごしどう<BR>よろしくおねがいします!<BR>
+ctCutsceneScript11Text027F,げんきいいじゃないか。<BR>じゃあ ビシビシいくから<BR>かくごしとけよ <NAME>。<BR>
+ctCutsceneScript11Text0280,よろしくおねがいします。<BR>カンナさん。<BR>
+ctCutsceneScript11Text0281,カンナさん‥‥ じつはわたし<BR>こんかいの にんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
+ctCutsceneScript11Text0282,だいじょうぶだよ<BR><NAME>。<BR>
+ctCutsceneScript11Text0283,まあ おとめがくえんから<BR>いきなり じっせんじゃあ<BR>だれだって ふあんになるさ。<BR>
+ctCutsceneScript11Text0284,だけど ここは たいちょうや<BR>あたいがいる はなぐみ<BR>なんだぜ。あんしんしな。<BR>
+ctCutsceneScript11Text0285,よろしくおねがいします。<BR>カンナさん。<BR>
+ctCutsceneScript11Text0286,おう がんばってくれよ<BR><NAME>。<BR>
+ctCutsceneScript11Text0287,カンナさん。このわたしが<BR>きたからには バッチリ<BR>しらべてみせますよ。<BR>
+ctCutsceneScript11Text0288,ほう たのもしいね～。<BR>でも センパイとして<BR>ひとつ おしえといてやるよ。<BR>
+ctCutsceneScript11Text0289,どんなにちいさな にんむでも<BR>きあいをいれて やらないと<BR>おおケガするんだぜ。<BR>
+ctCutsceneScript11Text028A,ゆだんたいてき。<BR>きを ひきしめろ<BR><NAME>!<BR>
+ctCutsceneScript11Text028B,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text028C,なんだ なんだ?<BR>げんきねーじゃねーか。<BR>
+ctCutsceneScript11Text028D,わかった。<BR>あさメシくってねーんだろ。<BR>ダメだぞ。<BR>
+ctCutsceneScript11Text028E,メシは ドンブリ3ばい。<BR>これが ていこくかげきだんの<BR>きまり‥‥‥‥<BR>
+ctCutsceneScript11Text028F,いや おまえは おんなのこ<BR>だから ドンブリ1ぱいだな。<BR>とにかく ちゃんとくえよ!<BR>
+ctCutsceneScript11Text0290,はーい。アイリスでーす!<BR>こっちはクマのジャンポール!<BR>よろしくね。<BR>
+ctCutsceneScript11Text0291Sub00,ふつうに あいさつ
+ctCutsceneScript11Text0291Sub01,ふあんげに あいさつ
+ctCutsceneScript11Text0291Sub02,じしんたっぷりに あいさつ
+ctCutsceneScript11Text0292,よろしくおねがいします。<BR>アイリスさん。<BR>
+ctCutsceneScript11Text0293,エヘヘ アイリスでいいよ。<BR><NAME>。<BR>
+ctCutsceneScript11Text0294,よろしくおねがいします。<BR>アイリスさん。<BR>
+ctCutsceneScript11Text0295,エヘヘ アイリスでいいよ。<BR><NAME>。<BR>
+ctCutsceneScript11Text0296,じゃあ アイリス‥‥<BR>あたしね こんかいのにんむ<BR>ちょっと ふあんなんだ‥‥<BR>
+ctCutsceneScript11Text0297,へ～ そうなんだ～。<BR>じゃあ おうえんしてあげる!<BR><NAME> ガンバレ!!<BR>
+ctCutsceneScript11Text0298,よろしくおねがいします。<BR>アイリスさん。<BR>
+ctCutsceneScript11Text0299,エヘヘ アイリスでいいよ。<BR><NAME>。<BR>
+ctCutsceneScript11Text029A,じゃあ アイリス<BR>そして ジャンポール‥‥<BR>
+ctCutsceneScript11Text029B,わたしの かつやくをみてて。<BR>あっ というまに<BR>おわらせてみせるから。<BR>
+ctCutsceneScript11Text029C,へ～ <NAME>って<BR>すごいんだね ジャンポール。<BR>ガンバッテね～。<BR>
+ctCutsceneScript11Text029D,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text029E,あれ? どうしたの?<BR><NAME>。<BR>きんちょうしているの?<BR>
+ctCutsceneScript11Text029F,しょうがないな～。<BR>アイリスが リラックスできる<BR>まほうを かけてあげる。<BR>
+ctCutsceneScript11Text02A0,イリス・ジャンポーーール!<BR>
+ctCutsceneScript11Text02A1,ほら もうだいじょうぶだよ<BR><NAME>。<BR>
+ctCutsceneScript11Text02A2,ちょっと しんいりさん。<BR>
+ctCutsceneScript11Text02A3,このわたくしの ジャマを<BR>しないよう しっかりと<BR>がんばるのですわよ。<BR>
+ctCutsceneScript11Text02A4,はい‥‥<BR>あ あの‥‥ すみませんが<BR>おなまえはなんと‥‥<BR>
+ctCutsceneScript11Text02A5,な なんですって～!<BR>このだいスタアを しらないと<BR>おっしゃるの‥‥<BR>
+ctCutsceneScript11Text02A6,しょーがねーだろ?<BR>しらねーものは<BR>しらねーんだから。<BR>
+ctCutsceneScript11Text02A7,でしたら しっかりおぼえて<BR>くださいましね。<BR>
+ctCutsceneScript11Text02A8,わたくしは<BR>かんざき すみれ<BR>ですわ。<BR>
+ctCutsceneScript11Text02A9Sub00,ふつうに あいさつ
+ctCutsceneScript11Text02A9Sub01,ふあんげに あいさつ
+ctCutsceneScript11Text02A9Sub02,じしんたっぷりに あいさつ
+ctCutsceneScript11Text02AA,よろしくおねがいします。<BR>すみれさん。<BR>
+ctCutsceneScript11Text02AB,はい はい。くれぐれも<BR>わたくしのあしを ひっぱら<BR>ないで くださいましね。<BR>
+ctCutsceneScript11Text02AC,わかりましたか?<BR><NAME>さん。<BR>
+ctCutsceneScript11Text02AD,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
+ctCutsceneScript11Text02AE,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
+ctCutsceneScript11Text02AF,よろしくおねがいします。<BR>すみれさん。<BR>
+ctCutsceneScript11Text02B0,すみれさん‥‥ じつはわたし<BR>こんかいの にんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
+ctCutsceneScript11Text02B1,あら そうなんですの?<BR>それは こまりましたわね～。<BR>
+ctCutsceneScript11Text02B2,でも わたくしの あしだけは<BR>ひっぱらないようにして<BR>ください。<NAME>さん。<BR>
+ctCutsceneScript11Text02B3,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
+ctCutsceneScript11Text02B4,まあまあ そんなこまかいこと<BR>どうでもいいじゃ ありません<BR>こと。おーほほほほほ。<BR>
+ctCutsceneScript11Text02B5,よろしくおねがいします。<BR>すみれさん。<BR>
+ctCutsceneScript11Text02B6,わたし うつくしい すみれ<BR>おねえさまと いっしょに<BR>たたかえて うれしいです。<BR>
+ctCutsceneScript11Text02B7,あーら なかなかわかってる<BR>じゃありませんか<BR><NAME>さん。<BR>
+ctCutsceneScript11Text02B8,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
+ctCutsceneScript11Text02B9,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
+ctCutsceneScript11Text02BA,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text02BB,まあ あなたも じょせいなら<BR>このわたくしを めざして<BR>がんばりなさいな。<BR>
+ctCutsceneScript11Text02BC,あたしは<BR>しんぐうじ さくら です。<BR>
+ctCutsceneScript11Text02BDSub00,ふつうに あいさつ
+ctCutsceneScript11Text02BDSub01,ふあんげに あいさつ
+ctCutsceneScript11Text02BDSub02,じしんたっぷりに あいさつ
+ctCutsceneScript11Text02BE,よろしくおねがいします。<BR>さくらさん。<BR>
+ctCutsceneScript11Text02BF,こちらこそ<BR>よろしくおねがいします。<BR><NAME>さん。<BR>
+ctCutsceneScript11Text02C0,よろしくおねがいします。<BR>さくらさん。<BR>
+ctCutsceneScript11Text02C1,さくらさん‥‥ じつはわたし<BR>こんかいのにんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
+ctCutsceneScript11Text02C2,ふふ‥‥だいじょうぶですよ。<BR>あたしも はじめは<BR>そうでした。<BR>
+ctCutsceneScript11Text02C3,でも みんなにたすけられて<BR>なんとか ここまでやって<BR>くることができたんです。<BR>
+ctCutsceneScript11Text02C4,しんぱいしなくても<BR><NAME>さんなら<BR>だいじょうぶです。<BR>
+ctCutsceneScript11Text02C5,そうですか‥ そうですよね。<BR>おおがみさんも いますし<BR>わたし がんばります。<BR>
+ctCutsceneScript11Text02C6,えっ‥ お おおがみさん‥‥<BR>‥それはちょっと‥‥<BR>まあ がんばってください。<BR>
+ctCutsceneScript11Text02C7,よろしくおねがいします。<BR>さくらさん。<BR>
+ctCutsceneScript11Text02C8,こんかいのにんむは<BR>このわたしが ビシッと<BR>がんばっちゃいます。<BR>
+ctCutsceneScript11Text02C9,ですから バッチリ<BR>ごあんしんを。<BR>
+ctCutsceneScript11Text02CA,それは たのもしいですね。<BR><NAME>さん。<BR>
+ctCutsceneScript11Text02CB,でも ゆだんはダメですよ。<BR>きをひきしめて<BR>がんばってくださいね。<BR>
+ctCutsceneScript11Text02CC,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text02CD,どうしたんですか?<BR>‥‥あ きんちょうしているの<BR>ですね。<BR>
+ctCutsceneScript11Text02CE,あたしも そうでした‥‥<BR>がんばってください。<BR><NAME>さん。<BR>
+ctCutsceneScript11Text02CF,わたしは<BR>ソレッタ・おりひめ<BR>でーす。<BR>
+ctCutsceneScript11Text02D0Sub00,ふつうに あいさつ
+ctCutsceneScript11Text02D0Sub01,ふあんげに あいさつ
+ctCutsceneScript11Text02D0Sub02,じしんたっぷりに あいさつ
+ctCutsceneScript11Text02D1,よろしくおねがいします。<BR>おりひめさん。<BR>
+ctCutsceneScript11Text02D2,おねがい?<BR>わたしに おねがい?<BR>う～ん どーしましょーか。<BR>
+ctCutsceneScript11Text02D3,<NAME>さんの おねがい<BR>きいてあげるか どうしようか<BR>なやみまーす‥‥<BR>
+ctCutsceneScript11Text02D4,なーんていうのは<BR>ジョークでーす。<BR>こちらこそ よろしくでーす。<BR>
+ctCutsceneScript11Text02D5,よろしくおねがいします。<BR>おりひめさん。<BR>
+ctCutsceneScript11Text02D6,おりひめさん‥‥ じつは<BR>こんかいの にんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
+ctCutsceneScript11Text02D7,にんむ ふあん?‥‥‥‥<BR>
+ctCutsceneScript11Text02D8,Oh! にんむのファン。<BR><NAME>さんは<BR>にんむ だいスキなのですね。<BR>
+ctCutsceneScript11Text02D9,いいことでーす。<BR>わたしおうえんします。<BR>がんばってくださーい。<BR>
+ctCutsceneScript11Text02DA,よろしくおねがいします。<BR>おりひめさん。<BR>
+ctCutsceneScript11Text02DB,このわたしが きたからには<BR>おおぶねに のったつもりで<BR>あんしんしてください。<BR>
+ctCutsceneScript11Text02DC,おおぶね?‥‥ ダメでーす。<BR>おおぶろしき ひろげるのも<BR>たいがいに しなさーい。<BR>
+ctCutsceneScript11Text02DD,こんかいのにんむは あなたに<BR>とって はじめてのおつかい‥<BR>‥‥いや にんむでーす。<BR>
+ctCutsceneScript11Text02DE,そんな うわついたきもちで<BR>いると おおケガしまーす。<BR>
+ctCutsceneScript11Text02DF,ちゅういいちびょう<BR>ケガいっしょう。<BR>
+ctCutsceneScript11Text02E0,てをあげて おうだんほどうを<BR>わたりましょう。<BR>
+ctCutsceneScript11Text02E1,きを ひきしめなさーい。<BR>わかりましたか?<BR><NAME>さん。<BR>
+ctCutsceneScript11Text02E2,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text02E3,おや? どうしましたか?<BR>へんじがないでーす。<BR>きんちょうしてますか?<BR>
+ctCutsceneScript11Text02E4,まあ いいでーす。<BR>がんばってくださーい。<BR>
+ctCutsceneScript11Text02E5,ボクはレニ。<BR>レニ・ミルヒシュトラーセ。<BR>
+ctCutsceneScript11Text02E6Sub00,ふつうに あいさつ
+ctCutsceneScript11Text02E6Sub01,ふあんげに あいさつ
+ctCutsceneScript11Text02E6Sub02,じしんたっぷりに あいさつ
+ctCutsceneScript11Text02E7,よろしくおねがいします。<BR>レニさん。<BR>
+ctCutsceneScript11Text02E8,よろしく‥‥<BR>
+ctCutsceneScript11Text02E9,よろしくおねがいします。<BR>レニさん。<BR>
+ctCutsceneScript11Text02EA,レニさん‥‥ じつはわたし<BR>こんかいのにんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
+ctCutsceneScript11Text02EB,‥‥‥‥‥‥‥‥‥じぶんを <BR>ぶんせきできてるだけ<BR>まだいい‥‥<BR>
+ctCutsceneScript11Text02EC,は はあ‥‥<BR>(なんだか むずかしそうな<BR> ひとだわ‥‥)<BR>
+ctCutsceneScript11Text02ED,よろしくおねがいします。<BR>レニさん。<BR>
+ctCutsceneScript11Text02EE,レニさん こんかいの にんむ<BR>このわたしが パパッと<BR>かたづけて みせますよ。<BR>
+ctCutsceneScript11Text02EF,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>うぬぼれは はいぼくに<BR>つながる。<BR>
+ctCutsceneScript11Text02F0,は はあ‥‥<BR>(なんだか むずかしそうな<BR> ひとだわ‥‥)<BR>
+ctCutsceneScript11Text02F1,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text02F2,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
+ctCutsceneScript11Text02F3,よし しょうかいは<BR>すんだな。<BR>
+ctCutsceneScript11Text02F4,みんな <NAME>くんを<BR>よろしくたのむよ。<BR>
+ctCutsceneScript11Text02F5,ビー! ビー! ビー!<BR>
+ctCutsceneScript11Text02F6,けいほう?<BR>
+ctCutsceneScript11Text02F7,ぜんいんにつぐ。<BR>しきゅう さくせんしつに<BR>しゅうごう!<BR>
+ctCutsceneScript11Text02F8,<NAME>くん!<BR>いそぐぞ!!<BR>
+ctCutsceneScript11Text02F9,ぜんいん そろったようね‥‥<BR>
+ctCutsceneScript11Text02FA,ミカサきねんこうえんでの<BR>かいげんしょうは<BR>しっているわね。<BR>
+ctCutsceneScript11Text02FB,いま ミカサきねんこうえんで<BR>きょだいな れいりょくが<BR>かくにんされました。<BR>
+ctCutsceneScript11Text02FC,まさか あらたなてきが?!<BR>
+ctCutsceneScript11Text02FD,さあ わからないわ。<BR>
+ctCutsceneScript11Text02FE,だったら あたし<BR>しらべにいきます。<BR>
+ctCutsceneScript11Text02FF,れいりょくの いへん<BR>また おこっています。<BR>ミカサきねんこうえんです。<BR>
+ctCutsceneScript11Text0300,きょだいな れいりょくの<BR>ちゅうしんは‥‥‥‥‥‥‥‥<BR>ミカサです!<BR>
+ctCutsceneScript11Text0301,ミカサから きょだいな<BR>れいりょくが でています!<BR>
+ctCutsceneScript11Text0302,かえでさん!<BR>しゅつどうめいれいを!!<BR>
+ctCutsceneScript11Text0303,ダメよ!<BR>
+ctCutsceneScript11Text0304,げんいんが わからないのに<BR>あなたたちを うごかす<BR>わけには いかないわ。<BR>
+ctCutsceneScript11Text0305,ミカサのしたには『やまと』や<BR>『せいまじょう』が<BR>ねむっています‥‥<BR>
+ctCutsceneScript11Text0306,と いうことは この<BR>れいりょくの いじょう‥‥<BR>
+ctCutsceneScript11Text0307,いちじてきな<BR>しぜんげんしょう かも<BR>しれんちゅーこっちゃな。<BR>
+ctCutsceneScript11Text0308,まずは ちょうさをしないと<BR>うごけないわね。<BR>
+ctCutsceneScript11Text0309,そういうことだぜ。<BR>そのために <NAME>を<BR>よんだんだろ?<BR>
+ctCutsceneScript11Text030A,<NAME>。<BR>しゅつどうよ。<BR>
+ctCutsceneScript11Text030B,きゅうな しゅつどうだから<BR>おおがみくんと いっしょに<BR>いきなさい。<BR>
+ctCutsceneScript11Text030C,おおがみくん たのんだわよ。<BR><NAME> しっかりね。<BR>
+ctCutsceneScript11Text030D,りょうかい!<BR>
+ctCutsceneScript11Text030E,りょうかい!
+ctCutsceneScript11Text030F,りょうかい!<BR>
+ctCutsceneScript11Text0310,よし いいへんじだぞ<BR><NAME>くん!<BR>
+ctCutsceneScript11Text0311,どうした <NAME>くん!<BR>しっかりしろ!<BR>
+ctCutsceneScript11Text0312,りょ りょうかい!<BR>
+ctCutsceneScript11Text0313,おおがみ。 <NAME>は<BR>ミカサきねんこうえんを<BR>しらべに しゅつどう!<BR>
+ctCutsceneScript11Text0314,おおがみ。 <NAME>。<BR>ミカサきねんこうえんを<BR>しらべに しゅつどうします!<BR>
+ctCutsceneScript11Text0315,<NAME> がんばってね。<BR>
+ctCutsceneScript11Text0316,いくぞ!<BR><NAME>くん!!<BR>

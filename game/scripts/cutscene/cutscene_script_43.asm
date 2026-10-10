@@ -5,16 +5,16 @@ CutsceneScript43::
   Unknown0E $10
   Unknown12 $04
   FlagIsFemale
-  WriteText "やっほー アイリスでーす!<BR>このこは クマの<BR>ジャンポール!<BR>"
+  WriteText ctCutsceneScript43Text0000
   PromptContinue
   SetPortrait $04,$03,$03
-  WriteText "アイリスは<BR>たたかいは あんまり<BR>すきじゃないけど‥‥<BR>"
+  WriteText ctCutsceneScript43Text0001
   PromptContinue
   SetPortrait $04,$00,$00
-  WriteText "ちょうのうりょくで<BR>キズをなおしたり<BR>テレポートができるんだよ!<BR>"
+  WriteText ctCutsceneScript43Text0002
   PromptContinue
   SetPortrait $04,$01,$01
-  WriteText "だから なかよくしてね!<BR>やくそくだよ!<BR>"
+  WriteText ctCutsceneScript43Text0003
   PromptContinue
   End
   End

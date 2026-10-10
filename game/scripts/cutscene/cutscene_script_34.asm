@@ -6,348 +6,348 @@ CutsceneScript34::
   Unknown12 $17
   FlagIsFemale
   ConditionalBranch .reference_097E,$02,$04,$01,$01,$20,$00
-  WriteText "さっき ミカサのなかで<BR>ひろった ことわざじてん。<BR>"
+  WriteText ctCutsceneScript34Text0000
   PromptContinue
   Unknown05 $84,$9E,$01,$00
   End
-  WriteText "たぶん おりひめさんのもの<BR>だとおもうから<BR>わたしにいこう。<BR>"
+  WriteText ctCutsceneScript34Text0001
   PromptContinue
   Unknown1E $1F
-  WriteText "おりひめさん。<BR>しつれいします。<BR>"
+  WriteText ctCutsceneScript34Text0002
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "<NAME>さん<BR>どうしたですか?<BR>"
+  WriteText ctCutsceneScript34Text0003
   PromptContinue
   Unknown0F $00,$01
-  WriteText "こんなものを<BR>ひろったのですが‥‥<BR>おりひめさんのですか?<BR>"
+  WriteText ctCutsceneScript34Text0004
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "ことわざじてん?<BR>Oh! それは わたしの<BR>だいじなものでーす。<BR>"
+  WriteText ctCutsceneScript34Text0005
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "わざわざ どーもです。<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript34Text0006
   PromptContinue
   Unknown0F $00,$01
-  WriteText "おりひめさん ことわざ<BR>すきなんですか?<BR>"
+  WriteText ctCutsceneScript34Text0007
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "ことわざは サイコーでーす。<BR>"
+  WriteText ctCutsceneScript34Text0008
   PromptContinue
-  WriteText "ショートワードのなかに<BR>きょうくんや ふうしが<BR>テンコもりでーす。<BR>"
+  WriteText ctCutsceneScript34Text0009
   PromptContinue
-  WriteText "わたし たくさん たくさん<BR>べんきょうしてまーす。<BR>"
+  WriteText ctCutsceneScript34Text000A
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "いまから そのせいかの<BR>いちぶを はっぴょう<BR>しまーす。いいですね?<BR>"
+  WriteText ctCutsceneScript34Text000B
   PromptContinue
-  OptionSelectTimed $05,$03,"だまってきく","つっこみをいれる","まちがいをしてきする"
+  OptionSelectTimed $05,$03,ctCutsceneScript34Text000CSub00,ctCutsceneScript34Text000CSub01,ctCutsceneScript34Text000CSub02
   ConditionalBranch .reference_01C9,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_038D,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_0602,$02,$01,$01,$02,$20,$00
   Branch .reference_081B
 .reference_01C9
   Unknown0F $00,$01
-  WriteText "はい どうぞ。<BR>"
+  WriteText ctCutsceneScript34Text000D
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "わたる せけんに<BR>おにいさん。<BR>"
+  WriteText ctCutsceneScript34Text000E
   PromptContinue
-  WriteText "いっけん こわくみえる<BR>おにいさんも ほんとうは<BR>やさしいこころを もってる。<BR>"
+  WriteText ctCutsceneScript34Text000F
   PromptContinue
-  WriteText "すなわち ほんとうに<BR>つめたいひとは いない<BR>ということを いってまーす。<BR>"
+  WriteText ctCutsceneScript34Text0010
   PromptContinue
-  WriteText "つぎは‥‥<BR>おにに かなぶん。<BR>"
+  WriteText ctCutsceneScript34Text0011
   PromptContinue
-  WriteText "おにが かなぶんをもったら<BR>つよいでーす。<BR>てきなし ということでーす。<BR>"
+  WriteText ctCutsceneScript34Text0012
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "どーですか?<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript34Text0013
   PromptContinue
   Unknown0F $00,$01
-  WriteText "すごいですね おりひめさん。<BR>にほんのことわざを しっかり<BR>べんきょうしてるなんて。<BR>"
+  WriteText ctCutsceneScript34Text0014
   PromptContinue
   Unknown0D $07,$05
-  WriteText "でも すこし まちがって<BR>いましたよ。<BR>"
+  WriteText ctCutsceneScript34Text0015
   PromptContinue
   Unknown0D $07,$07
-  WriteText "まず さいしょのは<BR>わたる せけんに おにはなし<BR>ですね。<BR>"
+  WriteText ctCutsceneScript34Text0016
   PromptContinue
-  WriteText "つぎのは<BR>おにに かなぼう<BR>ですよ。<BR>"
+  WriteText ctCutsceneScript34Text0017
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "Oh! <NAME>さん<BR>おしえてくれて<BR>サンキューでーす。<BR>"
+  WriteText ctCutsceneScript34Text0018
   PromptContinue
-  WriteText "わたし このじてんで<BR>もっと もっと<BR>べんきょうしまーす。<BR>"
+  WriteText ctCutsceneScript34Text0019
   PromptContinue
-  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。チャオ<RED>♥<BLACK><BR>"
+  WriteText ctCutsceneScript34Text001A
   PromptContinue
   End
 .reference_038D
   Unknown0F $00,$01
-  WriteText "はい どうぞ。<BR>"
+  WriteText ctCutsceneScript34Text001B
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "わたる せけんに<BR>おにいさん。<BR>"
+  WriteText ctCutsceneScript34Text001C
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はいはい。<BR>せけんに おにいさんは<BR>たくさんいますね。<BR>"
+  WriteText ctCutsceneScript34Text001D
   PromptContinue
-  WriteText "おりひめさんも<BR>カッコいい おにいさん<BR>すきなんでしょ～?<BR>"
+  WriteText ctCutsceneScript34Text001E
   PromptContinue
   SetPortrait $07,$08,$08
-  WriteText "いっけん こわくみえる<BR>おにいさんも ほんとうは<BR>やさしいこころを もってる。<BR>"
+  WriteText ctCutsceneScript34Text001F
   PromptContinue
-  WriteText "すなわち ほんとうに<BR>つめたいひとは いない<BR>ということを いってまーす。<BR>"
+  WriteText ctCutsceneScript34Text0020
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "つぎは‥‥<BR>おにに かなぶん。<BR>"
+  WriteText ctCutsceneScript34Text0021
   PromptContinue
   Unknown0F $00,$01
-  WriteText "おにに かなぶん!?<BR>かわいそうに かなぶんちゃん<BR>にぎり つぶされています。<BR>"
+  WriteText ctCutsceneScript34Text0022
   PromptContinue
   SetPortrait $07,$08,$08
-  WriteText "おにが かなぶんをもったら<BR>つよいでーす。<BR>てきなし ということでーす。<BR>"
+  WriteText ctCutsceneScript34Text0023
   PromptContinue
   SetPortrait $07,$03,$03
-  WriteText "‥‥もー <NAME>さん<BR>ヘンな あいのて<BR>いれないでくださーい。<BR>"
+  WriteText ctCutsceneScript34Text0024
   PromptContinue
   Unknown0F $00,$01
-  WriteText "いやーすみません。<BR>でも おりひめさん<BR>すごいじゃないですか。<BR>"
+  WriteText ctCutsceneScript34Text0025
   PromptContinue
   Unknown0D $07,$05
-  WriteText "すこし まちがってたとはいえ<BR>にほんのことわざを しっかり<BR>べんきょうしてるなんて。<BR>"
+  WriteText ctCutsceneScript34Text0026
   PromptContinue
   SetPortrait $07,$07,$07
-  WriteText "どこ まちがってましたか?<BR>"
+  WriteText ctCutsceneScript34Text0027
   PromptContinue
   Unknown0F $00,$01
   Unknown0D $07,$00
-  WriteText "まず さいしょのは<BR>わたる せけんに おにはなし<BR>ですね。<BR>"
+  WriteText ctCutsceneScript34Text0028
   PromptContinue
-  WriteText "つぎのは<BR>おにに かなぼう<BR>ですよ。<BR>"
+  WriteText ctCutsceneScript34Text0029
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$04,$28,$00
-  WriteText "オッケー! わかりまーした。<BR>おしえてくれて<BR>サンキューでーす。<BR>"
+  WriteText ctCutsceneScript34Text002A
   PromptContinue
-  WriteText "わたし このじてんで<BR>もっと もっと<BR>べんきょうしまーす。<BR>"
+  WriteText ctCutsceneScript34Text002B
   PromptContinue
-  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>"
+  WriteText ctCutsceneScript34Text002C
   PromptContinue
   End
 .reference_0602
   Unknown0F $00,$01
-  WriteText "はい どうぞ。<BR>"
+  WriteText ctCutsceneScript34Text002D
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "わたる せけんに<BR>おにいさん。<BR>"
+  WriteText ctCutsceneScript34Text002E
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ちがいますよ。ただしくは<BR>わたる せけんに おにはなし<BR>ですよ。<BR>"
+  WriteText ctCutsceneScript34Text002F
   PromptContinue
   SetPortrait $07,$08,$08
-  WriteText "あっ! そうでした。<BR>すみませーん。<BR>え～と いみは‥‥<BR>"
+  WriteText ctCutsceneScript34Text0030
   PromptContinue
-  WriteText "せけんには こわく おもえる<BR>ひともいるが ほんとうはみな<BR>やさしいこころを もってる。<BR>"
+  WriteText ctCutsceneScript34Text0031
   PromptContinue
-  WriteText "すなわち ほんとうに<BR>つめたいひとは いない<BR>ということを いってまーす。<BR>"
+  WriteText ctCutsceneScript34Text0032
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "つぎは‥‥<BR>おにに かなぶん。<BR>"
+  WriteText ctCutsceneScript34Text0033
   PromptContinue
   Unknown0F $00,$01
-  WriteText "ちがいますよ。ただしくは<BR>おにに かなぼう<BR>ですよ。<BR>"
+  WriteText ctCutsceneScript34Text0034
   PromptContinue
   SetPortrait $07,$08,$08
-  WriteText "あっ! そうでした。<BR>すみませーん。<BR>え～と いみは‥‥<BR>"
+  WriteText ctCutsceneScript34Text0035
   PromptContinue
-  WriteText "おにが かなぼうをもったら<BR>つよいでーす。<BR>てきなし ということでーす。<BR>"
+  WriteText ctCutsceneScript34Text0036
   PromptContinue
   Unknown0F $00,$01
-  WriteText "おりひめさん もうすこし<BR>しっかりと べんきょう<BR>してください。<BR>"
+  WriteText ctCutsceneScript34Text0037
   PromptContinue
   SetPortrait $07,$03,$03
-  WriteText "そんなに きつい いいかた<BR>しなくても いーと<BR>おもいまーす!<BR>"
+  WriteText ctCutsceneScript34Text0038
   PromptContinue
-  WriteText "わたし がいこくじんでーす。<BR>でも いっしょうけんめい<BR>べんきょうしていまーす。<BR>"
+  WriteText ctCutsceneScript34Text0039
   PromptContinue
-  WriteText "そんな つめたいめでみないで<BR>ひろいこころで<BR>みてくださーい。<BR>"
+  WriteText ctCutsceneScript34Text003A
   PromptContinue
   SetPortrait $07,$06,$06
-  WriteText "わたし このじてんで<BR>もっと もっと<BR>べんきょうしまーす。<BR>"
+  WriteText ctCutsceneScript34Text003B
   PromptContinue
-  WriteText "それじゃ。<BR>"
+  WriteText ctCutsceneScript34Text003C
   PromptContinue
   End
 .reference_081B
   Unknown0F $00,$01
-  WriteText "はい どうぞ。<BR>"
+  WriteText ctCutsceneScript34Text003D
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "わたる せけんに<BR>おにいさん。<BR>"
+  WriteText ctCutsceneScript34Text003E
   PromptContinue
-  WriteText "いっけん こわくみえる<BR>おにいさんも ほんとうは<BR>やさしいこころを もってる。<BR>"
+  WriteText ctCutsceneScript34Text003F
   PromptContinue
-  WriteText "すなわち ほんとうに<BR>つめたいひとは いない<BR>ということを いってまーす。<BR>"
+  WriteText ctCutsceneScript34Text0040
   PromptContinue
-  WriteText "つぎは‥‥<BR>おにに かなぶん。<BR>"
+  WriteText ctCutsceneScript34Text0041
   PromptContinue
-  WriteText "おにが かなぶんをもったら<BR>つよいでーす。<BR>てきなし ということでーす。<BR>"
+  WriteText ctCutsceneScript34Text0042
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "どーですか?<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript34Text0043
   PromptContinue
   Unknown0F $00,$01
-  WriteText "なんか チョットちがうような<BR>きもしましたが すごいですね<BR>おりひめさん。<BR>"
+  WriteText ctCutsceneScript34Text0044
   PromptContinue
   Unknown0D $07,$05
   Unknown0F $00,$01
-  WriteText "にほんのことわざを しっかり<BR>べんきょう しているなんて。<BR>"
+  WriteText ctCutsceneScript34Text0045
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "わたし このじてんで<BR>もっと もっと<BR>べんきょうしまーす。<BR>"
+  WriteText ctCutsceneScript34Text0046
   PromptContinue
-  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>"
+  WriteText ctCutsceneScript34Text0047
   PromptContinue
   End
 .reference_097E
-  WriteText "さっき ミカサのなかで<BR>ひろった ことわざじてん。<BR>"
+  WriteText ctCutsceneScript34Text0048
   PromptContinue
   Unknown05 $84,$9E,$01,$00
   End
-  WriteText "きっと おりひめさんのもの<BR>でしょうから<BR>わたしにいきましょう。<BR>"
+  WriteText ctCutsceneScript34Text0049
   PromptContinue
   Unknown1E $1F
-  WriteText "おりひめさん。<BR>しつれいします。<BR>"
+  WriteText ctCutsceneScript34Text004A
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "あら <NAME>さん<BR>どうしたですか?<BR>"
+  WriteText ctCutsceneScript34Text004B
   PromptContinue
   Unknown0F $00,$01
-  WriteText "こんなものを<BR>ひろったのですが‥‥<BR>おりひめさんのですか?<BR>"
+  WriteText ctCutsceneScript34Text004C
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "ことわざじてん?<BR>Oh! それは わたしの<BR>だいじなものでーす。<BR>"
+  WriteText ctCutsceneScript34Text004D
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "わざわざ どーもです。<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript34Text004E
   PromptContinue
   Unknown0F $00,$01
-  WriteText "おりひめさん ことわざ<BR>すきなんですか?<BR>"
+  WriteText ctCutsceneScript34Text004F
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "ことわざは サイコーでーす。<BR>"
+  WriteText ctCutsceneScript34Text0050
   PromptContinue
-  WriteText "ショートワードのなかに<BR>きょうくんや ふうしが<BR>テンコもりでーす。<BR>"
+  WriteText ctCutsceneScript34Text0051
   PromptContinue
-  WriteText "わたし たくさん たくさん<BR>べんきょうしてまーす。<BR>"
+  WriteText ctCutsceneScript34Text0052
   PromptContinue
-  WriteText "わたる せけんに<BR>おにはなし。<BR>"
+  WriteText ctCutsceneScript34Text0053
   PromptContinue
-  WriteText "せけんには こわく おもえる<BR>ひともいるが ほんとうはみな<BR>やさしいこころを もってる。<BR>"
+  WriteText ctCutsceneScript34Text0054
   PromptContinue
-  WriteText "すなわち ほんとうに<BR>つめたいひとは いない<BR>ということを いってまーす。<BR>"
+  WriteText ctCutsceneScript34Text0055
   PromptContinue
-  WriteText "そして‥‥<BR>おにに かなぼう。<BR>"
+  WriteText ctCutsceneScript34Text0056
   PromptContinue
-  WriteText "おにが かなぼうをもったら<BR>つよいでーす。<BR>てきなし ということでーす。<BR>"
+  WriteText ctCutsceneScript34Text0057
   PromptContinue
-  WriteText "そして‥‥<BR>ネコにこうばん。<BR>"
+  WriteText ctCutsceneScript34Text0058
   PromptContinue
-  WriteText "ネコをこうばんに<BR>つれていっても いみがない<BR>ということでーす。<BR>"
+  WriteText ctCutsceneScript34Text0059
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "どーですか?<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript34Text005A
   PromptContinue
   Unknown0F $00,$01
-  WriteText "スゴイ スゴイ!<BR>おりひめさん!!<BR>"
+  WriteText ctCutsceneScript34Text005B
   PromptContinue
   Unknown0D $07,$05
-  WriteText "にほんのことわざを しっかり<BR>べんきょうしてるなんて<BR>えらいですよ。<BR>"
+  WriteText ctCutsceneScript34Text005C
   PromptContinue
-  WriteText "でも さいごのは まちがって<BR>いましたよ。<BR>"
+  WriteText ctCutsceneScript34Text005D
   PromptContinue
   Unknown0D $07,$07
-  WriteText "ただしくは<BR>ネコに‥‥‥‥<BR>"
+  WriteText ctCutsceneScript34Text005E
   PromptContinue
-  OptionSelectTimed $05,$03,"こばん","こばんざめ","ごはん"
+  OptionSelectTimed $05,$03,ctCutsceneScript34Text005FSub00,ctCutsceneScript34Text005FSub01,ctCutsceneScript34Text005FSub02
   ConditionalBranch .reference_0C62,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_0D2E,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_0DF6,$02,$01,$01,$02,$20,$00
   Branch .reference_0EBA
 .reference_0C62
   Unknown0F $00,$01
-  WriteText "ネコにこばん<BR>ですよ。<BR>"
+  WriteText ctCutsceneScript34Text0060
   PromptContinue
   SetPortrait $07,$07,$07
-  WriteText "Oh! そーでした。<BR>ネコにこばん でーす。<BR>"
+  WriteText ctCutsceneScript34Text0061
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "ネコにこばんを あたえても<BR>いみがない。<BR>そーいうことでーすね。<BR>"
+  WriteText ctCutsceneScript34Text0062
   PromptContinue
   SetPortrait $07,$01,$01
   PlaybackSample $40,$97,$03,$97,$01,$06,$28,$00
-  WriteText "<NAME>さん<BR>おしえてくれて<BR>サンキューでーす。<BR>"
+  WriteText ctCutsceneScript34Text0063
   PromptContinue
-  WriteText "わたし このじてんで<BR>もっと もっと<BR>べんきょうしまーす。<BR>"
+  WriteText ctCutsceneScript34Text0064
   PromptContinue
-  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。チャオ<RED>♥<BLACK><BR>"
+  WriteText ctCutsceneScript34Text0065
   PromptContinue
   End
 .reference_0D2E
   Unknown0F $00,$01
-  WriteText "ネコにこばんざめ<BR>ですよ。<BR>"
+  WriteText ctCutsceneScript34Text0066
   PromptContinue
   SetPortrait $07,$08,$08
-  WriteText "こばんざめ?‥‥‥‥‥‥‥‥<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript34Text0067
   PromptContinue
   SetPortrait $07,$06,$06
-  WriteText "ちがいまーす!<BR>こばん!!<BR>ネコにこばん でーす!!!<BR>"
+  WriteText ctCutsceneScript34Text0068
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "ネコにこばんを あたえても<BR>いみがない。<BR>そーいうことでーす。<BR>"
+  WriteText ctCutsceneScript34Text0069
   PromptContinue
-  WriteText "わたし このじてんで<BR>もっと もっと<BR>べんきょうしまーす。<BR>"
+  WriteText ctCutsceneScript34Text006A
   PromptContinue
-  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>"
+  WriteText ctCutsceneScript34Text006B
   PromptContinue
   End
 .reference_0DF6
   Unknown0F $00,$01
-  WriteText "ネコにごはん ですよ。<BR>"
+  WriteText ctCutsceneScript34Text006C
   PromptContinue
   SetPortrait $07,$08,$08
-  WriteText "ごはん?<BR>ネコにごはんを あげたら<BR>たべるだけでーす!<BR>"
+  WriteText ctCutsceneScript34Text006D
   PromptContinue
   SetPortrait $07,$06,$06
-  WriteText "ちがいまーす!<BR>こばん!!<BR>ネコにこばん でーす!!!<BR>"
+  WriteText ctCutsceneScript34Text006E
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "ネコにこばんを あたえても<BR>いみがない。<BR>そーいうことでーす。<BR>"
+  WriteText ctCutsceneScript34Text006F
   PromptContinue
-  WriteText "わたし このじてんで<BR>もっと もっと<BR>べんきょうしまーす。<BR>"
+  WriteText ctCutsceneScript34Text0070
   PromptContinue
-  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>"
+  WriteText ctCutsceneScript34Text0071
   PromptContinue
   End
 .reference_0EBA
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript34Text0072
   PromptContinue
   SetPortrait $07,$07,$07
-  WriteText "あっ! おもいだしまーした。<BR>"
+  WriteText ctCutsceneScript34Text0073
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "ネコにこばん でーす。<BR>"
+  WriteText ctCutsceneScript34Text0074
   PromptContinue
-  WriteText "ネコにこばんを あたえても<BR>いみがない。<BR>そーいうことでーす。<BR>"
+  WriteText ctCutsceneScript34Text0075
   PromptContinue
-  WriteText "わたし このじてんで<BR>もっと もっと<BR>べんきょうしまーす。<BR>"
+  WriteText ctCutsceneScript34Text0076
   PromptContinue
-  WriteText "それじゃ <NAME>さん<BR>わざわざ とどけてくれて<BR>サンキューでした。<BR>"
+  WriteText ctCutsceneScript34Text0077
   PromptContinue
   End
   End

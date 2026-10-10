@@ -15,70 +15,70 @@ CutsceneScript12::
   ConditionalBranch .reference_0132,$02,$05,$01,$08,$20,$00
 .reference_0056
   SetPortrait $06,$11,$09
-  WriteText "よう <NAME>!<BR>ぶじ もどってきたな?<BR>げんきそうで なによりだぜ。<BR>"
+  WriteText ctCutsceneScript12Text0000
   PromptContinue
   Branch .reference_014A
 .reference_0081
   SetPortrait $01,$11,$09
-  WriteText "<NAME>さん<BR>おかえりなさい。<BR>"
+  WriteText ctCutsceneScript12Text0001
   PromptContinue
   Branch .reference_014A
 .reference_0098
   SetPortrait $04,$11,$09
-  WriteText "<NAME>おかえり!!<BR>ねぇ ねぇ<BR>おもしろかったー?!<BR>"
+  WriteText ctCutsceneScript12Text0002
   PromptContinue
   Branch .reference_014A
 .reference_00BB
   SetPortrait $07,$11,$0A
-  WriteText "<NAME>さん<BR>おかえりでーす。<BR>"
+  WriteText ctCutsceneScript12Text0003
   PromptContinue
   Branch .reference_014A
 .reference_00D2
   SetPortrait $03,$10,$08
-  WriteText "<NAME>くん。<BR>おつかれさま。<BR>"
+  WriteText ctCutsceneScript12Text0004
   PromptContinue
   Branch .reference_014A
 .reference_00E9
   SetPortrait $02,$10,$08
-  WriteText "あら どうやら ぶじに<BR>もどってきた ようですわね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript12Text0005
   PromptContinue
   Branch .reference_014A
 .reference_0112
   SetPortrait $05,$10,$08
-  WriteText "<NAME>はん おかえり。<BR>おつかれさんやったな。<BR>"
+  WriteText ctCutsceneScript12Text0006
   PromptContinue
   Branch .reference_014A
 .reference_0132
   SetPortrait $08,$10,$08
-  WriteText "‥‥‥‥にんむ<BR>ごくろう。<BR>"
+  WriteText ctCutsceneScript12Text0007
   PromptContinue
   Branch .reference_014A
 .reference_014A
   SetPortrait $0C,$11,$01
-  WriteText "おかえりなさい<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript12Text0008
   PromptContinue
-  WriteText "つばきを たすけてくれて<BR>ありがとうございました。<BR>"
+  WriteText ctCutsceneScript12Text0009
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText "おかえり! <NAME>くん。<BR>つばきのこと ありがとうね。<BR>"
+  WriteText ctCutsceneScript12Text000A
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "おかえりなさい。おおがみくん<BR><NAME>くん。<BR>ごくろうだったわね。<BR>"
+  WriteText ctCutsceneScript12Text000B
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "さっそくだけど<BR>ほうこくを おねがいするわ。<BR>"
+  WriteText ctCutsceneScript12Text000C
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい ほうこくします。<BR>"
+  WriteText ctCutsceneScript12Text000D
   PromptContinue
-  WriteText "ミカサに まものがいました。<BR>また なぜか まちのひとも<BR>ミカサのなかに いました。<BR>"
+  WriteText ctCutsceneScript12Text000E
   PromptContinue
-  WriteText "やはり ミカサでは<BR>なにか おこっていると<BR>かんがえられます。<BR>"
+  WriteText ctCutsceneScript12Text000F
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "わかったわ。<BR>ぶんせきを いそぎましょう。<BR>"
+  WriteText ctCutsceneScript12Text0010
   PromptContinue
-  WriteText "<NAME>くんは<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>"
+  WriteText ctCutsceneScript12Text0011
   PromptContinue
   End
 .reference_0282
@@ -92,75 +92,75 @@ CutsceneScript12::
   ConditionalBranch .reference_03EC,$02,$05,$01,$08,$20,$00
 .reference_02CA
   SetPortrait $06,$11,$09
-  WriteText "<NAME>! おかえり!<BR>ぶじにかえってきたな～。<BR>がんばったじゃないか。<BR>"
+  WriteText ctCutsceneScript12Text0012
   PromptContinue
   Branch .reference_0404
 .reference_02F6
   SetPortrait $01,$11,$09
-  WriteText "<NAME>さん<BR>おかえりなさい。<BR>"
+  WriteText ctCutsceneScript12Text0013
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "おおがみさんも<BR>おつかれさまです。<BR>"
+  WriteText ctCutsceneScript12Text0014
   PromptContinue
   Branch .reference_0404
 .reference_0326
   SetPortrait $04,$11,$09
-  WriteText "<NAME>おかえり!!<BR>ねぇ ねぇ<BR>おもしろかったー?!<BR>"
+  WriteText ctCutsceneScript12Text0015
   PromptContinue
   Branch .reference_0404
 .reference_0349
   SetPortrait $07,$11,$0A
-  WriteText "<NAME>さん<BR>おかえりでーす。<BR>"
+  WriteText ctCutsceneScript12Text0016
   PromptContinue
   Branch .reference_0404
 .reference_0360
   SetPortrait $03,$10,$08
-  WriteText "<NAME> なんとかぶじに<BR>もどってきたようね。<BR>おつかれさま。<BR>"
+  WriteText ctCutsceneScript12Text0017
   PromptContinue
   Branch .reference_0404
 .reference_0387
   SetPortrait $02,$10,$08
-  WriteText "あら どうやら ぶじに<BR>もどってきた ようですわね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript12Text0018
   PromptContinue
   Branch .reference_0404
-  WriteText "しょういに ごめいわくを<BR>かけてないでしょうね。<BR>"
+  WriteText ctCutsceneScript12Text0019
   PromptContinue
 .reference_03CC
   SetPortrait $05,$10,$08
-  WriteText "<NAME>はん おかえり。<BR>おつかれさんやったな。<BR>"
+  WriteText ctCutsceneScript12Text001A
   PromptContinue
   Branch .reference_0404
 .reference_03EC
   SetPortrait $08,$10,$08
-  WriteText "‥‥‥‥にんむ<BR>ごくろう。<BR>"
+  WriteText ctCutsceneScript12Text001B
   PromptContinue
   Branch .reference_0404
 .reference_0404
   SetPortrait $0C,$11,$01
-  WriteText "おかえりなさい<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript12Text001C
   PromptContinue
-  WriteText "つばきを たすけてくれて<BR>ありがとうございました。<BR>"
+  WriteText ctCutsceneScript12Text001D
   PromptContinue
   SetPortrait $0D,$11,$01
-  WriteText "おかえり! <NAME>さん。<BR>つばきのこと ありがとうね。<BR>"
+  WriteText ctCutsceneScript12Text001E
   PromptContinue
   SetPortrait $0B,$11,$01
-  WriteText "おかえりなさい。<BR>おおがみくん <NAME>。<BR>ごくろうだったわね。<BR>"
+  WriteText ctCutsceneScript12Text001F
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "さっそくだけど<BR>ほうこくを おねがいするわ。<BR>"
+  WriteText ctCutsceneScript12Text0020
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい ほうこくします。<BR>"
+  WriteText ctCutsceneScript12Text0021
   PromptContinue
-  WriteText "ミカサに まものがいました。<BR>また なぜか まちのひとも<BR>ミカサのなかに いました。<BR>"
+  WriteText ctCutsceneScript12Text0022
   PromptContinue
-  WriteText "やはり ミカサでは<BR>なにか おこっていると<BR>かんがえられます。<BR>"
+  WriteText ctCutsceneScript12Text0023
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "わかったわ。<BR>ぶんせきを いそぎましょう。<BR>"
+  WriteText ctCutsceneScript12Text0024
   PromptContinue
-  WriteText "<NAME>は<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>"
+  WriteText ctCutsceneScript12Text0025
   PromptContinue
   End
   End

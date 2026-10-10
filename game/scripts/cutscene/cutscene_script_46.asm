@@ -5,21 +5,21 @@ CutsceneScript46::
   Unknown0E $1F
   Unknown12 $04
   FlagIsFemale
-  WriteText "チャオ!<BR>ソレッタ・おりひめでーす。<BR>"
+  WriteText ctCutsceneScript46Text0000
   PromptContinue
-  WriteText "ていとをまもるために<BR>わざわざ イタリアから<BR>やってきて やりました。<BR>"
+  WriteText ctCutsceneScript46Text0001
   PromptContinue
   SetPortrait $07,$00,$00
-  WriteText "わたしのワザは<BR>ゆびさきからでる<BR>れいりょくビームでーす!<BR>"
+  WriteText ctCutsceneScript46Text0002
   PromptContinue
-  WriteText "れいりょくビームは<BR>はなれた たくさんのてきも<BR>こうげきできるのでーす!<BR>"
+  WriteText ctCutsceneScript46Text0003
   PromptContinue
-  WriteText "どうです?<BR>スペシャル すばらしいと<BR>おもいませんかー?<BR>"
+  WriteText ctCutsceneScript46Text0004
   PromptContinue
-  WriteText "あなたも わたしを<BR>みならって まいにち<BR>しょうじんするのでーす。<BR>"
+  WriteText ctCutsceneScript46Text0005
   PromptContinue
   SetPortrait $07,$01,$01
-  WriteText "いいですね?<BR>"
+  WriteText ctCutsceneScript46Text0006
   PromptContinue
   End
   End

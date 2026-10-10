@@ -6,161 +6,161 @@ CutsceneScript5A::
   Unknown12 $04
   FlagIsFemale
   ConditionalBranch .reference_0313,$02,$04,$01,$01,$20,$00
-  WriteText "<NAME>くん<BR>いよいよ『せいまじょう』に<BR>とつにゅうするぞ。<BR>"
+  WriteText ctCutsceneScript5AText0000
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "ついに まものたちの<BR>アジトに とつにゅう<BR>ですわね。<BR>"
+  WriteText ctCutsceneScript5AText0001
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "そこに さいごの『まじんき』<BR>が あるんですね。<BR>"
+  WriteText ctCutsceneScript5AText0002
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "それを みつけるのが<BR><NAME>くんの<BR>しめいだ。<BR>"
+  WriteText ctCutsceneScript5AText0003
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "<NAME>さん。<BR>ここまで ほんとうによく<BR>がんばりましたわね。<BR>"
+  WriteText ctCutsceneScript5AText0004
   PromptContinue
-  WriteText "せいまじょうにいる まものは<BR>きっと いままでとは<BR>くらべものに なりませんわ。<BR>"
+  WriteText ctCutsceneScript5AText0005
   PromptContinue
-  WriteText "これまでに まなんだことを<BR>きちんと おもいださないと<BR>かてませんわよ。<BR>"
+  WriteText ctCutsceneScript5AText0006
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "<NAME>さん。<BR>ワザのセットは<BR>だいじょうぶですか?<BR>"
+  WriteText ctCutsceneScript5AText0007
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "<NAME>くん<BR>リペアキットは ちゃんと<BR>ほじゅうしたか?<BR>"
+  WriteText ctCutsceneScript5AText0008
   PromptContinue
-  OptionSelect $02,$00,"はい","いいえ"
+  OptionSelect $02,$00,ctCutsceneScript5AText0009Sub00,ctCutsceneScript5AText0009Sub01
   ConditionalBranch .reference_016B,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_01D8,$02,$00,$01,$01,$20,$00
 .reference_016B
   Unknown0F $00,$01
-  WriteText "はい。<BR>じゅんびは オッケーです。<BR>"
+  WriteText ctCutsceneScript5AText000A
   PromptContinue
   SetPortrait $09,$11,$08
   PlaybackSample $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "よし。<BR>"
+  WriteText ctCutsceneScript5AText000B
   PromptContinue
   SetPortrait $01,$11,$09
   PlaybackSample $40,$91,$03,$91,$01,$06,$28,$00
-  WriteText "さすがですね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript5AText000C
   PromptContinue
   SetPortrait $02,$11,$09
   PlaybackSample $40,$92,$03,$92,$01,$06,$28,$00
-  WriteText "<NAME>さん<BR>たくましくなりましたわね。<BR>"
+  WriteText ctCutsceneScript5AText000D
   PromptContinue
   Branch .reference_0215
 .reference_01D8
   Unknown0F $00,$01
-  WriteText "いいえ。<BR>"
+  WriteText ctCutsceneScript5AText000E
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "じゃあ いちど かくのうこへ<BR>もどって じゅんびしたほうが<BR>いいんじゃないか?<BR>"
+  WriteText ctCutsceneScript5AText000F
   PromptContinue
   Branch .reference_0215
 .reference_0215
   ConditionalBranch .reference_02C6,$04,$87,$A1,$01,$FF,$20,$00
   SetPortrait $09,$10,$07
-  WriteText "ところで <NAME>くんは<BR>みずのなかでじゆうにうごける<BR>そうびを もってないね?<BR>"
+  WriteText ctCutsceneScript5AText0010
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "アクアラングですね。<BR>ひつようなんですか?<BR>"
+  WriteText ctCutsceneScript5AText0011
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "もってるに こしたことは<BR>ないと おもってね。<BR>"
+  WriteText ctCutsceneScript5AText0012
   PromptContinue
   SetPortrait $02,$10,$08
-  WriteText "たしか アクアラングは<BR>ミカサのそこのほうに<BR>あったはず‥‥<BR>"
+  WriteText ctCutsceneScript5AText0013
   PromptContinue
-  WriteText "よくさがせば<BR>みつかると おもいますわ。<BR>"
+  WriteText ctCutsceneScript5AText0014
   PromptContinue
 .reference_02C6
   SetPortrait $09,$10,$07
-  WriteText "それじゃあ <NAME>くん<BR>がんばれよ。<BR>"
+  WriteText ctCutsceneScript5AText0015
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "<NAME>さん<BR>がんばってください。<BR>"
+  WriteText ctCutsceneScript5AText0016
   PromptContinue
   SetPortrait $02,$11,$09
-  WriteText "<NAME>さん<BR>しなないように<BR>がんばるのですわよ。<BR>"
+  WriteText ctCutsceneScript5AText0017
   PromptContinue
   End
 .reference_0313
-  WriteText "<NAME>くん<BR>いよいよ『せいまじょう』に<BR>とつにゅうするぞ。<BR>"
+  WriteText ctCutsceneScript5AText0018
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "ついに まものたちの<BR>ほんきょちに とつにゅう<BR>ですね!<BR>"
+  WriteText ctCutsceneScript5AText0019
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "さいごの『まじんき』が<BR>あるはず‥‥<BR>"
+  WriteText ctCutsceneScript5AText001A
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "それを みつけるのが<BR><NAME>くんの<BR>しめいだ。<BR>"
+  WriteText ctCutsceneScript5AText001B
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "<NAME><BR>ここまで ほんとうによく<BR>がんばってきたね。<BR>"
+  WriteText ctCutsceneScript5AText001C
   PromptContinue
-  WriteText "しかし おそらく<BR>このさきにいる まものは<BR>"
+  WriteText ctCutsceneScript5AText001D
   PromptContinue
-  WriteText "これまで まなんできた<BR>すべてのちからを ださないと<BR>たおせないだろう。<BR>"
+  WriteText ctCutsceneScript5AText001E
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "<NAME>さん。<BR>ワザのセットは<BR>だいじょうぶですか?<BR>"
+  WriteText ctCutsceneScript5AText001F
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "<NAME>くん<BR>リペアキットは ちゃんと<BR>ほじゅうしたか?<BR>"
+  WriteText ctCutsceneScript5AText0020
   PromptContinue
-  OptionSelect $02,$00,"はい","いいえ"
+  OptionSelect $02,$00,ctCutsceneScript5AText0021Sub00,ctCutsceneScript5AText0021Sub01
   ConditionalBranch .reference_0450,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_04B2,$02,$00,$01,$01,$20,$00
 .reference_0450
   Unknown0F $00,$01
-  WriteText "はい。<BR>じゅんびは オッケーです。<BR>"
+  WriteText ctCutsceneScript5AText0022
   PromptContinue
   SetPortrait $09,$11,$08
   PlaybackSample $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "よし。<BR>"
+  WriteText ctCutsceneScript5AText0023
   PromptContinue
   SetPortrait $01,$11,$09
   PlaybackSample $40,$91,$03,$91,$01,$06,$28,$00
-  WriteText "さすがですね<BR><NAME>さん。<BR>"
+  WriteText ctCutsceneScript5AText0024
   PromptContinue
   SetPortrait $08,$11,$09
   PlaybackSample $40,$98,$03,$98,$01,$06,$28,$00
-  WriteText "いいぞ <NAME>。<BR>"
+  WriteText ctCutsceneScript5AText0025
   PromptContinue
   Branch .reference_04EE
 .reference_04B2
   Unknown0F $00,$01
-  WriteText "いいえ。<BR>"
+  WriteText ctCutsceneScript5AText0026
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "じゃあ いちど かくのうこへ<BR>もどって じゅんびしたほうが<BR>いいぞ <NAME>くん。<BR>"
+  WriteText ctCutsceneScript5AText0027
   PromptContinue
   Branch .reference_04EE
 .reference_04EE
   ConditionalBranch .reference_058E,$04,$87,$A1,$01,$FF,$20,$00
   SetPortrait $09,$10,$07
-  WriteText "ところで <NAME>くんは<BR>みずのなかでじゆうにうごける<BR>そうびを もってないね?<BR>"
+  WriteText ctCutsceneScript5AText0028
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "アクアラングですね。<BR>ひつようなんですか?<BR>"
+  WriteText ctCutsceneScript5AText0029
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "もってるに こしたことは<BR>ないと おもってね。<BR>"
+  WriteText ctCutsceneScript5AText002A
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "それなら ミカサのそこの<BR>しんすいしている ぶぶんを<BR>よくさがすと いい。<BR>"
+  WriteText ctCutsceneScript5AText002B
   PromptContinue
 .reference_058E
   SetPortrait $09,$10,$07
-  WriteText "それじゃあ <NAME>くん<BR>がんばるんだよ。<BR>"
+  WriteText ctCutsceneScript5AText002C
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "<NAME>さん<BR>がんばってください。<BR>"
+  WriteText ctCutsceneScript5AText002D
   PromptContinue
   SetPortrait $08,$10,$08
-  WriteText "がんばれ <NAME>。<BR>"
+  WriteText ctCutsceneScript5AText002E
   PromptContinue
   End
   End

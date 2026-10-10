@@ -5,21 +5,21 @@ CutsceneScript4D::
   Unknown0E $0B
   Unknown12 $04
   FlagIsFemale
-  WriteText "やあ!<BR>オレは かやまゆういち。<BR>うみを あいするオトコだ。<BR>"
+  WriteText ctCutsceneScript4DText0000
   PromptContinue
-  WriteText "しゅみは ギターを<BR>ひくことだな。<BR>"
+  WriteText ctCutsceneScript4DText0001
   PromptContinue
   Unknown13 $4D,$01
-  WriteText "いいな～ ギターは。<BR>さわやかな ねいろで。<BR>"
+  WriteText ctCutsceneScript4DText0002
   PromptContinue
   SetPortrait $0F,$04,$04
-  WriteText "え? なにものだって?<BR>そんなこと どうでも<BR>いいじゃないか!<BR>"
+  WriteText ctCutsceneScript4DText0003
   PromptContinue
   SetPortrait $0F,$00,$00
-  WriteText "まぁ おおがみの<BR>かいぐんじだいの<BR>しんゆうと おぼえてくれ!<BR>"
+  WriteText ctCutsceneScript4DText0004
   PromptContinue
   SetPortrait $0F,$01,$01
-  WriteText "じゃあ これから<BR>よろしくたのむよ!<BR>アディオス!<BR>"
+  WriteText ctCutsceneScript4DText0005
   PromptContinue
   End
   End

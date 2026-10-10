@@ -5,13 +5,13 @@ CutsceneScript42::
   Unknown0E $0E
   Unknown12 $04
   FlagIsFemale
-  WriteText "ようこそ<BR>ていこくかげきだんへ。<BR>マリア・タチバナです。<BR>"
+  WriteText ctCutsceneScript42Text0000
   PromptContinue
-  WriteText "わたしのぶきは じゅうです。<BR>しゃげきで はなれたてきも<BR>こうげきすることができます。<BR>"
+  WriteText ctCutsceneScript42Text0001
   PromptContinue
-  WriteText "せんじょうでは<BR>ちいさなゆだんが<BR>はいぼくに つながるわ。<BR>"
+  WriteText ctCutsceneScript42Text0002
   PromptContinue
-  WriteText "きをひきしめて<BR>しっかりと<BR>がんばりなさい。<BR>"
+  WriteText ctCutsceneScript42Text0003
   PromptContinue
   End
   End

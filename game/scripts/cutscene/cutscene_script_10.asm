@@ -6,12 +6,12 @@ CutsceneScript10::
   SetBackground $01
   Unknown0E $1D
   SetPortrait $11,$01,$01
-  WriteText "なまえを にゅうりょくして<BR>ちょうだい。<BR>"
+  WriteText ctCutsceneScript10Text0000
   PromptContinue
   Unknown1D
   Unknown0E $1D
   SetPortrait $11,$01,$01
-  WriteText "<NAME>ちゃん<BR>がんばってね。<BR>"
+  WriteText ctCutsceneScript10Text0001
   PromptContinue
   End
   End

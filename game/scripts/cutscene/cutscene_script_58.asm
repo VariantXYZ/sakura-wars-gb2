@@ -6,133 +6,133 @@ CutsceneScript58::
   Unknown12 $04
   FlagIsFemale
   ConditionalBranch .reference_029D,$02,$04,$01,$01,$20,$00
-  WriteText "<NAME>!<BR>ついに『せいまじょう』だよ!<BR>"
+  WriteText ctCutsceneScript58Text0000
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "『せいまじょう』か‥‥<BR>やっかいなんだろうな<BR>あそこの まものどもは。<BR>"
+  WriteText ctCutsceneScript58Text0001
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "よきひこさんの じょうほうに<BR>よると 『せいまじょう』の<BR>いりぐちには<BR>"
+  WriteText ctCutsceneScript58Text0002
   PromptContinue
-  WriteText "『ほのおのとう』というのが<BR>たちはだかっているっていう<BR>はなしですよ。<BR>"
+  WriteText ctCutsceneScript58Text0003
   PromptContinue
   SetPortrait $06,$15,$0D
-  WriteText "『ほのおのとう』か‥‥<BR>ほのお‥‥<BR>"
+  WriteText ctCutsceneScript58Text0004
   PromptContinue
   SetPortrait $06,$13,$0B
-  WriteText "そうだ!<BR><NAME> しってるか?<BR>"
+  WriteText ctCutsceneScript58Text0005
   PromptContinue
-  WriteText "てきのぞくせいに たいして<BR>ゆうこうな ワザがあるって<BR>ことを。<BR>"
+  WriteText ctCutsceneScript58Text0006
   PromptContinue
-  OptionSelect $02,$00,"はい","いいえ"
+  OptionSelect $02,$00,ctCutsceneScript58Text0007Sub00,ctCutsceneScript58Text0007Sub01
   ConditionalBranch .reference_011E,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_017D,$02,$00,$01,$01,$20,$00
 .reference_011E
   Unknown0F $00,$01
-  WriteText "はい しっています。<BR>"
+  WriteText ctCutsceneScript58Text0008
   PromptContinue
   SetPortrait $06,$11,$09
   PlaybackSample $40,$96,$03,$96,$01,$06,$28,$00
-  WriteText "さすがは <NAME>だ。<BR>"
+  WriteText ctCutsceneScript58Text0009
   PromptContinue
   SetPortrait $01,$11,$09
   PlaybackSample $40,$91,$03,$91,$01,$06,$28,$00
-  WriteText "<NAME>さんなら<BR>『せいまじょう』へ いっても<BR>だいじょうぶですね。<BR>"
+  WriteText ctCutsceneScript58Text000A
   PromptContinue
   Branch .reference_023E
 .reference_017D
   Unknown0F $00,$01
-  WriteText "いいえ しりません。<BR>"
+  WriteText ctCutsceneScript58Text000B
   PromptContinue
   SetPortrait $01,$10,$08
-  WriteText "そうですか。<BR>では あたしが かいつまんで<BR>おおしえしますね。<BR>"
+  WriteText ctCutsceneScript58Text000C
   PromptContinue
-  WriteText "ひのぞくせいを もつてきには<BR>みずのワザが ゆうこうに<BR>なります。<BR>"
+  WriteText ctCutsceneScript58Text000D
   PromptContinue
-  WriteText "また きかいのてきには<BR>かみなりのワザが<BR>ゆうこうだったりします。<BR>"
+  WriteText ctCutsceneScript58Text000E
   PromptContinue
-  WriteText "このように てきのぞくせいを<BR>みきわめて ワザをつかえば<BR>"
+  WriteText ctCutsceneScript58Text000F
   PromptContinue
-  WriteText "たたかいが かなり<BR>らくになると おもいますよ。<BR>"
+  WriteText ctCutsceneScript58Text0010
   PromptContinue
   Branch .reference_023E
 .reference_023E
   SetPortrait $04,$10,$08
-  WriteText "<NAME>。<BR>じゅんびは バッチリだね。<BR>"
+  WriteText ctCutsceneScript58Text0011
   PromptContinue
   SetPortrait $04,$11,$09
-  WriteText "じゃあ こんかいも<BR>はりきって いこう!<BR>"
+  WriteText ctCutsceneScript58Text0012
   PromptContinue
   SetPortrait $01,$11,$09
-  WriteText "<NAME>さん。<BR>がんばってください。<BR>"
+  WriteText ctCutsceneScript58Text0013
   PromptContinue
   SetPortrait $06,$11,$09
-  WriteText "ファイトだぜ!<BR><NAME>!!<BR>"
+  WriteText ctCutsceneScript58Text0014
   PromptContinue
   End
 .reference_029D
-  WriteText "<NAME>!<BR>ついに『せいまじょう』だよ!<BR>"
+  WriteText ctCutsceneScript58Text0015
   PromptContinue
   SetPortrait $06,$10,$08
-  WriteText "『せいまじょう』か‥‥<BR>やっかいなんだろうな<BR>あそこの まものどもは。<BR>"
+  WriteText ctCutsceneScript58Text0016
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "よきひこさんの じょうほうに<BR>よると 『せいまじょう』の<BR>いりぐちには<BR>"
+  WriteText ctCutsceneScript58Text0017
   PromptContinue
-  WriteText "『ほのおのとう』というのが<BR>たちはだかっているっていう<BR>ことなんだが‥‥<BR>"
+  WriteText ctCutsceneScript58Text0018
   PromptContinue
   SetPortrait $06,$15,$0D
-  WriteText "『ほのおのとう』か‥‥<BR>ほのお‥‥<BR>"
+  WriteText ctCutsceneScript58Text0019
   PromptContinue
   SetPortrait $06,$13,$0B
-  WriteText "そうだ!<BR><NAME> しってるか?<BR>"
+  WriteText ctCutsceneScript58Text001A
   PromptContinue
-  WriteText "てきのぞくせいに たいして<BR>ゆうこうな ワザがあるって<BR>ことを。<BR>"
+  WriteText ctCutsceneScript58Text001B
   PromptContinue
-  OptionSelect $02,$00,"はい","いいえ"
+  OptionSelect $02,$00,ctCutsceneScript58Text001CSub00,ctCutsceneScript58Text001CSub01
   ConditionalBranch .reference_03AA,$02,$00,$01,$00,$20,$00
   ConditionalBranch .reference_0408,$02,$00,$01,$01,$20,$00
 .reference_03AA
   Unknown0F $00,$01
-  WriteText "はい しっています。<BR>"
+  WriteText ctCutsceneScript58Text001D
   PromptContinue
   SetPortrait $06,$11,$09
   PlaybackSample $40,$96,$03,$96,$01,$06,$28,$00
-  WriteText "さすがは <NAME>だ。<BR>"
+  WriteText ctCutsceneScript58Text001E
   PromptContinue
   SetPortrait $09,$11,$08
   PlaybackSample $40,$99,$03,$99,$01,$06,$28,$00
-  WriteText "<NAME>くんなら<BR>『せいまじょう』へ いっても<BR>だいじょうぶだな。<BR>"
+  WriteText ctCutsceneScript58Text001F
   PromptContinue
   Branch .reference_04BE
 .reference_0408
   Unknown0F $00,$01
-  WriteText "いいえ しりません。<BR>"
+  WriteText ctCutsceneScript58Text0020
   PromptContinue
   SetPortrait $09,$10,$07
-  WriteText "では オレが かいつまんで<BR>おしえるとしよう。<BR>"
+  WriteText ctCutsceneScript58Text0021
   PromptContinue
-  WriteText "ひのぞくせいを もつてきには<BR>みずのワザが こうかてきに<BR>なるんだ。<BR>"
+  WriteText ctCutsceneScript58Text0022
   PromptContinue
-  WriteText "また きかいのてきには<BR>かみなりのワザが<BR>ゆうこうだったりするんだ。<BR>"
+  WriteText ctCutsceneScript58Text0023
   PromptContinue
-  WriteText "このように てきのぞくせいを<BR>みきわめて ワザをつかえば<BR>"
+  WriteText ctCutsceneScript58Text0024
   PromptContinue
-  WriteText "たたかいが かなり<BR>らくになるはずだ。<BR>"
+  WriteText ctCutsceneScript58Text0025
   PromptContinue
   Branch .reference_04BE
 .reference_04BE
   SetPortrait $04,$10,$08
-  WriteText "<NAME>。<BR>じゅんびは バッチリだね。<BR>"
+  WriteText ctCutsceneScript58Text0026
   PromptContinue
   SetPortrait $04,$11,$09
-  WriteText "じゃあ こんかいも<BR>がんばっていこう!!<BR>"
+  WriteText ctCutsceneScript58Text0027
   PromptContinue
   SetPortrait $09,$11,$08
-  WriteText "がんばれよ<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript58Text0028
   PromptContinue
   SetPortrait $06,$11,$09
-  WriteText "ファイトだぜ!<BR><NAME>!!<BR>"
+  WriteText ctCutsceneScript58Text0029
   PromptContinue
   End
   End

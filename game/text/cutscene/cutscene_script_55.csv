@@ -1,0 +1,94 @@
+ID,Text
+ctCutsceneScript55Text0000,よう <NAME>!<BR>つぎの しゅつげきばしょは<BR>ミカサ つうきこうだ。<BR>
+ctCutsceneScript55Text0001,こんかい <NAME>と<BR>いっしょに しゅつげき<BR>できるのは<BR>
+ctCutsceneScript55Text0002,あたいと<BR>
+ctCutsceneScript55Text0003,わたしと<BR>
+ctCutsceneScript55Text0004,ボクだ。<BR>
+ctCutsceneScript55Text0005,じゃあ それぞれの<BR>とくいわざを <NAME>に<BR>おしえておくぜ。<BR>
+ctCutsceneScript55Text0006,あたいの とくいわざは<BR>カラテだ。せっきんせんなら<BR>まかしといてくれよ。<BR>
+ctCutsceneScript55Text0007,ちかくにいる てきしか<BR>こうげきできないけど<BR>はかいりょくは すげぇぜ!<BR>
+ctCutsceneScript55Text0008,わたしは れいりょくを<BR>つかった こうげきが<BR>とくいでーす。<BR>
+ctCutsceneScript55Text0009,れいりょくのビームで<BR>とおくにいる てきにも<BR>こうげきできまーす。<BR>
+ctCutsceneScript55Text000A,しかも ふくすうのてきに<BR>いちどで こうげきすることも<BR>できるのでーす。<BR>
+ctCutsceneScript55Text000B,ボクのぶきは ランス‥‥<BR>つまり ヤリだ。<BR>
+ctCutsceneScript55Text000C,つうじょうは<BR>いったいのてきに たいしての<BR>こうげきだけど‥‥<BR>
+ctCutsceneScript55Text000D,れいりょくを つかえば<BR>ふくすうのてきを<BR>こうげきすることができる。<BR>
+ctCutsceneScript55Text000E,てな かんじだな。<BR>
+ctCutsceneScript55Text000F,じぶんの そうびと<BR>パートナーの のうりょくを<BR>よくかんがえて<BR>
+ctCutsceneScript55Text0010,バランスのとれた<BR>チームをくめば せんとうが<BR>ゆうりになるぜ。<BR>
+ctCutsceneScript55Text0011,ところで <NAME>さんは<BR>せんとうちゅうに ぶきを<BR>もちかえてまーすか?<BR>
+ctCutsceneScript55Text0012Sub00,はい
+ctCutsceneScript55Text0012Sub01,いいえ
+ctCutsceneScript55Text0013,はい。<BR>もちかえています。<BR>
+ctCutsceneScript55Text0014,さすがは <NAME>さん。<BR>やりまーすね。<BR>
+ctCutsceneScript55Text0015,ぶきの もちかえには<BR>1ターン しょうひしますが<BR>
+ctCutsceneScript55Text0016,それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておくと<BR>
+ctCutsceneScript55Text0017,どんなてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえて<BR>
+ctCutsceneScript55Text0018,とーーっても<BR>べんりですからね!!<BR>
+ctCutsceneScript55Text0019,いいえ。<BR>せんとうちゅうの ぶきの<BR>もちかえは していません。<BR>
+ctCutsceneScript55Text001A,Oh! そうなんですか?!<BR>
+ctCutsceneScript55Text001B,ぶきの もちかえには<BR>1ターンしょうひしますが<BR>けっこう べんりなのでーす。<BR>
+ctCutsceneScript55Text001C,それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておくと<BR>
+ctCutsceneScript55Text001D,どんなてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえる。<BR>
+ctCutsceneScript55Text001E,そのとおりでーす。<BR><NAME>さんも いちど<BR>つかってみてくださーい。<BR>
+ctCutsceneScript55Text001F,それじゃあ <NAME><BR>じゅんびは いいか?<BR>
+ctCutsceneScript55Text0020Sub00,ぶきのもちかえについて きく
+ctCutsceneScript55Text0020Sub01,バッチリです
+ctCutsceneScript55Text0021,すみません。<BR>ぶきの もちかえについて<BR>もういちど おねがいします。<BR>
+ctCutsceneScript55Text0022,わかりました。<BR>ぶきの もちかえについて<BR>でーすね。<BR>
+ctCutsceneScript55Text0023,ぶきは せんとうちゅうに<BR>もちかえることが<BR>できるのでーす。<BR>
+ctCutsceneScript55Text0024,ぶきの もちかえには<BR>1ターンつかって<BR>しまうのでーす。<BR>
+ctCutsceneScript55Text0025,でも かんがえて つかうと<BR>とても ベンリで グッドな<BR>ものなのでーす。<BR>
+ctCutsceneScript55Text0026,それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておけば<BR>
+ctCutsceneScript55Text0027,どんなてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえるのでーす。<BR>
+ctCutsceneScript55Text0028,はい バッチリです。<BR>
+ctCutsceneScript55Text0029,それじゃあ <NAME>!<BR>がんばっていこうぜ!!<BR>
+ctCutsceneScript55Text002A,しっかり‥‥<BR>
+ctCutsceneScript55Text002B,<NAME>さん<BR>レッツ ファイトでーす!!<BR>
+ctCutsceneScript55Text002C,よう <NAME>!<BR>つぎの しゅつげきばしょは<BR>ミカサ つうきこうだ。<BR>
+ctCutsceneScript55Text002D,こんかい <NAME>と<BR>いっしょに しゅつげき<BR>できるのは<BR>
+ctCutsceneScript55Text002E,あたいと<BR>
+ctCutsceneScript55Text002F,わたしと<BR>
+ctCutsceneScript55Text0030,そして‥‥<BR>わたくしですわ。<BR>
+ctCutsceneScript55Text0031,それじゃあ それぞれの<BR>とくいわざを <NAME>に<BR>おしえておくぜ。<BR>
+ctCutsceneScript55Text0032,あたいの とくいわざは<BR>カラテだ。せっきんせんなら<BR>まかしといてくれよ。<BR>
+ctCutsceneScript55Text0033,ちかくにいる てきしか<BR>こうげきできないけど<BR>はかいりょくは すげぇぜ!<BR>
+ctCutsceneScript55Text0034,わたしは れいりょくを<BR>つかった こうげきが<BR>とくいでーす。<BR>
+ctCutsceneScript55Text0035,れいりょくのビームで<BR>とおくにいる てきにも<BR>こうげきできまーす。<BR>
+ctCutsceneScript55Text0036,しかも ふくすうのてきに<BR>いちどで こうげきすることも<BR>できるのでーす。<BR>
+ctCutsceneScript55Text0037,わたくしの とくぎは<BR>なぎなた ですわ!<BR>
+ctCutsceneScript55Text0038,てきが どんなじんけいで<BR>あらわれても なぎなたの<BR>ながさを いかして<BR>
+ctCutsceneScript55Text0039,ぜんたいを こうげきしたり<BR>ならんでるてきを くしざしに<BR>したりと‥‥<BR>
+ctCutsceneScript55Text003A,かれいに うつくしく<BR>たたかうのが わたくし<BR>かんざきすみれ なのですわ。<BR>
+ctCutsceneScript55Text003B,てな かんじだな。<BR>
+ctCutsceneScript55Text003C,じぶんの そうびと<BR>パートナーの のうりょくを<BR>よくかんがえて<BR>
+ctCutsceneScript55Text003D,バランスのとれた<BR>チームをくめば せんとうが<BR>ゆうりになるぜ。<BR>
+ctCutsceneScript55Text003E,ところで <NAME>さんは<BR>せんとうちゅうに ぶきを<BR>もちかえてまーすか?<BR>
+ctCutsceneScript55Text003FSub00,はい
+ctCutsceneScript55Text003FSub01,いいえ
+ctCutsceneScript55Text0040,はい。<BR>もちかえています。<BR>
+ctCutsceneScript55Text0041,さすがは <NAME>さん。<BR>やりまーすね。<BR>
+ctCutsceneScript55Text0042,ぶきの もちかえには<BR>1ターン しょうひしますが<BR>
+ctCutsceneScript55Text0043,それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておくと<BR>
+ctCutsceneScript55Text0044,どんなてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえて<BR>
+ctCutsceneScript55Text0045,とーーっても<BR>べんりですからね!!<BR>
+ctCutsceneScript55Text0046,いいえ。<BR>せんとうちゅうの ぶきの<BR>もちかえは していません。<BR>
+ctCutsceneScript55Text0047,Oh! そうなんですか?!<BR>
+ctCutsceneScript55Text0048,ぶきの もちかえには<BR>1ターンしょうひしますが<BR>けっこう べんりなのでーす。<BR>
+ctCutsceneScript55Text0049,それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておくと<BR>
+ctCutsceneScript55Text004A,いかなるてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえるのですわ。<BR>
+ctCutsceneScript55Text004B,そのとおりでーす。<BR><NAME>さんも いちど<BR>つかってみてくださーい。<BR>
+ctCutsceneScript55Text004C,それじゃあ <NAME><BR>じゅんびは いいか?<BR>
+ctCutsceneScript55Text004DSub00,ぶきのもちかえについて きく
+ctCutsceneScript55Text004DSub01,バッチリです
+ctCutsceneScript55Text004E,すみません。<BR>ぶきの もちかえについて<BR>もういちど おねがいします。<BR>
+ctCutsceneScript55Text004F,わかりました。<BR>ぶきの もちかえについて<BR>でーすね。<BR>
+ctCutsceneScript55Text0050,ぶきは せんとうちゅうに<BR>もちかえることが<BR>できるのでーす。<BR>
+ctCutsceneScript55Text0051,ぶきの もちかえには<BR>1ターンつかって<BR>しまいまーす。<BR>
+ctCutsceneScript55Text0052,でも かんがえて つかうと<BR>とても ベンリで グッドな<BR>ものなのでーす。<BR>
+ctCutsceneScript55Text0053,それぞれの ぶきに<BR>ぞくせいのちがう わざを<BR>セットしておけば<BR>
+ctCutsceneScript55Text0054,どんなてきが あらわれても<BR>ぶきを もちかえるだけで<BR>らくに たたかえるのでーす。<BR>
+ctCutsceneScript55Text0055,はい バッチリです。<BR>
+ctCutsceneScript55Text0056,それじゃあ <NAME>!<BR>がんばっていこうぜ!!<BR>
+ctCutsceneScript55Text0057,<NAME>さん。<BR>しなないていどに<BR>がんばりなさい。<BR>
+ctCutsceneScript55Text0058,<NAME>さん<BR>レッツ ファイトでーす!!<BR>

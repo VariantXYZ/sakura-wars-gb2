@@ -6,227 +6,227 @@ CutsceneScript30::
   Unknown12 $17
   FlagIsFemale
   ConditionalBranch .reference_043A,$02,$04,$01,$01,$20,$00
-  WriteText "ミカサのなかで ひろった<BR>この まるいメガネ‥‥<BR>"
+  WriteText ctCutsceneScript30Text0000
   Unknown05 $84,$6E,$01,$00
   End
-  WriteText "きっと こうらんさんのだな。<BR>"
+  WriteText ctCutsceneScript30Text0001
   PromptContinue
-  WriteText "こうらんさんの ところへ<BR>もっていこう。<BR>"
+  WriteText ctCutsceneScript30Text0002
   PromptContinue
   Unknown1E $0F
-  WriteText "こうらんさん。<BR>しつれいします。<BR>"
+  WriteText ctCutsceneScript30Text0003
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "<NAME>はん。<BR>どないしたんや?<BR>"
+  WriteText ctCutsceneScript30Text0004
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ ひろったんですが<BR>こうらんさんのですか?<BR>"
+  WriteText ctCutsceneScript30Text0005
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "まるいメガネ?<BR>"
+  WriteText ctCutsceneScript30Text0006
   PromptContinue
-  WriteText "ああ それは ウチのや。<BR>"
+  WriteText ctCutsceneScript30Text0007
   PromptContinue
   SetPortrait $05,$01,$01
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "わざわざ とどけてくれて<BR>ありがとう <NAME>はん。<BR>"
+  WriteText ctCutsceneScript30Text0008
   PromptContinue
   Unknown0F $00,$01
-  WriteText "こうらんさんって<BR>おなじメガネを いくつも<BR>もっているんですか?<BR>"
+  WriteText ctCutsceneScript30Text0009
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "そうや。<BR>はつめいしてて ばくはつ<BR>することもあるし<BR>"
+  WriteText ctCutsceneScript30Text000A
   PromptContinue
-  WriteText "あと たたかってるときも<BR>けっこう こわれるし<BR>それと あれやな‥‥<BR>"
+  WriteText ctCutsceneScript30Text000B
   PromptContinue
-  WriteText "あたまのうえに メガネが<BR>あるのに ついうっかり<BR>さがしてしもたり するしな。<BR>"
+  WriteText ctCutsceneScript30Text000C
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あー あの「メガネ メガネ」<BR>っていう やつですね。<BR>"
+  WriteText ctCutsceneScript30Text000D
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "そや。<BR>そやから スペアはけっこう<BR>もってるで。<BR>"
+  WriteText ctCutsceneScript30Text000E
   PromptContinue
-  WriteText "いくつくらい<BR>もってるとおもう?<BR>カンでええから いうてみ。<BR>"
+  WriteText ctCutsceneScript30Text000F
   PromptContinue
-  WriteText "ヒントは 3ケタのきすうや。<BR>さあ わかるかな～?<BR>"
+  WriteText ctCutsceneScript30Text0010
   PromptContinue
-  OptionSelectTimed $03,$03,"101こ","1011こ","102こ"
+  OptionSelectTimed $03,$03,ctCutsceneScript30Text0011Sub00,ctCutsceneScript30Text0011Sub01,ctCutsceneScript30Text0011Sub02
   ConditionalBranch .reference_023A,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_02C5,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_0347,$02,$01,$01,$02,$20,$00
   Branch .reference_03CA
 .reference_023A
   Unknown0F $00,$01
-  WriteText "101こ じゃないですか?<BR>"
+  WriteText ctCutsceneScript30Text0012
   PromptContinue
   SetPortrait $05,$05,$05
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "ピンポン! ピンポン!<BR>おおあたりやーーー!!<BR>"
+  WriteText ctCutsceneScript30Text0013
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>"
+  WriteText ctCutsceneScript30Text0014
   PromptContinue
-  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>"
+  WriteText ctCutsceneScript30Text0015
   PromptContinue
   End
 .reference_02C5
   Unknown0F $00,$01
-  WriteText "1011こ じゃないですか?<BR>"
+  WriteText ctCutsceneScript30Text0016
   PromptContinue
   SetPortrait $05,$06,$06
-  WriteText "ブブー。<BR>ハズレや。<BR>1011は 4ケタやないか。<BR>"
+  WriteText ctCutsceneScript30Text0017
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "3ケタのきすう‥‥<BR>すなわち101こや。<BR>"
+  WriteText ctCutsceneScript30Text0018
   PromptContinue
-  WriteText "ざんねんやったな。<BR>"
+  WriteText ctCutsceneScript30Text0019
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>"
+  WriteText ctCutsceneScript30Text001A
   PromptContinue
   End
 .reference_0347
   Unknown0F $00,$01
-  WriteText "102こ ですか?<BR>"
+  WriteText ctCutsceneScript30Text001B
   PromptContinue
   SetPortrait $05,$06,$06
-  WriteText "ブブー。<BR>ハズレや。<BR>102やったら ぐうすうや!<BR>"
+  WriteText ctCutsceneScript30Text001C
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "3ケタのきすう‥‥<BR>すなわち101こが<BR>せいかいや!<BR>"
+  WriteText ctCutsceneScript30Text001D
   PromptContinue
-  WriteText "ざんねんやったな。<BR>"
+  WriteText ctCutsceneScript30Text001E
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>"
+  WriteText ctCutsceneScript30Text001F
   PromptContinue
   End
 .reference_03CA
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript30Text0020
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "ブブー。<BR>じかんぎれでーす。<BR>"
+  WriteText ctCutsceneScript30Text0021
   PromptContinue
-  WriteText "せいかいは 101こや。<BR>ま わからんでも<BR>しょうがないな。<BR>"
+  WriteText ctCutsceneScript30Text0022
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>"
+  WriteText ctCutsceneScript30Text0023
   PromptContinue
   End
 .reference_043A
-  WriteText "ミカサのなかで ひろった<BR>この まるいメガネ‥‥<BR>"
+  WriteText ctCutsceneScript30Text0024
   Unknown05 $84,$6E,$01,$00
   End
-  WriteText "きっと こうらんさんのね。<BR>"
+  WriteText ctCutsceneScript30Text0025
   PromptContinue
-  WriteText "こうらんさんの ところへ<BR>もっていきましょう。<BR>"
+  WriteText ctCutsceneScript30Text0026
   PromptContinue
   Unknown1E $0F
-  WriteText "こうらんさん。<BR>しつれいします。<BR>"
+  WriteText ctCutsceneScript30Text0027
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "<NAME>はん。<BR>どないしたんや?<BR>"
+  WriteText ctCutsceneScript30Text0028
   PromptContinue
   Unknown0F $00,$01
-  WriteText "これ ひろったんですが<BR>こうらんさんのですか?<BR>"
+  WriteText ctCutsceneScript30Text0029
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "まるいメガネ?<BR>"
+  WriteText ctCutsceneScript30Text002A
   PromptContinue
-  WriteText "ああ それは ウチのや。<BR>"
+  WriteText ctCutsceneScript30Text002B
   PromptContinue
   SetPortrait $05,$01,$01
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "わざわざ とどけてくれて<BR>ありがとう <NAME>はん。<BR>"
+  WriteText ctCutsceneScript30Text002C
   PromptContinue
   Unknown0F $00,$01
-  WriteText "こうらんさんって<BR>おなじメガネを いくつも<BR>もっているんですか?<BR>"
+  WriteText ctCutsceneScript30Text002D
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "そうや。<BR>はつめいしてて ばくはつ<BR>することもあるし<BR>"
+  WriteText ctCutsceneScript30Text002E
   PromptContinue
-  WriteText "あと たたかってるときも<BR>けっこう こわれるし<BR>それと あれやな‥‥<BR>"
+  WriteText ctCutsceneScript30Text002F
   PromptContinue
-  WriteText "あたまのうえに メガネが<BR>あるのに ついうっかり<BR>さがしてしもたり するしな。<BR>"
+  WriteText ctCutsceneScript30Text0030
   PromptContinue
   Unknown0F $00,$01
-  WriteText "あー あの「メガネ メガネ」<BR>っていう やつですね。<BR>"
+  WriteText ctCutsceneScript30Text0031
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "そや。<BR>そやから スペアはけっこう<BR>もってるで。<BR>"
+  WriteText ctCutsceneScript30Text0032
   PromptContinue
-  WriteText "いくつくらい もってると<BR>おもう。<BR>"
+  WriteText ctCutsceneScript30Text0033
   PromptContinue
-  WriteText "カンでエエから<BR>いうてみ?<BR>"
+  WriteText ctCutsceneScript30Text0034
   PromptContinue
-  WriteText "ヒントは 3ケタのきすうや。<BR>さあ わかるかな～?<BR>"
+  WriteText ctCutsceneScript30Text0035
   PromptContinue
-  OptionSelectTimed $05,$03,"101こ","11こ","1001こ"
+  OptionSelectTimed $05,$03,ctCutsceneScript30Text0036Sub00,ctCutsceneScript30Text0036Sub01,ctCutsceneScript30Text0036Sub02
   ConditionalBranch .reference_0668,$02,$01,$01,$00,$20,$00
   ConditionalBranch .reference_06F3,$02,$01,$01,$01,$20,$00
   ConditionalBranch .reference_079E,$02,$01,$01,$02,$20,$00
   Branch .reference_083B
 .reference_0668
   Unknown0F $00,$01
-  WriteText "101こ じゃないですか?<BR>"
+  WriteText ctCutsceneScript30Text0037
   PromptContinue
   SetPortrait $05,$05,$05
   PlaybackSample $40,$95,$03,$95,$01,$06,$28,$00
-  WriteText "ピンポン! ピンポン!<BR>おおあたりやーーー!!<BR>"
+  WriteText ctCutsceneScript30Text0038
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>"
+  WriteText ctCutsceneScript30Text0039
   PromptContinue
-  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>"
+  WriteText ctCutsceneScript30Text003A
   PromptContinue
   End
 .reference_06F3
   Unknown0F $00,$01
-  WriteText "11こ じゃないですか?<BR>"
+  WriteText ctCutsceneScript30Text003B
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "ブブー。<BR>ハズレや。<BR>"
+  WriteText ctCutsceneScript30Text003C
   PromptContinue
-  WriteText "11こくらいやったら<BR>じっけんで こわれて<BR>すぐに なくなってまうわ。<BR>"
+  WriteText ctCutsceneScript30Text003D
   PromptContinue
-  WriteText "せいかいは 101こや。<BR>"
+  WriteText ctCutsceneScript30Text003E
   PromptContinue
-  WriteText "まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>"
+  WriteText ctCutsceneScript30Text003F
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>"
+  WriteText ctCutsceneScript30Text0040
   PromptContinue
   End
 .reference_079E
   Unknown0F $00,$01
-  WriteText "1001こ ですか?<BR>"
+  WriteText ctCutsceneScript30Text0041
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "ブブー。<BR>ハズレです。<BR>"
+  WriteText ctCutsceneScript30Text0042
   PromptContinue
-  WriteText "いくらなんでも<BR>1001こも<BR>もってへんで。<BR>"
+  WriteText ctCutsceneScript30Text0043
   PromptContinue
-  WriteText "せいかいは 101こや。<BR>"
+  WriteText ctCutsceneScript30Text0044
   PromptContinue
-  WriteText "まえから もってたんが<BR>100こ。それに この1こを<BR>くわえて 101こなんや。<BR>"
+  WriteText ctCutsceneScript30Text0045
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>"
+  WriteText ctCutsceneScript30Text0046
   PromptContinue
   End
 .reference_083B
   Unknown0F $00,$01
-  WriteText "‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>"
+  WriteText ctCutsceneScript30Text0047
   PromptContinue
   SetPortrait $05,$00,$00
-  WriteText "ブブー。<BR>じかんぎれでーす。<BR>"
+  WriteText ctCutsceneScript30Text0048
   PromptContinue
-  WriteText "せいかいは 101こや。<BR>ま わからんでも<BR>しょうがないな。<BR>"
+  WriteText ctCutsceneScript30Text0049
   PromptContinue
   SetPortrait $05,$01,$01
-  WriteText "ほな <NAME>はん<BR>わざわざ とどけてくれて<BR>ありがとな。<BR>"
+  WriteText ctCutsceneScript30Text004A
   PromptContinue
   End
   End

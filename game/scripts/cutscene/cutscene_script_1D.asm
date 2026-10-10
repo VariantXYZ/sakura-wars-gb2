@@ -6,55 +6,55 @@ CutsceneScript1D::
   Unknown12 $09
   FlagIsFemale
   ConditionalBranch .reference_0119,$02,$04,$01,$01,$20,$00
-  WriteText "おかえりなさい。<BR><NAME>くん。<BR>"
+  WriteText ctCutsceneScript1DText0000
   PromptContinue
-  WriteText "よきひこさんの きゅうしゅつ<BR>ごくろうさまでした。<BR>"
+  WriteText ctCutsceneScript1DText0001
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では ほうこくを<BR>おねがいするわ。<BR>"
+  WriteText ctCutsceneScript1DText0002
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい ほうこくします。<BR>"
+  WriteText ctCutsceneScript1DText0003
   PromptContinue
-  WriteText "『やまと』に 『まじんき』は<BR>ありませんでした。<BR>"
+  WriteText ctCutsceneScript1DText0004
   PromptContinue
-  WriteText "また 『やまと』には<BR>あきらかに なにものかに<BR>めいれいされ うごいている<BR>"
+  WriteText ctCutsceneScript1DText0005
   PromptContinue
-  WriteText "まものが なんたいか<BR>いました。<BR>"
+  WriteText ctCutsceneScript1DText0006
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "なにものかに<BR>めいれいされている‥‥‥‥<BR>"
+  WriteText ctCutsceneScript1DText0007
   PromptContinue
-  WriteText "わかったわ。<BR>"
+  WriteText ctCutsceneScript1DText0008
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では <NAME>くんは<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>"
+  WriteText ctCutsceneScript1DText0009
   PromptContinue
   End
 .reference_0119
-  WriteText "おかえりなさい。<BR><NAME>。<BR>"
+  WriteText ctCutsceneScript1DText000A
   PromptContinue
-  WriteText "よきひこさんの きゅうしゅつ<BR>ごくろうさまでした。<BR>"
+  WriteText ctCutsceneScript1DText000B
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では ほうこくを<BR>おねがいするわ。<BR>"
+  WriteText ctCutsceneScript1DText000C
   PromptContinue
   Unknown0F $00,$01
-  WriteText "はい ほうこくします。<BR>"
+  WriteText ctCutsceneScript1DText000D
   PromptContinue
-  WriteText "『やまと』に 『まじんき』は<BR>ありませんでした。<BR>"
+  WriteText ctCutsceneScript1DText000E
   PromptContinue
-  WriteText "また 『やまと』には<BR>あきらかに なにものかに<BR>めいれいされ うごいている<BR>"
+  WriteText ctCutsceneScript1DText000F
   PromptContinue
-  WriteText "まものが なんたいか<BR>いました。<BR>"
+  WriteText ctCutsceneScript1DText0010
   PromptContinue
   SetPortrait $0B,$12,$02
-  WriteText "なにものかに<BR>めいれいされている‥‥‥‥<BR>"
+  WriteText ctCutsceneScript1DText0011
   PromptContinue
-  WriteText "わかったわ。<BR>"
+  WriteText ctCutsceneScript1DText0012
   PromptContinue
   SetPortrait $0B,$10,$00
-  WriteText "では <NAME>は<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>"
+  WriteText ctCutsceneScript1DText0013
   PromptContinue
   End
   End

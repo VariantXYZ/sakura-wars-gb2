@@ -8,8 +8,11 @@ script_name = sys.argv[0]
 xlsx = sys.argv[1]
 csv_files = sys.argv[2:]
 
-
-wb = xl.load_workbook(xlsx)
+wb = None
+if os.path.exists(xlsx):
+    wb = xl.load_workbook(xlsx)
+else:
+    wb = xl.Workbook()
 
 index = 0
 for csv_file in sorted(csv_files):

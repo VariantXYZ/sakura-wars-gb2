@@ -5,30 +5,30 @@ CutsceneScript4E::
   Unknown0E $1A
   Unknown12 $04
   FlagIsFemale
-  WriteText "わたしたちは<BR>『アイ』と『ビ』のせんし<BR>バラぐみよ。<BR>"
+  WriteText ctCutsceneScript4EText0000
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText "わたしは<BR>ばらぐみの たいちょう<BR>せいりゅういん ことね。<BR>"
+  WriteText ctCutsceneScript4EText0001
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText "アタシは<BR>おおた よきひこよぉ<BR>チューして あげるわ<RED>♥<BLACK><BR>"
+  WriteText ctCutsceneScript4EText0002
   PromptContinue
   SetPortrait $12,$00,$00
-  WriteText "あの‥‥あたし‥‥<BR>おか きくのじょう<BR>って いいます。<BR>"
+  WriteText ctCutsceneScript4EText0003
   PromptContinue
-  WriteText "だから‥‥<BR>きくちゃんって<BR>よんでください‥‥<BR>"
+  WriteText ctCutsceneScript4EText0004
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText "フフフフ。<BR>わたしたちは<BR>ひみつぶたいなので‥‥<BR>"
+  WriteText ctCutsceneScript4EText0005
   PromptContinue
   SetPortrait $11,$01,$01
-  WriteText "あうことは<BR>あまり ないかも<BR>しれないわねぇ<RED>♥<BLACK><BR>"
+  WriteText ctCutsceneScript4EText0006
   PromptContinue
   SetPortrait $12,$00,$00
-  WriteText "あの でも‥‥<BR>よろしく おねがい<BR>しますね‥‥<BR>"
+  WriteText ctCutsceneScript4EText0007
   PromptContinue
   SetPortrait $10,$01,$01
-  WriteText "よろしく!<BR>"
+  WriteText ctCutsceneScript4EText0008
   PromptContinue
   End
   End

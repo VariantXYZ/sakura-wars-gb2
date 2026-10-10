@@ -6,31 +6,31 @@ CutsceneScript14::
   Unknown12 $04
   FlagIsFemale
   ConditionalBranch .reference_0080,$02,$04,$01,$01,$20,$00
-  WriteText "<NAME>さん。<BR>ありがとうございました。<BR>"
+  WriteText ctCutsceneScript14Text0000
   PromptContinue
-  WriteText "ほんとうに たすかりました。<BR>"
+  WriteText ctCutsceneScript14Text0001
   PromptContinue
-  WriteText "これ おれいです。<BR>"
+  WriteText ctCutsceneScript14Text0002
   PromptContinue
   Unknown0F $00,$01
-  WriteText "×××××ですね。<BR>ありがとうございます。<BR>"
+  WriteText ctCutsceneScript14Text0003
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText "にんむ がんばって<BR>くださいね。<BR>"
+  WriteText ctCutsceneScript14Text0004
   PromptContinue
   End
 .reference_0080
-  WriteText "<NAME>さん。<BR>ありがとうございました。<BR>"
+  WriteText ctCutsceneScript14Text0005
   PromptContinue
-  WriteText "ほんとうに たすかりました。<BR>"
+  WriteText ctCutsceneScript14Text0006
   PromptContinue
-  WriteText "これ おれいです。<BR>"
+  WriteText ctCutsceneScript14Text0007
   PromptContinue
   Unknown0F $00,$01
-  WriteText "×××××ですね。<BR>ありがとうございます。<BR>"
+  WriteText ctCutsceneScript14Text0008
   PromptContinue
   SetPortrait $0E,$11,$01
-  WriteText "にんむ がんばって<BR>くださいね。<BR>"
+  WriteText ctCutsceneScript14Text0009
   PromptContinue
   End
   End
