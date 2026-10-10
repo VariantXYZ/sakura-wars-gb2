@@ -208,8 +208,8 @@ dump_gamescene_scripts: | $(GAMESCENE_SCRIPT_DIR) $(GAMESCENE_NPC_SCRIPT_DIR) $(
 .PHONY: update_xlsx update_gamescene_npc_xlsx update_cutscene_xlsx
 update_xlsx: update_gamescene_npc_xlsx update_cutscene_xlsx
 
-.PHONY: update_csv update_gamescene_npc_csv
-update_csv: update_gamescene_npc_csv
+.PHONY: update_csv update_gamescene_npc_csv update_cutscene_csv
+update_csv: update_gamescene_npc_csv update_cutscene_csv
 
 update_gamescene_npc_xlsx: $(wildcard $(GAMESCENE_NPC_TEXT_DIR)/*.$(CSV_TYPE))
 	$(PYTHON) $(SCRIPT_DIR)/update_xlsx.py "$(TEXT_DIR)/gamescene_npc.xlsx" $^
@@ -219,6 +219,9 @@ update_cutscene_xlsx: $(wildcard $(CUTSCENE_TEXT_DIR)/*.$(CSV_TYPE))
 
 update_gamescene_npc_csv: $(TEXT_DIR)/gamescene_npc.xlsx
 	$(PYTHON) $(SCRIPT_DIR)/xlsx2csv_gamescene_npc.py $< $(wildcard $(GAMESCENE_NPC_TEXT_DIR)/*.$(CSV_TYPE))
+
+update_cutscene_csv: $(TEXT_DIR)/cutscene.xlsx
+	$(PYTHON) $(SCRIPT_DIR)/xlsx2csv_cutscene.py $< $(wildcard $(CUTSCENE_TEXT_DIR)/*.$(CSV_TYPE))
 
 #Make directories if necessary
 $(BUILD_DIR):
