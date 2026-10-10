@@ -177,11 +177,14 @@ dump_gamescene_scripts: | $(GAMESCENE_SCRIPT_DIR) $(GAMESCENE_NPC_SCRIPT_DIR) $(
 
 # Spreadsheet updating/dumping
 
-.PHONY: update_xlsx update_gamescene_npc_xlsx
-update_xlsx: update_gamescene_npc_xlsx
+.PHONY: update_xlsx update_gamescene_npc_xlsx update_cutscene_xlsx
+update_xlsx: update_gamescene_npc_xlsx update_cutscene_xlsx
 
 update_gamescene_npc_xlsx: $(wildcard $(GAMESCENE_NPC_TEXT_DIR)/*.$(CSV_TYPE))
-	$(PYTHON) $(SCRIPT_DIR)/update_gamescene_npc.py "$(TEXT_DIR)/gamescene_npc.xlsx" $^
+	$(PYTHON) $(SCRIPT_DIR)/update_xlsx.py "$(TEXT_DIR)/gamescene_npc.xlsx" $^
+
+update_cutscene_xlsx: $(wildcard $(CUTSCENE_TEXT_DIR)/*.$(CSV_TYPE))
+	$(PYTHON) $(SCRIPT_DIR)/update_xlsx.py "$(TEXT_DIR)/cutscene.xlsx" $^
 
 #Make directories if necessary
 $(BUILD_DIR):
