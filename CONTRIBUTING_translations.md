@@ -4,14 +4,15 @@ This document details the intended workflow for translations of various text. Th
 
 Content to be translated is broken up into several different categories:
 * Text centralized within spreadsheets (XLSX files)
-* Text inlined within the game's scripts
+  * This consists of text in cutscene scripts and the gamescene scripts (CSV files)
+* Miscellaneous text in code
 * Graphics in the form of tilesets that may have an associated tilemap
 
 ## Spreadsheets
 
 While it's entirely possible to manage the spreadsheet file locally on your machine with Git, the following steps rely on automation and scripts such that everything can be handled by downloading and uploading the spreadsheet file without needing to do any local setup beyond modifying the spreadsheet itself.
 
-The steps below outline what is necessary to create an entirely new set of changes from scratch, but if iterating on previous work, just skip to step 8.
+The steps below outline what is necessary to create an entirely new set of changes from scratch, but if iterating on previous work, just skip to **step 8**.
 
 1. Obtain the latest XLSX file. For example for gamescene_npc, it can be found in [game/text/](game/text/gamescene_npc.xlsx)
 ![.github/images/CONTRIBUTING_translations_1.png](.github/images/CONTRIBUTING_translations_1.png)
@@ -48,11 +49,30 @@ The steps below outline what is necessary to create an entirely new set of chang
 --
 ![.github/images/CONTRIBUTING_translations_11.png](.github/images/CONTRIBUTING_translations_11.png)
 
+### For Developers
 
-## Script Text
+The GitHub action that handles this the auto-update is `.github/workflows/update_csv.yml`, it:
+1. Checks out the main repository
+2. If it's a pull request, will checkout the PR commit
+3. Runs `make update_csv` to update the CSV files with the changes in the XLSX files
+4. Commits if there are changes using the github actor
+5. Will trigger the Build All job in a pull request
 
-(TBD)
+## Miscellaneous Text in Code
+
+* [Intro Scene Text](game/src/scene/intro_scene.asm)
+
+
+### For Developers
+
+It's likely text will not fit in-place (English will inevitably take more space than Japanese character-wise), so text will need to be moved to free space in the bank or some other bank-switching hack will need to be done. 
+
+For example, in the intro scene, additional space was found in Bank 33 to move the text to.
 
 ## Graphics
 
-(TBD)
+Graphics are in [gfx/tilesets/](gfx/tilesets) and can be edited in-place with any PNG editor (even MS Paint will work). In general it should follow the same pull request workflow as [spreadsheets](#spreadsheets).
+
+### For Developers
+
+The file suffix indicates the bit-depth of the file (e.g., `1bpp.png` is 1-bit per pixel) and adjusts how the Makefile converts them with `rgbgfx`. Some graphics are compressed, these are denoted by the file suffix `.compressed.<N>bpp.png` (right now, N is only 2) and will go through a compression step after being converted by `rgbgfx` ([scripts/compress_tileset.py](scripts/compress_tileset.py)).
