@@ -34,6 +34,12 @@ jobs:
         with:
           path: 'sakura-wars-gb2'
 
+      - name: Configure Git User
+        working-directory: 'sakura-wars-gb2'
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+
       # The branch must exist on the main repository for this to work
       - name: Switch branch if pull request
         if: github.event_name == 'pull_request'
@@ -47,12 +53,36 @@ jobs:
         run: |
           make update_csv
 
-      - name: Commit if there are changes
+      # Handle the scenario where another branch on main has an updated XLSX
+      # This step exits early if there are no changes to the CSV files in the source branch
+      # 1. Stashes the current changes
+      # 2. Checks out the text from latest target branch onto the current 'source' branch
+      # 3. Creates a temporary commit of those changes on the current branch, exits early if there's no changes
+      # 4. Cherry-pick the stashed changes with -X theirs, forcing the current branch to override
+      # 5. Update the XLSX files based on the merged CSVs, then re-generate all the CSVs and only update the necessary XLSX files
+      # 6. Combine the changes and reset HEAD so the changes can be properly handled
+      - name: Rebase and update if there are CSV changes
+        if: github.event_name == 'pull_request'
         working-directory: 'sakura-wars-gb2'
         run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          git add game/text/\*.csv
+          git stash --staged
+          git fetch origin ${{ github.base_ref }}:${{ github.base_ref }}
+          git checkout ${{ github.base_ref }} -- game/text
+          git commit -C HEAD || (git stash pop && exit 0)
+          git cherry-pick -m1 --no-commit -Xtheirs stash@{0}
+          make update_xlsx
+          make update_csv
+          git checkout -- game/text/\*.xlsx
+          make update_xlsx
           git add game/text
+          git commit --amend --no-edit
+          git reset HEAD~1
+
+      - name: Commit CSV files if there are changes
+        working-directory: 'sakura-wars-gb2'
+        run: |
+          git add game/text/\*.csv
           git commit -C HEAD && git push -u origin HEAD || echo "No text changes"
 
       # This trigger is only necessary when we rely on the automation with the pull_request trigger

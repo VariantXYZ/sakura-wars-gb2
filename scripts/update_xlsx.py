@@ -14,6 +14,8 @@ if os.path.exists(xlsx):
 else:
     wb = xl.Workbook()
 
+has_changes = False
+
 index = 0
 for csv_file in sorted(csv_files):
     text_map = OrderedDict()
@@ -57,17 +59,18 @@ for csv_file in sorted(csv_files):
     for row in rows:
         ID = row[id_idx].value
         text = row[text_idx].value.replace('\n', '<BR>')
+        translated_text = row[translated_idx].value.replace('\n', '<BR>') if row[translated_idx].value is not None else None
         if ID in text_map:
-            if text != text_map[ID]:
+            if translated_text and translated_text != text_map[ID]:
+                has_changes = True
                 new_text = text_map[ID].replace('<BR>','\n')
                 row[translated_idx].value = new_text
                 row[translated_idx].alignment = xl.styles.Alignment(wrap_text=True)
             text_map[ID] = None
 
     for ID in text_map:
-        if text_map[ID] is not None:
-            wb[name].append([ID, text_map[ID].replace('<BR>', '\n')])
-
+        assert text_map[ID] is None, f"New text ({ID} -> {text_map[ID]}) should not be added in the translation branch"
     index += 1
 
-wb.save(xlsx)
+if has_changes:
+    wb.save(xlsx)
