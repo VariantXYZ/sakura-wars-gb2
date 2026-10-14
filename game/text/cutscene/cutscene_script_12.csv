@@ -1,18 +1,18 @@
 ID,Text
-ctCutsceneScript12Text0000,よう <NAME>!<BR>ぶじ もどってきたな?<BR>げんきそうで なによりだぜ。<BR>
-ctCutsceneScript12Text0001,<NAME>さん<BR>おかえりなさい。<BR>
-ctCutsceneScript12Text0002,<NAME>おかえり!!<BR>ねぇ ねぇ<BR>おもしろかったー?!<BR>
-ctCutsceneScript12Text0003,<NAME>さん<BR>おかえりでーす。<BR>
-ctCutsceneScript12Text0004,<NAME>くん。<BR>おつかれさま。<BR>
-ctCutsceneScript12Text0005,あら どうやら ぶじに<BR>もどってきた ようですわね<BR><NAME>さん。<BR>
-ctCutsceneScript12Text0006,<NAME>はん おかえり。<BR>おつかれさんやったな。<BR>
-ctCutsceneScript12Text0007,‥‥‥‥にんむ<BR>ごくろう。<BR>
-ctCutsceneScript12Text0008,おかえりなさい<BR><NAME>さん。<BR>
-ctCutsceneScript12Text0009,つばきを たすけてくれて<BR>ありがとうございました。<BR>
-ctCutsceneScript12Text000A,おかえり! <NAME>くん。<BR>つばきのこと ありがとうね。<BR>
+ctCutsceneScript12Text0000,"Yo, <NAME>!<BR>Back safe and sound, huh?<BR>Glad to see it."
+ctCutsceneScript12Text0001,"Welcome back, <NAME>."
+ctCutsceneScript12Text0002,"Welcome back, <NAME>!<BR>Didja have fun?<BR>Huh? Didja?"
+ctCutsceneScript12Text0003,"Welcome back, <NAME>."
+ctCutsceneScript12Text0004,"Nice work out there, <NAME>."
+ctCutsceneScript12Text0005,"Oh, it seems you have returned to us safe and sound, <NAME>."
+ctCutsceneScript12Text0006,"Welcome back, <NAME>.<BR>Nice job out there."
+ctCutsceneScript12Text0007,... Good work out there.
+ctCutsceneScript12Text0008,"Welcome back, <NAME>."
+ctCutsceneScript12Text0009,Thank you for rescuing Tsubaki.
+ctCutsceneScript12Text000A,"Welcome back, <NAME>!<BR>Thanks for saving Tsubaki."
 ctCutsceneScript12Text000B,おかえりなさい。おおがみくん<BR><NAME>くん。<BR>ごくろうだったわね。<BR>
-ctCutsceneScript12Text000C,さっそくだけど<BR>ほうこくを おねがいするわ。<BR>
-ctCutsceneScript12Text000D,はい ほうこくします。<BR>
+ctCutsceneScript12Text000C,"I know this is sudden, but I need your status report."
+ctCutsceneScript12Text000D,"Right, reporting."
 ctCutsceneScript12Text000E,ミカサに まものがいました。<BR>また なぜか まちのひとも<BR>ミカサのなかに いました。<BR>
 ctCutsceneScript12Text000F,やはり ミカサでは<BR>なにか おこっていると<BR>かんがえられます。<BR>
 ctCutsceneScript12Text0010,わかったわ。<BR>ぶんせきを いそぎましょう。<BR>

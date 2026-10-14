@@ -1,858 +1,858 @@
 ID,Text
-ctCutsceneScript11Text0000,～だい1しょう～<BR>『こうぶ ミカサにたつ!』<BR>
-ctCutsceneScript11Text0001,ふう‥‥<BR>やっとついた。<BR>
-ctCutsceneScript11Text0002,とつぜん よびだされたけど<BR>いったい なにが<BR>あったんだろう‥‥<BR>
-ctCutsceneScript11Text0003,よく きてくれたわね。<BR>わたしは<BR>ふじえだ かえで。<BR>
-ctCutsceneScript11Text0004,ていこくかげきだんの<BR>ふくしれいです。<BR>
-ctCutsceneScript11Text0005,では さっそくだけど<BR>あなたを ここへよんだ<BR>りゆうを せつめいするわ。<BR>
-ctCutsceneScript11Text0006,あなたの にんむは<BR>ミカサきねんこうえんを<BR>しらべることです。<BR>
-ctCutsceneScript11Text0007,すこしまえから ミカサきねん<BR>こうえんで おかしなことが<BR>おこっているのです。<BR>
-ctCutsceneScript11Text0008,そこで こんかいは あなたに<BR>その げんいんを しらべて<BR>もらおうと おもいます。<BR>
-ctCutsceneScript11Text0009,いいわね <NAME>くん。<BR>
-ctCutsceneScript11Text000A,では ていこくかげきだん<BR>はなぐみの たいちょうを<BR>しょうかいするわ。<BR>
-ctCutsceneScript11Text000B,おおがみくん。<BR>
-ctCutsceneScript11Text000C,はい。<BR>
-ctCutsceneScript11Text000DSub00,おおがみさん おひさしぶりです
-ctCutsceneScript11Text000DSub01,はじめまして
-ctCutsceneScript11Text000E,‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text000F,ん?<BR>どうした <NAME>くん。<BR>きんちょうしているのか?<BR>
-ctCutsceneScript11Text0010,いまから そんなだと<BR>このさき たいへんだぞ。<BR>リラックス リラックス。<BR>
-ctCutsceneScript11Text0011,じゃあ はなぐみのみんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>
-ctCutsceneScript11Text0012,おひさしぶりです。<BR>おおがみさん。<BR>
-ctCutsceneScript11Text0013,やあ。<BR>げんきだったかい?<BR><NAME>くん。<BR>
-ctCutsceneScript11Text0014,そういえば<BR>ふたりは しりあい<BR>だったわね。<BR>
-ctCutsceneScript11Text0015,<NAME>くんは はなぐみに<BR>たいけんにゅうたいを<BR>したことが あるんですよ。<BR>
-ctCutsceneScript11Text0016,きかんは いっかげつ<BR>だったのですが なかなか<BR>ゆうしゅうでした。<BR>
-ctCutsceneScript11Text0017,そうなの。<BR>それは たのもしいわね。<BR>
-ctCutsceneScript11Text0018,<NAME>くん。こんかいの<BR>にんむは きびしいけど<BR>がんばってくれよ。<BR>
-ctCutsceneScript11Text0019,じゃあ はなぐみのみんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>
-ctCutsceneScript11Text001A,しってるものも いると<BR>おもうけど <BR><NAME>くんだ。<BR>
-ctCutsceneScript11Text001B,ミカサきねんこうえんを<BR>しらべてもらうために<BR>きてもらった。<BR>
-ctCutsceneScript11Text001C,じゃあ <NAME>くん。<BR>みんなに あいさつを。<BR>
-ctCutsceneScript11Text001D,<NAME>です。<BR>みなさん おひさしぶりです。<BR>
-ctCutsceneScript11Text001E,あ でも<BR>そちらの おふたりは <BR>はじめまして。<BR>
-ctCutsceneScript11Text001F,こんかいは たいけんにゅう<BR>たい ではなく にんむが<BR>あたえられる とのことで<BR>
-ctCutsceneScript11Text0020,よりいっそう きあいをいれて<BR>がんばりますので<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text0021,<NAME> ひさしぶりー。<BR>げんきだったー?<BR>
-ctCutsceneScript11Text0022Sub00,げんきにこたえる
-ctCutsceneScript11Text0022Sub01,ジャンポールにもあいさつする
-ctCutsceneScript11Text0022Sub02,ふつうにこたえる
-ctCutsceneScript11Text0023,やあ アイリス。<BR>ボクは このとおり<BR>バッチリ げんきだよ。<BR>
-ctCutsceneScript11Text0024,アイリスも げんきそうで<BR>なによりだね。<BR>
-ctCutsceneScript11Text0025,うん! ありがとう<BR><NAME>。<BR>
-ctCutsceneScript11Text0026,やあ アイリス。<BR>ボクは このとおり<BR>バッチリ げんきだよ。<BR>
-ctCutsceneScript11Text0027,アイリスも ジャンポールも<BR>げんきそうで よかったよ。<BR>
-ctCutsceneScript11Text0028,うん! ありがとう<BR><NAME>。<BR>
-ctCutsceneScript11Text0029,やあ アイリス。<BR>ボクは このとおり<BR>バッチリ げんきだよ。<BR>
-ctCutsceneScript11Text002A,そう よかったね。<BR><NAME>。<BR>
-ctCutsceneScript11Text002B,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text002C,どうしたの? <NAME><BR>なんだか げんきない<BR>みたいだね。<BR>
-ctCutsceneScript11Text002D,‥‥あ いやいや<BR>だいじょうぶだよ。<BR>
-ctCutsceneScript11Text002E,よー <NAME>っ!<BR>もりもりメシくってるか!!<BR>
-ctCutsceneScript11Text002FSub00,もちろん
-ctCutsceneScript11Text002FSub01,そこそこに
-ctCutsceneScript11Text002FSub02,ダイエットしてるんです
-ctCutsceneScript11Text0030,もちろんですよ。カンナさん。<BR>ガンガンたべて バリバリ<BR>からだを うごかしています。<BR>
-ctCutsceneScript11Text0031,そうこなくっちゃ!<BR>こんかいも ビシビシきたえて<BR>やるから かくごしとけよ。<BR>
-ctCutsceneScript11Text0032,いや～ モリモリっていうか‥<BR>ハラはちぶめ‥‥って<BR>かんじです。<BR>
-ctCutsceneScript11Text0033,また たべすぎで<BR>じょたいになるのも<BR>イヤですから。 ハハハ。<BR>
-ctCutsceneScript11Text0034,なんだよ～ きにするなよ<BR>そんなこと‥‥ っていっても<BR>きになるよな～。<BR>
-ctCutsceneScript11Text0035,こんかいは 『たべすぎで<BR>じょたい』 なんてことは<BR>ないから あんしんしな。<BR>
-ctCutsceneScript11Text0036,じつは‥‥<BR>ダイエットしてるんですよ。<BR>
-ctCutsceneScript11Text0037,ダイエットーーッ!?<BR>
-ctCutsceneScript11Text0038,おまえ おとこだろ!<BR>だったら ガツンとくって<BR>ドバッとうんどうしろ!!<BR>
-ctCutsceneScript11Text0039,そのほうが よっぽど<BR>いいダイエットになるぜ!<BR>
-ctCutsceneScript11Text003A,まあいいや。こんかいも<BR>ビシビシきたえてやるから<BR>かくごしときな。<BR>
-ctCutsceneScript11Text003B,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text003C,なんだ なんだ?<BR>げんきねーじゃねーか。<BR>
-ctCutsceneScript11Text003D,わかった。<BR>あさめしくってねーんだろ。<BR>
-ctCutsceneScript11Text003E,ダメだぞ メシは<BR>いちにち さんかい<BR>きちんとくわねーと。<BR>
-ctCutsceneScript11Text003F,やー <NAME>はん。<BR>げんきやった?<BR>
-ctCutsceneScript11Text0040,そうそう <NAME>はん。<BR>これ おぼえとる?<BR>はつめいは‥‥?<BR>
-ctCutsceneScript11Text0041Sub00,バクハツや!
-ctCutsceneScript11Text0041Sub01,バリバリや!
-ctCutsceneScript11Text0041Sub02,バラバラや!
-ctCutsceneScript11Text0042,『バクハツや!』でしょ。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text0043,そのとおり!<BR>はつめいはバクハツや!<BR>よーおぼえててくれたな。<BR>
-ctCutsceneScript11Text0044,さすが <NAME>はんや。<BR>ほな こんかいも<BR>がんばって いこな!<BR>
-ctCutsceneScript11Text0045,『バリバリや!』でしょ。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text0046,そや! ぜんかいバリバリや!<BR>いくで いくで いくで!!!<BR>シェケナベイベー。<BR>
-ctCutsceneScript11Text0047,って なんでやねん!<BR>
-ctCutsceneScript11Text0048,まあ おもろかったから<BR>エエけどな。ハハハ。<BR>
-ctCutsceneScript11Text0049,ほなまー こんかいも<BR>そこんとこ ヨロシク!<BR>
-ctCutsceneScript11Text004A,『バラバラや!』でしょ。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text004B,そう はつめいは<BR>バラバラや!<BR>
-ctCutsceneScript11Text004C,って なんでやねん!<BR>
-ctCutsceneScript11Text004D,はつめいひんが<BR>バラバラになったら<BR>あかんがな～。<BR>
-ctCutsceneScript11Text004E,まあ ウチのはつめいは<BR>たまに そういうことが<BR>あるけどな。ハハハ。<BR>
-ctCutsceneScript11Text004F,ほなまー こんかいも<BR>よろしゅーたのんます。<BR>
-ctCutsceneScript11Text0050,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0051,ん? <NAME>はん。<BR>どないしたんや?<BR>げんき あらへんな～。<BR>
-ctCutsceneScript11Text0052,そうか‥‥<BR>きびしい にんむをまえに<BR>きんちょうしてるんやな。<BR>
-ctCutsceneScript11Text0053,でも いまから それやと<BR>このさき たいへんやで。<BR>
-ctCutsceneScript11Text0054,もうすこし かたのチカラ<BR>ぬいたほうが エエで。<BR>な <NAME>はん。<BR>
-ctCutsceneScript11Text0055,<NAME>くん。<BR>こんかいの にんむは<BR>たいへんよ。 だいじょうぶ?<BR>
-ctCutsceneScript11Text0056Sub00,まかせてください
-ctCutsceneScript11Text0056Sub01,おそらくは‥‥
-ctCutsceneScript11Text0056Sub02,ラクショーですよ
-ctCutsceneScript11Text0057,まかせてください!<BR>ビシッと やってみせますよ。<BR>
-ctCutsceneScript11Text0058,フフフ‥‥<BR>げんきだけは よさそうね。<BR>
-ctCutsceneScript11Text0059,でも ゆだんはきんもつよ。<BR>つねに きんちょうかんを<BR>もって こうどうしなさい。<BR>
-ctCutsceneScript11Text005A,おそらくは だいじょうぶかと<BR>おもいますが‥‥<BR>
-ctCutsceneScript11Text005B,フフフ。しんちょうなのね。<BR>でも それはたいせつな<BR>ことよ。<BR>
-ctCutsceneScript11Text005C,きおわずに しんちょうに<BR>にんむを すすめることが<BR>あなたを まもるのよ。<BR>
-ctCutsceneScript11Text005D,ラクショー ハラショー<BR>ガンバリまっショー<BR>つーかんじですよ。<BR>
-ctCutsceneScript11Text005E,みててください。<BR>パパッとおわらせて<BR>みせますから。<BR>
-ctCutsceneScript11Text005F,なに バカなこといってるの!<BR><NAME>くん!!<BR>
-ctCutsceneScript11Text0060,そんな こころがまえでいると<BR>いのちを おとすことに<BR>なるわよ。<BR>
-ctCutsceneScript11Text0061,もっとキリッとしなさい。<BR>
-ctCutsceneScript11Text0062,いいこと。<BR>どんな にんむでも<BR>きを ぬいてはダメ。<BR>
-ctCutsceneScript11Text0063,きを ひきしめて<BR>がんばりなさい。<BR>
-ctCutsceneScript11Text0064,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0065,どうしたの?<BR>‥‥きんちょうしているのね。<BR>
-ctCutsceneScript11Text0066,ほどよい きんちょうは<BR>いいけど かたくなりすぎ<BR>てはダメよ。<BR>
-ctCutsceneScript11Text0067,もうすこし<BR>リラックスなさい。<BR>
-ctCutsceneScript11Text0068,<NAME>さん<BR>おひさしぶりです。<BR>おげんきでしたか?<BR>
-ctCutsceneScript11Text0069,こんかいのにんむ あたしも<BR>きょうりょく しますから<BR>がんばりましょうね。<BR>
-ctCutsceneScript11Text006ASub00,たよりにしてます
-ctCutsceneScript11Text006ASub01,がんばります
-ctCutsceneScript11Text006ASub02,じしんないです
-ctCutsceneScript11Text006B,たよりにしてますよ～<BR>さくらさん。<BR>
-ctCutsceneScript11Text006C,あ あの～‥‥<BR>あまり たよりにされても<BR>こまるんですけど‥‥<BR>
-ctCutsceneScript11Text006D,ヒトに たよるよりも<BR>まずは じぶんで がんばって<BR>みるといいですよ。<BR>
-ctCutsceneScript11Text006E,それでも ダメだったときには<BR>よろこんで おてつだい<BR>させてくださいね。<BR>
-ctCutsceneScript11Text006F,はい がんばります。<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text0070,こちらこそ よろしく<BR>おねがいします。<BR>
-ctCutsceneScript11Text0071,あの‥‥<BR>あまり じしんないです‥‥<BR>
-ctCutsceneScript11Text0072,そ そんなこと<BR>いわないでくださいよ!<BR>
-ctCutsceneScript11Text0073,いや ボクなんて<BR>ほんとうにドジで のろまで<BR>グズですから‥‥<BR>
-ctCutsceneScript11Text0074,ああ なんだかどんどん<BR>じしんが なくなって<BR>きちゃった‥‥<BR>
-ctCutsceneScript11Text0075,そ そんな‥‥<BR>だいじょうぶですよ!<BR>あたしだって ドジですから!<BR>
-ctCutsceneScript11Text0076,おたがいドジどうし <BR>がんばりましょう。<BR><NAME>さん。<BR>
-ctCutsceneScript11Text0077,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0078,どうかしました?<BR>どこかぐあいが<BR>わるいのですか?<BR>
-ctCutsceneScript11Text0079,あっ‥‥<BR>もしかして きんちょう<BR>してるんですね?<BR>
-ctCutsceneScript11Text007A,<NAME>さんなら<BR>だいじょうぶですよ。<BR>がんばってくださいね。<BR>
-ctCutsceneScript11Text007B,こほん‥‥<BR>
-ctCutsceneScript11Text007C,あっ すみれさん。<BR>
-ctCutsceneScript11Text007DSub00,あいかわらず おうつくしい‥
-ctCutsceneScript11Text007DSub01,ボク がんばります
-ctCutsceneScript11Text007DSub02,サインください
-ctCutsceneScript11Text007E,すみれさん。<BR>あいかわらず<BR>おうつくしい‥‥<BR>
-ctCutsceneScript11Text007F,おーっほほほほほ。<BR>わたくしが うつくしいのは<BR>あたりまえのこと‥‥<BR>
-ctCutsceneScript11Text0080,でも そのあたりまえのことを<BR>すなおに いえるなんて <BR>
-ctCutsceneScript11Text0081,さすがですわね<BR><NAME>さん。<BR>
-ctCutsceneScript11Text0082,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
-ctCutsceneScript11Text0083,まあまあ そんなこまかい<BR>ことは おきになさらないで。<BR>
-ctCutsceneScript11Text0084,せいぜい しなないていどに<BR>がんばりなさい。<BR>
-ctCutsceneScript11Text0085,すみれさん ボク<BR>がんばりますから<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text0086,はいはい。しなないていどに<BR>がんばりなさい。<BR><NAME>さん。<BR>
-ctCutsceneScript11Text0087,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
-ctCutsceneScript11Text0088,まあまあ そんなこまかいこと<BR>どうでもいいじゃ ありません<BR>こと。おーほほほほほ。<BR>
-ctCutsceneScript11Text0089,すみれさん サインください。<BR>このまえ もらい<BR>わすれたんです。<BR>
-ctCutsceneScript11Text008A,は はあ!?<BR>
-ctCutsceneScript11Text008B,<NAME>さん。<BR>あなた どういうつもりで<BR>ここにきたのです。<BR>
-ctCutsceneScript11Text008C,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
-ctCutsceneScript11Text008D,そんな うわついたきもちで<BR>いると とんでもないミスを<BR>おかしますわよ!<BR>
-ctCutsceneScript11Text008E,もっと きをひきしめて<BR>ビシッとしなさい!<BR>
-ctCutsceneScript11Text008F,あ そうそう サインでした<BR>わね。あースタアはたいへん<BR>ですわ。おーほほほほほ。<BR>
-ctCutsceneScript11Text0090,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0091,あらま どうしましょ。<BR>うつくしいことは なんて<BR>つみなこと なのかしら。<BR>
-ctCutsceneScript11Text0092,この わたくしのうつくしさに<BR>みとれて ことばをなくして<BR>しまいましたのね‥‥<BR>
-ctCutsceneScript11Text0093,ちがうよ。あいもかわらない<BR>おまえの バカさかげんに<BR>あきれてるだけだよ。<BR>
-ctCutsceneScript11Text0094,なんですってー カンナさん!<BR>きんにくゴリラは だまってて<BR>くださいませんか!<BR>
-ctCutsceneScript11Text0095,‥‥まあ いいですわ。<BR>
-ctCutsceneScript11Text0096,<NAME>さん くれぐれも<BR>わたくしの あしをひっぱら<BR>ないよう がんばりなさい。<BR>
-ctCutsceneScript11Text0097,じゃ <NAME>くん。<BR>あたらしいメンバーを<BR>しょうかいしよう。<BR>
-ctCutsceneScript11Text0098,まずは おりひめくんだ。<BR>
-ctCutsceneScript11Text0099,チャオ!<BR>ソレッタ・おりひめ<BR>でーす。<BR>
-ctCutsceneScript11Text009ASub00,うつくしさをほめる
-ctCutsceneScript11Text009ASub01,ふつうにあいさつする
-ctCutsceneScript11Text009ASub02,うまれたくに をきく
-ctCutsceneScript11Text009B,び びじんだ～‥‥<BR>
-ctCutsceneScript11Text009C,オー! ニッポンのおとこ<BR>ダメダメでーす。 すぐに<BR>ハナのした のばしまーす。<BR>
-ctCutsceneScript11Text009D,サイテーでーす。<BR>げひんでーす。<BR>ブタにしんじゅでーす!<BR>
-ctCutsceneScript11Text009E,ブ ブタにしんじゅは<BR>かんけいないんじゃ<BR>ないですか‥‥<BR>
-ctCutsceneScript11Text009F,オー!<BR>がいこくじん いじめでーす。<BR>
-ctCutsceneScript11Text00A0,いっしょうけんめい<BR>ニッポンのことば<BR>べんきょうして いるのに!<BR>
-ctCutsceneScript11Text00A1,すみません ごめんなさい。<BR>ともかく よろしくおねがい<BR>します。おりひめさん。<BR>
-ctCutsceneScript11Text00A2,おねがいされても<BR>こまりまーす。<BR>でも まあいいでしょ。<BR>
-ctCutsceneScript11Text00A3,おりひめさん。<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text00A4,おねがい? <BR>わたしに なにを<BR>おねがいするのでーすか?<BR>
-ctCutsceneScript11Text00A5,わたし かみさまじゃ<BR>ありませーん。おねがい<BR>されても こまりまーす。<BR>
-ctCutsceneScript11Text00A6,なーんていうのは<BR>ジョークでーす。<BR>こちらこそ よろしくでーす。<BR>
-ctCutsceneScript11Text00A7,ソレッタ・おりひめさん?<BR>あの～ うまれたくには<BR>どこなんですか?<BR>
-ctCutsceneScript11Text00A8,うまれたくに?<BR>イタリアでーす。<BR>それが どうかしましたか?<BR>
-ctCutsceneScript11Text00A9,いえ かわった おなまえだな<BR>と おもったもので‥‥<BR>
-ctCutsceneScript11Text00AA,かわった?‥‥<BR>それは わたしをバカにして<BR>いるのですか?!<BR>
-ctCutsceneScript11Text00AB,いえいえ とんでもない。<BR>とてもステキな<BR>おなまえですね。<BR>
-ctCutsceneScript11Text00AC,ともかく<BR>よろしくおねがいします。<BR>おりひめさん。<BR>
-ctCutsceneScript11Text00AD,ステキな おなまえ<BR>いいました。<BR>あなた いいひとでーす。<BR>
-ctCutsceneScript11Text00AE,こちらこそ よろしくでーす。<BR>
-ctCutsceneScript11Text00AF,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text00B0,ん? どうしましたか?<BR>へんじがないでーす。<BR>きんちょうしてますか?<BR>
-ctCutsceneScript11Text00B1,まあ いいでーす。<BR>がんばってくださーい。<BR>
-ctCutsceneScript11Text00B2,そして<BR>レニ・ミルヒシュトラーセ<BR>くんだ。<BR>
-ctCutsceneScript11Text00B3,ボクは レニ。<BR>
-ctCutsceneScript11Text00B4Sub00,ふつうにあいさつする
-ctCutsceneScript11Text00B4Sub01,レニをほめる
-ctCutsceneScript11Text00B4Sub02,うまれたくにを きく
-ctCutsceneScript11Text00B5,レニさん。<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text00B6,よろしく‥‥<BR>
-ctCutsceneScript11Text00B7,クールでかっこいいですね。<BR>
-ctCutsceneScript11Text00B8,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text00B9,(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>
-ctCutsceneScript11Text00BA,レニ・ミルヒシュトラーセさん<BR>もしかして ドイツのうまれ<BR>なんですか?<BR>
-ctCutsceneScript11Text00BB,そう‥‥‥‥<BR>
-ctCutsceneScript11Text00BC,やっぱり そうなんですか‥‥<BR>(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>
-ctCutsceneScript11Text00BD,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text00BE,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text00BF,じゃあ みんな<BR><NAME>くんの サポート<BR>よろしくな。<BR>
-ctCutsceneScript11Text00C0,ビー! ビー! ビー!<BR>
-ctCutsceneScript11Text00C1,けいほう?<BR>
-ctCutsceneScript11Text00C2,ぜんいんにつぐ。<BR>しきゅう さくせんしつに<BR>しゅうごう!<BR>
-ctCutsceneScript11Text00C3,<NAME>くん!<BR>いそぐぞ!!<BR>
-ctCutsceneScript11Text00C4,はじめまして おおがみさん。<BR><NAME> ともうします。<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text00C5,おおがみだ。<BR>よろしく <NAME>くん。<BR>
-ctCutsceneScript11Text00C6,では はなぐみの みんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>
-ctCutsceneScript11Text00C7,ミカサきねんこうえんで<BR>おこっている ことを<BR>しらべてもらうために<BR>
-ctCutsceneScript11Text00C8,かいぐん しかんがっこう<BR>から きてもらった<BR><NAME>くんだ。<BR>
-ctCutsceneScript11Text00C9,かいぐん しかんがっこう<BR>から やってまいりました<BR><NAME>です。<BR>
-ctCutsceneScript11Text00CA,みなさんに ごめいわくを<BR>かけないよう せいいっぱい<BR>がんばります。<BR>
-ctCutsceneScript11Text00CB,いたらないところも あると<BR>おもいますが よろしく<BR>おねがいします。<BR>
-ctCutsceneScript11Text00CC,おう げんきいいな～。<BR>
-ctCutsceneScript11Text00CD,あたいは<BR>きりしま カンナだ。<BR>よろしくな。<BR>
-ctCutsceneScript11Text00CESub00,ふつうにあいさつする
-ctCutsceneScript11Text00CESub01,カンナをほめる
-ctCutsceneScript11Text00CESub02,ごまをする
-ctCutsceneScript11Text00CF,はい カンナさん。<BR>いろいろとおしえてください。<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text00D0,よし。<BR>ガンガンきたえてやるから<BR>かくごしとけよ。<BR>
-ctCutsceneScript11Text00D1,はい カンナさん。<BR>ところで カンナさんって<BR>いいからだ してますね～。<BR>
-ctCutsceneScript11Text00D2,どんなスポーツを<BR>やってらっしゃるのですか?<BR>
-ctCutsceneScript11Text00D3,ふ～ん。<BR>おまえ なかなか<BR>みるめが あるな～。<BR>
-ctCutsceneScript11Text00D4,カラテだよ。カ・ラ・テ。<BR>おまえも ビシビシきたえて<BR>やるから かくごしとけよ。<BR>
-ctCutsceneScript11Text00D5,はい カンナさん。<BR>ところでカンナさんって<BR>ステキですよね～。<BR>
-ctCutsceneScript11Text00D6,そのダイナマイトなボディ<BR>ナイスですね～。<BR>
-ctCutsceneScript11Text00D7,はぁ ナイスだぁ?<BR>おまえ ここに なにしに<BR>きたのか わかってるのか?<BR>
-ctCutsceneScript11Text00D8,もっとビシッとしろ!<BR>そんな うわついたことじゃ<BR>いつか おおケガするぞ!<BR>
-ctCutsceneScript11Text00D9,まったくも～。あたいが<BR>ビシビシきたえてやるから<BR>かくごしときな。<BR>
-ctCutsceneScript11Text00DA,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text00DB,なんだ なんだ?<BR>げんきねーじゃねーか。<BR>
-ctCutsceneScript11Text00DC,わかった。<BR>あさめしくってねーんだろ。<BR>ダメだぞ。<BR>
-ctCutsceneScript11Text00DD,メシは あさから<BR>ドンブリ 3バイ。<BR>
-ctCutsceneScript11Text00DE,これが ていこくかげきだんの<BR>きまりなんだぜ。<BR>
-ctCutsceneScript11Text00DF,マリア・タチバナです。<BR>
-ctCutsceneScript11Text00E0Sub00,ふつうにあいさつする
-ctCutsceneScript11Text00E0Sub01,マリアをほめる
-ctCutsceneScript11Text00E0Sub02,ごまをする
-ctCutsceneScript11Text00E1,よろしくおねがいします<BR>マリアさん。<BR>
-ctCutsceneScript11Text00E2,こちらこそ よろしく。<BR>
-ctCutsceneScript11Text00E3,よろしくおねがいします<BR>マリアさん。<BR>
-ctCutsceneScript11Text00E4,マリアさんって<BR>ぜんぜん スキが<BR>ないんですね。<BR>
-ctCutsceneScript11Text00E5,そうかしら? <BR>わたしは これが<BR>ふつうなんだけど。<BR>
-ctCutsceneScript11Text00E6,よろしくおねがいします<BR>マリアさん。<BR>
-ctCutsceneScript11Text00E7,マリアさんって<BR>ステキですよね～。<BR>クールでかっこよくて。<BR>
-ctCutsceneScript11Text00E8,ボク ファンに<BR>なっちゃいそうですよ。<BR>
-ctCutsceneScript11Text00E9,<NAME>くん!<BR>あなた いったいここに<BR>なにをしに きたの!?<BR>
-ctCutsceneScript11Text00EA,あなたには だいじな<BR>にんむが あるでしょ!<BR>
-ctCutsceneScript11Text00EB,もっと キリッとしなさい!<BR>
-ctCutsceneScript11Text00EC,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text00ED,どうかしたの?<BR>きんちょうしているのね。<BR>
-ctCutsceneScript11Text00EE,きんちょうするのは<BR>しょうがないけど あまり<BR>かたくなりすぎては ダメよ。<BR>
-ctCutsceneScript11Text00EF,もうすこし リラックス<BR>しなさい。<BR>
-ctCutsceneScript11Text00F0,はーい。アイリスでーす!<BR>こっちはクマのジャンポール!<BR>よろしくね。<BR>
-ctCutsceneScript11Text00F1Sub00,ふつうにあいさつする
-ctCutsceneScript11Text00F1Sub01,アイリスをほめる
-ctCutsceneScript11Text00F1Sub02,ごまをする
-ctCutsceneScript11Text00F2,よろしくおねがいします<BR>アイリスさん。<BR>
-ctCutsceneScript11Text00F3,アイリスでいいよ。<BR><NAME>。<BR>
-ctCutsceneScript11Text00F4,よろしくおねがいします。<BR>アイリスさん。<BR>
-ctCutsceneScript11Text00F5,エヘヘ アイリスでいいよ。<BR><NAME>。<BR>
-ctCutsceneScript11Text00F6,アイリスって<BR>フランスにんぎょう みたいで<BR>とっても びじんだね～。<BR>
-ctCutsceneScript11Text00F7,アイリス びじんだって!<BR>
-ctCutsceneScript11Text00F8,<NAME>って<BR>いいひとだね～。<BR>ジャンポール。<BR>
-ctCutsceneScript11Text00F9,よろしくおねがいします。<BR>アイリスさん。<BR>
-ctCutsceneScript11Text00FA,エヘヘ アイリスでいいよ。<BR><NAME>。<BR>
-ctCutsceneScript11Text00FB,アイリスも かわいいけど<BR>ジャンポールも なかなか<BR>いいカオしてるよね。<BR>
-ctCutsceneScript11Text00FC,えっ ほんと?<BR>わーい ジャンポール<BR>かっこいいってさ。<BR>
-ctCutsceneScript11Text00FD,<NAME>って<BR>いいひとだね ジャンポール。<BR>
-ctCutsceneScript11Text00FE,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text00FF,あれ? どうしたの?<BR>きんちょうしているの?<BR>
-ctCutsceneScript11Text0100,しょうがないな～。<BR>アイリスが リラックスできる<BR>まほうを かけてあげる。<BR>
-ctCutsceneScript11Text0101,イリス・ジャンポーーール!<BR>
-ctCutsceneScript11Text0102,ほら もうだいじょうぶだよ<BR><NAME>。<BR>
-ctCutsceneScript11Text0103,うん‥‥ ありがとう<BR>アイリス。<BR>
-ctCutsceneScript11Text0104,ウチは り・こうらん や。<BR>
-ctCutsceneScript11Text0105Sub00,ふつうにあいさつする
-ctCutsceneScript11Text0105Sub01,こうらんをほめる
-ctCutsceneScript11Text0105Sub02,ごまをする
-ctCutsceneScript11Text0106,よろしくおねがいします。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text0107,こちらこそ よろしゅーに。<BR>
-ctCutsceneScript11Text0108,よろしくおねがいします。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text0109,こうらんさんって<BR>メガネが にあってて<BR>ステキですね。<BR>
-ctCutsceneScript11Text010A,え? なんやて?<BR>
-ctCutsceneScript11Text010B,メガネかけてる じょせいって<BR>かしこそうで なんだか<BR>カッコイイですよね。<BR>
-ctCutsceneScript11Text010C,そ そうか?<BR>そないなこと いわれたん<BR>ウチ はじめてや。<BR>
-ctCutsceneScript11Text010D,でも‥‥ ウチが<BR>カッコエエかどうかは<BR>わからんけど‥‥<BR>
-ctCutsceneScript11Text010E,ウチの はつめいは<BR>めっちゃカッコエエで!<BR>
-ctCutsceneScript11Text010F,そうなんですか!<BR>
-ctCutsceneScript11Text0110,いつか ウチじまんの<BR>はつめいひんを みせたるわ。<BR>たのしみに しててな!<BR>
-ctCutsceneScript11Text0111,よろしくおねがいします。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text0112,こうらんさんって<BR>メガネが にあってて<BR>とても チャーミングですね。<BR>
-ctCutsceneScript11Text0113,ボク ファンになっちゃい<BR>そうですよ。<BR>
-ctCutsceneScript11Text0114,えっ! チャ チャーミング?<BR>て てれるやん<BR><NAME>はん‥‥<BR>
-ctCutsceneScript11Text0115,<NAME>はん なかなか<BR>ひとを みるめが<BR>あるやんか。<BR>
-ctCutsceneScript11Text0116,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0117,ん? <NAME>はん。<BR>どないしたんや<BR>げんきあらへんな～。<BR>
-ctCutsceneScript11Text0118,そうか にんむをまえに<BR>きんちょうしてるんやな。<BR>
-ctCutsceneScript11Text0119,でも いまから<BR>そんなんやったら<BR>このさき たいへんやで。<BR>
-ctCutsceneScript11Text011A,もうすこし かたのチカラ<BR>ぬいて がんばっていこうや<BR>な <NAME>はん。<BR>
-ctCutsceneScript11Text011B,ちょいと しんじんさん。<BR>
-ctCutsceneScript11Text011C,このわたくしの ジャマを<BR>しないよう しっかりと<BR>がんばるのですわよ。<BR>
-ctCutsceneScript11Text011D,はい‥‥<BR>あ あの‥‥ すみませんが<BR>おなまえは なんと‥‥<BR>
-ctCutsceneScript11Text011E,な なんですって～。<BR>このだいスタアを しらないと<BR>おっしゃるの‥‥<BR>
-ctCutsceneScript11Text011F,しょーがねーだろ?<BR>こいつは しかんがっこうに<BR>いたんだからさー。<BR>
-ctCutsceneScript11Text0120,まぁ それならば <BR>しかたないかも<BR>しれませんわね。<BR>
-ctCutsceneScript11Text0121,わたくしは<BR>かんざき すみれ<BR>ですわ。<BR>
-ctCutsceneScript11Text0122Sub00,ふつうにあいさつする
-ctCutsceneScript11Text0122Sub01,すみれをほめる
-ctCutsceneScript11Text0122Sub02,ごまをする
-ctCutsceneScript11Text0123,よろしくおねがいします。<BR>すみれさん。<BR>
-ctCutsceneScript11Text0124,はい はい。<BR><NAME>さん。<BR>
-ctCutsceneScript11Text0125,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
-ctCutsceneScript11Text0126,まあまあ そんなこまかいこと<BR>どうでもいいじゃ<BR>ありませんこと。<BR>
-ctCutsceneScript11Text0127,よろしくおねがいします。<BR>すみれさん。<BR>
-ctCutsceneScript11Text0128,ところで すみれさんって<BR>ステキな おようふくを<BR>きていらっしゃいますね。<BR>
-ctCutsceneScript11Text0129,あら <NAME>さん。<BR>ようふくを ほめるなんて<BR>なかなかですわよ。<BR>
-ctCutsceneScript11Text012A,そのちょうしで<BR>がんばりなさい。<BR>
-ctCutsceneScript11Text012B,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
-ctCutsceneScript11Text012C,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
-ctCutsceneScript11Text012D,よろしくおねがいします<BR>すみれさん‥‥<BR>あ いや まちがえました。<BR>
-ctCutsceneScript11Text012E,よろしくおねがいします。<BR>うつくしい すみれさん。<BR>
-ctCutsceneScript11Text012F,あーら なかなかわかってる<BR>じゃありませんか。<BR><NAME>さん。<BR>
-ctCutsceneScript11Text0130,えっ‥‥ いや‥ あの～<BR>ボクのなまえは<BR><NAME>です。<BR>
-ctCutsceneScript11Text0131,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
-ctCutsceneScript11Text0132,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0133,どうしたんですの?<BR>‥‥あ わかりましたわ。<BR>
-ctCutsceneScript11Text0134,このわたくしの まぶしい<BR>までのうつくしさを まえに<BR>きんちょうしているのですね。<BR>
-ctCutsceneScript11Text0135,ま せいぜい わたくしの<BR>あしをひっぱらないよう<BR>しっかり たのみますわよ。<BR>
-ctCutsceneScript11Text0136,あたしは<BR>しんぐうじ さくら<BR>です。<BR>
-ctCutsceneScript11Text0137Sub00,ふつうにあいさつする
-ctCutsceneScript11Text0137Sub01,さくらをほめる
-ctCutsceneScript11Text0137Sub02,ごまをする
-ctCutsceneScript11Text0138,よろしくおねがいします。<BR>さくらさん。<BR>
-ctCutsceneScript11Text0139,こちらこそ よろしくおねがい<BR>します。<NAME>さん。<BR>がんばってくださいね。<BR>
-ctCutsceneScript11Text013A,よろしくおねがいします。<BR>さくらさん。<BR>
-ctCutsceneScript11Text013B,ところで さくらさんの<BR>そのリボン。<BR>
-ctCutsceneScript11Text013C,ながくしなやかな くろかみに<BR>にあって とてもステキ<BR>ですね。<BR>
-ctCutsceneScript11Text013D,えっ‥‥ ありがとう<BR>ございます‥‥<BR>
-ctCutsceneScript11Text013E,よろしくおねがいします。<BR>さくらさん。<BR>
-ctCutsceneScript11Text013F,ボクかんげきです。さくらさん<BR>のような ステキなじょせいと<BR>しりあいに なれるなんて。<BR>
-ctCutsceneScript11Text0140,えっ?!<BR>
-ctCutsceneScript11Text0141,<NAME>さん。<BR>ダメですよ そんなふまじめな<BR>ことをいっていては。<BR>
-ctCutsceneScript11Text0142,<NAME>さんに<BR>あたえられた にんむは<BR>たいへんな ものなんですよ。<BR>
-ctCutsceneScript11Text0143,もっと しっかり<BR>してください。<BR>
-ctCutsceneScript11Text0144,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0145,どうしたんですか?<BR>‥‥あ きんちょうしているの<BR>ですね。<BR>
-ctCutsceneScript11Text0146,あたしもそうでしたよ。<BR>がんばってくださいね。<BR><NAME>さん。<BR>
-ctCutsceneScript11Text0147,チャオ!<BR>わたしは ソレッタ・おりひめ<BR>でーす。<BR>
-ctCutsceneScript11Text0148Sub00,ふつうにあいさつする
-ctCutsceneScript11Text0148Sub01,おりひめをほめる
-ctCutsceneScript11Text0148Sub02,ごまをする
-ctCutsceneScript11Text0149,よろしくおねがいします。<BR>おりひめさん。<BR>
-ctCutsceneScript11Text014A,おねがい? おねがい<BR>するときには おさいせん <BR>これ ひつようでーす。<BR>
-ctCutsceneScript11Text014B,ニッポンのかみさま <BR>みな そういって いまーす。<BR>はやく だすでーす。<BR>
-ctCutsceneScript11Text014C,なーんていうのは<BR>ジョークでーす。<BR>こちらこそ よろしくでーす。<BR>
-ctCutsceneScript11Text014D,よろしくおねがいします。<BR>おりひめさん。<BR>
-ctCutsceneScript11Text014E,いろいろと べんきょうさせて<BR>いただきます。<BR>
-ctCutsceneScript11Text014F,ニッポンのおとこにしては<BR>ずいぶんと マシな<BR>ようですねー!<BR>
-ctCutsceneScript11Text0150,リッパな こころがけでーす!<BR>いろいろと べんきょうすると<BR>いーでーす!<BR>
-ctCutsceneScript11Text0151,よろしくおねがいします。<BR>おりひめさん。<BR>
-ctCutsceneScript11Text0152,おりひめさんの エメラルドの<BR>ようにかがやくひとみ<BR>とてもステキですね～。<BR>
-ctCutsceneScript11Text0153,オー! ニッポンのおとこ<BR>ダメダメでーす。<BR>
-ctCutsceneScript11Text0154,わたしのような<BR>びじんを みると すぐに<BR>ハナのした のばしまーす。<BR>
-ctCutsceneScript11Text0155,いえ そういう<BR>いみじゃあ‥‥<BR>
-ctCutsceneScript11Text0156,なーんですって。<BR>このわたしが びじんじゃない<BR>というのですか?<BR>
-ctCutsceneScript11Text0157,ニッポンのおとこ<BR>しつれいでーす!!!<BR>
-ctCutsceneScript11Text0158,いいたいことは まだあります<BR>‥‥でも ながくなるから<BR>このへんで やめときまーす。<BR>
-ctCutsceneScript11Text0159,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text015A,どうしましたか?<BR>へんじがないでーす。<BR>きんちょうしてますか?<BR>
-ctCutsceneScript11Text015B,まあ いいでーす。<BR>がんばってくださーい。<BR>
-ctCutsceneScript11Text015C,ボクはレニ。<BR>レニ・ミルヒシュトラーセ。<BR>
-ctCutsceneScript11Text015DSub00,ふつうにあいさつする
-ctCutsceneScript11Text015DSub01,レニをほめる
-ctCutsceneScript11Text015DSub02,ごまをする
-ctCutsceneScript11Text015E,よろしくおねがいします。<BR>レニさん。<BR>
-ctCutsceneScript11Text015F,よろしく‥‥<BR>
-ctCutsceneScript11Text0160,よろしくおねがいします。<BR>レニさん。<BR>
-ctCutsceneScript11Text0161,レニさんって<BR>クールでかっこいいですね。<BR>
-ctCutsceneScript11Text0162,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0163,(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>
-ctCutsceneScript11Text0164,よろしくおねがいします。<BR>レニさん。<BR>
-ctCutsceneScript11Text0165,かっこいいですよね～<BR>レニさんの そのおちついた<BR>ふんいき。<BR>
-ctCutsceneScript11Text0166,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0167,(なんだか むずかしそうな<BR> ひとだな‥‥)<BR>
-ctCutsceneScript11Text0168,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0169,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text016A,よし しょうかいは<BR>すんだな。<BR>
-ctCutsceneScript11Text016B,みんな <NAME>くんを<BR>よろしくたのむよ。<BR>
-ctCutsceneScript11Text016C,ビー! ビー! ビー!<BR>
-ctCutsceneScript11Text016D,けいほう?<BR>
-ctCutsceneScript11Text016E,ぜんいんにつぐ。<BR>しきゅう さくせんしつに<BR>しゅうごう!<BR>
-ctCutsceneScript11Text016F,<NAME>くん!<BR>いそぐぞ!!<BR>
-ctCutsceneScript11Text0170,ぜんいん そろったようね‥‥<BR>
-ctCutsceneScript11Text0171,ミカサきねんこうえんでの<BR>かいげんしょうは<BR>しっているわね。<BR>
-ctCutsceneScript11Text0172,いま ミカサきねんこうえんで<BR>きょだいな れいりょくが<BR>かくにんされました。<BR>
-ctCutsceneScript11Text0173,まさか あらたなてきが?!<BR>
-ctCutsceneScript11Text0174,さあ わからないわ。<BR>
-ctCutsceneScript11Text0175,だったら あたし<BR>しらべにいきます。<BR>
-ctCutsceneScript11Text0176,れいりょくの いへん<BR>また おこっています。<BR>ミカサきねんこうえんです。<BR>
-ctCutsceneScript11Text0177,きょだいな れいりょくの<BR>ちゅうしんは‥‥‥‥‥‥‥‥<BR>ミカサです!<BR>
-ctCutsceneScript11Text0178,ミカサから きょだいな<BR>れいりょくが でています!<BR>
-ctCutsceneScript11Text0179,かえでさん!<BR>しゅつどうめいれいを!!<BR>
-ctCutsceneScript11Text017A,ダメよ!<BR>
-ctCutsceneScript11Text017B,げんいんが わからないのに<BR>あなたたちを うごかす<BR>わけには いかないわ。<BR>
-ctCutsceneScript11Text017C,ミカサのしたには『やまと』や<BR>『せいまじょう』が<BR>ねむっています‥‥<BR>
-ctCutsceneScript11Text017D,ということは この<BR>れいりょくの いじょう‥‥<BR>
-ctCutsceneScript11Text017E,いちじてきな<BR>しぜんげんしょう かも<BR>しれんちゅーこっちゃな。<BR>
-ctCutsceneScript11Text017F,まずは ちょうさをしないと<BR>うごけないわね。<BR>
-ctCutsceneScript11Text0180,そういうことだぜ。<BR>そのために <NAME>を<BR>よんだんだろ?<BR>
-ctCutsceneScript11Text0181,<NAME>くん。<BR>しゅつどうよ。<BR>
-ctCutsceneScript11Text0182,きゅうな しゅつどうだから<BR>おおがみくんと いっしょに<BR>いきなさい。<BR>
-ctCutsceneScript11Text0183,おおがみくん たのんだわよ。<BR><NAME>くん しっかりね。<BR>
-ctCutsceneScript11Text0184,りょうかい!<BR>
-ctCutsceneScript11Text0185,りょうかい!
-ctCutsceneScript11Text0186,りょうかい!<BR>
-ctCutsceneScript11Text0187,よし いいへんじだぞ<BR><NAME>くん!<BR>
-ctCutsceneScript11Text0188,どうした <NAME>くん!<BR>しっかりしろ!<BR>
-ctCutsceneScript11Text0189,りょ りょうかい!<BR>
-ctCutsceneScript11Text018A,おおがみ。 <NAME>は<BR>ミカサきねんこうえんを<BR>しらべに しゅつどう!<BR>
-ctCutsceneScript11Text018B,おおがみ。 <NAME>。<BR>ミカサきねんこうえんを<BR>しらべに しゅつどうします!<BR>
-ctCutsceneScript11Text018C,<NAME> がんばってね。<BR>
-ctCutsceneScript11Text018D,いくぞ!<BR><NAME>くん!!<BR>
-ctCutsceneScript11Text018E,～だい1しょう～<BR>『こうぶ ミカサにたつ!』<BR>
-ctCutsceneScript11Text018F,ふう‥‥<BR>やっとついたわ。<BR>
-ctCutsceneScript11Text0190,とつぜん よびだされたけど<BR>いったい なにが<BR>あったのかしら‥‥<BR>
-ctCutsceneScript11Text0191,よく きてくれたわね。<BR>わたしは<BR>ふじえだ かえで。<BR>
-ctCutsceneScript11Text0192,ていこくかげきだんの<BR>ふくしれいです。<BR>
-ctCutsceneScript11Text0193,では さっそくだけど<BR>あなたを ここへよんだ<BR>りゆうを せつめいするわ。<BR>
-ctCutsceneScript11Text0194,あなたの にんむは<BR>ミカサきねんこうえんを<BR>しらべることです。<BR>
-ctCutsceneScript11Text0195,すこしまえから ミカサきねん<BR>こうえんで おかしなことが<BR>おこっているのです。<BR>
-ctCutsceneScript11Text0196,そこで こんかいは あなたに<BR>その げんいんを しらべて<BR>もらおうと おもいます。<BR>
-ctCutsceneScript11Text0197,いいわね <NAME>。<BR>
-ctCutsceneScript11Text0198,では ていこくかげきだん<BR>はなぐみの たいちょうを<BR>しょうかいするわ。<BR>
-ctCutsceneScript11Text0199,おおがみくん。<BR>
-ctCutsceneScript11Text019A,はい。<BR>
-ctCutsceneScript11Text019BSub00,おおがみさん おひさしぶりです
-ctCutsceneScript11Text019BSub01,はじめまして
-ctCutsceneScript11Text019C,‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text019D,おや? どうしたんだい<BR><NAME>くん。<BR>きんちょう しているのか?<BR>
-ctCutsceneScript11Text019E,だいじょうぶだよ そんなに<BR>かたく ならなくても。<BR>リラックス リラックス。<BR>
-ctCutsceneScript11Text019F,じゃあ はなぐみの みんなに<BR>しょうかいするから<BR>ついてきて。<BR>
-ctCutsceneScript11Text01A0,おひさしぶりです。<BR>おおがみさん。<BR>
-ctCutsceneScript11Text01A1,やあ。<BR>げんきだったかい?<BR><NAME>くん。<BR>
-ctCutsceneScript11Text01A2,あら そういえば<BR>ふたりは しりあい<BR>だったわね。<BR>
-ctCutsceneScript11Text01A3,<NAME>くんは はなぐみに<BR>たいけんにゅうたいを<BR>したことが あるんですよ。<BR>
-ctCutsceneScript11Text01A4,きかんは いっかげつだった<BR>のですが <NAME>くんは<BR>なかなかステキな‥‥<BR>
-ctCutsceneScript11Text01A5,あ いや‥‥<BR>ばつぐんの せいせきでした。<BR>
-ctCutsceneScript11Text01A6,そうなの。<BR>それは たのもしいわね。<BR>
-ctCutsceneScript11Text01A7,<NAME>くん。こんかいの<BR>にんむは きびしいが<BR>がんばってくれよ。<BR>
-ctCutsceneScript11Text01A8,じゃあ はなぐみの みんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>
-ctCutsceneScript11Text01A9,しってるものも いると<BR>おもうけど <BR><NAME>くんだ。<BR>
-ctCutsceneScript11Text01AA,ミカサきねんこうえんを<BR>しらべてもらうために<BR>きてもらった。<BR>
-ctCutsceneScript11Text01AB,じゃあ <NAME>くん。<BR>みんなに あいさつを。<BR>
-ctCutsceneScript11Text01AC,<NAME>です。<BR>みなさん おひさしぶりです。<BR>
-ctCutsceneScript11Text01AD,あ でも<BR>そちらの おふたりは <BR>はじめまして ですね。<BR>
-ctCutsceneScript11Text01AE,こんかいは たいけんにゅう<BR>たい ではなく にんむが<BR>あたえられる とのことで<BR>
-ctCutsceneScript11Text01AF,よりいっそう きあいをいれて<BR>がんばりますので<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text01B0,よー <NAME>っ!<BR>ちゃんとメシくってるか!?<BR>
-ctCutsceneScript11Text01B1Sub00,はい
-ctCutsceneScript11Text01B1Sub01,まあ そこそこには‥‥
-ctCutsceneScript11Text01B1Sub02,ダイエットしてるんです
-ctCutsceneScript11Text01B2,はい。<BR>もちろんです。<BR>
-ctCutsceneScript11Text01B3,カンナさんに おしえられた<BR>とおり きちんとたべて<BR>うんどうをしています。<BR>
-ctCutsceneScript11Text01B4,よし! バッチリじゃないか。<BR>それじゃ こんかいもビシビシ<BR>いくから そのつもりでな。<BR>
-ctCutsceneScript11Text01B5,まあ そこそこには<BR>たべています。<BR>
-ctCutsceneScript11Text01B6,たくさんたべすぎて また<BR>じょたいに なるのもイヤ<BR>ですからね。ふふふ‥‥<BR>
-ctCutsceneScript11Text01B7,なんだよ～ きにするなよ<BR>そんなこと‥‥って<BR>いっても きになるよな～。<BR>
-ctCutsceneScript11Text01B8,こんかいは 『たべすぎで<BR>じょたい』 なんてことは<BR>ないから あんしんしな。<BR>
-ctCutsceneScript11Text01B9,じつは‥‥<BR>ダイエットしてるんですよ。<BR>
-ctCutsceneScript11Text01BA,ダイエットーーッ!?<BR>
-ctCutsceneScript11Text01BB,わかいんだからさー そんなの<BR>きにするより ちゃんとたべて<BR>うんどうしろよ～。<BR>
-ctCutsceneScript11Text01BC,そのほうが よっぽど<BR>けんこうてきだし<BR>いいダイエットになるぜ!<BR>
-ctCutsceneScript11Text01BD,まあいいや。 こんかいも<BR>あたいが ビシビシきたえて<BR>やるから かくごしときなよ。<BR>
-ctCutsceneScript11Text01BE,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text01BF,なんだ なんだ?<BR>げんきねーじゃねーか。<BR>
-ctCutsceneScript11Text01C0,わかった。<BR>あさメシ くってないんだろ。<BR>
-ctCutsceneScript11Text01C1,ダメだぞ メシは<BR>いちにち 3かい<BR>きちんとくわねーと。<BR>
-ctCutsceneScript11Text01C2,<NAME>さん。<BR>おひさしぶりです。<BR>おげんきでしたか?<BR>
-ctCutsceneScript11Text01C3,こんかいの にんむ<BR>たいへんそうですけど<BR>がんばってくださいね。<BR>
-ctCutsceneScript11Text01C4Sub00,あまりじしんがない
-ctCutsceneScript11Text01C4Sub01,がんばります
-ctCutsceneScript11Text01C4Sub02,おおがみさんを たよります
-ctCutsceneScript11Text01C5,えっ たいへんなのですか‥‥<BR>なんだかちょっと じしんが<BR>なくなってきました‥‥<BR>
-ctCutsceneScript11Text01C6,な なにをいってるんですか。<BR><NAME>さんなら<BR>だいじょうぶですよ。<BR>
-ctCutsceneScript11Text01C7,それに あたしたちも<BR>ついてますから<BR>だいじょうぶですよ!<BR>
-ctCutsceneScript11Text01C8,おうえんしますから<BR>いっしょに<BR>がんばりましょう。<BR>
-ctCutsceneScript11Text01C9,はい がんばりますので<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text01CA,はい がんばってくださいね。<BR>
-ctCutsceneScript11Text01CB,きつくても<BR>だいじょうぶです。<BR>
-ctCutsceneScript11Text01CC,おおがみさんを たよりに<BR>がんばっていこうと<BR>おもっていますから。<BR>
-ctCutsceneScript11Text01CD,えっ!!<BR>お おおがみさんを!!!<BR>
-ctCutsceneScript11Text01CE,はい。<BR>‥‥どうかしましたか?<BR>
-ctCutsceneScript11Text01CF,あ‥い いえ なんでも‥‥<BR>
-ctCutsceneScript11Text01D0,‥‥そうだわ。おおがみさんは<BR>たいちょうとして なにかと<BR>おいそがしいから‥‥<BR>
-ctCutsceneScript11Text01D1,カンナさんや マリアさんを<BR>たよるといいんじゃ<BR>ないかしら。<BR>
-ctCutsceneScript11Text01D2,ね <NAME>さん。<BR>それじゃ そういうことで<BR>がんばっていきましょうね。<BR>
-ctCutsceneScript11Text01D3,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text01D4,どうかしました?<BR>どこか ぐあいが<BR>わるいのですか?<BR>
-ctCutsceneScript11Text01D5,あっ それともきんちょう<BR>しているのですか?<BR>
-ctCutsceneScript11Text01D6,<NAME>さんなら<BR>だいじょうぶですよ。<BR>がんばってください。<BR>
-ctCutsceneScript11Text01D7,<NAME>はん。<BR>げんきやった?<BR>
-ctCutsceneScript11Text01D8,ところで <NAME>はん<BR>おぼえてる? はつめいは?<BR>
-ctCutsceneScript11Text01D9Sub00,バクハツや!
-ctCutsceneScript11Text01D9Sub01,バッチリや!
-ctCutsceneScript11Text01D9Sub02,バクマツや!
-ctCutsceneScript11Text01DA,『バクハツや!』でしょ。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text01DB,そのとおり!<BR>はつめいは バクハツや!<BR>よーおぼえててくれたな。<BR>
-ctCutsceneScript11Text01DC,さすが <NAME>はんや。<BR>ほな こんかいも<BR>がんばっていこな!<BR>
-ctCutsceneScript11Text01DD,『バッチリや!』でしょ。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text01DE,そや! ウチのはつめいは<BR>いつでも バッチリや!<BR>おーきにありがとう!!<BR>
-ctCutsceneScript11Text01DF,って なんでやねん!<BR>
-ctCutsceneScript11Text01E0,『はつめいは バクハツや!』<BR>が ウチのポリシーや。<BR>
-ctCutsceneScript11Text01E1,まあ バッチリちゅーのも<BR>きもちはエエけどな。<BR>
-ctCutsceneScript11Text01E2,ほなまー こんかいも<BR>よろしゅーたのんます。<BR>
-ctCutsceneScript11Text01E3,『バクマツや!』でしょ。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text01E4,そう はつめいはバクマツ。<BR>すなわち えどじだいや!<BR>ひらがげんない イエ～ィ!!<BR>
-ctCutsceneScript11Text01E5,って なんでやねん!<BR>
-ctCutsceneScript11Text01E6,『バクマツ』って なんの<BR>こっちゃ わけわからんがな。<BR>
-ctCutsceneScript11Text01E7,まあ ひらがげんない は<BR>そんけいしてるけどな。<BR>ハハハ。<BR>
-ctCutsceneScript11Text01E8,ほなまー こんかいも<BR>よろしゅーたのんます。<BR>
-ctCutsceneScript11Text01E9,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text01EA,ん? <NAME>はん。<BR>どないしたんや?<BR>げんきあらへんな～。<BR>
-ctCutsceneScript11Text01EB,そうか‥‥<BR>きびしい にんむをまえに<BR>きんちょうしてるんやな。<BR>
-ctCutsceneScript11Text01EC,でも いまから それやと<BR>このさき たいへんやで。<BR>
-ctCutsceneScript11Text01ED,もうすこし<BR>かたのチカラぬいて<BR>がんばり。<BR>
-ctCutsceneScript11Text01EE,<NAME>。<BR>こんかいの にんむは<BR>きびしいわよ。<BR>
-ctCutsceneScript11Text01EFSub00,わかっています
-ctCutsceneScript11Text01EFSub01,すこし ふあんです
-ctCutsceneScript11Text01EFSub02,だいじょうぶでしょう
-ctCutsceneScript11Text01F0,はい わかっています。<BR>まかせてください。<BR>
-ctCutsceneScript11Text01F1,フフフ‥‥<BR>じしんたっぷりね。<BR>でも ゆだんはきんもつよ。<BR>
-ctCutsceneScript11Text01F2,つねに きんちょうかんを<BR>もって こうどうすることを<BR>わすれないようにね。<BR>
-ctCutsceneScript11Text01F3,じつは‥‥<BR>すこし ふあん なんです。<BR>わたしに できるでしょうか‥<BR>
-ctCutsceneScript11Text01F4,フフフ。しんちょうなのね。<BR>でも それは<BR>たいせつなことよ。<BR>
-ctCutsceneScript11Text01F5,きおわずに しんちょうに<BR>にんむを すすめることが<BR>あなたを まもるのよ。<BR>
-ctCutsceneScript11Text01F6,だいじょうぶでしょう。<BR>しらべるだけなら<BR>かんたんです。<BR>
-ctCutsceneScript11Text01F7,まかせてください。<BR>さっさと おわらせて<BR>みせますから。<BR>
-ctCutsceneScript11Text01F8,たいした じしんね。<BR><NAME>。<BR>
-ctCutsceneScript11Text01F9,でもね しらべるって<BR>いうことは なにがおこるか<BR>わからないっていうこと‥‥<BR>
-ctCutsceneScript11Text01FA,そんな こころがまえでいると<BR>おおきな しっぱいを<BR>してしまうかも しれないわ。<BR>
-ctCutsceneScript11Text01FB,いのちを おとすことにも<BR>なりかねないのよ。<BR>
-ctCutsceneScript11Text01FC,いいこと。<BR>どんな にんむでも<BR>ゆだんしてはダメ。<BR>
-ctCutsceneScript11Text01FD,きを ひきしめて<BR>がんばりなさい。<BR>
-ctCutsceneScript11Text01FE,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text01FF,どうしたの?<BR>‥‥きんちょうしているのね。<BR>
-ctCutsceneScript11Text0200,ほどよい きんちょうは<BR>いいけれど かたくなりすぎ<BR>てはダメよ。<BR>
-ctCutsceneScript11Text0201,もうすこし<BR>リラックスしなさい。<BR>
-ctCutsceneScript11Text0202,<NAME>!<BR>ひさしぶりー。<BR>げんきだったー。<BR>
-ctCutsceneScript11Text0203Sub00,げんきにこたえる
-ctCutsceneScript11Text0203Sub01,ジャンポールにもあいさつ
-ctCutsceneScript11Text0203Sub02,ふつうにこたえる
-ctCutsceneScript11Text0204,ハーイ アイリス。<BR>わたしは このとおり<BR>げんきよ。<BR>
-ctCutsceneScript11Text0205,アイリスも げんきそうで<BR>なによりね。<BR>
-ctCutsceneScript11Text0206,うん! ありがとう<BR><NAME>。<BR>
-ctCutsceneScript11Text0207,ハーイ アイリス。<BR>わたしは このとおり<BR>げんきよ。<BR>
-ctCutsceneScript11Text0208,アイリスも ジャンポールも<BR>げんきそうで よかったわ。<BR>またよろしくね。<BR>
-ctCutsceneScript11Text0209,うん! ありがとう<BR><NAME>。<BR>
-ctCutsceneScript11Text020A,ハーイ アイリス。<BR>わたしは このとおり<BR>げんきよ。<BR>
-ctCutsceneScript11Text020B,そう よかったね。<BR><NAME>。<BR>
-ctCutsceneScript11Text020C,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text020D,どうしたの? なんだか<BR>げんきない みたいだね。<BR><NAME>。<BR>
-ctCutsceneScript11Text020E,あら <NAME>さん<BR>おひさしぶりですわね。<BR>
-ctCutsceneScript11Text020F,あっ すみれさん。<BR>(すみれさん また なまえを<BR> まちがえているわ‥‥)<BR>
-ctCutsceneScript11Text0210Sub00,おひさしぶりです
-ctCutsceneScript11Text0210Sub01,こんかいも がんばります
-ctCutsceneScript11Text0210Sub02,あいかわらず ステキですね
-ctCutsceneScript11Text0211,おひさしぶりです。<BR>おげんきそうで<BR>なによりです。<BR>
-ctCutsceneScript11Text0212,こんかいの にんむでは<BR>ごめいわくを<BR>おかけするかも しれませんが<BR>
-ctCutsceneScript11Text0213,よろしくおねがいします。<BR>
-ctCutsceneScript11Text0214,<NAME>さんこそ<BR>おげんきそうで<BR>なによりですわ。<BR>
-ctCutsceneScript11Text0215,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
-ctCutsceneScript11Text0216,まあまあ そんなこまかいこと<BR>おきになさらないで。<BR>
-ctCutsceneScript11Text0217,くれぐれも わたくしの<BR>あしをひっぱらないよう<BR>がんばりなさい。<BR>
-ctCutsceneScript11Text0218,すみれさん。こんかいの<BR>にんむ がんばりますので <BR>よろしくおねがいいたします。<BR>
-ctCutsceneScript11Text0219,はいはい ケガしないていどに<BR>がんばりなさい。<BR><NAME>さん。<BR>
-ctCutsceneScript11Text021A,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
-ctCutsceneScript11Text021B,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
-ctCutsceneScript11Text021C,すみれさん。<BR>このまえ ききそびれた<BR>のですが‥‥<BR>
-ctCutsceneScript11Text021D,すみれさんの うつくしさを<BR>たもつひけつ っていうのは<BR>なんなのですか?<BR>
-ctCutsceneScript11Text021E,わたくしの うつくしさの<BR>ひけつ?<BR>
-ctCutsceneScript11Text021F,それは わたくしが<BR>かんざき すみれ である<BR>ということ。<BR>
-ctCutsceneScript11Text0220,このひとことに<BR>つきますわね。<BR>おーほほほほほ。<BR>
-ctCutsceneScript11Text0221,それじゃ <NAME>さん。<BR>こんかいも がんばりなさい。<BR>
-ctCutsceneScript11Text0222,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
-ctCutsceneScript11Text0223,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
-ctCutsceneScript11Text0224,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0225,どうかしましたか?<BR><NAME>さん。<BR>
-ctCutsceneScript11Text0226,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
-ctCutsceneScript11Text0227,そんな こまかいことは<BR>どうでもいいじゃ<BR>ありませんこと。<BR>
-ctCutsceneScript11Text0228,あまり こまかいことを<BR>きにしていると<BR>こジワがふえますわよ。<BR>
-ctCutsceneScript11Text0229,くれぐれも わたくしたちの<BR>あしを ひっぱらないよう<BR>がんばりなさい。<BR>
-ctCutsceneScript11Text022A,じゃあ <NAME>くん。<BR>あたらしいメンバーを<BR>しょうかいしよう。<BR>
-ctCutsceneScript11Text022B,まずは おりひめくんだ。<BR>
-ctCutsceneScript11Text022C,ソレッタ・おりひめ<BR>でーす。<BR>
-ctCutsceneScript11Text022DSub00,おりひめを ほめる
-ctCutsceneScript11Text022DSub01,ふつうにあいさつする
-ctCutsceneScript11Text022DSub02,うまれたくにを きく
-ctCutsceneScript11Text022E,おりひめさん<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text022F,ハーイ。<BR>よろしくでーす。<BR>
-ctCutsceneScript11Text0230,おりひめさんって すずやかな<BR>エメラルドの ひとみがとても<BR>ステキなかた なんですね。<BR>
-ctCutsceneScript11Text0231,いえいえ <NAME>さんも<BR>なかなかカワイイでーす。<BR>くさってもタイですねー。<BR>
-ctCutsceneScript11Text0232,おりひめさん。<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text0233,おねがい? <BR>わたしに なにを<BR>おねがいするのでーすか?<BR>
-ctCutsceneScript11Text0234,わたし かみさまじゃ<BR>ありませーん。 おねがい<BR>されても こまりまーす。<BR>
-ctCutsceneScript11Text0235,なーんていうのは<BR>ジョークでーす。<BR>こちらこそよろしくでーす。<BR>
-ctCutsceneScript11Text0236,ソレッタ・おりひめさん?<BR>うまれたくには<BR>どこなんですか?<BR>
-ctCutsceneScript11Text0237,うまれたくに?<BR>イタリアでーす。<BR>それが どうかしましたか?<BR>
-ctCutsceneScript11Text0238,いえ かわった<BR>おなまえだなと<BR>おもいましたので‥‥<BR>
-ctCutsceneScript11Text0239,かわった?‥‥<BR>それは わたしをバカにして<BR>いるのですか!?<BR>
-ctCutsceneScript11Text023A,いえいえ とんでもない。<BR>とてもステキな<BR>おなまえです。<BR>
-ctCutsceneScript11Text023B,よろしくおねがいします。<BR>おりひめさん。<BR>
-ctCutsceneScript11Text023C,ステキな おなまえ<BR>いいました。<BR>あなた いいひとでーす。<BR>
-ctCutsceneScript11Text023D,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text023E,おや? どうしましたか?<BR>へんじが ないでーす。<BR>きんちょうしてますか?<BR>
-ctCutsceneScript11Text023F,まあ いいでーす。<BR>がんばってくださーい。<BR>
-ctCutsceneScript11Text0240,そして<BR>レニ・ミルヒシュトラーセ<BR>くんだ。<BR>
-ctCutsceneScript11Text0241,ボクは レニ‥‥<BR>
-ctCutsceneScript11Text0242Sub00,ふつうにあいさつする
-ctCutsceneScript11Text0242Sub01,レニをほめる
-ctCutsceneScript11Text0242Sub02,うまれたくにを きく
-ctCutsceneScript11Text0243,レニさん。<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text0244,よろしく‥‥<BR>
-ctCutsceneScript11Text0245,かっこいいですね。<BR>ボーイッシュな かんじが<BR>とてもステキです。<BR>
-ctCutsceneScript11Text0246,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0247,(なんだか むずかしそうな<BR> ひとだわ‥‥)<BR>
-ctCutsceneScript11Text0248,レニさんって<BR>もしかして ドイツのうまれ<BR>なんですか?<BR>
-ctCutsceneScript11Text0249,そう‥‥‥‥<BR>
-ctCutsceneScript11Text024A,やっぱり そうなんですか‥‥<BR>(なんだか むずかしそうな<BR> ひとだわ‥‥)<BR>
-ctCutsceneScript11Text024B,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text024C,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text024D,じゃあ みんな<BR><NAME>くんの サポートを<BR>よろしくな。<BR>
-ctCutsceneScript11Text024E,ビー! ビー! ビー!<BR>
-ctCutsceneScript11Text024F,けいほう?<BR>
-ctCutsceneScript11Text0250,ぜんいんにつぐ。<BR>しきゅう さくせんしつに<BR>しゅうごう!<BR>
-ctCutsceneScript11Text0251,<NAME>くん!<BR>いそぐぞ!!<BR>
-ctCutsceneScript11Text0252,はじめまして おおがみさん。<BR><NAME> ともうします。<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text0253,おおがみ いちろう です。<BR>よろしく <NAME>くん。<BR>
-ctCutsceneScript11Text0254,じゃあ はなぐみの みんなに<BR>しょうかいするから<BR>ついてきてくれ。<BR>
-ctCutsceneScript11Text0255,ミカサきねんこうえんで<BR>おこっている いへんを<BR>しらべてもらうため<BR>
-ctCutsceneScript11Text0256,ていこくかげきだん<BR>たいいん ようせいじょの<BR>おとめがくえん から<BR>
-ctCutsceneScript11Text0257,きてもらった<BR><NAME>くんだ。<BR>
-ctCutsceneScript11Text0258,おとめがくえん から<BR>やってまいりました<BR><NAME>です。<BR>
-ctCutsceneScript11Text0259,みなさんに ごめいわくを<BR>かけないよう せいいっぱい<BR>がんばります。<BR>
-ctCutsceneScript11Text025A,いたらないところも<BR>あるとおもいますが<BR>よろしくおねがいします。<BR>
-ctCutsceneScript11Text025B,マリア・タチバナです。<BR>
-ctCutsceneScript11Text025CSub00,ふつうに あいさつ
-ctCutsceneScript11Text025CSub01,ふあんげに あいさつ
-ctCutsceneScript11Text025CSub02,じしんたっぷりに あいさつ
-ctCutsceneScript11Text025D,よろしくおねがいします。<BR>マリアさん。<BR>
-ctCutsceneScript11Text025E,こちらこそ よろしく。<BR>
-ctCutsceneScript11Text025F,よろしくおねがいします。<BR>マリアさん。<BR>
-ctCutsceneScript11Text0260,マリアさん‥‥ じつはわたし<BR>こんかいのにんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
-ctCutsceneScript11Text0261,ダメよ。<BR>にんむにつく まえから<BR>よわきで いては。<BR>
-ctCutsceneScript11Text0262,<NAME>。あなたは <BR>えらばれて ここにきたのよ。<BR>じしんをもちなさい。<BR>
-ctCutsceneScript11Text0263,よろしくおねがいします。<BR>マリアさん。<BR>
-ctCutsceneScript11Text0264,このわたしが きたからには<BR>もう だいじょうぶです。<BR>あんしんしてください。<BR>
-ctCutsceneScript11Text0265,あら たいしたじしんね。<BR>でもね それが いのちとりに<BR>なることもあるのよ。<BR>
-ctCutsceneScript11Text0266,つねに きんちょうかんを<BR>もって こうどうすること。<BR>わかったわね <NAME>。<BR>
-ctCutsceneScript11Text0267,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0268,どうしたの?<BR>きんちょうしているのね。<BR>
-ctCutsceneScript11Text0269,もうすこし リラックス<BR>しなさい。<BR>
-ctCutsceneScript11Text026A,ウチは り・こうらん や。<BR>
-ctCutsceneScript11Text026BSub00,ふつうに あいさつ
-ctCutsceneScript11Text026BSub01,ふあんげに あいさつ
-ctCutsceneScript11Text026BSub02,じしんたっぷりに あいさつ
-ctCutsceneScript11Text026C,よろしくおねがいします。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text026D,こちらこそ よろしゅーに。<BR>
-ctCutsceneScript11Text026E,よろしくおねがいします。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text026F,こうらんさん‥‥じつはわたし<BR>こんかいのにんむ‥<BR>すこし ふあんなんです‥‥<BR>
-ctCutsceneScript11Text0270,えっ そうなんか～。<BR>まあ おとめがくえんから<BR>いきなり じっせんやもんな。<BR>
-ctCutsceneScript11Text0271,ほんでもまあ そないにふかく<BR>かんがえんでも<BR>だいじょうぶや。<BR>
-ctCutsceneScript11Text0272,がんばったら けっかは<BR>ついてくるさかいにな。<BR>
-ctCutsceneScript11Text0273,<NAME>はん<BR>がんばっていこう。<BR>
-ctCutsceneScript11Text0274,よろしくおねがいします。<BR>こうらんさん。<BR>
-ctCutsceneScript11Text0275,このわたしが きたからには<BR>すみからすみまで バッチリ<BR>しらべて みせますよ。<BR>
-ctCutsceneScript11Text0276,おっ! なかなか いうやんか<BR><NAME>はん。<BR>
-ctCutsceneScript11Text0277,ほな そのちょうしで<BR>たのむで。<BR>
-ctCutsceneScript11Text0278,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text0279,<NAME>はん。<BR>どないしたんや?<BR>げんきあらへんな～。<BR>
-ctCutsceneScript11Text027A,きんちょう してんのかいな。<BR>まあ さいしょは<BR>そんなもんやて。<BR>
-ctCutsceneScript11Text027B,もうすこし<BR>かたのチカラぬいて<BR>がんばり。<BR>
-ctCutsceneScript11Text027C,よお! あたいは <BR>きりしま カンナだ。<BR>よろしくな。<BR>
-ctCutsceneScript11Text027DSub00,ふつうに あいさつ
-ctCutsceneScript11Text027DSub01,ふあんげに あいさつ
-ctCutsceneScript11Text027DSub02,じしんたっぷりに あいさつ
-ctCutsceneScript11Text027E,はい カンナさん!<BR>いろいろと ごしどう<BR>よろしくおねがいします!<BR>
-ctCutsceneScript11Text027F,げんきいいじゃないか。<BR>じゃあ ビシビシいくから<BR>かくごしとけよ <NAME>。<BR>
-ctCutsceneScript11Text0280,よろしくおねがいします。<BR>カンナさん。<BR>
-ctCutsceneScript11Text0281,カンナさん‥‥ じつはわたし<BR>こんかいの にんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
-ctCutsceneScript11Text0282,だいじょうぶだよ<BR><NAME>。<BR>
-ctCutsceneScript11Text0283,まあ おとめがくえんから<BR>いきなり じっせんじゃあ<BR>だれだって ふあんになるさ。<BR>
-ctCutsceneScript11Text0284,だけど ここは たいちょうや<BR>あたいがいる はなぐみ<BR>なんだぜ。あんしんしな。<BR>
-ctCutsceneScript11Text0285,よろしくおねがいします。<BR>カンナさん。<BR>
-ctCutsceneScript11Text0286,おう がんばってくれよ<BR><NAME>。<BR>
-ctCutsceneScript11Text0287,カンナさん。このわたしが<BR>きたからには バッチリ<BR>しらべてみせますよ。<BR>
-ctCutsceneScript11Text0288,ほう たのもしいね～。<BR>でも センパイとして<BR>ひとつ おしえといてやるよ。<BR>
-ctCutsceneScript11Text0289,どんなにちいさな にんむでも<BR>きあいをいれて やらないと<BR>おおケガするんだぜ。<BR>
-ctCutsceneScript11Text028A,ゆだんたいてき。<BR>きを ひきしめろ<BR><NAME>!<BR>
-ctCutsceneScript11Text028B,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text028C,なんだ なんだ?<BR>げんきねーじゃねーか。<BR>
-ctCutsceneScript11Text028D,わかった。<BR>あさメシくってねーんだろ。<BR>ダメだぞ。<BR>
-ctCutsceneScript11Text028E,メシは ドンブリ3ばい。<BR>これが ていこくかげきだんの<BR>きまり‥‥‥‥<BR>
-ctCutsceneScript11Text028F,いや おまえは おんなのこ<BR>だから ドンブリ1ぱいだな。<BR>とにかく ちゃんとくえよ!<BR>
-ctCutsceneScript11Text0290,はーい。アイリスでーす!<BR>こっちはクマのジャンポール!<BR>よろしくね。<BR>
-ctCutsceneScript11Text0291Sub00,ふつうに あいさつ
-ctCutsceneScript11Text0291Sub01,ふあんげに あいさつ
-ctCutsceneScript11Text0291Sub02,じしんたっぷりに あいさつ
-ctCutsceneScript11Text0292,よろしくおねがいします。<BR>アイリスさん。<BR>
-ctCutsceneScript11Text0293,エヘヘ アイリスでいいよ。<BR><NAME>。<BR>
-ctCutsceneScript11Text0294,よろしくおねがいします。<BR>アイリスさん。<BR>
-ctCutsceneScript11Text0295,エヘヘ アイリスでいいよ。<BR><NAME>。<BR>
-ctCutsceneScript11Text0296,じゃあ アイリス‥‥<BR>あたしね こんかいのにんむ<BR>ちょっと ふあんなんだ‥‥<BR>
-ctCutsceneScript11Text0297,へ～ そうなんだ～。<BR>じゃあ おうえんしてあげる!<BR><NAME> ガンバレ!!<BR>
-ctCutsceneScript11Text0298,よろしくおねがいします。<BR>アイリスさん。<BR>
-ctCutsceneScript11Text0299,エヘヘ アイリスでいいよ。<BR><NAME>。<BR>
-ctCutsceneScript11Text029A,じゃあ アイリス<BR>そして ジャンポール‥‥<BR>
-ctCutsceneScript11Text029B,わたしの かつやくをみてて。<BR>あっ というまに<BR>おわらせてみせるから。<BR>
-ctCutsceneScript11Text029C,へ～ <NAME>って<BR>すごいんだね ジャンポール。<BR>ガンバッテね～。<BR>
-ctCutsceneScript11Text029D,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text029E,あれ? どうしたの?<BR><NAME>。<BR>きんちょうしているの?<BR>
-ctCutsceneScript11Text029F,しょうがないな～。<BR>アイリスが リラックスできる<BR>まほうを かけてあげる。<BR>
-ctCutsceneScript11Text02A0,イリス・ジャンポーーール!<BR>
-ctCutsceneScript11Text02A1,ほら もうだいじょうぶだよ<BR><NAME>。<BR>
-ctCutsceneScript11Text02A2,ちょっと しんいりさん。<BR>
-ctCutsceneScript11Text02A3,このわたくしの ジャマを<BR>しないよう しっかりと<BR>がんばるのですわよ。<BR>
-ctCutsceneScript11Text02A4,はい‥‥<BR>あ あの‥‥ すみませんが<BR>おなまえはなんと‥‥<BR>
-ctCutsceneScript11Text02A5,な なんですって～!<BR>このだいスタアを しらないと<BR>おっしゃるの‥‥<BR>
-ctCutsceneScript11Text02A6,しょーがねーだろ?<BR>しらねーものは<BR>しらねーんだから。<BR>
-ctCutsceneScript11Text02A7,でしたら しっかりおぼえて<BR>くださいましね。<BR>
-ctCutsceneScript11Text02A8,わたくしは<BR>かんざき すみれ<BR>ですわ。<BR>
-ctCutsceneScript11Text02A9Sub00,ふつうに あいさつ
-ctCutsceneScript11Text02A9Sub01,ふあんげに あいさつ
-ctCutsceneScript11Text02A9Sub02,じしんたっぷりに あいさつ
-ctCutsceneScript11Text02AA,よろしくおねがいします。<BR>すみれさん。<BR>
-ctCutsceneScript11Text02AB,はい はい。くれぐれも<BR>わたくしのあしを ひっぱら<BR>ないで くださいましね。<BR>
-ctCutsceneScript11Text02AC,わかりましたか?<BR><NAME>さん。<BR>
-ctCutsceneScript11Text02AD,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
-ctCutsceneScript11Text02AE,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
-ctCutsceneScript11Text02AF,よろしくおねがいします。<BR>すみれさん。<BR>
-ctCutsceneScript11Text02B0,すみれさん‥‥ じつはわたし<BR>こんかいの にんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
-ctCutsceneScript11Text02B1,あら そうなんですの?<BR>それは こまりましたわね～。<BR>
-ctCutsceneScript11Text02B2,でも わたくしの あしだけは<BR>ひっぱらないようにして<BR>ください。<NAME>さん。<BR>
-ctCutsceneScript11Text02B3,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
-ctCutsceneScript11Text02B4,まあまあ そんなこまかいこと<BR>どうでもいいじゃ ありません<BR>こと。おーほほほほほ。<BR>
-ctCutsceneScript11Text02B5,よろしくおねがいします。<BR>すみれさん。<BR>
-ctCutsceneScript11Text02B6,わたし うつくしい すみれ<BR>おねえさまと いっしょに<BR>たたかえて うれしいです。<BR>
-ctCutsceneScript11Text02B7,あーら なかなかわかってる<BR>じゃありませんか<BR><NAME>さん。<BR>
-ctCutsceneScript11Text02B8,えっ‥‥ いや‥ あの～<BR>わたしのなまえは <NAME><BR>なんですけど‥‥<BR>
-ctCutsceneScript11Text02B9,まあまあ そんなこまかいこと<BR>どうでもいいじゃありません<BR>こと。おーほほほほほ。<BR>
-ctCutsceneScript11Text02BA,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text02BB,まあ あなたも じょせいなら<BR>このわたくしを めざして<BR>がんばりなさいな。<BR>
-ctCutsceneScript11Text02BC,あたしは<BR>しんぐうじ さくら です。<BR>
-ctCutsceneScript11Text02BDSub00,ふつうに あいさつ
-ctCutsceneScript11Text02BDSub01,ふあんげに あいさつ
-ctCutsceneScript11Text02BDSub02,じしんたっぷりに あいさつ
-ctCutsceneScript11Text02BE,よろしくおねがいします。<BR>さくらさん。<BR>
-ctCutsceneScript11Text02BF,こちらこそ<BR>よろしくおねがいします。<BR><NAME>さん。<BR>
-ctCutsceneScript11Text02C0,よろしくおねがいします。<BR>さくらさん。<BR>
-ctCutsceneScript11Text02C1,さくらさん‥‥ じつはわたし<BR>こんかいのにんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
-ctCutsceneScript11Text02C2,ふふ‥‥だいじょうぶですよ。<BR>あたしも はじめは<BR>そうでした。<BR>
-ctCutsceneScript11Text02C3,でも みんなにたすけられて<BR>なんとか ここまでやって<BR>くることができたんです。<BR>
-ctCutsceneScript11Text02C4,しんぱいしなくても<BR><NAME>さんなら<BR>だいじょうぶです。<BR>
-ctCutsceneScript11Text02C5,そうですか‥ そうですよね。<BR>おおがみさんも いますし<BR>わたし がんばります。<BR>
-ctCutsceneScript11Text02C6,えっ‥ お おおがみさん‥‥<BR>‥それはちょっと‥‥<BR>まあ がんばってください。<BR>
-ctCutsceneScript11Text02C7,よろしくおねがいします。<BR>さくらさん。<BR>
-ctCutsceneScript11Text02C8,こんかいのにんむは<BR>このわたしが ビシッと<BR>がんばっちゃいます。<BR>
-ctCutsceneScript11Text02C9,ですから バッチリ<BR>ごあんしんを。<BR>
-ctCutsceneScript11Text02CA,それは たのもしいですね。<BR><NAME>さん。<BR>
-ctCutsceneScript11Text02CB,でも ゆだんはダメですよ。<BR>きをひきしめて<BR>がんばってくださいね。<BR>
-ctCutsceneScript11Text02CC,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text02CD,どうしたんですか?<BR>‥‥あ きんちょうしているの<BR>ですね。<BR>
-ctCutsceneScript11Text02CE,あたしも そうでした‥‥<BR>がんばってください。<BR><NAME>さん。<BR>
-ctCutsceneScript11Text02CF,わたしは<BR>ソレッタ・おりひめ<BR>でーす。<BR>
-ctCutsceneScript11Text02D0Sub00,ふつうに あいさつ
-ctCutsceneScript11Text02D0Sub01,ふあんげに あいさつ
-ctCutsceneScript11Text02D0Sub02,じしんたっぷりに あいさつ
-ctCutsceneScript11Text02D1,よろしくおねがいします。<BR>おりひめさん。<BR>
-ctCutsceneScript11Text02D2,おねがい?<BR>わたしに おねがい?<BR>う～ん どーしましょーか。<BR>
-ctCutsceneScript11Text02D3,<NAME>さんの おねがい<BR>きいてあげるか どうしようか<BR>なやみまーす‥‥<BR>
-ctCutsceneScript11Text02D4,なーんていうのは<BR>ジョークでーす。<BR>こちらこそ よろしくでーす。<BR>
-ctCutsceneScript11Text02D5,よろしくおねがいします。<BR>おりひめさん。<BR>
-ctCutsceneScript11Text02D6,おりひめさん‥‥ じつは<BR>こんかいの にんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
-ctCutsceneScript11Text02D7,にんむ ふあん?‥‥‥‥<BR>
-ctCutsceneScript11Text02D8,Oh! にんむのファン。<BR><NAME>さんは<BR>にんむ だいスキなのですね。<BR>
-ctCutsceneScript11Text02D9,いいことでーす。<BR>わたしおうえんします。<BR>がんばってくださーい。<BR>
-ctCutsceneScript11Text02DA,よろしくおねがいします。<BR>おりひめさん。<BR>
-ctCutsceneScript11Text02DB,このわたしが きたからには<BR>おおぶねに のったつもりで<BR>あんしんしてください。<BR>
-ctCutsceneScript11Text02DC,おおぶね?‥‥ ダメでーす。<BR>おおぶろしき ひろげるのも<BR>たいがいに しなさーい。<BR>
-ctCutsceneScript11Text02DD,こんかいのにんむは あなたに<BR>とって はじめてのおつかい‥<BR>‥‥いや にんむでーす。<BR>
-ctCutsceneScript11Text02DE,そんな うわついたきもちで<BR>いると おおケガしまーす。<BR>
-ctCutsceneScript11Text02DF,ちゅういいちびょう<BR>ケガいっしょう。<BR>
-ctCutsceneScript11Text02E0,てをあげて おうだんほどうを<BR>わたりましょう。<BR>
-ctCutsceneScript11Text02E1,きを ひきしめなさーい。<BR>わかりましたか?<BR><NAME>さん。<BR>
-ctCutsceneScript11Text02E2,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text02E3,おや? どうしましたか?<BR>へんじがないでーす。<BR>きんちょうしてますか?<BR>
-ctCutsceneScript11Text02E4,まあ いいでーす。<BR>がんばってくださーい。<BR>
-ctCutsceneScript11Text02E5,ボクはレニ。<BR>レニ・ミルヒシュトラーセ。<BR>
-ctCutsceneScript11Text02E6Sub00,ふつうに あいさつ
-ctCutsceneScript11Text02E6Sub01,ふあんげに あいさつ
-ctCutsceneScript11Text02E6Sub02,じしんたっぷりに あいさつ
-ctCutsceneScript11Text02E7,よろしくおねがいします。<BR>レニさん。<BR>
-ctCutsceneScript11Text02E8,よろしく‥‥<BR>
-ctCutsceneScript11Text02E9,よろしくおねがいします。<BR>レニさん。<BR>
-ctCutsceneScript11Text02EA,レニさん‥‥ じつはわたし<BR>こんかいのにんむ‥‥<BR>すこし ふあんなんです‥‥<BR>
-ctCutsceneScript11Text02EB,‥‥‥‥‥‥‥‥‥じぶんを <BR>ぶんせきできてるだけ<BR>まだいい‥‥<BR>
-ctCutsceneScript11Text02EC,は はあ‥‥<BR>(なんだか むずかしそうな<BR> ひとだわ‥‥)<BR>
-ctCutsceneScript11Text02ED,よろしくおねがいします。<BR>レニさん。<BR>
-ctCutsceneScript11Text02EE,レニさん こんかいの にんむ<BR>このわたしが パパッと<BR>かたづけて みせますよ。<BR>
-ctCutsceneScript11Text02EF,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>うぬぼれは はいぼくに<BR>つながる。<BR>
-ctCutsceneScript11Text02F0,は はあ‥‥<BR>(なんだか むずかしそうな<BR> ひとだわ‥‥)<BR>
-ctCutsceneScript11Text02F1,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text02F2,‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript11Text02F3,よし しょうかいは<BR>すんだな。<BR>
-ctCutsceneScript11Text02F4,みんな <NAME>くんを<BR>よろしくたのむよ。<BR>
-ctCutsceneScript11Text02F5,ビー! ビー! ビー!<BR>
-ctCutsceneScript11Text02F6,けいほう?<BR>
-ctCutsceneScript11Text02F7,ぜんいんにつぐ。<BR>しきゅう さくせんしつに<BR>しゅうごう!<BR>
-ctCutsceneScript11Text02F8,<NAME>くん!<BR>いそぐぞ!!<BR>
-ctCutsceneScript11Text02F9,ぜんいん そろったようね‥‥<BR>
-ctCutsceneScript11Text02FA,ミカサきねんこうえんでの<BR>かいげんしょうは<BR>しっているわね。<BR>
-ctCutsceneScript11Text02FB,いま ミカサきねんこうえんで<BR>きょだいな れいりょくが<BR>かくにんされました。<BR>
-ctCutsceneScript11Text02FC,まさか あらたなてきが?!<BR>
-ctCutsceneScript11Text02FD,さあ わからないわ。<BR>
-ctCutsceneScript11Text02FE,だったら あたし<BR>しらべにいきます。<BR>
-ctCutsceneScript11Text02FF,れいりょくの いへん<BR>また おこっています。<BR>ミカサきねんこうえんです。<BR>
-ctCutsceneScript11Text0300,きょだいな れいりょくの<BR>ちゅうしんは‥‥‥‥‥‥‥‥<BR>ミカサです!<BR>
-ctCutsceneScript11Text0301,ミカサから きょだいな<BR>れいりょくが でています!<BR>
-ctCutsceneScript11Text0302,かえでさん!<BR>しゅつどうめいれいを!!<BR>
-ctCutsceneScript11Text0303,ダメよ!<BR>
-ctCutsceneScript11Text0304,げんいんが わからないのに<BR>あなたたちを うごかす<BR>わけには いかないわ。<BR>
-ctCutsceneScript11Text0305,ミカサのしたには『やまと』や<BR>『せいまじょう』が<BR>ねむっています‥‥<BR>
-ctCutsceneScript11Text0306,と いうことは この<BR>れいりょくの いじょう‥‥<BR>
-ctCutsceneScript11Text0307,いちじてきな<BR>しぜんげんしょう かも<BR>しれんちゅーこっちゃな。<BR>
-ctCutsceneScript11Text0308,まずは ちょうさをしないと<BR>うごけないわね。<BR>
-ctCutsceneScript11Text0309,そういうことだぜ。<BR>そのために <NAME>を<BR>よんだんだろ?<BR>
-ctCutsceneScript11Text030A,<NAME>。<BR>しゅつどうよ。<BR>
-ctCutsceneScript11Text030B,きゅうな しゅつどうだから<BR>おおがみくんと いっしょに<BR>いきなさい。<BR>
-ctCutsceneScript11Text030C,おおがみくん たのんだわよ。<BR><NAME> しっかりね。<BR>
-ctCutsceneScript11Text030D,りょうかい!<BR>
-ctCutsceneScript11Text030E,りょうかい!
-ctCutsceneScript11Text030F,りょうかい!<BR>
-ctCutsceneScript11Text0310,よし いいへんじだぞ<BR><NAME>くん!<BR>
-ctCutsceneScript11Text0311,どうした <NAME>くん!<BR>しっかりしろ!<BR>
-ctCutsceneScript11Text0312,りょ りょうかい!<BR>
-ctCutsceneScript11Text0313,おおがみ。 <NAME>は<BR>ミカサきねんこうえんを<BR>しらべに しゅつどう!<BR>
-ctCutsceneScript11Text0314,おおがみ。 <NAME>。<BR>ミカサきねんこうえんを<BR>しらべに しゅつどうします!<BR>
-ctCutsceneScript11Text0315,<NAME> がんばってね。<BR>
-ctCutsceneScript11Text0316,いくぞ!<BR><NAME>くん!!<BR>
+ctCutsceneScript11Text0000,～Chapter 1～<BR>Destination: Mikasa!
+ctCutsceneScript11Text0001,Phew...<BR>Finally made it.
+ctCutsceneScript11Text0002,What the heck did they call me here so suddenly for...?
+ctCutsceneScript11Text0003,Welcome.<BR>My name is Kaede Fujieda.
+ctCutsceneScript11Text0004,I am the vice commander of the Imperial Combat Revue.
+ctCutsceneScript11Text0005,"I know this is sudden, but let me explain why we've called you here."
+ctCutsceneScript11Text0006,Your mission is to investigate Mikasa Memorial Park.
+ctCutsceneScript11Text0007,Strange things have been happening at the park for some time now.
+ctCutsceneScript11Text0008,We'd like you to investigate the cause of these occurrences.
+ctCutsceneScript11Text0009,"Understood, <NAME>?"
+ctCutsceneScript11Text000A,"Now then, allow me to introduce you to the Flower Division captain."
+ctCutsceneScript11Text000B,Ogami?
+ctCutsceneScript11Text000C,"Yes, ma’am."
+ctCutsceneScript11Text000DSub00,Long time no see
+ctCutsceneScript11Text000DSub01,Nice to meet you
+ctCutsceneScript11Text000E,...
+ctCutsceneScript11Text000F,"Hm?<BR>What's wrong, <NAME>?<BR>Feeling nervous?"
+ctCutsceneScript11Text0010,"If you don't loosen up a little, you're going to have a rough time ahead. You ought to relax."
+ctCutsceneScript11Text0011,"Okay, let's go meet the rest of the Flower Division. Follow me."
+ctCutsceneScript11Text0012,"It's been a while, Captain Ogami."
+ctCutsceneScript11Text0013,"Hey.<BR>How've you been, <NAME>?"
+ctCutsceneScript11Text0014,"Oh, that's right, you two already know each other, don't you?"
+ctCutsceneScript11Text0015,<NAME> took part in our trial enlistment program.
+ctCutsceneScript11Text0016,"He was only with us for a month, but he proved to be brilliant."
+ctCutsceneScript11Text0017,I see.<BR>That’s reassuring to hear.
+ctCutsceneScript11Text0018,"This mission will be tough, <NAME>, but you've got this."
+ctCutsceneScript11Text0019,"Okay, let's go meet the rest of the Flower Division. Follow me."
+ctCutsceneScript11Text001A,"As I'm sure most of you remember, this is <NAME>."
+ctCutsceneScript11Text001B,He's here to help us investigate Mikasa Memorial Park.
+ctCutsceneScript11Text001C,"Go on and say hi, <NAME>."
+ctCutsceneScript11Text001D,"Hi, <NAME> here.<BR>It's been a long time, everyone."
+ctCutsceneScript11Text001E,"Oh, but I don't think I've met you two over there. Hello."
+ctCutsceneScript11Text001F,"This time I’ll be joining you not as a cadet, but as your comrade."
+ctCutsceneScript11Text0020,"As such, I'll be working doubly hard on this mission. Thank you for having me."
+ctCutsceneScript11Text0021,"It's been forever, <NAME>!<BR>How've you been?"
+ctCutsceneScript11Text0022Sub00,Answer cheerily
+ctCutsceneScript11Text0022Sub01,Greet Jean-Paul
+ctCutsceneScript11Text0022Sub02,Answer normally
+ctCutsceneScript11Text0023,"Hey Iris!<BR>I'm doing great, as I'm sure you can tell."
+ctCutsceneScript11Text0024,"I'm glad to see you're doing well, too."
+ctCutsceneScript11Text0025,"Uh-huh!<BR>Thanks, <NAME>."
+ctCutsceneScript11Text0026,"Hey Iris!<BR>I'm doing great, as I'm sure you can tell."
+ctCutsceneScript11Text0027,"I'm glad to see you and Jean-Paul are doing well, too."
+ctCutsceneScript11Text0028,"Uh-huh!<BR>Thanks, <NAME>."
+ctCutsceneScript11Text0029,"Hey, Iris.<BR>As you can see, I’m doing well."
+ctCutsceneScript11Text002A,"I see.<BR>That's good, <NAME>."
+ctCutsceneScript11Text002B,...
+ctCutsceneScript11Text002C,"What's wrong, <NAME>?<BR>You look kinda sad."
+ctCutsceneScript11Text002D,"... Oh, sorry, I'm fine."
+ctCutsceneScript11Text002E,"Yo, <NAME>!<BR>You been eatin' good?"
+ctCutsceneScript11Text002FSub00,Of course
+ctCutsceneScript11Text002FSub01,Kinda
+ctCutsceneScript11Text002FSub02,I’m on a diet
+ctCutsceneScript11Text0030,"Of course I have, Kanna! I'm always chowin' down and workin' out!"
+ctCutsceneScript11Text0031,"That's what I'm talkin' about! We'll be whippin' ya into shape again, so get ready!"
+ctCutsceneScript11Text0032,"Well, I've been eating alright, I suppose. Not really stuffing myself."
+ctCutsceneScript11Text0033,"Wouldn't want to eat too much like last time, y'know? Hahaha."
+ctCutsceneScript11Text0034,"Aw, c'mon, don't worry about that... Though now I’M gettin’ kinda worried."
+ctCutsceneScript11Text0035,"At any rate, we won't let ya ""eat too much"" this time around, so relax."
+ctCutsceneScript11Text0036,Actually...<BR>I'm on a diet.
+ctCutsceneScript11Text0037,A WHAT?!
+ctCutsceneScript11Text0038,"You're a man, aren't you?! That means you gotta chow down and work your ass off!"
+ctCutsceneScript11Text0039,That’ll do you better than any ol’ diet!
+ctCutsceneScript11Text003A,"Oh well, we'll be whippin' ya into shape again anyway, so get ready!"
+ctCutsceneScript11Text003B,...
+ctCutsceneScript11Text003C,"Hey, what's up?<BR>Don't get all moody on us, now."
+ctCutsceneScript11Text003D,"Oh, I get it,<BR>ya skipped breakfast, huh?"
+ctCutsceneScript11Text003E,"You gotta have your three square meals a day, y'know!"
+ctCutsceneScript11Text003F,"Hey, <NAME>.<BR>How ya been?"
+ctCutsceneScript11Text0040,"Oh yeah, you remember this one?<BR>“Inventing's...”"
+ctCutsceneScript11Text0041Sub00,A blast!
+ctCutsceneScript11Text0041Sub01,A gas!
+ctCutsceneScript11Text0041Sub02,A bust!
+ctCutsceneScript11Text0042,"""A blast!""<BR>Right, Kohran?"
+ctCutsceneScript11Text0043,"Exactly!<BR>""Inventing's a blast""!<BR>Glad you remember."
+ctCutsceneScript11Text0044,"Sharp as always, <NAME>.<BR>We got this mission in the bag."
+ctCutsceneScript11Text0045,"""A gas!""<BR>Right, Kohran?"
+ctCutsceneScript11Text0046,"That's right!<BR>Inventing's a gas!<BR>It's a gas, gas, gas!"
+ctCutsceneScript11Text0047,... Not!
+ctCutsceneScript11Text0048,"Heh, but that was kinda funny, so I'll take it."
+ctCutsceneScript11Text0049,"Welp, lookin' forward to workin' with ya, <NAME>!"
+ctCutsceneScript11Text004A,"""A bust!""<BR>Right, Kohran?"
+ctCutsceneScript11Text004B,"Yup, ""Inventing's a bust!"""
+ctCutsceneScript11Text004C,"Heyyy, wait just a second!"
+ctCutsceneScript11Text004D,You shouldn't ever want your inventions to be a bust!
+ctCutsceneScript11Text004E,"I mean, sure, some of mine are, but that's beside the point, haha..."
+ctCutsceneScript11Text004F,"Welp, lookin' forward to workin' with ya, <NAME>."
+ctCutsceneScript11Text0050,...
+ctCutsceneScript11Text0051,"Hm? What's up, <NAME>?<BR>You don't look so good."
+ctCutsceneScript11Text0052,"Oh, I see, you got the pre-mission jitters, huh?"
+ctCutsceneScript11Text0053,But if you stay wound up so tight you're just gonna snap.
+ctCutsceneScript11Text0054,"You gotta loosen up a little, <NAME>."
+ctCutsceneScript11Text0055,"This mission's going to be tough, <NAME>. Will you be alright?"
+ctCutsceneScript11Text0056Sub00,Leave it to me.
+ctCutsceneScript11Text0056Sub01,Probably...
+ctCutsceneScript11Text0056Sub02,Piece of cake
+ctCutsceneScript11Text0057,You can count on me!<BR>I'll show you what I've got.
+ctCutsceneScript11Text0058,Hm hm hm‥‥<BR>I appreciate the enthusiasm.
+ctCutsceneScript11Text0059,"But still, don't let your guard down. Always proceed with the utmost caution."
+ctCutsceneScript11Text005A,I think I'll be fine...<BR>Probably.
+ctCutsceneScript11Text005B,"Hm hm hm, a careful attitude like that is important to have."
+ctCutsceneScript11Text005C,You'll be fine so long as you keep calm and proceed with caution.
+ctCutsceneScript11Text005D,"Piece of cake, let's go!<BR>Easy peasy, harasho!<BR>I've got this."
+ctCutsceneScript11Text005E,"Just sit back and watch, I'll have it done before you know it!"
+ctCutsceneScript11Text005F,"Quit acting like a fool, <NAME>!"
+ctCutsceneScript11Text0060,That kind of attitude will only get you killed out there.
+ctCutsceneScript11Text0061,"Now, get your act together."
+ctCutsceneScript11Text0062,"Never let your guard down, no matter the mission. Understood?"
+ctCutsceneScript11Text0063,Focus up and take it seriously.
+ctCutsceneScript11Text0064,...
+ctCutsceneScript11Text0065,"What's wrong?<BR>Oh, I see, you must be nervous."
+ctCutsceneScript11Text0066,"It's good to feel cautious, to an extent, but don't wind yourself up too tightly."
+ctCutsceneScript11Text0067,Try to relax a little.
+ctCutsceneScript11Text0068,"It's been a while, <NAME>. How have you been?"
+ctCutsceneScript11Text0069,"I'll be there to back you up on this mission, so let's both give it our all, okay?"
+ctCutsceneScript11Text006ASub00,I'll rely on you
+ctCutsceneScript11Text006ASub01,I'll do my best
+ctCutsceneScript11Text006ASub02,I can't do this
+ctCutsceneScript11Text006B,"I'll be relying on you every step of the way, Sakura!"
+ctCutsceneScript11Text006C,Erm... You probably shouldn't rely on me TOO much.
+ctCutsceneScript11Text006D,You should try doing things yourself before deciding to rely on others.
+ctCutsceneScript11Text006E,"But if you ever ARE in trouble, I'll be more than happy to help you out."
+ctCutsceneScript11Text006F,I'll do my best. Thank you.
+ctCutsceneScript11Text0070,"No, thank YOU!"
+ctCutsceneScript11Text0071,Uh...<BR>I don't think I can do this...
+ctCutsceneScript11Text0072,D- Don't say that!
+ctCutsceneScript11Text0073,"No, I'm serious, I'm super clumsy, and honestly pretty stupid..."
+ctCutsceneScript11Text0074,"Ugh, I'm feeling less confident by the second..."
+ctCutsceneScript11Text0075,"C- Come on, now, it's fine! I mean, I'm clumsy, too!"
+ctCutsceneScript11Text0076,"So, from one klutz to another, let's both just do our best, <NAME>."
+ctCutsceneScript11Text0077,...
+ctCutsceneScript11Text0078,What's wrong?<BR>Are you not feeling well?
+ctCutsceneScript11Text0079,"Oh, I see, you must be nervous."
+ctCutsceneScript11Text007A,"I know you'll do great, <NAME>. Just give it your best shot."
+ctCutsceneScript11Text007B,AHEM...
+ctCutsceneScript11Text007C,"Oh, Sumire."
+ctCutsceneScript11Text007DSub00,Pretty as ever
+ctCutsceneScript11Text007DSub01,I'll do my best
+ctCutsceneScript11Text007DSub02,Autograph please
+ctCutsceneScript11Text007E,"Sumire, looking as beautiful as ever, I see."
+ctCutsceneScript11Text007F,"Ohhhohoho!<BR>Well, no need to state the obvious..."
+ctCutsceneScript11Text0080,"But still, it's nice to hear you say that so earnestly."
+ctCutsceneScript11Text0081,"I expected nothing less, Cadet."
+ctCutsceneScript11Text0082,"Err... Just checking, you DO remember my name’s <NAME>, right?"
+ctCutsceneScript11Text0083,"Come now, no need to fret over the details."
+ctCutsceneScript11Text0084,"Just do your best...<BR>Oh, and try not to die."
+ctCutsceneScript11Text0085,"I'll be doing my very best, Sumire. I look forward to working with you again."
+ctCutsceneScript11Text0086,"Yes, yes, do your best, Cadet...<BR>Oh, and try not to die."
+ctCutsceneScript11Text0087,"Err... Just checking, you DO remember my name’s <NAME>, right?"
+ctCutsceneScript11Text0088,"Come now, no need to fret over the details! Ohohoho."
+ctCutsceneScript11Text0089,"Can I have your autograph, Sumire? I totally forgot to ask last time."
+ctCutsceneScript11Text008A,Wh- Whaaat?!
+ctCutsceneScript11Text008B,"Honestly, Cadet, don’t tell me that’s the only reason you came back?"
+ctCutsceneScript11Text008C,"Err... Just checking, you DO remember my name’s <NAME>, right?"
+ctCutsceneScript11Text008D,You'll only get yourself into trouble with a flippant attitude like that!
+ctCutsceneScript11Text008E,You'd better straighten up and take this seriously!
+ctCutsceneScript11Text008F,"Anyway, you wanted my autograph, yes? Here. Ahh, being a star never gets any easier! Ohohoho."
+ctCutsceneScript11Text0090,...
+ctCutsceneScript11Text0091,"Rendered speechless by my radiance, I see..."
+ctCutsceneScript11Text0092,Oh whatever shall I do? Truly it's a sin to look this good.
+ctCutsceneScript11Text0093,"Nah, he's just shocked at how stupid you're being right now."
+ctCutsceneScript11Text0094,"What did you say, Kanna?! Nobody wants to hear from a muscle-bound gorilla like you!"
+ctCutsceneScript11Text0095,... Oh well.
+ctCutsceneScript11Text0096,"Just do your best, Cadet, and try not to drag me down."
+ctCutsceneScript11Text0097,"Okay, <NAME>, now to introduce you to our two new members."
+ctCutsceneScript11Text0098,First is Orihime.
+ctCutsceneScript11Text0099,Ciao!<BR>I am Orihime Soletta.
+ctCutsceneScript11Text009ASub00,Compliment looks
+ctCutsceneScript11Text009ASub01,Greet normally
+ctCutsceneScript11Text009ASub02,Where are you from?
+ctCutsceneScript11Text009B,Wh- What a babe...
+ctCutsceneScript11Text009C,"OH! Japanese men are so hopeless, always with the mind in the gutter!"
+ctCutsceneScript11Text009D,They're the worst!<BR>Total scum!<BR>Pearls before swine!
+ctCutsceneScript11Text009E,I... I don't think that's the appropriate expression...
+ctCutsceneScript11Text009F,OH! Now you're bullying me because I'm a foreigner!
+ctCutsceneScript11Text00A0,"And after I've been studying this language so hard, too!"
+ctCutsceneScript11Text00A1,"Sorry, I didn't mean to offend. Anyway, pleased to meet you, Orihime."
+ctCutsceneScript11Text00A2,"""Please""? Now you're making requests of me? Oh, whatever."
+ctCutsceneScript11Text00A3,"Pleased to meet you, Ms. Orihime."
+ctCutsceneScript11Text00A4,"""Please"" what? You want me to do something for you?"
+ctCutsceneScript11Text00A5,"I'm not one of your Japanese gods, I can't grant your wishes!"
+ctCutsceneScript11Text00A6,... Just kidding. That was a joke. I am also pleased to meet you.
+ctCutsceneScript11Text00A7,"Orihime Soletta, huh? Um, what country are you from?"
+ctCutsceneScript11Text00A8,Where am I from?<BR>Italy.<BR>What about it?
+ctCutsceneScript11Text00A9,"No, it's just that name sounded a little unusual, is all."
+ctCutsceneScript11Text00AA,"""Unusual""...?<BR>Are you making fun of me?!"
+ctCutsceneScript11Text00AB,"No, of course not<BR>I think it's a wonderful name!"
+ctCutsceneScript11Text00AC,"Anyway, I'm looking forward to working with you, Ms. Orihime."
+ctCutsceneScript11Text00AD,"A wonderful name, you say? Maybe you are a good person."
+ctCutsceneScript11Text00AE,"I look forward to working with you, too."
+ctCutsceneScript11Text00AF,...
+ctCutsceneScript11Text00B0,Hm? What's the matter? You're not saying anything. Are you nervous?
+ctCutsceneScript11Text00B1,"Oh well, that's fine. Just try your hardest."
+ctCutsceneScript11Text00B2,Next is Reni Milchstraße.
+ctCutsceneScript11Text00B3,I’m Reni.
+ctCutsceneScript11Text00B4Sub00,Greet normally
+ctCutsceneScript11Text00B4Sub01,Compliment Reni
+ctCutsceneScript11Text00B4Sub02,Ask about home
+ctCutsceneScript11Text00B5,"I look forward to working with you, Reni."
+ctCutsceneScript11Text00B6,Likewise...
+ctCutsceneScript11Text00B7,"You seem really cool!<BR>And stylish, too!"
+ctCutsceneScript11Text00B8,...
+ctCutsceneScript11Text00B9,"(Maybe not the easiest to make conversation with, though...)"
+ctCutsceneScript11Text00BA,"Reni Milchstraße?<BR>Might you be from Germany, perhaps?"
+ctCutsceneScript11Text00BB,Yes...
+ctCutsceneScript11Text00BC,"Ah, I thought as much...<BR>(Boy, not the easiest to make conversation with...)"
+ctCutsceneScript11Text00BD,...
+ctCutsceneScript11Text00BE,...
+ctCutsceneScript11Text00BF,"Okay then, everyone, let's make sure we give <NAME> our full support."
+ctCutsceneScript11Text00C0,BEEP!<BR>BEEP!<BR>BEEP!
+ctCutsceneScript11Text00C1,Was that the alarm?
+ctCutsceneScript11Text00C2,"All hands, report to the command center, ASAP!"
+ctCutsceneScript11Text00C3,"Let's hurry, <NAME>!"
+ctCutsceneScript11Text00C4,"Hello, Mr. Ogami.<BR>My name is <NAME>. Pleased to meet you."
+ctCutsceneScript11Text00C5,"Ichiro Ogami.<BR>Pleasure to meet you too, <NAME>."
+ctCutsceneScript11Text00C6,"Okay, let me introduce you to the rest of the Flower Division. Follow me."
+ctCutsceneScript11Text00C7,This is <NAME> from the Imperial Naval Academy.
+ctCutsceneScript11Text00C8,He'll be helping out with the investigation at Mikasa Memorial Park.
+ctCutsceneScript11Text00C9,"Hello, I'm <NAME> from the Imperial Naval Academy."
+ctCutsceneScript11Text00CA,I'll do my best not to get in everyone's way.
+ctCutsceneScript11Text00CB,"I may not be as experienced as you all, but I'm happy to be of service."
+ctCutsceneScript11Text00CC,"Hey, this kid's got spunk."
+ctCutsceneScript11Text00CD,I'm Kanna Kirishima. Nice to meet ya.
+ctCutsceneScript11Text00CESub00,"=IF(COUNTIF($B$1:B225,B225)=1,"""",INDEX(C:C,MATCH(B225,B:B,0)))"
+ctCutsceneScript11Text00CESub01,Compliment her
+ctCutsceneScript11Text00CESub02,Suck up to her
+ctCutsceneScript11Text00CF,"Likewise, Ms. Kanna. I look forward to learning all sorts of things from you."
+ctCutsceneScript11Text00D0,"Alright, I'll whip ya into shape, so you better be ready!"
+ctCutsceneScript11Text00D1,"Likewise, Ms. Kanna, and may I say, you're in great shape."
+ctCutsceneScript11Text00D2,What kind of sports do you play?
+ctCutsceneScript11Text00D3,"Hmm, ya got a discerning eye, I see!"
+ctCutsceneScript11Text00D4,"I practice karate. I'll help whip you into shape, too, so you better be ready!"
+ctCutsceneScript11Text00D5,"Likewise, Ms. Kanna, and I gotta say, you’re quite the hottie."
+ctCutsceneScript11Text00D6,"I mean, that dynamite bod of yours is killer!"
+ctCutsceneScript11Text00D7,Huh? “Hottie”?<BR>Do you even know why you're here?!
+ctCutsceneScript11Text00D8,Get serious already! You're gonna get hurt if ya don't get it together!
+ctCutsceneScript11Text00D9,"Geez, guess I'll just have to whip ya into shape, so you better be ready!"
+ctCutsceneScript11Text00DA,"=IF(COUNTIF($B$1:B239,B239)=1,"""",INDEX(C:C,MATCH(B239,B:B,0)))"
+ctCutsceneScript11Text00DB,"=IF(COUNTIF($B$1:B240,B240)=1,"""",INDEX(C:C,MATCH(B240,B:B,0)))"
+ctCutsceneScript11Text00DC,"Oh, I get it,<BR>ya skipped breakfast, huh?"
+ctCutsceneScript11Text00DD,"You gotta have your three square meals a day, y'know!"
+ctCutsceneScript11Text00DE,Them's the Imperial Combat Revue rules!
+ctCutsceneScript11Text00DF,Maria Tachibana.
+ctCutsceneScript11Text00E0Sub00,"=IF(COUNTIF($B$1:B245,B245)=1,"""",INDEX(C:C,MATCH(B245,B:B,0)))"
+ctCutsceneScript11Text00E0Sub01,Compliment her
+ctCutsceneScript11Text00E0Sub02,"=IF(COUNTIF($B$1:B247,B247)=1,"""",INDEX(C:C,MATCH(B247,B:B,0)))"
+ctCutsceneScript11Text00E1,"I look forward to working with you, Ms. Maria."
+ctCutsceneScript11Text00E2,Likewise.
+ctCutsceneScript11Text00E3,"It's a pleasure to meet you, Ms. Maria."
+ctCutsceneScript11Text00E4,"You seem so calm and alert, like you're ready for anything."
+ctCutsceneScript11Text00E5,Do you really think so? This is just how I normally am.
+ctCutsceneScript11Text00E6,"Nice to meet you, Ms. Maria."
+ctCutsceneScript11Text00E7,"And may I say, you're lookin' good! So cool and stylish!"
+ctCutsceneScript11Text00E8,"Why, I think you just got yourself a new fan!"
+ctCutsceneScript11Text00E9,<NAME>! What do you think we brought you here for?!
+ctCutsceneScript11Text00EA,You're here on a very important mission!
+ctCutsceneScript11Text00EB,Now get your act together!
+ctCutsceneScript11Text00EC,"=IF(COUNTIF($B$1:B259,B259)=1,"""",INDEX(C:C,MATCH(B259,B:B,0)))"
+ctCutsceneScript11Text00ED,What's wrong?<BR>You seem nervous.
+ctCutsceneScript11Text00EE,"It's only natural you'd feel nervous, but don't wind yourself up too tightly."
+ctCutsceneScript11Text00EF,Try to relax a little.
+ctCutsceneScript11Text00F0,"Hello, I'm Iris, and this here is Jean-Paul the bear! Nice to meet you!"
+ctCutsceneScript11Text00F1Sub00,"=IF(COUNTIF($B$1:B264,B264)=1,"""",INDEX(C:C,MATCH(B264,B:B,0)))"
+ctCutsceneScript11Text00F1Sub01,Compliment her
+ctCutsceneScript11Text00F1Sub02,"=IF(COUNTIF($B$1:B266,B266)=1,"""",INDEX(C:C,MATCH(B266,B:B,0)))"
+ctCutsceneScript11Text00F2,"It's nice to meet you too, Ms. Iris."
+ctCutsceneScript11Text00F3,"Just ""Iris"" is fine, <NAME>."
+ctCutsceneScript11Text00F4,"It's nice to meet you too, Ms. Iris."
+ctCutsceneScript11Text00F5,"Heheh, just ""Iris"" is fine, <NAME>."
+ctCutsceneScript11Text00F6,"You're so pretty, too, like a French doll!"
+ctCutsceneScript11Text00F7,He called me pretty!
+ctCutsceneScript11Text00F8,"<NAME> sure is nice, isn't he, Jean-Paul?"
+ctCutsceneScript11Text00F9,"=IF(COUNTIF($B$1:B274,B274)=1,"""",INDEX(C:C,MATCH(B274,B:B,0)))"
+ctCutsceneScript11Text00FA,"=IF(COUNTIF($B$1:B275,B275)=1,"""",INDEX(C:C,MATCH(B275,B:B,0)))"
+ctCutsceneScript11Text00FB,"Y'know, you're pretty cute, Iris, but Jean-Paul's a real looker, too!"
+ctCutsceneScript11Text00FC,"Huh? Really? YAY!<BR>He thinks you're handsome, Jean-Paul!"
+ctCutsceneScript11Text00FD,"<NAME> sure is nice, isn't he?"
+ctCutsceneScript11Text00FE,"=IF(COUNTIF($B$1:B279,B279)=1,"""",INDEX(C:C,MATCH(B279,B:B,0)))"
+ctCutsceneScript11Text00FF,Huh? What's wrong? Are you nervous?
+ctCutsceneScript11Text0100,"Fine, I'll cast a spell to help you relax a little."
+ctCutsceneScript11Text0101,Iris Jean-Paaaaaul!
+ctCutsceneScript11Text0102,"There you go, <NAME>, all better now."
+ctCutsceneScript11Text0103,"Oh...<BR>Thanks, Iris."
+ctCutsceneScript11Text0104,The name's Kohran Li.
+ctCutsceneScript11Text0105Sub00,"=IF(COUNTIF($B$1:B286,B286)=1,"""",INDEX(C:C,MATCH(B286,B:B,0)))"
+ctCutsceneScript11Text0105Sub01,Compliment her
+ctCutsceneScript11Text0105Sub02,"=IF(COUNTIF($B$1:B288,B288)=1,"""",INDEX(C:C,MATCH(B288,B:B,0)))"
+ctCutsceneScript11Text0106,"Pleased to meet you, Ms. Kohran."
+ctCutsceneScript11Text0107,"Yep, likewise."
+ctCutsceneScript11Text0108,"=IF(COUNTIF($B$1:B291,B291)=1,"""",INDEX(C:C,MATCH(B291,B:B,0)))"
+ctCutsceneScript11Text0109,"By the way, you look great in those glasses."
+ctCutsceneScript11Text010A,Huh? Say what?
+ctCutsceneScript11Text010B,"I just think girls look cool with glasses.<BR>Smart, too!"
+ctCutsceneScript11Text010C,Y-Ya really think so? That's the first time anyone's ever told me that.
+ctCutsceneScript11Text010D,But I dunno if I'd really call myself... Cool?
+ctCutsceneScript11Text010E,But my inventions sure as heck are!!
+ctCutsceneScript11Text010F,You don’t say!
+ctCutsceneScript11Text0110,"Yeah, I'll have to show ya my most prized inventions sometime. Something for ya to look forward to!"
+ctCutsceneScript11Text0111,"=IF(COUNTIF($B$1:B300,B300)=1,"""",INDEX(C:C,MATCH(B300,B:B,0)))"
+ctCutsceneScript11Text0112,"By the way, those glasses look great on you, they're super cute."
+ctCutsceneScript11Text0113,"Why, I think you just got yourself a new fan!"
+ctCutsceneScript11Text0114,"Wha?! C-Cute?! Geez, you're makin' me blush..."
+ctCutsceneScript11Text0115,"Ya got a real eye for beauty, don'tcha, <NAME>?"
+ctCutsceneScript11Text0116,"=IF(COUNTIF($B$1:B305,B305)=1,"""",INDEX(C:C,MATCH(B305,B:B,0)))"
+ctCutsceneScript11Text0117,"Hm? What's up, <NAME>? You look kinda down."
+ctCutsceneScript11Text0118,"Oh, I see, you got the pre-mission jitters, huh?"
+ctCutsceneScript11Text0119,But if you stay wound up so tight you're just gonna snap.
+ctCutsceneScript11Text011A,"Try to loosen up a bit and just do the best ya can, okay, <NAME>?"
+ctCutsceneScript11Text011B,"A moment, newcomer."
+ctCutsceneScript11Text011C,I'll need you to do your utmost not to get in my way. Is that clear?
+ctCutsceneScript11Text011D,"Sure... Um...<BR>I'm sorry, what was your name?"
+ctCutsceneScript11Text011E,I-I beg your pardon?! You mean you don't recognize a major star such as myself?
+ctCutsceneScript11Text011F,Can ya blame him? He's been at the Naval Academy this whole time.
+ctCutsceneScript11Text0120,"Well, I suppose there's no helping that, is there?"
+ctCutsceneScript11Text0121,I am Sumire Kanzaki.
+ctCutsceneScript11Text0122Sub00,"=IF(COUNTIF($B$1:B317,B317)=1,"""",INDEX(C:C,MATCH(B317,B:B,0)))"
+ctCutsceneScript11Text0122Sub01,Compliment her
+ctCutsceneScript11Text0122Sub02,"=IF(COUNTIF($B$1:B319,B319)=1,"""",INDEX(C:C,MATCH(B319,B:B,0)))"
+ctCutsceneScript11Text0123,"It's a pleasure to meet you, Ms. Sumire."
+ctCutsceneScript11Text0124,"Yes, yes, to you as well, newcomer."
+ctCutsceneScript11Text0125,"Erm... I have a name, it's <NAME>..."
+ctCutsceneScript11Text0126,"Come now, no need to fret over the details."
+ctCutsceneScript11Text0127,"=IF(COUNTIF($B$1:B324,B324)=1,"""",INDEX(C:C,MATCH(B324,B:B,0)))"
+ctCutsceneScript11Text0128,"By the way, Sumire, that is a gorgeous dress you're wearing."
+ctCutsceneScript11Text0129,"Oh my, newcomer, you're quite the flatterer. Not bad."
+ctCutsceneScript11Text012A,"Please, keep it coming."
+ctCutsceneScript11Text012B,"Erm... I have a name, it's <NAME>..."
+ctCutsceneScript11Text012C,"Come now, no need to fret over the details! Ohohoho."
+ctCutsceneScript11Text012D,"It's a pleasure to meet you, Ms. Sumire... Wait, I'm sorry."
+ctCutsceneScript11Text012E,"It's an honor to meet you, my beautiful mistress Sumire."
+ctCutsceneScript11Text012F,"My word!<BR>You know just what to say, newcomer!"
+ctCutsceneScript11Text0130,"Erm... I have a name, it's <NAME>..."
+ctCutsceneScript11Text0131,"=IF(COUNTIF($B$1:B334,B334)=1,"""",INDEX(C:C,MATCH(B334,B:B,0)))"
+ctCutsceneScript11Text0132,"=IF(COUNTIF($B$1:B335,B335)=1,"""",INDEX(C:C,MATCH(B335,B:B,0)))"
+ctCutsceneScript11Text0133,"What's the matter? Oh, I see..."
+ctCutsceneScript11Text0134,"Standing before my radiant beauty has left you feeling nervous, hasn't it?"
+ctCutsceneScript11Text0135,"Well, all that I ask is that you do your utmost not to drag me down."
+ctCutsceneScript11Text0136,"Hello, I am Sakura Shinguji."
+ctCutsceneScript11Text0137Sub00,"=IF(COUNTIF($B$1:B340,B340)=1,"""",INDEX(C:C,MATCH(B340,B:B,0)))"
+ctCutsceneScript11Text0137Sub01,Compliment her
+ctCutsceneScript11Text0137Sub02,"=IF(COUNTIF($B$1:B342,B342)=1,"""",INDEX(C:C,MATCH(B342,B:B,0)))"
+ctCutsceneScript11Text0138,"It's a pleasure to meet you, Ms. Sakura."
+ctCutsceneScript11Text0139,"The pleasure's all mine, <NAME>. Good luck with the mission!"
+ctCutsceneScript11Text013A,"=IF(COUNTIF($B$1:B345,B345)=1,"""",INDEX(C:C,MATCH(B345,B:B,0)))"
+ctCutsceneScript11Text013B,"And by the way, that ribbon of yours?"
+ctCutsceneScript11Text013C,"It goes great with that long, silky hair of yours, it's very pretty."
+ctCutsceneScript11Text013D,Huh...?<BR>...Thank you.
+ctCutsceneScript11Text013E,"=IF(COUNTIF($B$1:B349,B349)=1,"""",INDEX(C:C,MATCH(B349,B:B,0)))"
+ctCutsceneScript11Text013F,I can't believe I get to be around a gorgeous woman like you! I feel like I might faint!
+ctCutsceneScript11Text0140,Huh?!
+ctCutsceneScript11Text0141,"<NAME>, please, don't say such silly things."
+ctCutsceneScript11Text0142,"This is a very important mission you've been assigned to, you know!"
+ctCutsceneScript11Text0143,Please try to take this more seriously.
+ctCutsceneScript11Text0144,"=IF(COUNTIF($B$1:B355,B355)=1,"""",INDEX(C:C,MATCH(B355,B:B,0)))"
+ctCutsceneScript11Text0145,"What's the matter?<BR>Oh, you must be nervous, huh?"
+ctCutsceneScript11Text0146,"I was nervous when I first started, too. Just do your best, <NAME>."
+ctCutsceneScript11Text0147,Ciao!<BR>I am Orihime Soletta.
+ctCutsceneScript11Text0148Sub00,"=IF(COUNTIF($B$1:B359,B359)=1,"""",INDEX(C:C,MATCH(B359,B:B,0)))"
+ctCutsceneScript11Text0148Sub01,Compliment her
+ctCutsceneScript11Text0148Sub02,"=IF(COUNTIF($B$1:B361,B361)=1,"""",INDEX(C:C,MATCH(B361,B:B,0)))"
+ctCutsceneScript11Text0149,"Pleased to meet you, Ms. Orihime."
+ctCutsceneScript11Text014A,Please? Are you asking me for something? Well it won't come free.
+ctCutsceneScript11Text014B,"It's like your Japanese gods, you give me an offering first! Like money!"
+ctCutsceneScript11Text014C,"=IF(COUNTIF($B$1:B365,B365)=1,"""",INDEX(C:C,MATCH(B365,B:B,0)))"
+ctCutsceneScript11Text014D,"=IF(COUNTIF($B$1:B366,B366)=1,"""",INDEX(C:C,MATCH(B366,B:B,0)))"
+ctCutsceneScript11Text014E,I hope to learn a lot from you in the mission ahead.
+ctCutsceneScript11Text014F,That's a good attitude to have! Learn all kinds of things!
+ctCutsceneScript11Text0150,You're already more impressive than any Japanese man I've ever met!
+ctCutsceneScript11Text0151,"=IF(COUNTIF($B$1:B370,B370)=1,"""",INDEX(C:C,MATCH(B370,B:B,0)))"
+ctCutsceneScript11Text0152,"And may I say, your radiant emerald eyes are simply beautiful!"
+ctCutsceneScript11Text0153,OH! Japanese men really are hopeless!
+ctCutsceneScript11Text0154,They meet a beauty like me and waste no time with the leering and such!
+ctCutsceneScript11Text0155,"Uh, I didn't mean it like that..."
+ctCutsceneScript11Text0156,What's that?<BR>So you DON'T think I'm beautiful?
+ctCutsceneScript11Text0157,"You Japanese men are so rude, too!"
+ctCutsceneScript11Text0158,I could go on all day with how awful they are... But I will stop here for now.
+ctCutsceneScript11Text0159,"=IF(COUNTIF($B$1:B378,B378)=1,"""",INDEX(C:C,MATCH(B378,B:B,0)))"
+ctCutsceneScript11Text015A,What's the matter? You're not saying anything. Are you nervous?
+ctCutsceneScript11Text015B,"=IF(COUNTIF($B$1:B380,B380)=1,"""",INDEX(C:C,MATCH(B380,B:B,0)))"
+ctCutsceneScript11Text015C,I'm Reni.<BR>Reni Milchstraße.
+ctCutsceneScript11Text015DSub00,"=IF(COUNTIF($B$1:B382,B382)=1,"""",INDEX(C:C,MATCH(B382,B:B,0)))"
+ctCutsceneScript11Text015DSub01,"=IF(COUNTIF($B$1:B383,B383)=1,"""",INDEX(C:C,MATCH(B383,B:B,0)))"
+ctCutsceneScript11Text015DSub02,"=IF(COUNTIF($B$1:B384,B384)=1,"""",INDEX(C:C,MATCH(B384,B:B,0)))"
+ctCutsceneScript11Text015E,"I look forward to working with you, Reni."
+ctCutsceneScript11Text015F,"=IF(COUNTIF($B$1:B386,B386)=1,"""",INDEX(C:C,MATCH(B386,B:B,0)))"
+ctCutsceneScript11Text0160,"=IF(COUNTIF($B$1:B387,B387)=1,"""",INDEX(C:C,MATCH(B387,B:B,0)))"
+ctCutsceneScript11Text0161,"You seem really cool!<BR>And stylish, too!"
+ctCutsceneScript11Text0162,"=IF(COUNTIF($B$1:B389,B389)=1,"""",INDEX(C:C,MATCH(B389,B:B,0)))"
+ctCutsceneScript11Text0163,"=IF(COUNTIF($B$1:B390,B390)=1,"""",INDEX(C:C,MATCH(B390,B:B,0)))"
+ctCutsceneScript11Text0164,"=IF(COUNTIF($B$1:B391,B391)=1,"""",INDEX(C:C,MATCH(B391,B:B,0)))"
+ctCutsceneScript11Text0165,"Man, that calm demeanor of yours is SO cool, you know that?"
+ctCutsceneScript11Text0166,"=IF(COUNTIF($B$1:B393,B393)=1,"""",INDEX(C:C,MATCH(B393,B:B,0)))"
+ctCutsceneScript11Text0167,"=IF(COUNTIF($B$1:B394,B394)=1,"""",INDEX(C:C,MATCH(B394,B:B,0)))"
+ctCutsceneScript11Text0168,"=IF(COUNTIF($B$1:B395,B395)=1,"""",INDEX(C:C,MATCH(B395,B:B,0)))"
+ctCutsceneScript11Text0169,"=IF(COUNTIF($B$1:B396,B396)=1,"""",INDEX(C:C,MATCH(B396,B:B,0)))"
+ctCutsceneScript11Text016A,"Okay, that's all the introductions taken care of."
+ctCutsceneScript11Text016B,Let's all make sure to give <NAME> our full support!
+ctCutsceneScript11Text016C,"=IF(COUNTIF($B$1:B399,B399)=1,"""",INDEX(C:C,MATCH(B399,B:B,0)))"
+ctCutsceneScript11Text016D,"=IF(COUNTIF($B$1:B400,B400)=1,"""",INDEX(C:C,MATCH(B400,B:B,0)))"
+ctCutsceneScript11Text016E,"=IF(COUNTIF($B$1:B401,B401)=1,"""",INDEX(C:C,MATCH(B401,B:B,0)))"
+ctCutsceneScript11Text016F,"=IF(COUNTIF($B$1:B402,B402)=1,"""",INDEX(C:C,MATCH(B402,B:B,0)))"
+ctCutsceneScript11Text0170,Looks like you're all here...
+ctCutsceneScript11Text0171,I trust you all know about the strange phenomena at Mikasa Memorial Park.
+ctCutsceneScript11Text0172,We just picked up a massive spirit power reading from the vicinity of the Park.
+ctCutsceneScript11Text0173,"It couldn't possibly be a new enemy, could it?!"
+ctCutsceneScript11Text0174,"That, we don't know."
+ctCutsceneScript11Text0175,Then I'll go investigate!
+ctCutsceneScript11Text0176,Another spirit power anomaly detected at Mikasa Memorial Park!
+ctCutsceneScript11Text0177,The source of the massive readings is... The Mikasa itself!
+ctCutsceneScript11Text0178,The Mikasa is emitting massive amounts of spirit power!
+ctCutsceneScript11Text0179,"Just give me the order, Kaede!"
+ctCutsceneScript11Text017A,No!
+ctCutsceneScript11Text017B,It's too risky to deploy you all without knowing the cause.
+ctCutsceneScript11Text017C,Beneath the Mikasa lie both Yamato and the Sacred Demon Castle...
+ctCutsceneScript11Text017D,Meaning these spirit power anomalies...
+ctCutsceneScript11Text017E,COULD just be temporary natural phenomena.
+ctCutsceneScript11Text017F,We can't do anything until we investigate.
+ctCutsceneScript11Text0180,"Exactly. That's why we called <NAME> here, right?"
+ctCutsceneScript11Text0181,"<NAME>, time to deploy."
+ctCutsceneScript11Text0182,"Given the urgency of the situation, Ogami will be joining you."
+ctCutsceneScript11Text0183,"We're counting on you, Ogami, and <NAME>, keep it together."
+ctCutsceneScript11Text0184,Roger!
+ctCutsceneScript11Text0185,Roger!
+ctCutsceneScript11Text0186,"=IF(COUNTIF($B$1:B425,B425)=1,"""",INDEX(C:C,MATCH(B425,B:B,0)))"
+ctCutsceneScript11Text0187,"Good answer, <NAME>!"
+ctCutsceneScript11Text0188,"What's wrong, <NAME>?! Snap out of it!"
+ctCutsceneScript11Text0189,R- Roger!
+ctCutsceneScript11Text018A,"Ogami, <NAME>, prepare to move out!"
+ctCutsceneScript11Text018B,"Yes ma’am! Ogami, <NAME>, moving out to survey the Mikasa!"
+ctCutsceneScript11Text018C,"Good luck, <NAME>!"
+ctCutsceneScript11Text018D,"Let's go, <NAME>!"
+ctCutsceneScript11Text018E,"=IF(COUNTIF($B$1:B433,B433)=1,"""",INDEX(C:C,MATCH(B433,B:B,0)))"
+ctCutsceneScript11Text018F,Phew...<BR>Finally made it.
+ctCutsceneScript11Text0190,I wonder what they called me here so suddenly for...?
+ctCutsceneScript11Text0191,"=IF(COUNTIF($B$1:B436,B436)=1,"""",INDEX(C:C,MATCH(B436,B:B,0)))"
+ctCutsceneScript11Text0192,"=IF(COUNTIF($B$1:B437,B437)=1,"""",INDEX(C:C,MATCH(B437,B:B,0)))"
+ctCutsceneScript11Text0193,"=IF(COUNTIF($B$1:B438,B438)=1,"""",INDEX(C:C,MATCH(B438,B:B,0)))"
+ctCutsceneScript11Text0194,"=IF(COUNTIF($B$1:B439,B439)=1,"""",INDEX(C:C,MATCH(B439,B:B,0)))"
+ctCutsceneScript11Text0195,"=IF(COUNTIF($B$1:B440,B440)=1,"""",INDEX(C:C,MATCH(B440,B:B,0)))"
+ctCutsceneScript11Text0196,"=IF(COUNTIF($B$1:B441,B441)=1,"""",INDEX(C:C,MATCH(B441,B:B,0)))"
+ctCutsceneScript11Text0197,"Understood, <NAME>?"
+ctCutsceneScript11Text0198,"=IF(COUNTIF($B$1:B443,B443)=1,"""",INDEX(C:C,MATCH(B443,B:B,0)))"
+ctCutsceneScript11Text0199,"=IF(COUNTIF($B$1:B444,B444)=1,"""",INDEX(C:C,MATCH(B444,B:B,0)))"
+ctCutsceneScript11Text019A,"=IF(COUNTIF($B$1:B445,B445)=1,"""",INDEX(C:C,MATCH(B445,B:B,0)))"
+ctCutsceneScript11Text019BSub00,"=IF(COUNTIF($B$1:B446,B446)=1,"""",INDEX(C:C,MATCH(B446,B:B,0)))"
+ctCutsceneScript11Text019BSub01,"=IF(COUNTIF($B$1:B447,B447)=1,"""",INDEX(C:C,MATCH(B447,B:B,0)))"
+ctCutsceneScript11Text019C,...
+ctCutsceneScript11Text019D,"Hm? What's wrong, <NAME>? Feeling nervous?"
+ctCutsceneScript11Text019E,"It's alright, you can loosen up a little. Just try to relax."
+ctCutsceneScript11Text019F,"Okay, let me introduce you to the rest of the Flower Division. Follow me."
+ctCutsceneScript11Text01A0,"=IF(COUNTIF($B$1:B452,B452)=1,"""",INDEX(C:C,MATCH(B452,B:B,0)))"
+ctCutsceneScript11Text01A1,"=IF(COUNTIF($B$1:B453,B453)=1,"""",INDEX(C:C,MATCH(B453,B:B,0)))"
+ctCutsceneScript11Text01A2,"Oh that's right, you two already know each other, don't you?"
+ctCutsceneScript11Text01A3,"=IF(COUNTIF($B$1:B455,B455)=1,"""",INDEX(C:C,MATCH(B455,B:B,0)))"
+ctCutsceneScript11Text01A4,"Though she was with us for only a month, she was a very lovely..."
+ctCutsceneScript11Text01A5,"Erm, I mean...<BR>She showed exceptional results."
+ctCutsceneScript11Text01A6,"=IF(COUNTIF($B$1:B458,B458)=1,"""",INDEX(C:C,MATCH(B458,B:B,0)))"
+ctCutsceneScript11Text01A7,"This mission will be tough, <NAME>, but you've got this."
+ctCutsceneScript11Text01A8,"Okay, let's go meet the rest of the Flower Division. Follow me."
+ctCutsceneScript11Text01A9,"=IF(COUNTIF($B$1:B461,B461)=1,"""",INDEX(C:C,MATCH(B461,B:B,0)))"
+ctCutsceneScript11Text01AA,She's here to help us investigate Mikasa Memorial Park.
+ctCutsceneScript11Text01AB,"=IF(COUNTIF($B$1:B463,B463)=1,"""",INDEX(C:C,MATCH(B463,B:B,0)))"
+ctCutsceneScript11Text01AC,"=IF(COUNTIF($B$1:B464,B464)=1,"""",INDEX(C:C,MATCH(B464,B:B,0)))"
+ctCutsceneScript11Text01AD,"Oh, but I don't think I've met you two over there. Hello!"
+ctCutsceneScript11Text01AE,"=IF(COUNTIF($B$1:B466,B466)=1,"""",INDEX(C:C,MATCH(B466,B:B,0)))"
+ctCutsceneScript11Text01AF,"=IF(COUNTIF($B$1:B467,B467)=1,"""",INDEX(C:C,MATCH(B467,B:B,0)))"
+ctCutsceneScript11Text01B0,"Yo, <NAME>!<BR>You been eatin' good?"
+ctCutsceneScript11Text01B1Sub00,Yes
+ctCutsceneScript11Text01B1Sub01,"Well, kind of"
+ctCutsceneScript11Text01B1Sub02,"=IF(COUNTIF($B$1:B471,B471)=1,"""",INDEX(C:C,MATCH(B471,B:B,0)))"
+ctCutsceneScript11Text01B2,"Yes, of course I have."
+ctCutsceneScript11Text01B3,"I've been eating properly and exercising, just like you taught me, Kanna."
+ctCutsceneScript11Text01B4,"Awright! Glad to hear it. Things are about get tough, so keep it up!"
+ctCutsceneScript11Text01B5,"Well, I've been eating in moderation."
+ctCutsceneScript11Text01B6,"Wouldn't want to overeat like last time, remember? Hm hm hm..."
+ctCutsceneScript11Text01B7,"Aw, c'mon, don't worry about that... Though now I’M gettin’ kinda worried."
+ctCutsceneScript11Text01B8,"At any rate, we won't let ya ""overeat"" this time around, so relax."
+ctCutsceneScript11Text01B9,"=IF(COUNTIF($B$1:B479,B479)=1,"""",INDEX(C:C,MATCH(B479,B:B,0)))"
+ctCutsceneScript11Text01BA,"=IF(COUNTIF($B$1:B480,B480)=1,"""",INDEX(C:C,MATCH(B480,B:B,0)))"
+ctCutsceneScript11Text01BB,"Forget that crap, you're still young, so what you need is lots of food and exercise!"
+ctCutsceneScript11Text01BC,THAT's the kinda diet you should be goin' on! It's way healthier for ya!
+ctCutsceneScript11Text01BD,"Oh well, we'll be whippin' ya into shape again anyway, so get ready!"
+ctCutsceneScript11Text01BE,"=IF(COUNTIF($B$1:B484,B484)=1,"""",INDEX(C:C,MATCH(B484,B:B,0)))"
+ctCutsceneScript11Text01BF,"=IF(COUNTIF($B$1:B485,B485)=1,"""",INDEX(C:C,MATCH(B485,B:B,0)))"
+ctCutsceneScript11Text01C0,"Oh, I get it,<BR>ya skipped breakfast, huh?"
+ctCutsceneScript11Text01C1,"You gotta have your three square meals a day, y'know!"
+ctCutsceneScript11Text01C2,"It's been a while, <NAME>. How have you been?"
+ctCutsceneScript11Text01C3,"This mission is going to be tough, but just do your best."
+ctCutsceneScript11Text01C4Sub00,I'm not sure
+ctCutsceneScript11Text01C4Sub01,"=IF(COUNTIF($B$1:B491,B491)=1,"""",INDEX(C:C,MATCH(B491,B:B,0)))"
+ctCutsceneScript11Text01C4Sub02,Ogami can help
+ctCutsceneScript11Text01C5,Huh? Did you say tough? Now I’m not so sure about this...
+ctCutsceneScript11Text01C6,"Wh- What do you mean? I know you can do it, <NAME>!"
+ctCutsceneScript11Text01C7,"Besides, I'll be there for you, so you'll be fine!"
+ctCutsceneScript11Text01C8,"You have my full support, so let's both do our best!"
+ctCutsceneScript11Text01C9,Thank you. I'll do everything I can.
+ctCutsceneScript11Text01CA,I'm glad to hear it.
+ctCutsceneScript11Text01CB,"Tough or not, I'll be fine."
+ctCutsceneScript11Text01CC,"Because no matter how hard things get, I'll always have Ogami by my side."
+ctCutsceneScript11Text01CD,Huh?!<BR>O- Ogami?!
+ctCutsceneScript11Text01CE,Yes.<BR>...Is something wrong?
+ctCutsceneScript11Text01CF,"Uh... N- No, nothing at all..."
+ctCutsceneScript11Text01D0,"It's just... Ogami's a busy man, being the captain and all, you know?"
+ctCutsceneScript11Text01D1,"So maybe it'd be better to ask, say, Kanna or Maria for help."
+ctCutsceneScript11Text01D2,"Wouldn't you agree, <NAME>? Well, let's both do our best out there."
+ctCutsceneScript11Text01D3,"=IF(COUNTIF($B$1:B507,B507)=1,"""",INDEX(C:C,MATCH(B507,B:B,0)))"
+ctCutsceneScript11Text01D4,What's wrong?<BR>Are you not feeling well?
+ctCutsceneScript11Text01D5,"Oh, or are you just nervous?"
+ctCutsceneScript11Text01D6,"You'll be fine, <NAME>, I know you can do it."
+ctCutsceneScript11Text01D7,"Hey, <NAME>.<BR>How ya been?"
+ctCutsceneScript11Text01D8,"Oh yeah, you remember this one?<BR>“Inventing's...”"
+ctCutsceneScript11Text01D9Sub00,"=IF(COUNTIF($B$1:B513,B513)=1,"""",INDEX(C:C,MATCH(B513,B:B,0)))"
+ctCutsceneScript11Text01D9Sub01,True bliss!
+ctCutsceneScript11Text01D9Sub02,The Bakumatsu!
+ctCutsceneScript11Text01DA,"=IF(COUNTIF($B$1:B516,B516)=1,"""",INDEX(C:C,MATCH(B516,B:B,0)))"
+ctCutsceneScript11Text01DB,"Exactly!<BR>""Inventing's a blast""!<BR>Glad you remember."
+ctCutsceneScript11Text01DC,"Sharp as always, <NAME>. We got this mission in the bag."
+ctCutsceneScript11Text01DD,"""True bliss!""<BR>Right, Kohran?"
+ctCutsceneScript11Text01DE,That's right! You’re always on cloud nine when you’re inventing!
+ctCutsceneScript11Text01DF,"... Wait, no, what?!"
+ctCutsceneScript11Text01E0,"""Inventing's a blast,"" remember? That's my motto!"
+ctCutsceneScript11Text01E1,"till, it's nice to know you feel that way about inventing."
+ctCutsceneScript11Text01E2,"=IF(COUNTIF($B$1:B524,B524)=1,"""",INDEX(C:C,MATCH(B524,B:B,0)))"
+ctCutsceneScript11Text01E3,"""The Bakumatsu!""<BR>Right, Kohran?"
+ctCutsceneScript11Text01E4,"That’s right, the Bakumatsu, end of the Edo period, age of the great inventor Hiraga Gennai!"
+ctCutsceneScript11Text01E5,"=IF(COUNTIF($B$1:B527,B527)=1,"""",INDEX(C:C,MATCH(B527,B:B,0)))"
+ctCutsceneScript11Text01E6,"The heck’s that even supposed to mean, “Inventing’s the Bakumatsu”?!"
+ctCutsceneScript11Text01E7,"Well, at least you’re paying Gennai your respects, I suppose, haha."
+ctCutsceneScript11Text01E8,"=IF(COUNTIF($B$1:B530,B530)=1,"""",INDEX(C:C,MATCH(B530,B:B,0)))"
+ctCutsceneScript11Text01E9,"=IF(COUNTIF($B$1:B531,B531)=1,"""",INDEX(C:C,MATCH(B531,B:B,0)))"
+ctCutsceneScript11Text01EA,"Hm? What's up, <NAME>? You look kinda down."
+ctCutsceneScript11Text01EB,"=IF(COUNTIF($B$1:B533,B533)=1,"""",INDEX(C:C,MATCH(B533,B:B,0)))"
+ctCutsceneScript11Text01EC,"=IF(COUNTIF($B$1:B534,B534)=1,"""",INDEX(C:C,MATCH(B534,B:B,0)))"
+ctCutsceneScript11Text01ED,Try to loosen up a bit and just do the best ya can.
+ctCutsceneScript11Text01EE,"This mission's going to be a hard one, <NAME>."
+ctCutsceneScript11Text01EFSub00,I know.
+ctCutsceneScript11Text01EFSub01,A bit nervous
+ctCutsceneScript11Text01EFSub02,I think I’m OK.
+ctCutsceneScript11Text01F0,I know.<BR>You can count on me.
+ctCutsceneScript11Text01F1,"Hm hm hm... Glad you're feeling confident. Still, don't let your guard down."
+ctCutsceneScript11Text01F2,Always proceed with the utmost caution.
+ctCutsceneScript11Text01F3,To be honest... I'm a little nervous. Can I really do this?
+ctCutsceneScript11Text01F4,"Hm hm hm, a cautious attitude like that is important to have."
+ctCutsceneScript11Text01F5,"=IF(COUNTIF($B$1:B545,B545)=1,"""",INDEX(C:C,MATCH(B545,B:B,0)))"
+ctCutsceneScript11Text01F6,I think I'll be fine. Recon ought to be simple enough.
+ctCutsceneScript11Text01F7,"Leave it to me, we’ll be done before you know it."
+ctCutsceneScript11Text01F8,"That's some confidence, <NAME>."
+ctCutsceneScript11Text01F9,"Still, you never know what might happen during reconnaissance..."
+ctCutsceneScript11Text01FA,That kind of attitude might just get you into trouble.
+ctCutsceneScript11Text01FB,It might even cost you your life.
+ctCutsceneScript11Text01FC,"You must never let your guard down, no matter the mission. Understood?"
+ctCutsceneScript11Text01FD,"Brace yourself, and good luck."
+ctCutsceneScript11Text01FE,"=IF(COUNTIF($B$1:B554,B554)=1,"""",INDEX(C:C,MATCH(B554,B:B,0)))"
+ctCutsceneScript11Text01FF,"=IF(COUNTIF($B$1:B555,B555)=1,"""",INDEX(C:C,MATCH(B555,B:B,0)))"
+ctCutsceneScript11Text0200,"It's good to feel cautious, to an extent, but don't wind yourself up too tightly."
+ctCutsceneScript11Text0201,Try to relax a little.
+ctCutsceneScript11Text0202,"It's been forever, <NAME>!<BR>How've you been?"
+ctCutsceneScript11Text0203Sub00,"=IF(COUNTIF($B$1:B559,B559)=1,"""",INDEX(C:C,MATCH(B559,B:B,0)))"
+ctCutsceneScript11Text0203Sub01,Greet Jean-Paul
+ctCutsceneScript11Text0203Sub02,"=IF(COUNTIF($B$1:B561,B561)=1,"""",INDEX(C:C,MATCH(B561,B:B,0)))"
+ctCutsceneScript11Text0204,"Iris, hiii!<BR>I'm doing well, as I'm sure you can tell."
+ctCutsceneScript11Text0205,"I'm glad to see you're doing well, too."
+ctCutsceneScript11Text0206,"=IF(COUNTIF($B$1:B564,B564)=1,"""",INDEX(C:C,MATCH(B564,B:B,0)))"
+ctCutsceneScript11Text0207,"=IF(COUNTIF($B$1:B565,B565)=1,"""",INDEX(C:C,MATCH(B565,B:B,0)))"
+ctCutsceneScript11Text0208,"I'm glad to see you and Jean-Paul are doing well, too."
+ctCutsceneScript11Text0209,"=IF(COUNTIF($B$1:B567,B567)=1,"""",INDEX(C:C,MATCH(B567,B:B,0)))"
+ctCutsceneScript11Text020A,"Hey Iris.<BR>I'm doing well, as I'm sure you can tell."
+ctCutsceneScript11Text020B,"=IF(COUNTIF($B$1:B569,B569)=1,"""",INDEX(C:C,MATCH(B569,B:B,0)))"
+ctCutsceneScript11Text020C,"=IF(COUNTIF($B$1:B570,B570)=1,"""",INDEX(C:C,MATCH(B570,B:B,0)))"
+ctCutsceneScript11Text020D,"What's wrong, <NAME>? You look kinda sad."
+ctCutsceneScript11Text020E,"Oh, Cadet.<BR>It's been some time, hasn't it?"
+ctCutsceneScript11Text020F,"Ah, Sumire!<BR>(Still refusing to say my name, huh?)"
+ctCutsceneScript11Text0210Sub00,It truly has
+ctCutsceneScript11Text0210Sub01,I’ll do my best
+ctCutsceneScript11Text0210Sub02,Pretty as ever
+ctCutsceneScript11Text0211,It truly has.<BR>I'm glad to see you're doing well.
+ctCutsceneScript11Text0212,I'll do my best not to get in your way during the mission.
+ctCutsceneScript11Text0213,I look forward to working with you again.
+ctCutsceneScript11Text0214,"Yes, it's nice to see you doing well too, Cadet."
+ctCutsceneScript11Text0215,"Erm... Uh... My name is <NAME>, you know..."
+ctCutsceneScript11Text0216,"Come now, no need to fret over the details."
+ctCutsceneScript11Text0217,"Just do your best, <NAME>, and try not to drag me down."
+ctCutsceneScript11Text0218,"I'll be doing my very best, Sumire. I look forward to working with you again."
+ctCutsceneScript11Text0219,"Yes, yes, do your best, Cadet, and try not to hurt yourself."
+ctCutsceneScript11Text021A,"=IF(COUNTIF($B$1:B586,B586)=1,"""",INDEX(C:C,MATCH(B586,B:B,0)))"
+ctCutsceneScript11Text021B,"=IF(COUNTIF($B$1:B587,B587)=1,"""",INDEX(C:C,MATCH(B587,B:B,0)))"
+ctCutsceneScript11Text021C,"Sumire, I forgot to ask you last time, but..."
+ctCutsceneScript11Text021D,Just what is the secret to your beauty?
+ctCutsceneScript11Text021E,The secret to my beauty?
+ctCutsceneScript11Text021F,"Why, the very fact that I am Sumire Kanzaki, of course!"
+ctCutsceneScript11Text0220,"Yes, I think that’s an elegant way of putting it. Ohohoho!"
+ctCutsceneScript11Text0221,"Anyway, best of luck on the mission ahead, Cadet."
+ctCutsceneScript11Text0222,"=IF(COUNTIF($B$1:B594,B594)=1,"""",INDEX(C:C,MATCH(B594,B:B,0)))"
+ctCutsceneScript11Text0223,"=IF(COUNTIF($B$1:B595,B595)=1,"""",INDEX(C:C,MATCH(B595,B:B,0)))"
+ctCutsceneScript11Text0224,"=IF(COUNTIF($B$1:B596,B596)=1,"""",INDEX(C:C,MATCH(B596,B:B,0)))"
+ctCutsceneScript11Text0225,"What’s the matter, Cadet?"
+ctCutsceneScript11Text0226,"=IF(COUNTIF($B$1:B598,B598)=1,"""",INDEX(C:C,MATCH(B598,B:B,0)))"
+ctCutsceneScript11Text0227,"Come now, no need to fret over the details."
+ctCutsceneScript11Text0228,"Worrying too much is terrible for your skin, you know."
+ctCutsceneScript11Text0229,Just do your best and try not to drag me down.
+ctCutsceneScript11Text022A,"Okay, <NAME>, now to introduce you to our two new members."
+ctCutsceneScript11Text022B,First is Orihime.
+ctCutsceneScript11Text022C,Ciao!<BR>I am Orihime Soletta.
+ctCutsceneScript11Text022DSub00,Compliment her
+ctCutsceneScript11Text022DSub01,"=IF(COUNTIF($B$1:B606,B606)=1,"""",INDEX(C:C,MATCH(B606,B:B,0)))"
+ctCutsceneScript11Text022DSub02,"=IF(COUNTIF($B$1:B607,B607)=1,"""",INDEX(C:C,MATCH(B607,B:B,0)))"
+ctCutsceneScript11Text022E,"It’s a pleasure to meet you, Orihime."
+ctCutsceneScript11Text022F,"Yes, you as well."
+ctCutsceneScript11Text0230,"You know, you’ve got such pretty emerald eyes."
+ctCutsceneScript11Text0231,"And you’re quite pretty yourself. A real diamond in the rough, as they say."
+ctCutsceneScript11Text0232,"=IF(COUNTIF($B$1:B612,B612)=1,"""",INDEX(C:C,MATCH(B612,B:B,0)))"
+ctCutsceneScript11Text0233,"=IF(COUNTIF($B$1:B613,B613)=1,"""",INDEX(C:C,MATCH(B613,B:B,0)))"
+ctCutsceneScript11Text0234,"I'm not one of your Japanese gods, I can't grant your wishes!"
+ctCutsceneScript11Text0235,... Just kidding. That was a joke. I am also pleased to meet you.
+ctCutsceneScript11Text0236,Orihime Soletta?<BR>Where are you from?
+ctCutsceneScript11Text0237,"=IF(COUNTIF($B$1:B617,B617)=1,"""",INDEX(C:C,MATCH(B617,B:B,0)))"
+ctCutsceneScript11Text0238,"No, it's just that name sounded a little unusual, is all."
+ctCutsceneScript11Text0239,"""Unusual""...?<BR>Are you making fun of me?!"
+ctCutsceneScript11Text023A,"No, of course not<BR>I think it's a wonderful name!"
+ctCutsceneScript11Text023B,"Anyway, I'm looking forward to working with you, Ms. Orihime."
+ctCutsceneScript11Text023C,"=IF(COUNTIF($B$1:B622,B622)=1,"""",INDEX(C:C,MATCH(B622,B:B,0)))"
+ctCutsceneScript11Text023D,"=IF(COUNTIF($B$1:B623,B623)=1,"""",INDEX(C:C,MATCH(B623,B:B,0)))"
+ctCutsceneScript11Text023E,Hm? What's the matter? You're not saying anything. Are you nervous?
+ctCutsceneScript11Text023F,"=IF(COUNTIF($B$1:B625,B625)=1,"""",INDEX(C:C,MATCH(B625,B:B,0)))"
+ctCutsceneScript11Text0240,"=IF(COUNTIF($B$1:B626,B626)=1,"""",INDEX(C:C,MATCH(B626,B:B,0)))"
+ctCutsceneScript11Text0241,I'm Reni...
+ctCutsceneScript11Text0242Sub00,"=IF(COUNTIF($B$1:B628,B628)=1,"""",INDEX(C:C,MATCH(B628,B:B,0)))"
+ctCutsceneScript11Text0242Sub01,"=IF(COUNTIF($B$1:B629,B629)=1,"""",INDEX(C:C,MATCH(B629,B:B,0)))"
+ctCutsceneScript11Text0242Sub02,"=IF(COUNTIF($B$1:B630,B630)=1,"""",INDEX(C:C,MATCH(B630,B:B,0)))"
+ctCutsceneScript11Text0243,"=IF(COUNTIF($B$1:B631,B631)=1,"""",INDEX(C:C,MATCH(B631,B:B,0)))"
+ctCutsceneScript11Text0244,"=IF(COUNTIF($B$1:B632,B632)=1,"""",INDEX(C:C,MATCH(B632,B:B,0)))"
+ctCutsceneScript11Text0245,"I really like that boyish vibe you’ve got going on, very cool!"
+ctCutsceneScript11Text0246,"=IF(COUNTIF($B$1:B634,B634)=1,"""",INDEX(C:C,MATCH(B634,B:B,0)))"
+ctCutsceneScript11Text0247,"(Not the easiest to make conversation with, huh...)"
+ctCutsceneScript11Text0248,"You wouldn’t happen to be from Germany, would you, Reni?"
+ctCutsceneScript11Text0249,"=IF(COUNTIF($B$1:B637,B637)=1,"""",INDEX(C:C,MATCH(B637,B:B,0)))"
+ctCutsceneScript11Text024A,"Ah, I thought as much...<BR>(But not the easiest to make conversation with...)"
+ctCutsceneScript11Text024B,"=IF(COUNTIF($B$1:B639,B639)=1,"""",INDEX(C:C,MATCH(B639,B:B,0)))"
+ctCutsceneScript11Text024C,"=IF(COUNTIF($B$1:B640,B640)=1,"""",INDEX(C:C,MATCH(B640,B:B,0)))"
+ctCutsceneScript11Text024D,"Okay then, everyone, let's make sure we give <NAME> our full support."
+ctCutsceneScript11Text024E,"=IF(COUNTIF($B$1:B642,B642)=1,"""",INDEX(C:C,MATCH(B642,B:B,0)))"
+ctCutsceneScript11Text024F,"=IF(COUNTIF($B$1:B643,B643)=1,"""",INDEX(C:C,MATCH(B643,B:B,0)))"
+ctCutsceneScript11Text0250,"=IF(COUNTIF($B$1:B644,B644)=1,"""",INDEX(C:C,MATCH(B644,B:B,0)))"
+ctCutsceneScript11Text0251,"=IF(COUNTIF($B$1:B645,B645)=1,"""",INDEX(C:C,MATCH(B645,B:B,0)))"
+ctCutsceneScript11Text0252,"=IF(COUNTIF($B$1:B646,B646)=1,"""",INDEX(C:C,MATCH(B646,B:B,0)))"
+ctCutsceneScript11Text0253,"Ichiro Ogami.<BR>Pleasure to meet you too, <NAME>."
+ctCutsceneScript11Text0254,"=IF(COUNTIF($B$1:B648,B648)=1,"""",INDEX(C:C,MATCH(B648,B:B,0)))"
+ctCutsceneScript11Text0255,This is <NAME> from the Maidens’ Academy.
+ctCutsceneScript11Text0256,"As you may recall, that’s where we train potential future recruits for the Revue."
+ctCutsceneScript11Text0257,She'll be helping out with the investigation at Mikasa Memorial Park.
+ctCutsceneScript11Text0258,"Hello, I'm <NAME> from the Maidens’ Academy."
+ctCutsceneScript11Text0259,"=IF(COUNTIF($B$1:B653,B653)=1,"""",INDEX(C:C,MATCH(B653,B:B,0)))"
+ctCutsceneScript11Text025A,"I may not be as experienced as you all, but I'm happy to be of service."
+ctCutsceneScript11Text025B,"=IF(COUNTIF($B$1:B655,B655)=1,"""",INDEX(C:C,MATCH(B655,B:B,0)))"
+ctCutsceneScript11Text025CSub00,Greet normally
+ctCutsceneScript11Text025CSub01,Express worries
+ctCutsceneScript11Text025CSub02,Show confidence
+ctCutsceneScript11Text025D,"I look forward to working with you, Ms. Maria."
+ctCutsceneScript11Text025E,"=IF(COUNTIF($B$1:B660,B660)=1,"""",INDEX(C:C,MATCH(B660,B:B,0)))"
+ctCutsceneScript11Text025F,"=IF(COUNTIF($B$1:B661,B661)=1,"""",INDEX(C:C,MATCH(B661,B:B,0)))"
+ctCutsceneScript11Text0260,Truth be told... I’m feeling a little anxious about the upcoming mission...
+ctCutsceneScript11Text0261,"Come now, you shouldn’t lose your nerve before a mission like this."
+ctCutsceneScript11Text0262,"You were specially chosen to come here, <NAME>. Have some confidence."
+ctCutsceneScript11Text0263,"=IF(COUNTIF($B$1:B665,B665)=1,"""",INDEX(C:C,MATCH(B665,B:B,0)))"
+ctCutsceneScript11Text0264,"Everything will be fine now that I’m here, rest assured!"
+ctCutsceneScript11Text0265,"Well, aren’t we confident.<BR>But that kind of attitude can get you killed."
+ctCutsceneScript11Text0266,"Always proceed with the utmost caution. Got it, <NAME>?"
+ctCutsceneScript11Text0267,"=IF(COUNTIF($B$1:B669,B669)=1,"""",INDEX(C:C,MATCH(B669,B:B,0)))"
+ctCutsceneScript11Text0268,What's wrong?<BR>You seem nervous.
+ctCutsceneScript11Text0269,"=IF(COUNTIF($B$1:B671,B671)=1,"""",INDEX(C:C,MATCH(B671,B:B,0)))"
+ctCutsceneScript11Text026A,"=IF(COUNTIF($B$1:B672,B672)=1,"""",INDEX(C:C,MATCH(B672,B:B,0)))"
+ctCutsceneScript11Text026BSub00,"=IF(COUNTIF($B$1:B673,B673)=1,"""",INDEX(C:C,MATCH(B673,B:B,0)))"
+ctCutsceneScript11Text026BSub01,"=IF(COUNTIF($B$1:B674,B674)=1,"""",INDEX(C:C,MATCH(B674,B:B,0)))"
+ctCutsceneScript11Text026BSub02,"=IF(COUNTIF($B$1:B675,B675)=1,"""",INDEX(C:C,MATCH(B675,B:B,0)))"
+ctCutsceneScript11Text026C,"=IF(COUNTIF($B$1:B676,B676)=1,"""",INDEX(C:C,MATCH(B676,B:B,0)))"
+ctCutsceneScript11Text026D,"=IF(COUNTIF($B$1:B677,B677)=1,"""",INDEX(C:C,MATCH(B677,B:B,0)))"
+ctCutsceneScript11Text026E,"=IF(COUNTIF($B$1:B678,B678)=1,"""",INDEX(C:C,MATCH(B678,B:B,0)))"
+ctCutsceneScript11Text026F,Truth be told... I’m feeling a little anxious about the upcoming mission...
+ctCutsceneScript11Text0270,"Oh, really? Well, guess that makes sense, coming straight from the Academy and all."
+ctCutsceneScript11Text0271,"Try not to think too hard about all that, alright?"
+ctCutsceneScript11Text0272,I know if you try your hardest you’ll make it through just fine.
+ctCutsceneScript11Text0273,"We’ve got this, <NAME>."
+ctCutsceneScript11Text0274,"=IF(COUNTIF($B$1:B684,B684)=1,"""",INDEX(C:C,MATCH(B684,B:B,0)))"
+ctCutsceneScript11Text0275,"Now that I’m here, no stone will be left unturned in our investigation!"
+ctCutsceneScript11Text0276,"Ooh, not bad, <NAME>."
+ctCutsceneScript11Text0277,That’s just the kind of attitude we need for this.
+ctCutsceneScript11Text0278,"=IF(COUNTIF($B$1:B688,B688)=1,"""",INDEX(C:C,MATCH(B688,B:B,0)))"
+ctCutsceneScript11Text0279,"Hm? What's up, <NAME>? You look kinda down."
+ctCutsceneScript11Text027A,"You got the pre-mission jitters? Makes sense, being your first time and all."
+ctCutsceneScript11Text027B,"=IF(COUNTIF($B$1:B691,B691)=1,"""",INDEX(C:C,MATCH(B691,B:B,0)))"
+ctCutsceneScript11Text027C,Yo! I’m Kanna Kirishima. Nice meetin’ ya.
+ctCutsceneScript11Text027DSub00,"=IF(COUNTIF($B$1:B693,B693)=1,"""",INDEX(C:C,MATCH(B693,B:B,0)))"
+ctCutsceneScript11Text027DSub01,"=IF(COUNTIF($B$1:B694,B694)=1,"""",INDEX(C:C,MATCH(B694,B:B,0)))"
+ctCutsceneScript11Text027DSub02,"=IF(COUNTIF($B$1:B695,B695)=1,"""",INDEX(C:C,MATCH(B695,B:B,0)))"
+ctCutsceneScript11Text027E,"Hello, Kanna!<BR>I’m looking forward to learning a lot from you on the job!"
+ctCutsceneScript11Text027F,"Ooh, love that enthusiasm.<BR>Alright, I’m gonna go all-out, so you better be ready!"
+ctCutsceneScript11Text0280,"Pleased to meet you, Ms. Kanna."
+ctCutsceneScript11Text0281,Truth be told... I’m feeling a little anxious about the upcoming mission...
+ctCutsceneScript11Text0282,"It’ll be alright, <NAME>."
+ctCutsceneScript11Text0283,"Anyone would be nervous in your position, comin’ here from the Academy so suddenly."
+ctCutsceneScript11Text0284,"But you’re with the Flower Division now, with me and the Boss! You can relax."
+ctCutsceneScript11Text0285,"=IF(COUNTIF($B$1:B703,B703)=1,"""",INDEX(C:C,MATCH(B703,B:B,0)))"
+ctCutsceneScript11Text0286,"Yeah, good luck out there, <NAME>."
+ctCutsceneScript11Text0287,"Now that I’m here, no stone will be left unturned in our investigation!"
+ctCutsceneScript11Text0288,"Ooh, soundin’ real dependable. But as your senior, let me give ya some advice."
+ctCutsceneScript11Text0289,"If you don’t give every mission your all, no matter how small, you’re gonna get hurt."
+ctCutsceneScript11Text028A,"Don’t get cocky, <NAME>, and stay focused!"
+ctCutsceneScript11Text028B,"=IF(COUNTIF($B$1:B709,B709)=1,"""",INDEX(C:C,MATCH(B709,B:B,0)))"
+ctCutsceneScript11Text028C,"=IF(COUNTIF($B$1:B710,B710)=1,"""",INDEX(C:C,MATCH(B710,B:B,0)))"
+ctCutsceneScript11Text028D,"Oh, I get it,<BR>ya skipped breakfast, huh?"
+ctCutsceneScript11Text028E,You gotta have your three square meals a day! Them’s the rules here!
+ctCutsceneScript11Text028F,"... ‘Course, you don’t need to eat as much as me, but still, ya gotta eat!"
+ctCutsceneScript11Text0290,"=IF(COUNTIF($B$1:B714,B714)=1,"""",INDEX(C:C,MATCH(B714,B:B,0)))"
+ctCutsceneScript11Text0291Sub00,"=IF(COUNTIF($B$1:B715,B715)=1,"""",INDEX(C:C,MATCH(B715,B:B,0)))"
+ctCutsceneScript11Text0291Sub01,"=IF(COUNTIF($B$1:B716,B716)=1,"""",INDEX(C:C,MATCH(B716,B:B,0)))"
+ctCutsceneScript11Text0291Sub02,"=IF(COUNTIF($B$1:B717,B717)=1,"""",INDEX(C:C,MATCH(B717,B:B,0)))"
+ctCutsceneScript11Text0292,"=IF(COUNTIF($B$1:B718,B718)=1,"""",INDEX(C:C,MATCH(B718,B:B,0)))"
+ctCutsceneScript11Text0293,"=IF(COUNTIF($B$1:B719,B719)=1,"""",INDEX(C:C,MATCH(B719,B:B,0)))"
+ctCutsceneScript11Text0294,"=IF(COUNTIF($B$1:B720,B720)=1,"""",INDEX(C:C,MATCH(B720,B:B,0)))"
+ctCutsceneScript11Text0295,"=IF(COUNTIF($B$1:B721,B721)=1,"""",INDEX(C:C,MATCH(B721,B:B,0)))"
+ctCutsceneScript11Text0296,"Well, Iris, truth be told... I’m feeling a little anxious about the upcoming mission..."
+ctCutsceneScript11Text0297,"Huh? Really? Okay, then I’ll cheer you on! Go, go, <NAME>!"
+ctCutsceneScript11Text0298,"=IF(COUNTIF($B$1:B724,B724)=1,"""",INDEX(C:C,MATCH(B724,B:B,0)))"
+ctCutsceneScript11Text0299,"=IF(COUNTIF($B$1:B725,B725)=1,"""",INDEX(C:C,MATCH(B725,B:B,0)))"
+ctCutsceneScript11Text029A,"Okay then, Iris, and you too, Jean-Paul..."
+ctCutsceneScript11Text029B,"Make sure you don’t blink, because with me here, this’ll be over in a flash!"
+ctCutsceneScript11Text029C,"Wow, <NAME>’s so cool, isn’t she, Jean-Paul?"
+ctCutsceneScript11Text029D,"=IF(COUNTIF($B$1:B729,B729)=1,"""",INDEX(C:C,MATCH(B729,B:B,0)))"
+ctCutsceneScript11Text029E,"Huh? What's wrong, <NAME>? Are you nervous?"
+ctCutsceneScript11Text029F,"=IF(COUNTIF($B$1:B731,B731)=1,"""",INDEX(C:C,MATCH(B731,B:B,0)))"
+ctCutsceneScript11Text02A0,"=IF(COUNTIF($B$1:B732,B732)=1,"""",INDEX(C:C,MATCH(B732,B:B,0)))"
+ctCutsceneScript11Text02A1,"=IF(COUNTIF($B$1:B733,B733)=1,"""",INDEX(C:C,MATCH(B733,B:B,0)))"
+ctCutsceneScript11Text02A2,"A moment, newcomer."
+ctCutsceneScript11Text02A3,"=IF(COUNTIF($B$1:B735,B735)=1,"""",INDEX(C:C,MATCH(B735,B:B,0)))"
+ctCutsceneScript11Text02A4,"Sure... Um... I'm sorry, what was your name?"
+ctCutsceneScript11Text02A5,I-I beg your pardon?! You mean to say you don't recognize a major star such as myself?
+ctCutsceneScript11Text02A6,So what?<BR>She doesn’t know what she doesn’t know.
+ctCutsceneScript11Text02A7,"Then know this, and remember it well:"
+ctCutsceneScript11Text02A8,"=IF(COUNTIF($B$1:B740,B740)=1,"""",INDEX(C:C,MATCH(B740,B:B,0)))"
+ctCutsceneScript11Text02A9Sub00,"=IF(COUNTIF($B$1:B741,B741)=1,"""",INDEX(C:C,MATCH(B741,B:B,0)))"
+ctCutsceneScript11Text02A9Sub01,"=IF(COUNTIF($B$1:B742,B742)=1,"""",INDEX(C:C,MATCH(B742,B:B,0)))"
+ctCutsceneScript11Text02A9Sub02,"=IF(COUNTIF($B$1:B743,B743)=1,"""",INDEX(C:C,MATCH(B743,B:B,0)))"
+ctCutsceneScript11Text02AA,"=IF(COUNTIF($B$1:B744,B744)=1,"""",INDEX(C:C,MATCH(B744,B:B,0)))"
+ctCutsceneScript11Text02AB,"Yes, yes, just try not to drag me down."
+ctCutsceneScript11Text02AC,"Are we clear, newcomer?"
+ctCutsceneScript11Text02AD,"=IF(COUNTIF($B$1:B747,B747)=1,"""",INDEX(C:C,MATCH(B747,B:B,0)))"
+ctCutsceneScript11Text02AE,"=IF(COUNTIF($B$1:B748,B748)=1,"""",INDEX(C:C,MATCH(B748,B:B,0)))"
+ctCutsceneScript11Text02AF,"=IF(COUNTIF($B$1:B749,B749)=1,"""",INDEX(C:C,MATCH(B749,B:B,0)))"
+ctCutsceneScript11Text02B0,Truth be told... I’m feeling a little anxious about the upcoming mission...
+ctCutsceneScript11Text02B1,"Oh my, is that so?<BR>Well that IS a problem."
+ctCutsceneScript11Text02B2,"Well, just try not to drag me down with you, newcomer."
+ctCutsceneScript11Text02B3,"=IF(COUNTIF($B$1:B753,B753)=1,"""",INDEX(C:C,MATCH(B753,B:B,0)))"
+ctCutsceneScript11Text02B4,"=IF(COUNTIF($B$1:B754,B754)=1,"""",INDEX(C:C,MATCH(B754,B:B,0)))"
+ctCutsceneScript11Text02B5,"=IF(COUNTIF($B$1:B755,B755)=1,"""",INDEX(C:C,MATCH(B755,B:B,0)))"
+ctCutsceneScript11Text02B6,I would be honored to fight alongside one as beautiful as you.
+ctCutsceneScript11Text02B7,"Oh my, newcomer,<BR>you’re so quick to learn."
+ctCutsceneScript11Text02B8,"=IF(COUNTIF($B$1:B758,B758)=1,"""",INDEX(C:C,MATCH(B758,B:B,0)))"
+ctCutsceneScript11Text02B9,"=IF(COUNTIF($B$1:B759,B759)=1,"""",INDEX(C:C,MATCH(B759,B:B,0)))"
+ctCutsceneScript11Text02BA,"=IF(COUNTIF($B$1:B760,B760)=1,"""",INDEX(C:C,MATCH(B760,B:B,0)))"
+ctCutsceneScript11Text02BB,"Just keep your eyes on me, and perhaps you’ll learn what it takes to become a true lady."
+ctCutsceneScript11Text02BC,"Hello, I am Sakura Shinguji."
+ctCutsceneScript11Text02BDSub00,"=IF(COUNTIF($B$1:B763,B763)=1,"""",INDEX(C:C,MATCH(B763,B:B,0)))"
+ctCutsceneScript11Text02BDSub01,"=IF(COUNTIF($B$1:B764,B764)=1,"""",INDEX(C:C,MATCH(B764,B:B,0)))"
+ctCutsceneScript11Text02BDSub02,"=IF(COUNTIF($B$1:B765,B765)=1,"""",INDEX(C:C,MATCH(B765,B:B,0)))"
+ctCutsceneScript11Text02BE,"=IF(COUNTIF($B$1:B766,B766)=1,"""",INDEX(C:C,MATCH(B766,B:B,0)))"
+ctCutsceneScript11Text02BF,"The pleasure's all mine, <NAME>."
+ctCutsceneScript11Text02C0,"=IF(COUNTIF($B$1:B768,B768)=1,"""",INDEX(C:C,MATCH(B768,B:B,0)))"
+ctCutsceneScript11Text02C1,Truth be told... I’m feeling a little anxious about the upcoming mission...
+ctCutsceneScript11Text02C2,"Hm hm, that’s okay.<BR>I was the same way too, at first."
+ctCutsceneScript11Text02C3,"But I managed to make it this far, thanks to the help of everyone here."
+ctCutsceneScript11Text02C4,"You have nothing to fear, <NAME>, I know you can do it."
+ctCutsceneScript11Text02C5,"Yeah... Yeah, you’re right.<BR>I’ll be fine. After all, Ogami will be there for me."
+ctCutsceneScript11Text02C6,"Huh? O- Ogami?<BR>Uh, that’s not what I...<BR>Well, just do your best!"
+ctCutsceneScript11Text02C7,"=IF(COUNTIF($B$1:B775,B775)=1,"""",INDEX(C:C,MATCH(B775,B:B,0)))"
+ctCutsceneScript11Text02C8,I’ll be sparing no effort for this mission!
+ctCutsceneScript11Text02C9,"I’ll be giving it my all, so you can rest assured!"
+ctCutsceneScript11Text02CA,"I’m glad you’re so reliable, <NAME>."
+ctCutsceneScript11Text02CB,"But don’t let your guard down, alright? Stay focused and do as best as you can."
+ctCutsceneScript11Text02CC,"=IF(COUNTIF($B$1:B780,B780)=1,"""",INDEX(C:C,MATCH(B780,B:B,0)))"
+ctCutsceneScript11Text02CD,"=IF(COUNTIF($B$1:B781,B781)=1,"""",INDEX(C:C,MATCH(B781,B:B,0)))"
+ctCutsceneScript11Text02CE,"I was the same way too, at first.<BR>Just try your best, <NAME>."
+ctCutsceneScript11Text02CF,Ciao!<BR>I am Orihime Soletta.
+ctCutsceneScript11Text02D0Sub00,"=IF(COUNTIF($B$1:B784,B784)=1,"""",INDEX(C:C,MATCH(B784,B:B,0)))"
+ctCutsceneScript11Text02D0Sub01,"=IF(COUNTIF($B$1:B785,B785)=1,"""",INDEX(C:C,MATCH(B785,B:B,0)))"
+ctCutsceneScript11Text02D0Sub02,"=IF(COUNTIF($B$1:B786,B786)=1,"""",INDEX(C:C,MATCH(B786,B:B,0)))"
+ctCutsceneScript11Text02D1,"=IF(COUNTIF($B$1:B787,B787)=1,"""",INDEX(C:C,MATCH(B787,B:B,0)))"
+ctCutsceneScript11Text02D2,"""Please"" what? You want me to do something for you?"
+ctCutsceneScript11Text02D3,"Ahh, how could <NAME> put me under so much pressure...?"
+ctCutsceneScript11Text02D4,"=IF(COUNTIF($B$1:B790,B790)=1,"""",INDEX(C:C,MATCH(B790,B:B,0)))"
+ctCutsceneScript11Text02D5,"=IF(COUNTIF($B$1:B791,B791)=1,"""",INDEX(C:C,MATCH(B791,B:B,0)))"
+ctCutsceneScript11Text02D6,Truth be told... I’m feeling a little anxious about the upcoming mission...
+ctCutsceneScript11Text02D7,“Little anxious”...?
+ctCutsceneScript11Text02D8,"Oh, you mean your anxiety is little! You’re so brave, <NAME>!"
+ctCutsceneScript11Text02D9,That’s great!<BR>Good luck on the mission!
+ctCutsceneScript11Text02DA,"=IF(COUNTIF($B$1:B796,B796)=1,"""",INDEX(C:C,MATCH(B796,B:B,0)))"
+ctCutsceneScript11Text02DB,"You can relax, this mission will be smooth sailing for you all, now that I’m here!"
+ctCutsceneScript11Text02DC,“Smooth sailing”...?<BR>You shouldn’t boast like that.
+ctCutsceneScript11Text02DD,"After all, this is only your first mishap... I mean, mission."
+ctCutsceneScript11Text02DE,Being so careless will only get you hurt!
+ctCutsceneScript11Text02DF,“An ounce of prevention is worth a pound of cure!”
+ctCutsceneScript11Text02E0,“Look both ways before crossing the street!!”
+ctCutsceneScript11Text02E1,"You must be careful, you understand, <NAME>?"
+ctCutsceneScript11Text02E2,"=IF(COUNTIF($B$1:B804,B804)=1,"""",INDEX(C:C,MATCH(B804,B:B,0)))"
+ctCutsceneScript11Text02E3,What's the matter? You're not saying anything. Are you nervous?
+ctCutsceneScript11Text02E4,"=IF(COUNTIF($B$1:B806,B806)=1,"""",INDEX(C:C,MATCH(B806,B:B,0)))"
+ctCutsceneScript11Text02E5,"=IF(COUNTIF($B$1:B807,B807)=1,"""",INDEX(C:C,MATCH(B807,B:B,0)))"
+ctCutsceneScript11Text02E6Sub00,"=IF(COUNTIF($B$1:B808,B808)=1,"""",INDEX(C:C,MATCH(B808,B:B,0)))"
+ctCutsceneScript11Text02E6Sub01,"=IF(COUNTIF($B$1:B809,B809)=1,"""",INDEX(C:C,MATCH(B809,B:B,0)))"
+ctCutsceneScript11Text02E6Sub02,"=IF(COUNTIF($B$1:B810,B810)=1,"""",INDEX(C:C,MATCH(B810,B:B,0)))"
+ctCutsceneScript11Text02E7,"=IF(COUNTIF($B$1:B811,B811)=1,"""",INDEX(C:C,MATCH(B811,B:B,0)))"
+ctCutsceneScript11Text02E8,"=IF(COUNTIF($B$1:B812,B812)=1,"""",INDEX(C:C,MATCH(B812,B:B,0)))"
+ctCutsceneScript11Text02E9,"=IF(COUNTIF($B$1:B813,B813)=1,"""",INDEX(C:C,MATCH(B813,B:B,0)))"
+ctCutsceneScript11Text02EA,Truth be told... I’m feeling a little anxious about the upcoming mission...
+ctCutsceneScript11Text02EB,"... That means you’re self-aware, at least..."
+ctCutsceneScript11Text02EC,"R- Right...<BR>(Not the easiest to make conversation with, huh...)"
+ctCutsceneScript11Text02ED,"=IF(COUNTIF($B$1:B817,B817)=1,"""",INDEX(C:C,MATCH(B817,B:B,0)))"
+ctCutsceneScript11Text02EE,"Don’t worry, Reni, you leave this mission to me. I’ll have it done in a flash."
+ctCutsceneScript11Text02EF,... Pride comes before the fall.
+ctCutsceneScript11Text02F0,"=IF(COUNTIF($B$1:B820,B820)=1,"""",INDEX(C:C,MATCH(B820,B:B,0)))"
+ctCutsceneScript11Text02F1,"=IF(COUNTIF($B$1:B821,B821)=1,"""",INDEX(C:C,MATCH(B821,B:B,0)))"
+ctCutsceneScript11Text02F2,"=IF(COUNTIF($B$1:B822,B822)=1,"""",INDEX(C:C,MATCH(B822,B:B,0)))"
+ctCutsceneScript11Text02F3,"=IF(COUNTIF($B$1:B823,B823)=1,"""",INDEX(C:C,MATCH(B823,B:B,0)))"
+ctCutsceneScript11Text02F4,"=IF(COUNTIF($B$1:B824,B824)=1,"""",INDEX(C:C,MATCH(B824,B:B,0)))"
+ctCutsceneScript11Text02F5,"=IF(COUNTIF($B$1:B825,B825)=1,"""",INDEX(C:C,MATCH(B825,B:B,0)))"
+ctCutsceneScript11Text02F6,"=IF(COUNTIF($B$1:B826,B826)=1,"""",INDEX(C:C,MATCH(B826,B:B,0)))"
+ctCutsceneScript11Text02F7,"=IF(COUNTIF($B$1:B827,B827)=1,"""",INDEX(C:C,MATCH(B827,B:B,0)))"
+ctCutsceneScript11Text02F8,"=IF(COUNTIF($B$1:B828,B828)=1,"""",INDEX(C:C,MATCH(B828,B:B,0)))"
+ctCutsceneScript11Text02F9,"=IF(COUNTIF($B$1:B829,B829)=1,"""",INDEX(C:C,MATCH(B829,B:B,0)))"
+ctCutsceneScript11Text02FA,"=IF(COUNTIF($B$1:B830,B830)=1,"""",INDEX(C:C,MATCH(B830,B:B,0)))"
+ctCutsceneScript11Text02FB,"=IF(COUNTIF($B$1:B831,B831)=1,"""",INDEX(C:C,MATCH(B831,B:B,0)))"
+ctCutsceneScript11Text02FC,"=IF(COUNTIF($B$1:B832,B832)=1,"""",INDEX(C:C,MATCH(B832,B:B,0)))"
+ctCutsceneScript11Text02FD,"=IF(COUNTIF($B$1:B833,B833)=1,"""",INDEX(C:C,MATCH(B833,B:B,0)))"
+ctCutsceneScript11Text02FE,"=IF(COUNTIF($B$1:B834,B834)=1,"""",INDEX(C:C,MATCH(B834,B:B,0)))"
+ctCutsceneScript11Text02FF,"=IF(COUNTIF($B$1:B835,B835)=1,"""",INDEX(C:C,MATCH(B835,B:B,0)))"
+ctCutsceneScript11Text0300,"=IF(COUNTIF($B$1:B836,B836)=1,"""",INDEX(C:C,MATCH(B836,B:B,0)))"
+ctCutsceneScript11Text0301,"=IF(COUNTIF($B$1:B837,B837)=1,"""",INDEX(C:C,MATCH(B837,B:B,0)))"
+ctCutsceneScript11Text0302,"=IF(COUNTIF($B$1:B838,B838)=1,"""",INDEX(C:C,MATCH(B838,B:B,0)))"
+ctCutsceneScript11Text0303,"=IF(COUNTIF($B$1:B839,B839)=1,"""",INDEX(C:C,MATCH(B839,B:B,0)))"
+ctCutsceneScript11Text0304,"=IF(COUNTIF($B$1:B840,B840)=1,"""",INDEX(C:C,MATCH(B840,B:B,0)))"
+ctCutsceneScript11Text0305,"=IF(COUNTIF($B$1:B841,B841)=1,"""",INDEX(C:C,MATCH(B841,B:B,0)))"
+ctCutsceneScript11Text0306,Meaning these spirit power anomalies...
+ctCutsceneScript11Text0307,"=IF(COUNTIF($B$1:B843,B843)=1,"""",INDEX(C:C,MATCH(B843,B:B,0)))"
+ctCutsceneScript11Text0308,"=IF(COUNTIF($B$1:B844,B844)=1,"""",INDEX(C:C,MATCH(B844,B:B,0)))"
+ctCutsceneScript11Text0309,"=IF(COUNTIF($B$1:B845,B845)=1,"""",INDEX(C:C,MATCH(B845,B:B,0)))"
+ctCutsceneScript11Text030A,"<NAME>, time to deploy."
+ctCutsceneScript11Text030B,"=IF(COUNTIF($B$1:B847,B847)=1,"""",INDEX(C:C,MATCH(B847,B:B,0)))"
+ctCutsceneScript11Text030C,"We're counting on you, Ogami, and <NAME>, keep it together."
+ctCutsceneScript11Text030D,"=IF(COUNTIF($B$1:B849,B849)=1,"""",INDEX(C:C,MATCH(B849,B:B,0)))"
+ctCutsceneScript11Text030E,"=IF(COUNTIF($B$1:B850,B850)=1,"""",INDEX(C:C,MATCH(B850,B:B,0)))"
+ctCutsceneScript11Text030F,"=IF(COUNTIF($B$1:B851,B851)=1,"""",INDEX(C:C,MATCH(B851,B:B,0)))"
+ctCutsceneScript11Text0310,"=IF(COUNTIF($B$1:B852,B852)=1,"""",INDEX(C:C,MATCH(B852,B:B,0)))"
+ctCutsceneScript11Text0311,"=IF(COUNTIF($B$1:B853,B853)=1,"""",INDEX(C:C,MATCH(B853,B:B,0)))"
+ctCutsceneScript11Text0312,"=IF(COUNTIF($B$1:B854,B854)=1,"""",INDEX(C:C,MATCH(B854,B:B,0)))"
+ctCutsceneScript11Text0313,"=IF(COUNTIF($B$1:B855,B855)=1,"""",INDEX(C:C,MATCH(B855,B:B,0)))"
+ctCutsceneScript11Text0314,"=IF(COUNTIF($B$1:B856,B856)=1,"""",INDEX(C:C,MATCH(B856,B:B,0)))"
+ctCutsceneScript11Text0315,"=IF(COUNTIF($B$1:B857,B857)=1,"""",INDEX(C:C,MATCH(B857,B:B,0)))"
+ctCutsceneScript11Text0316,"=IF(COUNTIF($B$1:B858,B858)=1,"""",INDEX(C:C,MATCH(B858,B:B,0)))"
