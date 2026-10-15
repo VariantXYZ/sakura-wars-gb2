@@ -104,7 +104,7 @@ def format_text(text):
 
     return format_text_knuth_plass(text, MAX_WIDTH).replace('\n', '<BR>')
 
-wb = xl.load_workbook(xlsx)
+wb = xl.load_workbook(xlsx, data_only=True)
 
 for csv_file in csv_files:
     name = os.path.basename(csv_file)
