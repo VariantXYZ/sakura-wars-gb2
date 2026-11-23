@@ -1,39 +1,39 @@
 ID,Text
-ctCutsceneScript12Text0000,よう <NAME>!<BR>ぶじ もどってきたな?<BR>げんきそうで なによりだぜ。<BR>
-ctCutsceneScript12Text0001,<NAME>さん<BR>おかえりなさい。<BR>
-ctCutsceneScript12Text0002,<NAME>おかえり!!<BR>ねぇ ねぇ<BR>おもしろかったー?!<BR>
-ctCutsceneScript12Text0003,<NAME>さん<BR>おかえりでーす。<BR>
-ctCutsceneScript12Text0004,<NAME>くん。<BR>おつかれさま。<BR>
-ctCutsceneScript12Text0005,あら どうやら ぶじに<BR>もどってきた ようですわね<BR><NAME>さん。<BR>
-ctCutsceneScript12Text0006,<NAME>はん おかえり。<BR>おつかれさんやったな。<BR>
-ctCutsceneScript12Text0007,‥‥‥‥にんむ<BR>ごくろう。<BR>
-ctCutsceneScript12Text0008,おかえりなさい<BR><NAME>さん。<BR>
-ctCutsceneScript12Text0009,つばきを たすけてくれて<BR>ありがとうございました。<BR>
-ctCutsceneScript12Text000A,おかえり! <NAME>くん。<BR>つばきのこと ありがとうね。<BR>
-ctCutsceneScript12Text000B,おかえりなさい。おおがみくん<BR><NAME>くん。<BR>ごくろうだったわね。<BR>
-ctCutsceneScript12Text000C,さっそくだけど<BR>ほうこくを おねがいするわ。<BR>
-ctCutsceneScript12Text000D,はい ほうこくします。<BR>
-ctCutsceneScript12Text000E,ミカサに まものがいました。<BR>また なぜか まちのひとも<BR>ミカサのなかに いました。<BR>
-ctCutsceneScript12Text000F,やはり ミカサでは<BR>なにか おこっていると<BR>かんがえられます。<BR>
-ctCutsceneScript12Text0010,わかったわ。<BR>ぶんせきを いそぎましょう。<BR>
-ctCutsceneScript12Text0011,<NAME>くんは<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
-ctCutsceneScript12Text0012,<NAME>! おかえり!<BR>ぶじにかえってきたな～。<BR>がんばったじゃないか。<BR>
-ctCutsceneScript12Text0013,<NAME>さん<BR>おかえりなさい。<BR>
-ctCutsceneScript12Text0014,おおがみさんも<BR>おつかれさまです。<BR>
-ctCutsceneScript12Text0015,<NAME>おかえり!!<BR>ねぇ ねぇ<BR>おもしろかったー?!<BR>
-ctCutsceneScript12Text0016,<NAME>さん<BR>おかえりでーす。<BR>
-ctCutsceneScript12Text0017,<NAME> なんとかぶじに<BR>もどってきたようね。<BR>おつかれさま。<BR>
-ctCutsceneScript12Text0018,あら どうやら ぶじに<BR>もどってきた ようですわね<BR><NAME>さん。<BR>
-ctCutsceneScript12Text0019,しょういに ごめいわくを<BR>かけてないでしょうね。<BR>
-ctCutsceneScript12Text001A,<NAME>はん おかえり。<BR>おつかれさんやったな。<BR>
-ctCutsceneScript12Text001B,‥‥‥‥にんむ<BR>ごくろう。<BR>
-ctCutsceneScript12Text001C,おかえりなさい<BR><NAME>さん。<BR>
-ctCutsceneScript12Text001D,つばきを たすけてくれて<BR>ありがとうございました。<BR>
-ctCutsceneScript12Text001E,おかえり! <NAME>さん。<BR>つばきのこと ありがとうね。<BR>
-ctCutsceneScript12Text001F,おかえりなさい。<BR>おおがみくん <NAME>。<BR>ごくろうだったわね。<BR>
-ctCutsceneScript12Text0020,さっそくだけど<BR>ほうこくを おねがいするわ。<BR>
-ctCutsceneScript12Text0021,はい ほうこくします。<BR>
-ctCutsceneScript12Text0022,ミカサに まものがいました。<BR>また なぜか まちのひとも<BR>ミカサのなかに いました。<BR>
-ctCutsceneScript12Text0023,やはり ミカサでは<BR>なにか おこっていると<BR>かんがえられます。<BR>
-ctCutsceneScript12Text0024,わかったわ。<BR>ぶんせきを いそぎましょう。<BR>
-ctCutsceneScript12Text0025,<NAME>は<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
+ctCutsceneScript12Text0000,"Yo, <NAME>!<BR>Back safe and sound, huh?<BR>Glad to see it."
+ctCutsceneScript12Text0001,"Welcome back, <NAME>."
+ctCutsceneScript12Text0002,"Welcome back, <NAME>!<BR>Didja have fun?<BR>Huh? Didja?"
+ctCutsceneScript12Text0003,"Welcome back, <NAME>."
+ctCutsceneScript12Text0004,"Nice work out there, <NAME>."
+ctCutsceneScript12Text0005,"Oh, it seems you have returned to us safe and sound, <NAME>."
+ctCutsceneScript12Text0006,"Welcome back, <NAME>.<BR>Nice job out there."
+ctCutsceneScript12Text0007,... Good work out there.
+ctCutsceneScript12Text0008,"Welcome back, <NAME>."
+ctCutsceneScript12Text0009,Thank you for rescuing Tsubaki.
+ctCutsceneScript12Text000A,"Welcome back, <NAME>!<BR>Thanks for saving Tsubaki."
+ctCutsceneScript12Text000B,"Welcome back, Ogami, <NAME>. Well done out there."
+ctCutsceneScript12Text000C,"I know this is sudden, but I need your status report."
+ctCutsceneScript12Text000D,"Right, reporting."
+ctCutsceneScript12Text000E,"Demons have been sighted aboard the Mikasa. Not only that, but civilians, too, for some reason."
+ctCutsceneScript12Text000F,"Whatever it is, there is definitely something afoot within the Mikasa."
+ctCutsceneScript12Text0010,Understood.<BR>We’ll get started on the analysis right away.
+ctCutsceneScript12Text0011,"<NAME>, you take five and rest until you receive new orders."
+ctCutsceneScript12Text0012,<NAME>! Welcome back!<BR>Glad to see ya still in one piece. Nice work out there!
+ctCutsceneScript12Text0013,"Welcome back, <NAME>."
+ctCutsceneScript12Text0014,"You too, Ogami.<BR>Good work out there."
+ctCutsceneScript12Text0015,"Welcome back, <NAME>!<BR>Didja have fun?<BR>Huh? Didja?"
+ctCutsceneScript12Text0016,"Welcome back, <NAME>."
+ctCutsceneScript12Text0017,"Oh, <NAME>, looks like you’re back safe and sound. Good work out there."
+ctCutsceneScript12Text0018,"Oh, it seems you have returned to us safe and sound, <NAME>."
+ctCutsceneScript12Text0019,"I do hope you didn’t bother the Ensign too much, though."
+ctCutsceneScript12Text001A,"Welcome back, <NAME>.<BR>Nice job out there."
+ctCutsceneScript12Text001B,... Good work out there.
+ctCutsceneScript12Text001C,"Welcome back, <NAME>."
+ctCutsceneScript12Text001D,Thank you for rescuing Tsubaki.
+ctCutsceneScript12Text001E,"Welcome back, <NAME>!<BR>Thanks for helping Tsubaki out."
+ctCutsceneScript12Text001F,"Welcome back Ogami, <NAME>. Good work out there."
+ctCutsceneScript12Text0020,"I know this is sudden, but I need your status report."
+ctCutsceneScript12Text0021,"Right, reporting."
+ctCutsceneScript12Text0022,"Demons have been sighted aboard the Mikasa. Not only that, but civilians, too, for some reason."
+ctCutsceneScript12Text0023,"Whatever it is, there is definitely something afoot within the Mikasa."
+ctCutsceneScript12Text0024,Understood.<BR>We’ll get started on the analysis right away.
+ctCutsceneScript12Text0025,"<NAME>, you take five and rest until you receive new orders."

@@ -1,77 +1,77 @@
 ID,Text
-ctCutsceneScript13Text0000,おかえり <NAME>はん。<BR>ごくろうさんやったな。<BR>
-ctCutsceneScript13Text0001,おつかれのところ スマンけど<BR>『かくのうこ』について<BR>せつめいを しとくわ。<BR>
-ctCutsceneScript13Text0002,『かくのうこ』では<BR>ぶきや アイテムを<BR>そうこに あずけたり <BR>
-ctCutsceneScript13Text0003,バックパックのせいりや<BR>こうぶのかいぞうが<BR>できるんや。<BR>
-ctCutsceneScript13Text0004,そうびのへんこう‥‥<BR>すなわち ぶきのもちかえや<BR>ぶきにわざをセットするのも<BR>
-ctCutsceneScript13Text0005,『かくのうこ』で やるんや。<BR>まあ ぶきのもちかえや<BR>ぶきにわざをセット するのは<BR>
-ctCutsceneScript13Text0006,しゅつげきちゅうでも<BR>できるんやけどな。<BR>わかったか?<BR>
-ctCutsceneScript13Text0007Sub00,くわしい せつめいをきく
-ctCutsceneScript13Text0007Sub01,わかりました
-ctCutsceneScript13Text0008,はい わかりました!<BR>
-ctCutsceneScript13Text0009,よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
-ctCutsceneScript13Text000A,もっと くわしいせつめいを<BR>きこう。<BR>
-ctCutsceneScript13Text000BSub00,ぶきそうび についてきく
-ctCutsceneScript13Text000BSub01,わざセット についてきく
-ctCutsceneScript13Text000BSub02,きくのを やめる
-ctCutsceneScript13Text000C,‥‥やっぱり いいや。<BR>
-ctCutsceneScript13Text000D,ん? どないしたんや<BR><NAME>はん。<BR>
-ctCutsceneScript13Text000E,まあ ええわ。<BR>ほな がんばってな<BR><NAME>はん。<BR>
-ctCutsceneScript13Text000F,ぶきのそうびについて<BR>もっとくわしくおしえて<BR>いただけませんか?<BR>
-ctCutsceneScript13Text0010,よっしゃ ぶきのそうびに<BR>ついてやな。<BR>ほな じゅんばんに いうで。<BR>
-ctCutsceneScript13Text0011,1)そうびしたい ぶきは<BR>  バックパックに<BR>  いれること。<BR>
-ctCutsceneScript13Text0012,2)バックパックにある<BR>  そうびしたい ぶきを<BR>  えらぶ。<BR>
-ctCutsceneScript13Text0013,3)メニューにある『そうび』<BR>  を えらぶ。<BR>
-ctCutsceneScript13Text0014,いじょうが ぶきそうびの<BR>てじゅんや。<BR>
-ctCutsceneScript13Text0015,ほかになにか ききたいことは<BR>あるか?<BR>
-ctCutsceneScript13Text0016Sub00,わざセット についてきく
-ctCutsceneScript13Text0016Sub01,ない
-ctCutsceneScript13Text0017,ありません。<BR>
-ctCutsceneScript13Text0018,よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
-ctCutsceneScript13Text0019,ぶきに わざをセットする<BR>ほうほうを くわしくおしえて<BR>いただけませんか?<BR>
-ctCutsceneScript13Text001A,わざのセットについてやな。<BR>わざのセットは<BR>バックパックでやるんや。<BR>
-ctCutsceneScript13Text001B,1)バックパックにあるぶきで<BR>  わざをセットしたいぶきを<BR>  えらぶ。<BR>
-ctCutsceneScript13Text001C,2)メニューにある<BR>  『わざセット』を<BR>  えらぶ。<BR>
-ctCutsceneScript13Text001D,3)そして セットしたい<BR>  わざを えらぶ。<BR>
-ctCutsceneScript13Text001E,いじょうが ぶきに<BR>わざをセットする<BR>てじゅんや。<BR>
-ctCutsceneScript13Text001F,ほかになにか ききたいことは<BR>あるか?<BR>
-ctCutsceneScript13Text0020Sub00,ぶきそうび についてきく
-ctCutsceneScript13Text0020Sub01,ない
-ctCutsceneScript13Text0021,おかえり <NAME>はん。<BR>ごくろうさんやったな。<BR>
-ctCutsceneScript13Text0022,おつかれのところ スマンけど<BR>『かくのうこ』について<BR>せつめいを しとくわ。<BR>
-ctCutsceneScript13Text0023,『かくのうこ』では<BR>ぶきや アイテムを<BR>そうこに あずけたり <BR>
-ctCutsceneScript13Text0024,バックパックのせいりや<BR>こうぶのかいぞうが<BR>できるんや。<BR>
-ctCutsceneScript13Text0025,そうびのへんこう‥‥<BR>すなわち ぶきのもちかえや<BR>ぶきにわざをセットするのも<BR>
-ctCutsceneScript13Text0026,『かくのうこ』で やるんや。<BR>まあ ぶきのもちかえや<BR>ぶきにわざをセット するのは<BR>
-ctCutsceneScript13Text0027,しゅつげきちゅうでも<BR>できるんやけどな。<BR>わかったか?<BR>
-ctCutsceneScript13Text0028Sub00,くわしい せつめいをきく
-ctCutsceneScript13Text0028Sub01,わかりました
-ctCutsceneScript13Text0029,はい わかりました!<BR>
-ctCutsceneScript13Text002A,よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
-ctCutsceneScript13Text002B,もっと くわしいせつめいを<BR>ききたいわ。<BR>
-ctCutsceneScript13Text002CSub00,ぶきそうび についてきく
-ctCutsceneScript13Text002CSub01,わざセット についてきく
-ctCutsceneScript13Text002CSub02,きくのを やめる
-ctCutsceneScript13Text002D,‥‥きかなくても<BR>だいじょうぶな<BR>きがするわ‥‥<BR>
-ctCutsceneScript13Text002E,ん? どないしたんや<BR><NAME>はん。<BR>
-ctCutsceneScript13Text002F,まあ ええわ。<BR>ほな がんばってな<BR><NAME>はん。<BR>
-ctCutsceneScript13Text0030,ぶきのそうびについて<BR>もっとくわしくおしえて<BR>いただけませんか?<BR>
-ctCutsceneScript13Text0031,よっしゃ ぶきのそうびに<BR>ついてやな。<BR>ほな じゅんばんに いうで。<BR>
-ctCutsceneScript13Text0032,1)そうびしたい ぶきは<BR>  バックパックに<BR>  いれること。<BR>
-ctCutsceneScript13Text0033,2)バックパックにある<BR>  そうびしたい ぶきを<BR>  えらぶ。<BR>
-ctCutsceneScript13Text0034,3)メニューにある『そうび』<BR>  を えらぶ。<BR>
-ctCutsceneScript13Text0035,いじょうが ぶきそうびの<BR>てじゅんや。<BR>
-ctCutsceneScript13Text0036,ほかになにか ききたいことは<BR>あるか?<BR>
-ctCutsceneScript13Text0037Sub00,わざセット についてきく
-ctCutsceneScript13Text0037Sub01,ない
-ctCutsceneScript13Text0038,ありません。<BR>
-ctCutsceneScript13Text0039,よっしゃ!<BR>ほな がんばってな<BR><NAME>はん。<BR>
-ctCutsceneScript13Text003A,ぶきに わざをセットする<BR>ほうほうを くわしくおしえて<BR>いただけませんか?<BR>
-ctCutsceneScript13Text003B,わざのセットについてやな。<BR>わざのセットは<BR>バックパックでやるんや。<BR>
-ctCutsceneScript13Text003C,1)バックパックにあるぶきで<BR>  わざをセットしたいぶきを<BR>  えらぶ。<BR>
-ctCutsceneScript13Text003D,2)メニューにある<BR>  『わざセット』を<BR>  えらぶ。<BR>
-ctCutsceneScript13Text003E,3)そして セットしたい<BR>  わざを えらぶ。<BR>
-ctCutsceneScript13Text003F,いじょうが ぶきに<BR>わざをセットする<BR>てじゅんや。<BR>
-ctCutsceneScript13Text0040,ほかになにか ききたいことは<BR>あるか?<BR>
-ctCutsceneScript13Text0041Sub00,ぶきそうび についてきく
-ctCutsceneScript13Text0041Sub01,ない
+ctCutsceneScript13Text0000,"Welcome back, <NAME>.<BR>Good job out there."
+ctCutsceneScript13Text0001,"I know you were hoping to relax, but first, lemme explain how to use the hangar."
+ctCutsceneScript13Text0002,"In the hangar, you can put weapons and items in storage..."
+ctCutsceneScript13Text0003,As well as set up your backpack and modify your Koubu.
+ctCutsceneScript13Text0004,"Changing your loadout, such as your Koubu’s weapons and equipped skills..."
+ctCutsceneScript13Text0005,All that can also be done at the Hangar.
+ctCutsceneScript13Text0006,"Of course, you can also change your skills and equipped weapons while on the field, too."
+ctCutsceneScript13Text0007Sub00,More details
+ctCutsceneScript13Text0007Sub01,Got it
+ctCutsceneScript13Text0008,"Okay, got it!"
+ctCutsceneScript13Text0009,"Alrighty then!<BR>Go get ‘em, <NAME>!"
+ctCutsceneScript13Text000A,Could you explain it in a bit more detail?
+ctCutsceneScript13Text000BSub00,Equipment
+ctCutsceneScript13Text000BSub01,Skills
+ctCutsceneScript13Text000BSub02,No more questions
+ctCutsceneScript13Text000C,"... Actually, never mind."
+ctCutsceneScript13Text000D,"Hm? What’s up, <NAME>?"
+ctCutsceneScript13Text000E,"Eh, oh well.<BR>You got this, <NAME>."
+ctCutsceneScript13Text000F,Could you tell me more about equipping weapons?
+ctCutsceneScript13Text0010,"Alrighty, then, equipping weapons. I’ll go over it in order."
+ctCutsceneScript13Text0011,1. Put the weapon you want to equip in your backpack.
+ctCutsceneScript13Text0012,"2. From your backpack, select the weapon you want to equip."
+ctCutsceneScript13Text0013,3. Select “Equip” from the menu.
+ctCutsceneScript13Text0014,That’s the procedure for equipping your weapons.
+ctCutsceneScript13Text0015,You got any other questions?
+ctCutsceneScript13Text0016Sub00,Skills
+ctCutsceneScript13Text0016Sub01,"No, thank you"
+ctCutsceneScript13Text0017,No more questions.
+ctCutsceneScript13Text0018,"Alrighty then!<BR>Go get ‘em, <NAME>!"
+ctCutsceneScript13Text0019,Could you tell me more about setting skills?
+ctCutsceneScript13Text001A,"Setting skills, huh?<BR>You can do all that from your backpack."
+ctCutsceneScript13Text001B,1. Select the weapon you want to set your skills to from your backpack.
+ctCutsceneScript13Text001C,2. Select “Set skills” from the menu.
+ctCutsceneScript13Text001D,3. Select the skills you want to set to your weapon.
+ctCutsceneScript13Text001E,That’s the procedure for setting your skills.
+ctCutsceneScript13Text001F,You got any other questions?
+ctCutsceneScript13Text0020Sub00,Equipment
+ctCutsceneScript13Text0020Sub01,"No, thank you"
+ctCutsceneScript13Text0021,"Welcome back, <NAME>.<BR>Good job out there."
+ctCutsceneScript13Text0022,"I know you were hoping to relax, but first, lemme explain how to use the hangar."
+ctCutsceneScript13Text0023,"In the hangar, you can put weapons and items in storage..."
+ctCutsceneScript13Text0024,As well as set up your backpack and modify your Koubu.
+ctCutsceneScript13Text0025,"Changing your loadout, such as your Koubu’s weapons and equipped skills..."
+ctCutsceneScript13Text0026,All that can also be done at the Hangar.
+ctCutsceneScript13Text0027,"Of course, you can also change your skills and equipped weapons while on the field, too."
+ctCutsceneScript13Text0028Sub00,More details
+ctCutsceneScript13Text0028Sub01,Got it
+ctCutsceneScript13Text0029,"Okay, got it!"
+ctCutsceneScript13Text002A,"Alrighty then!<BR>Go get ‘em, <NAME>!"
+ctCutsceneScript13Text002B,None
+ctCutsceneScript13Text002CSub00,Equipment
+ctCutsceneScript13Text002CSub01,Skills
+ctCutsceneScript13Text002CSub02,No more questions
+ctCutsceneScript13Text002D,"... Actually, I think I’m okay not asking."
+ctCutsceneScript13Text002E,"Hm? What’s up, <NAME>?"
+ctCutsceneScript13Text002F,"Eh, oh well.<BR>You got this, <NAME>."
+ctCutsceneScript13Text0030,Could you tell me more about equipping weapons?
+ctCutsceneScript13Text0031,"Alrighty, then, equipping weapons. I’ll go over it in order."
+ctCutsceneScript13Text0032,1. Put the weapon you want to equip in your backpack.
+ctCutsceneScript13Text0033,"2. From your backpack, select the weapon you want to equip."
+ctCutsceneScript13Text0034,3. Select “Equip” from the menu.
+ctCutsceneScript13Text0035,That’s the procedure for equipping your weapons.
+ctCutsceneScript13Text0036,You got any other questions?
+ctCutsceneScript13Text0037Sub00,Skills
+ctCutsceneScript13Text0037Sub01,"No, thank you"
+ctCutsceneScript13Text0038,No more questions.
+ctCutsceneScript13Text0039,"Alrighty then!<BR>Go get ‘em, <NAME>!"
+ctCutsceneScript13Text003A,Could you tell me more about setting skills?
+ctCutsceneScript13Text003B,"Setting skills, huh?<BR>You can do all that from your backpack."
+ctCutsceneScript13Text003C,1. Select the weapon you want to set your skills to from your backpack.
+ctCutsceneScript13Text003D,2. Select “Set skills” from the menu.
+ctCutsceneScript13Text003E,3. Select the skills you want to set to your weapon.
+ctCutsceneScript13Text003F,That’s the procedure for setting your skills.
+ctCutsceneScript13Text0040,You got any other questions?
+ctCutsceneScript13Text0041Sub00,Equipment
+ctCutsceneScript13Text0041Sub01,"No, thank you"
