@@ -42,10 +42,14 @@ for csv_file in csv_files:
     translated_idx = header.index("Translated")
     for row in rows:
         ID = row[id_idx].value
-        text = row[text_idx].value
-        translated_text = row[translated_idx].value
-        if translated_text is not None and translated_text.strip() != "":
-            updated_text[ID] = translated_text
+        text = str(row[text_idx].value)
+        translated_text = str(row[translated_idx].value)
+        try:
+            if translated_text is not None and translated_text.strip() != "":
+                    updated_text[ID] = translated_text
+        except Exception as e:
+            print(f"Failed to parse {ID}, error {e}")
+            raise
 
     with open(csv_file, 'w', encoding='utf-8') as fp:
         writer = csv.writer(fp, lineterminator='\n', delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
