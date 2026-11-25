@@ -1,33 +1,33 @@
 ID,Text
-ctCutsceneScript1BText0000,おかえりなさい。<BR><NAME>くん。<BR>
-ctCutsceneScript1BText0001,カンナとアイリスの<BR>きゅうしゅつ<BR>ごくろうさまでした。<BR>
-ctCutsceneScript1BText0002,では ほうこくを<BR>おねがいするわ。<BR>
-ctCutsceneScript1BText0003,はい ほうこくします。<BR>
-ctCutsceneScript1BText0004,のこり2つの『まじんき』は<BR>ミカサには<BR>ありませんでした。<BR>
-ctCutsceneScript1BText0005,そう‥‥<BR>ミカサには なかったのね‥‥<BR>
-ctCutsceneScript1BText0006,それと ミカサに<BR>おおきな あながあき<BR>そのしたには<BR>
-ctCutsceneScript1BText0007,『やまと』と よばれている<BR>だいちが みえていました。<BR>
-ctCutsceneScript1BText0008,わかりました。<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript1BText0009,では <NAME>くんは<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
-ctCutsceneScript1BText000ASub00,『やまと』について きく
-ctCutsceneScript1BText000ASub01,りょうかい
-ctCutsceneScript1BText000B,りょうかい。<BR>
-ctCutsceneScript1BText000C,かえでさん しつもんが<BR>あります。 『やまと』に<BR>ついて おしえてください。<BR>
-ctCutsceneScript1BText000D,『やまと』とは そのむかし<BR>うみのそこに ふういんされた<BR>のろわれた だいちよ。<BR>
-ctCutsceneScript1BText000E,のろわれた だいち‥‥<BR>なんだか やばそうだぞ‥‥<BR>
-ctCutsceneScript1BText000F,おかえりなさい。<BR><NAME>。<BR>
-ctCutsceneScript1BText0010,カンナとアイリスの<BR>きゅうしゅつ<BR>ごくろうさまでした。<BR>
-ctCutsceneScript1BText0011,では ほうこくを<BR>おねがいするわ。<BR>
-ctCutsceneScript1BText0012,はい ほうこくします。<BR>
-ctCutsceneScript1BText0013,のこり2つの『まじんき』は<BR>ミカサには<BR>ありませんでした。<BR>
-ctCutsceneScript1BText0014,そう‥‥<BR>ミカサには なかったのね‥‥<BR>
-ctCutsceneScript1BText0015,それと ミカサに<BR>おおきな あながあき<BR>そのしたには<BR>
-ctCutsceneScript1BText0016,『やまと』と よばれている<BR>だいちが みえていました。<BR>
-ctCutsceneScript1BText0017,わかりました。<BR>‥‥‥‥‥‥‥‥‥‥‥‥‥‥<BR>
-ctCutsceneScript1BText0018,では <NAME>は<BR>つぎの しじがあるまで<BR>やすんでいてちょうだい。<BR>
-ctCutsceneScript1BText0019Sub00,『やまと』について きく
-ctCutsceneScript1BText0019Sub01,りょうかい
-ctCutsceneScript1BText001A,りょうかい。<BR>
-ctCutsceneScript1BText001B,かえでさん しつもんが<BR>あります。 『やまと』に<BR>ついて おしえてください。<BR>
-ctCutsceneScript1BText001C,『やまと』とは そのむかし<BR>うみのそこに ふういんされた<BR>のろわれた だいちよ。<BR>
-ctCutsceneScript1BText001D,のろわれた だいち‥‥<BR>こわそうだわ‥‥<BR>
+ctCutsceneScript1BText0000,"Welcome back, <NAME>."
+ctCutsceneScript1BText0001,Excellent work rescuing Kanna and Iris.
+ctCutsceneScript1BText0002,"Now for your report, please."
+ctCutsceneScript1BText0003,Yes ma’am. Beginning report.
+ctCutsceneScript1BText0004,The remaining two Regalia were not found in the Mikasa.
+ctCutsceneScript1BText0005,I see...<BR>So they’re not in the Mikasa...
+ctCutsceneScript1BText0006,"Furthermore, a large hole was blown open in the Mikasa..."
+ctCutsceneScript1BText0007,And through it we were able to confirm the presence of the landmass known as “Yamato”.
+ctCutsceneScript1BText0008,... Understood.
+ctCutsceneScript1BText0009,"Go get some rest, <NAME>, and await further orders."
+ctCutsceneScript1BText000ASub00,Ask about Yamato
+ctCutsceneScript1BText000ASub01,Roger
+ctCutsceneScript1BText000B,Roger.
+ctCutsceneScript1BText000C,"I have a question, Kaede.<BR>What exactly is Yamato?"
+ctCutsceneScript1BText000D,Yamato is a cursed land that was sealed away beneath the waves long ago.
+ctCutsceneScript1BText000E,"A cursed land...?<BR>Sounds like bad news, alright..."
+ctCutsceneScript1BText000F,"Welcome back, <NAME>."
+ctCutsceneScript1BText0010,Excellent work rescuing Kanna and Iris.
+ctCutsceneScript1BText0011,"Now for your report, please."
+ctCutsceneScript1BText0012,Yes ma’am. Beginning report.
+ctCutsceneScript1BText0013,The remaining two Regalia were not found in the Mikasa.
+ctCutsceneScript1BText0014,I see...<BR>So they’re not in the Mikasa...
+ctCutsceneScript1BText0015,"Furthermore, a large hole was blown open in the Mikasa..."
+ctCutsceneScript1BText0016,And through it we were able to confirm the presence of the landmass known as “Yamato”.
+ctCutsceneScript1BText0017,... Understood.
+ctCutsceneScript1BText0018,"Go get some rest, <NAME>, and await further orders."
+ctCutsceneScript1BText0019Sub00,Ask about Yamato
+ctCutsceneScript1BText0019Sub01,Roger
+ctCutsceneScript1BText001A,Roger.
+ctCutsceneScript1BText001B,"I have a question, Kaede.<BR>What exactly is Yamato?"
+ctCutsceneScript1BText001C,Yamato is a cursed land that was sealed away beneath the waves long ago.
+ctCutsceneScript1BText001D,A cursed land...?<BR>How scary...

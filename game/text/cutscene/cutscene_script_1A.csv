@@ -1,42 +1,42 @@
 ID,Text
-ctCutsceneScript1AText0000,～だい4しょう～<BR> 『くらやみからのSOS』<BR>
-ctCutsceneScript1AText0001,みんな あつまってるわね。<BR>では はじめましょう。<BR>
-ctCutsceneScript1AText0002,こんかい あらためて<BR>わかったことが あります。<BR>
-ctCutsceneScript1AText0003,あきらかに 『まじんき』を<BR>ねらっている なぞのてきが<BR>ミカサにいる‥‥<BR>
-ctCutsceneScript1AText0004,そうですね かえでさん。<BR>
-ctCutsceneScript1AText0005,そうよ。<BR>
-ctCutsceneScript1AText0006,でも だれが なんのために<BR>ということは <BR>まだ わかっていない‥‥<BR>
-ctCutsceneScript1AText0007,『けん』を まもっていた<BR>まものが さいごに いった<BR>ことば‥‥<BR>
-ctCutsceneScript1AText0008,「これで かったと<BR> おもうなよ」って<BR>どういう いみなんやろ?<BR>
-ctCutsceneScript1AText0009,それはおそらく まものが<BR>ミカサのなかに まだまだ<BR>いるって ことじゃないか。<BR>
-ctCutsceneScript1AText000A,ほかの『まじんき』も<BR>まものに とられてるの?<BR>
-ctCutsceneScript1AText000B,その かのうせいは<BR>たかいな。<BR>
-ctCutsceneScript1AText000C,てきは 『まじんき』を<BR>つかって なにをやろうと<BR>しているのでーすか?<BR>
-ctCutsceneScript1AText000D,それが わからないから<BR>しらべてるんじゃ<BR>ありませんこと。<BR>
-ctCutsceneScript1AText000E,いまは てきのしょうたいも<BR>てきのもくてきも<BR>わからないわ。<BR>
-ctCutsceneScript1AText000F,だから 『まじんき』をはやく<BR>かいしゅうしないと<BR>なにがおこるか わからない‥<BR>
-ctCutsceneScript1AText0010,そう 『まじんき』を<BR>いっこくも はやく<BR>かいしゅう しなきゃ‥‥<BR>
-ctCutsceneScript1AText0011,こんかいは <NAME>くんの<BR>ほかに もうひとつの<BR>チームを だしましょう。<BR>
-ctCutsceneScript1AText0012,2つのチームで <BR>いっきに かたを<BR>つけるのよ。<BR>
-ctCutsceneScript1AText0013,カンナ アイリス。<BR>あなたたち ふたりに<BR>おねがいするわ。<BR>
-ctCutsceneScript1AText0014,では <NAME>くん<BR>しゅつどう!<BR>
-ctCutsceneScript1AText0015,みんな あつまってるわね。<BR>では はじめましょう。<BR>
-ctCutsceneScript1AText0016,こんかい あらためて<BR>わかったことが あるわ。<BR>
-ctCutsceneScript1AText0017,あきらかに 『まじんき』を<BR>ねらっている なぞのてきが<BR>ミカサにいる‥‥<BR>
-ctCutsceneScript1AText0018,そうですね かえでさん。<BR>
-ctCutsceneScript1AText0019,そうよ。<BR>
-ctCutsceneScript1AText001A,でも だれが なんのために<BR>ということは <BR>まだ わかっていない‥‥<BR>
-ctCutsceneScript1AText001B,『けん』を まもっていた<BR>まものが さいごに いった<BR>ことば‥‥<BR>
-ctCutsceneScript1AText001C,「これで かったと<BR> おもうなよ」って<BR>どういう いみなんやろ?<BR>
-ctCutsceneScript1AText001D,それはおそらく まものが<BR>ミカサのなかに まだまだ<BR>いるって ことじゃないか。<BR>
-ctCutsceneScript1AText001E,ほかの『まじんき』も<BR>まものに とられてるの?<BR>
-ctCutsceneScript1AText001F,その かのうせいは<BR>たかいな。<BR>
-ctCutsceneScript1AText0020,てきは 『まじんき』を<BR>つかって なにをやろうと<BR>しているのでーすか?<BR>
-ctCutsceneScript1AText0021,それが わからないから<BR>しらべてるんじゃ<BR>ありませんこと。<BR>
-ctCutsceneScript1AText0022,いまは てきのしょうたいも<BR>てきのもくてきも<BR>わからないわ。<BR>
-ctCutsceneScript1AText0023,だから 『まじんき』をはやく<BR>かいしゅうしないと<BR>なにがおこるか わからない‥<BR>
-ctCutsceneScript1AText0024,そう 『まじんき』を<BR>いっこくも はやく<BR>かいしゅう しなきゃ‥‥<BR>
-ctCutsceneScript1AText0025,こんかいは <NAME>の<BR>ほかに もうひとつの<BR>チームを だしましょう。<BR>
-ctCutsceneScript1AText0026,2つのチームで <BR>いっきに かたを<BR>つけるのよ。<BR>
-ctCutsceneScript1AText0027,カンナ アイリス。<BR>あなたたち ふたりに<BR>おねがいするわ。<BR>
-ctCutsceneScript1AText0028,では <NAME><BR>しゅつどう!<BR>
+ctCutsceneScript1AText0000,～Chapter 4～<BR>An SOS from the Dark
+ctCutsceneScript1AText0001,"Is everyone here?<BR>Good, then let’s begin."
+ctCutsceneScript1AText0002,We were able to confirm our previous assumptions during this last sortie.
+ctCutsceneScript1AText0003,"We now know for sure that there’s a new threat within the Mikasa, seeking the Regalia..."
+ctCutsceneScript1AText0004,"Isn’t that right, Kaede?"
+ctCutsceneScript1AText0005,That’s right.
+ctCutsceneScript1AText0006,"But who this threat is,<BR>and what their goals are...<BR>That we still don’t know."
+ctCutsceneScript1AText0007,"That demon that was guarding the sword, his last words were..."
+ctCutsceneScript1AText0008,“Don’t think you’ve won just yet”... The heck’s THAT supposed to mean?
+ctCutsceneScript1AText0009,Probably that there are still more demons left in the Mikasa.
+ctCutsceneScript1AText000A,"Were the other Regalia taken by the demons, too?"
+ctCutsceneScript1AText000B,That’s definitely likely.
+ctCutsceneScript1AText000C,What could they possibly be wanting with this “Pandemonium Regalia” anyway?
+ctCutsceneScript1AText000D,"That we still don’t know, which is precisely why we must continue our investigation."
+ctCutsceneScript1AText000E,"Again, we don’t even know who they are, nor their ultimate goal."
+ctCutsceneScript1AText000F,"Which is why we have to retrieve the Regalia, and fast, or who knows what might happen..."
+ctCutsceneScript1AText0010,Exactly. We have to recover them as quickly as possible.
+ctCutsceneScript1AText0011,"This time, alongside <NAME>’s team, we’ll be sending out one more."
+ctCutsceneScript1AText0012,"With two separate teams, we should hopefully be able to settle this case for good."
+ctCutsceneScript1AText0013,"Kanna, Iris, I want you two to form the other team."
+ctCutsceneScript1AText0014,"Alright, <NAME>, time to move out!"
+ctCutsceneScript1AText0015,"Is everyone here?<BR>Good, then let’s begin."
+ctCutsceneScript1AText0016,We were able to confirm our previous assumptions during this last sortie.
+ctCutsceneScript1AText0017,"We now know for sure that there’s a new threat within the Mikasa, seeking the Regalia..."
+ctCutsceneScript1AText0018,"Isn’t that right, Kaede?"
+ctCutsceneScript1AText0019,That’s right.
+ctCutsceneScript1AText001A,"But who this threat is,<BR>and what their goals are...<BR>That we still don’t know."
+ctCutsceneScript1AText001B,"That demon that was guarding the sword, his last words were..."
+ctCutsceneScript1AText001C,“Don’t think you’ve won just yet”... The heck’s THAT supposed to mean?
+ctCutsceneScript1AText001D,Probably that there are still more demons left in the Mikasa.
+ctCutsceneScript1AText001E,"Were the other Regalia taken by the demons, too?"
+ctCutsceneScript1AText001F,That’s definitely likely.
+ctCutsceneScript1AText0020,What could they possibly be wanting with this “Pandemonium Regalia” anyway?
+ctCutsceneScript1AText0021,"That we still don’t know, which is precisely why we must continue our investigation."
+ctCutsceneScript1AText0022,"Again, we don’t even know who they are, nor their ultimate goal."
+ctCutsceneScript1AText0023,"Which is why we have to retrieve the Regalia, and fast, or who knows what might happen..."
+ctCutsceneScript1AText0024,Exactly. We have to recover them as quickly as possible.
+ctCutsceneScript1AText0025,"This time, alongside <NAME>’s team, we’ll be sending out one more."
+ctCutsceneScript1AText0026,"With two separate teams, we should hopefully be able to settle this case for good."
+ctCutsceneScript1AText0027,"Kanna, Iris, I want you two to form the other team."
+ctCutsceneScript1AText0028,"Alright, <NAME>, time to move out!"
