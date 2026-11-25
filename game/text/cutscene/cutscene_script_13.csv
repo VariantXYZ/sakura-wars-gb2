@@ -1,6 +1,6 @@
 ID,Text
-ctCutsceneScript13Text0000,おかえり <NAME>はん。<BR>ごくろうさんやったな。<BR>
-ctCutsceneScript13Text0001,おつかれのところ スマンけど<BR>『かくのうこ』について<BR>せつめいを しとくわ。<BR>
+ctCutsceneScript13Text0000,"Welcome back, <NAME>.<BR>Good job out there."
+ctCutsceneScript13Text0001,"I know you were hoping to relax, but first, lemme explain how storage here works."
 ctCutsceneScript13Text0002,『かくのうこ』では<BR>ぶきや アイテムを<BR>そうこに あずけたり <BR>
 ctCutsceneScript13Text0003,バックパックのせいりや<BR>こうぶのかいぞうが<BR>できるんや。<BR>
 ctCutsceneScript13Text0004,そうびのへんこう‥‥<BR>すなわち ぶきのもちかえや<BR>ぶきにわざをセットするのも<BR>
