@@ -371,7 +371,7 @@ DrawTextGame::
   call $145E
   or a
   jr z, .return
-  call $129B
+  call DrawTextGameUpdateCounter
   bit 7, a
   jr nz, .asm_1236
   cp $0a
@@ -380,7 +380,7 @@ DrawTextGame::
   jr z, .asm_121e
   jr .return
 .asm_1216
-  call $129B
+  call DrawTextGameUpdateCounter
   ld [$C7D7], a
   jr .asm_11ff
 .asm_121e
@@ -402,7 +402,7 @@ DrawTextGame::
   ret
 .asm_1236
   ld b, a
-  call $129B
+  call DrawTextGameUpdateCounter
   ld c, a
   ld a, [W_TextLineCharMax]
   ld h, a
@@ -458,7 +458,19 @@ DrawTextGame::
   ld [W_TextTileIndex], a
   jp .return
 
-  padend $129b
+DrawTextGameUpdateCounter::
+  ld hl, $C7CE
+  ld a, [hl]
+  inc [hl]
+  add $c3
+  ld l, a
+  ld a, $c6
+  adc $00
+  ld h, a
+  ld a, [hl]
+  ret
+
+  padend $12aa
 
 SECTION "Text utility functions 2", ROM0[$12F6]
 DrawTextGameUtility::
