@@ -312,7 +312,7 @@ DrawTextSub::
   ld [W_TextTileIndex], a
   jr .return
 
-DrawTextNormal:: ; 11B9 (00:11B9)
+DrawTextNormal::
   push af
   push af
   push hl
@@ -361,5 +361,197 @@ DrawTextNormal:: ; 11B9 (00:11B9)
 .second_byte
   jr .load_second_byte
 
-  padend $11f6
-; 0x11f6
+DrawTextGame::
+  ldh a, [$FFE7]
+  push af
+  ld a, $01
+  ldh [$FFE7], a
+  ldh [$FF70], a ; WRAM bank 1
+.asm_11ff
+  call $145E
+  or a
+  jr z, .return
+  call $129B
+  bit 7, a
+  jr nz, .asm_1236
+  cp $0a
+  jr z, .asm_1216
+  cp $0d
+  jr z, .asm_121e
+  jr .return
+.asm_1216
+  call $129B
+  ld [$C7D7], a
+  jr .asm_11ff
+.asm_121e
+  xor a
+  ld [W_TextTileIndex], a
+  ld a, [W_TextLineCountMax]
+  ld b, a
+  ld hl, W_TextLineCount
+  inc [hl]
+  ld a, [hl]
+  cp b
+  jr c, .return
+  xor a
+  ld [hl], a
+.return
+  pop af
+  ldh [$FFE7], a
+  ldh [$FF70], a
+  ret
+.asm_1236
+  ld b, a
+  call $129B
+  ld c, a
+  ld a, [W_TextLineCharMax]
+  ld h, a
+  ld a, [W_TextLineCount]
+  ld l, a
+  call $0D74
+  ld a, [W_TextTileIndex]
+  add l
+  ld h, $00
+  ld l, a
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  ld a, [$C7D0]
+  ld d, a
+  ld a, [$C7CF]
+  ld e, a
+  add hl, de
+  push hl
+  call $12AA
+  push af
+  ld d, h
+  ld e, l
+  ld hl, $D181
+  ld a, [hl]
+  inc [hl]
+  and $07
+  swap a
+  ld h, $00
+  ld l, a
+  ld bc, $D100
+  add hl, bc
+  pop af
+  push hl
+  call DrawTextGameUtility
+  pop hl
+  pop de
+  ld a, [$C7D1]
+  set 7, a
+  ld c, a
+  ld b, $01
+  ld a, $01
+  call $0357
+  ld a, [W_TextLineCharMax]
+  ld b, a
+  ld a, [W_TextTileIndex]
+  inc a
+  ld [W_TextTileIndex], a
+  cp b
+  jp c, .return
+  xor a
+  ld [W_TextTileIndex], a
+  jp .return
+
+  padend $129b
+
+SECTION "Text utility functions 2", ROM0[$12F6]
+DrawTextGameUtility::
+  push af
+  push af
+  push hl
+  ld hl, sp+$05
+  ldh a, [$FFE6]
+  ld [hl], a
+  pop hl
+  pop af
+  ldh [$FFE6], a
+  ld [$2000], a
+  ld bc, .return
+  push bc
+  push hl
+  ld a, [$C7D7]
+  and $0f
+  sla a
+  ld h, $00
+  ld l, a
+  ld bc, .function_table
+  add hl, bc
+  ld a, [hli]
+  ld b, [hl]
+  ld c, a
+  pop hl
+  push bc
+  ret
+.return:
+  pop af
+  ldh [$FFE6], a
+  ld [$2000], a
+  ret
+.function_table
+  TableStart
+  TableAddressEntry DrawTextGameUtility, Zero2BPPTile
+  TableAddressEntry DrawTextGameUtility, Load1BPPTileZeroLow
+  TableAddressEntry DrawTextGameUtility, Load1BPPTileZeroHigh
+  TableAddressEntry DrawTextGameUtility, Load1BPPTile
+  dw $136D
+  dw $137B
+  dw $1387
+  dw $1394
+  dw $13A0
+  dw $13AE
+  dw $13BC
+  dw $13C8
+  dw $13D4
+  dw $13E0
+  dw $13ED
+  dw $13FA
+
+DrawTextGameUtilityZero2BPPTile::
+  xor a
+  ld b, $10
+.loop
+  ld [hli], a
+  dec b
+  jr nz, .loop
+  ret
+
+DrawTextGameUtilityLoad1BPPTileZeroLow::
+  ld b, $08
+.loop
+  ld a, [de]
+  ld [hli], a
+  xor a
+  ld [hli], a
+  inc de
+  dec b
+  jr nz, .loop
+  ret
+
+DrawTextGameUtilityLoad1BPPTileZeroHigh::
+  ld b, $08
+.loop
+  xor a
+  ld [hli], a
+  ld a, [de]
+  ld [hli], a
+  inc de
+  dec b
+  jr nz, .loop
+  ret
+
+DrawTextGameUtilityLoad1BPPTile::
+  ld b, $08
+.loop
+  ld a, [de]
+  ld [hli], a
+  ld [hli], a
+  inc de
+  dec b
+  jr nz, .loop
+  ret
