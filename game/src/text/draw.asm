@@ -339,6 +339,8 @@ DrawTextNormal::
   ld [$2000], a
   ret
 
+  padend $11f6
+
 DrawTextGame::
   ldh a, [$FFE7]
   push af
