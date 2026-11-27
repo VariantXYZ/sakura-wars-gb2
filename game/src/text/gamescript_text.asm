@@ -167,6 +167,8 @@ GameSceneNPCScriptTextCharacterToSJIS::
 .table
   db $81, $A7
 
+  padend $6f12
+
 SECTION "GameScene NPC Script Text to Shift-JIS Table", ROMX[$755A], BANK[$20]
 GameSceneNPCScriptTextCharacterToSJISTable::
   ; 0x0 to 0x0F are special characters so no mapping exists to SJIS
