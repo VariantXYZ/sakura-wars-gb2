@@ -31,7 +31,7 @@ GameSceneNPCScriptTextCharacterToSJIS::
   ld l, a
   ld h, $00
   add hl, hl
-  ld bc, $755A
+  ld bc, GameSceneNPCScriptTextCharacterToSJISTable
   add hl, bc
   ld a, [hli]
   call .asm_82ee3
