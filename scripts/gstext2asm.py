@@ -70,6 +70,11 @@ with open(output_file, 'w', encoding='utf-8') as output_fp:
                 text = line[index_text]
 
                 # Note length +_one character for the terminator
+                chars = list(text)
+                for idx, c in enumerate(chars):
+                    if c not in character_length_table:
+                        chars[idx] = '?'
+                text = "".join(chars)
                 text_lengths[ID] = sum(utils.txt2bin(text, character_length_table)) + 1
                 output_fp.write(f'DEF {ID} EQUS "{text.replace('"','\"')}"\n')
 
