@@ -352,13 +352,11 @@ DrawTextGame::
   or a
   jr z, .return
   call DrawTextGameUpdateCounter
-  bit 7, a
-  jr nz, .asm_1236
   cp $0a
   jr z, .asm_1216
   cp $0d
   jr z, .asm_121e
-  jr .return
+  jr .asm_1236
 .asm_1216
   call DrawTextGameUpdateCounter
   ld [$C7D7], a
@@ -382,8 +380,6 @@ DrawTextGame::
   ret
 .asm_1236
   ld b, a
-  call DrawTextGameUpdateCounter
-  ld c, a
   ld a, [W_TextLineCharMax]
   ld h, a
   ld a, [W_TextLineCount]
@@ -403,7 +399,6 @@ DrawTextGame::
   ld e, a
   add hl, de
   push hl
-  call $12AA
   push af
   ld d, h
   ld e, l
@@ -414,12 +409,24 @@ DrawTextGame::
   swap a
   ld h, $00
   ld l, a
+  push bc
   ld bc, $D100
   add hl, bc
+  pop bc
   pop af
+
   push hl
-  call DrawTextGameUtility
+  push de
+  push bc
+  ; 'b' is the character to draw
+  ; 'hl' is initial location
+  ; [W_TextTileIndex] is the offset low byte
+  ; [W_TextLineCount] is the line count ($0D is a newline)
+  CallHack VWFDrawCharacter
+  pop bc
+  pop de
   pop hl
+
   pop de
   ld a, [$C7D1]
   set 7, a
@@ -430,8 +437,6 @@ DrawTextGame::
   ld a, [W_TextLineCharMax]
   ld b, a
   ld a, [W_TextTileIndex]
-  inc a
-  ld [W_TextTileIndex], a
   cp b
   jp c, .return
   xor a
