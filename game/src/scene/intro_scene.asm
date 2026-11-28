@@ -39,21 +39,21 @@ SetupIntroScene::
   ld a, $03
   ld hl, $D000
   ld b, $40
-  call $0357
+  call StartVRAMDMA
   rst $8
   ld c, $80
   ld de, $9000
   ld a, $03
   ld hl, $D000
   ld b, $40
-  call $0357
+  call StartVRAMDMA
   rst $8
   ld c, $81
   ld de, $8800
   ld a, $03
   ld hl, $D000
   ld b, $40
-  call $0357
+  call StartVRAMDMA
   rst $8
   ld b, $3b
   ld hl, $6B72
@@ -67,7 +67,7 @@ SetupIntroScene::
   ld a, $03
   ld hl, $DB40
   ld b, $24
-  call $0357
+  call StartVRAMDMA
   rst $8
   ld b, $3b
   ld hl, $6C11
@@ -81,7 +81,7 @@ SetupIntroScene::
   ld a, $03
   ld hl, $D800
   ld b, $24
-  call $0357
+  call StartVRAMDMA
   rst $8
   ld a, $02
   call $1BEF
@@ -128,7 +128,7 @@ SetupIntroScene::
   ld a, $03
   ld hl, $D000
   ld b, $0a
-  call $0357
+  call StartVRAMDMA
   rst $8
   pop af
   ldh [$FFE7], a
@@ -199,7 +199,7 @@ IntroSceneSub1::
   ld a, $03
   ld hl, $D000
   ld b, $36
-  call $0357
+  call StartVRAMDMA
   rst $8
   pop af
   ldh [$FFE7], a

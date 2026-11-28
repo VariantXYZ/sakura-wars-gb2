@@ -21,13 +21,13 @@ StateMachine::
   ld b, a
   ld a, [hl]
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   push bc
   ret
 .return
   pop af
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   ret
 .table
 ; [Addr:2LE][Bank:1]

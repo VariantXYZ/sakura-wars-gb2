@@ -1,4 +1,5 @@
 INCLUDE "game/src/common/macros.asm"
+INCLUDE "game/src/common/constants.asm"
 
 SECTION "Tileset Decompression", ROM0[$0B5F]
 DecompressTileset::
@@ -11,7 +12,7 @@ DecompressTileset::
   pop hl
   pop af
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   xor a
   ld [$C480], a
   push de
@@ -59,7 +60,7 @@ DecompressTileset::
   jr nz, .outer_loop
   pop af
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   ret
 
   padend $bae

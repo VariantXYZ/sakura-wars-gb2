@@ -1,4 +1,103 @@
 INCLUDE "game/src/common/macros.asm"
+INCLUDE "game/src/common/constants.asm"
+
+SECTION "VRAM DMA", ROM0[$0357]
+StartVRAMDMA::
+  push bc
+  push hl
+  push af
+  ldh a, [$FFE5]
+  add $07
+  ldh [$FFE5], a
+  ld hl, $C3FA
+  ld b, $00
+  ld c, a
+  add hl, bc
+  pop af
+  ld [hli], a
+  pop bc
+  ld a, b
+  ld [hli], a
+  ld a, c
+  and $f0
+  ld [hli], a
+  ld a, d
+  and $1f
+  ld [hli], a
+  ld a, e
+  and $f0
+  ld [hli], a
+  pop bc
+  ld a, b
+  dec a
+  ld [hli], a
+  ld a, c
+  ld de, $FFF9
+  add hl, de
+  ld [hl], a
+  ldh a, [$FFD0]
+  bit 7, a
+  jr z, .asm_389
+  ret
+.asm_389
+  ldh a, [$FFE5]
+  sub $07
+  ret c
+  ldh [$FFE5], a
+  ld l, a
+  ld h, $c4
+  ld a, [hli]
+  ld b, a
+  and $3f
+  bit 7, b
+  jr nz, .asm_3c0
+  ldh [$FF4F], a
+  ldh a, [$FFE6]
+  push af
+  ld a, [hli]
+  ldh [$FFE6], a
+  ld [X_MBC5ROMBankLow], a
+  ld a, [hli]
+  ldh [H_RegHDMA1], a
+  ld a, [hli]
+  ldh [H_RegHDMA2], a
+  ld a, [hli]
+  ldh [H_RegHDMA3], a
+  ld a, [hli]
+  ldh [H_RegHDMA4], a
+  ld a, [hli]
+  ldh [H_RegHDMA5], a
+  pop af
+  ldh [$FFE6], a
+  ld [X_MBC5ROMBankLow], a
+  bit 6, b
+  jr z, .asm_389
+  ret
+.asm_3c0
+  ldh [$FF4F], a
+  ldh a, [$FFE7]
+  push af
+  ld a, [hli]
+  ldh [$FFE7], a
+  ldh [$FF70], a
+  ld a, [hli]
+  ldh [H_RegHDMA1], a
+  ld a, [hli]
+  ldh [H_RegHDMA2], a
+  ld a, [hli]
+  ldh [H_RegHDMA3], a
+  ld a, [hli]
+  ldh [H_RegHDMA4], a
+  ld a, [hli]
+  ldh [H_RegHDMA5], a
+  pop af
+  ldh [$FFE7], a
+  ldh [$FF70], a
+  bit 6, b
+  jr z, .asm_389
+  ret
+
+  padend $3e3
 
 SECTION "Copy double height text tiles for VRAM DMA", ROM0[$1709]
 DoubleHeightTextDraw::
@@ -127,16 +226,16 @@ DoubleHeightTextDraw::
   pop hl
   pop af
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   call DrawTextUtilityFunctionSelect ; Calls into one of the Load1BPPTile functions
   pop af
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   pop hl
   pop de
   ld a, $01
   ld bc, $0281
-  call $0357
+  call StartVRAMDMA
   ld a, [$C7C9]
   or a
   jp nz, .return
@@ -322,7 +421,7 @@ DrawTextNormal::
   pop hl
   pop af
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   ld a, [$C7D6]
   ld [$C7D7], a
 .next_char
@@ -356,12 +455,12 @@ DrawTextNormal::
 .return
   pop af
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   ret
 .second_byte
   jr .load_second_byte
 
-DrawTextGame::
+DrawTextGameCharacter::
   ldh a, [$FFE7]
   push af
   ld a, $01
@@ -417,9 +516,9 @@ DrawTextGame::
   add hl, hl
   add hl, hl
   add hl, hl
-  ld a, [$C7D0]
+  ld a, [W_TextVRAMAddress+1]
   ld d, a
-  ld a, [$C7CF]
+  ld a, [W_TextVRAMAddress]
   ld e, a
   add hl, de
   push hl
@@ -441,12 +540,12 @@ DrawTextGame::
   call DrawTextGameUtility
   pop hl
   pop de
-  ld a, [$C7D1]
+  ld a, [W_TextConfigUnknown1]
   set 7, a
   ld c, a
   ld b, $01
   ld a, $01
-  call $0357
+  call StartVRAMDMA
   ld a, [W_TextLineCharMax]
   ld b, a
   ld a, [W_TextTileIndex]
@@ -459,7 +558,7 @@ DrawTextGame::
   jp .return
 
 DrawTextGameUpdateCounter::
-  ld hl, $C7CE
+  ld hl, W_TextCurrentCount
   ld a, [hl]
   inc [hl]
   add $c3
@@ -483,7 +582,7 @@ DrawTextGameUtility::
   pop hl
   pop af
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   ld bc, .return
   push bc
   push hl
@@ -503,7 +602,7 @@ DrawTextGameUtility::
 .return:
   pop af
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   ret
 .function_table
   TableStart

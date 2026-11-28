@@ -1,4 +1,5 @@
 INCLUDE "game/src/common/macros.asm"
+INCLUDE "game/src/common/constants.asm"
 
 DEF TextCurrentByte EQU $C47A
 DEF TextByteData EQU $C6C3
@@ -20,12 +21,12 @@ CutsceneTextLoadTextByte::
   pop hl
   pop af
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   ld a, [hli]
   ld [TextCurrentByte], a
   pop af
   ldh [$FFE6], a
-  ld [$2000], a
+  ld [X_MBC5ROMBankLow], a
   ld a, [TextCurrentByte]
   ret
 

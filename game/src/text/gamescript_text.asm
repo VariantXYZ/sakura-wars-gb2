@@ -48,7 +48,7 @@ GameSceneNPCScriptTextCharacterToSJIS::
 .asm_82e4e
   push hl
   push de
-  call $6E63
+  call .asm_82e63
   pop de
   ld hl, $C9E4
   call $0BE4
